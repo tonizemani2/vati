@@ -1,0 +1,72 @@
+# protocol_v1.yaml — PRE-REGISTRATION of the detector experiment
+#
+# This file is the SEAL. It is committed to git BEFORE the sealed TEST origins are scored.
+# The git commit timestamp (not this `registered_at` field) is the real, tamper-evident seal:
+# anyone can verify the protocol was fixed before the result was seen (`git log -- experiments/`).
+#
+# WHY this exists (read first). The reviewer's fair objection to any backtest is the garden of
+# forking paths: with enough knobs you can manufacture a significant result on noise. We defend
+# against it three ways, all declared here in advance:
+#   (1) the ONLY knobs allowed to vary are in `search_space` — everything else is frozen in code;
+#   (2) knobs are chosen on TRAIN/VALIDATION origins; the TEST origins are scored exactly ONCE;
+#   (3) the reported significance is DEFLATED by `n_configs_declared` (every config we were
+#       allowed to try inflates the multiple-testing denominator — engine/significance.py).
+#
+# This validates the FROZEN MECHANICAL DETECTOR only (no LLM at inference → no parametric leakage).
+# It does NOT validate the engine's judgment; that is Stage 2 (locator) and Stage 3 (holdout).
+
+protocol_version: 1
+registered_at: 2026-06-05            # the git commit of THIS file is the binding timestamp
+author: ruben + claude (in-session)
+
+hypothesis: >
+  The frozen Theil-Sen / MAD-sigma acceleration detector, firing on a concept's point-in-time
+  series at origin T, predicts that concept GAINING SHARE of its peer cohort (>= gain_margin x)
+  over the next 3 years, with de-clustered lift > 1 at honest block-level significance. I.e. an
+  accelerating capability curve, spotted point-in-time, precedes value/attention migrating toward it
+  faster than the field average — on a universe drawn by rule, not hand-picked.
+
+universe_rule:                        # frozen in engine/universe.py (docstring section 1) — NOT a knob
+  provider: openalex
+  metric: works_per_year
+  draw: "median(sqrt(annual count)) >= k  AND  count(obs with year <= T) >= 8 (MIN_POINTS)"
+  note: "membership is a pure function of the truncated series {year <= T}; never consults the future"
+
+label_rule:                           # frozen in engine/backtest.py — margin is the ONE knob (below)
+  kind: gain_share
+  margin: 1.5                         # default; varied only within search_space.gain_margin
+  window: 3                           # years averaged each side of the origin (de-noise the share)
+  min_cohort: 5
+  note: "share is zero-sum across the cohort, so a winner only gains share if peers lose it"
+
+splits:                               # rolling origins, partitioned by USE (see engine/experiment.py)
+  train:      [2008, 2010, 2012]      # tune freely
+  validation: [2014, 2016]            # select the single config to promote
+  test:       [2018, 2020]            # SEALED — engine refuses to score until experiment-reveal
+  rationale: >
+    Data spans ~2004-2024; the gain_share label needs 3 future years, so 2020 is the last origin
+    whose label can resolve on data already in the DB. TRAIN/VALIDATION are the historically-scored
+    origins; TEST extends the sweep by two never-before-scored origins held in reserve.
+
+search_space:                         # the COMPLETE set of knobs allowed to vary. Anything not here
+  k:           [2.5, 3.0, 3.5]        #   is frozen in code; touching it requires a protocol_v2.
+  gain_margin: [1.3, 1.5, 2.0]
+  channels:    [count, count+diffusion, count+diffusion+talent]
+
+n_configs_declared: 27                # |k| * |gain_margin| * |channels| = 3*3*3 — the deflation denominator
+
+primary_metric: lift_declustered      # the conservative number (1 forecast per concept) is the headline
+secondary_metrics: [lift_pooled, recall, brier_loco, median_lead_months, p_block, lift_ci]
+
+null: block_permutation               # permute the FIRED label within (origin x cohort) blocks, M=2000;
+                                      # respects the cross-origin/cross-concept correlation the pooled
+                                      # Fisher-p ignores. Lift CI = cluster (whole-block) bootstrap.
+
+stopping_rule: >
+  Run the full search_space on TRAIN+VALIDATION; ledger every config (engine experiment_ledger).
+  Promote EXACTLY ONE config: argmax VALIDATION lift_declustered (ties -> larger k, the more
+  conservative). Reveal TEST once with that config. The number TEST produces is THE RESULT, whatever
+  it is — a null is a real result. No re-tuning after reveal; further iteration requires protocol_v2
+  with NEW (later) test origins.
+
+seed: 20260605                        # fixes the block-permutation / bootstrap RNG -> deterministic reruns
