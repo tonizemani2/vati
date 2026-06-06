@@ -2063,6 +2063,56 @@ _FORWARD_BATCH: list[dict] = [
         kill_criteria=["HVDC converter-station lead-time falls below 4 years by 2028 — the valve-hall "
                        "oligopoly added capacity; it was not the binding layer."],
     ),
+    # 17 — SPACE: launch is a winner-take-most natural near-monopoly; the boom does NOT mint a second earner.
+    dict(
+        question=("By 2028-12-31, does the largest NON-SpaceX Western launch provider still deliver LESS "
+                  "than 15% of SpaceX's annual mass-to-orbit — reusable-launch economics make launch a "
+                  "winner-take-most natural near-monopoly, so the boom does NOT mint a second viable launch "
+                  "rent-earner?"),
+        resolution_date=date(2028, 12, 31), probability=0.68,
+        ci_low=0.03, ci_high=0.20, ci_unit="next-largest Western provider mass-to-orbit ÷ SpaceX",
+        threshold=0.15, threshold_dir="<=",
+        thesis_kind="regime_change", mispricing_kind="horizon_gap",
+        pillars_used=[2, 6], saturation=0.45, securitizable=False,
+        rationale=(
+            "OBVIOUS/PRICED: the launch boom + $/kg collapse + 'new space race' (heavily narrated). DEEPER: "
+            "reusability + cadence is a SCALE FLYWHEEL (SpaceX flies ~weekly, Starship widens it), so launch "
+            "economics are winner-take-most — the rent does NOT distribute; competitors (Blue Origin New "
+            "Glenn, RocketLab Neutron, ULA, Ariane 6) stay marginal and the surplus flows to CUSTOMERS, not "
+            "a #2. The mispricing is HORIZON-GAP: the #2 is perpetually 'two years from catching up.' "
+            "PHYSICAL METRIC: mass-to-orbit share (public launch logs / BryceTech / McDowell), not anyone's "
+            "revenue. DISCONFIRMER: Blue Origin's balance sheet could ramp New Glenn fast — hence not >0.85. "
+            "P 0.68."),
+        kill_criteria=["A non-SpaceX Western provider delivers ≥15% of SpaceX's mass-to-orbit in 2028 — "
+                       "launch rent distributed; it was not a natural near-monopoly."],
+        premise_void=["A SpaceX-specific shock (Starship program failure / regulatory grounding) collapses "
+                      "the denominator — premise void, not a wrong read of launch economics."],
+    ),
+    # 18 — SPACE: the durable comms rent migrated from the rocket to the SPECTRUM + laser-mesh + ground layer.
+    dict(
+        question=("By 2028-12-31, does Starlink still operate ≥ 60% of the world's LEO broadband satellite "
+                  "capacity — the durable rent of the satellite-internet land-grab migrated from the (now-"
+                  "commoditized) rocket to the spectrum + laser-mesh + ground layer Starlink locked first, "
+                  "so late-funded entrants (Kuiper, Guowang, OneWeb) cannot dislodge it?"),
+        resolution_date=date(2028, 12, 31), probability=0.62,
+        ci_low=0.45, ci_high=0.82, ci_unit="Starlink share of operational LEO broadband capacity",
+        threshold=0.60, threshold_dir=">=",
+        thesis_kind="constraint_migration", mispricing_kind="layer_blindness",
+        pillars_used=[3, 6], saturation=0.50, securitizable=False,
+        rationale=(
+            "OBVIOUS/PRICED: cheap launch + the satellite-internet boom (Kuiper's ~$10B, China's Guowang). "
+            "DEEPER: once launch is commoditized the BINDING/durable layer is the regulated SPECTRUM priority "
+            "(ITU/FCC NGSO Ku/Ka), the operational laser INTER-SATELLITE MESH, and the ground/peering "
+            "network — and Starlink locked the spectrum, flies thousands of lasered sats, and runs the "
+            "ground footprint TODAY. Capital alone can't buy back spectrum priority + a multi-year "
+            "operational head start. PHYSICAL METRIC: operational LEO-broadband capacity share (space-track "
+            "sat counts × throughput, industry trackers), not revenue. DISCONFIRMER: Amazon Kuiper (AWS "
+            "bundling + deep pockets) or state-backed Guowang could scale faster than expected. P 0.62."),
+        kill_criteria=["Starlink's share of operational LEO broadband capacity falls below 60% by 2028 — the "
+                       "spectrum/mesh/ground moat was contestable with capital; the comms rent distributed."],
+        premise_void=["A cascading-debris (Kessler) event degrades all LEO capacity alike so the SHARE "
+                      "metric is moot — premise void."],
+    ),
 ]
 
 
