@@ -1977,6 +1977,92 @@ _FORWARD_BATCH: list[dict] = [
         premise_void=["A demand collapse (recession / AI-capex retrenchment) cuts total load so the SHARE "
                       "mix is driven by demand not the firm-power constraint — premise void."],
     ),
+    # 13 — gas PIPELINE TAKEAWAY, not gas supply, is the binding layer feeding AI firm power.
+    dict(
+        question=("By 2028-12-31, does the Appalachian (Eastern Gas South / Dominion South) natural-gas "
+                  "basis DISCOUNT to Henry Hub stay ≥ $0.40/MMBtu — interstate pipeline TAKEAWAY + "
+                  "permitting, not gas supply, is the binding layer getting molecules to datacenter load?"),
+        resolution_date=date(2028, 12, 31), probability=0.62,
+        ci_low=0.20, ci_high=1.00, ci_unit="$/MMBtu Appalachian basis discount to Henry Hub",
+        threshold=0.40, threshold_dir=">=",
+        thesis_kind="constraint_migration", mispricing_kind="layer_blindness",
+        pillars_used=[3, 4], saturation=0.35, securitizable=False,
+        rationale=(
+            "OBVIOUS/PRICED: 'AI needs gas' (priced via producers + turbines, see the firm-power calls). "
+            "DEEPER: the cheapest US molecules sit STRANDED in Appalachia — the binding step is interstate "
+            "pipeline TAKEAWAY + FERC permitting (Mountain Valley took ~a decade), and PJM datacenter load "
+            "is far from the wellhead. PHYSICAL METRIC: the Appalachian basis DISCOUNT (the realized "
+            "stranded-gas signal) — wide discount = takeaway-constrained — not any producer's revenue. "
+            "DISCONFIRMER: a permitting-reform wave or datacenters siting AT the wellhead (behind-the-meter) "
+            "would narrow the basis. P 0.62."),
+        kill_criteria=["Appalachian basis discount narrows below $0.40/MMBtu through 2028 — takeaway got "
+                       "built (or sited around); pipeline was not the binding layer."],
+        premise_void=["An AI-capex / gas-demand collapse slackens the whole basin so basis is demand-driven "
+                      "— premise void, not a wrong read of the constraint."],
+    ),
+    # 14 — munitions ENERGETICS (propellant), not shell-body forging, binds the Western rearmament surge.
+    dict(
+        question=("By 2027-12-31, does US 155mm artillery-shell production remain below 80,000 rounds/month "
+                  "— the binding constraint on the Western munitions surge is ENERGETICS/propellant "
+                  "(nitrocellulose, TNT, RDX) capacity, not shell-body forging?"),
+        resolution_date=date(2027, 12, 31), probability=0.55,
+        ci_low=40000.0, ci_high=110000.0, ci_unit="US 155mm rounds/month", threshold=80000.0,
+        threshold_dir="<=",
+        thesis_kind="policy_scarcity", mispricing_kind="layer_blindness",
+        pillars_used=[8, 3], saturation=0.30, securitizable=False,
+        rationale=(
+            "OBVIOUS/PRICED: the shell shortage / rearmament (broadly reported). DEEPER: the West let its "
+            "ENERGETICS base atrophy — no domestic TNT producer (import-reliant), thin nitrocellulose + RDX "
+            "— and a shell is inert without filler; energetics, not the steel body, is the binding sub-layer. "
+            "PHYSICAL METRIC: monthly 155mm OUTPUT (the realized footprint of the energetics bottleneck), "
+            "DoD-reported. DISCONFIRMER: the Army's Holston/Radford modernization + a new TNT line could "
+            "clear it by 2027; defense data is partly opaque. Honest near-coin-flip P 0.55."),
+        kill_criteria=["US 155mm output exceeds 80,000 rounds/month by 2027 — the energetics base scaled; "
+                       "it was not the binding constraint."],
+        premise_void=["A Ukraine ceasefire collapses demand so the line is never pushed to capacity — "
+                      "premise void, not a wrong read."],
+    ),
+    # 15 — uranium CONVERSION (UF6), not mined uranium, is the binding layer of the nuclear-fuel revival.
+    dict(
+        question=("By 2027-12-31, does the uranium CONVERSION spot price (UF6, $/kgU) stay ≥ $40 — the "
+                  "binding layer of the nuclear-fuel revival is conversion capacity (a 3-plant Western "
+                  "oligopoly), not mined uranium?"),
+        resolution_date=date(2027, 12, 31), probability=0.62,
+        ci_low=28.0, ci_high=72.0, ci_unit="$/kgU UF6 conversion spot", threshold=40.0, threshold_dir=">=",
+        thesis_kind="policy_scarcity", mispricing_kind="layer_blindness",
+        pillars_used=[3, 8], saturation=0.38, securitizable=True,
+        rationale=(
+            "OBVIOUS/PRICED: the uranium bull market / nuclear revival (priced via miners + uranium ETFs). "
+            "DEEPER: between the mine and enrichment sits CONVERSION (U3O8→UF6) — a Western 3-plant "
+            "oligopoly (Cameco Port Hope, Orano, ConverDyn restarting) structurally short after a decade of "
+            "underinvestment, with Rosatom supply at geopolitical risk; conversion price rose MORE than "
+            "uranium itself (~$6→$40+/kgU). PHYSICAL METRIC: conversion spot ($/kgU, UxC), not a miner's "
+            "revenue. DISCONFIRMER: ConverDyn's Metropolis restart + Russian conversion re-entering could "
+            "soften it below $40 by 2027. P 0.62."),
+        kill_criteria=["UF6 conversion spot falls below $40/kgU by 2027 — conversion capacity caught up; "
+                       "it was not the binding layer."],
+    ),
+    # 16 — HVDC CONVERTER STATIONS (the valve-hall oligopoly), not cable or towers, bind the grid buildout.
+    dict(
+        question=("By 2028-12-31, does the quoted lead-time for a new HVDC converter station / valve hall "
+                  "remain ≥ 4 years — the binding layer of the transmission + offshore-wind buildout is the "
+                  "converter-valve oligopoly (Hitachi Energy, Siemens Energy, GE Vernova), not cable or towers?"),
+        resolution_date=date(2028, 12, 31), probability=0.68,
+        ci_low=3.0, ci_high=6.5, ci_unit="years HVDC converter-station lead-time", threshold=4.0,
+        threshold_dir=">=",
+        thesis_kind="constraint_migration", mispricing_kind="layer_blindness",
+        pillars_used=[4, 6], saturation=0.40, securitizable=True,
+        rationale=(
+            "OBVIOUS/PRICED: the grid / transmission buildout (broad; see the interconnection-queue call). "
+            "DEEPER: long-distance + offshore-wind + grid interties increasingly need HVDC, and the converter "
+            "STATIONS / valve halls (high-power IGBT/thyristor valves) are a 3-firm oligopoly booked to "
+            "~2030 (TenneT's multi-€10B framework went straight to the big-three) — the binding node, not "
+            "the cable or the steel towers. PHYSICAL METRIC: converter-station lead-time (OEM + utility "
+            "framework disclosures), not an OEM's revenue. DISCONFIRMER: capacity additions by the big-three "
+            "or non-Western (Chinese) suppliers could shorten lead-times. P 0.68."),
+        kill_criteria=["HVDC converter-station lead-time falls below 4 years by 2028 — the valve-hall "
+                       "oligopoly added capacity; it was not the binding layer."],
+    ),
 ]
 
 
