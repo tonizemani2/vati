@@ -1,0 +1,93 @@
+@import "tailwindcss";
+
+/* ── Vaticinus · Marble ───────────────────────────────────────────────────
+   Marble is the subject, not the backdrop. Warm Carrara light dominates;
+   one deep-ink interlude; a single thread of antique gold as the vein.       */
+:root {
+  --marble: #e7e7e1; /* dominant cool Carrara field         */
+  --marble-bright: #f3f2ed; /* raised / lit marble          */
+  --marble-deep: #d6d6ce; /* shadowed marble, hairlines     */
+  --ink: #17181c; /* primary text (deep ink, not black)     */
+  --ink-soft: #4f5158; /* secondary text                   */
+  --indigo: #0d1130; /* the one dark interlude             */
+  --indigo-soft: #1b2046; /* raised on indigo               */
+  --gold: #a8895c; /* the vein / accent                    */
+  --gold-bright: #c6a878; /* lit gold                       */
+  --line: rgba(25, 25, 31, 0.14); /* hairline on marble     */
+  --line-gold: rgba(168, 137, 92, 0.4);
+  --line-dark: rgba(244, 239, 228, 0.16); /* hairline on indigo */
+}
+
+@theme inline {
+  --color-background: var(--marble);
+  --color-foreground: var(--ink);
+  --color-marble: var(--marble);
+  --color-marble-bright: var(--marble-bright);
+  --color-marble-deep: var(--marble-deep);
+  --color-ink: var(--ink);
+  --color-ink-soft: var(--ink-soft);
+  --color-indigo: var(--indigo);
+  --color-indigo-soft: var(--indigo-soft);
+  --color-gold: var(--gold);
+  --color-gold-bright: var(--gold-bright);
+  --color-line: var(--line);
+
+  --font-display: var(--font-cinzel); /* inscriptional caps */
+  --font-serif: var(--font-cormorant); /* large statements   */
+  --font-sans: var(--font-geist); /* small labels / body     */
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--marble);
+  color: var(--ink);
+  font-family: var(--font-sans), system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* Inscriptional letterspacing */
+.tracking-monument {
+  letter-spacing: 0.34em;
+}
+.tracking-wide-label {
+  letter-spacing: 0.3em;
+}
+
+/* Lining, fixed-width figures everywhere a number reads as data */
+.tnum {
+  font-variant-numeric: tabular-nums lining-nums;
+}
+
+/* Quiet link that draws its own gold rule on hover (the vein, again) */
+.cta-rule {
+  background-image: linear-gradient(var(--gold), var(--gold));
+  background-repeat: no-repeat;
+  background-position: 0 100%;
+  background-size: 0% 1px;
+  padding-bottom: 0.25rem;
+  transition: background-size 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.cta-rule:hover {
+  background-size: 100% 1px;
+}
+
+/* Fine paper-grain over marble, fixed so it never repaints on scroll */
+.grain::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  pointer-events: none;
+  opacity: 0.04;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}

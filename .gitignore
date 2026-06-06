@@ -1,0 +1,51 @@
+# secrets — never commit
+.env
+.env.local
+*.pem
+
+# data — the live DB is local state, not source
+data/*.db
+data/*.db-wal
+data/*.db-shm
+# raw-document store — content-addressed cache of fetched bytes (provenance lives in the DB as hashes)
+data/raw/
+
+# python
+__pycache__/
+*.pyc
+.venv/
+engine/.venv/
+
+# node / next
+node_modules/
+cockpit/.next/
+cockpit/out/
+cockpit/node_modules/
+landing/.next/
+landing/out/
+landing/node_modules/
+
+# os
+.DS_Store
+
+# ALL sqlite DBs are local state — the source of truth (data/foresight.db) is gitignored by design;
+# these patterns also catch stray root/engine DBs so they never get committed.
+*.db
+*.sqlite3
+*.db-wal
+*.db-shm
+
+# KEEP THE GOLD PRIVATE (VATI §13: "open the ruler, keep the players' cards").
+# Live unresolved calls are HASH-ONLY public: the .sha256 is committed (the un-backdateable
+# timestamp); the plaintext manifest stays local and is REVEALED at resolution to verify the hash.
+experiments/forward_calls_seal.jsonl
+# The business/fundraising strategy (raise, monetization, cofounder plan) is not for a public repo.
+VATI.md
+# Internal working docs + self-critiques — kept LOCAL, never public (a hostile reader would weaponize
+# them; they're the sausage-making, not the case). proof.md is the outward-facing doc and stays public.
+CLAUDE.md
+execution.md
+REVIEW.md
+redteam.md
+cockpit/CLAUDE.md
+cockpit/AGENTS.md

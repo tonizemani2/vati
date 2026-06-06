@@ -1,0 +1,67 @@
+# protocol_locator.yaml — PRE-REGISTRATION, the mechanical constraint-LOCATOR (Stage 2)
+#
+# WHY THIS EXISTS. The count detector (protocol_v1/v2) tests "which research concept gains share." Its
+# label is the SAME works/year feed it fires on (the NAMED CEILING in universe.py) — so even a clean
+# edge would only prove attention predicts attention, not the project's thesis. And the v2 power
+# analysis (experiment-power, recorded in REGISTRY.md) showed the count test was under-powered, not a
+# refutation. This experiment tests the ACTUAL thesis — *rent migrates to the binding constraint, one
+# layer deeper in the value chain* — with a label drawn from an INDEPENDENT feed (producer PRICE per
+# layer), which escapes the ceiling.
+#
+# This is NOT a select/reveal experiment: it has NO tuning knobs (k is the frozen detector default;
+# window, origins, the score formula, and the layer set are all fixed below BEFORE any hit-rate is
+# read). The seal is the git commit of THIS file, which must predate the first locator_cases write /
+# any reported hit-rate. There is nothing to overfit; the seal exists so the frozen choices below
+# cannot be retro-fitted to the result.
+
+protocol_locator: 1
+registered_at: 2026-06-05
+author: ruben + claude (in-session)
+
+hypothesis: >
+  Across the connected AI-power -> metals value chain, the frozen detector's acceleration surprise on a
+  layer's log-PRICE (computed point-in-time, data year <= T) names the layer whose price will actually
+  rise most over (T, T+WINDOW] better than naive price momentum does. I.e. a mechanical, point-in-time,
+  LLM-free signal locates the binding constraint one layer deep, with a label independent of any
+  research count.
+
+world:
+  chains: [ai_power, metals]            # one connected world; the shock flows power -> metals
+  comparable_layers_by_price_metric: [transformer_ppi, switchgear_ppi, steel_ppi, copper_ppi]
+  note: >
+    Only layers with a clean keyless producer-price series are comparable (price = rent, apples to
+    apples). copper mine OUTPUT (a quantity, not a price) is wired for the drill-score but EXCLUDED
+    from the price comparison — flagged, not faked. scrna_seq has no clean input-price series, so it
+    contributes zero layers — stated, not padded.
+
+picks:               # three mechanisms each NAME a binding layer from data with year <= T
+  located: "argmax frozen-detector acceleration surprise on log-price <= T (detect(k, log=True).surprise_sigma; fallback Theil-Sen log-slope)"
+  obvious: "argmax Theil-Sen slope of log-price <= T (naive momentum baseline the mechanical pick must beat)"
+  graph:   "graph.propagate bottleneck over the world — a CONTAMINATED control (its supply elasticities were hand-tuned with hindsight, so it SHOULD win)"
+
+label_rule:
+  winner_layer: "argmax realized log-price rise from the last point <= T to the mean over (T, T+WINDOW]"
+  window_years: 4
+  independent_of: "research counts / works-per-year — the feed is BLS/FRED producer price (PPI)"
+
+draw_rule:
+  origins: [2016, 2017, 2018, 2019, 2020]   # bounded below by copper_ppi start (2012) + >= MIN_KNOWN pts
+  min_known_points: 5                        # min price points <= T before a layer is scorable
+  min_layers_per_origin: 2                   # an origin needs >= 2 scorable layers to make a selection
+
+metrics: [located_hit_rate, obvious_hit_rate, graph_hit_rate, random_baseline]
+k: 3.0                                        # frozen detector default — NOT a tuning knob
+seed: deterministic (detector + Theil-Sen are non-random)
+
+honest_limits: >
+  N is tiny by construction (one connected world, ~5 annual origins) — reported as SUGGESTIVE / cannot
+  refute, NEVER as proof. The transformer/switchgear/steel/copper price surge is a 2021+ regime change
+  largely INVISIBLE in the pre-2021 trend, so a mechanical pre-surge score may well fail to predict it
+  — that negative is itself a finding about whether the thesis is mechanizable at this altitude.
+  Widening the test = wiring more layer-price series (more comparable layers / chains), NOT loosening
+  any rule above.
+
+stopping_rule: >
+  Run locator-run ONCE over the frozen origins; report located vs obvious vs graph hit-rates. Whatever
+  it says is the result (a null/`no edge` included). Changing window, the score formula, the layer set,
+  or the origins requires a new protocol_locator version with a fresh seal.
