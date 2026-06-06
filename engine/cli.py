@@ -1296,6 +1296,25 @@ def holdout_run(
     conn.close()
 
 
+@app.command("holdout-bench")
+def holdout_bench(
+    provider: str = typer.Option("openrouter", help="LLM provider (an OLD-cutoff model is required for a valid run)."),
+    model: str = typer.Option("openai/gpt-3.5-turbo-0613", help="explicit old-cutoff model id."),
+    est_cost_cents: int = typer.Option(5, help="estimated spend for the cost gate (keyed routes)."),
+    proxy: bool = typer.Option(False, help="route keyless calls through the residential proxy."),
+) -> None:
+    """Stage 3 (defensible): score an old-cutoff model on EXTERNALLY-authored, resolved ForecastBench
+    questions (experiments/holdout_questions.jsonl), gated by a NON-LEADING recall probe. Removes the
+    'self-authored / N=7' critiques. cost-gated (rule 3)."""
+    from engine.adapters import proxy as proxymod
+    conn = db.connect()
+    db.init_db(conn)
+    px = proxymod.proxy_url() if proxy and proxymod.available() else None
+    holdout.run_external(conn, provider=provider, model=(model or None), est_cost_cents=est_cost_cents,
+                         proxy=px, log=typer.echo)
+    conn.close()
+
+
 @app.command("entity-seed")
 def entity_seed() -> None:
     """Component 2: resolve the curated entity clusters (in-session judgment, GIGO-rationaled).

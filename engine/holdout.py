@@ -25,8 +25,10 @@ log est_cost and block above the threshold until approved.
 
 from __future__ import annotations
 
+import json
 import re
 import sqlite3
+from pathlib import Path
 
 from engine.adapters import llm
 
@@ -202,3 +204,127 @@ def run(conn: sqlite3.Connection, *, provider: str = "deepinfra_keyless", model:
     log("   wall permits. Forward forecasting (the ladder) remains the primary, fully-clean clock.")
     return {"valid": True, "effective_cutoff": eff, "n": n, "brier": brier, "brier_base": brier_base,
             "hits": hits, "hit_rate": hits / n, "rigorous": rigorous, "n_leaked": len(leaked)}
+
+
+# ── EXTERNAL BENCHMARK: the defensible upgrade ────────────────────────────────────────────────────
+# The hand-authored HOLDOUT_QUESTIONS above invite two fair critiques: N=7, and "you wrote the
+# questions knowing the answers." This path removes both — it scores the model on EXTERNALLY-authored,
+# already-resolved binary questions pulled from ForecastBench (Polymarket/Manifold/Metaculus/Infer
+# markets), and uses a NON-LEADING recall probe so the leakage gate is honest (the original probe
+# STATED the event, which a weak model would just agree with → an inflated cutoff). Same leakage gate,
+# same Brier-vs-base-rate scoring. Questions resolve years after the 2021 cutoff (ForecastBench began
+# 2024) → leak-free by construction, but also a HARD long-horizon test of a deliberately-dumb model;
+# read the number as a leak-free floor, not a ceiling.
+
+QUESTIONS_PATH = Path(__file__).resolve().parent.parent / "experiments" / "holdout_questions.jsonl"
+
+# Non-leading recall probes: open questions whose correct answer requires post-cutoff knowledge AND is
+# NOT guessable (so a model cannot luck into "knowing"). The latest year it correctly recalls = its
+# effective cutoff (a lower bound). Fixes the leading-question weakness of LEAKAGE_PROBES.
+RECALL_PROBES: list[dict] = [
+    {"q": "What is the name of the AI chatbot OpenAI launched to the public in late 2022?",
+     "year": 2022, "keys": ["chatgpt"]},
+    {"q": "What is the name of the language model OpenAI released in March 2023, the successor to GPT-3.5?",
+     "year": 2023, "keys": ["gpt-4", "gpt 4", "gpt4"]},
+    {"q": "Which US bank, a major lender to technology startups, collapsed and was taken over by the "
+          "FDIC in March 2023?", "year": 2023, "keys": ["silicon valley", "svb"]},
+    {"q": "What is the name of OpenAI's text-to-video generation model unveiled in 2024?",
+     "year": 2024, "keys": ["sora"]},
+    {"q": "Which Chinese AI startup released the 'R1' reasoning model in early 2025?",
+     "year": 2025, "keys": ["deepseek"]},
+]
+
+
+def _ask_recall(conn: sqlite3.Connection, q: str, *, provider: str, model: str | None,
+                est_cost_cents: int, proxy: str | None) -> str:
+    """Open recall question; the model answers from memory or says it doesn't know. Returns lower-cased
+    text (we check for the non-guessable answer keyword)."""
+    system = ("Answer the question in a few words, from your training knowledge only. If you do not "
+              "know, reply exactly \"I don't know\". Do not guess.")
+    out = llm.complete(conn, q, provider=provider, model=model, system=system,
+                       est_cost_cents=est_cost_cents, max_tokens=40, proxy=proxy)
+    return (out or "").lower()
+
+
+def recall_cutoff(conn: sqlite3.Connection, *, provider: str, model: str | None,
+                  est_cost_cents: int, proxy: str | None, log=print) -> int | None:
+    """Non-leading effective cutoff: the latest year whose non-guessable fact the model correctly
+    recalls. None = blind to all probes (cutoff before the earliest probe year)."""
+    known = []
+    for pr in RECALL_PROBES:
+        try:
+            ans = _ask_recall(conn, pr["q"], provider=provider, model=model,
+                              est_cost_cents=est_cost_cents, proxy=proxy)
+        except Exception:
+            ans = ""  # a filtered/errored probe → treat as blind (conservative: never over-claims cutoff)
+        hit = any(k in ans for k in pr["keys"])
+        if hit:
+            known.append(pr["year"])
+        log(f"   recall {pr['year']}  {'KNOWS' if hit else 'blind'}  · {pr['q'][:52]}")
+    return max(known) if known else None
+
+
+def run_external(conn: sqlite3.Connection, *, provider: str = "openrouter", model: str | None = None,
+                 est_cost_cents: int = 0, proxy: str | None = None,
+                 path: Path = QUESTIONS_PATH, log=print) -> dict:
+    """Score the model on EXTERNALLY-authored, already-resolved ForecastBench questions, leakage-gated
+    by the non-leading recall probe. The defensible answer to 'N=7 / self-authored'."""
+    if not path.is_file():
+        log(f"   no question set at {path} — fetch it first (see scripts/build the holdout set).")
+        return {"valid": False, "n": 0}
+    qs = [json.loads(line) for line in path.read_text().splitlines() if line.strip()]
+    log(f"\n🌐  EXTERNAL HOLDOUT (ForecastBench) — provider={provider} model={model or 'roster'}")
+    log(f"   {len(qs)} externally-authored resolved binary questions "
+        f"({min(q['resolution_date'] for q in qs)}…{max(q['resolution_date'] for q in qs)})")
+    log(f"   STEP 1 — non-leading recall probe (the validity gate):")
+    eff = recall_cutoff(conn, provider=provider, model=model, est_cost_cents=est_cost_cents,
+                        proxy=proxy, log=log)
+    log(f"\n   effective cutoff = {eff if eff is not None else 'pre-2022 (blind to all probes)'}")
+
+    def determined(q: dict) -> int:
+        return int(str(q["resolution_date"])[:4])
+
+    leakfree = [q for q in qs if eff is None or eff < determined(q)]
+    leaked = [q for q in qs if not (eff is None or eff < determined(q))]
+    if leaked:
+        log(f"   ⛔ {len(leaked)} excluded (outcome determined ≤ cutoff).")
+    if not leakfree:
+        log("   ⛔ INVALID — no leak-free questions for this model.")
+        return {"valid": False, "effective_cutoff": eff, "n": 0}
+
+    log(f"\n   STEP 2 — blind forecasts on {len(leakfree)} leak-free questions:")
+    scored, sq, n_skipped = [], 0.0, 0
+    for q in leakfree:
+        try:
+            p = _ask_probability(conn, q["question"], provider=provider, model=model,
+                                 est_cost_cents=est_cost_cents, proxy=proxy)
+        except Exception as e:
+            n_skipped += 1  # provider content-filter / transient error — skip, don't crash the run
+            continue
+        if p is None:
+            n_skipped += 1
+            continue
+        o = 1.0 if q["outcome"] else 0.0
+        brier = (p - o) ** 2
+        sq += brier
+        scored.append({"p": p, "outcome": q["outcome"], "brier": brier})
+    n = len(scored)
+    if not n:
+        log("   ⚠️  no parseable probabilities returned.")
+        return {"valid": True, "n": 0}
+    brier = sq / n
+    hits = sum(1 for s in scored if (s["p"] >= 0.5) == bool(s["outcome"]))
+    base = sum(1 for s in scored if s["outcome"]) / n
+    brier_base = sum((base - (1.0 if s["outcome"] else 0.0)) ** 2 for s in scored) / n
+    # the trivial constant-0.5 baseline too, so the skewed-base-rate caveat is explicit
+    brier_half = sum((0.5 - (1.0 if s["outcome"] else 0.0)) ** 2 for s in scored) / n
+    beat = brier < brier_base
+    log(f"\n   N={n} scored ({n_skipped} skipped — provider content-filter/errors) · "
+        f"Brier {brier:.3f}  vs  always-base-rate({base:.2f}) {brier_base:.3f}  vs  always-0.5 {brier_half:.3f}")
+    log(f"   → {'BEATS the base-rate baseline ✅' if beat else 'does NOT beat base rate ❌'} · "
+        f"hit-rate {hits}/{n} = {hits/n*100:.0f}%")
+    log("   Externally-authored + leak-gated → immune to the 'self-authored / N=7' critiques. Long "
+        "horizon (resolves years past a 2021 cutoff) makes this a hard FLOOR, not the method's ceiling.")
+    return {"valid": True, "effective_cutoff": eff, "n": n, "n_skipped": n_skipped, "brier": brier,
+            "brier_base": brier_base, "brier_half": brier_half, "hits": hits, "hit_rate": hits / n,
+            "base_rate": base}
