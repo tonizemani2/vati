@@ -1,0 +1,53 @@
+/* Vaticinus — the vendored Webflow stylesheet is the single source of visual truth.
+   Tailwind is intentionally NOT imported: the Webflow CSS ships its own reset, and
+   layering Tailwind preflight on top causes base-element conflicts. */
+@import "../styles/site.webflow.css";
+
+/* Vaticinus foresight diagram: hide the horizontal flow arrows once the
+   stages wrap into a vertical stack on narrow screens (they'd dangle). */
+@media (max-width: 700px) {
+  .vati-flow-arrow { display: none; }
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* .clickable_btn / .clickable_link are invisible full-cover click overlays.
+   Neutralize the native button appearance so the UA "buttonface" gray doesn't
+   paint over themed pill backgrounds (matches the live site's transparent overlay). */
+.clickable_btn {
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: transparent;
+  border: 0;
+  padding: 0;
+  color: inherit;
+}
+
+/* Vaticinus: overview video removed (was a third-party demo we don't own).
+   Collapse the empty 16:9 player so the section closes up instead of showing a
+   black void; the heading + copy carry the section on their own. */
+.performance_vid_wrap { display: none !important; }
+
+/* Mobile nav menu — Webflow's collapse JS isn't bundled, so SiteRuntime toggles
+   `.is-open`. The panel is anchored under the bar (top set inline) so the logo and
+   hamburger stay tappable to close. */
+.nav_wrap.is-mobile.is-open .nav_menu_wrap {
+  display: block;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 40;
+  padding-top: 0;
+  overflow-y: auto;
+}
+html.nav-locked,
+html.nav-locked body { overflow: hidden; }
+/* hamburger → X */
+.nav_btn_wrap .nav_btn_line { transition: transform .25s ease, opacity .2s ease; }
+.nav_btn_wrap.w--open .nav_btn_line:first-child { transform: translateY(0.28rem) rotate(45deg); }
+.nav_btn_wrap.w--open .nav_btn_line:last-child { transform: translateY(-0.28rem) rotate(-45deg); }

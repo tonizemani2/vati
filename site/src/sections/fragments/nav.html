@@ -1,0 +1,79 @@
+<section class="nav_component u-theme-dark"><div class="nav_css u-embed-css w-embed"><style>
+:root {
+	--nav--height: 4rem;
+	--nav--banner-height: 2.4rem;
+	--nav--height-total: var(--nav--height);
+	--nav--icon-thickness: var(--border-width--icon);
+	--nav--hamburger-thickness: var(--nav--icon-thickness);
+	--nav--hamburger-gap: var(--_spacing---space--2);
+	--nav--hamburger-rotate: 45;
+	--nav--menu-open-duration: 400ms;
+	--nav--menu-close-duration: 400ms;
+}
+/* on smaller screens */
+@media (width < 48em) {
+	/* disable scroll when mobile menu is open */
+	body:has(.nav_component .w-nav-button.w--open) { overflow: hidden; }
+}
+/* on larger screens */
+@container (min-width: 48em) {
+	/* show desktop nav & dropdown backdrop */
+	.nav_wrap.is-desktop { display: block; }
+	/* hide mobile nav & mobile menu backdrop */
+	.nav_wrap.is-mobile, .nav_menu_backdrop { display: none; }
+}
+/* fade out other menu links when link is hovered */
+@media (hover: hover) and (pointer: fine) {
+	body:has(.nav_links_item:hover) .nav_links_item:not(:hover) > * > * {
+		opacity: 0.5;
+	}
+}
+/* animate first hamburger line when opened */
+.nav_component .w-nav-button.w--open > * > :first-child {
+	transform: translateY(calc(var(--nav--hamburger-thickness) * 0.5 + var(--nav--hamburger-gap) * 0.5)) rotate(calc(var(--nav--hamburger-rotate) * -1deg));
+}
+/* animate second hamburger line when opened */
+.nav_component .w-nav-button.w--open > * > :last-child {
+	transform: translateY(calc(var(--nav--hamburger-thickness) * -0.5 + var(--nav--hamburger-gap) * -0.5)) rotate(calc(var(--nav--hamburger-rotate) * 1deg));
+}
+/* reveal mobile menu backdrop on menu open */
+.nav_menu_backdrop {
+	transition: opacity var(--nav--menu-close-duration);
+}
+.nav_component:has(.w-nav-button.w--open) .nav_menu_backdrop {
+	opacity: 1;
+}
+/* menu animations */
+@keyframes menuOpen {
+ from { clip-path: polygon(0 0, 100% 0, 100% 0, 0 0); }
+ to { clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); }
+}
+@keyframes menuClose {
+ from { clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); }
+ to { clip-path: polygon(0 0, 100% 0, 100% 0, 0 0); }
+}
+/* menu open */
+.nav_component:has(.w-nav-button.w--open) .w-nav-menu {
+	animation: menuOpen var(--nav--menu-open-duration) ease-in-out forwards;
+}
+/* menu close */
+.nav_component:has(.w-nav-button:not(.w--open)) .w-nav-menu {
+	animation: menuClose var(--nav--menu-close-duration) ease-in-out forwards;
+}
+/* position overflow to top of screen */
+.nav_component .w-nav-overlay {
+ top: 0;
+ min-height: 100vh;
+}
+/* Rotate Nav Banner Arrow When External Link */
+a[target="_blank"] .nav_banner_svg {
+	transform: rotate(-45deg);
+}
+/* nav banner */
+html:has(.nav_banner_wrap:not(.w-condition-invisible)):not(.hide-nav-banner) {
+	--nav--height-total: calc(var(--nav--banner-height) + var(--nav--height));
+}
+.hide-nav-banner .nav_banner_wrap {
+	display: none;
+}
+</style></div><a href="/#main" class="nav_skip_wrap w-inline-block w--current"><div class="nav_skip_text u-text-style-small">Skip to main content</div></a><div class="nav_banner_wrap u-theme-brand"><div class="nav_banner_embed w-embed w-script"></div><div class="nav_banner_contain u-container-full"><div class="nav_banner_layout is-static"><a href="#research" class="nav_banner_link w-inline-block"><div class="u-meta-text nav_banner_text u-line-clamp-1 u-text-style-eyebrow">THE SEALED FORECAST RECORD · see the calls</div></a></div></div></div><div role="banner" class="nav_wrap is-desktop"><div class="nav_contain u-container"><a aria-label="Home Page" href="/" aria-current="page" class="nav_logo_wrap w-inline-block w--current"><span style="display:inline-flex;align-items:center;gap:0.55rem;color:#fff;font-family:inherit;font-weight:600;font-size:1.4rem;letter-spacing:-0.01em;line-height:1;white-space:nowrap"><svg width="34" height="28" viewBox="0 0 34 28" fill="none" aria-hidden="true" style="flex:none;overflow:visible"><path d="M3 23 Q17 26 31 17" stroke="currentColor" stroke-opacity="0.18" stroke-width="0.7" fill="none"/><path d="M10 5.5 L4.5 9 M10 5.5 L15.5 11.5 M15.5 11.5 L21.5 6.5 M21.5 6.5 L27 12.5 M15.5 11.5 L18.5 18 M18.5 18 L10.5 16.5 M10.5 16.5 L4.5 9 M18.5 18 L27 12.5" stroke="currentColor" stroke-opacity="0.42" stroke-width="0.6" stroke-linecap="round"/><circle cx="4.5" cy="9" r="0.9" fill="currentColor" fill-opacity="0.85"/><circle cx="10" cy="5.5" r="1.1" fill="currentColor" fill-opacity="0.9"/><circle cx="15.5" cy="11.5" r="1" fill="currentColor" fill-opacity="0.85"/><circle cx="27" cy="12.5" r="1.2" fill="currentColor" fill-opacity="0.9"/><circle cx="18.5" cy="18" r="1" fill="currentColor" fill-opacity="0.85"/><circle cx="10.5" cy="16.5" r="0.9" fill="currentColor" fill-opacity="0.8"/><circle cx="7" cy="21" r="0.5" fill="currentColor" fill-opacity="0.4"/><circle cx="24" cy="19.5" r="0.5" fill="currentColor" fill-opacity="0.4"/><circle cx="13" cy="3" r="0.5" fill="currentColor" fill-opacity="0.4"/><path d="M21.5 3.9 L22.4 5.6 L24.1 6.5 L22.4 7.4 L21.5 9.1 L20.6 7.4 L18.9 6.5 L20.6 5.6 Z" fill="#f5b13d"/></svg>Vaticinus</span></a><nav role="navigation" class="nav_desktop_layout"><div class="nav_links_component is-desktop"><ul role="list" class="nav_links_wrap is-desktop w-list-unstyled"><li class="nav_links_item"><a href="/#research" class="nav_links_link is-desktop w-inline-block"><div class="nav_links_text u-text-style-main">Research</div></a></li><li class="nav_links_item"><a href="/#product" class="nav_links_link is-desktop w-inline-block"><div class="nav_links_text u-text-style-main">Product</div></a></li><li class="nav_links_item"><a href="/#about" class="nav_links_link is-desktop w-inline-block"><div class="nav_links_text u-text-style-main">Company</div></a></li><li class="nav_links_item u-hide-if-empty"></li><li class="nav_links_item u-hide-if-empty"></li><li class="nav_links_item"><a href="/#research" class="nav_links_link-2 is-desktop w-inline-block"><div class="nav_links_text u-text-style-main">News</div></a></li></ul><ul role="list" class="nav_actions_wrap is-desktop w-list-unstyled"><li class="nav_buttons_item"><div data-wf--button-small--style="secondary" class="button_small_wrap w-variant-d06ebfdb-5e7c-15b7-916f-4304e5dbc80e"><div class="clickable_wrap u-cover-absolute"><a target="" href="#research" class="clickable_link w-inline-block"><span class="clickable_text u-sr-only">See the record</span></a><button type="button" class="clickable_btn"><span class="clickable_text u-sr-only">See the record</span></button></div><div aria-hidden="true" class="button_small_text u-text-style-small">See the record</div></div></li><li class="nav_buttons_item"><div data-contact="" class="button_small_wrap secondary-white"><div aria-hidden="true" class="button_small_text u-text-style-small secondary-6">Get in touch</div></div></li></ul></div></nav></div></div><div data-animation="default" data-collapse="all" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="nav_wrap is-mobile w-nav"><div class="nav_mobile_contain u-container"><a aria-label="Home Page" href="/" aria-current="page" class="nav_logo_wrap w-inline-block w--current"><span style="display:inline-flex;align-items:center;gap:0.55rem;color:#fff;font-family:inherit;font-weight:600;font-size:1.4rem;letter-spacing:-0.01em;line-height:1;white-space:nowrap"><svg width="34" height="28" viewBox="0 0 34 28" fill="none" aria-hidden="true" style="flex:none;overflow:visible"><path d="M3 23 Q17 26 31 17" stroke="currentColor" stroke-opacity="0.18" stroke-width="0.7" fill="none"/><path d="M10 5.5 L4.5 9 M10 5.5 L15.5 11.5 M15.5 11.5 L21.5 6.5 M21.5 6.5 L27 12.5 M15.5 11.5 L18.5 18 M18.5 18 L10.5 16.5 M10.5 16.5 L4.5 9 M18.5 18 L27 12.5" stroke="currentColor" stroke-opacity="0.42" stroke-width="0.6" stroke-linecap="round"/><circle cx="4.5" cy="9" r="0.9" fill="currentColor" fill-opacity="0.85"/><circle cx="10" cy="5.5" r="1.1" fill="currentColor" fill-opacity="0.9"/><circle cx="15.5" cy="11.5" r="1" fill="currentColor" fill-opacity="0.85"/><circle cx="27" cy="12.5" r="1.2" fill="currentColor" fill-opacity="0.9"/><circle cx="18.5" cy="18" r="1" fill="currentColor" fill-opacity="0.85"/><circle cx="10.5" cy="16.5" r="0.9" fill="currentColor" fill-opacity="0.8"/><circle cx="7" cy="21" r="0.5" fill="currentColor" fill-opacity="0.4"/><circle cx="24" cy="19.5" r="0.5" fill="currentColor" fill-opacity="0.4"/><circle cx="13" cy="3" r="0.5" fill="currentColor" fill-opacity="0.4"/><path d="M21.5 3.9 L22.4 5.6 L24.1 6.5 L22.4 7.4 L21.5 9.1 L20.6 7.4 L18.9 6.5 L20.6 5.6 Z" fill="#f5b13d"/></svg>Vaticinus</span></a><nav role="navigation" class="nav_menu_wrap w-nav-menu"><div data-lenis-prevent="" class="nav_menu_scroll"><div class="nav_menu_contain u-container"><div class="nav_links_component"><ul role="list" class="nav_links_wrap w-list-unstyled"><li class="nav_links_item"><a href="/#research" class="nav_links_link w-inline-block"><div class="nav_links_text u-text-style-h3">Research</div></a></li><li class="nav_links_item"><a href="/#product" class="nav_links_link w-inline-block"><div class="nav_links_text u-text-style-h3">Product</div></a></li><li class="nav_links_item"><a href="/#about" class="nav_links_link w-inline-block"><div class="nav_links_text u-text-style-h3">Company</div></a></li><li class="nav_links_item"><a href="/#research" class="nav_links_link-2 w-inline-block"><div class="nav_links_text u-text-style-h3">News</div></a></li></ul><ul role="list" class="nav_actions_wrap w-list-unstyled"><li class="nav_buttons_item is-main"><div data-wf--button-main--style="primary" class="button_main_wrap u-width-full"><div class="clickable_wrap u-cover-absolute"><a target="" href="#research" class="clickable_link w-inline-block"><span class="clickable_text u-sr-only">See the record</span></a><button type="button" class="clickable_btn"><span class="clickable_text u-sr-only">See the record</span></button></div><div aria-hidden="true" class="button_main_text u-text-style-main">See the record</div></div><div class="button_main_wrap secondary-white u-width-full" data-contact=""><div aria-hidden="true" class="button_main_text u-text-style-main secondary-4">Get in touch</div></div></li></ul></div></div></div></nav><div class="nav_btn_wrap w-nav-button" style="-webkit-user-select: text;" aria-label="menu" role="button" tabindex="0" aria-controls="w-nav-overlay-0" aria-haspopup="menu" aria-expanded="false"><div class="nav_btn_layout"><div class="nav_btn_line"></div><div class="nav_btn_line"></div></div></div></div><div class="w-nav-overlay" data-wf-ignore="" id="w-nav-overlay-0"></div></div><div class="nav_menu_backdrop"></div></section>

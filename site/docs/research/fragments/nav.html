@@ -1,0 +1,99 @@
+<section class="nav_component u-theme-dark"><div class="nav_css u-embed-css w-embed"><style>
+:root {
+	--nav--height: 4rem;
+	--nav--banner-height: 2.4rem;
+	--nav--height-total: var(--nav--height);
+	--nav--icon-thickness: var(--border-width--icon);
+	--nav--hamburger-thickness: var(--nav--icon-thickness);
+	--nav--hamburger-gap: var(--_spacing---space--2);
+	--nav--hamburger-rotate: 45;
+	--nav--menu-open-duration: 400ms;
+	--nav--menu-close-duration: 400ms;
+}
+/* on smaller screens */
+@media (width < 48em) {
+	/* disable scroll when mobile menu is open */
+	body:has(.nav_component .w-nav-button.w--open) { overflow: hidden; }
+}
+/* on larger screens */
+@container (min-width: 48em) {
+	/* show desktop nav & dropdown backdrop */
+	.nav_wrap.is-desktop { display: block; }
+	/* hide mobile nav & mobile menu backdrop */
+	.nav_wrap.is-mobile, .nav_menu_backdrop { display: none; }
+}
+/* fade out other menu links when link is hovered */
+@media (hover: hover) and (pointer: fine) {
+	body:has(.nav_links_item:hover) .nav_links_item:not(:hover) > * > * {
+		opacity: 0.5;
+	}
+}
+/* animate first hamburger line when opened */
+.nav_component .w-nav-button.w--open > * > :first-child {
+	transform: translateY(calc(var(--nav--hamburger-thickness) * 0.5 + var(--nav--hamburger-gap) * 0.5)) rotate(calc(var(--nav--hamburger-rotate) * -1deg));
+}
+/* animate second hamburger line when opened */
+.nav_component .w-nav-button.w--open > * > :last-child {
+	transform: translateY(calc(var(--nav--hamburger-thickness) * -0.5 + var(--nav--hamburger-gap) * -0.5)) rotate(calc(var(--nav--hamburger-rotate) * 1deg));
+}
+/* reveal mobile menu backdrop on menu open */
+.nav_menu_backdrop {
+	transition: opacity var(--nav--menu-close-duration);
+}
+.nav_component:has(.w-nav-button.w--open) .nav_menu_backdrop {
+	opacity: 1;
+}
+/* menu animations */
+@keyframes menuOpen {
+ from { clip-path: polygon(0 0, 100% 0, 100% 0, 0 0); }
+ to { clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); }
+}
+@keyframes menuClose {
+ from { clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); }
+ to { clip-path: polygon(0 0, 100% 0, 100% 0, 0 0); }
+}
+/* menu open */
+.nav_component:has(.w-nav-button.w--open) .w-nav-menu {
+	animation: menuOpen var(--nav--menu-open-duration) ease-in-out forwards;
+}
+/* menu close */
+.nav_component:has(.w-nav-button:not(.w--open)) .w-nav-menu {
+	animation: menuClose var(--nav--menu-close-duration) ease-in-out forwards;
+}
+/* position overflow to top of screen */
+.nav_component .w-nav-overlay {
+ top: 0;
+ min-height: 100vh;
+}
+/* Rotate Nav Banner Arrow When External Link */
+a[target="_blank"] .nav_banner_svg {
+	transform: rotate(-45deg);
+}
+/* nav banner */
+html:has(.nav_banner_wrap:not(.w-condition-invisible)):not(.hide-nav-banner) {
+	--nav--height-total: calc(var(--nav--banner-height) + var(--nav--height));
+}
+.hide-nav-banner .nav_banner_wrap {
+	display: none;
+}
+</style></div><a href="/#main" class="nav_skip_wrap w-inline-block w--current"><div class="nav_skip_text u-text-style-small">Skip to main content</div></a><div class="nav_banner_wrap u-theme-brand"><div class="nav_banner_embed w-embed w-script"><script>
+if (sessionStorage.getItem("hide-nav-banner") === "true") {
+ document.documentElement.classList.add("hide-nav-banner");
+}
+document.addEventListener("DOMContentLoaded", function () {
+ document.querySelectorAll(".nav_banner_close_wrap").forEach((button) => {
+ button.addEventListener("click", function () {
+ sessionStorage.setItem("hide-nav-banner", "true");
+ document.documentElement.classList.add("hide-nav-banner");
+ });
+ });
+ document.querySelectorAll(".nav_skip_wrap").forEach(function (link) {
+ const target = document.querySelector("main");
+ if (!target) return;
+ link.addEventListener("click", function () {
+ target.setAttribute("tabindex", "-1");
+ target.focus();
+ });
+ });
+});
+</script></div><div class="nav_banner_contain u-container-full"><div class="nav_banner_layout is-static"><a href="https://blog.mantic.com/p/the-28-most-important-questions-about" target="_blank" class="nav_banner_link w-inline-block"><div class="u-meta-text nav_banner_text u-line-clamp-1 u-text-style-eyebrow">FORECASTING&nbsp;THE&nbsp;IRAN&nbsp;CRISIS - Read here</div></a></div></div></div><div role="banner" class="nav_wrap is-desktop"><div class="nav_contain u-container"><a aria-label="Home Page" href="/" aria-current="page" class="nav_logo_wrap w-inline-block w--current"><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 108 28" fill="none"><path fill-rule="evenodd" clip-rule="evenodd" d="M21.424 0.347912C20.7455 -0.399847 19.5966 0.137405 19.5966 1.20245V9.27503L11.4964 0.347912C10.8179 -0.399847 9.66902 0.137406 9.66902 1.20245V9.18738L1.83436 0.393044C1.15868 -0.3654 0 0.169468 0 1.23982V14.3672C0 14.6987 0.12266 15.0154 0.338895 15.2423L12.1551 27.6382C12.8407 28.3574 13.9635 27.814 13.9635 26.7632V19.31L22.0899 27.6801C22.7779 28.3887 23.8911 27.8432 23.8911 26.7976V19.31L32.0175 27.6801C32.7055 28.3887 33.8187 27.8432 33.8187 26.7976V14.5099C33.8187 14.1887 33.7035 13.8809 33.4988 13.6554L21.424 0.347912Z" fill="currentColor"></path><path d="M45.5147 23.2422V6.91425H48.8015L53.8961 20.2099L58.9672 6.91425H62.2541V23.2422H59.9533V10.1332L54.9291 23.2422H52.8396L47.8155 10.1332V23.2422H45.5147Z" fill="currentColor"></path><path d="M67.5506 23.5687C64.9446 23.5687 63.3012 22.2159 63.3012 20.0699C63.3012 18.0639 64.6629 16.6177 67.4332 16.4544L70.8609 16.2678V15.638C70.8609 14.1685 70.1331 13.5621 68.5836 13.5621C67.0811 13.5621 66.3298 13.9586 66.142 15.1482H63.8647C64.1229 12.839 65.7194 11.696 68.748 11.696C71.4479 11.696 73.0209 13.0489 73.0209 15.5214V21.0029C73.0209 21.2595 73.1382 21.3761 73.3965 21.3761H74.3591V23.2422H72.5278C71.7531 23.2422 71.307 22.8223 71.307 22.0759V21.7493C70.6496 22.8923 69.3114 23.5687 67.5506 23.5687ZM65.5785 19.9999C65.5785 21.0263 66.4237 21.7027 67.8089 21.7027C69.6401 21.7027 70.8609 20.653 70.8609 18.7403V18.0173L67.715 18.2505C66.2594 18.3438 65.5785 19.0902 65.5785 19.9999Z" fill="currentColor"></path><path d="M74.8814 23.2422V12.0226H76.9005V13.4921C77.5813 12.2791 78.943 11.696 80.4691 11.696C83.2394 11.696 84.9767 13.3755 84.9767 16.4778V23.2422H82.6994V16.6877C82.6994 14.6817 81.7134 13.7487 80.0465 13.7487C78.3091 13.7487 77.1587 14.9383 77.1587 16.7577V23.2422H74.8814Z" fill="currentColor"></path><path d="M90.3866 23.2422C88.438 23.2422 87.5928 22.4724 87.5928 20.5364V14.0052H84.6347V12.0226H87.5928V8.66368H89.8701V12.0226H93.4152V14.0052H89.8701V20.0932C89.8701 20.9096 90.1988 21.2595 91.0675 21.2595H93.4152V23.2422H90.3866Z" fill="currentColor"></path><path d="M93.9605 23.2422V12.0226H96.2378V23.2422H93.9605ZM93.8196 9.75998V7.07753H96.3552V9.75998H93.8196Z" fill="currentColor"></path><path d="M102.741 23.5687C99.3603 23.5687 97.1769 21.0729 97.1769 17.6674C97.1769 14.1685 99.4777 11.696 102.882 11.696C105.746 11.696 107.695 13.3521 107.953 15.708H105.629C105.417 14.6584 104.478 13.7487 102.858 13.7487C100.839 13.7487 99.5246 15.2648 99.5246 17.6207C99.5246 20.0233 100.863 21.5161 102.811 21.5161C104.338 21.5161 105.441 20.6297 105.676 19.3235H108C107.695 21.5627 105.817 23.5687 102.741 23.5687Z" fill="currentColor"></path></svg></a><nav role="navigation" class="nav_desktop_layout"><div class="nav_links_component is-desktop"><ul role="list" class="nav_links_wrap is-desktop w-list-unstyled"><li class="nav_links_item"><a href="/#research" class="nav_links_link is-desktop w-inline-block"><div class="nav_links_text u-text-style-main">Research</div></a></li><li class="nav_links_item"><a href="/#product" class="nav_links_link is-desktop w-inline-block"><div class="nav_links_text u-text-style-main">Product</div></a></li><li class="nav_links_item"><a href="/#about" class="nav_links_link is-desktop w-inline-block"><div class="nav_links_text u-text-style-main">Company</div></a></li><li class="nav_links_item u-hide-if-empty"></li><li class="nav_links_item u-hide-if-empty"></li><li class="nav_links_item"><a href="/news" class="nav_links_link-2 is-desktop w-inline-block"><div class="nav_links_text u-text-style-main">News</div></a></li></ul><ul role="list" class="nav_actions_wrap is-desktop w-list-unstyled"><li class="nav_buttons_item"><div data-wf--button-small--style="secondary" data-cal-link="forms/37bfe553-4476-4ad6-bac8-6e87881613ad" data-cal-namespace="book" data-cal-config="{&quot;layout&quot;:&quot;month_view&quot;}" class="button_small_wrap w-variant-d06ebfdb-5e7c-15b7-916f-4304e5dbc80e"><div class="clickable_wrap u-cover-absolute"><a target="" href="#" class="clickable_link w-inline-block"><span class="clickable_text u-sr-only">Book a demo</span></a><button type="button" class="clickable_btn"><span class="clickable_text u-sr-only">Book a demo</span></button></div><div aria-hidden="true" class="button_small_text u-text-style-small">Book a demo</div></div></li><li class="nav_buttons_item"><div data-contact="" class="button_small_wrap secondary-white"><div aria-hidden="true" class="button_small_text u-text-style-small secondary-6">Contact us</div></div></li></ul></div></nav></div></div><div data-animation="default" data-collapse="all" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="nav_wrap is-mobile w-nav"><div class="nav_mobile_contain u-container"><a aria-label="Home Page" href="/" aria-current="page" class="nav_logo_wrap w-inline-block w--current"><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 108 28" fill="none"><path fill-rule="evenodd" clip-rule="evenodd" d="M21.424 0.347912C20.7455 -0.399847 19.5966 0.137405 19.5966 1.20245V9.27503L11.4964 0.347912C10.8179 -0.399847 9.66902 0.137406 9.66902 1.20245V9.18738L1.83436 0.393044C1.15868 -0.3654 0 0.169468 0 1.23982V14.3672C0 14.6987 0.12266 15.0154 0.338895 15.2423L12.1551 27.6382C12.8407 28.3574 13.9635 27.814 13.9635 26.7632V19.31L22.0899 27.6801C22.7779 28.3887 23.8911 27.8432 23.8911 26.7976V19.31L32.0175 27.6801C32.7055 28.3887 33.8187 27.8432 33.8187 26.7976V14.5099C33.8187 14.1887 33.7035 13.8809 33.4988 13.6554L21.424 0.347912Z" fill="currentColor"></path><path d="M45.5147 23.2422V6.91425H48.8015L53.8961 20.2099L58.9672 6.91425H62.2541V23.2422H59.9533V10.1332L54.9291 23.2422H52.8396L47.8155 10.1332V23.2422H45.5147Z" fill="currentColor"></path><path d="M67.5506 23.5687C64.9446 23.5687 63.3012 22.2159 63.3012 20.0699C63.3012 18.0639 64.6629 16.6177 67.4332 16.4544L70.8609 16.2678V15.638C70.8609 14.1685 70.1331 13.5621 68.5836 13.5621C67.0811 13.5621 66.3298 13.9586 66.142 15.1482H63.8647C64.1229 12.839 65.7194 11.696 68.748 11.696C71.4479 11.696 73.0209 13.0489 73.0209 15.5214V21.0029C73.0209 21.2595 73.1382 21.3761 73.3965 21.3761H74.3591V23.2422H72.5278C71.7531 23.2422 71.307 22.8223 71.307 22.0759V21.7493C70.6496 22.8923 69.3114 23.5687 67.5506 23.5687ZM65.5785 19.9999C65.5785 21.0263 66.4237 21.7027 67.8089 21.7027C69.6401 21.7027 70.8609 20.653 70.8609 18.7403V18.0173L67.715 18.2505C66.2594 18.3438 65.5785 19.0902 65.5785 19.9999Z" fill="currentColor"></path><path d="M74.8814 23.2422V12.0226H76.9005V13.4921C77.5813 12.2791 78.943 11.696 80.4691 11.696C83.2394 11.696 84.9767 13.3755 84.9767 16.4778V23.2422H82.6994V16.6877C82.6994 14.6817 81.7134 13.7487 80.0465 13.7487C78.3091 13.7487 77.1587 14.9383 77.1587 16.7577V23.2422H74.8814Z" fill="currentColor"></path><path d="M90.3866 23.2422C88.438 23.2422 87.5928 22.4724 87.5928 20.5364V14.0052H84.6347V12.0226H87.5928V8.66368H89.8701V12.0226H93.4152V14.0052H89.8701V20.0932C89.8701 20.9096 90.1988 21.2595 91.0675 21.2595H93.4152V23.2422H90.3866Z" fill="currentColor"></path><path d="M93.9605 23.2422V12.0226H96.2378V23.2422H93.9605ZM93.8196 9.75998V7.07753H96.3552V9.75998H93.8196Z" fill="currentColor"></path><path d="M102.741 23.5687C99.3603 23.5687 97.1769 21.0729 97.1769 17.6674C97.1769 14.1685 99.4777 11.696 102.882 11.696C105.746 11.696 107.695 13.3521 107.953 15.708H105.629C105.417 14.6584 104.478 13.7487 102.858 13.7487C100.839 13.7487 99.5246 15.2648 99.5246 17.6207C99.5246 20.0233 100.863 21.5161 102.811 21.5161C104.338 21.5161 105.441 20.6297 105.676 19.3235H108C107.695 21.5627 105.817 23.5687 102.741 23.5687Z" fill="currentColor"></path></svg></a><nav role="navigation" class="nav_menu_wrap w-nav-menu"><div data-lenis-prevent="" class="nav_menu_scroll"><div class="nav_menu_contain u-container"><div class="nav_links_component"><ul role="list" class="nav_links_wrap w-list-unstyled"><li class="nav_links_item"><a href="/#research" class="nav_links_link w-inline-block"><div class="nav_links_text u-text-style-h3">Research</div></a></li><li class="nav_links_item"><a href="/#product" class="nav_links_link w-inline-block"><div class="nav_links_text u-text-style-h3">Product</div></a></li><li class="nav_links_item"><a href="/#about" class="nav_links_link w-inline-block"><div class="nav_links_text u-text-style-h3">Company</div></a></li><li class="nav_links_item"><a href="/news" class="nav_links_link-2 w-inline-block"><div class="nav_links_text u-text-style-h3">News</div></a></li></ul><ul role="list" class="nav_actions_wrap w-list-unstyled"><li class="nav_buttons_item is-main"><div data-wf--button-main--style="primary" class="button_main_wrap u-width-full" data-cal-link="forms/37bfe553-4476-4ad6-bac8-6e87881613ad" data-cal-namespace="book" data-cal-config="{&quot;layout&quot;:&quot;month_view&quot;}"><div class="clickable_wrap u-cover-absolute"><a target="" href="#" class="clickable_link w-inline-block"><span class="clickable_text u-sr-only">Book a demo</span></a><button type="button" class="clickable_btn"><span class="clickable_text u-sr-only">Book a demo</span></button></div><div aria-hidden="true" class="button_main_text u-text-style-main">Book a demo</div></div><div class="button_main_wrap secondary-white u-width-full" data-contact=""><div aria-hidden="true" class="button_main_text u-text-style-main secondary-4">Contact us</div></div></li></ul></div></div></div></nav><div class="nav_btn_wrap w-nav-button" style="-webkit-user-select: text;" aria-label="menu" role="button" tabindex="0" aria-controls="w-nav-overlay-0" aria-haspopup="menu" aria-expanded="false"><div class="nav_btn_layout"><div class="nav_btn_line"></div><div class="nav_btn_line"></div></div></div></div><div class="w-nav-overlay" data-wf-ignore="" id="w-nav-overlay-0"></div></div><div class="nav_menu_backdrop"></div></section>

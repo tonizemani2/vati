@@ -1,0 +1,28 @@
+<div class="video-modal"><div class="w-embed"><style>
+.video-modal {
+	opacity: 0;
+  visibility: hidden;
+}
+.video-modal.show {
+  visibility: visible;
+	opacity: 1;
+}
+</style></div><div class="vid-modal-close"><img loading="lazy" src="/images/69c0be6c0ff3fb98f6c81e3e_ico-close-2.svg" alt="close" class="modal-close"></div><div class="vid-modal-contain"><div class="hero-vid-modal-embed w-embed"><video width="100%" height="100%" controls="" autoplay="" playsinline="" src=""></video></div></div><div class="w-embed w-script"><script>
+document.addEventListener("DOMContentLoaded", () => {
+  const vidSlides = document.querySelectorAll('[data-video]');
+  const vidModal = document.querySelector('.video-modal');
+  const videoElem = vidModal.querySelector('video');
+  const closeVidModal = vidModal.querySelector('.vid-modal-close');
+  vidSlides.forEach((slide) => {
+    slide.addEventListener('click', (e) => {
+      videoElem.src = e.currentTarget.dataset.video;
+      vidModal.classList.add('show');
+      videoElem.play();
+    });
+  });
+  closeVidModal.addEventListener('click', () => {
+    vidModal.classList.remove('show');
+    videoElem.src = '';
+  });
+});
+</script></div></div>

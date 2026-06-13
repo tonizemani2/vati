@@ -1,0 +1,1 @@
+window.addEventListener("message",function(a){a.origin==="https://app.cal.com"&&a.data&&a.data.originator==="CAL"&&(a=a.data.type,window.dataLayer=window.dataLayer||[],a!=="bookingSuccessfulV2"&&a!=="rescheduleBookingSuccessfulV2"||window.dataLayer.push({event:"cal_booking_success",cal_type:a}))});
