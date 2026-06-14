@@ -33,6 +33,8 @@ BOARDS = [
      "pdf_src": "research/pope/space-2026-06-14.pdf", "pdf": "space.pdf"},
     {"slug": "chips", "spec": "research/pope/chips-2026-06-14.json",
      "pdf_src": "research/pope/chips-2026-06-14.pdf", "pdf": "chips.pdf"},
+    {"slug": "biotech", "spec": "research/pope/biotech-2026-06-14.json",
+     "pdf_src": "research/pope/biotech-2026-06-14.pdf", "pdf": "biotech.pdf"},
 ]
 
 FONT_CSS = """
