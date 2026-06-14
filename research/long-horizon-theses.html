@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Where Scarcity Migrates Next — Six Long-Horizon Theses</title>
+<style>
+  @page {
+    size: Letter;
+    margin: 22mm 20mm 20mm 20mm;
+    @bottom-center { content: counter(page); font-family: Georgia, serif; font-size: 9pt; color: #8a8f99; }
+  }
+  html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  body {
+    font-family: Georgia, "Times New Roman", serif;
+    color: #1c2129;
+    line-height: 1.5;
+    font-size: 10.5pt;
+    margin: 0;
+  }
+  h1, h2, h3, h4 { font-family: "Helvetica Neue", Arial, sans-serif; color: #11203a; line-height: 1.2; }
+  h1 { font-size: 23pt; letter-spacing: -0.3px; margin: 0 0 6px; }
+  h2 { font-size: 14.5pt; margin: 26px 0 8px; border-bottom: 1.5px solid #11203a; padding-bottom: 5px; }
+  h3 { font-size: 12.5pt; margin: 20px 0 4px; color: #1a3a6b; }
+  h4 { font-size: 10.5pt; margin: 14px 0 3px; text-transform: uppercase; letter-spacing: 0.6px; color: #5a6472; }
+  p { margin: 0 0 9px; }
+  a { color: #1a3a6b; }
+  .accent { color: #1a3a6b; }
+  .muted { color: #5a6472; }
+  .small { font-size: 9pt; }
+  strong { color: #11203a; }
+
+  /* cover */
+  .cover { padding-top: 30mm; border-top: 6px solid #11203a; }
+  .cover .kicker { font-family: "Helvetica Neue", Arial, sans-serif; text-transform: uppercase; letter-spacing: 2px; font-size: 9.5pt; color: #1a3a6b; margin-bottom: 14px; }
+  .cover .sub { font-size: 13pt; color: #3a424e; margin-top: 10px; font-style: italic; }
+  .cover .meta { margin-top: 34mm; font-family: "Helvetica Neue", Arial, sans-serif; font-size: 9.5pt; color: #5a6472; line-height: 1.7; }
+  .cover .spine { margin-top: 16px; padding: 12px 14px; background: #f3f5f8; border-left: 4px solid #1a3a6b; font-size: 9.5pt; }
+
+  .page-break { page-break-before: always; }
+  .avoid-break { page-break-inside: avoid; }
+
+  table { border-collapse: collapse; width: 100%; font-size: 9.2pt; margin: 10px 0 14px; }
+  th, td { text-align: left; padding: 6px 8px; vertical-align: top; }
+  thead th { background: #11203a; color: #fff; font-family: "Helvetica Neue", Arial, sans-serif; font-weight: 600; font-size: 8.6pt; }
+  tbody tr:nth-child(even) { background: #f3f5f8; }
+  td.num { font-variant-numeric: tabular-nums; white-space: nowrap; }
+
+  .thesis { page-break-before: always; }
+  .thesis-head { display: flex; justify-content: space-between; align-items: baseline; border-bottom: 1.5px solid #11203a; padding-bottom: 6px; margin-bottom: 4px; }
+  .thesis-head .id { font-family: "Helvetica Neue", Arial, sans-serif; font-size: 9pt; color: #fff; background: #1a3a6b; padding: 3px 8px; border-radius: 3px; letter-spacing: 1px; }
+  .prob-band { display: flex; gap: 10px; margin: 10px 0 14px; }
+  .prob-card { flex: 1; border: 1px solid #d4d9e0; border-radius: 5px; padding: 9px 11px; }
+  .prob-card .label { font-family: "Helvetica Neue", Arial, sans-serif; font-size: 7.6pt; text-transform: uppercase; letter-spacing: 0.8px; color: #5a6472; }
+  .prob-card .val { font-family: "Helvetica Neue", Arial, sans-serif; font-size: 19pt; font-weight: 700; color: #11203a; line-height: 1.1; }
+  .prob-card.vision { background: #eef4ec; border-color: #cfe0c8; }
+  .prob-card.clause { background: #eef1f6; border-color: #cdd6e4; }
+  .prob-card.date { background: #faf6ee; border-color: #e7dcc4; }
+  .prob-card .val.sm { font-size: 12.5pt; padding-top: 5px; }
+
+  .field { margin: 7px 0; }
+  .field .k { font-family: "Helvetica Neue", Arial, sans-serif; font-size: 8.4pt; text-transform: uppercase; letter-spacing: 0.7px; color: #1a3a6b; display: block; margin-bottom: 1px; }
+  .why { background: #f7f4ec; border-left: 4px solid #b8923a; padding: 9px 12px; margin: 10px 0; }
+  .why .k { color: #8a6d24; }
+  .footer-note { margin-top: 6px; font-size: 8.6pt; color: #8a8f99; }
+</style>
+</head>
+<body>
+
+<!-- ===================== COVER ===================== -->
+<section class="cover">
+  <div class="kicker">Forward Structural Foresight &middot; Pre-Consensus, Calibrated, Falsifiable</div>
+  <h1>Where Scarcity Migrates Next</h1>
+  <div class="sub">Six long-horizon theses on what booms when the binding constraint is set by physics or demography, not by markets.</div>
+
+  <div class="spine">
+    <strong>Thesis spine (causal order):</strong> Frontier &rarr; Capability &rarr; Dependency graph &rarr; Supply elasticity &rarr; Demand &rarr; Capital &rarr; Pricing &rarr; Policy &rarr; Outcomes.
+    Rent accrues to the inelastic input. The edge is naming where the constraint moves before pricing catches up.
+  </div>
+
+  <div class="meta">
+    Horizon: 2032 to 2033 &nbsp;&bull;&nbsp; Resolution: dated metric + hard kill-criterion per thesis<br>
+    Method: generate wide, graduate strict. Each call names the needle, not the theme.<br>
+    Companion to the near-term map (<span class="muted">FUTURE_MAP.md, 18 high-conviction calls, all resolving 2027&ndash;2029</span>).<br>
+    Status: wide-pool candidates. Directional conviction high; strict-clause odds calibrated for Brier scoring at resolution.<br>
+    Drafted 2026-06-14.
+  </div>
+</section>
+
+<!-- ===================== EXEC SUMMARY ===================== -->
+<section class="page-break">
+<h2>What this is, and why these six</h2>
+
+<p>The near-term map we already run is a lattice of supply-chain chokepoints that bind over the next 18 to 30 months: the logic base die under high-bandwidth memory, grain-oriented steel under transformers, strain-wave reducers under humanoid joints. Good calls, but all of them resolve by 2029. None of them answer a different question: over a decade, what is close to inevitable because a <em>physical</em> or <em>demographic</em> limit forces it, while capital is still looking somewhere else?</p>
+
+<p>That tier was empty, so we built it. The six theses below share three properties. First, the constraint is inelastic in the strong sense. You cannot expand it with money on the relevant timescale, because the limit is an element, a reservoir, a human career, or a law of thermodynamics. Second, the direction is generally unknown or unloved in markets, usually because the inelastic part is hard to financialize or sits below the radar of commodity desks. Third, each one names a specific needle to track and a specific event that would prove it wrong.</p>
+
+<h3>The six at a glance</h3>
+<table>
+  <thead>
+    <tr><th style="width:4%">#</th><th style="width:27%">The boom</th><th style="width:37%">Binding constraint (the needle)</th><th class="num" style="width:10%">Vision&nbsp;P</th><th class="num" style="width:10%">Clause&nbsp;P</th><th class="num" style="width:12%">Resolves</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>L1</td><td>Grid &amp; high-voltage <strong>skilled labor</strong></td><td>Power-systems engineers and HV technicians. A career to train, a generation of lost enrollment.</td><td class="num">85%</td><td class="num">60%</td><td class="num">2032-12-31</td></tr>
+    <tr><td>L2</td><td><strong>Helium-4</strong> structural re-tightening</td><td>Helium-rich reservoirs plus conservation and recapture infrastructure. Lost to space once vented.</td><td class="num">65%</td><td class="num">52%</td><td class="num">2032-12-31</td></tr>
+    <tr><td>L3</td><td><strong>Phosphorus</strong> recovery and reserve rent</td><td>Sedimentary phosphate reserves, roughly 70% under one holder. An element with no substitute.</td><td class="num">70%</td><td class="num">50%</td><td class="num">2033-12-31</td></tr>
+    <tr><td>L4</td><td><strong>Eldercare</strong> assistive robotics</td><td>Physical human-contact care hours. The 2035 over-75 cohort is already alive.</td><td class="num">80%</td><td class="num">45%</td><td class="num">2033-12-31</td></tr>
+    <tr><td>L5</td><td>Geologic <strong>CO&#8322; pore space</strong> &amp; verification</td><td>Permitted, location-fixed storage volume plus monitoring. Decoupled from capture cost.</td><td class="num">55%</td><td class="num">40%</td><td class="num">2032-12-31</td></tr>
+    <tr><td>L6</td><td>Compute <strong>substrate efficiency</strong></td><td>Talent and process for analog-in-memory and photonic compute. The energy wall caps digital CMOS.</td><td class="num">70%</td><td class="num">35%</td><td class="num">2033-12-31</td></tr>
+  </tbody>
+</table>
+<p class="small muted">Two probabilities per call. The reason, and why they are not higher, is the next page. Read it before you read the number as timid.</p>
+</section>
+
+<!-- ===================== METHOD / PROBABILITY NOTE ===================== -->
+<section class="page-break">
+<h2>On the probabilities, and why a strong thesis can still read near 50%</h2>
+
+<p>The single most common misread of a calibrated forecast is to treat the number as a confidence score on the headline. It is not. It is the probability that a precise, dated, mechanically checkable clause comes out true. Those are different quantities, and the gap between them is where most of the apparent timidity lives.</p>
+
+<p>Take L1. The claim that the electrification buildout is gated by skilled labor this decade is something I hold at about 85%. The demand growth is locked by physics and policy, the workforce is old, and you cannot mint a substation protection engineer quickly. But the call does not resolve on the vibe. It resolves on a strict clause: that multiple grid or datacenter projects <em>publicly name labor, not equipment</em>, as the binding cause of a slip by a fixed date, and that the wage premium clears a threshold. Now two extra risks stack on top of a true thesis. Timing risk, because a decade-scale force can show up in 2031 instead of 2029. And measurement risk, because a real shortage often hides inside vague language like "engineering and permitting delays" and never gets named as labor. Each layer is a multiplication, not an addition, so a thesis I believe at 85% lands at 60% on the clause.</p>
+
+<p>So no, the numbers are not hedged to look safe. They are split on purpose. The <span class="accent">vision probability</span> tells you how strongly the structural case holds. The <span class="accent">clause probability</span> is what gets scored with Brier at resolution, and it carries the timing and measurement tax that any honest long-horizon bet has to pay. Inflating the clause number to look bold would do one thing reliably: lose points at resolution and corrode the only asset this work has, which is a calibrated record. A 50% that resolves 50% of the time is worth more than an 80% that resolves 50% of the time.</p>
+
+<p>One more thing the split buys you. It tells you <em>which kind</em> of call each one is. L1 and L4 are high-vision, the structure is close to locked and the risk is purely when and whether it gets named. L6 is the opposite, a case where thermodynamics makes the <em>direction</em> robust but the winning substrate and timing are genuinely open, so even the vision number sits at 70 and the clause at 35. The two columns let you tell those apart at a glance instead of collapsing them into one misleading figure.</p>
+
+<h4>How each thesis is built</h4>
+<p>Every call below carries the same skeleton. The structural argument, meaning the physical or demographic mechanism that forces the outcome. Why it is still pre-consensus, with an honest note on the live price channel so we do not confuse "obscure" with "unpriced." The needle, the specific inelastic input that captures the rent, rather than the broad theme. A dated leading metric to track it. A kill-criterion that would falsify it. And a short note on why this particular call earned a place over the obvious alternatives.</p>
+</section>
+
+<!-- ===================== L1 ===================== -->
+<section class="thesis">
+  <div class="thesis-head"><h2 style="border:0;margin:0;padding:0">L1 &middot; The grid runs out of people before it runs out of steel</h2><span class="id">L1</span></div>
+  <p class="muted small">The boom: power-systems engineering talent and the firms that hold it &middot; Domain: energy / human capital</p>
+
+  <div class="prob-band">
+    <div class="prob-card vision"><div class="label">Directional vision</div><div class="val">85%</div></div>
+    <div class="prob-card clause"><div class="label">Strict clause</div><div class="val">60%</div></div>
+    <div class="prob-card date"><div class="label">Resolves</div><div class="val sm">2032-12-31</div></div>
+  </div>
+
+  <p>Electricity demand is set to climb steeply this decade as transport, heat, and AI datacenters all pull on the same grid. The physical network that carries those electrons has to be designed, protected, built, and commissioned by a narrow kind of specialist. High-voltage substation design, protection-relay coordination, and power-flow study work are not generalist engineering. They take years of supervised practice to reach the licensure and the judgment a utility will actually sign. That workforce is old. A large share of US utility engineers and journeyman line workers sit within a decade of retirement, and university power-systems enrollment thinned for a generation while talent flowed to software and chips. You cannot compress the training. The constraint is a human career, which is exactly the property that makes a bottleneck bind for ten years rather than for one quarter.</p>
+
+  <div class="field"><span class="k">Why it is pre-consensus</span>
+  Our own near-term map is full of the hardware that gates the grid: electrical steel, switchgear, transformers, copper. Capital follows the hardware because it is countable and ownable. Labor sits upstream of every megawatt installed and is far harder to securitize, so it gets ignored. When a project stalls because there is no protection engineer free to finish the study, it surfaces as a generic engineering delay, never as a priced shortage of a specific skill.</div>
+
+  <div class="field"><span class="k">The needle</span>
+  The premium accrues to whoever holds or can certify the skill: specialized power-engineering consultancies, EPCs with deep in-house HV benches, and the training pipeline itself. The same scarcity is the strongest forcing function for AI-assisted design tools that let one scarce engineer do the work of several.</div>
+
+  <div class="field"><span class="k">Leading metric</span>
+  Real wage growth and vacancy rate for power-systems engineers and HV technicians against general engineering. Count of grid and datacenter interconnection projects that publicly cite engineering or labor, not equipment, as the binding cause of a slip.</div>
+
+  <div class="field"><span class="k">Kill-criterion</span>
+  AI design automation, immigration, and a training boom lift effective supply enough that the wage premium flattens through 2032 and no major project names labor as the binding slip.</div>
+
+  <div class="why"><span class="k">Why this call over another metal</span>
+  I picked labor over yet another critical mineral because it is the one input in the whole electrification chain that capital cannot expand on any timescale shorter than a working life. That is what separates a decade-long constraint from a passing one. Metals can be mined, recycled, or substituted under a high enough price. A seasoned protection engineer cannot be produced on that schedule at any price.</div>
+</section>
+
+<!-- ===================== L2 ===================== -->
+<section class="thesis">
+  <div class="thesis-head"><h2 style="border:0;margin:0;padding:0">L2 &middot; Ordinary helium is the resource that leaves and does not come back</h2><span class="id">L2</span></div>
+  <p class="muted small">The boom: helium recapture infrastructure and high-grade reserves &middot; Domain: critical materials</p>
+
+  <div class="prob-band">
+    <div class="prob-card vision"><div class="label">Directional vision</div><div class="val">65%</div></div>
+    <div class="prob-card clause"><div class="label">Strict clause</div><div class="val">52%</div></div>
+    <div class="prob-card date"><div class="label">Resolves</div><div class="val sm">2032-12-31</div></div>
+  </div>
+
+  <p>Helium-4 is non-renewable in the literal sense. It forms through radioactive decay over geologic time, collects only in particular gas reservoirs, and once it is released it rises and escapes the atmosphere into space. You cannot manufacture it at scale. The demand side is dominated by uses with no substitute: cryogenic cooling for MRI machines and superconducting magnets, purge and carrier gas in semiconductor fabs, leak detection, and rocket tank pressurization. Each of those grows with healthcare, chips, and launch. Supply is a byproduct of a shrinking set of helium-rich gas fields plus a handful of dedicated projects. A finite, irreplaceable input feeding inelastic and compounding demand is the cleanest long-horizon scarcity setup there is.</p>
+
+  <div class="field"><span class="k">Why it is generally unknown</span>
+  By dollar value it is a small market, a few billion, well below the threshold where commodity desks that track lithium and copper bother to model it. It only becomes visible during an acute shortage, then drops out of view the moment a new source ramps. That on-off attention is itself the reason the structural story stays unpriced between spikes.</div>
+
+  <div class="field"><span class="k">Honest price channel</span>
+  Helium went through an acute shortage from 2021 to 2023, then prices softened across 2024 and 2025 as Russia's Amur plant ramped and the US federal reserve sell-off finished. So it is not tight right now. This is not a call that today's price re-spikes tomorrow. It is a call that the decade re-tightens as demand compounds against a thin source base, and that the durable winner is the conservation and recapture layer that turns rigid demand elastic, alongside equity in the few high-concentration reserves.</div>
+
+  <div class="field"><span class="k">Leading metric</span>
+  Bulk liquid helium contract price against a 2020 baseline. Share of large-user demand served by on-site recapture and recycling. Recurrence of allocation or force-majeure events.</div>
+
+  <div class="field"><span class="k">Kill-criterion</span>
+  Amur, Qatar, and Tanzania's Rukwa field collectively oversupply and the real price stays flat through 2032, or recapture spreads so widely that demand becomes elastic enough to cap the price for good.</div>
+
+  <div class="why"><span class="k">Why this over the He-3 call we already run</span>
+  The near-term map already carries helium-3 for quantum cryogenics. I chose ordinary helium for the long horizon because its demand base is larger and more diversified, and its irreversibility argument is cleaner, since the gas is physically lost to space rather than merely consumed. That raises decade-scale conviction even while the near-term price is soft, which is exactly why the vision number sits above the clause number here.</div>
+</section>
+
+<!-- ===================== L3 ===================== -->
+<section class="thesis">
+  <div class="thesis-head"><h2 style="border:0;margin:0;padding:0">L3 &middot; Phosphorus is essential, substitute-free, and geographically captured</h2><span class="id">L3</span></div>
+  <p class="muted small">The boom: phosphorus recovery and exposure to reserve pricing power &middot; Domain: agriculture / materials</p>
+
+  <div class="prob-band">
+    <div class="prob-card vision"><div class="label">Directional vision</div><div class="val">70%</div></div>
+    <div class="prob-card clause"><div class="label">Strict clause</div><div class="val">50%</div></div>
+    <div class="prob-card date"><div class="label">Resolves</div><div class="val sm">2033-12-31</div></div>
+  </div>
+
+  <p>Phosphorus is an element that every crop on earth needs and nothing can replace. It is mined as phosphate rock, and the economically meaningful reserves are extraordinarily concentrated, with Morocco and the territory it controls holding the majority of the world total through a single state producer. Energy has alternatives. Phosphorus does not. You either mine new rock or you recover the phosphorus already circulating in manure, wastewater, and sludge. Across a decade, the depletion of the cheapest deposits, the concentration of pricing power in one holder, and tightening rules on cadmium and on nutrient runoff push phosphorus recovery from a niche into an industry, and hand the reserve holder durable rent.</p>
+
+  <div class="field"><span class="k">Why it is pre-consensus</span>
+  Food security is not financialized the way energy is. Peak phosphorus lives in academic papers and NGO reports, not on trading screens. Our near-term map carries the phosphogypsum disposal angle, which is the downstream waste constraint. This is the distinct upstream story: reserve concentration and the recovery industry that rising rock prices force into being.</div>
+
+  <div class="field"><span class="k">Honest price channel</span>
+  Phosphate and DAP spiked in 2022 on gas prices, the Ukraine shock, and export limits, then fell back. The structural concentration did not move. This call is not the 2022 spike repeating. It is a rising floor plus the emergence of a recovery industry as the durable consequence.</div>
+
+  <div class="field"><span class="k">Leading metric</span>
+  Real DAP and rock price floor against 2020. Count of mandated or commercial phosphorus-recovery facilities, with EU nutrient rules acting as a forcing function. The dominant holder's share of internationally traded rock.</div>
+
+  <div class="field"><span class="k">Kill-criterion</span>
+  Large new low-cost reserves get developed outside the dominant holder, or recovery scales fast enough to cap the rock price floor through 2033.</div>
+
+  <div class="why"><span class="k">Why this call earned a place</span>
+  Phosphorus is the rare resource that is essential, substitute-free, and captured by geography all at once. That is the textbook setup for durable rent, and yet it is almost absent from investment narratives, which is precisely the pre-consensus gap this work is meant to find.</div>
+</section>
+
+<!-- ===================== L4 ===================== -->
+<section class="thesis">
+  <div class="thesis-head"><h2 style="border:0;margin:0;padding:0">L4 &middot; The robot demand that is fixed by biology, not by adoption curves</h2><span class="id">L4</span></div>
+  <p class="muted small">The boom: physical-assist robotics cleared for human contact &middot; Domain: robotics / demographics</p>
+
+  <div class="prob-band">
+    <div class="prob-card vision"><div class="label">Directional vision</div><div class="val">80%</div></div>
+    <div class="prob-card clause"><div class="label">Strict clause</div><div class="val">45%</div></div>
+    <div class="prob-card date"><div class="label">Resolves</div><div class="val sm">2033-12-31</div></div>
+  </div>
+
+  <p>The demand here is already determined. Everyone who will be over 75 in 2035 is alive today, and the working-age cohorts who would care for them are already too small in Japan, Korea, China, Germany, and Italy. Caregiving is physical labor that does not scale with software. The gap between care hours needed and caregivers available widens every year no matter what policy does. The only escape valve that can absorb physical labor is a machine that can safely touch a frail human body. So the binding constraint is not the robot's intelligence. It is certification and control for safe physical human contact, which connects straight to the tactile-skin and force-control sub-component needles our near-term map already tracks.</p>
+
+  <div class="field"><span class="k">Why it is pre-consensus</span>
+  Humanoid robotics is narrated as factory and warehouse labor, the Optimus and Figure story. That market is real but contested and cyclical. The eldercare market is larger, more inelastic, and demographically guaranteed, yet capital underweights it because it is gated by a harder problem, the safety of physical contact with a vulnerable person.</div>
+
+  <div class="field"><span class="k">The needle</span>
+  Physical-assist robots cleared for patient contact, the certification and standards layer that gates them, and the force and tactile control stack underneath.</div>
+
+  <div class="field"><span class="k">Leading metric</span>
+  Caregiver vacancy ratio in Japan and Korea. Count of physical-assist robots with medical-device clearance for patient contact. The first reimbursement codes that pay for them.</div>
+
+  <div class="field"><span class="k">Kill-criterion</span>
+  Immigration and wage solutions fill the caregiving gap, or contact-safety certification stalls so that deployed machines stay non-contact through 2033.</div>
+
+  <div class="why"><span class="k">Why this over the factory-robot framing</span>
+  Of all the demand stories told about robots, eldercare is the one whose size is fixed by biology rather than by an adoption curve. That makes the long-horizon floor unusually firm. The open question is purely when certification catches up, not whether the demand exists, which is why the vision number is high and the clause number, pinned to a cleared and reimbursed market by 2033, is the cautious one.</div>
+</section>
+
+<!-- ===================== L5 ===================== -->
+<section class="thesis">
+  <div class="thesis-head"><h2 style="border:0;margin:0;padding:0">L5 &middot; If carbon storage scales at all, the rent moves to the hole in the ground</h2><span class="id">L5</span></div>
+  <p class="muted small">The boom: permitted pore space and the verification layer &middot; Domain: climate infrastructure</p>
+
+  <div class="prob-band">
+    <div class="prob-card vision"><div class="label">Directional vision</div><div class="val">55%</div></div>
+    <div class="prob-card clause"><div class="label">Strict clause</div><div class="val">40%</div></div>
+    <div class="prob-card date"><div class="label">Resolves</div><div class="val sm">2032-12-31</div></div>
+  </div>
+
+  <p>If durable carbon storage scales this decade at all, whether for fossil capture, blue hydrogen, or engineered removal, the molecules have to go somewhere permanent. That somewhere is geologic pore space, reached through permitted injection wells, with measurement and monitoring to prove the carbon stays put. Pore space is location-fixed, finite per basin, and slow to permit. It is a fundamentally different asset from capture technology, which is mobile and gets cheaper with every iteration. As capture cost falls, the binding constraint and the rent migrate to verified, permitted storage. The part of the system that improves is not the part that is scarce.</p>
+
+  <div class="field"><span class="k">Why it is pre-consensus</span>
+  Capital prices the capture startups, the direct-air and point-source names with visible technology. Pore space, the Class VI permit backlog, and the monitoring and verification layer are invisible and unglamorous, and yet they are the physically inelastic link. The glamour and the scarcity sit in different places, which is the whole opportunity.</div>
+
+  <div class="field"><span class="k">Honest caveat</span>
+  This thesis is conditional. It depends on a durable storage and removal market actually materializing through policy and voluntary demand. If that demand stays small, pore space never binds and the call simply does not trigger. That conditionality is the reason the unconditional vision number is the lowest of the high-vision group, at 55%.</div>
+
+  <div class="field"><span class="k">Leading metric</span>
+  Class VI permits issued against permits applied for, the EPA backlog. The emergence of storage-only contracts priced separately from capture. Pore-space lease prices.</div>
+
+  <div class="field"><span class="k">Kill-criterion</span>
+  Durable removal demand stays negligible through 2032 so pore space never binds, or permitting accelerates so sharply that storage stays abundant and cheap.</div>
+
+  <div class="why"><span class="k">Why this call earned a place despite the caveat</span>
+  It is the cleanest example in the set of a constraint that has not migrated yet but almost certainly will the moment the sector grows, and naming that migration early is the pre-consensus move. I flagged it as demand-conditional on the page so it is bought with eyes open rather than oversold.</div>
+</section>
+
+<!-- ===================== L6 ===================== -->
+<section class="thesis">
+  <div class="thesis-head"><h2 style="border:0;margin:0;padding:0">L6 &middot; The energy wall forces a change of substrate, not just better chips</h2><span class="id">L6</span></div>
+  <p class="muted small">The boom: analog-in-memory and photonic compute talent and process &middot; Domain: AI compute</p>
+
+  <div class="prob-band">
+    <div class="prob-card vision"><div class="label">Directional vision</div><div class="val">70%</div></div>
+    <div class="prob-card clause"><div class="label">Strict clause</div><div class="val">35%</div></div>
+    <div class="prob-card date"><div class="label">Resolves</div><div class="val sm">2033-12-31</div></div>
+  </div>
+
+  <p>AI compute demand is on a path that meets a primary-energy and heat ceiling this decade. You cannot keep multiplying digital CMOS operations against a fixed power envelope forever. Physics eventually forces efficiency rather than brute scale, from the Landauer floor on irreversible computation up through the very real power wall that sits well above it. The physically unbounded escape is a move to substrates that compute at far lower energy per operation: analog in-memory compute, photonic compute, and eventually reversible architectures. The scarce input there is not capital. It is the narrow pool of talent and the process maturity for computing that is not built on the von Neumann digital template.</p>
+
+  <div class="field"><span class="k">Why it is pre-consensus</span>
+  The consensus answer to the power wall is more GPUs, more power, more nuclear. That extends the digital curve. The structural-physics reading is that efficiency, not generation, is the only lever that scales without bound, and that forces a change of substrate rather than just a better chip on the same substrate. Almost no one is pricing a substrate transition.</div>
+
+  <div class="field"><span class="k">The needle</span>
+  Talent, IP, and foundry process for analog-in-memory and photonic compute. The first production inference workload served on a non-digital substrate at scale.</div>
+
+  <div class="field"><span class="k">Leading metric</span>
+  Share of frontier inference served on non-digital-CMOS substrates. Venture funding and patent concentration in analog and photonic compute. The first hyperscaler production deployment.</div>
+
+  <div class="field"><span class="k">Kill-criterion</span>
+  Digital CMOS plus advanced packaging keeps improving energy efficiency fast enough, through 3D stacking, sub-threshold operation, and better dataflow, that analog and optical compute stay niche through 2033.</div>
+
+  <div class="why"><span class="k">Why the numbers are the lowest in the set</span>
+  This is the most speculative of the six and it is priced that way on purpose. It earns a place because the constraint is set by thermodynamics rather than by a market, which makes the <em>direction</em> unusually robust. But the history of post-digital compute is a history of slipped timelines and false dawns, so the specific winning substrate and the specific date are genuinely open. The vision number says the wall is real. The clause number says do not bet the calendar.</div>
+</section>
+
+<!-- ===================== RUNNER-UPS + TRACKING ===================== -->
+<section class="page-break">
+<h2>Seeds considered and not promoted</h2>
+<p>Four more cleared the physical-constraint test but failed on investability or on the price channel, so they sit below the line rather than in the six. They are logged here because the discipline is to surface them, not to bury what was cut.</p>
+<table>
+  <thead><tr><th style="width:24%">Seed</th><th style="width:40%">Physical case</th><th style="width:36%">Why not promoted</th></tr></thead>
+  <tbody>
+    <tr><td>Construction and high-purity <strong>sand</strong></td><td>Second most extracted material after water, depleting near demand centers; usable grades are specific.</td><td>Hard to financialize and locally substitutable, so the rent does not concentrate cleanly.</td></tr>
+    <tr><td>Deep-sea <strong>polymetallic nodules</strong></td><td>Among the few scalable new sources of several battery and alloy metals.</td><td>Gated by regulation and litigation rather than physics, so the timing is a coin toss on courts, not on geology.</td></tr>
+    <tr><td>Novel <strong>antibiotic</strong> classes</td><td>Resistance rising under selection pressure is close to certain; the natural-product chemical space is thinning.</td><td>The problem is near-certain but the investable side is broken at the economic model, so it needs a policy pull first.</td></tr>
+    <tr><td>Low-grade <strong>waste-heat rejection</strong></td><td>Datacenter siting eventually bounded by where you can dump low-grade heat into a warming environment.</td><td>Overlaps the near-term cooling and water calls already in the map; not distinct enough yet.</td></tr>
+  </tbody>
+</table>
+
+<h2>How to read and track these</h2>
+<p>Each call is a forward instrument, not a forecast for entertainment. The rules are the same ones that govern the near-term map. The resolution date and the kill-criterion are fixed at creation and never edited. If the world changes the view, the call is superseded with a new dated entry, not quietly rewritten. At resolution the clause probability is scored with Brier against the actual outcome, which is the only thing that keeps the record honest over time.</p>
+<p>The two leading metrics worth wiring into a live feed first, because they move earliest and are cleanly measurable, are the power-engineering wage premium for L1 and the Class VI permit backlog for L5. Both are public, both update quarterly, and both would give an early read on whether the constraint is starting to bind on schedule.</p>
+<p class="footer-note">Companion document to FUTURE_MAP.md. Wide-pool candidates, generated 2026-06-14, pending the adversarial refute pass that hardened the near-term tier. Directional conviction is stated separately from the strict-clause odds precisely so the two are never confused.</p>
+</section>
+
+</body>
+</html>

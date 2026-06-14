@@ -1,0 +1,70 @@
+{
+  "title": "The long-horizon tier",
+  "subtitle": "Six decade-scale calls where physics or demography makes the trajectory close to inevitable, while capital is still looking elsewhere.",
+  "domain": "cross-sector / 2032-2033",
+  "date": "2026-06-14",
+  "horizon": "2032 to 2033",
+  "synthesis": "Across all six the rent sits one layer below where capital is looking, on an input that cannot be expanded with money on the relevant timescale because the limit is an element, a reservoir, a human career, or a law of thermodynamics. The market prices the visible hardware; the binding constraint is the inelastic thing each buildout has to pass through to become real.",
+  "theses": [
+    {
+      "id": "L1", "headline": "The grid runs out of people before it runs out of steel",
+      "boom": "Power-systems engineering talent and the firms that hold it",
+      "vision_p": 85, "clause_p": 60, "resolves": "2032-12-31",
+      "needle": "Senior power-systems engineers and high-voltage technicians. A career to train, a generation of lost enrollment; capital cannot expand it on any timescale shorter than a working life.",
+      "metric": "Real wage growth and vacancy rate for power-systems engineers vs general engineering; grid and datacenter projects that publicly cite labor, not equipment, as the binding slip cause.",
+      "kill": "AI design automation, immigration, and a training boom flatten the wage premium through 2032 and no major project names labor as the binding slip.",
+      "pre_consensus": "Every electrification thesis prices the countable hardware (steel, switchgear, copper). Labor sits upstream of every megawatt and is far harder to securitize, so it is ignored.",
+      "why": "Labor is the one input in the electrification chain that capital cannot expand on any timescale shorter than a career. That is what makes a constraint bind for a decade rather than a quarter."
+    },
+    {
+      "id": "L2", "headline": "Helium-4 is the resource that leaves and does not come back",
+      "boom": "Helium recapture infrastructure and high-grade reserves",
+      "vision_p": 65, "clause_p": 52, "resolves": "2032-12-31",
+      "needle": "Helium-rich gas reservoirs plus conservation and recapture infrastructure. A non-renewable byproduct of a shrinking source base, physically lost to space when vented.",
+      "metric": "Bulk liquid-helium contract price vs a 2020 baseline; share of large-user demand on on-site recapture; recurrence of allocation events.",
+      "kill": "Amur, Qatar, and Tanzania's Rukwa field oversupply and the real price stays flat through 2032, or recapture makes demand elastic enough to cap the price.",
+      "price_channel": "Helium spiked in 2021 to 2023 then softened in 2024 to 2025 as Amur ramped, so it is not tight today. The bet is structural re-tightening across the decade, not a near-term spike.",
+      "why": "Helium-4 has a larger, more diversified demand base than the He-3 call already on the map, and a cleaner irreversibility argument: the gas is physically lost to space, not merely consumed."
+    },
+    {
+      "id": "L3", "headline": "Phosphorus is essential, substitute-free, and geographically captured",
+      "boom": "Phosphorus recovery and exposure to reserve pricing power",
+      "vision_p": 70, "clause_p": 50, "resolves": "2033-12-31",
+      "needle": "Sedimentary phosphate reserves, roughly 70% held by one producer. An element every crop needs and nothing can replace; the only escape is recovery from manure and wastewater.",
+      "metric": "Real DAP and rock price floor vs 2020; count of mandated or commercial phosphorus-recovery facilities; the dominant holder's share of internationally traded rock.",
+      "kill": "Large new low-cost reserves develop outside the dominant holder, or recovery scales fast enough to cap the rock price floor through 2033.",
+      "price_channel": "Phosphate spiked in 2022 then fell back; the structural concentration did not move. This is a rising floor plus a recovery industry, not the 2022 spike repeating.",
+      "why": "Phosphorus is the rare resource that is essential, substitute-free, and captured by geography at once: the textbook setup for durable rent, yet almost absent from investment narratives."
+    },
+    {
+      "id": "L4", "headline": "The robot demand fixed by biology, not by adoption curves",
+      "boom": "Physical-assist robotics cleared for human contact",
+      "vision_p": 80, "clause_p": 45, "resolves": "2033-12-31",
+      "needle": "Physical human-contact care hours. The over-75 cohort of 2035 is already alive and the caregivers are already too few; the gated escape is robotics certified for safe physical contact.",
+      "metric": "Caregiver vacancy ratio in Japan and Korea; count of physical-assist robots with medical-device clearance for patient contact; the first reimbursement codes.",
+      "kill": "Immigration and wage solutions fill the caregiving gap, or contact-safety certification stalls so deployed machines stay non-contact through 2033.",
+      "pre_consensus": "Humanoid robotics is narrated as factory and warehouse labor. The eldercare market is larger, more inelastic, and demographically guaranteed, but gated by the harder problem of safe physical contact.",
+      "why": "Of all robot demand, eldercare is the one whose size is fixed by biology rather than an adoption curve. The open question is when certification catches up, not whether the demand exists."
+    },
+    {
+      "id": "L5", "headline": "If carbon storage scales at all, the rent moves to the hole in the ground",
+      "boom": "Permitted geologic pore space and the verification layer",
+      "vision_p": 55, "clause_p": 40, "resolves": "2032-12-31",
+      "needle": "Permitted, location-fixed geologic pore space plus measurement and verification. Finite per basin and slow to permit, and a fundamentally different asset from the capture technology that keeps getting cheaper.",
+      "metric": "Class VI permits issued vs applied (the EPA backlog); storage-only contracts priced separately from capture; pore-space lease prices.",
+      "kill": "Durable removal demand stays negligible through 2032 so pore space never binds, or permitting accelerates so sharply that storage stays abundant and cheap.",
+      "price_channel": "Conditional on a durable storage market materializing through policy and voluntary demand. If that demand stays small, pore space never binds; that conditionality is the haircut on the vision number.",
+      "why": "It is the cleanest example of a constraint that has not migrated yet but almost certainly will the moment the sector grows. Flagged as demand-conditional so it is bought with eyes open."
+    },
+    {
+      "id": "L6", "headline": "The energy wall forces a change of substrate, not just better chips",
+      "boom": "Analog-in-memory and photonic compute talent and process",
+      "vision_p": 70, "clause_p": 35, "resolves": "2033-12-31",
+      "needle": "Talent, IP, and foundry process for non-digital compute substrates. The scarce input is the narrow pool that can build analog-in-memory and photonic compute, not capital.",
+      "metric": "Share of frontier inference on non-digital-CMOS substrates; venture and patent concentration in analog and photonic compute; the first hyperscaler production deployment.",
+      "kill": "Digital CMOS plus advanced packaging keeps improving energy efficiency fast enough (3D stacking, sub-threshold, better dataflow) that analog and optical stay niche through 2033.",
+      "pre_consensus": "The consensus answer to the power wall is more GPUs, more power, more nuclear, which extends the digital curve. Almost no one prices a substrate transition.",
+      "why": "The most speculative of the six, priced that way. The constraint is set by thermodynamics rather than a market, so the direction is robust even though the winning substrate and date are open."
+    }
+  ]
+}
