@@ -32,6 +32,114 @@ body {
    black void; the heading + copy carry the section on their own. */
 .performance_vid_wrap { display: none !important; }
 
+/* Solutions section contrast fix. The section background is dark (dark-900) and
+   its photos are dark night/data scenes, but the cloned theme resolved the
+   section text color to the near-black button-text token (#1a1206), so the
+   heading, swiper labels, and card copy were nearly invisible. The section sets
+   no color on its descendants, so one light color on the wrapper repairs the
+   heading, cards, and labels by inheritance. */
+.solutions_wrap { color: var(--swatch--light-100); }
+.solutions_wrap .c-heading,
+.solutions_wrap .solutions-card-title,
+.solutions_wrap .solutions-card-text,
+.solutions_wrap .solutions-swiper-text-1,
+.solutions_wrap .solutions-swiper-text-2 { color: var(--swatch--light-100); }
+/* The right-hand card box sits on brand indigo; deepen it slightly so the 14px
+   description clears AA contrast against the white text. */
+.solutions_wrap .solutions-card-box { background-color: var(--swatch--brand-600); }
+
+/* Forward-calls homepage section: PDF cards for the long-horizon tier and the
+   sector boards. Light section (inherits the paper theme), so dark ink on white
+   cards. Styled with the site's design tokens to read as native. */
+.vati-calls-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: clamp(16px, 1.6vw, 24px);
+}
+@media (max-width: 860px) { .vati-calls-grid { grid-template-columns: 1fr; } }
+.vati-call-card {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: clamp(20px, 2vw, 28px);
+  border: 1px solid var(--swatch--dark-900-o12);
+  border-radius: 16px;
+  background: var(--swatch--light-100);
+  color: var(--swatch--dark-800);
+  text-decoration: none;
+  transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease;
+}
+.vati-call-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 14px 40px rgba(12, 11, 16, .10);
+  border-color: var(--swatch--brand-500);
+  text-decoration: none;
+}
+.vati-call-tag {
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: var(--swatch--brand-500);
+}
+.vati-call-title {
+  font-size: clamp(18px, 1.4vw, 21px);
+  font-weight: 500;
+  line-height: 1.2;
+  color: var(--swatch--dark-900);
+}
+.vati-call-text {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--swatch--dark-800);
+}
+.vati-call-cta {
+  margin-top: auto;
+  font-weight: 500;
+  color: var(--swatch--brand-500);
+}
+.vati-calls-footer { margin-top: clamp(24px, 2.4vw, 36px); }
+.vati-calls-all {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--swatch--brand-500);
+  text-decoration: none;
+}
+.vati-calls-all:hover { text-decoration: underline; }
+
+/* Data-layer stat grid (research section). Same card family as the forward-calls
+   cards, tuned for short stat + label. Replaces the old product-screenshot demo. */
+.vati-dl-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: clamp(14px, 1.4vw, 20px);
+}
+@media (max-width: 860px) { .vati-dl-grid { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 540px) { .vati-dl-grid { grid-template-columns: 1fr; } }
+.vati-dl-card {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: clamp(18px, 1.8vw, 24px);
+  border: 1px solid var(--swatch--dark-900-o12);
+  border-radius: 16px;
+  background: var(--swatch--light-100);
+}
+.vati-dl-num {
+  font-size: clamp(22px, 2vw, 30px);
+  font-weight: 500;
+  line-height: 1.05;
+  letter-spacing: -0.01em;
+  color: var(--swatch--brand-500);
+}
+.vati-dl-label {
+  font-size: 13.5px;
+  line-height: 1.5;
+  color: var(--swatch--dark-800);
+}
+
 /* Mobile nav menu — Webflow's collapse JS isn't bundled, so SiteRuntime toggles
    `.is-open`. The panel is anchored under the bar (top set inline) so the logo and
    hamburger stay tappable to close. */

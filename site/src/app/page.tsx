@@ -8,8 +8,8 @@ export default function Home() {
       <main className="page_main" id="main">
         <RawSection name="hero" />
         <RawSection name="sampleqs" />
-        <RawSection name="research" />
         <RawSection name="forecasts" />
+        <RawSection name="research" />
         <RawSection name="solutions" />
         <RawSection name="usecases" />
         <RawSection name="product" />
