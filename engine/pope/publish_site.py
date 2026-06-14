@@ -79,7 +79,7 @@ a{color:var(--brand-deep);text-decoration:none;}
 a:hover{text-decoration:underline;}
 .wrap{max-width:1120px;margin:0 auto;padding:0 24px;}
 
-/* announcement bar + nav — echoes the site chrome */
+/* announcement bar + nav, echoes the site chrome */
 .banner{background:var(--dark);color:var(--paper);text-align:center;padding:9px 16px;}
 .banner a{color:var(--paper);font-family:'Gt Standard Mono',monospace;font-weight:500;text-transform:uppercase;letter-spacing:.16em;font-size:11px;}
 .banner a:hover{text-decoration:none;color:#fff;}
@@ -185,7 +185,7 @@ def _card(t):
 
 def _board(spec, pdf):
     cards = "".join(_card(t) for t in spec["theses"])
-    dl = f'<a class="dl" href="{pdf}">Download the full board PDF &mdash; sources &amp; refute notes &darr;</a>'
+    dl = f'<a class="dl" href="{pdf}">Download the full board PDF, with sources and refute notes &darr;</a>'
     return f"""<section class="board"><div class="wrap">
   <div class="eyebrow">{_inline(spec.get('domain','')[:60])}</div>
   <h2>{_inline(spec.get('title',''))}</h2>
@@ -215,7 +215,7 @@ def build_page(specs_pdfs, date):
 </div></section>"""
     return f"""<!DOCTYPE html><html lang="en"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Forward calls — Vaticinus</title>
+<title>Forward calls · Vaticinus</title>
 <meta name="description" content="Dated, falsifiable, pre-consensus forward structural calls: where scarcity and value migrate next, given physical and demographic constraints.">
 <style>{CSS}</style></head><body>
 <div class="banner"><a href="/#research">The sealed forecast record <span class="dot">&middot;</span> see the calls</a></div>
@@ -230,7 +230,7 @@ def build_page(specs_pdfs, date):
 </div></div></header>
 <section class="hero"><div class="wrap">
   <div class="eyebrow">Forward calls &middot; pre-consensus &middot; calibrated &middot; falsifiable</div>
-  <h1>Where scarcity migrates next</h1>
+  <h1>Where scarcity moves next</h1>
   <p>{n_calls} dated forward structural calls across {len(specs_pdfs)} boards. Each names the inelastic input that captures the rent before pricing catches up, with the date and the test that would prove it wrong.</p>
 </div></section>
 {method}

@@ -48,9 +48,10 @@ body {
    description clears AA contrast against the white text. */
 .solutions_wrap .solutions-card-box { background-color: var(--swatch--brand-600); }
 
-/* Forward-calls homepage section: PDF cards for the long-horizon tier and the
-   sector boards. Light section (inherits the paper theme), so dark ink on white
-   cards. Styled with the site's design tokens to read as native. */
+/* Forward-calls homepage section. Dark "ticket" cards on the light section so
+   they pop and read as clickable, echoing the hero tiles and the "calls we got
+   right" tickets: a tag, the board title, a flagship call, and our read as a big
+   indigo number. */
 .vati-calls-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -60,44 +61,85 @@ body {
 .vati-call-card {
   display: flex;
   flex-direction: column;
-  gap: 12px;
-  padding: clamp(20px, 2vw, 28px);
-  border: 1px solid var(--swatch--dark-900-o12);
-  border-radius: 16px;
-  background: var(--swatch--light-100);
-  color: var(--swatch--dark-800);
+  gap: 14px;
+  padding: clamp(22px, 2vw, 28px);
+  border: 1px solid rgba(255, 255, 255, .10);
+  border-radius: 18px;
+  background: linear-gradient(165deg, #17141f, #0c0b10);
+  color: #fff;
   text-decoration: none;
   transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease;
 }
 .vati-call-card:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 14px 40px rgba(12, 11, 16, .10);
+  transform: translateY(-4px);
+  box-shadow: 0 18px 50px rgba(12, 11, 16, .30);
   border-color: var(--swatch--brand-500);
   text-decoration: none;
 }
+.vati-call-head { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
 .vati-call-tag {
   font-size: 12px;
   font-weight: 500;
   letter-spacing: .12em;
   text-transform: uppercase;
-  color: var(--swatch--brand-500);
+  color: #a9a6ff;
+}
+.vati-call-count {
+  font-size: 12px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, .45);
+  font-variant-numeric: tabular-nums;
 }
 .vati-call-title {
-  font-size: clamp(18px, 1.4vw, 21px);
+  font-size: clamp(19px, 1.5vw, 22px);
   font-weight: 500;
   line-height: 1.2;
-  color: var(--swatch--dark-900);
+  color: #fff;
 }
 .vati-call-text {
   margin: 0;
   font-size: 14px;
-  line-height: 1.6;
-  color: var(--swatch--dark-800);
+  line-height: 1.55;
+  color: rgba(255, 255, 255, .62);
 }
+.vati-call-feature {
+  margin-top: 2px;
+  padding: 14px 16px;
+  border: 1px solid rgba(255, 255, 255, .10);
+  border-radius: 12px;
+  background: rgba(255, 255, 255, .03);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.vati-call-feature-label {
+  font-size: 10.5px;
+  font-weight: 500;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, .45);
+}
+.vati-call-feature-q {
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.35;
+  font-weight: 500;
+  color: #fff;
+}
+.vati-call-feature-read { display: flex; align-items: baseline; gap: 10px; }
+.vati-call-pct {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1;
+  color: #6d6afc;
+  font-variant-numeric: tabular-nums;
+}
+.vati-call-pct-label { font-size: 12px; color: rgba(255, 255, 255, .5); }
 .vati-call-cta {
   margin-top: auto;
+  font-size: 14px;
   font-weight: 500;
-  color: var(--swatch--brand-500);
+  color: #a9a6ff;
 }
 .vati-calls-footer { margin-top: clamp(24px, 2.4vw, 36px); }
 .vati-calls-all {
@@ -138,6 +180,12 @@ body {
   font-size: 13.5px;
   line-height: 1.5;
   color: var(--swatch--dark-800);
+}
+
+/* Hero title on small screens: cap the size so "Forecasting where / scarcity
+   moves next" holds two lines instead of wrapping to four. */
+@media (max-width: 600px) {
+  #heroh1, #heroh1 p { font-size: 32px !important; line-height: 1.08 !important; }
 }
 
 /* Mobile nav menu — Webflow's collapse JS isn't bundled, so SiteRuntime toggles

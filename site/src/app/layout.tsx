@@ -2,17 +2,13 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 const DESC =
-  "Vaticinus is a leak-free forecasting instrument. Vati calls where scarcity and value move next, locks each call to a dated metric, and grades itself in public against a record you can check.";
+  "Vaticinus reads millions of research papers, trade flows, and supply records to forecast where scarcity moves next. A deep-research engine and a forecasting model we train ourselves. Every call gets a date, a kill-criterion, and a score in public.";
 
-const TITLE = "Vaticinus: forecasts that grade themselves";
+const TITLE = "Vaticinus: forecasting where scarcity moves next";
 
 export const metadata: Metadata = {
   title: TITLE,
   description: DESC,
-  icons: {
-    icon: "/images/689073a51834398fcd983a0f_favicon.png",
-    apple: "/images/689073a8ce04467464065e9a_webclip.png",
-  },
   openGraph: {
     title: TITLE,
     description: DESC,
