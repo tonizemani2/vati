@@ -1,43 +1,51 @@
 <!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><title>Where the constraint migrates in biotech: finite atoms and human donors that capital cannot replicate</title><style>
+  @font-face{font-family:'Gt Standard';font-weight:400;font-style:normal;font-display:swap;src:url('https://cdn.prod.website-files.com/68907168d294618a86ec6518/689b297557d89256a5697b72_GT-Standard-L-Standard-Regular.woff2') format('woff2');}
+  @font-face{font-family:'Gt Standard';font-weight:500;font-style:normal;font-display:swap;src:url('https://cdn.prod.website-files.com/68907168d294618a86ec6518/689b2975a12fc701f9f074a9_GT-Standard-L-Standard-Medium.woff2') format('woff2');}
+  @font-face{font-family:'Gt Standard Mono';font-weight:500;font-style:normal;font-display:swap;src:url('https://cdn.prod.website-files.com/68907168d294618a86ec6518/689b29750af0e8f994b5a45e_GT-Standard-Mono-Narrow-Medium.woff2') format('woff2');}
+
+  :root { --paper:#f3f2f0; --ink:#343434; --dark:#0c0b10; --brand:#6d6afc; --brand-deep:#4a47c4; --line:rgba(12,11,16,.14); --mut:#6c6c6c; }
   @page { size: Letter; margin: 22mm 20mm 20mm 20mm;
-    @bottom-center { content: counter(page); font-family: Georgia, serif; font-size: 9pt; color: #8a8f99; } }
+    @bottom-center { content: counter(page); font-family: 'Gt Standard Mono', monospace; font-size: 8.5pt; color: #9a9a9a; } }
   html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
-  body { font-family: Georgia, "Times New Roman", serif; color: #1c2129; line-height: 1.5; font-size: 10.5pt; margin: 0; }
-  h1, h2, h3, h4 { font-family: "Helvetica Neue", Arial, sans-serif; color: #11203a; line-height: 1.2; }
-  h1 { font-size: 23pt; letter-spacing: -0.3px; margin: 0 0 6px; }
-  h2 { font-size: 14.5pt; margin: 26px 0 8px; border-bottom: 1.5px solid #11203a; padding-bottom: 5px; }
-  h3 { font-size: 12.5pt; margin: 20px 0 4px; color: #1a3a6b; }
-  h4 { font-size: 10.5pt; margin: 14px 0 3px; text-transform: uppercase; letter-spacing: 0.6px; color: #5a6472; }
+  body { font-family: 'Gt Standard', Arial, sans-serif; font-weight: 400; color: #343434; line-height: 1.55; font-size: 10.5pt; margin: 0; }
+  h1, h2, h3, h4 { font-family: 'Gt Standard', Arial, sans-serif; font-weight: 500; color: #0c0b10; line-height: 1.12; letter-spacing: -0.01em; }
+  h1 { font-size: 26pt; letter-spacing: -0.02em; margin: 0 0 8px; }
+  h2 { font-size: 15pt; margin: 26px 0 8px; border-bottom: 1.5px solid #0c0b10; padding-bottom: 6px; }
+  h3 { font-size: 12.5pt; margin: 20px 0 4px; color: #0c0b10; }
+  h4 { font-family: 'Gt Standard Mono', monospace; font-size: 9.5pt; margin: 14px 0 3px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--mut); }
   p { margin: 0 0 9px; }
-  .accent { color: #1a3a6b; } .muted { color: #5a6472; } .small { font-size: 9pt; } strong { color: #11203a; }
-  .cover { padding-top: 30mm; border-top: 6px solid #11203a; }
-  .cover .kicker { font-family: "Helvetica Neue", Arial, sans-serif; text-transform: uppercase; letter-spacing: 2px; font-size: 9.5pt; color: #1a3a6b; margin-bottom: 14px; }
-  .cover .sub { font-size: 13pt; color: #3a424e; margin-top: 10px; font-style: italic; }
-  .cover .meta { margin-top: 30mm; font-family: "Helvetica Neue", Arial, sans-serif; font-size: 9.5pt; color: #5a6472; line-height: 1.7; }
-  .cover .spine { margin-top: 16px; padding: 12px 14px; background: #f3f5f8; border-left: 4px solid #1a3a6b; font-size: 9.5pt; }
+  .accent { color: var(--brand-deep); } .muted { color: var(--mut); } .small { font-size: 9pt; } strong { color: #0c0b10; }
+  .cover { padding-top: 30mm; border-top: 6px solid var(--brand); }
+  .cover .kicker { font-family: 'Gt Standard Mono', monospace; font-weight: 500; text-transform: uppercase; letter-spacing: 0.18em; font-size: 9.5pt; color: var(--brand-deep); margin-bottom: 16px; }
+  .cover .sub { font-size: 13pt; color: var(--mut); margin-top: 10px; font-style: italic; }
+  .cover .meta { margin-top: 30mm; font-family: 'Gt Standard Mono', monospace; font-size: 9pt; color: var(--mut); line-height: 1.8; }
+  .cover .spine { margin-top: 16px; padding: 13px 15px; background: var(--paper); border-left: 4px solid var(--brand); border-radius: 0 8px 8px 0; font-size: 9.5pt; }
   .page-break { page-break-before: always; }
   table { border-collapse: collapse; width: 100%; font-size: 9.2pt; margin: 10px 0 14px; }
   th, td { text-align: left; padding: 6px 8px; vertical-align: top; }
-  thead th { background: #11203a; color: #fff; font-family: "Helvetica Neue", Arial, sans-serif; font-weight: 600; font-size: 8.6pt; }
-  tbody tr:nth-child(even) { background: #f3f5f8; }
-  td.num { font-variant-numeric: tabular-nums; white-space: nowrap; }
+  thead th { background: #0c0b10; color: #fff; font-family: 'Gt Standard Mono', monospace; font-weight: 500; font-size: 8.4pt; text-transform: uppercase; letter-spacing: 0.05em; }
+  tbody tr:nth-child(even) { background: var(--paper); }
+  td.num { font-family: 'Gt Standard Mono', monospace; font-variant-numeric: tabular-nums; white-space: nowrap; }
   .thesis { page-break-before: always; }
-  .thesis-head { display: flex; justify-content: space-between; align-items: baseline; border-bottom: 1.5px solid #11203a; padding-bottom: 6px; margin-bottom: 4px; }
+  .thesis-head { display: flex; justify-content: space-between; align-items: baseline; border-bottom: 1.5px solid #0c0b10; padding-bottom: 6px; margin-bottom: 4px; }
   .thesis-head h2 { border: 0; margin: 0; padding: 0; }
-  .thesis-head .id { font-family: "Helvetica Neue", Arial, sans-serif; font-size: 9pt; color: #fff; background: #1a3a6b; padding: 3px 8px; border-radius: 3px; letter-spacing: 1px; }
+  .thesis-head .id { font-family: 'Gt Standard Mono', monospace; font-weight: 500; font-size: 9pt; color: #fff; background: var(--brand); padding: 3px 9px; border-radius: 6px; letter-spacing: 0.08em; }
   .prob-band { display: flex; gap: 10px; margin: 10px 0 14px; }
-  .prob-card { flex: 1; border: 1px solid #d4d9e0; border-radius: 5px; padding: 9px 11px; }
-  .prob-card .label { font-family: "Helvetica Neue", Arial, sans-serif; font-size: 7.6pt; text-transform: uppercase; letter-spacing: 0.8px; color: #5a6472; }
-  .prob-card .val { font-family: "Helvetica Neue", Arial, sans-serif; font-size: 19pt; font-weight: 700; color: #11203a; line-height: 1.1; }
-  .prob-card.vision { background: #eef4ec; border-color: #cfe0c8; }
-  .prob-card.clause { background: #eef1f6; border-color: #cdd6e4; }
+  .prob-card { flex: 1; border: 1px solid var(--line); border-radius: 10px; padding: 10px 12px; }
+  .prob-card .label { font-family: 'Gt Standard Mono', monospace; font-weight: 500; font-size: 7.6pt; text-transform: uppercase; letter-spacing: 0.08em; color: var(--mut); }
+  .prob-card .val { font-family: 'Gt Standard', Arial, sans-serif; font-weight: 500; font-size: 20pt; color: #0c0b10; line-height: 1.1; }
+  .prob-card.vision { background: #edf3ec; border-color: #cfe0c8; }
+  .prob-card.vision .val { color: #2f5a2a; }
+  .prob-card.clause { background: rgba(109,106,252,.10); border-color: rgba(109,106,252,.32); }
+  .prob-card.clause .val { color: var(--brand-deep); }
   .prob-card.date { background: #faf6ee; border-color: #e7dcc4; }
+  .prob-card.date .val { color: #7a611f; }
   .prob-card .val.sm { font-size: 12.5pt; padding-top: 5px; }
   .field { margin: 7px 0; }
-  .field .k { font-family: "Helvetica Neue", Arial, sans-serif; font-size: 8.4pt; text-transform: uppercase; letter-spacing: 0.7px; color: #1a3a6b; display: block; margin-bottom: 1px; }
-  .why { background: #f7f4ec; border-left: 4px solid #b8923a; padding: 9px 12px; margin: 10px 0; }
-  .why .k { color: #8a6d24; }
-  .footer-note { margin-top: 6px; font-size: 8.6pt; color: #8a8f99; }
+  .field .k { font-family: 'Gt Standard Mono', monospace; font-weight: 500; font-size: 8.2pt; text-transform: uppercase; letter-spacing: 0.07em; color: var(--brand-deep); display: block; margin-bottom: 2px; }
+  .why { background: rgba(109,106,252,.07); border-left: 4px solid var(--brand); border-radius: 0 8px 8px 0; padding: 10px 13px; margin: 10px 0; }
+  .why .k { color: var(--brand-deep); }
+  .footer-note { margin-top: 6px; font-family: 'Gt Standard Mono', monospace; font-size: 8.4pt; color: #9a9a9a; }
 </style></head><body><section class="cover">
   <div class="kicker">The Pope System &middot; Pre-Consensus, Calibrated, Falsifiable</div>
   <h1>Where the constraint migrates in biotech: finite atoms and human donors that capital cannot replicate</h1>

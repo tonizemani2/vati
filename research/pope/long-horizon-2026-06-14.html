@@ -1,0 +1,203 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><title>The long-horizon tier</title><style>
+  @font-face{font-family:'Gt Standard';font-weight:400;font-style:normal;font-display:swap;src:url('https://cdn.prod.website-files.com/68907168d294618a86ec6518/689b297557d89256a5697b72_GT-Standard-L-Standard-Regular.woff2') format('woff2');}
+  @font-face{font-family:'Gt Standard';font-weight:500;font-style:normal;font-display:swap;src:url('https://cdn.prod.website-files.com/68907168d294618a86ec6518/689b2975a12fc701f9f074a9_GT-Standard-L-Standard-Medium.woff2') format('woff2');}
+  @font-face{font-family:'Gt Standard Mono';font-weight:500;font-style:normal;font-display:swap;src:url('https://cdn.prod.website-files.com/68907168d294618a86ec6518/689b29750af0e8f994b5a45e_GT-Standard-Mono-Narrow-Medium.woff2') format('woff2');}
+
+  :root { --paper:#f3f2f0; --ink:#343434; --dark:#0c0b10; --brand:#6d6afc; --brand-deep:#4a47c4; --line:rgba(12,11,16,.14); --mut:#6c6c6c; }
+  @page { size: Letter; margin: 22mm 20mm 20mm 20mm;
+    @bottom-center { content: counter(page); font-family: 'Gt Standard Mono', monospace; font-size: 8.5pt; color: #9a9a9a; } }
+  html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  body { font-family: 'Gt Standard', Arial, sans-serif; font-weight: 400; color: #343434; line-height: 1.55; font-size: 10.5pt; margin: 0; }
+  h1, h2, h3, h4 { font-family: 'Gt Standard', Arial, sans-serif; font-weight: 500; color: #0c0b10; line-height: 1.12; letter-spacing: -0.01em; }
+  h1 { font-size: 26pt; letter-spacing: -0.02em; margin: 0 0 8px; }
+  h2 { font-size: 15pt; margin: 26px 0 8px; border-bottom: 1.5px solid #0c0b10; padding-bottom: 6px; }
+  h3 { font-size: 12.5pt; margin: 20px 0 4px; color: #0c0b10; }
+  h4 { font-family: 'Gt Standard Mono', monospace; font-size: 9.5pt; margin: 14px 0 3px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--mut); }
+  p { margin: 0 0 9px; }
+  .accent { color: var(--brand-deep); } .muted { color: var(--mut); } .small { font-size: 9pt; } strong { color: #0c0b10; }
+  .cover { padding-top: 30mm; border-top: 6px solid var(--brand); }
+  .cover .kicker { font-family: 'Gt Standard Mono', monospace; font-weight: 500; text-transform: uppercase; letter-spacing: 0.18em; font-size: 9.5pt; color: var(--brand-deep); margin-bottom: 16px; }
+  .cover .sub { font-size: 13pt; color: var(--mut); margin-top: 10px; font-style: italic; }
+  .cover .meta { margin-top: 30mm; font-family: 'Gt Standard Mono', monospace; font-size: 9pt; color: var(--mut); line-height: 1.8; }
+  .cover .spine { margin-top: 16px; padding: 13px 15px; background: var(--paper); border-left: 4px solid var(--brand); border-radius: 0 8px 8px 0; font-size: 9.5pt; }
+  .page-break { page-break-before: always; }
+  table { border-collapse: collapse; width: 100%; font-size: 9.2pt; margin: 10px 0 14px; }
+  th, td { text-align: left; padding: 6px 8px; vertical-align: top; }
+  thead th { background: #0c0b10; color: #fff; font-family: 'Gt Standard Mono', monospace; font-weight: 500; font-size: 8.4pt; text-transform: uppercase; letter-spacing: 0.05em; }
+  tbody tr:nth-child(even) { background: var(--paper); }
+  td.num { font-family: 'Gt Standard Mono', monospace; font-variant-numeric: tabular-nums; white-space: nowrap; }
+  .thesis { page-break-before: always; }
+  .thesis-head { display: flex; justify-content: space-between; align-items: baseline; border-bottom: 1.5px solid #0c0b10; padding-bottom: 6px; margin-bottom: 4px; }
+  .thesis-head h2 { border: 0; margin: 0; padding: 0; }
+  .thesis-head .id { font-family: 'Gt Standard Mono', monospace; font-weight: 500; font-size: 9pt; color: #fff; background: var(--brand); padding: 3px 9px; border-radius: 6px; letter-spacing: 0.08em; }
+  .prob-band { display: flex; gap: 10px; margin: 10px 0 14px; }
+  .prob-card { flex: 1; border: 1px solid var(--line); border-radius: 10px; padding: 10px 12px; }
+  .prob-card .label { font-family: 'Gt Standard Mono', monospace; font-weight: 500; font-size: 7.6pt; text-transform: uppercase; letter-spacing: 0.08em; color: var(--mut); }
+  .prob-card .val { font-family: 'Gt Standard', Arial, sans-serif; font-weight: 500; font-size: 20pt; color: #0c0b10; line-height: 1.1; }
+  .prob-card.vision { background: #edf3ec; border-color: #cfe0c8; }
+  .prob-card.vision .val { color: #2f5a2a; }
+  .prob-card.clause { background: rgba(109,106,252,.10); border-color: rgba(109,106,252,.32); }
+  .prob-card.clause .val { color: var(--brand-deep); }
+  .prob-card.date { background: #faf6ee; border-color: #e7dcc4; }
+  .prob-card.date .val { color: #7a611f; }
+  .prob-card .val.sm { font-size: 12.5pt; padding-top: 5px; }
+  .field { margin: 7px 0; }
+  .field .k { font-family: 'Gt Standard Mono', monospace; font-weight: 500; font-size: 8.2pt; text-transform: uppercase; letter-spacing: 0.07em; color: var(--brand-deep); display: block; margin-bottom: 2px; }
+  .why { background: rgba(109,106,252,.07); border-left: 4px solid var(--brand); border-radius: 0 8px 8px 0; padding: 10px 13px; margin: 10px 0; }
+  .why .k { color: var(--brand-deep); }
+  .footer-note { margin-top: 6px; font-family: 'Gt Standard Mono', monospace; font-size: 8.4pt; color: #9a9a9a; }
+</style></head><body><section class="cover">
+  <div class="kicker">The Pope System &middot; Pre-Consensus, Calibrated, Falsifiable</div>
+  <h1>The long-horizon tier</h1>
+  <div class="sub">Six decade-scale calls where physics or demography makes the trajectory close to inevitable, while capital is still looking elsewhere.</div>
+  <div class="spine"><strong>Thesis spine:</strong> Frontier &rarr; Capability &rarr; Dependency graph &rarr; Supply elasticity &rarr; Demand &rarr; Capital &rarr; Pricing &rarr; Policy &rarr; Outcomes. Rent accrues to the inelastic input. The edge is naming where the constraint moves before pricing catches up.</div>
+  <div class="meta">
+    Area: cross-sector / 2032-2033 &nbsp;&bull;&nbsp; Horizon: 2032 to 2033<br>
+    Method: generate wide and disruptive, then gate strict. Each call names the needle, not the theme.<br>
+    Two probabilities per call: directional vision, and the strict dated clause scored at resolution.<br>
+    Status: hardened candidates (survived the adversarial refute pass). Drafted 2026-06-14.
+  </div>
+</section>
+<section class="page-break">
+  <h2>The board: 6 hardened calls</h2>
+  <h3>The cross-cutting read</h3><p>Across all six the rent sits one layer below where capital is looking, on an input that cannot be expanded with money on the relevant timescale because the limit is an element, a reservoir, a human career, or a law of thermodynamics. The market prices the visible hardware; the binding constraint is the inelastic thing each buildout has to pass through to become real.</p>
+  <h3>At a glance</h3>
+  <table><thead><tr>
+    <th style="width:5%">#</th><th style="width:28%">The boom</th><th style="width:37%">Binding constraint (the needle)</th>
+    <th class="num" style="width:10%">Vision&nbsp;P</th><th class="num" style="width:10%">Clause&nbsp;P</th><th class="num" style="width:10%">Resolves</th>
+  </tr></thead><tbody><tr><td>L1</td><td>Power-systems engineering talent and the firms that hold it</td><td>Senior power-systems engineers and high-voltage technicians. A career to train, a generation of lost enrollment; capital</td><td class="num">85%</td><td class="num">60%</td><td class="num">2032-12-31</td></tr><tr><td>L2</td><td>Helium recapture infrastructure and high-grade reserves</td><td>Helium-rich gas reservoirs plus conservation and recapture infrastructure. A non-renewable byproduct of a shrinking sour</td><td class="num">65%</td><td class="num">52%</td><td class="num">2032-12-31</td></tr><tr><td>L3</td><td>Phosphorus recovery and exposure to reserve pricing power</td><td>Sedimentary phosphate reserves, roughly 70% held by one producer. An element every crop needs and nothing can replace; t</td><td class="num">70%</td><td class="num">50%</td><td class="num">2033-12-31</td></tr><tr><td>L4</td><td>Physical-assist robotics cleared for human contact</td><td>Physical human-contact care hours. The over-75 cohort of 2035 is already alive and the caregivers are already too few; t</td><td class="num">80%</td><td class="num">45%</td><td class="num">2033-12-31</td></tr><tr><td>L5</td><td>Permitted geologic pore space and the verification layer</td><td>Permitted, location-fixed geologic pore space plus measurement and verification. Finite per basin and slow to permit, an</td><td class="num">55%</td><td class="num">40%</td><td class="num">2032-12-31</td></tr><tr><td>L6</td><td>Analog-in-memory and photonic compute talent and process</td><td>Talent, IP, and foundry process for non-digital compute substrates. The scarce input is the narrow pool that can build a</td><td class="num">70%</td><td class="num">35%</td><td class="num">2033-12-31</td></tr></tbody></table>
+  <p class="small muted">Vision P = strength of the structural case. Clause P = calibrated odds the exact dated clause resolves true, scored with Brier. The gap is the honest timing and measurement tax, not timidity.</p>
+</section>
+<section class="thesis">
+  <div class="thesis-head"><h2>L1 &middot; The grid runs out of people before it runs out of steel</h2><span class="id">L1</span></div>
+  <p class="muted small">The boom: Power-systems engineering talent and the firms that hold it &middot; Domain: </p>
+  <div class="prob-band">
+    <div class="prob-card vision"><div class="label">Directional vision</div><div class="val">85%</div></div>
+    <div class="prob-card clause"><div class="label">Strict clause</div><div class="val">60%</div></div>
+    <div class="prob-card date"><div class="label">Resolves</div><div class="val sm">2032-12-31</div></div>
+  </div>
+  <p></p>
+<div class="field"><span class="k">Why it is pre-consensus</span>
+Every electrification thesis prices the countable hardware (steel, switchgear, copper). Labor sits upstream of every megawatt and is far harder to securitize, so it is ignored.</div>
+
+<div class="field"><span class="k">The needle</span>
+Senior power-systems engineers and high-voltage technicians. A career to train, a generation of lost enrollment; capital cannot expand it on any timescale shorter than a working life.</div>
+<div class="field"><span class="k">Leading metric</span>
+Real wage growth and vacancy rate for power-systems engineers vs general engineering; grid and datacenter projects that publicly cite labor, not equipment, as the binding slip cause.</div>
+<div class="field"><span class="k">Kill-criterion</span>
+AI design automation, immigration, and a training boom flatten the wage premium through 2032 and no major project names labor as the binding slip.</div>
+
+<div class="why"><span class="k">Why this call earned a place</span>
+Labor is the one input in the electrification chain that capital cannot expand on any timescale shorter than a career. That is what makes a constraint bind for a decade rather than a quarter.</div>
+</section>
+<section class="thesis">
+  <div class="thesis-head"><h2>L2 &middot; Helium-4 is the resource that leaves and does not come back</h2><span class="id">L2</span></div>
+  <p class="muted small">The boom: Helium recapture infrastructure and high-grade reserves &middot; Domain: </p>
+  <div class="prob-band">
+    <div class="prob-card vision"><div class="label">Directional vision</div><div class="val">65%</div></div>
+    <div class="prob-card clause"><div class="label">Strict clause</div><div class="val">52%</div></div>
+    <div class="prob-card date"><div class="label">Resolves</div><div class="val sm">2032-12-31</div></div>
+  </div>
+  <p></p>
+
+<div class="field"><span class="k">Honest price channel</span>
+Helium spiked in 2021 to 2023 then softened in 2024 to 2025 as Amur ramped, so it is not tight today. The bet is structural re-tightening across the decade, not a near-term spike.</div>
+<div class="field"><span class="k">The needle</span>
+Helium-rich gas reservoirs plus conservation and recapture infrastructure. A non-renewable byproduct of a shrinking source base, physically lost to space when vented.</div>
+<div class="field"><span class="k">Leading metric</span>
+Bulk liquid-helium contract price vs a 2020 baseline; share of large-user demand on on-site recapture; recurrence of allocation events.</div>
+<div class="field"><span class="k">Kill-criterion</span>
+Amur, Qatar, and Tanzania&#x27;s Rukwa field oversupply and the real price stays flat through 2032, or recapture makes demand elastic enough to cap the price.</div>
+
+<div class="why"><span class="k">Why this call earned a place</span>
+Helium-4 has a larger, more diversified demand base than the He-3 call already on the map, and a cleaner irreversibility argument: the gas is physically lost to space, not merely consumed.</div>
+</section>
+<section class="thesis">
+  <div class="thesis-head"><h2>L3 &middot; Phosphorus is essential, substitute-free, and geographically captured</h2><span class="id">L3</span></div>
+  <p class="muted small">The boom: Phosphorus recovery and exposure to reserve pricing power &middot; Domain: </p>
+  <div class="prob-band">
+    <div class="prob-card vision"><div class="label">Directional vision</div><div class="val">70%</div></div>
+    <div class="prob-card clause"><div class="label">Strict clause</div><div class="val">50%</div></div>
+    <div class="prob-card date"><div class="label">Resolves</div><div class="val sm">2033-12-31</div></div>
+  </div>
+  <p></p>
+
+<div class="field"><span class="k">Honest price channel</span>
+Phosphate spiked in 2022 then fell back; the structural concentration did not move. This is a rising floor plus a recovery industry, not the 2022 spike repeating.</div>
+<div class="field"><span class="k">The needle</span>
+Sedimentary phosphate reserves, roughly 70% held by one producer. An element every crop needs and nothing can replace; the only escape is recovery from manure and wastewater.</div>
+<div class="field"><span class="k">Leading metric</span>
+Real DAP and rock price floor vs 2020; count of mandated or commercial phosphorus-recovery facilities; the dominant holder&#x27;s share of internationally traded rock.</div>
+<div class="field"><span class="k">Kill-criterion</span>
+Large new low-cost reserves develop outside the dominant holder, or recovery scales fast enough to cap the rock price floor through 2033.</div>
+
+<div class="why"><span class="k">Why this call earned a place</span>
+Phosphorus is the rare resource that is essential, substitute-free, and captured by geography at once: the textbook setup for durable rent, yet almost absent from investment narratives.</div>
+</section>
+<section class="thesis">
+  <div class="thesis-head"><h2>L4 &middot; The robot demand fixed by biology, not by adoption curves</h2><span class="id">L4</span></div>
+  <p class="muted small">The boom: Physical-assist robotics cleared for human contact &middot; Domain: </p>
+  <div class="prob-band">
+    <div class="prob-card vision"><div class="label">Directional vision</div><div class="val">80%</div></div>
+    <div class="prob-card clause"><div class="label">Strict clause</div><div class="val">45%</div></div>
+    <div class="prob-card date"><div class="label">Resolves</div><div class="val sm">2033-12-31</div></div>
+  </div>
+  <p></p>
+<div class="field"><span class="k">Why it is pre-consensus</span>
+Humanoid robotics is narrated as factory and warehouse labor. The eldercare market is larger, more inelastic, and demographically guaranteed, but gated by the harder problem of safe physical contact.</div>
+
+<div class="field"><span class="k">The needle</span>
+Physical human-contact care hours. The over-75 cohort of 2035 is already alive and the caregivers are already too few; the gated escape is robotics certified for safe physical contact.</div>
+<div class="field"><span class="k">Leading metric</span>
+Caregiver vacancy ratio in Japan and Korea; count of physical-assist robots with medical-device clearance for patient contact; the first reimbursement codes.</div>
+<div class="field"><span class="k">Kill-criterion</span>
+Immigration and wage solutions fill the caregiving gap, or contact-safety certification stalls so deployed machines stay non-contact through 2033.</div>
+
+<div class="why"><span class="k">Why this call earned a place</span>
+Of all robot demand, eldercare is the one whose size is fixed by biology rather than an adoption curve. The open question is when certification catches up, not whether the demand exists.</div>
+</section>
+<section class="thesis">
+  <div class="thesis-head"><h2>L5 &middot; If carbon storage scales at all, the rent moves to the hole in the ground</h2><span class="id">L5</span></div>
+  <p class="muted small">The boom: Permitted geologic pore space and the verification layer &middot; Domain: </p>
+  <div class="prob-band">
+    <div class="prob-card vision"><div class="label">Directional vision</div><div class="val">55%</div></div>
+    <div class="prob-card clause"><div class="label">Strict clause</div><div class="val">40%</div></div>
+    <div class="prob-card date"><div class="label">Resolves</div><div class="val sm">2032-12-31</div></div>
+  </div>
+  <p></p>
+
+<div class="field"><span class="k">Honest price channel</span>
+Conditional on a durable storage market materializing through policy and voluntary demand. If that demand stays small, pore space never binds; that conditionality is the haircut on the vision number.</div>
+<div class="field"><span class="k">The needle</span>
+Permitted, location-fixed geologic pore space plus measurement and verification. Finite per basin and slow to permit, and a fundamentally different asset from the capture technology that keeps getting cheaper.</div>
+<div class="field"><span class="k">Leading metric</span>
+Class VI permits issued vs applied (the EPA backlog); storage-only contracts priced separately from capture; pore-space lease prices.</div>
+<div class="field"><span class="k">Kill-criterion</span>
+Durable removal demand stays negligible through 2032 so pore space never binds, or permitting accelerates so sharply that storage stays abundant and cheap.</div>
+
+<div class="why"><span class="k">Why this call earned a place</span>
+It is the cleanest example of a constraint that has not migrated yet but almost certainly will the moment the sector grows. Flagged as demand-conditional so it is bought with eyes open.</div>
+</section>
+<section class="thesis">
+  <div class="thesis-head"><h2>L6 &middot; The energy wall forces a change of substrate, not just better chips</h2><span class="id">L6</span></div>
+  <p class="muted small">The boom: Analog-in-memory and photonic compute talent and process &middot; Domain: </p>
+  <div class="prob-band">
+    <div class="prob-card vision"><div class="label">Directional vision</div><div class="val">70%</div></div>
+    <div class="prob-card clause"><div class="label">Strict clause</div><div class="val">35%</div></div>
+    <div class="prob-card date"><div class="label">Resolves</div><div class="val sm">2033-12-31</div></div>
+  </div>
+  <p></p>
+<div class="field"><span class="k">Why it is pre-consensus</span>
+The consensus answer to the power wall is more GPUs, more power, more nuclear, which extends the digital curve. Almost no one prices a substrate transition.</div>
+
+<div class="field"><span class="k">The needle</span>
+Talent, IP, and foundry process for non-digital compute substrates. The scarce input is the narrow pool that can build analog-in-memory and photonic compute, not capital.</div>
+<div class="field"><span class="k">Leading metric</span>
+Share of frontier inference on non-digital-CMOS substrates; venture and patent concentration in analog and photonic compute; the first hyperscaler production deployment.</div>
+<div class="field"><span class="k">Kill-criterion</span>
+Digital CMOS plus advanced packaging keeps improving energy efficiency fast enough (3D stacking, sub-threshold, better dataflow) that analog and optical stay niche through 2033.</div>
+
+<div class="why"><span class="k">Why this call earned a place</span>
+The most speculative of the six, priced that way. The constraint is set by thermodynamics rather than a market, so the direction is robust even though the winning substrate and date are open.</div>
+</section>
+</body></html>

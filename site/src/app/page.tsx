@@ -9,6 +9,7 @@ export default function Home() {
         <RawSection name="hero" />
         <RawSection name="sampleqs" />
         <RawSection name="research" />
+        <RawSection name="forecasts" />
         <RawSection name="solutions" />
         <RawSection name="usecases" />
         <RawSection name="product" />
