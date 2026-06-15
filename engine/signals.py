@@ -193,6 +193,29 @@ def _match_patents(topic: str) -> list[dict]:
 # the needle-useful signal is the MID-weight substantive edges + the inbound side (who leans on A).
 
 _DEP_CHAIN = "concept_flow"
+CONCEPT_PATENTS = Path(__file__).resolve().parents[1] / "data" / "feeds" / "openalex_concept_patents.jsonl"
+
+
+def _concept_patents() -> dict:
+    """name.lower() -> per-concept paper->patent reliance (worldwide citations, Reliance-on-Science).
+
+    Built by engine/feeds/relianceonscience.py: how many distinct patents cite this concept's research =
+    a measured commercialization-intensity overlay on the same concept nodes the dependency graph uses.
+    """
+    out: dict[str, dict] = {}
+    if not CONCEPT_PATENTS.exists():
+        return out
+    for line in CONCEPT_PATENTS.open(encoding="utf-8"):
+        line = line.strip()
+        if not line:
+            continue
+        try:
+            r = json.loads(line)
+        except json.JSONDecodeError:
+            continue
+        if r.get("name"):
+            out[r["name"].lower()] = r
+    return out
 
 
 def _match_concept_nodes(conn, topic: str, *, limit: int = 3) -> list[dict]:
@@ -226,6 +249,7 @@ def dependency_neighbors(conn, topic: str, *, top: int = 6, min_weight: float = 
     inbound  (B draws_on A) = who leans on A -> A's blast radius if it is constrained / where rent lands.
     """
     out = []
+    patents = _concept_patents()
     for node in _match_concept_nodes(conn, topic):
         outbound = conn.execute(
             "SELECT n.name dst, e.weight w FROM graph_edges e JOIN graph_nodes n ON e.dst=n.id "
@@ -237,11 +261,35 @@ def dependency_neighbors(conn, topic: str, *, top: int = 6, min_weight: float = 
             (_DEP_CHAIN, node["id"], min_weight, top)).fetchall()
         if not (outbound or inbound):
             continue
-        out.append({
+        entry = {
             "concept": node["name"],
             "draws_on": [{"name": r["dst"], "weight": _fmt(r["w"])} for r in outbound],
             "drawn_on_by": [{"name": r["src"], "weight": _fmt(r["w"])} for r in inbound],
-        })
+        }
+        rel = patents.get(node["name"].lower())
+        if rel:
+            entry["patent_reliance"] = {"n_patents": rel["n_patents"], "n_us": rel.get("n_us"),
+                                        "n_nonus": rel.get("n_nonus"), "n_applicant": rel.get("n_applicant")}
+        out.append(entry)
+
+    # completeness: a concept can carry patent reliance without being a node in the sparse graph.
+    # surface those too (empty edges) so any topic with measured commercialization shows it.
+    seen = {e["concept"].lower() for e in out}
+    qtoks = set(_tokens(topic))
+    if qtoks:
+        extra = []
+        for name_l, rel in patents.items():
+            if name_l in seen:
+                continue
+            ntoks = {t for t in re.split(r"[^a-z0-9]+", name_l) if len(t) >= 2}
+            overlap = qtoks & ntoks
+            if not overlap or (len(qtoks) >= 2 and overlap != qtoks):
+                continue
+            extra.append((rel["n_patents"], rel))
+        for _, rel in sorted(extra, key=lambda x: -x[0])[:3]:
+            out.append({"concept": rel["name"], "draws_on": [], "drawn_on_by": [],
+                        "patent_reliance": {"n_patents": rel["n_patents"], "n_us": rel.get("n_us"),
+                                            "n_nonus": rel.get("n_nonus"), "n_applicant": rel.get("n_applicant")}})
     return out
 
 
@@ -278,12 +326,19 @@ def format_pack(pack: dict) -> str:
                f"leaders: {', '.join(p['top_assignees'][:3])}")
         lines.append(seg)
     for d in pack.get("dependency", []):
-        on = ", ".join(f"{e['name']} ({e['weight']:.0%})" for e in d["draws_on"]) or "—"
-        by = ", ".join(f"{e['name']} ({e['weight']:.0%})" for e in d["drawn_on_by"]) or "—"
+        has_edges = bool(d["draws_on"] or d["drawn_on_by"])
         lines.append(f"  - DEPENDENCY GRAPH [{d['concept']}] (measured citation flow):")
-        lines.append(f"      draws_on (its knowledge base leans on -> candidate binding inputs): {on}")
-        lines.append(f"      drawn_on_by (who leans on it -> blast radius if constrained): {by}")
-    if pack.get("dependency"):
+        if has_edges:
+            on = ", ".join(f"{e['name']} ({e['weight']:.0%})" for e in d["draws_on"]) or "—"
+            by = ", ".join(f"{e['name']} ({e['weight']:.0%})" for e in d["drawn_on_by"]) or "—"
+            lines.append(f"      draws_on (its knowledge base leans on -> candidate binding inputs): {on}")
+            lines.append(f"      drawn_on_by (who leans on it -> blast radius if constrained): {by}")
+        pr = d.get("patent_reliance")
+        if pr:
+            lines.append(f"      paper->patent reliance (worldwide citations): {pr['n_patents']:,} patents "
+                         f"cite this concept's research ({pr.get('n_us', 0):,} US / {pr.get('n_nonus', 0):,} "
+                         f"non-US; {pr.get('n_applicant', 0):,} applicant-chosen) -> commercialization intensity")
+    if any(d["draws_on"] or d["drawn_on_by"] for d in pack.get("dependency", [])):
         lines.append("  (dependency weights = share of cross-concept citations; the TOP edge is often a "
                      "hypernym — the needle is a MID-weight substantive input + a high inbound load.)")
     lines.append("Use these as the measured base for the Fermi decomposition; cite the trend you lean on. "
