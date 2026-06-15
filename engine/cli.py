@@ -39,6 +39,19 @@ def seed_cmd() -> None:
     typer.echo(f"seeded {added} new pillar(s); {total} total.")
 
 
+@app.command("signals")
+def signals_cmd(
+    topic: str = typer.Argument(..., help="free-text topic or question to ground"),
+    as_json: bool = typer.Option(False, "--json", help="emit the raw pack as JSON"),
+) -> None:
+    """Topic → structural evidence pack from the data layer (grounds a forecast). $0."""
+    import json as _json
+
+    from engine.signals import evidence_pack, format_pack
+    pack = evidence_pack(topic)
+    typer.echo(_json.dumps(pack, ensure_ascii=False) if as_json else format_pack(pack))
+
+
 @app.command("collect-frontier")
 def collect_frontier() -> None:
     """Pillar 1: collect OpenAlex concept velocity + arXiv presence (free/keyless, $0)."""
@@ -517,6 +530,22 @@ def consensus_eye(
     typer.echo("  → the eye certifies PRICED, never pre-consensus; physical metric is what scores, price is optional.")
     conn.close()
     typer.echo("\ncost: $0.00")
+
+
+@app.command("market-anchor")
+def market_anchor_cmd(
+    claim: str = typer.Argument(..., help="The claim/topic to check against live prediction markets."),
+    as_json: bool = typer.Option(False, "--json", help="emit the raw anchor as JSON"),
+) -> None:
+    """Is a LIVE prediction market already trading this? The sharpest priced-in read for a structural
+    claim with no clean equity pair (Manifold + Metaculus, keyless, $0). A liquid match = PRICED at its
+    probability; the edge is only the GAP to your P. No match = UNPRICED-UNSEEN (not a green light).
+    """
+    import json as _json
+
+    from engine.market import format_anchor, market_anchor
+    a = market_anchor(claim)
+    typer.echo(_json.dumps(a, ensure_ascii=False) if as_json else format_anchor(a))
 
 
 @app.command("data-audit")
@@ -1296,22 +1325,25 @@ def holdout_run(
     conn.close()
 
 
-@app.command("holdout-bench")
-def holdout_bench(
-    provider: str = typer.Option("openrouter", help="LLM provider (an OLD-cutoff model is required for a valid run)."),
-    model: str = typer.Option("openai/gpt-3.5-turbo-0613", help="explicit old-cutoff model id."),
-    est_cost_cents: int = typer.Option(5, help="estimated spend for the cost gate (keyed routes)."),
+@app.command("structbench-run")
+def structbench_run(
+    provider: str = typer.Option("openrouter", help="LLM provider. An OLD-cutoff model (e.g. openrouter "
+                                 "meta-llama/llama-3-70b-instruct) is required for a leak-free run."),
+    model: str = typer.Option("", help="explicit model id. Empty = roster."),
+    est_cost_cents: int = typer.Option(0, help="estimated spend for the cost gate (keyed routes)."),
+    threshold: float = typer.Option(0.05, help="the fixed ≥X% rise rule (pre-registered)."),
     proxy: bool = typer.Option(False, help="route keyless calls through the residential proxy."),
 ) -> None:
-    """Stage 3 (defensible): score an old-cutoff model on EXTERNALLY-authored, resolved ForecastBench
-    questions (experiments/holdout_questions.jsonl), gated by a NON-LEADING recall probe. Removes the
-    'self-authored / N=7' critiques. cost-gated (rule 3)."""
+    """The DEFENSIBLE retro bench: run THE FRAMEWORK on Class-1 structural questions mechanically built
+    from the engine's public dated series (FRED/Comtrade/World Bank/OWID/Epoch), leak-gated. Immune to
+    the 'self-authored / N=7' critiques. Pre-registered in experiments/protocol_structbench.yaml.
+    cost-gated (rule 3)."""
     from engine.adapters import proxy as proxymod
     conn = db.connect()
     db.init_db(conn)
     px = proxymod.proxy_url() if proxy and proxymod.available() else None
-    holdout.run_external(conn, provider=provider, model=(model or None), est_cost_cents=est_cost_cents,
-                         proxy=px, log=typer.echo)
+    holdout.run_structural(conn, provider=provider, model=(model or None),
+                           est_cost_cents=est_cost_cents, threshold=threshold, proxy=px, log=typer.echo)
     conn.close()
 
 

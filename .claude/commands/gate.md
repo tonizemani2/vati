@@ -13,7 +13,8 @@ A low-saturation needle is only a *candidate*. The edge exists **only in the gap
 - **Recursive layer-blindness** — when the obvious deep layer already has a published thesis (enrichment, jet engines), the edge is the layer **beneath that** (uranium *conversion*/UF₆ reads narrative 0.04 vs enrichment 0.65; hot-section single-crystal castings under engines). Keep going down until you hit a layer with no published thesis — or one too small to matter (the honest stop).
 - **Capital** — do the LAG channels fire (SEC filings, capex, VC/M&A)? `discover` shows lead-vs-lag per entity. Capital arriving = priced. **Acquisition of the pure-play** (e.g. Capstan → AbbVie) = smart money already in = priced.
 - **Policy** — Federal Register / export-controls / procurement already acting = priced.
-- **Price** — ONLY if a clean inelastic-vs-elastic public pair exists: `discover-instruments` → `consensus-score`. A diversified parent (TMO) or a foreign listing (OXB.L) does **not** give a clean read — say so, don't fake one.
+- **Price (equity)** — ONLY if a clean inelastic-vs-elastic public pair exists: `discover-instruments` → `consensus-score`. A diversified parent (TMO) or a foreign listing (OXB.L) does **not** give a clean read — say so, don't fake one.
+- **Price (prediction market)** — `market-anchor "<claim>"`: is a LIVE market already trading this? Keyless Manifold + Metaculus. The sharpest priced-in read for a STRUCTURAL/judgmental call where no clean equity pair exists (the common case). A liquid match = **PRICED** at its probability → the edge is only the GAP between your P and the market's; quote the gap, not the level. **Same asymmetry as the eye:** `UNPRICED-UNSEEN` is NOT a green light — a genuinely early structural call is usually not traded anywhere.
 
 Verdict = **PRE-CONSENSUS** (all channels quiet) · **PARTLY-PRICED** (one fired) · **PRICED** (forecasters/price/capital here). Edge lives only in the first.
 
