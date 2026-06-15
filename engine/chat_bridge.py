@@ -7,11 +7,14 @@ threshold that defines YES); THIS computes the probability, the 80% interval, an
 distribution by running the same Monte-Carlo engine the forecast cards use
 (`engine.forecast.mc_quantity`). The number falls out of the samples (doctrine §2.2).
 
-Pure + $0: stdlib `random` only, no network, no DB, no cost gate. Reads a JSON spec on
-stdin, writes a JSON result on stdout.
+$0 throughout. The `forecast` verb is pure (stdlib `random`, no I/O); `signals` reads the
+data layer (SQLite + the derived feed artifacts); `market` does keyless prediction-market
+reads (cost-gated $0). Each reads a JSON spec on stdin, writes a JSON result on stdout.
 
 Usage:
     echo '<spec json>' | uv run python -m engine.chat_bridge forecast
+    echo '{"topic":"deep learning"}' | uv run python -m engine.chat_bridge signals
+    echo '{"claim":"US recession in 2026"}' | uv run python -m engine.chat_bridge market
 """
 
 from __future__ import annotations
@@ -105,6 +108,16 @@ def main(argv: list[str]) -> int:
                 pack = evidence_pack(topic)
                 out = {"ok": True, "engine": "data_layer_signals",
                        "context": format_pack(pack), **pack}
+        elif cmd == "market":
+            # Claim → live prediction-market anchor (the 'already priced?' check, keyless).
+            from engine.market import format_anchor, market_anchor
+            claim = str(spec.get("claim") or spec.get("topic") or spec.get("question") or "").strip()
+            if not claim:
+                out = {"ok": False, "error": "market needs a 'claim', 'topic' or 'question'"}
+            else:
+                a = market_anchor(claim)
+                out = {"ok": True, "engine": "prediction_market_anchor",
+                       "context": format_anchor(a), **a}
         else:
             out = {"ok": False, "error": f"unknown command {cmd!r}"}
     except (KeyError, ValueError, TypeError) as e:
