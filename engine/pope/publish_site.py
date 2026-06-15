@@ -27,8 +27,12 @@ OUT_DIR = os.path.join(REPO, "site", "public", "forecasts")
 
 # Publishing config: which boards go live, in order, each with its download PDF.
 BOARDS = [
-    {"slug": "long-horizon", "spec": "research/pope/long-horizon-2026-06-14.json",
-     "pdf_src": "research/pope/long-horizon-2026-06-14.pdf", "pdf": "long-horizon.pdf"},
+    {"slug": "catalyst", "spec": "research/pope/any-short-2026-06-15.json",
+     "pdf_src": "research/pope/any-short-2026-06-15.pdf", "pdf": "catalyst.pdf"},
+    {"slug": "structural", "spec": "research/pope/any-long-2026-06-15.json",
+     "pdf_src": "research/pope/any-long-2026-06-15.pdf", "pdf": "structural.pdf"},
+    {"slug": "inelastic-needles", "spec": "research/pope/inelastic-needles-2026-06-15.json",
+     "pdf_src": "research/pope/inelastic-needles-2026-06-15.pdf", "pdf": "inelastic-needles.pdf"},
     {"slug": "space", "spec": "research/pope/space-2026-06-14.json",
      "pdf_src": "research/pope/space-2026-06-14.pdf", "pdf": "space.pdf"},
     {"slug": "chips", "spec": "research/pope/chips-2026-06-14.json",
@@ -93,11 +97,16 @@ a:hover{text-decoration:underline;}
 .nav .links a.cur{color:var(--dark);}
 @media(max-width:680px){.nav .links a:not(.cur){display:none;}}
 
-/* hero */
-.hero{padding:clamp(48px,7vw,92px) 0 clamp(34px,4vw,52px);}
-.hero .eyebrow{font-family:'Gt Standard Mono',monospace;font-weight:500;text-transform:uppercase;letter-spacing:.18em;font-size:12px;color:var(--brand-deep);}
-.hero h1{font-weight:500;font-size:clamp(34px,6vw,64px);line-height:1.02;letter-spacing:-.02em;color:var(--dark);margin:18px 0 16px;max-width:16ch;}
-.hero p{font-size:clamp(17px,1.5vw,20px);color:var(--ink);max-width:46em;margin:0;}
+/* hero — dark full-bleed band, echoing the homepage hero (paper nav over dark hero) */
+.hero{background:var(--dark);color:var(--paper);padding:clamp(54px,7vw,104px) 0 clamp(46px,6vw,76px);}
+.hero .eyebrow{font-family:'Gt Standard Mono',monospace;font-weight:500;text-transform:uppercase;letter-spacing:.18em;font-size:12px;color:#a9a6ff;}
+.hero h1{font-weight:500;font-size:clamp(34px,6vw,64px);line-height:1.02;letter-spacing:-.02em;color:#fff;margin:18px 0 16px;max-width:16ch;}
+.hero p{font-size:clamp(17px,1.5vw,20px);color:rgba(255,255,255,.72);max-width:46em;margin:0;}
+.hero .tiles{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:clamp(30px,3.2vw,42px);}
+@media(max-width:760px){.hero .tiles{grid-template-columns:1fr 1fr;}}
+.hero .tile{border:1px solid rgba(255,255,255,.12);border-radius:14px;padding:16px 18px;background:rgba(255,255,255,.03);}
+.hero .tile .n{font-size:clamp(21px,2.1vw,28px);font-weight:700;color:#fff;font-variant-numeric:tabular-nums;line-height:1;letter-spacing:-.01em;}
+.hero .tile .l{margin-top:9px;font-size:12.5px;line-height:1.4;color:rgba(255,255,255,.55);}
 
 /* method note */
 .method{padding:8px 0 40px;}
@@ -111,7 +120,7 @@ a:hover{text-decoration:underline;}
 /* prob pills */
 .pill{display:inline-block;font-family:'Gt Standard Mono',monospace;font-weight:500;font-size:12.5px;padding:3px 10px;border-radius:999px;border:1px solid var(--line);white-space:nowrap;}
 .pill.v{background:#edf3ec;border-color:#cfe0c8;color:#2f5a2a;}
-.pill.c{background:rgba(109,106,252,.10);border-color:rgba(109,106,252,.32);color:var(--brand-deep);}
+.pill.c{background:#ecebff;border-color:#cbc9fb;color:#4a47c4;}
 .pill.d{background:#faf6ee;border-color:#e7dcc4;color:#7a611f;}
 
 /* board */
@@ -125,22 +134,23 @@ a:hover{text-decoration:underline;}
 .cards{display:grid;grid-template-columns:repeat(2,1fr);gap:clamp(16px,1.6vw,22px);}
 @media(max-width:820px){.cards{grid-template-columns:1fr;}.method .box{grid-template-columns:1fr;}.legend{border-left:0;border-top:1px solid var(--line);padding-left:0;padding-top:22px;}}
 
-.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:clamp(20px,2vw,26px);display:flex;flex-direction:column;transition:border-color .18s ease,box-shadow .18s ease;}
-.card:hover{border-color:rgba(109,106,252,.5);box-shadow:0 14px 40px rgba(12,11,16,.07);}
+/* dark "ticket" cards — the homepage signature: dark cards on the light paper board */
+.card{background:linear-gradient(165deg,#17141f,#0c0b10);border:1px solid rgba(255,255,255,.10);border-radius:16px;padding:clamp(20px,2vw,26px);display:flex;flex-direction:column;color:#fff;transition:transform .18s ease,border-color .18s ease,box-shadow .18s ease;}
+.card:hover{transform:translateY(-4px);border-color:var(--brand);box-shadow:0 18px 50px rgba(12,11,16,.28);}
 .card .chead{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:12px;}
 .card .id{font-family:'Gt Standard Mono',monospace;font-weight:500;font-size:12px;color:#fff;background:var(--brand);padding:3px 9px;border-radius:6px;letter-spacing:.08em;}
-.card h3{font-weight:500;font-size:17px;line-height:1.32;margin:0 0 12px;color:var(--dark);}
+.card h3{font-weight:500;font-size:17px;line-height:1.32;margin:0 0 12px;color:#fff;}
 .card .pills{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px;}
-.card .f{margin:0 0 12px;font-size:14px;line-height:1.55;}
-.card .f .k{display:block;font-family:'Gt Standard Mono',monospace;text-transform:uppercase;letter-spacing:.08em;font-size:10.5px;color:var(--brand-deep);margin-bottom:3px;}
-.card details{margin-top:6px;border-top:1px solid var(--line);padding-top:12px;}
+.card .f{margin:0 0 12px;font-size:14px;line-height:1.55;color:rgba(255,255,255,.72);}
+.card .f .k{display:block;font-family:'Gt Standard Mono',monospace;text-transform:uppercase;letter-spacing:.08em;font-size:10.5px;color:#a9a6ff;margin-bottom:3px;}
+.card details{margin-top:6px;border-top:1px solid rgba(255,255,255,.10);padding-top:12px;}
 .card details[open]{margin-bottom:2px;}
-.card summary{cursor:pointer;list-style:none;font-family:'Gt Standard Mono',monospace;font-weight:500;text-transform:uppercase;letter-spacing:.08em;font-size:11px;color:var(--brand-deep);}
+.card summary{cursor:pointer;list-style:none;font-family:'Gt Standard Mono',monospace;font-weight:500;text-transform:uppercase;letter-spacing:.08em;font-size:11px;color:#a9a6ff;}
 .card summary::-webkit-details-marker{display:none;}
 .card summary::after{content:" +";}
 .card details[open] summary::after{content:" \\2212";}
 .card details .f{margin-top:12px;}
-.card details .f .k{color:var(--mut);}
+.card details .f .k{color:rgba(255,255,255,.5);}
 
 footer{padding:48px 0 64px;color:var(--mut);font-size:13px;border-top:1px solid var(--line);}
 footer .disc{max-width:64em;margin:0 0 16px;line-height:1.6;}
@@ -232,6 +242,12 @@ def build_page(specs_pdfs, date):
   <div class="eyebrow">Forward calls &middot; pre-consensus &middot; calibrated &middot; falsifiable</div>
   <h1>Where scarcity moves next</h1>
   <p>{n_calls} dated forward structural calls across {len(specs_pdfs)} boards. Each names the inelastic input that captures the rent before pricing catches up, with the date and the test that would prove it wrong.</p>
+  <div class="tiles">
+    <div class="tile"><div class="n">{n_calls}</div><div class="l">dated forward calls</div></div>
+    <div class="tile"><div class="n">{len(specs_pdfs)}</div><div class="l">constraint boards</div></div>
+    <div class="tile"><div class="n">2</div><div class="l">probabilities per call: the vision and the scored clause</div></div>
+    <div class="tile"><div class="n">Brier</div><div class="l">scored in public when each call comes due</div></div>
+  </div>
 </div></section>
 {method}
 {boards}
@@ -258,7 +274,7 @@ def main():
         specs_pdfs.append((spec, b["pdf"]))
     if not specs_pdfs:
         raise SystemExit("no boards to publish")
-    page = build_page(specs_pdfs, "2026-06-14")
+    page = build_page(specs_pdfs, "2026-06-15")
     out = os.path.join(OUT_DIR, "index.html")
     with open(out, "w", encoding="utf-8") as fh:
         fh.write(page)
