@@ -136,15 +136,15 @@ CSS = FONT_CSS + """
 
 def _cover(spec: dict) -> str:
     return f"""<section class="cover">
-  <div class="kicker">The Pope System &middot; Pre-Consensus, Calibrated, Falsifiable</div>
+  <div class="kicker">Vaticinus &middot; pre-consensus &middot; dated &middot; falsifiable</div>
   <h1>{_inline(spec.get('title', 'Where Scarcity Migrates Next'))}</h1>
   <div class="sub">{_inline(spec.get('subtitle', ''))}</div>
-  <div class="spine"><strong>Thesis spine:</strong> Frontier &rarr; Capability &rarr; Dependency graph &rarr; Supply elasticity &rarr; Demand &rarr; Capital &rarr; Pricing &rarr; Policy &rarr; Outcomes. Rent accrues to the inelastic input. The edge is naming where the constraint moves before pricing catches up.</div>
+  <div class="spine"><strong>The frame:</strong> when a system scales, the money does not stay where the headlines are. It moves to the one input that cannot scale with it. Our job is to name that input, and the date it starts to bite, before the market prices it in.</div>
   <div class="meta">
     Area: {_inline(spec.get('domain', 'any'))} &nbsp;&bull;&nbsp; Horizon: {_inline(spec.get('horizon', ''))}<br>
-    Method: generate wide and disruptive, then gate strict. Each call names the needle, not the theme.<br>
-    Two probabilities per call: directional vision, and the strict dated clause scored at resolution.<br>
-    Status: hardened candidates (survived the adversarial refute pass). Drafted {_inline(spec.get('date', ''))}.
+    How we work: cast wide for ideas, then test every one hard against the price and the supply chain. We name the specific input, not the theme.<br>
+    Two numbers per call: how strong we think the case is, and the odds on the exact, dated version, which is the one we are graded on.<br>
+    Status: the calls that survived our own attempt to break them. Drafted {_inline(spec.get('date', ''))}.
   </div>
 </section>"""
 
@@ -166,33 +166,33 @@ def _summary_table(spec: dict) -> str:
         else ""
     )
     return f"""<section class="page-break">
-  <h2>The board: {len(spec['theses'])} hardened calls</h2>
+  <h2>The board: {len(spec['theses'])} calls that survived the cut</h2>
   {syn}
   <h3>At a glance</h3>
   <table><thead><tr>
     <th style="width:5%">#</th><th style="width:28%">The boom</th><th style="width:37%">Binding constraint (the needle)</th>
-    <th class="num" style="width:10%">Vision&nbsp;P</th><th class="num" style="width:10%">Clause&nbsp;P</th><th class="num" style="width:10%">Resolves</th>
+    <th class="num" style="width:10%">Case</th><th class="num" style="width:10%">Our&nbsp;call</th><th class="num" style="width:10%">Resolves</th>
   </tr></thead><tbody>{''.join(rows)}</tbody></table>
-  <p class="small muted">Vision P = strength of the structural case. Clause P = calibrated odds the exact dated clause resolves true, scored with Brier. The gap is the honest timing and measurement tax, not timidity.</p>
+  <p class="small muted">Case = how strong we think the thesis is. Our call = the probability we put on the exact, dated version landing by the deadline, and the number we are graded on. The gap between them is the cost of pinning a date and a hard threshold, not a lack of conviction.</p>
 </section>"""
 
 
 def _thesis(t: dict) -> str:
     cards = f"""<div class="prob-band">
-    <div class="prob-card vision"><div class="label">Directional vision</div><div class="val">{_pct(t.get('vision_p'))}</div></div>
-    <div class="prob-card clause"><div class="label">Strict clause</div><div class="val">{_pct(t.get('clause_p'))}</div></div>
+    <div class="prob-card vision"><div class="label">Structural case</div><div class="val">{_pct(t.get('vision_p'))}</div></div>
+    <div class="prob-card clause"><div class="label">Our call, dated</div><div class="val">{_pct(t.get('clause_p'))}</div></div>
     <div class="prob-card date"><div class="label">Resolves</div><div class="val sm">{_inline(t.get('resolves',''))}</div></div>
   </div>"""
     body = "\n".join(
         [
             f'<p>{_inline(t.get("structural",""))}</p>',
-            _field("Why it is pre-consensus", t.get("pre_consensus", "")),
-            _field("Honest price channel", t.get("price_channel", "")),
-            _field("The needle", t.get("needle", "")),
-            _field("Leading metric", t.get("metric", "")),
-            _field("Kill-criterion", t.get("kill", "")),
-            _field("Refute check (survived)", t.get("refute", "")),
-            _field("Why this call earned a place", t.get("why", ""), kind="why"),
+            _field("Why it is not priced yet", t.get("pre_consensus", "")),
+            _field("Where the price sits today", t.get("price_channel", "")),
+            _field("The binding constraint", t.get("needle", "")),
+            _field("What we are watching", t.get("metric", "")),
+            _field("What would prove us wrong", t.get("kill", "")),
+            _field("How we tried to break it", t.get("refute", "")),
+            _field("Why we are making the call", t.get("why", ""), kind="why"),
         ]
     )
     if t.get("subtitle"):
@@ -221,10 +221,10 @@ def _runner_ups(spec: dict) -> str:
     )
     return f"""<section class="page-break">
   <h2>Seeds considered and not promoted</h2>
-  <p>Cleared the physical-constraint test but failed on investability or on the price channel. Logged because the discipline is to surface what was cut.</p>
+  <p>These cleared the supply-side test but did not make the cut, usually because there was no clean way to express the trade or the move was already in the price. We list them because we would rather show our work than bury what we dropped.</p>
   <table><thead><tr><th style="width:24%">Seed</th><th style="width:40%">Physical case</th><th style="width:36%">Why not promoted</th></tr></thead>
   <tbody>{rows}</tbody></table>
-  <p class="footer-note">Generated by the Pope System. Each call is a forward instrument: resolution date and kill-criterion fixed at creation, superseded never edited, clause probability scored with Brier at resolution.</p>
+  <p class="footer-note">Each call is dated, with the line that would prove us wrong fixed the day we make it. We do not move the goalposts: a call is superseded, never quietly edited, and graded in public when its date arrives.</p>
 </section>"""
 
 

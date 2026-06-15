@@ -168,17 +168,17 @@ def _card(t):
     # "boom" setup + the structural/pre-consensus/price/refute/why argument) goes
     # into a collapsed disclosure so the card reads clean instead of as a wall.
     fields = "".join([
-        _field("Binding constraint (the needle)", t.get("needle", "")),
-        _field("Leading metric", t.get("metric", "")),
-        _field("Kill-criterion", t.get("kill", "")),
+        _field("The binding constraint", t.get("needle", "")),
+        _field("What we are watching", t.get("metric", "")),
+        _field("What would prove us wrong", t.get("kill", "")),
     ])
     deep = "".join([
-        _field("The setup", t.get("boom", "")),
-        _field("Structural mechanism", t.get("structural", "")),
-        _field("Why pre-consensus", t.get("pre_consensus", "")),
-        _field("Price channel", t.get("price_channel", "")),
-        _field("Refute check (survived)", t.get("refute", "")),
-        _field("Why this call", t.get("why", "")),
+        _field("The backdrop", t.get("boom", "")),
+        _field("Why it binds", t.get("structural", "")),
+        _field("Why it is not priced yet", t.get("pre_consensus", "")),
+        _field("Where the price sits today", t.get("price_channel", "")),
+        _field("How we tried to break it", t.get("refute", "")),
+        _field("Why we are making the call", t.get("why", "")),
     ])
     details = (f'<details><summary>Full argument</summary>{deep}</details>' if deep else "")
     return f"""<article class="card">
@@ -186,8 +186,8 @@ def _card(t):
     <span class="pill d mono">resolves {_inline(t.get('resolves',''))}</span></div>
   <h3>{_inline(t.get('headline',''))}</h3>
   <div class="pills">
-    <span class="pill v">vision {_pct(t.get('vision_p'))}</span>
-    <span class="pill c">clause {_pct(t.get('clause_p'))}</span>
+    <span class="pill v">structural case {_pct(t.get('vision_p'))}</span>
+    <span class="pill c">our call {_pct(t.get('clause_p'))}</span>
   </div>
   {fields}{details}
 </article>"""
@@ -213,13 +213,13 @@ def build_page(specs_pdfs, date):
   <div class="box">
     <div>
       <h2>How to read these</h2>
-      <p>These are dated, falsifiable, pre-consensus forward calls: bets on which inelastic constraint captures the rent before the market prices it. They are not a resolved track record. None has paid out yet. Each one carries a resolution date and a kill-criterion fixed at creation, and is scored with the Brier rule when it resolves.</p>
-      <p>Every call shows <strong>two</strong> probabilities, never one. The <strong>vision</strong> figure is how strong the structural case is. The <strong>clause</strong> figure is the calibrated odds that the exact dated, mechanically checkable clause resolves true, after the timing and measurement tax. The clause number is the one that gets scored. A call reading near 50 on the clause is honest uncertainty on a tight criterion, not a weak thesis.</p>
+      <p>These are forward calls on where scarcity moves next: which upstream input ends up holding the pricing power before the market wakes up to it. None has resolved yet. Each one carries a date and a single line that would prove us wrong, both fixed the day we make the call, and we grade ourselves against them in public when the date arrives.</p>
+      <p>Each call carries two numbers. The first is how strong we think the case is. The second is the probability we would put on the exact, dated version landing by the deadline, which is a higher bar. The second number is the one we are graded on. A call sitting near 50 is honest uncertainty about a tight, dated test, not a weak thesis.</p>
     </div>
     <div class="legend">
-      <div class="row"><span class="pill v">vision</span><span>strength of the structural case</span></div>
-      <div class="row"><span class="pill c">clause</span><span>calibrated odds the dated clause resolves; Brier-scored</span></div>
-      <div class="row"><span class="pill d">resolves</span><span>fixed at creation; superseded, never edited</span></div>
+      <div class="row"><span class="pill v">structural case</span><span>how strong we think the thesis is</span></div>
+      <div class="row"><span class="pill c">our call</span><span>the probability we put on the exact dated version; the number we are graded on</span></div>
+      <div class="row"><span class="pill d">resolves</span><span>the date, fixed when we make the call and never moved</span></div>
     </div>
   </div>
 </div></section>"""
@@ -239,20 +239,20 @@ def build_page(specs_pdfs, date):
   </nav>
 </div></div></header>
 <section class="hero"><div class="wrap">
-  <div class="eyebrow">Forward calls &middot; pre-consensus &middot; calibrated &middot; falsifiable</div>
+  <div class="eyebrow">Forward calls &middot; pre-consensus &middot; dated &middot; falsifiable</div>
   <h1>Where scarcity moves next</h1>
   <p>{n_calls} dated forward structural calls across {len(specs_pdfs)} boards. Each names the inelastic input that captures the rent before pricing catches up, with the date and the test that would prove it wrong.</p>
   <div class="tiles">
     <div class="tile"><div class="n">{n_calls}</div><div class="l">dated forward calls</div></div>
     <div class="tile"><div class="n">{len(specs_pdfs)}</div><div class="l">constraint boards</div></div>
-    <div class="tile"><div class="n">2</div><div class="l">probabilities per call: the vision and the scored clause</div></div>
-    <div class="tile"><div class="n">Brier</div><div class="l">scored in public when each call comes due</div></div>
+    <div class="tile"><div class="n">2</div><div class="l">reads per call: how strong the case is, and the odds on the dated version</div></div>
+    <div class="tile"><div class="n">Graded</div><div class="l">in public, on the date we fixed when we made the call</div></div>
   </div>
 </div></section>
 {method}
 {boards}
 <footer><div class="wrap">
-  <p class="disc">These calls are generated by an internal foresight system and hardened through an adversarial gate that tries to prove each one is already priced. Survivors are published here as forward instruments. They are not investment advice and not a resolved record. The point is calibration over time: dated claims, scored honestly when they come due.</p>
+  <p class="disc">Each call comes out of our own research engine and then through a gate that does its best to prove the call is already priced in. The ones that survive get published here. This is not investment advice and not a finished track record. The point is to be right on the record: every call dated, and graded honestly when it comes due.</p>
   <p class="mono">Generated {html.escape(date)} &middot; <a href="/">vaticinus.com</a></p>
 </div></footer>
 </body></html>"""
