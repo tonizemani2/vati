@@ -59,7 +59,7 @@ export function Composer({
         {menuOpen && (
           <>
             <div className="fixed inset-0 z-10" onClick={() => setMenuOpen(false)} />
-            <div className="absolute bottom-11 left-0 z-20 w-[min(286px,calc(100vw-32px))] overflow-hidden rounded-xl border border-[var(--border-faint)] bg-white shadow-lg">
+            <div className="absolute bottom-11 left-0 z-20 max-h-[min(70vh,360px)] w-[min(286px,calc(100vw-32px))] overflow-y-auto overflow-x-hidden overscroll-contain rounded-xl border border-[var(--border-faint)] bg-white shadow-lg">
               {TIERS.map((t) => {
                 const Icon = t.icon;
                 return (
@@ -69,7 +69,7 @@ export function Composer({
                       onTierChange(t.id);
                       setMenuOpen(false);
                     }}
-                    className="flex w-full items-start gap-2.5 px-3 py-2.5 text-left hover:bg-[var(--surface-hover)]"
+                    className="flex w-full items-start gap-2.5 px-3 py-2 text-left hover:bg-[var(--surface-hover)] sm:py-2.5"
                   >
                     <Icon size={16} strokeWidth={1.8} className="mt-0.5 text-[var(--brand-600)]" />
                     <span className="min-w-0 flex-1">
@@ -78,7 +78,8 @@ export function Composer({
                         <span className="text-[11px] text-[var(--ink-muted)]">· {t.cost}</span>
                         {t.id === tier && <Check size={13} className="ml-auto text-[var(--brand-600)]" />}
                       </span>
-                      <span className="block text-[12px] leading-snug text-[var(--ink-muted)]">
+                      {/* Descriptions are tall; hide on mobile so the upward menu never clips off-screen. */}
+                      <span className="mt-0.5 hidden text-[12px] leading-snug text-[var(--ink-muted)] sm:block">
                         {t.desc}
                       </span>
                     </span>

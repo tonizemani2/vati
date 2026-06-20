@@ -13,12 +13,20 @@ export function authEnabled(): boolean {
   return Boolean(process.env.CLERK_SECRET_KEY);
 }
 
+// The publishable key must be available AT RUNTIME for authenticateRequest to verify a session.
+// NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY is inlined into the client bundle only, so on the Worker it is
+// undefined; CLERK_PUBLISHABLE_KEY is the runtime secret. Without it, signed-in sessions silently
+// resolve to anon (the "I'm signed in but it still asks me to sign in" bug).
+function publishableKey(): string | undefined {
+  return process.env.CLERK_PUBLISHABLE_KEY || process.env.NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY;
+}
+
 let cached: ReturnType<typeof createClerkClient> | null = null;
 function client() {
   if (!cached) {
     cached = createClerkClient({
       secretKey: process.env.CLERK_SECRET_KEY,
-      publishableKey: process.env.NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY,
+      publishableKey: publishableKey(),
     });
   }
   return cached;
@@ -28,6 +36,7 @@ export async function getUserId(req: Request): Promise<string | null> {
   if (!authEnabled()) return "anon";
   try {
     const state = await client().authenticateRequest(req, {
+      publishableKey: publishableKey(),
       authorizedParties: [
         "https://chat.vaticinus.com",
         "http://localhost:3000",
