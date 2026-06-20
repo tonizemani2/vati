@@ -1,0 +1,184 @@
+{
+  "projectRoot": "/Users/emizemani/Desktop/predictthefuture",
+  "batchFiles": [
+    {
+      "path": "engine/feeds/land_matrix.py",
+      "language": "python",
+      "sizeLines": 219,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/land_ownership.py",
+      "language": "python",
+      "sizeLines": 618,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/lbnl_queue.py",
+      "language": "python",
+      "sizeLines": 692,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/mining_rights_global.py",
+      "language": "python",
+      "sizeLines": 259,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/oecd.py",
+      "language": "python",
+      "sizeLines": 209,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/openalex_snapshot.py",
+      "language": "python",
+      "sizeLines": 147,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/openalex.py",
+      "language": "python",
+      "sizeLines": 164,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/polymarket.py",
+      "language": "python",
+      "sizeLines": 232,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/sec_edgar.py",
+      "language": "python",
+      "sizeLines": 189,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/supply_elasticity.py",
+      "language": "python",
+      "sizeLines": 273,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/tech_adoption.py",
+      "language": "python",
+      "sizeLines": 271,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/ucdp.py",
+      "language": "python",
+      "sizeLines": 169,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/usgs_historical.py",
+      "language": "python",
+      "sizeLines": 550,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/vdem.py",
+      "language": "python",
+      "sizeLines": 171,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/worldbank_wgi.py",
+      "language": "python",
+      "sizeLines": 185,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/forecastbench/assemble.py",
+      "language": "python",
+      "sizeLines": 192,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/forecastbench/calib.py",
+      "language": "python",
+      "sizeLines": 152,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/forecastbench/corpus.py",
+      "language": "python",
+      "sizeLines": 116,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/forecastbench/crowd.py",
+      "language": "python",
+      "sizeLines": 189,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/forecastbench/curate.py",
+      "language": "python",
+      "sizeLines": 210,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/forecastbench/kalshibench.py",
+      "language": "python",
+      "sizeLines": 372,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/forecastbench/residual.py",
+      "language": "python",
+      "sizeLines": 226,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/forecastbench/SUBMIT.md",
+      "language": "markdown",
+      "sizeLines": 106,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "engine/forecastbench/timesfm_model.py",
+      "language": "python",
+      "sizeLines": 183,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/forecasting/__init__.py",
+      "language": "python",
+      "sizeLines": 7,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "engine/feeds/land_matrix.py": [],
+    "engine/feeds/land_ownership.py": [],
+    "engine/feeds/lbnl_queue.py": [],
+    "engine/feeds/mining_rights_global.py": [],
+    "engine/feeds/oecd.py": [],
+    "engine/feeds/openalex_snapshot.py": [],
+    "engine/feeds/openalex.py": [],
+    "engine/feeds/polymarket.py": [],
+    "engine/feeds/sec_edgar.py": [],
+    "engine/feeds/supply_elasticity.py": [],
+    "engine/feeds/tech_adoption.py": [],
+    "engine/feeds/ucdp.py": [],
+    "engine/feeds/usgs_historical.py": [],
+    "engine/feeds/vdem.py": [],
+    "engine/feeds/worldbank_wgi.py": [],
+    "engine/forecastbench/assemble.py": [
+      "engine/forecastbench/calib.py"
+    ],
+    "engine/forecastbench/calib.py": [],
+    "engine/forecastbench/corpus.py": [],
+    "engine/forecastbench/crowd.py": [],
+    "engine/forecastbench/curate.py": [],
+    "engine/forecastbench/kalshibench.py": [],
+    "engine/forecastbench/residual.py": [],
+    "engine/forecastbench/SUBMIT.md": [],
+    "engine/forecastbench/timesfm_model.py": [],
+    "engine/forecasting/__init__.py": []
+  }
+}

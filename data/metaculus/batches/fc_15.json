@@ -1,0 +1,50 @@
+[
+ {
+  "question_id": 25719,
+  "type": "binary",
+  "prob": 0.35,
+  "reasoning": "Taxonomic coverage of 75,000+ species via links (GBIF/WFO/Wikipedia) is already nearly solved, but the requirement for an open, agriculture-oriented database integrating genomic/phenomic or vernacular-use data at that scale is a much higher bar with no clear current effort spanning 25% of land plants. Plausible but not favored over a 9-year horizon."
+ },
+ {
+  "question_id": 25636,
+  "type": "binary",
+  "prob": 0.82,
+  "reasoning": "Multiple universal/off-the-shelf allogeneic CAR-T programs are advancing fast in 2026 (Wugen breakthrough designation, Caribou CB-011 RMAT with 92% ORR, Allogene pivotal programs), giving a deep pipeline and ~9 years runway, so at least one full FDA approval for a cancer indication is highly likely."
+ },
+ {
+  "question_id": 25598,
+  "type": "binary",
+  "prob": 0.08,
+  "reasoning": "ERW removed only ~10,000 t CO2/yr (0.00001 Gt) as of early 2025, requiring ~50,000x scaling to hit 0.5 Gt/yr by 2040, while peer-reviewed projections put ERW at just 0.35-0.76 Gt only by 2050, implying well under 0.5 Gt before 2040."
+ },
+ {
+  "question_id": 25595,
+  "type": "binary",
+  "prob": 0.07,
+  "reasoning": "This is a narrow, near-term (pre-2030) compound requirement—commercial availability at 1,000-ton scale, +30% weathering acceleration, AND under $20/ton—and no such biochemical additive product is currently on the market, so default low for a specific technical milestone in a short window."
+ },
+ {
+  "question_id": 25585,
+  "type": "binary",
+  "prob": 0.04,
+  "reasoning": "Alternative protein is only ~5-7% of the meat market in 2025 and growing at ~10-11% CAGR, leaving it near 9-11% by 2034—reaching >25% would require a roughly 4x share gain that far outpaces every current market trajectory."
+ },
+ {
+  "question_id": 25655,
+  "type": "binary",
+  "prob": 0.22,
+  "reasoning": "Age-adjusted US cancer mortality has fallen ~16% per decade recently (146.2 in 2019); a 50% drop to 73.1 by 2051 (~30 years) requires sustained acceleration well beyond trend, achievable only if multiple major therapy/prevention breakthroughs compound—possible but not the base-rate expectation."
+ },
+ {
+  "question_id": 25519,
+  "type": "binary",
+  "prob": 0.30,
+  "reasoning": "State-of-art high-fidelity fermentation tests run ~$1,500, so under $10 with PPV>0.90 is a ~150x reduction; well-funded startups (e.g., Caladan) are cutting costs sharply, but reaching sub-$10 per predictive bioreactor run by 2035 is an aggressive target that is more likely to land in the tens-to-hundreds-of-dollars range."
+ },
+ {
+  "question_id": 25526,
+  "type": "binary",
+  "prob": 0.12,
+  "reasoning": "A 100x cut (from $100-200M to ~$2M) in end-to-end bioproduct development cost by 2045 was flagged by Astera/Metaculus workshop experts as hinging on solving genotype-to-phenotype prediction, which they judged not very feasible; cost curves help but a full two-orders-of-magnitude drop is unlikely on this horizon."
+ }
+]

@@ -1,0 +1,497 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 20,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "training/AWS.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 116,
+      "nonEmptyLines": 101,
+      "sections": [
+        {
+          "heading": "training/AWS.md — best-practice AWS setup for the forecasting-LLM POC",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "0. Account & isolation (verified)",
+          "level": 2,
+          "line": 6
+        },
+        {
+          "heading": "1. Quotas — already fine (no request needed)",
+          "level": 2,
+          "line": 15
+        },
+        {
+          "heading": "2. Pre-flight (5 min, console or CLI)",
+          "level": 2,
+          "line": 19
+        },
+        {
+          "heading": "3. Instance — pick by credit appetite (all on `default`/us-east-1)",
+          "level": 2,
+          "line": 29
+        },
+        {
+          "heading": "4. AMI",
+          "level": 2,
+          "line": 42
+        },
+        {
+          "heading": "5. Launch",
+          "level": 2,
+          "line": 52
+        },
+        {
+          "heading": "6. Run",
+          "level": 2,
+          "line": 65
+        },
+        {
+          "heading": "7. Cost hygiene (don't waste credits)",
+          "level": 2,
+          "line": 111
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 9
+      }
+    },
+    {
+      "path": "training/MLX.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 102,
+      "nonEmptyLines": 90,
+      "sections": [
+        {
+          "heading": "training/MLX.md — local plumbing smoke test on an 8 GB Apple-Silicon Mac",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "✅ VERIFIED 2026-06-10 (this whole runbook was actually run)",
+          "level": 2,
+          "line": 12
+        },
+        {
+          "heading": "Model choice",
+          "level": 2,
+          "line": 23
+        },
+        {
+          "heading": "0. Install (Mac only) — VERIFIED",
+          "level": 2,
+          "line": 28
+        },
+        {
+          "heading": "1. Convert the real corpus → mlx data dirs (reuses production common.py) — VERIFIED",
+          "level": 2,
+          "line": 36
+        },
+        {
+          "heading": "2. SFT warmup (locks the output format) — VERIFIED, lean config fits 8 GB",
+          "level": 2,
+          "line": 42
+        },
+        {
+          "heading": "3. GRPO with the Brier reward — VERIFIED the loop turns (memory-bound on 8 GB)",
+          "level": 2,
+          "line": 52
+        },
+        {
+          "heading": "4. Leak-free eval — VERIFIED (light: single model, no reference)",
+          "level": 2,
+          "line": 86
+        },
+        {
+          "heading": "Success criterion (what \"passed\" means) — MET",
+          "level": 2,
+          "line": 91
+        },
+        {
+          "heading": "Notes for the GPU run (carried back from this dry run)",
+          "level": 2,
+          "line": 98
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 10
+      }
+    },
+    {
+      "path": "training/README.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 55,
+      "nonEmptyLines": 47,
+      "sections": [
+        {
+          "heading": "training/ — Phase 1: SFT → GRPO a forecasting LLM",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "What it does",
+          "level": 2,
+          "line": 13
+        },
+        {
+          "heading": "Run order",
+          "level": 2,
+          "line": 21
+        },
+        {
+          "heading": "Model + hardware",
+          "level": 2,
+          "line": 42
+        },
+        {
+          "heading": "Success gate",
+          "level": 2,
+          "line": 48
+        },
+        {
+          "heading": "Caveats (read before trusting a result)",
+          "level": 2,
+          "line": 52
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 6
+      }
+    },
+    {
+      "path": "training/RESIDUAL_RECIPE.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 85,
+      "nonEmptyLines": 72,
+      "sections": [
+        {
+          "heading": "Residual-on-prior recipe — the fix for the calibration-tax regression",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Why the last run failed (diagnosed, not guessed)",
+          "level": 2,
+          "line": 5
+        },
+        {
+          "heading": "The method",
+          "level": 2,
+          "line": 14
+        },
+        {
+          "heading": "Training (MLX, $0, on the 8 GB M3 — Qwen3-0.6B-4bit)",
+          "level": 2,
+          "line": 28
+        },
+        {
+          "heading": "MEASURED RESULTS (2026-06-14, leak-clean held-out n=264) — read this",
+          "level": 2,
+          "line": 54
+        },
+        {
+          "heading": "GRPO stage (next — the discrimination sharpener)",
+          "level": 2,
+          "line": 74
+        },
+        {
+          "heading": "What \"better than a normal 8B\" honestly means here",
+          "level": 2,
+          "line": 81
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 7
+      }
+    },
+    {
+      "path": "training/launch_big.sh",
+      "language": "shell",
+      "fileCategory": "script",
+      "totalLines": 58,
+      "nonEmptyLines": 54,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "training/launch_big_hunt.sh",
+      "language": "shell",
+      "fileCategory": "script",
+      "totalLines": 94,
+      "nonEmptyLines": 87,
+      "functions": [
+        {
+          "name": "say",
+          "startLine": 16,
+          "endLine": 16,
+          "params": []
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "training/launch_mumbai.sh",
+      "language": "shell",
+      "fileCategory": "script",
+      "totalLines": 52,
+      "nonEmptyLines": 48,
+      "functions": [
+        {
+          "name": "say",
+          "startLine": 15,
+          "endLine": 15,
+          "params": []
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "training/launch_residual.sh",
+      "language": "shell",
+      "fileCategory": "script",
+      "totalLines": 62,
+      "nonEmptyLines": 57,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "training/launch_resilient.sh",
+      "language": "shell",
+      "fileCategory": "script",
+      "totalLines": 78,
+      "nonEmptyLines": 73,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "training/launch_signal.sh",
+      "language": "shell",
+      "fileCategory": "script",
+      "totalLines": 40,
+      "nonEmptyLines": 36,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "training/launch_smoke.sh",
+      "language": "shell",
+      "fileCategory": "script",
+      "totalLines": 42,
+      "nonEmptyLines": 38,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "training/requirements-mlx.txt",
+      "language": "txt",
+      "fileCategory": "docs",
+      "totalLines": 7,
+      "nonEmptyLines": 7,
+      "metrics": {}
+    },
+    {
+      "path": "training/requirements.txt",
+      "language": "txt",
+      "fileCategory": "docs",
+      "totalLines": 12,
+      "nonEmptyLines": 12,
+      "metrics": {}
+    },
+    {
+      "path": "training/run_all.sh",
+      "language": "shell",
+      "fileCategory": "script",
+      "totalLines": 53,
+      "nonEmptyLines": 48,
+      "functions": [
+        {
+          "name": "fail",
+          "startLine": 13,
+          "endLine": 13,
+          "params": []
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "training/run_big.sh",
+      "language": "shell",
+      "fileCategory": "script",
+      "totalLines": 116,
+      "nonEmptyLines": 107,
+      "functions": [
+        {
+          "name": "fail",
+          "startLine": 14,
+          "endLine": 14,
+          "params": []
+        },
+        {
+          "name": "run_pair",
+          "startLine": 69,
+          "endLine": 78,
+          "params": []
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 2,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "training/run_overnight.sh",
+      "language": "shell",
+      "fileCategory": "script",
+      "totalLines": 33,
+      "nonEmptyLines": 29,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "training/run_residual.sh",
+      "language": "shell",
+      "fileCategory": "script",
+      "totalLines": 83,
+      "nonEmptyLines": 76,
+      "functions": [
+        {
+          "name": "fail",
+          "startLine": 18,
+          "endLine": 18,
+          "params": []
+        },
+        {
+          "name": "run_pair",
+          "startLine": 51,
+          "endLine": 58,
+          "params": []
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 2,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "training/run_residual2.sh",
+      "language": "shell",
+      "fileCategory": "script",
+      "totalLines": 48,
+      "nonEmptyLines": 43,
+      "functions": [
+        {
+          "name": "run_pair",
+          "startLine": 22,
+          "endLine": 32,
+          "params": []
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "training/run_residual3.sh",
+      "language": "shell",
+      "fileCategory": "script",
+      "totalLines": 40,
+      "nonEmptyLines": 36,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "training/run_smoke.sh",
+      "language": "shell",
+      "fileCategory": "script",
+      "totalLines": 38,
+      "nonEmptyLines": 32,
+      "functions": [
+        {
+          "name": "fail",
+          "startLine": 12,
+          "endLine": 12,
+          "params": []
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    }
+  ]
+}

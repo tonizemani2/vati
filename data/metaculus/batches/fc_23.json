@@ -1,0 +1,50 @@
+[
+ {
+  "question_id": 13897,
+  "type": "binary",
+  "prob": 0.02,
+  "reasoning": "No government agency has any crewed deep-space (beyond Earth-Moon) program flying before 2030; Artemis is cislunar only and Mars crewed flight is 2030s+ at earliest. Structurally near-impossible in the window."
+ },
+ {
+  "question_id": 13919,
+  "type": "numeric",
+  "percentiles": {"0.05": 0, "0.1": 0, "0.25": 0, "0.5": 2, "0.75": 2, "0.9": 4, "0.95": 4},
+  "reasoning": "First crewed landing slipped to Artemis IV (~early 2028, ~2 crew); a 2030 landing would put ~2 on the surface briefly, but landings are sparse so a zero-landing calendar year is plausible. Mass concentrated at 0 and 2."
+ },
+ {
+  "question_id": 14060,
+  "type": "binary",
+  "prob": 0.02,
+  "reasoning": "A continuous 365-day human presence requires a base occupied from end-2028; no lunar base or sustained-presence capability will exist by then. Effectively impossible."
+ },
+ {
+  "question_id": 13920,
+  "type": "discrete",
+  "percentiles": {"0.05": 1, "0.1": 1, "0.25": 1, "0.5": 2, "0.75": 3, "0.9": 4, "0.95": 5},
+  "reasoning": "Currently 1 (all US). First landing (Artemis IV, ~2028) crews are US-led but include international partners (CSA/ESA), plausibly adding 1-2 nationalities; broad multinational landings before 2030 are unlikely. Median ~2."
+ },
+ {
+  "question_id": 13785,
+  "type": "date",
+  "percentiles": {"0.05": "2028-03-01", "0.1": "2028-08-01", "0.25": "2029-02-01", "0.5": "2029-09-01", "0.75": "2030-08-01", "0.9": "2031-01-01", "0.95": "2031-06-01"},
+  "reasoning": "PPE+HALO baseline launch is Dec 2027 (likely to slip), then months of transit to NRHO; first crewed occupation arrives with Artemis IV-class missions, realistically 2029-2030 with meaningful chance it pushes past 2030."
+ },
+ {
+  "question_id": 13887,
+  "type": "numeric",
+  "percentiles": {"0.05": 685, "0.1": 692, "0.25": 700, "0.5": 712, "0.75": 725, "0.9": 740, "0.95": 755},
+  "reasoning": "ESA reports ~656 historical fragmentation events as of 2025, growing ~10-12/yr; by Jan 2030 (~4.5 more years plus re-catalog of older events) the figure lands near 710."
+ },
+ {
+  "question_id": 13911,
+  "type": "date",
+  "percentiles": {"0.05": "2026-07-01", "0.1": "2026-12-01", "0.25": "2027-08-01", "0.5": "2028-06-01", "0.75": "2029-08-01", "0.9": "2031-06-01", "0.95": "2033-01-01"},
+  "reasoning": "Tetra-5/Astroscale-Orbit Fab refueling targets 2026 but is a government demo; a truly commercial paid refueling of another entity's satellite likely lands 2027-2029, with slip risk pushing the tail out."
+ },
+ {
+  "question_id": 13914,
+  "type": "date",
+  "percentiles": {"0.05": "2029-01-01", "0.1": "2030-06-01", "0.25": "2032-06-01", "0.5": "2035-06-01", "0.75": "2037-01-01", "0.9": "2040-01-01", "0.95": "2044-01-01"},
+  "reasoning": "DRACO nuclear thermal propulsion was cancelled (March 2026) and no other near-term flight program exists; 'non-test capacity' is a high bar, so deployment most likely falls past the 2036 window."
+ }
+]

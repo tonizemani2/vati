@@ -1,0 +1,18 @@
+{
+  "n_common_questions": 56,
+  "difficulty_mean_abs_pref_minus_half": {
+    "common": 0.3565534701232143,
+    "full": 0.39348877824765627
+  },
+  "llm_battery_dll_adj_full": 0.0008703723520329757,
+  "n_configs_full": 130,
+  "llm_battery_dll_adj_matched": -0.0026357865718007077,
+  "n_configs_matched": 130,
+  "human_super_dll_adj_matched": 0.083950817787742,
+  "n_human": 22,
+  "matched_gap_human_minus_llm": 0.0865866043595427,
+  "matched_gap_bootstrap_95ci": [
+    0.0044917644405336535,
+    0.1768050053080842
+  ]
+}

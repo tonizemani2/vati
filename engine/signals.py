@@ -89,7 +89,48 @@ _CHANNEL_LABEL = {
     "preprints_posted": "preprint posting rate",
     "trade_value": "trade flow / supply dependency",
     "commodity_price": "commodity price (leading)",
+    # L2 capability / cost learning curves (the second-derivative signal)
+    "compute_flops_per_usd": "compute capability — FLOP/s per USD (frontier)",
+    "compute_flops_per_watt": "compute capability — FLOP/s per watt (frontier)",
+    "frontier_training_cost_usd": "frontier model training cost (USD)",
+    "transistors_per_microprocessor": "transistor density (Moore's-law curve)",
+    "supercomputer_flops": "fastest-supercomputer FLOP/s",
+    # L5 demand / adoption diffusion
+    "github_new_repos": "developer adoption — new GitHub repos/year",
+    "hf_new_models": "model adoption — new HuggingFace models/year",
+    # L4 supply elasticity
+    "capacity_utilization_total": "capacity utilization — total industry (tightness)",
+    "manufacturers_unfilled_orders": "order backlog (lead-time tightness)",
+    # L6 capital flows
+    "corporate_capex": "aggregate corporate capex",
+    "corporate_rnd_expense": "aggregate corporate R&D spend",
+    "ma_spend": "aggregate M&A spend",
 }
+
+
+# Metric-family rank: lower = surfaced first. Prefix rules cover the per-curve/per-sector
+# metric families minted by the capability/adoption/supply/capital feeds without enumerating each.
+_RANK_PREFIXES = (
+    # L2 capability curves are a top leading channel (cost/perf slope leads commercialization)
+    (("cost_per_", "lcoe_", "compute_flops_", "frontier_", "transistors_", "supercomputer_"), 1),
+    # L5 adoption diffusion
+    (("ev_", "renewable_", "solar_energy", "installed_solar", "internet_", "mobile_",
+      "github_new_repos", "hf_new_models", "adoption_"), 3),
+    # L4 supply elasticity (tightness — coincident but decision-relevant)
+    (("capacity_utilization_", "manufacturers_", "total_business_"), 6),
+    # L6 capital flows
+    (("corporate_", "ma_spend", "equity_issuance", "debt_issuance", "installed_ppe"), 7),
+)
+
+
+def _metric_rank(metric: str) -> int:
+    """Surfacing rank for a series metric: explicit map first, then metric-family prefixes."""
+    if metric in _CHANNEL_RANK:
+        return _CHANNEL_RANK[metric]
+    for prefixes, rank in _RANK_PREFIXES:
+        if metric.startswith(prefixes):
+            return rank
+    return 5
 
 
 # leading channels first (the prediction-valuable ones), then volume, then market/lag
@@ -149,7 +190,7 @@ def _match_series(conn, topic: str) -> list[dict]:
             **t,
         })
     # order leading-channels first, then by match score
-    out.sort(key=lambda s: (_CHANNEL_RANK.get(s["metric"], 5), -s["score"]))
+    out.sort(key=lambda s: (_metric_rank(s["metric"]), -s["score"]))
     return out
 
 
@@ -218,6 +259,55 @@ def _concept_patents() -> dict:
     return out
 
 
+def _emergence_map(conn) -> dict:
+    """name.lower() -> the concept_emergence acceleration verdict (WHERE the concept is moving NOW).
+
+    The dependency graph says where a constraint sits; this says where it is accelerating. Loaded once
+    per pack. Returns {} if the table isn't built yet (degrade gracefully, never crash the pack)."""
+    try:
+        rows = conn.execute(
+            "SELECT concept_name, surprise_sigma, sustained_sigma, fired, sustained, dissolving, "
+            "share_ppm_now, last_works, last_year, spark FROM concept_emergence").fetchall()
+    except sqlite3.OperationalError:
+        return {}
+    return {r["concept_name"].lower(): dict(r) for r in rows}
+
+
+def _emerge_tag(em: dict | None) -> str:
+    """Compact inline tag for a neighbor concept: ↑accelerating / ↓rent-leaving / flat."""
+    if not em:
+        return ""
+    if em["fired"] and em["sustained"]:
+        return f" ↑{em['sustained_sigma']:.0f}σ"
+    if em["dissolving"]:
+        return " ↓diss"
+    return ""
+
+
+def _edge_shift_map(conn) -> dict:
+    """(src_name.lower(), dst_name.lower()) -> the per-EDGE dependency-shift verdict (where the
+    constraint is MIGRATING). The node-emergence map says a concept is accelerating; this says a
+    specific A->B reliance is tightening (↗) or loosening (↘). {} if the table isn't built yet."""
+    try:
+        rows = conn.execute(
+            "SELECT src_name, dst_name, sustained_sigma, fired, sustained, dissolving "
+            "FROM concept_edge_shift").fetchall()
+    except sqlite3.OperationalError:
+        return {}
+    return {(r["src_name"].lower(), r["dst_name"].lower()): dict(r) for r in rows}
+
+
+def _shift_tag(sh: dict | None) -> str:
+    """Compact inline tag for one dependency edge: ↗tightening / ↘loosening / ''."""
+    if not sh:
+        return ""
+    if sh["fired"] and sh["sustained"]:
+        return f" ↗{sh['sustained_sigma']:.0f}σ"   # the constraint is migrating onto this input
+    if sh["dissolving"]:
+        return " ↘loosening"
+    return ""
+
+
 def _match_concept_nodes(conn, topic: str, *, limit: int = 3) -> list[dict]:
     """Resolve a free-text topic to concept_flow node(s) by whole-token overlap on the concept name."""
     qtoks = set(_tokens(topic))
@@ -250,6 +340,8 @@ def dependency_neighbors(conn, topic: str, *, top: int = 6, min_weight: float = 
     """
     out = []
     patents = _concept_patents()
+    emap = _emergence_map(conn)
+    shmap = _edge_shift_map(conn)
     for node in _match_concept_nodes(conn, topic):
         outbound = conn.execute(
             "SELECT n.name dst, e.weight w FROM graph_edges e JOIN graph_nodes n ON e.dst=n.id "
@@ -263,8 +355,17 @@ def dependency_neighbors(conn, topic: str, *, top: int = 6, min_weight: float = 
             continue
         entry = {
             "concept": node["name"],
-            "draws_on": [{"name": r["dst"], "weight": _fmt(r["w"])} for r in outbound],
-            "drawn_on_by": [{"name": r["src"], "weight": _fmt(r["w"])} for r in inbound],
+            "emergence": emap.get(node["name"].lower()),  # where THIS concept is moving (or None)
+            # `emerge` = is the NEIGHBOR concept accelerating; `shift` = is THIS reliance edge
+            # tightening/loosening (the constraint migrating along the link, not just the node moving).
+            "draws_on": [{"name": r["dst"], "weight": _fmt(r["w"]),
+                          "emerge": _emerge_tag(emap.get(r["dst"].lower())),
+                          "shift": _shift_tag(shmap.get((node["name"].lower(), r["dst"].lower())))}
+                         for r in outbound],
+            "drawn_on_by": [{"name": r["src"], "weight": _fmt(r["w"]),
+                             "emerge": _emerge_tag(emap.get(r["src"].lower())),
+                             "shift": _shift_tag(shmap.get((r["src"].lower(), node["name"].lower())))}
+                            for r in inbound],
         }
         rel = patents.get(node["name"].lower())
         if rel:
@@ -293,16 +394,85 @@ def dependency_neighbors(conn, topic: str, *, top: int = 6, min_weight: float = 
     return out
 
 
+# the named-actor kinds worth surfacing for execution: who holds/operates/signed/owns the real thing.
+# order = how directly each answers "to whom does this belong / who must act".
+_ACTOR_KINDS = ("resource_contract", "permit_holder", "land_holder", "mining_plan",
+                "infrastructure_project", "company", "institution", "policy", "country_region")
+_ACTOR_LABEL = {
+    "resource_contract": "signed resource/land contract", "permit_holder": "permit / claim holder",
+    "land_holder": "land acquirer / holder", "mining_plan": "filed mining plan",
+    "infrastructure_project": "infrastructure project", "company": "company",
+    "institution": "institution", "policy": "policy instrument", "country_region": "jurisdiction"}
+
+
+def match_entities(conn, topic: str, *, per_kind: int = 4, kinds=_ACTOR_KINDS) -> list[dict]:
+    """Named real-world actors from the entity graph that match a call/needle: who holds the permit,
+    operates the mine, signed the contract, acquired the land, runs the project. This is the
+    'find the real thing + to whom it belongs' layer the execution step builds on.
+
+    SQL substring prefilter (fast over 96k rows) then whole-token overlap for precision. Grouped by
+    actor kind, most-direct-ownership first, capped per kind so one noisy kind can't crowd the rest.
+    """
+    qtoks = [t for t in set(_tokens(topic)) if len(t) >= 3]  # >=3 drops noisy 2-char substrings
+    if not qtoks:
+        return []
+    name_likes = " OR ".join("lower(canonical_name) LIKE ?" for _ in qtoks)
+    alias_likes = " OR ".join("lower(coalesce(aliases,'')) LIKE ?" for _ in qtoks)
+    kind_ph = ",".join("?" for _ in kinds)
+    params = list(kinds) + [f"%{t}%" for t in qtoks] + [f"%{t}%" for t in qtoks]
+    rows = conn.execute(
+        f"SELECT kind, canonical_name, aliases, note FROM entities "
+        f"WHERE kind IN ({kind_ph}) AND canonical_name != '' AND (({name_likes}) OR ({alias_likes})) "
+        f"LIMIT 6000", params).fetchall()
+    qset = set(qtoks)
+    scored = []
+    for r in rows:
+        etoks = {t for t in _tokset(r["canonical_name"], r["aliases"] or "") if len(t) >= 3 and t not in STOP}
+        overlap = qset & etoks
+        if not overlap:
+            continue
+        scored.append((len(overlap), r["kind"], r["canonical_name"], (r["note"] or "").strip()))
+    scored.sort(key=lambda x: (-x[0], _ACTOR_KINDS.index(x[1]) if x[1] in _ACTOR_KINDS else 99))
+    out: list[dict] = []
+    seen: dict[str, int] = {}
+    for score, kind, name, note in scored:
+        if seen.get(kind, 0) >= per_kind:
+            continue
+        seen[kind] = seen.get(kind, 0) + 1
+        out.append({"kind": kind, "name": name, "note": note[:140], "match": score})
+    return out
+
+
+def format_entities(rows: list[dict]) -> str:
+    if not rows:
+        return ("NAMED REAL-WORLD MATCHES: none in the entity graph for this needle. The execution "
+                "step must name the real holders/operators itself via web search and say the graph is blind.")
+    by_kind: dict[str, list[dict]] = {}
+    for r in rows:
+        by_kind.setdefault(r["kind"], []).append(r)
+    lines = ["NAMED REAL-WORLD MATCHES (who holds / operates / signed / owns the real thing — from our entity graph):"]
+    for kind in _ACTOR_KINDS:
+        items = by_kind.get(kind)
+        if not items:
+            continue
+        names = "; ".join(i["name"] for i in items)
+        lines.append(f"  - {_ACTOR_LABEL.get(kind, kind)}: {names}")
+    lines.append("These are real, dated rows from our data layer — use them to NAME the exposed/positioned "
+                 "party in the execution brief, then verify each with one web search. Do not invent holders.")
+    return "\n".join(lines)
+
+
 def evidence_pack(topic: str) -> dict:
     conn = db.connect()
     try:
         series = _match_series(conn, topic)
         patents = _match_patents(topic)
         dependency = dependency_neighbors(conn, topic)
+        actors = match_entities(conn, topic)
     finally:
         conn.close()
     return {"topic": topic, "series": series, "patents": patents, "dependency": dependency,
-            "found": bool(series or patents or dependency)}
+            "actors": actors, "found": bool(series or patents or dependency or actors)}
 
 
 def format_pack(pack: dict) -> str:
@@ -327,12 +497,27 @@ def format_pack(pack: dict) -> str:
         lines.append(seg)
     for d in pack.get("dependency", []):
         has_edges = bool(d["draws_on"] or d["drawn_on_by"])
-        lines.append(f"  - DEPENDENCY GRAPH [{d['concept']}] (measured citation flow):")
+        em = d.get("emergence")
+        em_str = ""
+        if em and em["fired"] and em["sustained"]:
+            em_str = (f"  [MOVING: share-acceleration FIRED {em['sustained_sigma']:.0f}σ̄ "
+                      f"(max {em['surprise_sigma']:.0f}σ), still climbing as of {em['last_year']} "
+                      f"{em['spark']} — early, not yet its own trend]")
+        elif em and em["dissolving"]:
+            em_str = "  [RENT LEAVING: share retreating below trend — a kill/short signal]"
+        elif em:
+            em_str = "  [flat: no share-acceleration — priced or dormant]"
+        lines.append(f"  - DEPENDENCY GRAPH [{d['concept']}]{em_str} (measured citation flow):")
         if has_edges:
-            on = ", ".join(f"{e['name']} ({e['weight']:.0%})" for e in d["draws_on"]) or "—"
-            by = ", ".join(f"{e['name']} ({e['weight']:.0%})" for e in d["drawn_on_by"]) or "—"
+            on = ", ".join(f"{e['name']} ({e['weight']:.0%}){e.get('emerge','')}{e.get('shift','')}"
+                           for e in d["draws_on"]) or "—"
+            by = ", ".join(f"{e['name']} ({e['weight']:.0%}){e.get('emerge','')}{e.get('shift','')}"
+                           for e in d["drawn_on_by"]) or "—"
             lines.append(f"      draws_on (its knowledge base leans on -> candidate binding inputs): {on}")
             lines.append(f"      drawn_on_by (who leans on it -> blast radius if constrained): {by}")
+            if any(e.get("shift") for e in d["draws_on"] + d["drawn_on_by"]):
+                lines.append("      (↗Nσ = that RELIANCE is tightening = the binding constraint is migrating "
+                             "onto that input — the strongest pre-consensus tell; ↘ = link decaying)")
         pr = d.get("patent_reliance")
         if pr:
             lines.append(f"      paper->patent reliance (worldwide citations): {pr['n_patents']:,} patents "

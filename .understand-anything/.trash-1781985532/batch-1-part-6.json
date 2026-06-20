@@ -1,0 +1,4660 @@
+{
+  "nodes": [
+    {
+      "id": "file:engine/raw_provenance.py",
+      "type": "file",
+      "name": "raw_provenance.py",
+      "filePath": "engine/raw_provenance.py",
+      "summary": "raw_provenance.py is a code asset in the forecasting engine. It contains 11 functions, 2 classes, 3 internal imports.",
+      "tags": [
+        "forecasting-engine",
+        "code",
+        "file",
+        "raw-provenance"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:engine/raw_provenance.py:_skip_reason",
+      "type": "function",
+      "name": "_skip_reason",
+      "filePath": "engine/raw_provenance.py",
+      "lineRange": [
+        66,
+        77
+      ],
+      "summary": "Defines _skip_reason in raw_provenance.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "raw-provenance"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/raw_provenance.py:_host_bucket",
+      "type": "function",
+      "name": "_host_bucket",
+      "filePath": "engine/raw_provenance.py",
+      "lineRange": [
+        80,
+        87
+      ],
+      "summary": "Defines _host_bucket in raw_provenance.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "raw-provenance"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/raw_provenance.py:fetch_bytes",
+      "type": "function",
+      "name": "fetch_bytes",
+      "filePath": "engine/raw_provenance.py",
+      "lineRange": [
+        90,
+        107
+      ],
+      "summary": "Defines fetch_bytes in raw_provenance.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-access",
+        "raw-provenance"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/raw_provenance.py:_missing_source_rows",
+      "type": "function",
+      "name": "_missing_source_rows",
+      "filePath": "engine/raw_provenance.py",
+      "lineRange": [
+        110,
+        132
+      ],
+      "summary": "Defines _missing_source_rows in raw_provenance.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "raw-provenance"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/raw_provenance.py:_inc",
+      "type": "function",
+      "name": "_inc",
+      "filePath": "engine/raw_provenance.py",
+      "lineRange": [
+        135,
+        136
+      ],
+      "summary": "Defines _inc in raw_provenance.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "raw-provenance"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/raw_provenance.py:_add_detail",
+      "type": "function",
+      "name": "_add_detail",
+      "filePath": "engine/raw_provenance.py",
+      "lineRange": [
+        139,
+        141
+      ],
+      "summary": "Defines _add_detail in raw_provenance.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "raw-provenance"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/raw_provenance.py:recover_missing_raw_docs",
+      "type": "function",
+      "name": "recover_missing_raw_docs",
+      "filePath": "engine/raw_provenance.py",
+      "lineRange": [
+        144,
+        241
+      ],
+      "summary": "Defines recover_missing_raw_docs in raw_provenance.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "raw-provenance"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/raw_provenance.py:raw_gap_summary",
+      "type": "function",
+      "name": "raw_gap_summary",
+      "filePath": "engine/raw_provenance.py",
+      "lineRange": [
+        244,
+        289
+      ],
+      "summary": "Defines raw_gap_summary in raw_provenance.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "raw-provenance"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/raw_provenance.py:mark_legacy_provenance",
+      "type": "function",
+      "name": "mark_legacy_provenance",
+      "filePath": "engine/raw_provenance.py",
+      "lineRange": [
+        292,
+        350
+      ],
+      "summary": "Defines mark_legacy_provenance in raw_provenance.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "raw-provenance"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/raw_provenance.py:format_legacy_mark",
+      "type": "function",
+      "name": "format_legacy_mark",
+      "filePath": "engine/raw_provenance.py",
+      "lineRange": [
+        353,
+        365
+      ],
+      "summary": "Defines format_legacy_mark in raw_provenance.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "raw-provenance"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/raw_provenance.py:format_recovery",
+      "type": "function",
+      "name": "format_recovery",
+      "filePath": "engine/raw_provenance.py",
+      "lineRange": [
+        368,
+        388
+      ],
+      "summary": "Defines format_recovery in raw_provenance.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "raw-provenance"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:engine/raw_provenance.py:FetchedBytes",
+      "type": "class",
+      "name": "FetchedBytes",
+      "filePath": "engine/raw_provenance.py",
+      "lineRange": [
+        55,
+        59
+      ],
+      "summary": "Defines FetchedBytes in raw_provenance.py, encapsulating reusable behavior or state for this module.",
+      "tags": [
+        "class",
+        "implementation",
+        "raw-provenance"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:engine/raw_provenance.py:FetchTooLarge",
+      "type": "class",
+      "name": "FetchTooLarge",
+      "filePath": "engine/raw_provenance.py",
+      "lineRange": [
+        62,
+        63
+      ],
+      "summary": "Defines FetchTooLarge in raw_provenance.py, encapsulating reusable behavior or state for this module.",
+      "tags": [
+        "class",
+        "implementation",
+        "raw-provenance"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:engine/rawstore.py",
+      "type": "file",
+      "name": "rawstore.py",
+      "filePath": "engine/rawstore.py",
+      "summary": "rawstore.py is a code asset in the forecasting engine. It contains 12 functions, 3 internal imports.",
+      "tags": [
+        "forecasting-engine",
+        "code",
+        "file",
+        "rawstore"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:engine/rawstore.py:content_hash",
+      "type": "function",
+      "name": "content_hash",
+      "filePath": "engine/rawstore.py",
+      "lineRange": [
+        33,
+        34
+      ],
+      "summary": "Defines content_hash in rawstore.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "rawstore"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/rawstore.py:_path_for",
+      "type": "function",
+      "name": "_path_for",
+      "filePath": "engine/rawstore.py",
+      "lineRange": [
+        37,
+        39
+      ],
+      "summary": "Defines _path_for in rawstore.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "rawstore"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/rawstore.py:exists",
+      "type": "function",
+      "name": "exists",
+      "filePath": "engine/rawstore.py",
+      "lineRange": [
+        42,
+        45
+      ],
+      "summary": "Defines exists in rawstore.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "rawstore"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/rawstore.py:put",
+      "type": "function",
+      "name": "put",
+      "filePath": "engine/rawstore.py",
+      "lineRange": [
+        48,
+        86
+      ],
+      "summary": "Defines put in rawstore.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "rawstore"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/rawstore.py:get",
+      "type": "function",
+      "name": "get",
+      "filePath": "engine/rawstore.py",
+      "lineRange": [
+        89,
+        94
+      ],
+      "summary": "Defines get in rawstore.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "rawstore"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/rawstore.py:_abs_repo_path",
+      "type": "function",
+      "name": "_abs_repo_path",
+      "filePath": "engine/rawstore.py",
+      "lineRange": [
+        97,
+        101
+      ],
+      "summary": "Defines _abs_repo_path in rawstore.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "rawstore"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/rawstore.py:_is_relative_to",
+      "type": "function",
+      "name": "_is_relative_to",
+      "filePath": "engine/rawstore.py",
+      "lineRange": [
+        104,
+        109
+      ],
+      "summary": "Defines _is_relative_to in rawstore.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "rawstore"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/rawstore.py:_row_path",
+      "type": "function",
+      "name": "_row_path",
+      "filePath": "engine/rawstore.py",
+      "lineRange": [
+        112,
+        114
+      ],
+      "summary": "Defines _row_path in rawstore.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "rawstore"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/rawstore.py:_remote_uri_for_path",
+      "type": "function",
+      "name": "_remote_uri_for_path",
+      "filePath": "engine/rawstore.py",
+      "lineRange": [
+        117,
+        133
+      ],
+      "summary": "Defines _remote_uri_for_path in rawstore.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "rawstore"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/rawstore.py:locate",
+      "type": "function",
+      "name": "locate",
+      "filePath": "engine/rawstore.py",
+      "lineRange": [
+        136,
+        183
+      ],
+      "summary": "Defines locate in rawstore.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "rawstore"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/rawstore.py:restore",
+      "type": "function",
+      "name": "restore",
+      "filePath": "engine/rawstore.py",
+      "lineRange": [
+        186,
+        243
+      ],
+      "summary": "Defines restore in rawstore.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "rawstore"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/rawstore.py:path_of",
+      "type": "function",
+      "name": "path_of",
+      "filePath": "engine/rawstore.py",
+      "lineRange": [
+        246,
+        250
+      ],
+      "summary": "Defines path_of in rawstore.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "rawstore"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:engine/world_catalog.py",
+      "type": "file",
+      "name": "world_catalog.py",
+      "filePath": "engine/world_catalog.py",
+      "summary": "world_catalog.py is a code asset in the forecasting engine. It contains 89 functions, 5 classes, 4 internal imports.",
+      "tags": [
+        "forecasting-engine",
+        "code",
+        "file",
+        "world-catalog"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:engine/world_catalog.py:registry",
+      "type": "function",
+      "name": "registry",
+      "filePath": "engine/world_catalog.py",
+      "lineRange": [
+        1968,
+        1974
+      ],
+      "summary": "Defines registry in world_catalog.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-catalog"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_catalog.py:top_entities",
+      "type": "function",
+      "name": "top_entities",
+      "filePath": "engine/world_catalog.py",
+      "lineRange": [
+        1977,
+        1981
+      ],
+      "summary": "Defines top_entities in world_catalog.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-catalog"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_catalog.py:global_view",
+      "type": "function",
+      "name": "global_view",
+      "filePath": "engine/world_catalog.py",
+      "lineRange": [
+        1984,
+        2000
+      ],
+      "summary": "Defines global_view in world_catalog.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-catalog"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_catalog.py:research_expansion_inventory",
+      "type": "function",
+      "name": "research_expansion_inventory",
+      "filePath": "engine/world_catalog.py",
+      "lineRange": [
+        2003,
+        2055
+      ],
+      "summary": "Defines research_expansion_inventory in world_catalog.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-access",
+        "world-catalog"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/world_catalog.py:format_research_expansion_inventory",
+      "type": "function",
+      "name": "format_research_expansion_inventory",
+      "filePath": "engine/world_catalog.py",
+      "lineRange": [
+        2058,
+        2087
+      ],
+      "summary": "Defines format_research_expansion_inventory in world_catalog.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "data-access",
+        "world-catalog"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_catalog.py:research_expansion_inventory_csv",
+      "type": "function",
+      "name": "research_expansion_inventory_csv",
+      "filePath": "engine/world_catalog.py",
+      "lineRange": [
+        2090,
+        2107
+      ],
+      "summary": "Defines research_expansion_inventory_csv in world_catalog.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-access",
+        "world-catalog"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_catalog.py:land_permit_inventory",
+      "type": "function",
+      "name": "land_permit_inventory",
+      "filePath": "engine/world_catalog.py",
+      "lineRange": [
+        2110,
+        2168
+      ],
+      "summary": "Defines land_permit_inventory in world_catalog.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-catalog"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/world_catalog.py:format_land_permit_inventory",
+      "type": "function",
+      "name": "format_land_permit_inventory",
+      "filePath": "engine/world_catalog.py",
+      "lineRange": [
+        2171,
+        2201
+      ],
+      "summary": "Defines format_land_permit_inventory in world_catalog.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "world-catalog"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_catalog.py:land_permit_inventory_csv",
+      "type": "function",
+      "name": "land_permit_inventory_csv",
+      "filePath": "engine/world_catalog.py",
+      "lineRange": [
+        2204,
+        2221
+      ],
+      "summary": "Defines land_permit_inventory_csv in world_catalog.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-catalog"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_catalog.py:physical_constraint_inventory",
+      "type": "function",
+      "name": "physical_constraint_inventory",
+      "filePath": "engine/world_catalog.py",
+      "lineRange": [
+        2224,
+        2276
+      ],
+      "summary": "Defines physical_constraint_inventory in world_catalog.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-catalog"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/world_catalog.py:format_physical_constraint_inventory",
+      "type": "function",
+      "name": "format_physical_constraint_inventory",
+      "filePath": "engine/world_catalog.py",
+      "lineRange": [
+        2279,
+        2309
+      ],
+      "summary": "Defines format_physical_constraint_inventory in world_catalog.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "world-catalog"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_catalog.py:physical_constraint_inventory_csv",
+      "type": "function",
+      "name": "physical_constraint_inventory_csv",
+      "filePath": "engine/world_catalog.py",
+      "lineRange": [
+        2312,
+        2329
+      ],
+      "summary": "Defines physical_constraint_inventory_csv in world_catalog.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-catalog"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_catalog.py:_source_status_summary",
+      "type": "function",
+      "name": "_source_status_summary",
+      "filePath": "engine/world_catalog.py",
+      "lineRange": [
+        2399,
+        2414
+      ],
+      "summary": "Defines _source_status_summary in world_catalog.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-catalog"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_catalog.py:constraint_roi_queue",
+      "type": "function",
+      "name": "constraint_roi_queue",
+      "filePath": "engine/world_catalog.py",
+      "lineRange": [
+        2417,
+        2515
+      ],
+      "summary": "Defines constraint_roi_queue in world_catalog.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-catalog"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/world_catalog.py:format_constraint_roi_queue",
+      "type": "function",
+      "name": "format_constraint_roi_queue",
+      "filePath": "engine/world_catalog.py",
+      "lineRange": [
+        2518,
+        2554
+      ],
+      "summary": "Defines format_constraint_roi_queue in world_catalog.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "world-catalog"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_catalog.py:entity_identifier_status",
+      "type": "function",
+      "name": "entity_identifier_status",
+      "filePath": "engine/world_catalog.py",
+      "lineRange": [
+        2557,
+        2687
+      ],
+      "summary": "Defines entity_identifier_status in world_catalog.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-catalog"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/world_catalog.py:_top_entity_rows",
+      "type": "function",
+      "name": "_top_entity_rows",
+      "filePath": "engine/world_catalog.py",
+      "lineRange": [
+        2690,
+        2710
+      ],
+      "summary": "Defines _top_entity_rows in world_catalog.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-catalog"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_catalog.py:_empty_entity_coverage_summary",
+      "type": "function",
+      "name": "_empty_entity_coverage_summary",
+      "filePath": "engine/world_catalog.py",
+      "lineRange": [
+        2713,
+        2738
+      ],
+      "summary": "Defines _empty_entity_coverage_summary in world_catalog.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-catalog"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_catalog.py:top_entity_coverage",
+      "type": "function",
+      "name": "top_entity_coverage",
+      "filePath": "engine/world_catalog.py",
+      "lineRange": [
+        2741,
+        2917
+      ],
+      "summary": "Defines top_entity_coverage in world_catalog.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-catalog"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/world_catalog.py:format_top_entity_coverage",
+      "type": "function",
+      "name": "format_top_entity_coverage",
+      "filePath": "engine/world_catalog.py",
+      "lineRange": [
+        2920,
+        2949
+      ],
+      "summary": "Defines format_top_entity_coverage in world_catalog.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "world-catalog"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_catalog.py:top_entity_coverage_csv",
+      "type": "function",
+      "name": "top_entity_coverage_csv",
+      "filePath": "engine/world_catalog.py",
+      "lineRange": [
+        2952,
+        2966
+      ],
+      "summary": "Defines top_entity_coverage_csv in world_catalog.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-catalog"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_catalog.py:_table_count",
+      "type": "function",
+      "name": "_table_count",
+      "filePath": "engine/world_catalog.py",
+      "lineRange": [
+        2969,
+        2974
+      ],
+      "summary": "Defines _table_count in world_catalog.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-catalog"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_catalog.py:_feed_file_status",
+      "type": "function",
+      "name": "_feed_file_status",
+      "filePath": "engine/world_catalog.py",
+      "lineRange": [
+        2977,
+        3012
+      ],
+      "summary": "Defines _feed_file_status in world_catalog.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-catalog"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_catalog.py:_series_health_status",
+      "type": "function",
+      "name": "_series_health_status",
+      "filePath": "engine/world_catalog.py",
+      "lineRange": [
+        3015,
+        3081
+      ],
+      "summary": "Defines _series_health_status in world_catalog.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-catalog"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/world_catalog.py:_provider_counts",
+      "type": "function",
+      "name": "_provider_counts",
+      "filePath": "engine/world_catalog.py",
+      "lineRange": [
+        3084,
+        3106
+      ],
+      "summary": "Defines _provider_counts in world_catalog.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-catalog"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_catalog.py:_source_counts_by_url",
+      "type": "function",
+      "name": "_source_counts_by_url",
+      "filePath": "engine/world_catalog.py",
+      "lineRange": [
+        3109,
+        3164
+      ],
+      "summary": "Defines _source_counts_by_url in world_catalog.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-catalog"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/world_catalog.py:_source_counts_by_provider",
+      "type": "function",
+      "name": "_source_counts_by_provider",
+      "filePath": "engine/world_catalog.py",
+      "lineRange": [
+        3167,
+        3223
+      ],
+      "summary": "Defines _source_counts_by_provider in world_catalog.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-catalog"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/world_catalog.py:_source_ids_by_provider",
+      "type": "function",
+      "name": "_source_ids_by_provider",
+      "filePath": "engine/world_catalog.py",
+      "lineRange": [
+        3226,
+        3241
+      ],
+      "summary": "Defines _source_ids_by_provider in world_catalog.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-catalog"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_catalog.py:_fact_counts_by_source_id",
+      "type": "function",
+      "name": "_fact_counts_by_source_id",
+      "filePath": "engine/world_catalog.py",
+      "lineRange": [
+        3244,
+        3257
+      ],
+      "summary": "Defines _fact_counts_by_source_id in world_catalog.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-catalog"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_catalog.py:_fact_counts_by_source_url",
+      "type": "function",
+      "name": "_fact_counts_by_source_url",
+      "filePath": "engine/world_catalog.py",
+      "lineRange": [
+        3260,
+        3273
+      ],
+      "summary": "Defines _fact_counts_by_source_url in world_catalog.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-catalog"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_catalog.py:_fact_counts_by_provider",
+      "type": "function",
+      "name": "_fact_counts_by_provider",
+      "filePath": "engine/world_catalog.py",
+      "lineRange": [
+        3276,
+        3284
+      ],
+      "summary": "Defines _fact_counts_by_provider in world_catalog.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-catalog"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_catalog.py:_entity_link_counts_by_method",
+      "type": "function",
+      "name": "_entity_link_counts_by_method",
+      "filePath": "engine/world_catalog.py",
+      "lineRange": [
+        3287,
+        3292
+      ],
+      "summary": "Defines _entity_link_counts_by_method in world_catalog.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-catalog"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_catalog.py:_series_entity_link_counts_by_provider",
+      "type": "function",
+      "name": "_series_entity_link_counts_by_provider",
+      "filePath": "engine/world_catalog.py",
+      "lineRange": [
+        3295,
+        3308
+      ],
+      "summary": "Defines _series_entity_link_counts_by_provider in world_catalog.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-catalog"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_catalog.py:_disk_status",
+      "type": "function",
+      "name": "_disk_status",
+      "filePath": "engine/world_catalog.py",
+      "lineRange": [
+        3311,
+        3319
+      ],
+      "summary": "Defines _disk_status in world_catalog.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-catalog"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_catalog.py:_offload_status",
+      "type": "function",
+      "name": "_offload_status",
+      "filePath": "engine/world_catalog.py",
+      "lineRange": [
+        3322,
+        3336
+      ],
+      "summary": "Defines _offload_status in world_catalog.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-catalog"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_catalog.py:_cost_status",
+      "type": "function",
+      "name": "_cost_status",
+      "filePath": "engine/world_catalog.py",
+      "lineRange": [
+        3339,
+        3419
+      ],
+      "summary": "Defines _cost_status in world_catalog.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-catalog"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/world_catalog.py:_scan_log_status",
+      "type": "function",
+      "name": "_scan_log_status",
+      "filePath": "engine/world_catalog.py",
+      "lineRange": [
+        3422,
+        3454
+      ],
+      "summary": "Defines _scan_log_status in world_catalog.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-catalog"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_catalog.py:_operational_status",
+      "type": "function",
+      "name": "_operational_status",
+      "filePath": "engine/world_catalog.py",
+      "lineRange": [
+        3457,
+        3482
+      ],
+      "summary": "Defines _operational_status in world_catalog.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-catalog"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_catalog.py:_feed_needs_refresh",
+      "type": "function",
+      "name": "_feed_needs_refresh",
+      "filePath": "engine/world_catalog.py",
+      "lineRange": [
+        3485,
+        3491
+      ],
+      "summary": "Defines _feed_needs_refresh in world_catalog.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-catalog"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_catalog.py:_diagnostic_blocks_collection",
+      "type": "function",
+      "name": "_diagnostic_blocks_collection",
+      "filePath": "engine/world_catalog.py",
+      "lineRange": [
+        3494,
+        3499
+      ],
+      "summary": "Defines _diagnostic_blocks_collection in world_catalog.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-catalog"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_catalog.py:_collection_readiness",
+      "type": "function",
+      "name": "_collection_readiness",
+      "filePath": "engine/world_catalog.py",
+      "lineRange": [
+        3502,
+        3571
+      ],
+      "summary": "Defines _collection_readiness in world_catalog.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-catalog"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/world_catalog.py:data_status",
+      "type": "function",
+      "name": "data_status",
+      "filePath": "engine/world_catalog.py",
+      "lineRange": [
+        3574,
+        3856
+      ],
+      "summary": "Defines data_status in world_catalog.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-catalog"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:engine/world_catalog.py:seed_top_entities",
+      "type": "function",
+      "name": "seed_top_entities",
+      "filePath": "engine/world_catalog.py",
+      "lineRange": [
+        3859,
+        3896
+      ],
+      "summary": "Defines seed_top_entities in world_catalog.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-catalog"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_catalog.py:format_plan",
+      "type": "function",
+      "name": "format_plan",
+      "filePath": "engine/world_catalog.py",
+      "lineRange": [
+        3899,
+        3924
+      ],
+      "summary": "Defines format_plan in world_catalog.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "world-catalog"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_catalog.py:_short_int",
+      "type": "function",
+      "name": "_short_int",
+      "filePath": "engine/world_catalog.py",
+      "lineRange": [
+        3927,
+        3932
+      ],
+      "summary": "Defines _short_int in world_catalog.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-catalog"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_catalog.py:_unblock_steps_for_source",
+      "type": "function",
+      "name": "_unblock_steps_for_source",
+      "filePath": "engine/world_catalog.py",
+      "lineRange": [
+        3935,
+        4039
+      ],
+      "summary": "Defines _unblock_steps_for_source in world_catalog.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-catalog"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/world_catalog.py:_preflight_commands_for_source",
+      "type": "function",
+      "name": "_preflight_commands_for_source",
+      "filePath": "engine/world_catalog.py",
+      "lineRange": [
+        4042,
+        4100
+      ],
+      "summary": "Defines _preflight_commands_for_source in world_catalog.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-catalog"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/world_catalog.py:_execution_risk_for_source",
+      "type": "function",
+      "name": "_execution_risk_for_source",
+      "filePath": "engine/world_catalog.py",
+      "lineRange": [
+        4103,
+        4123
+      ],
+      "summary": "Defines _execution_risk_for_source in world_catalog.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-catalog"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_catalog.py:_risk_notes_for_source",
+      "type": "function",
+      "name": "_risk_notes_for_source",
+      "filePath": "engine/world_catalog.py",
+      "lineRange": [
+        4126,
+        4146
+      ],
+      "summary": "Defines _risk_notes_for_source in world_catalog.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-catalog"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_catalog.py:_source_action_plan",
+      "type": "function",
+      "name": "_source_action_plan",
+      "filePath": "engine/world_catalog.py",
+      "lineRange": [
+        4149,
+        4209
+      ],
+      "summary": "Defines _source_action_plan in world_catalog.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-catalog"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/world_catalog.py:approval_plan",
+      "type": "function",
+      "name": "approval_plan",
+      "filePath": "engine/world_catalog.py",
+      "lineRange": [
+        4212,
+        4233
+      ],
+      "summary": "Defines approval_plan in world_catalog.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-catalog"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_catalog.py:_format_execution_risk",
+      "type": "function",
+      "name": "_format_execution_risk",
+      "filePath": "engine/world_catalog.py",
+      "lineRange": [
+        4236,
+        4249
+      ],
+      "summary": "Defines _format_execution_risk in world_catalog.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "world-catalog"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_catalog.py:_coverage_scope",
+      "type": "function",
+      "name": "_coverage_scope",
+      "filePath": "engine/world_catalog.py",
+      "lineRange": [
+        4252,
+        4260
+      ],
+      "summary": "Defines _coverage_scope in world_catalog.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-catalog"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_catalog.py:_cost_posture",
+      "type": "function",
+      "name": "_cost_posture",
+      "filePath": "engine/world_catalog.py",
+      "lineRange": [
+        4263,
+        4273
+      ],
+      "summary": "Defines _cost_posture in world_catalog.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-catalog"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_catalog.py:_storage_posture",
+      "type": "function",
+      "name": "_storage_posture",
+      "filePath": "engine/world_catalog.py",
+      "lineRange": [
+        4276,
+        4284
+      ],
+      "summary": "Defines _storage_posture in world_catalog.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-catalog"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_catalog.py:_next_action_type",
+      "type": "function",
+      "name": "_next_action_type",
+      "filePath": "engine/world_catalog.py",
+      "lineRange": [
+        4287,
+        4311
+      ],
+      "summary": "Defines _next_action_type in world_catalog.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-catalog"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_catalog.py:source_matrix",
+      "type": "function",
+      "name": "source_matrix",
+      "filePath": "engine/world_catalog.py",
+      "lineRange": [
+        4314,
+        4380
+      ],
+      "summary": "Defines source_matrix in world_catalog.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-catalog"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/world_catalog.py:format_source_matrix",
+      "type": "function",
+      "name": "format_source_matrix",
+      "filePath": "engine/world_catalog.py",
+      "lineRange": [
+        4383,
+        4421
+      ],
+      "summary": "Defines format_source_matrix in world_catalog.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "world-catalog"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_catalog.py:source_matrix_csv",
+      "type": "function",
+      "name": "source_matrix_csv",
+      "filePath": "engine/world_catalog.py",
+      "lineRange": [
+        4424,
+        4441
+      ],
+      "summary": "Defines source_matrix_csv in world_catalog.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-catalog"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_catalog.py:_source_ids_for_spec",
+      "type": "function",
+      "name": "_source_ids_for_spec",
+      "filePath": "engine/world_catalog.py",
+      "lineRange": [
+        4444,
+        4485
+      ],
+      "summary": "Defines _source_ids_for_spec in world_catalog.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-catalog"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_catalog.py:_fact_time_stats_for_sources",
+      "type": "function",
+      "name": "_fact_time_stats_for_sources",
+      "filePath": "engine/world_catalog.py",
+      "lineRange": [
+        4488,
+        4554
+      ],
+      "summary": "Defines _fact_time_stats_for_sources in world_catalog.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-catalog"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/world_catalog.py:_paper_stats_for_providers",
+      "type": "function",
+      "name": "_paper_stats_for_providers",
+      "filePath": "engine/world_catalog.py",
+      "lineRange": [
+        4557,
+        4605
+      ],
+      "summary": "Defines _paper_stats_for_providers in world_catalog.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-catalog"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_catalog.py:_time_query_status",
+      "type": "function",
+      "name": "_time_query_status",
+      "filePath": "engine/world_catalog.py",
+      "lineRange": [
+        4608,
+        4617
+      ],
+      "summary": "Defines _time_query_status in world_catalog.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-access",
+        "world-catalog"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_catalog.py:_llm_query_status",
+      "type": "function",
+      "name": "_llm_query_status",
+      "filePath": "engine/world_catalog.py",
+      "lineRange": [
+        4620,
+        4631
+      ],
+      "summary": "Defines _llm_query_status in world_catalog.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-access",
+        "world-catalog"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_catalog.py:_research_next_policy",
+      "type": "function",
+      "name": "_research_next_policy",
+      "filePath": "engine/world_catalog.py",
+      "lineRange": [
+        4634,
+        4650
+      ],
+      "summary": "Defines _research_next_policy in world_catalog.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-access",
+        "world-catalog"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_catalog.py:research_layer_status",
+      "type": "function",
+      "name": "research_layer_status",
+      "filePath": "engine/world_catalog.py",
+      "lineRange": [
+        4653,
+        4750
+      ],
+      "summary": "Defines research_layer_status in world_catalog.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-access",
+        "world-catalog"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/world_catalog.py:format_research_layer_status",
+      "type": "function",
+      "name": "format_research_layer_status",
+      "filePath": "engine/world_catalog.py",
+      "lineRange": [
+        4753,
+        4811
+      ],
+      "summary": "Defines format_research_layer_status in world_catalog.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "data-access",
+        "world-catalog"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/world_catalog.py:research_layer_status_csv",
+      "type": "function",
+      "name": "research_layer_status_csv",
+      "filePath": "engine/world_catalog.py",
+      "lineRange": [
+        4814,
+        4843
+      ],
+      "summary": "Defines research_layer_status_csv in world_catalog.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-access",
+        "world-catalog"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_catalog.py:_query_dicts",
+      "type": "function",
+      "name": "_query_dicts",
+      "filePath": "engine/world_catalog.py",
+      "lineRange": [
+        4846,
+        4850
+      ],
+      "summary": "Defines _query_dicts in world_catalog.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-access",
+        "world-catalog"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_catalog.py:_research_source_ids_from_status",
+      "type": "function",
+      "name": "_research_source_ids_from_status",
+      "filePath": "engine/world_catalog.py",
+      "lineRange": [
+        4853,
+        4857
+      ],
+      "summary": "Defines _research_source_ids_from_status in world_catalog.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-access",
+        "world-catalog"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_catalog.py:_research_source_ids",
+      "type": "function",
+      "name": "_research_source_ids",
+      "filePath": "engine/world_catalog.py",
+      "lineRange": [
+        4860,
+        4866
+      ],
+      "summary": "Defines _research_source_ids in world_catalog.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-access",
+        "world-catalog"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_catalog.py:_research_fact_profile",
+      "type": "function",
+      "name": "_research_fact_profile",
+      "filePath": "engine/world_catalog.py",
+      "lineRange": [
+        4869,
+        5002
+      ],
+      "summary": "Defines _research_fact_profile in world_catalog.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-access",
+        "world-catalog"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/world_catalog.py:_research_paper_profile",
+      "type": "function",
+      "name": "_research_paper_profile",
+      "filePath": "engine/world_catalog.py",
+      "lineRange": [
+        5005,
+        5084
+      ],
+      "summary": "Defines _research_paper_profile in world_catalog.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-access",
+        "world-catalog"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/world_catalog.py:_research_paper_profile_from_status",
+      "type": "function",
+      "name": "_research_paper_profile_from_status",
+      "filePath": "engine/world_catalog.py",
+      "lineRange": [
+        5087,
+        5128
+      ],
+      "summary": "Defines _research_paper_profile_from_status in world_catalog.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-access",
+        "world-catalog"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_catalog.py:_research_paper_profile_fast",
+      "type": "function",
+      "name": "_research_paper_profile_fast",
+      "filePath": "engine/world_catalog.py",
+      "lineRange": [
+        5131,
+        5178
+      ],
+      "summary": "Defines _research_paper_profile_fast in world_catalog.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-access",
+        "world-catalog"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_catalog.py:_source_record_raw_stats",
+      "type": "function",
+      "name": "_source_record_raw_stats",
+      "filePath": "engine/world_catalog.py",
+      "lineRange": [
+        5181,
+        5215
+      ],
+      "summary": "Defines _source_record_raw_stats in world_catalog.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-catalog"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_catalog.py:_research_source_status_fast",
+      "type": "function",
+      "name": "_research_source_status_fast",
+      "filePath": "engine/world_catalog.py",
+      "lineRange": [
+        5218,
+        5252
+      ],
+      "summary": "Defines _research_source_status_fast in world_catalog.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-access",
+        "world-catalog"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_catalog.py:_research_status_summary_from_rows",
+      "type": "function",
+      "name": "_research_status_summary_from_rows",
+      "filePath": "engine/world_catalog.py",
+      "lineRange": [
+        5255,
+        5264
+      ],
+      "summary": "Defines _research_status_summary_from_rows in world_catalog.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-access",
+        "world-catalog"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_catalog.py:_research_profile_gaps",
+      "type": "function",
+      "name": "_research_profile_gaps",
+      "filePath": "engine/world_catalog.py",
+      "lineRange": [
+        5267,
+        5295
+      ],
+      "summary": "Defines _research_profile_gaps in world_catalog.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-access",
+        "world-catalog"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_catalog.py:research_provenance_gaps",
+      "type": "function",
+      "name": "research_provenance_gaps",
+      "filePath": "engine/world_catalog.py",
+      "lineRange": [
+        5298,
+        5479
+      ],
+      "summary": "Defines research_provenance_gaps in world_catalog.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-access",
+        "world-catalog"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/world_catalog.py:format_research_provenance_gaps",
+      "type": "function",
+      "name": "format_research_provenance_gaps",
+      "filePath": "engine/world_catalog.py",
+      "lineRange": [
+        5482,
+        5521
+      ],
+      "summary": "Defines format_research_provenance_gaps in world_catalog.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "data-access",
+        "world-catalog"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_catalog.py:research_coverage_profile",
+      "type": "function",
+      "name": "research_coverage_profile",
+      "filePath": "engine/world_catalog.py",
+      "lineRange": [
+        5524,
+        5610
+      ],
+      "summary": "Defines research_coverage_profile in world_catalog.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-access",
+        "world-catalog"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/world_catalog.py:format_research_coverage_profile",
+      "type": "function",
+      "name": "format_research_coverage_profile",
+      "filePath": "engine/world_catalog.py",
+      "lineRange": [
+        5613,
+        5694
+      ],
+      "summary": "Defines format_research_coverage_profile in world_catalog.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "data-access",
+        "world-catalog"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/world_catalog.py:format_approval_plan",
+      "type": "function",
+      "name": "format_approval_plan",
+      "filePath": "engine/world_catalog.py",
+      "lineRange": [
+        5697,
+        5747
+      ],
+      "summary": "Defines format_approval_plan in world_catalog.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "world-catalog"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/world_catalog.py:_missing_identifier_summary",
+      "type": "function",
+      "name": "_missing_identifier_summary",
+      "filePath": "engine/world_catalog.py",
+      "lineRange": [
+        5750,
+        5773
+      ],
+      "summary": "Defines _missing_identifier_summary in world_catalog.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-catalog"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_catalog.py:_reviewed_identifier_gap_summary",
+      "type": "function",
+      "name": "_reviewed_identifier_gap_summary",
+      "filePath": "engine/world_catalog.py",
+      "lineRange": [
+        5776,
+        5798
+      ],
+      "summary": "Defines _reviewed_identifier_gap_summary in world_catalog.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-catalog"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_catalog.py:format_actions",
+      "type": "function",
+      "name": "format_actions",
+      "filePath": "engine/world_catalog.py",
+      "lineRange": [
+        5801,
+        5910
+      ],
+      "summary": "Defines format_actions in world_catalog.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "world-catalog"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/world_catalog.py:format_entity_identifier_status",
+      "type": "function",
+      "name": "format_entity_identifier_status",
+      "filePath": "engine/world_catalog.py",
+      "lineRange": [
+        5913,
+        5943
+      ],
+      "summary": "Defines format_entity_identifier_status in world_catalog.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "world-catalog"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_catalog.py:format_status",
+      "type": "function",
+      "name": "format_status",
+      "filePath": "engine/world_catalog.py",
+      "lineRange": [
+        5946,
+        6130
+      ],
+      "summary": "Defines format_status in world_catalog.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "world-catalog"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:engine/world_catalog.py:DataSourceSpec",
+      "type": "class",
+      "name": "DataSourceSpec",
+      "filePath": "engine/world_catalog.py",
+      "lineRange": [
+        73,
+        86
+      ],
+      "summary": "Defines DataSourceSpec in world_catalog.py, encapsulating reusable behavior or state for this module.",
+      "tags": [
+        "class",
+        "implementation",
+        "world-catalog"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:engine/world_catalog.py:TopEntitySpec",
+      "type": "class",
+      "name": "TopEntitySpec",
+      "filePath": "engine/world_catalog.py",
+      "lineRange": [
+        90,
+        96
+      ],
+      "summary": "Defines TopEntitySpec in world_catalog.py, encapsulating reusable behavior or state for this module.",
+      "tags": [
+        "class",
+        "implementation",
+        "world-catalog"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:engine/world_catalog.py:LandPermitJurisdictionSpec",
+      "type": "class",
+      "name": "LandPermitJurisdictionSpec",
+      "filePath": "engine/world_catalog.py",
+      "lineRange": [
+        100,
+        115
+      ],
+      "summary": "Defines LandPermitJurisdictionSpec in world_catalog.py, encapsulating reusable behavior or state for this module.",
+      "tags": [
+        "class",
+        "implementation",
+        "world-catalog"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:engine/world_catalog.py:ResearchExpansionSpec",
+      "type": "class",
+      "name": "ResearchExpansionSpec",
+      "filePath": "engine/world_catalog.py",
+      "lineRange": [
+        119,
+        134
+      ],
+      "summary": "Defines ResearchExpansionSpec in world_catalog.py, encapsulating reusable behavior or state for this module.",
+      "tags": [
+        "class",
+        "implementation",
+        "world-catalog"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:engine/world_catalog.py:PhysicalConstraintSpec",
+      "type": "class",
+      "name": "PhysicalConstraintSpec",
+      "filePath": "engine/world_catalog.py",
+      "lineRange": [
+        138,
+        154
+      ],
+      "summary": "Defines PhysicalConstraintSpec in world_catalog.py, encapsulating reusable behavior or state for this module.",
+      "tags": [
+        "class",
+        "implementation",
+        "world-catalog"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:engine/raw_provenance.py",
+      "target": "function:engine/raw_provenance.py:_skip_reason",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/raw_provenance.py",
+      "target": "function:engine/raw_provenance.py:_skip_reason",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/raw_provenance.py",
+      "target": "function:engine/raw_provenance.py:_host_bucket",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/raw_provenance.py",
+      "target": "function:engine/raw_provenance.py:_host_bucket",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/raw_provenance.py",
+      "target": "function:engine/raw_provenance.py:fetch_bytes",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/raw_provenance.py",
+      "target": "function:engine/raw_provenance.py:fetch_bytes",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/raw_provenance.py",
+      "target": "function:engine/raw_provenance.py:_missing_source_rows",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/raw_provenance.py",
+      "target": "function:engine/raw_provenance.py:_missing_source_rows",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/raw_provenance.py",
+      "target": "function:engine/raw_provenance.py:_inc",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/raw_provenance.py",
+      "target": "function:engine/raw_provenance.py:_inc",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/raw_provenance.py",
+      "target": "function:engine/raw_provenance.py:_add_detail",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/raw_provenance.py",
+      "target": "function:engine/raw_provenance.py:_add_detail",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/raw_provenance.py",
+      "target": "function:engine/raw_provenance.py:recover_missing_raw_docs",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/raw_provenance.py",
+      "target": "function:engine/raw_provenance.py:recover_missing_raw_docs",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/raw_provenance.py",
+      "target": "function:engine/raw_provenance.py:raw_gap_summary",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/raw_provenance.py",
+      "target": "function:engine/raw_provenance.py:raw_gap_summary",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/raw_provenance.py",
+      "target": "function:engine/raw_provenance.py:mark_legacy_provenance",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/raw_provenance.py",
+      "target": "function:engine/raw_provenance.py:mark_legacy_provenance",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/raw_provenance.py",
+      "target": "function:engine/raw_provenance.py:format_legacy_mark",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/raw_provenance.py",
+      "target": "function:engine/raw_provenance.py:format_legacy_mark",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/raw_provenance.py",
+      "target": "function:engine/raw_provenance.py:format_recovery",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/raw_provenance.py",
+      "target": "function:engine/raw_provenance.py:format_recovery",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/raw_provenance.py",
+      "target": "class:engine/raw_provenance.py:FetchedBytes",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/raw_provenance.py",
+      "target": "class:engine/raw_provenance.py:FetchedBytes",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/raw_provenance.py",
+      "target": "class:engine/raw_provenance.py:FetchTooLarge",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/raw_provenance.py",
+      "target": "class:engine/raw_provenance.py:FetchTooLarge",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/rawstore.py",
+      "target": "function:engine/rawstore.py:content_hash",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/rawstore.py",
+      "target": "function:engine/rawstore.py:content_hash",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/rawstore.py",
+      "target": "function:engine/rawstore.py:_path_for",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/rawstore.py",
+      "target": "function:engine/rawstore.py:_path_for",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/rawstore.py",
+      "target": "function:engine/rawstore.py:exists",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/rawstore.py",
+      "target": "function:engine/rawstore.py:exists",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/rawstore.py",
+      "target": "function:engine/rawstore.py:put",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/rawstore.py",
+      "target": "function:engine/rawstore.py:put",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/rawstore.py",
+      "target": "function:engine/rawstore.py:get",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/rawstore.py",
+      "target": "function:engine/rawstore.py:get",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/rawstore.py",
+      "target": "function:engine/rawstore.py:_abs_repo_path",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/rawstore.py",
+      "target": "function:engine/rawstore.py:_abs_repo_path",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/rawstore.py",
+      "target": "function:engine/rawstore.py:_is_relative_to",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/rawstore.py",
+      "target": "function:engine/rawstore.py:_is_relative_to",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/rawstore.py",
+      "target": "function:engine/rawstore.py:_row_path",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/rawstore.py",
+      "target": "function:engine/rawstore.py:_row_path",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/rawstore.py",
+      "target": "function:engine/rawstore.py:_remote_uri_for_path",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/rawstore.py",
+      "target": "function:engine/rawstore.py:_remote_uri_for_path",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/rawstore.py",
+      "target": "function:engine/rawstore.py:locate",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/rawstore.py",
+      "target": "function:engine/rawstore.py:locate",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/rawstore.py",
+      "target": "function:engine/rawstore.py:restore",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/rawstore.py",
+      "target": "function:engine/rawstore.py:restore",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/rawstore.py",
+      "target": "function:engine/rawstore.py:path_of",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/rawstore.py",
+      "target": "function:engine/rawstore.py:path_of",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:registry",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:registry",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:top_entities",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:top_entities",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:global_view",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:global_view",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:research_expansion_inventory",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:research_expansion_inventory",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:format_research_expansion_inventory",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:format_research_expansion_inventory",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:research_expansion_inventory_csv",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:research_expansion_inventory_csv",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:land_permit_inventory",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:land_permit_inventory",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:format_land_permit_inventory",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:format_land_permit_inventory",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:land_permit_inventory_csv",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:land_permit_inventory_csv",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:physical_constraint_inventory",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:physical_constraint_inventory",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:format_physical_constraint_inventory",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:format_physical_constraint_inventory",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:physical_constraint_inventory_csv",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:physical_constraint_inventory_csv",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:_source_status_summary",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:_source_status_summary",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:constraint_roi_queue",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:constraint_roi_queue",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:format_constraint_roi_queue",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:format_constraint_roi_queue",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:entity_identifier_status",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:entity_identifier_status",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:_top_entity_rows",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:_top_entity_rows",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:_empty_entity_coverage_summary",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:_empty_entity_coverage_summary",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:top_entity_coverage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:top_entity_coverage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:format_top_entity_coverage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:format_top_entity_coverage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:top_entity_coverage_csv",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:top_entity_coverage_csv",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:_table_count",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:_table_count",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:_feed_file_status",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:_feed_file_status",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:_series_health_status",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:_series_health_status",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:_provider_counts",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:_provider_counts",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:_source_counts_by_url",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:_source_counts_by_url",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:_source_counts_by_provider",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:_source_counts_by_provider",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:_source_ids_by_provider",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:_source_ids_by_provider",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:_fact_counts_by_source_id",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:_fact_counts_by_source_id",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:_fact_counts_by_source_url",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:_fact_counts_by_source_url",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:_fact_counts_by_provider",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:_fact_counts_by_provider",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:_entity_link_counts_by_method",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:_entity_link_counts_by_method",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:_series_entity_link_counts_by_provider",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:_series_entity_link_counts_by_provider",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:_disk_status",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:_disk_status",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:_offload_status",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:_offload_status",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:_cost_status",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:_cost_status",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:_scan_log_status",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:_scan_log_status",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:_operational_status",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:_operational_status",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:_feed_needs_refresh",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:_feed_needs_refresh",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:_diagnostic_blocks_collection",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:_diagnostic_blocks_collection",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:_collection_readiness",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:_collection_readiness",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:data_status",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:data_status",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:seed_top_entities",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:seed_top_entities",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:format_plan",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:format_plan",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:_short_int",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:_short_int",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:_unblock_steps_for_source",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:_unblock_steps_for_source",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:_preflight_commands_for_source",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:_preflight_commands_for_source",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:_execution_risk_for_source",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:_execution_risk_for_source",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:_risk_notes_for_source",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:_risk_notes_for_source",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:_source_action_plan",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:_source_action_plan",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:approval_plan",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:approval_plan",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:_format_execution_risk",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:_format_execution_risk",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:_coverage_scope",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:_coverage_scope",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:_cost_posture",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:_cost_posture",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:_storage_posture",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:_storage_posture",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:_next_action_type",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:_next_action_type",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:source_matrix",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:source_matrix",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:format_source_matrix",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:format_source_matrix",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:source_matrix_csv",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:source_matrix_csv",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:_source_ids_for_spec",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:_source_ids_for_spec",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:_fact_time_stats_for_sources",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:_fact_time_stats_for_sources",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:_paper_stats_for_providers",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:_paper_stats_for_providers",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:_time_query_status",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:_time_query_status",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:_llm_query_status",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:_llm_query_status",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:_research_next_policy",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:_research_next_policy",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:research_layer_status",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:research_layer_status",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:format_research_layer_status",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:format_research_layer_status",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:research_layer_status_csv",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:research_layer_status_csv",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:_query_dicts",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:_query_dicts",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:_research_source_ids_from_status",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:_research_source_ids_from_status",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:_research_source_ids",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:_research_source_ids",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:_research_fact_profile",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:_research_fact_profile",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:_research_paper_profile",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:_research_paper_profile",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:_research_paper_profile_from_status",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:_research_paper_profile_from_status",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:_research_paper_profile_fast",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:_research_paper_profile_fast",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:_source_record_raw_stats",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:_source_record_raw_stats",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:_research_source_status_fast",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:_research_source_status_fast",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:_research_status_summary_from_rows",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:_research_status_summary_from_rows",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:_research_profile_gaps",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:_research_profile_gaps",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:research_provenance_gaps",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:research_provenance_gaps",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:format_research_provenance_gaps",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:format_research_provenance_gaps",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:research_coverage_profile",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:research_coverage_profile",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:format_research_coverage_profile",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:format_research_coverage_profile",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:format_approval_plan",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:format_approval_plan",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:_missing_identifier_summary",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:_missing_identifier_summary",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:_reviewed_identifier_gap_summary",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:_reviewed_identifier_gap_summary",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:format_actions",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:format_actions",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:format_entity_identifier_status",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:format_entity_identifier_status",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:format_status",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "function:engine/world_catalog.py:format_status",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "class:engine/world_catalog.py:DataSourceSpec",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "class:engine/world_catalog.py:DataSourceSpec",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "class:engine/world_catalog.py:TopEntitySpec",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "class:engine/world_catalog.py:TopEntitySpec",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "class:engine/world_catalog.py:LandPermitJurisdictionSpec",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "class:engine/world_catalog.py:LandPermitJurisdictionSpec",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "class:engine/world_catalog.py:ResearchExpansionSpec",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "class:engine/world_catalog.py:ResearchExpansionSpec",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "class:engine/world_catalog.py:PhysicalConstraintSpec",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "class:engine/world_catalog.py:PhysicalConstraintSpec",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/raw_provenance.py",
+      "target": "file:engine/__init__.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/raw_provenance.py",
+      "target": "file:engine/rawstore.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/raw_provenance.py",
+      "target": "file:engine/schemas.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/rawstore.py",
+      "target": "file:engine/__init__.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/rawstore.py",
+      "target": "file:engine/data_offload.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/rawstore.py",
+      "target": "file:engine/schemas.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "file:engine/__init__.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "file:engine/data_offload.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "file:engine/disk_guard.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/world_catalog.py",
+      "target": "file:engine/schemas.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "function:engine/raw_provenance.py:_host_bucket",
+      "target": "function:engine/raw_provenance.py:_skip_reason",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/raw_provenance.py:fetch_bytes",
+      "target": "class:engine/raw_provenance.py:FetchTooLarge",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/raw_provenance.py:fetch_bytes",
+      "target": "class:engine/raw_provenance.py:FetchedBytes",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/raw_provenance.py:recover_missing_raw_docs",
+      "target": "function:engine/raw_provenance.py:_missing_source_rows",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/raw_provenance.py:recover_missing_raw_docs",
+      "target": "function:engine/raw_provenance.py:_skip_reason",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/raw_provenance.py:recover_missing_raw_docs",
+      "target": "function:engine/raw_provenance.py:_inc",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/raw_provenance.py:recover_missing_raw_docs",
+      "target": "function:engine/raw_provenance.py:_add_detail",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/raw_provenance.py:raw_gap_summary",
+      "target": "function:engine/raw_provenance.py:_host_bucket",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/raw_provenance.py:mark_legacy_provenance",
+      "target": "function:engine/schemas.py:_now",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/rawstore.py:put",
+      "target": "function:engine/rawstore.py:content_hash",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/rawstore.py:put",
+      "target": "function:engine/rawstore.py:_path_for",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/rawstore.py:put",
+      "target": "function:engine/schemas.py:_now",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/rawstore.py:_row_path",
+      "target": "function:engine/rawstore.py:_abs_repo_path",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/rawstore.py:_remote_uri_for_path",
+      "target": "function:engine/rawstore.py:_abs_repo_path",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/rawstore.py:_remote_uri_for_path",
+      "target": "function:engine/rawstore.py:_is_relative_to",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/rawstore.py:locate",
+      "target": "function:engine/rawstore.py:_row_path",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/rawstore.py:locate",
+      "target": "function:engine/rawstore.py:_remote_uri_for_path",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/rawstore.py:restore",
+      "target": "function:engine/rawstore.py:locate",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/rawstore.py:restore",
+      "target": "function:engine/rawstore.py:content_hash",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/rawstore.py:path_of",
+      "target": "function:engine/rawstore.py:_abs_repo_path",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_catalog.py:constraint_roi_queue",
+      "target": "function:engine/world_catalog.py:source_matrix",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_catalog.py:constraint_roi_queue",
+      "target": "function:engine/world_catalog.py:physical_constraint_inventory",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_catalog.py:constraint_roi_queue",
+      "target": "function:engine/world_catalog.py:_source_status_summary",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_catalog.py:top_entity_coverage",
+      "target": "function:engine/world_catalog.py:_empty_entity_coverage_summary",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_catalog.py:top_entity_coverage",
+      "target": "function:engine/world_catalog.py:_top_entity_rows",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_catalog.py:top_entity_coverage",
+      "target": "function:engine/world_catalog.py:entity_identifier_status",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_catalog.py:_series_health_status",
+      "target": "function:engine/world_catalog.py:_table_count",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_catalog.py:_fact_counts_by_source_url",
+      "target": "function:engine/world_catalog.py:_fact_counts_by_source_id",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_catalog.py:_fact_counts_by_provider",
+      "target": "function:engine/world_catalog.py:_source_ids_by_provider",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_catalog.py:_fact_counts_by_provider",
+      "target": "function:engine/world_catalog.py:_fact_counts_by_source_id",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_catalog.py:_collection_readiness",
+      "target": "function:engine/world_catalog.py:_diagnostic_blocks_collection",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_catalog.py:_collection_readiness",
+      "target": "function:engine/world_catalog.py:_feed_needs_refresh",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_catalog.py:data_status",
+      "target": "class:engine/world_catalog.py:DataSourceSpec",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_catalog.py:data_status",
+      "target": "function:engine/world_catalog.py:registry",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_catalog.py:data_status",
+      "target": "function:engine/world_catalog.py:_provider_counts",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_catalog.py:data_status",
+      "target": "function:engine/world_catalog.py:_source_counts_by_url",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_catalog.py:data_status",
+      "target": "function:engine/world_catalog.py:_source_counts_by_provider",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_catalog.py:data_status",
+      "target": "function:engine/world_catalog.py:_fact_counts_by_source_id",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_catalog.py:data_status",
+      "target": "function:engine/world_catalog.py:_fact_counts_by_source_url",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_catalog.py:data_status",
+      "target": "function:engine/world_catalog.py:_fact_counts_by_provider",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_catalog.py:data_status",
+      "target": "function:engine/world_catalog.py:_entity_link_counts_by_method",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_catalog.py:data_status",
+      "target": "function:engine/world_catalog.py:_series_entity_link_counts_by_provider",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_catalog.py:data_status",
+      "target": "function:engine/world_catalog.py:_disk_status",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_catalog.py:data_status",
+      "target": "function:engine/world_catalog.py:_offload_status",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_catalog.py:data_status",
+      "target": "function:engine/world_catalog.py:_cost_status",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_catalog.py:data_status",
+      "target": "function:engine/world_catalog.py:_scan_log_status",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_catalog.py:data_status",
+      "target": "function:engine/world_catalog.py:entity_identifier_status",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_catalog.py:data_status",
+      "target": "function:engine/world_catalog.py:_series_health_status",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_catalog.py:data_status",
+      "target": "function:engine/world_catalog.py:_feed_file_status",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_catalog.py:data_status",
+      "target": "function:engine/world_catalog.py:_table_count",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_catalog.py:data_status",
+      "target": "function:engine/world_catalog.py:_operational_status",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_catalog.py:data_status",
+      "target": "function:engine/world_catalog.py:_collection_readiness",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_catalog.py:data_status",
+      "target": "function:engine/world_catalog.py:_feed_needs_refresh",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_catalog.py:data_status",
+      "target": "function:engine/world_catalog.py:global_view",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_catalog.py:data_status",
+      "target": "function:engine/world_catalog.py:_diagnostic_blocks_collection",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_catalog.py:data_status",
+      "target": "function:engine/world_catalog.py:_source_action_plan",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_catalog.py:seed_top_entities",
+      "target": "class:engine/schemas.py:Entity",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_catalog.py:seed_top_entities",
+      "target": "function:engine/schemas.py:_now",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_catalog.py:format_plan",
+      "target": "function:engine/world_catalog.py:registry",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_catalog.py:format_plan",
+      "target": "function:engine/world_catalog.py:global_view",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_catalog.py:format_plan",
+      "target": "function:engine/world_catalog.py:top_entities",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_catalog.py:_execution_risk_for_source",
+      "target": "function:engine/world_catalog.py:_risk_notes_for_source",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_catalog.py:_source_action_plan",
+      "target": "function:engine/world_catalog.py:_preflight_commands_for_source",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_catalog.py:_source_action_plan",
+      "target": "function:engine/world_catalog.py:_unblock_steps_for_source",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_catalog.py:_source_action_plan",
+      "target": "function:engine/world_catalog.py:_execution_risk_for_source",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_catalog.py:source_matrix",
+      "target": "function:engine/world_catalog.py:_execution_risk_for_source",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_catalog.py:source_matrix",
+      "target": "function:engine/world_catalog.py:_preflight_commands_for_source",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_catalog.py:source_matrix",
+      "target": "function:engine/world_catalog.py:_unblock_steps_for_source",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_catalog.py:source_matrix",
+      "target": "function:engine/world_catalog.py:_coverage_scope",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_catalog.py:source_matrix",
+      "target": "function:engine/world_catalog.py:_storage_posture",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_catalog.py:source_matrix",
+      "target": "function:engine/world_catalog.py:_cost_posture",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_catalog.py:source_matrix",
+      "target": "function:engine/world_catalog.py:_next_action_type",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_catalog.py:format_source_matrix",
+      "target": "function:engine/world_catalog.py:source_matrix",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_catalog.py:format_source_matrix",
+      "target": "function:engine/world_catalog.py:_short_int",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_catalog.py:research_layer_status",
+      "target": "function:engine/world_catalog.py:data_status",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_catalog.py:research_layer_status",
+      "target": "function:engine/world_catalog.py:source_matrix",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_catalog.py:research_layer_status",
+      "target": "function:engine/world_catalog.py:_paper_stats_for_providers",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_catalog.py:research_layer_status",
+      "target": "function:engine/world_catalog.py:_source_ids_for_spec",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_catalog.py:research_layer_status",
+      "target": "function:engine/world_catalog.py:_fact_time_stats_for_sources",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_catalog.py:research_layer_status",
+      "target": "function:engine/world_catalog.py:_time_query_status",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_catalog.py:research_layer_status",
+      "target": "function:engine/world_catalog.py:_llm_query_status",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_catalog.py:research_layer_status",
+      "target": "function:engine/world_catalog.py:_research_next_policy",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_catalog.py:format_research_layer_status",
+      "target": "function:engine/world_catalog.py:_short_int",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_catalog.py:_research_source_ids",
+      "target": "function:engine/world_catalog.py:_source_ids_for_spec",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_catalog.py:_research_fact_profile",
+      "target": "function:engine/world_catalog.py:_query_dicts",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_catalog.py:_research_paper_profile",
+      "target": "function:engine/world_catalog.py:_query_dicts",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_catalog.py:_research_paper_profile_fast",
+      "target": "function:engine/world_catalog.py:_query_dicts",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_catalog.py:_research_paper_profile_fast",
+      "target": "function:engine/world_catalog.py:_table_count",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_catalog.py:_source_record_raw_stats",
+      "target": "function:engine/world_catalog.py:_query_dicts",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_catalog.py:_research_source_status_fast",
+      "target": "function:engine/world_catalog.py:_source_ids_for_spec",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_catalog.py:_research_source_status_fast",
+      "target": "function:engine/world_catalog.py:_fact_time_stats_for_sources",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_catalog.py:_research_source_status_fast",
+      "target": "function:engine/world_catalog.py:_source_record_raw_stats",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_catalog.py:_research_source_status_fast",
+      "target": "function:engine/world_catalog.py:_research_next_policy",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_catalog.py:research_provenance_gaps",
+      "target": "function:engine/world_catalog.py:_research_source_ids",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_catalog.py:research_provenance_gaps",
+      "target": "function:engine/world_catalog.py:_query_dicts",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_catalog.py:research_coverage_profile",
+      "target": "function:engine/world_catalog.py:research_layer_status",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_catalog.py:research_coverage_profile",
+      "target": "function:engine/world_catalog.py:_disk_status",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_catalog.py:research_coverage_profile",
+      "target": "function:engine/world_catalog.py:_offload_status",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_catalog.py:research_coverage_profile",
+      "target": "function:engine/world_catalog.py:_cost_status",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_catalog.py:research_coverage_profile",
+      "target": "function:engine/world_catalog.py:_research_source_status_fast",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_catalog.py:research_coverage_profile",
+      "target": "function:engine/world_catalog.py:_research_status_summary_from_rows",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_catalog.py:research_coverage_profile",
+      "target": "function:engine/world_catalog.py:_research_source_ids",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_catalog.py:research_coverage_profile",
+      "target": "function:engine/world_catalog.py:_research_fact_profile",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_catalog.py:research_coverage_profile",
+      "target": "function:engine/world_catalog.py:_research_paper_profile",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_catalog.py:research_coverage_profile",
+      "target": "function:engine/world_catalog.py:_research_paper_profile_fast",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_catalog.py:research_coverage_profile",
+      "target": "function:engine/world_catalog.py:_research_profile_gaps",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_catalog.py:format_research_coverage_profile",
+      "target": "function:engine/world_catalog.py:_short_int",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_catalog.py:format_approval_plan",
+      "target": "function:engine/world_catalog.py:approval_plan",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_catalog.py:format_approval_plan",
+      "target": "function:engine/world_catalog.py:_format_execution_risk",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_catalog.py:format_actions",
+      "target": "function:engine/world_catalog.py:_short_int",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_catalog.py:format_actions",
+      "target": "function:engine/world_catalog.py:_missing_identifier_summary",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_catalog.py:format_actions",
+      "target": "function:engine/world_catalog.py:_reviewed_identifier_gap_summary",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_catalog.py:format_entity_identifier_status",
+      "target": "function:engine/world_catalog.py:_reviewed_identifier_gap_summary",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_catalog.py:format_status",
+      "target": "function:engine/world_catalog.py:_short_int",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_catalog.py:format_status",
+      "target": "function:engine/world_catalog.py:_missing_identifier_summary",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_catalog.py:format_status",
+      "target": "function:engine/world_catalog.py:_reviewed_identifier_gap_summary",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

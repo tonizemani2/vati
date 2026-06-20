@@ -1,0 +1,30 @@
+[
+ {
+  "question_id": 43495,
+  "type": "discrete",
+  "percentiles": {
+   "0.05": 1,
+   "0.1": 1,
+   "0.25": 1,
+   "0.5": 1,
+   "0.75": 1,
+   "0.9": 2,
+   "0.95": 4
+  },
+  "reasoning": "In the huge-field modern era the Main Event winner almost always holds exactly 1 bracelet (8 of the last 11 champions, 2015-2025, had it as their first); occasionally an established pro wins (Weinman 2, Mizrachi 8), giving a fat but thin right tail. Modal and median outcome is 1, with 0.9/0.95 quantiles capturing the rare seasoned-pro case."
+ },
+ {
+  "question_id": 43333,
+  "type": "discrete",
+  "percentiles": {
+   "0.05": 42,
+   "0.1": 43,
+   "0.25": 44,
+   "0.5": 46,
+   "0.75": 47,
+   "0.9": 47,
+   "0.95": 48
+  },
+  "reasoning": "With 32 of 48 teams advancing (top two per group plus the 8 best third-placed) only 16 teams are eliminated, so several of the weakest-ranked sides inevitably reach the Round of 32; a low third-place qualifier with ~3-4 points is routine. The weakest advancing team is very likely deep in the 44-48 band, centering the answer near relative rank 46 with strong mass at 47-48."
+ }
+]

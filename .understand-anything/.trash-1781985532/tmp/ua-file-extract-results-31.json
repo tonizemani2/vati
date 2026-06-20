@@ -1,0 +1,789 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 8,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "site/docs/research/BEHAVIORS.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 47,
+      "nonEmptyLines": 39,
+      "sections": [
+        {
+          "heading": "Mantic.com — Behavior Bible",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Carousels (Swiper v12 — matches the site's version)",
+          "level": 2,
+          "line": 6
+        },
+        {
+          "heading": "Filter tabs (click-driven)",
+          "level": 2,
+          "line": 15
+        },
+        {
+          "heading": "Modals (click-driven)",
+          "level": 2,
+          "line": 20
+        },
+        {
+          "heading": "Rive animation (research \"prediction engine\" diagram)",
+          "level": 2,
+          "line": 30
+        },
+        {
+          "heading": "Nav banner",
+          "level": 2,
+          "line": 41
+        },
+        {
+          "heading": "Responsive",
+          "level": 2,
+          "line": 45
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 7
+      }
+    },
+    {
+      "path": "site/docs/research/PAGE_TOPOLOGY.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 35,
+      "nonEmptyLines": 30,
+      "sections": [
+        {
+          "heading": "Mantic.com — Page Topology & Clone Architecture",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Flow sections (top → bottom)",
+          "level": 2,
+          "line": 11
+        },
+        {
+          "heading": "Overlays (appended after `<main>` in `page.tsx`)",
+          "level": 2,
+          "line": 26
+        },
+        {
+          "heading": "Design tokens (from the Webflow CSS)",
+          "level": 2,
+          "line": 31
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 4
+      }
+    },
+    {
+      "path": "site/docs/research/asset-manifest.json",
+      "language": "json",
+      "fileCategory": "config",
+      "totalLines": 89,
+      "nonEmptyLines": 89,
+      "sections": [
+        {
+          "heading": "https://cdn.prod.website-files.com/68907168d294618a86ec6518/689073a51834398fcd983a0f_favicon.png",
+          "level": 1,
+          "line": 2
+        },
+        {
+          "heading": "https://cdn.prod.website-files.com/68907168d294618a86ec6518/689073a8ce04467464065e9a_webclip.png",
+          "level": 1,
+          "line": 3
+        },
+        {
+          "heading": "https://cdn.jsdelivr.net/gh/videsigns/client-videos/datacenter.mp4",
+          "level": 1,
+          "line": 4
+        },
+        {
+          "heading": "https://cdn.jsdelivr.net/gh/videsigns/client-videos/fire.mp4",
+          "level": 1,
+          "line": 5
+        },
+        {
+          "heading": "https://cdn.jsdelivr.net/gh/videsigns/client-videos/telescope.mp4",
+          "level": 1,
+          "line": 6
+        },
+        {
+          "heading": "https://cdn.jsdelivr.net/gh/videsigns/client-videos/mining.mp4",
+          "level": 1,
+          "line": 7
+        },
+        {
+          "heading": "https://cdn.jsdelivr.net/gh/videsigns/client-videos/bank.mp4",
+          "level": 1,
+          "line": 8
+        },
+        {
+          "heading": "https://cdn.jsdelivr.net/gh/videsigns/client-videos/news.mp4",
+          "level": 1,
+          "line": 9
+        },
+        {
+          "heading": "https://cdn.jsdelivr.net/gh/videsigns/client-videos/flags.mp4",
+          "level": 1,
+          "line": 10
+        },
+        {
+          "heading": "https://cdn.jsdelivr.net/gh/videsigns/client-videos/dam.mp4",
+          "level": 1,
+          "line": 11
+        },
+        {
+          "heading": "https://cdn.jsdelivr.net/gh/videsigns/client-videos/airtraffic.mp4",
+          "level": 1,
+          "line": 12
+        },
+        {
+          "heading": "https://cdn.jsdelivr.net/gh/videsigns/client-videos/medicine.mp4",
+          "level": 1,
+          "line": 13
+        },
+        {
+          "heading": "https://cdn.prod.website-files.com/68907168d294618a86ec6518/699d43110e92755210e6e449_ico-globus.svg",
+          "level": 1,
+          "line": 14
+        },
+        {
+          "heading": "https://cdn.prod.website-files.com/68b97028e0c81bc35f746268/699d58498e3a66b1c915e281_ico-space.svg",
+          "level": 1,
+          "line": 15
+        },
+        {
+          "heading": "https://cdn.prod.website-files.com/68b97028e0c81bc35f746268/69c29238917b85385886d545_ico-urgent.svg",
+          "level": 1,
+          "line": 16
+        },
+        {
+          "heading": "https://cdn.prod.website-files.com/68b97028e0c81bc35f746268/69c291023714cc0d26bb4193_currency-pounds.svg",
+          "level": 1,
+          "line": 17
+        },
+        {
+          "heading": "https://cdn.prod.website-files.com/68b97028e0c81bc35f746268/699d586acc2bdad65b370a56_ico-bank.svg",
+          "level": 1,
+          "line": 18
+        },
+        {
+          "heading": "https://cdn.prod.website-files.com/68b97028e0c81bc35f746268/69bf8b0e00e4e8c9b601c862_pexels-renan-braz-1732586-35524218.jpg",
+          "level": 1,
+          "line": 19
+        },
+        {
+          "heading": "https://cdn.prod.website-files.com/68907168d294618a86ec6518/699d5f78d23e750070d67391_ico-plus-white.svg",
+          "level": 1,
+          "line": 20
+        },
+        {
+          "heading": "https://cdn.prod.website-files.com/68b97028e0c81bc35f746268/699d59d37cc5e6173de5d2a4_sales-nesetril-ex_p4AaBxbs-unsplash.avif",
+          "level": 1,
+          "line": 21
+        },
+        {
+          "heading": "https://cdn.prod.website-files.com/68b97028e0c81bc35f746268/699d619163171055901d98a3_saulo-mohana-wNz7_5EvUWU-unsplash.avif",
+          "level": 1,
+          "line": 22
+        },
+        {
+          "heading": "https://cdn.prod.website-files.com/68b97028e0c81bc35f746268/699d60cf9d1d57df8b4b546a_mathias-reding-yfXhqAW5X0c-unsplash.avif",
+          "level": 1,
+          "line": 23
+        },
+        {
+          "heading": "https://cdn.prod.website-files.com/68b97028e0c81bc35f746268/699ef07119542b1455bffcd5_artin-bakhan-bBHMqG0X2V0-unsplash.avif",
+          "level": 1,
+          "line": 24
+        },
+        {
+          "heading": "https://cdn.prod.website-files.com/68b97028e0c81bc35f746268/699ef0e453fde1937e5d4c44_y-s-LGx9C3nSo5I-unsplash.avif",
+          "level": 1,
+          "line": 25
+        },
+        {
+          "heading": "https://cdn.prod.website-files.com/68907168d294618a86ec6518/699d62a1ef8bde4a4b97ee2f_ico-arrow-right.svg",
+          "level": 1,
+          "line": 26
+        },
+        {
+          "heading": "https://cdn.prod.website-files.com/68907168d294618a86ec6518/689ed2f50dbefa1fca15529f_Illo.svg",
+          "level": 1,
+          "line": 27
+        },
+        {
+          "heading": "https://cdn.prod.website-files.com/68907168d294618a86ec6518/699ec45f139c57d5145c84c1_The_Atlantic_magazine_logo.svg",
+          "level": 1,
+          "line": 28
+        },
+        {
+          "heading": "https://videsignstest.co.uk/uploads/ayush%40videsigns.uk/mantic_overview_V1.mp4",
+          "level": 1,
+          "line": 29
+        },
+        {
+          "heading": "https://cdn.prod.website-files.com/68907168d294618a86ec6518/690cb136eef6de79e8f7d34d_vid_cover.avif",
+          "level": 1,
+          "line": 30
+        },
+        {
+          "heading": "https://cdn.prod.website-files.com/68907168d294618a86ec6518/69c0bb6c8521c9290a153aed_5f75a24490c8706c680a501e4ef1bf57_ico-play-white.svg",
+          "level": 1,
+          "line": 31
+        },
+        {
+          "heading": "https://cdn.prod.website-files.com/68907168d294618a86ec6518/6911eeeb668f9d44687e0245_aib.png",
+          "level": 1,
+          "line": 32
+        },
+        {
+          "heading": "https://cdn.prod.website-files.com/68907168d294618a86ec6518/6911ef43d92c50f0fe493b41_tmp.png",
+          "level": 1,
+          "line": 33
+        },
+        {
+          "heading": "https://cdn.prod.website-files.com/68907168d294618a86ec6518/68a6f3e3274a8eba14b12528_0bbe637c9f47f03a0410fdda35053a27_slide1.svg",
+          "level": 1,
+          "line": 34
+        },
+        {
+          "heading": "https://cdn.prod.website-files.com/68907168d294618a86ec6518/68a6f3e324e2ac6105b84337_0859ee3e5b96c13b8ebf538951fe2892_slide2.svg",
+          "level": 1,
+          "line": 35
+        },
+        {
+          "heading": "https://cdn.prod.website-files.com/68907168d294618a86ec6518/68a6f3e398bcdc2ab9e7a325_a5b49079e9ce313ebed146fb63526162_slide3.svg",
+          "level": 1,
+          "line": 36
+        },
+        {
+          "heading": "https://cdn.prod.website-files.com/68907168d294618a86ec6518/68a6f3e3ad109b09599dbb61_5cdb57f2f178731983f8d39fdbb4c96a_slide4.svg",
+          "level": 1,
+          "line": 37
+        },
+        {
+          "heading": "https://cdn.prod.website-files.com/68907168d294618a86ec6518/68a6f3e3b1e97a645854ebae_542c781ad40a0f2b5e7fda593cfdea14_slide5.svg",
+          "level": 1,
+          "line": 38
+        },
+        {
+          "heading": "https://cdn.prod.website-files.com/68907168d294618a86ec6518/69bd2e022c8cb03dfb10c3f3_Mantic%20vector%20bg.svg",
+          "level": 1,
+          "line": 39
+        },
+        {
+          "heading": "https://cdn.prod.website-files.com/68907168d294618a86ec6518/69bd270d6234e12377bc9231_Frame%202134281084.avif",
+          "level": 1,
+          "line": 40
+        },
+        {
+          "heading": "https://cdn.prod.website-files.com/68907168d294618a86ec6518/69bd27d945d050ae54e22f17_ico-Target.svg",
+          "level": 1,
+          "line": 41
+        },
+        {
+          "heading": "https://cdn.prod.website-files.com/68907168d294618a86ec6518/69bd270c7e3d256219e55594_Frame%202134281085.avif",
+          "level": 1,
+          "line": 42
+        },
+        {
+          "heading": "https://cdn.prod.website-files.com/68907168d294618a86ec6518/69bd27d9acefaebae9b42328_ico-Eye.svg",
+          "level": 1,
+          "line": 43
+        },
+        {
+          "heading": "https://cdn.prod.website-files.com/68907168d294618a86ec6518/69bd270c21763d0d24bb6982_Frame%202134281086.avif",
+          "level": 1,
+          "line": 44
+        },
+        {
+          "heading": "https://cdn.prod.website-files.com/68907168d294618a86ec6518/69bd27d934c9f4025fc33d9f_ico-ChartLine.svg",
+          "level": 1,
+          "line": 45
+        },
+        {
+          "heading": "https://cdn.prod.website-files.com/68907168d294618a86ec6518/69bd29e6a1b5919c57fa75de_ico-arrow-right-white.svg",
+          "level": 1,
+          "line": 46
+        },
+        {
+          "heading": "https://cdn.prod.website-files.com/68b97028e0c81bc35f746268/69be70de5c8d246750075216_ico-Suitcase.svg",
+          "level": 1,
+          "line": 47
+        },
+        {
+          "heading": "https://cdn.prod.website-files.com/68b97028e0c81bc35f746268/69be70bd869a6d3500fca038_ico-ChartLine-black.svg",
+          "level": 1,
+          "line": 48
+        },
+        {
+          "heading": "https://cdn.prod.website-files.com/68b97028e0c81bc35f746268/69be70f537fca68147ac91b7_ico-Gavel.svg",
+          "level": 1,
+          "line": 49
+        },
+        {
+          "heading": "https://cdn.prod.website-files.com/68b97028e0c81bc35f746268/69c51c06ea3168798d2c4baa_Executives.png",
+          "level": 1,
+          "line": 50
+        },
+        {
+          "heading": "https://cdn.prod.website-files.com/68907168d294618a86ec6518/69bd4f00865acf7b5bc0b101_ico-check.svg",
+          "level": 1,
+          "line": 51
+        },
+        {
+          "heading": "https://cdn.prod.website-files.com/68b97028e0c81bc35f746268/69c51c19dc58a8f1112ed2b1_Traders.png",
+          "level": 1,
+          "line": 52
+        },
+        {
+          "heading": "https://cdn.prod.website-files.com/68b97028e0c81bc35f746268/69c51c25dc58a8f1112ed83f_Investors.png",
+          "level": 1,
+          "line": 53
+        },
+        {
+          "heading": "https://cdn.prod.website-files.com/68b97028e0c81bc35f746268/69c51c39e6da3da9730b0a3e_Researchers.png",
+          "level": 1,
+          "line": 54
+        },
+        {
+          "heading": "https://cdn.prod.website-files.com/68b97028e0c81bc35f746268/69c51c46c4cd90002294643c_Strategists.png",
+          "level": 1,
+          "line": 55
+        },
+        {
+          "heading": "https://cdn.prod.website-files.com/68b97028e0c81bc35f746268/69c51c56887c472329674e8f_Regulation%20and%20risks%20team.png",
+          "level": 1,
+          "line": 56
+        },
+        {
+          "heading": "https://cdn.prod.website-files.com/68b97028e0c81bc35f746268/69c51c630785c34eb496be25_Policy%20makers.png",
+          "level": 1,
+          "line": 57
+        },
+        {
+          "heading": "https://cdn.prod.website-files.com/68907168d294618a86ec6518/69bcdf17c7acd24e43da0a07_b419372567c24a5f575ab34e4de2be67_Mantic%20video%20screenshot.avif",
+          "level": 1,
+          "line": 58
+        },
+        {
+          "heading": "https://cdn.prod.website-files.com/68907168d294618a86ec6518/69be994559eab3a145ab6d7e_e90d5ca1291c85c09333214ea160587f_Mantic%20video%20screenshot%202.avif",
+          "level": 1,
+          "line": 59
+        },
+        {
+          "heading": "https://cdn.prod.website-files.com/68907168d294618a86ec6518/6891f3c63d61c8517ae3ae9c_7f79b714fe1852c51cc03a5d4099a37f_Mantic%20Candid%20Print-3.avif",
+          "level": 1,
+          "line": 60
+        },
+        {
+          "heading": "https://cdn.prod.website-files.com/68907168d294618a86ec6518/6891e0d6a4a062c5f241a2ab_Ben%20Headshot%201%20Web%20Use.avif",
+          "level": 1,
+          "line": 61
+        },
+        {
+          "heading": "https://cdn.prod.website-files.com/68907168d294618a86ec6518/6891e0d6a56642e6f2f8ca6b_Toby%20Headshot%201%20Web%20Use.avif",
+          "level": 1,
+          "line": 62
+        },
+        {
+          "heading": "https://cdn.prod.website-files.com/68907168d294618a86ec6518/6891e0d6cb597a8bb5b6282b_Matthew%20Headshot%20Web%20Use.avif",
+          "level": 1,
+          "line": 63
+        },
+        {
+          "heading": "https://cdn.prod.website-files.com/68907168d294618a86ec6518/6891e0d64bb73bfd5cc7baaa_Scott%20Headshot%20Web%20Use.avif",
+          "level": 1,
+          "line": 64
+        },
+        {
+          "heading": "https://cdn.prod.website-files.com/68907168d294618a86ec6518/6891e0d737c1720826f42fbb_Vlad%20Headshot%20Web%20Use.avif",
+          "level": 1,
+          "line": 65
+        },
+        {
+          "heading": "https://cdn.prod.website-files.com/68907168d294618a86ec6518/6891e0d6d63df0d1263223ec_Max%20Headshot%20Web%20Use-2.avif",
+          "level": 1,
+          "line": 66
+        },
+        {
+          "heading": "https://cdn.prod.website-files.com/68907168d294618a86ec6518/6960ca7bdf52c9214958c5ad_Gabriel%20Web%20Use.jpeg",
+          "level": 1,
+          "line": 67
+        },
+        {
+          "heading": "https://cdn.prod.website-files.com/68907168d294618a86ec6518/6960ca7bdf52c9214958c5ad_Gabriel%20Web%20Use-p-500.jpeg",
+          "level": 1,
+          "line": 68
+        },
+        {
+          "heading": "https://cdn.prod.website-files.com/68907168d294618a86ec6518/6960ca7bdf52c9214958c5ad_Gabriel%20Web%20Use-p-800.jpeg",
+          "level": 1,
+          "line": 69
+        },
+        {
+          "heading": "https://cdn.prod.website-files.com/68907168d294618a86ec6518/6960ca9db52959589c7f97c0_Jack%20Web%20Use.jpeg",
+          "level": 1,
+          "line": 70
+        },
+        {
+          "heading": "https://cdn.prod.website-files.com/68907168d294618a86ec6518/6960ca9db52959589c7f97c0_Jack%20Web%20Use-p-500.jpeg",
+          "level": 1,
+          "line": 71
+        },
+        {
+          "heading": "https://cdn.prod.website-files.com/68907168d294618a86ec6518/6960ca9db52959589c7f97c0_Jack%20Web%20Use-p-800.jpeg",
+          "level": 1,
+          "line": 72
+        },
+        {
+          "heading": "https://cdn.prod.website-files.com/68907168d294618a86ec6518/6960cb0c7ac69a1d309b4daa_Lukas%20Web%20Use.jpeg",
+          "level": 1,
+          "line": 73
+        },
+        {
+          "heading": "https://cdn.prod.website-files.com/68907168d294618a86ec6518/6960cb0c7ac69a1d309b4daa_Lukas%20Web%20Use-p-500.jpeg",
+          "level": 1,
+          "line": 74
+        },
+        {
+          "heading": "https://cdn.prod.website-files.com/68907168d294618a86ec6518/6960cb0c7ac69a1d309b4daa_Lukas%20Web%20Use-p-800.jpeg",
+          "level": 1,
+          "line": 75
+        },
+        {
+          "heading": "https://cdn.prod.website-files.com/68907168d294618a86ec6518/6960cb3eded42262f01b033c_Xiaman%20Web%20Use.jpeg",
+          "level": 1,
+          "line": 76
+        },
+        {
+          "heading": "https://cdn.prod.website-files.com/68907168d294618a86ec6518/6960cb3eded42262f01b033c_Xiaman%20Web%20Use-p-500.jpeg",
+          "level": 1,
+          "line": 77
+        },
+        {
+          "heading": "https://cdn.prod.website-files.com/68907168d294618a86ec6518/6960cb3eded42262f01b033c_Xiaman%20Web%20Use-p-800.jpeg",
+          "level": 1,
+          "line": 78
+        },
+        {
+          "heading": "https://cdn.prod.website-files.com/68907168d294618a86ec6518/699ea2d5072d33b54af1cd5b_ico-close.svg",
+          "level": 1,
+          "line": 79
+        },
+        {
+          "heading": "https://cdn.prod.website-files.com/68907168d294618a86ec6518/699f28a29d023cb429286297_ico-caret-chevron.svg",
+          "level": 1,
+          "line": 80
+        },
+        {
+          "heading": "https://cdn.prod.website-files.com/68b97028e0c81bc35f746268/69bf8b0e00e4e8c9b601c862_pexels-renan-braz-1732586-35524218-p-500.jpg",
+          "level": 1,
+          "line": 81
+        },
+        {
+          "heading": "https://cdn.prod.website-files.com/68b97028e0c81bc35f746268/69bf8b0e00e4e8c9b601c862_pexels-renan-braz-1732586-35524218-p-800.jpg",
+          "level": 1,
+          "line": 82
+        },
+        {
+          "heading": "https://cdn.prod.website-files.com/68b97028e0c81bc35f746268/69bf8b0e00e4e8c9b601c862_pexels-renan-braz-1732586-35524218-p-1080.jpg",
+          "level": 1,
+          "line": 83
+        },
+        {
+          "heading": "https://cdn.prod.website-files.com/68b97028e0c81bc35f746268/69bf8b0e00e4e8c9b601c862_pexels-renan-braz-1732586-35524218-p-1600.jpg",
+          "level": 1,
+          "line": 84
+        },
+        {
+          "heading": "https://cdn.prod.website-files.com/68907168d294618a86ec6518/69c0be6c0ff3fb98f6c81e3e_ico-close-2.svg",
+          "level": 1,
+          "line": 85
+        },
+        {
+          "heading": "https://cdn.prod.website-files.com/68907168d294618a86ec6518/689b29750af0e8f994b5a45e_GT-Standard-Mono-Narrow-Medium.woff2",
+          "level": 1,
+          "line": 86
+        },
+        {
+          "heading": "https://cdn.prod.website-files.com/68907168d294618a86ec6518/689b2975a12fc701f9f074a9_GT-Standard-L-Standard-Medium.woff2",
+          "level": 1,
+          "line": 87
+        },
+        {
+          "heading": "https://cdn.prod.website-files.com/68907168d294618a86ec6518/689b297557d89256a5697b72_GT-Standard-L-Standard-Regular.woff2",
+          "level": 1,
+          "line": 88
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 87
+      }
+    },
+    {
+      "path": "site/docs/research/fonts-and-tokens.json",
+      "language": "json",
+      "fileCategory": "config",
+      "totalLines": 121,
+      "nonEmptyLines": 121,
+      "sections": [
+        {
+          "heading": "fontFaces",
+          "level": 1,
+          "line": 2
+        },
+        {
+          "heading": "swatches",
+          "level": 1,
+          "line": 28
+        },
+        {
+          "heading": "themes",
+          "level": 1,
+          "line": 64
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 3
+      }
+    },
+    {
+      "path": "site/docs/research/global-extract.json",
+      "language": "json",
+      "fileCategory": "config",
+      "totalLines": 1,
+      "nonEmptyLines": 1,
+      "sections": [
+        {
+          "heading": "title",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "images",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "videos",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "backgroundImages",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "svgCount",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "fontsUsed",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "favicons",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "metaOg",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "stylesheets",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "bodyBg",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "bodyColor",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "sections",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "hasLenis",
+          "level": 1,
+          "line": 1
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 13
+      }
+    },
+    {
+      "path": "site/docs/research/mantic.webflow.css",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 10022,
+      "nonEmptyLines": 8574,
+      "metrics": {}
+    },
+    {
+      "path": "site/docs/research/page.html",
+      "language": "html",
+      "fileCategory": "markup",
+      "totalLines": 1144,
+      "nonEmptyLines": 1085,
+      "metrics": {}
+    },
+    {
+      "path": "site/docs/research/reveals.json",
+      "language": "json",
+      "fileCategory": "config",
+      "totalLines": 222,
+      "nonEmptyLines": 222,
+      "sections": [
+        {
+          "heading": "main.page_main:nth-of-type(1) > section.sampleqs_wrap:nth-of-type(2) > div.sampleqs_contain:nth-of-type(2) > div.sampleqs_layout:nth-of-type(1) > div.swiper:nth-of-type(3) > div.swiper-wrapper:nth-of-type(1)",
+          "level": 1,
+          "line": 2
+        },
+        {
+          "heading": "section.sampleqs_wrap:nth-of-type(2) > div.sampleqs_contain:nth-of-type(2) > div.sampleqs_layout:nth-of-type(1) > div.swiper:nth-of-type(3) > div.swiper-wrapper:nth-of-type(1) > div.swiper-slide:nth-of-type(1)",
+          "level": 1,
+          "line": 13
+        },
+        {
+          "heading": "section.sampleqs_wrap:nth-of-type(2) > div.sampleqs_contain:nth-of-type(2) > div.sampleqs_layout:nth-of-type(1) > div.swiper:nth-of-type(3) > div.swiper-wrapper:nth-of-type(1) > div.swiper-slide:nth-of-type(2)",
+          "level": 1,
+          "line": 24
+        },
+        {
+          "heading": "section.sampleqs_wrap:nth-of-type(2) > div.sampleqs_contain:nth-of-type(2) > div.sampleqs_layout:nth-of-type(1) > div.swiper:nth-of-type(3) > div.swiper-wrapper:nth-of-type(1) > div.swiper-slide:nth-of-type(3)",
+          "level": 1,
+          "line": 35
+        },
+        {
+          "heading": "section.sampleqs_wrap:nth-of-type(2) > div.sampleqs_contain:nth-of-type(2) > div.sampleqs_layout:nth-of-type(1) > div.swiper:nth-of-type(3) > div.swiper-wrapper:nth-of-type(1) > div.swiper-slide:nth-of-type(4)",
+          "level": 1,
+          "line": 46
+        },
+        {
+          "heading": "section.sampleqs_wrap:nth-of-type(2) > div.sampleqs_contain:nth-of-type(2) > div.sampleqs_layout:nth-of-type(1) > div.swiper:nth-of-type(3) > div.swiper-wrapper:nth-of-type(1) > div.swiper-slide:nth-of-type(5)",
+          "level": 1,
+          "line": 57
+        },
+        {
+          "heading": "section.sampleqs_wrap:nth-of-type(2) > div.sampleqs_contain:nth-of-type(2) > div.sampleqs_layout:nth-of-type(1) > div.swiper:nth-of-type(3) > div.swiper-wrapper:nth-of-type(1) > div.swiper-slide:nth-of-type(6)",
+          "level": 1,
+          "line": 68
+        },
+        {
+          "heading": "section.sampleqs_wrap:nth-of-type(2) > div.sampleqs_contain:nth-of-type(2) > div.sampleqs_layout:nth-of-type(1) > div.swiper:nth-of-type(3) > div.swiper-wrapper:nth-of-type(1) > div.swiper-slide:nth-of-type(7)",
+          "level": 1,
+          "line": 79
+        },
+        {
+          "heading": "main.page_main:nth-of-type(1) > section.solutions_wrap:nth-of-type(4) > div.u-container:nth-of-type(2) > div.solutions-swiper-wrap:nth-of-type(2) > div.swiper:nth-of-type(3) > div.swiper-wrapper:nth-of-type(1)",
+          "level": 1,
+          "line": 90
+        },
+        {
+          "heading": "section.solutions_wrap:nth-of-type(4) > div.u-container:nth-of-type(2) > div.solutions-swiper-wrap:nth-of-type(2) > div.swiper:nth-of-type(3) > div.swiper-wrapper:nth-of-type(1) > div.swiper-slide:nth-of-type(1)",
+          "level": 1,
+          "line": 101
+        },
+        {
+          "heading": "section.solutions_wrap:nth-of-type(4) > div.u-container:nth-of-type(2) > div.solutions-swiper-wrap:nth-of-type(2) > div.swiper:nth-of-type(3) > div.swiper-wrapper:nth-of-type(1) > div.swiper-slide:nth-of-type(2)",
+          "level": 1,
+          "line": 112
+        },
+        {
+          "heading": "section.solutions_wrap:nth-of-type(4) > div.u-container:nth-of-type(2) > div.solutions-swiper-wrap:nth-of-type(2) > div.swiper:nth-of-type(3) > div.swiper-wrapper:nth-of-type(1) > div.swiper-slide:nth-of-type(3)",
+          "level": 1,
+          "line": 123
+        },
+        {
+          "heading": "main.page_main:nth-of-type(1) > section.use_cases_wrap:nth-of-type(5) > div.u-container:nth-of-type(2) > div.usecase-swiper-wrap:nth-of-type(3) > div.swiper:nth-of-type(1) > div.swiper-wrapper:nth-of-type(1)",
+          "level": 1,
+          "line": 134
+        },
+        {
+          "heading": "section.use_cases_wrap:nth-of-type(5) > div.u-container:nth-of-type(2) > div.usecase-swiper-wrap:nth-of-type(3) > div.swiper:nth-of-type(1) > div.swiper-wrapper:nth-of-type(1) > div.swiper-slide:nth-of-type(1)",
+          "level": 1,
+          "line": 145
+        },
+        {
+          "heading": "section.use_cases_wrap:nth-of-type(5) > div.u-container:nth-of-type(2) > div.usecase-swiper-wrap:nth-of-type(3) > div.swiper:nth-of-type(1) > div.swiper-wrapper:nth-of-type(1) > div.swiper-slide:nth-of-type(2)",
+          "level": 1,
+          "line": 156
+        },
+        {
+          "heading": "section.use_cases_wrap:nth-of-type(5) > div.u-container:nth-of-type(2) > div.usecase-swiper-wrap:nth-of-type(3) > div.swiper:nth-of-type(1) > div.swiper-wrapper:nth-of-type(1) > div.swiper-slide:nth-of-type(3)",
+          "level": 1,
+          "line": 167
+        },
+        {
+          "heading": "section.use_cases_wrap:nth-of-type(5) > div.u-container:nth-of-type(2) > div.usecase-swiper-wrap:nth-of-type(3) > div.swiper:nth-of-type(1) > div.swiper-wrapper:nth-of-type(1) > div.swiper-slide:nth-of-type(4)",
+          "level": 1,
+          "line": 178
+        },
+        {
+          "heading": "section.use_cases_wrap:nth-of-type(5) > div.u-container:nth-of-type(2) > div.usecase-swiper-wrap:nth-of-type(3) > div.swiper:nth-of-type(1) > div.swiper-wrapper:nth-of-type(1) > div.swiper-slide:nth-of-type(5)",
+          "level": 1,
+          "line": 189
+        },
+        {
+          "heading": "section.use_cases_wrap:nth-of-type(5) > div.u-container:nth-of-type(2) > div.usecase-swiper-wrap:nth-of-type(3) > div.swiper:nth-of-type(1) > div.swiper-wrapper:nth-of-type(1) > div.swiper-slide:nth-of-type(6)",
+          "level": 1,
+          "line": 200
+        },
+        {
+          "heading": "section.use_cases_wrap:nth-of-type(5) > div.u-container:nth-of-type(2) > div.usecase-swiper-wrap:nth-of-type(3) > div.swiper:nth-of-type(1) > div.swiper-wrapper:nth-of-type(1) > div.swiper-slide:nth-of-type(7)",
+          "level": 1,
+          "line": 211
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 20
+      }
+    }
+  ]
+}

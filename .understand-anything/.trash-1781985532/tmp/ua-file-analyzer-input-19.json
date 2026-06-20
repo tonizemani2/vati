@@ -1,0 +1,31 @@
+{
+  "projectRoot": "/Users/emizemani/Desktop/predictthefuture",
+  "batchFiles": [
+    {
+      "path": "engine/pope/__init__.py",
+      "language": "python",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/pope/charts.py",
+      "language": "python",
+      "sizeLines": 185,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/pope/render.py",
+      "language": "python",
+      "sizeLines": 410,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "engine/pope/__init__.py": [],
+    "engine/pope/charts.py": [],
+    "engine/pope/render.py": [
+      "engine/pope/__init__.py",
+      "engine/pope/charts.py"
+    ]
+  }
+}

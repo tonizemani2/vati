@@ -1,0 +1,295 @@
+{
+  "projectRoot": "/Users/emizemani/Desktop/predictthefuture",
+  "batchFiles": [
+    {
+      "path": "engine/pillars/demand.py",
+      "language": "python",
+      "sizeLines": 113,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/pillars/dependency.py",
+      "language": "python",
+      "sizeLines": 263,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/pillars/forces.py",
+      "language": "python",
+      "sizeLines": 645,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/pillars/frontier.py",
+      "language": "python",
+      "sizeLines": 1001,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/pillars/metals.py",
+      "language": "python",
+      "sizeLines": 142,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/pillars/policy.py",
+      "language": "python",
+      "sizeLines": 118,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/pillars/power.py",
+      "language": "python",
+      "sizeLines": 260,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/pillars/research.py",
+      "language": "python",
+      "sizeLines": 731,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/pillars/slow.py",
+      "language": "python",
+      "sizeLines": 308,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/quality.py",
+      "language": "python",
+      "sizeLines": 424,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/research_papers.py",
+      "language": "python",
+      "sizeLines": 359,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/retro.py",
+      "language": "python",
+      "sizeLines": 649,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/schemas.py",
+      "language": "python",
+      "sizeLines": 899,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/sec_company_enrich.py",
+      "language": "python",
+      "sizeLines": 276,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/seed.py",
+      "language": "python",
+      "sizeLines": 44,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/sharpen.py",
+      "language": "python",
+      "sizeLines": 122,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/significance.py",
+      "language": "python",
+      "sizeLines": 355,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/store.py",
+      "language": "python",
+      "sizeLines": 145,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/universe.py",
+      "language": "python",
+      "sizeLines": 522,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/wikidata_enrich.py",
+      "language": "python",
+      "sizeLines": 503,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/world_graph.py",
+      "language": "python",
+      "sizeLines": 770,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/world_seed.py",
+      "language": "python",
+      "sizeLines": 259,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_quality.py",
+      "language": "python",
+      "sizeLines": 326,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_research_papers_operation.py",
+      "language": "python",
+      "sizeLines": 66,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_world_catalog.py",
+      "language": "python",
+      "sizeLines": 2281,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_world_graph.py",
+      "language": "python",
+      "sizeLines": 77,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "engine/pillars/demand.py": [
+      "engine/__init__.py",
+      "engine/pillars/frontier.py",
+      "engine/schemas.py",
+      "engine/store.py"
+    ],
+    "engine/pillars/dependency.py": [
+      "engine/__init__.py",
+      "engine/db.py",
+      "engine/pillars/frontier.py",
+      "engine/pillars/power.py",
+      "engine/schemas.py"
+    ],
+    "engine/pillars/forces.py": [
+      "engine/__init__.py",
+      "engine/pillars/frontier.py",
+      "engine/schemas.py",
+      "engine/store.py"
+    ],
+    "engine/pillars/frontier.py": [
+      "engine/__init__.py",
+      "engine/db.py",
+      "engine/schemas.py"
+    ],
+    "engine/pillars/metals.py": [
+      "engine/__init__.py",
+      "engine/db.py",
+      "engine/pillars/frontier.py",
+      "engine/pillars/power.py",
+      "engine/schemas.py"
+    ],
+    "engine/pillars/policy.py": [
+      "engine/__init__.py",
+      "engine/pillars/frontier.py",
+      "engine/schemas.py",
+      "engine/store.py"
+    ],
+    "engine/pillars/power.py": [
+      "engine/__init__.py",
+      "engine/db.py",
+      "engine/pillars/frontier.py",
+      "engine/schemas.py"
+    ],
+    "engine/pillars/research.py": [
+      "engine/__init__.py",
+      "engine/db.py",
+      "engine/schemas.py",
+      "engine/store.py"
+    ],
+    "engine/pillars/slow.py": [
+      "engine/__init__.py",
+      "engine/db.py",
+      "engine/detector.py",
+      "engine/pillars/frontier.py",
+      "engine/schemas.py",
+      "engine/store.py"
+    ],
+    "engine/quality.py": [
+      "engine/schemas.py"
+    ],
+    "engine/research_papers.py": [
+      "engine/__init__.py",
+      "engine/db.py",
+      "engine/disk_guard.py"
+    ],
+    "engine/retro.py": [
+      "engine/__init__.py",
+      "engine/db.py",
+      "engine/detector.py",
+      "engine/pillars/frontier.py",
+      "engine/schemas.py"
+    ],
+    "engine/schemas.py": [],
+    "engine/sec_company_enrich.py": [
+      "engine/__init__.py",
+      "engine/graph.py",
+      "engine/rawstore.py",
+      "engine/schemas.py",
+      "engine/world_catalog.py"
+    ],
+    "engine/seed.py": [],
+    "engine/sharpen.py": [],
+    "engine/significance.py": [
+      "engine/detector.py",
+      "engine/schemas.py"
+    ],
+    "engine/store.py": [
+      "engine/schemas.py"
+    ],
+    "engine/universe.py": [
+      "engine/backtest.py",
+      "engine/detector.py",
+      "engine/pillars/frontier.py",
+      "engine/schemas.py"
+    ],
+    "engine/wikidata_enrich.py": [
+      "engine/__init__.py",
+      "engine/graph.py",
+      "engine/rawstore.py",
+      "engine/schemas.py",
+      "engine/world_catalog.py"
+    ],
+    "engine/world_graph.py": [],
+    "engine/world_seed.py": [
+      "engine/__init__.py",
+      "engine/db.py",
+      "engine/signals.py"
+    ],
+    "tests/test_quality.py": [
+      "engine/__init__.py",
+      "engine/db.py",
+      "engine/quality.py"
+    ],
+    "tests/test_research_papers_operation.py": [
+      "engine/__init__.py",
+      "engine/db.py",
+      "engine/research_papers.py"
+    ],
+    "tests/test_world_catalog.py": [
+      "engine/__init__.py",
+      "engine/companies_house_enrich.py",
+      "engine/gleif_enrich.py",
+      "engine/rawstore.py",
+      "engine/sec_company_enrich.py",
+      "engine/wikidata_enrich.py",
+      "engine/world_catalog.py",
+      "tests/test_world_state.py"
+    ],
+    "tests/test_world_graph.py": [
+      "engine/__init__.py",
+      "engine/world_graph.py"
+    ]
+  }
+}

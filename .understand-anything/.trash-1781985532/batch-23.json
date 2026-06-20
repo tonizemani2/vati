@@ -1,0 +1,61 @@
+{
+  "nodes": [
+    {
+      "id": "document:chat/README.md",
+      "type": "document",
+      "name": "README.md",
+      "filePath": "chat/README.md",
+      "summary": "Documentation file covering README for the Vati repository and its forecasting workflows.",
+      "tags": [
+        "documentation",
+        "entry-point",
+        "overview",
+        "chat"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "config:chat/package.json",
+      "type": "config",
+      "name": "package.json",
+      "filePath": "chat/package.json",
+      "summary": "Configuration file for package.json that shapes build, runtime, or tooling behavior in this repository.",
+      "tags": [
+        "configuration",
+        "build-system",
+        "project-manifest",
+        "chat"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:chat/tsconfig.json",
+      "type": "config",
+      "name": "tsconfig.json",
+      "filePath": "chat/tsconfig.json",
+      "summary": "Configuration file for tsconfig.json that shapes build, runtime, or tooling behavior in this repository.",
+      "tags": [
+        "configuration",
+        "typescript",
+        "build-system",
+        "chat"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:chat/wrangler.jsonc",
+      "type": "config",
+      "name": "wrangler.jsonc",
+      "filePath": "chat/wrangler.jsonc",
+      "summary": "Configuration file for wrangler.jsonc that shapes build, runtime, or tooling behavior in this repository.",
+      "tags": [
+        "chat",
+        "configuration",
+        "config",
+        "wrangler"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": []
+}

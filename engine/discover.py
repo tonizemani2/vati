@@ -56,8 +56,18 @@ from engine import detector, quality, significance
 LEAD_PROVIDERS = {"owid", "epoch_ai", "nih_reporter", "arxiv", "fred", "un_comtrade"}
 LAG_PROVIDERS = {"openalex", "wikipedia", "sec_edgar", "federal_register", "google_patents",
                  "gdelt",            # forces geopolitics/news: event-velocity is ATTENTION (timing), not leading
-                 "comtrade_china"}   # forces China decree-FOOTPRINT: annual export collapse CONFIRMS a decree
+                 "comtrade_china",   # forces China decree-FOOTPRINT: annual export collapse CONFIRMS a decree
                                      # ~12mo after the price — corroboration, never a pre-consensus EARLY
+                 # data-fleet lag/confirmation feeds (measured by the fleet 2026-06-11): annual revised
+                 # aggregates / already-produced flows — they confirm a shift after it happened, never lead.
+                 "world_bank", "ember", "usgs_minerals",
+                 # wave-2 geopolitics/governance/social lag+coincident feeds: news-attention spikes WITH
+                 # events; expert-coded democracy / conflict / labour aggregates publish months-to-a-year
+                 # after — corroboration, never a pre-consensus EARLY.
+                 "gdelt", "vdem", "ucdp", "worldbank_wgi", "ilo"}
+                 # (data-fleet LEADING feeds — imf commodity prices, oecd CLI, owid transition-shares —
+                 # are deliberately NOT here; but they stay out of FINE_LEAD_PROVIDERS too: leading yet
+                 # COARSE aggregates, so they ground a thesis but never rank as the headline needle.)
 
 # Within the leads, the FINE research grain vs the COARSE aggregate end-product curves. This is the
 # anti-"supercomputing" rule (the /needle trap, doctrine §1.5): a single broad aggregate curve (owid
@@ -284,7 +294,7 @@ def run_scan(conn: sqlite3.Connection, *, k: float = 3.0, q: float = 0.10, m: in
 # DROPPED if it doesn't resolve to a real CIK; (3) human `entity-accept` before it can feed a bet;
 # (4) the consensus math pulls REAL Stooq+SEC data, so an unreal ticker fails the fetch, never fakes.
 
-UA = "predictthefuture research (ruben.stout@edu.escp.eu)"
+UA = "predictthefuture research (research@vaticinus.com)"
 _SEC_TICKERS = "https://www.sec.gov/files/company_tickers.json"
 _ticker_cache: dict[str, int] | None = None
 

@@ -309,6 +309,8 @@ def run_significance(conn: sqlite3.Connection, *, k: float = DEFAULT_K, q: float
     series = conn.execute("SELECT id, label, provider FROM series ORDER BY label").fetchall()
     health = {r["series_id"]: r["status"]
               for r in conn.execute("SELECT series_id, status FROM series_health")}
+    conn.execute("UPDATE series SET last_p_mc=NULL, last_p_mc_m=NULL, last_fdr_survive=0, last_fdr_q=NULL")
+    conn.commit()
     rng = random.Random(SEED)
     scanned: list[dict] = []
     for s in series:

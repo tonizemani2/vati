@@ -1,0 +1,66 @@
+[
+ {
+  "question_id": 18174,
+  "type": "binary",
+  "prob": 0.6,
+  "reasoning": "IEA projects global solar PV generation overtakes wind by ~2026-2027 and hydropower by ~2029-2030, so within the 2023-2030 window solar plausibly becomes the largest single renewable. The drag is the Energy Institute Statistical Review's primary-energy substitution accounting (which inflates hydro) plus 2030 data needing to be published, but the trajectory clearly points to a qualifying year."
+ },
+ {
+  "question_id": 18551,
+  "type": "binary",
+  "prob": 0.05,
+  "reasoning": "A reported, globally-scaled, satellite-facilitated wildlife-trade enforcement system producing a measurable >=5% poaching reduction with identifiable attribution and strict onus is not on track to exist by 2031. Pilots exist but no broad effective global system."
+ },
+ {
+  "question_id": 18550,
+  "type": "binary",
+  "prob": 0.04,
+  "reasoning": "The 48-hour Atlantic track error was a record-low 45.4 nm in 2024 and ~53.4 nm in 2025; reaching 30.0 nm or less by 2030 would require an unprecedented ~35% further improvement in a few years, far outside the historical trend."
+ },
+ {
+  "question_id": 18549,
+  "type": "binary",
+  "prob": 0.1,
+  "reasoning": "Satellite/AIS monitoring (e.g., Global Fishing Watch, SkyLight) is increasingly used in IUU enforcement, but a credible, broadly-applicable, attributable >=5% reduction in illegal fishing meeting the strict onus and 'directly implemented in enforcement' bar is unlikely to be cleanly reported by 2031."
+ },
+ {
+  "question_id": 18258,
+  "type": "binary",
+  "prob": 0.05,
+  "reasoning": "The High Seas Treaty (BBNJ) has not yet entered into force and lacks operational enforcement machinery; demonstrable satellite-enabled enforcement outcomes specifically attributable to the treaty before Jan 2027 are very improbable."
+ },
+ {
+  "question_id": 18172,
+  "type": "binary",
+  "prob": 0.03,
+  "reasoning": "Space-based solar power remains experimental with no commercial Earth-delivery capacity; it has essentially zero chance of exceeding total earth-based renewable capacity in any year through 2073, despite the long window."
+ },
+ {
+  "question_id": 18175,
+  "type": "date",
+  "percentiles": {
+   "0.05": "2027-07-01",
+   "0.1": "2028-07-01",
+   "0.25": "2030-07-01",
+   "0.5": "2033-07-01",
+   "0.75": "2038-07-01",
+   "0.9": "2045-07-01",
+   "0.95": "2052-07-01"
+  },
+  "reasoning": "Missions like MethaneSAT, CO2M (Copernicus, ~2026+), GOSAT-GW and Carbon Mapper are rapidly improving near-real-time GHG monitoring, but accurate (+/-5%) global real-time coverage of all CO2 and CH4 sources confirmed by multiple credible bodies likely takes into the early-to-mid 2030s, with a long tail."
+ },
+ {
+  "question_id": 18526,
+  "type": "numeric",
+  "percentiles": {
+   "0.05": 200000000,
+   "0.1": 350000000,
+   "0.25": 600000000,
+   "0.5": 1100000000,
+   "0.75": 2200000000,
+   "0.9": 4000000000,
+   "0.95": 6500000000
+  },
+  "reasoning": "The satellite-specific hyperspectral imagery segment is a niche slice of the broad hyperspectral imaging systems market (whose 2030 estimates range ~$1.8B-$28B across medical, industrial and ground uses). Satellite hyperspectral imagery revenue in 2030 most plausibly sits in the high-hundreds-of-millions to low-billions, centered near ~$1.1B."
+ }
+]

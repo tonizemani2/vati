@@ -1,0 +1,383 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 6,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "experiments/REGISTRY.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 69,
+      "nonEmptyLines": 47,
+      "sections": [
+        {
+          "heading": "Experiment registry — the pre-registration ledger",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "v1 result (sealed-TEST reveal, recorded immutably in `experiment_ledger`, `is_test_reveal=1`)",
+          "level": 3,
+          "line": 14
+        },
+        {
+          "heading": "v2 result (concept-disjoint reveal) — THE EDGE DOES NOT SURVIVE. The most important finding here.",
+          "level": 3,
+          "line": 25
+        },
+        {
+          "heading": "POWER ANALYSIS of the v2 reveal (2026-06-05, read-only audit — `engine.cli experiment-power`)",
+          "level": 3,
+          "line": 36
+        },
+        {
+          "heading": "Locator (Stage 2) — the THESIS test with an INDEPENDENT label (`engine.cli locator-run`)",
+          "level": 3,
+          "line": 46
+        },
+        {
+          "heading": "Holdout (Stage 3) — the leakage-bounded test of LLM JUDGMENT (`engine.cli holdout-run`)",
+          "level": 3,
+          "line": 54
+        },
+        {
+          "heading": "Rules",
+          "level": 2,
+          "line": 63
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 7
+      }
+    },
+    {
+      "path": "experiments/protocol_locator.yaml",
+      "language": "yaml",
+      "fileCategory": "config",
+      "totalLines": 67,
+      "nonEmptyLines": 58,
+      "sections": [
+        {
+          "heading": "protocol_locator",
+          "level": 1,
+          "line": 17
+        },
+        {
+          "heading": "registered_at",
+          "level": 1,
+          "line": 18
+        },
+        {
+          "heading": "author",
+          "level": 1,
+          "line": 19
+        },
+        {
+          "heading": "hypothesis",
+          "level": 1,
+          "line": 21
+        },
+        {
+          "heading": "world",
+          "level": 1,
+          "line": 28
+        },
+        {
+          "heading": "picks",
+          "level": 1,
+          "line": 37
+        },
+        {
+          "heading": "label_rule",
+          "level": 1,
+          "line": 42
+        },
+        {
+          "heading": "draw_rule",
+          "level": 1,
+          "line": 47
+        },
+        {
+          "heading": "metrics",
+          "level": 1,
+          "line": 52
+        },
+        {
+          "heading": "k",
+          "level": 1,
+          "line": 53
+        },
+        {
+          "heading": "seed",
+          "level": 1,
+          "line": 54
+        },
+        {
+          "heading": "honest_limits",
+          "level": 1,
+          "line": 56
+        },
+        {
+          "heading": "stopping_rule",
+          "level": 1,
+          "line": 64
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 13
+      }
+    },
+    {
+      "path": "experiments/protocol_structbench.yaml",
+      "language": "yaml",
+      "fileCategory": "config",
+      "totalLines": 42,
+      "nonEmptyLines": 37,
+      "sections": [
+        {
+          "heading": "rule",
+          "level": 1,
+          "line": 18
+        },
+        {
+          "heading": "universe",
+          "level": 1,
+          "line": 25
+        },
+        {
+          "heading": "forecaster",
+          "level": 1,
+          "line": 30
+        },
+        {
+          "heading": "scoring",
+          "level": 1,
+          "line": 34
+        },
+        {
+          "heading": "caveats",
+          "level": 1,
+          "line": 39
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 5
+      }
+    },
+    {
+      "path": "experiments/protocol_v1.yaml",
+      "language": "yaml",
+      "fileCategory": "config",
+      "totalLines": 72,
+      "nonEmptyLines": 61,
+      "sections": [
+        {
+          "heading": "protocol_version",
+          "level": 1,
+          "line": 18
+        },
+        {
+          "heading": "registered_at",
+          "level": 1,
+          "line": 19
+        },
+        {
+          "heading": "author",
+          "level": 1,
+          "line": 20
+        },
+        {
+          "heading": "hypothesis",
+          "level": 1,
+          "line": 22
+        },
+        {
+          "heading": "universe_rule",
+          "level": 1,
+          "line": 29
+        },
+        {
+          "heading": "label_rule",
+          "level": 1,
+          "line": 35
+        },
+        {
+          "heading": "splits",
+          "level": 1,
+          "line": 42
+        },
+        {
+          "heading": "search_space",
+          "level": 1,
+          "line": 51
+        },
+        {
+          "heading": "n_configs_declared",
+          "level": 1,
+          "line": 56
+        },
+        {
+          "heading": "primary_metric",
+          "level": 1,
+          "line": 58
+        },
+        {
+          "heading": "secondary_metrics",
+          "level": 1,
+          "line": 59
+        },
+        {
+          "heading": "stopping_rule",
+          "level": 1,
+          "line": 65
+        },
+        {
+          "heading": "seed",
+          "level": 1,
+          "line": 72
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 13
+      }
+    },
+    {
+      "path": "experiments/protocol_v2.yaml",
+      "language": "yaml",
+      "fileCategory": "config",
+      "totalLines": 56,
+      "nonEmptyLines": 50,
+      "sections": [
+        {
+          "heading": "protocol_version",
+          "level": 1,
+          "line": 21
+        },
+        {
+          "heading": "registered_at",
+          "level": 1,
+          "line": 22
+        },
+        {
+          "heading": "author",
+          "level": 1,
+          "line": 23
+        },
+        {
+          "heading": "supersedes_note",
+          "level": 1,
+          "line": 24
+        },
+        {
+          "heading": "hypothesis",
+          "level": 1,
+          "line": 26
+        },
+        {
+          "heading": "universe_rule",
+          "level": 1,
+          "line": 31
+        },
+        {
+          "heading": "label_rule",
+          "level": 1,
+          "line": 37
+        },
+        {
+          "heading": "split",
+          "level": 1,
+          "line": 39
+        },
+        {
+          "heading": "search_space",
+          "level": 1,
+          "line": 47
+        },
+        {
+          "heading": "n_configs_declared",
+          "level": 1,
+          "line": 48
+        },
+        {
+          "heading": "primary_metric",
+          "level": 1,
+          "line": 49
+        },
+        {
+          "heading": "secondary_metrics",
+          "level": 1,
+          "line": 50
+        },
+        {
+          "heading": "stopping_rule",
+          "level": 1,
+          "line": 52
+        },
+        {
+          "heading": "seed",
+          "level": 1,
+          "line": 56
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 14
+      }
+    },
+    {
+      "path": "experiments/timesfm_dataset_eval.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 37,
+      "nonEmptyLines": 25,
+      "sections": [
+        {
+          "heading": "TimesFM vs incumbent — dataset-half Brier (leak-free backtest)",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Head-to-head on the TimesFM-covered subset (same rows)",
+          "level": 2,
+          "line": 5
+        },
+        {
+          "heading": "Whole source: incumbent-everywhere vs blend-where-available (adoption number)",
+          "level": 2,
+          "line": 13
+        },
+        {
+          "heading": "Verdict — NULL. Not adopted. (2026-06-20)",
+          "level": 2,
+          "line": 24
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 4
+      }
+    }
+  ]
+}

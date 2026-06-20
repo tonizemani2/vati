@@ -1,0 +1,6434 @@
+{
+  "nodes": [
+    {
+      "id": "file:engine/cli.py",
+      "type": "file",
+      "name": "cli.py",
+      "filePath": "engine/cli.py",
+      "summary": "cli.py is a code asset in the forecasting engine. It contains 132 functions, 48 internal imports.",
+      "tags": [
+        "forecasting-engine",
+        "cli",
+        "code"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:engine/cli.py:init_db",
+      "type": "function",
+      "name": "init_db",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        22,
+        29
+      ],
+      "summary": "Defines init_db in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:seed_cmd",
+      "type": "function",
+      "name": "seed_cmd",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        33,
+        40
+      ],
+      "summary": "Defines seed_cmd in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:signals_cmd",
+      "type": "function",
+      "name": "signals_cmd",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        44,
+        53
+      ],
+      "summary": "Defines signals_cmd in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:world_state_cmd",
+      "type": "function",
+      "name": "world_state_cmd",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        57,
+        70
+      ],
+      "summary": "Defines world_state_cmd in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:world_graph_compile_cmd",
+      "type": "function",
+      "name": "world_graph_compile_cmd",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        74,
+        104
+      ],
+      "summary": "Defines world_graph_compile_cmd in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:world_graph_deepseek_cmd",
+      "type": "function",
+      "name": "world_graph_deepseek_cmd",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        108,
+        157
+      ],
+      "summary": "Defines world_graph_deepseek_cmd in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cli"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/cli.py:world_state_audit_cmd",
+      "type": "function",
+      "name": "world_state_audit_cmd",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        161,
+        171
+      ],
+      "summary": "Defines world_state_audit_cmd in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:world_state_proof_cmd",
+      "type": "function",
+      "name": "world_state_proof_cmd",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        175,
+        188
+      ],
+      "summary": "Defines world_state_proof_cmd in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:world_research_pack_cmd",
+      "type": "function",
+      "name": "world_research_pack_cmd",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        192,
+        224
+      ],
+      "summary": "Defines world_research_pack_cmd in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-access",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:world_state_backfill_observations_cmd",
+      "type": "function",
+      "name": "world_state_backfill_observations_cmd",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        228,
+        260
+      ],
+      "summary": "Defines world_state_backfill_observations_cmd in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:world_state_backfill_metric_entities_cmd",
+      "type": "function",
+      "name": "world_state_backfill_metric_entities_cmd",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        264,
+        295
+      ],
+      "summary": "Defines world_state_backfill_metric_entities_cmd in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:world_state_backfill_identifiers_cmd",
+      "type": "function",
+      "name": "world_state_backfill_identifiers_cmd",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        299,
+        330
+      ],
+      "summary": "Defines world_state_backfill_identifiers_cmd in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:world_entity_autolink_cmd",
+      "type": "function",
+      "name": "world_entity_autolink_cmd",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        334,
+        348
+      ],
+      "summary": "Defines world_entity_autolink_cmd in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:world_raw_recover_cmd",
+      "type": "function",
+      "name": "world_raw_recover_cmd",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        352,
+        405
+      ],
+      "summary": "Defines world_raw_recover_cmd in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cli"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/cli.py:world_raw_mark_legacy_cmd",
+      "type": "function",
+      "name": "world_raw_mark_legacy_cmd",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        409,
+        420
+      ],
+      "summary": "Defines world_raw_mark_legacy_cmd in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:world_raw_locate_cmd",
+      "type": "function",
+      "name": "world_raw_locate_cmd",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        424,
+        449
+      ],
+      "summary": "Defines world_raw_locate_cmd in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:world_raw_restore_cmd",
+      "type": "function",
+      "name": "world_raw_restore_cmd",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        453,
+        500
+      ],
+      "summary": "Defines world_raw_restore_cmd in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:world_data_plan_cmd",
+      "type": "function",
+      "name": "world_data_plan_cmd",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        504,
+        520
+      ],
+      "summary": "Defines world_data_plan_cmd in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:world_land_permits_plan_cmd",
+      "type": "function",
+      "name": "world_land_permits_plan_cmd",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        524,
+        540
+      ],
+      "summary": "Defines world_land_permits_plan_cmd in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:world_land_source_seed_cmd",
+      "type": "function",
+      "name": "world_land_source_seed_cmd",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        544,
+        572
+      ],
+      "summary": "Defines world_land_source_seed_cmd in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:world_constraint_plan_cmd",
+      "type": "function",
+      "name": "world_constraint_plan_cmd",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        576,
+        592
+      ],
+      "summary": "Defines world_constraint_plan_cmd in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:world_research_plan_cmd",
+      "type": "function",
+      "name": "world_research_plan_cmd",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        596,
+        612
+      ],
+      "summary": "Defines world_research_plan_cmd in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-access",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:world_data_status_cmd",
+      "type": "function",
+      "name": "world_data_status_cmd",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        616,
+        639
+      ],
+      "summary": "Defines world_data_status_cmd in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:world_data_actions_cmd",
+      "type": "function",
+      "name": "world_data_actions_cmd",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        643,
+        677
+      ],
+      "summary": "Defines world_data_actions_cmd in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:world_roi_sprint_cmd",
+      "type": "function",
+      "name": "world_roi_sprint_cmd",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        681,
+        704
+      ],
+      "summary": "Defines world_roi_sprint_cmd in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:world_data_matrix_cmd",
+      "type": "function",
+      "name": "world_data_matrix_cmd",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        708,
+        739
+      ],
+      "summary": "Defines world_data_matrix_cmd in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:world_research_status_cmd",
+      "type": "function",
+      "name": "world_research_status_cmd",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        743,
+        769
+      ],
+      "summary": "Defines world_research_status_cmd in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-access",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:world_research_profile_cmd",
+      "type": "function",
+      "name": "world_research_profile_cmd",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        773,
+        801
+      ],
+      "summary": "Defines world_research_profile_cmd in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-access",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:world_research_provenance_cmd",
+      "type": "function",
+      "name": "world_research_provenance_cmd",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        805,
+        818
+      ],
+      "summary": "Defines world_research_provenance_cmd in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-access",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:world_data_approvals_cmd",
+      "type": "function",
+      "name": "world_data_approvals_cmd",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        822,
+        846
+      ],
+      "summary": "Defines world_data_approvals_cmd in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:world_entity_status_cmd",
+      "type": "function",
+      "name": "world_entity_status_cmd",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        850,
+        861
+      ],
+      "summary": "Defines world_entity_status_cmd in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:world_entity_coverage_cmd",
+      "type": "function",
+      "name": "world_entity_coverage_cmd",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        865,
+        883
+      ],
+      "summary": "Defines world_entity_coverage_cmd in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:world_entity_seed_cmd",
+      "type": "function",
+      "name": "world_entity_seed_cmd",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        887,
+        896
+      ],
+      "summary": "Defines world_entity_seed_cmd in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:world_entity_enrich_gleif_cmd",
+      "type": "function",
+      "name": "world_entity_enrich_gleif_cmd",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        900,
+        916
+      ],
+      "summary": "Defines world_entity_enrich_gleif_cmd in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:world_entity_enrich_sec_cmd",
+      "type": "function",
+      "name": "world_entity_enrich_sec_cmd",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        920,
+        935
+      ],
+      "summary": "Defines world_entity_enrich_sec_cmd in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:world_entity_enrich_companies_house_cmd",
+      "type": "function",
+      "name": "world_entity_enrich_companies_house_cmd",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        939,
+        954
+      ],
+      "summary": "Defines world_entity_enrich_companies_house_cmd in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:world_entity_enrich_wikidata_cmd",
+      "type": "function",
+      "name": "world_entity_enrich_wikidata_cmd",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        958,
+        987
+      ],
+      "summary": "Defines world_entity_enrich_wikidata_cmd in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:data_offload_cmd",
+      "type": "function",
+      "name": "data_offload_cmd",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        991,
+        1080
+      ],
+      "summary": "Defines data_offload_cmd in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cli"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/cli.py:research_papers_operation_cmd",
+      "type": "function",
+      "name": "research_papers_operation_cmd",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        1084,
+        1133
+      ],
+      "summary": "Defines research_papers_operation_cmd in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-access",
+        "cli"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/cli.py:collect_frontier",
+      "type": "function",
+      "name": "collect_frontier",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        1137,
+        1152
+      ],
+      "summary": "Defines collect_frontier in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:collect_pillars",
+      "type": "function",
+      "name": "collect_pillars",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        1156,
+        1173
+      ],
+      "summary": "Defines collect_pillars in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:collect_forces",
+      "type": "function",
+      "name": "collect_forces",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        1177,
+        1201
+      ],
+      "summary": "Defines collect_forces in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:collect_diffusion",
+      "type": "function",
+      "name": "collect_diffusion",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        1205,
+        1216
+      ],
+      "summary": "Defines collect_diffusion in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:collect_research",
+      "type": "function",
+      "name": "collect_research",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        1220,
+        1249
+      ],
+      "summary": "Defines collect_research in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-access",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:collect_capex",
+      "type": "function",
+      "name": "collect_capex",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        1253,
+        1269
+      ],
+      "summary": "Defines collect_capex in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:collect_thesis_revenue",
+      "type": "function",
+      "name": "collect_thesis_revenue",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        1273,
+        1287
+      ],
+      "summary": "Defines collect_thesis_revenue in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:collect_slow",
+      "type": "function",
+      "name": "collect_slow",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        1291,
+        1305
+      ],
+      "summary": "Defines collect_slow in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:forecast_slow",
+      "type": "function",
+      "name": "forecast_slow",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        1309,
+        1320
+      ],
+      "summary": "Defines forecast_slow in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:collect_procurement",
+      "type": "function",
+      "name": "collect_procurement",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        1324,
+        1338
+      ],
+      "summary": "Defines collect_procurement in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:collect_patents",
+      "type": "function",
+      "name": "collect_patents",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        1342,
+        1358
+      ],
+      "summary": "Defines collect_patents in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:collect_citations",
+      "type": "function",
+      "name": "collect_citations",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        1362,
+        1381
+      ],
+      "summary": "Defines collect_citations in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:collect_power",
+      "type": "function",
+      "name": "collect_power",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        1385,
+        1395
+      ],
+      "summary": "Defines collect_power in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:collect_metals",
+      "type": "function",
+      "name": "collect_metals",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        1399,
+        1423
+      ],
+      "summary": "Defines collect_metals in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:collect_dependency",
+      "type": "function",
+      "name": "collect_dependency",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        1427,
+        1447
+      ],
+      "summary": "Defines collect_dependency in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:detect_cmd",
+      "type": "function",
+      "name": "detect_cmd",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        1451,
+        1459
+      ],
+      "summary": "Defines detect_cmd in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:significance_cmd",
+      "type": "function",
+      "name": "significance_cmd",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        1463,
+        1479
+      ],
+      "summary": "Defines significance_cmd in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:discover_cmd",
+      "type": "function",
+      "name": "discover_cmd",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        1483,
+        1501
+      ],
+      "summary": "Defines discover_cmd in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:discover_instruments",
+      "type": "function",
+      "name": "discover_instruments",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        1505,
+        1520
+      ],
+      "summary": "Defines discover_instruments in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:discover_price",
+      "type": "function",
+      "name": "discover_price",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        1524,
+        1538
+      ],
+      "summary": "Defines discover_price in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:saturation_scan",
+      "type": "function",
+      "name": "saturation_scan",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        1542,
+        1556
+      ],
+      "summary": "Defines saturation_scan in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:saturation_topic",
+      "type": "function",
+      "name": "saturation_topic",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        1560,
+        1576
+      ],
+      "summary": "Defines saturation_topic in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:consensus_eye",
+      "type": "function",
+      "name": "consensus_eye",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        1580,
+        1613
+      ],
+      "summary": "Defines consensus_eye in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:market_anchor_cmd",
+      "type": "function",
+      "name": "market_anchor_cmd",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        1617,
+        1629
+      ],
+      "summary": "Defines market_anchor_cmd in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:ground_cmd",
+      "type": "function",
+      "name": "ground_cmd",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        1633,
+        1646
+      ],
+      "summary": "Defines ground_cmd in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:data_audit",
+      "type": "function",
+      "name": "data_audit",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        1650,
+        1663
+      ],
+      "summary": "Defines data_audit in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:backtest_cmd",
+      "type": "function",
+      "name": "backtest_cmd",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        1667,
+        1680
+      ],
+      "summary": "Defines backtest_cmd in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:adapter_smoke",
+      "type": "function",
+      "name": "adapter_smoke",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        1684,
+        1694
+      ],
+      "summary": "Defines adapter_smoke in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:search_cmd",
+      "type": "function",
+      "name": "search_cmd",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        1698,
+        1713
+      ],
+      "summary": "Defines search_cmd in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-access",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:answer_cmd",
+      "type": "function",
+      "name": "answer_cmd",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        1717,
+        1745
+      ],
+      "summary": "Defines answer_cmd in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:approve_cost",
+      "type": "function",
+      "name": "approve_cost",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        1749,
+        1758
+      ],
+      "summary": "Defines approve_cost in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:forecast_seed",
+      "type": "function",
+      "name": "forecast_seed",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        1762,
+        1768
+      ],
+      "summary": "Defines forecast_seed in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:forecast_batch",
+      "type": "function",
+      "name": "forecast_batch",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        1772,
+        1783
+      ],
+      "summary": "Defines forecast_batch in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:scenario_seed",
+      "type": "function",
+      "name": "scenario_seed",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        1787,
+        1796
+      ],
+      "summary": "Defines scenario_seed in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:scenario_show",
+      "type": "function",
+      "name": "scenario_show",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        1800,
+        1815
+      ],
+      "summary": "Defines scenario_show in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:webs_v2",
+      "type": "function",
+      "name": "webs_v2",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        1819,
+        1827
+      ],
+      "summary": "Defines webs_v2 in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:belief_seed",
+      "type": "function",
+      "name": "belief_seed",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        1831,
+        1838
+      ],
+      "summary": "Defines belief_seed in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:belief_net_show",
+      "type": "function",
+      "name": "belief_net_show",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        1842,
+        1866
+      ],
+      "summary": "Defines belief_net_show in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:constraint_cards",
+      "type": "function",
+      "name": "constraint_cards",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        1870,
+        1878
+      ],
+      "summary": "Defines constraint_cards in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:ladder_run",
+      "type": "function",
+      "name": "ladder_run",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        1882,
+        1897
+      ],
+      "summary": "Defines ladder_run in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entry-point",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:_echo_driver_health",
+      "type": "function",
+      "name": "_echo_driver_health",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        1900,
+        1913
+      ],
+      "summary": "Defines _echo_driver_health in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:driver_link",
+      "type": "function",
+      "name": "driver_link",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        1917,
+        1939
+      ],
+      "summary": "Defines driver_link in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:driver_status",
+      "type": "function",
+      "name": "driver_status",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        1943,
+        1960
+      ],
+      "summary": "Defines driver_status in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:driver_seed",
+      "type": "function",
+      "name": "driver_seed",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        1964,
+        1988
+      ],
+      "summary": "Defines driver_seed in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:emergent_scan_cmd",
+      "type": "function",
+      "name": "emergent_scan_cmd",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        1992,
+        2011
+      ],
+      "summary": "Defines emergent_scan_cmd in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:emergent_card",
+      "type": "function",
+      "name": "emergent_card",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        2015,
+        2042
+      ],
+      "summary": "Defines emergent_card in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:forecast_add",
+      "type": "function",
+      "name": "forecast_add",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        2046,
+        2071
+      ],
+      "summary": "Defines forecast_add in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:forecast_supersede",
+      "type": "function",
+      "name": "forecast_supersede",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        2075,
+        2098
+      ],
+      "summary": "Defines forecast_supersede in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:forecast_resolve",
+      "type": "function",
+      "name": "forecast_resolve",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        2102,
+        2111
+      ],
+      "summary": "Defines forecast_resolve in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:forecast_seal",
+      "type": "function",
+      "name": "forecast_seal",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        2115,
+        2126
+      ],
+      "summary": "Defines forecast_seal in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:forecast_list",
+      "type": "function",
+      "name": "forecast_list",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        2130,
+        2147
+      ],
+      "summary": "Defines forecast_list in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:graph_seed",
+      "type": "function",
+      "name": "graph_seed",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        2151,
+        2177
+      ],
+      "summary": "Defines graph_seed in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:graph_propagate",
+      "type": "function",
+      "name": "graph_propagate",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        2181,
+        2255
+      ],
+      "summary": "Defines graph_propagate in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cli"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/cli.py:graph_verify",
+      "type": "function",
+      "name": "graph_verify",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        2259,
+        2268
+      ],
+      "summary": "Defines graph_verify in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:consensus_score",
+      "type": "function",
+      "name": "consensus_score",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        2272,
+        2288
+      ],
+      "summary": "Defines consensus_score in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:bet_translate",
+      "type": "function",
+      "name": "bet_translate",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        2292,
+        2310
+      ],
+      "summary": "Defines bet_translate in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:retro_run",
+      "type": "function",
+      "name": "retro_run",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        2314,
+        2327
+      ],
+      "summary": "Defines retro_run in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entry-point",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:recall_probe",
+      "type": "function",
+      "name": "recall_probe",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        2331,
+        2345
+      ],
+      "summary": "Defines recall_probe in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:universe_run",
+      "type": "function",
+      "name": "universe_run",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        2349,
+        2372
+      ],
+      "summary": "Defines universe_run in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entry-point",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:experiment_select",
+      "type": "function",
+      "name": "experiment_select",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        2376,
+        2384
+      ],
+      "summary": "Defines experiment_select in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:experiment_reveal",
+      "type": "function",
+      "name": "experiment_reveal",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        2388,
+        2397
+      ],
+      "summary": "Defines experiment_reveal in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:experiment_status",
+      "type": "function",
+      "name": "experiment_status",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        2401,
+        2407
+      ],
+      "summary": "Defines experiment_status in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:experiment_v2_select",
+      "type": "function",
+      "name": "experiment_v2_select",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        2411,
+        2417
+      ],
+      "summary": "Defines experiment_v2_select in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:experiment_v2_reveal",
+      "type": "function",
+      "name": "experiment_v2_reveal",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        2421,
+        2427
+      ],
+      "summary": "Defines experiment_v2_reveal in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:experiment_power",
+      "type": "function",
+      "name": "experiment_power",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        2431,
+        2441
+      ],
+      "summary": "Defines experiment_power in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:locator_run",
+      "type": "function",
+      "name": "locator_run",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        2445,
+        2455
+      ],
+      "summary": "Defines locator_run in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entry-point",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:holdout_run",
+      "type": "function",
+      "name": "holdout_run",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        2459,
+        2477
+      ],
+      "summary": "Defines holdout_run in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entry-point",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:structbench_run",
+      "type": "function",
+      "name": "structbench_run",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        2481,
+        2499
+      ],
+      "summary": "Defines structbench_run in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entry-point",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:entity_seed",
+      "type": "function",
+      "name": "entity_seed",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        2503,
+        2514
+      ],
+      "summary": "Defines entity_seed in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:entity_list",
+      "type": "function",
+      "name": "entity_list",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        2518,
+        2523
+      ],
+      "summary": "Defines entity_list in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:entity_candidates_cmd",
+      "type": "function",
+      "name": "entity_candidates_cmd",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        2527,
+        2540
+      ],
+      "summary": "Defines entity_candidates_cmd in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:entity_accept",
+      "type": "function",
+      "name": "entity_accept",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        2544,
+        2556
+      ],
+      "summary": "Defines entity_accept in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:entity_reject",
+      "type": "function",
+      "name": "entity_reject",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        2560,
+        2572
+      ],
+      "summary": "Defines entity_reject in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:entity_taxonomy",
+      "type": "function",
+      "name": "entity_taxonomy",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        2576,
+        2585
+      ],
+      "summary": "Defines entity_taxonomy in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:entity_supplier_edges",
+      "type": "function",
+      "name": "entity_supplier_edges",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        2589,
+        2598
+      ],
+      "summary": "Defines entity_supplier_edges in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:hypothesis_seed",
+      "type": "function",
+      "name": "hypothesis_seed",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        2602,
+        2614
+      ],
+      "summary": "Defines hypothesis_seed in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:hypothesis_list",
+      "type": "function",
+      "name": "hypothesis_list",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        2618,
+        2623
+      ],
+      "summary": "Defines hypothesis_list in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:hypothesis_skeptic",
+      "type": "function",
+      "name": "hypothesis_skeptic",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        2627,
+        2645
+      ],
+      "summary": "Defines hypothesis_skeptic in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:hypothesis_add",
+      "type": "function",
+      "name": "hypothesis_add",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        2649,
+        2690
+      ],
+      "summary": "Defines hypothesis_add in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:base_rates",
+      "type": "function",
+      "name": "base_rates",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        2694,
+        2703
+      ],
+      "summary": "Defines base_rates in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:hypothesis_promote",
+      "type": "function",
+      "name": "hypothesis_promote",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        2707,
+        2727
+      ],
+      "summary": "Defines hypothesis_promote in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:decision_open",
+      "type": "function",
+      "name": "decision_open",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        2731,
+        2743
+      ],
+      "summary": "Defines decision_open in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:decision_resolve",
+      "type": "function",
+      "name": "decision_resolve",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        2747,
+        2756
+      ],
+      "summary": "Defines decision_resolve in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:decision_list",
+      "type": "function",
+      "name": "decision_list",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        2760,
+        2765
+      ],
+      "summary": "Defines decision_list in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:world_seed_cmd",
+      "type": "function",
+      "name": "world_seed_cmd",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        2769,
+        2774
+      ],
+      "summary": "Defines world_seed_cmd in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:world_coverage_cmd",
+      "type": "function",
+      "name": "world_coverage_cmd",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        2778,
+        2786
+      ],
+      "summary": "Defines world_coverage_cmd in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:world_grade_cmd",
+      "type": "function",
+      "name": "world_grade_cmd",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        2790,
+        2807
+      ],
+      "summary": "Defines world_grade_cmd in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:data_query_cmd",
+      "type": "function",
+      "name": "data_query_cmd",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        2814,
+        2868
+      ],
+      "summary": "Defines data_query_cmd in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-access",
+        "cli"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/cli.py:data_showcase_cmd",
+      "type": "function",
+      "name": "data_showcase_cmd",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        2872,
+        2891
+      ],
+      "summary": "Defines data_showcase_cmd in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:status",
+      "type": "function",
+      "name": "status",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        2895,
+        2907
+      ],
+      "summary": "Defines status in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:capture_run",
+      "type": "function",
+      "name": "capture_run",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        2911,
+        2918
+      ],
+      "summary": "Defines capture_run in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entry-point",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:capture_resynth",
+      "type": "function",
+      "name": "capture_resynth",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        2922,
+        2926
+      ],
+      "summary": "Defines capture_resynth in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cli.py:capture_replies",
+      "type": "function",
+      "name": "capture_replies",
+      "filePath": "engine/cli.py",
+      "lineRange": [
+        2930,
+        2936
+      ],
+      "summary": "Defines capture_replies in cli.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cli"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:engine/companies_house_enrich.py",
+      "type": "file",
+      "name": "companies_house_enrich.py",
+      "filePath": "engine/companies_house_enrich.py",
+      "summary": "companies_house_enrich.py is a code asset in the forecasting engine. It contains 20 functions, 2 classes, 5 internal imports.",
+      "tags": [
+        "forecasting-engine",
+        "code",
+        "file",
+        "companies-house-enrich"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:engine/companies_house_enrich.py:_stable_id",
+      "type": "function",
+      "name": "_stable_id",
+      "filePath": "engine/companies_house_enrich.py",
+      "lineRange": [
+        58,
+        60
+      ],
+      "summary": "Defines _stable_id in companies_house_enrich.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "companies-house-enrich"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/companies_house_enrich.py:_load_aliases",
+      "type": "function",
+      "name": "_load_aliases",
+      "filePath": "engine/companies_house_enrich.py",
+      "lineRange": [
+        63,
+        70
+      ],
+      "summary": "Defines _load_aliases in companies_house_enrich.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "companies-house-enrich"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/companies_house_enrich.py:_norm",
+      "type": "function",
+      "name": "_norm",
+      "filePath": "engine/companies_house_enrich.py",
+      "lineRange": [
+        73,
+        75
+      ],
+      "summary": "Defines _norm in companies_house_enrich.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "companies-house-enrich"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/companies_house_enrich.py:_without_legal_suffixes",
+      "type": "function",
+      "name": "_without_legal_suffixes",
+      "filePath": "engine/companies_house_enrich.py",
+      "lineRange": [
+        78,
+        87
+      ],
+      "summary": "Defines _without_legal_suffixes in companies_house_enrich.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "companies-house-enrich"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/companies_house_enrich.py:_looks_like_legal_name",
+      "type": "function",
+      "name": "_looks_like_legal_name",
+      "filePath": "engine/companies_house_enrich.py",
+      "lineRange": [
+        90,
+        95
+      ],
+      "summary": "Defines _looks_like_legal_name in companies_house_enrich.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "companies-house-enrich"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/companies_house_enrich.py:_looks_like_uk_public_parent",
+      "type": "function",
+      "name": "_looks_like_uk_public_parent",
+      "filePath": "engine/companies_house_enrich.py",
+      "lineRange": [
+        98,
+        107
+      ],
+      "summary": "Defines _looks_like_uk_public_parent in companies_house_enrich.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "companies-house-enrich"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/companies_house_enrich.py:_active_status",
+      "type": "function",
+      "name": "_active_status",
+      "filePath": "engine/companies_house_enrich.py",
+      "lineRange": [
+        110,
+        114
+      ],
+      "summary": "Defines _active_status in companies_house_enrich.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "companies-house-enrich"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/companies_house_enrich.py:_usable_queries",
+      "type": "function",
+      "name": "_usable_queries",
+      "filePath": "engine/companies_house_enrich.py",
+      "lineRange": [
+        117,
+        137
+      ],
+      "summary": "Defines _usable_queries in companies_house_enrich.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "companies-house-enrich"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/companies_house_enrich.py:_search_url",
+      "type": "function",
+      "name": "_search_url",
+      "filePath": "engine/companies_house_enrich.py",
+      "lineRange": [
+        140,
+        141
+      ],
+      "summary": "Defines _search_url in companies_house_enrich.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-access",
+        "companies-house-enrich"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/companies_house_enrich.py:_parse_search_results",
+      "type": "function",
+      "name": "_parse_search_results",
+      "filePath": "engine/companies_house_enrich.py",
+      "lineRange": [
+        144,
+        158
+      ],
+      "summary": "Defines _parse_search_results in companies_house_enrich.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "data-access",
+        "companies-house-enrich"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/companies_house_enrich.py:_search_company",
+      "type": "function",
+      "name": "_search_company",
+      "filePath": "engine/companies_house_enrich.py",
+      "lineRange": [
+        161,
+        168
+      ],
+      "summary": "Defines _search_company in companies_house_enrich.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-access",
+        "companies-house-enrich"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/companies_house_enrich.py:_fetch_company_json",
+      "type": "function",
+      "name": "_fetch_company_json",
+      "filePath": "engine/companies_house_enrich.py",
+      "lineRange": [
+        171,
+        179
+      ],
+      "summary": "Defines _fetch_company_json in companies_house_enrich.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-access",
+        "companies-house-enrich"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/companies_house_enrich.py:_candidate_names",
+      "type": "function",
+      "name": "_candidate_names",
+      "filePath": "engine/companies_house_enrich.py",
+      "lineRange": [
+        182,
+        183
+      ],
+      "summary": "Defines _candidate_names in companies_house_enrich.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "companies-house-enrich"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/companies_house_enrich.py:_best_result",
+      "type": "function",
+      "name": "_best_result",
+      "filePath": "engine/companies_house_enrich.py",
+      "lineRange": [
+        186,
+        193
+      ],
+      "summary": "Defines _best_result in companies_house_enrich.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "companies-house-enrich"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/companies_house_enrich.py:_company_rows",
+      "type": "function",
+      "name": "_company_rows",
+      "filePath": "engine/companies_house_enrich.py",
+      "lineRange": [
+        196,
+        208
+      ],
+      "summary": "Defines _company_rows in companies_house_enrich.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "companies-house-enrich"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/companies_house_enrich.py:_extract_match",
+      "type": "function",
+      "name": "_extract_match",
+      "filePath": "engine/companies_house_enrich.py",
+      "lineRange": [
+        211,
+        237
+      ],
+      "summary": "Defines _extract_match in companies_house_enrich.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "companies-house-enrich"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/companies_house_enrich.py:_upsert_companies_house_source",
+      "type": "function",
+      "name": "_upsert_companies_house_source",
+      "filePath": "engine/companies_house_enrich.py",
+      "lineRange": [
+        240,
+        256
+      ],
+      "summary": "Defines _upsert_companies_house_source in companies_house_enrich.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "companies-house-enrich"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/companies_house_enrich.py:_clean_existing_companies_house",
+      "type": "function",
+      "name": "_clean_existing_companies_house",
+      "filePath": "engine/companies_house_enrich.py",
+      "lineRange": [
+        259,
+        290
+      ],
+      "summary": "Defines _clean_existing_companies_house in companies_house_enrich.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "companies-house-enrich"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/companies_house_enrich.py:_apply_match",
+      "type": "function",
+      "name": "_apply_match",
+      "filePath": "engine/companies_house_enrich.py",
+      "lineRange": [
+        293,
+        333
+      ],
+      "summary": "Defines _apply_match in companies_house_enrich.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "companies-house-enrich"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/companies_house_enrich.py:enrich_top_entities",
+      "type": "function",
+      "name": "enrich_top_entities",
+      "filePath": "engine/companies_house_enrich.py",
+      "lineRange": [
+        336,
+        426
+      ],
+      "summary": "Defines enrich_top_entities in companies_house_enrich.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "companies-house-enrich"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:engine/companies_house_enrich.py:SearchResult",
+      "type": "class",
+      "name": "SearchResult",
+      "filePath": "engine/companies_house_enrich.py",
+      "lineRange": [
+        35,
+        38
+      ],
+      "summary": "Defines SearchResult in companies_house_enrich.py, encapsulating reusable behavior or state for this module.",
+      "tags": [
+        "class",
+        "implementation",
+        "companies-house-enrich"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:engine/companies_house_enrich.py:CompaniesHouseMatch",
+      "type": "class",
+      "name": "CompaniesHouseMatch",
+      "filePath": "engine/companies_house_enrich.py",
+      "lineRange": [
+        42,
+        55
+      ],
+      "summary": "Defines CompaniesHouseMatch in companies_house_enrich.py, encapsulating reusable behavior or state for this module.",
+      "tags": [
+        "class",
+        "implementation",
+        "companies-house-enrich"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:engine/consensus.py",
+      "type": "file",
+      "name": "consensus.py",
+      "filePath": "engine/consensus.py",
+      "summary": "consensus.py is a code asset in the forecasting engine. It contains 20 functions, 3 classes, 3 internal imports.",
+      "tags": [
+        "forecasting-engine",
+        "code",
+        "file",
+        "consensus"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:engine/consensus.py:_gated_get",
+      "type": "function",
+      "name": "_gated_get",
+      "filePath": "engine/consensus.py",
+      "lineRange": [
+        147,
+        152
+      ],
+      "summary": "Defines _gated_get in consensus.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "consensus"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/consensus.py:fetch_price",
+      "type": "function",
+      "name": "fetch_price",
+      "filePath": "engine/consensus.py",
+      "lineRange": [
+        155,
+        164
+      ],
+      "summary": "Defines fetch_price in consensus.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-access",
+        "consensus"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/consensus.py:price_runup",
+      "type": "function",
+      "name": "price_runup",
+      "filePath": "engine/consensus.py",
+      "lineRange": [
+        175,
+        208
+      ],
+      "summary": "Defines price_runup in consensus.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entry-point",
+        "consensus"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/consensus.py:_xbrl_concept",
+      "type": "function",
+      "name": "_xbrl_concept",
+      "filePath": "engine/consensus.py",
+      "lineRange": [
+        211,
+        218
+      ],
+      "summary": "Defines _xbrl_concept in consensus.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "consensus"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/consensus.py:_is_full_year",
+      "type": "function",
+      "name": "_is_full_year",
+      "filePath": "engine/consensus.py",
+      "lineRange": [
+        232,
+        240
+      ],
+      "summary": "Defines _is_full_year in consensus.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "consensus"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/consensus.py:fetch_revenue_fy",
+      "type": "function",
+      "name": "fetch_revenue_fy",
+      "filePath": "engine/consensus.py",
+      "lineRange": [
+        243,
+        251
+      ],
+      "summary": "Defines fetch_revenue_fy in consensus.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-access",
+        "consensus"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/consensus.py:fetch_shares",
+      "type": "function",
+      "name": "fetch_shares",
+      "filePath": "engine/consensus.py",
+      "lineRange": [
+        254,
+        259
+      ],
+      "summary": "Defines fetch_shares in consensus.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-access",
+        "consensus"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/consensus.py:read_layer",
+      "type": "function",
+      "name": "read_layer",
+      "filePath": "engine/consensus.py",
+      "lineRange": [
+        284,
+        289
+      ],
+      "summary": "Defines read_layer in consensus.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "consensus"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/consensus.py:mc_delta",
+      "type": "function",
+      "name": "mc_delta",
+      "filePath": "engine/consensus.py",
+      "lineRange": [
+        304,
+        338
+      ],
+      "summary": "Defines mc_delta in consensus.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "consensus"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/consensus.py:_http_json",
+      "type": "function",
+      "name": "_http_json",
+      "filePath": "engine/consensus.py",
+      "lineRange": [
+        359,
+        370
+      ],
+      "summary": "Defines _http_json in consensus.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "consensus"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/consensus.py:_efts_count",
+      "type": "function",
+      "name": "_efts_count",
+      "filePath": "engine/consensus.py",
+      "lineRange": [
+        373,
+        376
+      ],
+      "summary": "Defines _efts_count in consensus.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "consensus"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/consensus.py:constraint_language_signal",
+      "type": "function",
+      "name": "constraint_language_signal",
+      "filePath": "engine/consensus.py",
+      "lineRange": [
+        379,
+        393
+      ],
+      "summary": "Defines constraint_language_signal in consensus.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "consensus"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/consensus.py:expectations_language_leg",
+      "type": "function",
+      "name": "expectations_language_leg",
+      "filePath": "engine/consensus.py",
+      "lineRange": [
+        396,
+        420
+      ],
+      "summary": "Defines expectations_language_leg in consensus.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "consensus"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/consensus.py:short_volume_ratio",
+      "type": "function",
+      "name": "short_volume_ratio",
+      "filePath": "engine/consensus.py",
+      "lineRange": [
+        438,
+        475
+      ],
+      "summary": "Defines short_volume_ratio in consensus.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "consensus"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/consensus.py:short_pressure_leg",
+      "type": "function",
+      "name": "short_pressure_leg",
+      "filePath": "engine/consensus.py",
+      "lineRange": [
+        478,
+        508
+      ],
+      "summary": "Defines short_pressure_leg in consensus.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "consensus"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/consensus.py:verdict_of",
+      "type": "function",
+      "name": "verdict_of",
+      "filePath": "engine/consensus.py",
+      "lineRange": [
+        511,
+        522
+      ],
+      "summary": "Defines verdict_of in consensus.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "consensus"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/consensus.py:_market_sources",
+      "type": "function",
+      "name": "_market_sources",
+      "filePath": "engine/consensus.py",
+      "lineRange": [
+        528,
+        564
+      ],
+      "summary": "Defines _market_sources in consensus.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "consensus"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/consensus.py:_save",
+      "type": "function",
+      "name": "_save",
+      "filePath": "engine/consensus.py",
+      "lineRange": [
+        567,
+        580
+      ],
+      "summary": "Defines _save in consensus.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "consensus"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/consensus.py:_surface_decision",
+      "type": "function",
+      "name": "_surface_decision",
+      "filePath": "engine/consensus.py",
+      "lineRange": [
+        586,
+        611
+      ],
+      "summary": "Defines _surface_decision in consensus.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "consensus"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/consensus.py:score_consensus",
+      "type": "function",
+      "name": "score_consensus",
+      "filePath": "engine/consensus.py",
+      "lineRange": [
+        617,
+        691
+      ],
+      "summary": "Defines score_consensus in consensus.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "consensus"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:engine/consensus.py:ConsensusConfig",
+      "type": "class",
+      "name": "ConsensusConfig",
+      "filePath": "engine/consensus.py",
+      "lineRange": [
+        63,
+        90
+      ],
+      "summary": "Defines ConsensusConfig in consensus.py, encapsulating reusable behavior or state for this module.",
+      "tags": [
+        "class",
+        "implementation",
+        "consensus"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:engine/consensus.py:Layer",
+      "type": "class",
+      "name": "Layer",
+      "filePath": "engine/consensus.py",
+      "lineRange": [
+        266,
+        281
+      ],
+      "summary": "Defines Layer in consensus.py, encapsulating reusable behavior or state for this module.",
+      "tags": [
+        "class",
+        "implementation",
+        "consensus"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:engine/consensus.py:Delta",
+      "type": "class",
+      "name": "Delta",
+      "filePath": "engine/consensus.py",
+      "lineRange": [
+        296,
+        301
+      ],
+      "summary": "Defines Delta in consensus.py, encapsulating reusable behavior or state for this module.",
+      "tags": [
+        "class",
+        "implementation",
+        "consensus"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:init_db",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:init_db",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:seed_cmd",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:seed_cmd",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:signals_cmd",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:signals_cmd",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:world_state_cmd",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:world_state_cmd",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:world_graph_compile_cmd",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:world_graph_compile_cmd",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:world_graph_deepseek_cmd",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:world_graph_deepseek_cmd",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:world_state_audit_cmd",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:world_state_audit_cmd",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:world_state_proof_cmd",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:world_state_proof_cmd",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:world_research_pack_cmd",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:world_research_pack_cmd",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:world_state_backfill_observations_cmd",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:world_state_backfill_observations_cmd",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:world_state_backfill_metric_entities_cmd",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:world_state_backfill_metric_entities_cmd",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:world_state_backfill_identifiers_cmd",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:world_state_backfill_identifiers_cmd",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:world_entity_autolink_cmd",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:world_entity_autolink_cmd",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:world_raw_recover_cmd",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:world_raw_recover_cmd",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:world_raw_mark_legacy_cmd",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:world_raw_mark_legacy_cmd",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:world_raw_locate_cmd",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:world_raw_locate_cmd",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:world_raw_restore_cmd",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:world_raw_restore_cmd",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:world_data_plan_cmd",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:world_data_plan_cmd",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:world_land_permits_plan_cmd",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:world_land_permits_plan_cmd",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:world_land_source_seed_cmd",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:world_land_source_seed_cmd",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:world_constraint_plan_cmd",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:world_constraint_plan_cmd",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:world_research_plan_cmd",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:world_research_plan_cmd",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:world_data_status_cmd",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:world_data_status_cmd",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:world_data_actions_cmd",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:world_data_actions_cmd",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:world_roi_sprint_cmd",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:world_roi_sprint_cmd",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:world_data_matrix_cmd",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:world_data_matrix_cmd",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:world_research_status_cmd",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:world_research_status_cmd",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:world_research_profile_cmd",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:world_research_profile_cmd",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:world_research_provenance_cmd",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:world_research_provenance_cmd",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:world_data_approvals_cmd",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:world_data_approvals_cmd",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:world_entity_status_cmd",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:world_entity_status_cmd",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:world_entity_coverage_cmd",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:world_entity_coverage_cmd",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:world_entity_seed_cmd",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:world_entity_seed_cmd",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:world_entity_enrich_gleif_cmd",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:world_entity_enrich_gleif_cmd",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:world_entity_enrich_sec_cmd",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:world_entity_enrich_sec_cmd",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:world_entity_enrich_companies_house_cmd",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:world_entity_enrich_companies_house_cmd",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:world_entity_enrich_wikidata_cmd",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:world_entity_enrich_wikidata_cmd",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:data_offload_cmd",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:data_offload_cmd",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:research_papers_operation_cmd",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:research_papers_operation_cmd",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:collect_frontier",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:collect_frontier",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:collect_pillars",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:collect_pillars",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:collect_forces",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:collect_forces",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:collect_diffusion",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:collect_diffusion",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:collect_research",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:collect_research",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:collect_capex",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:collect_capex",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:collect_thesis_revenue",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:collect_thesis_revenue",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:collect_slow",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:collect_slow",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:forecast_slow",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:forecast_slow",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:collect_procurement",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:collect_procurement",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:collect_patents",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:collect_patents",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:collect_citations",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:collect_citations",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:collect_power",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:collect_power",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:collect_metals",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:collect_metals",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:collect_dependency",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:collect_dependency",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:detect_cmd",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:detect_cmd",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:significance_cmd",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:significance_cmd",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:discover_cmd",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:discover_cmd",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:discover_instruments",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:discover_instruments",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:discover_price",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:discover_price",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:saturation_scan",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:saturation_scan",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:saturation_topic",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:saturation_topic",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:consensus_eye",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:consensus_eye",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:market_anchor_cmd",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:market_anchor_cmd",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:ground_cmd",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:ground_cmd",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:data_audit",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:data_audit",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:backtest_cmd",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:backtest_cmd",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:adapter_smoke",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:adapter_smoke",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:search_cmd",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:search_cmd",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:answer_cmd",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:answer_cmd",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:approve_cost",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:approve_cost",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:forecast_seed",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:forecast_seed",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:forecast_batch",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:forecast_batch",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:scenario_seed",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:scenario_seed",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:scenario_show",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:scenario_show",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:webs_v2",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:webs_v2",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:belief_seed",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:belief_seed",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:belief_net_show",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:belief_net_show",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:constraint_cards",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:constraint_cards",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:ladder_run",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:ladder_run",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:_echo_driver_health",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:_echo_driver_health",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:driver_link",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:driver_link",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:driver_status",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:driver_status",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:driver_seed",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:driver_seed",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:emergent_scan_cmd",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:emergent_scan_cmd",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:emergent_card",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:emergent_card",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:forecast_add",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:forecast_add",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:forecast_supersede",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:forecast_supersede",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:forecast_resolve",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:forecast_resolve",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:forecast_seal",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:forecast_seal",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:forecast_list",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:forecast_list",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:graph_seed",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:graph_seed",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:graph_propagate",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:graph_propagate",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:graph_verify",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:graph_verify",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:consensus_score",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:consensus_score",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:bet_translate",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:bet_translate",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:retro_run",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:retro_run",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:recall_probe",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:recall_probe",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:universe_run",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:universe_run",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:experiment_select",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:experiment_select",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:experiment_reveal",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:experiment_reveal",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:experiment_status",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:experiment_status",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:experiment_v2_select",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:experiment_v2_select",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:experiment_v2_reveal",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:experiment_v2_reveal",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:experiment_power",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:experiment_power",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:locator_run",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:locator_run",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:holdout_run",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:holdout_run",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:structbench_run",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:structbench_run",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:entity_seed",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:entity_seed",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:entity_list",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:entity_list",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:entity_candidates_cmd",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:entity_candidates_cmd",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:entity_accept",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:entity_accept",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:entity_reject",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:entity_reject",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:entity_taxonomy",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:entity_taxonomy",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:entity_supplier_edges",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:entity_supplier_edges",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:hypothesis_seed",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:hypothesis_seed",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:hypothesis_list",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:hypothesis_list",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:hypothesis_skeptic",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:hypothesis_skeptic",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:hypothesis_add",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:hypothesis_add",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:base_rates",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:base_rates",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:hypothesis_promote",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:hypothesis_promote",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:decision_open",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:decision_open",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:decision_resolve",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:decision_resolve",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:decision_list",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:decision_list",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:world_seed_cmd",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:world_seed_cmd",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:world_coverage_cmd",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:world_coverage_cmd",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:world_grade_cmd",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:world_grade_cmd",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:data_query_cmd",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:data_query_cmd",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:data_showcase_cmd",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:data_showcase_cmd",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:status",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:status",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:capture_run",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:capture_run",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:capture_resynth",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:capture_resynth",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:capture_replies",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "function:engine/cli.py:capture_replies",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/companies_house_enrich.py",
+      "target": "function:engine/companies_house_enrich.py:_stable_id",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/companies_house_enrich.py",
+      "target": "function:engine/companies_house_enrich.py:_stable_id",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/companies_house_enrich.py",
+      "target": "function:engine/companies_house_enrich.py:_load_aliases",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/companies_house_enrich.py",
+      "target": "function:engine/companies_house_enrich.py:_load_aliases",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/companies_house_enrich.py",
+      "target": "function:engine/companies_house_enrich.py:_norm",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/companies_house_enrich.py",
+      "target": "function:engine/companies_house_enrich.py:_norm",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/companies_house_enrich.py",
+      "target": "function:engine/companies_house_enrich.py:_without_legal_suffixes",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/companies_house_enrich.py",
+      "target": "function:engine/companies_house_enrich.py:_without_legal_suffixes",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/companies_house_enrich.py",
+      "target": "function:engine/companies_house_enrich.py:_looks_like_legal_name",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/companies_house_enrich.py",
+      "target": "function:engine/companies_house_enrich.py:_looks_like_legal_name",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/companies_house_enrich.py",
+      "target": "function:engine/companies_house_enrich.py:_looks_like_uk_public_parent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/companies_house_enrich.py",
+      "target": "function:engine/companies_house_enrich.py:_looks_like_uk_public_parent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/companies_house_enrich.py",
+      "target": "function:engine/companies_house_enrich.py:_active_status",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/companies_house_enrich.py",
+      "target": "function:engine/companies_house_enrich.py:_active_status",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/companies_house_enrich.py",
+      "target": "function:engine/companies_house_enrich.py:_usable_queries",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/companies_house_enrich.py",
+      "target": "function:engine/companies_house_enrich.py:_usable_queries",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/companies_house_enrich.py",
+      "target": "function:engine/companies_house_enrich.py:_search_url",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/companies_house_enrich.py",
+      "target": "function:engine/companies_house_enrich.py:_search_url",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/companies_house_enrich.py",
+      "target": "function:engine/companies_house_enrich.py:_parse_search_results",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/companies_house_enrich.py",
+      "target": "function:engine/companies_house_enrich.py:_parse_search_results",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/companies_house_enrich.py",
+      "target": "function:engine/companies_house_enrich.py:_search_company",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/companies_house_enrich.py",
+      "target": "function:engine/companies_house_enrich.py:_search_company",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/companies_house_enrich.py",
+      "target": "function:engine/companies_house_enrich.py:_fetch_company_json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/companies_house_enrich.py",
+      "target": "function:engine/companies_house_enrich.py:_fetch_company_json",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/companies_house_enrich.py",
+      "target": "function:engine/companies_house_enrich.py:_candidate_names",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/companies_house_enrich.py",
+      "target": "function:engine/companies_house_enrich.py:_candidate_names",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/companies_house_enrich.py",
+      "target": "function:engine/companies_house_enrich.py:_best_result",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/companies_house_enrich.py",
+      "target": "function:engine/companies_house_enrich.py:_best_result",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/companies_house_enrich.py",
+      "target": "function:engine/companies_house_enrich.py:_company_rows",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/companies_house_enrich.py",
+      "target": "function:engine/companies_house_enrich.py:_company_rows",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/companies_house_enrich.py",
+      "target": "function:engine/companies_house_enrich.py:_extract_match",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/companies_house_enrich.py",
+      "target": "function:engine/companies_house_enrich.py:_extract_match",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/companies_house_enrich.py",
+      "target": "function:engine/companies_house_enrich.py:_upsert_companies_house_source",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/companies_house_enrich.py",
+      "target": "function:engine/companies_house_enrich.py:_upsert_companies_house_source",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/companies_house_enrich.py",
+      "target": "function:engine/companies_house_enrich.py:_clean_existing_companies_house",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/companies_house_enrich.py",
+      "target": "function:engine/companies_house_enrich.py:_clean_existing_companies_house",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/companies_house_enrich.py",
+      "target": "function:engine/companies_house_enrich.py:_apply_match",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/companies_house_enrich.py",
+      "target": "function:engine/companies_house_enrich.py:_apply_match",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/companies_house_enrich.py",
+      "target": "function:engine/companies_house_enrich.py:enrich_top_entities",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/companies_house_enrich.py",
+      "target": "function:engine/companies_house_enrich.py:enrich_top_entities",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/companies_house_enrich.py",
+      "target": "class:engine/companies_house_enrich.py:SearchResult",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/companies_house_enrich.py",
+      "target": "class:engine/companies_house_enrich.py:SearchResult",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/companies_house_enrich.py",
+      "target": "class:engine/companies_house_enrich.py:CompaniesHouseMatch",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/companies_house_enrich.py",
+      "target": "class:engine/companies_house_enrich.py:CompaniesHouseMatch",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/consensus.py",
+      "target": "function:engine/consensus.py:_gated_get",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/consensus.py",
+      "target": "function:engine/consensus.py:_gated_get",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/consensus.py",
+      "target": "function:engine/consensus.py:fetch_price",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/consensus.py",
+      "target": "function:engine/consensus.py:fetch_price",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/consensus.py",
+      "target": "function:engine/consensus.py:price_runup",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/consensus.py",
+      "target": "function:engine/consensus.py:price_runup",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/consensus.py",
+      "target": "function:engine/consensus.py:_xbrl_concept",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/consensus.py",
+      "target": "function:engine/consensus.py:_xbrl_concept",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/consensus.py",
+      "target": "function:engine/consensus.py:_is_full_year",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/consensus.py",
+      "target": "function:engine/consensus.py:_is_full_year",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/consensus.py",
+      "target": "function:engine/consensus.py:fetch_revenue_fy",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/consensus.py",
+      "target": "function:engine/consensus.py:fetch_revenue_fy",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/consensus.py",
+      "target": "function:engine/consensus.py:fetch_shares",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/consensus.py",
+      "target": "function:engine/consensus.py:fetch_shares",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/consensus.py",
+      "target": "function:engine/consensus.py:read_layer",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/consensus.py",
+      "target": "function:engine/consensus.py:read_layer",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/consensus.py",
+      "target": "function:engine/consensus.py:mc_delta",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/consensus.py",
+      "target": "function:engine/consensus.py:mc_delta",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/consensus.py",
+      "target": "function:engine/consensus.py:_http_json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/consensus.py",
+      "target": "function:engine/consensus.py:_http_json",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/consensus.py",
+      "target": "function:engine/consensus.py:_efts_count",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/consensus.py",
+      "target": "function:engine/consensus.py:_efts_count",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/consensus.py",
+      "target": "function:engine/consensus.py:constraint_language_signal",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/consensus.py",
+      "target": "function:engine/consensus.py:constraint_language_signal",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/consensus.py",
+      "target": "function:engine/consensus.py:expectations_language_leg",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/consensus.py",
+      "target": "function:engine/consensus.py:expectations_language_leg",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/consensus.py",
+      "target": "function:engine/consensus.py:short_volume_ratio",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/consensus.py",
+      "target": "function:engine/consensus.py:short_volume_ratio",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/consensus.py",
+      "target": "function:engine/consensus.py:short_pressure_leg",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/consensus.py",
+      "target": "function:engine/consensus.py:short_pressure_leg",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/consensus.py",
+      "target": "function:engine/consensus.py:verdict_of",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/consensus.py",
+      "target": "function:engine/consensus.py:verdict_of",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/consensus.py",
+      "target": "function:engine/consensus.py:_market_sources",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/consensus.py",
+      "target": "function:engine/consensus.py:_market_sources",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/consensus.py",
+      "target": "function:engine/consensus.py:_save",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/consensus.py",
+      "target": "function:engine/consensus.py:_save",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/consensus.py",
+      "target": "function:engine/consensus.py:_surface_decision",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/consensus.py",
+      "target": "function:engine/consensus.py:_surface_decision",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/consensus.py",
+      "target": "function:engine/consensus.py:score_consensus",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/consensus.py",
+      "target": "function:engine/consensus.py:score_consensus",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/consensus.py",
+      "target": "class:engine/consensus.py:ConsensusConfig",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/consensus.py",
+      "target": "class:engine/consensus.py:ConsensusConfig",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/consensus.py",
+      "target": "class:engine/consensus.py:Layer",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/consensus.py",
+      "target": "class:engine/consensus.py:Layer",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/consensus.py",
+      "target": "class:engine/consensus.py:Delta",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/consensus.py",
+      "target": "class:engine/consensus.py:Delta",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "file:engine/__init__.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "file:engine/backtest.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "file:engine/bet.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "file:engine/companies_house_enrich.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "file:engine/consensus.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "file:engine/cost.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "file:engine/coverage_grade.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "file:engine/data_offload.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "file:engine/db.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "file:engine/decisions.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "file:engine/detector.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "file:engine/discover.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "file:engine/disk_guard.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "file:engine/entity.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "file:engine/experiment.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "file:engine/forecast.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "file:engine/gleif_enrich.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "file:engine/graph.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "file:engine/holdout.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "file:engine/hypothesis.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "file:engine/indicators.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "file:engine/ladder.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "file:engine/locator.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "file:engine/market.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "file:engine/pillars/__init__.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "file:engine/pillars/dependency.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "file:engine/pillars/frontier.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "file:engine/pillars/metals.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "file:engine/pillars/power.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "file:engine/pillars/research.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "file:engine/quality.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "file:engine/raw_provenance.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "file:engine/rawstore.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "file:engine/research_papers.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "file:engine/retro.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "file:engine/saturation.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "file:engine/schemas.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "file:engine/sec_company_enrich.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "file:engine/seed.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "file:engine/signals.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "file:engine/significance.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "file:engine/universe.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "file:engine/wikidata_enrich.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "file:engine/world_catalog.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "file:engine/world_graph_deepseek.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "file:engine/world_graph.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "file:engine/world_seed.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/cli.py",
+      "target": "file:engine/world_state.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/companies_house_enrich.py",
+      "target": "file:engine/__init__.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/companies_house_enrich.py",
+      "target": "file:engine/graph.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/companies_house_enrich.py",
+      "target": "file:engine/rawstore.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/companies_house_enrich.py",
+      "target": "file:engine/schemas.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/companies_house_enrich.py",
+      "target": "file:engine/world_catalog.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/consensus.py",
+      "target": "file:engine/__init__.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/consensus.py",
+      "target": "file:engine/cost.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/consensus.py",
+      "target": "file:engine/schemas.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "function:engine/cli.py:signals_cmd",
+      "target": "function:engine/signals.py:evidence_pack",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/cli.py:signals_cmd",
+      "target": "function:engine/signals.py:format_pack",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/cli.py:market_anchor_cmd",
+      "target": "function:engine/market.py:market_anchor",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/cli.py:market_anchor_cmd",
+      "target": "function:engine/market.py:format_anchor",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/cli.py:driver_status",
+      "target": "function:engine/cli.py:_echo_driver_health",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/cli.py:driver_seed",
+      "target": "function:engine/cli.py:_echo_driver_health",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/cli.py:forecast_resolve",
+      "target": "class:engine/schemas.py:ForecastOutcome",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/companies_house_enrich.py:_without_legal_suffixes",
+      "target": "function:engine/companies_house_enrich.py:_norm",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/companies_house_enrich.py:_looks_like_legal_name",
+      "target": "function:engine/companies_house_enrich.py:_norm",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/companies_house_enrich.py:_looks_like_uk_public_parent",
+      "target": "function:engine/companies_house_enrich.py:_norm",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/companies_house_enrich.py:_usable_queries",
+      "target": "function:engine/companies_house_enrich.py:_norm",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/companies_house_enrich.py:_usable_queries",
+      "target": "function:engine/companies_house_enrich.py:_looks_like_uk_public_parent",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/companies_house_enrich.py:_usable_queries",
+      "target": "function:engine/companies_house_enrich.py:_looks_like_legal_name",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/companies_house_enrich.py:_parse_search_results",
+      "target": "class:engine/companies_house_enrich.py:SearchResult",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/companies_house_enrich.py:_search_company",
+      "target": "function:engine/companies_house_enrich.py:_search_url",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/companies_house_enrich.py:_search_company",
+      "target": "function:engine/companies_house_enrich.py:_parse_search_results",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/companies_house_enrich.py:_candidate_names",
+      "target": "function:engine/companies_house_enrich.py:_norm",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/companies_house_enrich.py:_candidate_names",
+      "target": "function:engine/companies_house_enrich.py:_load_aliases",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/companies_house_enrich.py:_best_result",
+      "target": "function:engine/companies_house_enrich.py:_candidate_names",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/companies_house_enrich.py:_best_result",
+      "target": "function:engine/companies_house_enrich.py:_norm",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/companies_house_enrich.py:_extract_match",
+      "target": "function:engine/companies_house_enrich.py:_active_status",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/companies_house_enrich.py:_extract_match",
+      "target": "function:engine/companies_house_enrich.py:_candidate_names",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/companies_house_enrich.py:_extract_match",
+      "target": "function:engine/companies_house_enrich.py:_norm",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/companies_house_enrich.py:_extract_match",
+      "target": "class:engine/companies_house_enrich.py:CompaniesHouseMatch",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/companies_house_enrich.py:_upsert_companies_house_source",
+      "target": "class:engine/schemas.py:Source",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/companies_house_enrich.py:_clean_existing_companies_house",
+      "target": "function:engine/companies_house_enrich.py:_load_aliases",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/companies_house_enrich.py:_apply_match",
+      "target": "function:engine/companies_house_enrich.py:_load_aliases",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/companies_house_enrich.py:_apply_match",
+      "target": "function:engine/companies_house_enrich.py:_stable_id",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/companies_house_enrich.py:_apply_match",
+      "target": "function:engine/schemas.py:_now",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/companies_house_enrich.py:enrich_top_entities",
+      "target": "function:engine/companies_house_enrich.py:_company_rows",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/companies_house_enrich.py:enrich_top_entities",
+      "target": "function:engine/companies_house_enrich.py:_clean_existing_companies_house",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/companies_house_enrich.py:enrich_top_entities",
+      "target": "function:engine/companies_house_enrich.py:_usable_queries",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/companies_house_enrich.py:enrich_top_entities",
+      "target": "function:engine/companies_house_enrich.py:_load_aliases",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/companies_house_enrich.py:enrich_top_entities",
+      "target": "function:engine/companies_house_enrich.py:_search_company",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/companies_house_enrich.py:enrich_top_entities",
+      "target": "function:engine/companies_house_enrich.py:_search_url",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/companies_house_enrich.py:enrich_top_entities",
+      "target": "function:engine/companies_house_enrich.py:_best_result",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/companies_house_enrich.py:enrich_top_entities",
+      "target": "function:engine/companies_house_enrich.py:_fetch_company_json",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/companies_house_enrich.py:enrich_top_entities",
+      "target": "function:engine/companies_house_enrich.py:_extract_match",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/companies_house_enrich.py:enrich_top_entities",
+      "target": "function:engine/schemas.py:_now",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/companies_house_enrich.py:enrich_top_entities",
+      "target": "function:engine/companies_house_enrich.py:_upsert_companies_house_source",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/companies_house_enrich.py:enrich_top_entities",
+      "target": "function:engine/companies_house_enrich.py:_apply_match",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/consensus.py:fetch_price",
+      "target": "function:engine/consensus.py:_gated_get",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/consensus.py:price_runup",
+      "target": "function:engine/consensus.py:_gated_get",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/consensus.py:_xbrl_concept",
+      "target": "function:engine/consensus.py:_gated_get",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/consensus.py:fetch_revenue_fy",
+      "target": "function:engine/consensus.py:_xbrl_concept",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/consensus.py:fetch_revenue_fy",
+      "target": "function:engine/consensus.py:_is_full_year",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/consensus.py:fetch_shares",
+      "target": "function:engine/consensus.py:_xbrl_concept",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/consensus.py:read_layer",
+      "target": "function:engine/consensus.py:fetch_price",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/consensus.py:read_layer",
+      "target": "function:engine/consensus.py:fetch_shares",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/consensus.py:read_layer",
+      "target": "function:engine/consensus.py:fetch_revenue_fy",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/consensus.py:read_layer",
+      "target": "class:engine/consensus.py:Layer",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/consensus.py:mc_delta",
+      "target": "class:engine/consensus.py:Delta",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/consensus.py:_efts_count",
+      "target": "function:engine/consensus.py:_http_json",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/consensus.py:constraint_language_signal",
+      "target": "function:engine/consensus.py:_efts_count",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/consensus.py:expectations_language_leg",
+      "target": "function:engine/consensus.py:constraint_language_signal",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/consensus.py:short_volume_ratio",
+      "target": "function:engine/consensus.py:_gated_get",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/consensus.py:short_pressure_leg",
+      "target": "function:engine/consensus.py:short_volume_ratio",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/consensus.py:_market_sources",
+      "target": "function:engine/schemas.py:_now",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/consensus.py:_market_sources",
+      "target": "class:engine/schemas.py:Source",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/consensus.py:_surface_decision",
+      "target": "class:engine/schemas.py:Decision",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/consensus.py:score_consensus",
+      "target": "function:engine/consensus.py:read_layer",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/consensus.py:score_consensus",
+      "target": "function:engine/consensus.py:expectations_language_leg",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/consensus.py:score_consensus",
+      "target": "function:engine/consensus.py:short_pressure_leg",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/consensus.py:score_consensus",
+      "target": "function:engine/consensus.py:mc_delta",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/consensus.py:score_consensus",
+      "target": "function:engine/consensus.py:verdict_of",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/consensus.py:score_consensus",
+      "target": "function:engine/consensus.py:_market_sources",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/consensus.py:score_consensus",
+      "target": "class:engine/schemas.py:ConsensusScore",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/consensus.py:score_consensus",
+      "target": "function:engine/consensus.py:_save",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/consensus.py:score_consensus",
+      "target": "function:engine/consensus.py:_surface_decision",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

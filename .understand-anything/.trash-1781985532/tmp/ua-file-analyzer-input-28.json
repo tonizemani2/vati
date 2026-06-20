@@ -1,0 +1,84 @@
+{
+  "projectRoot": "/Users/emizemani/Desktop/predictthefuture",
+  "batchFiles": [
+    {
+      "path": "research/targets/contact_cockpit.html",
+      "language": "html",
+      "sizeLines": 179,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "research/targets/contactable_messages.csv",
+      "language": "csv",
+      "sizeLines": 7361,
+      "fileCategory": "data"
+    },
+    {
+      "path": "research/targets/email_campaign_ready_strict.csv",
+      "language": "csv",
+      "sizeLines": 218,
+      "fileCategory": "data"
+    },
+    {
+      "path": "research/targets/email_enrichment_queue.csv",
+      "language": "csv",
+      "sizeLines": 7185,
+      "fileCategory": "data"
+    },
+    {
+      "path": "research/targets/email_ready_messages.csv",
+      "language": "csv",
+      "sizeLines": 177,
+      "fileCategory": "data"
+    },
+    {
+      "path": "research/targets/email_ready_messages_enriched.csv",
+      "language": "csv",
+      "sizeLines": 218,
+      "fileCategory": "data"
+    },
+    {
+      "path": "research/targets/outreach_universe_scored.csv",
+      "language": "csv",
+      "sizeLines": 24532,
+      "fileCategory": "data"
+    },
+    {
+      "path": "research/targets/outreach_universe_scored.json",
+      "language": "json",
+      "sizeLines": 108439,
+      "fileCategory": "config"
+    },
+    {
+      "path": "research/targets/public_email_enrichment_top300.csv",
+      "language": "csv",
+      "sizeLines": 2279,
+      "fileCategory": "data"
+    },
+    {
+      "path": "research/targets/targets.json",
+      "language": "json",
+      "sizeLines": 0,
+      "fileCategory": "config"
+    },
+    {
+      "path": "research/targets/top_fit_300_messages.csv",
+      "language": "csv",
+      "sizeLines": 2146,
+      "fileCategory": "data"
+    }
+  ],
+  "batchImportData": {
+    "research/targets/contact_cockpit.html": [],
+    "research/targets/contactable_messages.csv": [],
+    "research/targets/email_campaign_ready_strict.csv": [],
+    "research/targets/email_enrichment_queue.csv": [],
+    "research/targets/email_ready_messages.csv": [],
+    "research/targets/email_ready_messages_enriched.csv": [],
+    "research/targets/outreach_universe_scored.csv": [],
+    "research/targets/outreach_universe_scored.json": [],
+    "research/targets/public_email_enrichment_top300.csv": [],
+    "research/targets/targets.json": [],
+    "research/targets/top_fit_300_messages.csv": []
+  }
+}

@@ -16,6 +16,7 @@ from __future__ import annotations
 import json
 import sqlite3
 from datetime import date
+from datetime import datetime
 from statistics import median
 
 from engine.schemas import _now
@@ -27,16 +28,82 @@ from engine.schemas import _now
 CADENCE: dict[str, dict] = {
     "openalex":      {"kind": "annual", "max_lag_years": 2},
     "nih_reporter":  {"kind": "annual", "max_lag_years": 3},   # FY record-load lag
+    "nsf_awards":    {"kind": "annual", "max_lag_years": 3},   # award-search record-load lag
     "epoch_ai":      {"kind": "annual", "max_lag_years": 2},
     "google_patents": {"kind": "annual", "max_lag_years": 6},  # priority-year capped ~5y back: recent
                                                                # years under-report (pub lag), so the
                                                                # latest RELIABLE point is ~2021 by design
     "owid":          {"kind": "annual", "max_lag_years": 3},   # OWID/agency curves publish 1–3y behind
+    "world_bank":    {"kind": "annual", "max_lag_years": 4},   # official cross-country indicators can lag
+                                                               # several years; old country nulls still fail
+    "comtrade":      {"kind": "annual", "max_lag_years": 3},
+    "ilo":           {"kind": "annual", "max_lag_years": 3},
+    "nasa_gistemp":  {"kind": "monthly", "max_lag_days": 90},
+    "noaa_gml_greenhouse_gases": {"kind": "monthly", "max_lag_days": 120},
+    "noaa_enso":     {"kind": "monthly", "max_lag_days": 120},
+    "noaa_climate_indices": {"kind": "monthly", "max_lag_days": 240},
+    "noaa_nsidc_sea_ice": {"kind": "monthly", "max_lag_days": 90},
+    "noaa_swpc_solar": {"kind": "monthly", "max_lag_days": 240},  # smoothed solar-cycle fields lag ~6mo
     "arxiv":         {"kind": "snapshot", "max_lag_days": 120},
+    "eonet":         {"kind": "snapshot", "max_lag_days": 14},
+    "usgs_earthquakes": {"kind": "snapshot", "max_lag_days": 7},
+    "gdacs_alerts":  {"kind": "snapshot", "max_lag_days": 14},
+    "ofac_sdn":      {"kind": "snapshot", "max_lag_days": 30},
+    "eu_sanctions":  {"kind": "snapshot", "max_lag_days": 45},
+    "clinicaltrials": {"kind": "snapshot", "max_lag_days": 45},
+    "openfda_drugsfda": {"kind": "snapshot", "max_lag_days": 45},
+    "fred_financial": {"kind": "monthly", "max_lag_days": 120},
+    "ecb_fx":        {"kind": "snapshot", "max_lag_days": 10},
     "retro":         {"kind": "frozen"},
     "synthetic":     {"kind": "frozen"},
 }
 _DEFAULT_CADENCE = {"kind": "annual", "max_lag_years": 2}
+
+_IRREGULAR_PROVIDERS = {"eonet", "usgs_earthquakes", "gdacs_alerts"}
+_IRREGULAR_METRICS = {
+    "fda_approved_submissions",
+    "fda_original_approvals",
+    "conflict_deaths",
+    "trial_registry_posts",
+    "policy_documents",
+    "sanctions_entries_by_program",
+    "sanctions_entries_by_programme",
+}
+_IRREGULAR_FRESHNESS_DAYS = {
+    "eonet": 30,
+    "usgs_earthquakes": 7,
+    "gdacs_alerts": 14,
+    "openfda_drugsfda": 45,
+    "clinicaltrials": 45,
+    "ucdp": 400,
+    "federal_register": 45,
+    "ofac_sdn": 30,
+    "eu_sanctions": 45,
+}
+
+_ZERO_OMITTED_SERIES = {
+    ("arxiv", "works_per_year"),
+    ("arxiv", "topic_share"),
+    ("arxiv", "talent_inflow"),
+    ("arxiv", "field_breadth"),
+    ("epoch_ai", "frontier_training_compute"),
+    ("openalex", "works_per_year"),
+    ("openalex", "field_diffusion"),
+    ("openalex", "research_works"),
+    ("openalex", "research_share_ppm"),
+    ("openalex", "research_field_breadth"),
+}
+
+_SPARSE_REPORTED_SERIES = {
+    ("ilo", "labour_indicator"),
+    ("sec_edgar", "capex_usd"),
+    ("sec_edgar", "revenue_usd"),
+}
+
+_ARCHIVAL_SOURCE_FRESH_SERIES = {
+    ("owid", "transistors_per_chip"),
+}
+_ARCHIVAL_FRESHNESS_DAYS = 365
 
 # Providers whose series are allowed to have no Source (intentional, not an orphan).
 _SOURCELESS_OK = {"synthetic"}
@@ -53,10 +120,77 @@ def _worst(*statuses: str) -> str:
 # ── the six checks (pure) ────────────────────────────────────────────────────
 
 
-def check_freshness(provider: str, last_as_of: date | None, today: date) -> tuple[str, int | None, str]:
+def _date_from_iso(raw: str | None) -> date | None:
+    if not raw:
+        return None
+    try:
+        return datetime.fromisoformat(str(raw).replace("Z", "+00:00")).date()
+    except ValueError:
+        try:
+            return date.fromisoformat(str(raw)[:10])
+        except ValueError:
+            return None
+
+
+def is_irregular_series(provider: str, metric: str, external_id: str | None = None) -> bool:
+    if provider in _IRREGULAR_PROVIDERS:
+        return True
+    if metric in _IRREGULAR_METRICS:
+        return True
+    ext = external_id or ""
+    return ":snapshot:" not in ext and any(token in ext for token in (":events", ":approvals", ":submissions"))
+
+
+def is_zero_omitted_series(provider: str, metric: str, external_id: str | None = None) -> bool:
+    return (provider, metric) in _ZERO_OMITTED_SERIES
+
+
+def is_sparse_reported_series(provider: str, metric: str, external_id: str | None = None) -> bool:
+    return (provider, metric) in _SPARSE_REPORTED_SERIES
+
+
+def is_archival_source_fresh_series(provider: str, metric: str, external_id: str | None = None) -> bool:
+    return (provider, metric) in _ARCHIVAL_SOURCE_FRESH_SERIES
+
+
+def check_freshness(
+    provider: str,
+    last_as_of: date | None,
+    today: date,
+    *,
+    source_accessed_at: date | None = None,
+    irregular: bool = False,
+    archival_source_fresh: bool = False,
+) -> tuple[str, int | None, str]:
     cad = CADENCE.get(provider, _DEFAULT_CADENCE)
     if cad["kind"] == "frozen":
         return "ok", None, "frozen (point-in-time corpus / control)"
+    if archival_source_fresh and source_accessed_at is not None:
+        days = (today - source_accessed_at).days
+        lim = _ARCHIVAL_FRESHNESS_DAYS
+        if days <= lim:
+            return "ok", days, f"archival source checked {days}d ago (≤{lim})"
+        return (
+            "warn" if days <= 2 * lim else "fail",
+            days,
+            f"archival source checked {days}d ago (>{lim})",
+        )
+    if irregular and source_accessed_at is not None:
+        days = (today - source_accessed_at).days
+        lim = _IRREGULAR_FRESHNESS_DAYS.get(provider, 90)
+        if days <= lim:
+            return "ok", days, f"irregular event source checked {days}d ago (≤{lim})"
+        return (
+            "warn" if days <= 2 * lim else "fail",
+            days,
+            f"irregular event source checked {days}d ago (>{lim})",
+        )
+    if cad["kind"] == "snapshot" and source_accessed_at is not None:
+        days = (today - source_accessed_at).days
+        lim = cad["max_lag_days"]
+        if days <= lim:
+            return "ok", days, f"snapshot source checked {days}d ago (≤{lim})"
+        return ("warn" if days <= 2 * lim else "fail"), days, f"snapshot source checked {days}d ago (>{lim})"
     if last_as_of is None:
         return "fail", None, "no observations"
     days = (today - last_as_of).days
@@ -65,6 +199,11 @@ def check_freshness(provider: str, last_as_of: date | None, today: date) -> tupl
         if days <= lim:
             return "ok", days, f"snapshot {days}d old (≤{lim})"
         return ("warn" if days <= 2 * lim else "fail"), days, f"snapshot {days}d old (>{lim})"
+    if cad["kind"] == "monthly":
+        lim = cad["max_lag_days"]
+        if days <= lim:
+            return "ok", days, f"monthly series {days}d old (≤{lim})"
+        return ("warn" if days <= 2 * lim else "fail"), days, f"monthly series {days}d old (>{lim})"
     # annual
     lag_years = today.year - last_as_of.year
     lim = cad["max_lag_years"]
@@ -132,7 +271,13 @@ def check_provenance(provider: str, source_id: str | None, source_ok: bool) -> t
 
 def _series_rows(conn: sqlite3.Connection) -> list[sqlite3.Row]:
     return conn.execute(
-        "SELECT id, label, provider, unit, source_id, domain FROM series ORDER BY label"
+        """
+        SELECT s.id, s.label, s.provider, s.external_id, s.metric, s.unit, s.source_id, s.domain,
+               src.accessed_at AS source_accessed_at
+        FROM series s
+        LEFT JOIN sources src ON src.id=s.source_id
+        ORDER BY s.label
+        """
     ).fetchall()
 
 
@@ -198,9 +343,28 @@ def run_audit(conn: sqlite3.Connection, *, today: date | None = None, log=print)
         ).fetchall()
         years = [date.fromisoformat(o["as_of"]).year for o in obs]
         last_as_of = date.fromisoformat(obs[-1]["as_of"]) if obs else None
+        irregular = is_irregular_series(s["provider"], s["metric"], s["external_id"])
+        zero_omitted = is_zero_omitted_series(s["provider"], s["metric"], s["external_id"])
+        sparse_reported = is_sparse_reported_series(s["provider"], s["metric"], s["external_id"])
+        archival_source_fresh = is_archival_source_fresh_series(s["provider"], s["metric"], s["external_id"])
+        source_accessed_at = _date_from_iso(s["source_accessed_at"])
 
-        fresh, days_stale, fresh_d = check_freshness(s["provider"], last_as_of, today)
-        comp, n_gaps, comp_d = check_completeness(years)
+        fresh, days_stale, fresh_d = check_freshness(
+            s["provider"],
+            last_as_of,
+            today,
+            source_accessed_at=source_accessed_at,
+            irregular=irregular,
+            archival_source_fresh=archival_source_fresh,
+        )
+        if irregular:
+            comp, n_gaps, comp_d = "ok", 0, "irregular event series; missing periods are not data gaps"
+        elif zero_omitted:
+            comp, n_gaps, comp_d = "ok", 0, "zero-omitted sparse series; absent years mean zero/no event"
+        elif sparse_reported:
+            comp, n_gaps, comp_d = "ok", 0, "sparse reported-fact series; absent years are not imputed"
+        else:
+            comp, n_gaps, comp_d = check_completeness(years)
         valid, n_out, valid_d = check_validity(s["unit"], obs)
         source_ok = True
         if s["source_id"]:

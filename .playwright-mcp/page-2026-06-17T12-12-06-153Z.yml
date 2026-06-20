@@ -1,0 +1,373 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - banner [ref=e8]:
+      - link "Stalwart Logo" [ref=e9] [cursor=pointer]:
+        - /url: /admin
+        - img "Stalwart Logo" [ref=e10]
+      - generic [ref=e14]:
+        - img
+        - textbox [ref=e15]
+      - generic [ref=e16]:
+        - button "Toggle theme" [ref=e17]:
+          - img
+        - button "User menu" [ref=e18]:
+          - img
+    - generic [ref=e19]:
+      - complementary [ref=e20]:
+        - navigation [ref=e22]:
+          - button "Dashboard" [ref=e23]:
+            - img
+            - generic [ref=e24]: Dashboard
+            - img
+          - button "Directory" [ref=e26]:
+            - img
+            - generic [ref=e27]: Directory
+            - img
+          - generic [ref=e28]:
+            - button "Domains" [expanded] [ref=e29]:
+              - img
+              - generic [ref=e30]: Domains
+              - img
+            - generic [ref=e280]:
+              - button "Domains" [active] [ref=e281]:
+                - generic [ref=e282]: Domains
+              - button "DKIM Signatures" [ref=e283]:
+                - generic [ref=e284]: DKIM Signatures
+          - button "Emails" [ref=e32]:
+            - img
+            - generic [ref=e33]: Emails
+            - img
+          - button "Reports" [ref=e35]:
+            - img
+            - generic [ref=e36]: Reports
+            - img
+          - button "Observability" [ref=e38]:
+            - img
+            - generic [ref=e39]: Observability
+            - img
+          - button "Tasks" [ref=e41]:
+            - img
+            - generic [ref=e42]: Tasks
+            - img
+          - button "Cluster" [ref=e43]:
+            - img
+            - generic [ref=e44]: Cluster
+          - button "Actions" [ref=e45]:
+            - img
+            - generic [ref=e46]: Actions
+        - generic [ref=e47]:
+          - button "Management" [ref=e48]:
+            - img
+          - button "Settings" [ref=e49]:
+            - img
+          - button "Account" [ref=e50]:
+            - img
+      - main [ref=e51]:
+        - generic [ref=e52]:
+          - generic [ref=e53]:
+            - generic [ref=e54]:
+              - heading "Domains" [level=1] [ref=e285]
+              - paragraph [ref=e56]: Manage email domains and their DNS, DKIM, and TLS certificate settings
+            - button "Create domain" [ref=e286]:
+              - img
+              - text: Create domain
+          - button "Filters" [ref=e60]:
+            - img
+            - text: Filters
+            - img
+          - table [ref=e63]:
+            - rowgroup [ref=e64]:
+              - row "Select all Domain Name Enabled Certificate Management DNS Management Actions" [ref=e287]:
+                - columnheader "Select all" [ref=e66]:
+                  - checkbox "Select all" [ref=e67]
+                - columnheader "Domain Name" [ref=e288]:
+                  - generic [ref=e289]: Domain Name
+                - columnheader "Enabled" [ref=e290]:
+                  - generic [ref=e291]: Enabled
+                - columnheader "Certificate Management" [ref=e292]:
+                  - generic [ref=e293]: Certificate Management
+                - columnheader "DNS Management" [ref=e294]:
+                  - generic [ref=e295]: DNS Management
+                - columnheader "Actions" [ref=e74]
+            - rowgroup [ref=e75]:
+              - row "Select item useminingterminal.com Manual Manual" [ref=e296] [cursor=pointer]:
+                - cell "Select item" [ref=e297]:
+                  - checkbox "Select item" [ref=e298]
+                - cell "useminingterminal.com" [ref=e299]
+                - cell [ref=e300]:
+                  - img [ref=e301]
+                - cell "Manual" [ref=e303]
+                - cell "Manual" [ref=e304]
+                - cell [ref=e305]:
+                  - button [ref=e306]:
+                    - img
+              - row "Select item useminingterminal.co Manual Manual" [ref=e307] [cursor=pointer]:
+                - cell "Select item" [ref=e308]:
+                  - checkbox "Select item" [ref=e309]
+                - cell "useminingterminal.co" [ref=e310]
+                - cell [ref=e311]:
+                  - img [ref=e312]
+                - cell "Manual" [ref=e314]
+                - cell "Manual" [ref=e315]
+                - cell [ref=e316]:
+                  - button [ref=e317]:
+                    - img
+              - row "Select item tryminingterminal.com Manual Manual" [ref=e318] [cursor=pointer]:
+                - cell "Select item" [ref=e319]:
+                  - checkbox "Select item" [ref=e320]
+                - cell "tryminingterminal.com" [ref=e321]
+                - cell [ref=e322]:
+                  - img [ref=e323]
+                - cell "Manual" [ref=e325]
+                - cell "Manual" [ref=e326]
+                - cell [ref=e327]:
+                  - button [ref=e328]:
+                    - img
+              - row "Select item theminingterminal.com Manual Manual" [ref=e329] [cursor=pointer]:
+                - cell "Select item" [ref=e330]:
+                  - checkbox "Select item" [ref=e331]
+                - cell "theminingterminal.com" [ref=e332]
+                - cell [ref=e333]:
+                  - img [ref=e334]
+                - cell "Manual" [ref=e336]
+                - cell "Manual" [ref=e337]
+                - cell [ref=e338]:
+                  - button [ref=e339]:
+                    - img
+              - row "Select item theminingterminal.co Manual Manual" [ref=e340] [cursor=pointer]:
+                - cell "Select item" [ref=e341]:
+                  - checkbox "Select item" [ref=e342]
+                - cell "theminingterminal.co" [ref=e343]
+                - cell [ref=e344]:
+                  - img [ref=e345]
+                - cell "Manual" [ref=e347]
+                - cell "Manual" [ref=e348]
+                - cell [ref=e349]:
+                  - button [ref=e350]:
+                    - img
+              - row "Select item miningterminal.co Manual Manual" [ref=e351] [cursor=pointer]:
+                - cell "Select item" [ref=e352]:
+                  - checkbox "Select item" [ref=e353]
+                - cell "miningterminal.co" [ref=e354]
+                - cell [ref=e355]:
+                  - img [ref=e356]
+                - cell "Manual" [ref=e358]
+                - cell "Manual" [ref=e359]
+                - cell [ref=e360]:
+                  - button [ref=e361]:
+                    - img
+              - row "Select item miningmacro.com Manual Manual" [ref=e362] [cursor=pointer]:
+                - cell "Select item" [ref=e363]:
+                  - checkbox "Select item" [ref=e364]
+                - cell "miningmacro.com" [ref=e365]
+                - cell [ref=e366]:
+                  - img [ref=e367]
+                - cell "Manual" [ref=e369]
+                - cell "Manual" [ref=e370]
+                - cell [ref=e371]:
+                  - button [ref=e372]:
+                    - img
+              - row "Select item miningdatasets.co Manual Manual" [ref=e373] [cursor=pointer]:
+                - cell "Select item" [ref=e374]:
+                  - checkbox "Select item" [ref=e375]
+                - cell "miningdatasets.co" [ref=e376]
+                - cell [ref=e377]:
+                  - img [ref=e378]
+                - cell "Manual" [ref=e380]
+                - cell "Manual" [ref=e381]
+                - cell [ref=e382]:
+                  - button [ref=e383]:
+                    - img
+              - row "Select item miningdataset.co Manual Manual" [ref=e384] [cursor=pointer]:
+                - cell "Select item" [ref=e385]:
+                  - checkbox "Select item" [ref=e386]
+                - cell "miningdataset.co" [ref=e387]
+                - cell [ref=e388]:
+                  - img [ref=e389]
+                - cell "Manual" [ref=e391]
+                - cell "Manual" [ref=e392]
+                - cell [ref=e393]:
+                  - button [ref=e394]:
+                    - img
+              - row "Select item miningdata.co Manual Manual" [ref=e395] [cursor=pointer]:
+                - cell "Select item" [ref=e396]:
+                  - checkbox "Select item" [ref=e397]
+                - cell "miningdata.co" [ref=e398]
+                - cell [ref=e399]:
+                  - img [ref=e400]
+                - cell "Manual" [ref=e402]
+                - cell "Manual" [ref=e403]
+                - cell [ref=e404]:
+                  - button [ref=e405]:
+                    - img
+              - row "Select item g9solutions.co Manual Manual" [ref=e406] [cursor=pointer]:
+                - cell "Select item" [ref=e407]:
+                  - checkbox "Select item" [ref=e408]
+                - cell "g9solutions.co" [ref=e409]
+                - cell [ref=e410]:
+                  - img [ref=e411]
+                - cell "Manual" [ref=e413]
+                - cell "Manual" [ref=e414]
+                - cell [ref=e415]:
+                  - button [ref=e416]:
+                    - img
+              - row "Select item g5solutions.co Manual Manual" [ref=e417] [cursor=pointer]:
+                - cell "Select item" [ref=e418]:
+                  - checkbox "Select item" [ref=e419]
+                - cell "g5solutions.co" [ref=e420]
+                - cell [ref=e421]:
+                  - img [ref=e422]
+                - cell "Manual" [ref=e424]
+                - cell "Manual" [ref=e425]
+                - cell [ref=e426]:
+                  - button [ref=e427]:
+                    - img
+              - row "Select item g3solutions.co Manual Manual" [ref=e428] [cursor=pointer]:
+                - cell "Select item" [ref=e429]:
+                  - checkbox "Select item" [ref=e430]
+                - cell "g3solutions.co" [ref=e431]
+                - cell [ref=e432]:
+                  - img [ref=e433]
+                - cell "Manual" [ref=e435]
+                - cell "Manual" [ref=e436]
+                - cell [ref=e437]:
+                  - button [ref=e438]:
+                    - img
+              - row "Select item g2solutions.co Manual Manual" [ref=e439] [cursor=pointer]:
+                - cell "Select item" [ref=e440]:
+                  - checkbox "Select item" [ref=e441]
+                - cell "g2solutions.co" [ref=e442]
+                - cell [ref=e443]:
+                  - img [ref=e444]
+                - cell "Manual" [ref=e446]
+                - cell "Manual" [ref=e447]
+                - cell [ref=e448]:
+                  - button [ref=e449]:
+                    - img
+              - row "Select item f9solutions.co Manual Manual" [ref=e450] [cursor=pointer]:
+                - cell "Select item" [ref=e451]:
+                  - checkbox "Select item" [ref=e452]
+                - cell "f9solutions.co" [ref=e453]
+                - cell [ref=e454]:
+                  - img [ref=e455]
+                - cell "Manual" [ref=e457]
+                - cell "Manual" [ref=e458]
+                - cell [ref=e459]:
+                  - button [ref=e460]:
+                    - img
+              - row "Select item f7solutions.co Manual Manual" [ref=e461] [cursor=pointer]:
+                - cell "Select item" [ref=e462]:
+                  - checkbox "Select item" [ref=e463]
+                - cell "f7solutions.co" [ref=e464]
+                - cell [ref=e465]:
+                  - img [ref=e466]
+                - cell "Manual" [ref=e468]
+                - cell "Manual" [ref=e469]
+                - cell [ref=e470]:
+                  - button [ref=e471]:
+                    - img
+              - row "Select item f5solutions.co Manual Manual" [ref=e472] [cursor=pointer]:
+                - cell "Select item" [ref=e473]:
+                  - checkbox "Select item" [ref=e474]
+                - cell "f5solutions.co" [ref=e475]
+                - cell [ref=e476]:
+                  - img [ref=e477]
+                - cell "Manual" [ref=e479]
+                - cell "Manual" [ref=e480]
+                - cell [ref=e481]:
+                  - button [ref=e482]:
+                    - img
+              - row "Select item f3solutions.co Manual Manual" [ref=e483] [cursor=pointer]:
+                - cell "Select item" [ref=e484]:
+                  - checkbox "Select item" [ref=e485]
+                - cell "f3solutions.co" [ref=e486]
+                - cell [ref=e487]:
+                  - img [ref=e488]
+                - cell "Manual" [ref=e490]
+                - cell "Manual" [ref=e491]
+                - cell [ref=e492]:
+                  - button [ref=e493]:
+                    - img
+              - row "Select item f2solutions.co Manual Manual" [ref=e494] [cursor=pointer]:
+                - cell "Select item" [ref=e495]:
+                  - checkbox "Select item" [ref=e496]
+                - cell "f2solutions.co" [ref=e497]
+                - cell [ref=e498]:
+                  - img [ref=e499]
+                - cell "Manual" [ref=e501]
+                - cell "Manual" [ref=e502]
+                - cell [ref=e503]:
+                  - button [ref=e504]:
+                    - img
+              - row "Select item 34partners.co Manual Manual" [ref=e505] [cursor=pointer]:
+                - cell "Select item" [ref=e506]:
+                  - checkbox "Select item" [ref=e507]
+                - cell "34partners.co" [ref=e508]
+                - cell [ref=e509]:
+                  - img [ref=e510]
+                - cell "Manual" [ref=e512]
+                - cell "Manual" [ref=e513]
+                - cell [ref=e514]:
+                  - button [ref=e515]:
+                    - img
+              - row "Select item 86partners.co Manual Manual" [ref=e516] [cursor=pointer]:
+                - cell "Select item" [ref=e517]:
+                  - checkbox "Select item" [ref=e518]
+                - cell "86partners.co" [ref=e519]
+                - cell [ref=e520]:
+                  - img [ref=e521]
+                - cell "Manual" [ref=e523]
+                - cell "Manual" [ref=e524]
+                - cell [ref=e525]:
+                  - button [ref=e526]:
+                    - img
+              - row "Select item 96partners.co Manual Manual" [ref=e527] [cursor=pointer]:
+                - cell "Select item" [ref=e528]:
+                  - checkbox "Select item" [ref=e529]
+                - cell "96partners.co" [ref=e530]
+                - cell [ref=e531]:
+                  - img [ref=e532]
+                - cell "Manual" [ref=e534]
+                - cell "Manual" [ref=e535]
+                - cell [ref=e536]:
+                  - button [ref=e537]:
+                    - img
+              - row "Select item 72partners.co Manual Manual" [ref=e538] [cursor=pointer]:
+                - cell "Select item" [ref=e539]:
+                  - checkbox "Select item" [ref=e540]
+                - cell "72partners.co" [ref=e541]
+                - cell [ref=e542]:
+                  - img [ref=e543]
+                - cell "Manual" [ref=e545]
+                - cell "Manual" [ref=e546]
+                - cell [ref=e547]:
+                  - button [ref=e548]:
+                    - img
+              - row "Select item 36partners.co Manual Manual" [ref=e549] [cursor=pointer]:
+                - cell "Select item" [ref=e550]:
+                  - checkbox "Select item" [ref=e551]
+                - cell "36partners.co" [ref=e552]
+                - cell [ref=e553]:
+                  - img [ref=e554]
+                - cell "Manual" [ref=e556]
+                - cell "Manual" [ref=e557]
+                - cell [ref=e558]:
+                  - button [ref=e559]:
+                    - img
+              - row "Select item 24partners.co Manual Manual" [ref=e560] [cursor=pointer]:
+                - cell "Select item" [ref=e561]:
+                  - checkbox "Select item" [ref=e562]
+                - cell "24partners.co" [ref=e563]
+                - cell [ref=e564]:
+                  - img [ref=e565]
+                - cell "Manual" [ref=e567]
+                - cell "Manual" [ref=e568]
+                - cell [ref=e569]:
+                  - button [ref=e570]:
+                    - img
+          - generic [ref=e571]:
+            - generic [ref=e572]: Showing 1-25 of 50 domains
+            - generic [ref=e573]:
+              - button "Previous" [disabled]
+              - button "Next" [ref=e574]
+  - list

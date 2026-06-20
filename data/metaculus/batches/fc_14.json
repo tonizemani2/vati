@@ -1,0 +1,20 @@
+[
+ {
+  "question_id": 7411,
+  "type": "numeric",
+  "percentiles": {"0.05": 0.0, "0.1": 0.0, "0.25": 0.15, "0.5": 0.4, "0.75": 0.7, "0.9": 0.9, "0.95": 1.0},
+  "reasoning": "Conditional on any offensive use by 2050, analysts (Stimson, Atlantic Council) see tactical/battlefield first-use (Russia to reverse losses, NK against advancing forces) as the single most plausible scenario, so a meaningful battlefield share is likely; but a lone demonstration or escalation to city strikes would push the fraction low, giving a very wide, slightly bimodal distribution centered near 0.4."
+ },
+ {
+  "question_id": 7453,
+  "type": "binary",
+  "prob": 0.32,
+  "reasoning": "North Korea is a top-tier flashpoint with asymmetric first-use doctrine and pre-delegated field authority, but conditioning on an offensive detonation occurring anywhere by 2050, the more likely venues (Russia/Ukraine, India/Pakistan, Middle East) mean a fatal detonation specifically inside North Korea is plausible but not majority-likely."
+ },
+ {
+  "question_id": 7461,
+  "type": "numeric",
+  "percentiles": {"0.05": 0.0, "0.1": 0.05, "0.25": 0.2, "0.5": 0.45, "0.75": 0.8, "0.9": 1.0, "0.95": 1.0},
+  "reasoning": "Genuinely bimodal: a single limited tactical/counterforce first use yields a low countervalue fraction, but any escalation to a strategic exchange places many warheads on cities (capital strikes auto-count as countervalue), driving the fraction high by sheer count, so the distribution spans the full range and centers near 0.45."
+ }
+]

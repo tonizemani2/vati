@@ -1,0 +1,304 @@
+{
+  "projectRoot": "/Users/emizemani/Desktop/predictthefuture",
+  "batchFiles": [
+    {
+      "path": "engine/adapters/__init__.py",
+      "language": "python",
+      "sizeLines": 6,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/adapters/answer.py",
+      "language": "python",
+      "sizeLines": 244,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/adapters/extract.py",
+      "language": "python",
+      "sizeLines": 123,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/adapters/html_to_markdown.py",
+      "language": "python",
+      "sizeLines": 41,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/adapters/llm.py",
+      "language": "python",
+      "sizeLines": 292,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/adapters/pdf_to_text.py",
+      "language": "python",
+      "sizeLines": 42,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/adapters/search.py",
+      "language": "python",
+      "sizeLines": 103,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/adapters/smoke.py",
+      "language": "python",
+      "sizeLines": 93,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/capture/engine.py",
+      "language": "python",
+      "sizeLines": 276,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/capture/inbox.py",
+      "language": "python",
+      "sizeLines": 138,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/corpus.py",
+      "language": "python",
+      "sizeLines": 108,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/cost.py",
+      "language": "python",
+      "sizeLines": 147,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/db.py",
+      "language": "python",
+      "sizeLines": 928,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/emergent_scan.py",
+      "language": "python",
+      "sizeLines": 433,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/google_patents.py",
+      "language": "python",
+      "sizeLines": 231,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/forecastbench/distill.py",
+      "language": "python",
+      "sizeLines": 127,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/forecastbench/edge_dataset.py",
+      "language": "python",
+      "sizeLines": 354,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/forecastbench/edge_gate.py",
+      "language": "python",
+      "sizeLines": 145,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/forecastbench/ensemble.py",
+      "language": "python",
+      "sizeLines": 234,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/forecastbench/inference.py",
+      "language": "python",
+      "sizeLines": 512,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/forecastbench/sequential.py",
+      "language": "python",
+      "sizeLines": 276,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/forecastbench/traces.py",
+      "language": "python",
+      "sizeLines": 196,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/forecasting/calibration.py",
+      "language": "python",
+      "sizeLines": 61,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/forecasting/eval_anchor_gate.py",
+      "language": "python",
+      "sizeLines": 149,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/forecasting/ledger.py",
+      "language": "python",
+      "sizeLines": 87,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/ground.py",
+      "language": "python",
+      "sizeLines": 104,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/holdout.py",
+      "language": "python",
+      "sizeLines": 373,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/market.py",
+      "language": "python",
+      "sizeLines": 156,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "engine/adapters/__init__.py": [],
+    "engine/adapters/answer.py": [
+      "engine/__init__.py",
+      "engine/adapters/__init__.py",
+      "engine/adapters/html_to_markdown.py",
+      "engine/adapters/llm.py",
+      "engine/adapters/pdf_to_text.py",
+      "engine/adapters/search.py",
+      "engine/cost.py"
+    ],
+    "engine/adapters/extract.py": [
+      "engine/adapters/__init__.py",
+      "engine/adapters/llm.py"
+    ],
+    "engine/adapters/html_to_markdown.py": [],
+    "engine/adapters/llm.py": [
+      "engine/__init__.py",
+      "engine/cost.py"
+    ],
+    "engine/adapters/pdf_to_text.py": [],
+    "engine/adapters/search.py": [
+      "engine/__init__.py",
+      "engine/adapters/_vendor/exa_search.py",
+      "engine/cost.py"
+    ],
+    "engine/adapters/smoke.py": [
+      "engine/__init__.py",
+      "engine/adapters/__init__.py",
+      "engine/adapters/llm.py",
+      "engine/adapters/pdf_to_text.py",
+      "engine/adapters/search.py",
+      "engine/cost.py",
+      "engine/db.py"
+    ],
+    "engine/capture/engine.py": [
+      "engine/adapters/__init__.py",
+      "engine/adapters/llm.py",
+      "engine/adapters/search.py",
+      "engine/capture/schema.py"
+    ],
+    "engine/capture/inbox.py": [
+      "engine/capture/engine.py"
+    ],
+    "engine/corpus.py": [
+      "engine/db.py",
+      "engine/pillars/research.py"
+    ],
+    "engine/cost.py": [
+      "engine/schemas.py"
+    ],
+    "engine/db.py": [],
+    "engine/emergent_scan.py": [
+      "engine/__init__.py",
+      "engine/adapters/__init__.py",
+      "engine/adapters/llm.py",
+      "engine/adapters/search.py",
+      "engine/db.py",
+      "engine/feeds/concept_emergence.py",
+      "engine/market.py",
+      "engine/schemas.py",
+      "engine/signals.py"
+    ],
+    "engine/feeds/google_patents.py": [
+      "engine/__init__.py",
+      "engine/cost.py",
+      "engine/db.py",
+      "engine/world_state.py"
+    ],
+    "engine/forecastbench/distill.py": [
+      "engine/__init__.py",
+      "engine/adapters/__init__.py",
+      "engine/adapters/llm.py",
+      "engine/cost.py",
+      "engine/db.py"
+    ],
+    "engine/forecastbench/edge_dataset.py": [
+      "engine/db.py",
+      "engine/metaculus/qbank.py"
+    ],
+    "engine/forecastbench/edge_gate.py": [
+      "engine/adapters/__init__.py",
+      "engine/adapters/llm.py",
+      "engine/db.py",
+      "engine/forecastbench/edge_dataset.py"
+    ],
+    "engine/forecastbench/ensemble.py": [],
+    "engine/forecastbench/inference.py": [
+      "engine/__init__.py",
+      "engine/adapters/__init__.py",
+      "engine/adapters/llm.py",
+      "engine/db.py",
+      "engine/forecastbench/ensemble.py",
+      "engine/forecastbench/traces.py"
+    ],
+    "engine/forecastbench/sequential.py": [
+      "engine/__init__.py",
+      "engine/adapters/__init__.py",
+      "engine/adapters/llm.py",
+      "engine/adapters/search.py",
+      "engine/db.py"
+    ],
+    "engine/forecastbench/traces.py": [
+      "engine/__init__.py",
+      "engine/adapters/__init__.py",
+      "engine/adapters/llm.py",
+      "engine/db.py"
+    ],
+    "engine/forecasting/calibration.py": [],
+    "engine/forecasting/eval_anchor_gate.py": [
+      "engine/metaculus/__init__.py",
+      "engine/metaculus/markets.py"
+    ],
+    "engine/forecasting/ledger.py": [],
+    "engine/ground.py": [
+      "engine/__init__.py",
+      "engine/db.py",
+      "engine/market.py",
+      "engine/signals.py",
+      "engine/world_seed.py"
+    ],
+    "engine/holdout.py": [
+      "engine/adapters/__init__.py",
+      "engine/adapters/llm.py"
+    ],
+    "engine/market.py": [
+      "engine/__init__.py",
+      "engine/cost.py",
+      "engine/db.py"
+    ]
+  }
+}

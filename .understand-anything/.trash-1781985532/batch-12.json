@@ -1,0 +1,698 @@
+{
+  "nodes": [
+    {
+      "id": "file:site/src/app/data/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "filePath": "site/src/app/data/page.tsx",
+      "summary": "page.tsx is a code asset in the public site. It contains 1 function, 2 internal imports.",
+      "tags": [
+        "frontend",
+        "code",
+        "file",
+        "page"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:site/src/app/data/page.tsx:DataPage",
+      "type": "function",
+      "name": "DataPage",
+      "filePath": "site/src/app/data/page.tsx",
+      "lineRange": [
+        83,
+        247
+      ],
+      "summary": "Defines DataPage in page.tsx, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "page"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:site/src/app/forecasts/ai-campus-power-claims/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "filePath": "site/src/app/forecasts/ai-campus-power-claims/page.tsx",
+      "summary": "page.tsx is a code asset in the public site. It contains 2 functions, 2 internal imports.",
+      "tags": [
+        "forecasting",
+        "frontend",
+        "code"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:site/src/app/forecasts/ai-campus-power-claims/page.tsx:CampusPowerClaimsPage",
+      "type": "function",
+      "name": "CampusPowerClaimsPage",
+      "filePath": "site/src/app/forecasts/ai-campus-power-claims/page.tsx",
+      "lineRange": [
+        170,
+        402
+      ],
+      "summary": "Defines CampusPowerClaimsPage in page.tsx, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "page"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:site/src/app/forecasts/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "filePath": "site/src/app/forecasts/page.tsx",
+      "summary": "page.tsx is a code asset in the public site. It contains 6 functions, 2 internal imports.",
+      "tags": [
+        "forecasting",
+        "frontend",
+        "code"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:site/src/app/forecasts/page.tsx:CallRow",
+      "type": "function",
+      "name": "CallRow",
+      "filePath": "site/src/app/forecasts/page.tsx",
+      "lineRange": [
+        132,
+        143
+      ],
+      "summary": "Defines CallRow in page.tsx, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "page"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:site/src/app/forecasts/page.tsx:ForecastsPage",
+      "type": "function",
+      "name": "ForecastsPage",
+      "filePath": "site/src/app/forecasts/page.tsx",
+      "lineRange": [
+        145,
+        380
+      ],
+      "summary": "Defines ForecastsPage in page.tsx, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "page"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:site/src/app/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "filePath": "site/src/app/page.tsx",
+      "summary": "page.tsx is a code asset in the public site. It contains 1 function, 2 internal imports.",
+      "tags": [
+        "frontend",
+        "code",
+        "file",
+        "page"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:site/src/app/page.tsx:Home",
+      "type": "function",
+      "name": "Home",
+      "filePath": "site/src/app/page.tsx",
+      "lineRange": [
+        4,
+        27
+      ],
+      "summary": "Defines Home in page.tsx, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "page"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:site/src/app/privacy-policy/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "filePath": "site/src/app/privacy-policy/page.tsx",
+      "summary": "page.tsx is a code asset in the public site. It contains 1 function, 2 internal imports.",
+      "tags": [
+        "frontend",
+        "code",
+        "file",
+        "page"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:site/src/app/privacy-policy/page.tsx:PrivacyPolicyPage",
+      "type": "function",
+      "name": "PrivacyPolicyPage",
+      "filePath": "site/src/app/privacy-policy/page.tsx",
+      "lineRange": [
+        14,
+        87
+      ],
+      "summary": "Defines PrivacyPolicyPage in page.tsx, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "page"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:site/src/app/terms-of-service/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "filePath": "site/src/app/terms-of-service/page.tsx",
+      "summary": "page.tsx is a code asset in the public site. It contains 1 function, 2 internal imports.",
+      "tags": [
+        "frontend",
+        "code",
+        "file",
+        "page"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:site/src/app/terms-of-service/page.tsx:TermsOfServicePage",
+      "type": "function",
+      "name": "TermsOfServicePage",
+      "filePath": "site/src/app/terms-of-service/page.tsx",
+      "lineRange": [
+        14,
+        79
+      ],
+      "summary": "Defines TermsOfServicePage in page.tsx, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "page"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:site/src/sections/SiteRuntime.tsx",
+      "type": "file",
+      "name": "SiteRuntime.tsx",
+      "filePath": "site/src/sections/SiteRuntime.tsx",
+      "summary": "SiteRuntime.tsx is a code asset in the public site. It contains 4 functions.",
+      "tags": [
+        "frontend",
+        "code",
+        "file",
+        "siteruntime"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:site/src/sections/SiteRuntime.tsx:loadTurnstile",
+      "type": "function",
+      "name": "loadTurnstile",
+      "filePath": "site/src/sections/SiteRuntime.tsx",
+      "lineRange": [
+        43,
+        58
+      ],
+      "summary": "Defines loadTurnstile in SiteRuntime.tsx, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "siteruntime"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:site/src/sections/SiteRuntime.tsx:loadRive",
+      "type": "function",
+      "name": "loadRive",
+      "filePath": "site/src/sections/SiteRuntime.tsx",
+      "lineRange": [
+        61,
+        75
+      ],
+      "summary": "Defines loadRive in SiteRuntime.tsx, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "siteruntime"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:site/src/sections/SiteRuntime.tsx:initCalEmbed",
+      "type": "function",
+      "name": "initCalEmbed",
+      "filePath": "site/src/sections/SiteRuntime.tsx",
+      "lineRange": [
+        83,
+        133
+      ],
+      "summary": "Defines initCalEmbed in SiteRuntime.tsx, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "siteruntime"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:site/src/sections/SiteRuntime.tsx:SiteRuntime",
+      "type": "function",
+      "name": "SiteRuntime",
+      "filePath": "site/src/sections/SiteRuntime.tsx",
+      "lineRange": [
+        138,
+        655
+      ],
+      "summary": "Defines SiteRuntime in SiteRuntime.tsx, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entry-point",
+        "siteruntime"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:site/src/sections/raw.tsx",
+      "type": "file",
+      "name": "raw.tsx",
+      "filePath": "site/src/sections/raw.tsx",
+      "summary": "raw.tsx is a code asset in the public site. It contains 7 functions.",
+      "tags": [
+        "frontend",
+        "code",
+        "file",
+        "raw"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:site/src/sections/raw.tsx:applyImageSeoFixes",
+      "type": "function",
+      "name": "applyImageSeoFixes",
+      "filePath": "site/src/sections/raw.tsx",
+      "lineRange": [
+        129,
+        143
+      ],
+      "summary": "Defines applyImageSeoFixes in raw.tsx, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "raw"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:site/src/sections/raw.tsx:repairResearchFragment",
+      "type": "function",
+      "name": "repairResearchFragment",
+      "filePath": "site/src/sections/raw.tsx",
+      "lineRange": [
+        145,
+        155
+      ],
+      "summary": "Defines repairResearchFragment in raw.tsx, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-access",
+        "raw"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:site/src/sections/raw.tsx:enhanceFragment",
+      "type": "function",
+      "name": "enhanceFragment",
+      "filePath": "site/src/sections/raw.tsx",
+      "lineRange": [
+        157,
+        191
+      ],
+      "summary": "Defines enhanceFragment in raw.tsx, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "raw"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:site/src/sections/raw.tsx:loadFragment",
+      "type": "function",
+      "name": "loadFragment",
+      "filePath": "site/src/sections/raw.tsx",
+      "lineRange": [
+        196,
+        202
+      ],
+      "summary": "Defines loadFragment in raw.tsx, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "raw"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:site/src/sections/raw.tsx:RawSection",
+      "type": "function",
+      "name": "RawSection",
+      "filePath": "site/src/sections/raw.tsx",
+      "lineRange": [
+        204,
+        211
+      ],
+      "summary": "Defines RawSection in raw.tsx, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "raw"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:site/src/app/data/page.tsx",
+      "target": "function:site/src/app/data/page.tsx:DataPage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:site/src/app/data/page.tsx",
+      "target": "function:site/src/app/data/page.tsx:DataPage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:site/src/app/forecasts/ai-campus-power-claims/page.tsx",
+      "target": "function:site/src/app/forecasts/ai-campus-power-claims/page.tsx:CampusPowerClaimsPage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:site/src/app/forecasts/ai-campus-power-claims/page.tsx",
+      "target": "function:site/src/app/forecasts/ai-campus-power-claims/page.tsx:CampusPowerClaimsPage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:site/src/app/forecasts/page.tsx",
+      "target": "function:site/src/app/forecasts/page.tsx:CallRow",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:site/src/app/forecasts/page.tsx",
+      "target": "function:site/src/app/forecasts/page.tsx:ForecastsPage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:site/src/app/forecasts/page.tsx",
+      "target": "function:site/src/app/forecasts/page.tsx:ForecastsPage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:site/src/app/page.tsx",
+      "target": "function:site/src/app/page.tsx:Home",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:site/src/app/page.tsx",
+      "target": "function:site/src/app/page.tsx:Home",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:site/src/app/privacy-policy/page.tsx",
+      "target": "function:site/src/app/privacy-policy/page.tsx:PrivacyPolicyPage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:site/src/app/privacy-policy/page.tsx",
+      "target": "function:site/src/app/privacy-policy/page.tsx:PrivacyPolicyPage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:site/src/app/terms-of-service/page.tsx",
+      "target": "function:site/src/app/terms-of-service/page.tsx:TermsOfServicePage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:site/src/app/terms-of-service/page.tsx",
+      "target": "function:site/src/app/terms-of-service/page.tsx:TermsOfServicePage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:site/src/sections/SiteRuntime.tsx",
+      "target": "function:site/src/sections/SiteRuntime.tsx:loadTurnstile",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:site/src/sections/SiteRuntime.tsx",
+      "target": "function:site/src/sections/SiteRuntime.tsx:loadRive",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:site/src/sections/SiteRuntime.tsx",
+      "target": "function:site/src/sections/SiteRuntime.tsx:initCalEmbed",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:site/src/sections/SiteRuntime.tsx",
+      "target": "function:site/src/sections/SiteRuntime.tsx:SiteRuntime",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:site/src/sections/SiteRuntime.tsx",
+      "target": "function:site/src/sections/SiteRuntime.tsx:SiteRuntime",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:site/src/sections/raw.tsx",
+      "target": "function:site/src/sections/raw.tsx:applyImageSeoFixes",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:site/src/sections/raw.tsx",
+      "target": "function:site/src/sections/raw.tsx:repairResearchFragment",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:site/src/sections/raw.tsx",
+      "target": "function:site/src/sections/raw.tsx:enhanceFragment",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:site/src/sections/raw.tsx",
+      "target": "function:site/src/sections/raw.tsx:loadFragment",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:site/src/sections/raw.tsx",
+      "target": "function:site/src/sections/raw.tsx:loadFragment",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:site/src/sections/raw.tsx",
+      "target": "function:site/src/sections/raw.tsx:RawSection",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:site/src/sections/raw.tsx",
+      "target": "function:site/src/sections/raw.tsx:RawSection",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:site/src/app/data/page.tsx",
+      "target": "file:site/src/sections/raw.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:site/src/app/data/page.tsx",
+      "target": "file:site/src/sections/SiteRuntime.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:site/src/app/forecasts/ai-campus-power-claims/page.tsx",
+      "target": "file:site/src/sections/raw.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:site/src/app/forecasts/ai-campus-power-claims/page.tsx",
+      "target": "file:site/src/sections/SiteRuntime.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:site/src/app/forecasts/page.tsx",
+      "target": "file:site/src/sections/raw.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:site/src/app/forecasts/page.tsx",
+      "target": "file:site/src/sections/SiteRuntime.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:site/src/app/page.tsx",
+      "target": "file:site/src/sections/raw.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:site/src/app/page.tsx",
+      "target": "file:site/src/sections/SiteRuntime.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:site/src/app/privacy-policy/page.tsx",
+      "target": "file:site/src/sections/raw.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:site/src/app/privacy-policy/page.tsx",
+      "target": "file:site/src/sections/SiteRuntime.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:site/src/app/terms-of-service/page.tsx",
+      "target": "file:site/src/sections/raw.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:site/src/app/terms-of-service/page.tsx",
+      "target": "file:site/src/sections/SiteRuntime.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "function:site/src/sections/SiteRuntime.tsx:SiteRuntime",
+      "target": "function:site/src/sections/SiteRuntime.tsx:loadRive",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:site/src/sections/SiteRuntime.tsx:SiteRuntime",
+      "target": "function:site/src/sections/SiteRuntime.tsx:loadTurnstile",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:site/src/sections/SiteRuntime.tsx",
+      "target": "function:site/src/sections/SiteRuntime.tsx:initCalEmbed",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:site/src/sections/raw.tsx:enhanceFragment",
+      "target": "function:site/src/sections/raw.tsx:applyImageSeoFixes",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:site/src/sections/raw.tsx:enhanceFragment",
+      "target": "function:site/src/sections/raw.tsx:repairResearchFragment",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:site/src/sections/raw.tsx:loadFragment",
+      "target": "function:site/src/sections/raw.tsx:enhanceFragment",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:site/src/sections/raw.tsx:RawSection",
+      "target": "function:site/src/sections/raw.tsx:loadFragment",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

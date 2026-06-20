@@ -1,0 +1,188 @@
+@import "tailwindcss";
+@import "@xyflow/react/dist/style.css";
+
+/* Vaticinus brand tokens — mirrored from ../site (site.webflow.css swatches).
+   Indigo #6d6afc accent, warm off-white canvas, near-black ink, dark indigo
+   "ticket" cards. The forecast card below echoes the homepage .vati-call-card. */
+:root {
+  --bg: #faf9f7;
+  --ink: #1a1206;
+  --ink-muted: #6f6a63;
+  --sidebar-bg: #f3f2f0;
+  --surface-hover: rgba(26, 18, 6, 0.06);
+  --border-faint: rgba(12, 11, 16, 0.12);
+  --brand: #6d6afc;
+  --brand-light: #a9a6ff;
+  --brand-600: #5754ca;
+  --pill-shadow: 0 3px 6px rgba(12, 11, 16, 0.05), 0 4px 60px 6px rgba(12, 11, 16, 0.05),
+    0 0 1px rgba(12, 11, 16, 0.4);
+  --font-sans: "Helvetica Neue", Helvetica, Ubuntu, "Segoe UI", Verdana, sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  font-size: 16px;
+  line-height: 24px;
+  -webkit-font-smoothing: antialiased;
+}
+
+.composer-pill {
+  max-width: 100%;
+  background: #ffffff;
+  border: 1px solid var(--border-faint);
+  border-radius: 26px;
+  box-shadow: var(--pill-shadow);
+}
+
+.composer-glow {
+  background: radial-gradient(
+    55% 75% at 50% 50%,
+    rgba(109, 106, 252, 0.08) 0%,
+    rgba(109, 106, 252, 0) 70%
+  );
+}
+
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+.caret {
+  display: inline-block;
+  width: 7px;
+  height: 1.05em;
+  margin-left: 1px;
+  vertical-align: text-bottom;
+  background: var(--brand);
+  border-radius: 1px;
+  animation: blink 1s step-start infinite;
+}
+
+.thin-scroll::-webkit-scrollbar {
+  width: 8px;
+}
+.thin-scroll::-webkit-scrollbar-thumb {
+  background: rgba(12, 11, 16, 0.18);
+  border-radius: 8px;
+}
+.thin-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.input {
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid var(--border-faint);
+  background: #ffffff;
+  padding: 9px 10px;
+  color: var(--ink);
+  font-size: 14px;
+  line-height: 20px;
+  outline: none;
+}
+
+.input:focus {
+  border-color: var(--brand);
+}
+
+/* --- Forecast ticket card (echoes site .vati-call-card) ------------------- */
+.vati-card {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 18px;
+  background: linear-gradient(165deg, #17141f, #0c0b10);
+  color: #fff;
+  box-shadow: 0 18px 50px rgba(12, 11, 16, 0.18);
+}
+.vati-tag {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--brand-light);
+}
+.vati-card-label {
+  font-size: 10.5px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.45);
+}
+.vati-pct {
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 1;
+  color: var(--brand);
+  font-variant-numeric: tabular-nums;
+}
+.vati-ci-track {
+  position: relative;
+  height: 8px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.08);
+  overflow: hidden;
+}
+.vati-ci-fill {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  border-radius: 999px;
+  background: linear-gradient(90deg, rgba(109, 106, 252, 0.5), var(--brand));
+}
+.vati-ci-median {
+  position: absolute;
+  top: -3px;
+  bottom: -3px;
+  width: 2px;
+  background: #fff;
+}
+.vati-hist {
+  display: flex;
+  align-items: flex-end;
+  gap: 2px;
+  height: 44px;
+}
+.vati-hist-bar {
+  flex: 1;
+  border-radius: 2px 2px 0 0;
+  min-height: 2px;
+}
+/* YES side of the threshold = brand; NO side = muted. The contrast is what makes the
+   single probability legible as "this slice of the whole distribution". */
+.vati-hist-yes {
+  background: linear-gradient(180deg, var(--brand-light), rgba(109, 106, 252, 0.45));
+}
+.vati-hist-no {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.22), rgba(255, 255, 255, 0.08));
+}
+.vati-hist-threshold {
+  position: absolute;
+  top: -3px;
+  bottom: -3px;
+  width: 0;
+  border-left: 1.5px dashed rgba(255, 255, 255, 0.55);
+}
+/* Provenance chips: the receipts. */
+.vati-prov-chip {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  background: rgba(255, 255, 255, 0.04);
+  padding: 2px 9px;
+  font-size: 11px;
+  font-variant-numeric: tabular-nums;
+  color: rgba(255, 255, 255, 0.62);
+}

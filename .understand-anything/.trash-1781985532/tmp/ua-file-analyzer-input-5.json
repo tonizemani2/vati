@@ -1,0 +1,343 @@
+{
+  "projectRoot": "/Users/emizemani/Desktop/predictthefuture",
+  "batchFiles": [
+    {
+      "path": "engine/__init__.py",
+      "language": "python",
+      "sizeLines": 7,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/backtest.py",
+      "language": "python",
+      "sizeLines": 373,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/bet.py",
+      "language": "python",
+      "sizeLines": 371,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/cli.py",
+      "language": "python",
+      "sizeLines": 2940,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/companies_house_enrich.py",
+      "language": "python",
+      "sizeLines": 426,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/consensus.py",
+      "language": "python",
+      "sizeLines": 691,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/coverage_grade.py",
+      "language": "python",
+      "sizeLines": 254,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/decisions.py",
+      "language": "python",
+      "sizeLines": 76,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/detector.py",
+      "language": "python",
+      "sizeLines": 318,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/discover.py",
+      "language": "python",
+      "sizeLines": 438,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/entity.py",
+      "language": "python",
+      "sizeLines": 331,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/entity_candidates.py",
+      "language": "python",
+      "sizeLines": 538,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/experiment.py",
+      "language": "python",
+      "sizeLines": 427,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/athena.py",
+      "language": "python",
+      "sizeLines": 93,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/concept_edge_shift.py",
+      "language": "python",
+      "sizeLines": 189,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/concept_emergence.py",
+      "language": "python",
+      "sizeLines": 206,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/openalex_load.py",
+      "language": "python",
+      "sizeLines": 402,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/forecast.py",
+      "language": "python",
+      "sizeLines": 2154,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/gleif_enrich.py",
+      "language": "python",
+      "sizeLines": 411,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/graph.py",
+      "language": "python",
+      "sizeLines": 983,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/hypothesis.py",
+      "language": "python",
+      "sizeLines": 529,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/indicators.py",
+      "language": "python",
+      "sizeLines": 208,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/ladder.py",
+      "language": "python",
+      "sizeLines": 332,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/locator.py",
+      "language": "python",
+      "sizeLines": 239,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/pillars/capability.py",
+      "language": "python",
+      "sizeLines": 175,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/pillars/capital.py",
+      "language": "python",
+      "sizeLines": 384,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "engine/__init__.py": [],
+    "engine/backtest.py": [
+      "engine/detector.py"
+    ],
+    "engine/bet.py": [
+      "engine/__init__.py",
+      "engine/graph.py",
+      "engine/schemas.py"
+    ],
+    "engine/cli.py": [
+      "engine/__init__.py",
+      "engine/backtest.py",
+      "engine/bet.py",
+      "engine/companies_house_enrich.py",
+      "engine/consensus.py",
+      "engine/cost.py",
+      "engine/coverage_grade.py",
+      "engine/data_offload.py",
+      "engine/db.py",
+      "engine/decisions.py",
+      "engine/detector.py",
+      "engine/discover.py",
+      "engine/disk_guard.py",
+      "engine/entity.py",
+      "engine/experiment.py",
+      "engine/forecast.py",
+      "engine/gleif_enrich.py",
+      "engine/graph.py",
+      "engine/holdout.py",
+      "engine/hypothesis.py",
+      "engine/indicators.py",
+      "engine/ladder.py",
+      "engine/locator.py",
+      "engine/market.py",
+      "engine/pillars/__init__.py",
+      "engine/pillars/dependency.py",
+      "engine/pillars/frontier.py",
+      "engine/pillars/metals.py",
+      "engine/pillars/power.py",
+      "engine/pillars/research.py",
+      "engine/quality.py",
+      "engine/raw_provenance.py",
+      "engine/rawstore.py",
+      "engine/research_papers.py",
+      "engine/retro.py",
+      "engine/saturation.py",
+      "engine/schemas.py",
+      "engine/sec_company_enrich.py",
+      "engine/seed.py",
+      "engine/signals.py",
+      "engine/significance.py",
+      "engine/universe.py",
+      "engine/wikidata_enrich.py",
+      "engine/world_catalog.py",
+      "engine/world_graph_deepseek.py",
+      "engine/world_graph.py",
+      "engine/world_seed.py",
+      "engine/world_state.py"
+    ],
+    "engine/companies_house_enrich.py": [
+      "engine/__init__.py",
+      "engine/graph.py",
+      "engine/rawstore.py",
+      "engine/schemas.py",
+      "engine/world_catalog.py"
+    ],
+    "engine/consensus.py": [
+      "engine/__init__.py",
+      "engine/cost.py",
+      "engine/schemas.py"
+    ],
+    "engine/coverage_grade.py": [
+      "engine/__init__.py",
+      "engine/world_seed.py"
+    ],
+    "engine/decisions.py": [
+      "engine/schemas.py"
+    ],
+    "engine/detector.py": [
+      "engine/__init__.py",
+      "engine/schemas.py",
+      "engine/store.py"
+    ],
+    "engine/discover.py": [
+      "engine/__init__.py",
+      "engine/detector.py",
+      "engine/quality.py",
+      "engine/significance.py"
+    ],
+    "engine/entity.py": [
+      "engine/__init__.py",
+      "engine/db.py",
+      "engine/pillars/frontier.py",
+      "engine/schemas.py"
+    ],
+    "engine/entity_candidates.py": [
+      "engine/__init__.py",
+      "engine/entity.py",
+      "engine/schemas.py"
+    ],
+    "engine/experiment.py": [
+      "engine/__init__.py",
+      "engine/schemas.py",
+      "engine/universe.py"
+    ],
+    "engine/feeds/athena.py": [],
+    "engine/feeds/concept_edge_shift.py": [
+      "engine/__init__.py",
+      "engine/db.py",
+      "engine/detector.py",
+      "engine/feeds/__init__.py",
+      "engine/feeds/athena.py",
+      "engine/feeds/openalex_load.py",
+      "engine/schemas.py"
+    ],
+    "engine/feeds/concept_emergence.py": [
+      "engine/__init__.py",
+      "engine/db.py",
+      "engine/detector.py",
+      "engine/feeds/__init__.py",
+      "engine/feeds/athena.py",
+      "engine/schemas.py"
+    ],
+    "engine/feeds/openalex_load.py": [
+      "engine/__init__.py",
+      "engine/db.py",
+      "engine/entity.py",
+      "engine/feeds/__init__.py",
+      "engine/feeds/athena.py",
+      "engine/graph.py",
+      "engine/pillars/frontier.py",
+      "engine/schemas.py"
+    ],
+    "engine/forecast.py": [
+      "engine/schemas.py"
+    ],
+    "engine/gleif_enrich.py": [
+      "engine/__init__.py",
+      "engine/graph.py",
+      "engine/rawstore.py",
+      "engine/schemas.py",
+      "engine/world_catalog.py"
+    ],
+    "engine/graph.py": [
+      "engine/schemas.py"
+    ],
+    "engine/hypothesis.py": [
+      "engine/pillars/frontier.py",
+      "engine/schemas.py"
+    ],
+    "engine/indicators.py": [
+      "engine/__init__.py",
+      "engine/schemas.py",
+      "engine/sharpen.py"
+    ],
+    "engine/ladder.py": [
+      "engine/__init__.py",
+      "engine/forecast.py",
+      "engine/schemas.py",
+      "engine/sharpen.py"
+    ],
+    "engine/locator.py": [
+      "engine/__init__.py",
+      "engine/backtest.py",
+      "engine/detector.py",
+      "engine/graph.py",
+      "engine/schemas.py"
+    ],
+    "engine/pillars/capability.py": [
+      "engine/__init__.py",
+      "engine/pillars/frontier.py",
+      "engine/schemas.py",
+      "engine/store.py"
+    ],
+    "engine/pillars/capital.py": [
+      "engine/__init__.py",
+      "engine/pillars/frontier.py",
+      "engine/schemas.py",
+      "engine/store.py"
+    ]
+  }
+}

@@ -1,0 +1,1447 @@
+{
+  "nodes": [
+    {
+      "id": "file:engine/feeds/global_policy.py",
+      "type": "file",
+      "name": "global_policy.py",
+      "filePath": "engine/feeds/global_policy.py",
+      "summary": "global_policy.py is a code asset in the forecasting engine. It contains 7 functions, 1 internal import.",
+      "tags": [
+        "forecasting-engine",
+        "code",
+        "file",
+        "global-policy"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/feeds/global_policy.py:_last_full_year",
+      "type": "function",
+      "name": "_last_full_year",
+      "filePath": "engine/feeds/global_policy.py",
+      "lineRange": [
+        48,
+        49
+      ],
+      "summary": "Defines _last_full_year in global_policy.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "global-policy"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/global_policy.py:_uk_count",
+      "type": "function",
+      "name": "_uk_count",
+      "filePath": "engine/feeds/global_policy.py",
+      "lineRange": [
+        53,
+        64
+      ],
+      "summary": "Defines _uk_count in global_policy.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "global-policy"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/global_policy.py:_uk_topic_term",
+      "type": "function",
+      "name": "_uk_topic_term",
+      "filePath": "engine/feeds/global_policy.py",
+      "lineRange": [
+        67,
+        74
+      ],
+      "summary": "Defines _uk_topic_term in global_policy.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "global-policy"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/global_policy.py:collect_uk",
+      "type": "function",
+      "name": "collect_uk",
+      "filePath": "engine/feeds/global_policy.py",
+      "lineRange": [
+        77,
+        96
+      ],
+      "summary": "Defines collect_uk in global_policy.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "global-policy"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/global_policy.py:_eurlex_query",
+      "type": "function",
+      "name": "_eurlex_query",
+      "filePath": "engine/feeds/global_policy.py",
+      "lineRange": [
+        103,
+        112
+      ],
+      "summary": "Defines _eurlex_query in global_policy.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-access",
+        "global-policy"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/global_policy.py:collect_eu",
+      "type": "function",
+      "name": "collect_eu",
+      "filePath": "engine/feeds/global_policy.py",
+      "lineRange": [
+        115,
+        156
+      ],
+      "summary": "Defines collect_eu in global_policy.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "global-policy"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/global_policy.py:collect",
+      "type": "function",
+      "name": "collect",
+      "filePath": "engine/feeds/global_policy.py",
+      "lineRange": [
+        159,
+        177
+      ],
+      "summary": "Defines collect in global_policy.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "global-policy"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:engine/feeds/ilo.py",
+      "type": "file",
+      "name": "ilo.py",
+      "filePath": "engine/feeds/ilo.py",
+      "summary": "ilo.py is a code asset in the forecasting engine. It contains 9 functions.",
+      "tags": [
+        "forecasting-engine",
+        "code",
+        "file",
+        "ilo"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:engine/feeds/ilo.py:_row_key",
+      "type": "function",
+      "name": "_row_key",
+      "filePath": "engine/feeds/ilo.py",
+      "lineRange": [
+        155,
+        156
+      ],
+      "summary": "Defines _row_key in ilo.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "ilo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/ilo.py:_existing_rows",
+      "type": "function",
+      "name": "_existing_rows",
+      "filePath": "engine/feeds/ilo.py",
+      "lineRange": [
+        159,
+        173
+      ],
+      "summary": "Defines _existing_rows in ilo.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "ilo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/ilo.py:_merge_rows",
+      "type": "function",
+      "name": "_merge_rows",
+      "filePath": "engine/feeds/ilo.py",
+      "lineRange": [
+        176,
+        186
+      ],
+      "summary": "Defines _merge_rows in ilo.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "ilo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/ilo.py:_write_rows",
+      "type": "function",
+      "name": "_write_rows",
+      "filePath": "engine/feeds/ilo.py",
+      "lineRange": [
+        189,
+        195
+      ],
+      "summary": "Defines _write_rows in ilo.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "ilo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/ilo.py:_fetch_csv",
+      "type": "function",
+      "name": "_fetch_csv",
+      "filePath": "engine/feeds/ilo.py",
+      "lineRange": [
+        198,
+        209
+      ],
+      "summary": "Defines _fetch_csv in ilo.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-access",
+        "ilo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/ilo.py:fetch_indicator",
+      "type": "function",
+      "name": "fetch_indicator",
+      "filePath": "engine/feeds/ilo.py",
+      "lineRange": [
+        212,
+        227
+      ],
+      "summary": "Defines fetch_indicator in ilo.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-access",
+        "ilo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/ilo.py:_slice_match",
+      "type": "function",
+      "name": "_slice_match",
+      "filePath": "engine/feeds/ilo.py",
+      "lineRange": [
+        230,
+        234
+      ],
+      "summary": "Defines _slice_match in ilo.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "ilo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/ilo.py:normalize",
+      "type": "function",
+      "name": "normalize",
+      "filePath": "engine/feeds/ilo.py",
+      "lineRange": [
+        237,
+        288
+      ],
+      "summary": "Defines normalize in ilo.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "ilo"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/feeds/ilo.py:collect",
+      "type": "function",
+      "name": "collect",
+      "filePath": "engine/feeds/ilo.py",
+      "lineRange": [
+        291,
+        330
+      ],
+      "summary": "Defines collect in ilo.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "ilo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:engine/feeds/lbnl.py",
+      "type": "file",
+      "name": "lbnl.py",
+      "filePath": "engine/feeds/lbnl.py",
+      "summary": "lbnl.py is a code asset in the forecasting engine. It contains 2 functions.",
+      "tags": [
+        "forecasting-engine",
+        "code",
+        "file",
+        "lbnl"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/feeds/lbnl.py:normalize_queue",
+      "type": "function",
+      "name": "normalize_queue",
+      "filePath": "engine/feeds/lbnl.py",
+      "lineRange": [
+        39,
+        55
+      ],
+      "summary": "Defines normalize_queue in lbnl.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "lbnl"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/lbnl.py:collect",
+      "type": "function",
+      "name": "collect",
+      "filePath": "engine/feeds/lbnl.py",
+      "lineRange": [
+        58,
+        67
+      ],
+      "summary": "Defines collect in lbnl.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "lbnl"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:engine/feeds/metaculus.py",
+      "type": "file",
+      "name": "metaculus.py",
+      "filePath": "engine/feeds/metaculus.py",
+      "summary": "metaculus.py is a code asset in the forecasting engine. It contains 12 functions.",
+      "tags": [
+        "forecasting-engine",
+        "code",
+        "file",
+        "metaculus"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:engine/feeds/metaculus.py:_env_file_value",
+      "type": "function",
+      "name": "_env_file_value",
+      "filePath": "engine/feeds/metaculus.py",
+      "lineRange": [
+        51,
+        63
+      ],
+      "summary": "Defines _env_file_value in metaculus.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "metaculus"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/metaculus.py:_token",
+      "type": "function",
+      "name": "_token",
+      "filePath": "engine/feeds/metaculus.py",
+      "lineRange": [
+        66,
+        67
+      ],
+      "summary": "Defines _token in metaculus.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "metaculus"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/metaculus.py:_write_status",
+      "type": "function",
+      "name": "_write_status",
+      "filePath": "engine/feeds/metaculus.py",
+      "lineRange": [
+        70,
+        81
+      ],
+      "summary": "Defines _write_status in metaculus.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "metaculus"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/metaculus.py:_request",
+      "type": "function",
+      "name": "_request",
+      "filePath": "engine/feeds/metaculus.py",
+      "lineRange": [
+        88,
+        111
+      ],
+      "summary": "Defines _request in metaculus.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-access",
+        "metaculus"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/metaculus.py:probe_access",
+      "type": "function",
+      "name": "probe_access",
+      "filePath": "engine/feeds/metaculus.py",
+      "lineRange": [
+        114,
+        120
+      ],
+      "summary": "Defines probe_access in metaculus.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "metaculus"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/metaculus.py:fetch_questions",
+      "type": "function",
+      "name": "fetch_questions",
+      "filePath": "engine/feeds/metaculus.py",
+      "lineRange": [
+        123,
+        142
+      ],
+      "summary": "Defines fetch_questions in metaculus.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-access",
+        "metaculus"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/metaculus.py:_aggregation_value",
+      "type": "function",
+      "name": "_aggregation_value",
+      "filePath": "engine/feeds/metaculus.py",
+      "lineRange": [
+        145,
+        165
+      ],
+      "summary": "Defines _aggregation_value in metaculus.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "metaculus"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/metaculus.py:_item_time",
+      "type": "function",
+      "name": "_item_time",
+      "filePath": "engine/feeds/metaculus.py",
+      "lineRange": [
+        168,
+        173
+      ],
+      "summary": "Defines _item_time in metaculus.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "metaculus"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/metaculus.py:_community_history",
+      "type": "function",
+      "name": "_community_history",
+      "filePath": "engine/feeds/metaculus.py",
+      "lineRange": [
+        176,
+        222
+      ],
+      "summary": "Defines _community_history in metaculus.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "metaculus"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/metaculus.py:_to_iso_date",
+      "type": "function",
+      "name": "_to_iso_date",
+      "filePath": "engine/feeds/metaculus.py",
+      "lineRange": [
+        225,
+        237
+      ],
+      "summary": "Defines _to_iso_date in metaculus.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "metaculus"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/metaculus.py:normalize",
+      "type": "function",
+      "name": "normalize",
+      "filePath": "engine/feeds/metaculus.py",
+      "lineRange": [
+        240,
+        263
+      ],
+      "summary": "Defines normalize in metaculus.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "metaculus"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/metaculus.py:collect",
+      "type": "function",
+      "name": "collect",
+      "filePath": "engine/feeds/metaculus.py",
+      "lineRange": [
+        266,
+        295
+      ],
+      "summary": "Defines collect in metaculus.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "metaculus"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:engine/feeds/nasa_gistemp.py",
+      "type": "file",
+      "name": "nasa_gistemp.py",
+      "filePath": "engine/feeds/nasa_gistemp.py",
+      "summary": "nasa_gistemp.py is a code asset in the forecasting engine. It contains 6 functions.",
+      "tags": [
+        "forecasting-engine",
+        "code",
+        "file",
+        "nasa-gistemp"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/feeds/nasa_gistemp.py:_existing_line_count",
+      "type": "function",
+      "name": "_existing_line_count",
+      "filePath": "engine/feeds/nasa_gistemp.py",
+      "lineRange": [
+        33,
+        37
+      ],
+      "summary": "Defines _existing_line_count in nasa_gistemp.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "nasa-gistemp"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/nasa_gistemp.py:_write_jsonl_atomic",
+      "type": "function",
+      "name": "_write_jsonl_atomic",
+      "filePath": "engine/feeds/nasa_gistemp.py",
+      "lineRange": [
+        40,
+        46
+      ],
+      "summary": "Defines _write_jsonl_atomic in nasa_gistemp.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "nasa-gistemp"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/nasa_gistemp.py:_fetch_text",
+      "type": "function",
+      "name": "_fetch_text",
+      "filePath": "engine/feeds/nasa_gistemp.py",
+      "lineRange": [
+        49,
+        52
+      ],
+      "summary": "Defines _fetch_text in nasa_gistemp.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-access",
+        "nasa-gistemp"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/nasa_gistemp.py:_to_float",
+      "type": "function",
+      "name": "_to_float",
+      "filePath": "engine/feeds/nasa_gistemp.py",
+      "lineRange": [
+        55,
+        62
+      ],
+      "summary": "Defines _to_float in nasa_gistemp.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "nasa-gistemp"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/nasa_gistemp.py:normalize_region",
+      "type": "function",
+      "name": "normalize_region",
+      "filePath": "engine/feeds/nasa_gistemp.py",
+      "lineRange": [
+        65,
+        104
+      ],
+      "summary": "Defines normalize_region in nasa_gistemp.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "nasa-gistemp"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/nasa_gistemp.py:collect",
+      "type": "function",
+      "name": "collect",
+      "filePath": "engine/feeds/nasa_gistemp.py",
+      "lineRange": [
+        107,
+        135
+      ],
+      "summary": "Defines collect in nasa_gistemp.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "nasa-gistemp"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:engine/feeds/global_policy.py",
+      "target": "function:engine/feeds/global_policy.py:_last_full_year",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/global_policy.py",
+      "target": "function:engine/feeds/global_policy.py:_last_full_year",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/global_policy.py",
+      "target": "function:engine/feeds/global_policy.py:_uk_count",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/global_policy.py",
+      "target": "function:engine/feeds/global_policy.py:_uk_count",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/global_policy.py",
+      "target": "function:engine/feeds/global_policy.py:_uk_topic_term",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/global_policy.py",
+      "target": "function:engine/feeds/global_policy.py:_uk_topic_term",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/global_policy.py",
+      "target": "function:engine/feeds/global_policy.py:collect_uk",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/global_policy.py",
+      "target": "function:engine/feeds/global_policy.py:collect_uk",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/global_policy.py",
+      "target": "function:engine/feeds/global_policy.py:_eurlex_query",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/global_policy.py",
+      "target": "function:engine/feeds/global_policy.py:_eurlex_query",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/global_policy.py",
+      "target": "function:engine/feeds/global_policy.py:collect_eu",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/global_policy.py",
+      "target": "function:engine/feeds/global_policy.py:collect_eu",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/global_policy.py",
+      "target": "function:engine/feeds/global_policy.py:collect",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/global_policy.py",
+      "target": "function:engine/feeds/global_policy.py:collect",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/ilo.py",
+      "target": "function:engine/feeds/ilo.py:_row_key",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/ilo.py",
+      "target": "function:engine/feeds/ilo.py:_row_key",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/ilo.py",
+      "target": "function:engine/feeds/ilo.py:_existing_rows",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/ilo.py",
+      "target": "function:engine/feeds/ilo.py:_existing_rows",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/ilo.py",
+      "target": "function:engine/feeds/ilo.py:_merge_rows",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/ilo.py",
+      "target": "function:engine/feeds/ilo.py:_merge_rows",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/ilo.py",
+      "target": "function:engine/feeds/ilo.py:_write_rows",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/ilo.py",
+      "target": "function:engine/feeds/ilo.py:_write_rows",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/ilo.py",
+      "target": "function:engine/feeds/ilo.py:_fetch_csv",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/ilo.py",
+      "target": "function:engine/feeds/ilo.py:_fetch_csv",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/ilo.py",
+      "target": "function:engine/feeds/ilo.py:fetch_indicator",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/ilo.py",
+      "target": "function:engine/feeds/ilo.py:fetch_indicator",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/ilo.py",
+      "target": "function:engine/feeds/ilo.py:_slice_match",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/ilo.py",
+      "target": "function:engine/feeds/ilo.py:_slice_match",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/ilo.py",
+      "target": "function:engine/feeds/ilo.py:normalize",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/ilo.py",
+      "target": "function:engine/feeds/ilo.py:normalize",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/ilo.py",
+      "target": "function:engine/feeds/ilo.py:collect",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/ilo.py",
+      "target": "function:engine/feeds/ilo.py:collect",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/lbnl.py",
+      "target": "function:engine/feeds/lbnl.py:normalize_queue",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/lbnl.py",
+      "target": "function:engine/feeds/lbnl.py:normalize_queue",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/lbnl.py",
+      "target": "function:engine/feeds/lbnl.py:collect",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/lbnl.py",
+      "target": "function:engine/feeds/lbnl.py:collect",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/metaculus.py",
+      "target": "function:engine/feeds/metaculus.py:_env_file_value",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/metaculus.py",
+      "target": "function:engine/feeds/metaculus.py:_env_file_value",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/metaculus.py",
+      "target": "function:engine/feeds/metaculus.py:_token",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/metaculus.py",
+      "target": "function:engine/feeds/metaculus.py:_token",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/metaculus.py",
+      "target": "function:engine/feeds/metaculus.py:_write_status",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/metaculus.py",
+      "target": "function:engine/feeds/metaculus.py:_write_status",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/metaculus.py",
+      "target": "function:engine/feeds/metaculus.py:_request",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/metaculus.py",
+      "target": "function:engine/feeds/metaculus.py:_request",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/metaculus.py",
+      "target": "function:engine/feeds/metaculus.py:probe_access",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/metaculus.py",
+      "target": "function:engine/feeds/metaculus.py:probe_access",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/metaculus.py",
+      "target": "function:engine/feeds/metaculus.py:fetch_questions",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/metaculus.py",
+      "target": "function:engine/feeds/metaculus.py:fetch_questions",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/metaculus.py",
+      "target": "function:engine/feeds/metaculus.py:_aggregation_value",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/metaculus.py",
+      "target": "function:engine/feeds/metaculus.py:_aggregation_value",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/metaculus.py",
+      "target": "function:engine/feeds/metaculus.py:_item_time",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/metaculus.py",
+      "target": "function:engine/feeds/metaculus.py:_item_time",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/metaculus.py",
+      "target": "function:engine/feeds/metaculus.py:_community_history",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/metaculus.py",
+      "target": "function:engine/feeds/metaculus.py:_community_history",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/metaculus.py",
+      "target": "function:engine/feeds/metaculus.py:_to_iso_date",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/metaculus.py",
+      "target": "function:engine/feeds/metaculus.py:_to_iso_date",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/metaculus.py",
+      "target": "function:engine/feeds/metaculus.py:normalize",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/metaculus.py",
+      "target": "function:engine/feeds/metaculus.py:normalize",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/metaculus.py",
+      "target": "function:engine/feeds/metaculus.py:collect",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/metaculus.py",
+      "target": "function:engine/feeds/metaculus.py:collect",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/nasa_gistemp.py",
+      "target": "function:engine/feeds/nasa_gistemp.py:_existing_line_count",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/nasa_gistemp.py",
+      "target": "function:engine/feeds/nasa_gistemp.py:_existing_line_count",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/nasa_gistemp.py",
+      "target": "function:engine/feeds/nasa_gistemp.py:_write_jsonl_atomic",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/nasa_gistemp.py",
+      "target": "function:engine/feeds/nasa_gistemp.py:_write_jsonl_atomic",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/nasa_gistemp.py",
+      "target": "function:engine/feeds/nasa_gistemp.py:_fetch_text",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/nasa_gistemp.py",
+      "target": "function:engine/feeds/nasa_gistemp.py:_fetch_text",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/nasa_gistemp.py",
+      "target": "function:engine/feeds/nasa_gistemp.py:_to_float",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/nasa_gistemp.py",
+      "target": "function:engine/feeds/nasa_gistemp.py:_to_float",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/nasa_gistemp.py",
+      "target": "function:engine/feeds/nasa_gistemp.py:normalize_region",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/nasa_gistemp.py",
+      "target": "function:engine/feeds/nasa_gistemp.py:normalize_region",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/nasa_gistemp.py",
+      "target": "function:engine/feeds/nasa_gistemp.py:collect",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/nasa_gistemp.py",
+      "target": "function:engine/feeds/nasa_gistemp.py:collect",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/global_policy.py",
+      "target": "file:engine/feeds/federal_register.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "function:engine/feeds/global_policy.py:collect_uk",
+      "target": "function:engine/feeds/global_policy.py:_last_full_year",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/global_policy.py:collect_uk",
+      "target": "function:engine/feeds/global_policy.py:_uk_topic_term",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/global_policy.py:collect_uk",
+      "target": "function:engine/feeds/global_policy.py:_uk_count",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/global_policy.py:collect_eu",
+      "target": "function:engine/feeds/global_policy.py:_last_full_year",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/global_policy.py:collect_eu",
+      "target": "function:engine/feeds/global_policy.py:_eurlex_query",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/global_policy.py:collect",
+      "target": "function:engine/feeds/global_policy.py:collect_uk",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/global_policy.py:collect",
+      "target": "function:engine/feeds/global_policy.py:collect_eu",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/ilo.py:_existing_rows",
+      "target": "function:engine/feeds/ilo.py:_row_key",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/ilo.py:_merge_rows",
+      "target": "function:engine/feeds/ilo.py:_row_key",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/ilo.py:fetch_indicator",
+      "target": "function:engine/feeds/ilo.py:_fetch_csv",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/ilo.py:normalize",
+      "target": "function:engine/feeds/ilo.py:_slice_match",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/ilo.py:collect",
+      "target": "function:engine/feeds/ilo.py:fetch_indicator",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/ilo.py:collect",
+      "target": "function:engine/feeds/ilo.py:normalize",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/ilo.py:collect",
+      "target": "function:engine/feeds/ilo.py:_existing_rows",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/ilo.py:collect",
+      "target": "function:engine/feeds/ilo.py:_merge_rows",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/ilo.py:collect",
+      "target": "function:engine/feeds/ilo.py:_write_rows",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/lbnl.py:collect",
+      "target": "function:engine/feeds/lbnl.py:normalize_queue",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/metaculus.py:_token",
+      "target": "function:engine/feeds/metaculus.py:_env_file_value",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/metaculus.py:_request",
+      "target": "function:engine/feeds/metaculus.py:_token",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/metaculus.py:probe_access",
+      "target": "function:engine/feeds/metaculus.py:_request",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/metaculus.py:fetch_questions",
+      "target": "function:engine/feeds/metaculus.py:_request",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/metaculus.py:_item_time",
+      "target": "function:engine/feeds/metaculus.py:_to_iso_date",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/metaculus.py:_community_history",
+      "target": "function:engine/feeds/metaculus.py:_item_time",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/metaculus.py:_community_history",
+      "target": "function:engine/feeds/metaculus.py:_aggregation_value",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/metaculus.py:normalize",
+      "target": "function:engine/feeds/metaculus.py:_community_history",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/metaculus.py:collect",
+      "target": "function:engine/feeds/metaculus.py:probe_access",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/metaculus.py:collect",
+      "target": "function:engine/feeds/metaculus.py:_write_status",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/metaculus.py:collect",
+      "target": "function:engine/feeds/metaculus.py:fetch_questions",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/metaculus.py:collect",
+      "target": "function:engine/feeds/metaculus.py:normalize",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/nasa_gistemp.py:normalize_region",
+      "target": "function:engine/feeds/nasa_gistemp.py:_to_float",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/nasa_gistemp.py:collect",
+      "target": "function:engine/feeds/nasa_gistemp.py:_fetch_text",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/nasa_gistemp.py:collect",
+      "target": "function:engine/feeds/nasa_gistemp.py:normalize_region",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/nasa_gistemp.py:collect",
+      "target": "function:engine/feeds/nasa_gistemp.py:_existing_line_count",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/nasa_gistemp.py:collect",
+      "target": "function:engine/feeds/nasa_gistemp.py:_write_jsonl_atomic",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

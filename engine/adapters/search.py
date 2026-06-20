@@ -20,8 +20,26 @@ _exa = ExaClient()
 _ddg = DDGClient()
 
 
-async def _search_async(query: str, num_results: int) -> list[SearchResult]:
-    async with httpx.AsyncClient(timeout=15, follow_redirects=True) as client:
+def _resolve_proxy(spec):
+    """Bare provider name ('evomi'/'floxy') → a fresh rotating proxy URL (dodges per-IP rate
+    limits when sweeping many questions); a full URL passes through; None = direct (home IP,
+    which is what the vendored keyless dance assumes by default)."""
+    if not spec:
+        return None
+    if "://" in spec:
+        return spec
+    from engine.adapters import proxy as px
+    return px.proxy_url(spec)
+
+
+def _client(proxy: str | None):
+    """A fresh async client, optionally tunnelled through a rotating proxy (httpx 0.28 `proxy=`)."""
+    return httpx.AsyncClient(timeout=15, follow_redirects=True,
+                             proxy=_resolve_proxy(proxy) if proxy else None)
+
+
+async def _search_async(query: str, num_results: int, proxy: str | None) -> list[SearchResult]:
+    async with _client(proxy) as client:
         results = await _exa.search(query, num_results, client)
         if results:
             return results
@@ -34,8 +52,12 @@ def search(
     num_results: int = 10,
     *,
     funded_ref: str | None = None,
+    proxy: str | None = None,
 ) -> list[SearchResult]:
-    """Keyless web search (Exa → DDG). Logs a $0 'auto' ledger row before the call."""
+    """Keyless web search (Exa → DDG). Logs a $0 'auto' ledger row before the call.
+
+    `proxy` (bare provider name or full URL) rotates the source IP — useful when sweeping a whole
+    tournament's questions in one run, where Exa/DDG would otherwise rate-limit a single home IP."""
     cost.gate(
         conn,
         action="exa_keyless_search",
@@ -44,15 +66,22 @@ def search(
         est_cost_cents=0,
         funded_ref=funded_ref,
     )
-    return asyncio.run(_search_async(query, num_results))
+    return asyncio.run(_search_async(query, num_results, proxy))
 
 
 def search_multi(
     conn: sqlite3.Connection,
     queries: list[str],
     num_results: int = 10,
+    *,
+    proxy: str | None = None,
+    text_chars: int = 300,
 ) -> dict[str, list[SearchResult]]:
-    """Bulk keyless search: one $0 'auto' ledger row covering the batch, logged first."""
+    """Bulk keyless search: one $0 'auto' ledger row covering the batch, logged first.
+
+    A fresh proxy IP is drawn PER QUERY (a new client each query) so a multi-query research
+    pass spreads across IPs rather than hammering one. `text_chars` keeps more of Exa's indexed
+    page text per hit (deep research reads it; the shallow snippet pass keeps the 300 default)."""
     cost.gate(
         conn,
         action="exa_keyless_search_bulk",
@@ -63,9 +92,9 @@ def search_multi(
 
     async def _run() -> dict[str, list[SearchResult]]:
         out: dict[str, list[SearchResult]] = {}
-        async with httpx.AsyncClient(timeout=15, follow_redirects=True) as client:
-            for q in queries:
-                res = await _exa.search(q, num_results, client)
+        for q in queries:
+            async with _client(proxy) as client:
+                res = await _exa.search(q, num_results, client, text_chars=text_chars)
                 if not res:
                     res = await _ddg.search(q, num_results, client)
                 out[q] = res

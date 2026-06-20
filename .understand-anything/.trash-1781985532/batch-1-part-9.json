@@ -1,0 +1,285 @@
+{
+  "nodes": [
+    {
+      "id": "file:tests/test_europe_pmc.py",
+      "type": "file",
+      "name": "test_europe_pmc.py",
+      "filePath": "tests/test_europe_pmc.py",
+      "summary": "test_europe_pmc.py is a code asset in the repository. It contains 1 class, 8 internal imports.",
+      "tags": [
+        "test",
+        "verification",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:tests/test_europe_pmc.py:EuropePMCTests",
+      "type": "class",
+      "name": "EuropePMCTests",
+      "filePath": "tests/test_europe_pmc.py",
+      "lineRange": [
+        34,
+        120
+      ],
+      "summary": "Defines EuropePMCTests in test_europe_pmc.py, encapsulating reusable behavior or state for this module.",
+      "tags": [
+        "class",
+        "implementation",
+        "test-europe-pmc"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:tests/test_land_permit_sources.py",
+      "type": "file",
+      "name": "test_land_permit_sources.py",
+      "filePath": "tests/test_land_permit_sources.py",
+      "summary": "test_land_permit_sources.py is a code asset in the repository. It contains 1 class, 3 internal imports.",
+      "tags": [
+        "test",
+        "verification",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:tests/test_land_permit_sources.py:LandPermitSourcesTests",
+      "type": "class",
+      "name": "LandPermitSourcesTests",
+      "filePath": "tests/test_land_permit_sources.py",
+      "lineRange": [
+        12,
+        60
+      ],
+      "summary": "Defines LandPermitSourcesTests in test_land_permit_sources.py, encapsulating reusable behavior or state for this module.",
+      "tags": [
+        "class",
+        "implementation",
+        "test-land-permit-sources"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:tests/test_land_permits_canada_iaac.py",
+      "type": "file",
+      "name": "test_land_permits_canada_iaac.py",
+      "filePath": "tests/test_land_permits_canada_iaac.py",
+      "summary": "test_land_permits_canada_iaac.py is a code asset in the repository. It contains 1 class, 7 internal imports.",
+      "tags": [
+        "test",
+        "verification",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:tests/test_land_permits_canada_iaac.py:CanadaIAACLandPermitTests",
+      "type": "class",
+      "name": "CanadaIAACLandPermitTests",
+      "filePath": "tests/test_land_permits_canada_iaac.py",
+      "lineRange": [
+        48,
+        130
+      ],
+      "summary": "Defines CanadaIAACLandPermitTests in test_land_permits_canada_iaac.py, encapsulating reusable behavior or state for this module.",
+      "tags": [
+        "class",
+        "implementation",
+        "test-land-permits-canada-iaac"
+      ],
+      "complexity": "moderate"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:tests/test_europe_pmc.py",
+      "target": "class:tests/test_europe_pmc.py:EuropePMCTests",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:tests/test_europe_pmc.py",
+      "target": "class:tests/test_europe_pmc.py:EuropePMCTests",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:tests/test_land_permit_sources.py",
+      "target": "class:tests/test_land_permit_sources.py:LandPermitSourcesTests",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:tests/test_land_permit_sources.py",
+      "target": "class:tests/test_land_permit_sources.py:LandPermitSourcesTests",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:tests/test_land_permits_canada_iaac.py",
+      "target": "class:tests/test_land_permits_canada_iaac.py:CanadaIAACLandPermitTests",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:tests/test_land_permits_canada_iaac.py",
+      "target": "class:tests/test_land_permits_canada_iaac.py:CanadaIAACLandPermitTests",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:tests/test_europe_pmc.py",
+      "target": "file:engine/__init__.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/test_europe_pmc.py",
+      "target": "file:engine/feeds/__init__.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/test_europe_pmc.py",
+      "target": "file:engine/feeds/collect_all.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/test_europe_pmc.py",
+      "target": "file:engine/feeds/europe_pmc.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/test_europe_pmc.py",
+      "target": "file:engine/feeds/ingest.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/test_europe_pmc.py",
+      "target": "file:engine/world_catalog.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/test_europe_pmc.py",
+      "target": "file:engine/world_state.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/test_europe_pmc.py",
+      "target": "file:tests/test_world_state.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/test_land_permit_sources.py",
+      "target": "file:engine/feeds/__init__.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/test_land_permit_sources.py",
+      "target": "file:engine/feeds/land_permit_sources.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/test_land_permit_sources.py",
+      "target": "file:tests/test_world_state.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/test_land_permits_canada_iaac.py",
+      "target": "file:engine/__init__.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/test_land_permits_canada_iaac.py",
+      "target": "file:engine/feeds/__init__.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/test_land_permits_canada_iaac.py",
+      "target": "file:engine/feeds/collect_all.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/test_land_permits_canada_iaac.py",
+      "target": "file:engine/feeds/ingest.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/test_land_permits_canada_iaac.py",
+      "target": "file:engine/feeds/land_permits_canada_iaac.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/test_land_permits_canada_iaac.py",
+      "target": "file:engine/world_catalog.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/test_land_permits_canada_iaac.py",
+      "target": "file:tests/test_world_state.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/test_europe_pmc.py",
+      "target": "function:tests/test_world_state.py:memory_db",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:tests/test_land_permit_sources.py",
+      "target": "function:tests/test_world_state.py:memory_db",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:tests/test_land_permits_canada_iaac.py",
+      "target": "function:tests/test_world_state.py:memory_db",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

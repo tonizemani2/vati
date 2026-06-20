@@ -2135,7 +2135,7 @@ textarea.w-input, textarea.w-select {
   --_theme---text-link--border-hover: var(--_theme---text);
   --_theme---text-link--text-hover: var(--_theme---text-link--text);
   --swatch--brand-100: color-mix(in srgb, var(--swatch--brand-500), white 90%);
-  --swatch--brand-500: #f5b13d;
+  --swatch--brand-500: #6d6afc;
   --_typography---font--secondary-family: "Gt Standard Mono N Md", Verdana, sans-serif;
   --_typography---font--secondary-medium: 500;
   --radius--xsmall: .5rem;
@@ -7499,8 +7499,10 @@ figure {
 }
 
 .results_card_top {
-  height: 23rem;
+  height: auto;
+  min-height: 20rem;
   padding: var(--_spacing---space--4);
+  padding-bottom: 6rem;
   background-color: var(--_theme---background);
   border: .0625rem solid #2020201f;
   border-radius: .5rem;
@@ -7510,7 +7512,7 @@ figure {
 }
 
 .results_wrap.u-grid-autofit {
-  --_column-count---value: 3;
+  --_column-count---value: 2;
   --_gap---size: var(--_spacing---space--3);
   grid-template-columns: repeat(auto-fit, minmax(min(max(18rem, (100% - ((var(--_column-count---value)  - 1) * var(--_gap---size))) / var(--_column-count---value)), 100%), 1fr));
 }
@@ -9228,7 +9230,8 @@ figure {
   }
 
   .results_card_top {
-    height: 22rem;
+    height: auto;
+    min-height: 22rem;
   }
 
   .swiper-slide.solutions-card {
@@ -9788,7 +9791,7 @@ figure {
   }
 
   .research_illustration_wrap {
-    height: 50rem;
+    height: auto;
   }
 
   .about_header_wrap.u-section.u-theme-dark.u-position-relative.u-ratio-16-9 {

@@ -1,0 +1,128 @@
+{
+  "nodes": [
+    {
+      "id": "file:landing/postcss.config.mjs",
+      "type": "file",
+      "name": "postcss.config.mjs",
+      "filePath": "landing/postcss.config.mjs",
+      "summary": "postcss.config.mjs is a code asset in the landing surface.",
+      "tags": [
+        "frontend",
+        "code",
+        "file",
+        "postcss-config"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:landing/scripts/extract2.mjs",
+      "type": "file",
+      "name": "extract2.mjs",
+      "filePath": "landing/scripts/extract2.mjs",
+      "summary": "extract2.mjs is a code asset in the landing surface. It contains 1 function.",
+      "tags": [
+        "frontend",
+        "code",
+        "file",
+        "extract2"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:landing/scripts/extract2.mjs:probe",
+      "type": "function",
+      "name": "probe",
+      "filePath": "landing/scripts/extract2.mjs",
+      "lineRange": [
+        26,
+        44
+      ],
+      "summary": "Defines probe in extract2.mjs, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "extract2"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:landing/scripts/recon.mjs",
+      "type": "file",
+      "name": "recon.mjs",
+      "filePath": "landing/scripts/recon.mjs",
+      "summary": "recon.mjs is a code asset in the landing surface.",
+      "tags": [
+        "frontend",
+        "code",
+        "file",
+        "recon"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "config:landing/tsconfig.json",
+      "type": "config",
+      "name": "tsconfig.json",
+      "filePath": "landing/tsconfig.json",
+      "summary": "Configuration file for tsconfig.json that shapes build, runtime, or tooling behavior in this repository.",
+      "tags": [
+        "configuration",
+        "typescript",
+        "build-system",
+        "frontend"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:landing/tsconfig.tsbuildinfo",
+      "type": "file",
+      "name": "tsconfig.tsbuildinfo",
+      "filePath": "landing/tsconfig.tsbuildinfo",
+      "summary": "tsconfig.tsbuildinfo is a code asset in the landing surface.",
+      "tags": [
+        "configuration",
+        "typescript",
+        "build-system",
+        "frontend",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:paper_beyond_brier/beyond_brier_zemani.md",
+      "type": "document",
+      "name": "beyond_brier_zemani.md",
+      "filePath": "paper_beyond_brier/beyond_brier_zemani.md",
+      "summary": "Documentation file covering beyond_brier_zemani for the Vati repository and its forecasting workflows.",
+      "tags": [
+        "documentation",
+        "document",
+        "docs",
+        "beyond-brier-zemani"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:paper_beyond_brier/beyond_brier_zemani.tex",
+      "type": "file",
+      "name": "beyond_brier_zemani.tex",
+      "filePath": "paper_beyond_brier/beyond_brier_zemani.tex",
+      "summary": "beyond_brier_zemani.tex is a code asset in the repository.",
+      "tags": [
+        "code",
+        "file",
+        "beyond-brier-zemani"
+      ],
+      "complexity": "complex"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:landing/scripts/extract2.mjs",
+      "target": "function:landing/scripts/extract2.mjs:probe",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    }
+  ]
+}

@@ -1,0 +1,1295 @@
+{
+  "nodes": [
+    {
+      "id": "file:engine/discover.py",
+      "type": "file",
+      "name": "discover.py",
+      "filePath": "engine/discover.py",
+      "summary": "discover.py is a code asset in the forecasting engine. It contains 7 functions, 1 class, 4 internal imports.",
+      "tags": [
+        "forecasting-engine",
+        "code",
+        "file",
+        "discover"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:engine/discover.py:pre_consensus",
+      "type": "function",
+      "name": "pre_consensus",
+      "filePath": "engine/discover.py",
+      "lineRange": [
+        91,
+        176
+      ],
+      "summary": "Defines pre_consensus in discover.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "discover"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/discover.py:_survivors",
+      "type": "function",
+      "name": "_survivors",
+      "filePath": "engine/discover.py",
+      "lineRange": [
+        182,
+        198
+      ],
+      "summary": "Defines _survivors in discover.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "discover"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/discover.py:run_scan",
+      "type": "function",
+      "name": "run_scan",
+      "filePath": "engine/discover.py",
+      "lineRange": [
+        201,
+        286
+      ],
+      "summary": "Defines run_scan in discover.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entry-point",
+        "discover"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/discover.py:_sec_ticker_map",
+      "type": "function",
+      "name": "_sec_ticker_map",
+      "filePath": "engine/discover.py",
+      "lineRange": [
+        312,
+        321
+      ],
+      "summary": "Defines _sec_ticker_map in discover.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "discover"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/discover.py:_resolve_entity",
+      "type": "function",
+      "name": "_resolve_entity",
+      "filePath": "engine/discover.py",
+      "lineRange": [
+        324,
+        328
+      ],
+      "summary": "Defines _resolve_entity in discover.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "discover"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/discover.py:propose_instruments",
+      "type": "function",
+      "name": "propose_instruments",
+      "filePath": "engine/discover.py",
+      "lineRange": [
+        331,
+        396
+      ],
+      "summary": "Defines propose_instruments in discover.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "discover"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/discover.py:price_entity",
+      "type": "function",
+      "name": "price_entity",
+      "filePath": "engine/discover.py",
+      "lineRange": [
+        399,
+        438
+      ],
+      "summary": "Defines price_entity in discover.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "discover"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:engine/discover.py:InstrumentProposal",
+      "type": "class",
+      "name": "InstrumentProposal",
+      "filePath": "engine/discover.py",
+      "lineRange": [
+        302,
+        309
+      ],
+      "summary": "Defines InstrumentProposal in discover.py, encapsulating reusable behavior or state for this module.",
+      "tags": [
+        "class",
+        "implementation",
+        "discover"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:engine/entity.py",
+      "type": "file",
+      "name": "entity.py",
+      "filePath": "engine/entity.py",
+      "summary": "entity.py is a code asset in the forecasting engine. It contains 6 functions, 4 internal imports.",
+      "tags": [
+        "forecasting-engine",
+        "code",
+        "file",
+        "entity"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:engine/entity.py:_upsert_entity",
+      "type": "function",
+      "name": "_upsert_entity",
+      "filePath": "engine/entity.py",
+      "lineRange": [
+        34,
+        50
+      ],
+      "summary": "Defines _upsert_entity in entity.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entity"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/entity.py:_upsert_link",
+      "type": "function",
+      "name": "_upsert_link",
+      "filePath": "engine/entity.py",
+      "lineRange": [
+        53,
+        62
+      ],
+      "summary": "Defines _upsert_link in entity.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entity"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/entity.py:_series",
+      "type": "function",
+      "name": "_series",
+      "filePath": "engine/entity.py",
+      "lineRange": [
+        68,
+        69
+      ],
+      "summary": "Defines _series in entity.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entity"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/entity.py:_node",
+      "type": "function",
+      "name": "_node",
+      "filePath": "engine/entity.py",
+      "lineRange": [
+        72,
+        75
+      ],
+      "summary": "Defines _node in entity.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entity"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/entity.py:seed",
+      "type": "function",
+      "name": "seed",
+      "filePath": "engine/entity.py",
+      "lineRange": [
+        272,
+        314
+      ],
+      "summary": "Defines seed in entity.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entity"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/entity.py:list_entities",
+      "type": "function",
+      "name": "list_entities",
+      "filePath": "engine/entity.py",
+      "lineRange": [
+        317,
+        331
+      ],
+      "summary": "Defines list_entities in entity.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entity"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:engine/entity_candidates.py",
+      "type": "file",
+      "name": "entity_candidates.py",
+      "filePath": "engine/entity_candidates.py",
+      "summary": "entity_candidates.py is a code asset in the forecasting engine. It contains 16 functions, 3 internal imports.",
+      "tags": [
+        "forecasting-engine",
+        "code",
+        "file",
+        "entity-candidates"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:engine/entity_candidates.py:_toks",
+      "type": "function",
+      "name": "_toks",
+      "filePath": "engine/entity_candidates.py",
+      "lineRange": [
+        31,
+        32
+      ],
+      "summary": "Defines _toks in entity_candidates.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entity-candidates"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/entity_candidates.py:_entity_index",
+      "type": "function",
+      "name": "_entity_index",
+      "filePath": "engine/entity_candidates.py",
+      "lineRange": [
+        35,
+        50
+      ],
+      "summary": "Defines _entity_index in entity_candidates.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entity-candidates"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/entity_candidates.py:_linked_series",
+      "type": "function",
+      "name": "_linked_series",
+      "filePath": "engine/entity_candidates.py",
+      "lineRange": [
+        53,
+        55
+      ],
+      "summary": "Defines _linked_series in entity_candidates.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entity-candidates"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/entity_candidates.py:_proposed_keys",
+      "type": "function",
+      "name": "_proposed_keys",
+      "filePath": "engine/entity_candidates.py",
+      "lineRange": [
+        58,
+        60
+      ],
+      "summary": "Defines _proposed_keys in entity_candidates.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entity-candidates"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/entity_candidates.py:generate",
+      "type": "function",
+      "name": "generate",
+      "filePath": "engine/entity_candidates.py",
+      "lineRange": [
+        63,
+        102
+      ],
+      "summary": "Defines generate in entity_candidates.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entity-candidates"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/entity_candidates.py:_insert_candidate",
+      "type": "function",
+      "name": "_insert_candidate",
+      "filePath": "engine/entity_candidates.py",
+      "lineRange": [
+        105,
+        113
+      ],
+      "summary": "Defines _insert_candidate in entity_candidates.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entity-candidates"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/entity_candidates.py:list_proposed",
+      "type": "function",
+      "name": "list_proposed",
+      "filePath": "engine/entity_candidates.py",
+      "lineRange": [
+        116,
+        127
+      ],
+      "summary": "Defines list_proposed in entity_candidates.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entity-candidates"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/entity_candidates.py:accept",
+      "type": "function",
+      "name": "accept",
+      "filePath": "engine/entity_candidates.py",
+      "lineRange": [
+        130,
+        149
+      ],
+      "summary": "Defines accept in entity_candidates.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entity-candidates"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/entity_candidates.py:reject",
+      "type": "function",
+      "name": "reject",
+      "filePath": "engine/entity_candidates.py",
+      "lineRange": [
+        152,
+        155
+      ],
+      "summary": "Defines reject in entity_candidates.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entity-candidates"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/entity_candidates.py:add_edge",
+      "type": "function",
+      "name": "add_edge",
+      "filePath": "engine/entity_candidates.py",
+      "lineRange": [
+        158,
+        170
+      ],
+      "summary": "Defines add_edge in entity_candidates.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entity-candidates"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/entity_candidates.py:seed_supplier_edges",
+      "type": "function",
+      "name": "seed_supplier_edges",
+      "filePath": "engine/entity_candidates.py",
+      "lineRange": [
+        219,
+        241
+      ],
+      "summary": "Defines seed_supplier_edges in entity_candidates.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entity-candidates"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/entity_candidates.py:_core",
+      "type": "function",
+      "name": "_core",
+      "filePath": "engine/entity_candidates.py",
+      "lineRange": [
+        434,
+        437
+      ],
+      "summary": "Defines _core in entity_candidates.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entity-candidates"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/entity_candidates.py:_infer_domain",
+      "type": "function",
+      "name": "_infer_domain",
+      "filePath": "engine/entity_candidates.py",
+      "lineRange": [
+        440,
+        444
+      ],
+      "summary": "Defines _infer_domain in entity_candidates.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entry-point",
+        "entity-candidates"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/entity_candidates.py:_resolve",
+      "type": "function",
+      "name": "_resolve",
+      "filePath": "engine/entity_candidates.py",
+      "lineRange": [
+        447,
+        473
+      ],
+      "summary": "Defines _resolve in entity_candidates.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entity-candidates"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/entity_candidates.py:_p1_display_map",
+      "type": "function",
+      "name": "_p1_display_map",
+      "filePath": "engine/entity_candidates.py",
+      "lineRange": [
+        476,
+        496
+      ],
+      "summary": "Defines _p1_display_map in entity_candidates.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entity-candidates"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/entity_candidates.py:seed_taxonomy",
+      "type": "function",
+      "name": "seed_taxonomy",
+      "filePath": "engine/entity_candidates.py",
+      "lineRange": [
+        499,
+        538
+      ],
+      "summary": "Defines seed_taxonomy in entity_candidates.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entity-candidates"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:engine/discover.py",
+      "target": "function:engine/discover.py:pre_consensus",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/discover.py",
+      "target": "function:engine/discover.py:pre_consensus",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/discover.py",
+      "target": "function:engine/discover.py:_survivors",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/discover.py",
+      "target": "function:engine/discover.py:_survivors",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/discover.py",
+      "target": "function:engine/discover.py:run_scan",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/discover.py",
+      "target": "function:engine/discover.py:run_scan",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/discover.py",
+      "target": "function:engine/discover.py:_sec_ticker_map",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/discover.py",
+      "target": "function:engine/discover.py:_sec_ticker_map",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/discover.py",
+      "target": "function:engine/discover.py:_resolve_entity",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/discover.py",
+      "target": "function:engine/discover.py:_resolve_entity",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/discover.py",
+      "target": "function:engine/discover.py:propose_instruments",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/discover.py",
+      "target": "function:engine/discover.py:propose_instruments",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/discover.py",
+      "target": "function:engine/discover.py:price_entity",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/discover.py",
+      "target": "function:engine/discover.py:price_entity",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/discover.py",
+      "target": "class:engine/discover.py:InstrumentProposal",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/discover.py",
+      "target": "class:engine/discover.py:InstrumentProposal",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/entity.py",
+      "target": "function:engine/entity.py:_upsert_entity",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/entity.py",
+      "target": "function:engine/entity.py:_upsert_entity",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/entity.py",
+      "target": "function:engine/entity.py:_upsert_link",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/entity.py",
+      "target": "function:engine/entity.py:_upsert_link",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/entity.py",
+      "target": "function:engine/entity.py:_series",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/entity.py",
+      "target": "function:engine/entity.py:_series",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/entity.py",
+      "target": "function:engine/entity.py:_node",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/entity.py",
+      "target": "function:engine/entity.py:_node",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/entity.py",
+      "target": "function:engine/entity.py:seed",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/entity.py",
+      "target": "function:engine/entity.py:seed",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/entity.py",
+      "target": "function:engine/entity.py:list_entities",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/entity.py",
+      "target": "function:engine/entity.py:list_entities",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/entity_candidates.py",
+      "target": "function:engine/entity_candidates.py:_toks",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/entity_candidates.py",
+      "target": "function:engine/entity_candidates.py:_toks",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/entity_candidates.py",
+      "target": "function:engine/entity_candidates.py:_entity_index",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/entity_candidates.py",
+      "target": "function:engine/entity_candidates.py:_entity_index",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/entity_candidates.py",
+      "target": "function:engine/entity_candidates.py:_linked_series",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/entity_candidates.py",
+      "target": "function:engine/entity_candidates.py:_linked_series",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/entity_candidates.py",
+      "target": "function:engine/entity_candidates.py:_proposed_keys",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/entity_candidates.py",
+      "target": "function:engine/entity_candidates.py:_proposed_keys",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/entity_candidates.py",
+      "target": "function:engine/entity_candidates.py:generate",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/entity_candidates.py",
+      "target": "function:engine/entity_candidates.py:generate",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/entity_candidates.py",
+      "target": "function:engine/entity_candidates.py:_insert_candidate",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/entity_candidates.py",
+      "target": "function:engine/entity_candidates.py:_insert_candidate",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/entity_candidates.py",
+      "target": "function:engine/entity_candidates.py:list_proposed",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/entity_candidates.py",
+      "target": "function:engine/entity_candidates.py:list_proposed",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/entity_candidates.py",
+      "target": "function:engine/entity_candidates.py:accept",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/entity_candidates.py",
+      "target": "function:engine/entity_candidates.py:accept",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/entity_candidates.py",
+      "target": "function:engine/entity_candidates.py:reject",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/entity_candidates.py",
+      "target": "function:engine/entity_candidates.py:reject",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/entity_candidates.py",
+      "target": "function:engine/entity_candidates.py:add_edge",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/entity_candidates.py",
+      "target": "function:engine/entity_candidates.py:add_edge",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/entity_candidates.py",
+      "target": "function:engine/entity_candidates.py:seed_supplier_edges",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/entity_candidates.py",
+      "target": "function:engine/entity_candidates.py:seed_supplier_edges",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/entity_candidates.py",
+      "target": "function:engine/entity_candidates.py:_core",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/entity_candidates.py",
+      "target": "function:engine/entity_candidates.py:_core",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/entity_candidates.py",
+      "target": "function:engine/entity_candidates.py:_infer_domain",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/entity_candidates.py",
+      "target": "function:engine/entity_candidates.py:_infer_domain",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/entity_candidates.py",
+      "target": "function:engine/entity_candidates.py:_resolve",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/entity_candidates.py",
+      "target": "function:engine/entity_candidates.py:_resolve",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/entity_candidates.py",
+      "target": "function:engine/entity_candidates.py:_p1_display_map",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/entity_candidates.py",
+      "target": "function:engine/entity_candidates.py:_p1_display_map",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/entity_candidates.py",
+      "target": "function:engine/entity_candidates.py:seed_taxonomy",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/entity_candidates.py",
+      "target": "function:engine/entity_candidates.py:seed_taxonomy",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/discover.py",
+      "target": "file:engine/__init__.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/discover.py",
+      "target": "file:engine/detector.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/discover.py",
+      "target": "file:engine/quality.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/discover.py",
+      "target": "file:engine/significance.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/entity.py",
+      "target": "file:engine/__init__.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/entity.py",
+      "target": "file:engine/db.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/entity.py",
+      "target": "file:engine/pillars/frontier.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/entity.py",
+      "target": "file:engine/schemas.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/entity_candidates.py",
+      "target": "file:engine/__init__.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/entity_candidates.py",
+      "target": "file:engine/entity.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/entity_candidates.py",
+      "target": "file:engine/schemas.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "function:engine/discover.py:run_scan",
+      "target": "function:engine/discover.py:_survivors",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/discover.py:run_scan",
+      "target": "function:engine/discover.py:pre_consensus",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/discover.py:propose_instruments",
+      "target": "function:engine/discover.py:_resolve_entity",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/discover.py:propose_instruments",
+      "target": "function:engine/discover.py:pre_consensus",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/discover.py:propose_instruments",
+      "target": "function:engine/discover.py:_sec_ticker_map",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/discover.py:price_entity",
+      "target": "function:engine/discover.py:_resolve_entity",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/discover.py:price_entity",
+      "target": "function:engine/discover.py:_sec_ticker_map",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/entity.py:seed",
+      "target": "function:engine/pillars/frontier.py:_log_cost",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/entity.py:seed",
+      "target": "function:engine/entity.py:_upsert_entity",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/entity.py:seed",
+      "target": "function:engine/entity.py:_series",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/entity.py:seed",
+      "target": "function:engine/entity.py:_node",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/entity.py:seed",
+      "target": "function:engine/entity.py:_upsert_link",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/entity.py:seed",
+      "target": "class:engine/schemas.py:EntityLink",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/entity_candidates.py:_entity_index",
+      "target": "function:engine/entity_candidates.py:_toks",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/entity_candidates.py:generate",
+      "target": "function:engine/entity_candidates.py:_entity_index",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/entity_candidates.py:generate",
+      "target": "function:engine/entity_candidates.py:_linked_series",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/entity_candidates.py:generate",
+      "target": "function:engine/entity_candidates.py:_proposed_keys",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/entity_candidates.py:generate",
+      "target": "function:engine/entity_candidates.py:_toks",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/entity_candidates.py:generate",
+      "target": "class:engine/schemas.py:EntityCandidate",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/entity_candidates.py:generate",
+      "target": "function:engine/entity_candidates.py:_insert_candidate",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/entity_candidates.py:accept",
+      "target": "class:engine/schemas.py:EntityLink",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/entity_candidates.py:accept",
+      "target": "function:engine/schemas.py:_now",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/entity_candidates.py:reject",
+      "target": "function:engine/schemas.py:_now",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/entity_candidates.py:add_edge",
+      "target": "class:engine/schemas.py:EntityEdge",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/entity_candidates.py:seed_supplier_edges",
+      "target": "function:engine/entity_candidates.py:add_edge",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/entity_candidates.py:_resolve",
+      "target": "function:engine/entity_candidates.py:_core",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/entity_candidates.py:_p1_display_map",
+      "target": "function:engine/entity_candidates.py:_core",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/entity_candidates.py:seed_taxonomy",
+      "target": "function:engine/entity_candidates.py:_linked_series",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/entity_candidates.py:seed_taxonomy",
+      "target": "function:engine/entity_candidates.py:_p1_display_map",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/entity_candidates.py:seed_taxonomy",
+      "target": "function:engine/entity_candidates.py:_resolve",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/entity_candidates.py:seed_taxonomy",
+      "target": "function:engine/entity_candidates.py:_infer_domain",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/entity_candidates.py:seed_taxonomy",
+      "target": "function:engine/entity_candidates.py:_core",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/entity_candidates.py:seed_taxonomy",
+      "target": "class:engine/schemas.py:Entity",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/entity_candidates.py:seed_taxonomy",
+      "target": "class:engine/schemas.py:EntityLink",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

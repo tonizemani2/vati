@@ -70,14 +70,13 @@ def _parse(text: str):
 
 
 def forecast_one(conn, q: dict, due, model: str | None = None):
-    """One MiniMax-backed forecast -> (p, reasoning), or None on any failure."""
+    """One Opus-backed (Bedrock) forecast -> (p, reasoning), or None on any failure.
+    Switched off MiniMax 2026-06-16 (Ruben) — Opus only. Bedrock cost is on credits + gate-logged."""
     from engine.adapters import llm
     try:
-        # MiniMax-M2.7 is a reasoning model: it thinks in the body before the JSON,
-        # so give it room or the answer gets truncated away.
-        txt = llm.complete(conn, _prompt(q, due), provider="minimax",
-                           system=SYSTEM, model=model, est_cost_cents=0,
-                           max_tokens=1400)
+        txt = llm.complete(conn, _prompt(q, due), provider="bedrock",
+                           system=SYSTEM, model=model or llm.BEDROCK_DEFAULT_MODEL,
+                           est_cost_cents=0, max_tokens=1400)
     except Exception:
         return None
     return _parse(txt)
@@ -94,6 +93,7 @@ def fill_gaps(gap_questions, due, model: str | None = None) -> dict:
     try:
         from engine import db
         conn = db.connect()
+        db.init_db(conn)
     except Exception:
         return {}
     out = {}

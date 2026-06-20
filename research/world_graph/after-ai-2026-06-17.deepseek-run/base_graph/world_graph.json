@@ -1,0 +1,3516 @@
+{
+  "agent_roster": [
+    {
+      "id": "A01",
+      "inputs": "Pope board, world-state pack, prior atlas",
+      "mission": "Map entities, constraints, dependencies, and missing edges before new theses are written.",
+      "outputs": "node_edge_patch.json, merge_notes.md",
+      "role": "graph_cartographer"
+    },
+    {
+      "id": "A02",
+      "inputs": "papers, patents, model/cost curves, technical roadmaps",
+      "mission": "Identify the capability frontier and the exact technical change that creates new demand.",
+      "outputs": "frontier_state.md, capability_edges.csv",
+      "role": "frontier_capability"
+    },
+    {
+      "id": "A03",
+      "inputs": "supplier data, bills of materials, process steps, physical constraints",
+      "mission": "Trace value chains one layer deeper than the obvious bottleneck.",
+      "outputs": "dependency_edges.csv, weakest_link_notes.md",
+      "role": "dependency_chain"
+    },
+    {
+      "id": "A04",
+      "inputs": "capacity, lead times, permits, capex, qualification cycles",
+      "mission": "Estimate which nodes cannot scale on the forecast horizon and why.",
+      "outputs": "elasticity_table.csv, bottleneck_candidates.md",
+      "role": "supply_elasticity"
+    },
+    {
+      "id": "A05",
+      "inputs": "prices, multiples, order books, analyst notes, public narratives",
+      "mission": "Decide whether the market, buyers, and expert consensus already price the thesis.",
+      "outputs": "pricing_gate.md, saturation_score.json",
+      "role": "pricing_gate"
+    },
+    {
+      "id": "A06",
+      "inputs": "official rules, dockets, sanctions, export controls, permits",
+      "mission": "Map laws, permits, trade controls, regulators, and state chokepoints.",
+      "outputs": "policy_edges.csv, docket_queue.csv",
+      "role": "policy_geopolitics"
+    },
+    {
+      "id": "A07",
+      "inputs": "filings, grants, capex plans, project finance, procurement",
+      "mission": "Track who is funding capacity and where capital cannot remove the constraint.",
+      "outputs": "capital_map.csv, capital_blind_spots.md",
+      "role": "capital_flows"
+    },
+    {
+      "id": "A08",
+      "inputs": "adoption data, customer announcements, orders, utilization",
+      "mission": "Quantify the downstream demand forcing function and its timing.",
+      "outputs": "demand_trace.csv, demand_refute.md",
+      "role": "demand_shock"
+    },
+    {
+      "id": "A09",
+      "inputs": "labor markets, litigation, acceptance, demographics, climate data",
+      "mission": "Surface social, labor, legal, climate, and narrative forces the hard data may miss.",
+      "outputs": "forces_edges.csv, blind_spots.md",
+      "role": "forces_scan"
+    },
+    {
+      "id": "A10",
+      "inputs": "candidate edges, price checks, substitutes, counterevidence",
+      "mission": "Try to kill each promoted edge, especially with already-priced and substitute arguments.",
+      "outputs": "refute_log.md, demotions.json",
+      "role": "adversarial_refute"
+    },
+    {
+      "id": "A11",
+      "inputs": "promoted graph edges, refute log, uncertainty queue",
+      "mission": "Build compatible future states instead of isolated predictions.",
+      "outputs": "scenario_tree.json, branch_probabilities.csv",
+      "role": "scenario_architect"
+    },
+    {
+      "id": "A12",
+      "inputs": "promoted constraints, buyer segments, watchlist",
+      "mission": "Turn high-value nodes into permits, projects, people, contacts, and verification tasks.",
+      "outputs": "task_queue.csv, contacts_seed.csv, verification_ledger.md",
+      "role": "ultra_operator"
+    },
+    {
+      "id": "A13",
+      "inputs": "forecast clauses, metrics, source availability",
+      "mission": "Define the exact observables, cadence, kill conditions, and scoring records.",
+      "outputs": "watchlist.csv, scorecard.jsonl, monitor_runbook.md",
+      "role": "monitoring_scorecard"
+    }
+  ],
+  "coverage": {
+    "checks": [
+      {
+        "count": "1",
+        "id": "node_kind_domain",
+        "label": "Node kind: domain",
+        "note": "1 node(s)",
+        "status": "covered"
+      },
+      {
+        "count": "6",
+        "id": "node_kind_thesis",
+        "label": "Node kind: thesis",
+        "note": "6 node(s)",
+        "status": "covered"
+      },
+      {
+        "count": "18",
+        "id": "node_kind_constraint",
+        "label": "Node kind: constraint",
+        "note": "18 node(s)",
+        "status": "covered"
+      },
+      {
+        "count": "6",
+        "id": "node_kind_forecast_clause",
+        "label": "Node kind: forecast_clause",
+        "note": "6 node(s)",
+        "status": "covered"
+      },
+      {
+        "count": "6",
+        "id": "node_kind_metric",
+        "label": "Node kind: metric",
+        "note": "6 node(s)",
+        "status": "covered"
+      },
+      {
+        "count": "6",
+        "id": "node_kind_kill_condition",
+        "label": "Node kind: kill_condition",
+        "note": "6 node(s)",
+        "status": "covered"
+      },
+      {
+        "count": "6",
+        "id": "node_kind_observable",
+        "label": "Node kind: observable",
+        "note": "6 node(s)",
+        "status": "covered"
+      },
+      {
+        "count": "6",
+        "id": "node_kind_buyer_segment",
+        "label": "Node kind: buyer_segment",
+        "note": "6 node(s)",
+        "status": "covered"
+      },
+      {
+        "count": "18",
+        "id": "node_kind_action",
+        "label": "Node kind: action",
+        "note": "18 node(s)",
+        "status": "covered"
+      },
+      {
+        "count": "12",
+        "id": "node_kind_price_channel",
+        "label": "Node kind: price_channel",
+        "note": "12 node(s)",
+        "status": "covered"
+      },
+      {
+        "count": "18",
+        "id": "node_kind_winner",
+        "label": "Node kind: winner",
+        "note": "18 node(s)",
+        "status": "covered"
+      },
+      {
+        "count": "12",
+        "id": "node_kind_loser",
+        "label": "Node kind: loser",
+        "note": "12 node(s)",
+        "status": "covered"
+      },
+      {
+        "count": "1",
+        "id": "node_kind_source",
+        "label": "Node kind: source",
+        "note": "1 node(s)",
+        "status": "covered"
+      },
+      {
+        "count": "1",
+        "id": "edge_rel_identifies_constraint",
+        "label": "Edge relation: identifies_constraint",
+        "note": "Relation exists.",
+        "status": "covered"
+      },
+      {
+        "count": "1",
+        "id": "edge_rel_resolved_by",
+        "label": "Edge relation: resolved_by",
+        "note": "Relation exists.",
+        "status": "covered"
+      },
+      {
+        "count": "1",
+        "id": "edge_rel_falsified_by",
+        "label": "Edge relation: falsified_by",
+        "note": "Relation exists.",
+        "status": "covered"
+      },
+      {
+        "count": "1",
+        "id": "edge_rel_priced_through",
+        "label": "Edge relation: priced_through",
+        "note": "Relation exists.",
+        "status": "covered"
+      },
+      {
+        "count": "1",
+        "id": "edge_rel_watched_by",
+        "label": "Edge relation: watched_by",
+        "note": "Relation exists.",
+        "status": "covered"
+      },
+      {
+        "count": "",
+        "id": "layer_frontier",
+        "label": "Frontier",
+        "note": "Layer has at least one proxy in the atlas.",
+        "status": "covered"
+      },
+      {
+        "count": "",
+        "id": "layer_capability",
+        "label": "Capability",
+        "note": "Layer has at least one proxy in the atlas.",
+        "status": "covered"
+      },
+      {
+        "count": "",
+        "id": "layer_dependency",
+        "label": "Dependency graph",
+        "note": "Layer has at least one proxy in the atlas.",
+        "status": "covered"
+      },
+      {
+        "count": "",
+        "id": "layer_supply",
+        "label": "Supply elasticity",
+        "note": "Layer has at least one proxy in the atlas.",
+        "status": "covered"
+      },
+      {
+        "count": "",
+        "id": "layer_demand",
+        "label": "Demand",
+        "note": "Layer has at least one proxy in the atlas.",
+        "status": "covered"
+      },
+      {
+        "count": "",
+        "id": "layer_capital",
+        "label": "Capital",
+        "note": "Layer has at least one proxy in the atlas.",
+        "status": "covered"
+      },
+      {
+        "count": "",
+        "id": "layer_pricing",
+        "label": "Pricing",
+        "note": "Layer has at least one proxy in the atlas.",
+        "status": "covered"
+      },
+      {
+        "count": "",
+        "id": "layer_policy",
+        "label": "Policy and geopolitics",
+        "note": "Layer has at least one proxy in the atlas.",
+        "status": "covered"
+      },
+      {
+        "count": "",
+        "id": "layer_outcome",
+        "label": "Outcome",
+        "note": "Layer has at least one proxy in the atlas.",
+        "status": "covered"
+      },
+      {
+        "count": "",
+        "id": "layer_forces",
+        "label": "Forces",
+        "note": "Layer has at least one proxy in the atlas.",
+        "status": "covered"
+      },
+      {
+        "count": "6",
+        "id": "verification_source_pack",
+        "label": "Primary source packs",
+        "note": "6 open task(s) remain.",
+        "status": "gap"
+      },
+      {
+        "count": "6",
+        "id": "verification_substitute_path",
+        "label": "Substitute and refute paths",
+        "note": "6 open task(s) remain.",
+        "status": "gap"
+      },
+      {
+        "count": "6",
+        "id": "verification_scenario_branch",
+        "label": "Scenario branches",
+        "note": "6 open task(s) remain.",
+        "status": "gap"
+      },
+      {
+        "count": "6",
+        "id": "verification_entity_resolution",
+        "label": "Canonical entity resolution",
+        "note": "6 open task(s) remain.",
+        "status": "gap"
+      },
+      {
+        "count": "0",
+        "id": "verification_source_verified_nodes",
+        "label": "Source-verified decision-grade nodes",
+        "note": "No decision-grade source-verified nodes yet.",
+        "status": "gap"
+      }
+    ],
+    "kind_counts": {
+      "action": 18,
+      "buyer_segment": 6,
+      "constraint": 18,
+      "domain": 1,
+      "forecast_clause": 6,
+      "kill_condition": 6,
+      "loser": 12,
+      "metric": 6,
+      "observable": 6,
+      "price_channel": 12,
+      "source": 1,
+      "thesis": 6,
+      "winner": 18
+    },
+    "score": 85
+  },
+  "edges": [
+    {
+      "confidence": 1.0,
+      "dst": "n-domain-what-comes-next-after-ai-093b9fee",
+      "id": "e-n-source-research-pope-after-ai-2026-06-17-json-afabfe46-describes-n-domain-what-f011f164",
+      "rationale": "The Pope board is the source artifact for this domain map.",
+      "rel": "describes",
+      "src": "n-source-research-pope-after-ai-2026-06-17-json-afabfe46",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.9,
+      "dst": "n-thesis-p1-the-ai-frontier-moves-from-model-access-to-firm-power-siting-b3db70cf",
+      "id": "e-n-domain-what-comes-next-after-ai-093b9fee-contains-thesis-n-thesis-p1-the-ai-fr-2f3e2afd",
+      "rationale": "The board domain contains this forecast thesis.",
+      "rel": "contains_thesis",
+      "src": "n-domain-what-comes-next-after-ai-093b9fee",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 1.0,
+      "dst": "n-thesis-p1-the-ai-frontier-moves-from-model-access-to-firm-power-siting-b3db70cf",
+      "id": "e-n-source-research-pope-after-ai-2026-06-17-json-afabfe46-states-n-thesis-p1-the-b1b1b216",
+      "rationale": "The source board states this thesis.",
+      "rel": "states",
+      "src": "n-source-research-pope-after-ai-2026-06-17-json-afabfe46",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.7,
+      "dst": "n-constraint-contiguous-land-fiber-proximity-behind-the-meter-firm-generation-righ-ced7941b",
+      "id": "e-n-thesis-p1-the-ai-frontier-moves-from-model-access-to-firm-power-siting-b3db70c-dec597b3",
+      "rationale": "The thesis claims this is the binding constraint.",
+      "rel": "identifies_constraint",
+      "src": "n-thesis-p1-the-ai-frontier-moves-from-model-access-to-firm-power-siting-b3db70cf",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.8,
+      "dst": "n-metric-track-hyperscaler-and-data-center-developer-announcements-that-name-on-si-f5493b8f",
+      "id": "e-n-thesis-p1-the-ai-frontier-moves-from-model-access-to-firm-power-siting-b3db70c-7b7ad9dd",
+      "rationale": "The forecast clause resolves through this metric.",
+      "rel": "resolved_by",
+      "src": "n-thesis-p1-the-ai-frontier-moves-from-model-access-to-firm-power-siting-b3db70cf",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.65,
+      "dst": "n-metric-track-hyperscaler-and-data-center-developer-announcements-that-name-on-si-f5493b8f",
+      "id": "e-n-constraint-contiguous-land-fiber-proximity-behind-the-meter-firm-generation-ri-b8ad8b80",
+      "rationale": "This metric is an observable proxy for the constraint.",
+      "rel": "observed_by",
+      "src": "n-constraint-contiguous-land-fiber-proximity-behind-the-meter-firm-generation-righ-ced7941b",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.9,
+      "dst": "n-kill-condition-kill-if-by-end-2028-fewer-than-two-hyperscaler-scale-campuses-pub-495cf67f",
+      "id": "e-n-thesis-p1-the-ai-frontier-moves-from-model-access-to-firm-power-siting-b3db70c-34fea454",
+      "rationale": "This condition kills or falsifies the thesis.",
+      "rel": "falsified_by",
+      "src": "n-thesis-p1-the-ai-frontier-moves-from-model-access-to-firm-power-siting-b3db70cf",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.65,
+      "dst": "n-price-channel-transformer-shortage-and-grid-congestion-are-visible-the-residual-1a4676ce",
+      "id": "e-n-thesis-p1-the-ai-frontier-moves-from-model-access-to-firm-power-siting-b3db70c-5c5d276c",
+      "rationale": "The pricing gate should inspect this channel.",
+      "rel": "priced_through",
+      "src": "n-thesis-p1-the-ai-frontier-moves-from-model-access-to-firm-power-siting-b3db70cf",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.65,
+      "dst": "n-buyer-segment-hyperscaler-infrastructure-teams-data-center-developers-power-deve-fd355967",
+      "id": "e-n-thesis-p1-the-ai-frontier-moves-from-model-access-to-firm-power-siting-b3db70c-4972bc05",
+      "rationale": "This buyer or operator is exposed to the forecast.",
+      "rel": "exposes",
+      "src": "n-thesis-p1-the-ai-frontier-moves-from-model-access-to-firm-power-siting-b3db70cf",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.65,
+      "dst": "n-action-map-sites-by-firm-power-time-to-energize-not-just-land-cost-and-fiber-sec-a462366b",
+      "id": "e-n-thesis-p1-the-ai-frontier-moves-from-model-access-to-firm-power-siting-b3db70c-5d82c387",
+      "rationale": "If the thesis is right, this action changes now.",
+      "rel": "changes_action",
+      "src": "n-thesis-p1-the-ai-frontier-moves-from-model-access-to-firm-power-siting-b3db70cf",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.75,
+      "dst": "n-observable-a-hyperscaler-or-top-data-center-reit-announcing-a-100-mw-plus-campus-ee448776",
+      "id": "e-n-thesis-p1-the-ai-frontier-moves-from-model-access-to-firm-power-siting-b3db70c-4c864bc1",
+      "rationale": "This is the earliest observable signal to monitor.",
+      "rel": "watched_by",
+      "src": "n-thesis-p1-the-ai-frontier-moves-from-model-access-to-firm-power-siting-b3db70cf",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.65,
+      "dst": "n-observable-a-hyperscaler-or-top-data-center-reit-announcing-a-100-mw-plus-campus-ee448776",
+      "id": "e-n-constraint-contiguous-land-fiber-proximity-behind-the-meter-firm-generation-ri-df248614",
+      "rationale": "The constraint should emit this signal if the thesis is becoming true.",
+      "rel": "emits_signal",
+      "src": "n-constraint-contiguous-land-fiber-proximity-behind-the-meter-firm-generation-righ-ced7941b",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "dst": "n-winner-geothermal-and-clean-firm-power-developers-d26c8b7d",
+      "id": "e-n-thesis-p1-the-ai-frontier-moves-from-model-access-to-firm-power-siting-b3db70c-9bc948c7",
+      "rationale": "The thesis names this winner: They turn data-center load into a bankable offtake and bypass part of the grid queue.",
+      "rel": "creates_winner",
+      "src": "n-thesis-p1-the-ai-frontier-moves-from-model-access-to-firm-power-siting-b3db70cf",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "dst": "n-winner-data-center-developers-with-power-secured-land-9d1fcc54",
+      "id": "e-n-thesis-p1-the-ai-frontier-moves-from-model-access-to-firm-power-siting-b3db70c-10322695",
+      "rationale": "The thesis names this winner: They can sell time-to-energize, not square footage.",
+      "rel": "creates_winner",
+      "src": "n-thesis-p1-the-ai-frontier-moves-from-model-access-to-firm-power-siting-b3db70cf",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "dst": "n-winner-hyperscalers-with-flexible-inference-siting-0745b147",
+      "id": "e-n-thesis-p1-the-ai-frontier-moves-from-model-access-to-firm-power-siting-b3db70c-42af04e8",
+      "rationale": "The thesis names this winner: Inference workloads can move toward power instead of clustering only near legacy hubs.",
+      "rel": "creates_winner",
+      "src": "n-thesis-p1-the-ai-frontier-moves-from-model-access-to-firm-power-siting-b3db70cf",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "dst": "n-loser-grid-dependent-campus-projects-in-congested-markets-aab89810",
+      "id": "e-n-thesis-p1-the-ai-frontier-moves-from-model-access-to-firm-power-siting-b3db70c-56dfdd3a",
+      "rationale": "The thesis names this loser: They face transformer, interconnection, and local consent delays that make announced capacity less real.",
+      "rel": "creates_loser",
+      "src": "n-thesis-p1-the-ai-frontier-moves-from-model-access-to-firm-power-siting-b3db70cf",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "dst": "n-loser-ai-infrastructure-investors-underwriting-shell-capacity-only-19dd6ae3",
+      "id": "e-n-thesis-p1-the-ai-frontier-moves-from-model-access-to-firm-power-siting-b3db70c-4307e16d",
+      "rationale": "The thesis names this loser: They risk owning buildings that cannot be energized on the underwriting timeline.",
+      "rel": "creates_loser",
+      "src": "n-thesis-p1-the-ai-frontier-moves-from-model-access-to-firm-power-siting-b3db70cf",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "dst": "n-constraint-rent-lands-in-developers-and-landowners-with-power-secured-campuses-g-43019856",
+      "id": "e-n-thesis-p1-the-ai-frontier-moves-from-model-access-to-firm-power-siting-b3db70c-b5743779",
+      "rationale": "Derived from implications.rent_path.",
+      "rel": "moves_rent_to",
+      "src": "n-thesis-p1-the-ai-frontier-moves-from-model-access-to-firm-power-siting-b3db70cf",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "dst": "n-constraint-the-next-constraint-moves-to-drilling-capacity-high-voltage-equipment-6742ca22",
+      "id": "e-n-thesis-p1-the-ai-frontier-moves-from-model-access-to-firm-power-siting-b3db70c-c041d448",
+      "rationale": "Derived from implications.next_constraint.",
+      "rel": "creates_next_constraint",
+      "src": "n-thesis-p1-the-ai-frontier-moves-from-model-access-to-firm-power-siting-b3db70cf",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "dst": "n-constraint-the-next-constraint-moves-to-drilling-capacity-high-voltage-equipment-6742ca22",
+      "id": "e-n-constraint-contiguous-land-fiber-proximity-behind-the-meter-firm-generation-ri-dd8fb20e",
+      "rationale": "The thesis says this constraint creates a next constraint.",
+      "rel": "migrates_to",
+      "src": "n-constraint-contiguous-land-fiber-proximity-behind-the-meter-firm-generation-righ-ced7941b",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "dst": "n-price-channel-power-secured-land-options-behind-the-meter-ppas-geothermal-develo-8b047c51",
+      "id": "e-n-thesis-p1-the-ai-frontier-moves-from-model-access-to-firm-power-siting-b3db70c-a8be82ae",
+      "rationale": "Derived from implications.reprices.",
+      "rel": "reprices",
+      "src": "n-thesis-p1-the-ai-frontier-moves-from-model-access-to-firm-power-siting-b3db70cf",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "dst": "n-action-data-center-site-selection-ppa-strategy-power-development-partnerships-ca-8454863b",
+      "id": "e-n-thesis-p1-the-ai-frontier-moves-from-model-access-to-firm-power-siting-b3db70c-82b4592d",
+      "rationale": "Derived from implications.decision_changed.",
+      "rel": "changes_decision",
+      "src": "n-thesis-p1-the-ai-frontier-moves-from-model-access-to-firm-power-siting-b3db70cf",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "dst": "n-action-a-site-that-energizes-12-to-24-months-earlier-can-be-worth-more-than-a-ch-719c385a",
+      "id": "e-n-thesis-p1-the-ai-frontier-moves-from-model-access-to-firm-power-siting-b3db70c-fc42e049",
+      "rationale": "Derived from implications.roi_logic.",
+      "rel": "justified_by_roi",
+      "src": "n-thesis-p1-the-ai-frontier-moves-from-model-access-to-firm-power-siting-b3db70cf",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.9,
+      "dst": "n-forecast-clause-the-ai-frontier-moves-from-model-access-to-firm-power-siting-94c415a1",
+      "id": "e-n-thesis-p1-the-ai-frontier-moves-from-model-access-to-firm-power-siting-b3db70c-613ee922",
+      "rationale": "This thesis states a scored forecast clause.",
+      "rel": "states_forecast",
+      "src": "n-thesis-p1-the-ai-frontier-moves-from-model-access-to-firm-power-siting-b3db70cf",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.75,
+      "dst": "n-constraint-contiguous-land-fiber-proximity-behind-the-meter-firm-generation-righ-ced7941b",
+      "id": "e-n-forecast-clause-the-ai-frontier-moves-from-model-access-to-firm-power-siting-9-ba1b9a6a",
+      "rationale": "The forecast depends on this constraint being binding.",
+      "rel": "conditional_on_constraint",
+      "src": "n-forecast-clause-the-ai-frontier-moves-from-model-access-to-firm-power-siting-94c415a1",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.85,
+      "dst": "n-metric-track-hyperscaler-and-data-center-developer-announcements-that-name-on-si-f5493b8f",
+      "id": "e-n-forecast-clause-the-ai-frontier-moves-from-model-access-to-firm-power-siting-9-eafcac84",
+      "rationale": "The forecast is scored through this metric.",
+      "rel": "scored_by",
+      "src": "n-forecast-clause-the-ai-frontier-moves-from-model-access-to-firm-power-siting-94c415a1",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.9,
+      "dst": "n-thesis-p2-physical-ai-s-bottleneck-is-certified-deployment-not-robot-bodies-1a122ecc",
+      "id": "e-n-domain-what-comes-next-after-ai-093b9fee-contains-thesis-n-thesis-p2-physical-5dd5b38c",
+      "rationale": "The board domain contains this forecast thesis.",
+      "rel": "contains_thesis",
+      "src": "n-domain-what-comes-next-after-ai-093b9fee",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 1.0,
+      "dst": "n-thesis-p2-physical-ai-s-bottleneck-is-certified-deployment-not-robot-bodies-1a122ecc",
+      "id": "e-n-source-research-pope-after-ai-2026-06-17-json-afabfe46-states-n-thesis-p2-phys-97855761",
+      "rationale": "The source board states this thesis.",
+      "rel": "states",
+      "src": "n-source-research-pope-after-ai-2026-06-17-json-afabfe46",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.7,
+      "dst": "n-constraint-verified-task-data-sim-to-real-validation-workcell-commissioning-safe-1f01fc96",
+      "id": "e-n-thesis-p2-physical-ai-s-bottleneck-is-certified-deployment-not-robot-bodies-1a-99400dba",
+      "rationale": "The thesis claims this is the binding constraint.",
+      "rel": "identifies_constraint",
+      "src": "n-thesis-p2-physical-ai-s-bottleneck-is-certified-deployment-not-robot-bodies-1a122ecc",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.8,
+      "dst": "n-metric-track-robot-oems-or-large-integrators-selling-task-libraries-simulation-v-3d361480",
+      "id": "e-n-thesis-p2-physical-ai-s-bottleneck-is-certified-deployment-not-robot-bodies-1a-4c87d2fc",
+      "rationale": "The forecast clause resolves through this metric.",
+      "rel": "resolved_by",
+      "src": "n-thesis-p2-physical-ai-s-bottleneck-is-certified-deployment-not-robot-bodies-1a122ecc",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.65,
+      "dst": "n-metric-track-robot-oems-or-large-integrators-selling-task-libraries-simulation-v-3d361480",
+      "id": "e-n-constraint-verified-task-data-sim-to-real-validation-workcell-commissioning-sa-2944e098",
+      "rationale": "This metric is an observable proxy for the constraint.",
+      "rel": "observed_by",
+      "src": "n-constraint-verified-task-data-sim-to-real-validation-workcell-commissioning-safe-1f01fc96",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.9,
+      "dst": "n-kill-condition-kill-if-by-end-2028-humanoid-or-mobile-manipulation-deployments-s-775de1ac",
+      "id": "e-n-thesis-p2-physical-ai-s-bottleneck-is-certified-deployment-not-robot-bodies-1a-108f444a",
+      "rationale": "This condition kills or falsifies the thesis.",
+      "rel": "falsified_by",
+      "src": "n-thesis-p2-physical-ai-s-bottleneck-is-certified-deployment-not-robot-bodies-1a122ecc",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.65,
+      "dst": "n-price-channel-robotics-platform-hype-is-visible-in-private-valuations-and-public-0bf2bb56",
+      "id": "e-n-thesis-p2-physical-ai-s-bottleneck-is-certified-deployment-not-robot-bodies-1a-5c2e2917",
+      "rationale": "The pricing gate should inspect this channel.",
+      "rel": "priced_through",
+      "src": "n-thesis-p2-physical-ai-s-bottleneck-is-certified-deployment-not-robot-bodies-1a122ecc",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.65,
+      "dst": "n-buyer-segment-manufacturing-coos-logistics-operators-industrial-automation-integ-82ce522a",
+      "id": "e-n-thesis-p2-physical-ai-s-bottleneck-is-certified-deployment-not-robot-bodies-1a-bb72d7d7",
+      "rationale": "This buyer or operator is exposed to the forecast.",
+      "rel": "exposes",
+      "src": "n-thesis-p2-physical-ai-s-bottleneck-is-certified-deployment-not-robot-bodies-1a122ecc",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.65,
+      "dst": "n-action-inventory-repeatable-tasks-by-commissioning-burden-and-safety-risk-struct-8215d5fd",
+      "id": "e-n-thesis-p2-physical-ai-s-bottleneck-is-certified-deployment-not-robot-bodies-1a-09f98989",
+      "rationale": "If the thesis is right, this action changes now.",
+      "rel": "changes_action",
+      "src": "n-thesis-p2-physical-ai-s-bottleneck-is-certified-deployment-not-robot-bodies-1a122ecc",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.75,
+      "dst": "n-observable-a-major-automotive-or-logistics-deployment-where-the-press-release-na-fbf34b88",
+      "id": "e-n-thesis-p2-physical-ai-s-bottleneck-is-certified-deployment-not-robot-bodies-1a-40f22aaa",
+      "rationale": "This is the earliest observable signal to monitor.",
+      "rel": "watched_by",
+      "src": "n-thesis-p2-physical-ai-s-bottleneck-is-certified-deployment-not-robot-bodies-1a122ecc",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.65,
+      "dst": "n-observable-a-major-automotive-or-logistics-deployment-where-the-press-release-na-fbf34b88",
+      "id": "e-n-constraint-verified-task-data-sim-to-real-validation-workcell-commissioning-sa-1e05ed2a",
+      "rationale": "The constraint should emit this signal if the thesis is becoming true.",
+      "rel": "emits_signal",
+      "src": "n-constraint-verified-task-data-sim-to-real-validation-workcell-commissioning-safe-1f01fc96",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "dst": "n-winner-nvidia-isaac-cosmos-style-simulation-ecosystems-80c6301a",
+      "id": "e-n-thesis-p2-physical-ai-s-bottleneck-is-certified-deployment-not-robot-bodies-1a-a2889b8c",
+      "rationale": "The thesis names this winner: They sit in the validation path between robot policy training and real-world deployment.",
+      "rel": "creates_winner",
+      "src": "n-thesis-p2-physical-ai-s-bottleneck-is-certified-deployment-not-robot-bodies-1a122ecc",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "dst": "n-winner-industrial-integrators-with-reusable-task-libraries-b6716709",
+      "id": "e-n-thesis-p2-physical-ai-s-bottleneck-is-certified-deployment-not-robot-bodies-1a-7b14d170",
+      "rationale": "The thesis names this winner: They turn one-off commissioning labor into repeatable software-enabled deployment.",
+      "rel": "creates_winner",
+      "src": "n-thesis-p2-physical-ai-s-bottleneck-is-certified-deployment-not-robot-bodies-1a122ecc",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "dst": "n-winner-manufacturers-with-clean-process-data-and-standardized-workcells-c37f1096",
+      "id": "e-n-thesis-p2-physical-ai-s-bottleneck-is-certified-deployment-not-robot-bodies-1a-1b813030",
+      "rationale": "The thesis names this winner: They become easier customers and capture automation ROI earlier.",
+      "rel": "creates_winner",
+      "src": "n-thesis-p2-physical-ai-s-bottleneck-is-certified-deployment-not-robot-bodies-1a122ecc",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "dst": "n-loser-undifferentiated-humanoid-oems-0d07ea65",
+      "id": "e-n-thesis-p2-physical-ai-s-bottleneck-is-certified-deployment-not-robot-bodies-1a-fec223cd",
+      "rationale": "The thesis names this loser: Hardware demos do not create durable margin if deployment assurance is owned elsewhere.",
+      "rel": "creates_loser",
+      "src": "n-thesis-p2-physical-ai-s-bottleneck-is-certified-deployment-not-robot-bodies-1a122ecc",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "dst": "n-loser-custom-only-automation-integrators-72a805b5",
+      "id": "e-n-thesis-p2-physical-ai-s-bottleneck-is-certified-deployment-not-robot-bodies-1a-8c9a3067",
+      "rationale": "The thesis names this loser: Reusable task libraries and simulation reduce the value of bespoke labor.",
+      "rel": "creates_loser",
+      "src": "n-thesis-p2-physical-ai-s-bottleneck-is-certified-deployment-not-robot-bodies-1a122ecc",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "dst": "n-constraint-rent-flows-to-simulation-and-validation-platforms-robot-integrators-w-ee2a77d2",
+      "id": "e-n-thesis-p2-physical-ai-s-bottleneck-is-certified-deployment-not-robot-bodies-1a-812642af",
+      "rationale": "Derived from implications.rent_path.",
+      "rel": "moves_rent_to",
+      "src": "n-thesis-p2-physical-ai-s-bottleneck-is-certified-deployment-not-robot-bodies-1a122ecc",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "dst": "n-constraint-the-next-constraint-becomes-high-quality-real-world-task-data-tactile-762add0c",
+      "id": "e-n-thesis-p2-physical-ai-s-bottleneck-is-certified-deployment-not-robot-bodies-1a-b698b31f",
+      "rationale": "Derived from implications.next_constraint.",
+      "rel": "creates_next_constraint",
+      "src": "n-thesis-p2-physical-ai-s-bottleneck-is-certified-deployment-not-robot-bodies-1a122ecc",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "dst": "n-constraint-the-next-constraint-becomes-high-quality-real-world-task-data-tactile-762add0c",
+      "id": "e-n-constraint-verified-task-data-sim-to-real-validation-workcell-commissioning-sa-dd39509c",
+      "rationale": "The thesis says this constraint creates a next constraint.",
+      "rel": "migrates_to",
+      "src": "n-constraint-verified-task-data-sim-to-real-validation-workcell-commissioning-safe-1f01fc96",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "dst": "n-price-channel-physical-ai-valuation-should-migrate-from-unit-shipments-to-deploy-e5cd43e2",
+      "id": "e-n-thesis-p2-physical-ai-s-bottleneck-is-certified-deployment-not-robot-bodies-1a-2ad88b7d",
+      "rationale": "Derived from implications.reprices.",
+      "rel": "reprices",
+      "src": "n-thesis-p2-physical-ai-s-bottleneck-is-certified-deployment-not-robot-bodies-1a122ecc",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "dst": "n-action-automation-capex-integrator-selection-pilot-design-safety-certification-b-7942dd95",
+      "id": "e-n-thesis-p2-physical-ai-s-bottleneck-is-certified-deployment-not-robot-bodies-1a-945f288b",
+      "rationale": "Derived from implications.decision_changed.",
+      "rel": "changes_decision",
+      "src": "n-thesis-p2-physical-ai-s-bottleneck-is-certified-deployment-not-robot-bodies-1a122ecc",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "dst": "n-action-a-robot-that-takes-six-months-of-integration-labor-to-deliver-a-narrow-ta-0676de7c",
+      "id": "e-n-thesis-p2-physical-ai-s-bottleneck-is-certified-deployment-not-robot-bodies-1a-f18a62b7",
+      "rationale": "Derived from implications.roi_logic.",
+      "rel": "justified_by_roi",
+      "src": "n-thesis-p2-physical-ai-s-bottleneck-is-certified-deployment-not-robot-bodies-1a122ecc",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.9,
+      "dst": "n-forecast-clause-physical-ai-s-bottleneck-is-certified-deployment-not-robot-bodie-5d45981f",
+      "id": "e-n-thesis-p2-physical-ai-s-bottleneck-is-certified-deployment-not-robot-bodies-1a-d386e672",
+      "rationale": "This thesis states a scored forecast clause.",
+      "rel": "states_forecast",
+      "src": "n-thesis-p2-physical-ai-s-bottleneck-is-certified-deployment-not-robot-bodies-1a122ecc",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.75,
+      "dst": "n-constraint-verified-task-data-sim-to-real-validation-workcell-commissioning-safe-1f01fc96",
+      "id": "e-n-forecast-clause-physical-ai-s-bottleneck-is-certified-deployment-not-robot-bod-e93793d8",
+      "rationale": "The forecast depends on this constraint being binding.",
+      "rel": "conditional_on_constraint",
+      "src": "n-forecast-clause-physical-ai-s-bottleneck-is-certified-deployment-not-robot-bodie-5d45981f",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.85,
+      "dst": "n-metric-track-robot-oems-or-large-integrators-selling-task-libraries-simulation-v-3d361480",
+      "id": "e-n-forecast-clause-physical-ai-s-bottleneck-is-certified-deployment-not-robot-bod-cc3c00ed",
+      "rationale": "The forecast is scored through this metric.",
+      "rel": "scored_by",
+      "src": "n-forecast-clause-physical-ai-s-bottleneck-is-certified-deployment-not-robot-bodie-5d45981f",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.9,
+      "dst": "n-thesis-p3-autonomous-science-shifts-the-bottleneck-from-model-discovery-to-exper-2d0ad3e9",
+      "id": "e-n-domain-what-comes-next-after-ai-093b9fee-contains-thesis-n-thesis-p3-autonomou-1167821d",
+      "rationale": "The board domain contains this forecast thesis.",
+      "rel": "contains_thesis",
+      "src": "n-domain-what-comes-next-after-ai-093b9fee",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 1.0,
+      "dst": "n-thesis-p3-autonomous-science-shifts-the-bottleneck-from-model-discovery-to-exper-2d0ad3e9",
+      "id": "e-n-source-research-pope-after-ai-2026-06-17-json-afabfe46-states-n-thesis-p3-auto-43f2eb0b",
+      "rationale": "The source board states this thesis.",
+      "rel": "states",
+      "src": "n-source-research-pope-after-ai-2026-06-17-json-afabfe46",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.7,
+      "dst": "n-constraint-robotic-experimental-throughput-with-standardized-metadata-reliable-a-6881a685",
+      "id": "e-n-thesis-p3-autonomous-science-shifts-the-bottleneck-from-model-discovery-to-exp-06e0fb4b",
+      "rationale": "The thesis claims this is the binding constraint.",
+      "rel": "identifies_constraint",
+      "src": "n-thesis-p3-autonomous-science-shifts-the-bottleneck-from-model-discovery-to-exper-2d0ad3e9",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.8,
+      "dst": "n-metric-track-doe-and-national-lab-testbed-awards-pharma-materials-partnerships-t-629546ac",
+      "id": "e-n-thesis-p3-autonomous-science-shifts-the-bottleneck-from-model-discovery-to-exp-a010c3fb",
+      "rationale": "The forecast clause resolves through this metric.",
+      "rel": "resolved_by",
+      "src": "n-thesis-p3-autonomous-science-shifts-the-bottleneck-from-model-discovery-to-exper-2d0ad3e9",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.65,
+      "dst": "n-metric-track-doe-and-national-lab-testbed-awards-pharma-materials-partnerships-t-629546ac",
+      "id": "e-n-constraint-robotic-experimental-throughput-with-standardized-metadata-reliable-211d0be4",
+      "rationale": "This metric is an observable proxy for the constraint.",
+      "rel": "observed_by",
+      "src": "n-constraint-robotic-experimental-throughput-with-standardized-metadata-reliable-a-6881a685",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.9,
+      "dst": "n-kill-condition-kill-if-by-2029-model-only-ai-discovery-companies-repeatedly-prod-e47c136a",
+      "id": "e-n-thesis-p3-autonomous-science-shifts-the-bottleneck-from-model-discovery-to-exp-0ec42d68",
+      "rationale": "This condition kills or falsifies the thesis.",
+      "rel": "falsified_by",
+      "src": "n-thesis-p3-autonomous-science-shifts-the-bottleneck-from-model-discovery-to-exper-2d0ad3e9",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.65,
+      "dst": "n-price-channel-self-driving-lab-companies-and-lab-automation-vendors-are-funded-b-bd615cc4",
+      "id": "e-n-thesis-p3-autonomous-science-shifts-the-bottleneck-from-model-discovery-to-exp-939f309b",
+      "rationale": "The pricing gate should inspect this channel.",
+      "rel": "priced_through",
+      "src": "n-thesis-p3-autonomous-science-shifts-the-bottleneck-from-model-discovery-to-exper-2d0ad3e9",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.65,
+      "dst": "n-buyer-segment-pharma-r-d-leaders-materials-companies-national-labs-ai-for-scienc-1eecff3d",
+      "id": "e-n-thesis-p3-autonomous-science-shifts-the-bottleneck-from-model-discovery-to-exp-cdca34e1",
+      "rationale": "This buyer or operator is exposed to the forecast.",
+      "rel": "exposes",
+      "src": "n-thesis-p3-autonomous-science-shifts-the-bottleneck-from-model-discovery-to-exper-2d0ad3e9",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.65,
+      "dst": "n-action-audit-which-discovery-programs-are-experiment-limited-secure-access-to-ro-d84da1e0",
+      "id": "e-n-thesis-p3-autonomous-science-shifts-the-bottleneck-from-model-discovery-to-exp-b084c13b",
+      "rationale": "If the thesis is right, this action changes now.",
+      "rel": "changes_action",
+      "src": "n-thesis-p3-autonomous-science-shifts-the-bottleneck-from-model-discovery-to-exper-2d0ad3e9",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.75,
+      "dst": "n-observable-a-major-pharma-chemicals-or-materials-company-publicly-saying-its-ai-185fa04e",
+      "id": "e-n-thesis-p3-autonomous-science-shifts-the-bottleneck-from-model-discovery-to-exp-b1045892",
+      "rationale": "This is the earliest observable signal to monitor.",
+      "rel": "watched_by",
+      "src": "n-thesis-p3-autonomous-science-shifts-the-bottleneck-from-model-discovery-to-exper-2d0ad3e9",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.65,
+      "dst": "n-observable-a-major-pharma-chemicals-or-materials-company-publicly-saying-its-ai-185fa04e",
+      "id": "e-n-constraint-robotic-experimental-throughput-with-standardized-metadata-reliable-f9cc5292",
+      "rationale": "The constraint should emit this signal if the thesis is becoming true.",
+      "rel": "emits_signal",
+      "src": "n-constraint-robotic-experimental-throughput-with-standardized-metadata-reliable-a-6881a685",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "dst": "n-winner-doe-and-national-lab-testbed-ecosystems-365a0451",
+      "id": "e-n-thesis-p3-autonomous-science-shifts-the-bottleneck-from-model-discovery-to-exp-9d4c4efc",
+      "rationale": "The thesis names this winner: They become shared infrastructure for autonomous discovery workflows.",
+      "rel": "creates_winner",
+      "src": "n-thesis-p3-autonomous-science-shifts-the-bottleneck-from-model-discovery-to-exper-2d0ad3e9",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "dst": "n-winner-autonomous-lab-operators-and-assay-platforms-3d1656dc",
+      "id": "e-n-thesis-p3-autonomous-science-shifts-the-bottleneck-from-model-discovery-to-exp-d811fe27",
+      "rationale": "The thesis names this winner: They own the throughput and data rights needed to make AI-for-science real.",
+      "rel": "creates_winner",
+      "src": "n-thesis-p3-autonomous-science-shifts-the-bottleneck-from-model-discovery-to-exper-2d0ad3e9",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "dst": "n-winner-r-d-teams-with-strong-metadata-discipline-c928f7ca",
+      "id": "e-n-thesis-p3-autonomous-science-shifts-the-bottleneck-from-model-discovery-to-exp-6a1c7c64",
+      "rationale": "The thesis names this winner: Their experiments become reusable training signal instead of isolated results.",
+      "rel": "creates_winner",
+      "src": "n-thesis-p3-autonomous-science-shifts-the-bottleneck-from-model-discovery-to-exper-2d0ad3e9",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "dst": "n-loser-model-only-discovery-startups-a40e7af2",
+      "id": "e-n-thesis-p3-autonomous-science-shifts-the-bottleneck-from-model-discovery-to-exp-a8e570b0",
+      "rationale": "The thesis names this loser: They can propose more than they can validate, making their output easy to discount.",
+      "rel": "creates_loser",
+      "src": "n-thesis-p3-autonomous-science-shifts-the-bottleneck-from-model-discovery-to-exper-2d0ad3e9",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "dst": "n-loser-manual-cros-without-automation-or-data-standardization-e3e6bd2c",
+      "id": "e-n-thesis-p3-autonomous-science-shifts-the-bottleneck-from-model-discovery-to-exp-74e88e17",
+      "rationale": "The thesis names this loser: They provide services but not compounding machine-readable learning loops.",
+      "rel": "creates_loser",
+      "src": "n-thesis-p3-autonomous-science-shifts-the-bottleneck-from-model-discovery-to-exper-2d0ad3e9",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "dst": "n-constraint-rent-lands-in-autonomous-lab-operators-instrument-integration-platfor-93004089",
+      "id": "e-n-thesis-p3-autonomous-science-shifts-the-bottleneck-from-model-discovery-to-exp-b1c9106f",
+      "rationale": "Derived from implications.rent_path.",
+      "rel": "moves_rent_to",
+      "src": "n-thesis-p3-autonomous-science-shifts-the-bottleneck-from-model-discovery-to-exper-2d0ad3e9",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "dst": "n-constraint-the-next-constraint-becomes-sample-preparation-protocol-ontologies-in-913a3e9f",
+      "id": "e-n-thesis-p3-autonomous-science-shifts-the-bottleneck-from-model-discovery-to-exp-aaa8f931",
+      "rationale": "Derived from implications.next_constraint.",
+      "rel": "creates_next_constraint",
+      "src": "n-thesis-p3-autonomous-science-shifts-the-bottleneck-from-model-discovery-to-exper-2d0ad3e9",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "dst": "n-constraint-the-next-constraint-becomes-sample-preparation-protocol-ontologies-in-913a3e9f",
+      "id": "e-n-constraint-robotic-experimental-throughput-with-standardized-metadata-reliable-82083bb0",
+      "rationale": "The thesis says this constraint creates a next constraint.",
+      "rel": "migrates_to",
+      "src": "n-constraint-robotic-experimental-throughput-with-standardized-metadata-reliable-a-6881a685",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "dst": "n-price-channel-autonomous-lab-capacity-assay-contracts-and-proprietary-experiment-48e60072",
+      "id": "e-n-thesis-p3-autonomous-science-shifts-the-bottleneck-from-model-discovery-to-exp-81d8a137",
+      "rationale": "Derived from implications.reprices.",
+      "rel": "reprices",
+      "src": "n-thesis-p3-autonomous-science-shifts-the-bottleneck-from-model-discovery-to-exper-2d0ad3e9",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "dst": "n-action-r-d-budget-allocation-between-foundation-models-lab-automation-assay-capa-3cfb3627",
+      "id": "e-n-thesis-p3-autonomous-science-shifts-the-bottleneck-from-model-discovery-to-exp-c2151df1",
+      "rationale": "Derived from implications.decision_changed.",
+      "rel": "changes_decision",
+      "src": "n-thesis-p3-autonomous-science-shifts-the-bottleneck-from-model-discovery-to-exper-2d0ad3e9",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "dst": "n-action-a-better-model-has-low-roi-if-every-validation-loop-takes-months-shorteni-97d0d5be",
+      "id": "e-n-thesis-p3-autonomous-science-shifts-the-bottleneck-from-model-discovery-to-exp-939f2877",
+      "rationale": "Derived from implications.roi_logic.",
+      "rel": "justified_by_roi",
+      "src": "n-thesis-p3-autonomous-science-shifts-the-bottleneck-from-model-discovery-to-exper-2d0ad3e9",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.9,
+      "dst": "n-forecast-clause-autonomous-science-shifts-the-bottleneck-from-model-discovery-to-60c389a9",
+      "id": "e-n-thesis-p3-autonomous-science-shifts-the-bottleneck-from-model-discovery-to-exp-4655ca92",
+      "rationale": "This thesis states a scored forecast clause.",
+      "rel": "states_forecast",
+      "src": "n-thesis-p3-autonomous-science-shifts-the-bottleneck-from-model-discovery-to-exper-2d0ad3e9",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.75,
+      "dst": "n-constraint-robotic-experimental-throughput-with-standardized-metadata-reliable-a-6881a685",
+      "id": "e-n-forecast-clause-autonomous-science-shifts-the-bottleneck-from-model-discovery-24fbe2db",
+      "rationale": "The forecast depends on this constraint being binding.",
+      "rel": "conditional_on_constraint",
+      "src": "n-forecast-clause-autonomous-science-shifts-the-bottleneck-from-model-discovery-to-60c389a9",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.85,
+      "dst": "n-metric-track-doe-and-national-lab-testbed-awards-pharma-materials-partnerships-t-629546ac",
+      "id": "e-n-forecast-clause-autonomous-science-shifts-the-bottleneck-from-model-discovery-f56ff8a2",
+      "rationale": "The forecast is scored through this metric.",
+      "rel": "scored_by",
+      "src": "n-forecast-clause-autonomous-science-shifts-the-bottleneck-from-model-discovery-to-60c389a9",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.9,
+      "dst": "n-thesis-p4-the-consumer-ai-interface-moves-to-always-on-edge-devices-gated-by-the-e6198427",
+      "id": "e-n-domain-what-comes-next-after-ai-093b9fee-contains-thesis-n-thesis-p4-the-consu-553f3227",
+      "rationale": "The board domain contains this forecast thesis.",
+      "rel": "contains_thesis",
+      "src": "n-domain-what-comes-next-after-ai-093b9fee",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 1.0,
+      "dst": "n-thesis-p4-the-consumer-ai-interface-moves-to-always-on-edge-devices-gated-by-the-e6198427",
+      "id": "e-n-source-research-pope-after-ai-2026-06-17-json-afabfe46-states-n-thesis-p4-the-916e1f6b",
+      "rationale": "The source board states this thesis.",
+      "rel": "states",
+      "src": "n-source-research-pope-after-ai-2026-06-17-json-afabfe46",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.7,
+      "dst": "n-constraint-low-power-npus-sensor-fusion-local-memory-privacy-preserving-orchestr-5b1cd0e2",
+      "id": "e-n-thesis-p4-the-consumer-ai-interface-moves-to-always-on-edge-devices-gated-by-t-5d14f1ab",
+      "rationale": "The thesis claims this is the binding constraint.",
+      "rel": "identifies_constraint",
+      "src": "n-thesis-p4-the-consumer-ai-interface-moves-to-always-on-edge-devices-gated-by-the-e6198427",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.8,
+      "dst": "n-metric-track-commercial-devices-that-run-billion-parameter-local-models-all-day-cdb6953f",
+      "id": "e-n-thesis-p4-the-consumer-ai-interface-moves-to-always-on-edge-devices-gated-by-t-46fcf0f8",
+      "rationale": "The forecast clause resolves through this metric.",
+      "rel": "resolved_by",
+      "src": "n-thesis-p4-the-consumer-ai-interface-moves-to-always-on-edge-devices-gated-by-the-e6198427",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.65,
+      "dst": "n-metric-track-commercial-devices-that-run-billion-parameter-local-models-all-day-cdb6953f",
+      "id": "e-n-constraint-low-power-npus-sensor-fusion-local-memory-privacy-preserving-orches-6206d85b",
+      "rationale": "This metric is an observable proxy for the constraint.",
+      "rel": "observed_by",
+      "src": "n-constraint-low-power-npus-sensor-fusion-local-memory-privacy-preserving-orchestr-5b1cd0e2",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.9,
+      "dst": "n-kill-condition-kill-if-by-end-2028-the-dominant-consumer-ai-usage-remains-cloud-08a46625",
+      "id": "e-n-thesis-p4-the-consumer-ai-interface-moves-to-always-on-edge-devices-gated-by-t-968fe74e",
+      "rationale": "This condition kills or falsifies the thesis.",
+      "rel": "falsified_by",
+      "src": "n-thesis-p4-the-consumer-ai-interface-moves-to-always-on-edge-devices-gated-by-the-e6198427",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.65,
+      "dst": "n-price-channel-chip-and-device-companies-are-announcing-edge-ai-features-the-resi-1a88b543",
+      "id": "e-n-thesis-p4-the-consumer-ai-interface-moves-to-always-on-edge-devices-gated-by-t-309eed70",
+      "rationale": "The pricing gate should inspect this channel.",
+      "rel": "priced_through",
+      "src": "n-thesis-p4-the-consumer-ai-interface-moves-to-always-on-edge-devices-gated-by-the-e6198427",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.65,
+      "dst": "n-buyer-segment-device-oems-chip-vendors-mobile-os-teams-consumer-ai-app-developer-83d76c60",
+      "id": "e-n-thesis-p4-the-consumer-ai-interface-moves-to-always-on-edge-devices-gated-by-t-27b37784",
+      "rationale": "This buyer or operator is exposed to the forecast.",
+      "rel": "exposes",
+      "src": "n-thesis-p4-the-consumer-ai-interface-moves-to-always-on-edge-devices-gated-by-the-e6198427",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.65,
+      "dst": "n-action-design-around-local-context-and-power-budgets-build-features-that-improve-e84292d2",
+      "id": "e-n-thesis-p4-the-consumer-ai-interface-moves-to-always-on-edge-devices-gated-by-t-ad3a17a9",
+      "rationale": "If the thesis is right, this action changes now.",
+      "rel": "changes_action",
+      "src": "n-thesis-p4-the-consumer-ai-interface-moves-to-always-on-edge-devices-gated-by-the-e6198427",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.75,
+      "dst": "n-observable-a-google-samsung-apple-or-meta-product-launch-where-the-lead-ai-featu-64a8aa4d",
+      "id": "e-n-thesis-p4-the-consumer-ai-interface-moves-to-always-on-edge-devices-gated-by-t-b66080cb",
+      "rationale": "This is the earliest observable signal to monitor.",
+      "rel": "watched_by",
+      "src": "n-thesis-p4-the-consumer-ai-interface-moves-to-always-on-edge-devices-gated-by-the-e6198427",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.65,
+      "dst": "n-observable-a-google-samsung-apple-or-meta-product-launch-where-the-lead-ai-featu-64a8aa4d",
+      "id": "e-n-constraint-low-power-npus-sensor-fusion-local-memory-privacy-preserving-orches-24ea25d8",
+      "rationale": "The constraint should emit this signal if the thesis is becoming true.",
+      "rel": "emits_signal",
+      "src": "n-constraint-low-power-npus-sensor-fusion-local-memory-privacy-preserving-orchestr-5b1cd0e2",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "dst": "n-winner-qualcomm-apple-samsung-and-other-integrated-edge-ai-silicon-device-player-2ddc356e",
+      "id": "e-n-thesis-p4-the-consumer-ai-interface-moves-to-always-on-edge-devices-gated-by-t-a2db33c4",
+      "rationale": "The thesis names this winner: They control the NPU, sensors, battery envelope, and developer surfaces.",
+      "rel": "creates_winner",
+      "src": "n-thesis-p4-the-consumer-ai-interface-moves-to-always-on-edge-devices-gated-by-the-e6198427",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "dst": "n-winner-privacy-preserving-local-agent-platforms-02e04d29",
+      "id": "e-n-thesis-p4-the-consumer-ai-interface-moves-to-always-on-edge-devices-gated-by-t-d7ff3a28",
+      "rationale": "The thesis names this winner: They can access sensitive context without forcing everything into cloud logs.",
+      "rel": "creates_winner",
+      "src": "n-thesis-p4-the-consumer-ai-interface-moves-to-always-on-edge-devices-gated-by-the-e6198427",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "dst": "n-winner-apps-with-daily-personal-context-loops-64547f6a",
+      "id": "e-n-thesis-p4-the-consumer-ai-interface-moves-to-always-on-edge-devices-gated-by-t-f14e55a4",
+      "rationale": "The thesis names this winner: Health, mobility, work, and communication features improve with persistent local state.",
+      "rel": "creates_winner",
+      "src": "n-thesis-p4-the-consumer-ai-interface-moves-to-always-on-edge-devices-gated-by-the-e6198427",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "dst": "n-loser-cloud-only-personal-assistant-apps-280597af",
+      "id": "e-n-thesis-p4-the-consumer-ai-interface-moves-to-always-on-edge-devices-gated-by-t-75136796",
+      "rationale": "The thesis names this loser: They lack trusted continuous context and face rising privacy friction.",
+      "rel": "creates_loser",
+      "src": "n-thesis-p4-the-consumer-ai-interface-moves-to-always-on-edge-devices-gated-by-the-e6198427",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "dst": "n-loser-low-end-device-makers-without-npu-or-sensor-fusion-capability-91e3c771",
+      "id": "e-n-thesis-p4-the-consumer-ai-interface-moves-to-always-on-edge-devices-gated-by-t-d4eeb4a0",
+      "rationale": "The thesis names this loser: They cannot support the local features users come to expect.",
+      "rel": "creates_loser",
+      "src": "n-thesis-p4-the-consumer-ai-interface-moves-to-always-on-edge-devices-gated-by-the-e6198427",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "dst": "n-constraint-rent-lands-in-chip-vendors-with-efficient-npus-oems-with-integrated-s-638a9701",
+      "id": "e-n-thesis-p4-the-consumer-ai-interface-moves-to-always-on-edge-devices-gated-by-t-5bb22fc7",
+      "rationale": "Derived from implications.rent_path.",
+      "rel": "moves_rent_to",
+      "src": "n-thesis-p4-the-consumer-ai-interface-moves-to-always-on-edge-devices-gated-by-the-e6198427",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "dst": "n-constraint-the-next-constraint-becomes-developer-access-to-local-context-without-06ac4d5a",
+      "id": "e-n-thesis-p4-the-consumer-ai-interface-moves-to-always-on-edge-devices-gated-by-t-0f1d7128",
+      "rationale": "Derived from implications.next_constraint.",
+      "rel": "creates_next_constraint",
+      "src": "n-thesis-p4-the-consumer-ai-interface-moves-to-always-on-edge-devices-gated-by-the-e6198427",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "dst": "n-constraint-the-next-constraint-becomes-developer-access-to-local-context-without-06ac4d5a",
+      "id": "e-n-constraint-low-power-npus-sensor-fusion-local-memory-privacy-preserving-orches-87bf5702",
+      "rationale": "The thesis says this constraint creates a next constraint.",
+      "rel": "migrates_to",
+      "src": "n-constraint-low-power-npus-sensor-fusion-local-memory-privacy-preserving-orchestr-5b1cd0e2",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "dst": "n-price-channel-npu-rich-device-boms-sensor-vendors-secure-local-memory-and-os-lev-18ff8362",
+      "id": "e-n-thesis-p4-the-consumer-ai-interface-moves-to-always-on-edge-devices-gated-by-t-ac20a730",
+      "rationale": "Derived from implications.reprices.",
+      "rel": "reprices",
+      "src": "n-thesis-p4-the-consumer-ai-interface-moves-to-always-on-edge-devices-gated-by-the-e6198427",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "dst": "n-action-hardware-roadmap-npu-vendor-selection-app-architecture-privacy-posture-an-a5a169c1",
+      "id": "e-n-thesis-p4-the-consumer-ai-interface-moves-to-always-on-edge-devices-gated-by-t-ca304d44",
+      "rationale": "Derived from implications.decision_changed.",
+      "rel": "changes_decision",
+      "src": "n-thesis-p4-the-consumer-ai-interface-moves-to-always-on-edge-devices-gated-by-the-e6198427",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "dst": "n-action-always-on-local-context-can-raise-retention-and-trust-while-cloud-only-in-5fe9dee4",
+      "id": "e-n-thesis-p4-the-consumer-ai-interface-moves-to-always-on-edge-devices-gated-by-t-da088dad",
+      "rationale": "Derived from implications.roi_logic.",
+      "rel": "justified_by_roi",
+      "src": "n-thesis-p4-the-consumer-ai-interface-moves-to-always-on-edge-devices-gated-by-the-e6198427",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.9,
+      "dst": "n-forecast-clause-the-consumer-ai-interface-moves-to-always-on-edge-devices-gated-bd117153",
+      "id": "e-n-thesis-p4-the-consumer-ai-interface-moves-to-always-on-edge-devices-gated-by-t-8b6298ab",
+      "rationale": "This thesis states a scored forecast clause.",
+      "rel": "states_forecast",
+      "src": "n-thesis-p4-the-consumer-ai-interface-moves-to-always-on-edge-devices-gated-by-the-e6198427",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.75,
+      "dst": "n-constraint-low-power-npus-sensor-fusion-local-memory-privacy-preserving-orchestr-5b1cd0e2",
+      "id": "e-n-forecast-clause-the-consumer-ai-interface-moves-to-always-on-edge-devices-gate-7c7d17c2",
+      "rationale": "The forecast depends on this constraint being binding.",
+      "rel": "conditional_on_constraint",
+      "src": "n-forecast-clause-the-consumer-ai-interface-moves-to-always-on-edge-devices-gated-bd117153",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.85,
+      "dst": "n-metric-track-commercial-devices-that-run-billion-parameter-local-models-all-day-cdb6953f",
+      "id": "e-n-forecast-clause-the-consumer-ai-interface-moves-to-always-on-edge-devices-gate-79ebac13",
+      "rationale": "The forecast is scored through this metric.",
+      "rel": "scored_by",
+      "src": "n-forecast-clause-the-consumer-ai-interface-moves-to-always-on-edge-devices-gated-bd117153",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.9,
+      "dst": "n-thesis-p5-biomanufacturing-s-bottleneck-is-scale-up-not-ai-organism-design-fdaccd13",
+      "id": "e-n-domain-what-comes-next-after-ai-093b9fee-contains-thesis-n-thesis-p5-biomanufa-2743ca96",
+      "rationale": "The board domain contains this forecast thesis.",
+      "rel": "contains_thesis",
+      "src": "n-domain-what-comes-next-after-ai-093b9fee",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 1.0,
+      "dst": "n-thesis-p5-biomanufacturing-s-bottleneck-is-scale-up-not-ai-organism-design-fdaccd13",
+      "id": "e-n-source-research-pope-after-ai-2026-06-17-json-afabfe46-states-n-thesis-p5-biom-1a31513c",
+      "rationale": "The source board states this thesis.",
+      "rel": "states",
+      "src": "n-source-research-pope-after-ai-2026-06-17-json-afabfe46",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.7,
+      "dst": "n-constraint-pilot-and-commercial-scale-fermentation-downstream-processing-strain-787e5b3c",
+      "id": "e-n-thesis-p5-biomanufacturing-s-bottleneck-is-scale-up-not-ai-organism-design-fda-ec51f181",
+      "rationale": "The thesis claims this is the binding constraint.",
+      "rel": "identifies_constraint",
+      "src": "n-thesis-p5-biomanufacturing-s-bottleneck-is-scale-up-not-ai-organism-design-fdaccd13",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.8,
+      "dst": "n-metric-track-ai-designed-or-engineered-bio-products-that-fail-or-delay-on-cogs-a-e2bd431f",
+      "id": "e-n-thesis-p5-biomanufacturing-s-bottleneck-is-scale-up-not-ai-organism-design-fda-33a5a4ec",
+      "rationale": "The forecast clause resolves through this metric.",
+      "rel": "resolved_by",
+      "src": "n-thesis-p5-biomanufacturing-s-bottleneck-is-scale-up-not-ai-organism-design-fdaccd13",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.65,
+      "dst": "n-metric-track-ai-designed-or-engineered-bio-products-that-fail-or-delay-on-cogs-a-e2bd431f",
+      "id": "e-n-constraint-pilot-and-commercial-scale-fermentation-downstream-processing-strai-8f89daa8",
+      "rationale": "This metric is an observable proxy for the constraint.",
+      "rel": "observed_by",
+      "src": "n-constraint-pilot-and-commercial-scale-fermentation-downstream-processing-strain-787e5b3c",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.9,
+      "dst": "n-kill-condition-kill-if-by-2030-multiple-ai-designed-industrial-bio-products-reac-ac6e6352",
+      "id": "e-n-thesis-p5-biomanufacturing-s-bottleneck-is-scale-up-not-ai-organism-design-fda-4ac4cebb",
+      "rationale": "This condition kills or falsifies the thesis.",
+      "rel": "falsified_by",
+      "src": "n-thesis-p5-biomanufacturing-s-bottleneck-is-scale-up-not-ai-organism-design-fdaccd13",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.65,
+      "dst": "n-price-channel-biomanufacturing-capacity-and-cdmo-services-are-visible-but-scale-f4411b7f",
+      "id": "e-n-thesis-p5-biomanufacturing-s-bottleneck-is-scale-up-not-ai-organism-design-fda-202965c4",
+      "rationale": "The pricing gate should inspect this channel.",
+      "rel": "priced_through",
+      "src": "n-thesis-p5-biomanufacturing-s-bottleneck-is-scale-up-not-ai-organism-design-fdaccd13",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.65,
+      "dst": "n-buyer-segment-industrial-biotech-founders-chemicals-strategics-food-and-material-e3eac0ee",
+      "id": "e-n-thesis-p5-biomanufacturing-s-bottleneck-is-scale-up-not-ai-organism-design-fda-0b046014",
+      "rationale": "This buyer or operator is exposed to the forecast.",
+      "rel": "exposes",
+      "src": "n-thesis-p5-biomanufacturing-s-bottleneck-is-scale-up-not-ai-organism-design-fdaccd13",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.65,
+      "dst": "n-action-underwrite-ai-bio-companies-on-scale-up-evidence-cogs-path-downstream-pro-df763145",
+      "id": "e-n-thesis-p5-biomanufacturing-s-bottleneck-is-scale-up-not-ai-organism-design-fda-3f1ba3a9",
+      "rationale": "If the thesis is right, this action changes now.",
+      "rel": "changes_action",
+      "src": "n-thesis-p5-biomanufacturing-s-bottleneck-is-scale-up-not-ai-organism-design-fdaccd13",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.75,
+      "dst": "n-observable-a-well-funded-ai-bio-or-synbio-company-delaying-launch-because-pilot-8f7cfc9e",
+      "id": "e-n-thesis-p5-biomanufacturing-s-bottleneck-is-scale-up-not-ai-organism-design-fda-a39be893",
+      "rationale": "This is the earliest observable signal to monitor.",
+      "rel": "watched_by",
+      "src": "n-thesis-p5-biomanufacturing-s-bottleneck-is-scale-up-not-ai-organism-design-fdaccd13",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.65,
+      "dst": "n-observable-a-well-funded-ai-bio-or-synbio-company-delaying-launch-because-pilot-8f7cfc9e",
+      "id": "e-n-constraint-pilot-and-commercial-scale-fermentation-downstream-processing-strai-4a735386",
+      "rationale": "The constraint should emit this signal if the thesis is becoming true.",
+      "rel": "emits_signal",
+      "src": "n-constraint-pilot-and-commercial-scale-fermentation-downstream-processing-strain-787e5b3c",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "dst": "n-winner-bioprocess-cdmos-and-pilot-fermentation-operators-381f838e",
+      "id": "e-n-thesis-p5-biomanufacturing-s-bottleneck-is-scale-up-not-ai-organism-design-fda-4dd72342",
+      "rationale": "The thesis names this winner: They own the scarce bridge from strain to commercial product.",
+      "rel": "creates_winner",
+      "src": "n-thesis-p5-biomanufacturing-s-bottleneck-is-scale-up-not-ai-organism-design-fdaccd13",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "dst": "n-winner-strategics-with-existing-fermentation-and-downstream-assets-cbfcc552",
+      "id": "e-n-thesis-p5-biomanufacturing-s-bottleneck-is-scale-up-not-ai-organism-design-fda-4cb3fd3d",
+      "rationale": "The thesis names this winner: They can industrialize AI-generated designs faster than pure software-led entrants.",
+      "rel": "creates_winner",
+      "src": "n-thesis-p5-biomanufacturing-s-bottleneck-is-scale-up-not-ai-organism-design-fdaccd13",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "dst": "n-winner-ai-bio-teams-with-process-development-built-in-eef450db",
+      "id": "e-n-thesis-p5-biomanufacturing-s-bottleneck-is-scale-up-not-ai-organism-design-fda-27fd507f",
+      "rationale": "The thesis names this winner: They can select designs for manufacturability instead of novelty.",
+      "rel": "creates_winner",
+      "src": "n-thesis-p5-biomanufacturing-s-bottleneck-is-scale-up-not-ai-organism-design-fdaccd13",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "dst": "n-loser-design-only-ai-bio-startups-da4907cc",
+      "id": "e-n-thesis-p5-biomanufacturing-s-bottleneck-is-scale-up-not-ai-organism-design-fda-83bdb893",
+      "rationale": "The thesis names this loser: They face valuation compression when customers ask for yield, cost, and qualified volume.",
+      "rel": "creates_loser",
+      "src": "n-thesis-p5-biomanufacturing-s-bottleneck-is-scale-up-not-ai-organism-design-fdaccd13",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "dst": "n-loser-commodity-bio-products-relying-only-on-green-premium-demand-60ee9c36",
+      "id": "e-n-thesis-p5-biomanufacturing-s-bottleneck-is-scale-up-not-ai-organism-design-fda-ebf0a09a",
+      "rationale": "The thesis names this loser: Nature's review notes commercial viability ultimately needs price parity or a tangible product benefit.",
+      "rel": "creates_loser",
+      "src": "n-thesis-p5-biomanufacturing-s-bottleneck-is-scale-up-not-ai-organism-design-fdaccd13",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "dst": "n-constraint-rent-lands-in-companies-with-process-development-talent-qualified-pil-8295600b",
+      "id": "e-n-thesis-p5-biomanufacturing-s-bottleneck-is-scale-up-not-ai-organism-design-fda-46842fa2",
+      "rationale": "Derived from implications.rent_path.",
+      "rel": "moves_rent_to",
+      "src": "n-thesis-p5-biomanufacturing-s-bottleneck-is-scale-up-not-ai-organism-design-fdaccd13",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "dst": "n-constraint-the-next-constraint-becomes-low-cost-feedstock-contamination-control-d7ca6628",
+      "id": "e-n-thesis-p5-biomanufacturing-s-bottleneck-is-scale-up-not-ai-organism-design-fda-958c18fc",
+      "rationale": "Derived from implications.next_constraint.",
+      "rel": "creates_next_constraint",
+      "src": "n-thesis-p5-biomanufacturing-s-bottleneck-is-scale-up-not-ai-organism-design-fdaccd13",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "dst": "n-constraint-the-next-constraint-becomes-low-cost-feedstock-contamination-control-d7ca6628",
+      "id": "e-n-constraint-pilot-and-commercial-scale-fermentation-downstream-processing-strai-e2d1c44d",
+      "rationale": "The thesis says this constraint creates a next constraint.",
+      "rel": "migrates_to",
+      "src": "n-constraint-pilot-and-commercial-scale-fermentation-downstream-processing-strain-787e5b3c",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "dst": "n-price-channel-pilot-fermentation-slots-downstream-processing-assets-process-deve-518ff8e8",
+      "id": "e-n-thesis-p5-biomanufacturing-s-bottleneck-is-scale-up-not-ai-organism-design-fda-9ae7446b",
+      "rationale": "Derived from implications.reprices.",
+      "rel": "reprices",
+      "src": "n-thesis-p5-biomanufacturing-s-bottleneck-is-scale-up-not-ai-organism-design-fdaccd13",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "dst": "n-action-investment-diligence-partnership-timing-pilot-plant-capex-cdmo-contractin-4eff088f",
+      "id": "e-n-thesis-p5-biomanufacturing-s-bottleneck-is-scale-up-not-ai-organism-design-fda-6a91535f",
+      "rationale": "Derived from implications.decision_changed.",
+      "rel": "changes_decision",
+      "src": "n-thesis-p5-biomanufacturing-s-bottleneck-is-scale-up-not-ai-organism-design-fdaccd13",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "dst": "n-action-early-access-to-pilot-and-downstream-capacity-can-turn-designs-into-quali-e59402fc",
+      "id": "e-n-thesis-p5-biomanufacturing-s-bottleneck-is-scale-up-not-ai-organism-design-fda-2936e474",
+      "rationale": "Derived from implications.roi_logic.",
+      "rel": "justified_by_roi",
+      "src": "n-thesis-p5-biomanufacturing-s-bottleneck-is-scale-up-not-ai-organism-design-fdaccd13",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.9,
+      "dst": "n-forecast-clause-biomanufacturing-s-bottleneck-is-scale-up-not-ai-organism-design-3fa4d5d5",
+      "id": "e-n-thesis-p5-biomanufacturing-s-bottleneck-is-scale-up-not-ai-organism-design-fda-571dc7d8",
+      "rationale": "This thesis states a scored forecast clause.",
+      "rel": "states_forecast",
+      "src": "n-thesis-p5-biomanufacturing-s-bottleneck-is-scale-up-not-ai-organism-design-fdaccd13",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.75,
+      "dst": "n-constraint-pilot-and-commercial-scale-fermentation-downstream-processing-strain-787e5b3c",
+      "id": "e-n-forecast-clause-biomanufacturing-s-bottleneck-is-scale-up-not-ai-organism-desi-a90d31fa",
+      "rationale": "The forecast depends on this constraint being binding.",
+      "rel": "conditional_on_constraint",
+      "src": "n-forecast-clause-biomanufacturing-s-bottleneck-is-scale-up-not-ai-organism-design-3fa4d5d5",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.85,
+      "dst": "n-metric-track-ai-designed-or-engineered-bio-products-that-fail-or-delay-on-cogs-a-e2bd431f",
+      "id": "e-n-forecast-clause-biomanufacturing-s-bottleneck-is-scale-up-not-ai-organism-desi-5f6718d1",
+      "rationale": "The forecast is scored through this metric.",
+      "rel": "scored_by",
+      "src": "n-forecast-clause-biomanufacturing-s-bottleneck-is-scale-up-not-ai-organism-design-3fa4d5d5",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.9,
+      "dst": "n-thesis-p6-agentic-ai-s-scarce-layer-becomes-authority-auditability-and-rollback-16ecbf23",
+      "id": "e-n-domain-what-comes-next-after-ai-093b9fee-contains-thesis-n-thesis-p6-agentic-a-ca5d571f",
+      "rationale": "The board domain contains this forecast thesis.",
+      "rel": "contains_thesis",
+      "src": "n-domain-what-comes-next-after-ai-093b9fee",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 1.0,
+      "dst": "n-thesis-p6-agentic-ai-s-scarce-layer-becomes-authority-auditability-and-rollback-16ecbf23",
+      "id": "e-n-source-research-pope-after-ai-2026-06-17-json-afabfe46-states-n-thesis-p6-agen-99d845b2",
+      "rationale": "The source board states this thesis.",
+      "rel": "states",
+      "src": "n-source-research-pope-after-ai-2026-06-17-json-afabfe46",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.7,
+      "dst": "n-constraint-identity-permissioning-tool-access-control-audit-trails-reversible-ex-961ac68e",
+      "id": "e-n-thesis-p6-agentic-ai-s-scarce-layer-becomes-authority-auditability-and-rollbac-dd549419",
+      "rationale": "The thesis claims this is the binding constraint.",
+      "rel": "identifies_constraint",
+      "src": "n-thesis-p6-agentic-ai-s-scarce-layer-becomes-authority-auditability-and-rollback-16ecbf23",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.8,
+      "dst": "n-metric-track-enterprise-rfps-requiring-agent-audit-logs-least-privilege-controls-0101da5f",
+      "id": "e-n-thesis-p6-agentic-ai-s-scarce-layer-becomes-authority-auditability-and-rollbac-a4813d72",
+      "rationale": "The forecast clause resolves through this metric.",
+      "rel": "resolved_by",
+      "src": "n-thesis-p6-agentic-ai-s-scarce-layer-becomes-authority-auditability-and-rollback-16ecbf23",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.65,
+      "dst": "n-metric-track-enterprise-rfps-requiring-agent-audit-logs-least-privilege-controls-0101da5f",
+      "id": "e-n-constraint-identity-permissioning-tool-access-control-audit-trails-reversible-d7f44815",
+      "rationale": "This metric is an observable proxy for the constraint.",
+      "rel": "observed_by",
+      "src": "n-constraint-identity-permissioning-tool-access-control-audit-trails-reversible-ex-961ac68e",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.9,
+      "dst": "n-kill-condition-kill-if-by-mid-2028-large-enterprises-widely-deploy-multi-step-ag-aad663ee",
+      "id": "e-n-thesis-p6-agentic-ai-s-scarce-layer-becomes-authority-auditability-and-rollbac-98e20edb",
+      "rationale": "This condition kills or falsifies the thesis.",
+      "rel": "falsified_by",
+      "src": "n-thesis-p6-agentic-ai-s-scarce-layer-becomes-authority-auditability-and-rollback-16ecbf23",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.65,
+      "dst": "n-price-channel-ai-security-and-governance-are-increasingly-visible-the-narrower-e-956a0669",
+      "id": "e-n-thesis-p6-agentic-ai-s-scarce-layer-becomes-authority-auditability-and-rollbac-2cb11395",
+      "rationale": "The pricing gate should inspect this channel.",
+      "rel": "priced_through",
+      "src": "n-thesis-p6-agentic-ai-s-scarce-layer-becomes-authority-auditability-and-rollback-16ecbf23",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.65,
+      "dst": "n-buyer-segment-cisos-cios-compliance-leaders-insurers-enterprise-software-buyers-a655b54c",
+      "id": "e-n-thesis-p6-agentic-ai-s-scarce-layer-becomes-authority-auditability-and-rollbac-17909105",
+      "rationale": "This buyer or operator is exposed to the forecast.",
+      "rel": "exposes",
+      "src": "n-thesis-p6-agentic-ai-s-scarce-layer-becomes-authority-auditability-and-rollback-16ecbf23",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.65,
+      "dst": "n-action-design-agent-deployments-around-authority-boundaries-first-least-privileg-f22a49ab",
+      "id": "e-n-thesis-p6-agentic-ai-s-scarce-layer-becomes-authority-auditability-and-rollbac-d82144b1",
+      "rationale": "If the thesis is right, this action changes now.",
+      "rel": "changes_action",
+      "src": "n-thesis-p6-agentic-ai-s-scarce-layer-becomes-authority-auditability-and-rollback-16ecbf23",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.75,
+      "dst": "n-observable-a-fortune-500-rfp-insurance-policy-or-regulator-explicitly-requiring-ef635ec0",
+      "id": "e-n-thesis-p6-agentic-ai-s-scarce-layer-becomes-authority-auditability-and-rollbac-f98517f0",
+      "rationale": "This is the earliest observable signal to monitor.",
+      "rel": "watched_by",
+      "src": "n-thesis-p6-agentic-ai-s-scarce-layer-becomes-authority-auditability-and-rollback-16ecbf23",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.65,
+      "dst": "n-observable-a-fortune-500-rfp-insurance-policy-or-regulator-explicitly-requiring-ef635ec0",
+      "id": "e-n-constraint-identity-permissioning-tool-access-control-audit-trails-reversible-a9562cdf",
+      "rationale": "The constraint should emit this signal if the thesis is becoming true.",
+      "rel": "emits_signal",
+      "src": "n-constraint-identity-permissioning-tool-access-control-audit-trails-reversible-ex-961ac68e",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "dst": "n-winner-identity-and-access-management-vendors-9ae1bd74",
+      "id": "e-n-thesis-p6-agentic-ai-s-scarce-layer-becomes-authority-auditability-and-rollbac-88c6ca42",
+      "rationale": "The thesis names this winner: Agent authority maps naturally onto permissioning, secrets, and least-privilege workflows.",
+      "rel": "creates_winner",
+      "src": "n-thesis-p6-agentic-ai-s-scarce-layer-becomes-authority-auditability-and-rollback-16ecbf23",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "dst": "n-winner-agent-orchestration-platforms-with-audit-and-rollback-95d048c9",
+      "id": "e-n-thesis-p6-agentic-ai-s-scarce-layer-becomes-authority-auditability-and-rollbac-df6ef862",
+      "rationale": "The thesis names this winner: They become the control plane for letting agents touch real systems.",
+      "rel": "creates_winner",
+      "src": "n-thesis-p6-agentic-ai-s-scarce-layer-becomes-authority-auditability-and-rollback-16ecbf23",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "dst": "n-winner-insurers-and-compliance-tooling-providers-871922f7",
+      "id": "e-n-thesis-p6-agentic-ai-s-scarce-layer-becomes-authority-auditability-and-rollbac-909d93b3",
+      "rationale": "The thesis names this winner: They can turn auditable controls into underwritable risk.",
+      "rel": "creates_winner",
+      "src": "n-thesis-p6-agentic-ai-s-scarce-layer-becomes-authority-auditability-and-rollback-16ecbf23",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "dst": "n-loser-prompt-only-agent-frameworks-d3538993",
+      "id": "e-n-thesis-p6-agentic-ai-s-scarce-layer-becomes-authority-auditability-and-rollbac-cb53601d",
+      "rationale": "The thesis names this loser: They cannot satisfy buyers who need proof, rollback, and authority boundaries.",
+      "rel": "creates_loser",
+      "src": "n-thesis-p6-agentic-ai-s-scarce-layer-becomes-authority-auditability-and-rollback-16ecbf23",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "dst": "n-loser-model-vendors-that-ignore-enterprise-control-planes-eb7233f9",
+      "id": "e-n-thesis-p6-agentic-ai-s-scarce-layer-becomes-authority-auditability-and-rollbac-820ff1bb",
+      "rationale": "The thesis names this loser: Capability alone does not clear procurement for regulated action.",
+      "rel": "creates_loser",
+      "src": "n-thesis-p6-agentic-ai-s-scarce-layer-becomes-authority-auditability-and-rollback-16ecbf23",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "dst": "n-constraint-rent-lands-in-identity-security-vendors-agent-orchestration-platforms-b74ae714",
+      "id": "e-n-thesis-p6-agentic-ai-s-scarce-layer-becomes-authority-auditability-and-rollbac-e43ebc1e",
+      "rationale": "Derived from implications.rent_path.",
+      "rel": "moves_rent_to",
+      "src": "n-thesis-p6-agentic-ai-s-scarce-layer-becomes-authority-auditability-and-rollback-16ecbf23",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "dst": "n-constraint-the-next-constraint-becomes-standard-evidence-formats-for-agent-actio-affe5fb4",
+      "id": "e-n-thesis-p6-agentic-ai-s-scarce-layer-becomes-authority-auditability-and-rollbac-e13f9c70",
+      "rationale": "Derived from implications.next_constraint.",
+      "rel": "creates_next_constraint",
+      "src": "n-thesis-p6-agentic-ai-s-scarce-layer-becomes-authority-auditability-and-rollback-16ecbf23",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "dst": "n-constraint-the-next-constraint-becomes-standard-evidence-formats-for-agent-actio-affe5fb4",
+      "id": "e-n-constraint-identity-permissioning-tool-access-control-audit-trails-reversible-ab797315",
+      "rationale": "The thesis says this constraint creates a next constraint.",
+      "rel": "migrates_to",
+      "src": "n-constraint-identity-permissioning-tool-access-control-audit-trails-reversible-ex-961ac68e",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "dst": "n-price-channel-agent-security-budgets-identity-control-spend-audit-log-infrastruc-180609c8",
+      "id": "e-n-thesis-p6-agentic-ai-s-scarce-layer-becomes-authority-auditability-and-rollbac-335c7f82",
+      "rationale": "Derived from implications.reprices.",
+      "rel": "reprices",
+      "src": "n-thesis-p6-agentic-ai-s-scarce-layer-becomes-authority-auditability-and-rollback-16ecbf23",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "dst": "n-action-enterprise-ai-procurement-security-architecture-insurance-underwriting-co-bf1e6768",
+      "id": "e-n-thesis-p6-agentic-ai-s-scarce-layer-becomes-authority-auditability-and-rollbac-00af9fff",
+      "rationale": "Derived from implications.decision_changed.",
+      "rel": "changes_decision",
+      "src": "n-thesis-p6-agentic-ai-s-scarce-layer-becomes-authority-auditability-and-rollback-16ecbf23",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "dst": "n-action-a-controlled-agent-can-be-deployed-into-high-value-workflows-that-an-unco-55ff9969",
+      "id": "e-n-thesis-p6-agentic-ai-s-scarce-layer-becomes-authority-auditability-and-rollbac-55bbffe0",
+      "rationale": "Derived from implications.roi_logic.",
+      "rel": "justified_by_roi",
+      "src": "n-thesis-p6-agentic-ai-s-scarce-layer-becomes-authority-auditability-and-rollback-16ecbf23",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.9,
+      "dst": "n-forecast-clause-agentic-ai-s-scarce-layer-becomes-authority-auditability-and-rol-cef6ed39",
+      "id": "e-n-thesis-p6-agentic-ai-s-scarce-layer-becomes-authority-auditability-and-rollbac-d329828d",
+      "rationale": "This thesis states a scored forecast clause.",
+      "rel": "states_forecast",
+      "src": "n-thesis-p6-agentic-ai-s-scarce-layer-becomes-authority-auditability-and-rollback-16ecbf23",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.75,
+      "dst": "n-constraint-identity-permissioning-tool-access-control-audit-trails-reversible-ex-961ac68e",
+      "id": "e-n-forecast-clause-agentic-ai-s-scarce-layer-becomes-authority-auditability-and-r-bf35c660",
+      "rationale": "The forecast depends on this constraint being binding.",
+      "rel": "conditional_on_constraint",
+      "src": "n-forecast-clause-agentic-ai-s-scarce-layer-becomes-authority-auditability-and-rol-cef6ed39",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.85,
+      "dst": "n-metric-track-enterprise-rfps-requiring-agent-audit-logs-least-privilege-controls-0101da5f",
+      "id": "e-n-forecast-clause-agentic-ai-s-scarce-layer-becomes-authority-auditability-and-r-f27b0270",
+      "rationale": "The forecast is scored through this metric.",
+      "rel": "scored_by",
+      "src": "n-forecast-clause-agentic-ai-s-scarce-layer-becomes-authority-auditability-and-rol-cef6ed39",
+      "verification_status": "derived_from_board"
+    }
+  ],
+  "forecast_clauses": [
+    {
+      "clause_p": 52,
+      "headline": "The AI frontier moves from model access to firm-power siting.",
+      "id": "f-forecast-p1-the-ai-frontier-moves-from-model-access-to-firm-power-siting-17e7e997",
+      "kill": "Kill if by end 2028 fewer than two hyperscaler-scale campuses publicly secure behind-the-meter firm clean generation as a core siting advantage, or if transformer and interconnection delays normalize below roughly 24 months in the main US AI data-center markets.",
+      "metric": "Track hyperscaler and data-center developer announcements that name on-site firm power, geothermal, or interconnection bypass as the reason for site selection; count 100 MW plus campuses with direct power-development partnerships; track transformer lead times and local moratoria.",
+      "node_id": "n-forecast-clause-the-ai-frontier-moves-from-model-access-to-firm-power-siting-94c415a1",
+      "node_refs": [
+        "n-forecast-clause-the-ai-frontier-moves-from-model-access-to-firm-power-siting-94c415a1",
+        "n-thesis-p1-the-ai-frontier-moves-from-model-access-to-firm-power-siting-b3db70cf",
+        "n-constraint-contiguous-land-fiber-proximity-behind-the-meter-firm-generation-righ-ced7941b",
+        "n-metric-track-hyperscaler-and-data-center-developer-announcements-that-name-on-si-f5493b8f"
+      ],
+      "resolves": "2028-12-31",
+      "status": "scored_clause_from_board",
+      "thesis_id": "P1",
+      "vision_p": 82
+    },
+    {
+      "clause_p": 46,
+      "headline": "Physical AI's bottleneck is certified deployment, not robot bodies.",
+      "id": "f-forecast-p2-physical-ai-s-bottleneck-is-certified-deployment-not-robot-bodies-85e53c9b",
+      "kill": "Kill if by end 2028 humanoid or mobile manipulation deployments scale mainly through turnkey robot hardware with little separate pricing for task validation, commissioning software, or safety case tooling.",
+      "metric": "Track robot OEMs or large integrators selling task libraries, simulation validation, or commissioning layers as separate line items; track public claims of 40 percent plus cuts in commissioning time; track safety certification language in physical-AI deployments.",
+      "node_id": "n-forecast-clause-physical-ai-s-bottleneck-is-certified-deployment-not-robot-bodie-5d45981f",
+      "node_refs": [
+        "n-forecast-clause-physical-ai-s-bottleneck-is-certified-deployment-not-robot-bodie-5d45981f",
+        "n-thesis-p2-physical-ai-s-bottleneck-is-certified-deployment-not-robot-bodies-1a122ecc",
+        "n-constraint-verified-task-data-sim-to-real-validation-workcell-commissioning-safe-1f01fc96",
+        "n-metric-track-robot-oems-or-large-integrators-selling-task-libraries-simulation-v-3d361480"
+      ],
+      "resolves": "2028-12-31",
+      "status": "scored_clause_from_board",
+      "thesis_id": "P2",
+      "vision_p": 78
+    },
+    {
+      "clause_p": 44,
+      "headline": "Autonomous science shifts the bottleneck from model discovery to experimental throughput.",
+      "id": "f-forecast-p3-autonomous-science-shifts-the-bottleneck-from-model-discovery-to-exp-4b552a6a",
+      "kill": "Kill if by 2029 model-only AI discovery companies repeatedly produce commercially validated materials or therapies without materially expanding wet-lab or physical-test throughput.",
+      "metric": "Track DOE and national-lab testbed awards, pharma/materials partnerships that buy autonomous lab capacity, assay throughput per researcher, and publications where the bottleneck is experiment generation rather than model inference.",
+      "node_id": "n-forecast-clause-autonomous-science-shifts-the-bottleneck-from-model-discovery-to-60c389a9",
+      "node_refs": [
+        "n-forecast-clause-autonomous-science-shifts-the-bottleneck-from-model-discovery-to-60c389a9",
+        "n-thesis-p3-autonomous-science-shifts-the-bottleneck-from-model-discovery-to-exper-2d0ad3e9",
+        "n-constraint-robotic-experimental-throughput-with-standardized-metadata-reliable-a-6881a685",
+        "n-metric-track-doe-and-national-lab-testbed-awards-pharma-materials-partnerships-t-629546ac"
+      ],
+      "resolves": "2029-12-31",
+      "status": "scored_clause_from_board",
+      "thesis_id": "P3",
+      "vision_p": 76
+    },
+    {
+      "clause_p": 43,
+      "headline": "The consumer AI interface moves to always-on edge devices, gated by thermals, battery, sensors, and privacy.",
+      "id": "f-forecast-p4-the-consumer-ai-interface-moves-to-always-on-edge-devices-gated-by-t-9f50efbf",
+      "kill": "Kill if by end 2028 the dominant consumer AI usage remains cloud-chat inside phones and browsers, with wearables and glasses failing to show persistent local context as a major usage mode.",
+      "metric": "Track commercial devices that run billion-parameter local models, all-day context capture, or private agentic features on wearables/glasses/phones; track battery complaints, thermal throttling, and local AI developer APIs.",
+      "node_id": "n-forecast-clause-the-consumer-ai-interface-moves-to-always-on-edge-devices-gated-bd117153",
+      "node_refs": [
+        "n-forecast-clause-the-consumer-ai-interface-moves-to-always-on-edge-devices-gated-bd117153",
+        "n-thesis-p4-the-consumer-ai-interface-moves-to-always-on-edge-devices-gated-by-the-e6198427",
+        "n-constraint-low-power-npus-sensor-fusion-local-memory-privacy-preserving-orchestr-5b1cd0e2",
+        "n-metric-track-commercial-devices-that-run-billion-parameter-local-models-all-day-cdb6953f"
+      ],
+      "resolves": "2028-12-31",
+      "status": "scored_clause_from_board",
+      "thesis_id": "P4",
+      "vision_p": 70
+    },
+    {
+      "clause_p": 41,
+      "headline": "Biomanufacturing's bottleneck is scale-up, not AI organism design.",
+      "id": "f-forecast-p5-biomanufacturing-s-bottleneck-is-scale-up-not-ai-organism-design-ddbf13de",
+      "kill": "Kill if by 2030 multiple AI-designed industrial bio-products reach commodity-relevant scale and price parity without scarce pilot capacity, downstream processing, or process-development labor becoming a public bottleneck.",
+      "metric": "Track AI-designed or engineered bio-products that fail or delay on COGS and scale-up; track pilot fermentation capacity, downstream bottlenecks, and offtake contracts tied to price parity rather than sustainability premium.",
+      "node_id": "n-forecast-clause-biomanufacturing-s-bottleneck-is-scale-up-not-ai-organism-design-3fa4d5d5",
+      "node_refs": [
+        "n-forecast-clause-biomanufacturing-s-bottleneck-is-scale-up-not-ai-organism-design-3fa4d5d5",
+        "n-thesis-p5-biomanufacturing-s-bottleneck-is-scale-up-not-ai-organism-design-fdaccd13",
+        "n-constraint-pilot-and-commercial-scale-fermentation-downstream-processing-strain-787e5b3c",
+        "n-metric-track-ai-designed-or-engineered-bio-products-that-fail-or-delay-on-cogs-a-e2bd431f"
+      ],
+      "resolves": "2030-12-31",
+      "status": "scored_clause_from_board",
+      "thesis_id": "P5",
+      "vision_p": 72
+    },
+    {
+      "clause_p": 48,
+      "headline": "Agentic AI's scarce layer becomes authority, auditability, and rollback.",
+      "id": "f-forecast-p6-agentic-ai-s-scarce-layer-becomes-authority-auditability-and-rollbac-04f81e39",
+      "kill": "Kill if by mid-2028 large enterprises widely deploy multi-step agents with real system authority using mostly prompt-level guardrails and generic logging, without a separate action-governance budget.",
+      "metric": "Track enterprise RFPs requiring agent audit logs, least-privilege controls, rollback, or insurance support; track public agent incidents; track vendors selling action-governance rather than generic model monitoring.",
+      "node_id": "n-forecast-clause-agentic-ai-s-scarce-layer-becomes-authority-auditability-and-rol-cef6ed39",
+      "node_refs": [
+        "n-forecast-clause-agentic-ai-s-scarce-layer-becomes-authority-auditability-and-rol-cef6ed39",
+        "n-thesis-p6-agentic-ai-s-scarce-layer-becomes-authority-auditability-and-rollback-16ecbf23",
+        "n-constraint-identity-permissioning-tool-access-control-audit-trails-reversible-ex-961ac68e",
+        "n-metric-track-enterprise-rfps-requiring-agent-audit-logs-least-privilege-controls-0101da5f"
+      ],
+      "resolves": "2028-06-30",
+      "status": "scored_clause_from_board",
+      "thesis_id": "P6",
+      "vision_p": 74
+    }
+  ],
+  "meta": {
+    "board_date": "2026-06-17",
+    "domain": "what comes next after AI",
+    "generated_at": "2026-06-18T20:50:49+00:00",
+    "graph_version": "vati_world_graph_v1",
+    "horizon": "2028 to 2031",
+    "run_mode": "deterministic_world_graph_compile",
+    "source_path": "research/pope/after-ai-2026-06-17.json",
+    "title": "After AI: where the constraint moves when intelligence leaves the screen"
+  },
+  "nodes": [
+    {
+      "confidence": 1.0,
+      "domain": "what comes next after AI",
+      "fields": {
+        "authored_date": "2026-06-17",
+        "source_type": "pope_board"
+      },
+      "id": "n-source-research-pope-after-ai-2026-06-17-json-afabfe46",
+      "kind": "source",
+      "label": "research/pope/after-ai-2026-06-17.json",
+      "verification_status": "source_artifact"
+    },
+    {
+      "confidence": 0.95,
+      "domain": "what comes next after AI",
+      "fields": {
+        "horizon": "2028 to 2031",
+        "title": "After AI: where the constraint moves when intelligence leaves the screen"
+      },
+      "id": "n-domain-what-comes-next-after-ai-093b9fee",
+      "kind": "domain",
+      "label": "what comes next after AI",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.8,
+      "domain": "AI infrastructure / energy",
+      "fields": {
+        "pre_consensus": "The market sees power constraints, but still talks about AI infrastructure as a chip and cloud-capex race. The less priced layer is site selection as an energy-development problem: fiber plus land plus behind-the-meter generation plus permitting, especially where next-generation geothermal can bypass interconnection delays.",
+        "structural": "Data-center electricity demand is rising faster than grid equipment, interconnection, and local political consent can adjust. Rhodium cites LBL projections that US data centers could reach 7 to 12 percent of US electricity demand by 2028, while pv magazine reported four-year waits for power transformers in May 2026. Once GPU access is not the only scarcity, the gating variable becomes where a buyer can get clean, firm, permitted electricity without waiting in the queue.",
+        "thesis_id": "P1",
+        "why": "The first-order AI power story is now consensus. The second-order call survives because it names where the rent migrates after that consensus: not just to generators, but to sites and developers that can collapse the time from model demand to energized capacity."
+      },
+      "id": "n-thesis-p1-the-ai-frontier-moves-from-model-access-to-firm-power-siting-b3db70cf",
+      "kind": "thesis",
+      "label": "P1: The AI frontier moves from model access to firm-power siting.",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.7,
+      "domain": "AI infrastructure / energy",
+      "fields": {
+        "source_thesis": "P1"
+      },
+      "id": "n-constraint-contiguous-land-fiber-proximity-behind-the-meter-firm-generation-righ-ced7941b",
+      "kind": "constraint",
+      "label": "Contiguous land, fiber proximity, behind-the-meter firm generation rights, interconnection optionality, cooling, and local permitting bundled into a deployable data-center campus.",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.75,
+      "domain": "AI infrastructure / energy",
+      "fields": {
+        "source_thesis": "P1"
+      },
+      "id": "n-metric-track-hyperscaler-and-data-center-developer-announcements-that-name-on-si-f5493b8f",
+      "kind": "metric",
+      "label": "Track hyperscaler and data-center developer announcements that name on-site firm power, geothermal, or interconnection bypass as the reason for site selection; count 100 MW plus campuses with direct power-development partnerships; track transformer lead times and local moratoria.",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.8,
+      "domain": "AI infrastructure / energy",
+      "fields": {
+        "source_thesis": "P1"
+      },
+      "id": "n-kill-condition-kill-if-by-end-2028-fewer-than-two-hyperscaler-scale-campuses-pub-495cf67f",
+      "kind": "kill_condition",
+      "label": "Kill if by end 2028 fewer than two hyperscaler-scale campuses publicly secure behind-the-meter firm clean generation as a core siting advantage, or if transformer and interconnection delays normalize below roughly 24 months in the main US AI data-center markets.",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.65,
+      "domain": "AI infrastructure / energy",
+      "fields": {
+        "source_thesis": "P1"
+      },
+      "id": "n-price-channel-transformer-shortage-and-grid-congestion-are-visible-the-residual-1a4676ce",
+      "kind": "price_channel",
+      "label": "Transformer shortage and grid congestion are visible. The residual edge is not the fact that power is tight; it is the claim that firm-power site rights become a primary AI platform asset, and that geothermal or other clean firm behind-the-meter resources get valued as AI infrastructure rather than as ordinary generation.",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.65,
+      "domain": "AI infrastructure / energy",
+      "fields": {
+        "source_thesis": "P1"
+      },
+      "id": "n-buyer-segment-hyperscaler-infrastructure-teams-data-center-developers-power-deve-fd355967",
+      "kind": "buyer_segment",
+      "label": "Hyperscaler infrastructure teams, data-center developers, power developers, large AI labs with reserved compute needs, and investors underwriting AI infrastructure.",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.65,
+      "domain": "AI infrastructure / energy",
+      "fields": {
+        "source_thesis": "P1"
+      },
+      "id": "n-action-map-sites-by-firm-power-time-to-energize-not-just-land-cost-and-fiber-sec-a462366b",
+      "kind": "action",
+      "label": "Map sites by firm-power time-to-energize, not just land cost and fiber; secure options on campuses where geothermal, gas with carbon capture, nuclear restart, or other firm power can be contracted behind the meter.",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.7,
+      "domain": "AI infrastructure / energy",
+      "fields": {
+        "source_thesis": "P1"
+      },
+      "id": "n-observable-a-hyperscaler-or-top-data-center-reit-announcing-a-100-mw-plus-campus-ee448776",
+      "kind": "observable",
+      "label": "A hyperscaler or top data-center REIT announcing a 100 MW plus campus whose stated differentiator is behind-the-meter clean firm power rather than cheap land.",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "domain": "AI infrastructure / energy",
+      "fields": {
+        "source_thesis": "P1",
+        "why": "They turn data-center load into a bankable offtake and bypass part of the grid queue."
+      },
+      "id": "n-winner-geothermal-and-clean-firm-power-developers-d26c8b7d",
+      "kind": "winner",
+      "label": "Geothermal and clean firm power developers",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "domain": "AI infrastructure / energy",
+      "fields": {
+        "source_thesis": "P1",
+        "why": "They can sell time-to-energize, not square footage."
+      },
+      "id": "n-winner-data-center-developers-with-power-secured-land-9d1fcc54",
+      "kind": "winner",
+      "label": "Data-center developers with power-secured land",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "domain": "AI infrastructure / energy",
+      "fields": {
+        "source_thesis": "P1",
+        "why": "Inference workloads can move toward power instead of clustering only near legacy hubs."
+      },
+      "id": "n-winner-hyperscalers-with-flexible-inference-siting-0745b147",
+      "kind": "winner",
+      "label": "Hyperscalers with flexible inference siting",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "domain": "AI infrastructure / energy",
+      "fields": {
+        "source_thesis": "P1",
+        "why": "They face transformer, interconnection, and local consent delays that make announced capacity less real."
+      },
+      "id": "n-loser-grid-dependent-campus-projects-in-congested-markets-aab89810",
+      "kind": "loser",
+      "label": "Grid-dependent campus projects in congested markets",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "domain": "AI infrastructure / energy",
+      "fields": {
+        "source_thesis": "P1",
+        "why": "They risk owning buildings that cannot be energized on the underwriting timeline."
+      },
+      "id": "n-loser-ai-infrastructure-investors-underwriting-shell-capacity-only-19dd6ae3",
+      "kind": "loser",
+      "label": "AI infrastructure investors underwriting shell capacity only",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "domain": "AI infrastructure / energy",
+      "fields": {
+        "source_field": "rent_path",
+        "source_thesis": "P1"
+      },
+      "id": "n-constraint-rent-lands-in-developers-and-landowners-with-power-secured-campuses-g-43019856",
+      "kind": "constraint",
+      "label": "Rent lands in developers and landowners with power-secured campuses, geothermal developers such as Fervo-style EGS operators, and utilities or IPPs that can deliver firm interconnection alternatives. It does not land evenly across data-center real estate.",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "domain": "AI infrastructure / energy",
+      "fields": {
+        "source_field": "next_constraint",
+        "source_thesis": "P1"
+      },
+      "id": "n-constraint-the-next-constraint-moves-to-drilling-capacity-high-voltage-equipment-6742ca22",
+      "kind": "constraint",
+      "label": "The next constraint moves to drilling capacity, high-voltage equipment, water and cooling permits, and local political consent for large loads.",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "domain": "AI infrastructure / energy",
+      "fields": {
+        "source_field": "reprices",
+        "source_thesis": "P1"
+      },
+      "id": "n-price-channel-power-secured-land-options-behind-the-meter-ppas-geothermal-develo-8b047c51",
+      "kind": "price_channel",
+      "label": "Power-secured land options, behind-the-meter PPAs, geothermal development rights, and data-center lease premiums should reprice upward relative to ordinary shells.",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "domain": "AI infrastructure / energy",
+      "fields": {
+        "source_field": "decision_changed",
+        "source_thesis": "P1"
+      },
+      "id": "n-action-data-center-site-selection-ppa-strategy-power-development-partnerships-ca-8454863b",
+      "kind": "action",
+      "label": "Data-center site selection, PPA strategy, power-development partnerships, capex phasing, and portfolio exposure to grid-dependent versus power-secured data-center assets.",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "domain": "AI infrastructure / energy",
+      "fields": {
+        "source_field": "roi_logic",
+        "source_thesis": "P1"
+      },
+      "id": "n-action-a-site-that-energizes-12-to-24-months-earlier-can-be-worth-more-than-a-ch-719c385a",
+      "kind": "action",
+      "label": "A site that energizes 12 to 24 months earlier can be worth more than a cheaper site with stranded shells and delayed transformers. The asymmetry is time: idle GPUs and delayed leases burn capital while power-secured campuses monetize demand.",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.85,
+      "domain": "AI infrastructure / energy",
+      "fields": {
+        "resolves": "2028-12-31",
+        "source_thesis": "P1"
+      },
+      "id": "n-forecast-clause-the-ai-frontier-moves-from-model-access-to-firm-power-siting-94c415a1",
+      "kind": "forecast_clause",
+      "label": "The AI frontier moves from model access to firm-power siting.",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.8,
+      "domain": "robotics / industrial automation",
+      "fields": {
+        "pre_consensus": "Capital chases the robot OEM narrative. Buyers pay for productive hours, uptime, and safety sign-off. The pre-consensus layer is that task deployment and validation become separately priced software/services, not just bundled OEM support.",
+        "structural": "Humanoid and industrial robot pilots are moving toward early commercial deployment, especially in automotive and logistics, but every physical deployment has to cross a hard boundary: task data, safety, uptime, workcell integration, maintenance, and liability. NVIDIA is explicitly pushing world models, Isaac Sim, Isaac Lab, Cosmos, and GR00T as simulation and validation infrastructure. IDTechEx's humanoid materials and robotics coverage highlights tactile sensors, training data, software, simulation, and component bottlenecks. The body is visible; the deployable task stack is the constraint.",
+        "thesis_id": "P2",
+        "why": "Robots do not sell as intelligence; they sell as safe, repeatable labor hours. The scarce layer is the proof that a robot can do the task in a customer's messy environment without breaking the line, hurting someone, or requiring heroic integration labor."
+      },
+      "id": "n-thesis-p2-physical-ai-s-bottleneck-is-certified-deployment-not-robot-bodies-1a122ecc",
+      "kind": "thesis",
+      "label": "P2: Physical AI's bottleneck is certified deployment, not robot bodies.",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.7,
+      "domain": "robotics / industrial automation",
+      "fields": {
+        "source_thesis": "P2"
+      },
+      "id": "n-constraint-verified-task-data-sim-to-real-validation-workcell-commissioning-safe-1f01fc96",
+      "kind": "constraint",
+      "label": "Verified task data, sim-to-real validation, workcell commissioning, safety certification, and field support for physical AI in factories and warehouses.",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.75,
+      "domain": "robotics / industrial automation",
+      "fields": {
+        "source_thesis": "P2"
+      },
+      "id": "n-metric-track-robot-oems-or-large-integrators-selling-task-libraries-simulation-v-3d361480",
+      "kind": "metric",
+      "label": "Track robot OEMs or large integrators selling task libraries, simulation validation, or commissioning layers as separate line items; track public claims of 40 percent plus cuts in commissioning time; track safety certification language in physical-AI deployments.",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.8,
+      "domain": "robotics / industrial automation",
+      "fields": {
+        "source_thesis": "P2"
+      },
+      "id": "n-kill-condition-kill-if-by-end-2028-humanoid-or-mobile-manipulation-deployments-s-775de1ac",
+      "kind": "kill_condition",
+      "label": "Kill if by end 2028 humanoid or mobile manipulation deployments scale mainly through turnkey robot hardware with little separate pricing for task validation, commissioning software, or safety case tooling.",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.65,
+      "domain": "robotics / industrial automation",
+      "fields": {
+        "source_thesis": "P2"
+      },
+      "id": "n-price-channel-robotics-platform-hype-is-visible-in-private-valuations-and-public-0bf2bb56",
+      "kind": "price_channel",
+      "label": "Robotics platform hype is visible in private valuations and public AI narratives. The narrower deployment-layer thesis is less directly priced because the value sits inside integration contracts, simulation tools, safety cases, and task libraries rather than a clean public instrument.",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.65,
+      "domain": "robotics / industrial automation",
+      "fields": {
+        "source_thesis": "P2"
+      },
+      "id": "n-buyer-segment-manufacturing-coos-logistics-operators-industrial-automation-integ-82ce522a",
+      "kind": "buyer_segment",
+      "label": "Manufacturing COOs, logistics operators, industrial automation integrators, robot OEMs, and investors in physical AI companies.",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.65,
+      "domain": "robotics / industrial automation",
+      "fields": {
+        "source_thesis": "P2"
+      },
+      "id": "n-action-inventory-repeatable-tasks-by-commissioning-burden-and-safety-risk-struct-8215d5fd",
+      "kind": "action",
+      "label": "Inventory repeatable tasks by commissioning burden and safety risk; structure pilots around validated productive hours and time-to-commission, not robot count or demo quality.",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.7,
+      "domain": "robotics / industrial automation",
+      "fields": {
+        "source_thesis": "P2"
+      },
+      "id": "n-observable-a-major-automotive-or-logistics-deployment-where-the-press-release-na-fbf34b88",
+      "kind": "observable",
+      "label": "A major automotive or logistics deployment where the press release names the validation, simulation, or task-library layer as the reason the rollout scaled.",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "domain": "robotics / industrial automation",
+      "fields": {
+        "source_thesis": "P2",
+        "why": "They sit in the validation path between robot policy training and real-world deployment."
+      },
+      "id": "n-winner-nvidia-isaac-cosmos-style-simulation-ecosystems-80c6301a",
+      "kind": "winner",
+      "label": "NVIDIA Isaac/Cosmos-style simulation ecosystems",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "domain": "robotics / industrial automation",
+      "fields": {
+        "source_thesis": "P2",
+        "why": "They turn one-off commissioning labor into repeatable software-enabled deployment."
+      },
+      "id": "n-winner-industrial-integrators-with-reusable-task-libraries-b6716709",
+      "kind": "winner",
+      "label": "Industrial integrators with reusable task libraries",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "domain": "robotics / industrial automation",
+      "fields": {
+        "source_thesis": "P2",
+        "why": "They become easier customers and capture automation ROI earlier."
+      },
+      "id": "n-winner-manufacturers-with-clean-process-data-and-standardized-workcells-c37f1096",
+      "kind": "winner",
+      "label": "Manufacturers with clean process data and standardized workcells",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "domain": "robotics / industrial automation",
+      "fields": {
+        "source_thesis": "P2",
+        "why": "Hardware demos do not create durable margin if deployment assurance is owned elsewhere."
+      },
+      "id": "n-loser-undifferentiated-humanoid-oems-0d07ea65",
+      "kind": "loser",
+      "label": "Undifferentiated humanoid OEMs",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "domain": "robotics / industrial automation",
+      "fields": {
+        "source_thesis": "P2",
+        "why": "Reusable task libraries and simulation reduce the value of bespoke labor."
+      },
+      "id": "n-loser-custom-only-automation-integrators-72a805b5",
+      "kind": "loser",
+      "label": "Custom-only automation integrators",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "domain": "robotics / industrial automation",
+      "fields": {
+        "source_field": "rent_path",
+        "source_thesis": "P2"
+      },
+      "id": "n-constraint-rent-flows-to-simulation-and-validation-platforms-robot-integrators-w-ee2a77d2",
+      "kind": "constraint",
+      "label": "Rent flows to simulation and validation platforms, robot integrators with reusable task libraries, and OEMs that can prove uptime and safety. Commodity bodies get squeezed unless they own the deployment layer.",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "domain": "robotics / industrial automation",
+      "fields": {
+        "source_field": "next_constraint",
+        "source_thesis": "P2"
+      },
+      "id": "n-constraint-the-next-constraint-becomes-high-quality-real-world-task-data-tactile-762add0c",
+      "kind": "constraint",
+      "label": "The next constraint becomes high-quality real-world task data, tactile sensing, safety certification labor, and maintenance networks.",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "domain": "robotics / industrial automation",
+      "fields": {
+        "source_field": "reprices",
+        "source_thesis": "P2"
+      },
+      "id": "n-price-channel-physical-ai-valuation-should-migrate-from-unit-shipments-to-deploy-e5cd43e2",
+      "kind": "price_channel",
+      "label": "Physical-AI valuation should migrate from unit shipments to deployment software attach rate, commissioning margin, and validated task-hour economics.",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "domain": "robotics / industrial automation",
+      "fields": {
+        "source_field": "decision_changed",
+        "source_thesis": "P2"
+      },
+      "id": "n-action-automation-capex-integrator-selection-pilot-design-safety-certification-b-7942dd95",
+      "kind": "action",
+      "label": "Automation capex, integrator selection, pilot design, safety certification budgets, and whether to invest in robot OEMs or deployment-layer tooling.",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "domain": "robotics / industrial automation",
+      "fields": {
+        "source_field": "roi_logic",
+        "source_thesis": "P2"
+      },
+      "id": "n-action-a-robot-that-takes-six-months-of-integration-labor-to-deliver-a-narrow-ta-0676de7c",
+      "kind": "action",
+      "label": "A robot that takes six months of integration labor to deliver a narrow task has poor ROI even if the body is cheap. Deployment tooling pays by converting demos into billable productive hours faster.",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.85,
+      "domain": "robotics / industrial automation",
+      "fields": {
+        "resolves": "2028-12-31",
+        "source_thesis": "P2"
+      },
+      "id": "n-forecast-clause-physical-ai-s-bottleneck-is-certified-deployment-not-robot-bodie-5d45981f",
+      "kind": "forecast_clause",
+      "label": "Physical AI's bottleneck is certified deployment, not robot bodies.",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.8,
+      "domain": "autonomous science / biotech / materials",
+      "fields": {
+        "pre_consensus": "AI-for-science narratives still reward model papers and discovery claims. The more durable bottleneck is boring: the labs, assays, protocols, and reference data that make closed-loop discovery trustworthy.",
+        "structural": "AI can propose experiments faster than labs can run, measure, standardize, and trust them. DOE's 2026 robotics and automation testbed call for autonomous scientific discovery points to the institutionalization of this bottleneck, with expected awards of 3 to 5 million dollars per year. The binding input is not another model; it is reliable experiment generation, instrument uptime, assay reproducibility, and machine-readable provenance.",
+        "thesis_id": "P3",
+        "why": "Discovery systems learn from measurements. If measurements are slow, noisy, unstandardized, or untrusted, model quality cannot compound. The valuable asset becomes the loop, not the idea generator."
+      },
+      "id": "n-thesis-p3-autonomous-science-shifts-the-bottleneck-from-model-discovery-to-exper-2d0ad3e9",
+      "kind": "thesis",
+      "label": "P3: Autonomous science shifts the bottleneck from model discovery to experimental throughput.",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.7,
+      "domain": "autonomous science / biotech / materials",
+      "fields": {
+        "source_thesis": "P3"
+      },
+      "id": "n-constraint-robotic-experimental-throughput-with-standardized-metadata-reliable-a-6881a685",
+      "kind": "constraint",
+      "label": "Robotic experimental throughput with standardized metadata, reliable assays, calibrated uncertainty, and provenance that lets models learn from results without poisoning the loop.",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.75,
+      "domain": "autonomous science / biotech / materials",
+      "fields": {
+        "source_thesis": "P3"
+      },
+      "id": "n-metric-track-doe-and-national-lab-testbed-awards-pharma-materials-partnerships-t-629546ac",
+      "kind": "metric",
+      "label": "Track DOE and national-lab testbed awards, pharma/materials partnerships that buy autonomous lab capacity, assay throughput per researcher, and publications where the bottleneck is experiment generation rather than model inference.",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.8,
+      "domain": "autonomous science / biotech / materials",
+      "fields": {
+        "source_thesis": "P3"
+      },
+      "id": "n-kill-condition-kill-if-by-2029-model-only-ai-discovery-companies-repeatedly-prod-e47c136a",
+      "kind": "kill_condition",
+      "label": "Kill if by 2029 model-only AI discovery companies repeatedly produce commercially validated materials or therapies without materially expanding wet-lab or physical-test throughput.",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.65,
+      "domain": "autonomous science / biotech / materials",
+      "fields": {
+        "source_thesis": "P3"
+      },
+      "id": "n-price-channel-self-driving-lab-companies-and-lab-automation-vendors-are-funded-b-bd615cc4",
+      "kind": "price_channel",
+      "label": "Self-driving lab companies and lab automation vendors are funded, but the market has not cleanly priced experimental throughput as the scarce asset under model-driven discovery. Much of the value sits inside R&D budgets, national labs, and pharma partnerships.",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.65,
+      "domain": "autonomous science / biotech / materials",
+      "fields": {
+        "source_thesis": "P3"
+      },
+      "id": "n-buyer-segment-pharma-r-d-leaders-materials-companies-national-labs-ai-for-scienc-1eecff3d",
+      "kind": "buyer_segment",
+      "label": "Pharma R&D leaders, materials companies, national labs, AI-for-science founders, and investors underwriting discovery platforms.",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.65,
+      "domain": "autonomous science / biotech / materials",
+      "fields": {
+        "source_thesis": "P3"
+      },
+      "id": "n-action-audit-which-discovery-programs-are-experiment-limited-secure-access-to-ro-d84da1e0",
+      "kind": "action",
+      "label": "Audit which discovery programs are experiment-limited; secure access to robotic testbeds, assay vendors, and metadata/provenance infrastructure before model-generated proposal volume spikes.",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.7,
+      "domain": "autonomous science / biotech / materials",
+      "fields": {
+        "source_thesis": "P3"
+      },
+      "id": "n-observable-a-major-pharma-chemicals-or-materials-company-publicly-saying-its-ai-185fa04e",
+      "kind": "observable",
+      "label": "A major pharma, chemicals, or materials company publicly saying its AI discovery bottleneck is lab throughput or assay availability, not model quality.",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "domain": "autonomous science / biotech / materials",
+      "fields": {
+        "source_thesis": "P3",
+        "why": "They become shared infrastructure for autonomous discovery workflows."
+      },
+      "id": "n-winner-doe-and-national-lab-testbed-ecosystems-365a0451",
+      "kind": "winner",
+      "label": "DOE and national lab testbed ecosystems",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "domain": "autonomous science / biotech / materials",
+      "fields": {
+        "source_thesis": "P3",
+        "why": "They own the throughput and data rights needed to make AI-for-science real."
+      },
+      "id": "n-winner-autonomous-lab-operators-and-assay-platforms-3d1656dc",
+      "kind": "winner",
+      "label": "Autonomous lab operators and assay platforms",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "domain": "autonomous science / biotech / materials",
+      "fields": {
+        "source_thesis": "P3",
+        "why": "Their experiments become reusable training signal instead of isolated results."
+      },
+      "id": "n-winner-r-d-teams-with-strong-metadata-discipline-c928f7ca",
+      "kind": "winner",
+      "label": "R&D teams with strong metadata discipline",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "domain": "autonomous science / biotech / materials",
+      "fields": {
+        "source_thesis": "P3",
+        "why": "They can propose more than they can validate, making their output easy to discount."
+      },
+      "id": "n-loser-model-only-discovery-startups-a40e7af2",
+      "kind": "loser",
+      "label": "Model-only discovery startups",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "domain": "autonomous science / biotech / materials",
+      "fields": {
+        "source_thesis": "P3",
+        "why": "They provide services but not compounding machine-readable learning loops."
+      },
+      "id": "n-loser-manual-cros-without-automation-or-data-standardization-e3e6bd2c",
+      "kind": "loser",
+      "label": "Manual CROs without automation or data standardization",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "domain": "autonomous science / biotech / materials",
+      "fields": {
+        "source_field": "rent_path",
+        "source_thesis": "P3"
+      },
+      "id": "n-constraint-rent-lands-in-autonomous-lab-operators-instrument-integration-platfor-93004089",
+      "kind": "constraint",
+      "label": "Rent lands in autonomous lab operators, instrument integration platforms, assay providers, and organizations with high-quality closed-loop experimental datasets.",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "domain": "autonomous science / biotech / materials",
+      "fields": {
+        "source_field": "next_constraint",
+        "source_thesis": "P3"
+      },
+      "id": "n-constraint-the-next-constraint-becomes-sample-preparation-protocol-ontologies-in-913a3e9f",
+      "kind": "constraint",
+      "label": "The next constraint becomes sample preparation, protocol ontologies, instrument interoperability, and rights to high-quality negative results.",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "domain": "autonomous science / biotech / materials",
+      "fields": {
+        "source_field": "reprices",
+        "source_thesis": "P3"
+      },
+      "id": "n-price-channel-autonomous-lab-capacity-assay-contracts-and-proprietary-experiment-48e60072",
+      "kind": "price_channel",
+      "label": "Autonomous lab capacity, assay contracts, and proprietary experimental datasets should command higher strategic value than generic AI-for-science claims.",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "domain": "autonomous science / biotech / materials",
+      "fields": {
+        "source_field": "decision_changed",
+        "source_thesis": "P3"
+      },
+      "id": "n-action-r-d-budget-allocation-between-foundation-models-lab-automation-assay-capa-3cfb3627",
+      "kind": "action",
+      "label": "R&D budget allocation between foundation models, lab automation, assay capacity, data infrastructure, and strategic partnerships.",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "domain": "autonomous science / biotech / materials",
+      "fields": {
+        "source_field": "roi_logic",
+        "source_thesis": "P3"
+      },
+      "id": "n-action-a-better-model-has-low-roi-if-every-validation-loop-takes-months-shorteni-97d0d5be",
+      "kind": "action",
+      "label": "A better model has low ROI if every validation loop takes months. Shortening the experiment loop compounds across the entire discovery funnel and creates proprietary datasets competitors cannot scrape.",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.85,
+      "domain": "autonomous science / biotech / materials",
+      "fields": {
+        "resolves": "2029-12-31",
+        "source_thesis": "P3"
+      },
+      "id": "n-forecast-clause-autonomous-science-shifts-the-bottleneck-from-model-discovery-to-60c389a9",
+      "kind": "forecast_clause",
+      "label": "Autonomous science shifts the bottleneck from model discovery to experimental throughput.",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.8,
+      "domain": "edge AI / consumer hardware",
+      "fields": {
+        "pre_consensus": "The market understands on-device AI in broad terms. The narrower call is that the winning interface is not a standalone AI gadget, but an always-on sensor-rich device layer where privacy, power, and context are the differentiators.",
+        "structural": "The next interface cannot rely on sending every private, continuous, multimodal signal to the cloud. Mordor estimates the edge AI hardware market at 30.74 billion dollars in 2026 and 68.73 billion dollars by 2031. Qualcomm's 2026 Snapdragon Wear Elite announcement explicitly frames wearables as personal AI devices with on-device NPUs, sensor fusion, always-on context, and partners including Google, Motorola, and Samsung. The hard part is not fitting a toy model on device; it is making the device always available without killing battery, privacy, thermals, or trust.",
+        "thesis_id": "P4",
+        "why": "The next UI for AI is context. Context lives near sensors, bodies, homes, and vehicles. Cloud-only agents lack the continuous private state needed to be useful, while device-only systems fail unless power and thermals work."
+      },
+      "id": "n-thesis-p4-the-consumer-ai-interface-moves-to-always-on-edge-devices-gated-by-the-e6198427",
+      "kind": "thesis",
+      "label": "P4: The consumer AI interface moves to always-on edge devices, gated by thermals, battery, sensors, and privacy.",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.7,
+      "domain": "edge AI / consumer hardware",
+      "fields": {
+        "source_thesis": "P4"
+      },
+      "id": "n-constraint-low-power-npus-sensor-fusion-local-memory-privacy-preserving-orchestr-5b1cd0e2",
+      "kind": "constraint",
+      "label": "Low-power NPUs, sensor fusion, local memory, privacy-preserving orchestration, and thermal envelopes for always-on personal AI.",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.75,
+      "domain": "edge AI / consumer hardware",
+      "fields": {
+        "source_thesis": "P4"
+      },
+      "id": "n-metric-track-commercial-devices-that-run-billion-parameter-local-models-all-day-cdb6953f",
+      "kind": "metric",
+      "label": "Track commercial devices that run billion-parameter local models, all-day context capture, or private agentic features on wearables/glasses/phones; track battery complaints, thermal throttling, and local AI developer APIs.",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.8,
+      "domain": "edge AI / consumer hardware",
+      "fields": {
+        "source_thesis": "P4"
+      },
+      "id": "n-kill-condition-kill-if-by-end-2028-the-dominant-consumer-ai-usage-remains-cloud-08a46625",
+      "kind": "kill_condition",
+      "label": "Kill if by end 2028 the dominant consumer AI usage remains cloud-chat inside phones and browsers, with wearables and glasses failing to show persistent local context as a major usage mode.",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.65,
+      "domain": "edge AI / consumer hardware",
+      "fields": {
+        "source_thesis": "P4"
+      },
+      "id": "n-price-channel-chip-and-device-companies-are-announcing-edge-ai-features-the-resi-1a88b543",
+      "kind": "price_channel",
+      "label": "Chip and device companies are announcing edge AI features. The residual edge is the constraint stack: battery life, local memory, secure sensor fusion, and developer access to context without leaking user trust.",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.65,
+      "domain": "edge AI / consumer hardware",
+      "fields": {
+        "source_thesis": "P4"
+      },
+      "id": "n-buyer-segment-device-oems-chip-vendors-mobile-os-teams-consumer-ai-app-developer-83d76c60",
+      "kind": "buyer_segment",
+      "label": "Device OEMs, chip vendors, mobile OS teams, consumer AI app developers, regulated enterprise buyers, and privacy/security teams.",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.65,
+      "domain": "edge AI / consumer hardware",
+      "fields": {
+        "source_thesis": "P4"
+      },
+      "id": "n-action-design-around-local-context-and-power-budgets-build-features-that-improve-e84292d2",
+      "kind": "action",
+      "label": "Design around local context and power budgets; build features that improve when personal data stays on device instead of depending on generic cloud memory.",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.7,
+      "domain": "edge AI / consumer hardware",
+      "fields": {
+        "source_thesis": "P4"
+      },
+      "id": "n-observable-a-google-samsung-apple-or-meta-product-launch-where-the-lead-ai-featu-64a8aa4d",
+      "kind": "observable",
+      "label": "A Google, Samsung, Apple, or Meta product launch where the lead AI feature runs persistently on device and is marketed around private context rather than a bigger cloud model.",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "domain": "edge AI / consumer hardware",
+      "fields": {
+        "source_thesis": "P4",
+        "why": "They control the NPU, sensors, battery envelope, and developer surfaces."
+      },
+      "id": "n-winner-qualcomm-apple-samsung-and-other-integrated-edge-ai-silicon-device-player-2ddc356e",
+      "kind": "winner",
+      "label": "Qualcomm, Apple, Samsung, and other integrated edge-AI silicon/device players",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "domain": "edge AI / consumer hardware",
+      "fields": {
+        "source_thesis": "P4",
+        "why": "They can access sensitive context without forcing everything into cloud logs."
+      },
+      "id": "n-winner-privacy-preserving-local-agent-platforms-02e04d29",
+      "kind": "winner",
+      "label": "Privacy-preserving local agent platforms",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "domain": "edge AI / consumer hardware",
+      "fields": {
+        "source_thesis": "P4",
+        "why": "Health, mobility, work, and communication features improve with persistent local state."
+      },
+      "id": "n-winner-apps-with-daily-personal-context-loops-64547f6a",
+      "kind": "winner",
+      "label": "Apps with daily personal context loops",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "domain": "edge AI / consumer hardware",
+      "fields": {
+        "source_thesis": "P4",
+        "why": "They lack trusted continuous context and face rising privacy friction."
+      },
+      "id": "n-loser-cloud-only-personal-assistant-apps-280597af",
+      "kind": "loser",
+      "label": "Cloud-only personal assistant apps",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "domain": "edge AI / consumer hardware",
+      "fields": {
+        "source_thesis": "P4",
+        "why": "They cannot support the local features users come to expect."
+      },
+      "id": "n-loser-low-end-device-makers-without-npu-or-sensor-fusion-capability-91e3c771",
+      "kind": "loser",
+      "label": "Low-end device makers without NPU or sensor-fusion capability",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "domain": "edge AI / consumer hardware",
+      "fields": {
+        "source_field": "rent_path",
+        "source_thesis": "P4"
+      },
+      "id": "n-constraint-rent-lands-in-chip-vendors-with-efficient-npus-oems-with-integrated-s-638a9701",
+      "kind": "constraint",
+      "label": "Rent lands in chip vendors with efficient NPUs, OEMs with integrated sensor stacks, OS owners with trusted permission models, and apps that turn local context into recurring utility.",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "domain": "edge AI / consumer hardware",
+      "fields": {
+        "source_field": "next_constraint",
+        "source_thesis": "P4"
+      },
+      "id": "n-constraint-the-next-constraint-becomes-developer-access-to-local-context-without-06ac4d5a",
+      "kind": "constraint",
+      "label": "The next constraint becomes developer access to local context without privacy collapse, plus energy-efficient multimodal inference.",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "domain": "edge AI / consumer hardware",
+      "fields": {
+        "source_field": "reprices",
+        "source_thesis": "P4"
+      },
+      "id": "n-price-channel-npu-rich-device-boms-sensor-vendors-secure-local-memory-and-os-lev-18ff8362",
+      "kind": "price_channel",
+      "label": "NPU-rich device BOMs, sensor vendors, secure local memory, and OS-level permission surfaces should reprice relative to generic chatbot app layers.",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "domain": "edge AI / consumer hardware",
+      "fields": {
+        "source_field": "decision_changed",
+        "source_thesis": "P4"
+      },
+      "id": "n-action-hardware-roadmap-npu-vendor-selection-app-architecture-privacy-posture-an-a5a169c1",
+      "kind": "action",
+      "label": "Hardware roadmap, NPU vendor selection, app architecture, privacy posture, and whether to build for cloud-first chat or local context surfaces.",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "domain": "edge AI / consumer hardware",
+      "fields": {
+        "source_field": "roi_logic",
+        "source_thesis": "P4"
+      },
+      "id": "n-action-always-on-local-context-can-raise-retention-and-trust-while-cloud-only-in-5fe9dee4",
+      "kind": "action",
+      "label": "Always-on local context can raise retention and trust, while cloud-only interfaces compete on commoditized model access. Battery and privacy are the cost of admission.",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.85,
+      "domain": "edge AI / consumer hardware",
+      "fields": {
+        "resolves": "2028-12-31",
+        "source_thesis": "P4"
+      },
+      "id": "n-forecast-clause-the-consumer-ai-interface-moves-to-always-on-edge-devices-gated-bd117153",
+      "kind": "forecast_clause",
+      "label": "The consumer AI interface moves to always-on edge devices, gated by thermals, battery, sensors, and privacy.",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.8,
+      "domain": "industrial biotech / biomanufacturing",
+      "fields": {
+        "pre_consensus": "AI-bio narratives reward discovery speed and design quality. The underpriced layer is the boring industrial bridge from bench to tons: COGS, contamination, yield under real feedstocks, purification, regulatory proof, and buyer qualification.",
+        "structural": "AI and metabolic engineering can generate more candidate organisms and pathways, but industrial deployment still runs through strain robustness, fermentation, downstream purification, feedstock economics, QA, and price parity. Nature Communications noted in 2026 that large-scale commercialization remains limited despite systems metabolic engineering progress, highlighting the persistent gap between lab success and industrial deployment. The model proposes; the plant decides.",
+        "thesis_id": "P5",
+        "why": "A thousand plausible organisms do not equal one profitable plant. The constraint migrates from search to industrialization once AI makes search cheaper."
+      },
+      "id": "n-thesis-p5-biomanufacturing-s-bottleneck-is-scale-up-not-ai-organism-design-fdaccd13",
+      "kind": "thesis",
+      "label": "P5: Biomanufacturing's bottleneck is scale-up, not AI organism design.",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.7,
+      "domain": "industrial biotech / biomanufacturing",
+      "fields": {
+        "source_thesis": "P5"
+      },
+      "id": "n-constraint-pilot-and-commercial-scale-fermentation-downstream-processing-strain-787e5b3c",
+      "kind": "constraint",
+      "label": "Pilot and commercial-scale fermentation, downstream processing, strain robustness, feedstock flexibility, QA systems, and process-development talent.",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.75,
+      "domain": "industrial biotech / biomanufacturing",
+      "fields": {
+        "source_thesis": "P5"
+      },
+      "id": "n-metric-track-ai-designed-or-engineered-bio-products-that-fail-or-delay-on-cogs-a-e2bd431f",
+      "kind": "metric",
+      "label": "Track AI-designed or engineered bio-products that fail or delay on COGS and scale-up; track pilot fermentation capacity, downstream bottlenecks, and offtake contracts tied to price parity rather than sustainability premium.",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.8,
+      "domain": "industrial biotech / biomanufacturing",
+      "fields": {
+        "source_thesis": "P5"
+      },
+      "id": "n-kill-condition-kill-if-by-2030-multiple-ai-designed-industrial-bio-products-reac-ac6e6352",
+      "kind": "kill_condition",
+      "label": "Kill if by 2030 multiple AI-designed industrial bio-products reach commodity-relevant scale and price parity without scarce pilot capacity, downstream processing, or process-development labor becoming a public bottleneck.",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.65,
+      "domain": "industrial biotech / biomanufacturing",
+      "fields": {
+        "source_thesis": "P5"
+      },
+      "id": "n-price-channel-biomanufacturing-capacity-and-cdmo-services-are-visible-but-scale-f4411b7f",
+      "kind": "price_channel",
+      "label": "Biomanufacturing capacity and CDMO services are visible, but scale-up bottlenecks are not cleanly priced as the scarce input under AI-designed biology. Many private AI-bio valuations still lean on discovery rather than manufacturability.",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.65,
+      "domain": "industrial biotech / biomanufacturing",
+      "fields": {
+        "source_thesis": "P5"
+      },
+      "id": "n-buyer-segment-industrial-biotech-founders-chemicals-strategics-food-and-material-e3eac0ee",
+      "kind": "buyer_segment",
+      "label": "Industrial biotech founders, chemicals strategics, food and materials companies, climate-tech investors, and CDMOs.",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.65,
+      "domain": "industrial biotech / biomanufacturing",
+      "fields": {
+        "source_thesis": "P5"
+      },
+      "id": "n-action-underwrite-ai-bio-companies-on-scale-up-evidence-cogs-path-downstream-pro-df763145",
+      "kind": "action",
+      "label": "Underwrite AI-bio companies on scale-up evidence, COGS path, downstream process, feedstock contracts, and pilot capacity access before valuing design claims.",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.7,
+      "domain": "industrial biotech / biomanufacturing",
+      "fields": {
+        "source_thesis": "P5"
+      },
+      "id": "n-observable-a-well-funded-ai-bio-or-synbio-company-delaying-launch-because-pilot-8f7cfc9e",
+      "kind": "observable",
+      "label": "A well-funded AI-bio or synbio company delaying launch because pilot capacity, downstream recovery, or COGS fails despite successful lab design.",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "domain": "industrial biotech / biomanufacturing",
+      "fields": {
+        "source_thesis": "P5",
+        "why": "They own the scarce bridge from strain to commercial product."
+      },
+      "id": "n-winner-bioprocess-cdmos-and-pilot-fermentation-operators-381f838e",
+      "kind": "winner",
+      "label": "Bioprocess CDMOs and pilot fermentation operators",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "domain": "industrial biotech / biomanufacturing",
+      "fields": {
+        "source_thesis": "P5",
+        "why": "They can industrialize AI-generated designs faster than pure software-led entrants."
+      },
+      "id": "n-winner-strategics-with-existing-fermentation-and-downstream-assets-cbfcc552",
+      "kind": "winner",
+      "label": "Strategics with existing fermentation and downstream assets",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "domain": "industrial biotech / biomanufacturing",
+      "fields": {
+        "source_thesis": "P5",
+        "why": "They can select designs for manufacturability instead of novelty."
+      },
+      "id": "n-winner-ai-bio-teams-with-process-development-built-in-eef450db",
+      "kind": "winner",
+      "label": "AI-bio teams with process development built in",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "domain": "industrial biotech / biomanufacturing",
+      "fields": {
+        "source_thesis": "P5",
+        "why": "They face valuation compression when customers ask for yield, cost, and qualified volume."
+      },
+      "id": "n-loser-design-only-ai-bio-startups-da4907cc",
+      "kind": "loser",
+      "label": "Design-only AI-bio startups",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "domain": "industrial biotech / biomanufacturing",
+      "fields": {
+        "source_thesis": "P5",
+        "why": "Nature's review notes commercial viability ultimately needs price parity or a tangible product benefit."
+      },
+      "id": "n-loser-commodity-bio-products-relying-only-on-green-premium-demand-60ee9c36",
+      "kind": "loser",
+      "label": "Commodity bio-products relying only on green-premium demand",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "domain": "industrial biotech / biomanufacturing",
+      "fields": {
+        "source_field": "rent_path",
+        "source_thesis": "P5"
+      },
+      "id": "n-constraint-rent-lands-in-companies-with-process-development-talent-qualified-pil-8295600b",
+      "kind": "constraint",
+      "label": "Rent lands in companies with process-development talent, qualified pilot capacity, downstream purification know-how, and feedstock-secured plants. Design-only IP captures less unless tied to manufacturability.",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "domain": "industrial biotech / biomanufacturing",
+      "fields": {
+        "source_field": "next_constraint",
+        "source_thesis": "P5"
+      },
+      "id": "n-constraint-the-next-constraint-becomes-low-cost-feedstock-contamination-control-d7ca6628",
+      "kind": "constraint",
+      "label": "The next constraint becomes low-cost feedstock, contamination control, waste handling, and buyer qualification at industrial volumes.",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "domain": "industrial biotech / biomanufacturing",
+      "fields": {
+        "source_field": "reprices",
+        "source_thesis": "P5"
+      },
+      "id": "n-price-channel-pilot-fermentation-slots-downstream-processing-assets-process-deve-518ff8e8",
+      "kind": "price_channel",
+      "label": "Pilot fermentation slots, downstream processing assets, process-development teams, and scale-up data should reprice above generic AI-bio discovery claims.",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "domain": "industrial biotech / biomanufacturing",
+      "fields": {
+        "source_field": "decision_changed",
+        "source_thesis": "P5"
+      },
+      "id": "n-action-investment-diligence-partnership-timing-pilot-plant-capex-cdmo-contractin-4eff088f",
+      "kind": "action",
+      "label": "Investment diligence, partnership timing, pilot plant capex, CDMO contracting, and whether to buy design IP or process know-how.",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "domain": "industrial biotech / biomanufacturing",
+      "fields": {
+        "source_field": "roi_logic",
+        "source_thesis": "P5"
+      },
+      "id": "n-action-early-access-to-pilot-and-downstream-capacity-can-turn-designs-into-quali-e59402fc",
+      "kind": "action",
+      "label": "Early access to pilot and downstream capacity can turn designs into qualified products while competitors wait in the scale-up queue. Avoiding failed scale-up saves years of burn.",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.85,
+      "domain": "industrial biotech / biomanufacturing",
+      "fields": {
+        "resolves": "2030-12-31",
+        "source_thesis": "P5"
+      },
+      "id": "n-forecast-clause-biomanufacturing-s-bottleneck-is-scale-up-not-ai-organism-design-3fa4d5d5",
+      "kind": "forecast_clause",
+      "label": "Biomanufacturing's bottleneck is scale-up, not AI organism design.",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.8,
+      "domain": "enterprise AI / security / governance",
+      "fields": {
+        "pre_consensus": "Enterprise AI buyers talk about agents, but many roadmaps still assume model capability is the adoption gate. The next purchasing gate is operational trust: least privilege, chain of custody, approval routing, audit logs, rollback, and insurance language.",
+        "structural": "Agents that only answer questions are easy to pilot. Agents that execute code, move money, change records, message customers, operate devices, or trigger workflows create liability. Berkeley's Agentic AI Risk Management Profile highlights risks from system configuration, tool access, and real-world interaction, including unauthorized privilege escalation and unsupervised erroneous tasks. As agents gain authority, the binding constraint moves from reasoning quality to controlled action.",
+        "thesis_id": "P6",
+        "why": "The useful agent is the dangerous agent. Once AI can act, buyers need evidence, not vibes. That evidence layer is monetizable because it gates procurement, insurance, and legal approval."
+      },
+      "id": "n-thesis-p6-agentic-ai-s-scarce-layer-becomes-authority-auditability-and-rollback-16ecbf23",
+      "kind": "thesis",
+      "label": "P6: Agentic AI's scarce layer becomes authority, auditability, and rollback.",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.7,
+      "domain": "enterprise AI / security / governance",
+      "fields": {
+        "source_thesis": "P6"
+      },
+      "id": "n-constraint-identity-permissioning-tool-access-control-audit-trails-reversible-ex-961ac68e",
+      "kind": "constraint",
+      "label": "Identity, permissioning, tool-access control, audit trails, reversible execution, human authorization policies, and liability evidence for agent actions.",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.75,
+      "domain": "enterprise AI / security / governance",
+      "fields": {
+        "source_thesis": "P6"
+      },
+      "id": "n-metric-track-enterprise-rfps-requiring-agent-audit-logs-least-privilege-controls-0101da5f",
+      "kind": "metric",
+      "label": "Track enterprise RFPs requiring agent audit logs, least-privilege controls, rollback, or insurance support; track public agent incidents; track vendors selling action-governance rather than generic model monitoring.",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.8,
+      "domain": "enterprise AI / security / governance",
+      "fields": {
+        "source_thesis": "P6"
+      },
+      "id": "n-kill-condition-kill-if-by-mid-2028-large-enterprises-widely-deploy-multi-step-ag-aad663ee",
+      "kind": "kill_condition",
+      "label": "Kill if by mid-2028 large enterprises widely deploy multi-step agents with real system authority using mostly prompt-level guardrails and generic logging, without a separate action-governance budget.",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.65,
+      "domain": "enterprise AI / security / governance",
+      "fields": {
+        "source_thesis": "P6"
+      },
+      "id": "n-price-channel-ai-security-and-governance-are-increasingly-visible-the-narrower-e-956a0669",
+      "kind": "price_channel",
+      "label": "AI security and governance are increasingly visible. The narrower edge is action-governance as a separately budgeted execution layer for agents, especially where agents touch money, regulated records, infrastructure, or physical systems.",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.65,
+      "domain": "enterprise AI / security / governance",
+      "fields": {
+        "source_thesis": "P6"
+      },
+      "id": "n-buyer-segment-cisos-cios-compliance-leaders-insurers-enterprise-software-buyers-a655b54c",
+      "kind": "buyer_segment",
+      "label": "CISOs, CIOs, compliance leaders, insurers, enterprise software buyers, agent platform vendors, and legal teams.",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.65,
+      "domain": "enterprise AI / security / governance",
+      "fields": {
+        "source_thesis": "P6"
+      },
+      "id": "n-action-design-agent-deployments-around-authority-boundaries-first-least-privileg-f22a49ab",
+      "kind": "action",
+      "label": "Design agent deployments around authority boundaries first: least privilege, approval ladders, audit logs, rollback, and evidence packets for regulated workflows.",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.7,
+      "domain": "enterprise AI / security / governance",
+      "fields": {
+        "source_thesis": "P6"
+      },
+      "id": "n-observable-a-fortune-500-rfp-insurance-policy-or-regulator-explicitly-requiring-ef635ec0",
+      "kind": "observable",
+      "label": "A Fortune 500 RFP, insurance policy, or regulator explicitly requiring agent action logs, approval chains, and rollback for production deployment.",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "domain": "enterprise AI / security / governance",
+      "fields": {
+        "source_thesis": "P6",
+        "why": "Agent authority maps naturally onto permissioning, secrets, and least-privilege workflows."
+      },
+      "id": "n-winner-identity-and-access-management-vendors-9ae1bd74",
+      "kind": "winner",
+      "label": "Identity and access-management vendors",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "domain": "enterprise AI / security / governance",
+      "fields": {
+        "source_thesis": "P6",
+        "why": "They become the control plane for letting agents touch real systems."
+      },
+      "id": "n-winner-agent-orchestration-platforms-with-audit-and-rollback-95d048c9",
+      "kind": "winner",
+      "label": "Agent orchestration platforms with audit and rollback",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "domain": "enterprise AI / security / governance",
+      "fields": {
+        "source_thesis": "P6",
+        "why": "They can turn auditable controls into underwritable risk."
+      },
+      "id": "n-winner-insurers-and-compliance-tooling-providers-871922f7",
+      "kind": "winner",
+      "label": "Insurers and compliance tooling providers",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "domain": "enterprise AI / security / governance",
+      "fields": {
+        "source_thesis": "P6",
+        "why": "They cannot satisfy buyers who need proof, rollback, and authority boundaries."
+      },
+      "id": "n-loser-prompt-only-agent-frameworks-d3538993",
+      "kind": "loser",
+      "label": "Prompt-only agent frameworks",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "domain": "enterprise AI / security / governance",
+      "fields": {
+        "source_thesis": "P6",
+        "why": "Capability alone does not clear procurement for regulated action."
+      },
+      "id": "n-loser-model-vendors-that-ignore-enterprise-control-planes-eb7233f9",
+      "kind": "loser",
+      "label": "Model vendors that ignore enterprise control planes",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "domain": "enterprise AI / security / governance",
+      "fields": {
+        "source_field": "rent_path",
+        "source_thesis": "P6"
+      },
+      "id": "n-constraint-rent-lands-in-identity-security-vendors-agent-orchestration-platforms-b74ae714",
+      "kind": "constraint",
+      "label": "Rent lands in identity/security vendors, agent orchestration platforms with strong execution controls, audit-log infrastructure, and insurers that can price agent risk.",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "domain": "enterprise AI / security / governance",
+      "fields": {
+        "source_field": "next_constraint",
+        "source_thesis": "P6"
+      },
+      "id": "n-constraint-the-next-constraint-becomes-standard-evidence-formats-for-agent-actio-affe5fb4",
+      "kind": "constraint",
+      "label": "The next constraint becomes standard evidence formats for agent actions and cross-vendor interoperability between identity, workflow, model, and audit systems.",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "domain": "enterprise AI / security / governance",
+      "fields": {
+        "source_field": "reprices",
+        "source_thesis": "P6"
+      },
+      "id": "n-price-channel-agent-security-budgets-identity-control-spend-audit-log-infrastruc-180609c8",
+      "kind": "price_channel",
+      "label": "Agent security budgets, identity-control spend, audit-log infrastructure, and cyber insurance language should reprice as agents get execution rights.",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "domain": "enterprise AI / security / governance",
+      "fields": {
+        "source_field": "decision_changed",
+        "source_thesis": "P6"
+      },
+      "id": "n-action-enterprise-ai-procurement-security-architecture-insurance-underwriting-co-bf1e6768",
+      "kind": "action",
+      "label": "Enterprise AI procurement, security architecture, insurance underwriting, compliance budgets, and whether agents are allowed to touch systems of record.",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.55,
+      "domain": "enterprise AI / security / governance",
+      "fields": {
+        "source_field": "roi_logic",
+        "source_thesis": "P6"
+      },
+      "id": "n-action-a-controlled-agent-can-be-deployed-into-high-value-workflows-that-an-unco-55ff9969",
+      "kind": "action",
+      "label": "A controlled agent can be deployed into high-value workflows that an uncontrolled agent cannot enter. The upside is adoption; the avoided loss is incident cost, regulatory exposure, and procurement blockage.",
+      "verification_status": "derived_from_board"
+    },
+    {
+      "confidence": 0.85,
+      "domain": "enterprise AI / security / governance",
+      "fields": {
+        "resolves": "2028-06-30",
+        "source_thesis": "P6"
+      },
+      "id": "n-forecast-clause-agentic-ai-s-scarce-layer-becomes-authority-auditability-and-rol-cef6ed39",
+      "kind": "forecast_clause",
+      "label": "Agentic AI's scarce layer becomes authority, auditability, and rollback.",
+      "verification_status": "derived_from_board"
+    }
+  ],
+  "snapshot_hash": "599b59fa439b39db2ba9daee19b1b6b8289d480d501340acc07932360cb33200",
+  "summary": {
+    "edge_count": 151,
+    "forecast_count": 6,
+    "node_count": 116,
+    "unknown_count": 24,
+    "watch_count": 6
+  },
+  "truth_rules": [
+    "Do not promote unverified named permits, projects, companies, people, or dollar amounts.",
+    "Facts require source URL, publication or observation date, trust rationale, and verification status.",
+    "Forecast clauses require probability, resolve date, metric, watch signal, and kill condition.",
+    "Unknowns become queued tasks, not prose filler.",
+    "Opus or paid multi-agent runs require explicit user approval with agent count and rough cost."
+  ],
+  "unknown_queue": [
+    {
+      "id": "u-unknown-p1-source-pack-attach-primary-official-source-urls-and-publication-dates-0d464a7b",
+      "kind": "source_pack",
+      "owner_agent": "A01",
+      "priority": "critical",
+      "question": "Attach primary/official source URLs and publication dates to every load-bearing node.",
+      "required_evidence": "source_url, source_date, quote_or_field, trust_rationale, verification_status",
+      "status": "open",
+      "thesis_id": "P1"
+    },
+    {
+      "id": "u-unknown-p1-substitute-path-map-substitutes-that-would-kill-or-weaken-the-bottlen-d1790b30",
+      "kind": "substitute_path",
+      "owner_agent": "A10",
+      "priority": "high",
+      "question": "Map substitutes that would kill or weaken the bottleneck.",
+      "required_evidence": "source_url, source_date, quote_or_field, trust_rationale, verification_status",
+      "status": "open",
+      "thesis_id": "P1"
+    },
+    {
+      "id": "u-unknown-p1-scenario-branch-create-at-least-one-base-upside-downside-scenario-bra-73f41b1e",
+      "kind": "scenario_branch",
+      "owner_agent": "A11",
+      "priority": "medium",
+      "question": "Create at least one base/upside/downside scenario branch around this thesis.",
+      "required_evidence": "source_url, source_date, quote_or_field, trust_rationale, verification_status",
+      "status": "open",
+      "thesis_id": "P1"
+    },
+    {
+      "id": "u-unknown-p1-entity-resolution-resolve-named-entities-to-canonical-companies-agenc-b9bed82a",
+      "kind": "entity_resolution",
+      "owner_agent": "A01",
+      "priority": "high",
+      "question": "Resolve named entities to canonical companies, agencies, labs, materials, and projects.",
+      "required_evidence": "source_url, source_date, quote_or_field, trust_rationale, verification_status",
+      "status": "open",
+      "thesis_id": "P1"
+    },
+    {
+      "id": "u-unknown-p2-source-pack-attach-primary-official-source-urls-and-publication-dates-c307c5d6",
+      "kind": "source_pack",
+      "owner_agent": "A01",
+      "priority": "critical",
+      "question": "Attach primary/official source URLs and publication dates to every load-bearing node.",
+      "required_evidence": "source_url, source_date, quote_or_field, trust_rationale, verification_status",
+      "status": "open",
+      "thesis_id": "P2"
+    },
+    {
+      "id": "u-unknown-p2-substitute-path-map-substitutes-that-would-kill-or-weaken-the-bottlen-8fa7996e",
+      "kind": "substitute_path",
+      "owner_agent": "A10",
+      "priority": "high",
+      "question": "Map substitutes that would kill or weaken the bottleneck.",
+      "required_evidence": "source_url, source_date, quote_or_field, trust_rationale, verification_status",
+      "status": "open",
+      "thesis_id": "P2"
+    },
+    {
+      "id": "u-unknown-p2-scenario-branch-create-at-least-one-base-upside-downside-scenario-bra-abdea055",
+      "kind": "scenario_branch",
+      "owner_agent": "A11",
+      "priority": "medium",
+      "question": "Create at least one base/upside/downside scenario branch around this thesis.",
+      "required_evidence": "source_url, source_date, quote_or_field, trust_rationale, verification_status",
+      "status": "open",
+      "thesis_id": "P2"
+    },
+    {
+      "id": "u-unknown-p2-entity-resolution-resolve-named-entities-to-canonical-companies-agenc-a38baf06",
+      "kind": "entity_resolution",
+      "owner_agent": "A01",
+      "priority": "high",
+      "question": "Resolve named entities to canonical companies, agencies, labs, materials, and projects.",
+      "required_evidence": "source_url, source_date, quote_or_field, trust_rationale, verification_status",
+      "status": "open",
+      "thesis_id": "P2"
+    },
+    {
+      "id": "u-unknown-p3-source-pack-attach-primary-official-source-urls-and-publication-dates-16a7677b",
+      "kind": "source_pack",
+      "owner_agent": "A01",
+      "priority": "critical",
+      "question": "Attach primary/official source URLs and publication dates to every load-bearing node.",
+      "required_evidence": "source_url, source_date, quote_or_field, trust_rationale, verification_status",
+      "status": "open",
+      "thesis_id": "P3"
+    },
+    {
+      "id": "u-unknown-p3-substitute-path-map-substitutes-that-would-kill-or-weaken-the-bottlen-2938fdec",
+      "kind": "substitute_path",
+      "owner_agent": "A10",
+      "priority": "high",
+      "question": "Map substitutes that would kill or weaken the bottleneck.",
+      "required_evidence": "source_url, source_date, quote_or_field, trust_rationale, verification_status",
+      "status": "open",
+      "thesis_id": "P3"
+    },
+    {
+      "id": "u-unknown-p3-scenario-branch-create-at-least-one-base-upside-downside-scenario-bra-dabc5dff",
+      "kind": "scenario_branch",
+      "owner_agent": "A11",
+      "priority": "medium",
+      "question": "Create at least one base/upside/downside scenario branch around this thesis.",
+      "required_evidence": "source_url, source_date, quote_or_field, trust_rationale, verification_status",
+      "status": "open",
+      "thesis_id": "P3"
+    },
+    {
+      "id": "u-unknown-p3-entity-resolution-resolve-named-entities-to-canonical-companies-agenc-cf5bcda4",
+      "kind": "entity_resolution",
+      "owner_agent": "A01",
+      "priority": "high",
+      "question": "Resolve named entities to canonical companies, agencies, labs, materials, and projects.",
+      "required_evidence": "source_url, source_date, quote_or_field, trust_rationale, verification_status",
+      "status": "open",
+      "thesis_id": "P3"
+    },
+    {
+      "id": "u-unknown-p4-source-pack-attach-primary-official-source-urls-and-publication-dates-3178d8ce",
+      "kind": "source_pack",
+      "owner_agent": "A01",
+      "priority": "critical",
+      "question": "Attach primary/official source URLs and publication dates to every load-bearing node.",
+      "required_evidence": "source_url, source_date, quote_or_field, trust_rationale, verification_status",
+      "status": "open",
+      "thesis_id": "P4"
+    },
+    {
+      "id": "u-unknown-p4-substitute-path-map-substitutes-that-would-kill-or-weaken-the-bottlen-4ddc0cfe",
+      "kind": "substitute_path",
+      "owner_agent": "A10",
+      "priority": "high",
+      "question": "Map substitutes that would kill or weaken the bottleneck.",
+      "required_evidence": "source_url, source_date, quote_or_field, trust_rationale, verification_status",
+      "status": "open",
+      "thesis_id": "P4"
+    },
+    {
+      "id": "u-unknown-p4-scenario-branch-create-at-least-one-base-upside-downside-scenario-bra-bd61c0c9",
+      "kind": "scenario_branch",
+      "owner_agent": "A11",
+      "priority": "medium",
+      "question": "Create at least one base/upside/downside scenario branch around this thesis.",
+      "required_evidence": "source_url, source_date, quote_or_field, trust_rationale, verification_status",
+      "status": "open",
+      "thesis_id": "P4"
+    },
+    {
+      "id": "u-unknown-p4-entity-resolution-resolve-named-entities-to-canonical-companies-agenc-66a04ea2",
+      "kind": "entity_resolution",
+      "owner_agent": "A01",
+      "priority": "high",
+      "question": "Resolve named entities to canonical companies, agencies, labs, materials, and projects.",
+      "required_evidence": "source_url, source_date, quote_or_field, trust_rationale, verification_status",
+      "status": "open",
+      "thesis_id": "P4"
+    },
+    {
+      "id": "u-unknown-p5-source-pack-attach-primary-official-source-urls-and-publication-dates-226ac745",
+      "kind": "source_pack",
+      "owner_agent": "A01",
+      "priority": "critical",
+      "question": "Attach primary/official source URLs and publication dates to every load-bearing node.",
+      "required_evidence": "source_url, source_date, quote_or_field, trust_rationale, verification_status",
+      "status": "open",
+      "thesis_id": "P5"
+    },
+    {
+      "id": "u-unknown-p5-substitute-path-map-substitutes-that-would-kill-or-weaken-the-bottlen-54f63573",
+      "kind": "substitute_path",
+      "owner_agent": "A10",
+      "priority": "high",
+      "question": "Map substitutes that would kill or weaken the bottleneck.",
+      "required_evidence": "source_url, source_date, quote_or_field, trust_rationale, verification_status",
+      "status": "open",
+      "thesis_id": "P5"
+    },
+    {
+      "id": "u-unknown-p5-scenario-branch-create-at-least-one-base-upside-downside-scenario-bra-10425e1c",
+      "kind": "scenario_branch",
+      "owner_agent": "A11",
+      "priority": "medium",
+      "question": "Create at least one base/upside/downside scenario branch around this thesis.",
+      "required_evidence": "source_url, source_date, quote_or_field, trust_rationale, verification_status",
+      "status": "open",
+      "thesis_id": "P5"
+    },
+    {
+      "id": "u-unknown-p5-entity-resolution-resolve-named-entities-to-canonical-companies-agenc-44a8af16",
+      "kind": "entity_resolution",
+      "owner_agent": "A01",
+      "priority": "high",
+      "question": "Resolve named entities to canonical companies, agencies, labs, materials, and projects.",
+      "required_evidence": "source_url, source_date, quote_or_field, trust_rationale, verification_status",
+      "status": "open",
+      "thesis_id": "P5"
+    },
+    {
+      "id": "u-unknown-p6-source-pack-attach-primary-official-source-urls-and-publication-dates-f70b80f5",
+      "kind": "source_pack",
+      "owner_agent": "A01",
+      "priority": "critical",
+      "question": "Attach primary/official source URLs and publication dates to every load-bearing node.",
+      "required_evidence": "source_url, source_date, quote_or_field, trust_rationale, verification_status",
+      "status": "open",
+      "thesis_id": "P6"
+    },
+    {
+      "id": "u-unknown-p6-substitute-path-map-substitutes-that-would-kill-or-weaken-the-bottlen-807b30a0",
+      "kind": "substitute_path",
+      "owner_agent": "A10",
+      "priority": "high",
+      "question": "Map substitutes that would kill or weaken the bottleneck.",
+      "required_evidence": "source_url, source_date, quote_or_field, trust_rationale, verification_status",
+      "status": "open",
+      "thesis_id": "P6"
+    },
+    {
+      "id": "u-unknown-p6-scenario-branch-create-at-least-one-base-upside-downside-scenario-bra-87cd1016",
+      "kind": "scenario_branch",
+      "owner_agent": "A11",
+      "priority": "medium",
+      "question": "Create at least one base/upside/downside scenario branch around this thesis.",
+      "required_evidence": "source_url, source_date, quote_or_field, trust_rationale, verification_status",
+      "status": "open",
+      "thesis_id": "P6"
+    },
+    {
+      "id": "u-unknown-p6-entity-resolution-resolve-named-entities-to-canonical-companies-agenc-42bc9157",
+      "kind": "entity_resolution",
+      "owner_agent": "A01",
+      "priority": "high",
+      "question": "Resolve named entities to canonical companies, agencies, labs, materials, and projects.",
+      "required_evidence": "source_url, source_date, quote_or_field, trust_rationale, verification_status",
+      "status": "open",
+      "thesis_id": "P6"
+    }
+  ],
+  "watchlist": [
+    {
+      "cadence": "monthly until a source-specific cadence is verified",
+      "id": "w-watch-p1-a-hyperscaler-or-top-data-center-reit-announcing-a-100-mw-plus-campus-w-e28b84f7",
+      "kill": "Kill if by end 2028 fewer than two hyperscaler-scale campuses publicly secure behind-the-meter firm clean generation as a core siting advantage, or if transformer and interconnection delays normalize below roughly 24 months in the main US AI data-center markets.",
+      "metric": "Track hyperscaler and data-center developer announcements that name on-site firm power, geothermal, or interconnection bypass as the reason for site selection; count 100 MW plus campuses with direct power-development partnerships; track transformer lead times and local moratoria.",
+      "owner_agent": "A13",
+      "resolves": "2028-12-31",
+      "status": "unverified_source_needed",
+      "thesis_id": "P1",
+      "watch_signal": "A hyperscaler or top data-center REIT announcing a 100 MW plus campus whose stated differentiator is behind-the-meter clean firm power rather than cheap land."
+    },
+    {
+      "cadence": "monthly until a source-specific cadence is verified",
+      "id": "w-watch-p2-a-major-automotive-or-logistics-deployment-where-the-press-release-name-f3d2c000",
+      "kill": "Kill if by end 2028 humanoid or mobile manipulation deployments scale mainly through turnkey robot hardware with little separate pricing for task validation, commissioning software, or safety case tooling.",
+      "metric": "Track robot OEMs or large integrators selling task libraries, simulation validation, or commissioning layers as separate line items; track public claims of 40 percent plus cuts in commissioning time; track safety certification language in physical-AI deployments.",
+      "owner_agent": "A13",
+      "resolves": "2028-12-31",
+      "status": "unverified_source_needed",
+      "thesis_id": "P2",
+      "watch_signal": "A major automotive or logistics deployment where the press release names the validation, simulation, or task-library layer as the reason the rollout scaled."
+    },
+    {
+      "cadence": "monthly until a source-specific cadence is verified",
+      "id": "w-watch-p3-a-major-pharma-chemicals-or-materials-company-publicly-saying-its-ai-di-45f299c5",
+      "kill": "Kill if by 2029 model-only AI discovery companies repeatedly produce commercially validated materials or therapies without materially expanding wet-lab or physical-test throughput.",
+      "metric": "Track DOE and national-lab testbed awards, pharma/materials partnerships that buy autonomous lab capacity, assay throughput per researcher, and publications where the bottleneck is experiment generation rather than model inference.",
+      "owner_agent": "A13",
+      "resolves": "2029-12-31",
+      "status": "unverified_source_needed",
+      "thesis_id": "P3",
+      "watch_signal": "A major pharma, chemicals, or materials company publicly saying its AI discovery bottleneck is lab throughput or assay availability, not model quality."
+    },
+    {
+      "cadence": "monthly until a source-specific cadence is verified",
+      "id": "w-watch-p4-a-google-samsung-apple-or-meta-product-launch-where-the-lead-ai-feature-cb095912",
+      "kill": "Kill if by end 2028 the dominant consumer AI usage remains cloud-chat inside phones and browsers, with wearables and glasses failing to show persistent local context as a major usage mode.",
+      "metric": "Track commercial devices that run billion-parameter local models, all-day context capture, or private agentic features on wearables/glasses/phones; track battery complaints, thermal throttling, and local AI developer APIs.",
+      "owner_agent": "A13",
+      "resolves": "2028-12-31",
+      "status": "unverified_source_needed",
+      "thesis_id": "P4",
+      "watch_signal": "A Google, Samsung, Apple, or Meta product launch where the lead AI feature runs persistently on device and is marketed around private context rather than a bigger cloud model."
+    },
+    {
+      "cadence": "monthly until a source-specific cadence is verified",
+      "id": "w-watch-p5-a-well-funded-ai-bio-or-synbio-company-delaying-launch-because-pilot-ca-5270803e",
+      "kill": "Kill if by 2030 multiple AI-designed industrial bio-products reach commodity-relevant scale and price parity without scarce pilot capacity, downstream processing, or process-development labor becoming a public bottleneck.",
+      "metric": "Track AI-designed or engineered bio-products that fail or delay on COGS and scale-up; track pilot fermentation capacity, downstream bottlenecks, and offtake contracts tied to price parity rather than sustainability premium.",
+      "owner_agent": "A13",
+      "resolves": "2030-12-31",
+      "status": "unverified_source_needed",
+      "thesis_id": "P5",
+      "watch_signal": "A well-funded AI-bio or synbio company delaying launch because pilot capacity, downstream recovery, or COGS fails despite successful lab design."
+    },
+    {
+      "cadence": "monthly until a source-specific cadence is verified",
+      "id": "w-watch-p6-a-fortune-500-rfp-insurance-policy-or-regulator-explicitly-requiring-ag-2fa2b413",
+      "kill": "Kill if by mid-2028 large enterprises widely deploy multi-step agents with real system authority using mostly prompt-level guardrails and generic logging, without a separate action-governance budget.",
+      "metric": "Track enterprise RFPs requiring agent audit logs, least-privilege controls, rollback, or insurance support; track public agent incidents; track vendors selling action-governance rather than generic model monitoring.",
+      "owner_agent": "A13",
+      "resolves": "2028-06-30",
+      "status": "unverified_source_needed",
+      "thesis_id": "P6",
+      "watch_signal": "A Fortune 500 RFP, insurance policy, or regulator explicitly requiring agent action logs, approval chains, and rollback for production deployment."
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "title": "Time-to-Energize Truth",
+  "subtitle": "The sellable constraint is not power scarcity. It is proof that a large-load project can actually energize.",
+  "domain": "AI infrastructure, grid interconnection, high-voltage execution, and infrastructure diligence",
+  "date": "2026-06-19",
+  "horizon": "2026 to 2028",
+  "run_mode": "codex-native-single-thesis-no-paid-llm",
+  "synthesis": "Power scarcity for AI is now consensus. The unpriced layer is narrower and more valuable: whether a named AI campus, HVDC line, co-located generation deal, or large-load interconnection can actually energize on the schedule implied by its public claims. Capital still talks in MW, PPAs, land, fiber, turbines, and transformers. The hidden binding constraint is the verified time-to-energize chain: RTO/ISO tariff treatment, dynamic-load modeling, protection and control requirements, commissioning evidence, certified high-voltage people, permit status, water and cooling, and source-grade proof that the claimed power path exists. This becomes a product because every buyer exposed to AI infrastructure needs the same answer before committing capital: is this project investable, delayed, contested, or a stranded shell?",
+  "sources": [
+    {
+      "name": "DOE / LBNL data-center energy report release",
+      "url": "https://www.energy.gov/articles/doe-releases-new-report-evaluating-increase-electricity-demand-data-centers",
+      "retrieved": "2026-06-19",
+      "note": "DOE/LBNL says U.S. data centers used about 4.4% of U.S. electricity in 2023 and are expected to reach roughly 6.7% to 12% by 2028."
+    },
+    {
+      "name": "FERC June 18, 2026 large-load action",
+      "url": "https://www.ferc.gov/news-events/news/ferc-launches-aggressive-targeted-action-speed-large-load-integration",
+      "retrieved": "2026-06-19",
+      "note": "FERC ordered all six regional grid operators under its jurisdiction to justify or reform tariffs for data centers and other large users."
+    },
+    {
+      "name": "FERC RM26-4 large-load docket",
+      "url": "https://www.ferc.gov/rm26-4",
+      "retrieved": "2026-06-19",
+      "note": "FERC frames large loads as generally over 20 MW and asks about timely, orderly, reliable interconnection, co-location, cost allocation, and accelerated study treatment."
+    },
+    {
+      "name": "NERC Level 3 computational-load alert",
+      "url": "https://www.nerc.com/globalassets/programs/bpsa/alerts/level-3-computational-load-alert.pdf",
+      "retrieved": "2026-06-19",
+      "note": "NERC names computational-load modeling, studies, instrumentation, commissioning, operations, protection, and control as immediate action areas, with reporting due August 3, 2026."
+    },
+    {
+      "name": "ENTSO-E European Grids Package",
+      "url": "https://www.entsoe.eu/european-grids-package/",
+      "retrieved": "2026-06-19",
+      "note": "ENTSO-E says Europe needs more than 100,000 km of new lines by 2030, 88% of TSOs face shortages, and more than half of 2030 transmission projects still await permits."
+    },
+    {
+      "name": "National Grid - Building the skills for our energy future",
+      "url": "https://www.nationalgrid.com/document/562961/download",
+      "retrieved": "2026-06-19",
+      "note": "National Grid identifies multi-year competency paths for critical high-voltage roles and is piloting ways to halve Senior Authorised Person accreditation time to one year."
+    }
+  ],
+  "theses": [
+    {
+      "id": "P1",
+      "headline": "Time-to-energize truth becomes the paid intelligence layer for AI infrastructure.",
+      "boom": "AI campus, HVDC, and large-load capital shifts from believing announced MW to buying source-grade proof that the project can energize.",
+      "domain": "AI infrastructure and grid execution",
+      "vision_p": 79,
+      "clause_p": 52,
+      "resolves": "2027-12-31",
+      "structural": "Large-load demand is rising faster than the grid's permitting, study, protection, control, commissioning, and workforce systems can absorb. Once power scarcity becomes consensus, the scarce decision object moves one layer deeper: a verified evidence ledger that separates real energization paths from press-release power claims.",
+      "pre_consensus": "Power scarcity, transformer delays, and data-center load growth are already widely discussed. What is not yet priced is the evidence-grade status layer: official-source verification of MW, counterparty, power path, tariff or interconnection treatment, dynamic-load requirements, commissioning readiness, high-voltage workforce dependency, and unresolved permits. This is buried in dockets, RTO materials, utility filings, local permits, and reliability alerts rather than in clean market data.",
+      "price_channel": "No clean liquid instrument captures the thesis. Grid contractors and power developers may already price broad electrification and AI-load demand. The unpriced channel is buyer workflow: infrastructure lenders, landowners, data-center developers, hyperscaler power teams, municipalities, and infra investors paying to avoid underwriting a false energization date.",
+      "needle": "Verified time-to-energize status for each named project: MW, counterparty, power path, interconnection or co-location status, dynamic-load/protection requirements, commissioning evidence, certified high-voltage workforce dependency, permit status, water/cooling gate, source tier, retrieved date, watch signal, and kill condition.",
+      "metric": "By 2027-12-31, at least three public US or EU AI-campus, HVDC, or large-load projects over 200 MW have their claimed energization timeline pushed, conditioned, contested, or demoted in primary or official sources for reasons other than generic generation availability: interconnection tariff treatment, dynamic-load/protection/control requirements, commissioning evidence, certified high-voltage workforce capacity, or unresolved permit and utility-service status.",
+      "kill": "Kill if by end-2027 large-load projects in the tracked markets mostly clear through ordinary power procurement and interconnection paths, with no repeated official-source evidence that dynamic-load, protection/control, commissioning, high-voltage workforce, tariff, or permit gates materially change energization timing; also kill the business wedge if five qualified buyers with live assets say they already have better source-grade time-to-energize diligence and will not pay for outside verification.",
+      "refute": "The broad AI power story is already consensus and some buyers have internal grid teams. The thesis survives only if we avoid selling generic power scarcity and instead sell project-specific truth: which public claims survive primary-source diligence, which are contested, and which are not decision-grade. If the artifact cannot change a live asset, financing, site, PPA, or municipal decision, it is research theater and should be killed.",
+      "why": "The proof stack has converged. DOE/LBNL shows data-center load can double or triple by 2028. FERC has moved from discussion to June 18, 2026 show-cause orders for all six regional grid operators. NERC's Level 3 alert names computational-load modeling, commissioning, protection, and control as action areas. ENTSO-E and National Grid both show that workforce and accreditation are real grid-delivery bottlenecks, not vibes. The local Pope work already found the exact commercial correction: the power bottleneck is visible, so the sellable wedge is verified power-claim and schedule-risk diligence.",
+      "implications": {
+        "exposed": "Infrastructure investors, project-finance lenders, data-center developers, hyperscaler power teams, municipalities approving campuses, landowners selling powered sites, power developers, utilities facing large-load requests, and EPC or contractor diligence teams.",
+        "action_now": "Build a source-grade time-to-energize ledger for 20 named projects, starting with PJM and Ohio/Virginia cases already in the local dossier. Each row must classify the project as primary_verified, source_verified, contested, lead, or not_decision_grade. Outreach only to buyers with one live asset, site, PPA, interconnection, financing, or municipal decision in the next 3 to 12 months.",
+        "decision_changed": "Do not underwrite or market an AI campus as power-secured until MW, counterparty or offtake, power path, interconnection or co-location treatment, permit/regulatory status, commissioning/protection requirements, and unresolved utility-service gates are source-verified.",
+        "roi_logic": "One wrong energization assumption can misprice land, debt, equity, power contracts, tenant commitments, municipal approvals, or capex phasing. A small diligence sprint is valuable if it prevents a false schedule, finds a contested docket before investment committee, or identifies the exact question a buyer must ask a utility, EPC, or project sponsor.",
+        "rent_path": "Rent accrues to the verified evidence ledger and monitoring workflow, not to a static report. The first product is a fixed-scope diligence sprint. The scaling product is a continuously updated time-to-energize intelligence feed with watch signals and scored outcomes.",
+        "winners": [
+          {
+            "who": "Buyers with source-grade energization diligence",
+            "why": "They can avoid false schedules, negotiate better conditions, and move earlier on genuinely power-secured assets."
+          },
+          {
+            "who": "Specialist grid contractors, commissioning teams, and high-voltage workforce pipelines",
+            "why": "They become visible as the real critical path once hardware and generic power are no longer enough."
+          },
+          {
+            "who": "Vati / Vaticinus",
+            "why": "The product converts constraint-migration forecasting into a buyer-useful, auditable operating ledger."
+          }
+        ],
+        "losers": [
+          {
+            "who": "Press-release-deep data-center and power developers",
+            "why": "Their public MW claims get demoted when official sources do not verify the power path."
+          },
+          {
+            "who": "Investors underwriting generic AI-power narratives",
+            "why": "They miss project-specific tariff, protection, commissioning, and permit gates that decide time-to-revenue."
+          },
+          {
+            "who": "Dashboards that track only queues, MW, or equipment",
+            "why": "They undercount the human, reliability, and evidence-status gates that actually move schedules."
+          }
+        ],
+        "reprices": "Not a single commodity or equity. What reprices first is project credibility: powered-land premiums, lending reserves, developer valuation, contractor contingency, municipal approval risk, and the willingness to believe a hyperscale campus schedule.",
+        "next_constraint": "After energization proof, the next constraint is ongoing reliability obligation: dynamic load behavior, ride-through, grid-support commitments, battery smoothing, water/cooling constraints, and who pays for upgrades when large loads change operating profiles.",
+        "watch": "FERC 60-day RTO/ISO tariff responses from June 18, 2026; NERC August 3, 2026 computational-load alert responses; PJM co-location and large-load filings; OPSB/PUCO/SCC/LPSC and local permit dockets for behind-the-meter generation; project announcements that revise COD or power path; National Grid/ENTSO-E workforce and accreditation updates."
+      },
+      "sources": [
+        "https://www.energy.gov/articles/doe-releases-new-report-evaluating-increase-electricity-demand-data-centers",
+        "https://www.ferc.gov/news-events/news/ferc-launches-aggressive-targeted-action-speed-large-load-integration",
+        "https://www.ferc.gov/rm26-4",
+        "https://www.nerc.com/globalassets/programs/bpsa/alerts/level-3-computational-load-alert.pdf",
+        "https://www.entsoe.eu/european-grids-package/",
+        "https://www.nationalgrid.com/document/562961/download"
+      ]
+    }
+  ],
+  "runner_ups": [
+    {
+      "seed": "Copper TC/RC inversion",
+      "case": "The correction is valuable and near-term, but the capture is event-driven and small. It is a good proof object, not the main company wedge.",
+      "why_not": "The existing board already caught that zero or negative TC/RCs are smelter-margin distress rather than a clean long-refinery rent signal. Useful, but too narrow for the one big roadmap."
+    },
+    {
+      "seed": "Agent authority rails",
+      "case": "Structurally strong, but the buyer surface is crowded with identity, governance, and security vendors.",
+      "why_not": "It needs more product invention before Vati has a unique proof edge. Time-to-energize uses the repo's existing source-verification discipline immediately."
+    },
+    {
+      "seed": "Critical-minerals refinery bottlenecks",
+      "case": "Several calls are excellent constraint-migration theses.",
+      "why_not": "They are longer-horizon and more specialist. The user asked for one thing that can be acted on now with a full capitalization path."
+    }
+  ]
+}

@@ -1,0 +1,2284 @@
+{
+  "nodes": [
+    {
+      "id": "file:engine/universe.py",
+      "type": "file",
+      "name": "universe.py",
+      "filePath": "engine/universe.py",
+      "summary": "universe.py is a code asset in the forecasting engine. It contains 12 functions, 1 class, 4 internal imports.",
+      "tags": [
+        "forecasting-engine",
+        "code",
+        "file",
+        "universe"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:engine/universe.py:_channel_fired",
+      "type": "function",
+      "name": "_channel_fired",
+      "filePath": "engine/universe.py",
+      "lineRange": [
+        150,
+        157
+      ],
+      "summary": "Defines _channel_fired in universe.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "universe"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/universe.py:_p_of",
+      "type": "function",
+      "name": "_p_of",
+      "filePath": "engine/universe.py",
+      "lineRange": [
+        160,
+        162
+      ],
+      "summary": "Defines _p_of in universe.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "universe"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/universe.py:_measurable",
+      "type": "function",
+      "name": "_measurable",
+      "filePath": "engine/universe.py",
+      "lineRange": [
+        165,
+        173
+      ],
+      "summary": "Defines _measurable in universe.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "universe"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/universe.py:_lead_months",
+      "type": "function",
+      "name": "_lead_months",
+      "filePath": "engine/universe.py",
+      "lineRange": [
+        176,
+        196
+      ],
+      "summary": "Defines _lead_months in universe.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "universe"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/universe.py:_channel_pts",
+      "type": "function",
+      "name": "_channel_pts",
+      "filePath": "engine/universe.py",
+      "lineRange": [
+        199,
+        207
+      ],
+      "summary": "Defines _channel_pts in universe.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "universe"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/universe.py:_orthogonal_verdict",
+      "type": "function",
+      "name": "_orthogonal_verdict",
+      "filePath": "engine/universe.py",
+      "lineRange": [
+        210,
+        221
+      ],
+      "summary": "Defines _orthogonal_verdict in universe.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "universe"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/universe.py:_evaluate",
+      "type": "function",
+      "name": "_evaluate",
+      "filePath": "engine/universe.py",
+      "lineRange": [
+        224,
+        282
+      ],
+      "summary": "Defines _evaluate in universe.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "universe"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/universe.py:_store",
+      "type": "function",
+      "name": "_store",
+      "filePath": "engine/universe.py",
+      "lineRange": [
+        285,
+        299
+      ],
+      "summary": "Defines _store in universe.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "universe"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/universe.py:_confusion",
+      "type": "function",
+      "name": "_confusion",
+      "filePath": "engine/universe.py",
+      "lineRange": [
+        302,
+        320
+      ],
+      "summary": "Defines _confusion in universe.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "universe"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/universe.py:score",
+      "type": "function",
+      "name": "score",
+      "filePath": "engine/universe.py",
+      "lineRange": [
+        323,
+        421
+      ],
+      "summary": "Defines score in universe.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "universe"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/universe.py:run",
+      "type": "function",
+      "name": "run",
+      "filePath": "engine/universe.py",
+      "lineRange": [
+        424,
+        457
+      ],
+      "summary": "Defines run in universe.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entry-point",
+        "universe"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/universe.py:_report",
+      "type": "function",
+      "name": "_report",
+      "filePath": "engine/universe.py",
+      "lineRange": [
+        460,
+        522
+      ],
+      "summary": "Defines _report in universe.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "universe"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:engine/universe.py:UniverseCase",
+      "type": "class",
+      "name": "UniverseCase",
+      "filePath": "engine/universe.py",
+      "lineRange": [
+        110,
+        145
+      ],
+      "summary": "Defines UniverseCase in universe.py, encapsulating reusable behavior or state for this module.",
+      "tags": [
+        "class",
+        "implementation",
+        "universe"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:engine/wikidata_enrich.py",
+      "type": "file",
+      "name": "wikidata_enrich.py",
+      "filePath": "engine/wikidata_enrich.py",
+      "summary": "wikidata_enrich.py is a code asset in the forecasting engine. It contains 26 functions, 1 class, 5 internal imports.",
+      "tags": [
+        "forecasting-engine",
+        "code",
+        "file",
+        "wikidata-enrich"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:engine/wikidata_enrich.py:_stable_id",
+      "type": "function",
+      "name": "_stable_id",
+      "filePath": "engine/wikidata_enrich.py",
+      "lineRange": [
+        88,
+        90
+      ],
+      "summary": "Defines _stable_id in wikidata_enrich.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "wikidata-enrich"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/wikidata_enrich.py:_load_aliases",
+      "type": "function",
+      "name": "_load_aliases",
+      "filePath": "engine/wikidata_enrich.py",
+      "lineRange": [
+        93,
+        100
+      ],
+      "summary": "Defines _load_aliases in wikidata_enrich.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "wikidata-enrich"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/wikidata_enrich.py:_norm",
+      "type": "function",
+      "name": "_norm",
+      "filePath": "engine/wikidata_enrich.py",
+      "lineRange": [
+        103,
+        105
+      ],
+      "summary": "Defines _norm in wikidata_enrich.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "wikidata-enrich"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/wikidata_enrich.py:_without_legal_suffixes",
+      "type": "function",
+      "name": "_without_legal_suffixes",
+      "filePath": "engine/wikidata_enrich.py",
+      "lineRange": [
+        108,
+        117
+      ],
+      "summary": "Defines _without_legal_suffixes in wikidata_enrich.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "wikidata-enrich"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/wikidata_enrich.py:_without_parenthetical_suffix",
+      "type": "function",
+      "name": "_without_parenthetical_suffix",
+      "filePath": "engine/wikidata_enrich.py",
+      "lineRange": [
+        120,
+        121
+      ],
+      "summary": "Defines _without_parenthetical_suffix in wikidata_enrich.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "wikidata-enrich"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/wikidata_enrich.py:_is_symbol",
+      "type": "function",
+      "name": "_is_symbol",
+      "filePath": "engine/wikidata_enrich.py",
+      "lineRange": [
+        124,
+        130
+      ],
+      "summary": "Defines _is_symbol in wikidata_enrich.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "wikidata-enrich"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/wikidata_enrich.py:_usable_queries",
+      "type": "function",
+      "name": "_usable_queries",
+      "filePath": "engine/wikidata_enrich.py",
+      "lineRange": [
+        133,
+        148
+      ],
+      "summary": "Defines _usable_queries in wikidata_enrich.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "wikidata-enrich"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/wikidata_enrich.py:_top_aliases",
+      "type": "function",
+      "name": "_top_aliases",
+      "filePath": "engine/wikidata_enrich.py",
+      "lineRange": [
+        151,
+        155
+      ],
+      "summary": "Defines _top_aliases in wikidata_enrich.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "wikidata-enrich"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/wikidata_enrich.py:_acceptable_names",
+      "type": "function",
+      "name": "_acceptable_names",
+      "filePath": "engine/wikidata_enrich.py",
+      "lineRange": [
+        158,
+        175
+      ],
+      "summary": "Defines _acceptable_names in wikidata_enrich.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "wikidata-enrich"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/wikidata_enrich.py:_search_url",
+      "type": "function",
+      "name": "_search_url",
+      "filePath": "engine/wikidata_enrich.py",
+      "lineRange": [
+        178,
+        187
+      ],
+      "summary": "Defines _search_url in wikidata_enrich.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-access",
+        "wikidata-enrich"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/wikidata_enrich.py:_fetch_search",
+      "type": "function",
+      "name": "_fetch_search",
+      "filePath": "engine/wikidata_enrich.py",
+      "lineRange": [
+        190,
+        198
+      ],
+      "summary": "Defines _fetch_search in wikidata_enrich.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-access",
+        "wikidata-enrich"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/wikidata_enrich.py:_entity_url",
+      "type": "function",
+      "name": "_entity_url",
+      "filePath": "engine/wikidata_enrich.py",
+      "lineRange": [
+        201,
+        202
+      ],
+      "summary": "Defines _entity_url in wikidata_enrich.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "wikidata-enrich"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/wikidata_enrich.py:_fetch_entity",
+      "type": "function",
+      "name": "_fetch_entity",
+      "filePath": "engine/wikidata_enrich.py",
+      "lineRange": [
+        205,
+        213
+      ],
+      "summary": "Defines _fetch_entity in wikidata_enrich.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-access",
+        "wikidata-enrich"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/wikidata_enrich.py:_entity_record",
+      "type": "function",
+      "name": "_entity_record",
+      "filePath": "engine/wikidata_enrich.py",
+      "lineRange": [
+        216,
+        219
+      ],
+      "summary": "Defines _entity_record in wikidata_enrich.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "wikidata-enrich"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/wikidata_enrich.py:_label_aliases",
+      "type": "function",
+      "name": "_label_aliases",
+      "filePath": "engine/wikidata_enrich.py",
+      "lineRange": [
+        222,
+        240
+      ],
+      "summary": "Defines _label_aliases in wikidata_enrich.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "wikidata-enrich"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/wikidata_enrich.py:_primary_label",
+      "type": "function",
+      "name": "_primary_label",
+      "filePath": "engine/wikidata_enrich.py",
+      "lineRange": [
+        243,
+        254
+      ],
+      "summary": "Defines _primary_label in wikidata_enrich.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "wikidata-enrich"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/wikidata_enrich.py:_description",
+      "type": "function",
+      "name": "_description",
+      "filePath": "engine/wikidata_enrich.py",
+      "lineRange": [
+        257,
+        260
+      ],
+      "summary": "Defines _description in wikidata_enrich.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "wikidata-enrich"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/wikidata_enrich.py:_claim_qids",
+      "type": "function",
+      "name": "_claim_qids",
+      "filePath": "engine/wikidata_enrich.py",
+      "lineRange": [
+        263,
+        273
+      ],
+      "summary": "Defines _claim_qids in wikidata_enrich.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "wikidata-enrich"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/wikidata_enrich.py:_matches_entity",
+      "type": "function",
+      "name": "_matches_entity",
+      "filePath": "engine/wikidata_enrich.py",
+      "lineRange": [
+        276,
+        289
+      ],
+      "summary": "Defines _matches_entity in wikidata_enrich.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "wikidata-enrich"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/wikidata_enrich.py:_looks_org_like",
+      "type": "function",
+      "name": "_looks_org_like",
+      "filePath": "engine/wikidata_enrich.py",
+      "lineRange": [
+        292,
+        296
+      ],
+      "summary": "Defines _looks_org_like in wikidata_enrich.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "wikidata-enrich"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/wikidata_enrich.py:_looks_kind_like",
+      "type": "function",
+      "name": "_looks_kind_like",
+      "filePath": "engine/wikidata_enrich.py",
+      "lineRange": [
+        299,
+        311
+      ],
+      "summary": "Defines _looks_kind_like in wikidata_enrich.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "wikidata-enrich"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/wikidata_enrich.py:_extract_match",
+      "type": "function",
+      "name": "_extract_match",
+      "filePath": "engine/wikidata_enrich.py",
+      "lineRange": [
+        314,
+        343
+      ],
+      "summary": "Defines _extract_match in wikidata_enrich.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "wikidata-enrich"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/wikidata_enrich.py:_entity_rows",
+      "type": "function",
+      "name": "_entity_rows",
+      "filePath": "engine/wikidata_enrich.py",
+      "lineRange": [
+        346,
+        379
+      ],
+      "summary": "Defines _entity_rows in wikidata_enrich.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "wikidata-enrich"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/wikidata_enrich.py:_upsert_wikidata_source",
+      "type": "function",
+      "name": "_upsert_wikidata_source",
+      "filePath": "engine/wikidata_enrich.py",
+      "lineRange": [
+        382,
+        398
+      ],
+      "summary": "Defines _upsert_wikidata_source in wikidata_enrich.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "wikidata-enrich"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/wikidata_enrich.py:_apply_match",
+      "type": "function",
+      "name": "_apply_match",
+      "filePath": "engine/wikidata_enrich.py",
+      "lineRange": [
+        401,
+        438
+      ],
+      "summary": "Defines _apply_match in wikidata_enrich.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "wikidata-enrich"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/wikidata_enrich.py:enrich_top_entities",
+      "type": "function",
+      "name": "enrich_top_entities",
+      "filePath": "engine/wikidata_enrich.py",
+      "lineRange": [
+        441,
+        503
+      ],
+      "summary": "Defines enrich_top_entities in wikidata_enrich.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "wikidata-enrich"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:engine/wikidata_enrich.py:WikidataMatch",
+      "type": "class",
+      "name": "WikidataMatch",
+      "filePath": "engine/wikidata_enrich.py",
+      "lineRange": [
+        75,
+        85
+      ],
+      "summary": "Defines WikidataMatch in wikidata_enrich.py, encapsulating reusable behavior or state for this module.",
+      "tags": [
+        "class",
+        "implementation",
+        "wikidata-enrich"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:engine/world_graph.py",
+      "type": "file",
+      "name": "world_graph.py",
+      "filePath": "engine/world_graph.py",
+      "summary": "world_graph.py is a code asset in the forecasting engine. It contains 12 functions, 1 class.",
+      "tags": [
+        "forecasting-engine",
+        "world-graph",
+        "graph",
+        "code"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:engine/world_graph.py:load_board",
+      "type": "function",
+      "name": "load_board",
+      "filePath": "engine/world_graph.py",
+      "lineRange": [
+        151,
+        155
+      ],
+      "summary": "Defines load_board in world_graph.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-graph"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_graph.py:build_atlas",
+      "type": "function",
+      "name": "build_atlas",
+      "filePath": "engine/world_graph.py",
+      "lineRange": [
+        158,
+        164
+      ],
+      "summary": "Defines build_atlas in world_graph.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "world-graph"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_graph.py:write_outputs",
+      "type": "function",
+      "name": "write_outputs",
+      "filePath": "engine/world_graph.py",
+      "lineRange": [
+        167,
+        192
+      ],
+      "summary": "Defines write_outputs in world_graph.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-graph"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_graph.py:render_markdown",
+      "type": "function",
+      "name": "render_markdown",
+      "filePath": "engine/world_graph.py",
+      "lineRange": [
+        195,
+        274
+      ],
+      "summary": "Defines render_markdown in world_graph.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-graph"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/world_graph.py:_as_people",
+      "type": "function",
+      "name": "_as_people",
+      "filePath": "engine/world_graph.py",
+      "lineRange": [
+        705,
+        712
+      ],
+      "summary": "Defines _as_people in world_graph.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-graph"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_graph.py:_clean",
+      "type": "function",
+      "name": "_clean",
+      "filePath": "engine/world_graph.py",
+      "lineRange": [
+        715,
+        718
+      ],
+      "summary": "Defines _clean in world_graph.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-graph"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_graph.py:_hay",
+      "type": "function",
+      "name": "_hay",
+      "filePath": "engine/world_graph.py",
+      "lineRange": [
+        721,
+        722
+      ],
+      "summary": "Defines _hay in world_graph.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-graph"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_graph.py:_now_iso",
+      "type": "function",
+      "name": "_now_iso",
+      "filePath": "engine/world_graph.py",
+      "lineRange": [
+        725,
+        726
+      ],
+      "summary": "Defines _now_iso in world_graph.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-graph"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_graph.py:_slug",
+      "type": "function",
+      "name": "_slug",
+      "filePath": "engine/world_graph.py",
+      "lineRange": [
+        729,
+        738
+      ],
+      "summary": "Defines _slug in world_graph.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-graph"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_graph.py:_stable_hash",
+      "type": "function",
+      "name": "_stable_hash",
+      "filePath": "engine/world_graph.py",
+      "lineRange": [
+        741,
+        746
+      ],
+      "summary": "Defines _stable_hash in world_graph.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-graph"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_graph.py:_write_csv",
+      "type": "function",
+      "name": "_write_csv",
+      "filePath": "engine/world_graph.py",
+      "lineRange": [
+        749,
+        762
+      ],
+      "summary": "Defines _write_csv in world_graph.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-graph"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_graph.py:_csv_value",
+      "type": "function",
+      "name": "_csv_value",
+      "filePath": "engine/world_graph.py",
+      "lineRange": [
+        765,
+        770
+      ],
+      "summary": "Defines _csv_value in world_graph.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-graph"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:engine/world_graph.py:_AtlasBuilder",
+      "type": "class",
+      "name": "_AtlasBuilder",
+      "filePath": "engine/world_graph.py",
+      "lineRange": [
+        277,
+        702
+      ],
+      "summary": "Defines _AtlasBuilder in world_graph.py, encapsulating reusable behavior or state for this module.",
+      "tags": [
+        "class",
+        "implementation",
+        "world-graph"
+      ],
+      "complexity": "complex"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:engine/universe.py",
+      "target": "function:engine/universe.py:_channel_fired",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/universe.py",
+      "target": "function:engine/universe.py:_channel_fired",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/universe.py",
+      "target": "function:engine/universe.py:_p_of",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/universe.py",
+      "target": "function:engine/universe.py:_p_of",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/universe.py",
+      "target": "function:engine/universe.py:_measurable",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/universe.py",
+      "target": "function:engine/universe.py:_measurable",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/universe.py",
+      "target": "function:engine/universe.py:_lead_months",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/universe.py",
+      "target": "function:engine/universe.py:_lead_months",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/universe.py",
+      "target": "function:engine/universe.py:_channel_pts",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/universe.py",
+      "target": "function:engine/universe.py:_channel_pts",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/universe.py",
+      "target": "function:engine/universe.py:_orthogonal_verdict",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/universe.py",
+      "target": "function:engine/universe.py:_orthogonal_verdict",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/universe.py",
+      "target": "function:engine/universe.py:_evaluate",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/universe.py",
+      "target": "function:engine/universe.py:_evaluate",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/universe.py",
+      "target": "function:engine/universe.py:_store",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/universe.py",
+      "target": "function:engine/universe.py:_store",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/universe.py",
+      "target": "function:engine/universe.py:_confusion",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/universe.py",
+      "target": "function:engine/universe.py:_confusion",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/universe.py",
+      "target": "function:engine/universe.py:score",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/universe.py",
+      "target": "function:engine/universe.py:score",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/universe.py",
+      "target": "function:engine/universe.py:run",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/universe.py",
+      "target": "function:engine/universe.py:run",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/universe.py",
+      "target": "function:engine/universe.py:_report",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/universe.py",
+      "target": "function:engine/universe.py:_report",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/universe.py",
+      "target": "class:engine/universe.py:UniverseCase",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/universe.py",
+      "target": "class:engine/universe.py:UniverseCase",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/wikidata_enrich.py",
+      "target": "function:engine/wikidata_enrich.py:_stable_id",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/wikidata_enrich.py",
+      "target": "function:engine/wikidata_enrich.py:_stable_id",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/wikidata_enrich.py",
+      "target": "function:engine/wikidata_enrich.py:_load_aliases",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/wikidata_enrich.py",
+      "target": "function:engine/wikidata_enrich.py:_load_aliases",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/wikidata_enrich.py",
+      "target": "function:engine/wikidata_enrich.py:_norm",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/wikidata_enrich.py",
+      "target": "function:engine/wikidata_enrich.py:_norm",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/wikidata_enrich.py",
+      "target": "function:engine/wikidata_enrich.py:_without_legal_suffixes",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/wikidata_enrich.py",
+      "target": "function:engine/wikidata_enrich.py:_without_legal_suffixes",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/wikidata_enrich.py",
+      "target": "function:engine/wikidata_enrich.py:_without_parenthetical_suffix",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/wikidata_enrich.py",
+      "target": "function:engine/wikidata_enrich.py:_without_parenthetical_suffix",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/wikidata_enrich.py",
+      "target": "function:engine/wikidata_enrich.py:_is_symbol",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/wikidata_enrich.py",
+      "target": "function:engine/wikidata_enrich.py:_is_symbol",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/wikidata_enrich.py",
+      "target": "function:engine/wikidata_enrich.py:_usable_queries",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/wikidata_enrich.py",
+      "target": "function:engine/wikidata_enrich.py:_usable_queries",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/wikidata_enrich.py",
+      "target": "function:engine/wikidata_enrich.py:_top_aliases",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/wikidata_enrich.py",
+      "target": "function:engine/wikidata_enrich.py:_top_aliases",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/wikidata_enrich.py",
+      "target": "function:engine/wikidata_enrich.py:_acceptable_names",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/wikidata_enrich.py",
+      "target": "function:engine/wikidata_enrich.py:_acceptable_names",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/wikidata_enrich.py",
+      "target": "function:engine/wikidata_enrich.py:_search_url",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/wikidata_enrich.py",
+      "target": "function:engine/wikidata_enrich.py:_search_url",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/wikidata_enrich.py",
+      "target": "function:engine/wikidata_enrich.py:_fetch_search",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/wikidata_enrich.py",
+      "target": "function:engine/wikidata_enrich.py:_fetch_search",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/wikidata_enrich.py",
+      "target": "function:engine/wikidata_enrich.py:_entity_url",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/wikidata_enrich.py",
+      "target": "function:engine/wikidata_enrich.py:_entity_url",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/wikidata_enrich.py",
+      "target": "function:engine/wikidata_enrich.py:_fetch_entity",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/wikidata_enrich.py",
+      "target": "function:engine/wikidata_enrich.py:_fetch_entity",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/wikidata_enrich.py",
+      "target": "function:engine/wikidata_enrich.py:_entity_record",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/wikidata_enrich.py",
+      "target": "function:engine/wikidata_enrich.py:_entity_record",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/wikidata_enrich.py",
+      "target": "function:engine/wikidata_enrich.py:_label_aliases",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/wikidata_enrich.py",
+      "target": "function:engine/wikidata_enrich.py:_label_aliases",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/wikidata_enrich.py",
+      "target": "function:engine/wikidata_enrich.py:_primary_label",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/wikidata_enrich.py",
+      "target": "function:engine/wikidata_enrich.py:_primary_label",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/wikidata_enrich.py",
+      "target": "function:engine/wikidata_enrich.py:_description",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/wikidata_enrich.py",
+      "target": "function:engine/wikidata_enrich.py:_description",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/wikidata_enrich.py",
+      "target": "function:engine/wikidata_enrich.py:_claim_qids",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/wikidata_enrich.py",
+      "target": "function:engine/wikidata_enrich.py:_claim_qids",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/wikidata_enrich.py",
+      "target": "function:engine/wikidata_enrich.py:_matches_entity",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/wikidata_enrich.py",
+      "target": "function:engine/wikidata_enrich.py:_matches_entity",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/wikidata_enrich.py",
+      "target": "function:engine/wikidata_enrich.py:_looks_org_like",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/wikidata_enrich.py",
+      "target": "function:engine/wikidata_enrich.py:_looks_org_like",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/wikidata_enrich.py",
+      "target": "function:engine/wikidata_enrich.py:_looks_kind_like",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/wikidata_enrich.py",
+      "target": "function:engine/wikidata_enrich.py:_looks_kind_like",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/wikidata_enrich.py",
+      "target": "function:engine/wikidata_enrich.py:_extract_match",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/wikidata_enrich.py",
+      "target": "function:engine/wikidata_enrich.py:_extract_match",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/wikidata_enrich.py",
+      "target": "function:engine/wikidata_enrich.py:_entity_rows",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/wikidata_enrich.py",
+      "target": "function:engine/wikidata_enrich.py:_entity_rows",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/wikidata_enrich.py",
+      "target": "function:engine/wikidata_enrich.py:_upsert_wikidata_source",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/wikidata_enrich.py",
+      "target": "function:engine/wikidata_enrich.py:_upsert_wikidata_source",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/wikidata_enrich.py",
+      "target": "function:engine/wikidata_enrich.py:_apply_match",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/wikidata_enrich.py",
+      "target": "function:engine/wikidata_enrich.py:_apply_match",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/wikidata_enrich.py",
+      "target": "function:engine/wikidata_enrich.py:enrich_top_entities",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/wikidata_enrich.py",
+      "target": "function:engine/wikidata_enrich.py:enrich_top_entities",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/wikidata_enrich.py",
+      "target": "class:engine/wikidata_enrich.py:WikidataMatch",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/wikidata_enrich.py",
+      "target": "class:engine/wikidata_enrich.py:WikidataMatch",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_graph.py",
+      "target": "function:engine/world_graph.py:load_board",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_graph.py",
+      "target": "function:engine/world_graph.py:load_board",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_graph.py",
+      "target": "function:engine/world_graph.py:build_atlas",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_graph.py",
+      "target": "function:engine/world_graph.py:build_atlas",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_graph.py",
+      "target": "function:engine/world_graph.py:write_outputs",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_graph.py",
+      "target": "function:engine/world_graph.py:write_outputs",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_graph.py",
+      "target": "function:engine/world_graph.py:render_markdown",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_graph.py",
+      "target": "function:engine/world_graph.py:render_markdown",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_graph.py",
+      "target": "function:engine/world_graph.py:_as_people",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_graph.py",
+      "target": "function:engine/world_graph.py:_as_people",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_graph.py",
+      "target": "function:engine/world_graph.py:_clean",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_graph.py",
+      "target": "function:engine/world_graph.py:_clean",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_graph.py",
+      "target": "function:engine/world_graph.py:_hay",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_graph.py",
+      "target": "function:engine/world_graph.py:_hay",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_graph.py",
+      "target": "function:engine/world_graph.py:_now_iso",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_graph.py",
+      "target": "function:engine/world_graph.py:_now_iso",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_graph.py",
+      "target": "function:engine/world_graph.py:_slug",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_graph.py",
+      "target": "function:engine/world_graph.py:_slug",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_graph.py",
+      "target": "function:engine/world_graph.py:_stable_hash",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_graph.py",
+      "target": "function:engine/world_graph.py:_stable_hash",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_graph.py",
+      "target": "function:engine/world_graph.py:_write_csv",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_graph.py",
+      "target": "function:engine/world_graph.py:_write_csv",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_graph.py",
+      "target": "function:engine/world_graph.py:_csv_value",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_graph.py",
+      "target": "function:engine/world_graph.py:_csv_value",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_graph.py",
+      "target": "class:engine/world_graph.py:_AtlasBuilder",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_graph.py",
+      "target": "class:engine/world_graph.py:_AtlasBuilder",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/universe.py",
+      "target": "file:engine/backtest.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/universe.py",
+      "target": "file:engine/detector.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/universe.py",
+      "target": "file:engine/pillars/frontier.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/universe.py",
+      "target": "file:engine/schemas.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/wikidata_enrich.py",
+      "target": "file:engine/__init__.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/wikidata_enrich.py",
+      "target": "file:engine/graph.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/wikidata_enrich.py",
+      "target": "file:engine/rawstore.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/wikidata_enrich.py",
+      "target": "file:engine/schemas.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/wikidata_enrich.py",
+      "target": "file:engine/world_catalog.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "function:engine/universe.py:_channel_pts",
+      "target": "function:engine/backtest.py:_points_by_year",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/universe.py:_orthogonal_verdict",
+      "target": "function:engine/detector.py:detect",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/universe.py:_evaluate",
+      "target": "function:engine/backtest.py:_cohort_totals",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/universe.py:_evaluate",
+      "target": "function:engine/universe.py:_channel_pts",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/universe.py:_evaluate",
+      "target": "function:engine/backtest.py:_points_by_year",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/universe.py:_evaluate",
+      "target": "function:engine/universe.py:_measurable",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/universe.py:_evaluate",
+      "target": "class:engine/universe.py:UniverseCase",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/universe.py:_evaluate",
+      "target": "function:engine/schemas.py:_uid",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/universe.py:_evaluate",
+      "target": "function:engine/detector.py:detect",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/universe.py:_evaluate",
+      "target": "function:engine/universe.py:_p_of",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/universe.py:_evaluate",
+      "target": "function:engine/universe.py:_orthogonal_verdict",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/universe.py:_evaluate",
+      "target": "function:engine/backtest.py:_resolve_gain_share",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/universe.py:_evaluate",
+      "target": "function:engine/universe.py:_lead_months",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/universe.py:_evaluate",
+      "target": "function:engine/backtest.py:_resolve",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/universe.py:_store",
+      "target": "function:engine/schemas.py:_now",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/universe.py:_confusion",
+      "target": "function:engine/backtest.py:_fisher_exact_greater",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/universe.py:score",
+      "target": "function:engine/universe.py:_confusion",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/universe.py:score",
+      "target": "function:engine/backtest.py:_loco_brier",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/universe.py:score",
+      "target": "function:engine/universe.py:_channel_fired",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/universe.py:run",
+      "target": "function:engine/universe.py:_evaluate",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/universe.py:run",
+      "target": "function:engine/universe.py:_store",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/universe.py:run",
+      "target": "function:engine/pillars/frontier.py:_log_cost",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/universe.py:run",
+      "target": "function:engine/universe.py:score",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/universe.py:run",
+      "target": "function:engine/universe.py:_report",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/wikidata_enrich.py:_without_legal_suffixes",
+      "target": "function:engine/wikidata_enrich.py:_norm",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/wikidata_enrich.py:_usable_queries",
+      "target": "function:engine/wikidata_enrich.py:_top_aliases",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/wikidata_enrich.py:_usable_queries",
+      "target": "function:engine/wikidata_enrich.py:_is_symbol",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/wikidata_enrich.py:_usable_queries",
+      "target": "function:engine/wikidata_enrich.py:_norm",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/wikidata_enrich.py:_acceptable_names",
+      "target": "function:engine/wikidata_enrich.py:_load_aliases",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/wikidata_enrich.py:_acceptable_names",
+      "target": "function:engine/wikidata_enrich.py:_is_symbol",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/wikidata_enrich.py:_acceptable_names",
+      "target": "function:engine/wikidata_enrich.py:_top_aliases",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/wikidata_enrich.py:_acceptable_names",
+      "target": "function:engine/wikidata_enrich.py:_norm",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/wikidata_enrich.py:_acceptable_names",
+      "target": "function:engine/wikidata_enrich.py:_without_legal_suffixes",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/wikidata_enrich.py:_acceptable_names",
+      "target": "function:engine/wikidata_enrich.py:_without_parenthetical_suffix",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/wikidata_enrich.py:_fetch_search",
+      "target": "function:engine/wikidata_enrich.py:_search_url",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/wikidata_enrich.py:_fetch_entity",
+      "target": "function:engine/wikidata_enrich.py:_entity_url",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/wikidata_enrich.py:_matches_entity",
+      "target": "function:engine/wikidata_enrich.py:_acceptable_names",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/wikidata_enrich.py:_matches_entity",
+      "target": "function:engine/wikidata_enrich.py:_primary_label",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/wikidata_enrich.py:_matches_entity",
+      "target": "function:engine/wikidata_enrich.py:_label_aliases",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/wikidata_enrich.py:_matches_entity",
+      "target": "function:engine/wikidata_enrich.py:_without_parenthetical_suffix",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/wikidata_enrich.py:_matches_entity",
+      "target": "function:engine/wikidata_enrich.py:_norm",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/wikidata_enrich.py:_matches_entity",
+      "target": "function:engine/wikidata_enrich.py:_without_legal_suffixes",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/wikidata_enrich.py:_looks_org_like",
+      "target": "function:engine/wikidata_enrich.py:_description",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/wikidata_enrich.py:_looks_org_like",
+      "target": "function:engine/wikidata_enrich.py:_claim_qids",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/wikidata_enrich.py:_looks_kind_like",
+      "target": "function:engine/wikidata_enrich.py:_description",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/wikidata_enrich.py:_looks_kind_like",
+      "target": "function:engine/wikidata_enrich.py:_looks_org_like",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/wikidata_enrich.py:_extract_match",
+      "target": "function:engine/wikidata_enrich.py:_entity_record",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/wikidata_enrich.py:_extract_match",
+      "target": "function:engine/wikidata_enrich.py:_matches_entity",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/wikidata_enrich.py:_extract_match",
+      "target": "function:engine/wikidata_enrich.py:_looks_kind_like",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/wikidata_enrich.py:_extract_match",
+      "target": "function:engine/wikidata_enrich.py:_label_aliases",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/wikidata_enrich.py:_extract_match",
+      "target": "function:engine/wikidata_enrich.py:_description",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/wikidata_enrich.py:_extract_match",
+      "target": "class:engine/wikidata_enrich.py:WikidataMatch",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/wikidata_enrich.py:_upsert_wikidata_source",
+      "target": "class:engine/schemas.py:Source",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/wikidata_enrich.py:_upsert_wikidata_source",
+      "target": "function:engine/graph.py:_upsert_source",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/wikidata_enrich.py:_apply_match",
+      "target": "function:engine/wikidata_enrich.py:_load_aliases",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/wikidata_enrich.py:_apply_match",
+      "target": "function:engine/wikidata_enrich.py:_stable_id",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/wikidata_enrich.py:_apply_match",
+      "target": "function:engine/schemas.py:_now",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/wikidata_enrich.py:enrich_top_entities",
+      "target": "function:engine/wikidata_enrich.py:_entity_rows",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/wikidata_enrich.py:enrich_top_entities",
+      "target": "function:engine/wikidata_enrich.py:_usable_queries",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/wikidata_enrich.py:enrich_top_entities",
+      "target": "function:engine/wikidata_enrich.py:_load_aliases",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/wikidata_enrich.py:enrich_top_entities",
+      "target": "function:engine/wikidata_enrich.py:_fetch_search",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/wikidata_enrich.py:enrich_top_entities",
+      "target": "function:engine/wikidata_enrich.py:_fetch_entity",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/wikidata_enrich.py:enrich_top_entities",
+      "target": "function:engine/wikidata_enrich.py:_extract_match",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/wikidata_enrich.py:enrich_top_entities",
+      "target": "function:engine/wikidata_enrich.py:_upsert_wikidata_source",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/wikidata_enrich.py:enrich_top_entities",
+      "target": "function:engine/wikidata_enrich.py:_apply_match",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_graph.py:build_atlas",
+      "target": "class:engine/world_graph.py:_AtlasBuilder",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_graph.py:build_atlas",
+      "target": "function:engine/world_graph.py:_stable_hash",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_graph.py:write_outputs",
+      "target": "function:engine/world_graph.py:render_markdown",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_graph.py:write_outputs",
+      "target": "function:engine/world_graph.py:_write_csv",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_graph.py",
+      "target": "function:engine/world_graph.py:_clean",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_graph.py",
+      "target": "function:engine/world_graph.py:_now_iso",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_graph.py",
+      "target": "function:engine/world_graph.py:_slug",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_graph.py",
+      "target": "function:engine/world_graph.py:_as_people",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_graph.py",
+      "target": "function:engine/world_graph.py:_hay",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_graph.py:_write_csv",
+      "target": "function:engine/world_graph.py:_csv_value",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

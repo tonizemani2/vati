@@ -1,0 +1,52 @@
+[
+ {
+  "question_id": 43472,
+  "type": "binary",
+  "prob": 0.05,
+  "reasoning": "The Andes hantavirus cluster is small (~13 cases) and cruise-linked with no sustained community spread; WHO chose to declare a PHEIC for Ebola Bundibugyo (May 16, 2026) but explicitly did NOT for hantavirus, and the outbreak is being contained via contact tracing/quarantine. A central-cause hantavirus PHEIC before 2027 is unlikely."
+ },
+ {
+  "question_id": 42271,
+  "type": "multiple_choice",
+  "option_probs": {
+   "Alireza Arafi": 0.01,
+   "Gholam-Hossein Mohseni-Eje'i": 0.02,
+   "Mojtaba Khamenei": 0.85,
+   "Hassan Khomeini": 0.03,
+   "Ali Larijani": 0.01,
+   "Sadeq Amoli Larijani": 0.01,
+   "None": 0.02,
+   "Position abolished": 0.02,
+   "Someone else": 0.03
+  },
+  "reasoning": "The Assembly of Experts selected Mojtaba Khamenei as Supreme Leader on March 8, 2026; he is the incumbent and very likely remains in office on Jan 1, 2027. Residual mass covers regime instability, removal, or abolition given the volatile post-strike environment."
+ },
+ {
+  "question_id": 38281,
+  "type": "date",
+  "percentiles": {
+   "0.05": "2027-06-01",
+   "0.1": "2028-06-01",
+   "0.25": "2030-01-01",
+   "0.5": "2032-06-01",
+   "0.75": "2034-06-01",
+   "0.9": "2035-01-01",
+   "0.95": "2035-01-01"
+  },
+  "reasoning": "France, UK, and Canada formally recognized Palestine in September 2025 (3 of 7), but the remaining G7 members (Germany, Italy, US, Japan) all currently refuse, so the 4th simultaneous recognition is a hard, contingent step likely many years out. Upper percentiles pushed to the open window end given real chance it never reaches 4 before 2035."
+ },
+ {
+  "question_id": 38218,
+  "type": "date",
+  "percentiles": {
+   "0.05": "2026-06-20",
+   "0.1": "2026-06-28",
+   "0.25": "2026-07-10",
+   "0.5": "2026-07-25",
+   "0.75": "2026-09-08",
+   "0.9": "2026-10-15",
+   "0.95": "2026-10-27"
+  },
+  "reasoning": "The dissolution bill passed first reading on June 2, 2026 and must clear three readings, with an election window set for Sept 8–Oct 20; the question resolves at the earlier of formal dissolution or the election. Dissolution likely completes within weeks (summer 2026), well before the scheduled Oct 27 fallback."
+ }
+]

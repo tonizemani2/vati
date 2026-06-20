@@ -1,0 +1,12 @@
+# GPU-box only — do NOT install into the engine env (the engine stays dependency-thin).
+# Plain HF stack. Unsloth DROPPED 2026-06-11 (its global trl/transformers monkeypatching broke 4x in a
+# row on the modern DLAMI stack); vLLM + bitsandbytes dropped with it (vLLM pins its own torch = the
+# same version-island problem; bf16 LoRA fits an 8B on a 48GB L40S without 4-bit).
+# On a DLAMI, torch is preinstalled — plain `pip install -r` leaves a satisfied torch untouched.
+torch>=2.5
+transformers>=4.56
+trl>=1.0                   # SFTTrainer + GRPOTrainer (plain, unpatched; box verified on 1.5.1)
+peft>=0.15                 # LoRA + merge_and_unload
+accelerate>=1.0
+datasets>=3.0
+wandb                      # reward/Brier/AUC tracking (only used if WANDB_API_KEY is set)

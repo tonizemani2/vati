@@ -9,8 +9,9 @@ from __future__ import annotations
 import typer
 
 from datetime import date
+from pathlib import Path
 
-from engine import backtest, bet, consensus, cost, db, decisions, detector, discover, entity, experiment, forecast, graph, holdout, hypothesis, indicators, ladder, locator, quality, retro, saturation, seed, significance, universe
+from engine import backtest, bet, companies_house_enrich, consensus, cost, coverage_grade, data_offload, db, decisions, detector, discover, disk_guard, entity, experiment, forecast, gleif_enrich, graph, holdout, hypothesis, indicators, ladder, locator, market, quality, raw_provenance, rawstore, research_papers, retro, saturation, sec_company_enrich, seed, signals, significance, universe, wikidata_enrich, world_catalog, world_graph, world_graph_deepseek, world_seed, world_state
 from engine.schemas import ForecastOutcome
 from engine.pillars import dependency, frontier, metals, power, research
 
@@ -50,6 +51,1086 @@ def signals_cmd(
     from engine.signals import evidence_pack, format_pack
     pack = evidence_pack(topic)
     typer.echo(_json.dumps(pack, ensure_ascii=False) if as_json else format_pack(pack))
+
+
+@app.command("world-state")
+def world_state_cmd(
+    topic: str = typer.Argument(..., help="free-text topic or question to freeze"),
+    as_of: str = typer.Option(..., "--as-of", help="point-in-time cutoff, YYYY-MM-DD"),
+    record: bool = typer.Option(True, "--record/--no-record", help="record a snapshot row; --no-record is read-only"),
+    as_json: bool = typer.Option(False, "--json", help="emit the raw pack as JSON"),
+) -> None:
+    """Topic -> timestamped world-state pack with a deterministic snapshot hash. $0."""
+    import json as _json
+
+    conn = db.connect()
+    db.init_db(conn)
+    pack = world_state.state_pack(topic, date.fromisoformat(as_of[:10]), conn=conn, record=record)
+    conn.close()
+    typer.echo(_json.dumps(pack, ensure_ascii=False, sort_keys=True) if as_json else world_state.format_pack(pack))
+
+
+@app.command("world-graph-compile")
+def world_graph_compile_cmd(
+    board_path: str = typer.Argument(..., help="Pope board JSON to compile into the Vati World Graph"),
+    out_dir: str | None = typer.Option(None, "--out-dir", help="directory for graph pack outputs"),
+    as_json: bool = typer.Option(False, "--json", help="emit the raw atlas JSON"),
+) -> None:
+    """Compile a Pope board into a deterministic World Graph atlas pack. $0/local-only."""
+    import json as _json
+
+    path = Path(board_path)
+    try:
+        board = world_graph.load_board(path)
+    except (OSError, _json.JSONDecodeError) as exc:
+        typer.echo(f"ERROR: could not read board JSON: {exc}", err=True)
+        raise typer.Exit(2) from None
+    atlas = world_graph.build_atlas(board, path)
+    if out_dir:
+        files = world_graph.write_outputs(atlas, Path(out_dir))
+        if as_json:
+            typer.echo(_json.dumps({"atlas": atlas, "files": files}, ensure_ascii=False, sort_keys=True))
+            return
+        typer.echo(
+            "world graph compiled: "
+            f"nodes={atlas['summary']['node_count']} edges={atlas['summary']['edge_count']} "
+            f"forecasts={atlas['summary']['forecast_count']} unknowns={atlas['summary']['unknown_count']} "
+            f"coverage={atlas['coverage']['score']}/100"
+        )
+        typer.echo(f"out_dir: {out_dir}")
+        typer.echo(f"markdown: {files['markdown']}")
+        typer.echo(f"json: {files['json']}")
+        return
+    typer.echo(_json.dumps(atlas, ensure_ascii=False, sort_keys=True) if as_json else world_graph.render_markdown(atlas))
+
+
+@app.command("world-graph-deepseek")
+def world_graph_deepseek_cmd(
+    board_path: str = typer.Argument(..., help="Pope board JSON to run through the DeepSeek V4 World Graph plan"),
+    out_dir: str = typer.Option(..., "--out-dir", help="directory for DeepSeek run pack outputs"),
+    plan: str = typer.Option("standard", "--plan", help="lite, standard, or full"),
+    execute: bool = typer.Option(False, "--execute/--dry-run", help="actually call DeepSeek API; dry-run only writes prompts and estimates"),
+    model_flash: str = typer.Option(world_graph_deepseek.MODEL_FLASH, "--model-flash", help="fast/cheap DeepSeek model id"),
+    model_pro: str = typer.Option(world_graph_deepseek.MODEL_PRO, "--model-pro", help="reasoning DeepSeek model id"),
+    allow_unstable_mac: bool = typer.Option(False, "--allow-unstable-mac", help="bypass recent Codex/Dock crash-loop guard"),
+    as_json: bool = typer.Option(False, "--json", help="emit machine-readable run pack/result"),
+) -> None:
+    """Create or execute a DeepSeek V4 E2E World Graph improvement run."""
+    import json as _json
+
+    try:
+        if execute:
+            result = world_graph_deepseek.execute_run(
+                board_path,
+                out_dir=out_dir,
+                plan=plan,
+                model_flash=model_flash,
+                model_pro=model_pro,
+                allow_unstable_mac=allow_unstable_mac,
+            )
+        else:
+            result = world_graph_deepseek.build_run_pack(
+                board_path,
+                out_dir=out_dir,
+                plan=plan,
+                model_flash=model_flash,
+                model_pro=model_pro,
+            )
+    except (OSError, ValueError, _json.JSONDecodeError) as exc:
+        typer.echo(f"ERROR: {exc}", err=True)
+        raise typer.Exit(2) from None
+    except (cost.CostGateError, world_graph_deepseek.llm.LLMConfigError, RuntimeError) as exc:
+        typer.echo(f"ERROR: {exc}", err=True)
+        raise typer.Exit(2) from None
+    if as_json:
+        typer.echo(_json.dumps(result, ensure_ascii=False, sort_keys=True))
+        return
+    est = result["estimate"]
+    typer.echo(
+        "deepseek world graph "
+        f"{result['run_mode']}: plan={result['plan']} calls={result['call_count']} "
+        f"est=${est['total_cost_usd_cache_miss']:.4f} cache-miss"
+    )
+    typer.echo(f"out_dir: {out_dir}")
+    typer.echo(f"manifest: {Path(out_dir) / 'RUN_MANIFEST.md'}")
+    if not execute:
+        typer.echo("dry-run only; add --execute after setting DEEPSEEK_API_KEY and cost approval.")
+
+
+@app.command("world-state-audit")
+def world_state_audit_cmd(
+    as_json: bool = typer.Option(False, "--json", help="emit the raw audit as JSON"),
+) -> None:
+    """Non-mutating audit of DB counts, raw coverage, health gaps, snapshots, and cost burn."""
+    import json as _json
+
+    conn = db.connect()
+    db.init_db(conn)
+    out = world_state.audit(conn)
+    conn.close()
+    typer.echo(_json.dumps(out, ensure_ascii=False, sort_keys=True) if as_json else world_state.format_audit(out))
+
+
+@app.command("world-state-proof")
+def world_state_proof_cmd(
+    topic: str = typer.Argument(..., help="free-text topic or question to prove"),
+    as_of: str = typer.Option(..., "--as-of", help="point-in-time cutoff, YYYY-MM-DD"),
+    limit: int = typer.Option(12, "--limit", help="maximum facts to include in the proof"),
+    as_json: bool = typer.Option(False, "--json", help="emit the raw proof as JSON"),
+) -> None:
+    """Read-only proof that returned facts existed before the forecast timestamp. $0."""
+    import json as _json
+
+    conn = db.connect()
+    db.init_db(conn)
+    out = world_state.state_proof(topic, date.fromisoformat(as_of[:10]), conn=conn, limit=limit)
+    conn.close()
+    typer.echo(_json.dumps(out, ensure_ascii=False, sort_keys=True) if as_json else world_state.format_proof(out))
+
+
+@app.command("world-research-pack")
+def world_research_pack_cmd(
+    topic: str = typer.Argument(..., help="free-text research topic or question"),
+    as_of: str = typer.Option(..., "--as-of", help="point-in-time cutoff, YYYY-MM-DD"),
+    paper_limit: int = typer.Option(world_state.DEFAULT_RESEARCH_PAPER_LIMIT, "--paper-limit", help="maximum papers to return"),
+    fact_limit: int = typer.Option(world_state.DEFAULT_RESEARCH_FACT_LIMIT, "--fact-limit", help="maximum research facts to return"),
+    count_fact_exclusions: bool = typer.Option(False, "--count-fact-exclusions", help="count matching future facts; slower on large local DBs"),
+    count_paper_exclusions: bool = typer.Option(False, "--count-paper-exclusions", help="count matching future papers; slower on large local corpora"),
+    search_abstracts: bool = typer.Option(False, "--search-abstracts", help="search paper abstracts too; slower on large local corpora"),
+    fill_token_fallback: bool = typer.Option(False, "--fill-token-fallback", help="fill paper slots with broader token matches after exact phrase matches"),
+    full_paper_scan: bool = typer.Option(False, "--full-paper-scan", help="scan full paper corpus for text matches; slow but higher recall"),
+    paper_scan_rows: int = typer.Option(world_state.DEFAULT_RESEARCH_PAPER_SCAN_ROWS, "--paper-scan-rows", help="bounded newest-paper rows to score before cutoff"),
+    as_json: bool = typer.Option(False, "--json", help="emit the raw research pack as JSON"),
+) -> None:
+    """Topic -> point-in-time research context from local papers and research facts. $0/read-only."""
+    import json as _json
+
+    conn = db.connect()
+    db.init_db(conn)
+    out = world_state.research_pack(
+        topic,
+        date.fromisoformat(as_of[:10]),
+        conn=conn,
+        paper_limit=paper_limit,
+        fact_limit=fact_limit,
+        count_fact_exclusions=count_fact_exclusions,
+        count_paper_exclusions=count_paper_exclusions,
+        search_abstracts=search_abstracts,
+        fill_token_fallback=fill_token_fallback,
+        full_paper_scan=full_paper_scan,
+        paper_scan_rows=paper_scan_rows,
+    )
+    conn.close()
+    typer.echo(_json.dumps(out, ensure_ascii=False, sort_keys=True) if as_json else world_state.format_research_pack(out))
+
+
+@app.command("world-state-backfill-observations")
+def world_state_backfill_observations_cmd(
+    replace: bool = typer.Option(False, "--replace", help="rebuild derived observation facts"),
+    limit: int | None = typer.Option(None, "--limit", help="optional row cap for test runs"),
+    provider: str | None = typer.Option(None, "--provider", help="optional series provider filter, e.g. nsf_awards"),
+    min_free_gb: float = typer.Option(disk_guard.DEFAULT_MIN_FREE_GB, "--min-free-gb", help="refuse below this free local disk threshold"),
+    max_used_pct: float = typer.Option(disk_guard.DEFAULT_MAX_USED_PCT, "--max-used-pct", help="refuse above this local disk usage percentage"),
+    allow_low_disk: bool = typer.Option(False, "--allow-low-disk", help="explicitly override disk guardrails"),
+) -> None:
+    """Backfill timestamped world-state facts from existing measured series observations. $0."""
+    try:
+        stats = disk_guard.assert_safe(
+            db.REPO_ROOT,
+            min_free_gb=min_free_gb,
+            max_used_pct=max_used_pct,
+            label="world-state observation fact backfill",
+            allow_low_disk=allow_low_disk,
+        )
+    except disk_guard.DiskSpaceError as exc:
+        typer.echo(f"ERROR: {exc}", err=True)
+        raise typer.Exit(2) from None
+    typer.echo(
+        f"disk ok for world-state backfill: free {stats['free_gb']:.1f}GiB, "
+        f"used {stats['used_pct']:.1f}% (floor {min_free_gb:.1f}GiB, cap {max_used_pct:.1f}%)"
+    )
+    conn = db.connect()
+    db.init_db(conn)
+    out = world_state.backfill_observation_facts(conn, replace=replace, limit=limit, provider=provider)
+    conn.close()
+    typer.echo(
+        "world-state observation facts: "
+        f"seen {out['seen']}, written {out['written']}, "
+        f"before {out['before']}, after {out['after']}. cost: $0.00"
+    )
+
+
+@app.command("world-state-backfill-metric-entities")
+def world_state_backfill_metric_entities_cmd(
+    replace: bool = typer.Option(False, "--replace", help="rebuild derived metric-to-entity bridge facts"),
+    metric: str | None = typer.Option(None, "--metric", help="optional metric filter, e.g. interconnection_queue_capacity"),
+    min_free_gb: float = typer.Option(disk_guard.DEFAULT_MIN_FREE_GB, "--min-free-gb", help="refuse below this free local disk threshold"),
+    max_used_pct: float = typer.Option(disk_guard.DEFAULT_MAX_USED_PCT, "--max-used-pct", help="refuse above this local disk usage percentage"),
+    allow_low_disk: bool = typer.Option(False, "--allow-low-disk", help="explicitly override disk guardrails"),
+) -> None:
+    """Backfill timestamped world-state facts from known metric→top-entity bridges. $0."""
+    try:
+        stats = disk_guard.assert_safe(
+            db.REPO_ROOT,
+            min_free_gb=min_free_gb,
+            max_used_pct=max_used_pct,
+            label="world-state metric entity bridge backfill",
+            allow_low_disk=allow_low_disk,
+        )
+    except disk_guard.DiskSpaceError as exc:
+        typer.echo(f"ERROR: {exc}", err=True)
+        raise typer.Exit(2) from None
+    typer.echo(
+        f"disk ok for world-state metric entity bridge backfill: free {stats['free_gb']:.1f}GiB, "
+        f"used {stats['used_pct']:.1f}% (floor {min_free_gb:.1f}GiB, cap {max_used_pct:.1f}%)"
+    )
+    conn = db.connect()
+    db.init_db(conn)
+    out = world_state.backfill_metric_entity_facts(conn, replace=replace, metric=metric)
+    conn.close()
+    typer.echo(
+        "world-state metric entity bridge facts: "
+        f"seen {out['seen']}, written {out['written']}, "
+        f"before {out['before']}, after {out['after']}. cost: $0.00"
+    )
+
+
+@app.command("world-state-backfill-identifiers")
+def world_state_backfill_identifiers_cmd(
+    replace: bool = typer.Option(False, "--replace", help="rebuild derived official identifier facts"),
+    limit: int | None = typer.Option(None, "--limit", help="optional row cap for test runs"),
+    min_free_gb: float = typer.Option(disk_guard.DEFAULT_MIN_FREE_GB, "--min-free-gb", help="refuse below this free local disk threshold"),
+    max_used_pct: float = typer.Option(disk_guard.DEFAULT_MAX_USED_PCT, "--max-used-pct", help="refuse above this local disk usage percentage"),
+    allow_low_disk: bool = typer.Option(False, "--allow-low-disk", help="explicitly override disk guardrails"),
+) -> None:
+    """Backfill timestamped world-state facts from official entity identifiers. $0."""
+    try:
+        stats = disk_guard.assert_safe(
+            db.REPO_ROOT,
+            min_free_gb=min_free_gb,
+            max_used_pct=max_used_pct,
+            label="world-state identifier fact backfill",
+            allow_low_disk=allow_low_disk,
+        )
+    except disk_guard.DiskSpaceError as exc:
+        typer.echo(f"ERROR: {exc}", err=True)
+        raise typer.Exit(2) from None
+    typer.echo(
+        f"disk ok for world-state identifier backfill: free {stats['free_gb']:.1f}GiB, "
+        f"used {stats['used_pct']:.1f}% (floor {min_free_gb:.1f}GiB, cap {max_used_pct:.1f}%)"
+    )
+    conn = db.connect()
+    db.init_db(conn)
+    out = world_state.backfill_entity_identifier_facts(conn, replace=replace, limit=limit)
+    conn.close()
+    typer.echo(
+        "world-state identifier facts: "
+        f"seen {out['seen']}, written {out['written']}, identifiers {out['identifier_entities']}, "
+        f"before {out['before']}, after {out['after']}. cost: $0.00"
+    )
+
+
+@app.command("world-entity-autolink")
+def world_entity_autolink_cmd(
+    all_series: bool = typer.Option(False, "--all-series", help="also scan series that already have links"),
+    limit: int | None = typer.Option(None, "--limit", help="optional row cap for test runs"),
+) -> None:
+    """Auto-link obvious series/entity matches using exact aliases, ISO codes, and tickers. $0."""
+    conn = db.connect()
+    db.init_db(conn)
+    out = world_state.autolink_series_entities(conn, only_unlinked=not all_series, limit=limit)
+    conn.close()
+    typer.echo(
+        "world entity autolink: "
+        f"seen {out['series_seen']}, matched {out['matched']}, links_written {out['links_written']}, "
+        f"geo_entities_created {out['geo_entities_created']}, "
+        f"remaining_unlinked_series {out['remaining_unlinked_series']}. cost: $0.00"
+    )
+
+
+@app.command("world-raw-recover")
+def world_raw_recover_cmd(
+    limit: int = typer.Option(50, "--limit", help="maximum missing hashed sources to inspect"),
+    max_bytes_mb: float = typer.Option(5.0, "--max-bytes-mb", help="maximum response size per URL"),
+    timeout: float = typer.Option(raw_provenance.DEFAULT_TIMEOUT, "--timeout", help="fetch timeout in seconds"),
+    execute: bool = typer.Option(False, "--execute", help="store exact hash matches; default only reports"),
+    allow_prefix: list[str] | None = typer.Option(
+        None,
+        "--allow-prefix",
+        help="allowed URL prefix; repeat to override the built-in conservative allowlist",
+    ),
+    url_prefix: list[str] | None = typer.Option(
+        None,
+        "--url-prefix",
+        help="candidate source URL prefix; repeat to target small/recoverable subsets",
+    ),
+    as_json: bool = typer.Option(False, "--json", help="emit machine-readable recovery stats"),
+    min_free_gb: float = typer.Option(disk_guard.DEFAULT_MIN_FREE_GB, "--min-free-gb", help="execute-mode local free disk floor"),
+    max_used_pct: float = typer.Option(disk_guard.DEFAULT_MAX_USED_PCT, "--max-used-pct", help="execute-mode local disk usage cap"),
+    allow_low_disk: bool = typer.Option(False, "--allow-low-disk", help="explicitly override execute-mode disk guardrails"),
+) -> None:
+    """Recover missing raw_docs rows only when refetched bytes match an existing source hash."""
+    import json as _json
+
+    if execute:
+        try:
+            stats = disk_guard.assert_safe(
+                db.REPO_ROOT,
+                min_free_gb=min_free_gb,
+                max_used_pct=max_used_pct,
+                label="raw provenance recovery",
+                allow_low_disk=allow_low_disk,
+            )
+        except disk_guard.DiskSpaceError as exc:
+            typer.echo(f"ERROR: {exc}", err=True)
+            raise typer.Exit(2) from None
+        if not as_json:
+            typer.echo(
+                f"disk ok for raw recovery: free {stats['free_gb']:.1f}GiB, "
+                f"used {stats['used_pct']:.1f}%"
+            )
+
+    conn = db.connect()
+    db.init_db(conn)
+    out = raw_provenance.recover_missing_raw_docs(
+        conn,
+        limit=limit,
+        max_bytes=max(1, int(max_bytes_mb * 1024 * 1024)),
+        timeout=timeout,
+        execute=execute,
+        allow_prefixes=tuple(allow_prefix) if allow_prefix else raw_provenance.DEFAULT_ALLOW_PREFIXES,
+        url_prefixes=tuple(url_prefix) if url_prefix else None,
+    )
+    conn.close()
+    typer.echo(_json.dumps(out, ensure_ascii=False, sort_keys=True) if as_json else raw_provenance.format_recovery(out))
+
+
+@app.command("world-raw-mark-legacy")
+def world_raw_mark_legacy_cmd(
+    overwrite: bool = typer.Option(False, "--overwrite", help="recompute existing provenance status fields"),
+    as_json: bool = typer.Option(False, "--json", help="emit machine-readable marking stats"),
+) -> None:
+    """Mark source rows as exact raw-doc provenance or explicit legacy/no-raw provenance."""
+    import json as _json
+
+    conn = db.connect()
+    db.init_db(conn)
+    out = raw_provenance.mark_legacy_provenance(conn, overwrite=overwrite)
+    conn.close()
+    typer.echo(_json.dumps(out, ensure_ascii=False, sort_keys=True) if as_json else raw_provenance.format_legacy_mark(out))
+
+
+@app.command("world-raw-locate")
+def world_raw_locate_cmd(
+    content_hash: str = typer.Argument(..., help="sha256 content hash from sources/raw_docs/world_state_facts"),
+    manifest_path: str | None = typer.Option(None, "--manifest", help="offload manifest path; defaults to data/_offload_manifest.jsonl"),
+    as_json: bool = typer.Option(False, "--json", help="emit machine-readable location info"),
+) -> None:
+    """Locate exact raw bytes locally or in the S3 offload manifest. $0 unless S3 is inspected externally."""
+    import json as _json
+
+    conn = db.connect()
+    db.init_db(conn)
+    out = rawstore.locate(conn, content_hash, manifest_path=Path(manifest_path) if manifest_path else None)
+    conn.close()
+    if as_json:
+        typer.echo(_json.dumps(out, ensure_ascii=False, sort_keys=True))
+        return
+    typer.echo(
+        "raw doc location: "
+        f"hash={out['content_hash']} status={out['status']} "
+        f"indexed={out['indexed']} local={out['exists_local']}"
+    )
+    if out.get("local_path"):
+        typer.echo(f"local_path: {out['local_path']}")
+    if out.get("remote_uri"):
+        typer.echo(f"remote_uri: {out['remote_uri']}")
+    if out.get("byte_len"):
+        typer.echo(f"bytes: {out['byte_len']}")
+
+
+@app.command("world-raw-restore")
+def world_raw_restore_cmd(
+    content_hash: str = typer.Argument(..., help="sha256 content hash to restore from offloaded raw byte storage"),
+    max_bytes_mb: float = typer.Option(100.0, "--max-bytes-mb", help="refuse to restore a document larger than this"),
+    manifest_path: str | None = typer.Option(None, "--manifest", help="offload manifest path; defaults to data/_offload_manifest.jsonl"),
+    as_json: bool = typer.Option(False, "--json", help="emit machine-readable restore info"),
+    min_free_gb: float = typer.Option(disk_guard.DEFAULT_MIN_FREE_GB, "--min-free-gb", help="local free disk floor"),
+    max_used_pct: float = typer.Option(disk_guard.DEFAULT_MAX_USED_PCT, "--max-used-pct", help="local disk usage cap"),
+    allow_low_disk: bool = typer.Option(False, "--allow-low-disk", help="explicitly override disk guardrails"),
+) -> None:
+    """Restore one exact raw document from S3 by hash, with hash verification and a byte cap."""
+    import json as _json
+
+    try:
+        stats = disk_guard.assert_safe(
+            db.REPO_ROOT,
+            min_free_gb=min_free_gb,
+            max_used_pct=max_used_pct,
+            label="single raw-doc restore",
+            allow_low_disk=allow_low_disk,
+        )
+    except disk_guard.DiskSpaceError as exc:
+        typer.echo(f"ERROR: {exc}", err=True)
+        raise typer.Exit(2) from None
+
+    conn = db.connect()
+    db.init_db(conn)
+    try:
+        out = rawstore.restore(
+            conn,
+            content_hash,
+            max_bytes=max(1, int(max_bytes_mb * 1024 * 1024)),
+            manifest_path=Path(manifest_path) if manifest_path else None,
+        )
+    except (FileNotFoundError, RuntimeError, ValueError, data_offload.DataOffloadError) as exc:
+        conn.close()
+        typer.echo(f"ERROR: {exc}", err=True)
+        raise typer.Exit(2) from None
+    conn.close()
+    if as_json:
+        typer.echo(_json.dumps({"disk": stats, **out}, ensure_ascii=False, sort_keys=True))
+        return
+    typer.echo(
+        f"raw doc restore: hash={out['content_hash']} restored={out.get('restored')} "
+        f"status={out['status']} bytes={out.get('byte_len', 0)}"
+    )
+    typer.echo(f"local_path: {out.get('local_path')}")
+    if out.get("restored_from"):
+        typer.echo(f"restored_from: {out['restored_from']}")
+
+
+@app.command("world-data-plan")
+def world_data_plan_cmd(
+    priority: int | None = typer.Option(None, "--priority", help="show sources with priority <= N"),
+    status: str | None = typer.Option(None, "--status", help="filter by status"),
+    entities: bool = typer.Option(False, "--entities", help="include top global entity seed list"),
+    as_json: bool = typer.Option(False, "--json", help="emit machine-readable registry"),
+) -> None:
+    """Show the global source coverage plan: sources, processing, outputs, cost posture."""
+    import json as _json
+
+    rows = world_catalog.registry(priority=priority, status=status)
+    if as_json:
+        payload = {"summary": world_catalog.global_view(), "sources": rows}
+        if entities:
+            payload["top_entities"] = world_catalog.top_entities()
+        typer.echo(_json.dumps(payload, ensure_ascii=False, sort_keys=True))
+    else:
+        typer.echo(world_catalog.format_plan(rows, include_entities=entities))
+
+
+@app.command("world-land-permits-plan")
+def world_land_permits_plan_cmd(
+    priority: int | None = typer.Option(None, "--priority", help="show jurisdictions with priority <= N"),
+    region: str | None = typer.Option(None, "--region", help="filter by region/name substring"),
+    limit: int | None = typer.Option(20, "--limit", help="limit human-readable jurisdiction rows"),
+    as_csv: bool = typer.Option(False, "--csv", help="emit CSV source inventory"),
+    as_json: bool = typer.Option(False, "--json", help="emit machine-readable source inventory"),
+) -> None:
+    """Read-only worldwide land-permit/concession source inventory; no collection or spend."""
+    import json as _json
+
+    out = world_catalog.land_permit_inventory(priority=priority, region=region)
+    if as_json:
+        typer.echo(_json.dumps(out, ensure_ascii=False, sort_keys=True))
+    elif as_csv:
+        typer.echo(world_catalog.land_permit_inventory_csv(out), nl=False)
+    else:
+        typer.echo(world_catalog.format_land_permit_inventory(out, limit=limit))
+
+
+@app.command("world-land-source-seed")
+def world_land_source_seed_cmd(
+    register: bool = typer.Option(False, "--register", help="also register source targets in SQLite"),
+    as_json: bool = typer.Option(False, "--json", help="emit machine-readable seed result"),
+) -> None:
+    """Seed a tiny official/open land-permit source-target manifest; no bulk scrape or spend."""
+    import json as _json
+
+    from engine.feeds import land_permit_sources
+
+    manifest = land_permit_sources.write_manifest()
+    payload = {"manifest": manifest, "registered": None}
+    if register:
+        conn = db.connect()
+        db.init_db(conn)
+        payload["registered"] = land_permit_sources.seed_sources(conn)
+        conn.close()
+    if as_json:
+        typer.echo(_json.dumps(payload, ensure_ascii=False, sort_keys=True))
+        return
+    typer.echo(
+        f"land permit source seed: rows={manifest['rows']} path={manifest['path']} "
+        "cost=$0.00 bulk_fetch=no paid_processing=no"
+    )
+    if payload["registered"]:
+        reg = payload["registered"]
+        typer.echo(
+            f"registered source targets: rows={reg['rows']} inserted={reg['inserted']} "
+            f"updated={reg['updated']} manifest_hash={reg['manifest_hash']}"
+        )
+
+
+@app.command("world-constraint-plan")
+def world_constraint_plan_cmd(
+    priority: int | None = typer.Option(None, "--priority", help="show constraint targets with priority <= N"),
+    status: str | None = typer.Option(None, "--status", help="filter by target status"),
+    limit: int | None = typer.Option(20, "--limit", help="limit human-readable target rows"),
+    as_csv: bool = typer.Option(False, "--csv", help="emit CSV constraint inventory"),
+    as_json: bool = typer.Option(False, "--json", help="emit machine-readable constraint inventory"),
+) -> None:
+    """Read-only physical-constraint data plan: permits, papers, patents, grid, water, materials, logistics."""
+    import json as _json
+
+    out = world_catalog.physical_constraint_inventory(priority=priority, status=status)
+    if as_json:
+        typer.echo(_json.dumps(out, ensure_ascii=False, sort_keys=True))
+    elif as_csv:
+        typer.echo(world_catalog.physical_constraint_inventory_csv(out), nl=False)
+    else:
+        typer.echo(world_catalog.format_physical_constraint_inventory(out, limit=limit))
+
+
+@app.command("world-research-plan")
+def world_research_plan_cmd(
+    priority: int | None = typer.Option(None, "--priority", help="show targets with priority <= N"),
+    status: str | None = typer.Option(None, "--status", help="filter by target status"),
+    limit: int | None = typer.Option(20, "--limit", help="limit human-readable target rows"),
+    as_csv: bool = typer.Option(False, "--csv", help="emit CSV research expansion inventory"),
+    as_json: bool = typer.Option(False, "--json", help="emit machine-readable research expansion inventory"),
+) -> None:
+    """Read-only research expansion plan; no corpus collection or spend."""
+    import json as _json
+
+    out = world_catalog.research_expansion_inventory(priority=priority, status=status)
+    if as_json:
+        typer.echo(_json.dumps(out, ensure_ascii=False, sort_keys=True))
+    elif as_csv:
+        typer.echo(world_catalog.research_expansion_inventory_csv(out), nl=False)
+    else:
+        typer.echo(world_catalog.format_research_expansion_inventory(out, limit=limit))
+
+
+@app.command("world-data-status")
+def world_data_status_cmd(
+    priority: int | None = typer.Option(None, "--priority", help="show sources with priority <= N"),
+    status: str | None = typer.Option(None, "--status", help="filter by registry status"),
+    stale_hours: float = typer.Option(world_catalog.DEFAULT_STALE_HOURS, "--stale-hours", help="feed age that should be considered stale"),
+    max_local_refresh_mb: float = typer.Option(
+        world_catalog.DEFAULT_MAX_LOCAL_REFRESH_MB,
+        "--max-local-refresh-mb",
+        help="mark larger local feed refreshes as cloud-first/manual",
+    ),
+    as_json: bool = typer.Option(False, "--json", help="emit machine-readable operational status"),
+) -> None:
+    """Read-only status: collected files, DB rows, world-state facts, blockers, disk safety."""
+    import json as _json
+
+    conn = db.connect()
+    out = world_catalog.data_status(
+        conn,
+        priority=priority,
+        status=status,
+        stale_hours=stale_hours,
+        max_local_refresh_mb=max_local_refresh_mb,
+    )
+    conn.close()
+    typer.echo(_json.dumps(out, ensure_ascii=False, sort_keys=True) if as_json else world_catalog.format_status(out))
+
+
+@app.command("world-data-actions")
+def world_data_actions_cmd(
+    priority: int | None = typer.Option(None, "--priority", help="show sources with priority <= N"),
+    status: str | None = typer.Option(None, "--status", help="filter by registry status"),
+    stale_hours: float = typer.Option(world_catalog.DEFAULT_STALE_HOURS, "--stale-hours", help="feed age that should be considered stale"),
+    max_local_refresh_mb: float = typer.Option(
+        world_catalog.DEFAULT_MAX_LOCAL_REFRESH_MB,
+        "--max-local-refresh-mb",
+        help="mark larger local feed refreshes as cloud-first/manual",
+    ),
+    as_json: bool = typer.Option(False, "--json", help="emit machine-readable next actions"),
+) -> None:
+    """Read-only next-action view: safe local refreshes, paid approvals, blockers."""
+    import json as _json
+
+    conn = db.connect()
+    out = world_catalog.data_status(
+        conn,
+        priority=priority,
+        status=status,
+        stale_hours=stale_hours,
+        max_local_refresh_mb=max_local_refresh_mb,
+    )
+    conn.close()
+    payload = {
+        "summary": out["summary"],
+        "db": out["db"],
+        "disk": out["disk"],
+        "cost_ledger": out["cost_ledger"],
+        "scan_logs": out.get("scan_logs", {}),
+        "entity_identifiers": out.get("entity_identifiers", {}),
+        "series_health": out.get("series_health", {}),
+        "action_plan": out["action_plan"],
+        "blockers": out["blockers"],
+    }
+    typer.echo(_json.dumps(payload, ensure_ascii=False, sort_keys=True) if as_json else world_catalog.format_actions(out))
+
+
+@app.command("world-roi-sprint")
+def world_roi_sprint_cmd(
+    priority: int | None = typer.Option(None, "--priority", help="build status from sources with priority <= N"),
+    top: int | None = typer.Option(12, "--top", help="limit ROI queue rows"),
+    stale_hours: float = typer.Option(world_catalog.DEFAULT_STALE_HOURS, "--stale-hours", help="feed age that should be considered stale"),
+    max_local_refresh_mb: float = typer.Option(
+        world_catalog.DEFAULT_MAX_LOCAL_REFRESH_MB,
+        "--max-local-refresh-mb",
+        help="mark larger local feed refreshes as cloud-first/manual",
+    ),
+    as_json: bool = typer.Option(False, "--json", help="emit machine-readable ROI sprint queue"),
+) -> None:
+    """Read-only ROI-ranked sprint queue for constraint data acquisition; no collection or spend."""
+    import json as _json
+
+    conn = db.connect()
+    out = world_catalog.data_status(
+        conn,
+        priority=priority,
+        stale_hours=stale_hours,
+        max_local_refresh_mb=max_local_refresh_mb,
+    )
+    conn.close()
+    payload = world_catalog.constraint_roi_queue(out, limit=top)
+    typer.echo(_json.dumps(payload, ensure_ascii=False, sort_keys=True) if as_json else world_catalog.format_constraint_roi_queue(payload, limit=top))
+
+
+@app.command("world-data-matrix")
+def world_data_matrix_cmd(
+    priority: int | None = typer.Option(None, "--priority", help="show sources with priority <= N"),
+    status: str | None = typer.Option(None, "--status", help="filter by registry status"),
+    stale_hours: float = typer.Option(world_catalog.DEFAULT_STALE_HOURS, "--stale-hours", help="feed age that should be considered stale"),
+    max_local_refresh_mb: float = typer.Option(
+        world_catalog.DEFAULT_MAX_LOCAL_REFRESH_MB,
+        "--max-local-refresh-mb",
+        help="mark larger local feed refreshes as cloud-first/manual",
+    ),
+    limit: int | None = typer.Option(None, "--limit", help="limit human-readable rows"),
+    as_csv: bool = typer.Option(False, "--csv", help="emit CSV source matrix"),
+    as_json: bool = typer.Option(False, "--json", help="emit machine-readable source matrix"),
+) -> None:
+    """Read-only source matrix: coverage, processing, outputs, cost posture, state, and next action."""
+    import json as _json
+
+    conn = db.connect()
+    out = world_catalog.data_status(
+        conn,
+        priority=priority,
+        status=status,
+        stale_hours=stale_hours,
+        max_local_refresh_mb=max_local_refresh_mb,
+    )
+    conn.close()
+    matrix = world_catalog.source_matrix(out)
+    if as_json:
+        typer.echo(_json.dumps(matrix, ensure_ascii=False, sort_keys=True))
+    elif as_csv:
+        typer.echo(world_catalog.source_matrix_csv(matrix), nl=False)
+    else:
+        typer.echo(world_catalog.format_source_matrix(matrix, limit=limit))
+
+
+@app.command("world-research-status")
+def world_research_status_cmd(
+    stale_hours: float = typer.Option(world_catalog.DEFAULT_STALE_HOURS, "--stale-hours", help="feed age that should be considered stale"),
+    max_local_refresh_mb: float = typer.Option(
+        world_catalog.DEFAULT_MAX_LOCAL_REFRESH_MB,
+        "--max-local-refresh-mb",
+        help="mark larger local feed refreshes as cloud-first/manual",
+    ),
+    limit: int | None = typer.Option(20, "--limit", help="limit human-readable source rows"),
+    as_csv: bool = typer.Option(False, "--csv", help="emit CSV research layer matrix"),
+    as_json: bool = typer.Option(False, "--json", help="emit machine-readable research layer status"),
+) -> None:
+    """Read-only research-layer status: diversity, time coverage, queryability, blockers, cost policy."""
+    import json as _json
+
+    conn = db.connect()
+    out = world_catalog.research_layer_status(
+        conn,
+        stale_hours=stale_hours,
+        max_local_refresh_mb=max_local_refresh_mb,
+    )
+    conn.close()
+    if as_json:
+        typer.echo(_json.dumps(out, ensure_ascii=False, sort_keys=True))
+    elif as_csv:
+        typer.echo(world_catalog.research_layer_status_csv(out), nl=False)
+    else:
+        typer.echo(world_catalog.format_research_layer_status(out, limit=limit))
+
+
+@app.command("world-research-profile")
+def world_research_profile_cmd(
+    limit: int = typer.Option(25, "--limit", help="limit top provider/category/predicate rows"),
+    full_paper_groups: bool = typer.Option(
+        False,
+        "--full-paper-groups",
+        help="include exact paper year/category histograms; heavier local SQLite scan",
+    ),
+    full_source_status: bool = typer.Option(
+        False,
+        "--full-source-status",
+        help="include full research source matrix status; heavier local SQLite scan",
+    ),
+    as_json: bool = typer.Option(False, "--json", help="emit machine-readable research coverage profile"),
+) -> None:
+    """Read-only research coverage profile: providers, categories, years, predicates, provenance."""
+    import json as _json
+
+    conn = db.connect()
+    out = world_catalog.research_coverage_profile(
+        conn,
+        limit=limit,
+        include_paper_groups=full_paper_groups,
+        include_source_status=full_source_status,
+    )
+    conn.close()
+    if as_json:
+        typer.echo(_json.dumps(out, ensure_ascii=False, sort_keys=True))
+    else:
+        typer.echo(world_catalog.format_research_coverage_profile(out, limit=limit))
+
+
+@app.command("world-research-provenance")
+def world_research_provenance_cmd(
+    limit: int = typer.Option(25, "--limit", help="limit source and predicate gap rows"),
+    as_json: bool = typer.Option(False, "--json", help="emit machine-readable research provenance gaps"),
+) -> None:
+    """Read-only research raw-doc provenance gaps; no refetch or mutation."""
+    import json as _json
+
+    conn = db.connect()
+    out = world_catalog.research_provenance_gaps(conn, limit=limit)
+    conn.close()
+    if as_json:
+        typer.echo(_json.dumps(out, ensure_ascii=False, sort_keys=True))
+    else:
+        typer.echo(world_catalog.format_research_provenance_gaps(out, limit=limit))
+
+
+@app.command("world-data-approvals")
+def world_data_approvals_cmd(
+    priority: int | None = typer.Option(None, "--priority", help="show sources with priority <= N"),
+    status: str | None = typer.Option(None, "--status", help="filter by registry status"),
+    stale_hours: float = typer.Option(world_catalog.DEFAULT_STALE_HOURS, "--stale-hours", help="feed age that should be considered stale"),
+    max_local_refresh_mb: float = typer.Option(
+        world_catalog.DEFAULT_MAX_LOCAL_REFRESH_MB,
+        "--max-local-refresh-mb",
+        help="mark larger local feed refreshes as cloud-first/manual",
+    ),
+    as_json: bool = typer.Option(False, "--json", help="emit machine-readable approval packet"),
+) -> None:
+    """Read-only approval packet: paid, keyed, visibility-limited, and cloud-first data blockers."""
+    import json as _json
+
+    conn = db.connect()
+    out = world_catalog.data_status(
+        conn,
+        priority=priority,
+        status=status,
+        stale_hours=stale_hours,
+        max_local_refresh_mb=max_local_refresh_mb,
+    )
+    conn.close()
+    payload = world_catalog.approval_plan(out)
+    typer.echo(_json.dumps(payload, ensure_ascii=False, sort_keys=True) if as_json else world_catalog.format_approval_plan(out))
+
+
+@app.command("world-entity-status")
+def world_entity_status_cmd(
+    kind: str | None = typer.Option(None, "--kind", help="filter top entities by kind"),
+    missing_only: bool = typer.Option(False, "--missing-only", help="only show entities without hard identifiers"),
+    as_json: bool = typer.Option(False, "--json", help="emit machine-readable identifier coverage"),
+) -> None:
+    """Read-only top-entity identifier coverage for the global entity backbone."""
+    import json as _json
+
+    conn = db.connect()
+    out = world_catalog.entity_identifier_status(conn, kind=kind, missing_only=missing_only)
+    conn.close()
+    typer.echo(_json.dumps(out, ensure_ascii=False, sort_keys=True) if as_json else world_catalog.format_entity_identifier_status(out))
+
+
+@app.command("world-entity-coverage")
+def world_entity_coverage_cmd(
+    kind: str | None = typer.Option(None, "--kind", help="filter top entities by kind"),
+    missing_only: bool = typer.Option(False, "--missing-only", help="only show entities without timestamped facts"),
+    limit: int | None = typer.Option(80, "--limit", help="limit human-readable entity rows"),
+    as_csv: bool = typer.Option(False, "--csv", help="emit CSV entity coverage"),
+    as_json: bool = typer.Option(False, "--json", help="emit machine-readable entity coverage"),
+) -> None:
+    """Read-only top-entity world-state coverage: facts, sources, predicates, series, identifiers."""
+    import json as _json
+
+    conn = db.connect()
+    out = world_catalog.top_entity_coverage(conn, kind=kind, missing_only=missing_only)
+    conn.close()
+    if as_json:
+        typer.echo(_json.dumps(out, ensure_ascii=False, sort_keys=True))
+    elif as_csv:
+        typer.echo(world_catalog.top_entity_coverage_csv(out), nl=False)
+    else:
+        typer.echo(world_catalog.format_top_entity_coverage(out, limit=limit))
+
+
+@app.command("world-entity-seed")
+def world_entity_seed_cmd() -> None:
+    """Seed the top global countries, companies, technologies, and materials into entities."""
+    conn = db.connect()
+    db.init_db(conn)
+    out = world_catalog.seed_top_entities(conn, log=typer.echo)
+    conn.close()
+    typer.echo(
+        f"\ndone — created {out['created']} top entities, "
+        f"merged {out['existing']} existing, registry total {out['total']}."
+    )
+
+
+@app.command("world-entity-enrich-gleif")
+def world_entity_enrich_gleif_cmd(
+    limit: int = typer.Option(gleif_enrich.DEFAULT_LIMIT, "--limit", help="max company entities to query"),
+    only: list[str] | None = typer.Option(None, "--only", help="specific canonical company name(s)"),
+) -> None:
+    """Enrich top company entities with official GLEIF LEI identifiers. $0/keyless."""
+    conn = db.connect()
+    db.init_db(conn)
+    out = gleif_enrich.enrich_top_entities(conn, limit=limit, only=only, log=typer.echo)
+    conn.close()
+    typer.echo(
+        "GLEIF enrichment: "
+        f"seen {out['seen']}, matched {out['matched']}, missed {out['missed']}, "
+        f"cleaned {out.get('cleaned', 0)}, raw_responses {out['raw_responses']}, "
+        f"source_id {out['source_id']}. cost: $0.00"
+    )
+    if out["misses"]:
+        typer.echo("misses: " + ", ".join(out["misses"][:20]))
+
+
+@app.command("world-entity-enrich-sec")
+def world_entity_enrich_sec_cmd(
+    limit: int = typer.Option(sec_company_enrich.DEFAULT_LIMIT, "--limit", help="max company entities to query"),
+    only: list[str] | None = typer.Option(None, "--only", help="specific canonical company name(s)"),
+) -> None:
+    """Enrich top company entities with official SEC ticker and CIK identifiers. $0/keyless."""
+    conn = db.connect()
+    db.init_db(conn)
+    out = sec_company_enrich.enrich_top_entities(conn, limit=limit, only=only, log=typer.echo)
+    conn.close()
+    typer.echo(
+        "SEC company enrichment: "
+        f"seen {out['seen']}, matched {out['matched']}, missed {out['missed']}, "
+        f"links_written {out['links_written']}, source_id {out['source_id']}. cost: $0.00"
+    )
+    if out["misses"]:
+        typer.echo("misses: " + ", ".join(out["misses"][:20]))
+
+
+@app.command("world-entity-enrich-companies-house")
+def world_entity_enrich_companies_house_cmd(
+    limit: int = typer.Option(companies_house_enrich.DEFAULT_LIMIT, "--limit", help="max company entities to query"),
+    only: list[str] | None = typer.Option(None, "--only", help="specific canonical company name(s)"),
+) -> None:
+    """Enrich UK-linked top company entities with official Companies House numbers. $0/keyless."""
+    conn = db.connect()
+    db.init_db(conn)
+    out = companies_house_enrich.enrich_top_entities(conn, limit=limit, only=only, log=typer.echo)
+    conn.close()
+    typer.echo(
+        "Companies House enrichment: "
+        f"seen {out['seen']}, matched {out['matched']}, missed {out['missed']}, "
+        f"links_written {out['links_written']}, source_id {out['source_id']}. cost: $0.00"
+    )
+    if out["misses"]:
+        typer.echo("misses: " + ", ".join(out["misses"][:20]))
+
+
+@app.command("world-entity-enrich-wikidata")
+def world_entity_enrich_wikidata_cmd(
+    kind: str = typer.Option("company", "--kind", help="top-entity kind to query"),
+    limit: int = typer.Option(wikidata_enrich.DEFAULT_LIMIT, "--limit", help="max entities to query"),
+    only: list[str] | None = typer.Option(None, "--only", help="specific canonical entity name(s)"),
+    missing_only: bool = typer.Option(
+        True,
+        "--missing-only/--all-top-entities",
+        help="default to top entities still lacking hard identifiers",
+    ),
+) -> None:
+    """Enrich top entities with exact-match Wikidata QID identifiers. $0/keyless."""
+    conn = db.connect()
+    db.init_db(conn)
+    out = wikidata_enrich.enrich_top_entities(
+        conn,
+        kind=kind,
+        limit=limit,
+        only=only,
+        missing_only=missing_only,
+        log=typer.echo,
+    )
+    conn.close()
+    typer.echo(
+        "Wikidata enrichment: "
+        f"seen {out['seen']}, matched {out['matched']}, missed {out['missed']}, "
+        f"links_written {out['links_written']}, raw_responses {out['raw_responses']}, "
+        f"sources {len(out['source_ids'])}. cost: $0.00"
+    )
+    if out["misses"]:
+        typer.echo("misses: " + ", ".join(out["misses"][:20]))
+
+
+@app.command("data-offload")
+def data_offload_cmd(
+    root: str = typer.Option(str(db.REPO_ROOT / "data"), "--root", help="file or directory to inventory/offload"),
+    min_size_mb: float = typer.Option(100.0, "--min-size-mb", help="only consider files at least this large"),
+    dest: str | None = typer.Option(None, "--dest", help="S3 prefix, e.g. s3://bucket/prefix"),
+    execute: bool = typer.Option(False, "--execute", help="actually upload; default is inventory/dry-run only"),
+    delete_local: bool = typer.Option(False, "--delete-local", help="delete local files after upload and remote size verification"),
+    allow_critical_delete: bool = typer.Option(
+        False,
+        "--allow-critical-delete",
+        help="allow deletion of critical .db/.sqlite/.parquet files after verified upload",
+    ),
+    manifest: str = typer.Option(
+        str(db.REPO_ROOT / "data" / "_offload_manifest.jsonl"),
+        "--manifest",
+        help="JSONL manifest written after real uploads",
+    ),
+    manifest_status: bool = typer.Option(False, "--manifest-status", help="show recorded offloads and exit"),
+    restore_plan: bool = typer.Option(False, "--restore-plan", help="show aws s3 cp commands from uploaded manifest entries"),
+    as_json: bool = typer.Option(False, "--json", help="emit machine-readable inventory/offload/manifest details"),
+) -> None:
+    """Inventory large local data files and optionally offload them to S3. Dry-run by default."""
+    import json as _json
+
+    base = db.REPO_ROOT
+    manifest_path = Path(manifest).expanduser()
+    root_path = Path(root).expanduser()
+    if not root_path.is_absolute():
+        root_path = base / root_path
+    try:
+        if manifest_status or restore_plan:
+            manifest_entries = data_offload.read_manifest(manifest_path)
+            if as_json:
+                payload = {
+                    "manifest": str(manifest_path),
+                    "summary": data_offload.manifest_summary(manifest_entries),
+                    "restore_commands": data_offload.restore_commands(manifest_entries) if restore_plan else [],
+                }
+                typer.echo(_json.dumps(payload, ensure_ascii=False, sort_keys=True))
+                return
+            typer.echo(data_offload.format_manifest(manifest_entries))
+            if restore_plan:
+                typer.echo(data_offload.format_restore_plan(manifest_entries))
+            return
+        entries = data_offload.iter_large_files(root_path, min_size_mb=min_size_mb)
+        if as_json and not dest:
+            payload = {
+                "root": str(root_path),
+                "base": str(base),
+                "mode": "inventory",
+                "summary": data_offload.inventory_summary(entries, base=base),
+                "uploaded": False,
+                "deleted_local": False,
+            }
+            typer.echo(_json.dumps(payload, ensure_ascii=False, sort_keys=True))
+            return
+        if not as_json:
+            typer.echo(data_offload.format_inventory(entries, base=base))
+        if not dest:
+            typer.echo("No --dest supplied; inventory only. No files uploaded or deleted.")
+            return
+        results = data_offload.offload(
+            entries,
+            base=base,
+            dest_prefix=dest,
+            execute=execute,
+            delete_local=delete_local,
+            allow_critical_delete=allow_critical_delete,
+            manifest_path=manifest_path,
+        )
+    except data_offload.DataOffloadError as exc:
+        typer.echo(f"ERROR: {exc}", err=True)
+        raise typer.Exit(2) from None
+    if as_json:
+        payload = {
+            "root": str(root_path),
+            "base": str(base),
+            "mode": "execute" if execute else "dry_run",
+            "dest": dest,
+            "inventory": data_offload.inventory_summary(entries, base=base),
+            "delete_local_requested": delete_local,
+            "results": [result.as_dict() for result in results],
+            "uploaded": bool(execute),
+            "deleted_local": any(result.deleted_local for result in results),
+            "dry_run_delete_local_ignored": bool(delete_local and not execute),
+        }
+        typer.echo(_json.dumps(payload, ensure_ascii=False, sort_keys=True))
+        return
+    typer.echo(data_offload.format_offload_plan(results, execute=execute, delete_local=delete_local))
+    if not execute:
+        typer.echo("Dry run only. Add --execute to upload; add --delete-local only after you want local bytes removed.")
+
+
+@app.command("research-papers-operation")
+def research_papers_operation_cmd(
+    remote_prefix: str | None = typer.Option(
+        None,
+        "--remote-prefix",
+        help="Object-store prefix for the lake, e.g. s3://bucket/research-papers",
+    ),
+    budget_usd: float = typer.Option(
+        0.0,
+        "--budget-usd",
+        help="Named budget for metered/requester-pays stages. Required with --execute.",
+    ),
+    execute: bool = typer.Option(
+        False,
+        "--execute",
+        help="Mark bulk execution ready after validation. This command still downloads no bulk bytes.",
+    ),
+    allow_metered: bool = typer.Option(
+        False,
+        "--allow-metered",
+        help="Allow metered/requester-pays sources to pass validation with --execute.",
+    ),
+    allow_low_disk: bool = typer.Option(
+        False,
+        "--allow-low-disk",
+        help="Bypass local disk guard for manifest bootstrap only.",
+    ),
+    as_json: bool = typer.Option(False, "--json", help="emit the operation manifest as JSON"),
+) -> None:
+    """Research papers lake control plane: manifest, sources, budgets, disk gate.
+
+    Safe by default: writes data/research_papers/operation_manifest.json and downloads no
+    bulk bytes. Full-text arXiv/PMC/etc. stages must run remotely from the manifest.
+    """
+    import json as _json
+
+    conn = db.connect()
+    db.init_db(conn)
+    payload = research_papers.bootstrap(
+        remote_prefix=remote_prefix,
+        budget_usd=budget_usd,
+        execute=execute,
+        allow_metered=allow_metered,
+        allow_low_disk=allow_low_disk,
+        conn=conn,
+    )
+    conn.close()
+    typer.echo(
+        _json.dumps(payload, ensure_ascii=False, sort_keys=True)
+        if as_json else research_papers.format_summary(payload)
+    )
 
 
 @app.command("collect-frontier")
@@ -548,6 +1629,23 @@ def market_anchor_cmd(
     typer.echo(_json.dumps(a, ensure_ascii=False) if as_json else format_anchor(a))
 
 
+@app.command("ground")
+def ground_cmd(
+    topic: str = typer.Argument(..., help="The area/thesis/claim to ground in the measured data layer."),
+    as_json: bool = typer.Option(False, "--json", help="emit the raw grounding pack as JSON"),
+) -> None:
+    """Retrieval bridge: put the measured data layer in front of the forecaster. Composes the spine
+    coverage walk + the measured signal pack (series trends, patent HHI, dependency edges) + the
+    priced-in market gate into ONE grounding block. The Pope channel/gate agents run this FIRST and
+    reason from it instead of from vibes. Keyless, $0.
+    """
+    import json as _json
+
+    from engine.ground import format_ground, ground_pack
+    g = ground_pack(topic)
+    typer.echo(_json.dumps(g, ensure_ascii=False, default=str) if as_json else format_ground(g))
+
+
 @app.command("data-audit")
 def data_audit(
     strict: bool = typer.Option(False, help="Exit non-zero if any series fails QC (gate a collect→audit→detect chain)."),
@@ -888,6 +1986,60 @@ def driver_seed() -> None:
     typer.echo(f"{'updated' if out['updated'] else 'linked'} driver on card {row['id'][:8]}.")
     _echo_driver_health(h)
     typer.echo("\ncost: $0.00")
+
+
+@app.command("emergent-scan")
+def emergent_scan_cmd(
+    limit: int = typer.Option(12, help="target number of PURSUE calls"),
+    no_capture: bool = typer.Option(False, "--no-capture", help="judge only, skip the capture step"),
+    all_concepts: bool = typer.Option(False, "--all", help="include abstract research-data concepts (default: physical needles only)"),
+    json_out: bool = typer.Option(False, "--json", help="machine-readable output"),
+) -> None:
+    """The detect→gate→CAPTURE loop: accelerating+commercializing concepts → DeepSeek judges pre-consensus
+    → web-grounds a named factory/person/ask for survivors. PAID (DeepSeek, ~sub-cent/call; logged). Parks
+    PURSUE calls for `emergent-card`. NO Opus."""
+    import json as _json
+    from engine import emergent_scan
+    conn = db.connect()
+    db.init_db(conn)
+    results = emergent_scan.scan(conn, limit=limit, do_capture=not no_capture,
+                                 physical=not all_concepts, log=typer.echo)
+    conn.close()
+    if json_out:
+        typer.echo(_json.dumps(results, ensure_ascii=False, default=str))
+    else:
+        typer.echo("\n" + emergent_scan.format_report(results))
+
+
+@app.command("emergent-card")
+def emergent_card(
+    concept: str = typer.Option(..., help="concept name of a parked PURSUE call (from the last emergent-scan)."),
+    question: str = typer.Option(None, help="override the auto-framed binary question (recommended — make it cleanly falsifiable)."),
+    resolution_date: str = typer.Option(None, help="ISO resolution date (default: today + horizon_years)."),
+    dry_run: bool = typer.Option(False, "--dry-run", help="print the card fields without writing."),
+) -> None:
+    """Graduate ONE reviewed PURSUE call from the last emergent-scan into an immutable forecast card
+    (fork C — "make it land"). Deliberate, human-picked (rule 7: never auto-promoted); the altitude +
+    seed-QC gates in create_card are the safety net. $0."""
+    import json as _json
+    from engine import emergent_scan
+    calls = emergent_scan.load_latest()
+    match = next((c for c in calls if c.get("concept", "").lower() == concept.lower()), None)
+    if match is None:
+        avail = ", ".join(c.get("concept", "?") for c in calls) or "(none — run `emergent-scan` first)"
+        typer.echo(f"no parked PURSUE call for '{concept}'. available: {avail}")
+        raise typer.Exit(1)
+    res = date.fromisoformat(resolution_date) if resolution_date else None
+    fields = emergent_scan.build_card_fields(match, resolution_date=res, question=question)
+    if dry_run:
+        typer.echo(_json.dumps({**fields, "resolution_date": fields["resolution_date"].isoformat()},
+                               ensure_ascii=False, indent=2))
+        return
+    conn = db.connect()
+    db.init_db(conn)
+    card = forecast.create_card(conn, **fields)
+    conn.close()
+    typer.echo(f"created {card.id} — '{fields['question']}' P={fields['probability']}")
 
 
 @app.command("forecast-add")
@@ -1613,6 +2765,132 @@ def decision_list(open_only: bool = typer.Option(False, "--open", help="Only sho
     conn.close()
 
 
+@app.command("world-seed")
+def world_seed_cmd() -> None:
+    """Mint/refresh the unifying chain='world' spine graph from existing data ($0, idempotent)."""
+    conn = db.connect()
+    db.init_db(conn)
+    world_seed.seed_world(conn, log=typer.echo)
+    conn.close()
+
+
+@app.command("world-coverage")
+def world_coverage_cmd(
+    topic: str = typer.Argument(..., help="A topic or distilled question to score coverage for."),
+) -> None:
+    """Coverage critic: which spine layers the world graph covers for a topic, and which are blank."""
+    conn = db.connect()
+    db.init_db(conn)
+    cov = world_seed.coverage(conn, topic)
+    conn.close()
+    typer.echo(world_seed.format_coverage(cov))
+
+
+@app.command("world-grade")
+def world_grade_cmd(
+    topic: str = typer.Argument(None, help="Optional topic — also prints its spine-coverage walk."),
+    as_json: bool = typer.Option(False, "--json", help="Emit the grade scorecard as JSON."),
+) -> None:
+    """The substrate-wide grade of completion per spine layer (where we are rich vs blind)."""
+    conn = db.connect()
+    db.init_db(conn)
+    g = coverage_grade.layer_grades(conn)
+    cov = world_seed.coverage(conn, topic) if topic else None
+    conn.close()
+    if as_json:
+        import json as _json
+        typer.echo(_json.dumps({"grade": g, "coverage": cov}, indent=2))
+        return
+    typer.echo(coverage_grade.format_grades(g))
+    if cov:
+        typer.echo("")
+        typer.echo(world_seed.format_coverage(cov))
+
+
+_DATA_QUERY_VERBS = ("grade", "coverage", "signals", "depend", "entities", "market")
+
+
+@app.command("data-query")
+def data_query_cmd(
+    verb: str = typer.Argument(..., help="One of: grade | coverage | signals | depend | entities | market"),
+    topic: str = typer.Argument(None, help="The topic / distilled question (omit only for bare `grade`)."),
+) -> None:
+    """Agentic data seam: call ONE read primitive over the substrate, loop as your reasoning needs it.
+
+    Walk it like a tool, not a dump: start at `grade` (where is the substrate rich vs blind), `coverage`
+    (which spine layers light up for the topic), `depend` (walk citations to the inelastic input — the
+    needle), `signals` (the dated base rate), `entities` (who actually holds/operates it), `market`
+    (is it already priced?). Each verb is cheap and keyless; chain them instead of reading one static pack.
+    """
+    verb = verb.lower().strip()
+    if verb not in _DATA_QUERY_VERBS:
+        typer.echo(f"unknown verb '{verb}'. choose: {', '.join(_DATA_QUERY_VERBS)}")
+        raise typer.Exit(1)
+    if verb != "grade" and not topic:
+        typer.echo(f"verb '{verb}' needs a topic, e.g. data-query {verb} \"rare earth magnets\"")
+        raise typer.Exit(1)
+
+    conn = db.connect()
+    db.init_db(conn)
+    try:
+        if verb == "grade":
+            typer.echo(coverage_grade.format_grades(coverage_grade.layer_grades(conn)))
+            if topic:
+                typer.echo("")
+                typer.echo(world_seed.format_coverage(world_seed.coverage(conn, topic)))
+        elif verb == "coverage":
+            typer.echo(world_seed.format_coverage(world_seed.coverage(conn, topic)))
+        elif verb == "signals":
+            typer.echo(signals.format_pack(signals.evidence_pack(topic)))
+        elif verb == "depend":
+            dep = signals.dependency_neighbors(conn, topic)
+            if not dep:
+                typer.echo(f"DEPENDENCY WALK '{topic}' — no concept_flow match (data layer blind here).")
+            else:
+                typer.echo(f"DEPENDENCY WALK '{topic}' — walk a mid-weight draws_on with heavy inbound "
+                           f"load to the inelastic input (the needle, not the curve):")
+                for d in dep:
+                    draws = ", ".join(x["name"] for x in d["draws_on"][:4]) or "—"
+                    used_by = ", ".join(x["name"] for x in d["drawn_on_by"][:4]) or "—"
+                    pr = (d.get("patent_reliance") or {}).get("n_patents")
+                    prs = f"  [{pr:,} patents cite it]" if pr else ""
+                    typer.echo(f"  • {d['concept']}{prs}\n      draws_on: {draws}\n      used_by:  {used_by}")
+        elif verb == "entities":
+            typer.echo(signals.format_entities(signals.match_entities(conn, topic)))
+        elif verb == "market":
+            try:
+                anchor = market.market_anchor(topic)
+            except Exception as exc:
+                anchor = {"query": topic, "markets": [], "verdict": "UNPRICED-UNSEEN",
+                          "error": f"{type(exc).__name__}: {exc}"}
+            typer.echo(market.format_anchor(anchor))
+    finally:
+        conn.close()
+
+
+@app.command("data-showcase")
+def data_showcase_cmd(
+    out: str = typer.Option("site/public/data/coverage.json", "--out", help="Where to write the JSON."),
+    full: bool = typer.Option(False, "--full", help="Write the full per-layer depth payload (gated/internal) instead of the public teaser."),
+) -> None:
+    """Export the data-coverage showcase JSON: public teaser (scale + breadth + reach over time, no
+    grade) for the open site, or --full per-layer depth for the gated research tier."""
+    import json as _json
+    from pathlib import Path
+    conn = db.connect()
+    db.init_db(conn)
+    payload = coverage_grade.showcase_payload(conn)
+    conn.close()
+    payload = payload if full else coverage_grade.public_teaser(payload)
+    p = Path(out)
+    p.parent.mkdir(parents=True, exist_ok=True)
+    p.write_text(_json.dumps(payload, indent=2, default=str))
+    t = payload["totals"]
+    typer.echo(f"wrote {'FULL' if full else 'public teaser'} → {p}")
+    typer.echo(f"  {t['papers']:,} papers · {t['observations']:,} observations · {t['series']:,} series "
+               f"· {t['entities']:,} entities · {t['sources']} sources / {t['providers']} providers")
+
+
 @app.command("status")
 def status() -> None:
     """Quick text view of the foundation state (the cockpit is the real view)."""
@@ -1627,6 +2905,35 @@ def status() -> None:
     for r in rows:
         typer.echo(f"  {r['ord']}. {r['name']:<18} [{r['status']}]")
     typer.echo(f"Spend to date: ${spend / 100:.2f}")
+
+
+@app.command("capture-run")
+def capture_run(slug: str = "minerals-barter", top_n: int = 5) -> None:
+    """Capture engine dry-run: discover -> qualify -> synth top-N plays. Nothing sends.
+
+    Writes data/capture/<slug>/ (targets.json, plays.json, review.md). Read review.md to rate."""
+    from engine.capture import run as cap
+    out = cap.run_play(slug, top_n=top_n)
+    typer.echo(f"discovered {out['discovered']} targets, built {out['plays']} plays")
+    typer.echo(f"review: {out['dir']}/review.md")
+
+
+@app.command("capture-resynth")
+def capture_resynth(slug: str, index: int, note: str) -> None:
+    """Re-draft ONE play (by index) with a revision note folded in, then rewrite review.md."""
+    from engine.capture import run as cap
+    p = cap.resynth(slug, index, note)
+    typer.echo(f"resynthed play {index} for {p.target.name}; review.md updated")
+
+
+@app.command("capture-replies")
+def capture_replies(slug: str, limit: int = 30) -> None:
+    """OWNER-ONLY. Read recent replies from YOUR Stalwart inbox (JMAP, read-only), match them to
+    drafted plays, and queue the next move as a DRAFT. Sends nothing. Not a chat/agent tool."""
+    from engine.capture import inbox
+    out = inbox.process_replies(slug, limit=limit)
+    typer.echo(f"scanned {out['scanned']} messages, matched {out['matched']} to plays")
+    typer.echo(f"draft next-moves: {out['file']}")
 
 
 if __name__ == "__main__":

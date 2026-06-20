@@ -1,0 +1,61 @@
+{
+  "n_rounds": 29,
+  "date_span": [
+    "2024-07-21",
+    "2026-05-24"
+  ],
+  "total_config_rounds": 1550,
+  "order_equivalence": {
+    "rho_edge_negbrier_min": 0.9999999999999998,
+    "rho_edge_negbrier_median": 1.0,
+    "frac_rounds_rho_eq_1": 0.8620689655172413,
+    "max_within_round_c_sd": 6.013036614998078e-17
+  },
+  "split_half_reliability": {
+    "brier": {
+      "mean": 0.8671854444253672,
+      "sd": 0.12691938944052283,
+      "n_rounds": 25,
+      "ci": [
+        0.567349648307489,
+        0.9671404416565708
+      ]
+    },
+    "beta_fc": {
+      "mean": 0.22254718405618776,
+      "sd": 0.28148375262914277,
+      "n_rounds": 25,
+      "ci": [
+        -0.2583778848361857,
+        0.6779911782784556
+      ]
+    },
+    "dll": {
+      "mean": 0.09040596971895036,
+      "sd": 0.19423628854610422,
+      "n_rounds": 25,
+      "ci": [
+        -0.1580425652732553,
+        0.6297424309403025
+      ]
+    }
+  },
+  "dll_trend": {
+    "fb_mean_slope_per_yr": 0.0008624615307141586,
+    "fb_mean_slope_p": 0.5697613647285014,
+    "fb_mean_overall": 0.0045696013579478376,
+    "fb_frontier_slope_per_yr": 0.0005489148616794567,
+    "fb_frontier_slope_p": 0.7158477524642434,
+    "per_model_slope_per_yr": 0.001269368324014707,
+    "per_model_slope_p": 8.956742299524369e-06,
+    "per_model_n": 324,
+    "early_models_mean_dll": 0.002291539959481383,
+    "late_models_mean_dll": 0.0041023232526457
+  },
+  "agentic": {
+    "n_rounds": 13,
+    "mean_dll": 0.007660582161760416,
+    "min": 0.0005123425073090442,
+    "max": 0.03702588614330666
+  }
+}

@@ -34,7 +34,10 @@ CREATE TABLE IF NOT EXISTS sources (
     recency         TEXT,
     accessed_at     TEXT NOT NULL,
     cost_cents      INTEGER NOT NULL DEFAULT 0,
-    content_hash    TEXT
+    content_hash    TEXT,
+    raw_provenance_status TEXT NOT NULL DEFAULT 'unknown',
+    raw_provenance_reason TEXT,
+    raw_provenance_checked_at TEXT
 );
 
 CREATE TABLE IF NOT EXISTS forecast_cards (
@@ -118,6 +121,9 @@ CREATE TABLE IF NOT EXISTS observations (
     id          TEXT PRIMARY KEY,
     series_id   TEXT NOT NULL REFERENCES series(id),
     as_of       TEXT NOT NULL,
+    event_time  TEXT,
+    published_at TEXT,
+    observed_at TEXT,
     value       REAL NOT NULL,
     unit        TEXT NOT NULL,
     uncertainty REAL NOT NULL,
@@ -425,6 +431,44 @@ CREATE TABLE IF NOT EXISTS raw_docs (
     fetched_at   TEXT NOT NULL
 );
 
+-- timestamped world-state facts (V1 spine): immutable extracted claims. Visibility is NEVER "latest";
+-- readers must apply the snapshot gates: published_at/observed_at/event_time <= as_of and
+-- ingested_at <= snapshot.created_at. Raw bytes are linked by content_hash when available.
+CREATE TABLE IF NOT EXISTS world_state_facts (
+    id                  TEXT PRIMARY KEY,
+    subject_entity_id   TEXT REFERENCES entities(id),
+    predicate           TEXT NOT NULL CHECK (length(trim(predicate)) > 0),
+    object_entity_id    TEXT REFERENCES entities(id),
+    value               REAL,
+    unit                TEXT,
+    event_time          TEXT,
+    published_at        TEXT,
+    observed_at         TEXT,
+    ingested_at         TEXT NOT NULL,
+    source_id           TEXT REFERENCES sources(id),
+    content_hash        TEXT REFERENCES raw_docs(content_hash),
+    confidence          REAL NOT NULL CHECK (confidence BETWEEN 0 AND 1),
+    extractor           TEXT NOT NULL CHECK (length(trim(extractor)) > 0),
+    rationale           TEXT NOT NULL CHECK (length(trim(rationale)) > 0),
+    supersedes_fact_id  TEXT REFERENCES world_state_facts(id),
+    status              TEXT NOT NULL DEFAULT 'active',
+    created_at          TEXT NOT NULL
+);
+
+-- deterministic state-pack manifests. The hash is over the query version, topic/as-of, and the ordered
+-- visible fact manifest, not over wall-clock metadata. Same DB state + same query => same hash.
+CREATE TABLE IF NOT EXISTS world_state_snapshots (
+    id             TEXT PRIMARY KEY,
+    topic          TEXT NOT NULL,
+    as_of          TEXT NOT NULL,
+    created_at     TEXT NOT NULL,
+    query_version  TEXT NOT NULL,
+    fact_count     INTEGER NOT NULL DEFAULT 0,
+    source_count   INTEGER NOT NULL DEFAULT 0,
+    snapshot_hash  TEXT NOT NULL,
+    UNIQUE (topic, as_of, query_version, snapshot_hash)
+);
+
 -- per-series data-health (A5 — the QC verdict, folded onto a row like the detector verdict).
 -- Replaced each `data-audit` run (deterministic). The hard gate reads `status`: a 'fail' series is
 -- skipped by the detector and refused as a forecast seed — stale/incomplete data cannot feed a bet.
@@ -534,6 +578,67 @@ CREATE TABLE IF NOT EXISTS card_drivers (
     UNIQUE (card_id, hypothesis_id, series_id, kill_index)
 );
 
+-- concept_emergence — the per-concept "is the constraint MOVING here, and is it early?" signal.
+-- The dependency graph (graph_nodes chain='concept_flow') says where a constraint SITS; this sidecar
+-- says where it is ACCELERATING, across all ~46k OpenAlex concepts (not the old hand-picked 8). One
+-- row per concept: the detector's log-space share-acceleration verdict (surprise_sigma trigger +
+-- sustained_sigma persistence + dissolving kill-signal) computed on works/share-of-world-literature
+-- per year. Joins to a concept_flow node by `name` (the node's name IS the OpenAlex display_name).
+-- Recall lives HERE (fire wide on every accelerating concept); precision is the dependency-cross +
+-- priced-in gate + LLM downstream. as_of = Dec-31 of the last COMPLETE year (the trailing OpenAlex
+-- snapshot year is dropped as provisional). Recomputable from the cached Athena pull; never edited.
+CREATE TABLE IF NOT EXISTS concept_emergence (
+    concept_id      TEXT PRIMARY KEY,                         -- OpenAlex C-id (short form)
+    concept_name    TEXT NOT NULL,
+    as_of           TEXT NOT NULL,                            -- Dec-31 of the last complete year used
+    n_years         INTEGER NOT NULL,
+    first_year      INTEGER NOT NULL,
+    last_year       INTEGER NOT NULL,
+    total_works     INTEGER NOT NULL,                         -- volume gate input (lifetime works in window)
+    last_works      INTEGER NOT NULL,                         -- works in the last complete year
+    share_ppm_now   REAL NOT NULL,                            -- last-year share of world literature (ppm)
+    slope           REAL NOT NULL,                            -- robust log-space share slope (early trend)
+    surprise_sigma  REAL NOT NULL,                            -- max held-out departure (the recall TRIGGER)
+    sustained_sigma REAL NOT NULL,                            -- mean held-out departure (persistence)
+    fired           INTEGER NOT NULL,                         -- surprise >= k
+    sustained       INTEGER NOT NULL,                         -- the bend held across the window (not a blip)
+    dissolving      INTEGER NOT NULL,                         -- sustained downturn below trend (rent leaving)
+    spark           TEXT NOT NULL DEFAULT '',                 -- compact yearly share sparkline
+    computed_at     TEXT NOT NULL
+);
+
+-- concept_edge_shift — the per-EDGE companion to concept_emergence (the "other snapshot gap").
+-- concept_emergence says where a concept is accelerating; the concept_flow graph says which concept
+-- LEANS ON which (a time-collapsed snapshot). This sidecar restores time to the EDGE: for each
+-- directed draws_on edge (A draws_on B), it tracks A->B's share of A's outbound citations PER YEAR
+-- and runs the same detector on that series. A TIGHTENING edge (fired+sustained) = the dependency is
+-- strengthening = the binding constraint is MIGRATING onto B; a LOOSENING edge (dissolving) = the
+-- dependency is decaying = rent leaving that link. This is "constraints moving," not just "accelerating."
+-- Recomputable from the cached per-year Athena aggregation (the concept-flow build already scans per
+-- citing-year; this one keeps the per-year breakdown instead of summing it). Never edited (rule 1/7).
+CREATE TABLE IF NOT EXISTS concept_edge_shift (
+    src_id          TEXT NOT NULL,                            -- OpenAlex C-id of the source concept (A)
+    dst_id          TEXT NOT NULL,                            -- OpenAlex C-id of the dependency (B)
+    src_name        TEXT NOT NULL,
+    dst_name        TEXT NOT NULL,
+    as_of           TEXT NOT NULL,                            -- last complete citing-year used
+    n_years         INTEGER NOT NULL,
+    last_share      REAL NOT NULL,                            -- A->B as a fraction of A's outbound, last year
+    last_n          INTEGER NOT NULL,                         -- raw A->B citation count, last year
+    slope           REAL NOT NULL,                            -- robust log-space share slope (early trend)
+    surprise_sigma  REAL NOT NULL,                            -- max held-out departure (the trigger)
+    sustained_sigma REAL NOT NULL,                            -- mean held-out departure (persistence)
+    fired           INTEGER NOT NULL,                         -- surprise >= k  (edge tightening)
+    sustained       INTEGER NOT NULL,                         -- the bend held (not a one-year blip)
+    dissolving      INTEGER NOT NULL,                         -- sustained decay below trend (edge loosening)
+    spark           TEXT NOT NULL DEFAULT '',                 -- compact yearly share sparkline
+    computed_at     TEXT NOT NULL,
+    PRIMARY KEY (src_id, dst_id)
+);
+CREATE INDEX IF NOT EXISTS idx_edge_shift_src ON concept_edge_shift(src_name);
+CREATE INDEX IF NOT EXISTS idx_edge_shift_dst ON concept_edge_shift(dst_name);
+CREATE INDEX IF NOT EXISTS idx_edge_shift_sigma ON concept_edge_shift(sustained_sigma DESC);
+
 -- indices for scale (A6): the cockpit no longer scans observations for the list view, but the
 -- detector + QC + reconciliation read per-series; these keep those O(log n).
 CREATE INDEX IF NOT EXISTS idx_obs_series_asof ON observations(series_id, as_of);
@@ -546,6 +651,21 @@ CREATE INDEX IF NOT EXISTS idx_papers_published ON papers(published);
 CREATE INDEX IF NOT EXISTS idx_papers_primary_cat ON papers(primary_category);
 CREATE INDEX IF NOT EXISTS idx_card_drivers_card ON card_drivers(card_id);
 CREATE INDEX IF NOT EXISTS idx_card_drivers_hyp ON card_drivers(hypothesis_id);
+CREATE INDEX IF NOT EXISTS idx_concept_emergence_sigma ON concept_emergence(surprise_sigma DESC);
+CREATE INDEX IF NOT EXISTS idx_concept_emergence_name ON concept_emergence(concept_name);
+CREATE INDEX IF NOT EXISTS idx_world_facts_subject ON world_state_facts(subject_entity_id);
+CREATE INDEX IF NOT EXISTS idx_world_facts_object ON world_state_facts(object_entity_id);
+CREATE INDEX IF NOT EXISTS idx_world_facts_predicate ON world_state_facts(predicate);
+CREATE INDEX IF NOT EXISTS idx_world_facts_published ON world_state_facts(published_at);
+CREATE INDEX IF NOT EXISTS idx_world_facts_observed ON world_state_facts(observed_at);
+CREATE INDEX IF NOT EXISTS idx_world_facts_ingested ON world_state_facts(ingested_at);
+CREATE INDEX IF NOT EXISTS idx_world_facts_status ON world_state_facts(status);
+CREATE INDEX IF NOT EXISTS idx_world_facts_extractor ON world_state_facts(extractor);
+CREATE INDEX IF NOT EXISTS idx_world_facts_hash ON world_state_facts(content_hash);
+CREATE INDEX IF NOT EXISTS idx_world_facts_source ON world_state_facts(source_id);
+CREATE INDEX IF NOT EXISTS idx_world_facts_supersedes ON world_state_facts(supersedes_fact_id);
+CREATE INDEX IF NOT EXISTS idx_world_snapshots_query ON world_state_snapshots(topic, as_of, query_version);
+CREATE INDEX IF NOT EXISTS idx_world_snapshots_hash ON world_state_snapshots(snapshot_hash);
 
 -- belief-net: cross-thesis dependency edges over the forest of scenario webs. An edge says one web's
 -- node, when it resolves, shifts the probability of a node in a DIFFERENT web (shared inelastic input).
@@ -673,6 +793,24 @@ _SERIES_PERSISTENCE_COLUMNS = {
     "last_dissolving": "INTEGER",        # 1 iff a sustained downturn below the established trend
 }
 
+# Optional point-in-time metadata for lagged feeds. `as_of` stays the point that the time-series
+# store indexes, while these columns let world-state facts distinguish when the underlying event
+# happened from when the source made the value knowable.
+_OBSERVATION_TIME_COLUMNS = {
+    "event_time": "TEXT",
+    "published_at": "TEXT",
+    "observed_at": "TEXT",
+}
+
+# Explicit provenance classification for the stricter world-state raw-byte contract. Old sources can
+# be marked as legacy without pretending their exact bytes exist; new rawstore-backed sources stamp
+# themselves as exact_raw_doc.
+_SOURCE_PROVENANCE_COLUMNS = {
+    "raw_provenance_status": "TEXT NOT NULL DEFAULT 'unknown'",
+    "raw_provenance_reason": "TEXT",
+    "raw_provenance_checked_at": "TEXT",
+}
+
 
 def _migrate_columns(conn: sqlite3.Connection, table: str, columns: dict[str, str]) -> None:
     """Add any missing columns in place (CREATE TABLE IF NOT EXISTS never alters an existing table)."""
@@ -768,6 +906,8 @@ def init_db(conn: sqlite3.Connection) -> None:
     _migrate_columns(conn, "series", _SERIES_ADDED_COLUMNS)
     _migrate_columns(conn, "series", _SERIES_SIGNIFICANCE_COLUMNS)
     _migrate_columns(conn, "series", _SERIES_PERSISTENCE_COLUMNS)
+    _migrate_columns(conn, "sources", _SOURCE_PROVENANCE_COLUMNS)
+    _migrate_columns(conn, "observations", _OBSERVATION_TIME_COLUMNS)
     _migrate_columns(conn, "universe_cases", _UNIVERSE_ADDED_COLUMNS)
     _migrate_columns(conn, "retro_cases", _RETRO_PERSISTENCE_COLUMNS)
     _migrate_columns(conn, "graph_nodes", _GRAPH_NODE_ADDED_COLUMNS)

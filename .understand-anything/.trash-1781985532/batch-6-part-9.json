@@ -1,0 +1,173 @@
+{
+  "nodes": [
+    {
+      "id": "file:tests/test_world_catalog.py",
+      "type": "file",
+      "name": "test_world_catalog.py",
+      "filePath": "tests/test_world_catalog.py",
+      "summary": "test_world_catalog.py is a code asset in the repository. It contains 1 class, 8 internal imports.",
+      "tags": [
+        "test",
+        "verification",
+        "code"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "class:tests/test_world_catalog.py:WorldCatalogTests",
+      "type": "class",
+      "name": "WorldCatalogTests",
+      "filePath": "tests/test_world_catalog.py",
+      "lineRange": [
+        13,
+        2277
+      ],
+      "summary": "Defines WorldCatalogTests in test_world_catalog.py, encapsulating reusable behavior or state for this module.",
+      "tags": [
+        "class",
+        "implementation",
+        "test-world-catalog"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:tests/test_world_graph.py",
+      "type": "file",
+      "name": "test_world_graph.py",
+      "filePath": "tests/test_world_graph.py",
+      "summary": "test_world_graph.py is a code asset in the repository. It contains 1 class, 2 internal imports.",
+      "tags": [
+        "test",
+        "verification",
+        "world-graph",
+        "graph",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:tests/test_world_graph.py:WorldGraphTests",
+      "type": "class",
+      "name": "WorldGraphTests",
+      "filePath": "tests/test_world_graph.py",
+      "lineRange": [
+        11,
+        73
+      ],
+      "summary": "Defines WorldGraphTests in test_world_graph.py, encapsulating reusable behavior or state for this module.",
+      "tags": [
+        "class",
+        "implementation",
+        "test-world-graph"
+      ],
+      "complexity": "moderate"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:tests/test_world_catalog.py",
+      "target": "class:tests/test_world_catalog.py:WorldCatalogTests",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:tests/test_world_catalog.py",
+      "target": "class:tests/test_world_catalog.py:WorldCatalogTests",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:tests/test_world_graph.py",
+      "target": "class:tests/test_world_graph.py:WorldGraphTests",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:tests/test_world_graph.py",
+      "target": "class:tests/test_world_graph.py:WorldGraphTests",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:tests/test_world_catalog.py",
+      "target": "file:engine/__init__.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/test_world_catalog.py",
+      "target": "file:engine/companies_house_enrich.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/test_world_catalog.py",
+      "target": "file:engine/gleif_enrich.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/test_world_catalog.py",
+      "target": "file:engine/rawstore.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/test_world_catalog.py",
+      "target": "file:engine/sec_company_enrich.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/test_world_catalog.py",
+      "target": "file:engine/wikidata_enrich.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/test_world_catalog.py",
+      "target": "file:engine/world_catalog.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/test_world_catalog.py",
+      "target": "file:tests/test_world_state.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/test_world_graph.py",
+      "target": "file:engine/__init__.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/test_world_graph.py",
+      "target": "file:engine/world_graph.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/test_world_catalog.py",
+      "target": "function:tests/test_world_state.py:memory_db",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

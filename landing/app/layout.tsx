@@ -1,31 +1,30 @@
 import type { Metadata } from "next";
-import { Cinzel, Cormorant_Garamond, Geist } from "next/font/google";
+import { Inter, Hanken_Grotesk, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
-// Inscriptional caps — the ancient register (wordmark, eyebrows).
-const cinzel = Cinzel({
-  variable: "--font-cinzel",
-  subsets: ["latin"],
-  weight: ["400", "500", "600"],
-});
-
-// High-contrast old-style serif — the philosophical lines.
-const cormorant = Cormorant_Garamond({
-  variable: "--font-cormorant",
-  subsets: ["latin"],
-  weight: ["300", "400", "500"],
-  style: ["normal", "italic"],
-});
-
-// Clean grotesque — the modern register (small labels, body).
-const geist = Geist({
-  variable: "--font-geist",
+// Body / UI typeface.
+const inter = Inter({
+  variable: "--font-inter",
   subsets: ["latin"],
 });
 
-const title = "Vaticinus";
+// Display face — light geometric grotesque, stands in for KMR Apparat.
+const display = Hanken_Grotesk({
+  variable: "--font-display",
+  subsets: ["latin"],
+  weight: ["300", "400", "500", "600"],
+});
+
+// Mono — numbers, spec tags, code.
+const mono = Geist_Mono({
+  variable: "--font-mono",
+  subsets: ["latin"],
+  weight: ["400", "500"],
+});
+
+const title = "Vaticinus, a forecasting research lab in Berlin";
 const description =
-  "An instrument for reading where value moves next. Calibrated, falsifiable, before consensus.";
+  "Vaticinus is a Berlin research lab building Vati, an 8B forecasting model fine-tuned to call where scarcity and value go next before the market prices it in. Live on the Metaculus Cup, built to lead the bot field on ForecastBench, and graded in public on a leak-free record.";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://vaticinus.com"),
@@ -35,7 +34,7 @@ export const metadata: Metadata = {
     title,
     description,
     url: "https://vaticinus.com",
-    siteName: title,
+    siteName: "Vaticinus",
     images: [{ url: "/images/og.webp", width: 1200, height: 630 }],
     type: "website",
   },
@@ -51,11 +50,8 @@ export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html
-      lang="en"
-      className={`${cinzel.variable} ${cormorant.variable} ${geist.variable} antialiased`}
-    >
-      <body className="grain">{children}</body>
+    <html lang="en" className={`${inter.variable} ${display.variable} ${mono.variable} antialiased`}>
+      <body>{children}</body>
     </html>
   );
 }

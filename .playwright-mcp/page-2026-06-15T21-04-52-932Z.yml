@@ -1,0 +1,81 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - complementary [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e5]:
+          - img "Vaticinus" [ref=e7]
+          - generic [ref=e11]: Vaticinus
+        - button "Collapse sidebar" [ref=e12]:
+          - img [ref=e13]
+      - navigation [ref=e15]:
+        - button "New forecast" [ref=e16]:
+          - img [ref=e18]
+          - generic [ref=e21]: New forecast
+        - button "Live record" [ref=e22]:
+          - img [ref=e24]
+          - generic [ref=e27]: Live record
+        - button "Search calls" [ref=e28]:
+          - img [ref=e30]
+          - generic [ref=e33]: Search calls
+        - button "Deep research" [ref=e34]:
+          - img [ref=e36]
+          - generic [ref=e44]: Deep research
+        - button "Data layer" [ref=e45]:
+          - img [ref=e47]
+          - generic [ref=e51]: Data layer
+      - generic [ref=e112]:
+        - button "Sign in" [ref=e113]:
+          - img [ref=e115]
+          - generic [ref=e118]: Sign in
+        - button "Create account" [ref=e119]
+      - navigation [ref=e53]:
+        - button "Settings" [ref=e54]:
+          - img [ref=e56]
+          - generic [ref=e59]: Settings
+        - button "Help" [ref=e60]:
+          - img [ref=e62]
+          - generic [ref=e65]: Help
+      - generic [ref=e66]:
+        - paragraph [ref=e67]: Calls you can score
+        - paragraph [ref=e68]: Every forecast gets a date, a kill-criterion, and a public Brier score.
+    - main [ref=e69]:
+      - generic [ref=e70]:
+        - button "Vaticinus" [ref=e71]:
+          - text: Vaticinus
+          - img [ref=e72]
+        - button "Live record" [ref=e74]:
+          - img [ref=e75]
+          - text: Live record
+      - generic [ref=e78]:
+        - heading "What do you want to forecast?" [level=1] [ref=e79]
+        - paragraph [ref=e80]: Ask a structural question. A council of analysts debates where the binding constraint moves, the gate checks if it is already priced in, then the Monte-Carlo engine puts a probability and an interval on it.
+        - generic [ref=e82]:
+          - button "Council" [ref=e84]:
+            - img [ref=e85]
+            - text: Council
+            - img [ref=e90]
+          - textbox "Ask a structural question for the council" [ref=e92]
+          - button "Send" [disabled] [ref=e94]:
+            - img [ref=e95]
+        - generic [ref=e97]:
+          - button "By 2026-12-31, is the 150mm SiC substrate average selling price ≥ 20% BELOW its 2023 level (Yole/TrendForce) — substrate is over-supplied and the rent fails to materialize, so the 2021-23 'SiC is THE EV bottleneck' narrative was hype-overpriced?" [ref=e120]
+          - button "By 2027-12-31, does the global commercial passenger-jet fleet average age remain ≥ 12.0 years (Cirium) — delivery shortfalls force airlines to fly older fleets longer, so engine shop-visit & spare-parts capacity (the aftermarket), not new-aircraft delivery, is where capacity binds?" [ref=e121]
+          - button "By 2027-12-31, does the uranium CONVERSION spot price (UF6, $/kgU) stay ≥ $40 — the binding layer of the nuclear-fuel revival is conversion capacity (a 3-plant Western oligopoly), not mined uranium?" [ref=e122]
+  - generic [active]:
+    - menu "Next.js Dev Tools Items" [ref=e123]:
+      - generic [ref=e124]:
+        - menuitem "Route Static" [ref=e125] [cursor=pointer]:
+          - generic [ref=e126]: Route
+          - generic [ref=e127]: Static
+        - generic "Turbopack is enabled." [ref=e128]:
+          - generic [ref=e129]: Bundler
+          - generic [ref=e130]: Turbopack
+        - menuitem "Route Info" [ref=e131]:
+          - generic [ref=e132]: Route Info
+          - img [ref=e134]
+      - menuitem "Preferences" [ref=e137]:
+        - generic [ref=e138]: Preferences
+        - img [ref=e140]
+    - button "Close Next.js Dev Tools" [expanded] [ref=e142] [cursor=pointer]:
+      - img [ref=e107]
+  - alert [ref=e110]

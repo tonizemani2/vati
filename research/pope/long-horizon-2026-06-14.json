@@ -7,64 +7,286 @@
   "synthesis": "Across all six the rent sits one layer below where capital is looking, on an input that cannot be expanded with money on the relevant timescale because the limit is an element, a reservoir, a human career, or a law of thermodynamics. The market prices the visible hardware; the binding constraint is the inelastic thing each buildout has to pass through to become real.",
   "theses": [
     {
-      "id": "L1", "headline": "The grid runs out of people before it runs out of steel",
+      "id": "L1",
+      "headline": "The grid runs out of people before it runs out of steel",
       "boom": "Power-systems engineering talent and the firms that hold it",
-      "vision_p": 85, "clause_p": 60, "resolves": "2032-12-31",
+      "vision_p": 85,
+      "clause_p": 60,
+      "resolves": "2032-12-31",
       "needle": "Senior power-systems engineers and high-voltage technicians. A career to train, a generation of lost enrollment; capital cannot expand it on any timescale shorter than a working life.",
       "metric": "Real wage growth and vacancy rate for power-systems engineers vs general engineering; grid and datacenter projects that publicly cite labor, not equipment, as the binding slip cause.",
       "kill": "AI design automation, immigration, and a training boom flatten the wage premium through 2032 and no major project names labor as the binding slip.",
       "pre_consensus": "Every electrification thesis prices the countable hardware (steel, switchgear, copper). Labor sits upstream of every megawatt and is far harder to securitize, so it is ignored.",
-      "why": "Labor is the one input in the electrification chain that capital cannot expand on any timescale shorter than a career. That is what makes a constraint bind for a decade rather than a quarter."
+      "why": "Labor is the one input in the electrification chain that capital cannot expand on any timescale shorter than a career. That is what makes a constraint bind for a decade rather than a quarter.",
+      "implications": {
+        "rent_path": "The rent lands with the specialty electric-infrastructure contractors that already employ and train the scarce senior power-systems engineers and high-voltage crews, principally Quanta Services and MYR Group, plus the employee-owned EPC firms Burns & McDonnell, Black & Veatch, and Sargent & Lundy that hold the seasoned design talent. As labor becomes the slip cause rather than equipment, these firms convert scarcity into pricing power and backlog margin. The value sits in the trained career, not in the switchgear or copper the market counts.",
+        "winners": [
+          {
+            "who": "Quanta Services (NYSE",
+            "why": "PWR): owns the labor pipeline (Northwest Lineman College), so the shortage widens its margins instead of stalling its work; ~$35.8B backlog into 2026."
+          },
+          {
+            "who": "MYR Group (NASDAQ",
+            "why": "MYRG): transmission, distribution, and substation specialty contractor with the same grid-modernization tailwind at smaller scale."
+          },
+          {
+            "who": "Burns & McDonnell / Black & Veatch / Sargent & Lundy (private EPC)",
+            "why": "hold the senior power-systems design engineers that capital cannot quickly replicate; the bottleneck is at the experienced level."
+          }
+        ],
+        "losers": [
+          {
+            "who": "Hyperscale datacenter developers (Microsoft, Google, Amazon, Meta)",
+            "why": "their ~18-month build outruns the ~6-year utility-infrastructure schedule and the crews to wire it, so commissioning dates slip on labor, not silicon."
+          },
+          {
+            "who": "Electric utilities and co-ops",
+            "why": "59% reported difficulty hiring line workers in 2024 and bid against datacenters for the same crews, paying up while interconnection queues lengthen."
+          },
+          {
+            "who": "Equipment-only suppliers betting the constraint stays in steel and switchgear",
+            "why": "their order books fill but the projects do not energize on schedule, capping pull-through."
+          }
+        ],
+        "reprices": "Long PWR and MYRG capture part of this, but those are partly priced on the infrastructure narrative. The cleaner repricing is the wage premium for power-systems engineers and HV technicians widening versus general engineering (BLS electrical-engineer and power-line-installer series vs construction baseline), and a discount in hyperscaler buildout timelines as labor-driven slippage shows up.",
+        "next_constraint": "Once trained crews bind, the constraint moves to the training and certification pipeline itself: apprenticeship slots, lineman colleges, and the senior engineers available to mentor juniors. Capital then chases the institutions that mint the workforce rather than the contractors that rent it.",
+        "watch": "A named flagship datacenter or transmission project publicly citing labor (not transformers or switchgear) as the binding cause of a schedule slip; the CNBC March 18 2026 piece on the trades shortage and the IEEE Spectrum power-engineering gap are the leading edge of this."
+      }
     },
     {
-      "id": "L2", "headline": "Helium-4 is the resource that leaves and does not come back",
+      "id": "L2",
+      "headline": "Helium-4 is the resource that leaves and does not come back",
       "boom": "Helium recapture infrastructure and high-grade reserves",
-      "vision_p": 65, "clause_p": 52, "resolves": "2032-12-31",
+      "vision_p": 65,
+      "clause_p": 52,
+      "resolves": "2032-12-31",
       "needle": "Helium-rich gas reservoirs plus conservation and recapture infrastructure. A non-renewable byproduct of a shrinking source base, physically lost to space when vented.",
       "metric": "Bulk liquid-helium contract price vs a 2020 baseline; share of large-user demand on on-site recapture; recurrence of allocation events.",
       "kill": "Amur, Qatar, and Tanzania's Rukwa field oversupply and the real price stays flat through 2032, or recapture makes demand elastic enough to cap the price.",
       "price_channel": "Helium spiked in 2021 to 2023 then softened in 2024 to 2025 as Amur ramped, so it is not tight today. The bet is structural re-tightening across the decade, not a near-term spike.",
-      "why": "Helium-4 has a larger, more diversified demand base than the He-3 call already on the map, and a cleaner irreversibility argument: the gas is physically lost to space, not merely consumed."
+      "why": "Helium-4 has a larger, more diversified demand base than the He-3 call already on the map, and a cleaner irreversibility argument: the gas is physically lost to space, not merely consumed.",
+      "implications": {
+        "rent_path": "The rent lands with holders of high-grade helium reservoirs and the vendors that sell on-site recapture, because helium vented in use is physically lost to space and the source base is concentrated and shrinking. The industrial-gas majors Linde, Air Products, and Air Liquide capture it through long take-or-pay contracts and recovery-system sales; new primary-helium developers like Pulsar Helium and US Energy Corp capture it as the reserve owners. The 2026 Qatar Pearl GTL strike, which removed roughly a third of global output, is the live demonstration of how concentrated the source base is.",
+        "winners": [
+          {
+            "who": "Linde (LIN) and Air Products (APD)",
+            "why": "control bulk liquid-helium distribution under take-or-pay contracts and sell turnkey on-site recovery that cuts user consumption 70-90%, capturing rent on both the molecule and the recapture hardware."
+          },
+          {
+            "who": "Pulsar Helium (Topaz, Minnesota) and US Energy Corp (USEG, Big Sky, Montana)",
+            "why": "primary-helium reserve owners; USEG signed a 5-year take-or-pay at a fixed $285/Mcf plant-gate price in April 2026."
+          },
+          {
+            "who": "Qatar (Ras Laffan / Qatargas)",
+            "why": "the swing producer at ~25-33% of supply, the price-setting reserve when it is online."
+          }
+        ],
+        "losers": [
+          {
+            "who": "Seagate and Western Digital",
+            "why": "helium-filled nearline drives, with 2026 production fully allocated and high-capacity drive prices up 20-50% since mid-2025."
+          },
+          {
+            "who": "MRI makers GE HealthCare, Siemens Healthineers, and Philips",
+            "why": "liquid-helium-dependent magnets carry outsized stoppage cost during allocation events."
+          },
+          {
+            "who": "Semiconductor fabs (TSMC-class)",
+            "why": "helium is used in several critical process steps with no substitute, so allocation directly gates wafer throughput."
+          }
+        ],
+        "reprices": "No clean helium futures exist, so the price prints through bilateral take-or-pay contracts (the $285/Mcf USEG benchmark is the usable marker). Listed proxies are the gas majors LIN, APD, AI.PA and pure-plays Pulsar Helium, Helix Exploration, ASP Isotopes (ASPI, owns Renergen), and USEG. The molecule reprices up; the recapture-equipment order book reprices up alongside it.",
+        "next_constraint": "If recapture goes mainstream the constraint moves from the raw gas to recapture and liquefaction capacity, specifically the helium liquefiers and cryogenic recovery units (Linde, Air Products, Quantum Design, Chart Industries), and to the few sites with both reservoir grade and pipeline access.",
+        "watch": "A second large-user allocation event after the March 2026 Qatar shock that persists into 2027 once Amur and new supply nominally ramp, signalling structural rather than one-off tightness; the recurrence is the falsifiable marker."
+      }
     },
     {
-      "id": "L3", "headline": "Phosphorus is essential, substitute-free, and geographically captured",
+      "id": "L3",
+      "headline": "Phosphorus is essential, substitute-free, and geographically captured",
       "boom": "Phosphorus recovery and exposure to reserve pricing power",
-      "vision_p": 70, "clause_p": 50, "resolves": "2033-12-31",
+      "vision_p": 70,
+      "clause_p": 50,
+      "resolves": "2033-12-31",
       "needle": "Sedimentary phosphate reserves, roughly 70% held by one producer. An element every crop needs and nothing can replace; the only escape is recovery from manure and wastewater.",
       "metric": "Real DAP and rock price floor vs 2020; count of mandated or commercial phosphorus-recovery facilities; the dominant holder's share of internationally traded rock.",
       "kill": "Large new low-cost reserves develop outside the dominant holder, or recovery scales fast enough to cap the rock price floor through 2033.",
       "price_channel": "Phosphate spiked in 2022 then fell back; the structural concentration did not move. This is a rising floor plus a recovery industry, not the 2022 spike repeating.",
-      "why": "Phosphorus is the rare resource that is essential, substitute-free, and captured by geography at once: the textbook setup for durable rent, yet almost absent from investment narratives."
+      "why": "Phosphorus is the rare resource that is essential, substitute-free, and captured by geography at once: the textbook setup for durable rent, yet almost absent from investment narratives.",
+      "implications": {
+        "rent_path": "The rent lands with OCP Group of Morocco, the unlisted state holder of roughly 68-70% of global phosphate-rock reserves and the top exporter of internationally traded rock, which sets the rising price floor through its $14B capacity program. As the floor rises, a second rent pool forms in mandated phosphorus-recovery operators that mine struvite and sewage-sludge ash, led by EasyMining (Ragn-Sells) and Ostara. The value sits in the reserve and the recovery plant, not in the crop or the bagged fertilizer.",
+        "winners": [
+          {
+            "who": "OCP Group (Morocco, state-owned)",
+            "why": "geographic capture of the reserve base plus the dominant traded-rock share lets it set the floor; targeting 70 Mt/yr rock by 2027."
+          },
+          {
+            "who": "EasyMining / Ragn-Sells (Ash2Phos) and Ostara (Pearl process)",
+            "why": "recovery operators that monetize the rising floor; EasyMining's Schkopau sludge-ash plant (>90% P recovery) comes online 2027."
+          },
+          {
+            "who": "Ma'aden (Saudi, Tadawul-listed)",
+            "why": "a non-Moroccan integrated producer gaining share via deals like the 3.1 Mt/yr DAP supply agreement with India."
+          }
+        ],
+        "losers": [
+          {
+            "who": "India",
+            "why": "the largest DAP importer, with CFR prices at ~$930-935/t in 2026 and diversifying away from China/Russia supply, paying the floor directly."
+          },
+          {
+            "who": "Brazil and sub-Saharan African food producers",
+            "why": "fast-growing fertilizer demand with no domestic reserve, fully exposed to the rising rock floor."
+          },
+          {
+            "who": "Importing farmers in general as a repriced input cost, with no substitute for the element and recovery still subscale until mandates bite.",
+            "why": ""
+          }
+        ],
+        "reprices": "DAP and rock-phosphate benchmarks are the clean price signal; global DAP rose 28-35% in Q1 2026 and India DAP sits at ~$930-935/t CFR. OCP is unlisted, so the tradeable equity proxies are Mosaic (MOS) and Nutrien (NTR), with PhosAgro (PHOR) and Ma'aden carrying sanctions or access friction. The rock floor reprices up; the recovery leg is largely private.",
+        "next_constraint": "Once the rock floor binds, the constraint moves to recovery feedstock and processing capacity: access to manure and municipal sewage-sludge ash, permitted recovery plants, and the cadmium-removal and purification steps that make recovered phosphorus food-safe.",
+        "watch": "Germany's sewage-sludge ordinance forcing mandatory P-recovery at most treatment plants from 2029, plus the EasyMining Schkopau plant reaching commercial output in 2027; the first mandate-driven recovery volumes are the dated marker that the recovery industry has begun."
+      }
     },
     {
-      "id": "L4", "headline": "The robot demand fixed by biology, not by adoption curves",
+      "id": "L4",
+      "headline": "The robot demand fixed by biology, not by adoption curves",
       "boom": "Physical-assist robotics cleared for human contact",
-      "vision_p": 80, "clause_p": 45, "resolves": "2033-12-31",
+      "vision_p": 80,
+      "clause_p": 45,
+      "resolves": "2033-12-31",
       "needle": "Physical human-contact care hours. The over-75 cohort of 2035 is already alive and the caregivers are already too few; the gated escape is robotics certified for safe physical contact.",
       "metric": "Caregiver vacancy ratio in Japan and Korea; count of physical-assist robots with medical-device clearance for patient contact; the first reimbursement codes.",
       "kill": "Immigration and wage solutions fill the caregiving gap, or contact-safety certification stalls so deployed machines stay non-contact through 2033.",
       "pre_consensus": "Humanoid robotics is narrated as factory and warehouse labor. The eldercare market is larger, more inelastic, and demographically guaranteed, but gated by the harder problem of safe physical contact.",
-      "why": "Of all robot demand, eldercare is the one whose size is fixed by biology rather than an adoption curve. The open question is when certification catches up, not whether the demand exists."
+      "why": "Of all robot demand, eldercare is the one whose size is fixed by biology rather than an adoption curve. The open question is when certification catches up, not whether the demand exists.",
+      "implications": {
+        "rent_path": "The rent lands with the narrow set of physical-assist robot makers that clear medical-device and ISO-13482 certification for patient contact, against a demographically locked caregiver shortage in Japan and Korea. Cyberdyne is the proof case: its Medical HAL exoskeleton is a certified device with an established insurance-reimbursement path, so it captures rent the non-contact companionship robots cannot. The value sits in the certified contact-safe machine and its reimbursement code, not in the broader humanoid narrative.",
+        "winners": [
+          {
+            "who": "Cyberdyne (TSE",
+            "why": "7779): the only cleared physical-contact assist device with a reimbursement path (Daido Life HAL Plus Rider), deployed in 100+ facilities."
+          },
+          {
+            "who": "Panasonic (Resyone) and Toyota",
+            "why": "established Japanese makers with ISO-13482-certified or assist-grade transfer and mobility devices positioned for the care subsidy channel."
+          },
+          {
+            "who": "1X (NEO) and adjacent humanoid entrants",
+            "why": "raised $100M in 2025 explicitly for assistive eldercare; capture the rent only if and when they clear contact certification."
+          }
+        ],
+        "losers": [
+          {
+            "who": "Traditional staffing-dependent nursing-home operators",
+            "why": "a Japanese job-to-applicant ratio near 3.9x crushes margins, and operators that cannot deploy certified assist robots lose admissions capacity."
+          },
+          {
+            "who": "The labor-import caregiver model (Japan's SSW foreign-worker visa channel)",
+            "why": "a substitute supply that certified assist robotics competes against, with the shortage projected at ~570,000 workers by 2040 showing import cannot close the gap."
+          },
+          {
+            "who": "Non-contact companionship-robot vendors (Paro, ElliQ class)",
+            "why": "funded and visible but outside the gated physical-assist rent pool, so they do not capture the demographic rent."
+          }
+        ],
+        "reprices": "Cyberdyne (TSE: 7779) is the cleanest single listed instrument and the price channel for whether the certification-to-reimbursement rent is priced; Panasonic and Toyota are diluted proxies. The decisive humanoid players (1X, Figure, Tesla Optimus) are private, so most of the move prices through venture rounds and the first reimbursement-code announcements rather than public equity.",
+        "next_constraint": "Once demand and certified hardware align, the constraint moves to reimbursement coverage and contact-safety certification throughput: the long-term-care insurance codes that fund deployment and the regulatory capacity to certify each new contact task (lift, transfer, toileting, mobility).",
+        "watch": "The first long-term-care insurance reimbursement code in Japan or Korea attached to a physical-contact assist robot beyond rehab exoskeletons, building on the 2024-06-28 METI/MHLW priority-fields revision; that is the dated marker the cascade has begun."
+      }
     },
     {
-      "id": "L5", "headline": "If carbon storage scales at all, the rent moves to the hole in the ground",
+      "id": "L5",
+      "headline": "If carbon storage scales at all, the rent moves to the hole in the ground",
       "boom": "Permitted geologic pore space and the verification layer",
-      "vision_p": 55, "clause_p": 40, "resolves": "2032-12-31",
+      "vision_p": 55,
+      "clause_p": 40,
+      "resolves": "2032-12-31",
       "needle": "Permitted, location-fixed geologic pore space plus measurement and verification. Finite per basin and slow to permit, and a fundamentally different asset from the capture technology that keeps getting cheaper.",
       "metric": "Class VI permits issued vs applied (the EPA backlog); storage-only contracts priced separately from capture; pore-space lease prices.",
       "kill": "Durable removal demand stays negligible through 2032 so pore space never binds, or permitting accelerates so sharply that storage stays abundant and cheap.",
       "price_channel": "Conditional on a durable storage market materializing through policy and voluntary demand. If that demand stays small, pore space never binds; that conditionality is the haircut on the vision number.",
-      "why": "It is the cleanest example of a constraint that has not migrated yet but almost certainly will the moment the sector grows. Flagged as demand-conditional so it is bought with eyes open."
+      "why": "It is the cleanest example of a constraint that has not migrated yet but almost certainly will the moment the sector grows. Flagged as demand-conditional so it is bought with eyes open.",
+      "implications": {
+        "rent_path": "Conditional on a durable carbon-storage market materializing, the rent lands with holders of permitted, location-fixed Class VI pore space rather than with capture technology, whose cost curve keeps falling. ExxonMobil is the clearest pore-space landlord after the Denbury acquisition and its 2025 Jefferson County Class VI permits; Occidental/1PointFive and Talos Energy hold Gulf Coast positions. State primacy holders (North Dakota, Wyoming, Louisiana, Texas, West Virginia) are the gatekeepers that ration the finite, slow-to-permit supply.",
+        "winners": [
+          {
+            "who": "ExxonMobil (XOM)",
+            "why": "largest US CO2 pipeline network plus 15+ onshore storage sites and three 2025 Class VI permits in Jefferson County, TX; the dominant pore-space landlord."
+          },
+          {
+            "who": "Occidental / 1PointFive (OXY)",
+            "why": "first DAC-linked Class VI permits (STRATOS, Ector County, TX, 2025), pairing capture with owned storage."
+          },
+          {
+            "who": "State primacy holders (North Dakota, Texas (Nov 2025), Wyoming, Louisiana)",
+            "why": "control the permitting bottleneck and the location-fixed scarcity."
+          }
+        ],
+        "losers": [
+          {
+            "who": "Capture-technology vendors",
+            "why": "as capture costs keep falling and storage becomes the scarce input, margin migrates downstream away from them to the hole in the ground."
+          },
+          {
+            "who": "Point-source emitters without owned storage offtake (cement, steel, ethanol plants outside the Illinois corridor)",
+            "why": "must contract storage they do not control and are exposed to lease and per-tonne pricing."
+          },
+          {
+            "who": "Operators stuck in the EPA-direct permitting queue (175+ applications) in states lacking primacy",
+            "why": "their projects stall while primacy states move."
+          }
+        ],
+        "reprices": "The master price signal is the 45Q tax credit that makes storage economic; the direct rent meters are storage-only contracts ($/tonne, priced separately from capture) and pore-space lease rates, though clean public $/tonne figures are not yet disclosed, which is itself the signal that this layer is not priced. Listed proxies are XOM, OXY, and Talos (TALO).",
+        "next_constraint": "If pore space binds, the constraint moves to permitting throughput and the measurement, reporting, and verification (MRV) layer: EPA and state-agency review capacity, and the trusted verification that injected CO2 stays put, which is what makes a storage tonne fungible and bankable.",
+        "watch": "The first storage-only contract priced and disclosed separately from capture, or a pore-space lease rate that prints; combined with the EPA Class VI backlog clearing slower than applications arrive, that separation is the dated marker the rent has migrated. This remains demand-conditional: flat removal demand means pore space never binds."
+      }
     },
     {
-      "id": "L6", "headline": "The energy wall forces a change of substrate, not just better chips",
+      "id": "L6",
+      "headline": "The energy wall forces a change of substrate, not just better chips",
       "boom": "Analog-in-memory and photonic compute talent and process",
-      "vision_p": 70, "clause_p": 35, "resolves": "2033-12-31",
+      "vision_p": 70,
+      "clause_p": 35,
+      "resolves": "2033-12-31",
       "needle": "Talent, IP, and foundry process for non-digital compute substrates. The scarce input is the narrow pool that can build analog-in-memory and photonic compute, not capital.",
       "metric": "Share of frontier inference on non-digital-CMOS substrates; venture and patent concentration in analog and photonic compute; the first hyperscaler production deployment.",
       "kill": "Digital CMOS plus advanced packaging keeps improving energy efficiency fast enough (3D stacking, sub-threshold, better dataflow) that analog and optical stay niche through 2033.",
       "pre_consensus": "The consensus answer to the power wall is more GPUs, more power, more nuclear, which extends the digital curve. Almost no one prices a substrate transition.",
-      "why": "The most speculative of the six, priced that way. The constraint is set by thermodynamics rather than a market, so the direction is robust even though the winning substrate and date are open."
+      "why": "The most speculative of the six, priced that way. The constraint is set by thermodynamics rather than a market, so the direction is robust even though the winning substrate and date are open.",
+      "implications": {
+        "rent_path": "The rent lands with the narrow pool of talent, IP, and foundry process for non-digital compute, because the energy wall is set by thermodynamics rather than capital. In analog in-memory it accrues to EnCharge AI, Mythic, Axelera, and IBM; in photonics to Lightmatter, Ayar Labs, and Celestial AI (now inside Marvell); the process chokepoint sits with GlobalFoundries and TSMC's silicon-photonics platforms. The value sits in the scarce engineers and the qualified process, not in another generation of digital GPUs.",
+        "winners": [
+          {
+            "who": "Lightmatter and Ayar Labs",
+            "why": "photonic compute and optical interconnect leaders; Lightmatter at ~$4.4B (Oct 2024 Series D), Ayar at $3.75B (Series E), capturing rent as the optical layer becomes mandatory."
+          },
+          {
+            "who": "Marvell (MRVL)",
+            "why": "acquired Celestial AI (Dec 2025), buying the photonic IP and talent rather than building it, the clearest incumbent-pays-up marker."
+          },
+          {
+            "who": "GlobalFoundries (GFS) and TSMC",
+            "why": "the silicon-photonics process owners (GFS via the AMF acquisition; TSMC's COUPE co-packaged optics targeted 2026), the inelastic foundry chokepoint."
+          }
+        ],
+        "losers": [
+          {
+            "who": "Generic digital-only AI accelerator vendors",
+            "why": "most exposed if the substrate shifts and without an optical or analog hedge."
+          },
+          {
+            "who": "Nvidia at the margin",
+            "why": "the pure-digital incumbent, though it is hedging by investing in the optical layer (Ayar Labs Series D), so it adapts rather than being displaced."
+          },
+          {
+            "who": "Hyperscalers committed solely to extending the digital curve (more GPUs, more power, more nuclear)",
+            "why": "they carry the energy bill the substrate transition is designed to cut."
+          }
+        ],
+        "reprices": "The migration is priced mostly in private venture rounds, not public equity, which is itself the gate signal that the shift runs ahead of public markets. The dated price markers are Lightmatter $4.4B (Oct 2024), Ayar $3.75B Series E, EnCharge $100M Series B (Feb 2025), and the Marvell acquisition of Celestial AI (Dec 2025). Diluted listed proxies are IBM (analog/neuromorphic), GFS and Tower (photonics process), and MRVL.",
+        "next_constraint": "Once talent and IP bind, the constraint moves to qualified high-volume foundry capacity for the new substrate: silicon-photonics and ReRAM/memristor process lines that can yield at scale, plus the co-packaged-optics packaging and the toolchains and compilers that map models onto non-digital hardware.",
+        "watch": "The first hyperscaler production deployment of frontier inference on a non-digital-CMOS substrate, or a foundry committing a dedicated high-volume photonics or analog line; Marvell's Celestial acquisition and TSMC's 2026 COUPE target are the leading edge of that migration."
+      }
     }
   ]
 }

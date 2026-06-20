@@ -1,0 +1,4460 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 25,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "chat/src/app/globals.css",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 171,
+      "nonEmptyLines": 163,
+      "metrics": {}
+    },
+    {
+      "path": "chat/src/app/layout.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 29,
+      "nonEmptyLines": 26,
+      "functions": [
+        {
+          "name": "RootLayout",
+          "startLine": 21,
+          "endLine": 29,
+          "params": [
+            "{\n  children,\n}"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "metadata",
+          "line": 5,
+          "isDefault": false
+        },
+        {
+          "name": "RootLayout",
+          "line": 21,
+          "isDefault": true
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 2,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "chat/src/app/robots.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 26,
+      "nonEmptyLines": 25,
+      "functions": [
+        {
+          "name": "robots",
+          "startLine": 3,
+          "endLine": 26,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "robots",
+          "line": 3,
+          "isDefault": true
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "cockpit/app/globals.css",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 130,
+      "nonEmptyLines": 125,
+      "metrics": {}
+    },
+    {
+      "path": "cockpit/app/layout.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 35,
+      "nonEmptyLines": 31,
+      "functions": [
+        {
+          "name": "RootLayout",
+          "startLine": 20,
+          "endLine": 35,
+          "params": [
+            "{\n  children,\n}"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "metadata",
+          "line": 15,
+          "isDefault": false
+        },
+        {
+          "name": "RootLayout",
+          "line": 20,
+          "isDefault": true
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 2,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "cockpit/components/ui/sonner.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 49,
+      "nonEmptyLines": 45,
+      "functions": [
+        {
+          "name": "Toaster",
+          "startLine": 7,
+          "endLine": 47,
+          "params": [
+            "{ ...props }"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "Toaster",
+          "line": 49,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "Toaster",
+          "callee": "useTheme",
+          "lineNumber": 8
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "cockpit/eslint.config.mjs",
+      "language": "javascript",
+      "fileCategory": "code",
+      "totalLines": 18,
+      "nonEmptyLines": 16,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "cockpit/next.config.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 7,
+      "nonEmptyLines": 5,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "cockpit/postcss.config.mjs",
+      "language": "javascript",
+      "fileCategory": "code",
+      "totalLines": 7,
+      "nonEmptyLines": 6,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "content/after-ai-2026-06-17.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 73,
+      "nonEmptyLines": 40,
+      "sections": [
+        {
+          "heading": "Content — After AI board (deployed) — distribution set",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "P1 — Firm power becomes the scarce input in AI",
+          "level": 2,
+          "line": 16
+        },
+        {
+          "heading": "LinkedIn",
+          "level": 3,
+          "line": 18
+        },
+        {
+          "heading": "X long-form",
+          "level": 3,
+          "line": 32
+        },
+        {
+          "heading": "X thread",
+          "level": 3,
+          "line": 44
+        },
+        {
+          "heading": "Substack / blog",
+          "level": 3,
+          "line": 60
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 6
+      }
+    },
+    {
+      "path": "content/posts-2026-06-19.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 188,
+      "nonEmptyLines": 94,
+      "sections": [
+        {
+          "heading": "Vati research notes — 2026-06-19",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "1. Firm power becomes the scarce input in AI",
+          "level": 2,
+          "line": 9
+        },
+        {
+          "heading": "2. In robotics, the value is in certified deployment",
+          "level": 2,
+          "line": 27
+        },
+        {
+          "heading": "3. Agent authority rails become the post-AI transaction layer",
+          "level": 2,
+          "line": 45
+        },
+        {
+          "heading": "4. A nickel metal surplus is masking a battery-grade squeeze",
+          "level": 2,
+          "line": 63
+        },
+        {
+          "heading": "5. Chinese polysilicon stays below cash cost through 2027",
+          "level": 2,
+          "line": 81
+        },
+        {
+          "heading": "6. The Western copper constraint moves from the mine to the smelter",
+          "level": 2,
+          "line": 99
+        },
+        {
+          "heading": "7. Hafnium is byproduct-locked and structurally scarce",
+          "level": 2,
+          "line": 117
+        },
+        {
+          "heading": "8. The wafer build-out ceiling is one optics shop in Oberkochen",
+          "level": 2,
+          "line": 135
+        },
+        {
+          "heading": "9. Clean actinium-225 is the physics-locked limit on alpha therapy",
+          "level": 2,
+          "line": 153
+        },
+        {
+          "heading": "10. Space-based AI compute hits a radiator-area wall",
+          "level": 2,
+          "line": 171
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 11
+      }
+    },
+    {
+      "path": "dataset_sample_200.jsonl",
+      "language": "jsonl",
+      "fileCategory": "code",
+      "totalLines": 200,
+      "nonEmptyLines": 200,
+      "metrics": {}
+    },
+    {
+      "path": "engine/adapters/_vendor/__init__.py",
+      "language": "python",
+      "fileCategory": "code",
+      "totalLines": 7,
+      "nonEmptyLines": 6,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "engine/adapters/_vendor/deepinfra_keyless.py",
+      "language": "python",
+      "fileCategory": "code",
+      "totalLines": 95,
+      "nonEmptyLines": 80,
+      "functions": [
+        {
+          "name": "_headers",
+          "startLine": 52,
+          "endLine": 61,
+          "params": []
+        },
+        {
+          "name": "chat",
+          "startLine": 64,
+          "endLine": 95,
+          "params": [
+            "messages",
+            "model",
+            "max_tokens",
+            "temperature",
+            "proxy",
+            "timeout"
+          ]
+        }
+      ],
+      "classes": [
+        {
+          "name": "KeylessError",
+          "startLine": 48,
+          "endLine": 49,
+          "methods": [],
+          "properties": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "KeylessError",
+          "line": 48,
+          "isDefault": false
+        },
+        {
+          "name": "_headers",
+          "line": 52,
+          "isDefault": false
+        },
+        {
+          "name": "chat",
+          "line": 64,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "_headers",
+          "callee": "random.choice",
+          "lineNumber": 53
+        },
+        {
+          "caller": "_headers",
+          "callee": "random.choice",
+          "lineNumber": 59
+        },
+        {
+          "caller": "chat",
+          "callee": "urllib.request.Request",
+          "lineNumber": 80
+        },
+        {
+          "caller": "chat",
+          "callee": "json.dumps(body).encode",
+          "lineNumber": 80
+        },
+        {
+          "caller": "chat",
+          "callee": "json.dumps",
+          "lineNumber": 80
+        },
+        {
+          "caller": "chat",
+          "callee": "_headers",
+          "lineNumber": 81
+        },
+        {
+          "caller": "chat",
+          "callee": "urllib.request.HTTPSHandler",
+          "lineNumber": 82
+        },
+        {
+          "caller": "chat",
+          "callee": "ssl.create_default_context",
+          "lineNumber": 82
+        },
+        {
+          "caller": "chat",
+          "callee": "handlers.append",
+          "lineNumber": 84
+        },
+        {
+          "caller": "chat",
+          "callee": "urllib.request.ProxyHandler",
+          "lineNumber": 84
+        },
+        {
+          "caller": "chat",
+          "callee": "urllib.request.build_opener",
+          "lineNumber": 85
+        },
+        {
+          "caller": "chat",
+          "callee": "opener.open",
+          "lineNumber": 87
+        },
+        {
+          "caller": "chat",
+          "callee": "json.loads",
+          "lineNumber": 88
+        },
+        {
+          "caller": "chat",
+          "callee": "resp.read().decode",
+          "lineNumber": 88
+        },
+        {
+          "caller": "chat",
+          "callee": "resp.read",
+          "lineNumber": 88
+        },
+        {
+          "caller": "chat",
+          "callee": "KeylessError",
+          "lineNumber": 90
+        },
+        {
+          "caller": "chat",
+          "callee": "msg.get",
+          "lineNumber": 93
+        },
+        {
+          "caller": "chat",
+          "callee": "msg.get",
+          "lineNumber": 93
+        },
+        {
+          "caller": "chat",
+          "callee": "KeylessError",
+          "lineNumber": 95
+        },
+        {
+          "caller": "chat",
+          "callee": "str",
+          "lineNumber": 95
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 3,
+        "functionCount": 2,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "engine/capture/DEPLOY.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 29,
+      "nonEmptyLines": 25,
+      "sections": [
+        {
+          "heading": "Capture / agent chat deploy plan (HOLD — ship only on explicit go)",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Architecture (reuses what exists)",
+          "level": 2,
+          "line": 6
+        },
+        {
+          "heading": "Steps",
+          "level": 2,
+          "line": 14
+        },
+        {
+          "heading": "Guardrails (non-negotiable, baked in before ship)",
+          "level": 2,
+          "line": 21
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 4
+      }
+    },
+    {
+      "path": "engine/feeds/adoption_curves.py",
+      "language": "python",
+      "fileCategory": "code",
+      "totalLines": 150,
+      "nonEmptyLines": 131,
+      "functions": [
+        {
+          "name": "_fetch",
+          "startLine": 84,
+          "endLine": 87,
+          "params": [
+            "url",
+            "timeout"
+          ]
+        },
+        {
+          "name": "_year",
+          "startLine": 90,
+          "endLine": 92,
+          "params": [
+            "raw"
+          ]
+        },
+        {
+          "name": "_num",
+          "startLine": 95,
+          "endLine": 102,
+          "params": [
+            "raw"
+          ]
+        },
+        {
+          "name": "_slug_entity",
+          "startLine": 105,
+          "endLine": 106,
+          "params": [
+            "entity"
+          ]
+        },
+        {
+          "name": "collect",
+          "startLine": 109,
+          "endLine": 145,
+          "params": [
+            "log"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "_fetch",
+          "line": 84,
+          "isDefault": false
+        },
+        {
+          "name": "_year",
+          "line": 90,
+          "isDefault": false
+        },
+        {
+          "name": "_num",
+          "line": 95,
+          "isDefault": false
+        },
+        {
+          "name": "_slug_entity",
+          "line": 105,
+          "isDefault": false
+        },
+        {
+          "name": "collect",
+          "line": 109,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "_fetch",
+          "callee": "urllib.request.Request",
+          "lineNumber": 85
+        },
+        {
+          "caller": "_fetch",
+          "callee": "urllib.request.urlopen",
+          "lineNumber": 86
+        },
+        {
+          "caller": "_fetch",
+          "callee": "resp.read().decode",
+          "lineNumber": 87
+        },
+        {
+          "caller": "_fetch",
+          "callee": "resp.read",
+          "lineNumber": 87
+        },
+        {
+          "caller": "_year",
+          "callee": "str(raw or \"\").strip",
+          "lineNumber": 91
+        },
+        {
+          "caller": "_year",
+          "callee": "str",
+          "lineNumber": 91
+        },
+        {
+          "caller": "_year",
+          "callee": "int",
+          "lineNumber": 92
+        },
+        {
+          "caller": "_year",
+          "callee": "len",
+          "lineNumber": 92
+        },
+        {
+          "caller": "_year",
+          "callee": "text[:4].isdigit",
+          "lineNumber": 92
+        },
+        {
+          "caller": "_num",
+          "callee": "str(raw or \"\").strip().replace",
+          "lineNumber": 96
+        },
+        {
+          "caller": "_num",
+          "callee": "str(raw or \"\").strip",
+          "lineNumber": 96
+        },
+        {
+          "caller": "_num",
+          "callee": "str",
+          "lineNumber": 96
+        },
+        {
+          "caller": "_num",
+          "callee": "float",
+          "lineNumber": 100
+        },
+        {
+          "caller": "_slug_entity",
+          "callee": "entity.lower().replace(\" \", \"_\").replace(\"(\", \"\").replace",
+          "lineNumber": 106
+        },
+        {
+          "caller": "_slug_entity",
+          "callee": "entity.lower().replace(\" \", \"_\").replace",
+          "lineNumber": 106
+        },
+        {
+          "caller": "_slug_entity",
+          "callee": "entity.lower().replace",
+          "lineNumber": 106
+        },
+        {
+          "caller": "_slug_entity",
+          "callee": "entity.lower",
+          "lineNumber": 106
+        },
+        {
+          "caller": "collect",
+          "callee": "CURVES.items",
+          "lineNumber": 111
+        },
+        {
+          "caller": "collect",
+          "callee": "list",
+          "lineNumber": 113
+        },
+        {
+          "caller": "collect",
+          "callee": "csv.DictReader",
+          "lineNumber": 113
+        },
+        {
+          "caller": "collect",
+          "callee": "io.StringIO",
+          "lineNumber": 113
+        },
+        {
+          "caller": "collect",
+          "callee": "_fetch",
+          "lineNumber": 113
+        },
+        {
+          "caller": "collect",
+          "callee": "OWID.format",
+          "lineNumber": 113
+        },
+        {
+          "caller": "collect",
+          "callee": "log",
+          "lineNumber": 115
+        },
+        {
+          "caller": "collect",
+          "callee": "str",
+          "lineNumber": 119
+        },
+        {
+          "caller": "collect",
+          "callee": "r.get",
+          "lineNumber": 119
+        },
+        {
+          "caller": "collect",
+          "callee": "_year",
+          "lineNumber": 122
+        },
+        {
+          "caller": "collect",
+          "callee": "r.get",
+          "lineNumber": 122
+        },
+        {
+          "caller": "collect",
+          "callee": "_num",
+          "lineNumber": 123
+        },
+        {
+          "caller": "collect",
+          "callee": "r.get",
+          "lineNumber": 123
+        },
+        {
+          "caller": "collect",
+          "callee": "_slug_entity",
+          "lineNumber": 126
+        },
+        {
+          "caller": "collect",
+          "callee": "date(year, 12, 31).isoformat",
+          "lineNumber": 127
+        },
+        {
+          "caller": "collect",
+          "callee": "date",
+          "lineNumber": 127
+        },
+        {
+          "caller": "collect",
+          "callee": "out.append",
+          "lineNumber": 128
+        },
+        {
+          "caller": "collect",
+          "callee": "float",
+          "lineNumber": 130
+        },
+        {
+          "caller": "collect",
+          "callee": "log",
+          "lineNumber": 136
+        },
+        {
+          "caller": "collect",
+          "callee": "out.sort",
+          "lineNumber": 137
+        },
+        {
+          "caller": "collect",
+          "callee": "str",
+          "lineNumber": 137
+        },
+        {
+          "caller": "collect",
+          "callee": "str",
+          "lineNumber": 137
+        },
+        {
+          "caller": "collect",
+          "callee": "OUT_PATH.parent.mkdir",
+          "lineNumber": 138
+        },
+        {
+          "caller": "collect",
+          "callee": "OUT_PATH.with_suffix",
+          "lineNumber": 139
+        },
+        {
+          "caller": "collect",
+          "callee": "tmp.open",
+          "lineNumber": 140
+        },
+        {
+          "caller": "collect",
+          "callee": "fh.write",
+          "lineNumber": 142
+        },
+        {
+          "caller": "collect",
+          "callee": "json.dumps",
+          "lineNumber": 142
+        },
+        {
+          "caller": "collect",
+          "callee": "tmp.replace",
+          "lineNumber": 143
+        },
+        {
+          "caller": "collect",
+          "callee": "log",
+          "lineNumber": 144
+        },
+        {
+          "caller": "collect",
+          "callee": "len",
+          "lineNumber": 144
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 5,
+        "functionCount": 5,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "engine/feeds/biorxiv.py",
+      "language": "python",
+      "fileCategory": "code",
+      "totalLines": 131,
+      "nonEmptyLines": 113,
+      "functions": [
+        {
+          "name": "_fetch_json",
+          "startLine": 50,
+          "endLine": 63,
+          "params": [
+            "url",
+            "retries"
+          ]
+        },
+        {
+          "name": "fetch_year_count",
+          "startLine": 66,
+          "endLine": 86,
+          "params": [
+            "server",
+            "year",
+            "retries"
+          ]
+        },
+        {
+          "name": "collect",
+          "startLine": 89,
+          "endLine": 119,
+          "params": [
+            "log"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "_fetch_json",
+          "line": 50,
+          "isDefault": false
+        },
+        {
+          "name": "fetch_year_count",
+          "line": 66,
+          "isDefault": false
+        },
+        {
+          "name": "collect",
+          "line": 89,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "_fetch_json",
+          "callee": "range",
+          "lineNumber": 54
+        },
+        {
+          "caller": "_fetch_json",
+          "callee": "urllib.request.Request",
+          "lineNumber": 56
+        },
+        {
+          "caller": "_fetch_json",
+          "callee": "urllib.request.urlopen",
+          "lineNumber": 57
+        },
+        {
+          "caller": "_fetch_json",
+          "callee": "json.loads",
+          "lineNumber": 58
+        },
+        {
+          "caller": "_fetch_json",
+          "callee": "resp.read().decode",
+          "lineNumber": 58
+        },
+        {
+          "caller": "_fetch_json",
+          "callee": "resp.read",
+          "lineNumber": 58
+        },
+        {
+          "caller": "_fetch_json",
+          "callee": "time.sleep",
+          "lineNumber": 61
+        },
+        {
+          "caller": "fetch_year_count",
+          "callee": "_fetch_json",
+          "lineNumber": 70
+        },
+        {
+          "caller": "fetch_year_count",
+          "callee": "isinstance",
+          "lineNumber": 71
+        },
+        {
+          "caller": "fetch_year_count",
+          "callee": "data.get",
+          "lineNumber": 73
+        },
+        {
+          "caller": "fetch_year_count",
+          "callee": "isinstance",
+          "lineNumber": 74
+        },
+        {
+          "caller": "fetch_year_count",
+          "callee": "isinstance",
+          "lineNumber": 77
+        },
+        {
+          "caller": "fetch_year_count",
+          "callee": "msg.get",
+          "lineNumber": 77
+        },
+        {
+          "caller": "fetch_year_count",
+          "callee": "msg.get",
+          "lineNumber": 79
+        },
+        {
+          "caller": "fetch_year_count",
+          "callee": "int",
+          "lineNumber": 83
+        },
+        {
+          "caller": "fetch_year_count",
+          "callee": "str(raw).strip",
+          "lineNumber": 83
+        },
+        {
+          "caller": "fetch_year_count",
+          "callee": "str",
+          "lineNumber": 83
+        },
+        {
+          "caller": "collect",
+          "callee": "fetch_year_count",
+          "lineNumber": 97
+        },
+        {
+          "caller": "collect",
+          "callee": "time.sleep",
+          "lineNumber": 98
+        },
+        {
+          "caller": "collect",
+          "callee": "log",
+          "lineNumber": 100
+        },
+        {
+          "caller": "collect",
+          "callee": "server_obs.append",
+          "lineNumber": 102
+        },
+        {
+          "caller": "collect",
+          "callee": "all_obs.extend",
+          "lineNumber": 110
+        },
+        {
+          "caller": "collect",
+          "callee": "log",
+          "lineNumber": 111
+        },
+        {
+          "caller": "collect",
+          "callee": "len",
+          "lineNumber": 112
+        },
+        {
+          "caller": "collect",
+          "callee": "OUT_PATH.parent.mkdir",
+          "lineNumber": 114
+        },
+        {
+          "caller": "collect",
+          "callee": "OUT_PATH.open",
+          "lineNumber": 115
+        },
+        {
+          "caller": "collect",
+          "callee": "f.write",
+          "lineNumber": 117
+        },
+        {
+          "caller": "collect",
+          "callee": "json.dumps",
+          "lineNumber": 117
+        },
+        {
+          "caller": "collect",
+          "callee": "log",
+          "lineNumber": 118
+        },
+        {
+          "caller": "collect",
+          "callee": "len",
+          "lineNumber": 118
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 3,
+        "functionCount": 3,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "engine/feeds/bis.py",
+      "language": "python",
+      "fileCategory": "code",
+      "totalLines": 178,
+      "nonEmptyLines": 158,
+      "functions": [
+        {
+          "name": "_fetch_json",
+          "startLine": 71,
+          "endLine": 81,
+          "params": [
+            "url",
+            "retries"
+          ]
+        },
+        {
+          "name": "_period_to_date",
+          "startLine": 84,
+          "endLine": 101,
+          "params": [
+            "period"
+          ]
+        },
+        {
+          "name": "_normalize",
+          "startLine": 104,
+          "endLine": 140,
+          "params": [
+            "payload",
+            "flow_meta",
+            "code",
+            "name"
+          ]
+        },
+        {
+          "name": "collect",
+          "startLine": 143,
+          "endLine": 167,
+          "params": [
+            "log"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "_fetch_json",
+          "line": 71,
+          "isDefault": false
+        },
+        {
+          "name": "_period_to_date",
+          "line": 84,
+          "isDefault": false
+        },
+        {
+          "name": "_normalize",
+          "line": 104,
+          "isDefault": false
+        },
+        {
+          "name": "collect",
+          "line": 143,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "_fetch_json",
+          "callee": "range",
+          "lineNumber": 72
+        },
+        {
+          "caller": "_fetch_json",
+          "callee": "urllib.request.Request",
+          "lineNumber": 74
+        },
+        {
+          "caller": "_fetch_json",
+          "callee": "urllib.request.urlopen",
+          "lineNumber": 75
+        },
+        {
+          "caller": "_fetch_json",
+          "callee": "json.loads",
+          "lineNumber": 76
+        },
+        {
+          "caller": "_fetch_json",
+          "callee": "resp.read().decode",
+          "lineNumber": 76
+        },
+        {
+          "caller": "_fetch_json",
+          "callee": "resp.read",
+          "lineNumber": 76
+        },
+        {
+          "caller": "_fetch_json",
+          "callee": "time.sleep",
+          "lineNumber": 79
+        },
+        {
+          "caller": "_period_to_date",
+          "callee": "period.strip",
+          "lineNumber": 87
+        },
+        {
+          "caller": "_period_to_date",
+          "callee": "len",
+          "lineNumber": 88
+        },
+        {
+          "caller": "_period_to_date",
+          "callee": "date",
+          "lineNumber": 90
+        },
+        {
+          "caller": "_period_to_date",
+          "callee": "int",
+          "lineNumber": 90
+        },
+        {
+          "caller": "_period_to_date",
+          "callee": "int",
+          "lineNumber": 90
+        },
+        {
+          "caller": "_period_to_date",
+          "callee": "len",
+          "lineNumber": 93
+        },
+        {
+          "caller": "_period_to_date",
+          "callee": "int",
+          "lineNumber": 95
+        },
+        {
+          "caller": "_period_to_date",
+          "callee": "int",
+          "lineNumber": 95
+        },
+        {
+          "caller": "_period_to_date",
+          "callee": "date",
+          "lineNumber": 96
+        },
+        {
+          "caller": "_period_to_date",
+          "callee": "len",
+          "lineNumber": 99
+        },
+        {
+          "caller": "_period_to_date",
+          "callee": "p.isdigit",
+          "lineNumber": 99
+        },
+        {
+          "caller": "_period_to_date",
+          "callee": "date",
+          "lineNumber": 100
+        },
+        {
+          "caller": "_period_to_date",
+          "callee": "int",
+          "lineNumber": 100
+        },
+        {
+          "caller": "_normalize",
+          "callee": "struct.get(\"dimensions\", {}).get",
+          "lineNumber": 112
+        },
+        {
+          "caller": "_normalize",
+          "callee": "struct.get",
+          "lineNumber": 112
+        },
+        {
+          "caller": "_normalize",
+          "callee": "next",
+          "lineNumber": 113
+        },
+        {
+          "caller": "_normalize",
+          "callee": "d.get",
+          "lineNumber": 113
+        },
+        {
+          "caller": "_normalize",
+          "callee": "v.get",
+          "lineNumber": 116
+        },
+        {
+          "caller": "_normalize",
+          "callee": "time_dim.get",
+          "lineNumber": 116
+        },
+        {
+          "caller": "_normalize",
+          "callee": "(ds.get(\"series\") or {}).items",
+          "lineNumber": 120
+        },
+        {
+          "caller": "_normalize",
+          "callee": "ds.get",
+          "lineNumber": 120
+        },
+        {
+          "caller": "_normalize",
+          "callee": "(sobj.get(\"observations\") or {}).items",
+          "lineNumber": 121
+        },
+        {
+          "caller": "_normalize",
+          "callee": "sobj.get",
+          "lineNumber": 121
+        },
+        {
+          "caller": "_normalize",
+          "callee": "int",
+          "lineNumber": 123
+        },
+        {
+          "caller": "_normalize",
+          "callee": "_period_to_date",
+          "lineNumber": 126
+        },
+        {
+          "caller": "_normalize",
+          "callee": "float",
+          "lineNumber": 130
+        },
+        {
+          "caller": "_normalize",
+          "callee": "out.append",
+          "lineNumber": 133
+        },
+        {
+          "caller": "_normalize",
+          "callee": "d.isoformat",
+          "lineNumber": 134
+        },
+        {
+          "caller": "_normalize",
+          "callee": "out.sort",
+          "lineNumber": 139
+        },
+        {
+          "caller": "collect",
+          "callee": "fm[\"key\"].format",
+          "lineNumber": 148
+        },
+        {
+          "caller": "collect",
+          "callee": "_fetch_json",
+          "lineNumber": 150
+        },
+        {
+          "caller": "collect",
+          "callee": "time.sleep",
+          "lineNumber": 151
+        },
+        {
+          "caller": "collect",
+          "callee": "_normalize",
+          "lineNumber": 154
+        },
+        {
+          "caller": "collect",
+          "callee": "all_obs.extend",
+          "lineNumber": 156
+        },
+        {
+          "caller": "collect",
+          "callee": "log",
+          "lineNumber": 158
+        },
+        {
+          "caller": "collect",
+          "callee": "len",
+          "lineNumber": 158
+        },
+        {
+          "caller": "collect",
+          "callee": "OUT_PATH.parent.mkdir",
+          "lineNumber": 159
+        },
+        {
+          "caller": "collect",
+          "callee": "OUT_PATH.with_suffix",
+          "lineNumber": 160
+        },
+        {
+          "caller": "collect",
+          "callee": "tmp.open",
+          "lineNumber": 161
+        },
+        {
+          "caller": "collect",
+          "callee": "f.write",
+          "lineNumber": 163
+        },
+        {
+          "caller": "collect",
+          "callee": "json.dumps",
+          "lineNumber": 163
+        },
+        {
+          "caller": "collect",
+          "callee": "tmp.replace",
+          "lineNumber": 164
+        },
+        {
+          "caller": "collect",
+          "callee": "log",
+          "lineNumber": 165
+        },
+        {
+          "caller": "collect",
+          "callee": "len",
+          "lineNumber": 165
+        },
+        {
+          "caller": "collect",
+          "callee": "len",
+          "lineNumber": 166
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 4,
+        "functionCount": 4,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "engine/feeds/capability_curves.py",
+      "language": "python",
+      "fileCategory": "code",
+      "totalLines": 342,
+      "nonEmptyLines": 305,
+      "functions": [
+        {
+          "name": "_fetch",
+          "startLine": 112,
+          "endLine": 115,
+          "params": [
+            "url",
+            "timeout"
+          ]
+        },
+        {
+          "name": "_year",
+          "startLine": 118,
+          "endLine": 120,
+          "params": [
+            "raw"
+          ]
+        },
+        {
+          "name": "_num",
+          "startLine": 123,
+          "endLine": 130,
+          "params": [
+            "raw"
+          ]
+        },
+        {
+          "name": "_row",
+          "startLine": 133,
+          "endLine": 140,
+          "params": [
+            "series_id",
+            "year",
+            "value",
+            "metric",
+            "unit",
+            "domain",
+            "title"
+          ]
+        },
+        {
+          "name": "_collect_owid",
+          "startLine": 143,
+          "endLine": 168,
+          "params": [
+            "log"
+          ]
+        },
+        {
+          "name": "_collect_epoch_hardware",
+          "startLine": 171,
+          "endLine": 202,
+          "params": [
+            "log"
+          ]
+        },
+        {
+          "name": "_collect_epoch_models",
+          "startLine": 205,
+          "endLine": 243,
+          "params": [
+            "log"
+          ]
+        },
+        {
+          "name": "_domains_of",
+          "startLine": 246,
+          "endLine": 257,
+          "params": [
+            "raw"
+          ]
+        },
+        {
+          "name": "_collect_per_domain",
+          "startLine": 260,
+          "endLine": 312,
+          "params": [
+            "url",
+            "source",
+            "dataset_col",
+            "dataset_label",
+            "log"
+          ]
+        },
+        {
+          "name": "collect",
+          "startLine": 315,
+          "endLine": 337,
+          "params": [
+            "log"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "_fetch",
+          "line": 112,
+          "isDefault": false
+        },
+        {
+          "name": "_year",
+          "line": 118,
+          "isDefault": false
+        },
+        {
+          "name": "_num",
+          "line": 123,
+          "isDefault": false
+        },
+        {
+          "name": "_row",
+          "line": 133,
+          "isDefault": false
+        },
+        {
+          "name": "_collect_owid",
+          "line": 143,
+          "isDefault": false
+        },
+        {
+          "name": "_collect_epoch_hardware",
+          "line": 171,
+          "isDefault": false
+        },
+        {
+          "name": "_collect_epoch_models",
+          "line": 205,
+          "isDefault": false
+        },
+        {
+          "name": "_domains_of",
+          "line": 246,
+          "isDefault": false
+        },
+        {
+          "name": "_collect_per_domain",
+          "line": 260,
+          "isDefault": false
+        },
+        {
+          "name": "collect",
+          "line": 315,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "_fetch",
+          "callee": "urllib.request.Request",
+          "lineNumber": 113
+        },
+        {
+          "caller": "_fetch",
+          "callee": "urllib.request.urlopen",
+          "lineNumber": 114
+        },
+        {
+          "caller": "_fetch",
+          "callee": "resp.read().decode",
+          "lineNumber": 115
+        },
+        {
+          "caller": "_fetch",
+          "callee": "resp.read",
+          "lineNumber": 115
+        },
+        {
+          "caller": "_year",
+          "callee": "str(raw or \"\").strip",
+          "lineNumber": 119
+        },
+        {
+          "caller": "_year",
+          "callee": "str",
+          "lineNumber": 119
+        },
+        {
+          "caller": "_year",
+          "callee": "int",
+          "lineNumber": 120
+        },
+        {
+          "caller": "_year",
+          "callee": "len",
+          "lineNumber": 120
+        },
+        {
+          "caller": "_year",
+          "callee": "text[:4].isdigit",
+          "lineNumber": 120
+        },
+        {
+          "caller": "_num",
+          "callee": "str(raw or \"\").strip().replace",
+          "lineNumber": 124
+        },
+        {
+          "caller": "_num",
+          "callee": "str(raw or \"\").strip",
+          "lineNumber": 124
+        },
+        {
+          "caller": "_num",
+          "callee": "str",
+          "lineNumber": 124
+        },
+        {
+          "caller": "_num",
+          "callee": "float",
+          "lineNumber": 128
+        },
+        {
+          "caller": "_row",
+          "callee": "date(year, 12, 31).isoformat",
+          "lineNumber": 135
+        },
+        {
+          "caller": "_row",
+          "callee": "date",
+          "lineNumber": 135
+        },
+        {
+          "caller": "_row",
+          "callee": "float",
+          "lineNumber": 138
+        },
+        {
+          "caller": "_collect_owid",
+          "callee": "OWID_CURVES.items",
+          "lineNumber": 145
+        },
+        {
+          "caller": "_collect_owid",
+          "callee": "list",
+          "lineNumber": 147
+        },
+        {
+          "caller": "_collect_owid",
+          "callee": "csv.DictReader",
+          "lineNumber": 147
+        },
+        {
+          "caller": "_collect_owid",
+          "callee": "io.StringIO",
+          "lineNumber": 147
+        },
+        {
+          "caller": "_collect_owid",
+          "callee": "_fetch",
+          "lineNumber": 147
+        },
+        {
+          "caller": "_collect_owid",
+          "callee": "OWID.format",
+          "lineNumber": 147
+        },
+        {
+          "caller": "_collect_owid",
+          "callee": "log",
+          "lineNumber": 149
+        },
+        {
+          "caller": "_collect_owid",
+          "callee": "str",
+          "lineNumber": 155
+        },
+        {
+          "caller": "_collect_owid",
+          "callee": "r.get",
+          "lineNumber": 155
+        },
+        {
+          "caller": "_collect_owid",
+          "callee": "_year",
+          "lineNumber": 157
+        },
+        {
+          "caller": "_collect_owid",
+          "callee": "r.get",
+          "lineNumber": 157
+        },
+        {
+          "caller": "_collect_owid",
+          "callee": "_num",
+          "lineNumber": 158
+        },
+        {
+          "caller": "_collect_owid",
+          "callee": "r.get",
+          "lineNumber": 158
+        },
+        {
+          "caller": "_collect_owid",
+          "callee": "out.append",
+          "lineNumber": 163
+        },
+        {
+          "caller": "_collect_owid",
+          "callee": "_row",
+          "lineNumber": 163
+        },
+        {
+          "caller": "_collect_owid",
+          "callee": "log",
+          "lineNumber": 167
+        },
+        {
+          "caller": "_collect_epoch_hardware",
+          "callee": "list",
+          "lineNumber": 174
+        },
+        {
+          "caller": "_collect_epoch_hardware",
+          "callee": "csv.DictReader",
+          "lineNumber": 174
+        },
+        {
+          "caller": "_collect_epoch_hardware",
+          "callee": "io.StringIO",
+          "lineNumber": 174
+        },
+        {
+          "caller": "_collect_epoch_hardware",
+          "callee": "_fetch",
+          "lineNumber": 174
+        },
+        {
+          "caller": "_collect_epoch_hardware",
+          "callee": "log",
+          "lineNumber": 176
+        },
+        {
+          "caller": "_collect_epoch_hardware",
+          "callee": "_year",
+          "lineNumber": 181
+        },
+        {
+          "caller": "_collect_epoch_hardware",
+          "callee": "r.get",
+          "lineNumber": 181
+        },
+        {
+          "caller": "_collect_epoch_hardware",
+          "callee": "_num",
+          "lineNumber": 182
+        },
+        {
+          "caller": "_collect_epoch_hardware",
+          "callee": "r.get",
+          "lineNumber": 182
+        },
+        {
+          "caller": "_collect_epoch_hardware",
+          "callee": "_num",
+          "lineNumber": 183
+        },
+        {
+          "caller": "_collect_epoch_hardware",
+          "callee": "r.get",
+          "lineNumber": 183
+        },
+        {
+          "caller": "_collect_epoch_hardware",
+          "callee": "_num",
+          "lineNumber": 184
+        },
+        {
+          "caller": "_collect_epoch_hardware",
+          "callee": "r.get",
+          "lineNumber": 184
+        },
+        {
+          "caller": "_collect_epoch_hardware",
+          "callee": "max",
+          "lineNumber": 188
+        },
+        {
+          "caller": "_collect_epoch_hardware",
+          "callee": "best_per_dollar.get",
+          "lineNumber": 188
+        },
+        {
+          "caller": "_collect_epoch_hardware",
+          "callee": "max",
+          "lineNumber": 190
+        },
+        {
+          "caller": "_collect_epoch_hardware",
+          "callee": "best_per_watt.get",
+          "lineNumber": 190
+        },
+        {
+          "caller": "_collect_epoch_hardware",
+          "callee": "sorted",
+          "lineNumber": 192
+        },
+        {
+          "caller": "_collect_epoch_hardware",
+          "callee": "best_per_dollar.items",
+          "lineNumber": 192
+        },
+        {
+          "caller": "_collect_epoch_hardware",
+          "callee": "out.append",
+          "lineNumber": 193
+        },
+        {
+          "caller": "_collect_epoch_hardware",
+          "callee": "_row",
+          "lineNumber": 193
+        },
+        {
+          "caller": "_collect_epoch_hardware",
+          "callee": "sorted",
+          "lineNumber": 195
+        },
+        {
+          "caller": "_collect_epoch_hardware",
+          "callee": "best_per_watt.items",
+          "lineNumber": 195
+        },
+        {
+          "caller": "_collect_epoch_hardware",
+          "callee": "out.append",
+          "lineNumber": 196
+        },
+        {
+          "caller": "_collect_epoch_hardware",
+          "callee": "_row",
+          "lineNumber": 196
+        },
+        {
+          "caller": "_collect_epoch_hardware",
+          "callee": "log",
+          "lineNumber": 199
+        },
+        {
+          "caller": "_collect_epoch_hardware",
+          "callee": "len",
+          "lineNumber": 199
+        },
+        {
+          "caller": "_collect_epoch_hardware",
+          "callee": "log",
+          "lineNumber": 201
+        },
+        {
+          "caller": "_collect_epoch_hardware",
+          "callee": "len",
+          "lineNumber": 201
+        },
+        {
+          "caller": "_collect_epoch_models",
+          "callee": "list",
+          "lineNumber": 208
+        },
+        {
+          "caller": "_collect_epoch_models",
+          "callee": "csv.DictReader",
+          "lineNumber": 208
+        },
+        {
+          "caller": "_collect_epoch_models",
+          "callee": "io.StringIO",
+          "lineNumber": 208
+        },
+        {
+          "caller": "_collect_epoch_models",
+          "callee": "_fetch",
+          "lineNumber": 208
+        },
+        {
+          "caller": "_collect_epoch_models",
+          "callee": "log",
+          "lineNumber": 210
+        },
+        {
+          "caller": "_collect_epoch_models",
+          "callee": "_year",
+          "lineNumber": 216
+        },
+        {
+          "caller": "_collect_epoch_models",
+          "callee": "r.get",
+          "lineNumber": 216
+        },
+        {
+          "caller": "_collect_epoch_models",
+          "callee": "_num",
+          "lineNumber": 219
+        },
+        {
+          "caller": "_collect_epoch_models",
+          "callee": "r.get",
+          "lineNumber": 219
+        },
+        {
+          "caller": "_collect_epoch_models",
+          "callee": "_num",
+          "lineNumber": 220
+        },
+        {
+          "caller": "_collect_epoch_models",
+          "callee": "r.get",
+          "lineNumber": 220
+        },
+        {
+          "caller": "_collect_epoch_models",
+          "callee": "_num",
+          "lineNumber": 221
+        },
+        {
+          "caller": "_collect_epoch_models",
+          "callee": "r.get",
+          "lineNumber": 221
+        },
+        {
+          "caller": "_collect_epoch_models",
+          "callee": "max",
+          "lineNumber": 223
+        },
+        {
+          "caller": "_collect_epoch_models",
+          "callee": "max_cost.get",
+          "lineNumber": 223
+        },
+        {
+          "caller": "_collect_epoch_models",
+          "callee": "max",
+          "lineNumber": 225
+        },
+        {
+          "caller": "_collect_epoch_models",
+          "callee": "max_power.get",
+          "lineNumber": 225
+        },
+        {
+          "caller": "_collect_epoch_models",
+          "callee": "max",
+          "lineNumber": 227
+        },
+        {
+          "caller": "_collect_epoch_models",
+          "callee": "max_params.get",
+          "lineNumber": 227
+        },
+        {
+          "caller": "_collect_epoch_models",
+          "callee": "sorted",
+          "lineNumber": 229
+        },
+        {
+          "caller": "_collect_epoch_models",
+          "callee": "max_cost.items",
+          "lineNumber": 229
+        },
+        {
+          "caller": "_collect_epoch_models",
+          "callee": "out.append",
+          "lineNumber": 230
+        },
+        {
+          "caller": "_collect_epoch_models",
+          "callee": "_row",
+          "lineNumber": 230
+        },
+        {
+          "caller": "_collect_epoch_models",
+          "callee": "sorted",
+          "lineNumber": 232
+        },
+        {
+          "caller": "_collect_epoch_models",
+          "callee": "max_power.items",
+          "lineNumber": 232
+        },
+        {
+          "caller": "_collect_epoch_models",
+          "callee": "out.append",
+          "lineNumber": 233
+        },
+        {
+          "caller": "_collect_epoch_models",
+          "callee": "_row",
+          "lineNumber": 233
+        },
+        {
+          "caller": "_collect_epoch_models",
+          "callee": "sorted",
+          "lineNumber": 235
+        },
+        {
+          "caller": "_collect_epoch_models",
+          "callee": "max_params.items",
+          "lineNumber": 235
+        },
+        {
+          "caller": "_collect_epoch_models",
+          "callee": "out.append",
+          "lineNumber": 236
+        },
+        {
+          "caller": "_collect_epoch_models",
+          "callee": "_row",
+          "lineNumber": 236
+        },
+        {
+          "caller": "_collect_epoch_models",
+          "callee": "log",
+          "lineNumber": 242
+        },
+        {
+          "caller": "_collect_epoch_models",
+          "callee": "len",
+          "lineNumber": 242
+        },
+        {
+          "caller": "_domains_of",
+          "callee": "p.strip",
+          "lineNumber": 248
+        },
+        {
+          "caller": "_domains_of",
+          "callee": "str(raw or \"\").split",
+          "lineNumber": 248
+        },
+        {
+          "caller": "_domains_of",
+          "callee": "str",
+          "lineNumber": 248
+        },
+        {
+          "caller": "_domains_of",
+          "callee": "p.strip",
+          "lineNumber": 248
+        },
+        {
+          "caller": "_domains_of",
+          "callee": "AI_DOMAINS.get",
+          "lineNumber": 251
+        },
+        {
+          "caller": "_domains_of",
+          "callee": "slugs.append",
+          "lineNumber": 253
+        },
+        {
+          "caller": "_domains_of",
+          "callee": "len",
+          "lineNumber": 255
+        },
+        {
+          "caller": "_domains_of",
+          "callee": "slugs.append",
+          "lineNumber": 256
+        },
+        {
+          "caller": "_collect_per_domain",
+          "callee": "list",
+          "lineNumber": 268
+        },
+        {
+          "caller": "_collect_per_domain",
+          "callee": "csv.DictReader",
+          "lineNumber": 268
+        },
+        {
+          "caller": "_collect_per_domain",
+          "callee": "io.StringIO",
+          "lineNumber": 268
+        },
+        {
+          "caller": "_collect_per_domain",
+          "callee": "_fetch",
+          "lineNumber": 268
+        },
+        {
+          "caller": "_collect_per_domain",
+          "callee": "log",
+          "lineNumber": 270
+        },
+        {
+          "caller": "_collect_per_domain",
+          "callee": "list",
+          "lineNumber": 273
+        },
+        {
+          "caller": "_collect_per_domain",
+          "callee": "_year",
+          "lineNumber": 282
+        },
+        {
+          "caller": "_collect_per_domain",
+          "callee": "r.get",
+          "lineNumber": 282
+        },
+        {
+          "caller": "_collect_per_domain",
+          "callee": "_domains_of",
+          "lineNumber": 285
+        },
+        {
+          "caller": "_collect_per_domain",
+          "callee": "r.get",
+          "lineNumber": 285
+        },
+        {
+          "caller": "_collect_per_domain",
+          "callee": "_num",
+          "lineNumber": 289
+        },
+        {
+          "caller": "_collect_per_domain",
+          "callee": "r.get",
+          "lineNumber": 289
+        },
+        {
+          "caller": "_collect_per_domain",
+          "callee": "acc.setdefault",
+          "lineNumber": 293
+        },
+        {
+          "caller": "_collect_per_domain",
+          "callee": "per_dom.setdefault",
+          "lineNumber": 295
+        },
+        {
+          "caller": "_collect_per_domain",
+          "callee": "max",
+          "lineNumber": 296
+        },
+        {
+          "caller": "_collect_per_domain",
+          "callee": "yr_max.get",
+          "lineNumber": 296
+        },
+        {
+          "caller": "_collect_per_domain",
+          "callee": "log",
+          "lineNumber": 298
+        },
+        {
+          "caller": "_collect_per_domain",
+          "callee": "sorted",
+          "lineNumber": 303
+        },
+        {
+          "caller": "_collect_per_domain",
+          "callee": "acc.items",
+          "lineNumber": 303
+        },
+        {
+          "caller": "_collect_per_domain",
+          "callee": "sorted",
+          "lineNumber": 304
+        },
+        {
+          "caller": "_collect_per_domain",
+          "callee": "per_dom.items",
+          "lineNumber": 304
+        },
+        {
+          "caller": "_collect_per_domain",
+          "callee": "dom.replace",
+          "lineNumber": 306
+        },
+        {
+          "caller": "_collect_per_domain",
+          "callee": "sorted",
+          "lineNumber": 307
+        },
+        {
+          "caller": "_collect_per_domain",
+          "callee": "yr_max.items",
+          "lineNumber": 307
+        },
+        {
+          "caller": "_collect_per_domain",
+          "callee": "out.append",
+          "lineNumber": 308
+        },
+        {
+          "caller": "_collect_per_domain",
+          "callee": "_row",
+          "lineNumber": 308
+        },
+        {
+          "caller": "_collect_per_domain",
+          "callee": "log",
+          "lineNumber": 311
+        },
+        {
+          "caller": "_collect_per_domain",
+          "callee": "len",
+          "lineNumber": 311
+        },
+        {
+          "caller": "collect",
+          "callee": "_collect_owid",
+          "lineNumber": 317
+        },
+        {
+          "caller": "collect",
+          "callee": "_collect_epoch_hardware",
+          "lineNumber": 318
+        },
+        {
+          "caller": "collect",
+          "callee": "_collect_epoch_models",
+          "lineNumber": 319
+        },
+        {
+          "caller": "collect",
+          "callee": "_collect_per_domain",
+          "lineNumber": 323
+        },
+        {
+          "caller": "collect",
+          "callee": "_collect_per_domain",
+          "lineNumber": 326
+        },
+        {
+          "caller": "collect",
+          "callee": "rows.sort",
+          "lineNumber": 329
+        },
+        {
+          "caller": "collect",
+          "callee": "str",
+          "lineNumber": 329
+        },
+        {
+          "caller": "collect",
+          "callee": "str",
+          "lineNumber": 329
+        },
+        {
+          "caller": "collect",
+          "callee": "OUT_PATH.parent.mkdir",
+          "lineNumber": 330
+        },
+        {
+          "caller": "collect",
+          "callee": "OUT_PATH.with_suffix",
+          "lineNumber": 331
+        },
+        {
+          "caller": "collect",
+          "callee": "tmp.open",
+          "lineNumber": 332
+        },
+        {
+          "caller": "collect",
+          "callee": "fh.write",
+          "lineNumber": 334
+        },
+        {
+          "caller": "collect",
+          "callee": "json.dumps",
+          "lineNumber": 334
+        },
+        {
+          "caller": "collect",
+          "callee": "tmp.replace",
+          "lineNumber": 335
+        },
+        {
+          "caller": "collect",
+          "callee": "log",
+          "lineNumber": 336
+        },
+        {
+          "caller": "collect",
+          "callee": "len",
+          "lineNumber": 336
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 10,
+        "functionCount": 10,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "engine/feeds/crossref.py",
+      "language": "python",
+      "fileCategory": "code",
+      "totalLines": 142,
+      "nonEmptyLines": 122,
+      "functions": [
+        {
+          "name": "_fetch_json",
+          "startLine": 57,
+          "endLine": 68,
+          "params": [
+            "url",
+            "retries"
+          ]
+        },
+        {
+          "name": "fetch_count",
+          "startLine": 71,
+          "endLine": 89,
+          "params": [
+            "term",
+            "year",
+            "retries"
+          ]
+        },
+        {
+          "name": "collect",
+          "startLine": 92,
+          "endLine": 130,
+          "params": [
+            "log"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "_fetch_json",
+          "line": 57,
+          "isDefault": false
+        },
+        {
+          "name": "fetch_count",
+          "line": 71,
+          "isDefault": false
+        },
+        {
+          "name": "collect",
+          "line": 92,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "_fetch_json",
+          "callee": "range",
+          "lineNumber": 59
+        },
+        {
+          "caller": "_fetch_json",
+          "callee": "urllib.request.Request",
+          "lineNumber": 61
+        },
+        {
+          "caller": "_fetch_json",
+          "callee": "urllib.request.urlopen",
+          "lineNumber": 62
+        },
+        {
+          "caller": "_fetch_json",
+          "callee": "json.loads",
+          "lineNumber": 63
+        },
+        {
+          "caller": "_fetch_json",
+          "callee": "resp.read().decode",
+          "lineNumber": 63
+        },
+        {
+          "caller": "_fetch_json",
+          "callee": "resp.read",
+          "lineNumber": 63
+        },
+        {
+          "caller": "_fetch_json",
+          "callee": "time.sleep",
+          "lineNumber": 66
+        },
+        {
+          "caller": "fetch_count",
+          "callee": "urllib.parse.urlencode",
+          "lineNumber": 79
+        },
+        {
+          "caller": "fetch_count",
+          "callee": "_fetch_json",
+          "lineNumber": 80
+        },
+        {
+          "caller": "fetch_count",
+          "callee": "isinstance",
+          "lineNumber": 81
+        },
+        {
+          "caller": "fetch_count",
+          "callee": "data.get",
+          "lineNumber": 81
+        },
+        {
+          "caller": "fetch_count",
+          "callee": "data.get",
+          "lineNumber": 83
+        },
+        {
+          "caller": "fetch_count",
+          "callee": "isinstance",
+          "lineNumber": 84
+        },
+        {
+          "caller": "fetch_count",
+          "callee": "msg.get",
+          "lineNumber": 86
+        },
+        {
+          "caller": "fetch_count",
+          "callee": "isinstance",
+          "lineNumber": 87
+        },
+        {
+          "caller": "collect",
+          "callee": "fetch_count",
+          "lineNumber": 102
+        },
+        {
+          "caller": "collect",
+          "callee": "time.sleep",
+          "lineNumber": 103
+        },
+        {
+          "caller": "collect",
+          "callee": "log",
+          "lineNumber": 105
+        },
+        {
+          "caller": "collect",
+          "callee": "all_obs.append",
+          "lineNumber": 107
+        },
+        {
+          "caller": "collect",
+          "callee": "int",
+          "lineNumber": 110
+        },
+        {
+          "caller": "collect",
+          "callee": "log",
+          "lineNumber": 118
+        },
+        {
+          "caller": "collect",
+          "callee": "log",
+          "lineNumber": 120
+        },
+        {
+          "caller": "collect",
+          "callee": "all_obs.sort",
+          "lineNumber": 123
+        },
+        {
+          "caller": "collect",
+          "callee": "OUT_PATH.parent.mkdir",
+          "lineNumber": 125
+        },
+        {
+          "caller": "collect",
+          "callee": "OUT_PATH.open",
+          "lineNumber": 126
+        },
+        {
+          "caller": "collect",
+          "callee": "f.write",
+          "lineNumber": 128
+        },
+        {
+          "caller": "collect",
+          "callee": "json.dumps",
+          "lineNumber": 128
+        },
+        {
+          "caller": "collect",
+          "callee": "log",
+          "lineNumber": 129
+        },
+        {
+          "caller": "collect",
+          "callee": "len",
+          "lineNumber": 129
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 3,
+        "functionCount": 3,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "engine/feeds/eia.py",
+      "language": "python",
+      "fileCategory": "code",
+      "totalLines": 404,
+      "nonEmptyLines": 354,
+      "functions": [
+        {
+          "name": "_parse_period",
+          "startLine": 83,
+          "endLine": 108,
+          "params": [
+            "period",
+            "freq"
+          ]
+        },
+        {
+          "name": "_parse_published",
+          "startLine": 111,
+          "endLine": 115,
+          "params": [
+            "last_updated"
+          ]
+        },
+        {
+          "name": "match_elec",
+          "startLine": 136,
+          "endLine": 148,
+          "params": [
+            "series_id",
+            "name"
+          ]
+        },
+        {
+          "name": "match_total",
+          "startLine": 151,
+          "endLine": 177,
+          "params": [
+            "series_id",
+            "name"
+          ]
+        },
+        {
+          "name": "match_pet",
+          "startLine": 180,
+          "endLine": 190,
+          "params": [
+            "series_id",
+            "name"
+          ]
+        },
+        {
+          "name": "match_ng",
+          "startLine": 193,
+          "endLine": 204,
+          "params": [
+            "series_id",
+            "name"
+          ]
+        },
+        {
+          "name": "match_intl",
+          "startLine": 217,
+          "endLine": 238,
+          "params": [
+            "series_id",
+            "name",
+            "geography"
+          ]
+        },
+        {
+          "name": "_fetch_bytes",
+          "startLine": 245,
+          "endLine": 255,
+          "params": [
+            "url"
+          ]
+        },
+        {
+          "name": "_iter_series",
+          "startLine": 258,
+          "endLine": 273,
+          "params": [
+            "zip_bytes"
+          ]
+        },
+        {
+          "name": "collect_dataset",
+          "startLine": 276,
+          "endLine": 344,
+          "params": [
+            "ds",
+            "matcher",
+            "needs_geo",
+            "log"
+          ]
+        },
+        {
+          "name": "_existing_line_count",
+          "startLine": 347,
+          "endLine": 351,
+          "params": []
+        },
+        {
+          "name": "_write_jsonl_atomic",
+          "startLine": 354,
+          "endLine": 360,
+          "params": [
+            "rows"
+          ]
+        },
+        {
+          "name": "collect",
+          "startLine": 363,
+          "endLine": 387,
+          "params": [
+            "log"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "_parse_period",
+          "line": 83,
+          "isDefault": false
+        },
+        {
+          "name": "_parse_published",
+          "line": 111,
+          "isDefault": false
+        },
+        {
+          "name": "match_elec",
+          "line": 136,
+          "isDefault": false
+        },
+        {
+          "name": "match_total",
+          "line": 151,
+          "isDefault": false
+        },
+        {
+          "name": "match_pet",
+          "line": 180,
+          "isDefault": false
+        },
+        {
+          "name": "match_ng",
+          "line": 193,
+          "isDefault": false
+        },
+        {
+          "name": "match_intl",
+          "line": 217,
+          "isDefault": false
+        },
+        {
+          "name": "_fetch_bytes",
+          "line": 245,
+          "isDefault": false
+        },
+        {
+          "name": "_iter_series",
+          "line": 258,
+          "isDefault": false
+        },
+        {
+          "name": "collect_dataset",
+          "line": 276,
+          "isDefault": false
+        },
+        {
+          "name": "_existing_line_count",
+          "line": 347,
+          "isDefault": false
+        },
+        {
+          "name": "_write_jsonl_atomic",
+          "line": 354,
+          "isDefault": false
+        },
+        {
+          "name": "collect",
+          "line": 363,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "_parse_period",
+          "callee": "(period or \"\").strip",
+          "lineNumber": 84
+        },
+        {
+          "caller": "_parse_period",
+          "callee": "len",
+          "lineNumber": 88
+        },
+        {
+          "caller": "_parse_period",
+          "callee": "s.isdigit",
+          "lineNumber": 88
+        },
+        {
+          "caller": "_parse_period",
+          "callee": "datetime.strptime(s, \"%Y%m%d\").date",
+          "lineNumber": 90
+        },
+        {
+          "caller": "_parse_period",
+          "callee": "datetime.strptime",
+          "lineNumber": 90
+        },
+        {
+          "caller": "_parse_period",
+          "callee": "s.upper",
+          "lineNumber": 94
+        },
+        {
+          "caller": "_parse_period",
+          "callee": "s.upper().partition",
+          "lineNumber": 95
+        },
+        {
+          "caller": "_parse_period",
+          "callee": "s.upper",
+          "lineNumber": 95
+        },
+        {
+          "caller": "_parse_period",
+          "callee": "y.isdigit",
+          "lineNumber": 96
+        },
+        {
+          "caller": "_parse_period",
+          "callee": "date",
+          "lineNumber": 97
+        },
+        {
+          "caller": "_parse_period",
+          "callee": "int",
+          "lineNumber": 97
+        },
+        {
+          "caller": "_parse_period",
+          "callee": "len",
+          "lineNumber": 100
+        },
+        {
+          "caller": "_parse_period",
+          "callee": "s.isdigit",
+          "lineNumber": 100
+        },
+        {
+          "caller": "_parse_period",
+          "callee": "date",
+          "lineNumber": 102
+        },
+        {
+          "caller": "_parse_period",
+          "callee": "int",
+          "lineNumber": 102
+        },
+        {
+          "caller": "_parse_period",
+          "callee": "int",
+          "lineNumber": 102
+        },
+        {
+          "caller": "_parse_period",
+          "callee": "len",
+          "lineNumber": 106
+        },
+        {
+          "caller": "_parse_period",
+          "callee": "s.isdigit",
+          "lineNumber": 106
+        },
+        {
+          "caller": "_parse_period",
+          "callee": "date",
+          "lineNumber": 107
+        },
+        {
+          "caller": "_parse_period",
+          "callee": "int",
+          "lineNumber": 107
+        },
+        {
+          "caller": "_parse_published",
+          "callee": "str",
+          "lineNumber": 115
+        },
+        {
+          "caller": "match_elec",
+          "callee": "series_id.split",
+          "lineNumber": 138
+        },
+        {
+          "caller": "match_elec",
+          "callee": "len",
+          "lineNumber": 139
+        },
+        {
+          "caller": "match_elec",
+          "callee": "parts[2].split",
+          "lineNumber": 141
+        },
+        {
+          "caller": "match_elec",
+          "callee": "len",
+          "lineNumber": 142
+        },
+        {
+          "caller": "match_total",
+          "callee": "name.split(\",\")[0].strip",
+          "lineNumber": 156
+        },
+        {
+          "caller": "match_total",
+          "callee": "name.split",
+          "lineNumber": 156
+        },
+        {
+          "caller": "match_total",
+          "callee": "name.split(\",\", 1)[1].strip().lower",
+          "lineNumber": 157
+        },
+        {
+          "caller": "match_total",
+          "callee": "name.split(\",\", 1)[1].strip",
+          "lineNumber": 157
+        },
+        {
+          "caller": "match_total",
+          "callee": "name.split",
+          "lineNumber": 157
+        },
+        {
+          "caller": "match_total",
+          "callee": "want.get",
+          "lineNumber": 174
+        },
+        {
+          "caller": "match_pet",
+          "callee": "name.lower",
+          "lineNumber": 181
+        },
+        {
+          "caller": "match_pet",
+          "callee": "name.split(\",\")[0].strip",
+          "lineNumber": 184
+        },
+        {
+          "caller": "match_pet",
+          "callee": "name.split",
+          "lineNumber": 184
+        },
+        {
+          "caller": "match_pet",
+          "callee": "series_id.startswith",
+          "lineNumber": 187
+        },
+        {
+          "caller": "match_pet",
+          "callee": "name.split(\",\")[0].strip",
+          "lineNumber": 189
+        },
+        {
+          "caller": "match_pet",
+          "callee": "name.split",
+          "lineNumber": 189
+        },
+        {
+          "caller": "match_ng",
+          "callee": "name.lower",
+          "lineNumber": 194
+        },
+        {
+          "caller": "match_ng",
+          "callee": "name.count",
+          "lineNumber": 202
+        },
+        {
+          "caller": "match_ng",
+          "callee": "name.split(\",\")[0].strip",
+          "lineNumber": 203
+        },
+        {
+          "caller": "match_ng",
+          "callee": "name.split",
+          "lineNumber": 203
+        },
+        {
+          "caller": "match_intl",
+          "callee": "str",
+          "lineNumber": 219
+        },
+        {
+          "caller": "match_intl",
+          "callee": "len",
+          "lineNumber": 219
+        },
+        {
+          "caller": "match_intl",
+          "callee": "str",
+          "lineNumber": 219
+        },
+        {
+          "caller": "match_intl",
+          "callee": "series_id.split",
+          "lineNumber": 221
+        },
+        {
+          "caller": "match_intl",
+          "callee": "len",
+          "lineNumber": 222
+        },
+        {
+          "caller": "match_intl",
+          "callee": "parts[1].split",
+          "lineNumber": 224
+        },
+        {
+          "caller": "match_intl",
+          "callee": "len",
+          "lineNumber": 225
+        },
+        {
+          "caller": "match_intl",
+          "callee": "_INTL_PRODUCTS.get",
+          "lineNumber": 228
+        },
+        {
+          "caller": "match_intl",
+          "callee": "name.split",
+          "lineNumber": 234
+        },
+        {
+          "caller": "match_intl",
+          "callee": "len",
+          "lineNumber": 235
+        },
+        {
+          "caller": "match_intl",
+          "callee": "bits[1].strip",
+          "lineNumber": 236
+        },
+        {
+          "caller": "match_intl",
+          "callee": "f\"{country}: {label}\".strip().lstrip(\":\").strip",
+          "lineNumber": 237
+        },
+        {
+          "caller": "match_intl",
+          "callee": "f\"{country}: {label}\".strip().lstrip",
+          "lineNumber": 237
+        },
+        {
+          "caller": "match_intl",
+          "callee": "f\"{country}: {label}\".strip",
+          "lineNumber": 237
+        },
+        {
+          "caller": "_fetch_bytes",
+          "callee": "range",
+          "lineNumber": 246
+        },
+        {
+          "caller": "_fetch_bytes",
+          "callee": "urllib.request.Request",
+          "lineNumber": 248
+        },
+        {
+          "caller": "_fetch_bytes",
+          "callee": "urllib.request.urlopen",
+          "lineNumber": 249
+        },
+        {
+          "caller": "_fetch_bytes",
+          "callee": "resp.read",
+          "lineNumber": 250
+        },
+        {
+          "caller": "_fetch_bytes",
+          "callee": "time.sleep",
+          "lineNumber": 253
+        },
+        {
+          "caller": "_iter_series",
+          "callee": "zipfile.ZipFile",
+          "lineNumber": 260
+        },
+        {
+          "caller": "_iter_series",
+          "callee": "io.BytesIO",
+          "lineNumber": 260
+        },
+        {
+          "caller": "_iter_series",
+          "callee": "zf.namelist",
+          "lineNumber": 261
+        },
+        {
+          "caller": "_iter_series",
+          "callee": "n.lower().endswith",
+          "lineNumber": 261
+        },
+        {
+          "caller": "_iter_series",
+          "callee": "n.lower",
+          "lineNumber": 261
+        },
+        {
+          "caller": "_iter_series",
+          "callee": "zf.open",
+          "lineNumber": 263
+        },
+        {
+          "caller": "_iter_series",
+          "callee": "io.TextIOWrapper",
+          "lineNumber": 264
+        },
+        {
+          "caller": "_iter_series",
+          "callee": "raw.strip",
+          "lineNumber": 265
+        },
+        {
+          "caller": "_iter_series",
+          "callee": "json.loads",
+          "lineNumber": 269
+        },
+        {
+          "caller": "_iter_series",
+          "callee": "o.get",
+          "lineNumber": 272
+        },
+        {
+          "caller": "_iter_series",
+          "callee": "o.get",
+          "lineNumber": 272
+        },
+        {
+          "caller": "collect_dataset",
+          "callee": "_fetch_bytes",
+          "lineNumber": 285
+        },
+        {
+          "caller": "collect_dataset",
+          "callee": "log",
+          "lineNumber": 287
+        },
+        {
+          "caller": "collect_dataset",
+          "callee": "_iter_series",
+          "lineNumber": 293
+        },
+        {
+          "caller": "collect_dataset",
+          "callee": "o.get",
+          "lineNumber": 295
+        },
+        {
+          "caller": "collect_dataset",
+          "callee": "matcher",
+          "lineNumber": 297
+        },
+        {
+          "caller": "collect_dataset",
+          "callee": "o.get",
+          "lineNumber": 297
+        },
+        {
+          "caller": "collect_dataset",
+          "callee": "matcher",
+          "lineNumber": 299
+        },
+        {
+          "caller": "collect_dataset",
+          "callee": "(o.get(\"units\") or \"\").strip",
+          "lineNumber": 303
+        },
+        {
+          "caller": "collect_dataset",
+          "callee": "o.get",
+          "lineNumber": 303
+        },
+        {
+          "caller": "collect_dataset",
+          "callee": "o.get",
+          "lineNumber": 304
+        },
+        {
+          "caller": "collect_dataset",
+          "callee": "_parse_published",
+          "lineNumber": 305
+        },
+        {
+          "caller": "collect_dataset",
+          "callee": "o.get",
+          "lineNumber": 305
+        },
+        {
+          "caller": "collect_dataset",
+          "callee": "o.get",
+          "lineNumber": 307
+        },
+        {
+          "caller": "collect_dataset",
+          "callee": "isinstance",
+          "lineNumber": 308
+        },
+        {
+          "caller": "collect_dataset",
+          "callee": "len",
+          "lineNumber": 308
+        },
+        {
+          "caller": "collect_dataset",
+          "callee": "float",
+          "lineNumber": 314
+        },
+        {
+          "caller": "collect_dataset",
+          "callee": "_parse_period",
+          "lineNumber": 317
+        },
+        {
+          "caller": "collect_dataset",
+          "callee": "str",
+          "lineNumber": 317
+        },
+        {
+          "caller": "collect_dataset",
+          "callee": "obs.append",
+          "lineNumber": 320
+        },
+        {
+          "caller": "collect_dataset",
+          "callee": "d.isoformat",
+          "lineNumber": 322
+        },
+        {
+          "caller": "collect_dataset",
+          "callee": "d.isoformat",
+          "lineNumber": 329
+        },
+        {
+          "caller": "collect_dataset",
+          "callee": "log",
+          "lineNumber": 335
+        },
+        {
+          "caller": "collect_dataset",
+          "callee": "obs.sort",
+          "lineNumber": 338
+        },
+        {
+          "caller": "collect_dataset",
+          "callee": "sorted",
+          "lineNumber": 340
+        },
+        {
+          "caller": "collect_dataset",
+          "callee": "log",
+          "lineNumber": 341
+        },
+        {
+          "caller": "collect_dataset",
+          "callee": "len",
+          "lineNumber": 341
+        },
+        {
+          "caller": "collect_dataset",
+          "callee": "log",
+          "lineNumber": 343
+        },
+        {
+          "caller": "_existing_line_count",
+          "callee": "OUT_PATH.exists",
+          "lineNumber": 348
+        },
+        {
+          "caller": "_existing_line_count",
+          "callee": "OUT_PATH.open",
+          "lineNumber": 350
+        },
+        {
+          "caller": "_existing_line_count",
+          "callee": "sum",
+          "lineNumber": 351
+        },
+        {
+          "caller": "_write_jsonl_atomic",
+          "callee": "OUT_PATH.with_suffix",
+          "lineNumber": 355
+        },
+        {
+          "caller": "_write_jsonl_atomic",
+          "callee": "OUT_PATH.parent.mkdir",
+          "lineNumber": 356
+        },
+        {
+          "caller": "_write_jsonl_atomic",
+          "callee": "tmp.open",
+          "lineNumber": 357
+        },
+        {
+          "caller": "_write_jsonl_atomic",
+          "callee": "f.write",
+          "lineNumber": 359
+        },
+        {
+          "caller": "_write_jsonl_atomic",
+          "callee": "json.dumps",
+          "lineNumber": 359
+        },
+        {
+          "caller": "_write_jsonl_atomic",
+          "callee": "tmp.replace",
+          "lineNumber": 360
+        },
+        {
+          "caller": "collect",
+          "callee": "collect_dataset",
+          "lineNumber": 371
+        },
+        {
+          "caller": "collect",
+          "callee": "collect_dataset",
+          "lineNumber": 372
+        },
+        {
+          "caller": "collect",
+          "callee": "collect_dataset",
+          "lineNumber": 373
+        },
+        {
+          "caller": "collect",
+          "callee": "collect_dataset",
+          "lineNumber": 374
+        },
+        {
+          "caller": "collect",
+          "callee": "collect_dataset",
+          "lineNumber": 375
+        },
+        {
+          "caller": "collect",
+          "callee": "_existing_line_count",
+          "lineNumber": 377
+        },
+        {
+          "caller": "collect",
+          "callee": "log",
+          "lineNumber": 379
+        },
+        {
+          "caller": "collect",
+          "callee": "len",
+          "lineNumber": 381
+        },
+        {
+          "caller": "collect",
+          "callee": "int",
+          "lineNumber": 381
+        },
+        {
+          "caller": "collect",
+          "callee": "log",
+          "lineNumber": 382
+        },
+        {
+          "caller": "collect",
+          "callee": "len",
+          "lineNumber": 382
+        },
+        {
+          "caller": "collect",
+          "callee": "_write_jsonl_atomic",
+          "lineNumber": 385
+        },
+        {
+          "caller": "collect",
+          "callee": "log",
+          "lineNumber": 386
+        },
+        {
+          "caller": "collect",
+          "callee": "len",
+          "lineNumber": 386
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 13,
+        "functionCount": 13,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "engine/feeds/ember.py",
+      "language": "python",
+      "fileCategory": "code",
+      "totalLines": 173,
+      "nonEmptyLines": 148,
+      "functions": [
+        {
+          "name": "_parse_date",
+          "startLine": 76,
+          "endLine": 92,
+          "params": [
+            "s"
+          ]
+        },
+        {
+          "name": "_stream_rows",
+          "startLine": 95,
+          "endLine": 106,
+          "params": [
+            "url",
+            "timeout"
+          ]
+        },
+        {
+          "name": "collect",
+          "startLine": 109,
+          "endLine": 151,
+          "params": [
+            "url",
+            "specs",
+            "log"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "_parse_date",
+          "line": 76,
+          "isDefault": false
+        },
+        {
+          "name": "_stream_rows",
+          "line": 95,
+          "isDefault": false
+        },
+        {
+          "name": "collect",
+          "line": 109,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "_parse_date",
+          "callee": "s.strip",
+          "lineNumber": 83
+        },
+        {
+          "caller": "_parse_date",
+          "callee": "s.isdigit",
+          "lineNumber": 84
+        },
+        {
+          "caller": "_parse_date",
+          "callee": "len",
+          "lineNumber": 84
+        },
+        {
+          "caller": "_parse_date",
+          "callee": "date",
+          "lineNumber": 85
+        },
+        {
+          "caller": "_parse_date",
+          "callee": "int",
+          "lineNumber": 85
+        },
+        {
+          "caller": "_parse_date",
+          "callee": "datetime.strptime(s, fmt).date",
+          "lineNumber": 89
+        },
+        {
+          "caller": "_parse_date",
+          "callee": "datetime.strptime",
+          "lineNumber": 89
+        },
+        {
+          "caller": "_stream_rows",
+          "callee": "urllib.request.Request",
+          "lineNumber": 101
+        },
+        {
+          "caller": "_stream_rows",
+          "callee": "urllib.request.urlopen",
+          "lineNumber": 102
+        },
+        {
+          "caller": "_stream_rows",
+          "callee": "io.TextIOWrapper",
+          "lineNumber": 103
+        },
+        {
+          "caller": "_stream_rows",
+          "callee": "csv.DictReader",
+          "lineNumber": 104
+        },
+        {
+          "caller": "collect",
+          "callee": "_stream_rows",
+          "lineNumber": 123
+        },
+        {
+          "caller": "collect",
+          "callee": "(row.get(\"ISO 3 code\") or \"\").strip",
+          "lineNumber": 124
+        },
+        {
+          "caller": "collect",
+          "callee": "row.get",
+          "lineNumber": 124
+        },
+        {
+          "caller": "collect",
+          "callee": "(row.get(\"Area\") or \"\").strip",
+          "lineNumber": 126
+        },
+        {
+          "caller": "collect",
+          "callee": "row.get",
+          "lineNumber": 126
+        },
+        {
+          "caller": "collect",
+          "callee": "(row.get(\"Category\") or \"\").strip",
+          "lineNumber": 128
+        },
+        {
+          "caller": "collect",
+          "callee": "row.get",
+          "lineNumber": 128
+        },
+        {
+          "caller": "collect",
+          "callee": "(row.get(\"Variable\") or \"\").strip",
+          "lineNumber": 129
+        },
+        {
+          "caller": "collect",
+          "callee": "row.get",
+          "lineNumber": 129
+        },
+        {
+          "caller": "collect",
+          "callee": "(row.get(\"Unit\") or \"\").strip",
+          "lineNumber": 129
+        },
+        {
+          "caller": "collect",
+          "callee": "row.get",
+          "lineNumber": 129
+        },
+        {
+          "caller": "collect",
+          "callee": "wanted.get",
+          "lineNumber": 130
+        },
+        {
+          "caller": "collect",
+          "callee": "_parse_date",
+          "lineNumber": 133
+        },
+        {
+          "caller": "collect",
+          "callee": "row.get",
+          "lineNumber": 133
+        },
+        {
+          "caller": "collect",
+          "callee": "row.get",
+          "lineNumber": 133
+        },
+        {
+          "caller": "collect",
+          "callee": "(row.get(\"Value\") or \"\").strip",
+          "lineNumber": 134
+        },
+        {
+          "caller": "collect",
+          "callee": "row.get",
+          "lineNumber": 134
+        },
+        {
+          "caller": "collect",
+          "callee": "float",
+          "lineNumber": 138
+        },
+        {
+          "caller": "collect",
+          "callee": "obs.append",
+          "lineNumber": 142
+        },
+        {
+          "caller": "collect",
+          "callee": "d.isoformat",
+          "lineNumber": 144
+        },
+        {
+          "caller": "collect",
+          "callee": "obs.sort",
+          "lineNumber": 149
+        },
+        {
+          "caller": "collect",
+          "callee": "log",
+          "lineNumber": 150
+        },
+        {
+          "caller": "collect",
+          "callee": "url.rsplit",
+          "lineNumber": 150
+        },
+        {
+          "caller": "collect",
+          "callee": "len",
+          "lineNumber": 150
+        },
+        {
+          "caller": "collect",
+          "callee": "len",
+          "lineNumber": 150
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 3,
+        "functionCount": 3,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "engine/feeds/eurostat.py",
+      "language": "python",
+      "fileCategory": "code",
+      "totalLines": 272,
+      "nonEmptyLines": 244,
+      "functions": [
+        {
+          "name": "_fetch_json",
+          "startLine": 145,
+          "endLine": 156,
+          "params": [
+            "url",
+            "retries"
+          ]
+        },
+        {
+          "name": "fetch_dataset",
+          "startLine": 159,
+          "endLine": 172,
+          "params": [
+            "spec",
+            "retries"
+          ]
+        },
+        {
+          "name": "_unflatten",
+          "startLine": 175,
+          "endLine": 181,
+          "params": [
+            "flat",
+            "size"
+          ]
+        },
+        {
+          "name": "normalize",
+          "startLine": 184,
+          "endLine": 229,
+          "params": [
+            "spec",
+            "doc"
+          ]
+        },
+        {
+          "name": "collect",
+          "startLine": 232,
+          "endLine": 260,
+          "params": [
+            "log"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "_fetch_json",
+          "line": 145,
+          "isDefault": false
+        },
+        {
+          "name": "fetch_dataset",
+          "line": 159,
+          "isDefault": false
+        },
+        {
+          "name": "_unflatten",
+          "line": 175,
+          "isDefault": false
+        },
+        {
+          "name": "normalize",
+          "line": 184,
+          "isDefault": false
+        },
+        {
+          "name": "collect",
+          "line": 232,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "_fetch_json",
+          "callee": "range",
+          "lineNumber": 147
+        },
+        {
+          "caller": "_fetch_json",
+          "callee": "urllib.request.Request",
+          "lineNumber": 149
+        },
+        {
+          "caller": "_fetch_json",
+          "callee": "urllib.request.urlopen",
+          "lineNumber": 150
+        },
+        {
+          "caller": "_fetch_json",
+          "callee": "json.loads",
+          "lineNumber": 151
+        },
+        {
+          "caller": "_fetch_json",
+          "callee": "resp.read().decode",
+          "lineNumber": 151
+        },
+        {
+          "caller": "_fetch_json",
+          "callee": "resp.read",
+          "lineNumber": 151
+        },
+        {
+          "caller": "_fetch_json",
+          "callee": "time.sleep",
+          "lineNumber": 154
+        },
+        {
+          "caller": "fetch_dataset",
+          "callee": "str",
+          "lineNumber": 162
+        },
+        {
+          "caller": "fetch_dataset",
+          "callee": "params.append",
+          "lineNumber": 164
+        },
+        {
+          "caller": "fetch_dataset",
+          "callee": "spec[\"params\"].items",
+          "lineNumber": 165
+        },
+        {
+          "caller": "fetch_dataset",
+          "callee": "params.append",
+          "lineNumber": 166
+        },
+        {
+          "caller": "fetch_dataset",
+          "callee": "urllib.parse.quote",
+          "lineNumber": 167
+        },
+        {
+          "caller": "fetch_dataset",
+          "callee": "urllib.parse.urlencode",
+          "lineNumber": 167
+        },
+        {
+          "caller": "fetch_dataset",
+          "callee": "_fetch_json",
+          "lineNumber": 168
+        },
+        {
+          "caller": "fetch_dataset",
+          "callee": "isinstance",
+          "lineNumber": 170
+        },
+        {
+          "caller": "_unflatten",
+          "callee": "len",
+          "lineNumber": 177
+        },
+        {
+          "caller": "_unflatten",
+          "callee": "range",
+          "lineNumber": 178
+        },
+        {
+          "caller": "_unflatten",
+          "callee": "len",
+          "lineNumber": 178
+        },
+        {
+          "caller": "normalize",
+          "callee": "ids.index",
+          "lineNumber": 191
+        },
+        {
+          "caller": "normalize",
+          "callee": "ids.index",
+          "lineNumber": 192
+        },
+        {
+          "caller": "pos_to_code",
+          "callee": "dim[name][\"category\"][\"index\"].items",
+          "lineNumber": 195
+        },
+        {
+          "caller": "normalize",
+          "callee": "pos_to_code",
+          "lineNumber": 197
+        },
+        {
+          "caller": "normalize",
+          "callee": "pos_to_code",
+          "lineNumber": 198
+        },
+        {
+          "caller": "normalize",
+          "callee": "doc[\"value\"].items",
+          "lineNumber": 201
+        },
+        {
+          "caller": "normalize",
+          "callee": "int",
+          "lineNumber": 205
+        },
+        {
+          "caller": "normalize",
+          "callee": "_unflatten",
+          "lineNumber": 208
+        },
+        {
+          "caller": "normalize",
+          "callee": "geo_code.get",
+          "lineNumber": 209
+        },
+        {
+          "caller": "normalize",
+          "callee": "time_code.get",
+          "lineNumber": 210
+        },
+        {
+          "caller": "normalize",
+          "callee": "len",
+          "lineNumber": 211
+        },
+        {
+          "caller": "normalize",
+          "callee": "year.isdigit",
+          "lineNumber": 211
+        },
+        {
+          "caller": "normalize",
+          "callee": "int",
+          "lineNumber": 213
+        },
+        {
+          "caller": "normalize",
+          "callee": "float",
+          "lineNumber": 216
+        },
+        {
+          "caller": "normalize",
+          "callee": "out.append",
+          "lineNumber": 219
+        },
+        {
+          "caller": "normalize",
+          "callee": "out.sort",
+          "lineNumber": 228
+        },
+        {
+          "caller": "collect",
+          "callee": "fetch_dataset",
+          "lineNumber": 239
+        },
+        {
+          "caller": "collect",
+          "callee": "log",
+          "lineNumber": 242
+        },
+        {
+          "caller": "collect",
+          "callee": "normalize",
+          "lineNumber": 244
+        },
+        {
+          "caller": "collect",
+          "callee": "log",
+          "lineNumber": 247
+        },
+        {
+          "caller": "collect",
+          "callee": "all_obs.extend",
+          "lineNumber": 249
+        },
+        {
+          "caller": "collect",
+          "callee": "sorted",
+          "lineNumber": 250
+        },
+        {
+          "caller": "collect",
+          "callee": "o[\"series_id\"].rsplit",
+          "lineNumber": 250
+        },
+        {
+          "caller": "collect",
+          "callee": "log",
+          "lineNumber": 251
+        },
+        {
+          "caller": "collect",
+          "callee": "len",
+          "lineNumber": 252
+        },
+        {
+          "caller": "collect",
+          "callee": "len",
+          "lineNumber": 252
+        },
+        {
+          "caller": "collect",
+          "callee": "time.sleep",
+          "lineNumber": 253
+        },
+        {
+          "caller": "collect",
+          "callee": "OUT_PATH.parent.mkdir",
+          "lineNumber": 255
+        },
+        {
+          "caller": "collect",
+          "callee": "OUT_PATH.open",
+          "lineNumber": 256
+        },
+        {
+          "caller": "collect",
+          "callee": "f.write",
+          "lineNumber": 258
+        },
+        {
+          "caller": "collect",
+          "callee": "json.dumps",
+          "lineNumber": 258
+        },
+        {
+          "caller": "collect",
+          "callee": "log",
+          "lineNumber": 259
+        },
+        {
+          "caller": "collect",
+          "callee": "len",
+          "lineNumber": 259
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 5,
+        "functionCount": 5,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "engine/feeds/faostat.py",
+      "language": "python",
+      "fileCategory": "code",
+      "totalLines": 195,
+      "nonEmptyLines": 172,
+      "functions": [
+        {
+          "name": "_fetch_bytes",
+          "startLine": 73,
+          "endLine": 85,
+          "params": [
+            "url",
+            "retries"
+          ]
+        },
+        {
+          "name": "fetch_rows",
+          "startLine": 88,
+          "endLine": 131,
+          "params": [
+            "retries",
+            "log"
+          ]
+        },
+        {
+          "name": "normalize",
+          "startLine": 134,
+          "endLine": 161,
+          "params": [
+            "raw_rows"
+          ]
+        },
+        {
+          "name": "collect",
+          "startLine": 164,
+          "endLine": 183,
+          "params": [
+            "log"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "_fetch_bytes",
+          "line": 73,
+          "isDefault": false
+        },
+        {
+          "name": "fetch_rows",
+          "line": 88,
+          "isDefault": false
+        },
+        {
+          "name": "normalize",
+          "line": 134,
+          "isDefault": false
+        },
+        {
+          "name": "collect",
+          "line": 164,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "_fetch_bytes",
+          "callee": "range",
+          "lineNumber": 75
+        },
+        {
+          "caller": "_fetch_bytes",
+          "callee": "urllib.request.Request",
+          "lineNumber": 77
+        },
+        {
+          "caller": "_fetch_bytes",
+          "callee": "urllib.request.urlopen",
+          "lineNumber": 78
+        },
+        {
+          "caller": "_fetch_bytes",
+          "callee": "resp.read",
+          "lineNumber": 79
+        },
+        {
+          "caller": "_fetch_bytes",
+          "callee": "time.sleep",
+          "lineNumber": 82
+        },
+        {
+          "caller": "fetch_rows",
+          "callee": "_fetch_bytes",
+          "lineNumber": 92
+        },
+        {
+          "caller": "fetch_rows",
+          "callee": "log",
+          "lineNumber": 94
+        },
+        {
+          "caller": "fetch_rows",
+          "callee": "zipfile.ZipFile",
+          "lineNumber": 101
+        },
+        {
+          "caller": "fetch_rows",
+          "callee": "io.BytesIO",
+          "lineNumber": 101
+        },
+        {
+          "caller": "fetch_rows",
+          "callee": "next",
+          "lineNumber": 103
+        },
+        {
+          "caller": "fetch_rows",
+          "callee": "zf.namelist",
+          "lineNumber": 104
+        },
+        {
+          "caller": "fetch_rows",
+          "callee": "n.lower().endswith",
+          "lineNumber": 105
+        },
+        {
+          "caller": "fetch_rows",
+          "callee": "n.lower",
+          "lineNumber": 105
+        },
+        {
+          "caller": "fetch_rows",
+          "callee": "n.lower",
+          "lineNumber": 105
+        },
+        {
+          "caller": "fetch_rows",
+          "callee": "zf.open",
+          "lineNumber": 107
+        },
+        {
+          "caller": "fetch_rows",
+          "callee": "csv.DictReader",
+          "lineNumber": 108
+        },
+        {
+          "caller": "fetch_rows",
+          "callee": "io.TextIOWrapper",
+          "lineNumber": 108
+        },
+        {
+          "caller": "fetch_rows",
+          "callee": "r.get",
+          "lineNumber": 112
+        },
+        {
+          "caller": "fetch_rows",
+          "callee": "r.get",
+          "lineNumber": 114
+        },
+        {
+          "caller": "fetch_rows",
+          "callee": "r.get",
+          "lineNumber": 116
+        },
+        {
+          "caller": "fetch_rows",
+          "callee": "(r.get(\"Value\") or \"\").strip",
+          "lineNumber": 118
+        },
+        {
+          "caller": "fetch_rows",
+          "callee": "r.get",
+          "lineNumber": 118
+        },
+        {
+          "caller": "fetch_rows",
+          "callee": "buf.append",
+          "lineNumber": 121
+        },
+        {
+          "caller": "fetch_rows",
+          "callee": "int",
+          "lineNumber": 123
+        },
+        {
+          "caller": "fetch_rows",
+          "callee": "(r.get(\"Year\") or \"\").isdigit",
+          "lineNumber": 123
+        },
+        {
+          "caller": "fetch_rows",
+          "callee": "r.get",
+          "lineNumber": 123
+        },
+        {
+          "caller": "fetch_rows",
+          "callee": "max",
+          "lineNumber": 125
+        },
+        {
+          "caller": "fetch_rows",
+          "callee": "(r.get(\"Year\") or \"\").isdigit",
+          "lineNumber": 126
+        },
+        {
+          "caller": "fetch_rows",
+          "callee": "r.get",
+          "lineNumber": 126
+        },
+        {
+          "caller": "fetch_rows",
+          "callee": "int",
+          "lineNumber": 127
+        },
+        {
+          "caller": "fetch_rows",
+          "callee": "log",
+          "lineNumber": 129
+        },
+        {
+          "caller": "normalize",
+          "callee": "(r.get(\"Year\") or \"\").strip",
+          "lineNumber": 141
+        },
+        {
+          "caller": "normalize",
+          "callee": "r.get",
+          "lineNumber": 141
+        },
+        {
+          "caller": "normalize",
+          "callee": "len",
+          "lineNumber": 142
+        },
+        {
+          "caller": "normalize",
+          "callee": "year.isdigit",
+          "lineNumber": 142
+        },
+        {
+          "caller": "normalize",
+          "callee": "float",
+          "lineNumber": 145
+        },
+        {
+          "caller": "normalize",
+          "callee": "r.get",
+          "lineNumber": 148
+        },
+        {
+          "caller": "normalize",
+          "callee": "r.get",
+          "lineNumber": 149
+        },
+        {
+          "caller": "normalize",
+          "callee": "item_label.get",
+          "lineNumber": 150
+        },
+        {
+          "caller": "normalize",
+          "callee": "r.get",
+          "lineNumber": 150
+        },
+        {
+          "caller": "normalize",
+          "callee": "area_label.get",
+          "lineNumber": 151
+        },
+        {
+          "caller": "normalize",
+          "callee": "r.get",
+          "lineNumber": 151
+        },
+        {
+          "caller": "normalize",
+          "callee": "(r.get(\"Unit\") or \"t\").strip",
+          "lineNumber": 152
+        },
+        {
+          "caller": "normalize",
+          "callee": "r.get",
+          "lineNumber": 152
+        },
+        {
+          "caller": "normalize",
+          "callee": "out.append",
+          "lineNumber": 153
+        },
+        {
+          "caller": "normalize",
+          "callee": "out.sort",
+          "lineNumber": 160
+        },
+        {
+          "caller": "collect",
+          "callee": "fetch_rows",
+          "lineNumber": 168
+        },
+        {
+          "caller": "collect",
+          "callee": "normalize",
+          "lineNumber": 169
+        },
+        {
+          "caller": "collect",
+          "callee": "by_series.setdefault(o[\"series_id\"], []).append",
+          "lineNumber": 174
+        },
+        {
+          "caller": "collect",
+          "callee": "by_series.setdefault",
+          "lineNumber": 174
+        },
+        {
+          "caller": "collect",
+          "callee": "sorted",
+          "lineNumber": 175
+        },
+        {
+          "caller": "collect",
+          "callee": "by_series.items",
+          "lineNumber": 175
+        },
+        {
+          "caller": "collect",
+          "callee": "log",
+          "lineNumber": 176
+        },
+        {
+          "caller": "collect",
+          "callee": "len",
+          "lineNumber": 176
+        },
+        {
+          "caller": "collect",
+          "callee": "OUT_PATH.parent.mkdir",
+          "lineNumber": 178
+        },
+        {
+          "caller": "collect",
+          "callee": "OUT_PATH.open",
+          "lineNumber": 179
+        },
+        {
+          "caller": "collect",
+          "callee": "f.write",
+          "lineNumber": 181
+        },
+        {
+          "caller": "collect",
+          "callee": "json.dumps",
+          "lineNumber": 181
+        },
+        {
+          "caller": "collect",
+          "callee": "log",
+          "lineNumber": 182
+        },
+        {
+          "caller": "collect",
+          "callee": "len",
+          "lineNumber": 182
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 4,
+        "functionCount": 4,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "engine/feeds/imf.py",
+      "language": "python",
+      "fileCategory": "code",
+      "totalLines": 197,
+      "nonEmptyLines": 173,
+      "functions": [
+        {
+          "name": "_fetch_series",
+          "startLine": 101,
+          "endLine": 124,
+          "params": [
+            "indicator",
+            "retries"
+          ]
+        },
+        {
+          "name": "_iso_date",
+          "startLine": 127,
+          "endLine": 144,
+          "params": [
+            "period"
+          ]
+        },
+        {
+          "name": "collect",
+          "startLine": 147,
+          "endLine": 179,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "_fetch_series",
+          "line": 101,
+          "isDefault": false
+        },
+        {
+          "name": "_iso_date",
+          "line": 127,
+          "isDefault": false
+        },
+        {
+          "name": "collect",
+          "line": 147,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "_fetch_series",
+          "callee": "range",
+          "lineNumber": 108
+        },
+        {
+          "caller": "_fetch_series",
+          "callee": "urllib.request.Request",
+          "lineNumber": 110
+        },
+        {
+          "caller": "_fetch_series",
+          "callee": "urllib.request.urlopen(req, timeout=60).read().decode",
+          "lineNumber": 111
+        },
+        {
+          "caller": "_fetch_series",
+          "callee": "urllib.request.urlopen(req, timeout=60).read",
+          "lineNumber": 111
+        },
+        {
+          "caller": "_fetch_series",
+          "callee": "urllib.request.urlopen",
+          "lineNumber": 111
+        },
+        {
+          "caller": "_fetch_series",
+          "callee": "re.findall",
+          "lineNumber": 116
+        },
+        {
+          "caller": "_fetch_series",
+          "callee": "out.append",
+          "lineNumber": 120
+        },
+        {
+          "caller": "_fetch_series",
+          "callee": "float",
+          "lineNumber": 120
+        },
+        {
+          "caller": "_iso_date",
+          "callee": "re.fullmatch",
+          "lineNumber": 132
+        },
+        {
+          "caller": "_iso_date",
+          "callee": "int",
+          "lineNumber": 134
+        },
+        {
+          "caller": "_iso_date",
+          "callee": "m.group",
+          "lineNumber": 134
+        },
+        {
+          "caller": "_iso_date",
+          "callee": "int",
+          "lineNumber": 134
+        },
+        {
+          "caller": "_iso_date",
+          "callee": "m.group",
+          "lineNumber": 134
+        },
+        {
+          "caller": "_iso_date",
+          "callee": "re.fullmatch",
+          "lineNumber": 136
+        },
+        {
+          "caller": "_iso_date",
+          "callee": "int",
+          "lineNumber": 138
+        },
+        {
+          "caller": "_iso_date",
+          "callee": "q.group",
+          "lineNumber": 138
+        },
+        {
+          "caller": "_iso_date",
+          "callee": "int",
+          "lineNumber": 138
+        },
+        {
+          "caller": "_iso_date",
+          "callee": "q.group",
+          "lineNumber": 138
+        },
+        {
+          "caller": "_iso_date",
+          "callee": "re.fullmatch",
+          "lineNumber": 139
+        },
+        {
+          "caller": "_iso_date",
+          "callee": "int",
+          "lineNumber": 140
+        },
+        {
+          "caller": "_iso_date",
+          "callee": "date(y, mo, last_day).isoformat",
+          "lineNumber": 144
+        },
+        {
+          "caller": "_iso_date",
+          "callee": "date",
+          "lineNumber": 144
+        },
+        {
+          "caller": "collect",
+          "callee": "indicator.lower",
+          "lineNumber": 154
+        },
+        {
+          "caller": "collect",
+          "callee": "_fetch_series",
+          "lineNumber": 155
+        },
+        {
+          "caller": "collect",
+          "callee": "print",
+          "lineNumber": 157
+        },
+        {
+          "caller": "collect",
+          "callee": "time.sleep",
+          "lineNumber": 158
+        },
+        {
+          "caller": "collect",
+          "callee": "_iso_date",
+          "lineNumber": 162
+        },
+        {
+          "caller": "collect",
+          "callee": "obs.append",
+          "lineNumber": 165
+        },
+        {
+          "caller": "collect",
+          "callee": "print",
+          "lineNumber": 177
+        },
+        {
+          "caller": "collect",
+          "callee": "time.sleep",
+          "lineNumber": 178
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 3,
+        "functionCount": 3,
+        "classCount": 0
+      }
+    }
+  ]
+}

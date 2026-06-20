@@ -1,0 +1,68 @@
+[
+ {
+  "question_id": 36696,
+  "type": "multiple_choice",
+  "option_probs": {
+   "Gavin Newsom": 0.30,
+   "Alexandria Ocasio-Cortez": 0.10,
+   "Josh Shapiro": 0.05,
+   "Pete Buttigieg": 0.05,
+   "Gretchen Whitmer": 0.04,
+   "Wes Moore": 0.04,
+   "Kamala Harris": 0.05,
+   "Other": 0.37
+  },
+  "reasoning": "June 2026 prediction markets put Newsom clear frontrunner (~30-36%), AOC second (~10%), Harris ~5%, with Shapiro/Buttigieg/Whitmer/Moore in single digits; the field is wide and early, so a large Other mass (incl. unlisted names like Beshear/Ossoff/Kelly) is warranted."
+ },
+ {
+  "question_id": 37477,
+  "type": "binary",
+  "prob": 0.45,
+  "reasoning": "A ~2.5yr window with a low bar (any law, EO, or regulation mandating internal/third-party frontier-model safety evals), but the current Trump administration rescinded Biden's EO 14110 and is broadly deregulatory on AI, so a binding federal mandate is roughly a coin-flip rather than likely."
+ },
+ {
+  "question_id": 36695,
+  "type": "multiple_choice",
+  "option_probs": {
+   "JD Vance": 0.33,
+   "Donald J. Trump": 0.02,
+   "Tulsi Gabbard": 0.02,
+   "Glenn Youngkin": 0.02,
+   "Donald Trump Jr.": 0.05,
+   "Ron DeSantis": 0.04,
+   "Marco Rubio": 0.27,
+   "Other": 0.25
+  },
+  "reasoning": "June 2026 markets: Vance ~31-33% (slipping amid Trump doubts), Rubio surging to ~25-27%, Trump Jr. ~3-5%, DeSantis ~3%; Trump is barred by the 22nd Amendment so near-zero, and Other carries Tucker Carlson (~7%) plus the open field."
+ },
+ {
+  "question_id": 35720,
+  "type": "binary",
+  "prob": 0.90,
+  "reasoning": "USD share sits ~57% and has declined only ~0.5pp/yr; dropping below 50% in any quarter through Q3 2028 would require a ~7pp collapse in under four years, which only a severe dollar crisis could produce, so continuous >50% is highly likely."
+ },
+ {
+  "question_id": 35751,
+  "type": "binary",
+  "prob": 0.12,
+  "reasoning": "Courts overturning a certified winner is rare, but across all 2026 House/Senate/statewide races over a full cycle, a single razor-thin contested result (cf. NC-09 2018 new election) is plausible; still a low-base-rate event."
+ },
+ {
+  "question_id": 36711,
+  "type": "binary",
+  "prob": 0.05,
+  "reasoning": "The House seating a non-certified member would be an essentially unprecedented constitutional rupture; despite heated rhetoric there is no concrete indication this will happen before July 2027, so default low."
+ },
+ {
+  "question_id": 35733,
+  "type": "binary",
+  "prob": 0.03,
+  "reasoning": "Formal US de jure recognition of Taiwan would shatter the One-China framework and provoke a major crisis with Beijing; despite symbolic State Department wording changes, no administration is positioned to take this step before 2029."
+ },
+ {
+  "question_id": 37478,
+  "type": "binary",
+  "prob": 0.15,
+  "reasoning": "Court-executive tension is elevated with hundreds of cases, but a formal contempt order specifically tied to non-compliance with a Supreme Court mandate (and explicitly citing it) is a high, rarely-crossed bar over this window."
+ }
+]

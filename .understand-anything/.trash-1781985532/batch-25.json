@@ -1,0 +1,85 @@
+{
+  "nodes": [
+    {
+      "id": "document:experiments/REGISTRY.md",
+      "type": "document",
+      "name": "REGISTRY.md",
+      "filePath": "experiments/REGISTRY.md",
+      "summary": "Documentation file covering REGISTRY for the Vati repository and its forecasting workflows.",
+      "tags": [
+        "documentation",
+        "document",
+        "docs",
+        "registry"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:experiments/protocol_locator.yaml",
+      "type": "config",
+      "name": "protocol_locator.yaml",
+      "filePath": "experiments/protocol_locator.yaml",
+      "summary": "Configuration file for protocol_locator.yaml that shapes build, runtime, or tooling behavior in this repository.",
+      "tags": [
+        "configuration",
+        "config",
+        "protocol-locator"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "config:experiments/protocol_structbench.yaml",
+      "type": "config",
+      "name": "protocol_structbench.yaml",
+      "filePath": "experiments/protocol_structbench.yaml",
+      "summary": "Configuration file for protocol_structbench.yaml that shapes build, runtime, or tooling behavior in this repository.",
+      "tags": [
+        "configuration",
+        "config",
+        "protocol-structbench"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:experiments/protocol_v1.yaml",
+      "type": "config",
+      "name": "protocol_v1.yaml",
+      "filePath": "experiments/protocol_v1.yaml",
+      "summary": "Configuration file for protocol_v1.yaml that shapes build, runtime, or tooling behavior in this repository.",
+      "tags": [
+        "configuration",
+        "config",
+        "protocol-v1"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "config:experiments/protocol_v2.yaml",
+      "type": "config",
+      "name": "protocol_v2.yaml",
+      "filePath": "experiments/protocol_v2.yaml",
+      "summary": "Configuration file for protocol_v2.yaml that shapes build, runtime, or tooling behavior in this repository.",
+      "tags": [
+        "configuration",
+        "config",
+        "protocol-v2"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "document:experiments/timesfm_dataset_eval.md",
+      "type": "document",
+      "name": "timesfm_dataset_eval.md",
+      "filePath": "experiments/timesfm_dataset_eval.md",
+      "summary": "Documentation file covering timesfm_dataset_eval for the Vati repository and its forecasting workflows.",
+      "tags": [
+        "documentation",
+        "document",
+        "docs",
+        "timesfm-dataset-eval"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": []
+}

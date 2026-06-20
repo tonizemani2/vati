@@ -1,0 +1,50 @@
+[
+ {
+  "question_id": 8378,
+  "type": "binary",
+  "prob": 0.05,
+  "reasoning": "Current global stockpile (~12,000 warheads, FAS 2025, and declining) with mean yield in the low hundreds of kt gives a total yield of roughly 2,000-3,000 Mt, far below 10,000 Mt. Reaching the threshold needs ~3-4x current warheads or a large mean-yield jump, which is not credible by 2029."
+ },
+ {
+  "question_id": 8379,
+  "type": "binary",
+  "prob": 0.10,
+  "reasoning": "No stockpiled weapon is currently credibly assessed above 30 MT; the largest deployed warheads are sub-megaton, and the old >20 MT bombs are retired. Poseidon's up-to-100 MT claim is contested and the device is arguably still in development, so the two-uncontested-credible-source bar is unlikely to be met."
+ },
+ {
+  "question_id": 8380,
+  "type": "binary",
+  "prob": 0.03,
+  "reasoning": "Even with New START expired and Trump/Putin floating resumed testing, any resumed test would be low-yield; a deliberate >30 MT explosive test has not happened since 1961 and serves no modern purpose. Near-inconceivable by 2030."
+ },
+ {
+  "question_id": 8381,
+  "type": "binary",
+  "prob": 0.45,
+  "reasoning": "Conditional on >100 detonations: blast, fallout and especially famine effects over 10 years could plausibly exceed 1 billion deaths, but 100 is the low end and the exchange could be largely counterforce, so it sits just below even."
+ },
+ {
+  "question_id": 8382,
+  "type": "binary",
+  "prob": 0.60,
+  "reasoning": "Conditional on a >1,000-detonation exchange: leading nuclear-winter/famine models (e.g., Xia et al. 2022) center on roughly 5 billion deaths within a decade, so >4 billion over 10 years including famine is the modal outcome, though soot and crop-response uncertainty keeps it short of high confidence."
+ },
+ {
+  "question_id": 8391,
+  "type": "binary",
+  "prob": 0.33,
+  "reasoning": "Conditional on a nuclear conflict by 2030, the Jun 1-Sep 30 window is 122 of 365 days (~0.33) and there is no strong seasonal driver of conflict initiation, so the base-rate fraction is the right anchor."
+ },
+ {
+  "question_id": 8392,
+  "type": "binary",
+  "prob": 0.70,
+  "reasoning": "Conditional on >100 detonations: soot injection from even ~100 weapons drives measurable global cooling and crop declines in nuclear-winter studies, and a >5% drop versus the prior 5 years is an easy bar to clear given those models. Lean yes, with residual uncertainty on target mix and soot loft."
+ },
+ {
+  "question_id": 8394,
+  "type": "binary",
+  "prob": 0.30,
+  "reasoning": "Conditional on a HEMP attack, direct fatalities are near zero and the >10 million figures rest on disputed infrastructure-collapse cascade models. Getting three credible sources to estimate >10 million is plausible but contested, so below even."
+ }
+]

@@ -1,0 +1,2172 @@
+{
+  "nodes": [
+    {
+      "id": "file:engine/disk_guard.py",
+      "type": "file",
+      "name": "disk_guard.py",
+      "filePath": "engine/disk_guard.py",
+      "summary": "disk_guard.py is a code asset in the forecasting engine. It contains 2 functions, 1 class.",
+      "tags": [
+        "forecasting-engine",
+        "code",
+        "file",
+        "disk-guard"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/disk_guard.py:usage",
+      "type": "function",
+      "name": "usage",
+      "filePath": "engine/disk_guard.py",
+      "lineRange": [
+        18,
+        25
+      ],
+      "summary": "Defines usage in disk_guard.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "disk-guard"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/disk_guard.py:assert_safe",
+      "type": "function",
+      "name": "assert_safe",
+      "filePath": "engine/disk_guard.py",
+      "lineRange": [
+        28,
+        49
+      ],
+      "summary": "Defines assert_safe in disk_guard.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "disk-guard"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:engine/disk_guard.py:DiskSpaceError",
+      "type": "class",
+      "name": "DiskSpaceError",
+      "filePath": "engine/disk_guard.py",
+      "lineRange": [
+        14,
+        15
+      ],
+      "summary": "Defines DiskSpaceError in disk_guard.py, encapsulating reusable behavior or state for this module.",
+      "tags": [
+        "class",
+        "implementation",
+        "disk-guard"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:engine/feeds/baci.py",
+      "type": "file",
+      "name": "baci.py",
+      "filePath": "engine/feeds/baci.py",
+      "summary": "baci.py is a code asset in the forecasting engine. It contains 9 functions, 1 class, 2 internal imports.",
+      "tags": [
+        "forecasting-engine",
+        "code",
+        "file",
+        "baci"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:engine/feeds/baci.py:_download",
+      "type": "function",
+      "name": "_download",
+      "filePath": "engine/feeds/baci.py",
+      "lineRange": [
+        70,
+        95
+      ],
+      "summary": "Defines _download in baci.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "baci"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/baci.py:_find_member",
+      "type": "function",
+      "name": "_find_member",
+      "filePath": "engine/feeds/baci.py",
+      "lineRange": [
+        98,
+        104
+      ],
+      "summary": "Defines _find_member in baci.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "baci"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/baci.py:_read_countries",
+      "type": "function",
+      "name": "_read_countries",
+      "filePath": "engine/feeds/baci.py",
+      "lineRange": [
+        107,
+        140
+      ],
+      "summary": "Defines _read_countries in baci.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "baci"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/baci.py:_year_members",
+      "type": "function",
+      "name": "_year_members",
+      "filePath": "engine/feeds/baci.py",
+      "lineRange": [
+        143,
+        155
+      ],
+      "summary": "Defines _year_members in baci.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "baci"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/baci.py:_hhi_and_top_share",
+      "type": "function",
+      "name": "_hhi_and_top_share",
+      "filePath": "engine/feeds/baci.py",
+      "lineRange": [
+        158,
+        164
+      ],
+      "summary": "Defines _hhi_and_top_share in baci.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "baci"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/baci.py:_series_row",
+      "type": "function",
+      "name": "_series_row",
+      "filePath": "engine/feeds/baci.py",
+      "lineRange": [
+        167,
+        188
+      ],
+      "summary": "Defines _series_row in baci.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "baci"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/baci.py:_process_zip",
+      "type": "function",
+      "name": "_process_zip",
+      "filePath": "engine/feeds/baci.py",
+      "lineRange": [
+        191,
+        316
+      ],
+      "summary": "Defines _process_zip in baci.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "baci"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/feeds/baci.py:collect",
+      "type": "function",
+      "name": "collect",
+      "filePath": "engine/feeds/baci.py",
+      "lineRange": [
+        319,
+        334
+      ],
+      "summary": "Defines collect in baci.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "baci"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/baci.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "engine/feeds/baci.py",
+      "lineRange": [
+        337,
+        345
+      ],
+      "summary": "Defines main in baci.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entry-point",
+        "baci"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:engine/feeds/baci.py:Country",
+      "type": "class",
+      "name": "Country",
+      "filePath": "engine/feeds/baci.py",
+      "lineRange": [
+        64,
+        67
+      ],
+      "summary": "Defines Country in baci.py, encapsulating reusable behavior or state for this module.",
+      "tags": [
+        "class",
+        "implementation",
+        "baci"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:engine/feeds/clinicaltrials.py",
+      "type": "file",
+      "name": "clinicaltrials.py",
+      "filePath": "engine/feeds/clinicaltrials.py",
+      "summary": "clinicaltrials.py is a code asset in the forecasting engine. It contains 15 functions.",
+      "tags": [
+        "forecasting-engine",
+        "cli",
+        "code"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:engine/feeds/clinicaltrials.py:_today",
+      "type": "function",
+      "name": "_today",
+      "filePath": "engine/feeds/clinicaltrials.py",
+      "lineRange": [
+        55,
+        56
+      ],
+      "summary": "Defines _today in clinicaltrials.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "clinicaltrials"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/clinicaltrials.py:_existing_line_count",
+      "type": "function",
+      "name": "_existing_line_count",
+      "filePath": "engine/feeds/clinicaltrials.py",
+      "lineRange": [
+        59,
+        63
+      ],
+      "summary": "Defines _existing_line_count in clinicaltrials.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "clinicaltrials"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/clinicaltrials.py:_write_jsonl_atomic",
+      "type": "function",
+      "name": "_write_jsonl_atomic",
+      "filePath": "engine/feeds/clinicaltrials.py",
+      "lineRange": [
+        66,
+        72
+      ],
+      "summary": "Defines _write_jsonl_atomic in clinicaltrials.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "clinicaltrials"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/clinicaltrials.py:_fetch_json",
+      "type": "function",
+      "name": "_fetch_json",
+      "filePath": "engine/feeds/clinicaltrials.py",
+      "lineRange": [
+        75,
+        89
+      ],
+      "summary": "Defines _fetch_json in clinicaltrials.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-access",
+        "clinicaltrials"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/clinicaltrials.py:fetch_topic",
+      "type": "function",
+      "name": "fetch_topic",
+      "filePath": "engine/feeds/clinicaltrials.py",
+      "lineRange": [
+        92,
+        106
+      ],
+      "summary": "Defines fetch_topic in clinicaltrials.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-access",
+        "clinicaltrials"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/clinicaltrials.py:_date_from_struct",
+      "type": "function",
+      "name": "_date_from_struct",
+      "filePath": "engine/feeds/clinicaltrials.py",
+      "lineRange": [
+        109,
+        115
+      ],
+      "summary": "Defines _date_from_struct in clinicaltrials.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "clinicaltrials"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/clinicaltrials.py:_protocol",
+      "type": "function",
+      "name": "_protocol",
+      "filePath": "engine/feeds/clinicaltrials.py",
+      "lineRange": [
+        118,
+        119
+      ],
+      "summary": "Defines _protocol in clinicaltrials.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "clinicaltrials"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/clinicaltrials.py:_study_first_posted",
+      "type": "function",
+      "name": "_study_first_posted",
+      "filePath": "engine/feeds/clinicaltrials.py",
+      "lineRange": [
+        122,
+        124
+      ],
+      "summary": "Defines _study_first_posted in clinicaltrials.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "clinicaltrials"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/clinicaltrials.py:_status",
+      "type": "function",
+      "name": "_status",
+      "filePath": "engine/feeds/clinicaltrials.py",
+      "lineRange": [
+        127,
+        129
+      ],
+      "summary": "Defines _status in clinicaltrials.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "clinicaltrials"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/clinicaltrials.py:_phases",
+      "type": "function",
+      "name": "_phases",
+      "filePath": "engine/feeds/clinicaltrials.py",
+      "lineRange": [
+        132,
+        135
+      ],
+      "summary": "Defines _phases in clinicaltrials.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "clinicaltrials"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/clinicaltrials.py:_enrollment",
+      "type": "function",
+      "name": "_enrollment",
+      "filePath": "engine/feeds/clinicaltrials.py",
+      "lineRange": [
+        138,
+        145
+      ],
+      "summary": "Defines _enrollment in clinicaltrials.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "clinicaltrials"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/clinicaltrials.py:_study_stub",
+      "type": "function",
+      "name": "_study_stub",
+      "filePath": "engine/feeds/clinicaltrials.py",
+      "lineRange": [
+        148,
+        161
+      ],
+      "summary": "Defines _study_stub in clinicaltrials.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "clinicaltrials"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/clinicaltrials.py:_examples",
+      "type": "function",
+      "name": "_examples",
+      "filePath": "engine/feeds/clinicaltrials.py",
+      "lineRange": [
+        164,
+        165
+      ],
+      "summary": "Defines _examples in clinicaltrials.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "clinicaltrials"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/clinicaltrials.py:normalize",
+      "type": "function",
+      "name": "normalize",
+      "filePath": "engine/feeds/clinicaltrials.py",
+      "lineRange": [
+        168,
+        228
+      ],
+      "summary": "Defines normalize in clinicaltrials.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "clinicaltrials"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/feeds/clinicaltrials.py:collect",
+      "type": "function",
+      "name": "collect",
+      "filePath": "engine/feeds/clinicaltrials.py",
+      "lineRange": [
+        231,
+        257
+      ],
+      "summary": "Defines collect in clinicaltrials.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "clinicaltrials"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:engine/feeds/comtrade.py",
+      "type": "file",
+      "name": "comtrade.py",
+      "filePath": "engine/feeds/comtrade.py",
+      "summary": "comtrade.py is a code asset in the forecasting engine. It contains 9 functions.",
+      "tags": [
+        "forecasting-engine",
+        "code",
+        "file",
+        "comtrade"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/feeds/comtrade.py:_row_key",
+      "type": "function",
+      "name": "_row_key",
+      "filePath": "engine/feeds/comtrade.py",
+      "lineRange": [
+        69,
+        70
+      ],
+      "summary": "Defines _row_key in comtrade.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "comtrade"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/comtrade.py:_existing_rows",
+      "type": "function",
+      "name": "_existing_rows",
+      "filePath": "engine/feeds/comtrade.py",
+      "lineRange": [
+        73,
+        87
+      ],
+      "summary": "Defines _existing_rows in comtrade.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "comtrade"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/comtrade.py:_merge_rows",
+      "type": "function",
+      "name": "_merge_rows",
+      "filePath": "engine/feeds/comtrade.py",
+      "lineRange": [
+        90,
+        96
+      ],
+      "summary": "Defines _merge_rows in comtrade.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "comtrade"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/comtrade.py:_write_rows",
+      "type": "function",
+      "name": "_write_rows",
+      "filePath": "engine/feeds/comtrade.py",
+      "lineRange": [
+        99,
+        105
+      ],
+      "summary": "Defines _write_rows in comtrade.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "comtrade"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/comtrade.py:_fetch_json",
+      "type": "function",
+      "name": "_fetch_json",
+      "filePath": "engine/feeds/comtrade.py",
+      "lineRange": [
+        108,
+        126
+      ],
+      "summary": "Defines _fetch_json in comtrade.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-access",
+        "comtrade"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/comtrade.py:_is_total_row",
+      "type": "function",
+      "name": "_is_total_row",
+      "filePath": "engine/feeds/comtrade.py",
+      "lineRange": [
+        129,
+        139
+      ],
+      "summary": "Defines _is_total_row in comtrade.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "comtrade"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/comtrade.py:fetch_commodity",
+      "type": "function",
+      "name": "fetch_commodity",
+      "filePath": "engine/feeds/comtrade.py",
+      "lineRange": [
+        142,
+        156
+      ],
+      "summary": "Defines fetch_commodity in comtrade.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-access",
+        "comtrade"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/comtrade.py:normalize",
+      "type": "function",
+      "name": "normalize",
+      "filePath": "engine/feeds/comtrade.py",
+      "lineRange": [
+        159,
+        182
+      ],
+      "summary": "Defines normalize in comtrade.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "comtrade"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/comtrade.py:collect",
+      "type": "function",
+      "name": "collect",
+      "filePath": "engine/feeds/comtrade.py",
+      "lineRange": [
+        185,
+        220
+      ],
+      "summary": "Defines collect in comtrade.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "comtrade"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:engine/feeds/cordis.py",
+      "type": "file",
+      "name": "cordis.py",
+      "filePath": "engine/feeds/cordis.py",
+      "summary": "cordis.py is a code asset in the forecasting engine. It contains 15 functions, 2 classes.",
+      "tags": [
+        "forecasting-engine",
+        "code",
+        "file",
+        "cordis"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:engine/feeds/cordis.py:_today",
+      "type": "function",
+      "name": "_today",
+      "filePath": "engine/feeds/cordis.py",
+      "lineRange": [
+        320,
+        321
+      ],
+      "summary": "Defines _today in cordis.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cordis"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/cordis.py:_write_jsonl_atomic",
+      "type": "function",
+      "name": "_write_jsonl_atomic",
+      "filePath": "engine/feeds/cordis.py",
+      "lineRange": [
+        324,
+        330
+      ],
+      "summary": "Defines _write_jsonl_atomic in cordis.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cordis"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/cordis.py:_existing_line_count",
+      "type": "function",
+      "name": "_existing_line_count",
+      "filePath": "engine/feeds/cordis.py",
+      "lineRange": [
+        333,
+        337
+      ],
+      "summary": "Defines _existing_line_count in cordis.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cordis"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/cordis.py:_fetch_bytes",
+      "type": "function",
+      "name": "_fetch_bytes",
+      "filePath": "engine/feeds/cordis.py",
+      "lineRange": [
+        340,
+        343
+      ],
+      "summary": "Defines _fetch_bytes in cordis.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-access",
+        "cordis"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/cordis.py:_parse_decimal",
+      "type": "function",
+      "name": "_parse_decimal",
+      "filePath": "engine/feeds/cordis.py",
+      "lineRange": [
+        346,
+        358
+      ],
+      "summary": "Defines _parse_decimal in cordis.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "cordis"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/cordis.py:_date_year",
+      "type": "function",
+      "name": "_date_year",
+      "filePath": "engine/feeds/cordis.py",
+      "lineRange": [
+        361,
+        371
+      ],
+      "summary": "Defines _date_year in cordis.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cordis"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/cordis.py:_project_year",
+      "type": "function",
+      "name": "_project_year",
+      "filePath": "engine/feeds/cordis.py",
+      "lineRange": [
+        374,
+        379
+      ],
+      "summary": "Defines _project_year in cordis.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cordis"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/cordis.py:_row_date",
+      "type": "function",
+      "name": "_row_date",
+      "filePath": "engine/feeds/cordis.py",
+      "lineRange": [
+        382,
+        387
+      ],
+      "summary": "Defines _row_date in cordis.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cordis"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/cordis.py:_csv_rows_from_zip",
+      "type": "function",
+      "name": "_csv_rows_from_zip",
+      "filePath": "engine/feeds/cordis.py",
+      "lineRange": [
+        390,
+        403
+      ],
+      "summary": "Defines _csv_rows_from_zip in cordis.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cordis"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/cordis.py:_label_map",
+      "type": "function",
+      "name": "_label_map",
+      "filePath": "engine/feeds/cordis.py",
+      "lineRange": [
+        406,
+        418
+      ],
+      "summary": "Defines _label_map in cordis.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cordis"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/cordis.py:_project_text",
+      "type": "function",
+      "name": "_project_text",
+      "filePath": "engine/feeds/cordis.py",
+      "lineRange": [
+        421,
+        431
+      ],
+      "summary": "Defines _project_text in cordis.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cordis"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/cordis.py:_matches",
+      "type": "function",
+      "name": "_matches",
+      "filePath": "engine/feeds/cordis.py",
+      "lineRange": [
+        434,
+        435
+      ],
+      "summary": "Defines _matches in cordis.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cordis"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/cordis.py:normalize_projects",
+      "type": "function",
+      "name": "normalize_projects",
+      "filePath": "engine/feeds/cordis.py",
+      "lineRange": [
+        438,
+        539
+      ],
+      "summary": "Defines normalize_projects in cordis.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "cordis"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/feeds/cordis.py:_load_dataset",
+      "type": "function",
+      "name": "_load_dataset",
+      "filePath": "engine/feeds/cordis.py",
+      "lineRange": [
+        542,
+        551
+      ],
+      "summary": "Defines _load_dataset in cordis.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cordis"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/cordis.py:collect",
+      "type": "function",
+      "name": "collect",
+      "filePath": "engine/feeds/cordis.py",
+      "lineRange": [
+        554,
+        581
+      ],
+      "summary": "Defines collect in cordis.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cordis"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:engine/feeds/cordis.py:DatasetSpec",
+      "type": "class",
+      "name": "DatasetSpec",
+      "filePath": "engine/feeds/cordis.py",
+      "lineRange": [
+        33,
+        36
+      ],
+      "summary": "Defines DatasetSpec in cordis.py, encapsulating reusable behavior or state for this module.",
+      "tags": [
+        "class",
+        "implementation",
+        "cordis"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:engine/feeds/cordis.py:Topic",
+      "type": "class",
+      "name": "Topic",
+      "filePath": "engine/feeds/cordis.py",
+      "lineRange": [
+        40,
+        43
+      ],
+      "summary": "Defines Topic in cordis.py, encapsulating reusable behavior or state for this module.",
+      "tags": [
+        "class",
+        "implementation",
+        "cordis"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:engine/disk_guard.py",
+      "target": "function:engine/disk_guard.py:usage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/disk_guard.py",
+      "target": "function:engine/disk_guard.py:usage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/disk_guard.py",
+      "target": "function:engine/disk_guard.py:assert_safe",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/disk_guard.py",
+      "target": "function:engine/disk_guard.py:assert_safe",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/disk_guard.py",
+      "target": "class:engine/disk_guard.py:DiskSpaceError",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/disk_guard.py",
+      "target": "class:engine/disk_guard.py:DiskSpaceError",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/baci.py",
+      "target": "function:engine/feeds/baci.py:_download",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/baci.py",
+      "target": "function:engine/feeds/baci.py:_download",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/baci.py",
+      "target": "function:engine/feeds/baci.py:_find_member",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/baci.py",
+      "target": "function:engine/feeds/baci.py:_find_member",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/baci.py",
+      "target": "function:engine/feeds/baci.py:_read_countries",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/baci.py",
+      "target": "function:engine/feeds/baci.py:_read_countries",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/baci.py",
+      "target": "function:engine/feeds/baci.py:_year_members",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/baci.py",
+      "target": "function:engine/feeds/baci.py:_year_members",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/baci.py",
+      "target": "function:engine/feeds/baci.py:_hhi_and_top_share",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/baci.py",
+      "target": "function:engine/feeds/baci.py:_hhi_and_top_share",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/baci.py",
+      "target": "function:engine/feeds/baci.py:_series_row",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/baci.py",
+      "target": "function:engine/feeds/baci.py:_series_row",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/baci.py",
+      "target": "function:engine/feeds/baci.py:_process_zip",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/baci.py",
+      "target": "function:engine/feeds/baci.py:_process_zip",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/baci.py",
+      "target": "function:engine/feeds/baci.py:collect",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/baci.py",
+      "target": "function:engine/feeds/baci.py:collect",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/baci.py",
+      "target": "function:engine/feeds/baci.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/baci.py",
+      "target": "function:engine/feeds/baci.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/baci.py",
+      "target": "class:engine/feeds/baci.py:Country",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/baci.py",
+      "target": "class:engine/feeds/baci.py:Country",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/clinicaltrials.py",
+      "target": "function:engine/feeds/clinicaltrials.py:_today",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/clinicaltrials.py",
+      "target": "function:engine/feeds/clinicaltrials.py:_today",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/clinicaltrials.py",
+      "target": "function:engine/feeds/clinicaltrials.py:_existing_line_count",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/clinicaltrials.py",
+      "target": "function:engine/feeds/clinicaltrials.py:_existing_line_count",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/clinicaltrials.py",
+      "target": "function:engine/feeds/clinicaltrials.py:_write_jsonl_atomic",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/clinicaltrials.py",
+      "target": "function:engine/feeds/clinicaltrials.py:_write_jsonl_atomic",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/clinicaltrials.py",
+      "target": "function:engine/feeds/clinicaltrials.py:_fetch_json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/clinicaltrials.py",
+      "target": "function:engine/feeds/clinicaltrials.py:_fetch_json",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/clinicaltrials.py",
+      "target": "function:engine/feeds/clinicaltrials.py:fetch_topic",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/clinicaltrials.py",
+      "target": "function:engine/feeds/clinicaltrials.py:fetch_topic",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/clinicaltrials.py",
+      "target": "function:engine/feeds/clinicaltrials.py:_date_from_struct",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/clinicaltrials.py",
+      "target": "function:engine/feeds/clinicaltrials.py:_date_from_struct",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/clinicaltrials.py",
+      "target": "function:engine/feeds/clinicaltrials.py:_protocol",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/clinicaltrials.py",
+      "target": "function:engine/feeds/clinicaltrials.py:_protocol",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/clinicaltrials.py",
+      "target": "function:engine/feeds/clinicaltrials.py:_study_first_posted",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/clinicaltrials.py",
+      "target": "function:engine/feeds/clinicaltrials.py:_study_first_posted",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/clinicaltrials.py",
+      "target": "function:engine/feeds/clinicaltrials.py:_status",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/clinicaltrials.py",
+      "target": "function:engine/feeds/clinicaltrials.py:_status",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/clinicaltrials.py",
+      "target": "function:engine/feeds/clinicaltrials.py:_phases",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/clinicaltrials.py",
+      "target": "function:engine/feeds/clinicaltrials.py:_phases",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/clinicaltrials.py",
+      "target": "function:engine/feeds/clinicaltrials.py:_enrollment",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/clinicaltrials.py",
+      "target": "function:engine/feeds/clinicaltrials.py:_enrollment",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/clinicaltrials.py",
+      "target": "function:engine/feeds/clinicaltrials.py:_study_stub",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/clinicaltrials.py",
+      "target": "function:engine/feeds/clinicaltrials.py:_study_stub",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/clinicaltrials.py",
+      "target": "function:engine/feeds/clinicaltrials.py:_examples",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/clinicaltrials.py",
+      "target": "function:engine/feeds/clinicaltrials.py:_examples",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/clinicaltrials.py",
+      "target": "function:engine/feeds/clinicaltrials.py:normalize",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/clinicaltrials.py",
+      "target": "function:engine/feeds/clinicaltrials.py:normalize",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/clinicaltrials.py",
+      "target": "function:engine/feeds/clinicaltrials.py:collect",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/clinicaltrials.py",
+      "target": "function:engine/feeds/clinicaltrials.py:collect",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/comtrade.py",
+      "target": "function:engine/feeds/comtrade.py:_row_key",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/comtrade.py",
+      "target": "function:engine/feeds/comtrade.py:_row_key",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/comtrade.py",
+      "target": "function:engine/feeds/comtrade.py:_existing_rows",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/comtrade.py",
+      "target": "function:engine/feeds/comtrade.py:_existing_rows",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/comtrade.py",
+      "target": "function:engine/feeds/comtrade.py:_merge_rows",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/comtrade.py",
+      "target": "function:engine/feeds/comtrade.py:_merge_rows",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/comtrade.py",
+      "target": "function:engine/feeds/comtrade.py:_write_rows",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/comtrade.py",
+      "target": "function:engine/feeds/comtrade.py:_write_rows",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/comtrade.py",
+      "target": "function:engine/feeds/comtrade.py:_fetch_json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/comtrade.py",
+      "target": "function:engine/feeds/comtrade.py:_fetch_json",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/comtrade.py",
+      "target": "function:engine/feeds/comtrade.py:_is_total_row",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/comtrade.py",
+      "target": "function:engine/feeds/comtrade.py:_is_total_row",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/comtrade.py",
+      "target": "function:engine/feeds/comtrade.py:fetch_commodity",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/comtrade.py",
+      "target": "function:engine/feeds/comtrade.py:fetch_commodity",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/comtrade.py",
+      "target": "function:engine/feeds/comtrade.py:normalize",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/comtrade.py",
+      "target": "function:engine/feeds/comtrade.py:normalize",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/comtrade.py",
+      "target": "function:engine/feeds/comtrade.py:collect",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/comtrade.py",
+      "target": "function:engine/feeds/comtrade.py:collect",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/cordis.py",
+      "target": "function:engine/feeds/cordis.py:_today",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/cordis.py",
+      "target": "function:engine/feeds/cordis.py:_today",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/cordis.py",
+      "target": "function:engine/feeds/cordis.py:_write_jsonl_atomic",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/cordis.py",
+      "target": "function:engine/feeds/cordis.py:_write_jsonl_atomic",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/cordis.py",
+      "target": "function:engine/feeds/cordis.py:_existing_line_count",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/cordis.py",
+      "target": "function:engine/feeds/cordis.py:_existing_line_count",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/cordis.py",
+      "target": "function:engine/feeds/cordis.py:_fetch_bytes",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/cordis.py",
+      "target": "function:engine/feeds/cordis.py:_fetch_bytes",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/cordis.py",
+      "target": "function:engine/feeds/cordis.py:_parse_decimal",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/cordis.py",
+      "target": "function:engine/feeds/cordis.py:_parse_decimal",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/cordis.py",
+      "target": "function:engine/feeds/cordis.py:_date_year",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/cordis.py",
+      "target": "function:engine/feeds/cordis.py:_date_year",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/cordis.py",
+      "target": "function:engine/feeds/cordis.py:_project_year",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/cordis.py",
+      "target": "function:engine/feeds/cordis.py:_project_year",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/cordis.py",
+      "target": "function:engine/feeds/cordis.py:_row_date",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/cordis.py",
+      "target": "function:engine/feeds/cordis.py:_row_date",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/cordis.py",
+      "target": "function:engine/feeds/cordis.py:_csv_rows_from_zip",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/cordis.py",
+      "target": "function:engine/feeds/cordis.py:_csv_rows_from_zip",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/cordis.py",
+      "target": "function:engine/feeds/cordis.py:_label_map",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/cordis.py",
+      "target": "function:engine/feeds/cordis.py:_label_map",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/cordis.py",
+      "target": "function:engine/feeds/cordis.py:_project_text",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/cordis.py",
+      "target": "function:engine/feeds/cordis.py:_project_text",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/cordis.py",
+      "target": "function:engine/feeds/cordis.py:_matches",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/cordis.py",
+      "target": "function:engine/feeds/cordis.py:_matches",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/cordis.py",
+      "target": "function:engine/feeds/cordis.py:normalize_projects",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/cordis.py",
+      "target": "function:engine/feeds/cordis.py:normalize_projects",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/cordis.py",
+      "target": "function:engine/feeds/cordis.py:_load_dataset",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/cordis.py",
+      "target": "function:engine/feeds/cordis.py:_load_dataset",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/cordis.py",
+      "target": "function:engine/feeds/cordis.py:collect",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/cordis.py",
+      "target": "function:engine/feeds/cordis.py:collect",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/cordis.py",
+      "target": "class:engine/feeds/cordis.py:DatasetSpec",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/cordis.py",
+      "target": "class:engine/feeds/cordis.py:DatasetSpec",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/cordis.py",
+      "target": "class:engine/feeds/cordis.py:Topic",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/cordis.py",
+      "target": "class:engine/feeds/cordis.py:Topic",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/baci.py",
+      "target": "file:engine/__init__.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/feeds/baci.py",
+      "target": "file:engine/disk_guard.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "function:engine/disk_guard.py:assert_safe",
+      "target": "function:engine/disk_guard.py:usage",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/disk_guard.py:assert_safe",
+      "target": "class:engine/disk_guard.py:DiskSpaceError",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/baci.py:_read_countries",
+      "target": "function:engine/feeds/baci.py:_find_member",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/baci.py:_read_countries",
+      "target": "class:engine/feeds/baci.py:Country",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/baci.py:_process_zip",
+      "target": "function:engine/feeds/baci.py:_read_countries",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/baci.py:_process_zip",
+      "target": "function:engine/feeds/baci.py:_year_members",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/baci.py:_process_zip",
+      "target": "function:engine/feeds/baci.py:_hhi_and_top_share",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/baci.py:_process_zip",
+      "target": "function:engine/feeds/baci.py:_series_row",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/baci.py:collect",
+      "target": "function:engine/feeds/baci.py:_download",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/baci.py:collect",
+      "target": "function:engine/feeds/baci.py:_process_zip",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/baci.py:main",
+      "target": "function:engine/feeds/baci.py:collect",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/clinicaltrials.py:fetch_topic",
+      "target": "function:engine/feeds/clinicaltrials.py:_fetch_json",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/clinicaltrials.py:_study_first_posted",
+      "target": "function:engine/feeds/clinicaltrials.py:_protocol",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/clinicaltrials.py:_study_first_posted",
+      "target": "function:engine/feeds/clinicaltrials.py:_date_from_struct",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/clinicaltrials.py:_status",
+      "target": "function:engine/feeds/clinicaltrials.py:_protocol",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/clinicaltrials.py:_phases",
+      "target": "function:engine/feeds/clinicaltrials.py:_protocol",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/clinicaltrials.py:_enrollment",
+      "target": "function:engine/feeds/clinicaltrials.py:_protocol",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/clinicaltrials.py:_study_stub",
+      "target": "function:engine/feeds/clinicaltrials.py:_protocol",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/clinicaltrials.py:_study_stub",
+      "target": "function:engine/feeds/clinicaltrials.py:_study_first_posted",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/clinicaltrials.py:_study_stub",
+      "target": "function:engine/feeds/clinicaltrials.py:_status",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/clinicaltrials.py:_study_stub",
+      "target": "function:engine/feeds/clinicaltrials.py:_phases",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/clinicaltrials.py:_study_stub",
+      "target": "function:engine/feeds/clinicaltrials.py:_enrollment",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/clinicaltrials.py:_examples",
+      "target": "function:engine/feeds/clinicaltrials.py:_study_stub",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/clinicaltrials.py:normalize",
+      "target": "function:engine/feeds/clinicaltrials.py:_today",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/clinicaltrials.py:normalize",
+      "target": "function:engine/feeds/clinicaltrials.py:_study_first_posted",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/clinicaltrials.py:normalize",
+      "target": "function:engine/feeds/clinicaltrials.py:_status",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/clinicaltrials.py:normalize",
+      "target": "function:engine/feeds/clinicaltrials.py:_phases",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/clinicaltrials.py:normalize",
+      "target": "function:engine/feeds/clinicaltrials.py:_examples",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/clinicaltrials.py:collect",
+      "target": "function:engine/feeds/clinicaltrials.py:_today",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/clinicaltrials.py:collect",
+      "target": "function:engine/feeds/clinicaltrials.py:fetch_topic",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/clinicaltrials.py:collect",
+      "target": "function:engine/feeds/clinicaltrials.py:normalize",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/clinicaltrials.py:collect",
+      "target": "function:engine/feeds/clinicaltrials.py:_existing_line_count",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/clinicaltrials.py:collect",
+      "target": "function:engine/feeds/clinicaltrials.py:_write_jsonl_atomic",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/comtrade.py:_existing_rows",
+      "target": "function:engine/feeds/comtrade.py:_row_key",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/comtrade.py:_merge_rows",
+      "target": "function:engine/feeds/comtrade.py:_row_key",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/comtrade.py:fetch_commodity",
+      "target": "function:engine/feeds/comtrade.py:_fetch_json",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/comtrade.py:fetch_commodity",
+      "target": "function:engine/feeds/comtrade.py:_is_total_row",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/comtrade.py:collect",
+      "target": "function:engine/feeds/comtrade.py:fetch_commodity",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/comtrade.py:collect",
+      "target": "function:engine/feeds/comtrade.py:normalize",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/comtrade.py:collect",
+      "target": "function:engine/feeds/comtrade.py:_existing_rows",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/comtrade.py:collect",
+      "target": "function:engine/feeds/comtrade.py:_merge_rows",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/comtrade.py:collect",
+      "target": "function:engine/feeds/comtrade.py:_write_rows",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/cordis.py:_project_year",
+      "target": "function:engine/feeds/cordis.py:_date_year",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/cordis.py:_label_map",
+      "target": "function:engine/feeds/cordis.py:_csv_rows_from_zip",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/cordis.py:normalize_projects",
+      "target": "function:engine/feeds/cordis.py:_today",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/cordis.py:normalize_projects",
+      "target": "function:engine/feeds/cordis.py:_project_year",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/cordis.py:normalize_projects",
+      "target": "function:engine/feeds/cordis.py:_row_date",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/cordis.py:normalize_projects",
+      "target": "function:engine/feeds/cordis.py:_project_text",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/cordis.py:normalize_projects",
+      "target": "function:engine/feeds/cordis.py:_matches",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/cordis.py:normalize_projects",
+      "target": "function:engine/feeds/cordis.py:_parse_decimal",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/cordis.py:_load_dataset",
+      "target": "function:engine/feeds/cordis.py:_fetch_bytes",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/cordis.py:_load_dataset",
+      "target": "function:engine/feeds/cordis.py:_label_map",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/cordis.py:_load_dataset",
+      "target": "function:engine/feeds/cordis.py:_csv_rows_from_zip",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/cordis.py:collect",
+      "target": "function:engine/feeds/cordis.py:_load_dataset",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/cordis.py:collect",
+      "target": "function:engine/feeds/cordis.py:normalize_projects",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/cordis.py:collect",
+      "target": "function:engine/feeds/cordis.py:_existing_line_count",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/cordis.py:collect",
+      "target": "function:engine/feeds/cordis.py:_write_jsonl_atomic",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

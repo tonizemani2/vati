@@ -1,0 +1,264 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><title>After AI: where the constraint moves when intelligence leaves the screen</title><style>
+  @font-face{font-family:'Gt Standard';font-weight:400;font-style:normal;font-display:swap;src:url('https://cdn.prod.website-files.com/68907168d294618a86ec6518/689b297557d89256a5697b72_GT-Standard-L-Standard-Regular.woff2') format('woff2');}
+  @font-face{font-family:'Gt Standard';font-weight:500;font-style:normal;font-display:swap;src:url('https://cdn.prod.website-files.com/68907168d294618a86ec6518/689b2975a12fc701f9f074a9_GT-Standard-L-Standard-Medium.woff2') format('woff2');}
+  @font-face{font-family:'Gt Standard Mono';font-weight:500;font-style:normal;font-display:swap;src:url('https://cdn.prod.website-files.com/68907168d294618a86ec6518/689b29750af0e8f994b5a45e_GT-Standard-Mono-Narrow-Medium.woff2') format('woff2');}
+
+  :root { --page:#fbfaf7; --paper:#f2f0ea; --ink:#151515; --text:#33312d; --mut:#706c65; --quiet:#9b958d; --line:#d9d4cc; --line-strong:#151515; --accent:#244fd8; --accent-soft:#eef2ff; }
+  @page { size: Letter; margin: 18mm 17mm 18mm 17mm;
+    @bottom-left { content: "Vaticinus"; font-family: 'Gt Standard Mono', monospace; font-size: 7.5pt; color: #a7a19a; }
+    @bottom-center { content: counter(page); font-family: 'Gt Standard Mono', monospace; font-size: 8pt; color: #a7a19a; } }
+  html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  body { font-family: 'Gt Standard', Arial, sans-serif; font-weight: 400; color: var(--text); line-height: 1.48; font-size: 10pt; margin: 0; background: var(--page); }
+  h1, h2, h3, h4 { font-family: 'Gt Standard', Arial, sans-serif; font-weight: 500; color: var(--ink); line-height: 1.08; letter-spacing: 0; }
+  h1 { font-size: 34pt; margin: 0; max-width: 650px; }
+  h2 { font-size: 17pt; margin: 0; }
+  h3 { font-size: 11.8pt; margin: 18px 0 5px; color: var(--ink); }
+  h4 { font-family: 'Gt Standard Mono', monospace; font-size: 8.2pt; margin: 12px 0 3px; color: var(--mut); }
+  p { margin: 0 0 8px; }
+  .accent { color: var(--accent); } .muted { color: var(--mut); } .small { font-size: 8.7pt; } strong { color: var(--ink); font-weight: 500; }
+  .cover { min-height: 238mm; display: flex; flex-direction: column; }
+  .cover .mast { display: flex; justify-content: space-between; align-items: baseline; border-top: 2px solid var(--ink); border-bottom: 1px solid var(--line); padding: 8px 0 10px; font-family: 'Gt Standard Mono', monospace; font-weight: 500; font-size: 8pt; color: var(--mut); }
+  .cover .mast span:last-child { color: var(--accent); }
+  .cover .title-block { padding-top: 33mm; }
+  .cover .sub { font-size: 13.5pt; color: var(--mut); margin-top: 10px; max-width: 610px; line-height: 1.38; }
+  .cover .frame { margin-top: auto; display: grid; grid-template-columns: 1.15fr .85fr; gap: 18px; border-top: 2px solid var(--ink); border-bottom: 1px solid var(--line); padding: 15px 0 14px; }
+  .cover .frame-copy { font-size: 10pt; max-width: 420px; }
+  .cover .frame-copy .label { display: block; font-family: 'Gt Standard Mono', monospace; font-weight: 500; font-size: 7.7pt; color: var(--accent); margin-bottom: 4px; }
+  .cover .meta { display: grid; grid-template-columns: 1fr; gap: 7px; font-size: 9pt; }
+  .cover .meta div { border-top: 1px solid var(--line); padding-top: 6px; }
+  .cover .meta span { display: block; font-family: 'Gt Standard Mono', monospace; font-size: 7.3pt; color: var(--quiet); margin-bottom: 1px; }
+  .page-break { page-break-before: always; }
+  .section-rule { border-top: 2px solid var(--ink); padding-top: 10px; margin-bottom: 14px; }
+  table { border-collapse: collapse; table-layout: fixed; width: 100%; font-size: 8.1pt; line-height: 1.28; margin: 10px 0 11px; border-top: 1.5px solid var(--ink); border-bottom: 1px solid var(--line); }
+  th, td { text-align: left; padding: 4.5px 6px; vertical-align: top; overflow-wrap: anywhere; }
+  thead th { border-bottom: 1px solid var(--ink); color: var(--mut); font-family: 'Gt Standard Mono', monospace; font-weight: 500; font-size: 7.3pt; }
+  tbody tr + tr { border-top: 1px solid var(--line); }
+  tbody tr:nth-child(even) { background: rgba(242,240,234,.58); }
+  tr { break-inside: avoid; }
+  td.num { font-family: 'Gt Standard Mono', monospace; font-variant-numeric: tabular-nums; white-space: nowrap; }
+  .thesis { page-break-before: always; }
+  .thesis-head { display: grid; grid-template-columns: 42px 1fr; gap: 13px; border-top: 2px solid var(--ink); padding-top: 10px; margin-bottom: 8px; }
+  .thesis-head .id { font-family: 'Gt Standard Mono', monospace; font-weight: 500; font-size: 9pt; color: var(--accent); padding-top: 2px; }
+  .thesis-head h2 { font-size: 16.2pt; }
+  .thesis-meta { display: grid; grid-template-columns: 1fr 108px; gap: 16px; margin: 6px 0 12px 55px; color: var(--mut); font-size: 8.7pt; }
+  .thesis-meta .date { font-family: 'Gt Standard Mono', monospace; color: var(--ink); text-align: right; }
+  .prob-band { display: grid; grid-template-columns: 1fr 1fr 1.18fr; margin: 11px 0 14px 55px; border-top: 1.5px solid var(--ink); border-bottom: 1px solid var(--line); }
+  .prob-card { padding: 8px 10px 9px; border-right: 1px solid var(--line); }
+  .prob-card:last-child { border-right: 0; }
+  .prob-card .label { font-family: 'Gt Standard Mono', monospace; font-weight: 500; font-size: 7.2pt; color: var(--quiet); }
+  .prob-card .val { font-family: 'Gt Standard', Arial, sans-serif; font-weight: 500; font-size: 20pt; color: var(--ink); line-height: 1.05; }
+  .prob-card.clause .val { color: var(--accent); }
+  .prob-card .val.sm { font-size: 11.6pt; padding-top: 5px; font-family: 'Gt Standard Mono', monospace; }
+  .thesis-body { margin-left: 55px; }
+  .lead { font-size: 10.5pt; color: var(--ink); margin-bottom: 10px; }
+  .field, .why { display: grid; grid-template-columns: 138px 1fr; gap: 14px; border-top: 1px solid var(--line); padding-top: 7px; margin: 0 0 8px; break-inside: avoid; }
+  .field .k, .why .k { font-family: 'Gt Standard Mono', monospace; font-weight: 500; font-size: 7.4pt; color: var(--mut); }
+  .why { background: var(--accent-soft); border-top: 0; border-left: 3px solid var(--accent); padding: 9px 11px; margin: 11px 0; }
+  .impl { margin: 13px 0 4px; padding: 11px 12px; background: #f6f7fb; border: 1px solid var(--line); border-left: 3px solid var(--accent); break-inside: avoid; }
+  .impl .k { font-family: 'Gt Standard Mono', monospace; font-weight: 500; font-size: 7.4pt; color: var(--accent); display: block; margin-bottom: 4px; }
+  .impl p { margin: 0 0 7px; }
+  .decision { display: grid; grid-template-columns: 1fr 1fr; gap: 9px 12px; margin: 8px 0 10px; }
+  .decision .ditem { border-top: 1px solid var(--line); padding-top: 5px; }
+  .decision .dk { display: block; font-family: 'Gt Standard Mono', monospace; font-weight: 500; font-size: 7.1pt; color: var(--mut); margin-bottom: 2px; }
+  .wl { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin: 8px 0 10px; }
+  .wl .col { border-top: 1px solid var(--line); padding-top: 5px; }
+  .wl h5 { font-family: 'Gt Standard Mono', monospace; font-weight: 500; font-size: 7.2pt; color: var(--mut); margin: 0 0 5px; }
+  .wl .row { margin: 0 0 5px; font-size: 8.8pt; line-height: 1.38; }
+  .wl .who { font-weight: 500; color: var(--ink); }
+  .impl .sub { margin-top: 7px; }
+  .footer-note { margin-top: 8px; font-family: 'Gt Standard Mono', monospace; font-size: 7.8pt; color: var(--quiet); }
+</style></head><body><section class="cover">
+  <div class="mast"><span>Vaticinus forecast board</span><span>Dated / falsifiable</span></div>
+  <div class="title-block">
+    <h1>After AI: where the constraint moves when intelligence leaves the screen</h1>
+    <div class="sub"><em>The next boom is not another chatbot layer. The rent moves to power, bodies, labs, devices, factories, and liability rails, because those are the inputs that do not scale at software speed.</em></div>
+  </div>
+  <div class="frame">
+    <div class="frame-copy"><span class="label">Frame</span>When a system scales, the money moves to the input that cannot scale with it. This board names that input, the date it starts to bite, and the line that would break the call.</div>
+    <div class="meta">
+      <div><span>Area</span>what comes next after AI</div>
+      <div><span>Horizon</span>2028 to 2031</div>
+      <div><span>Issued</span>2026-06-17</div>
+      <div><span>Method</span>Wide cast, adversarial gate, public resolution criteria.</div>
+    </div>
+  </div>
+</section>
+<section class="page-break">
+  <div class="section-rule"><h2>Board summary</h2></div>
+  <h3>The cross-cutting read</h3><p>The shared shift is that AI stops being mainly a model market and becomes a physical deployment market. The obvious layers, GPUs, frontier labs, generic agents, and benchmark wins, are no longer where the edge lives. The edge moves into the inputs that cannot answer a software-speed demand curve: firm power and siting, robot commissioning and safety validation, experimental throughput, always-on edge thermals, biomanufacturing scale-up, and auditable authority for agents that can act. The commercial wedge for Vati is to identify these binding constraints before they change capex, procurement, site selection, portfolio exposure, compliance budgets, or partnership timing.</p>
+  <h3>At a glance</h3>
+  <table><thead><tr>
+    <th style="width:6%">#</th><th style="width:36%">Claim</th><th style="width:31%">Binding constraint</th>
+    <th class="num" style="width:8%">Case</th><th class="num" style="width:9%">Call</th><th class="num" style="width:10%">Resolves</th>
+  </tr></thead><tbody><tr><td>P1</td><td>Behind-the-meter firm power, geothermal-capable campuses, and data-center sites with power rights become strategic AI...</td><td>Contiguous land, fiber proximity, behind-the-meter firm generation rights, interconnection optionality...</td><td class="num">82%</td><td class="num">52%</td><td class="num">2028-12-31</td></tr><tr><td>P2</td><td>Robot commissioning software, safety validation, simulation assets, and task libraries capture more durable value than...</td><td>Verified task data, sim-to-real validation, workcell commissioning, safety certification, and field support...</td><td class="num">78%</td><td class="num">46%</td><td class="num">2028-12-31</td></tr><tr><td>P3</td><td>Self-driving labs, assay capacity, robotic testbeds, metadata infrastructure, and provenance systems become the scarce...</td><td>Robotic experimental throughput with standardized metadata, reliable assays, calibrated uncertainty, and...</td><td class="num">76%</td><td class="num">44%</td><td class="num">2029-12-31</td></tr><tr><td>P4</td><td>Wearables, glasses, phones, cars, drones, and robots with local NPUs become the main surface where AI feels useful.</td><td>Low-power NPUs, sensor fusion, local memory, privacy-preserving orchestration, and thermal envelopes for...</td><td class="num">70%</td><td class="num">43%</td><td class="num">2028-12-31</td></tr><tr><td>P5</td><td>Pilot fermentation, downstream processing, QA, feedstock contracts, and industrial bioprocess talent become more...</td><td>Pilot and commercial-scale fermentation, downstream processing, strain robustness, feedstock flexibility, QA...</td><td class="num">72%</td><td class="num">41%</td><td class="num">2030-12-31</td></tr><tr><td>P6</td><td>Agent security, identity, execution controls, audit logs, insurance, and governance middleware become the enterprise...</td><td>Identity, permissioning, tool-access control, audit trails, reversible execution, human authorization...</td><td class="num">74%</td><td class="num">48%</td><td class="num">2028-06-30</td></tr></tbody></table>
+  <p class="small muted">Case is the strength of the structural thesis. Call is the probability on the exact dated clause.</p>
+</section>
+<section class="thesis">
+  <div class="thesis-head"><span class="id">P1</span><h2>The AI frontier moves from model access to firm-power siting.</h2></div>
+  <div class="thesis-meta"><div>Domain: AI infrastructure / energy</div><div class="date">2028-12-31</div></div>
+  <div class="prob-band">
+    <div class="prob-card vision"><div class="label">Structural case</div><div class="val">82%</div></div>
+    <div class="prob-card clause"><div class="label">Our call, dated</div><div class="val">52%</div></div>
+    <div class="prob-card date"><div class="label">Resolves</div><div class="val sm">2028-12-31</div></div>
+  </div>
+  <div class="thesis-body"><p class="lead">Data-center electricity demand is rising faster than grid equipment, interconnection, and local political consent can adjust. Rhodium cites LBL projections that US data centers could reach 7 to 12 percent of US electricity demand by 2028, while pv magazine reported four-year waits for power transformers in May 2026. Once GPU access is not the only scarcity, the gating variable becomes where a buyer can get clean, firm, permitted electricity without waiting in the queue.</p>
+<div class="field"><span class="k">The boom</span>
+Behind-the-meter firm power, geothermal-capable campuses, and data-center sites with power rights become strategic AI assets.</div>
+<div class="field"><span class="k">Why it is not priced yet</span>
+The market sees power constraints, but still talks about AI infrastructure as a chip and cloud-capex race. The less priced layer is site selection as an energy-development problem: fiber plus land plus behind-the-meter generation plus permitting, especially where next-generation geothermal can bypass interconnection delays.</div>
+<div class="field"><span class="k">Where the price sits today</span>
+Transformer shortage and grid congestion are visible. The residual edge is not the fact that power is tight; it is the claim that firm-power site rights become a primary AI platform asset, and that geothermal or other clean firm behind-the-meter resources get valued as AI infrastructure rather than as ordinary generation.</div>
+<div class="field"><span class="k">The binding constraint</span>
+Contiguous land, fiber proximity, behind-the-meter firm generation rights, interconnection optionality, cooling, and local permitting bundled into a deployable data-center campus.</div>
+<div class="field"><span class="k">What we are watching</span>
+Track hyperscaler and data-center developer announcements that name on-site firm power, geothermal, or interconnection bypass as the reason for site selection; count 100 MW plus campuses with direct power-development partnerships; track transformer lead times and local moratoria.</div>
+<div class="field"><span class="k">What would prove us wrong</span>
+Kill if by end 2028 fewer than two hyperscaler-scale campuses publicly secure behind-the-meter firm clean generation as a core siting advantage, or if transformer and interconnection delays normalize below roughly 24 months in the main US AI data-center markets.</div>
+<div class="field"><span class="k">How we tried to break it</span>
+Already priced at the headline power level, not at the site-rights level. The obvious constraint is power. The promoted claim is narrower: the next strategic asset is not generic megawatts, but the combined package of firm power, land, fiber, and permission that lets AI load come online faster than grid-dependent sites.</div>
+<div class="why"><span class="k">Why we are making the call</span>
+The first-order AI power story is now consensus. The second-order call survives because it names where the rent migrates after that consensus: not just to generators, but to sites and developers that can collapse the time from model demand to energized capacity.</div>
+<div class="impl"><div class="k">If the call is right</div><div class="decision"><div class="ditem"><span class="dk">Who is exposed</span>Hyperscaler infrastructure teams, data-center developers, power developers, large AI labs with reserved compute needs, and investors underwriting AI infrastructure.</div><div class="ditem"><span class="dk">Action now</span>Map sites by firm-power time-to-energize, not just land cost and fiber; secure options on campuses where geothermal, gas with carbon capture, nuclear restart, or other firm power can be contracted behind the meter.</div><div class="ditem"><span class="dk">Decision it changes</span>Data-center site selection, PPA strategy, power-development partnerships, capex phasing, and portfolio exposure to grid-dependent versus power-secured data-center assets.</div><div class="ditem"><span class="dk">ROI / risk logic</span>A site that energizes 12 to 24 months earlier can be worth more than a cheaper site with stranded shells and delayed transformers. The asymmetry is time: idle GPUs and delayed leases burn capital while power-secured campuses monetize demand.</div></div><p>Rent lands in developers and landowners with power-secured campuses, geothermal developers such as Fervo-style EGS operators, and utilities or IPPs that can deliver firm interconnection alternatives. It does not land evenly across data-center real estate.</p><div class="wl"><div class="col gain"><h5>Who gains</h5><div class="row"><span class="who">Geothermal and clean firm power developers</span>: They turn data-center load into a bankable offtake and bypass part of the grid queue.</div><div class="row"><span class="who">Data-center developers with power-secured land</span>: They can sell time-to-energize, not square footage.</div><div class="row"><span class="who">Hyperscalers with flexible inference siting</span>: Inference workloads can move toward power instead of clustering only near legacy hubs.</div></div><div class="col lose"><h5>Who loses</h5><div class="row"><span class="who">Grid-dependent campus projects in congested markets</span>: They face transformer, interconnection, and local consent delays that make announced capacity less real.</div><div class="row"><span class="who">AI infrastructure investors underwriting shell capacity only</span>: They risk owning buildings that cannot be energized on the underwriting timeline.</div></div></div><span class="sub k">What reprices</span><p>Power-secured land options, behind-the-meter PPAs, geothermal development rights, and data-center lease premiums should reprice upward relative to ordinary shells.</p><span class="sub k">The next constraint it creates</span><p>The next constraint moves to drilling capacity, high-voltage equipment, water and cooling permits, and local political consent for large loads.</p><span class="sub k">Earliest sign it has begun</span><p>A hyperscaler or top data-center REIT announcing a 100 MW plus campus whose stated differentiator is behind-the-meter clean firm power rather than cheap land.</p></div></div>
+</section>
+<section class="thesis">
+  <div class="thesis-head"><span class="id">P2</span><h2>Physical AI&#x27;s bottleneck is certified deployment, not robot bodies.</h2></div>
+  <div class="thesis-meta"><div>Domain: robotics / industrial automation</div><div class="date">2028-12-31</div></div>
+  <div class="prob-band">
+    <div class="prob-card vision"><div class="label">Structural case</div><div class="val">78%</div></div>
+    <div class="prob-card clause"><div class="label">Our call, dated</div><div class="val">46%</div></div>
+    <div class="prob-card date"><div class="label">Resolves</div><div class="val sm">2028-12-31</div></div>
+  </div>
+  <div class="thesis-body"><p class="lead">Humanoid and industrial robot pilots are moving toward early commercial deployment, especially in automotive and logistics, but every physical deployment has to cross a hard boundary: task data, safety, uptime, workcell integration, maintenance, and liability. NVIDIA is explicitly pushing world models, Isaac Sim, Isaac Lab, Cosmos, and GR00T as simulation and validation infrastructure. IDTechEx&#x27;s humanoid materials and robotics coverage highlights tactile sensors, training data, software, simulation, and component bottlenecks. The body is visible; the deployable task stack is the constraint.</p>
+<div class="field"><span class="k">The boom</span>
+Robot commissioning software, safety validation, simulation assets, and task libraries capture more durable value than many undifferentiated humanoid bodies.</div>
+<div class="field"><span class="k">Why it is not priced yet</span>
+Capital chases the robot OEM narrative. Buyers pay for productive hours, uptime, and safety sign-off. The pre-consensus layer is that task deployment and validation become separately priced software/services, not just bundled OEM support.</div>
+<div class="field"><span class="k">Where the price sits today</span>
+Robotics platform hype is visible in private valuations and public AI narratives. The narrower deployment-layer thesis is less directly priced because the value sits inside integration contracts, simulation tools, safety cases, and task libraries rather than a clean public instrument.</div>
+<div class="field"><span class="k">The binding constraint</span>
+Verified task data, sim-to-real validation, workcell commissioning, safety certification, and field support for physical AI in factories and warehouses.</div>
+<div class="field"><span class="k">What we are watching</span>
+Track robot OEMs or large integrators selling task libraries, simulation validation, or commissioning layers as separate line items; track public claims of 40 percent plus cuts in commissioning time; track safety certification language in physical-AI deployments.</div>
+<div class="field"><span class="k">What would prove us wrong</span>
+Kill if by end 2028 humanoid or mobile manipulation deployments scale mainly through turnkey robot hardware with little separate pricing for task validation, commissioning software, or safety case tooling.</div>
+<div class="field"><span class="k">How we tried to break it</span>
+The existing FUTURE_MAP already called auto-commissioning and robot components as bottlenecks. This call survives by shifting the buyer object: not &#x27;robotics booms&#x27;, but &#x27;deployment assurance becomes the product buyers pay for&#x27;. It is a commercial packaging call layered on the technical constraint.</div>
+<div class="why"><span class="k">Why we are making the call</span>
+Robots do not sell as intelligence; they sell as safe, repeatable labor hours. The scarce layer is the proof that a robot can do the task in a customer&#x27;s messy environment without breaking the line, hurting someone, or requiring heroic integration labor.</div>
+<div class="impl"><div class="k">If the call is right</div><div class="decision"><div class="ditem"><span class="dk">Who is exposed</span>Manufacturing COOs, logistics operators, industrial automation integrators, robot OEMs, and investors in physical AI companies.</div><div class="ditem"><span class="dk">Action now</span>Inventory repeatable tasks by commissioning burden and safety risk; structure pilots around validated productive hours and time-to-commission, not robot count or demo quality.</div><div class="ditem"><span class="dk">Decision it changes</span>Automation capex, integrator selection, pilot design, safety certification budgets, and whether to invest in robot OEMs or deployment-layer tooling.</div><div class="ditem"><span class="dk">ROI / risk logic</span>A robot that takes six months of integration labor to deliver a narrow task has poor ROI even if the body is cheap. Deployment tooling pays by converting demos into billable productive hours faster.</div></div><p>Rent flows to simulation and validation platforms, robot integrators with reusable task libraries, and OEMs that can prove uptime and safety. Commodity bodies get squeezed unless they own the deployment layer.</p><div class="wl"><div class="col gain"><h5>Who gains</h5><div class="row"><span class="who">NVIDIA Isaac/Cosmos-style simulation ecosystems</span>: They sit in the validation path between robot policy training and real-world deployment.</div><div class="row"><span class="who">Industrial integrators with reusable task libraries</span>: They turn one-off commissioning labor into repeatable software-enabled deployment.</div><div class="row"><span class="who">Manufacturers with clean process data and standardized workcells</span>: They become easier customers and capture automation ROI earlier.</div></div><div class="col lose"><h5>Who loses</h5><div class="row"><span class="who">Undifferentiated humanoid OEMs</span>: Hardware demos do not create durable margin if deployment assurance is owned elsewhere.</div><div class="row"><span class="who">Custom-only automation integrators</span>: Reusable task libraries and simulation reduce the value of bespoke labor.</div></div></div><span class="sub k">What reprices</span><p>Physical-AI valuation should migrate from unit shipments to deployment software attach rate, commissioning margin, and validated task-hour economics.</p><span class="sub k">The next constraint it creates</span><p>The next constraint becomes high-quality real-world task data, tactile sensing, safety certification labor, and maintenance networks.</p><span class="sub k">Earliest sign it has begun</span><p>A major automotive or logistics deployment where the press release names the validation, simulation, or task-library layer as the reason the rollout scaled.</p></div></div>
+</section>
+<section class="thesis">
+  <div class="thesis-head"><span class="id">P3</span><h2>Autonomous science shifts the bottleneck from model discovery to experimental throughput.</h2></div>
+  <div class="thesis-meta"><div>Domain: autonomous science / biotech / materials</div><div class="date">2029-12-31</div></div>
+  <div class="prob-band">
+    <div class="prob-card vision"><div class="label">Structural case</div><div class="val">76%</div></div>
+    <div class="prob-card clause"><div class="label">Our call, dated</div><div class="val">44%</div></div>
+    <div class="prob-card date"><div class="label">Resolves</div><div class="val sm">2029-12-31</div></div>
+  </div>
+  <div class="thesis-body"><p class="lead">AI can propose experiments faster than labs can run, measure, standardize, and trust them. DOE&#x27;s 2026 robotics and automation testbed call for autonomous scientific discovery points to the institutionalization of this bottleneck, with expected awards of 3 to 5 million dollars per year. The binding input is not another model; it is reliable experiment generation, instrument uptime, assay reproducibility, and machine-readable provenance.</p>
+<div class="field"><span class="k">The boom</span>
+Self-driving labs, assay capacity, robotic testbeds, metadata infrastructure, and provenance systems become the scarce layer under AI-for-science.</div>
+<div class="field"><span class="k">Why it is not priced yet</span>
+AI-for-science narratives still reward model papers and discovery claims. The more durable bottleneck is boring: the labs, assays, protocols, and reference data that make closed-loop discovery trustworthy.</div>
+<div class="field"><span class="k">Where the price sits today</span>
+Self-driving lab companies and lab automation vendors are funded, but the market has not cleanly priced experimental throughput as the scarce asset under model-driven discovery. Much of the value sits inside R&amp;D budgets, national labs, and pharma partnerships.</div>
+<div class="field"><span class="k">The binding constraint</span>
+Robotic experimental throughput with standardized metadata, reliable assays, calibrated uncertainty, and provenance that lets models learn from results without poisoning the loop.</div>
+<div class="field"><span class="k">What we are watching</span>
+Track DOE and national-lab testbed awards, pharma/materials partnerships that buy autonomous lab capacity, assay throughput per researcher, and publications where the bottleneck is experiment generation rather than model inference.</div>
+<div class="field"><span class="k">What would prove us wrong</span>
+Kill if by 2029 model-only AI discovery companies repeatedly produce commercially validated materials or therapies without materially expanding wet-lab or physical-test throughput.</div>
+<div class="field"><span class="k">How we tried to break it</span>
+This is not a claim that autonomous labs are unknown. The promoted edge is that experimental throughput, provenance, and assay quality become the decision-grade moat once proposal generation gets cheap.</div>
+<div class="why"><span class="k">Why we are making the call</span>
+Discovery systems learn from measurements. If measurements are slow, noisy, unstandardized, or untrusted, model quality cannot compound. The valuable asset becomes the loop, not the idea generator.</div>
+<div class="impl"><div class="k">If the call is right</div><div class="decision"><div class="ditem"><span class="dk">Who is exposed</span>Pharma R&amp;D leaders, materials companies, national labs, AI-for-science founders, and investors underwriting discovery platforms.</div><div class="ditem"><span class="dk">Action now</span>Audit which discovery programs are experiment-limited; secure access to robotic testbeds, assay vendors, and metadata/provenance infrastructure before model-generated proposal volume spikes.</div><div class="ditem"><span class="dk">Decision it changes</span>R&amp;D budget allocation between foundation models, lab automation, assay capacity, data infrastructure, and strategic partnerships.</div><div class="ditem"><span class="dk">ROI / risk logic</span>A better model has low ROI if every validation loop takes months. Shortening the experiment loop compounds across the entire discovery funnel and creates proprietary datasets competitors cannot scrape.</div></div><p>Rent lands in autonomous lab operators, instrument integration platforms, assay providers, and organizations with high-quality closed-loop experimental datasets.</p><div class="wl"><div class="col gain"><h5>Who gains</h5><div class="row"><span class="who">DOE and national lab testbed ecosystems</span>: They become shared infrastructure for autonomous discovery workflows.</div><div class="row"><span class="who">Autonomous lab operators and assay platforms</span>: They own the throughput and data rights needed to make AI-for-science real.</div><div class="row"><span class="who">R&amp;D teams with strong metadata discipline</span>: Their experiments become reusable training signal instead of isolated results.</div></div><div class="col lose"><h5>Who loses</h5><div class="row"><span class="who">Model-only discovery startups</span>: They can propose more than they can validate, making their output easy to discount.</div><div class="row"><span class="who">Manual CROs without automation or data standardization</span>: They provide services but not compounding machine-readable learning loops.</div></div></div><span class="sub k">What reprices</span><p>Autonomous lab capacity, assay contracts, and proprietary experimental datasets should command higher strategic value than generic AI-for-science claims.</p><span class="sub k">The next constraint it creates</span><p>The next constraint becomes sample preparation, protocol ontologies, instrument interoperability, and rights to high-quality negative results.</p><span class="sub k">Earliest sign it has begun</span><p>A major pharma, chemicals, or materials company publicly saying its AI discovery bottleneck is lab throughput or assay availability, not model quality.</p></div></div>
+</section>
+<section class="thesis">
+  <div class="thesis-head"><span class="id">P4</span><h2>The consumer AI interface moves to always-on edge devices, gated by thermals, battery, sensors, and privacy.</h2></div>
+  <div class="thesis-meta"><div>Domain: edge AI / consumer hardware</div><div class="date">2028-12-31</div></div>
+  <div class="prob-band">
+    <div class="prob-card vision"><div class="label">Structural case</div><div class="val">70%</div></div>
+    <div class="prob-card clause"><div class="label">Our call, dated</div><div class="val">43%</div></div>
+    <div class="prob-card date"><div class="label">Resolves</div><div class="val sm">2028-12-31</div></div>
+  </div>
+  <div class="thesis-body"><p class="lead">The next interface cannot rely on sending every private, continuous, multimodal signal to the cloud. Mordor estimates the edge AI hardware market at 30.74 billion dollars in 2026 and 68.73 billion dollars by 2031. Qualcomm&#x27;s 2026 Snapdragon Wear Elite announcement explicitly frames wearables as personal AI devices with on-device NPUs, sensor fusion, always-on context, and partners including Google, Motorola, and Samsung. The hard part is not fitting a toy model on device; it is making the device always available without killing battery, privacy, thermals, or trust.</p>
+<div class="field"><span class="k">The boom</span>
+Wearables, glasses, phones, cars, drones, and robots with local NPUs become the main surface where AI feels useful.</div>
+<div class="field"><span class="k">Why it is not priced yet</span>
+The market understands on-device AI in broad terms. The narrower call is that the winning interface is not a standalone AI gadget, but an always-on sensor-rich device layer where privacy, power, and context are the differentiators.</div>
+<div class="field"><span class="k">Where the price sits today</span>
+Chip and device companies are announcing edge AI features. The residual edge is the constraint stack: battery life, local memory, secure sensor fusion, and developer access to context without leaking user trust.</div>
+<div class="field"><span class="k">The binding constraint</span>
+Low-power NPUs, sensor fusion, local memory, privacy-preserving orchestration, and thermal envelopes for always-on personal AI.</div>
+<div class="field"><span class="k">What we are watching</span>
+Track commercial devices that run billion-parameter local models, all-day context capture, or private agentic features on wearables/glasses/phones; track battery complaints, thermal throttling, and local AI developer APIs.</div>
+<div class="field"><span class="k">What would prove us wrong</span>
+Kill if by end 2028 the dominant consumer AI usage remains cloud-chat inside phones and browsers, with wearables and glasses failing to show persistent local context as a major usage mode.</div>
+<div class="field"><span class="k">How we tried to break it</span>
+Standalone AI gadgets have already disappointed once, and phones can absorb many features. That is why the call is not &#x27;new gadget category wins&#x27;. The call is that always-on local context becomes the scarce interface layer across devices, whether branded as watch, glasses, earbuds, car, or phone.</div>
+<div class="why"><span class="k">Why we are making the call</span>
+The next UI for AI is context. Context lives near sensors, bodies, homes, and vehicles. Cloud-only agents lack the continuous private state needed to be useful, while device-only systems fail unless power and thermals work.</div>
+<div class="impl"><div class="k">If the call is right</div><div class="decision"><div class="ditem"><span class="dk">Who is exposed</span>Device OEMs, chip vendors, mobile OS teams, consumer AI app developers, regulated enterprise buyers, and privacy/security teams.</div><div class="ditem"><span class="dk">Action now</span>Design around local context and power budgets; build features that improve when personal data stays on device instead of depending on generic cloud memory.</div><div class="ditem"><span class="dk">Decision it changes</span>Hardware roadmap, NPU vendor selection, app architecture, privacy posture, and whether to build for cloud-first chat or local context surfaces.</div><div class="ditem"><span class="dk">ROI / risk logic</span>Always-on local context can raise retention and trust, while cloud-only interfaces compete on commoditized model access. Battery and privacy are the cost of admission.</div></div><p>Rent lands in chip vendors with efficient NPUs, OEMs with integrated sensor stacks, OS owners with trusted permission models, and apps that turn local context into recurring utility.</p><div class="wl"><div class="col gain"><h5>Who gains</h5><div class="row"><span class="who">Qualcomm, Apple, Samsung, and other integrated edge-AI silicon/device players</span>: They control the NPU, sensors, battery envelope, and developer surfaces.</div><div class="row"><span class="who">Privacy-preserving local agent platforms</span>: They can access sensitive context without forcing everything into cloud logs.</div><div class="row"><span class="who">Apps with daily personal context loops</span>: Health, mobility, work, and communication features improve with persistent local state.</div></div><div class="col lose"><h5>Who loses</h5><div class="row"><span class="who">Cloud-only personal assistant apps</span>: They lack trusted continuous context and face rising privacy friction.</div><div class="row"><span class="who">Low-end device makers without NPU or sensor-fusion capability</span>: They cannot support the local features users come to expect.</div></div></div><span class="sub k">What reprices</span><p>NPU-rich device BOMs, sensor vendors, secure local memory, and OS-level permission surfaces should reprice relative to generic chatbot app layers.</p><span class="sub k">The next constraint it creates</span><p>The next constraint becomes developer access to local context without privacy collapse, plus energy-efficient multimodal inference.</p><span class="sub k">Earliest sign it has begun</span><p>A Google, Samsung, Apple, or Meta product launch where the lead AI feature runs persistently on device and is marketed around private context rather than a bigger cloud model.</p></div></div>
+</section>
+<section class="thesis">
+  <div class="thesis-head"><span class="id">P5</span><h2>Biomanufacturing&#x27;s bottleneck is scale-up, not AI organism design.</h2></div>
+  <div class="thesis-meta"><div>Domain: industrial biotech / biomanufacturing</div><div class="date">2030-12-31</div></div>
+  <div class="prob-band">
+    <div class="prob-card vision"><div class="label">Structural case</div><div class="val">72%</div></div>
+    <div class="prob-card clause"><div class="label">Our call, dated</div><div class="val">41%</div></div>
+    <div class="prob-card date"><div class="label">Resolves</div><div class="val sm">2030-12-31</div></div>
+  </div>
+  <div class="thesis-body"><p class="lead">AI and metabolic engineering can generate more candidate organisms and pathways, but industrial deployment still runs through strain robustness, fermentation, downstream purification, feedstock economics, QA, and price parity. Nature Communications noted in 2026 that large-scale commercialization remains limited despite systems metabolic engineering progress, highlighting the persistent gap between lab success and industrial deployment. The model proposes; the plant decides.</p>
+<div class="field"><span class="k">The boom</span>
+Pilot fermentation, downstream processing, QA, feedstock contracts, and industrial bioprocess talent become more valuable than many AI-designed strains.</div>
+<div class="field"><span class="k">Why it is not priced yet</span>
+AI-bio narratives reward discovery speed and design quality. The underpriced layer is the boring industrial bridge from bench to tons: COGS, contamination, yield under real feedstocks, purification, regulatory proof, and buyer qualification.</div>
+<div class="field"><span class="k">Where the price sits today</span>
+Biomanufacturing capacity and CDMO services are visible, but scale-up bottlenecks are not cleanly priced as the scarce input under AI-designed biology. Many private AI-bio valuations still lean on discovery rather than manufacturability.</div>
+<div class="field"><span class="k">The binding constraint</span>
+Pilot and commercial-scale fermentation, downstream processing, strain robustness, feedstock flexibility, QA systems, and process-development talent.</div>
+<div class="field"><span class="k">What we are watching</span>
+Track AI-designed or engineered bio-products that fail or delay on COGS and scale-up; track pilot fermentation capacity, downstream bottlenecks, and offtake contracts tied to price parity rather than sustainability premium.</div>
+<div class="field"><span class="k">What would prove us wrong</span>
+Kill if by 2030 multiple AI-designed industrial bio-products reach commodity-relevant scale and price parity without scarce pilot capacity, downstream processing, or process-development labor becoming a public bottleneck.</div>
+<div class="field"><span class="k">How we tried to break it</span>
+This is a known pain inside biotech, but not yet the headline investment story. The call survives because AI increases the number of designs competing for the same scale-up bridge, making the bridge more scarce, not less.</div>
+<div class="why"><span class="k">Why we are making the call</span>
+A thousand plausible organisms do not equal one profitable plant. The constraint migrates from search to industrialization once AI makes search cheaper.</div>
+<div class="impl"><div class="k">If the call is right</div><div class="decision"><div class="ditem"><span class="dk">Who is exposed</span>Industrial biotech founders, chemicals strategics, food and materials companies, climate-tech investors, and CDMOs.</div><div class="ditem"><span class="dk">Action now</span>Underwrite AI-bio companies on scale-up evidence, COGS path, downstream process, feedstock contracts, and pilot capacity access before valuing design claims.</div><div class="ditem"><span class="dk">Decision it changes</span>Investment diligence, partnership timing, pilot plant capex, CDMO contracting, and whether to buy design IP or process know-how.</div><div class="ditem"><span class="dk">ROI / risk logic</span>Early access to pilot and downstream capacity can turn designs into qualified products while competitors wait in the scale-up queue. Avoiding failed scale-up saves years of burn.</div></div><p>Rent lands in companies with process-development talent, qualified pilot capacity, downstream purification know-how, and feedstock-secured plants. Design-only IP captures less unless tied to manufacturability.</p><div class="wl"><div class="col gain"><h5>Who gains</h5><div class="row"><span class="who">Bioprocess CDMOs and pilot fermentation operators</span>: They own the scarce bridge from strain to commercial product.</div><div class="row"><span class="who">Strategics with existing fermentation and downstream assets</span>: They can industrialize AI-generated designs faster than pure software-led entrants.</div><div class="row"><span class="who">AI-bio teams with process development built in</span>: They can select designs for manufacturability instead of novelty.</div></div><div class="col lose"><h5>Who loses</h5><div class="row"><span class="who">Design-only AI-bio startups</span>: They face valuation compression when customers ask for yield, cost, and qualified volume.</div><div class="row"><span class="who">Commodity bio-products relying only on green-premium demand</span>: Nature&#x27;s review notes commercial viability ultimately needs price parity or a tangible product benefit.</div></div></div><span class="sub k">What reprices</span><p>Pilot fermentation slots, downstream processing assets, process-development teams, and scale-up data should reprice above generic AI-bio discovery claims.</p><span class="sub k">The next constraint it creates</span><p>The next constraint becomes low-cost feedstock, contamination control, waste handling, and buyer qualification at industrial volumes.</p><span class="sub k">Earliest sign it has begun</span><p>A well-funded AI-bio or synbio company delaying launch because pilot capacity, downstream recovery, or COGS fails despite successful lab design.</p></div></div>
+</section>
+<section class="thesis">
+  <div class="thesis-head"><span class="id">P6</span><h2>Agentic AI&#x27;s scarce layer becomes authority, auditability, and rollback.</h2></div>
+  <div class="thesis-meta"><div>Domain: enterprise AI / security / governance</div><div class="date">2028-06-30</div></div>
+  <div class="prob-band">
+    <div class="prob-card vision"><div class="label">Structural case</div><div class="val">74%</div></div>
+    <div class="prob-card clause"><div class="label">Our call, dated</div><div class="val">48%</div></div>
+    <div class="prob-card date"><div class="label">Resolves</div><div class="val sm">2028-06-30</div></div>
+  </div>
+  <div class="thesis-body"><p class="lead">Agents that only answer questions are easy to pilot. Agents that execute code, move money, change records, message customers, operate devices, or trigger workflows create liability. Berkeley&#x27;s Agentic AI Risk Management Profile highlights risks from system configuration, tool access, and real-world interaction, including unauthorized privilege escalation and unsupervised erroneous tasks. As agents gain authority, the binding constraint moves from reasoning quality to controlled action.</p>
+<div class="field"><span class="k">The boom</span>
+Agent security, identity, execution controls, audit logs, insurance, and governance middleware become the enterprise adoption gate.</div>
+<div class="field"><span class="k">Why it is not priced yet</span>
+Enterprise AI buyers talk about agents, but many roadmaps still assume model capability is the adoption gate. The next purchasing gate is operational trust: least privilege, chain of custody, approval routing, audit logs, rollback, and insurance language.</div>
+<div class="field"><span class="k">Where the price sits today</span>
+AI security and governance are increasingly visible. The narrower edge is action-governance as a separately budgeted execution layer for agents, especially where agents touch money, regulated records, infrastructure, or physical systems.</div>
+<div class="field"><span class="k">The binding constraint</span>
+Identity, permissioning, tool-access control, audit trails, reversible execution, human authorization policies, and liability evidence for agent actions.</div>
+<div class="field"><span class="k">What we are watching</span>
+Track enterprise RFPs requiring agent audit logs, least-privilege controls, rollback, or insurance support; track public agent incidents; track vendors selling action-governance rather than generic model monitoring.</div>
+<div class="field"><span class="k">What would prove us wrong</span>
+Kill if by mid-2028 large enterprises widely deploy multi-step agents with real system authority using mostly prompt-level guardrails and generic logging, without a separate action-governance budget.</div>
+<div class="field"><span class="k">How we tried to break it</span>
+Governance is not new, and some budget already exists. The promoted claim is that execution authority creates a new control plane: not AI ethics reporting, but operational proof of who authorized what action, which tool ran, and how damage can be reversed.</div>
+<div class="why"><span class="k">Why we are making the call</span>
+The useful agent is the dangerous agent. Once AI can act, buyers need evidence, not vibes. That evidence layer is monetizable because it gates procurement, insurance, and legal approval.</div>
+<div class="impl"><div class="k">If the call is right</div><div class="decision"><div class="ditem"><span class="dk">Who is exposed</span>CISOs, CIOs, compliance leaders, insurers, enterprise software buyers, agent platform vendors, and legal teams.</div><div class="ditem"><span class="dk">Action now</span>Design agent deployments around authority boundaries first: least privilege, approval ladders, audit logs, rollback, and evidence packets for regulated workflows.</div><div class="ditem"><span class="dk">Decision it changes</span>Enterprise AI procurement, security architecture, insurance underwriting, compliance budgets, and whether agents are allowed to touch systems of record.</div><div class="ditem"><span class="dk">ROI / risk logic</span>A controlled agent can be deployed into high-value workflows that an uncontrolled agent cannot enter. The upside is adoption; the avoided loss is incident cost, regulatory exposure, and procurement blockage.</div></div><p>Rent lands in identity/security vendors, agent orchestration platforms with strong execution controls, audit-log infrastructure, and insurers that can price agent risk.</p><div class="wl"><div class="col gain"><h5>Who gains</h5><div class="row"><span class="who">Identity and access-management vendors</span>: Agent authority maps naturally onto permissioning, secrets, and least-privilege workflows.</div><div class="row"><span class="who">Agent orchestration platforms with audit and rollback</span>: They become the control plane for letting agents touch real systems.</div><div class="row"><span class="who">Insurers and compliance tooling providers</span>: They can turn auditable controls into underwritable risk.</div></div><div class="col lose"><h5>Who loses</h5><div class="row"><span class="who">Prompt-only agent frameworks</span>: They cannot satisfy buyers who need proof, rollback, and authority boundaries.</div><div class="row"><span class="who">Model vendors that ignore enterprise control planes</span>: Capability alone does not clear procurement for regulated action.</div></div></div><span class="sub k">What reprices</span><p>Agent security budgets, identity-control spend, audit-log infrastructure, and cyber insurance language should reprice as agents get execution rights.</p><span class="sub k">The next constraint it creates</span><p>The next constraint becomes standard evidence formats for agent actions and cross-vendor interoperability between identity, workflow, model, and audit systems.</p><span class="sub k">Earliest sign it has begun</span><p>A Fortune 500 RFP, insurance policy, or regulator explicitly requiring agent action logs, approval chains, and rollback for production deployment.</p></div></div>
+</section>
+<section class="page-break">
+  <div class="section-rule"><h2>Seeds considered</h2></div>
+  <p>These cleared the supply-side test but did not make the final board, usually because the trade was not clean or the move was already priced.</p>
+  <table><thead><tr><th style="width:24%">Seed</th><th style="width:40%">Physical case</th><th style="width:36%">Why not promoted</th></tr></thead>
+  <tbody><tr><td>World models and digital twins as the physical-AI data layer</td><td>Validated simulators and real-to-sim-to-real data could become the scarce training asset for robots, factories, and spatial agents.</td><td>Folded into P2 because the buyer-facing decision is deployment assurance. A standalone world-model call risks repeating the physical-AI platform narrative without a sharper buyer action.</td></tr><tr><td>Local opposition to data centers becomes the AI deployment governor</td><td>Water, noise, rates, and local moratoria could block nominal AI capacity.</td><td>Important, but it is a sub-constraint under P1&#x27;s power-and-siting thesis. Local consent belongs in the site-rights bundle.</td></tr><tr><td>AI fine-tuning and benchmark wins as fundraising leverage</td><td>Public benchmark wins can provide social proof for a solo founder even when they are not the product.</td><td>Useful commercialization surface, not a structural &#x27;what comes after AI&#x27; thesis. Keep it in the fundraising story, not the future board.</td></tr><tr><td>Transformer and GOES shortages as the data-center bottleneck</td><td>Electrical equipment remains a hard constraint on AI capacity.</td><td>Already strongly represented in FUTURE_MAP. This board moves one step sideways to site-controlled firm power as the actionable buyer decision.</td></tr></tbody></table>
+  <p class="footer-note">Each call is dated. The line that would prove it wrong is fixed when the board is issued.</p>
+</section></body></html>

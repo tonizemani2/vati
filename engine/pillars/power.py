@@ -44,7 +44,7 @@ from engine.pillars.frontier import _log_cost, _upsert_observation, _upsert_seri
 from engine.schemas import Observation, Series, Source, SourceKind
 
 SUPPLY_PILLAR_ID = 4          # Supply elasticity — where the scarcity rent lands
-UA = "predictthefuture research (ruben.stout@edu.escp.eu)"
+UA = "predictthefuture research (research@vaticinus.com)"
 FRED_CSV = "https://fred.stlouisfed.org/graph/fredgraph.csv"
 WINDOW_START = 2005
 CUTOFF_YEAR = 2025            # 2026 is incomplete in the annual file

@@ -1,0 +1,989 @@
+{
+  "nodes": [
+    {
+      "id": "file:engine/sharpen.py",
+      "type": "file",
+      "name": "sharpen.py",
+      "filePath": "engine/sharpen.py",
+      "summary": "sharpen.py is a code asset in the forecasting engine. It contains 5 functions.",
+      "tags": [
+        "forecasting-engine",
+        "code",
+        "file",
+        "sharpen"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/sharpen.py:extract",
+      "type": "function",
+      "name": "extract",
+      "filePath": "engine/sharpen.py",
+      "lineRange": [
+        40,
+        57
+      ],
+      "summary": "Defines extract in sharpen.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "sharpen"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/sharpen.py:fit",
+      "type": "function",
+      "name": "fit",
+      "filePath": "engine/sharpen.py",
+      "lineRange": [
+        60,
+        82
+      ],
+      "summary": "Defines fit in sharpen.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "sharpen"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/sharpen.py:predict",
+      "type": "function",
+      "name": "predict",
+      "filePath": "engine/sharpen.py",
+      "lineRange": [
+        85,
+        89
+      ],
+      "summary": "Defines predict in sharpen.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "sharpen"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/sharpen.py:price_expanding",
+      "type": "function",
+      "name": "price_expanding",
+      "filePath": "engine/sharpen.py",
+      "lineRange": [
+        92,
+        112
+      ],
+      "summary": "Defines price_expanding in sharpen.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "sharpen"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/sharpen.py:auc",
+      "type": "function",
+      "name": "auc",
+      "filePath": "engine/sharpen.py",
+      "lineRange": [
+        115,
+        122
+      ],
+      "summary": "Defines auc in sharpen.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "sharpen"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:engine/significance.py",
+      "type": "file",
+      "name": "significance.py",
+      "filePath": "engine/significance.py",
+      "summary": "significance.py is a code asset in the forecasting engine. It contains 13 functions, 2 internal imports.",
+      "tags": [
+        "forecasting-engine",
+        "code",
+        "file",
+        "significance"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:engine/significance.py:_early_fit",
+      "type": "function",
+      "name": "_early_fit",
+      "filePath": "engine/significance.py",
+      "lineRange": [
+        73,
+        85
+      ],
+      "summary": "Defines _early_fit in significance.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "significance"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/significance.py:_safe_exp",
+      "type": "function",
+      "name": "_safe_exp",
+      "filePath": "engine/significance.py",
+      "lineRange": [
+        88,
+        89
+      ],
+      "summary": "Defines _safe_exp in significance.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "significance"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/significance.py:empirical_p",
+      "type": "function",
+      "name": "empirical_p",
+      "filePath": "engine/significance.py",
+      "lineRange": [
+        92,
+        119
+      ],
+      "summary": "Defines empirical_p in significance.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "significance"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/significance.py:benjamini_hochberg",
+      "type": "function",
+      "name": "benjamini_hochberg",
+      "filePath": "engine/significance.py",
+      "lineRange": [
+        122,
+        138
+      ],
+      "summary": "Defines benjamini_hochberg in significance.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "significance"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/significance.py:_lift_of",
+      "type": "function",
+      "name": "_lift_of",
+      "filePath": "engine/significance.py",
+      "lineRange": [
+        159,
+        170
+      ],
+      "summary": "Defines _lift_of in significance.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "significance"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/significance.py:_percentile",
+      "type": "function",
+      "name": "_percentile",
+      "filePath": "engine/significance.py",
+      "lineRange": [
+        173,
+        177
+      ],
+      "summary": "Defines _percentile in significance.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "significance"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/significance.py:_group_blocks",
+      "type": "function",
+      "name": "_group_blocks",
+      "filePath": "engine/significance.py",
+      "lineRange": [
+        180,
+        184
+      ],
+      "summary": "Defines _group_blocks in significance.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "significance"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/significance.py:block_permutation_lift",
+      "type": "function",
+      "name": "block_permutation_lift",
+      "filePath": "engine/significance.py",
+      "lineRange": [
+        187,
+        203
+      ],
+      "summary": "Defines block_permutation_lift in significance.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "significance"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/significance.py:block_bootstrap_lift_ci",
+      "type": "function",
+      "name": "block_bootstrap_lift_ci",
+      "filePath": "engine/significance.py",
+      "lineRange": [
+        206,
+        220
+      ],
+      "summary": "Defines block_bootstrap_lift_ci in significance.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "significance"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/significance.py:deflated_significance",
+      "type": "function",
+      "name": "deflated_significance",
+      "filePath": "engine/significance.py",
+      "lineRange": [
+        223,
+        226
+      ],
+      "summary": "Defines deflated_significance in significance.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "significance"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/significance.py:_interp_mde",
+      "type": "function",
+      "name": "_interp_mde",
+      "filePath": "engine/significance.py",
+      "lineRange": [
+        242,
+        255
+      ],
+      "summary": "Defines _interp_mde in significance.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "significance"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/significance.py:power_curve",
+      "type": "function",
+      "name": "power_curve",
+      "filePath": "engine/significance.py",
+      "lineRange": [
+        258,
+        298
+      ],
+      "summary": "Defines power_curve in significance.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "significance"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/significance.py:run_significance",
+      "type": "function",
+      "name": "run_significance",
+      "filePath": "engine/significance.py",
+      "lineRange": [
+        301,
+        355
+      ],
+      "summary": "Defines run_significance in significance.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entry-point",
+        "significance"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:engine/store.py",
+      "type": "file",
+      "name": "store.py",
+      "filePath": "engine/store.py",
+      "summary": "store.py is a code asset in the forecasting engine. It contains 6 functions, 1 internal import.",
+      "tags": [
+        "forecasting-engine",
+        "code",
+        "file",
+        "store"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/store.py:_existing",
+      "type": "function",
+      "name": "_existing",
+      "filePath": "engine/store.py",
+      "lineRange": [
+        22,
+        30
+      ],
+      "summary": "Defines _existing in store.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "store"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/store.py:_revision_row",
+      "type": "function",
+      "name": "_revision_row",
+      "filePath": "engine/store.py",
+      "lineRange": [
+        33,
+        37
+      ],
+      "summary": "Defines _revision_row in store.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "store"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/store.py:precompute_series",
+      "type": "function",
+      "name": "precompute_series",
+      "filePath": "engine/store.py",
+      "lineRange": [
+        56,
+        71
+      ],
+      "summary": "Defines precompute_series in store.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "store"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/store.py:write_precompute",
+      "type": "function",
+      "name": "write_precompute",
+      "filePath": "engine/store.py",
+      "lineRange": [
+        74,
+        82
+      ],
+      "summary": "Defines write_precompute in store.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "store"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/store.py:upsert_observation",
+      "type": "function",
+      "name": "upsert_observation",
+      "filePath": "engine/store.py",
+      "lineRange": [
+        85,
+        108
+      ],
+      "summary": "Defines upsert_observation in store.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "store"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/store.py:bulk_upsert_observations",
+      "type": "function",
+      "name": "bulk_upsert_observations",
+      "filePath": "engine/store.py",
+      "lineRange": [
+        111,
+        145
+      ],
+      "summary": "Defines bulk_upsert_observations in store.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "store"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:engine/sharpen.py",
+      "target": "function:engine/sharpen.py:extract",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/sharpen.py",
+      "target": "function:engine/sharpen.py:extract",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/sharpen.py",
+      "target": "function:engine/sharpen.py:fit",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/sharpen.py",
+      "target": "function:engine/sharpen.py:fit",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/sharpen.py",
+      "target": "function:engine/sharpen.py:predict",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/sharpen.py",
+      "target": "function:engine/sharpen.py:predict",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/sharpen.py",
+      "target": "function:engine/sharpen.py:price_expanding",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/sharpen.py",
+      "target": "function:engine/sharpen.py:price_expanding",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/sharpen.py",
+      "target": "function:engine/sharpen.py:auc",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/sharpen.py",
+      "target": "function:engine/sharpen.py:auc",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/significance.py",
+      "target": "function:engine/significance.py:_early_fit",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/significance.py",
+      "target": "function:engine/significance.py:_early_fit",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/significance.py",
+      "target": "function:engine/significance.py:_safe_exp",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/significance.py",
+      "target": "function:engine/significance.py:_safe_exp",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/significance.py",
+      "target": "function:engine/significance.py:empirical_p",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/significance.py",
+      "target": "function:engine/significance.py:empirical_p",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/significance.py",
+      "target": "function:engine/significance.py:benjamini_hochberg",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/significance.py",
+      "target": "function:engine/significance.py:benjamini_hochberg",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/significance.py",
+      "target": "function:engine/significance.py:_lift_of",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/significance.py",
+      "target": "function:engine/significance.py:_lift_of",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/significance.py",
+      "target": "function:engine/significance.py:_percentile",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/significance.py",
+      "target": "function:engine/significance.py:_percentile",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/significance.py",
+      "target": "function:engine/significance.py:_group_blocks",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/significance.py",
+      "target": "function:engine/significance.py:_group_blocks",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/significance.py",
+      "target": "function:engine/significance.py:block_permutation_lift",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/significance.py",
+      "target": "function:engine/significance.py:block_permutation_lift",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/significance.py",
+      "target": "function:engine/significance.py:block_bootstrap_lift_ci",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/significance.py",
+      "target": "function:engine/significance.py:block_bootstrap_lift_ci",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/significance.py",
+      "target": "function:engine/significance.py:deflated_significance",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/significance.py",
+      "target": "function:engine/significance.py:deflated_significance",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/significance.py",
+      "target": "function:engine/significance.py:_interp_mde",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/significance.py",
+      "target": "function:engine/significance.py:_interp_mde",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/significance.py",
+      "target": "function:engine/significance.py:power_curve",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/significance.py",
+      "target": "function:engine/significance.py:power_curve",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/significance.py",
+      "target": "function:engine/significance.py:run_significance",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/significance.py",
+      "target": "function:engine/significance.py:run_significance",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/store.py",
+      "target": "function:engine/store.py:_existing",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/store.py",
+      "target": "function:engine/store.py:_existing",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/store.py",
+      "target": "function:engine/store.py:_revision_row",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/store.py",
+      "target": "function:engine/store.py:_revision_row",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/store.py",
+      "target": "function:engine/store.py:precompute_series",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/store.py",
+      "target": "function:engine/store.py:precompute_series",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/store.py",
+      "target": "function:engine/store.py:write_precompute",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/store.py",
+      "target": "function:engine/store.py:write_precompute",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/store.py",
+      "target": "function:engine/store.py:upsert_observation",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/store.py",
+      "target": "function:engine/store.py:upsert_observation",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/store.py",
+      "target": "function:engine/store.py:bulk_upsert_observations",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/store.py",
+      "target": "function:engine/store.py:bulk_upsert_observations",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/significance.py",
+      "target": "file:engine/detector.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/significance.py",
+      "target": "file:engine/schemas.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/store.py",
+      "target": "file:engine/schemas.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "function:engine/sharpen.py:price_expanding",
+      "target": "function:engine/sharpen.py:fit",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/sharpen.py:price_expanding",
+      "target": "function:engine/sharpen.py:predict",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/significance.py:_early_fit",
+      "target": "function:engine/detector.py:theil_sen",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/significance.py:empirical_p",
+      "target": "function:engine/significance.py:_early_fit",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/significance.py:empirical_p",
+      "target": "function:engine/detector.py:_mad_sigma",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/significance.py:empirical_p",
+      "target": "function:engine/significance.py:_safe_exp",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/significance.py:empirical_p",
+      "target": "function:engine/detector.py:detect",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/significance.py:block_permutation_lift",
+      "target": "function:engine/significance.py:_lift_of",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/significance.py:block_permutation_lift",
+      "target": "function:engine/significance.py:_group_blocks",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/significance.py:block_bootstrap_lift_ci",
+      "target": "function:engine/significance.py:_group_blocks",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/significance.py:block_bootstrap_lift_ci",
+      "target": "function:engine/significance.py:_lift_of",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/significance.py:block_bootstrap_lift_ci",
+      "target": "function:engine/significance.py:_percentile",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/significance.py:power_curve",
+      "target": "function:engine/significance.py:block_permutation_lift",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/significance.py:power_curve",
+      "target": "function:engine/significance.py:deflated_significance",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/significance.py:power_curve",
+      "target": "function:engine/significance.py:_interp_mde",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/significance.py:run_significance",
+      "target": "function:engine/detector.py:_series_points",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/significance.py:run_significance",
+      "target": "function:engine/detector.py:detect",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/significance.py:run_significance",
+      "target": "function:engine/significance.py:empirical_p",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/significance.py:run_significance",
+      "target": "function:engine/significance.py:benjamini_hochberg",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/store.py:_revision_row",
+      "target": "function:engine/schemas.py:_uid",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/store.py:_revision_row",
+      "target": "function:engine/schemas.py:_now",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/store.py:write_precompute",
+      "target": "function:engine/store.py:precompute_series",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/store.py:upsert_observation",
+      "target": "function:engine/store.py:_revision_row",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/store.py:bulk_upsert_observations",
+      "target": "function:engine/store.py:_existing",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/store.py:bulk_upsert_observations",
+      "target": "function:engine/store.py:_revision_row",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

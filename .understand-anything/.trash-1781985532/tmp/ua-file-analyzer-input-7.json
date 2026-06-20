@@ -1,0 +1,166 @@
+{
+  "projectRoot": "/Users/emizemani/Desktop/predictthefuture",
+  "batchFiles": [
+    {
+      "path": "engine/disk_guard.py",
+      "language": "python",
+      "sizeLines": 49,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/baci.py",
+      "language": "python",
+      "sizeLines": 349,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/clinicaltrials.py",
+      "language": "python",
+      "sizeLines": 269,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/comtrade.py",
+      "language": "python",
+      "sizeLines": 232,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/cordis.py",
+      "language": "python",
+      "sizeLines": 589,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/ecb_fx.py",
+      "language": "python",
+      "sizeLines": 137,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/eonet.py",
+      "language": "python",
+      "sizeLines": 277,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/epoch_ai.py",
+      "language": "python",
+      "sizeLines": 102,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/eu_sanctions.py",
+      "language": "python",
+      "sizeLines": 228,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/federal_register.py",
+      "language": "python",
+      "sizeLines": 249,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/fred.py",
+      "language": "python",
+      "sizeLines": 160,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/fred_financial.py",
+      "language": "python",
+      "sizeLines": 177,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/gdacs_alerts.py",
+      "language": "python",
+      "sizeLines": 302,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/gdelt.py",
+      "language": "python",
+      "sizeLines": 479,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/global_equities.py",
+      "language": "python",
+      "sizeLines": 256,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/global_policy.py",
+      "language": "python",
+      "sizeLines": 185,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/ilo.py",
+      "language": "python",
+      "sizeLines": 342,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/lbnl.py",
+      "language": "python",
+      "sizeLines": 72,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/metaculus.py",
+      "language": "python",
+      "sizeLines": 310,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/nasa_gistemp.py",
+      "language": "python",
+      "sizeLines": 147,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/nih_reporter.py",
+      "language": "python",
+      "sizeLines": 145,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/noaa_climate_indices.py",
+      "language": "python",
+      "sizeLines": 128,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "engine/disk_guard.py": [],
+    "engine/feeds/baci.py": [
+      "engine/__init__.py",
+      "engine/disk_guard.py"
+    ],
+    "engine/feeds/clinicaltrials.py": [],
+    "engine/feeds/comtrade.py": [],
+    "engine/feeds/cordis.py": [],
+    "engine/feeds/ecb_fx.py": [],
+    "engine/feeds/eonet.py": [],
+    "engine/feeds/epoch_ai.py": [],
+    "engine/feeds/eu_sanctions.py": [],
+    "engine/feeds/federal_register.py": [],
+    "engine/feeds/fred.py": [],
+    "engine/feeds/fred_financial.py": [],
+    "engine/feeds/gdacs_alerts.py": [],
+    "engine/feeds/gdelt.py": [],
+    "engine/feeds/global_equities.py": [],
+    "engine/feeds/global_policy.py": [
+      "engine/feeds/federal_register.py"
+    ],
+    "engine/feeds/ilo.py": [],
+    "engine/feeds/lbnl.py": [],
+    "engine/feeds/metaculus.py": [],
+    "engine/feeds/nasa_gistemp.py": [],
+    "engine/feeds/nih_reporter.py": [],
+    "engine/feeds/noaa_climate_indices.py": []
+  }
+}

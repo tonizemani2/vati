@@ -1,0 +1,553 @@
+{
+  "title": "The World After AI: intelligence gets permission to act",
+  "subtitle": "*The next big thing is not a smarter chatbot. It is the permission layer that lets machine intelligence move money, matter, evidence, biology, power, and liability without breaking the world.*",
+  "domain": "post-AI world / next big thing after AI",
+  "date": "2026-06-17",
+  "horizon": "2030 to 2040",
+  "run_mode": "codex-native-multi-agent",
+  "agent_pass": {
+    "agents_run": 3,
+    "channels": [
+      "physical limits / infrastructure / constraint migration",
+      "biology / autonomous science / materials / method diffusion",
+      "governance / liability / insurance / provenance / authority rails"
+    ],
+    "limitation": "The local Claude workflow runner was not exposed in this Codex thread, so this is not the original 40-agent Claude Pope Mega harness. It is a Codex-native multi-agent pass using the same doctrine, with live anchors and adversarial gating."
+  },
+  "synthesis": "The post-AI world is not defined by intelligence becoming scarce. It is defined by intelligence becoming cheap enough that the bottleneck moves to permission, coupling, and verification. The winning layer is wherever an AI system tries to act on the world and hits an inelastic gate: a payment rail that can authorize a machine, a legal record that can assign blame, a lab protocol that another machine can replay, a materials dataset that proves lifetime reliability, a synthesis screen that lets biology leave the model, a causal atlas that proves a drug target in human tissue, a grid front end that can absorb AI-load dynamics, or a heat sink that lets the compute campus exist. The phrase \"after AI\" therefore does not mean AI fades. It means AI becomes the cheap input, and the scarce assets are the rails that make action safe, admissible, insurable, and physically possible.",
+  "sources": [
+    {
+      "name": "IEA Energy and AI",
+      "url": "https://www.iea.org/reports/energy-and-ai/energy-demand-from-ai"
+    },
+    {
+      "name": "Lawrence Berkeley Lab Queued Up",
+      "url": "https://emp.lbl.gov/queues"
+    },
+    {
+      "name": "EU AI Act implementation",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai"
+    },
+    {
+      "name": "ISO/IEC 42001",
+      "url": "https://www.iso.org/standard/42001"
+    },
+    {
+      "name": "NIST autonomous laboratory standards",
+      "url": "https://www.nist.gov/programs-projects/development-standards-support-modular-and-autonomous-laboratory-ecosystem"
+    },
+    {
+      "name": "NIST biosecurity for synthetic nucleic acid sequences",
+      "url": "https://www.nist.gov/programs-projects/biosecurity-synthetic-nucleic-acid-sequences"
+    }
+  ],
+  "theses": [
+    {
+      "id": "P1",
+      "headline": "Agent authority rails become the transaction network after AI.",
+      "boom": "Payment networks, identity providers, agent runtime platforms, and compliance layers that can bind an AI action to a delegated legal authority capture the first durable post-AI rent.",
+      "domain": "agentic commerce / identity / payments",
+      "vision_p": 76,
+      "clause_p": 49,
+      "resolves": "2031-12-31",
+      "structural": "Once agents can plan and execute, the binding input is no longer task intelligence. It is legally attributable authority: who allowed the agent to act, what the agent was allowed to spend or change, whether the action can be reversed, and who carries loss if it exceeds scope.",
+      "pre_consensus": "Agent apps are visible and payment pilots are now visible, but the market still mostly prices front-end agent experiences. The deeper rail is credentialed authority with controls, settlement, auditability, and dispute handling across vendors.",
+      "price_channel": "Mastercard launched Agent Pay for Machines in June 2026, with credentialing, permissioning, and settlement for machine-driven transactions. Visa Intelligent Commerce similarly frames trusted AI-initiated transactions around credentials, controls, authentication, and protections. The IMF notes that agentic payments create a tension between probabilistic AI behavior and deterministic payment infrastructure.",
+      "needle": "Verifiable agent identity, delegated permission tokens, spending and action limits, per-action audit logs, dispute rules, and settlement rails that work at machine speed.",
+      "metric": "Count of payment, identity, or cloud platforms operating agent credential networks; transaction volume through agent-specific credentials; procurement or regulatory text requiring agent identity and delegated authority for high-value actions.",
+      "kill": "Kill if by 2031 agents still transact at scale through ordinary user credentials, API keys, or human-initiated payment flows with no separate agent identity, permission, or liability layer.",
+      "refute": "Existing OAuth, card tokenization, and enterprise SSO could stretch far enough, especially inside closed ecosystems. The call survives because open commercial agents need cross-platform settlement, merchant trust, revocation, chargeback evidence, and authorization semantics that ordinary human credentials do not provide.",
+      "why": "The post-AI economy starts when agents can buy, bind, reserve, meter, settle, and contract. The winning primitive is not a model. It is permissioned action.",
+      "sources": [
+        "https://www.mastercard.com/us/en/news-and-trends/press/2026/june/mastercard-launches-agent-pay-for-machines.html",
+        "https://www.visa.com/en-us/solutions/intelligent-commerce",
+        "https://www.imf.org/en/publications/imf-notes/issues/2026/04/22/how-agentic-ai-will-reshape-payments-575560",
+        "https://developers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability/"
+      ],
+      "implications": {
+        "exposed": "Payment networks, issuer processors, merchant acquirers, cloud agent platforms, identity vendors, and enterprise risk teams that expect agents to move money or make commitments.",
+        "action_now": "Inventory where agents could initiate payments or commitments, then require scoped credentials, explicit consent, revocation, logging, and dispute evidence before any production rollout.",
+        "decision_changed": "Payment and identity roadmap priorities shift from human checkout UX toward agent-specific credentials, programmable limits, merchant trust signals, and liability handling.",
+        "roi_logic": "Early rails win standards gravity. If the agent economy turns into high-volume microtransactions, the infrastructure provider that owns credentialing and settlement gets transaction take-rate and compliance lock-in before apps commoditize.",
+        "rent_path": "Value lands at Mastercard, Visa, Stripe, Adyen, Cloudflare, identity providers, agent runtime vendors, and compliance startups that can bridge agent authorization with real settlement and dispute processes.",
+        "winners": [
+          {
+            "who": "Mastercard and Visa",
+            "why": "They can extend existing merchant acceptance, tokenization, fraud controls, and settlement trust into agent-specific commerce."
+          },
+          {
+            "who": "Cloudflare, Stripe, Adyen, and identity vendors",
+            "why": "They sit at the control plane where agents authenticate, authorize, and transact across business systems."
+          },
+          {
+            "who": "Agent runtime and policy-control startups",
+            "why": "They can become the layer that enforces scopes, approvals, and audit trails before money or state changes happen."
+          }
+        ],
+        "losers": [
+          {
+            "who": "Closed single-app agent stores",
+            "why": "They lose leverage if merchants and enterprises demand interoperable credentials and dispute rules."
+          },
+          {
+            "who": "Unlogged consumer-agent apps",
+            "why": "They cannot clear enterprise, insurance, or payment risk reviews once agents handle money."
+          },
+          {
+            "who": "Merchants without agent-readable inventory and policy interfaces",
+            "why": "They become invisible to automated buyers that require machine-readable terms and trusted checkout."
+          }
+        ],
+        "reprices": "Network fees, merchant acceptance contracts, fraud-liability terms, stablecoin settlement services, and enterprise identity spend reprice toward agent-specific controls.",
+        "next_constraint": "After authority rails exist, the next bottleneck is agent reputation: portable evidence that a given agent or agent vendor performs within policy over time.",
+        "watch": "Watch for two major card networks, processors, or cloud providers reporting production agent credential volume, not just pilots, and for procurement language requiring distinct credentials for autonomous software actors."
+      }
+    },
+    {
+      "id": "P2",
+      "headline": "Liability moves to the evidence recorder.",
+      "boom": "The durable post-AI compliance market is not explainability theater. It is tamper-evident event recording that lets insurers, courts, regulators, and boards reconstruct what an autonomous system did.",
+      "domain": "liability / insurance / audit evidence",
+      "vision_p": 76,
+      "clause_p": 51,
+      "resolves": "2031-12-31",
+      "structural": "Autonomous systems create losses before institutions agree who is responsible. Courts and regulators cannot assign blame from model descriptions alone; they need logs that preserve version, input, authority, tool call, output, human override, and incident context.",
+      "pre_consensus": "AI governance is crowded, but most spend is still framed as policy, evaluation, red teaming, or certification. The granular rent moves to admissible causal trace, because every serious incident becomes a dispute over what happened.",
+      "price_channel": "The EU AI Act has record-keeping, post-market monitoring, and serious-incident reporting obligations. NHTSA already requires identified manufacturers and operators to report certain ADS and ADAS crashes. ISO/IEC 42001 defines an AI management system that auditors can certify, but event reconstruction remains underbuilt.",
+      "needle": "Tamper-evident action logs, incident reports, model and tool version provenance, authority trace, retention rules, and replayable forensic records.",
+      "metric": "Number of G7 or EU-regulated sectors requiring AI action logs or incident records for legal defense, incident reporting, market access, or insurance coverage; policy wording requiring AI event records.",
+      "kill": "Kill if by 2031 serious AI incidents are still litigated mainly through ordinary negligence discovery and logs remain voluntary internal telemetry with no sector-specific effect on insurance, legal defense, or market access.",
+      "refute": "Regulators may keep requirements flexible and vendors may resist discoverable logs. The call survives because high-stakes AI systems need a blame surface, and existing sectors such as automated driving already show the shape of mandatory incident reporting.",
+      "why": "After AI acts, the scarce asset is not an explanation of a model. It is admissible causality.",
+      "sources": [
+        "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-73",
+        "https://www.nhtsa.gov/laws-regulations/standing-general-order-crash-reporting",
+        "https://www.iso.org/standard/42001",
+        "https://www.nist.gov/itl/ai-risk-management-framework"
+      ],
+      "implications": {
+        "exposed": "AI assurance firms, cyber insurers, regulated enterprises, autonomous vehicle and robotics operators, healthcare AI vendors, and enterprise legal teams.",
+        "action_now": "Define an AI event-record schema before deployment: model version, prompt/input class, tools called, permissions used, output, human approval, rollback path, incident marker, and retention period.",
+        "decision_changed": "AI compliance budgets shift from one-off model evaluations to persistent logging, forensic replay, evidence retention, and independent assurance.",
+        "roi_logic": "A firm with usable incident evidence can defend claims, obtain coverage, and fix systems faster. A firm without it pays through exclusions, discovery costs, downtime, and regulatory penalties.",
+        "rent_path": "Value lands at audit firms, observability vendors, security logs, GRC platforms, and specialist AI forensics providers that can make event records acceptable to insurers and regulators.",
+        "winners": [
+          {
+            "who": "Audit and assurance providers",
+            "why": "They can certify whether controls and logs actually exist and operate."
+          },
+          {
+            "who": "Security observability and data-retention vendors",
+            "why": "They already own log pipelines and can extend them to AI event provenance."
+          },
+          {
+            "who": "Insurers with AI-specific underwriting data",
+            "why": "They can price coverage instead of issuing blanket exclusions."
+          }
+        ],
+        "losers": [
+          {
+            "who": "Model vendors with opaque tool execution",
+            "why": "They become harder to procure in regulated settings."
+          },
+          {
+            "who": "Enterprises that treat AI logs as optional telemetry",
+            "why": "They will lack evidence when a failure becomes a claim or investigation."
+          },
+          {
+            "who": "Generic GRC vendors without runtime data",
+            "why": "Static policy workflows do not reconstruct autonomous action."
+          }
+        ],
+        "reprices": "Cyber, E&O, product liability, and D&O insurance terms reprice around AI event evidence and governance warranties.",
+        "next_constraint": "Once event records exist, the next constraint is standardizing which logs are admissible without exposing trade secrets, personal data, or security-sensitive prompts.",
+        "watch": "Watch insurance questionnaires and regulated-sector procurement templates for mandatory AI action-log, incident replay, and retention language."
+      }
+    },
+    {
+      "id": "P3",
+      "headline": "Autonomous labs bottleneck on standards before autonomy.",
+      "boom": "The next scientific platform is not the AI scientist in isolation. It is the shared, replayable lab stack where protocols, samples, instruments, data, and model versions can move across machines.",
+      "domain": "autonomous science / lab infrastructure",
+      "vision_p": 76,
+      "clause_p": 48,
+      "resolves": "2031-12-31",
+      "structural": "AI can propose experiments faster than labs can execute them, but a more subtle bottleneck appears before raw robot capacity: every autonomous lab has bespoke instrument commands, sample IDs, metadata, protocols, safety constraints, and data schemas. Without standards, each lab is an island.",
+      "pre_consensus": "Autonomous labs are now a visible theme. The underpriced layer is not lab robots; it is machine-readable experiment memory, interoperability, and audit replay. That is where a shared scientific execution market becomes possible.",
+      "price_channel": "NIST says there is no standardized autonomous experimentation ecosystem for materials R&D and calls this a major obstacle to industrial adoption. DOE's Genesis Mission connects supercomputers, experimental facilities, AI systems, and datasets. NSF has funded BioFoundries to create high-throughput measurement infrastructure.",
+      "needle": "Machine-readable protocol, sample lineage, instrument-control standards, data and knowledge management standards, model integration, audit replay, and safety-constrained orchestration.",
+      "metric": "Public procurements or funding programs above $25 million requiring named autonomous-lab standards; industrial contracts requiring standards for sample handling, instrument communication, data management, and model integration.",
+      "kill": "Kill if by 2031 major autonomous-lab deployments remain dominated by bespoke vendor stacks with no named protocol, sample, data, or instrument standards required in public procurements or industrial contracts.",
+      "refute": "Vertical platforms may win by bundling hardware, software, and data, making open standards irrelevant. The call survives because public labs, industrial consortia, and multi-vendor instrument ecosystems need interoperability to avoid lock-in and obsolete custom integration.",
+      "why": "When AI makes ideas cheap, the next scarce layer is trusted physical execution that another machine can repeat.",
+      "sources": [
+        "https://www.nist.gov/programs-projects/development-standards-support-modular-and-autonomous-laboratory-ecosystem",
+        "https://www.energy.gov/undersecretaryforscience/genesis-mission/genesis-mission",
+        "https://www.nsf.gov/news/nsf-invests-biofoundries-drive-advances-across-science",
+        "https://arxiv.org/html/2605.04375v1"
+      ],
+      "implications": {
+        "exposed": "National labs, pharma R&D operations, materials companies, analytical-instrument vendors, lab automation vendors, and cloud scientific-workflow platforms.",
+        "action_now": "Require every autonomous-lab pilot to export protocols, sample state, instrument state, data provenance, model version, and safety constraints in a machine-readable schema.",
+        "decision_changed": "R&D infrastructure budgets shift from isolated robot workcells toward interoperable lab operating systems, data schemas, and integration standards.",
+        "roi_logic": "A standards-first lab stack avoids repeated custom integration, lets experiments move across sites, improves reproducibility, and creates a market for experiment capacity.",
+        "rent_path": "Value lands at instrument vendors and lab orchestration platforms that become standard-compliant by default, plus national lab networks that offer trusted experiment capacity.",
+        "winners": [
+          {
+            "who": "NIST-aligned standards consortia and national lab networks",
+            "why": "They can define the interoperability layer buyers require."
+          },
+          {
+            "who": "Thermo Fisher, Danaher, Agilent, Waters, Bruker, and automation vendors",
+            "why": "They can sell instruments and control software into closed-loop experiment networks."
+          },
+          {
+            "who": "Lab orchestration software providers",
+            "why": "They become the system of record for experiment execution."
+          }
+        ],
+        "losers": [
+          {
+            "who": "Closed bespoke self-driving-lab stacks",
+            "why": "They become procurement risks when buyers require interoperability and replay."
+          },
+          {
+            "who": "Pure model-discovery startups",
+            "why": "They lack the physical validation capacity that buyers increasingly demand."
+          },
+          {
+            "who": "Manual CRO workflows without machine-readable provenance",
+            "why": "They cannot plug into agentic research loops at scale."
+          }
+        ],
+        "reprices": "Instrument control APIs, lab information management systems, scientific cloud workflows, and national-lab user facility access reprice upward.",
+        "next_constraint": "Once standards exist, the next bottleneck is scarce calibrated metrology and instrument uptime, especially inline characterization.",
+        "watch": "Watch DOE, NSF, NIST, pharma, and materials RFPs for named requirements around sample management, instrument communication, data management, and model integration standards."
+      }
+    },
+    {
+      "id": "P4",
+      "headline": "Materials discovery becomes a qualification-data business.",
+      "boom": "AI will make plausible materials abundant; the rent moves to accelerated lifetime testing, reliability statistics, and qualification datasets that let a material enter a product.",
+      "domain": "materials / qualification / reliability",
+      "vision_p": 72,
+      "clause_p": 42,
+      "resolves": "2035-12-31",
+      "structural": "The quantity of AI-suggested materials rises faster than the ability to qualify them for batteries, aircraft, chips, catalysts, grids, or medical devices. For high-consequence products, discovery is not the gate; lifetime, manufacturability, and reliability evidence are.",
+      "pre_consensus": "The market celebrates AI materials discovery. It underprices the slow part: duty-cycle testing, accelerated aging, standards, sample history, and critically evaluated datasets that product engineers trust.",
+      "price_channel": "NIST's Materials Genome Initiative emphasizes essential data exchange protocols, quality of materials data and models, and metrologies needed for accelerated materials development. That is the quiet infrastructure beneath AI discovery claims.",
+      "needle": "Accelerated lifetime testing, reliability statistics, standardized qualification data, critically evaluated materials datasets, and duty-cycle-specific testbeds.",
+      "metric": "Count of AI-discovered or AI-optimized materials missing original commercial design-in targets by at least 36 months due to qualification, reliability, or lifetime evidence; funding or revenue for shared qualification testbeds and data consortia.",
+      "kill": "Kill if by 2035 three or more AI-discovered materials reach high-volume design-in within 36 months of disclosure without public qualification delays or shared qualification-data businesses becoming material.",
+      "refute": "Materials qualification has always been slow, so this could be obvious rather than alpha. The call survives because AI increases candidate volume and shifts the scarce input from ideas to trusted evidence, creating a new data business rather than merely continuing old slowness.",
+      "why": "The post-AI world gets flooded with plausible designs. The valuable actor is the one that can prove which designs survive reality.",
+      "sources": [
+        "https://www.nist.gov/mgi",
+        "https://www.nist.gov/mgi/about-mgi",
+        "https://www.mgi.gov/sites/mgi/files/MGI-2021-Strategic-Plan.pdf"
+      ],
+      "implications": {
+        "exposed": "Battery, aerospace, semiconductor, catalyst, energy equipment, and advanced-manufacturing firms evaluating AI-generated material candidates.",
+        "action_now": "Build or buy qualification-data capacity before model-generated candidate volume overwhelms test pipelines: accelerated aging, inline metrology, sample lineage, and field-failure feedback.",
+        "decision_changed": "R&D budgets shift from model-only discovery tools toward reliability testbeds, reference datasets, and standards participation.",
+        "roi_logic": "The cost of waiting is a stranded candidate portfolio: many plausible materials and no credible path to product insertion. Qualification data can shorten design-in cycles and prevent expensive late failures.",
+        "rent_path": "Value lands at NIST-aligned data consortia, testing labs, instrument vendors, reliability analytics providers, and incumbents with long field data histories.",
+        "winners": [
+          {
+            "who": "Testing labs and standards bodies",
+            "why": "They can turn qualification into a paid gate for AI-generated materials."
+          },
+          {
+            "who": "Instrument and metrology vendors",
+            "why": "They sell the measurement infrastructure needed to validate lifetime and reliability."
+          },
+          {
+            "who": "Incumbent materials suppliers with field data",
+            "why": "Their historical reliability evidence becomes a moat against model-only entrants."
+          }
+        ],
+        "losers": [
+          {
+            "who": "AI materials startups with no qualification path",
+            "why": "They may generate candidates faster than customers can trust or adopt them."
+          },
+          {
+            "who": "Product teams that accept model confidence as qualification",
+            "why": "They face late-stage design failures, warranty risk, and certification delays."
+          },
+          {
+            "who": "Commodity data vendors",
+            "why": "Uncurated datasets do not clear product engineering or regulatory thresholds."
+          }
+        ],
+        "reprices": "Reliability datasets, accelerated aging facilities, materials testing contracts, and instrument suites reprice upward; generic AI discovery software reprices downward if it lacks validation access.",
+        "next_constraint": "After qualification data, the next bottleneck is manufacturing process transfer: whether the material can be made consistently at production scale.",
+        "watch": "Watch public postmortems of AI-materials programs for phrases like lifetime testing, qualification, design-in delay, field reliability, and accelerated aging."
+      }
+    },
+    {
+      "id": "P5",
+      "headline": "Programmable-biology access becomes a licensed screening layer.",
+      "boom": "When AI can design biological sequences, the chokepoint shifts to who is allowed to synthesize them, order them, or operate benchtop synthesis equipment.",
+      "domain": "biosecurity / synthetic biology / access control",
+      "vision_p": 74,
+      "clause_p": 46,
+      "resolves": "2030-12-31",
+      "structural": "AI biodesign expands the space of possible DNA and protein sequences faster than legacy homology screening can classify them. The scarce layer becomes functional screening, customer legitimacy, recordkeeping, and access control for synthesis providers and benchtop instruments.",
+      "pre_consensus": "Biosecurity is visible in policy circles, but the commercial implication is underpriced: screening becomes an API, compliance service, and access-control business for programmable biology.",
+      "price_channel": "NIST explicitly warns that AI could design novel DNA sequences undetectable by current sequence screening tools and is developing standards, databases, tools, and capacities for emerging sequences of concern. NIH policy, as issued in 2024 for 2025 implementation, required NIH-funded procurement from providers adhering to the OSTP screening framework.",
+      "needle": "AI-resilient sequence and function screening, customer verification, benchtop synthesizer access controls, provider attestations, audit records, and secure screening APIs.",
+      "metric": "Binding US, EU, or OECD screening rules that go beyond simple sequence-identity matching; number of providers selling AI-resilient screening compliance as a paid API or enterprise product.",
+      "kill": "Kill if by 2030 screening remains mostly voluntary and identity-based, with no broader functional or AI-resilient requirement and no paid compliance API market.",
+      "refute": "Open-source design tools, local synthesis, and weak international enforcement could route around screening. The call survives because federal funding, institutional procurement, and large commercial providers create a compliance chokepoint even if fringe bypass remains possible.",
+      "why": "The next big biological constraint after AI is not design. It is permission to turn designs into molecules.",
+      "sources": [
+        "https://www.nist.gov/programs-projects/biosecurity-synthetic-nucleic-acid-sequences",
+        "https://grants.nih.gov/grants/guide/notice-files/NOT-OD-25-012.html",
+        "https://aspr.hhs.gov/s3/documents/ostp-nucleic-acid-synthesis-screening-framework-sep2024.pdf"
+      ],
+      "implications": {
+        "exposed": "DNA synthesis providers, biofoundries, benchtop synthesizer makers, universities, pharma, cloud labs, and institutional biosafety officers.",
+        "action_now": "Map every synthesis procurement path and require provider attestations, customer screening, record retention, and AI-resilient sequence/function screening before expanding automated biology workflows.",
+        "decision_changed": "Biofoundry and synthetic-biology platform budgets shift from raw synthesis speed toward compliance screening, access control, and auditable procurement.",
+        "roi_logic": "Institutions that clear compliant procurement can keep research flowing while others face funding restrictions, halted orders, or reputational damage after a misuse incident.",
+        "rent_path": "Value lands at Twist, IDT, Ginkgo-style biofoundries, screening software providers, benchtop synthesizer vendors with access controls, and compliance APIs that become procurement defaults.",
+        "winners": [
+          {
+            "who": "Large synthesis providers with mature screening",
+            "why": "They become preferred vendors for federally funded and institutional research."
+          },
+          {
+            "who": "Biosecurity screening API vendors",
+            "why": "They can sell compliance as a service to smaller providers and benchtop platforms."
+          },
+          {
+            "who": "Institutions with strong biosafety procurement",
+            "why": "They maintain access to synthetic biology tools under tighter rules."
+          }
+        ],
+        "losers": [
+          {
+            "who": "Low-cost synthesis providers without screening",
+            "why": "They are excluded from funded institutional demand."
+          },
+          {
+            "who": "Open benchtop synthesis devices with weak access controls",
+            "why": "They become procurement and liability risks."
+          },
+          {
+            "who": "AI-biology startups ignoring biosecurity workflow",
+            "why": "They may design faster than they can legally or reputationally synthesize."
+          }
+        ],
+        "reprices": "Synthesis procurement contracts, provider attestations, benchtop instrument controls, and screening API subscriptions reprice upward.",
+        "next_constraint": "Once screening is standardized, the next bottleneck is international coverage: whether lower-control jurisdictions become leakage points.",
+        "watch": "Watch NIH, DOE, EU, OECD, and provider procurement language for requirements around AI-designed sequences, customer verification, record retention, and benchtop synthesis equipment."
+      }
+    },
+    {
+      "id": "P6",
+      "headline": "Human causal perturbation atlases become the drug-discovery scarce asset.",
+      "boom": "As AI target generation gets cheap, pharma pays for proprietary maps that show how human cells and organoids actually respond to perturbations.",
+      "domain": "biology / pharma / causal data",
+      "vision_p": 68,
+      "clause_p": 34,
+      "resolves": "2033-12-31",
+      "structural": "Biology is not text. Model-generated targets need human-relevant causal evidence from perturbation atlases, organoids, primary cells, spatial multi-omics, and longitudinal phenotypes. The rent moves from hypothesis generation to human causal data.",
+      "pre_consensus": "Single-cell atlases and virtual cell models are visible, but most AI-biology narratives still emphasize model architecture and target discovery. The underpriced layer is proprietary human perturbation data that ties mechanism to pharmacology.",
+      "price_channel": "The Human Cell Atlas first draft appeared across Nature Portfolio in 2024, Arc's Virtual Cell Atlas includes observational and perturbational data from hundreds of millions of cells, and Recursion's Roche/Genentech collaboration explicitly uses Maps of Biology and single-cell perturbation data.",
+      "needle": "Human perturbation atlases in organoids, primary cells, disease-relevant tissue, spatial multi-omics, and longitudinal phenotypes linked to drug response.",
+      "metric": "Top-20 pharma or mega-biotech deals above $500 million that explicitly center proprietary human perturbation, spatial, or organoid atlases; FDA or EMA approval packages citing such platforms as material mechanism or pharmacology evidence.",
+      "kill": "Kill if by 2033 fewer than two such major deals are disclosed and approval packages continue relying on conventional animal and in-vitro evidence without atlas-derived human causal evidence.",
+      "refute": "Pharma may build atlases internally, undercounting deal evidence, and regulators may keep platform evidence confidential. The call survives because AI lowers target-generation cost and makes proprietary human causal data the scarce differentiator.",
+      "why": "After AI can suggest biology, the bottleneck is proving biology behaves that way in human systems.",
+      "sources": [
+        "https://www.humancellatlas.org/publications/",
+        "https://arcinstitute.org/tools/virtualcellatlas",
+        "https://www.recursion.com/partners",
+        "https://chanzuckerberg.com/newsroom/billion-cells-project-launches-advance-ai-biology/"
+      ],
+      "implications": {
+        "exposed": "Pharma strategy teams, AI-biology startups, organoid companies, spatial-omics platforms, single-cell technology vendors, and biotech investors.",
+        "action_now": "Treat causal perturbation data as the asset, not a support function: secure tissue access, assay rights, metadata standards, and longitudinal phenotype linkage.",
+        "decision_changed": "Business-development teams prioritize partnerships and acquisitions around human perturbation atlases rather than model architecture alone.",
+        "roi_logic": "A proprietary causal atlas can reduce wrong-target spend, improve translational confidence, and create licensing leverage even if frontier biology models commoditize.",
+        "rent_path": "Value lands at Recursion-like maps of biology, Arc/CZI-style atlas infrastructure, organoid and spatial-omics platforms, and pharma groups that own disease-specific perturbation data.",
+        "winners": [
+          {
+            "who": "Single-cell and spatial-omics platforms",
+            "why": "They provide the measurement layer for causal human biology."
+          },
+          {
+            "who": "Organoid and primary-cell data owners",
+            "why": "They supply human-relevant perturbation systems models cannot infer from text alone."
+          },
+          {
+            "who": "Pharma companies with proprietary disease atlases",
+            "why": "They can test targets against internal causal maps before competitors see them."
+          }
+        ],
+        "losers": [
+          {
+            "who": "Model-only AI drug discovery vendors",
+            "why": "Their hypotheses become cheap without exclusive human causal validation."
+          },
+          {
+            "who": "Animal-model-heavy programs in poor-translating diseases",
+            "why": "They lose credibility as human perturbation evidence improves."
+          },
+          {
+            "who": "Undifferentiated public atlas mirrors",
+            "why": "Open data helps the field but does not create proprietary decision advantage."
+          }
+        ],
+        "reprices": "Disease-specific atlas rights, tissue access agreements, spatial-omics instruments, organoid CRO capacity, and perturbation-screening contracts reprice upward.",
+        "next_constraint": "After causal atlases, the next bottleneck is clinical linkage: longitudinal outcomes and responder/non-responder data tied back to perturbation signatures.",
+        "watch": "Watch pharma BD language for acquisitions or collaborations where the named asset is a human perturbation atlas, organoid atlas, spatial atlas, or virtual-cell training dataset."
+      }
+    },
+    {
+      "id": "P7",
+      "headline": "Grid stability replaces megawatts as the AI load gate.",
+      "boom": "AI campuses become grid actors. The valuable infrastructure is the power-electronics, battery, model, and interconnection stack that lets a 100 MW load behave safely on the grid.",
+      "domain": "energy / data centers / grid stability",
+      "vision_p": 68,
+      "clause_p": 38,
+      "resolves": "2033-12-31",
+      "structural": "Data centers are not only large loads; AI workloads can create fast-changing power behavior through power electronics and operational controls. As capacity planning catches up, the constraint migrates from raw megawatts to dynamic models, ride-through, grid support, and interconnection obligations.",
+      "pre_consensus": "Power scarcity is already priced. The underpriced second-order constraint is stability: whether large AI loads can connect without creating voltage, frequency, oscillation, or protection problems.",
+      "price_channel": "IEA projects data-center electricity consumption to double to around 945 TWh by 2030. LBNL shows US interconnection queues remain huge and slow. NERC and DOE/PNNL are already studying emerging large-load risks and electromagnetic transient models for data centers.",
+      "needle": "Dynamic load models, EMT-grade studies, ride-through commitments, grid-forming inverters, battery front ends, MVDC architectures, and utility tariff obligations for large AI loads.",
+      "metric": "Number of US RTO/ISO regions or NERC/FERC-linked reliability processes requiring large data-center loads to provide dynamic load models and ride-through or grid-support commitments; GW of AI-campus capacity publicly using BESS, grid-forming inverter, or MVDC front ends as interconnection enablers.",
+      "kill": "Kill if by 2033 grid operators integrate large AI loads through ordinary substation and capacity studies with no special dynamic-load, EMT-model, ride-through, or grid-support requirements.",
+      "refute": "Utilities may solve this through conventional planning, local generation, and static tariffs. The call survives because NERC, DOE, and PNNL are already pointing at large-load dynamics and model gaps, not just energy supply.",
+      "why": "The post-AI physical world has to couple intelligence factories to AC-grid physics. That coupling becomes a business.",
+      "sources": [
+        "https://www.iea.org/reports/energy-and-ai/energy-demand-from-ai",
+        "https://emp.lbl.gov/queues",
+        "https://www.nerc.com/globalassets/who-we-are/standing-committees/rstc/whitepaper-characteristics-and-risks-of-emerging-large-loads.pdf",
+        "https://www.energy.gov/sites/default/files/2026-01/Data_Center_EMT_Models.pdf"
+      ],
+      "implications": {
+        "exposed": "Hyperscalers, data-center developers, utilities, battery integrators, power-electronics vendors, grid planners, and infrastructure funds.",
+        "action_now": "Add dynamic-load modeling, ride-through design, battery smoothing, and grid-support capabilities to site selection before committing to land or power contracts.",
+        "decision_changed": "Data-center capex moves from lowest-cost megawatts toward interconnection-ready power architecture and utility-approved operating behavior.",
+        "roi_logic": "A site that can connect quickly and satisfy stability requirements beats a cheaper stranded site. The timing advantage can be worth more than headline power price.",
+        "rent_path": "Value lands at battery integrators, power-electronics firms, electrical engineering consultants, utilities with mature large-load processes, and campuses that can provide grid services rather than merely consume power.",
+        "winners": [
+          {
+            "who": "Battery and grid-forming inverter vendors",
+            "why": "They can turn fast AI-load swings into acceptable grid behavior."
+          },
+          {
+            "who": "Utilities and RTOs with transparent large-load rules",
+            "why": "They attract serious AI campuses that can clear interconnection reviews."
+          },
+          {
+            "who": "Power-engineering firms with EMT and large-load expertise",
+            "why": "They become gating consultants for AI-campus permits and studies."
+          }
+        ],
+        "losers": [
+          {
+            "who": "Data-center developers treating power as a commodity input",
+            "why": "They get delayed when grid stability requirements harden."
+          },
+          {
+            "who": "Regions with opaque interconnection and weak grid models",
+            "why": "They become harder to finance for large AI campuses."
+          },
+          {
+            "who": "Generation projects without deliverability or load-integration strategy",
+            "why": "They do not solve the stability or connection bottleneck by themselves."
+          }
+        ],
+        "reprices": "Large-load interconnection studies, BESS front-end contracts, MV switchgear, power-electronics vendors, and utility tariff concessions reprice upward.",
+        "next_constraint": "After grid stability, the next bottleneck is who pays for shared upgrades and whether AI loads can monetize flexibility without shifting costs to ratepayers.",
+        "watch": "Watch NERC, FERC, ERCOT, PJM, and utility filings for mandatory dynamic models, ride-through rules, or BESS/grid-support requirements for data centers above 100 MW."
+      }
+    },
+    {
+      "id": "P8",
+      "headline": "AI campuses become heat-sink and water-rights assets.",
+      "boom": "The best AI real estate is not only cheap land with power. It is a site with permitted heat rejection, reclaimed water, and a credible offtake for waste heat.",
+      "domain": "data-center real estate / cooling / water / heat",
+      "vision_p": 72,
+      "clause_p": 41,
+      "resolves": "2032-12-31",
+      "structural": "AI campuses turn electricity into heat. As power gets solved site by site, the next physical gate becomes where the entropy and cooling burden go: water access, non-potable supply, thermal discharge, district heat, and local acceptance.",
+      "pre_consensus": "Power is now consensus. Cooling and water are discussed, but heat-sink rights are not yet priced as a primary siting asset across AI campuses.",
+      "price_channel": "The European Commission now maintains reporting for energy performance and water footprint of significant data centers. Germany's data-center energy-efficiency rules move toward waste-heat reuse requirements for new sites starting in 2026. Current EU reporting shows energy reuse is still limited, which leaves room for regulatory pressure.",
+      "needle": "Legal and physical heat rejection: district-heat offtake, non-potable or reclaimed cooling water, thermal discharge permits, closed-loop cooling, and local consent.",
+      "metric": "Number of OECD jurisdictions requiring new large data centers to reuse material waste heat, use non-potable or closed-loop cooling, or prove infeasibility; share of AI-campus announcements citing heat sink, WUE, reclaimed water, or district-heat offtake as a siting reason.",
+      "kill": "Kill if by 2032 rules remain disclosure-only and hyperscale AI campuses continue scaling in water- and heat-stressed regions without heat or water constraints materially changing site selection.",
+      "refute": "Waste heat is low-grade and often uneconomic; many campuses can use dry cooling, tolerate higher server temperatures, or site remotely. The call survives because local politics and cooling physics can bind before global energy numbers look large.",
+      "why": "After AI gets power, it still has to dump heat. In a post-AI buildout, thermodynamic permission becomes real estate value.",
+      "sources": [
+        "https://energy.ec.europa.eu/topics/energy-efficiency/energy-efficiency-targets-directive-and-rules/energy-efficiency-directive/energy-performance-data-centres_en",
+        "https://blogs.law.columbia.edu/climatechange/2025/10/24/from-eu-framework-to-national-action-how-germany-regulates-data-center-energy-use/",
+        "https://www.iea.org/reports/energy-and-ai/energy-demand-from-ai"
+      ],
+      "implications": {
+        "exposed": "Data-center developers, hyperscalers, district-energy utilities, municipal planners, water authorities, and infrastructure real-estate investors.",
+        "action_now": "Screen AI-campus sites for reclaimed-water access, heat offtake, district-energy adjacency, dry-cooling feasibility, thermal permits, and community opposition before land banking.",
+        "decision_changed": "Site acquisition and power procurement decisions add heat/water rights as first-order diligence, not late-stage sustainability checks.",
+        "roi_logic": "A campus with permitted cooling and waste-heat offtake can avoid delays, community fights, retrofits, and future water or heat-reuse mandates.",
+        "rent_path": "Value lands at industrial parks with non-potable water, district-heating networks, cold-climate or heat-demand municipalities, and cooling technology vendors that reduce water exposure.",
+        "winners": [
+          {
+            "who": "District heating operators and municipalities with heat demand",
+            "why": "They can turn AI waste heat into negotiated offtake and permitting leverage."
+          },
+          {
+            "who": "Data-center sites with reclaimed-water rights",
+            "why": "They avoid local freshwater conflict and regulatory delays."
+          },
+          {
+            "who": "Closed-loop and liquid-cooling vendors",
+            "why": "They become permitting tools, not just efficiency upgrades."
+          }
+        ],
+        "losers": [
+          {
+            "who": "Hot, water-stressed data-center markets without reclaimed supply",
+            "why": "They face local resistance and stricter cooling conditions."
+          },
+          {
+            "who": "Developers that secure power before cooling permits",
+            "why": "They can strand land or interconnection rights on thermal and water constraints."
+          },
+          {
+            "who": "Municipalities giving away heat-sink rights cheaply",
+            "why": "They may underprice a scarce permitting asset."
+          }
+        ],
+        "reprices": "Land near district heating, reclaimed-water infrastructure, heat-reuse contracts, water permits, cooling systems, and environmental approvals reprice upward.",
+        "next_constraint": "After heat and water, the next bottleneck is local political consent: whether communities accept AI campuses as infrastructure or treat them as extractive load.",
+        "watch": "Watch >100 MW AI-campus announcements for WUE targets, reclaimed-water agreements, district-heat offtake, and local moratoria tied to water or heat."
+      }
+    }
+  ],
+  "runner_ups": [
+    {
+      "seed": "Physical AI safety cases become the robot bottleneck",
+      "case": "The 2025 industrial robot safety-standard refresh and global robot installation growth suggest a certification bottleneck for human-adjacent robots.",
+      "why_not": "The earlier after-AI board already covered certified deployment as the physical-AI bottleneck, so this pass demoted it to avoid duplication."
+    },
+    {
+      "seed": "Machine edge zones become a new real-estate class",
+      "case": "Physical AI may require low-latency inference near factories, ports, hospitals, and grids.",
+      "why_not": "The clause depends on uncertain latency needs and may be weakened by on-device inference; kept below heat/water and grid-stability calls."
+    },
+    {
+      "seed": "AI insurance splits fully from cyber",
+      "case": "AI-specific exclusions and endorsements are likely as loss data accumulates.",
+      "why_not": "This is partially contained inside P2 liability evidence and event recorders."
+    },
+    {
+      "seed": "Inline metrology outruns robot synthesis",
+      "case": "Autonomous science may bottleneck on calibrated in-situ measurement rather than robot arms.",
+      "why_not": "Strong but nested under P3 autonomous-lab standards and P4 qualification data."
+    }
+  ]
+}

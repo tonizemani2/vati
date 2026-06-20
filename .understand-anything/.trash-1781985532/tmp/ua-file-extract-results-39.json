@@ -1,0 +1,7828 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 25,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "paper_beyond_brier/beyond_brier.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 205,
+      "nonEmptyLines": 112,
+      "sections": [
+        {
+          "heading": "Beyond Brier: A Marginal-Edge Skill Score for Forecasting, and What It Does to a Leaderboard",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "With a leak-free human demonstration and a pre-registered protocol for language models",
+          "level": 3,
+          "line": 2
+        },
+        {
+          "heading": "Abstract",
+          "level": 2,
+          "line": 8
+        },
+        {
+          "heading": "1. Introduction",
+          "level": 2,
+          "line": 14
+        },
+        {
+          "heading": "2. Related Work",
+          "level": 2,
+          "line": 36
+        },
+        {
+          "heading": "3. The Marginal-Edge Metric",
+          "level": 2,
+          "line": 50
+        },
+        {
+          "heading": "3.1 Setup",
+          "level": 3,
+          "line": 52
+        },
+        {
+          "heading": "3.2 Per-question edge and the leaderboard metric",
+          "level": 3,
+          "line": 56
+        },
+        {
+          "heading": "3.3 An observation on reordering",
+          "level": 3,
+          "line": 66
+        },
+        {
+          "heading": "3.4 Priced vs. unpriced decomposition",
+          "level": 3,
+          "line": 74
+        },
+        {
+          "heading": "3.5 What we report",
+          "level": 3,
+          "line": 80
+        },
+        {
+          "heading": "4. Empirical Demonstration on Public ForecastBench Data",
+          "level": 2,
+          "line": 86
+        },
+        {
+          "heading": "4.1 Data and the leak-free scope",
+          "level": 3,
+          "line": 88
+        },
+        {
+          "heading": "4.2 The leaderboard reorders on market questions, but only after difficulty adjustment",
+          "level": 3,
+          "line": 94
+        },
+        {
+          "heading": "4.3 The data track is an identity check, not a result",
+          "level": 3,
+          "line": 105
+        },
+        {
+          "heading": "4.4 Who has unpriced edge: the decomposition",
+          "level": 3,
+          "line": 109
+        },
+        {
+          "heading": "5. Pre-Registered Forward Protocol",
+          "level": 2,
+          "line": 117
+        },
+        {
+          "heading": "6. Discussion",
+          "level": 2,
+          "line": 131
+        },
+        {
+          "heading": "7. Limitations",
+          "level": 2,
+          "line": 141
+        },
+        {
+          "heading": "References",
+          "level": 2,
+          "line": 155
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 20
+      }
+    },
+    {
+      "path": "paper_beyond_brier/beyond_brier.tex",
+      "language": "tex",
+      "fileCategory": "code",
+      "totalLines": 266,
+      "nonEmptyLines": 211,
+      "metrics": {}
+    },
+    {
+      "path": "paper_beyond_brier/compute_edge.py",
+      "language": "python",
+      "fileCategory": "code",
+      "totalLines": 579,
+      "nonEmptyLines": 529,
+      "functions": [
+        {
+          "name": "brier",
+          "startLine": 52,
+          "endLine": 53,
+          "params": [
+            "p",
+            "y"
+          ]
+        },
+        {
+          "name": "clip",
+          "startLine": 55,
+          "endLine": 56,
+          "params": [
+            "p"
+          ]
+        },
+        {
+          "name": "logit",
+          "startLine": 58,
+          "endLine": 60,
+          "params": [
+            "p"
+          ]
+        },
+        {
+          "name": "load_forecasts",
+          "startLine": 98,
+          "endLine": 111,
+          "params": [
+            "path",
+            "tag"
+          ]
+        },
+        {
+          "name": "is_market",
+          "startLine": 131,
+          "endLine": 131,
+          "params": [
+            "s"
+          ]
+        },
+        {
+          "name": "join_row",
+          "startLine": 138,
+          "endLine": 161,
+          "params": [
+            "row"
+          ]
+        },
+        {
+          "name": "bootstrap_ci",
+          "startLine": 223,
+          "endLine": 230,
+          "params": [
+            "vals",
+            "B"
+          ]
+        },
+        {
+          "name": "build_leaderboard",
+          "startLine": 232,
+          "endLine": 263,
+          "params": [
+            "track",
+            "min_n"
+          ]
+        },
+        {
+          "name": "save_lb",
+          "startLine": 277,
+          "endLine": 281,
+          "params": [
+            "out",
+            "path"
+          ]
+        },
+        {
+          "name": "reorder_stats",
+          "startLine": 289,
+          "endLine": 307,
+          "params": [
+            "out"
+          ]
+        },
+        {
+          "name": "median_ensemble_brier",
+          "startLine": 318,
+          "endLine": 329,
+          "params": [
+            "tag",
+            "track"
+          ]
+        },
+        {
+          "name": "encompass",
+          "startLine": 354,
+          "endLine": 381,
+          "params": [
+            "sub"
+          ]
+        },
+        {
+          "name": "oos_isotonic_edge",
+          "startLine": 431,
+          "endLine": 455,
+          "params": [
+            "track",
+            "min_n",
+            "k"
+          ]
+        },
+        {
+          "name": "make_fig",
+          "startLine": 511,
+          "endLine": 538,
+          "params": [
+            "out",
+            "track",
+            "path",
+            "topn"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "brier",
+          "line": 52,
+          "isDefault": false
+        },
+        {
+          "name": "clip",
+          "line": 55,
+          "isDefault": false
+        },
+        {
+          "name": "logit",
+          "line": 58,
+          "isDefault": false
+        },
+        {
+          "name": "load_forecasts",
+          "line": 98,
+          "isDefault": false
+        },
+        {
+          "name": "is_market",
+          "line": 131,
+          "isDefault": false
+        },
+        {
+          "name": "join_row",
+          "line": 138,
+          "isDefault": false
+        },
+        {
+          "name": "bootstrap_ci",
+          "line": 223,
+          "isDefault": false
+        },
+        {
+          "name": "build_leaderboard",
+          "line": 232,
+          "isDefault": false
+        },
+        {
+          "name": "save_lb",
+          "line": 277,
+          "isDefault": false
+        },
+        {
+          "name": "reorder_stats",
+          "line": 289,
+          "isDefault": false
+        },
+        {
+          "name": "median_ensemble_brier",
+          "line": 318,
+          "isDefault": false
+        },
+        {
+          "name": "encompass",
+          "line": 354,
+          "isDefault": false
+        },
+        {
+          "name": "oos_isotonic_edge",
+          "line": 431,
+          "isDefault": false
+        },
+        {
+          "name": "make_fig",
+          "line": 511,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "clip",
+          "callee": "float",
+          "lineNumber": 56
+        },
+        {
+          "caller": "clip",
+          "callee": "np.clip",
+          "lineNumber": 56
+        },
+        {
+          "caller": "logit",
+          "callee": "np.clip",
+          "lineNumber": 59
+        },
+        {
+          "caller": "logit",
+          "callee": "np.log",
+          "lineNumber": 60
+        },
+        {
+          "caller": "load_forecasts",
+          "callee": "json.load",
+          "lineNumber": 99
+        },
+        {
+          "caller": "load_forecasts",
+          "callee": "open",
+          "lineNumber": 99
+        },
+        {
+          "caller": "load_forecasts",
+          "callee": "rows.append",
+          "lineNumber": 102
+        },
+        {
+          "caller": "load_forecasts",
+          "callee": "f.get",
+          "lineNumber": 104
+        },
+        {
+          "caller": "load_forecasts",
+          "callee": "f.get",
+          "lineNumber": 107
+        },
+        {
+          "caller": "load_forecasts",
+          "callee": "f.get",
+          "lineNumber": 108
+        },
+        {
+          "caller": "load_forecasts",
+          "callee": "f.get",
+          "lineNumber": 109
+        },
+        {
+          "caller": "join_row",
+          "callee": "is_market",
+          "lineNumber": 150
+        },
+        {
+          "caller": "join_row",
+          "callee": "P_REF.get",
+          "lineNumber": 151
+        },
+        {
+          "caller": "join_row",
+          "callee": "is_market",
+          "lineNumber": 155
+        },
+        {
+          "caller": "join_row",
+          "callee": "res_by_id.get",
+          "lineNumber": 156
+        },
+        {
+          "caller": "join_row",
+          "callee": "len",
+          "lineNumber": 157
+        },
+        {
+          "caller": "join_row",
+          "callee": "RES.get",
+          "lineNumber": 160
+        },
+        {
+          "caller": "join_row",
+          "callee": "pd.Series",
+          "lineNumber": 161
+        },
+        {
+          "caller": "bootstrap_ci",
+          "callee": "np.asarray",
+          "lineNumber": 224
+        },
+        {
+          "caller": "bootstrap_ci",
+          "callee": "len",
+          "lineNumber": 225
+        },
+        {
+          "caller": "bootstrap_ci",
+          "callee": "RNG.integers",
+          "lineNumber": 228
+        },
+        {
+          "caller": "bootstrap_ci",
+          "callee": "vals[idx].mean",
+          "lineNumber": 229
+        },
+        {
+          "caller": "bootstrap_ci",
+          "callee": "np.percentile",
+          "lineNumber": 230
+        },
+        {
+          "caller": "bootstrap_ci",
+          "callee": "np.percentile",
+          "lineNumber": 230
+        },
+        {
+          "caller": "build_leaderboard",
+          "callee": "sub.groupby",
+          "lineNumber": 235
+        },
+        {
+          "caller": "build_leaderboard",
+          "callee": "len",
+          "lineNumber": 236
+        },
+        {
+          "caller": "build_leaderboard",
+          "callee": "g.d.mean",
+          "lineNumber": 239
+        },
+        {
+          "caller": "build_leaderboard",
+          "callee": "g.d.std",
+          "lineNumber": 240
+        },
+        {
+          "caller": "build_leaderboard",
+          "callee": "math.sqrt",
+          "lineNumber": 240
+        },
+        {
+          "caller": "build_leaderboard",
+          "callee": "bootstrap_ci",
+          "lineNumber": 241
+        },
+        {
+          "caller": "build_leaderboard",
+          "callee": "g.s_f.mean",
+          "lineNumber": 242
+        },
+        {
+          "caller": "build_leaderboard",
+          "callee": "g.s_ref.mean",
+          "lineNumber": 243
+        },
+        {
+          "caller": "build_leaderboard",
+          "callee": "rows.append",
+          "lineNumber": 244
+        },
+        {
+          "caller": "build_leaderboard",
+          "callee": "pd.DataFrame",
+          "lineNumber": 255
+        },
+        {
+          "caller": "build_leaderboard",
+          "callee": "len",
+          "lineNumber": 256
+        },
+        {
+          "caller": "build_leaderboard",
+          "callee": "out[\"edge\"].rank(ascending=False, method=\"min\").astype",
+          "lineNumber": 259
+        },
+        {
+          "caller": "build_leaderboard",
+          "callee": "out[\"edge\"].rank",
+          "lineNumber": 259
+        },
+        {
+          "caller": "build_leaderboard",
+          "callee": "out[\"mean_brier\"].rank(ascending=True, method=\"min\").astype",
+          "lineNumber": 260
+        },
+        {
+          "caller": "build_leaderboard",
+          "callee": "out[\"mean_brier\"].rank",
+          "lineNumber": 260
+        },
+        {
+          "caller": "build_leaderboard",
+          "callee": "out.sort_values(\"edge\", ascending=False).reset_index",
+          "lineNumber": 262
+        },
+        {
+          "caller": "build_leaderboard",
+          "callee": "out.sort_values",
+          "lineNumber": 262
+        },
+        {
+          "caller": "save_lb",
+          "callee": "out[cols].rename",
+          "lineNumber": 280
+        },
+        {
+          "caller": "save_lb",
+          "callee": "out2.to_csv",
+          "lineNumber": 281
+        },
+        {
+          "caller": "reorder_stats",
+          "callee": "len",
+          "lineNumber": 290
+        },
+        {
+          "caller": "reorder_stats",
+          "callee": "stats.spearmanr",
+          "lineNumber": 293
+        },
+        {
+          "caller": "reorder_stats",
+          "callee": "stats.kendalltau",
+          "lineNumber": 294
+        },
+        {
+          "caller": "reorder_stats",
+          "callee": "out.nlargest",
+          "lineNumber": 297
+        },
+        {
+          "caller": "reorder_stats",
+          "callee": "out.nsmallest",
+          "lineNumber": 298
+        },
+        {
+          "caller": "reorder_stats",
+          "callee": "float",
+          "lineNumber": 300
+        },
+        {
+          "caller": "reorder_stats",
+          "callee": "float",
+          "lineNumber": 300
+        },
+        {
+          "caller": "reorder_stats",
+          "callee": "float",
+          "lineNumber": 301
+        },
+        {
+          "caller": "reorder_stats",
+          "callee": "float",
+          "lineNumber": 301
+        },
+        {
+          "caller": "reorder_stats",
+          "callee": "float",
+          "lineNumber": 302
+        },
+        {
+          "caller": "reorder_stats",
+          "callee": "rc.abs().mean",
+          "lineNumber": 302
+        },
+        {
+          "caller": "reorder_stats",
+          "callee": "rc.abs",
+          "lineNumber": 302
+        },
+        {
+          "caller": "reorder_stats",
+          "callee": "int",
+          "lineNumber": 303
+        },
+        {
+          "caller": "reorder_stats",
+          "callee": "rc.abs().max",
+          "lineNumber": 303
+        },
+        {
+          "caller": "reorder_stats",
+          "callee": "rc.abs",
+          "lineNumber": 303
+        },
+        {
+          "caller": "reorder_stats",
+          "callee": "int",
+          "lineNumber": 304
+        },
+        {
+          "caller": "reorder_stats",
+          "callee": "len",
+          "lineNumber": 304
+        },
+        {
+          "caller": "reorder_stats",
+          "callee": "movers_up.to_dict",
+          "lineNumber": 305
+        },
+        {
+          "caller": "reorder_stats",
+          "callee": "movers_dn.to_dict",
+          "lineNumber": 306
+        },
+        {
+          "caller": "median_ensemble_brier",
+          "callee": "joined_valid[(joined_valid.tag == tag) & (joined_valid.track == track)].copy",
+          "lineNumber": 319
+        },
+        {
+          "caller": "median_ensemble_brier",
+          "callee": "sub[\"id\"].astype",
+          "lineNumber": 324
+        },
+        {
+          "caller": "median_ensemble_brier",
+          "callee": "sub[\"resolution_date\"].astype",
+          "lineNumber": 324
+        },
+        {
+          "caller": "median_ensemble_brier",
+          "callee": "sub.groupby(\"rd_key\").agg(\n        p=(\"forecast\", \"median\"), y=(\"y\", \"first\")).reset_index",
+          "lineNumber": 325
+        },
+        {
+          "caller": "median_ensemble_brier",
+          "callee": "sub.groupby(\"rd_key\").agg",
+          "lineNumber": 325
+        },
+        {
+          "caller": "median_ensemble_brier",
+          "callee": "sub.groupby",
+          "lineNumber": 325
+        },
+        {
+          "caller": "median_ensemble_brier",
+          "callee": "len",
+          "lineNumber": 327
+        },
+        {
+          "caller": "median_ensemble_brier",
+          "callee": "float",
+          "lineNumber": 328
+        },
+        {
+          "caller": "median_ensemble_brier",
+          "callee": "float",
+          "lineNumber": 329
+        },
+        {
+          "caller": "median_ensemble_brier",
+          "callee": "brier(med.p, med.y).mean",
+          "lineNumber": 329
+        },
+        {
+          "caller": "median_ensemble_brier",
+          "callee": "brier",
+          "lineNumber": 329
+        },
+        {
+          "caller": "median_ensemble_brier",
+          "callee": "len",
+          "lineNumber": 329
+        },
+        {
+          "caller": "encompass",
+          "callee": "sub.dropna",
+          "lineNumber": 355
+        },
+        {
+          "caller": "encompass",
+          "callee": "len",
+          "lineNumber": 356
+        },
+        {
+          "caller": "encompass",
+          "callee": "sub.y.nunique",
+          "lineNumber": 356
+        },
+        {
+          "caller": "encompass",
+          "callee": "logit",
+          "lineNumber": 358
+        },
+        {
+          "caller": "encompass",
+          "callee": "logit",
+          "lineNumber": 359
+        },
+        {
+          "caller": "encompass",
+          "callee": "np.std",
+          "lineNumber": 361
+        },
+        {
+          "caller": "encompass",
+          "callee": "pd.DataFrame",
+          "lineNumber": 363
+        },
+        {
+          "caller": "encompass",
+          "callee": "sub.y.values.astype",
+          "lineNumber": 364
+        },
+        {
+          "caller": "encompass",
+          "callee": "sm.Logit(y, X).fit",
+          "lineNumber": 366
+        },
+        {
+          "caller": "encompass",
+          "callee": "sm.Logit",
+          "lineNumber": 366
+        },
+        {
+          "caller": "encompass",
+          "callee": "str",
+          "lineNumber": 368
+        },
+        {
+          "caller": "encompass",
+          "callee": "int",
+          "lineNumber": 370
+        },
+        {
+          "caller": "encompass",
+          "callee": "len",
+          "lineNumber": 370
+        },
+        {
+          "caller": "encompass",
+          "callee": "float",
+          "lineNumber": 371
+        },
+        {
+          "caller": "encompass",
+          "callee": "float",
+          "lineNumber": 371
+        },
+        {
+          "caller": "encompass",
+          "callee": "float",
+          "lineNumber": 371
+        },
+        {
+          "caller": "encompass",
+          "callee": "float",
+          "lineNumber": 372
+        },
+        {
+          "caller": "encompass",
+          "callee": "out.update",
+          "lineNumber": 375
+        },
+        {
+          "caller": "encompass",
+          "callee": "float",
+          "lineNumber": 375
+        },
+        {
+          "caller": "encompass",
+          "callee": "float",
+          "lineNumber": 376
+        },
+        {
+          "caller": "encompass",
+          "callee": "float",
+          "lineNumber": 377
+        },
+        {
+          "caller": "encompass",
+          "callee": "out.update",
+          "lineNumber": 379
+        },
+        {
+          "caller": "encompass",
+          "callee": "float",
+          "lineNumber": 379
+        },
+        {
+          "caller": "encompass",
+          "callee": "float",
+          "lineNumber": 379
+        },
+        {
+          "caller": "encompass",
+          "callee": "float",
+          "lineNumber": 379
+        },
+        {
+          "caller": "oos_isotonic_edge",
+          "callee": "joined_valid[joined_valid.track == track].copy",
+          "lineNumber": 432
+        },
+        {
+          "caller": "oos_isotonic_edge",
+          "callee": "sub.groupby",
+          "lineNumber": 434
+        },
+        {
+          "caller": "oos_isotonic_edge",
+          "callee": "g.reset_index",
+          "lineNumber": 435
+        },
+        {
+          "caller": "oos_isotonic_edge",
+          "callee": "len",
+          "lineNumber": 436
+        },
+        {
+          "caller": "oos_isotonic_edge",
+          "callee": "g.y.nunique",
+          "lineNumber": 437
+        },
+        {
+          "caller": "oos_isotonic_edge",
+          "callee": "RNG.permutation",
+          "lineNumber": 439
+        },
+        {
+          "caller": "oos_isotonic_edge",
+          "callee": "np.array_split",
+          "lineNumber": 440
+        },
+        {
+          "caller": "oos_isotonic_edge",
+          "callee": "np.full",
+          "lineNumber": 441
+        },
+        {
+          "caller": "oos_isotonic_edge",
+          "callee": "range",
+          "lineNumber": 442
+        },
+        {
+          "caller": "oos_isotonic_edge",
+          "callee": "np.concatenate",
+          "lineNumber": 444
+        },
+        {
+          "caller": "oos_isotonic_edge",
+          "callee": "range",
+          "lineNumber": 444
+        },
+        {
+          "caller": "oos_isotonic_edge",
+          "callee": "IsotonicRegression",
+          "lineNumber": 445
+        },
+        {
+          "caller": "oos_isotonic_edge",
+          "callee": "g.y.iloc[train].nunique",
+          "lineNumber": 447
+        },
+        {
+          "caller": "oos_isotonic_edge",
+          "callee": "ir.fit",
+          "lineNumber": 450
+        },
+        {
+          "caller": "oos_isotonic_edge",
+          "callee": "ir.predict",
+          "lineNumber": 451
+        },
+        {
+          "caller": "oos_isotonic_edge",
+          "callee": "(brier(g.p_ref, g.y) - brier(g.forecast, g.y)).mean",
+          "lineNumber": 452
+        },
+        {
+          "caller": "oos_isotonic_edge",
+          "callee": "brier",
+          "lineNumber": 452
+        },
+        {
+          "caller": "oos_isotonic_edge",
+          "callee": "brier",
+          "lineNumber": 452
+        },
+        {
+          "caller": "oos_isotonic_edge",
+          "callee": "(brier(g.p_ref, g.y) - brier(p_recal, g.y)).mean",
+          "lineNumber": 453
+        },
+        {
+          "caller": "oos_isotonic_edge",
+          "callee": "brier",
+          "lineNumber": 453
+        },
+        {
+          "caller": "oos_isotonic_edge",
+          "callee": "brier",
+          "lineNumber": 453
+        },
+        {
+          "caller": "oos_isotonic_edge",
+          "callee": "rows.append",
+          "lineNumber": 454
+        },
+        {
+          "caller": "oos_isotonic_edge",
+          "callee": "pd.DataFrame",
+          "lineNumber": 455
+        },
+        {
+          "caller": "make_fig",
+          "callee": "len",
+          "lineNumber": 512
+        },
+        {
+          "caller": "make_fig",
+          "callee": "out.nsmallest(topn, \"brier_rank\").copy",
+          "lineNumber": 515
+        },
+        {
+          "caller": "make_fig",
+          "callee": "out.nsmallest",
+          "lineNumber": 515
+        },
+        {
+          "caller": "make_fig",
+          "callee": "pd.concat([sel, out.nsmallest(topn, \"edge_rank\")]).drop_duplicates",
+          "lineNumber": 517
+        },
+        {
+          "caller": "make_fig",
+          "callee": "pd.concat",
+          "lineNumber": 517
+        },
+        {
+          "caller": "make_fig",
+          "callee": "out.nsmallest",
+          "lineNumber": 517
+        },
+        {
+          "caller": "make_fig",
+          "callee": "sel.sort_values",
+          "lineNumber": 518
+        },
+        {
+          "caller": "make_fig",
+          "callee": "plt.subplots",
+          "lineNumber": 519
+        },
+        {
+          "caller": "make_fig",
+          "callee": "max",
+          "lineNumber": 519
+        },
+        {
+          "caller": "make_fig",
+          "callee": "len",
+          "lineNumber": 519
+        },
+        {
+          "caller": "make_fig",
+          "callee": "sel.iterrows",
+          "lineNumber": 520
+        },
+        {
+          "caller": "make_fig",
+          "callee": "ax.plot",
+          "lineNumber": 522
+        },
+        {
+          "caller": "make_fig",
+          "callee": "r.forecaster.split(\":\")[0][0].upper",
+          "lineNumber": 523
+        },
+        {
+          "caller": "make_fig",
+          "callee": "r.forecaster.split",
+          "lineNumber": 523
+        },
+        {
+          "caller": "make_fig",
+          "callee": "r.forecaster.split",
+          "lineNumber": 523
+        },
+        {
+          "caller": "make_fig",
+          "callee": "ax.text",
+          "lineNumber": 524
+        },
+        {
+          "caller": "make_fig",
+          "callee": "ax.text",
+          "lineNumber": 525
+        },
+        {
+          "caller": "make_fig",
+          "callee": "ax.invert_yaxis",
+          "lineNumber": 526
+        },
+        {
+          "caller": "make_fig",
+          "callee": "ax.set_xticks",
+          "lineNumber": 527
+        },
+        {
+          "caller": "make_fig",
+          "callee": "ax.set_xticklabels",
+          "lineNumber": 527
+        },
+        {
+          "caller": "make_fig",
+          "callee": "ax.set_ylabel",
+          "lineNumber": 528
+        },
+        {
+          "caller": "make_fig",
+          "callee": "ax.set_title",
+          "lineNumber": 529
+        },
+        {
+          "caller": "make_fig",
+          "callee": "reorder_stats",
+          "lineNumber": 530
+        },
+        {
+          "caller": "make_fig",
+          "callee": "reorder_stats",
+          "lineNumber": 531
+        },
+        {
+          "caller": "make_fig",
+          "callee": "len",
+          "lineNumber": 532
+        },
+        {
+          "caller": "make_fig",
+          "callee": "ax.set_xlim",
+          "lineNumber": 533
+        },
+        {
+          "caller": "make_fig",
+          "callee": "ax.spines[s].set_visible",
+          "lineNumber": 535
+        },
+        {
+          "caller": "make_fig",
+          "callee": "plt.tight_layout",
+          "lineNumber": 536
+        },
+        {
+          "caller": "make_fig",
+          "callee": "plt.savefig",
+          "lineNumber": 537
+        },
+        {
+          "caller": "make_fig",
+          "callee": "plt.close",
+          "lineNumber": 538
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 14,
+        "functionCount": 14,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "paper_beyond_brier/eps_sens.py",
+      "language": "python",
+      "fileCategory": "code",
+      "totalLines": 65,
+      "nonEmptyLines": 60,
+      "functions": [
+        {
+          "name": "rd_year",
+          "startLine": 16,
+          "endLine": 17,
+          "params": [
+            "rd"
+          ]
+        },
+        {
+          "name": "load",
+          "startLine": 19,
+          "endLine": 36,
+          "params": [
+            "rd"
+          ]
+        },
+        {
+          "name": "dll_at",
+          "startLine": 38,
+          "endLine": 47,
+          "params": [
+            "g",
+            "eps"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "rd_year",
+          "line": 16,
+          "isDefault": false
+        },
+        {
+          "name": "load",
+          "line": 19,
+          "isDefault": false
+        },
+        {
+          "name": "dll_at",
+          "line": 38,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "rd_year",
+          "callee": "int",
+          "lineNumber": 17
+        },
+        {
+          "caller": "rd_year",
+          "callee": "rd.split",
+          "lineNumber": 17
+        },
+        {
+          "caller": "load",
+          "callee": "sorted",
+          "lineNumber": 21
+        },
+        {
+          "caller": "load",
+          "callee": "glob.glob",
+          "lineNumber": 21
+        },
+        {
+          "caller": "load",
+          "callee": "os.path.join",
+          "lineNumber": 21
+        },
+        {
+          "caller": "load",
+          "callee": "json.load",
+          "lineNumber": 22
+        },
+        {
+          "caller": "load",
+          "callee": "open",
+          "lineNumber": 22
+        },
+        {
+          "caller": "load",
+          "callee": "d.get",
+          "lineNumber": 24
+        },
+        {
+          "caller": "load",
+          "callee": "d.get",
+          "lineNumber": 24
+        },
+        {
+          "caller": "load",
+          "callee": "any",
+          "lineNumber": 25
+        },
+        {
+          "caller": "load",
+          "callee": "mod.lower",
+          "lineNumber": 25
+        },
+        {
+          "caller": "load",
+          "callee": "d.get",
+          "lineNumber": 26
+        },
+        {
+          "caller": "load",
+          "callee": "r.get",
+          "lineNumber": 27
+        },
+        {
+          "caller": "load",
+          "callee": "r.get",
+          "lineNumber": 27
+        },
+        {
+          "caller": "load",
+          "callee": "r.get",
+          "lineNumber": 28
+        },
+        {
+          "caller": "load",
+          "callee": "r.get",
+          "lineNumber": 30
+        },
+        {
+          "caller": "load",
+          "callee": "r.get",
+          "lineNumber": 30
+        },
+        {
+          "caller": "load",
+          "callee": "float",
+          "lineNumber": 32
+        },
+        {
+          "caller": "load",
+          "callee": "float",
+          "lineNumber": 32
+        },
+        {
+          "caller": "load",
+          "callee": "rows.append",
+          "lineNumber": 35
+        },
+        {
+          "caller": "load",
+          "callee": "str",
+          "lineNumber": 35
+        },
+        {
+          "caller": "load",
+          "callee": "float",
+          "lineNumber": 35
+        },
+        {
+          "caller": "load",
+          "callee": "pd.DataFrame",
+          "lineNumber": 36
+        },
+        {
+          "caller": "lg",
+          "callee": "np.clip",
+          "lineNumber": 39
+        },
+        {
+          "caller": "lg",
+          "callee": "np.log",
+          "lineNumber": 39
+        },
+        {
+          "caller": "dll_at",
+          "callee": "len",
+          "lineNumber": 41
+        },
+        {
+          "caller": "dll_at",
+          "callee": "len",
+          "lineNumber": 41
+        },
+        {
+          "caller": "dll_at",
+          "callee": "np.unique",
+          "lineNumber": 41
+        },
+        {
+          "caller": "dll_at",
+          "callee": "len",
+          "lineNumber": 41
+        },
+        {
+          "caller": "dll_at",
+          "callee": "sm.GLM(y, np.column_stack([np.ones(len(g)), lg(g.pr)]), family=B).fit",
+          "lineNumber": 43
+        },
+        {
+          "caller": "dll_at",
+          "callee": "sm.GLM",
+          "lineNumber": 43
+        },
+        {
+          "caller": "dll_at",
+          "callee": "np.column_stack",
+          "lineNumber": 43
+        },
+        {
+          "caller": "dll_at",
+          "callee": "np.ones",
+          "lineNumber": 43
+        },
+        {
+          "caller": "dll_at",
+          "callee": "len",
+          "lineNumber": 43
+        },
+        {
+          "caller": "dll_at",
+          "callee": "lg",
+          "lineNumber": 43
+        },
+        {
+          "caller": "dll_at",
+          "callee": "sm.GLM(y, np.column_stack([np.ones(len(g)), lg(g.pr), lg(g.fc)]), family=B).fit",
+          "lineNumber": 44
+        },
+        {
+          "caller": "dll_at",
+          "callee": "sm.GLM",
+          "lineNumber": 44
+        },
+        {
+          "caller": "dll_at",
+          "callee": "np.column_stack",
+          "lineNumber": 44
+        },
+        {
+          "caller": "dll_at",
+          "callee": "np.ones",
+          "lineNumber": 44
+        },
+        {
+          "caller": "dll_at",
+          "callee": "len",
+          "lineNumber": 44
+        },
+        {
+          "caller": "dll_at",
+          "callee": "lg",
+          "lineNumber": 44
+        },
+        {
+          "caller": "dll_at",
+          "callee": "lg",
+          "lineNumber": 44
+        },
+        {
+          "caller": "dll_at",
+          "callee": "len",
+          "lineNumber": 45
+        },
+        {
+          "caller": "dll_at",
+          "callee": "len",
+          "lineNumber": 45
+        },
+        {
+          "caller": "dll_at",
+          "callee": "len",
+          "lineNumber": 47
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 3,
+        "functionCount": 3,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "paper_beyond_brier/forecast_sets/2024-07-21/human_public.json",
+      "language": "json",
+      "fileCategory": "config",
+      "totalLines": 429119,
+      "nonEmptyLines": 429119,
+      "sections": [
+        {
+          "heading": "organization",
+          "level": 1,
+          "line": 2
+        },
+        {
+          "heading": "model",
+          "level": 1,
+          "line": 3
+        },
+        {
+          "heading": "question_set",
+          "level": 1,
+          "line": 4
+        },
+        {
+          "heading": "forecast_due_date",
+          "level": 1,
+          "line": 5
+        },
+        {
+          "heading": "forecasts",
+          "level": 1,
+          "line": 6
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 5
+      }
+    },
+    {
+      "path": "paper_beyond_brier/forecast_sets/2024-07-21/human_super.json",
+      "language": "json",
+      "fileCategory": "config",
+      "totalLines": 93734,
+      "nonEmptyLines": 93734,
+      "sections": [
+        {
+          "heading": "organization",
+          "level": 1,
+          "line": 2
+        },
+        {
+          "heading": "model",
+          "level": 1,
+          "line": 3
+        },
+        {
+          "heading": "question_set",
+          "level": 1,
+          "line": 4
+        },
+        {
+          "heading": "forecast_due_date",
+          "level": 1,
+          "line": 5
+        },
+        {
+          "heading": "forecasts",
+          "level": 1,
+          "line": 6
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 5
+      }
+    },
+    {
+      "path": "paper_beyond_brier/llm_edge.py",
+      "language": "python",
+      "fileCategory": "code",
+      "totalLines": 333,
+      "nonEmptyLines": 303,
+      "functions": [
+        {
+          "name": "brier",
+          "startLine": 56,
+          "endLine": 57,
+          "params": [
+            "p",
+            "y"
+          ]
+        },
+        {
+          "name": "logit",
+          "startLine": 59,
+          "endLine": 61,
+          "params": [
+            "p"
+          ]
+        },
+        {
+          "name": "fid_of",
+          "startLine": 63,
+          "endLine": 68,
+          "params": [
+            "path"
+          ]
+        },
+        {
+          "name": "is_baseline",
+          "startLine": 70,
+          "endLine": 71,
+          "params": [
+            "fid"
+          ]
+        },
+        {
+          "name": "agg",
+          "startLine": 139,
+          "endLine": 149,
+          "params": [
+            "g"
+          ]
+        },
+        {
+          "name": "encompass",
+          "startLine": 169,
+          "endLine": 185,
+          "params": [
+            "g"
+          ]
+        },
+        {
+          "name": "stats_on_common",
+          "startLine": 225,
+          "endLine": 241,
+          "params": [
+            "base_fid",
+            "frz_fid"
+          ]
+        },
+        {
+          "name": "wilcox",
+          "startLine": 252,
+          "endLine": 257,
+          "params": [
+            "x"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "brier",
+          "line": 56,
+          "isDefault": false
+        },
+        {
+          "name": "logit",
+          "line": 59,
+          "isDefault": false
+        },
+        {
+          "name": "fid_of",
+          "line": 63,
+          "isDefault": false
+        },
+        {
+          "name": "is_baseline",
+          "line": 70,
+          "isDefault": false
+        },
+        {
+          "name": "agg",
+          "line": 139,
+          "isDefault": false
+        },
+        {
+          "name": "encompass",
+          "line": 169,
+          "isDefault": false
+        },
+        {
+          "name": "stats_on_common",
+          "line": 225,
+          "isDefault": false
+        },
+        {
+          "name": "wilcox",
+          "line": 252,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "logit",
+          "callee": "np.clip",
+          "lineNumber": 60
+        },
+        {
+          "caller": "logit",
+          "callee": "np.log",
+          "lineNumber": 61
+        },
+        {
+          "caller": "fid_of",
+          "callee": "os.path.basename",
+          "lineNumber": 64
+        },
+        {
+          "caller": "fid_of",
+          "callee": "b.startswith",
+          "lineNumber": 66
+        },
+        {
+          "caller": "fid_of",
+          "callee": "len",
+          "lineNumber": 67
+        },
+        {
+          "caller": "is_baseline",
+          "callee": "any",
+          "lineNumber": 71
+        },
+        {
+          "caller": "agg",
+          "callee": "pd.Series",
+          "lineNumber": 141
+        },
+        {
+          "caller": "agg",
+          "callee": "len",
+          "lineNumber": 142
+        },
+        {
+          "caller": "agg",
+          "callee": "g.s_f.mean",
+          "lineNumber": 143
+        },
+        {
+          "caller": "agg",
+          "callee": "g.s_ref.mean",
+          "lineNumber": 143
+        },
+        {
+          "caller": "agg",
+          "callee": "g.d.mean",
+          "lineNumber": 144
+        },
+        {
+          "caller": "agg",
+          "callee": "(g.forecast - g.p_ref).abs().mean",
+          "lineNumber": 145
+        },
+        {
+          "caller": "agg",
+          "callee": "(g.forecast - g.p_ref).abs",
+          "lineNumber": 145
+        },
+        {
+          "caller": "agg",
+          "callee": "len",
+          "lineNumber": 146
+        },
+        {
+          "caller": "agg",
+          "callee": "real.s_f.mean",
+          "lineNumber": 147
+        },
+        {
+          "caller": "agg",
+          "callee": "len",
+          "lineNumber": 147
+        },
+        {
+          "caller": "agg",
+          "callee": "real.d.mean",
+          "lineNumber": 148
+        },
+        {
+          "caller": "agg",
+          "callee": "len",
+          "lineNumber": 148
+        },
+        {
+          "caller": "encompass",
+          "callee": "g.dropna",
+          "lineNumber": 170
+        },
+        {
+          "caller": "encompass",
+          "callee": "len",
+          "lineNumber": 171
+        },
+        {
+          "caller": "encompass",
+          "callee": "g.y.nunique",
+          "lineNumber": 171
+        },
+        {
+          "caller": "encompass",
+          "callee": "np.column_stack",
+          "lineNumber": 173
+        },
+        {
+          "caller": "encompass",
+          "callee": "np.ones",
+          "lineNumber": 173
+        },
+        {
+          "caller": "encompass",
+          "callee": "len",
+          "lineNumber": 173
+        },
+        {
+          "caller": "encompass",
+          "callee": "logit",
+          "lineNumber": 174
+        },
+        {
+          "caller": "encompass",
+          "callee": "logit",
+          "lineNumber": 174
+        },
+        {
+          "caller": "encompass",
+          "callee": "sm.Logit(yv, X).fit",
+          "lineNumber": 177
+        },
+        {
+          "caller": "encompass",
+          "callee": "sm.Logit",
+          "lineNumber": 177
+        },
+        {
+          "caller": "encompass",
+          "callee": "sm.OLS(yv, X).fit",
+          "lineNumber": 182
+        },
+        {
+          "caller": "encompass",
+          "callee": "sm.OLS",
+          "lineNumber": 182
+        },
+        {
+          "caller": "stats_on_common",
+          "callee": "m[m.fid == base_fid].set_index",
+          "lineNumber": 226
+        },
+        {
+          "caller": "stats_on_common",
+          "callee": "m[m.fid == frz_fid].set_index",
+          "lineNumber": 227
+        },
+        {
+          "caller": "stats_on_common",
+          "callee": "a.index.intersection",
+          "lineNumber": 228
+        },
+        {
+          "caller": "stats_on_common",
+          "callee": "len",
+          "lineNumber": 229
+        },
+        {
+          "caller": "stats_on_common",
+          "callee": "encompass",
+          "lineNumber": 232
+        },
+        {
+          "caller": "stats_on_common",
+          "callee": "a.reset_index",
+          "lineNumber": 232
+        },
+        {
+          "caller": "stats_on_common",
+          "callee": "encompass",
+          "lineNumber": 232
+        },
+        {
+          "caller": "stats_on_common",
+          "callee": "b.reset_index",
+          "lineNumber": 232
+        },
+        {
+          "caller": "stats_on_common",
+          "callee": "int",
+          "lineNumber": 234
+        },
+        {
+          "caller": "stats_on_common",
+          "callee": "len",
+          "lineNumber": 234
+        },
+        {
+          "caller": "stats_on_common",
+          "callee": "float",
+          "lineNumber": 235
+        },
+        {
+          "caller": "stats_on_common",
+          "callee": "(a.forecast - a.p_ref).abs().mean",
+          "lineNumber": 235
+        },
+        {
+          "caller": "stats_on_common",
+          "callee": "(a.forecast - a.p_ref).abs",
+          "lineNumber": 235
+        },
+        {
+          "caller": "stats_on_common",
+          "callee": "float",
+          "lineNumber": 236
+        },
+        {
+          "caller": "stats_on_common",
+          "callee": "(b.forecast - b.p_ref).abs().mean",
+          "lineNumber": 236
+        },
+        {
+          "caller": "stats_on_common",
+          "callee": "(b.forecast - b.p_ref).abs",
+          "lineNumber": 236
+        },
+        {
+          "caller": "stats_on_common",
+          "callee": "float",
+          "lineNumber": 237
+        },
+        {
+          "caller": "stats_on_common",
+          "callee": "a.s_f.mean",
+          "lineNumber": 237
+        },
+        {
+          "caller": "stats_on_common",
+          "callee": "float",
+          "lineNumber": 237
+        },
+        {
+          "caller": "stats_on_common",
+          "callee": "b.s_f.mean",
+          "lineNumber": 237
+        },
+        {
+          "caller": "stats_on_common",
+          "callee": "float",
+          "lineNumber": 238
+        },
+        {
+          "caller": "stats_on_common",
+          "callee": "a.d.mean",
+          "lineNumber": 238
+        },
+        {
+          "caller": "stats_on_common",
+          "callee": "float",
+          "lineNumber": 238
+        },
+        {
+          "caller": "stats_on_common",
+          "callee": "b.d.mean",
+          "lineNumber": 238
+        },
+        {
+          "caller": "stats_on_common",
+          "callee": "float",
+          "lineNumber": 239
+        },
+        {
+          "caller": "stats_on_common",
+          "callee": "float",
+          "lineNumber": 239
+        },
+        {
+          "caller": "stats_on_common",
+          "callee": "float",
+          "lineNumber": 240
+        },
+        {
+          "caller": "stats_on_common",
+          "callee": "float",
+          "lineNumber": 240
+        },
+        {
+          "caller": "wilcox",
+          "callee": "np.asarray",
+          "lineNumber": 253
+        },
+        {
+          "caller": "wilcox",
+          "callee": "np.isnan",
+          "lineNumber": 253
+        },
+        {
+          "caller": "wilcox",
+          "callee": "float",
+          "lineNumber": 255
+        },
+        {
+          "caller": "wilcox",
+          "callee": "stats.wilcoxon",
+          "lineNumber": 255
+        },
+        {
+          "caller": "wilcox",
+          "callee": "float",
+          "lineNumber": 257
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 8,
+        "functionCount": 8,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "paper_beyond_brier/llm_edge2.py",
+      "language": "python",
+      "fileCategory": "code",
+      "totalLines": 280,
+      "nonEmptyLines": 264,
+      "functions": [
+        {
+          "name": "brier",
+          "startLine": 40,
+          "endLine": 40,
+          "params": [
+            "p",
+            "y"
+          ]
+        },
+        {
+          "name": "logit",
+          "startLine": 41,
+          "endLine": 42,
+          "params": [
+            "p"
+          ]
+        },
+        {
+          "name": "fid_of",
+          "startLine": 43,
+          "endLine": 46,
+          "params": [
+            "path"
+          ]
+        },
+        {
+          "name": "is_baseline",
+          "startLine": 47,
+          "endLine": 47,
+          "params": [
+            "fid"
+          ]
+        },
+        {
+          "name": "family_of",
+          "startLine": 49,
+          "endLine": 56,
+          "params": [
+            "fid"
+          ]
+        },
+        {
+          "name": "per_config",
+          "startLine": 91,
+          "endLine": 125,
+          "params": [
+            "g"
+          ]
+        },
+        {
+          "name": "split_half_rho",
+          "startLine": 165,
+          "endLine": 176,
+          "params": [
+            "col",
+            "reps"
+          ]
+        },
+        {
+          "name": "_quick",
+          "startLine": 178,
+          "endLine": 191,
+          "params": [
+            "g",
+            "col"
+          ]
+        },
+        {
+          "name": "fam_sign_test",
+          "startLine": 214,
+          "endLine": 219,
+          "params": [
+            "col"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "brier",
+          "line": 40,
+          "isDefault": false
+        },
+        {
+          "name": "logit",
+          "line": 41,
+          "isDefault": false
+        },
+        {
+          "name": "fid_of",
+          "line": 43,
+          "isDefault": false
+        },
+        {
+          "name": "is_baseline",
+          "line": 47,
+          "isDefault": false
+        },
+        {
+          "name": "family_of",
+          "line": 49,
+          "isDefault": false
+        },
+        {
+          "name": "per_config",
+          "line": 91,
+          "isDefault": false
+        },
+        {
+          "name": "split_half_rho",
+          "line": 165,
+          "isDefault": false
+        },
+        {
+          "name": "_quick",
+          "line": 178,
+          "isDefault": false
+        },
+        {
+          "name": "fam_sign_test",
+          "line": 214,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "logit",
+          "callee": "np.clip",
+          "lineNumber": 42
+        },
+        {
+          "caller": "logit",
+          "callee": "np.log",
+          "lineNumber": 42
+        },
+        {
+          "caller": "fid_of",
+          "callee": "os.path.basename",
+          "lineNumber": 44
+        },
+        {
+          "caller": "fid_of",
+          "callee": "len",
+          "lineNumber": 45
+        },
+        {
+          "caller": "fid_of",
+          "callee": "b.startswith",
+          "lineNumber": 45
+        },
+        {
+          "caller": "is_baseline",
+          "callee": "any",
+          "lineNumber": 47
+        },
+        {
+          "caller": "family_of",
+          "callee": "f.replace",
+          "lineNumber": 53
+        },
+        {
+          "caller": "family_of",
+          "callee": "re.sub",
+          "lineNumber": 54
+        },
+        {
+          "caller": "family_of",
+          "callee": "re.sub",
+          "lineNumber": 55
+        },
+        {
+          "caller": "per_config",
+          "callee": "g.dropna",
+          "lineNumber": 92
+        },
+        {
+          "caller": "per_config",
+          "callee": "len",
+          "lineNumber": 94
+        },
+        {
+          "caller": "per_config",
+          "callee": "g.qid.nunique",
+          "lineNumber": 94
+        },
+        {
+          "caller": "per_config",
+          "callee": "g.s_f.mean",
+          "lineNumber": 94
+        },
+        {
+          "caller": "per_config",
+          "callee": "(g.p - g.p_ref).abs().mean",
+          "lineNumber": 95
+        },
+        {
+          "caller": "per_config",
+          "callee": "(g.p - g.p_ref).abs",
+          "lineNumber": 95
+        },
+        {
+          "caller": "per_config",
+          "callee": "np.column_stack",
+          "lineNumber": 97
+        },
+        {
+          "caller": "per_config",
+          "callee": "np.ones",
+          "lineNumber": 97
+        },
+        {
+          "caller": "per_config",
+          "callee": "len",
+          "lineNumber": 97
+        },
+        {
+          "caller": "per_config",
+          "callee": "sm.Logit(y, X).fit",
+          "lineNumber": 100
+        },
+        {
+          "caller": "per_config",
+          "callee": "sm.Logit",
+          "lineNumber": 100
+        },
+        {
+          "caller": "per_config",
+          "callee": "sm.OLS(y, X).fit",
+          "lineNumber": 106
+        },
+        {
+          "caller": "per_config",
+          "callee": "sm.OLS",
+          "lineNumber": 106
+        },
+        {
+          "caller": "per_config",
+          "callee": "sm.OLS(g.zf.values, np.column_stack([np.ones(len(g)), g.zref.values])).fit",
+          "lineNumber": 112
+        },
+        {
+          "caller": "per_config",
+          "callee": "sm.OLS",
+          "lineNumber": 112
+        },
+        {
+          "caller": "per_config",
+          "callee": "np.column_stack",
+          "lineNumber": 112
+        },
+        {
+          "caller": "per_config",
+          "callee": "np.ones",
+          "lineNumber": 112
+        },
+        {
+          "caller": "per_config",
+          "callee": "len",
+          "lineNumber": 112
+        },
+        {
+          "caller": "per_config",
+          "callee": "max",
+          "lineNumber": 113
+        },
+        {
+          "caller": "per_config",
+          "callee": "sm.Logit(y, np.column_stack([np.ones(len(g)), g.zref.values])).fit",
+          "lineNumber": 119
+        },
+        {
+          "caller": "per_config",
+          "callee": "sm.Logit",
+          "lineNumber": 119
+        },
+        {
+          "caller": "per_config",
+          "callee": "np.column_stack",
+          "lineNumber": 119
+        },
+        {
+          "caller": "per_config",
+          "callee": "np.ones",
+          "lineNumber": 119
+        },
+        {
+          "caller": "per_config",
+          "callee": "len",
+          "lineNumber": 119
+        },
+        {
+          "caller": "per_config",
+          "callee": "sm.Logit(y, X).fit",
+          "lineNumber": 120
+        },
+        {
+          "caller": "per_config",
+          "callee": "sm.Logit",
+          "lineNumber": 120
+        },
+        {
+          "caller": "per_config",
+          "callee": "len",
+          "lineNumber": 121
+        },
+        {
+          "caller": "per_config",
+          "callee": "out.update",
+          "lineNumber": 124
+        },
+        {
+          "caller": "per_config",
+          "callee": "pd.Series",
+          "lineNumber": 125
+        },
+        {
+          "caller": "split_half_rho",
+          "callee": "m.qid.unique",
+          "lineNumber": 166
+        },
+        {
+          "caller": "split_half_rho",
+          "callee": "range",
+          "lineNumber": 168
+        },
+        {
+          "caller": "split_half_rho",
+          "callee": "RNG.permutation",
+          "lineNumber": 169
+        },
+        {
+          "caller": "split_half_rho",
+          "callee": "set",
+          "lineNumber": 169
+        },
+        {
+          "caller": "split_half_rho",
+          "callee": "len",
+          "lineNumber": 169
+        },
+        {
+          "caller": "split_half_rho",
+          "callee": "m.qid.isin",
+          "lineNumber": 170
+        },
+        {
+          "caller": "split_half_rho",
+          "callee": "m.qid.isin",
+          "lineNumber": 170
+        },
+        {
+          "caller": "split_half_rho",
+          "callee": "a.groupby(\"fid\").apply",
+          "lineNumber": 171
+        },
+        {
+          "caller": "split_half_rho",
+          "callee": "a.groupby",
+          "lineNumber": 171
+        },
+        {
+          "caller": "split_half_rho",
+          "callee": "_quick",
+          "lineNumber": 171
+        },
+        {
+          "caller": "split_half_rho",
+          "callee": "b.groupby(\"fid\").apply",
+          "lineNumber": 172
+        },
+        {
+          "caller": "split_half_rho",
+          "callee": "b.groupby",
+          "lineNumber": 172
+        },
+        {
+          "caller": "split_half_rho",
+          "callee": "_quick",
+          "lineNumber": 172
+        },
+        {
+          "caller": "split_half_rho",
+          "callee": "ca.dropna().index.intersection",
+          "lineNumber": 173
+        },
+        {
+          "caller": "split_half_rho",
+          "callee": "ca.dropna",
+          "lineNumber": 173
+        },
+        {
+          "caller": "split_half_rho",
+          "callee": "cb.dropna",
+          "lineNumber": 173
+        },
+        {
+          "caller": "split_half_rho",
+          "callee": "len",
+          "lineNumber": 174
+        },
+        {
+          "caller": "split_half_rho",
+          "callee": "out.append",
+          "lineNumber": 175
+        },
+        {
+          "caller": "split_half_rho",
+          "callee": "stats.spearmanr",
+          "lineNumber": 175
+        },
+        {
+          "caller": "split_half_rho",
+          "callee": "float",
+          "lineNumber": 176
+        },
+        {
+          "caller": "split_half_rho",
+          "callee": "np.mean",
+          "lineNumber": 176
+        },
+        {
+          "caller": "split_half_rho",
+          "callee": "float",
+          "lineNumber": 176
+        },
+        {
+          "caller": "split_half_rho",
+          "callee": "np.std",
+          "lineNumber": 176
+        },
+        {
+          "caller": "_quick",
+          "callee": "g.dropna",
+          "lineNumber": 179
+        },
+        {
+          "caller": "_quick",
+          "callee": "len",
+          "lineNumber": 180
+        },
+        {
+          "caller": "_quick",
+          "callee": "len",
+          "lineNumber": 180
+        },
+        {
+          "caller": "_quick",
+          "callee": "np.unique",
+          "lineNumber": 180
+        },
+        {
+          "caller": "_quick",
+          "callee": "np.column_stack",
+          "lineNumber": 181
+        },
+        {
+          "caller": "_quick",
+          "callee": "np.ones",
+          "lineNumber": 181
+        },
+        {
+          "caller": "_quick",
+          "callee": "len",
+          "lineNumber": 181
+        },
+        {
+          "caller": "_quick",
+          "callee": "sm.Logit(y, X).fit",
+          "lineNumber": 184
+        },
+        {
+          "caller": "_quick",
+          "callee": "sm.Logit",
+          "lineNumber": 184
+        },
+        {
+          "caller": "_quick",
+          "callee": "sm.Logit(y, np.column_stack([np.ones(len(g)), g.zref.values])).fit",
+          "lineNumber": 186
+        },
+        {
+          "caller": "_quick",
+          "callee": "sm.Logit",
+          "lineNumber": 186
+        },
+        {
+          "caller": "_quick",
+          "callee": "np.column_stack",
+          "lineNumber": 186
+        },
+        {
+          "caller": "_quick",
+          "callee": "np.ones",
+          "lineNumber": 186
+        },
+        {
+          "caller": "_quick",
+          "callee": "len",
+          "lineNumber": 186
+        },
+        {
+          "caller": "_quick",
+          "callee": "sm.Logit(y, X).fit",
+          "lineNumber": 187
+        },
+        {
+          "caller": "_quick",
+          "callee": "sm.Logit",
+          "lineNumber": 187
+        },
+        {
+          "caller": "_quick",
+          "callee": "len",
+          "lineNumber": 187
+        },
+        {
+          "caller": "_quick",
+          "callee": "g.s_f.mean",
+          "lineNumber": 189
+        },
+        {
+          "caller": "fam_sign_test",
+          "callee": "pf.groupby(\"fam\")[col].mean",
+          "lineNumber": 216
+        },
+        {
+          "caller": "fam_sign_test",
+          "callee": "pf.groupby",
+          "lineNumber": 216
+        },
+        {
+          "caller": "fam_sign_test",
+          "callee": "(g > 0).sum",
+          "lineNumber": 217
+        },
+        {
+          "caller": "fam_sign_test",
+          "callee": "len",
+          "lineNumber": 217
+        },
+        {
+          "caller": "fam_sign_test",
+          "callee": "stats.binomtest",
+          "lineNumber": 218
+        },
+        {
+          "caller": "fam_sign_test",
+          "callee": "int",
+          "lineNumber": 218
+        },
+        {
+          "caller": "fam_sign_test",
+          "callee": "(g < 0).sum",
+          "lineNumber": 218
+        },
+        {
+          "caller": "fam_sign_test",
+          "callee": "float",
+          "lineNumber": 219
+        },
+        {
+          "caller": "fam_sign_test",
+          "callee": "g.median",
+          "lineNumber": 219
+        },
+        {
+          "caller": "fam_sign_test",
+          "callee": "float",
+          "lineNumber": 219
+        },
+        {
+          "caller": "fam_sign_test",
+          "callee": "(g < 0).mean",
+          "lineNumber": 219
+        },
+        {
+          "caller": "fe",
+          "callee": "pd.get_dummies",
+          "lineNumber": 244
+        },
+        {
+          "caller": "fe",
+          "callee": "pd.get_dummies",
+          "lineNumber": 244
+        },
+        {
+          "caller": "fe",
+          "callee": "pd.concat([Xf, Xq], axis=1).astype",
+          "lineNumber": 245
+        },
+        {
+          "caller": "fe",
+          "callee": "pd.concat",
+          "lineNumber": 245
+        },
+        {
+          "caller": "fe",
+          "callee": "sm.OLS(df[dep].values, X).fit",
+          "lineNumber": 246
+        },
+        {
+          "caller": "fe",
+          "callee": "sm.OLS",
+          "lineNumber": 246
+        },
+        {
+          "caller": "fe",
+          "callee": "pd.Series",
+          "lineNumber": 247
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 9,
+        "functionCount": 9,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "paper_beyond_brier/llm_figs.py",
+      "language": "python",
+      "fileCategory": "code",
+      "totalLines": 68,
+      "nonEmptyLines": 64,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "paper_beyond_brier/matched_question.py",
+      "language": "python",
+      "fileCategory": "code",
+      "totalLines": 115,
+      "nonEmptyLines": 101,
+      "functions": [
+        {
+          "name": "logit",
+          "startLine": 30,
+          "endLine": 30,
+          "params": [
+            "p"
+          ]
+        },
+        {
+          "name": "fid_of",
+          "startLine": 31,
+          "endLine": 34,
+          "params": [
+            "p"
+          ]
+        },
+        {
+          "name": "is_base",
+          "startLine": 35,
+          "endLine": 35,
+          "params": [
+            "f"
+          ]
+        },
+        {
+          "name": "dll_adj",
+          "startLine": 37,
+          "endLine": 46,
+          "params": [
+            "df"
+          ]
+        },
+        {
+          "name": "battery_mean",
+          "startLine": 74,
+          "endLine": 77,
+          "params": [
+            "df"
+          ]
+        },
+        {
+          "name": "human_mean",
+          "startLine": 79,
+          "endLine": 82,
+          "params": [
+            "df",
+            "min_n"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "logit",
+          "line": 30,
+          "isDefault": false
+        },
+        {
+          "name": "fid_of",
+          "line": 31,
+          "isDefault": false
+        },
+        {
+          "name": "is_base",
+          "line": 35,
+          "isDefault": false
+        },
+        {
+          "name": "dll_adj",
+          "line": 37,
+          "isDefault": false
+        },
+        {
+          "name": "battery_mean",
+          "line": 74,
+          "isDefault": false
+        },
+        {
+          "name": "human_mean",
+          "line": 79,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "logit",
+          "callee": "np.clip",
+          "lineNumber": 30
+        },
+        {
+          "caller": "logit",
+          "callee": "np.log",
+          "lineNumber": 30
+        },
+        {
+          "caller": "fid_of",
+          "callee": "os.path.basename",
+          "lineNumber": 32
+        },
+        {
+          "caller": "fid_of",
+          "callee": "len",
+          "lineNumber": 33
+        },
+        {
+          "caller": "fid_of",
+          "callee": "b.startswith",
+          "lineNumber": 33
+        },
+        {
+          "caller": "is_base",
+          "callee": "any",
+          "lineNumber": 35
+        },
+        {
+          "caller": "dll_adj",
+          "callee": "df[\"y\"].values.astype",
+          "lineNumber": 39
+        },
+        {
+          "caller": "dll_adj",
+          "callee": "len",
+          "lineNumber": 39
+        },
+        {
+          "caller": "dll_adj",
+          "callee": "y.std",
+          "lineNumber": 40
+        },
+        {
+          "caller": "dll_adj",
+          "callee": "sm.Logit(y, sm.add_constant(df[[\"zref\"]].values)).fit",
+          "lineNumber": 42
+        },
+        {
+          "caller": "dll_adj",
+          "callee": "sm.Logit",
+          "lineNumber": 42
+        },
+        {
+          "caller": "dll_adj",
+          "callee": "sm.add_constant",
+          "lineNumber": 42
+        },
+        {
+          "caller": "dll_adj",
+          "callee": "sm.Logit(y, sm.add_constant(df[[\"zref\", \"zf\"]].values)).fit",
+          "lineNumber": 43
+        },
+        {
+          "caller": "dll_adj",
+          "callee": "sm.Logit",
+          "lineNumber": 43
+        },
+        {
+          "caller": "dll_adj",
+          "callee": "sm.add_constant",
+          "lineNumber": 43
+        },
+        {
+          "caller": "battery_mean",
+          "callee": "dll_adj",
+          "lineNumber": 75
+        },
+        {
+          "caller": "battery_mean",
+          "callee": "df.groupby",
+          "lineNumber": 75
+        },
+        {
+          "caller": "battery_mean",
+          "callee": "np.isnan",
+          "lineNumber": 76
+        },
+        {
+          "caller": "battery_mean",
+          "callee": "float",
+          "lineNumber": 77
+        },
+        {
+          "caller": "battery_mean",
+          "callee": "np.mean",
+          "lineNumber": 77
+        },
+        {
+          "caller": "battery_mean",
+          "callee": "len",
+          "lineNumber": 77
+        },
+        {
+          "caller": "human_mean",
+          "callee": "dll_adj",
+          "lineNumber": 80
+        },
+        {
+          "caller": "human_mean",
+          "callee": "df.groupby",
+          "lineNumber": 80
+        },
+        {
+          "caller": "human_mean",
+          "callee": "len",
+          "lineNumber": 80
+        },
+        {
+          "caller": "human_mean",
+          "callee": "np.isnan",
+          "lineNumber": 81
+        },
+        {
+          "caller": "human_mean",
+          "callee": "float",
+          "lineNumber": 82
+        },
+        {
+          "caller": "human_mean",
+          "callee": "np.mean",
+          "lineNumber": 82
+        },
+        {
+          "caller": "human_mean",
+          "callee": "len",
+          "lineNumber": 82
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 6,
+        "functionCount": 6,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "paper_beyond_brier/mr_figs.py",
+      "language": "python",
+      "fileCategory": "code",
+      "totalLines": 115,
+      "nonEmptyLines": 106,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "paper_beyond_brier/multiround_rev.py",
+      "language": "python",
+      "fileCategory": "code",
+      "totalLines": 214,
+      "nonEmptyLines": 198,
+      "functions": [
+        {
+          "name": "rd_year",
+          "startLine": 37,
+          "endLine": 38,
+          "params": [
+            "rd"
+          ]
+        },
+        {
+          "name": "slope_ci",
+          "startLine": 65,
+          "endLine": 84,
+          "params": [
+            "x",
+            "y",
+            "w",
+            "B"
+          ]
+        },
+        {
+          "name": "base_model",
+          "startLine": 111,
+          "endLine": 114,
+          "params": [
+            "cfg"
+          ]
+        },
+        {
+          "name": "logit",
+          "startLine": 158,
+          "endLine": 158,
+          "params": [
+            "p"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "rd_year",
+          "line": 37,
+          "isDefault": false
+        },
+        {
+          "name": "slope_ci",
+          "line": 65,
+          "isDefault": false
+        },
+        {
+          "name": "base_model",
+          "line": 111,
+          "isDefault": false
+        },
+        {
+          "name": "logit",
+          "line": 158,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "rd_year",
+          "callee": "int",
+          "lineNumber": 38
+        },
+        {
+          "caller": "rd_year",
+          "callee": "rd.split",
+          "lineNumber": 38
+        },
+        {
+          "caller": "slope_ci",
+          "callee": "np.asarray",
+          "lineNumber": 66
+        },
+        {
+          "caller": "slope_ci",
+          "callee": "np.asarray",
+          "lineNumber": 66
+        },
+        {
+          "caller": "slope_ci",
+          "callee": "stats.linregress",
+          "lineNumber": 68
+        },
+        {
+          "caller": "slope_ci",
+          "callee": "np.asarray",
+          "lineNumber": 70
+        },
+        {
+          "caller": "slope_ci",
+          "callee": "np.polyfit",
+          "lineNumber": 70
+        },
+        {
+          "caller": "slope_ci",
+          "callee": "np.sqrt",
+          "lineNumber": 70
+        },
+        {
+          "caller": "slope_ci",
+          "callee": "len",
+          "lineNumber": 73
+        },
+        {
+          "caller": "slope_ci",
+          "callee": "range",
+          "lineNumber": 74
+        },
+        {
+          "caller": "slope_ci",
+          "callee": "RNG.integers",
+          "lineNumber": 75
+        },
+        {
+          "caller": "slope_ci",
+          "callee": "bs.append",
+          "lineNumber": 78
+        },
+        {
+          "caller": "slope_ci",
+          "callee": "np.polyfit",
+          "lineNumber": 78
+        },
+        {
+          "caller": "slope_ci",
+          "callee": "bs.append",
+          "lineNumber": 80
+        },
+        {
+          "caller": "slope_ci",
+          "callee": "np.polyfit",
+          "lineNumber": 80
+        },
+        {
+          "caller": "slope_ci",
+          "callee": "np.sqrt",
+          "lineNumber": 80
+        },
+        {
+          "caller": "slope_ci",
+          "callee": "np.asarray",
+          "lineNumber": 80
+        },
+        {
+          "caller": "slope_ci",
+          "callee": "np.percentile",
+          "lineNumber": 83
+        },
+        {
+          "caller": "base_model",
+          "callee": "cfg.split(\"|\", 1)[1].strip",
+          "lineNumber": 112
+        },
+        {
+          "caller": "base_model",
+          "callee": "cfg.split",
+          "lineNumber": 112
+        },
+        {
+          "caller": "base_model",
+          "callee": "re.sub(r\"\\(.*?\\)\", \"\", s).strip",
+          "lineNumber": 113
+        },
+        {
+          "caller": "base_model",
+          "callee": "re.sub",
+          "lineNumber": 113
+        },
+        {
+          "caller": "logit",
+          "callee": "np.clip",
+          "lineNumber": 158
+        },
+        {
+          "caller": "logit",
+          "callee": "np.log",
+          "lineNumber": 158
+        },
+        {
+          "caller": "dll_glm",
+          "callee": "df.y.values.astype",
+          "lineNumber": 170
+        },
+        {
+          "caller": "dll_glm",
+          "callee": "len",
+          "lineNumber": 171
+        },
+        {
+          "caller": "dll_glm",
+          "callee": "np.unique",
+          "lineNumber": 171
+        },
+        {
+          "caller": "dll_glm",
+          "callee": "len",
+          "lineNumber": 171
+        },
+        {
+          "caller": "dll_glm",
+          "callee": "sm.GLM(y, np.column_stack([np.ones(len(df)), df.zref]), family=BFAM).fit",
+          "lineNumber": 173
+        },
+        {
+          "caller": "dll_glm",
+          "callee": "sm.GLM",
+          "lineNumber": 173
+        },
+        {
+          "caller": "dll_glm",
+          "callee": "np.column_stack",
+          "lineNumber": 173
+        },
+        {
+          "caller": "dll_glm",
+          "callee": "np.ones",
+          "lineNumber": 173
+        },
+        {
+          "caller": "dll_glm",
+          "callee": "len",
+          "lineNumber": 173
+        },
+        {
+          "caller": "dll_glm",
+          "callee": "sm.GLM(y, np.column_stack([np.ones(len(df)), df.zref, df.zf]), family=BFAM).fit",
+          "lineNumber": 174
+        },
+        {
+          "caller": "dll_glm",
+          "callee": "sm.GLM",
+          "lineNumber": 174
+        },
+        {
+          "caller": "dll_glm",
+          "callee": "np.column_stack",
+          "lineNumber": 174
+        },
+        {
+          "caller": "dll_glm",
+          "callee": "np.ones",
+          "lineNumber": 174
+        },
+        {
+          "caller": "dll_glm",
+          "callee": "len",
+          "lineNumber": 174
+        },
+        {
+          "caller": "dll_glm",
+          "callee": "len",
+          "lineNumber": 175
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 4,
+        "functionCount": 4,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "paper_beyond_brier/multiround.py",
+      "language": "python",
+      "fileCategory": "code",
+      "totalLines": 362,
+      "nonEmptyLines": 333,
+      "functions": [
+        {
+          "name": "brier",
+          "startLine": 52,
+          "endLine": 52,
+          "params": [
+            "p",
+            "y"
+          ]
+        },
+        {
+          "name": "logit",
+          "startLine": 53,
+          "endLine": 54,
+          "params": [
+            "p"
+          ]
+        },
+        {
+          "name": "is_non_model",
+          "startLine": 56,
+          "endLine": 58,
+          "params": [
+            "model"
+          ]
+        },
+        {
+          "name": "parse_release",
+          "startLine": 63,
+          "endLine": 111,
+          "params": [
+            "model"
+          ]
+        },
+        {
+          "name": "round_to_year",
+          "startLine": 113,
+          "endLine": 115,
+          "params": [
+            "rd"
+          ]
+        },
+        {
+          "name": "load_round",
+          "startLine": 118,
+          "endLine": 156,
+          "params": [
+            "rd"
+          ]
+        },
+        {
+          "name": "delta_ll",
+          "startLine": 158,
+          "endLine": 164,
+          "params": [
+            "g"
+          ]
+        },
+        {
+          "name": "per_config",
+          "startLine": 166,
+          "endLine": 191,
+          "params": [
+            "g"
+          ]
+        },
+        {
+          "name": "quick_stat",
+          "startLine": 193,
+          "endLine": 206,
+          "params": [
+            "g",
+            "col"
+          ]
+        },
+        {
+          "name": "split_half",
+          "startLine": 208,
+          "endLine": 221,
+          "params": [
+            "m",
+            "col",
+            "reps"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "brier",
+          "line": 52,
+          "isDefault": false
+        },
+        {
+          "name": "logit",
+          "line": 53,
+          "isDefault": false
+        },
+        {
+          "name": "is_non_model",
+          "line": 56,
+          "isDefault": false
+        },
+        {
+          "name": "parse_release",
+          "line": 63,
+          "isDefault": false
+        },
+        {
+          "name": "round_to_year",
+          "line": 113,
+          "isDefault": false
+        },
+        {
+          "name": "load_round",
+          "line": 118,
+          "isDefault": false
+        },
+        {
+          "name": "delta_ll",
+          "line": 158,
+          "isDefault": false
+        },
+        {
+          "name": "per_config",
+          "line": 166,
+          "isDefault": false
+        },
+        {
+          "name": "quick_stat",
+          "line": 193,
+          "isDefault": false
+        },
+        {
+          "name": "split_half",
+          "line": 208,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "logit",
+          "callee": "np.clip",
+          "lineNumber": 54
+        },
+        {
+          "caller": "logit",
+          "callee": "np.log",
+          "lineNumber": 54
+        },
+        {
+          "caller": "is_non_model",
+          "callee": "model.lower",
+          "lineNumber": 57
+        },
+        {
+          "caller": "is_non_model",
+          "callee": "any",
+          "lineNumber": 58
+        },
+        {
+          "caller": "parse_release",
+          "callee": "re.search",
+          "lineNumber": 68
+        },
+        {
+          "caller": "parse_release",
+          "callee": "int",
+          "lineNumber": 70
+        },
+        {
+          "caller": "parse_release",
+          "callee": "m.group",
+          "lineNumber": 70
+        },
+        {
+          "caller": "parse_release",
+          "callee": "int",
+          "lineNumber": 70
+        },
+        {
+          "caller": "parse_release",
+          "callee": "m.group",
+          "lineNumber": 70
+        },
+        {
+          "caller": "parse_release",
+          "callee": "int",
+          "lineNumber": 70
+        },
+        {
+          "caller": "parse_release",
+          "callee": "m.group",
+          "lineNumber": 70
+        },
+        {
+          "caller": "parse_release",
+          "callee": "re.search",
+          "lineNumber": 73
+        },
+        {
+          "caller": "parse_release",
+          "callee": "int",
+          "lineNumber": 75
+        },
+        {
+          "caller": "parse_release",
+          "callee": "m.group",
+          "lineNumber": 75
+        },
+        {
+          "caller": "parse_release",
+          "callee": "int",
+          "lineNumber": 75
+        },
+        {
+          "caller": "parse_release",
+          "callee": "m.group",
+          "lineNumber": 75
+        },
+        {
+          "caller": "parse_release",
+          "callee": "int",
+          "lineNumber": 75
+        },
+        {
+          "caller": "parse_release",
+          "callee": "m.group",
+          "lineNumber": 75
+        },
+        {
+          "caller": "parse_release",
+          "callee": "re.search",
+          "lineNumber": 78
+        },
+        {
+          "caller": "parse_release",
+          "callee": "s.lower",
+          "lineNumber": 79
+        },
+        {
+          "caller": "parse_release",
+          "callee": "int",
+          "lineNumber": 80
+        },
+        {
+          "caller": "parse_release",
+          "callee": "m.group",
+          "lineNumber": 80
+        },
+        {
+          "caller": "parse_release",
+          "callee": "int",
+          "lineNumber": 80
+        },
+        {
+          "caller": "parse_release",
+          "callee": "m.group",
+          "lineNumber": 80
+        },
+        {
+          "caller": "parse_release",
+          "callee": "re.search",
+          "lineNumber": 81
+        },
+        {
+          "caller": "parse_release",
+          "callee": "re.search",
+          "lineNumber": 85
+        },
+        {
+          "caller": "parse_release",
+          "callee": "s.lower",
+          "lineNumber": 107
+        },
+        {
+          "caller": "parse_release",
+          "callee": "LU.items",
+          "lineNumber": 108
+        },
+        {
+          "caller": "round_to_year",
+          "callee": "int",
+          "lineNumber": 114
+        },
+        {
+          "caller": "round_to_year",
+          "callee": "rd.split",
+          "lineNumber": 114
+        },
+        {
+          "caller": "load_round",
+          "callee": "sorted",
+          "lineNumber": 121
+        },
+        {
+          "caller": "load_round",
+          "callee": "glob.glob",
+          "lineNumber": 121
+        },
+        {
+          "caller": "load_round",
+          "callee": "os.path.join",
+          "lineNumber": 121
+        },
+        {
+          "caller": "load_round",
+          "callee": "json.load",
+          "lineNumber": 123
+        },
+        {
+          "caller": "load_round",
+          "callee": "open",
+          "lineNumber": 123
+        },
+        {
+          "caller": "load_round",
+          "callee": "d.get",
+          "lineNumber": 126
+        },
+        {
+          "caller": "load_round",
+          "callee": "d.get",
+          "lineNumber": 126
+        },
+        {
+          "caller": "load_round",
+          "callee": "is_non_model",
+          "lineNumber": 127
+        },
+        {
+          "caller": "load_round",
+          "callee": "parse_release",
+          "lineNumber": 131
+        },
+        {
+          "caller": "load_round",
+          "callee": "d.get",
+          "lineNumber": 132
+        },
+        {
+          "caller": "load_round",
+          "callee": "r.get",
+          "lineNumber": 133
+        },
+        {
+          "caller": "load_round",
+          "callee": "r.get",
+          "lineNumber": 133
+        },
+        {
+          "caller": "load_round",
+          "callee": "r.get",
+          "lineNumber": 135
+        },
+        {
+          "caller": "load_round",
+          "callee": "r.get",
+          "lineNumber": 138
+        },
+        {
+          "caller": "load_round",
+          "callee": "r.get",
+          "lineNumber": 138
+        },
+        {
+          "caller": "load_round",
+          "callee": "float",
+          "lineNumber": 142
+        },
+        {
+          "caller": "load_round",
+          "callee": "float",
+          "lineNumber": 142
+        },
+        {
+          "caller": "load_round",
+          "callee": "rows.append",
+          "lineNumber": 147
+        },
+        {
+          "caller": "load_round",
+          "callee": "str",
+          "lineNumber": 148
+        },
+        {
+          "caller": "load_round",
+          "callee": "float",
+          "lineNumber": 149
+        },
+        {
+          "caller": "load_round",
+          "callee": "np.clip",
+          "lineNumber": 149
+        },
+        {
+          "caller": "load_round",
+          "callee": "float",
+          "lineNumber": 150
+        },
+        {
+          "caller": "load_round",
+          "callee": "np.clip",
+          "lineNumber": 150
+        },
+        {
+          "caller": "load_round",
+          "callee": "float",
+          "lineNumber": 150
+        },
+        {
+          "caller": "load_round",
+          "callee": "pd.DataFrame",
+          "lineNumber": 153
+        },
+        {
+          "caller": "load_round",
+          "callee": "brier",
+          "lineNumber": 154
+        },
+        {
+          "caller": "load_round",
+          "callee": "brier",
+          "lineNumber": 154
+        },
+        {
+          "caller": "load_round",
+          "callee": "logit",
+          "lineNumber": 155
+        },
+        {
+          "caller": "load_round",
+          "callee": "logit",
+          "lineNumber": 155
+        },
+        {
+          "caller": "delta_ll",
+          "callee": "np.column_stack",
+          "lineNumber": 160
+        },
+        {
+          "caller": "delta_ll",
+          "callee": "np.ones",
+          "lineNumber": 160
+        },
+        {
+          "caller": "delta_ll",
+          "callee": "len",
+          "lineNumber": 160
+        },
+        {
+          "caller": "delta_ll",
+          "callee": "np.column_stack",
+          "lineNumber": 161
+        },
+        {
+          "caller": "delta_ll",
+          "callee": "np.ones",
+          "lineNumber": 161
+        },
+        {
+          "caller": "delta_ll",
+          "callee": "len",
+          "lineNumber": 161
+        },
+        {
+          "caller": "delta_ll",
+          "callee": "sm.Logit(y, X1).fit",
+          "lineNumber": 162
+        },
+        {
+          "caller": "delta_ll",
+          "callee": "sm.Logit",
+          "lineNumber": 162
+        },
+        {
+          "caller": "delta_ll",
+          "callee": "sm.Logit(y, X2).fit",
+          "lineNumber": 163
+        },
+        {
+          "caller": "delta_ll",
+          "callee": "sm.Logit",
+          "lineNumber": 163
+        },
+        {
+          "caller": "delta_ll",
+          "callee": "len",
+          "lineNumber": 164
+        },
+        {
+          "caller": "per_config",
+          "callee": "g.dropna",
+          "lineNumber": 167
+        },
+        {
+          "caller": "per_config",
+          "callee": "len",
+          "lineNumber": 168
+        },
+        {
+          "caller": "per_config",
+          "callee": "g.qid.nunique",
+          "lineNumber": 168
+        },
+        {
+          "caller": "per_config",
+          "callee": "g.s_f.mean",
+          "lineNumber": 168
+        },
+        {
+          "caller": "per_config",
+          "callee": "g.d.mean",
+          "lineNumber": 169
+        },
+        {
+          "caller": "per_config",
+          "callee": "g.s_ref.mean",
+          "lineNumber": 169
+        },
+        {
+          "caller": "per_config",
+          "callee": "bool",
+          "lineNumber": 170
+        },
+        {
+          "caller": "per_config",
+          "callee": "float",
+          "lineNumber": 170
+        },
+        {
+          "caller": "per_config",
+          "callee": "np.column_stack",
+          "lineNumber": 172
+        },
+        {
+          "caller": "per_config",
+          "callee": "np.ones",
+          "lineNumber": 172
+        },
+        {
+          "caller": "per_config",
+          "callee": "len",
+          "lineNumber": 172
+        },
+        {
+          "caller": "per_config",
+          "callee": "len",
+          "lineNumber": 174
+        },
+        {
+          "caller": "per_config",
+          "callee": "len",
+          "lineNumber": 174
+        },
+        {
+          "caller": "per_config",
+          "callee": "np.unique",
+          "lineNumber": 174
+        },
+        {
+          "caller": "per_config",
+          "callee": "sm.Logit(y, X).fit",
+          "lineNumber": 176
+        },
+        {
+          "caller": "per_config",
+          "callee": "sm.Logit",
+          "lineNumber": 176
+        },
+        {
+          "caller": "per_config",
+          "callee": "sm.OLS(g.zf.values, np.column_stack([np.ones(len(g)), g.zref.values])).fit",
+          "lineNumber": 182
+        },
+        {
+          "caller": "per_config",
+          "callee": "sm.OLS",
+          "lineNumber": 182
+        },
+        {
+          "caller": "per_config",
+          "callee": "np.column_stack",
+          "lineNumber": 182
+        },
+        {
+          "caller": "per_config",
+          "callee": "np.ones",
+          "lineNumber": 182
+        },
+        {
+          "caller": "per_config",
+          "callee": "len",
+          "lineNumber": 182
+        },
+        {
+          "caller": "per_config",
+          "callee": "max",
+          "lineNumber": 183
+        },
+        {
+          "caller": "per_config",
+          "callee": "delta_ll",
+          "lineNumber": 187
+        },
+        {
+          "caller": "per_config",
+          "callee": "out.update",
+          "lineNumber": 190
+        },
+        {
+          "caller": "per_config",
+          "callee": "pd.Series",
+          "lineNumber": 191
+        },
+        {
+          "caller": "quick_stat",
+          "callee": "g.dropna",
+          "lineNumber": 194
+        },
+        {
+          "caller": "quick_stat",
+          "callee": "len",
+          "lineNumber": 195
+        },
+        {
+          "caller": "quick_stat",
+          "callee": "len",
+          "lineNumber": 195
+        },
+        {
+          "caller": "quick_stat",
+          "callee": "np.unique",
+          "lineNumber": 195
+        },
+        {
+          "caller": "quick_stat",
+          "callee": "g.s_f.mean",
+          "lineNumber": 199
+        },
+        {
+          "caller": "quick_stat",
+          "callee": "np.column_stack",
+          "lineNumber": 200
+        },
+        {
+          "caller": "quick_stat",
+          "callee": "np.ones",
+          "lineNumber": 200
+        },
+        {
+          "caller": "quick_stat",
+          "callee": "len",
+          "lineNumber": 200
+        },
+        {
+          "caller": "quick_stat",
+          "callee": "sm.Logit(y, X).fit",
+          "lineNumber": 202
+        },
+        {
+          "caller": "quick_stat",
+          "callee": "sm.Logit",
+          "lineNumber": 202
+        },
+        {
+          "caller": "quick_stat",
+          "callee": "delta_ll",
+          "lineNumber": 204
+        },
+        {
+          "caller": "split_half",
+          "callee": "m.qid.unique",
+          "lineNumber": 209
+        },
+        {
+          "caller": "split_half",
+          "callee": "len",
+          "lineNumber": 210
+        },
+        {
+          "caller": "split_half",
+          "callee": "range",
+          "lineNumber": 213
+        },
+        {
+          "caller": "split_half",
+          "callee": "RNG.permutation",
+          "lineNumber": 214
+        },
+        {
+          "caller": "split_half",
+          "callee": "set",
+          "lineNumber": 214
+        },
+        {
+          "caller": "split_half",
+          "callee": "len",
+          "lineNumber": 214
+        },
+        {
+          "caller": "split_half",
+          "callee": "m.qid.isin",
+          "lineNumber": 215
+        },
+        {
+          "caller": "split_half",
+          "callee": "m.qid.isin",
+          "lineNumber": 215
+        },
+        {
+          "caller": "split_half",
+          "callee": "a.groupby(\"cfg\").apply",
+          "lineNumber": 216
+        },
+        {
+          "caller": "split_half",
+          "callee": "a.groupby",
+          "lineNumber": 216
+        },
+        {
+          "caller": "split_half",
+          "callee": "quick_stat",
+          "lineNumber": 216
+        },
+        {
+          "caller": "split_half",
+          "callee": "b.groupby(\"cfg\").apply",
+          "lineNumber": 217
+        },
+        {
+          "caller": "split_half",
+          "callee": "b.groupby",
+          "lineNumber": 217
+        },
+        {
+          "caller": "split_half",
+          "callee": "quick_stat",
+          "lineNumber": 217
+        },
+        {
+          "caller": "split_half",
+          "callee": "ca.dropna().index.intersection",
+          "lineNumber": 218
+        },
+        {
+          "caller": "split_half",
+          "callee": "ca.dropna",
+          "lineNumber": 218
+        },
+        {
+          "caller": "split_half",
+          "callee": "cb.dropna",
+          "lineNumber": 218
+        },
+        {
+          "caller": "split_half",
+          "callee": "len",
+          "lineNumber": 219
+        },
+        {
+          "caller": "split_half",
+          "callee": "out.append",
+          "lineNumber": 220
+        },
+        {
+          "caller": "split_half",
+          "callee": "stats.spearmanr",
+          "lineNumber": 220
+        },
+        {
+          "caller": "split_half",
+          "callee": "float",
+          "lineNumber": 221
+        },
+        {
+          "caller": "split_half",
+          "callee": "np.mean",
+          "lineNumber": 221
+        },
+        {
+          "caller": "split_half",
+          "callee": "len",
+          "lineNumber": 221
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 10,
+        "functionCount": 10,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "paper_beyond_brier/oos_debias.py",
+      "language": "python",
+      "fileCategory": "code",
+      "totalLines": 138,
+      "nonEmptyLines": 125,
+      "functions": [
+        {
+          "name": "logit",
+          "startLine": 34,
+          "endLine": 34,
+          "params": [
+            "p"
+          ]
+        },
+        {
+          "name": "fid_of",
+          "startLine": 35,
+          "endLine": 38,
+          "params": [
+            "p"
+          ]
+        },
+        {
+          "name": "is_base",
+          "startLine": 39,
+          "endLine": 39,
+          "params": [
+            "f"
+          ]
+        },
+        {
+          "name": "fit_ll",
+          "startLine": 40,
+          "endLine": 41,
+          "params": [
+            "y",
+            "X"
+          ]
+        },
+        {
+          "name": "ll_eval",
+          "startLine": 42,
+          "endLine": 44,
+          "params": [
+            "y",
+            "X",
+            "beta"
+          ]
+        },
+        {
+          "name": "insample_dll",
+          "startLine": 46,
+          "endLine": 53,
+          "params": [
+            "df",
+            "refcol"
+          ]
+        },
+        {
+          "name": "oos_dll",
+          "startLine": 55,
+          "endLine": 72,
+          "params": [
+            "df",
+            "refcol"
+          ]
+        },
+        {
+          "name": "add_debiased_ref",
+          "startLine": 97,
+          "endLine": 108,
+          "params": [
+            "df"
+          ]
+        },
+        {
+          "name": "battery",
+          "startLine": 112,
+          "endLine": 115,
+          "params": [
+            "df",
+            "fn",
+            "refcol"
+          ]
+        },
+        {
+          "name": "humans",
+          "startLine": 116,
+          "endLine": 119,
+          "params": [
+            "df",
+            "fn",
+            "refcol",
+            "min_n"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "logit",
+          "line": 34,
+          "isDefault": false
+        },
+        {
+          "name": "fid_of",
+          "line": 35,
+          "isDefault": false
+        },
+        {
+          "name": "is_base",
+          "line": 39,
+          "isDefault": false
+        },
+        {
+          "name": "fit_ll",
+          "line": 40,
+          "isDefault": false
+        },
+        {
+          "name": "ll_eval",
+          "line": 42,
+          "isDefault": false
+        },
+        {
+          "name": "insample_dll",
+          "line": 46,
+          "isDefault": false
+        },
+        {
+          "name": "oos_dll",
+          "line": 55,
+          "isDefault": false
+        },
+        {
+          "name": "add_debiased_ref",
+          "line": 97,
+          "isDefault": false
+        },
+        {
+          "name": "battery",
+          "line": 112,
+          "isDefault": false
+        },
+        {
+          "name": "humans",
+          "line": 116,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "logit",
+          "callee": "np.clip",
+          "lineNumber": 34
+        },
+        {
+          "caller": "logit",
+          "callee": "np.log",
+          "lineNumber": 34
+        },
+        {
+          "caller": "fid_of",
+          "callee": "os.path.basename",
+          "lineNumber": 36
+        },
+        {
+          "caller": "fid_of",
+          "callee": "len",
+          "lineNumber": 37
+        },
+        {
+          "caller": "fid_of",
+          "callee": "b.startswith",
+          "lineNumber": 37
+        },
+        {
+          "caller": "is_base",
+          "callee": "any",
+          "lineNumber": 39
+        },
+        {
+          "caller": "fit_ll",
+          "callee": "sm.Logit(y, X).fit",
+          "lineNumber": 41
+        },
+        {
+          "caller": "fit_ll",
+          "callee": "sm.Logit",
+          "lineNumber": 41
+        },
+        {
+          "caller": "ll_eval",
+          "callee": "np.clip",
+          "lineNumber": 43
+        },
+        {
+          "caller": "ll_eval",
+          "callee": "np.exp",
+          "lineNumber": 43
+        },
+        {
+          "caller": "ll_eval",
+          "callee": "np.sum",
+          "lineNumber": 44
+        },
+        {
+          "caller": "ll_eval",
+          "callee": "np.log",
+          "lineNumber": 44
+        },
+        {
+          "caller": "ll_eval",
+          "callee": "np.log",
+          "lineNumber": 44
+        },
+        {
+          "caller": "insample_dll",
+          "callee": "df[\"y\"].values.astype",
+          "lineNumber": 47
+        },
+        {
+          "caller": "insample_dll",
+          "callee": "len",
+          "lineNumber": 47
+        },
+        {
+          "caller": "insample_dll",
+          "callee": "y.std",
+          "lineNumber": 48
+        },
+        {
+          "caller": "insample_dll",
+          "callee": "fit_ll",
+          "lineNumber": 50
+        },
+        {
+          "caller": "insample_dll",
+          "callee": "sm.add_constant",
+          "lineNumber": 50
+        },
+        {
+          "caller": "insample_dll",
+          "callee": "fit_ll",
+          "lineNumber": 51
+        },
+        {
+          "caller": "insample_dll",
+          "callee": "sm.add_constant",
+          "lineNumber": 51
+        },
+        {
+          "caller": "oos_dll",
+          "callee": "df[\"y\"].values.astype",
+          "lineNumber": 57
+        },
+        {
+          "caller": "oos_dll",
+          "callee": "len",
+          "lineNumber": 57
+        },
+        {
+          "caller": "oos_dll",
+          "callee": "y.std",
+          "lineNumber": 58
+        },
+        {
+          "caller": "oos_dll",
+          "callee": "RNG.permutation",
+          "lineNumber": 59
+        },
+        {
+          "caller": "oos_dll",
+          "callee": "ytr.std",
+          "lineNumber": 64
+        },
+        {
+          "caller": "oos_dll",
+          "callee": "yte.std",
+          "lineNumber": 64
+        },
+        {
+          "caller": "oos_dll",
+          "callee": "sm.add_constant",
+          "lineNumber": 65
+        },
+        {
+          "caller": "oos_dll",
+          "callee": "sm.add_constant",
+          "lineNumber": 65
+        },
+        {
+          "caller": "oos_dll",
+          "callee": "sm.add_constant",
+          "lineNumber": 66
+        },
+        {
+          "caller": "oos_dll",
+          "callee": "sm.add_constant",
+          "lineNumber": 66
+        },
+        {
+          "caller": "oos_dll",
+          "callee": "sm.Logit(ytr, Xtr1).fit",
+          "lineNumber": 68
+        },
+        {
+          "caller": "oos_dll",
+          "callee": "sm.Logit",
+          "lineNumber": 68
+        },
+        {
+          "caller": "oos_dll",
+          "callee": "sm.Logit(ytr, Xtr2).fit",
+          "lineNumber": 69
+        },
+        {
+          "caller": "oos_dll",
+          "callee": "sm.Logit",
+          "lineNumber": 69
+        },
+        {
+          "caller": "oos_dll",
+          "callee": "ll_eval",
+          "lineNumber": 71
+        },
+        {
+          "caller": "oos_dll",
+          "callee": "ll_eval",
+          "lineNumber": 71
+        },
+        {
+          "caller": "oos_dll",
+          "callee": "len",
+          "lineNumber": 71
+        },
+        {
+          "caller": "add_debiased_ref",
+          "callee": "df.groupby(\"qid\").agg(p_ref=(\"p_ref\", \"first\"), y=(\"y\", \"first\")).reset_index",
+          "lineNumber": 98
+        },
+        {
+          "caller": "add_debiased_ref",
+          "callee": "df.groupby(\"qid\").agg",
+          "lineNumber": 98
+        },
+        {
+          "caller": "add_debiased_ref",
+          "callee": "df.groupby",
+          "lineNumber": 98
+        },
+        {
+          "caller": "add_debiased_ref",
+          "callee": "RNG.permutation",
+          "lineNumber": 99
+        },
+        {
+          "caller": "add_debiased_ref",
+          "callee": "len",
+          "lineNumber": 99
+        },
+        {
+          "caller": "add_debiased_ref",
+          "callee": "len",
+          "lineNumber": 99
+        },
+        {
+          "caller": "add_debiased_ref",
+          "callee": "q.qid.isin",
+          "lineNumber": 103
+        },
+        {
+          "caller": "add_debiased_ref",
+          "callee": "q.qid.isin",
+          "lineNumber": 103
+        },
+        {
+          "caller": "add_debiased_ref",
+          "callee": "IsotonicRegression",
+          "lineNumber": 104
+        },
+        {
+          "caller": "add_debiased_ref",
+          "callee": "iso.fit",
+          "lineNumber": 105
+        },
+        {
+          "caller": "add_debiased_ref",
+          "callee": "te.iterrows",
+          "lineNumber": 106
+        },
+        {
+          "caller": "add_debiased_ref",
+          "callee": "float",
+          "lineNumber": 106
+        },
+        {
+          "caller": "add_debiased_ref",
+          "callee": "iso.predict",
+          "lineNumber": 106
+        },
+        {
+          "caller": "add_debiased_ref",
+          "callee": "df.copy",
+          "lineNumber": 107
+        },
+        {
+          "caller": "add_debiased_ref",
+          "callee": "df.qid.map",
+          "lineNumber": 107
+        },
+        {
+          "caller": "add_debiased_ref",
+          "callee": "logit",
+          "lineNumber": 107
+        },
+        {
+          "caller": "battery",
+          "callee": "fn",
+          "lineNumber": 113
+        },
+        {
+          "caller": "battery",
+          "callee": "df.groupby",
+          "lineNumber": 113
+        },
+        {
+          "caller": "battery",
+          "callee": "np.isnan",
+          "lineNumber": 114
+        },
+        {
+          "caller": "battery",
+          "callee": "float",
+          "lineNumber": 115
+        },
+        {
+          "caller": "battery",
+          "callee": "np.mean",
+          "lineNumber": 115
+        },
+        {
+          "caller": "battery",
+          "callee": "len",
+          "lineNumber": 115
+        },
+        {
+          "caller": "humans",
+          "callee": "fn",
+          "lineNumber": 117
+        },
+        {
+          "caller": "humans",
+          "callee": "df.groupby",
+          "lineNumber": 117
+        },
+        {
+          "caller": "humans",
+          "callee": "len",
+          "lineNumber": 117
+        },
+        {
+          "caller": "humans",
+          "callee": "np.isnan",
+          "lineNumber": 118
+        },
+        {
+          "caller": "humans",
+          "callee": "float",
+          "lineNumber": 119
+        },
+        {
+          "caller": "humans",
+          "callee": "np.mean",
+          "lineNumber": 119
+        },
+        {
+          "caller": "humans",
+          "callee": "len",
+          "lineNumber": 119
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 10,
+        "functionCount": 10,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "paper_beyond_brier/revise_edge_v3.py",
+      "language": "python",
+      "fileCategory": "code",
+      "totalLines": 377,
+      "nonEmptyLines": 353,
+      "functions": [
+        {
+          "name": "seed_of",
+          "startLine": 40,
+          "endLine": 41,
+          "params": [
+            "s"
+          ]
+        },
+        {
+          "name": "logit",
+          "startLine": 43,
+          "endLine": 45,
+          "params": [
+            "p"
+          ]
+        },
+        {
+          "name": "two_way_fe_alpha",
+          "startLine": 67,
+          "endLine": 75,
+          "params": [
+            "df"
+          ]
+        },
+        {
+          "name": "design",
+          "startLine": 172,
+          "endLine": 177,
+          "params": [
+            "df"
+          ]
+        },
+        {
+          "name": "cluster_t_lpm",
+          "startLine": 179,
+          "endLine": 184,
+          "params": [
+            "X",
+            "y",
+            "groups",
+            "term"
+          ]
+        },
+        {
+          "name": "wild_cluster_bootstrap_t",
+          "startLine": 186,
+          "endLine": 212,
+          "params": [
+            "X",
+            "y",
+            "groups",
+            "term",
+            "B",
+            "seed"
+          ]
+        },
+        {
+          "name": "pairs_cluster_bootstrap_logit",
+          "startLine": 214,
+          "endLine": 246,
+          "params": [
+            "df",
+            "term",
+            "B",
+            "seed"
+          ]
+        },
+        {
+          "name": "freeze_val",
+          "startLine": 284,
+          "endLine": 289,
+          "params": [
+            "qid"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "seed_of",
+          "line": 40,
+          "isDefault": false
+        },
+        {
+          "name": "logit",
+          "line": 43,
+          "isDefault": false
+        },
+        {
+          "name": "two_way_fe_alpha",
+          "line": 67,
+          "isDefault": false
+        },
+        {
+          "name": "design",
+          "line": 172,
+          "isDefault": false
+        },
+        {
+          "name": "cluster_t_lpm",
+          "line": 179,
+          "isDefault": false
+        },
+        {
+          "name": "wild_cluster_bootstrap_t",
+          "line": 186,
+          "isDefault": false
+        },
+        {
+          "name": "pairs_cluster_bootstrap_logit",
+          "line": 214,
+          "isDefault": false
+        },
+        {
+          "name": "freeze_val",
+          "line": 284,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "seed_of",
+          "callee": "int",
+          "lineNumber": 41
+        },
+        {
+          "caller": "seed_of",
+          "callee": "hashlib.md5(str(s).encode()).hexdigest",
+          "lineNumber": 41
+        },
+        {
+          "caller": "seed_of",
+          "callee": "hashlib.md5",
+          "lineNumber": 41
+        },
+        {
+          "caller": "seed_of",
+          "callee": "str(s).encode",
+          "lineNumber": 41
+        },
+        {
+          "caller": "seed_of",
+          "callee": "str",
+          "lineNumber": 41
+        },
+        {
+          "caller": "logit",
+          "callee": "np.clip",
+          "lineNumber": 44
+        },
+        {
+          "caller": "logit",
+          "callee": "np.log",
+          "lineNumber": 45
+        },
+        {
+          "caller": "two_way_fe_alpha",
+          "callee": "df[[\"fid\", \"qid\", \"d\"]].copy",
+          "lineNumber": 70
+        },
+        {
+          "caller": "two_way_fe_alpha",
+          "callee": "pd.get_dummies",
+          "lineNumber": 71
+        },
+        {
+          "caller": "two_way_fe_alpha",
+          "callee": "pd.get_dummies",
+          "lineNumber": 72
+        },
+        {
+          "caller": "two_way_fe_alpha",
+          "callee": "pd.concat([Xf, Xq], axis=1).astype",
+          "lineNumber": 73
+        },
+        {
+          "caller": "two_way_fe_alpha",
+          "callee": "pd.concat",
+          "lineNumber": 73
+        },
+        {
+          "caller": "two_way_fe_alpha",
+          "callee": "sm.OLS(dd[\"d\"].values, X).fit",
+          "lineNumber": 74
+        },
+        {
+          "caller": "two_way_fe_alpha",
+          "callee": "sm.OLS",
+          "lineNumber": 74
+        },
+        {
+          "caller": "two_way_fe_alpha",
+          "callee": "pd.Series",
+          "lineNumber": 75
+        },
+        {
+          "caller": "design",
+          "callee": "df.dropna(subset=[\"p_ref\", \"forecast\", \"y\"]).copy",
+          "lineNumber": 173
+        },
+        {
+          "caller": "design",
+          "callee": "df.dropna",
+          "lineNumber": 173
+        },
+        {
+          "caller": "design",
+          "callee": "pd.DataFrame",
+          "lineNumber": 174
+        },
+        {
+          "caller": "design",
+          "callee": "logit",
+          "lineNumber": 175
+        },
+        {
+          "caller": "design",
+          "callee": "logit",
+          "lineNumber": 176
+        },
+        {
+          "caller": "design",
+          "callee": "X.reset_index",
+          "lineNumber": 177
+        },
+        {
+          "caller": "design",
+          "callee": "sub.y.values.astype",
+          "lineNumber": 177
+        },
+        {
+          "caller": "cluster_t_lpm",
+          "callee": "sm.OLS(y, X.values).fit",
+          "lineNumber": 181
+        },
+        {
+          "caller": "cluster_t_lpm",
+          "callee": "sm.OLS",
+          "lineNumber": 181
+        },
+        {
+          "caller": "cluster_t_lpm",
+          "callee": "list",
+          "lineNumber": 182
+        },
+        {
+          "caller": "cluster_t_lpm",
+          "callee": "cols.index",
+          "lineNumber": 183
+        },
+        {
+          "caller": "wild_cluster_bootstrap_t",
+          "callee": "np.random.default_rng",
+          "lineNumber": 189
+        },
+        {
+          "caller": "wild_cluster_bootstrap_t",
+          "callee": "list",
+          "lineNumber": 190
+        },
+        {
+          "caller": "wild_cluster_bootstrap_t",
+          "callee": "cluster_t_lpm",
+          "lineNumber": 192
+        },
+        {
+          "caller": "wild_cluster_bootstrap_t",
+          "callee": "sm.OLS(y, Xr).fit",
+          "lineNumber": 196
+        },
+        {
+          "caller": "wild_cluster_bootstrap_t",
+          "callee": "sm.OLS",
+          "lineNumber": 196
+        },
+        {
+          "caller": "wild_cluster_bootstrap_t",
+          "callee": "res_r.predict",
+          "lineNumber": 197
+        },
+        {
+          "caller": "wild_cluster_bootstrap_t",
+          "callee": "np.unique",
+          "lineNumber": 199
+        },
+        {
+          "caller": "wild_cluster_bootstrap_t",
+          "callee": "np.where",
+          "lineNumber": 200
+        },
+        {
+          "caller": "wild_cluster_bootstrap_t",
+          "callee": "range",
+          "lineNumber": 202
+        },
+        {
+          "caller": "wild_cluster_bootstrap_t",
+          "callee": "rng.choice",
+          "lineNumber": 203
+        },
+        {
+          "caller": "wild_cluster_bootstrap_t",
+          "callee": "len",
+          "lineNumber": 203
+        },
+        {
+          "caller": "wild_cluster_bootstrap_t",
+          "callee": "np.empty",
+          "lineNumber": 204
+        },
+        {
+          "caller": "wild_cluster_bootstrap_t",
+          "callee": "len",
+          "lineNumber": 204
+        },
+        {
+          "caller": "wild_cluster_bootstrap_t",
+          "callee": "enumerate",
+          "lineNumber": 205
+        },
+        {
+          "caller": "wild_cluster_bootstrap_t",
+          "callee": "cluster_t_lpm",
+          "lineNumber": 208
+        },
+        {
+          "caller": "wild_cluster_bootstrap_t",
+          "callee": "abs",
+          "lineNumber": 209
+        },
+        {
+          "caller": "wild_cluster_bootstrap_t",
+          "callee": "abs",
+          "lineNumber": 209
+        },
+        {
+          "caller": "wild_cluster_bootstrap_t",
+          "callee": "float",
+          "lineNumber": 212
+        },
+        {
+          "caller": "wild_cluster_bootstrap_t",
+          "callee": "float",
+          "lineNumber": 212
+        },
+        {
+          "caller": "pairs_cluster_bootstrap_logit",
+          "callee": "np.random.default_rng",
+          "lineNumber": 217
+        },
+        {
+          "caller": "pairs_cluster_bootstrap_logit",
+          "callee": "df.dropna(subset=[\"p_ref\", \"forecast\", \"y\"]).copy",
+          "lineNumber": 218
+        },
+        {
+          "caller": "pairs_cluster_bootstrap_logit",
+          "callee": "df.dropna",
+          "lineNumber": 218
+        },
+        {
+          "caller": "pairs_cluster_bootstrap_logit",
+          "callee": "sub.qid.unique",
+          "lineNumber": 219
+        },
+        {
+          "caller": "pairs_cluster_bootstrap_logit",
+          "callee": "design",
+          "lineNumber": 222
+        },
+        {
+          "caller": "pairs_cluster_bootstrap_logit",
+          "callee": "sm.GLM(yo, Xo.values, family=sm.families.Binomial()).fit",
+          "lineNumber": 223
+        },
+        {
+          "caller": "pairs_cluster_bootstrap_logit",
+          "callee": "sm.GLM",
+          "lineNumber": 223
+        },
+        {
+          "caller": "pairs_cluster_bootstrap_logit",
+          "callee": "sm.families.Binomial",
+          "lineNumber": 223
+        },
+        {
+          "caller": "pairs_cluster_bootstrap_logit",
+          "callee": "list(Xo.columns).index",
+          "lineNumber": 225
+        },
+        {
+          "caller": "pairs_cluster_bootstrap_logit",
+          "callee": "list",
+          "lineNumber": 225
+        },
+        {
+          "caller": "pairs_cluster_bootstrap_logit",
+          "callee": "range",
+          "lineNumber": 228
+        },
+        {
+          "caller": "pairs_cluster_bootstrap_logit",
+          "callee": "rng.choice",
+          "lineNumber": 229
+        },
+        {
+          "caller": "pairs_cluster_bootstrap_logit",
+          "callee": "len",
+          "lineNumber": 229
+        },
+        {
+          "caller": "pairs_cluster_bootstrap_logit",
+          "callee": "pd.concat",
+          "lineNumber": 231
+        },
+        {
+          "caller": "pairs_cluster_bootstrap_logit",
+          "callee": "design",
+          "lineNumber": 232
+        },
+        {
+          "caller": "pairs_cluster_bootstrap_logit",
+          "callee": "len",
+          "lineNumber": 233
+        },
+        {
+          "caller": "pairs_cluster_bootstrap_logit",
+          "callee": "np.unique",
+          "lineNumber": 233
+        },
+        {
+          "caller": "pairs_cluster_bootstrap_logit",
+          "callee": "sm.GLM(yb, Xb.values, family=sm.families.Binomial()).fit",
+          "lineNumber": 236
+        },
+        {
+          "caller": "pairs_cluster_bootstrap_logit",
+          "callee": "sm.GLM",
+          "lineNumber": 236
+        },
+        {
+          "caller": "pairs_cluster_bootstrap_logit",
+          "callee": "sm.families.Binomial",
+          "lineNumber": 236
+        },
+        {
+          "caller": "pairs_cluster_bootstrap_logit",
+          "callee": "coefs.append",
+          "lineNumber": 237
+        },
+        {
+          "caller": "pairs_cluster_bootstrap_logit",
+          "callee": "list(Xb.columns).index",
+          "lineNumber": 237
+        },
+        {
+          "caller": "pairs_cluster_bootstrap_logit",
+          "callee": "list",
+          "lineNumber": 237
+        },
+        {
+          "caller": "pairs_cluster_bootstrap_logit",
+          "callee": "np.array",
+          "lineNumber": 240
+        },
+        {
+          "caller": "pairs_cluster_bootstrap_logit",
+          "callee": "np.percentile",
+          "lineNumber": 241
+        },
+        {
+          "caller": "pairs_cluster_bootstrap_logit",
+          "callee": "min",
+          "lineNumber": 243
+        },
+        {
+          "caller": "pairs_cluster_bootstrap_logit",
+          "callee": "(coefs <= 0).mean",
+          "lineNumber": 243
+        },
+        {
+          "caller": "pairs_cluster_bootstrap_logit",
+          "callee": "(coefs >= 0).mean",
+          "lineNumber": 243
+        },
+        {
+          "caller": "pairs_cluster_bootstrap_logit",
+          "callee": "float",
+          "lineNumber": 244
+        },
+        {
+          "caller": "pairs_cluster_bootstrap_logit",
+          "callee": "float",
+          "lineNumber": 244
+        },
+        {
+          "caller": "pairs_cluster_bootstrap_logit",
+          "callee": "coefs.mean",
+          "lineNumber": 244
+        },
+        {
+          "caller": "pairs_cluster_bootstrap_logit",
+          "callee": "float",
+          "lineNumber": 245
+        },
+        {
+          "caller": "pairs_cluster_bootstrap_logit",
+          "callee": "float",
+          "lineNumber": 245
+        },
+        {
+          "caller": "pairs_cluster_bootstrap_logit",
+          "callee": "float",
+          "lineNumber": 246
+        },
+        {
+          "caller": "pairs_cluster_bootstrap_logit",
+          "callee": "min",
+          "lineNumber": 246
+        },
+        {
+          "caller": "pairs_cluster_bootstrap_logit",
+          "callee": "int",
+          "lineNumber": 246
+        },
+        {
+          "caller": "pairs_cluster_bootstrap_logit",
+          "callee": "len",
+          "lineNumber": 246
+        },
+        {
+          "caller": "freeze_val",
+          "callee": "Q.get",
+          "lineNumber": 285
+        },
+        {
+          "caller": "freeze_val",
+          "callee": "float",
+          "lineNumber": 287
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 8,
+        "functionCount": 8,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "paper_beyond_brier/revise_edge.py",
+      "language": "python",
+      "fileCategory": "code",
+      "totalLines": 681,
+      "nonEmptyLines": 634,
+      "functions": [
+        {
+          "name": "seed_of",
+          "startLine": 41,
+          "endLine": 43,
+          "params": [
+            "s"
+          ]
+        },
+        {
+          "name": "brier",
+          "startLine": 45,
+          "endLine": 46,
+          "params": [
+            "p",
+            "y"
+          ]
+        },
+        {
+          "name": "logscore_loss",
+          "startLine": 48,
+          "endLine": 51,
+          "params": [
+            "p",
+            "y"
+          ]
+        },
+        {
+          "name": "logit",
+          "startLine": 53,
+          "endLine": 55,
+          "params": [
+            "p"
+          ]
+        },
+        {
+          "name": "rho_vs_brier",
+          "startLine": 95,
+          "endLine": 100,
+          "params": [
+            "edge_series"
+          ]
+        },
+        {
+          "name": "reg_r2",
+          "startLine": 265,
+          "endLine": 268,
+          "params": [
+            "yv",
+            "xv"
+          ]
+        },
+        {
+          "name": "boot_ci",
+          "startLine": 284,
+          "endLine": 290,
+          "params": [
+            "vals",
+            "B",
+            "seed"
+          ]
+        },
+        {
+          "name": "encompass_clustered",
+          "startLine": 377,
+          "endLine": 402,
+          "params": [
+            "sub"
+          ]
+        },
+        {
+          "name": "dm_hln_pvalue",
+          "startLine": 432,
+          "endLine": 447,
+          "params": [
+            "d"
+          ]
+        },
+        {
+          "name": "oos_isotonic_shrink",
+          "startLine": 505,
+          "endLine": 525,
+          "params": [
+            "forecasts",
+            "y",
+            "p_ref",
+            "k",
+            "seed"
+          ]
+        },
+        {
+          "name": "load_raw",
+          "startLine": 599,
+          "endLine": 605,
+          "params": [
+            "path",
+            "tag"
+          ]
+        },
+        {
+          "name": "freeze_val",
+          "startLine": 616,
+          "endLine": 620,
+          "params": [
+            "qid"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "seed_of",
+          "line": 41,
+          "isDefault": false
+        },
+        {
+          "name": "brier",
+          "line": 45,
+          "isDefault": false
+        },
+        {
+          "name": "logscore_loss",
+          "line": 48,
+          "isDefault": false
+        },
+        {
+          "name": "logit",
+          "line": 53,
+          "isDefault": false
+        },
+        {
+          "name": "rho_vs_brier",
+          "line": 95,
+          "isDefault": false
+        },
+        {
+          "name": "reg_r2",
+          "line": 265,
+          "isDefault": false
+        },
+        {
+          "name": "boot_ci",
+          "line": 284,
+          "isDefault": false
+        },
+        {
+          "name": "encompass_clustered",
+          "line": 377,
+          "isDefault": false
+        },
+        {
+          "name": "dm_hln_pvalue",
+          "line": 432,
+          "isDefault": false
+        },
+        {
+          "name": "oos_isotonic_shrink",
+          "line": 505,
+          "isDefault": false
+        },
+        {
+          "name": "load_raw",
+          "line": 599,
+          "isDefault": false
+        },
+        {
+          "name": "freeze_val",
+          "line": 616,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "seed_of",
+          "callee": "int",
+          "lineNumber": 43
+        },
+        {
+          "caller": "seed_of",
+          "callee": "hashlib.md5(str(s).encode()).hexdigest",
+          "lineNumber": 43
+        },
+        {
+          "caller": "seed_of",
+          "callee": "hashlib.md5",
+          "lineNumber": 43
+        },
+        {
+          "caller": "seed_of",
+          "callee": "str(s).encode",
+          "lineNumber": 43
+        },
+        {
+          "caller": "seed_of",
+          "callee": "str",
+          "lineNumber": 43
+        },
+        {
+          "caller": "logscore_loss",
+          "callee": "np.clip",
+          "lineNumber": 50
+        },
+        {
+          "caller": "logscore_loss",
+          "callee": "np.log",
+          "lineNumber": 51
+        },
+        {
+          "caller": "logscore_loss",
+          "callee": "np.log",
+          "lineNumber": 51
+        },
+        {
+          "caller": "logit",
+          "callee": "np.clip",
+          "lineNumber": 54
+        },
+        {
+          "caller": "logit",
+          "callee": "np.log",
+          "lineNumber": 55
+        },
+        {
+          "caller": "rho_vs_brier",
+          "callee": "stats.spearmanr",
+          "lineNumber": 98
+        },
+        {
+          "caller": "rho_vs_brier",
+          "callee": "stats.kendalltau",
+          "lineNumber": 99
+        },
+        {
+          "caller": "rho_vs_brier",
+          "callee": "float",
+          "lineNumber": 100
+        },
+        {
+          "caller": "rho_vs_brier",
+          "callee": "float",
+          "lineNumber": 100
+        },
+        {
+          "caller": "rho_vs_brier",
+          "callee": "float",
+          "lineNumber": 100
+        },
+        {
+          "caller": "rho_vs_brier",
+          "callee": "float",
+          "lineNumber": 100
+        },
+        {
+          "caller": "reg_r2",
+          "callee": "sm.add_constant",
+          "lineNumber": 266
+        },
+        {
+          "caller": "reg_r2",
+          "callee": "sm.OLS(yv, X).fit",
+          "lineNumber": 267
+        },
+        {
+          "caller": "reg_r2",
+          "callee": "sm.OLS",
+          "lineNumber": 267
+        },
+        {
+          "caller": "reg_r2",
+          "callee": "float",
+          "lineNumber": 268
+        },
+        {
+          "caller": "reg_r2",
+          "callee": "float",
+          "lineNumber": 268
+        },
+        {
+          "caller": "reg_r2",
+          "callee": "float",
+          "lineNumber": 268
+        },
+        {
+          "caller": "reg_r2",
+          "callee": "float",
+          "lineNumber": 268
+        },
+        {
+          "caller": "reg_r2",
+          "callee": "np.corrcoef",
+          "lineNumber": 268
+        },
+        {
+          "caller": "boot_ci",
+          "callee": "np.random.default_rng",
+          "lineNumber": 285
+        },
+        {
+          "caller": "boot_ci",
+          "callee": "np.asarray",
+          "lineNumber": 286
+        },
+        {
+          "caller": "boot_ci",
+          "callee": "len",
+          "lineNumber": 287
+        },
+        {
+          "caller": "boot_ci",
+          "callee": "rng.integers",
+          "lineNumber": 288
+        },
+        {
+          "caller": "boot_ci",
+          "callee": "vals[idx].mean",
+          "lineNumber": 289
+        },
+        {
+          "caller": "boot_ci",
+          "callee": "float",
+          "lineNumber": 290
+        },
+        {
+          "caller": "boot_ci",
+          "callee": "np.percentile",
+          "lineNumber": 290
+        },
+        {
+          "caller": "boot_ci",
+          "callee": "float",
+          "lineNumber": 290
+        },
+        {
+          "caller": "boot_ci",
+          "callee": "np.percentile",
+          "lineNumber": 290
+        },
+        {
+          "caller": "encompass_clustered",
+          "callee": "sub.dropna(subset=[\"p_ref\", \"forecast\", \"y\"]).copy",
+          "lineNumber": 378
+        },
+        {
+          "caller": "encompass_clustered",
+          "callee": "sub.dropna",
+          "lineNumber": 378
+        },
+        {
+          "caller": "encompass_clustered",
+          "callee": "logit",
+          "lineNumber": 379
+        },
+        {
+          "caller": "encompass_clustered",
+          "callee": "pd.DataFrame",
+          "lineNumber": 380
+        },
+        {
+          "caller": "encompass_clustered",
+          "callee": "logit",
+          "lineNumber": 382
+        },
+        {
+          "caller": "encompass_clustered",
+          "callee": "sub.y.values.astype",
+          "lineNumber": 383
+        },
+        {
+          "caller": "encompass_clustered",
+          "callee": "sm.GLM(yv, X, family=sm.families.Binomial()).fit",
+          "lineNumber": 387
+        },
+        {
+          "caller": "encompass_clustered",
+          "callee": "sm.GLM",
+          "lineNumber": 387
+        },
+        {
+          "caller": "encompass_clustered",
+          "callee": "sm.families.Binomial",
+          "lineNumber": 387
+        },
+        {
+          "caller": "encompass_clustered",
+          "callee": "sm.GLM(yv, X, family=sm.families.Binomial()).fit",
+          "lineNumber": 389
+        },
+        {
+          "caller": "encompass_clustered",
+          "callee": "sm.GLM",
+          "lineNumber": 389
+        },
+        {
+          "caller": "encompass_clustered",
+          "callee": "sm.families.Binomial",
+          "lineNumber": 389
+        },
+        {
+          "caller": "encompass_clustered",
+          "callee": "float",
+          "lineNumber": 393
+        },
+        {
+          "caller": "encompass_clustered",
+          "callee": "float",
+          "lineNumber": 394
+        },
+        {
+          "caller": "encompass_clustered",
+          "callee": "float",
+          "lineNumber": 395
+        },
+        {
+          "caller": "encompass_clustered",
+          "callee": "float",
+          "lineNumber": 396
+        },
+        {
+          "caller": "encompass_clustered",
+          "callee": "float",
+          "lineNumber": 397
+        },
+        {
+          "caller": "encompass_clustered",
+          "callee": "float",
+          "lineNumber": 399
+        },
+        {
+          "caller": "encompass_clustered",
+          "callee": "int",
+          "lineNumber": 400
+        },
+        {
+          "caller": "encompass_clustered",
+          "callee": "len",
+          "lineNumber": 400
+        },
+        {
+          "caller": "encompass_clustered",
+          "callee": "int",
+          "lineNumber": 401
+        },
+        {
+          "caller": "encompass_clustered",
+          "callee": "pd.Series(groups).nunique",
+          "lineNumber": 401
+        },
+        {
+          "caller": "encompass_clustered",
+          "callee": "pd.Series",
+          "lineNumber": 401
+        },
+        {
+          "caller": "dm_hln_pvalue",
+          "callee": "np.asarray",
+          "lineNumber": 435
+        },
+        {
+          "caller": "dm_hln_pvalue",
+          "callee": "len",
+          "lineNumber": 436
+        },
+        {
+          "caller": "dm_hln_pvalue",
+          "callee": "d.mean",
+          "lineNumber": 437
+        },
+        {
+          "caller": "dm_hln_pvalue",
+          "callee": "d.var",
+          "lineNumber": 438
+        },
+        {
+          "caller": "dm_hln_pvalue",
+          "callee": "math.sqrt",
+          "lineNumber": 441
+        },
+        {
+          "caller": "dm_hln_pvalue",
+          "callee": "math.sqrt",
+          "lineNumber": 443
+        },
+        {
+          "caller": "dm_hln_pvalue",
+          "callee": "stats.t.sf",
+          "lineNumber": 446
+        },
+        {
+          "caller": "dm_hln_pvalue",
+          "callee": "float",
+          "lineNumber": 447
+        },
+        {
+          "caller": "dm_hln_pvalue",
+          "callee": "float",
+          "lineNumber": 447
+        },
+        {
+          "caller": "oos_isotonic_shrink",
+          "callee": "np.random.default_rng",
+          "lineNumber": 507
+        },
+        {
+          "caller": "oos_isotonic_shrink",
+          "callee": "len",
+          "lineNumber": 508
+        },
+        {
+          "caller": "oos_isotonic_shrink",
+          "callee": "len",
+          "lineNumber": 509
+        },
+        {
+          "caller": "oos_isotonic_shrink",
+          "callee": "np.unique",
+          "lineNumber": 509
+        },
+        {
+          "caller": "oos_isotonic_shrink",
+          "callee": "rng.permutation",
+          "lineNumber": 511
+        },
+        {
+          "caller": "oos_isotonic_shrink",
+          "callee": "np.array_split",
+          "lineNumber": 512
+        },
+        {
+          "caller": "oos_isotonic_shrink",
+          "callee": "np.full",
+          "lineNumber": 513
+        },
+        {
+          "caller": "oos_isotonic_shrink",
+          "callee": "range",
+          "lineNumber": 514
+        },
+        {
+          "caller": "oos_isotonic_shrink",
+          "callee": "np.concatenate",
+          "lineNumber": 516
+        },
+        {
+          "caller": "oos_isotonic_shrink",
+          "callee": "range",
+          "lineNumber": 516
+        },
+        {
+          "caller": "oos_isotonic_shrink",
+          "callee": "len",
+          "lineNumber": 517
+        },
+        {
+          "caller": "oos_isotonic_shrink",
+          "callee": "np.unique",
+          "lineNumber": 517
+        },
+        {
+          "caller": "oos_isotonic_shrink",
+          "callee": "IsotonicRegression",
+          "lineNumber": 520
+        },
+        {
+          "caller": "oos_isotonic_shrink",
+          "callee": "ir.fit",
+          "lineNumber": 521
+        },
+        {
+          "caller": "oos_isotonic_shrink",
+          "callee": "ir.predict",
+          "lineNumber": 522
+        },
+        {
+          "caller": "oos_isotonic_shrink",
+          "callee": "(brier(p_ref, y) - brier(forecasts, y)).mean",
+          "lineNumber": 523
+        },
+        {
+          "caller": "oos_isotonic_shrink",
+          "callee": "brier",
+          "lineNumber": 523
+        },
+        {
+          "caller": "oos_isotonic_shrink",
+          "callee": "brier",
+          "lineNumber": 523
+        },
+        {
+          "caller": "oos_isotonic_shrink",
+          "callee": "(brier(p_ref, y) - brier(p_recal, y)).mean",
+          "lineNumber": 524
+        },
+        {
+          "caller": "oos_isotonic_shrink",
+          "callee": "brier",
+          "lineNumber": 524
+        },
+        {
+          "caller": "oos_isotonic_shrink",
+          "callee": "brier",
+          "lineNumber": 524
+        },
+        {
+          "caller": "load_raw",
+          "callee": "json.load",
+          "lineNumber": 600
+        },
+        {
+          "caller": "load_raw",
+          "callee": "open",
+          "lineNumber": 600
+        },
+        {
+          "caller": "load_raw",
+          "callee": "out.append",
+          "lineNumber": 603
+        },
+        {
+          "caller": "load_raw",
+          "callee": "f.get",
+          "lineNumber": 603
+        },
+        {
+          "caller": "load_raw",
+          "callee": "f.get",
+          "lineNumber": 604
+        },
+        {
+          "caller": "freeze_val",
+          "callee": "Q.get",
+          "lineNumber": 617
+        },
+        {
+          "caller": "freeze_val",
+          "callee": "float",
+          "lineNumber": 619
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 12,
+        "functionCount": 12,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "paper_beyond_brier/tectonic",
+      "language": "unknown",
+      "fileCategory": "code",
+      "totalLines": 217148,
+      "nonEmptyLines": 214611,
+      "metrics": {}
+    },
+    {
+      "path": "paper_beyond_brier/worked_example.py",
+      "language": "python",
+      "fileCategory": "code",
+      "totalLines": 142,
+      "nonEmptyLines": 130,
+      "functions": [
+        {
+          "name": "lg",
+          "startLine": 27,
+          "endLine": 27,
+          "params": [
+            "p"
+          ]
+        },
+        {
+          "name": "brier",
+          "startLine": 28,
+          "endLine": 28,
+          "params": [
+            "p",
+            "y"
+          ]
+        },
+        {
+          "name": "per_cfg",
+          "startLine": 59,
+          "endLine": 71,
+          "params": [
+            "g"
+          ]
+        },
+        {
+          "name": "base_model",
+          "startLine": 108,
+          "endLine": 110,
+          "params": [
+            "cfg"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "lg",
+          "line": 27,
+          "isDefault": false
+        },
+        {
+          "name": "brier",
+          "line": 28,
+          "isDefault": false
+        },
+        {
+          "name": "per_cfg",
+          "line": 59,
+          "isDefault": false
+        },
+        {
+          "name": "base_model",
+          "line": 108,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "lg",
+          "callee": "np.clip",
+          "lineNumber": 27
+        },
+        {
+          "caller": "lg",
+          "callee": "np.log",
+          "lineNumber": 27
+        },
+        {
+          "caller": "per_cfg",
+          "callee": "len",
+          "lineNumber": 60
+        },
+        {
+          "caller": "per_cfg",
+          "callee": "g.s_f.mean",
+          "lineNumber": 61
+        },
+        {
+          "caller": "per_cfg",
+          "callee": "g.d.mean",
+          "lineNumber": 61
+        },
+        {
+          "caller": "per_cfg",
+          "callee": "len",
+          "lineNumber": 63
+        },
+        {
+          "caller": "per_cfg",
+          "callee": "np.unique",
+          "lineNumber": 63
+        },
+        {
+          "caller": "per_cfg",
+          "callee": "sm.GLM(y, np.column_stack([np.ones(N), lg(g.pr)]), family=B).fit",
+          "lineNumber": 65
+        },
+        {
+          "caller": "per_cfg",
+          "callee": "sm.GLM",
+          "lineNumber": 65
+        },
+        {
+          "caller": "per_cfg",
+          "callee": "np.column_stack",
+          "lineNumber": 65
+        },
+        {
+          "caller": "per_cfg",
+          "callee": "np.ones",
+          "lineNumber": 65
+        },
+        {
+          "caller": "per_cfg",
+          "callee": "lg",
+          "lineNumber": 65
+        },
+        {
+          "caller": "per_cfg",
+          "callee": "sm.GLM(y, np.column_stack([np.ones(N), lg(g.pr), lg(g.fc)]), family=B).fit",
+          "lineNumber": 66
+        },
+        {
+          "caller": "per_cfg",
+          "callee": "sm.GLM",
+          "lineNumber": 66
+        },
+        {
+          "caller": "per_cfg",
+          "callee": "np.column_stack",
+          "lineNumber": 66
+        },
+        {
+          "caller": "per_cfg",
+          "callee": "np.ones",
+          "lineNumber": 66
+        },
+        {
+          "caller": "per_cfg",
+          "callee": "lg",
+          "lineNumber": 66
+        },
+        {
+          "caller": "per_cfg",
+          "callee": "lg",
+          "lineNumber": 66
+        },
+        {
+          "caller": "per_cfg",
+          "callee": "pd.Series",
+          "lineNumber": 71
+        },
+        {
+          "caller": "base_model",
+          "callee": "cfg.split(\"|\", 1)[1].strip",
+          "lineNumber": 109
+        },
+        {
+          "caller": "base_model",
+          "callee": "cfg.split",
+          "lineNumber": 109
+        },
+        {
+          "caller": "base_model",
+          "callee": "re.sub(r\"\\(.*?\\)\", \"\", s).strip",
+          "lineNumber": 110
+        },
+        {
+          "caller": "base_model",
+          "callee": "re.sub",
+          "lineNumber": 110
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 4,
+        "functionCount": 4,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "research/targets/angels_salvage.jsonl",
+      "language": "jsonl",
+      "fileCategory": "code",
+      "totalLines": 31,
+      "nonEmptyLines": 31,
+      "metrics": {}
+    },
+    {
+      "path": "research/targets/build_contact_cockpit.py",
+      "language": "python",
+      "fileCategory": "code",
+      "totalLines": 252,
+      "nonEmptyLines": 228,
+      "functions": [
+        {
+          "name": "trim",
+          "startLine": 48,
+          "endLine": 55,
+          "params": [
+            "r"
+          ]
+        },
+        {
+          "name": "main",
+          "startLine": 58,
+          "endLine": 66,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "trim",
+          "line": 48,
+          "isDefault": false
+        },
+        {
+          "name": "main",
+          "line": 58,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "trim",
+          "callee": "r.get",
+          "lineNumber": 49
+        },
+        {
+          "caller": "trim",
+          "callee": "int",
+          "lineNumber": 51
+        },
+        {
+          "caller": "trim",
+          "callee": "float",
+          "lineNumber": 51
+        },
+        {
+          "caller": "trim",
+          "callee": "bool",
+          "lineNumber": 54
+        },
+        {
+          "caller": "trim",
+          "callee": "r.get",
+          "lineNumber": 54
+        },
+        {
+          "caller": "main",
+          "callee": "trim",
+          "lineNumber": 59
+        },
+        {
+          "caller": "main",
+          "callee": "json.loads",
+          "lineNumber": 59
+        },
+        {
+          "caller": "main",
+          "callee": "SRC.read_text",
+          "lineNumber": 59
+        },
+        {
+          "caller": "main",
+          "callee": "data.sort",
+          "lineNumber": 60
+        },
+        {
+          "caller": "main",
+          "callee": "TEMPLATE\n            .replace(\"__DATA__\", json.dumps(data))\n            .replace",
+          "lineNumber": 61
+        },
+        {
+          "caller": "main",
+          "callee": "TEMPLATE\n            .replace",
+          "lineNumber": 61
+        },
+        {
+          "caller": "main",
+          "callee": "json.dumps",
+          "lineNumber": 62
+        },
+        {
+          "caller": "main",
+          "callee": "json.dumps",
+          "lineNumber": 63
+        },
+        {
+          "caller": "main",
+          "callee": "OUT.write_text",
+          "lineNumber": 64
+        },
+        {
+          "caller": "main",
+          "callee": "sum",
+          "lineNumber": 65
+        },
+        {
+          "caller": "main",
+          "callee": "print",
+          "lineNumber": 66
+        },
+        {
+          "caller": "main",
+          "callee": "len",
+          "lineNumber": 66
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 2,
+        "functionCount": 2,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "research/targets/build_outreach_assets.py",
+      "language": "python",
+      "fileCategory": "code",
+      "totalLines": 513,
+      "nonEmptyLines": 457,
+      "functions": [
+        {
+          "name": "norm",
+          "startLine": 40,
+          "endLine": 43,
+          "params": [
+            "name"
+          ]
+        },
+        {
+          "name": "first_name",
+          "startLine": 46,
+          "endLine": 49,
+          "params": [
+            "name"
+          ]
+        },
+        {
+          "name": "load_targets",
+          "startLine": 52,
+          "endLine": 53,
+          "params": []
+        },
+        {
+          "name": "load_existing_messages",
+          "startLine": 56,
+          "endLine": 73,
+          "params": []
+        },
+        {
+          "name": "weak_name",
+          "startLine": 134,
+          "endLine": 144,
+          "params": [
+            "r"
+          ]
+        },
+        {
+          "name": "score_row",
+          "startLine": 147,
+          "endLine": 177,
+          "params": [
+            "r"
+          ]
+        },
+        {
+          "name": "is_contactable",
+          "startLine": 180,
+          "endLine": 185,
+          "params": [
+            "r"
+          ]
+        },
+        {
+          "name": "assign_tiers",
+          "startLine": 188,
+          "endLine": 210,
+          "params": [
+            "rows"
+          ]
+        },
+        {
+          "name": "persona_for",
+          "startLine": 213,
+          "endLine": 222,
+          "params": [
+            "r"
+          ]
+        },
+        {
+          "name": "hook_for",
+          "startLine": 225,
+          "endLine": 262,
+          "params": [
+            "r"
+          ]
+        },
+        {
+          "name": "angle_for",
+          "startLine": 265,
+          "endLine": 282,
+          "params": [
+            "r"
+          ]
+        },
+        {
+          "name": "cta_for",
+          "startLine": 285,
+          "endLine": 297,
+          "params": [
+            "r"
+          ]
+        },
+        {
+          "name": "subject_for",
+          "startLine": 300,
+          "endLine": 315,
+          "params": [
+            "r"
+          ]
+        },
+        {
+          "name": "generated_day0",
+          "startLine": 318,
+          "endLine": 330,
+          "params": [
+            "r"
+          ]
+        },
+        {
+          "name": "generated_day3",
+          "startLine": 333,
+          "endLine": 349,
+          "params": [
+            "r"
+          ]
+        },
+        {
+          "name": "enrich",
+          "startLine": 352,
+          "endLine": 386,
+          "params": [
+            "rows"
+          ]
+        },
+        {
+          "name": "write_csv",
+          "startLine": 398,
+          "endLine": 403,
+          "params": [
+            "path",
+            "rows",
+            "fields"
+          ]
+        },
+        {
+          "name": "write_top_md",
+          "startLine": 406,
+          "endLine": 423,
+          "params": [
+            "rows"
+          ]
+        },
+        {
+          "name": "write_plan",
+          "startLine": 426,
+          "endLine": 483,
+          "params": [
+            "rows"
+          ]
+        },
+        {
+          "name": "main",
+          "startLine": 486,
+          "endLine": 509,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "norm",
+          "line": 40,
+          "isDefault": false
+        },
+        {
+          "name": "first_name",
+          "line": 46,
+          "isDefault": false
+        },
+        {
+          "name": "load_targets",
+          "line": 52,
+          "isDefault": false
+        },
+        {
+          "name": "load_existing_messages",
+          "line": 56,
+          "isDefault": false
+        },
+        {
+          "name": "weak_name",
+          "line": 134,
+          "isDefault": false
+        },
+        {
+          "name": "score_row",
+          "line": 147,
+          "isDefault": false
+        },
+        {
+          "name": "is_contactable",
+          "line": 180,
+          "isDefault": false
+        },
+        {
+          "name": "assign_tiers",
+          "line": 188,
+          "isDefault": false
+        },
+        {
+          "name": "persona_for",
+          "line": 213,
+          "isDefault": false
+        },
+        {
+          "name": "hook_for",
+          "line": 225,
+          "isDefault": false
+        },
+        {
+          "name": "angle_for",
+          "line": 265,
+          "isDefault": false
+        },
+        {
+          "name": "cta_for",
+          "line": 285,
+          "isDefault": false
+        },
+        {
+          "name": "subject_for",
+          "line": 300,
+          "isDefault": false
+        },
+        {
+          "name": "generated_day0",
+          "line": 318,
+          "isDefault": false
+        },
+        {
+          "name": "generated_day3",
+          "line": 333,
+          "isDefault": false
+        },
+        {
+          "name": "enrich",
+          "line": 352,
+          "isDefault": false
+        },
+        {
+          "name": "write_csv",
+          "line": 398,
+          "isDefault": false
+        },
+        {
+          "name": "write_top_md",
+          "line": 406,
+          "isDefault": false
+        },
+        {
+          "name": "write_plan",
+          "line": 426,
+          "isDefault": false
+        },
+        {
+          "name": "main",
+          "line": 486,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "norm",
+          "callee": "unicodedata.normalize(\"NFKD\", name or \"\").encode(\"ascii\", \"ignore\").decode().lower",
+          "lineNumber": 41
+        },
+        {
+          "caller": "norm",
+          "callee": "unicodedata.normalize(\"NFKD\", name or \"\").encode(\"ascii\", \"ignore\").decode",
+          "lineNumber": 41
+        },
+        {
+          "caller": "norm",
+          "callee": "unicodedata.normalize(\"NFKD\", name or \"\").encode",
+          "lineNumber": 41
+        },
+        {
+          "caller": "norm",
+          "callee": "unicodedata.normalize",
+          "lineNumber": 41
+        },
+        {
+          "caller": "norm",
+          "callee": "re.sub",
+          "lineNumber": 42
+        },
+        {
+          "caller": "norm",
+          "callee": "re.sub(r\"\\s+\", \" \", n).strip",
+          "lineNumber": 43
+        },
+        {
+          "caller": "norm",
+          "callee": "re.sub",
+          "lineNumber": 43
+        },
+        {
+          "caller": "first_name",
+          "callee": "re.split(r\"\\s+\", name.strip())[0].strip",
+          "lineNumber": 49
+        },
+        {
+          "caller": "first_name",
+          "callee": "re.split",
+          "lineNumber": 49
+        },
+        {
+          "caller": "first_name",
+          "callee": "name.strip",
+          "lineNumber": 49
+        },
+        {
+          "caller": "load_targets",
+          "callee": "json.loads",
+          "lineNumber": 53
+        },
+        {
+          "caller": "load_targets",
+          "callee": "TARGETS.read_text",
+          "lineNumber": 53
+        },
+        {
+          "caller": "load_existing_messages",
+          "callee": "MESSAGES.exists",
+          "lineNumber": 57
+        },
+        {
+          "caller": "load_existing_messages",
+          "callee": "MESSAGES.read_text",
+          "lineNumber": 59
+        },
+        {
+          "caller": "load_existing_messages",
+          "callee": "re.finditer",
+          "lineNumber": 61
+        },
+        {
+          "caller": "load_existing_messages",
+          "callee": "match.group(1).strip",
+          "lineNumber": 62
+        },
+        {
+          "caller": "load_existing_messages",
+          "callee": "match.group",
+          "lineNumber": 62
+        },
+        {
+          "caller": "load_existing_messages",
+          "callee": "match.group",
+          "lineNumber": 63
+        },
+        {
+          "caller": "load_existing_messages",
+          "callee": "re.split(r\"\\s+—\\s+\", heading)[0].strip",
+          "lineNumber": 64
+        },
+        {
+          "caller": "load_existing_messages",
+          "callee": "re.split",
+          "lineNumber": 64
+        },
+        {
+          "caller": "load_existing_messages",
+          "callee": "re.search",
+          "lineNumber": 65
+        },
+        {
+          "caller": "load_existing_messages",
+          "callee": "re.search",
+          "lineNumber": 66
+        },
+        {
+          "caller": "load_existing_messages",
+          "callee": "norm",
+          "lineNumber": 68
+        },
+        {
+          "caller": "load_existing_messages",
+          "callee": "subj.group(1).strip",
+          "lineNumber": 69
+        },
+        {
+          "caller": "load_existing_messages",
+          "callee": "subj.group",
+          "lineNumber": 69
+        },
+        {
+          "caller": "load_existing_messages",
+          "callee": "code.group(1).strip",
+          "lineNumber": 70
+        },
+        {
+          "caller": "load_existing_messages",
+          "callee": "code.group",
+          "lineNumber": 70
+        },
+        {
+          "caller": "weak_name",
+          "callee": "r.get",
+          "lineNumber": 135
+        },
+        {
+          "caller": "weak_name",
+          "callee": "r.get(\"name\", \"\").strip",
+          "lineNumber": 137
+        },
+        {
+          "caller": "weak_name",
+          "callee": "r.get",
+          "lineNumber": 137
+        },
+        {
+          "caller": "weak_name",
+          "callee": "t.strip",
+          "lineNumber": 138
+        },
+        {
+          "caller": "weak_name",
+          "callee": "name.split",
+          "lineNumber": 138
+        },
+        {
+          "caller": "weak_name",
+          "callee": "t.strip",
+          "lineNumber": 138
+        },
+        {
+          "caller": "weak_name",
+          "callee": "re.sub",
+          "lineNumber": 141
+        },
+        {
+          "caller": "weak_name",
+          "callee": "len",
+          "lineNumber": 142
+        },
+        {
+          "caller": "weak_name",
+          "callee": "full_tokens.append",
+          "lineNumber": 143
+        },
+        {
+          "caller": "weak_name",
+          "callee": "len",
+          "lineNumber": 144
+        },
+        {
+          "caller": "score_row",
+          "callee": "r.get",
+          "lineNumber": 148
+        },
+        {
+          "caller": "score_row",
+          "callee": "r.get",
+          "lineNumber": 148
+        },
+        {
+          "caller": "score_row",
+          "callee": "r.get",
+          "lineNumber": 148
+        },
+        {
+          "caller": "score_row",
+          "callee": "RING_WEIGHT.get",
+          "lineNumber": 150
+        },
+        {
+          "caller": "score_row",
+          "callee": "r.get",
+          "lineNumber": 150
+        },
+        {
+          "caller": "score_row",
+          "callee": "SEGMENT_WEIGHT.get",
+          "lineNumber": 151
+        },
+        {
+          "caller": "score_row",
+          "callee": "r.get",
+          "lineNumber": 151
+        },
+        {
+          "caller": "score_row",
+          "callee": "CHANNEL_WEIGHT.get",
+          "lineNumber": 152
+        },
+        {
+          "caller": "score_row",
+          "callee": "r.get",
+          "lineNumber": 152
+        },
+        {
+          "caller": "score_row",
+          "callee": "CONF_WEIGHT.get",
+          "lineNumber": 153
+        },
+        {
+          "caller": "score_row",
+          "callee": "r.get",
+          "lineNumber": 153
+        },
+        {
+          "caller": "score_row",
+          "callee": "r.get",
+          "lineNumber": 154
+        },
+        {
+          "caller": "score_row",
+          "callee": "r.get",
+          "lineNumber": 156
+        },
+        {
+          "caller": "score_row",
+          "callee": "SENIOR_RX.search",
+          "lineNumber": 158
+        },
+        {
+          "caller": "score_row",
+          "callee": "BUYER_RX.search",
+          "lineNumber": 160
+        },
+        {
+          "caller": "score_row",
+          "callee": "r.get",
+          "lineNumber": 162
+        },
+        {
+          "caller": "score_row",
+          "callee": "r.get",
+          "lineNumber": 164
+        },
+        {
+          "caller": "score_row",
+          "callee": "r.get",
+          "lineNumber": 164
+        },
+        {
+          "caller": "score_row",
+          "callee": "r.get",
+          "lineNumber": 166
+        },
+        {
+          "caller": "score_row",
+          "callee": "r.get",
+          "lineNumber": 168
+        },
+        {
+          "caller": "score_row",
+          "callee": "r.get",
+          "lineNumber": 168
+        },
+        {
+          "caller": "score_row",
+          "callee": "r.get",
+          "lineNumber": 170
+        },
+        {
+          "caller": "score_row",
+          "callee": "weak_name",
+          "lineNumber": 172
+        },
+        {
+          "caller": "score_row",
+          "callee": "re.search",
+          "lineNumber": 174
+        },
+        {
+          "caller": "score_row",
+          "callee": "r.get",
+          "lineNumber": 174
+        },
+        {
+          "caller": "score_row",
+          "callee": "min",
+          "lineNumber": 176
+        },
+        {
+          "caller": "score_row",
+          "callee": "int",
+          "lineNumber": 176
+        },
+        {
+          "caller": "score_row",
+          "callee": "m.group",
+          "lineNumber": 176
+        },
+        {
+          "caller": "is_contactable",
+          "callee": "bool",
+          "lineNumber": 182
+        },
+        {
+          "caller": "is_contactable",
+          "callee": "r.get",
+          "lineNumber": 182
+        },
+        {
+          "caller": "is_contactable",
+          "callee": "r.get",
+          "lineNumber": 183
+        },
+        {
+          "caller": "is_contactable",
+          "callee": "weak_name",
+          "lineNumber": 184
+        },
+        {
+          "caller": "assign_tiers",
+          "callee": "enumerate",
+          "lineNumber": 190
+        },
+        {
+          "caller": "assign_tiers",
+          "callee": "item.get",
+          "lineNumber": 192
+        },
+        {
+          "caller": "assign_tiers",
+          "callee": "is_contactable",
+          "lineNumber": 197
+        },
+        {
+          "caller": "persona_for",
+          "callee": "r.get",
+          "lineNumber": 214
+        },
+        {
+          "caller": "persona_for",
+          "callee": "r.get",
+          "lineNumber": 215
+        },
+        {
+          "caller": "hook_for",
+          "callee": "(r.get(\"role\") or r.get(\"profile\") or \"\").strip",
+          "lineNumber": 226
+        },
+        {
+          "caller": "hook_for",
+          "callee": "r.get",
+          "lineNumber": 226
+        },
+        {
+          "caller": "hook_for",
+          "callee": "r.get",
+          "lineNumber": 226
+        },
+        {
+          "caller": "hook_for",
+          "callee": "r.get",
+          "lineNumber": 227
+        },
+        {
+          "caller": "hook_for",
+          "callee": "re.search",
+          "lineNumber": 237
+        },
+        {
+          "caller": "hook_for",
+          "callee": "m.group(1).split(\",\")[0].strip",
+          "lineNumber": 239
+        },
+        {
+          "caller": "hook_for",
+          "callee": "m.group(1).split",
+          "lineNumber": 239
+        },
+        {
+          "caller": "hook_for",
+          "callee": "m.group",
+          "lineNumber": 239
+        },
+        {
+          "caller": "angle_for",
+          "callee": "r.get",
+          "lineNumber": 266
+        },
+        {
+          "caller": "angle_for",
+          "callee": "r.get",
+          "lineNumber": 267
+        },
+        {
+          "caller": "cta_for",
+          "callee": "r.get",
+          "lineNumber": 286
+        },
+        {
+          "caller": "subject_for",
+          "callee": "r.get",
+          "lineNumber": 301
+        },
+        {
+          "caller": "subject_for",
+          "callee": "r.get",
+          "lineNumber": 302
+        },
+        {
+          "caller": "generated_day0",
+          "callee": "first_name",
+          "lineNumber": 319
+        },
+        {
+          "caller": "generated_day0",
+          "callee": "r.get",
+          "lineNumber": 319
+        },
+        {
+          "caller": "generated_day0",
+          "callee": "hook_for",
+          "lineNumber": 320
+        },
+        {
+          "caller": "generated_day0",
+          "callee": "angle_for",
+          "lineNumber": 321
+        },
+        {
+          "caller": "generated_day0",
+          "callee": "cta_for",
+          "lineNumber": 322
+        },
+        {
+          "caller": "generated_day3",
+          "callee": "first_name",
+          "lineNumber": 334
+        },
+        {
+          "caller": "generated_day3",
+          "callee": "r.get",
+          "lineNumber": 334
+        },
+        {
+          "caller": "generated_day3",
+          "callee": "r.get",
+          "lineNumber": 335
+        },
+        {
+          "caller": "enrich",
+          "callee": "load_existing_messages",
+          "lineNumber": 353
+        },
+        {
+          "caller": "enrich",
+          "callee": "dict",
+          "lineNumber": 356
+        },
+        {
+          "caller": "enrich",
+          "callee": "score_row",
+          "lineNumber": 357
+        },
+        {
+          "caller": "enrich",
+          "callee": "persona_for",
+          "lineNumber": 358
+        },
+        {
+          "caller": "enrich",
+          "callee": "hook_for",
+          "lineNumber": 359
+        },
+        {
+          "caller": "enrich",
+          "callee": "angle_for",
+          "lineNumber": 360
+        },
+        {
+          "caller": "enrich",
+          "callee": "cta_for",
+          "lineNumber": 361
+        },
+        {
+          "caller": "enrich",
+          "callee": "subject_for",
+          "lineNumber": 362
+        },
+        {
+          "caller": "enrich",
+          "callee": "existing.get",
+          "lineNumber": 363
+        },
+        {
+          "caller": "enrich",
+          "callee": "norm",
+          "lineNumber": 363
+        },
+        {
+          "caller": "enrich",
+          "callee": "item.get",
+          "lineNumber": 363
+        },
+        {
+          "caller": "enrich",
+          "callee": "generated_day0",
+          "lineNumber": 370
+        },
+        {
+          "caller": "enrich",
+          "callee": "generated_day3",
+          "lineNumber": 371
+        },
+        {
+          "caller": "enrich",
+          "callee": "item.get",
+          "lineNumber": 372
+        },
+        {
+          "caller": "enrich",
+          "callee": "item.get",
+          "lineNumber": 372
+        },
+        {
+          "caller": "enrich",
+          "callee": "item.get",
+          "lineNumber": 378
+        },
+        {
+          "caller": "enrich",
+          "callee": "(\n            f'\"{item.get(\"name\", \"\")}\" email {item.get(\"role\") or item.get(\"segment\") or \"\"}'\n        ).strip",
+          "lineNumber": 379
+        },
+        {
+          "caller": "enrich",
+          "callee": "item.get",
+          "lineNumber": 380
+        },
+        {
+          "caller": "enrich",
+          "callee": "item.get",
+          "lineNumber": 380
+        },
+        {
+          "caller": "enrich",
+          "callee": "item.get",
+          "lineNumber": 380
+        },
+        {
+          "caller": "enrich",
+          "callee": "enriched.append",
+          "lineNumber": 383
+        },
+        {
+          "caller": "enrich",
+          "callee": "enriched.sort",
+          "lineNumber": 384
+        },
+        {
+          "caller": "enrich",
+          "callee": "bool",
+          "lineNumber": 384
+        },
+        {
+          "caller": "enrich",
+          "callee": "x.get",
+          "lineNumber": 384
+        },
+        {
+          "caller": "enrich",
+          "callee": "assign_tiers",
+          "lineNumber": 385
+        },
+        {
+          "caller": "write_csv",
+          "callee": "path.open",
+          "lineNumber": 399
+        },
+        {
+          "caller": "write_csv",
+          "callee": "csv.DictWriter",
+          "lineNumber": 400
+        },
+        {
+          "caller": "write_csv",
+          "callee": "w.writeheader",
+          "lineNumber": 401
+        },
+        {
+          "caller": "write_csv",
+          "callee": "w.writerow",
+          "lineNumber": 403
+        },
+        {
+          "caller": "write_top_md",
+          "callee": "(r.get(\"specific_hook\") or \"\").replace",
+          "lineNumber": 417
+        },
+        {
+          "caller": "write_top_md",
+          "callee": "r.get",
+          "lineNumber": 417
+        },
+        {
+          "caller": "write_top_md",
+          "callee": "lines.append",
+          "lineNumber": 418
+        },
+        {
+          "caller": "write_top_md",
+          "callee": "r.get",
+          "lineNumber": 419
+        },
+        {
+          "caller": "write_top_md",
+          "callee": "r.get",
+          "lineNumber": 419
+        },
+        {
+          "caller": "write_top_md",
+          "callee": "r.get",
+          "lineNumber": 420
+        },
+        {
+          "caller": "write_top_md",
+          "callee": "r.get",
+          "lineNumber": 420
+        },
+        {
+          "caller": "write_top_md",
+          "callee": "r.get",
+          "lineNumber": 420
+        },
+        {
+          "caller": "write_top_md",
+          "callee": "r.get",
+          "lineNumber": 421
+        },
+        {
+          "caller": "write_top_md",
+          "callee": "TOP_MD.write_text",
+          "lineNumber": 423
+        },
+        {
+          "caller": "write_top_md",
+          "callee": "\"\\n\".join",
+          "lineNumber": 423
+        },
+        {
+          "caller": "write_plan",
+          "callee": "Counter",
+          "lineNumber": 427
+        },
+        {
+          "caller": "write_plan",
+          "callee": "Counter",
+          "lineNumber": 428
+        },
+        {
+          "caller": "write_plan",
+          "callee": "r.get",
+          "lineNumber": 428
+        },
+        {
+          "caller": "write_plan",
+          "callee": "Counter",
+          "lineNumber": 429
+        },
+        {
+          "caller": "write_plan",
+          "callee": "r.get",
+          "lineNumber": 429
+        },
+        {
+          "caller": "write_plan",
+          "callee": "sum",
+          "lineNumber": 430
+        },
+        {
+          "caller": "write_plan",
+          "callee": "r.get",
+          "lineNumber": 430
+        },
+        {
+          "caller": "write_plan",
+          "callee": "is_contactable",
+          "lineNumber": 431
+        },
+        {
+          "caller": "write_plan",
+          "callee": "r.get",
+          "lineNumber": 432
+        },
+        {
+          "caller": "write_plan",
+          "callee": "len",
+          "lineNumber": 438
+        },
+        {
+          "caller": "write_plan",
+          "callee": "len",
+          "lineNumber": 440
+        },
+        {
+          "caller": "write_plan",
+          "callee": "len",
+          "lineNumber": 441
+        },
+        {
+          "caller": "write_plan",
+          "callee": "rings.most_common",
+          "lineNumber": 453
+        },
+        {
+          "caller": "write_plan",
+          "callee": "lines.append",
+          "lineNumber": 454
+        },
+        {
+          "caller": "write_plan",
+          "callee": "channels.most_common",
+          "lineNumber": 456
+        },
+        {
+          "caller": "write_plan",
+          "callee": "lines.append",
+          "lineNumber": 457
+        },
+        {
+          "caller": "write_plan",
+          "callee": "lines.append",
+          "lineNumber": 479
+        },
+        {
+          "caller": "write_plan",
+          "callee": "r.get",
+          "lineNumber": 480
+        },
+        {
+          "caller": "write_plan",
+          "callee": "r.get",
+          "lineNumber": 480
+        },
+        {
+          "caller": "write_plan",
+          "callee": "r.get",
+          "lineNumber": 480
+        },
+        {
+          "caller": "write_plan",
+          "callee": "r.get",
+          "lineNumber": 481
+        },
+        {
+          "caller": "write_plan",
+          "callee": "r.get",
+          "lineNumber": 481
+        },
+        {
+          "caller": "write_plan",
+          "callee": "PLAN_MD.write_text",
+          "lineNumber": 483
+        },
+        {
+          "caller": "write_plan",
+          "callee": "\"\\n\".join",
+          "lineNumber": 483
+        },
+        {
+          "caller": "main",
+          "callee": "enrich",
+          "lineNumber": 487
+        },
+        {
+          "caller": "main",
+          "callee": "load_targets",
+          "lineNumber": 487
+        },
+        {
+          "caller": "main",
+          "callee": "is_contactable",
+          "lineNumber": 489
+        },
+        {
+          "caller": "main",
+          "callee": "r.get",
+          "lineNumber": 490
+        },
+        {
+          "caller": "main",
+          "callee": "r.get",
+          "lineNumber": 491
+        },
+        {
+          "caller": "main",
+          "callee": "FULL_JSON.write_text",
+          "lineNumber": 492
+        },
+        {
+          "caller": "main",
+          "callee": "json.dumps",
+          "lineNumber": 492
+        },
+        {
+          "caller": "main",
+          "callee": "write_csv",
+          "lineNumber": 493
+        },
+        {
+          "caller": "main",
+          "callee": "write_csv",
+          "lineNumber": 494
+        },
+        {
+          "caller": "main",
+          "callee": "write_csv",
+          "lineNumber": 495
+        },
+        {
+          "caller": "main",
+          "callee": "write_csv",
+          "lineNumber": 496
+        },
+        {
+          "caller": "main",
+          "callee": "write_csv",
+          "lineNumber": 497
+        },
+        {
+          "caller": "main",
+          "callee": "write_top_md",
+          "lineNumber": 498
+        },
+        {
+          "caller": "main",
+          "callee": "write_plan",
+          "lineNumber": 499
+        },
+        {
+          "caller": "main",
+          "callee": "print",
+          "lineNumber": 500
+        },
+        {
+          "caller": "main",
+          "callee": "len",
+          "lineNumber": 500
+        },
+        {
+          "caller": "main",
+          "callee": "print",
+          "lineNumber": 501
+        },
+        {
+          "caller": "main",
+          "callee": "dict",
+          "lineNumber": 501
+        },
+        {
+          "caller": "main",
+          "callee": "Counter",
+          "lineNumber": 501
+        },
+        {
+          "caller": "main",
+          "callee": "print",
+          "lineNumber": 502
+        },
+        {
+          "caller": "main",
+          "callee": "dict",
+          "lineNumber": 502
+        },
+        {
+          "caller": "main",
+          "callee": "Counter",
+          "lineNumber": 502
+        },
+        {
+          "caller": "main",
+          "callee": "r.get",
+          "lineNumber": 502
+        },
+        {
+          "caller": "main",
+          "callee": "print",
+          "lineNumber": 503
+        },
+        {
+          "caller": "main",
+          "callee": "print",
+          "lineNumber": 504
+        },
+        {
+          "caller": "main",
+          "callee": "print",
+          "lineNumber": 505
+        },
+        {
+          "caller": "main",
+          "callee": "print",
+          "lineNumber": 506
+        },
+        {
+          "caller": "main",
+          "callee": "print",
+          "lineNumber": 507
+        },
+        {
+          "caller": "main",
+          "callee": "print",
+          "lineNumber": 508
+        },
+        {
+          "caller": "main",
+          "callee": "print",
+          "lineNumber": 509
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 20,
+        "functionCount": 20,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "research/targets/build_outreach_panel.py",
+      "language": "python",
+      "fileCategory": "code",
+      "totalLines": 114,
+      "nonEmptyLines": 104,
+      "functions": [
+        {
+          "name": "load_csv",
+          "startLine": 14,
+          "endLine": 18,
+          "params": [
+            "path"
+          ]
+        },
+        {
+          "name": "main",
+          "startLine": 21,
+          "endLine": 42,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "load_csv",
+          "line": 14,
+          "isDefault": false
+        },
+        {
+          "name": "main",
+          "line": 21,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "load_csv",
+          "callee": "path.exists",
+          "lineNumber": 15
+        },
+        {
+          "caller": "load_csv",
+          "callee": "path.open",
+          "lineNumber": 17
+        },
+        {
+          "caller": "load_csv",
+          "callee": "list",
+          "lineNumber": 18
+        },
+        {
+          "caller": "load_csv",
+          "callee": "csv.DictReader",
+          "lineNumber": 18
+        },
+        {
+          "caller": "main",
+          "callee": "json.loads",
+          "lineNumber": 22
+        },
+        {
+          "caller": "main",
+          "callee": "SCORED.read_text",
+          "lineNumber": 22
+        },
+        {
+          "caller": "main",
+          "callee": "str",
+          "lineNumber": 23
+        },
+        {
+          "caller": "main",
+          "callee": "r.get",
+          "lineNumber": 23
+        },
+        {
+          "caller": "main",
+          "callee": "load_csv",
+          "lineNumber": 23
+        },
+        {
+          "caller": "main",
+          "callee": "enrich_by_rank.get",
+          "lineNumber": 25
+        },
+        {
+          "caller": "main",
+          "callee": "str",
+          "lineNumber": 25
+        },
+        {
+          "caller": "main",
+          "callee": "row.get",
+          "lineNumber": 25
+        },
+        {
+          "caller": "main",
+          "callee": "e.get",
+          "lineNumber": 26
+        },
+        {
+          "caller": "main",
+          "callee": "e.get",
+          "lineNumber": 27
+        },
+        {
+          "caller": "main",
+          "callee": "e.get",
+          "lineNumber": 28
+        },
+        {
+          "caller": "main",
+          "callee": "e.get",
+          "lineNumber": 29
+        },
+        {
+          "caller": "main",
+          "callee": "row.get",
+          "lineNumber": 32
+        },
+        {
+          "caller": "main",
+          "callee": "row.get",
+          "lineNumber": 34
+        },
+        {
+          "caller": "main",
+          "callee": "row.get",
+          "lineNumber": 36
+        },
+        {
+          "caller": "main",
+          "callee": "TEMPLATE.replace",
+          "lineNumber": 40
+        },
+        {
+          "caller": "main",
+          "callee": "json.dumps",
+          "lineNumber": 40
+        },
+        {
+          "caller": "main",
+          "callee": "OUT.write_text",
+          "lineNumber": 41
+        },
+        {
+          "caller": "main",
+          "callee": "print",
+          "lineNumber": 42
+        },
+        {
+          "caller": "main",
+          "callee": "len",
+          "lineNumber": 42
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 2,
+        "functionCount": 2,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "research/targets/harvest_web.jsonl",
+      "language": "jsonl",
+      "fileCategory": "code",
+      "totalLines": 1055,
+      "nonEmptyLines": 1055,
+      "metrics": {}
+    },
+    {
+      "path": "research/targets/merge_panel.py",
+      "language": "python",
+      "fileCategory": "code",
+      "totalLines": 201,
+      "nonEmptyLines": 188,
+      "functions": [
+        {
+          "name": "norm",
+          "startLine": 49,
+          "endLine": 52,
+          "params": [
+            "name"
+          ]
+        },
+        {
+          "name": "load_jsonl",
+          "startLine": 54,
+          "endLine": 62,
+          "params": [
+            "p"
+          ]
+        },
+        {
+          "name": "main",
+          "startLine": 64,
+          "endLine": 109,
+          "params": []
+        },
+        {
+          "name": "write_html",
+          "startLine": 111,
+          "endLine": 114,
+          "params": [
+            "rows"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "norm",
+          "line": 49,
+          "isDefault": false
+        },
+        {
+          "name": "load_jsonl",
+          "line": 54,
+          "isDefault": false
+        },
+        {
+          "name": "main",
+          "line": 64,
+          "isDefault": false
+        },
+        {
+          "name": "write_html",
+          "line": 111,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "norm",
+          "callee": "unicodedata.normalize(\"NFKD\", name).encode(\"ascii\",\"ignore\").decode().lower",
+          "lineNumber": 50
+        },
+        {
+          "caller": "norm",
+          "callee": "unicodedata.normalize(\"NFKD\", name).encode(\"ascii\",\"ignore\").decode",
+          "lineNumber": 50
+        },
+        {
+          "caller": "norm",
+          "callee": "unicodedata.normalize(\"NFKD\", name).encode",
+          "lineNumber": 50
+        },
+        {
+          "caller": "norm",
+          "callee": "unicodedata.normalize",
+          "lineNumber": 50
+        },
+        {
+          "caller": "norm",
+          "callee": "re.sub",
+          "lineNumber": 51
+        },
+        {
+          "caller": "norm",
+          "callee": "re.sub(r\"\\s+\",\" \",n).strip",
+          "lineNumber": 52
+        },
+        {
+          "caller": "norm",
+          "callee": "re.sub",
+          "lineNumber": 52
+        },
+        {
+          "caller": "load_jsonl",
+          "callee": "p.exists",
+          "lineNumber": 55
+        },
+        {
+          "caller": "load_jsonl",
+          "callee": "p.read_text().splitlines",
+          "lineNumber": 57
+        },
+        {
+          "caller": "load_jsonl",
+          "callee": "p.read_text",
+          "lineNumber": 57
+        },
+        {
+          "caller": "load_jsonl",
+          "callee": "line.strip",
+          "lineNumber": 58
+        },
+        {
+          "caller": "load_jsonl",
+          "callee": "out.append",
+          "lineNumber": 60
+        },
+        {
+          "caller": "load_jsonl",
+          "callee": "json.loads",
+          "lineNumber": 60
+        },
+        {
+          "caller": "main",
+          "callee": "set",
+          "lineNumber": 66
+        },
+        {
+          "caller": "add",
+          "callee": "norm",
+          "lineNumber": 68
+        },
+        {
+          "caller": "add",
+          "callee": "seen.add",
+          "lineNumber": 70
+        },
+        {
+          "caller": "add",
+          "callee": "rows.append",
+          "lineNumber": 70
+        },
+        {
+          "caller": "main",
+          "callee": "add",
+          "lineNumber": 74
+        },
+        {
+          "caller": "main",
+          "callee": "load_jsonl",
+          "lineNumber": 79
+        },
+        {
+          "caller": "main",
+          "callee": "r.setdefault",
+          "lineNumber": 80
+        },
+        {
+          "caller": "main",
+          "callee": "r.get",
+          "lineNumber": 80
+        },
+        {
+          "caller": "main",
+          "callee": "add",
+          "lineNumber": 81
+        },
+        {
+          "caller": "main",
+          "callee": "load_jsonl",
+          "lineNumber": 84
+        },
+        {
+          "caller": "main",
+          "callee": "res.sort",
+          "lineNumber": 85
+        },
+        {
+          "caller": "main",
+          "callee": "r.get",
+          "lineNumber": 85
+        },
+        {
+          "caller": "main",
+          "callee": "\", \".join",
+          "lineNumber": 87
+        },
+        {
+          "caller": "main",
+          "callee": "r.get",
+          "lineNumber": 87
+        },
+        {
+          "caller": "main",
+          "callee": "add",
+          "lineNumber": 88
+        },
+        {
+          "caller": "main",
+          "callee": "r.get",
+          "lineNumber": 88
+        },
+        {
+          "caller": "main",
+          "callee": "r.get",
+          "lineNumber": 89
+        },
+        {
+          "caller": "main",
+          "callee": "r.get",
+          "lineNumber": 89
+        },
+        {
+          "caller": "main",
+          "callee": "r.get",
+          "lineNumber": 90
+        },
+        {
+          "caller": "main",
+          "callee": "r.get",
+          "lineNumber": 91
+        },
+        {
+          "caller": "main",
+          "callee": "r.get",
+          "lineNumber": 92
+        },
+        {
+          "caller": "main",
+          "callee": "r.get",
+          "lineNumber": 92
+        },
+        {
+          "caller": "main",
+          "callee": "r.get",
+          "lineNumber": 93
+        },
+        {
+          "caller": "main",
+          "callee": "load_jsonl",
+          "lineNumber": 96
+        },
+        {
+          "caller": "main",
+          "callee": "r.setdefault",
+          "lineNumber": 97
+        },
+        {
+          "caller": "main",
+          "callee": "add",
+          "lineNumber": 98
+        },
+        {
+          "caller": "main",
+          "callee": "(HERE/\"targets.json\").write_text",
+          "lineNumber": 100
+        },
+        {
+          "caller": "main",
+          "callee": "json.dumps",
+          "lineNumber": 100
+        },
+        {
+          "caller": "main",
+          "callee": "Counter",
+          "lineNumber": 103
+        },
+        {
+          "caller": "main",
+          "callee": "Counter",
+          "lineNumber": 104
+        },
+        {
+          "caller": "main",
+          "callee": "r.get",
+          "lineNumber": 104
+        },
+        {
+          "caller": "main",
+          "callee": "print",
+          "lineNumber": 105
+        },
+        {
+          "caller": "main",
+          "callee": "len",
+          "lineNumber": 105
+        },
+        {
+          "caller": "main",
+          "callee": "print",
+          "lineNumber": 106
+        },
+        {
+          "caller": "main",
+          "callee": "dict",
+          "lineNumber": 106
+        },
+        {
+          "caller": "main",
+          "callee": "print",
+          "lineNumber": 107
+        },
+        {
+          "caller": "main",
+          "callee": "dict",
+          "lineNumber": 107
+        },
+        {
+          "caller": "main",
+          "callee": "write_html",
+          "lineNumber": 108
+        },
+        {
+          "caller": "main",
+          "callee": "print",
+          "lineNumber": 109
+        },
+        {
+          "caller": "write_html",
+          "callee": "json.dumps",
+          "lineNumber": 112
+        },
+        {
+          "caller": "write_html",
+          "callee": "PANEL_TMPL.replace",
+          "lineNumber": 113
+        },
+        {
+          "caller": "write_html",
+          "callee": "(ROOT/\"targets_panel.html\").write_text",
+          "lineNumber": 114
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 4,
+        "functionCount": 4,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "research/targets/oa_harvest.py",
+      "language": "python",
+      "fileCategory": "code",
+      "totalLines": 103,
+      "nonEmptyLines": 91,
+      "functions": [
+        {
+          "name": "fetch",
+          "startLine": 37,
+          "endLine": 48,
+          "params": [
+            "query",
+            "year",
+            "per_page"
+          ]
+        },
+        {
+          "name": "main",
+          "startLine": 51,
+          "endLine": 99,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "fetch",
+          "line": 37,
+          "isDefault": false
+        },
+        {
+          "name": "main",
+          "line": 51,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "fetch",
+          "callee": "str",
+          "lineNumber": 41
+        },
+        {
+          "caller": "fetch",
+          "callee": "urllib.parse.urlencode",
+          "lineNumber": 45
+        },
+        {
+          "caller": "fetch",
+          "callee": "urllib.request.Request",
+          "lineNumber": 46
+        },
+        {
+          "caller": "fetch",
+          "callee": "urllib.request.urlopen",
+          "lineNumber": 47
+        },
+        {
+          "caller": "fetch",
+          "callee": "json.loads(r.read()).get",
+          "lineNumber": 48
+        },
+        {
+          "caller": "fetch",
+          "callee": "json.loads",
+          "lineNumber": 48
+        },
+        {
+          "caller": "fetch",
+          "callee": "r.read",
+          "lineNumber": 48
+        },
+        {
+          "caller": "main",
+          "callee": "defaultdict",
+          "lineNumber": 54
+        },
+        {
+          "caller": "main",
+          "callee": "defaultdict",
+          "lineNumber": 55
+        },
+        {
+          "caller": "main",
+          "callee": "fetch",
+          "lineNumber": 58
+        },
+        {
+          "caller": "main",
+          "callee": "print",
+          "lineNumber": 60
+        },
+        {
+          "caller": "main",
+          "callee": "w.get",
+          "lineNumber": 63
+        },
+        {
+          "caller": "main",
+          "callee": "a.get",
+          "lineNumber": 64
+        },
+        {
+          "caller": "main",
+          "callee": "au.get",
+          "lineNumber": 65
+        },
+        {
+          "caller": "main",
+          "callee": "au.get",
+          "lineNumber": 66
+        },
+        {
+          "caller": "main",
+          "callee": "topics[aid].add",
+          "lineNumber": 70
+        },
+        {
+          "caller": "main",
+          "callee": "a.get",
+          "lineNumber": 73
+        },
+        {
+          "caller": "main",
+          "callee": "insts[0].get",
+          "lineNumber": 75
+        },
+        {
+          "caller": "main",
+          "callee": "(au.get(\"orcid\") or \"\").replace",
+          "lineNumber": 79
+        },
+        {
+          "caller": "main",
+          "callee": "au.get",
+          "lineNumber": 79
+        },
+        {
+          "caller": "main",
+          "callee": "print",
+          "lineNumber": 84
+        },
+        {
+          "caller": "main",
+          "callee": "len",
+          "lineNumber": 84
+        },
+        {
+          "caller": "main",
+          "callee": "time.sleep",
+          "lineNumber": 85
+        },
+        {
+          "caller": "main",
+          "callee": "authors.items",
+          "lineNumber": 88
+        },
+        {
+          "caller": "main",
+          "callee": "sorted",
+          "lineNumber": 90
+        },
+        {
+          "caller": "main",
+          "callee": "rows.append",
+          "lineNumber": 91
+        },
+        {
+          "caller": "main",
+          "callee": "rows.sort",
+          "lineNumber": 94
+        },
+        {
+          "caller": "main",
+          "callee": "OUT.open",
+          "lineNumber": 96
+        },
+        {
+          "caller": "main",
+          "callee": "f.write",
+          "lineNumber": 98
+        },
+        {
+          "caller": "main",
+          "callee": "json.dumps",
+          "lineNumber": 98
+        },
+        {
+          "caller": "main",
+          "callee": "print",
+          "lineNumber": 99
+        },
+        {
+          "caller": "main",
+          "callee": "len",
+          "lineNumber": 99
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 2,
+        "functionCount": 2,
+        "classCount": 0
+      }
+    }
+  ]
+}

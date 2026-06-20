@@ -1,0 +1,74 @@
+[
+ {
+  "question_id": 8370,
+  "type": "binary",
+  "prob": 0.55,
+  "reasoning": "Conditional on the near-zero base event of a NATO ally (UK/France) offensively detonating a nuke, that would almost certainly mean a major nuclear war against Russia in which US Article-5 entanglement makes a US detonation within the same 30-day chain more likely than not. But US restraint/escalation control could still keep it conventional, so only modestly above even."
+ },
+ {
+  "question_id": 8611,
+  "type": "binary",
+  "prob": 0.05,
+  "reasoning": "China and Russia remain close strategic partners with a demarcated border and deepening alignment against the West; despite latent frictions over Central Asia and the Far East, a shooting war exceeding 1000 battle deaths by 2035 is a low-base-rate event."
+ },
+ {
+  "question_id": 8614,
+  "type": "binary",
+  "prob": 0.03,
+  "reasoning": "No non-state actor has ever built a deployable nuclear weapon; it requires sufficient weapons-grade fissile material plus weaponization expertise that remains far beyond known groups' reach, and there is no current intelligence indicating imminent success by 2030."
+ },
+ {
+  "question_id": 8613,
+  "type": "binary",
+  "prob": 0.03,
+  "reasoning": "State arsenals are guarded with PALs and tight command-and-control; no non-state actor has ever taken possession of an intact deployable warhead, and even amid the New START lapse and Ukraine war there is no evidence of an imminent state loss of a weapon by 2030."
+ },
+ {
+  "question_id": 8372,
+  "type": "numeric",
+  "percentiles": {
+   "0.05": 1,
+   "0.1": 5,
+   "0.25": 15,
+   "0.5": 50,
+   "0.75": 150,
+   "0.9": 500,
+   "0.95": 1000
+  },
+  "reasoning": "Conditional on any offensive detonation by 2050, the most likely first/only uses are tactical-to-strategic warheads in the 10-100 kt range (Hiroshima ~15kt, modern strategic warheads ~100-800kt), with an upper tail toward a large multi-hundred-kt to ~Mt strategic exchange. Open both ends; median ~50kt."
+ },
+ {
+  "question_id": 8639,
+  "type": "numeric",
+  "percentiles": {
+   "0.05": 0.0,
+   "0.1": 0.0,
+   "0.25": 0.01,
+   "0.5": 0.03,
+   "0.75": 0.08,
+   "0.9": 0.18,
+   "0.95": 0.3
+  },
+  "reasoning": "All nine nuclear states and nearly all plausible high-value targets lie in the Northern Hemisphere, so conditional on >50 global detonations the overwhelming majority would be Northern; a small fraction could fall in the Southern Hemisphere (e.g. Australia bases, South Atlantic, Indian Ocean targets). Median ~3%."
+ },
+ {
+  "question_id": 11601,
+  "type": "date",
+  "percentiles": {
+   "0.05": "2027-06-01",
+   "0.1": "2030-01-01",
+   "0.25": "2038-01-01",
+   "0.5": "2052-01-01",
+   "0.75": "2070-01-01",
+   "0.9": "2088-01-01",
+   "0.95": "2096-01-01"
+  },
+  "reasoning": "Conditional on at least one offensive detonation by 2100, an annual hazard on the order of ~1% spreads the first event across the century, with the distribution skewed somewhat earlier given currently elevated risk (Ukraine war, New START lapse, Russian nuclear posturing). Median around the early-2050s."
+ },
+ {
+  "question_id": 8608,
+  "type": "binary",
+  "prob": 0.06,
+  "reasoning": "The conditioning event is now met: New START expired 5 Feb 2026 with no successor and no negotiations. Treaty lapse modestly raises strategic-instability risk, but a direct US-Russia nuclear detonation on each other's territory by 2035 remains very unlikely given mutual deterrence and Russia's stated intent to informally honor the limits."
+ }
+]

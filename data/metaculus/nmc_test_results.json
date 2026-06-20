@@ -1,0 +1,24 @@
+[
+ {
+  "qid": 36339,
+  "type": "numeric",
+  "ok": true
+ },
+ {
+  "qid": 43929,
+  "type": "numeric",
+  "ok": true
+ },
+ {
+  "qid": 35786,
+  "type": "mc",
+  "ok": false,
+  "err": "POST /questions/forecast/ \u2192 HTTP 400: {\"non_field_errors\":[{\"probability_yes_per_category\":[\"Expected a dictionary of items but got type \\\"list\\\".\"]}]}"
+ },
+ {
+  "qid": 35785,
+  "type": "mc",
+  "ok": false,
+  "err": "POST /questions/forecast/ \u2192 HTTP 400: {\"non_field_errors\":[{\"probability_yes_per_category\":[\"Expected a dictionary of items but got type \\\"list\\\".\"]}]}"
+ }
+]

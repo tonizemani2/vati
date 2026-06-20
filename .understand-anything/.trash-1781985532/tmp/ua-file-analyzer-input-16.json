@@ -1,0 +1,41 @@
+{
+  "projectRoot": "/Users/emizemani/Desktop/predictthefuture",
+  "batchFiles": [
+    {
+      "path": "engine/forecastbench/bench.py",
+      "language": "python",
+      "sizeLines": 133,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/forecastbench/domains.py",
+      "language": "python",
+      "sizeLines": 56,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/forecastbench/harvest.py",
+      "language": "python",
+      "sizeLines": 288,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/forecastbench/trainset.py",
+      "language": "python",
+      "sizeLines": 353,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "engine/forecastbench/bench.py": [
+      "engine/forecastbench/domains.py"
+    ],
+    "engine/forecastbench/domains.py": [],
+    "engine/forecastbench/harvest.py": [
+      "engine/forecastbench/domains.py"
+    ],
+    "engine/forecastbench/trainset.py": [
+      "engine/forecastbench/domains.py"
+    ]
+  }
+}

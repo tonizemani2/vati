@@ -1,0 +1,1409 @@
+{
+  "nodes": [
+    {
+      "id": "file:engine/forecastbench/market.py",
+      "type": "file",
+      "name": "market.py",
+      "filePath": "engine/forecastbench/market.py",
+      "summary": "market.py is a code asset in the forecasting engine. It contains 5 functions, 1 internal import.",
+      "tags": [
+        "forecasting-engine",
+        "forecasting",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/forecastbench/market.py:_logit",
+      "type": "function",
+      "name": "_logit",
+      "filePath": "engine/forecastbench/market.py",
+      "lineRange": [
+        20,
+        22
+      ],
+      "summary": "Defines _logit in market.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "market"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/market.py:_sigmoid",
+      "type": "function",
+      "name": "_sigmoid",
+      "filePath": "engine/forecastbench/market.py",
+      "lineRange": [
+        25,
+        26
+      ],
+      "summary": "Defines _sigmoid in market.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "market"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/market.py:calibrate",
+      "type": "function",
+      "name": "calibrate",
+      "filePath": "engine/forecastbench/market.py",
+      "lineRange": [
+        37,
+        42
+      ],
+      "summary": "Defines calibrate in market.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "market"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/market.py:calibrate_market_probability",
+      "type": "function",
+      "name": "calibrate_market_probability",
+      "filePath": "engine/forecastbench/market.py",
+      "lineRange": [
+        45,
+        59
+      ],
+      "summary": "Defines calibrate_market_probability in market.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "market"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/market.py:crowd_anchor",
+      "type": "function",
+      "name": "crowd_anchor",
+      "filePath": "engine/forecastbench/market.py",
+      "lineRange": [
+        62,
+        72
+      ],
+      "summary": "Defines crowd_anchor in market.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "market"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:engine/forecastbench/opus_blend.py",
+      "type": "file",
+      "name": "opus_blend.py",
+      "filePath": "engine/forecastbench/opus_blend.py",
+      "summary": "opus_blend.py is a code asset in the forecasting engine. It contains 11 functions, 2 internal imports.",
+      "tags": [
+        "forecasting-engine",
+        "forecasting",
+        "code"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:engine/forecastbench/opus_blend.py:_logit",
+      "type": "function",
+      "name": "_logit",
+      "filePath": "engine/forecastbench/opus_blend.py",
+      "lineRange": [
+        71,
+        73
+      ],
+      "summary": "Defines _logit in opus_blend.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "opus-blend"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/opus_blend.py:_sigmoid",
+      "type": "function",
+      "name": "_sigmoid",
+      "filePath": "engine/forecastbench/opus_blend.py",
+      "lineRange": [
+        76,
+        77
+      ],
+      "summary": "Defines _sigmoid in opus_blend.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "opus-blend"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/opus_blend.py:_crowd_value",
+      "type": "function",
+      "name": "_crowd_value",
+      "filePath": "engine/forecastbench/opus_blend.py",
+      "lineRange": [
+        80,
+        84
+      ],
+      "summary": "Defines _crowd_value in opus_blend.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "opus-blend"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/opus_blend.py:blend",
+      "type": "function",
+      "name": "blend",
+      "filePath": "engine/forecastbench/opus_blend.py",
+      "lineRange": [
+        87,
+        93
+      ],
+      "summary": "Defines blend in opus_blend.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "opus-blend"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/opus_blend.py:judgmental_questions",
+      "type": "function",
+      "name": "judgmental_questions",
+      "filePath": "engine/forecastbench/opus_blend.py",
+      "lineRange": [
+        96,
+        98
+      ],
+      "summary": "Defines judgmental_questions in opus_blend.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "opus-blend"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/opus_blend.py:emit_worklist",
+      "type": "function",
+      "name": "emit_worklist",
+      "filePath": "engine/forecastbench/opus_blend.py",
+      "lineRange": [
+        101,
+        121
+      ],
+      "summary": "Defines emit_worklist in opus_blend.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "opus-blend"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/opus_blend.py:load_opus",
+      "type": "function",
+      "name": "load_opus",
+      "filePath": "engine/forecastbench/opus_blend.py",
+      "lineRange": [
+        124,
+        150
+      ],
+      "summary": "Defines load_opus in opus_blend.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "opus-blend"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/opus_blend.py:_key",
+      "type": "function",
+      "name": "_key",
+      "filePath": "engine/forecastbench/opus_blend.py",
+      "lineRange": [
+        153,
+        154
+      ],
+      "summary": "Defines _key in opus_blend.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "opus-blend"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/opus_blend.py:opus_overrides",
+      "type": "function",
+      "name": "opus_overrides",
+      "filePath": "engine/forecastbench/opus_blend.py",
+      "lineRange": [
+        157,
+        170
+      ],
+      "summary": "Defines opus_overrides in opus_blend.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "opus-blend"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/opus_blend.py:merge",
+      "type": "function",
+      "name": "merge",
+      "filePath": "engine/forecastbench/opus_blend.py",
+      "lineRange": [
+        173,
+        216
+      ],
+      "summary": "Defines merge in opus_blend.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "opus-blend"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/opus_blend.py:_rows_from_singles",
+      "type": "function",
+      "name": "_rows_from_singles",
+      "filePath": "engine/forecastbench/opus_blend.py",
+      "lineRange": [
+        219,
+        257
+      ],
+      "summary": "Defines _rows_from_singles in opus_blend.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "opus-blend"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:engine/forecastbench/opus_forecaster.py",
+      "type": "file",
+      "name": "opus_forecaster.py",
+      "filePath": "engine/forecastbench/opus_forecaster.py",
+      "summary": "opus_forecaster.py is a code asset in the forecasting engine. It contains 10 functions, 1 internal import.",
+      "tags": [
+        "forecasting-engine",
+        "forecasting",
+        "code"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:engine/forecastbench/opus_forecaster.py:_logit",
+      "type": "function",
+      "name": "_logit",
+      "filePath": "engine/forecastbench/opus_forecaster.py",
+      "lineRange": [
+        59,
+        61
+      ],
+      "summary": "Defines _logit in opus_forecaster.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "opus-forecaster"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/opus_forecaster.py:_sigmoid",
+      "type": "function",
+      "name": "_sigmoid",
+      "filePath": "engine/forecastbench/opus_forecaster.py",
+      "lineRange": [
+        64,
+        65
+      ],
+      "summary": "Defines _sigmoid in opus_forecaster.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "opus-forecaster"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/opus_forecaster.py:_research",
+      "type": "function",
+      "name": "_research",
+      "filePath": "engine/forecastbench/opus_forecaster.py",
+      "lineRange": [
+        68,
+        86
+      ],
+      "summary": "Defines _research in opus_forecaster.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-access",
+        "opus-forecaster"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/opus_forecaster.py:_prompt",
+      "type": "function",
+      "name": "_prompt",
+      "filePath": "engine/forecastbench/opus_forecaster.py",
+      "lineRange": [
+        89,
+        104
+      ],
+      "summary": "Defines _prompt in opus_forecaster.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "opus-forecaster"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/opus_forecaster.py:_parse",
+      "type": "function",
+      "name": "_parse",
+      "filePath": "engine/forecastbench/opus_forecaster.py",
+      "lineRange": [
+        107,
+        125
+      ],
+      "summary": "Defines _parse in opus_forecaster.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "opus-forecaster"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/opus_forecaster.py:_forecast_once",
+      "type": "function",
+      "name": "_forecast_once",
+      "filePath": "engine/forecastbench/opus_forecaster.py",
+      "lineRange": [
+        128,
+        136
+      ],
+      "summary": "Defines _forecast_once in opus_forecaster.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "opus-forecaster"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/opus_forecaster.py:_stage1",
+      "type": "function",
+      "name": "_stage1",
+      "filePath": "engine/forecastbench/opus_forecaster.py",
+      "lineRange": [
+        139,
+        153
+      ],
+      "summary": "Defines _stage1 in opus_forecaster.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "opus-forecaster"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/opus_forecaster.py:_stage2",
+      "type": "function",
+      "name": "_stage2",
+      "filePath": "engine/forecastbench/opus_forecaster.py",
+      "lineRange": [
+        156,
+        177
+      ],
+      "summary": "Defines _stage2 in opus_forecaster.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "opus-forecaster"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/opus_forecaster.py:run",
+      "type": "function",
+      "name": "run",
+      "filePath": "engine/forecastbench/opus_forecaster.py",
+      "lineRange": [
+        180,
+        229
+      ],
+      "summary": "Defines run in opus_forecaster.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entry-point",
+        "opus-forecaster"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/forecastbench/opus_forecaster.py:_key",
+      "type": "function",
+      "name": "_key",
+      "filePath": "engine/forecastbench/opus_forecaster.py",
+      "lineRange": [
+        232,
+        233
+      ],
+      "summary": "Defines _key in opus_forecaster.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "opus-forecaster"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:engine/forecastbench/score.py",
+      "type": "file",
+      "name": "score.py",
+      "filePath": "engine/forecastbench/score.py",
+      "summary": "score.py is a code asset in the forecasting engine. It contains 8 functions.",
+      "tags": [
+        "forecasting-engine",
+        "forecasting",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/forecastbench/score.py:_key",
+      "type": "function",
+      "name": "_key",
+      "filePath": "engine/forecastbench/score.py",
+      "lineRange": [
+        28,
+        29
+      ],
+      "summary": "Defines _key in score.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "score"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/score.py:load_round",
+      "type": "function",
+      "name": "load_round",
+      "filePath": "engine/forecastbench/score.py",
+      "lineRange": [
+        32,
+        36
+      ],
+      "summary": "Defines load_round in score.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "score"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/score.py:single_questions",
+      "type": "function",
+      "name": "single_questions",
+      "filePath": "engine/forecastbench/score.py",
+      "lineRange": [
+        39,
+        41
+      ],
+      "summary": "Defines single_questions in score.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "score"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/score.py:resolved_rows",
+      "type": "function",
+      "name": "resolved_rows",
+      "filePath": "engine/forecastbench/score.py",
+      "lineRange": [
+        44,
+        55
+      ],
+      "summary": "Defines resolved_rows in score.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "score"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/score.py:brier",
+      "type": "function",
+      "name": "brier",
+      "filePath": "engine/forecastbench/score.py",
+      "lineRange": [
+        58,
+        85
+      ],
+      "summary": "Defines brier in score.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "score"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/score.py:score_submission",
+      "type": "function",
+      "name": "score_submission",
+      "filePath": "engine/forecastbench/score.py",
+      "lineRange": [
+        88,
+        121
+      ],
+      "summary": "Defines score_submission in score.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "score"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/score.py:crowd_forecast",
+      "type": "function",
+      "name": "crowd_forecast",
+      "filePath": "engine/forecastbench/score.py",
+      "lineRange": [
+        126,
+        135
+      ],
+      "summary": "Defines crowd_forecast in score.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "score"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/score.py:uniform_forecast",
+      "type": "function",
+      "name": "uniform_forecast",
+      "filePath": "engine/forecastbench/score.py",
+      "lineRange": [
+        138,
+        139
+      ],
+      "summary": "Defines uniform_forecast in score.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "score"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:engine/forecastbench/market.py",
+      "target": "function:engine/forecastbench/market.py:_logit",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/market.py",
+      "target": "function:engine/forecastbench/market.py:_logit",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/market.py",
+      "target": "function:engine/forecastbench/market.py:_sigmoid",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/market.py",
+      "target": "function:engine/forecastbench/market.py:_sigmoid",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/market.py",
+      "target": "function:engine/forecastbench/market.py:calibrate",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/market.py",
+      "target": "function:engine/forecastbench/market.py:calibrate",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/market.py",
+      "target": "function:engine/forecastbench/market.py:calibrate_market_probability",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/market.py",
+      "target": "function:engine/forecastbench/market.py:calibrate_market_probability",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/market.py",
+      "target": "function:engine/forecastbench/market.py:crowd_anchor",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/market.py",
+      "target": "function:engine/forecastbench/market.py:crowd_anchor",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/opus_blend.py",
+      "target": "function:engine/forecastbench/opus_blend.py:_logit",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/opus_blend.py",
+      "target": "function:engine/forecastbench/opus_blend.py:_logit",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/opus_blend.py",
+      "target": "function:engine/forecastbench/opus_blend.py:_sigmoid",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/opus_blend.py",
+      "target": "function:engine/forecastbench/opus_blend.py:_sigmoid",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/opus_blend.py",
+      "target": "function:engine/forecastbench/opus_blend.py:_crowd_value",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/opus_blend.py",
+      "target": "function:engine/forecastbench/opus_blend.py:_crowd_value",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/opus_blend.py",
+      "target": "function:engine/forecastbench/opus_blend.py:blend",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/opus_blend.py",
+      "target": "function:engine/forecastbench/opus_blend.py:blend",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/opus_blend.py",
+      "target": "function:engine/forecastbench/opus_blend.py:judgmental_questions",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/opus_blend.py",
+      "target": "function:engine/forecastbench/opus_blend.py:judgmental_questions",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/opus_blend.py",
+      "target": "function:engine/forecastbench/opus_blend.py:emit_worklist",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/opus_blend.py",
+      "target": "function:engine/forecastbench/opus_blend.py:emit_worklist",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/opus_blend.py",
+      "target": "function:engine/forecastbench/opus_blend.py:load_opus",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/opus_blend.py",
+      "target": "function:engine/forecastbench/opus_blend.py:load_opus",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/opus_blend.py",
+      "target": "function:engine/forecastbench/opus_blend.py:_key",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/opus_blend.py",
+      "target": "function:engine/forecastbench/opus_blend.py:_key",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/opus_blend.py",
+      "target": "function:engine/forecastbench/opus_blend.py:opus_overrides",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/opus_blend.py",
+      "target": "function:engine/forecastbench/opus_blend.py:opus_overrides",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/opus_blend.py",
+      "target": "function:engine/forecastbench/opus_blend.py:merge",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/opus_blend.py",
+      "target": "function:engine/forecastbench/opus_blend.py:merge",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/opus_blend.py",
+      "target": "function:engine/forecastbench/opus_blend.py:_rows_from_singles",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/opus_blend.py",
+      "target": "function:engine/forecastbench/opus_blend.py:_rows_from_singles",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/opus_forecaster.py",
+      "target": "function:engine/forecastbench/opus_forecaster.py:_logit",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/opus_forecaster.py",
+      "target": "function:engine/forecastbench/opus_forecaster.py:_logit",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/opus_forecaster.py",
+      "target": "function:engine/forecastbench/opus_forecaster.py:_sigmoid",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/opus_forecaster.py",
+      "target": "function:engine/forecastbench/opus_forecaster.py:_sigmoid",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/opus_forecaster.py",
+      "target": "function:engine/forecastbench/opus_forecaster.py:_research",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/opus_forecaster.py",
+      "target": "function:engine/forecastbench/opus_forecaster.py:_research",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/opus_forecaster.py",
+      "target": "function:engine/forecastbench/opus_forecaster.py:_prompt",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/opus_forecaster.py",
+      "target": "function:engine/forecastbench/opus_forecaster.py:_prompt",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/opus_forecaster.py",
+      "target": "function:engine/forecastbench/opus_forecaster.py:_parse",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/opus_forecaster.py",
+      "target": "function:engine/forecastbench/opus_forecaster.py:_parse",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/opus_forecaster.py",
+      "target": "function:engine/forecastbench/opus_forecaster.py:_forecast_once",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/opus_forecaster.py",
+      "target": "function:engine/forecastbench/opus_forecaster.py:_forecast_once",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/opus_forecaster.py",
+      "target": "function:engine/forecastbench/opus_forecaster.py:_stage1",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/opus_forecaster.py",
+      "target": "function:engine/forecastbench/opus_forecaster.py:_stage1",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/opus_forecaster.py",
+      "target": "function:engine/forecastbench/opus_forecaster.py:_stage2",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/opus_forecaster.py",
+      "target": "function:engine/forecastbench/opus_forecaster.py:_stage2",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/opus_forecaster.py",
+      "target": "function:engine/forecastbench/opus_forecaster.py:run",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/opus_forecaster.py",
+      "target": "function:engine/forecastbench/opus_forecaster.py:run",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/opus_forecaster.py",
+      "target": "function:engine/forecastbench/opus_forecaster.py:_key",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/opus_forecaster.py",
+      "target": "function:engine/forecastbench/opus_forecaster.py:_key",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/score.py",
+      "target": "function:engine/forecastbench/score.py:_key",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/score.py",
+      "target": "function:engine/forecastbench/score.py:_key",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/score.py",
+      "target": "function:engine/forecastbench/score.py:load_round",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/score.py",
+      "target": "function:engine/forecastbench/score.py:load_round",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/score.py",
+      "target": "function:engine/forecastbench/score.py:single_questions",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/score.py",
+      "target": "function:engine/forecastbench/score.py:single_questions",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/score.py",
+      "target": "function:engine/forecastbench/score.py:resolved_rows",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/score.py",
+      "target": "function:engine/forecastbench/score.py:resolved_rows",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/score.py",
+      "target": "function:engine/forecastbench/score.py:brier",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/score.py",
+      "target": "function:engine/forecastbench/score.py:brier",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/score.py",
+      "target": "function:engine/forecastbench/score.py:score_submission",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/score.py",
+      "target": "function:engine/forecastbench/score.py:score_submission",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/score.py",
+      "target": "function:engine/forecastbench/score.py:crowd_forecast",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/score.py",
+      "target": "function:engine/forecastbench/score.py:crowd_forecast",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/score.py",
+      "target": "function:engine/forecastbench/score.py:uniform_forecast",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/score.py",
+      "target": "function:engine/forecastbench/score.py:uniform_forecast",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/market.py",
+      "target": "file:engine/forecastbench/score.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/forecastbench/opus_blend.py",
+      "target": "file:engine/forecastbench/market.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/forecastbench/opus_blend.py",
+      "target": "file:engine/forecastbench/score.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/forecastbench/opus_forecaster.py",
+      "target": "file:engine/forecastbench/opus_blend.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "function:engine/forecastbench/market.py:calibrate",
+      "target": "function:engine/forecastbench/market.py:_logit",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/market.py:calibrate",
+      "target": "function:engine/forecastbench/market.py:_sigmoid",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/market.py:calibrate_market_probability",
+      "target": "function:engine/forecastbench/market.py:calibrate",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/market.py:calibrate_market_probability",
+      "target": "function:engine/forecastbench/market.py:_sigmoid",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/market.py:calibrate_market_probability",
+      "target": "function:engine/forecastbench/market.py:_logit",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/market.py:crowd_anchor",
+      "target": "function:engine/forecastbench/score.py:single_questions",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/market.py:crowd_anchor",
+      "target": "function:engine/forecastbench/market.py:calibrate_market_probability",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/opus_blend.py:_crowd_value",
+      "target": "function:engine/forecastbench/market.py:calibrate_market_probability",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/opus_blend.py:blend",
+      "target": "function:engine/forecastbench/opus_blend.py:_logit",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/opus_blend.py:blend",
+      "target": "function:engine/forecastbench/opus_blend.py:_sigmoid",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/opus_blend.py:judgmental_questions",
+      "target": "function:engine/forecastbench/score.py:single_questions",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/opus_blend.py:judgmental_questions",
+      "target": "function:engine/forecastbench/opus_blend.py:_crowd_value",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/opus_blend.py:emit_worklist",
+      "target": "function:engine/forecastbench/opus_blend.py:judgmental_questions",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/opus_blend.py:emit_worklist",
+      "target": "function:engine/forecastbench/opus_blend.py:_crowd_value",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/opus_blend.py:load_opus",
+      "target": "function:engine/forecastbench/opus_blend.py:_key",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/opus_blend.py:opus_overrides",
+      "target": "function:engine/forecastbench/opus_blend.py:judgmental_questions",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/opus_blend.py:opus_overrides",
+      "target": "function:engine/forecastbench/opus_blend.py:_key",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/opus_blend.py:opus_overrides",
+      "target": "function:engine/forecastbench/opus_blend.py:_crowd_value",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/opus_blend.py:opus_overrides",
+      "target": "function:engine/forecastbench/opus_blend.py:blend",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/opus_blend.py:merge",
+      "target": "function:engine/forecastbench/opus_blend.py:load_opus",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/opus_blend.py:merge",
+      "target": "function:engine/forecastbench/opus_blend.py:opus_overrides",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/opus_blend.py:merge",
+      "target": "function:engine/forecastbench/opus_blend.py:_rows_from_singles",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/opus_blend.py:merge",
+      "target": "function:engine/forecastbench/opus_blend.py:judgmental_questions",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/opus_blend.py:_rows_from_singles",
+      "target": "function:engine/forecastbench/score.py:single_questions",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/opus_forecaster.py:_forecast_once",
+      "target": "function:engine/forecastbench/opus_forecaster.py:_prompt",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/opus_forecaster.py:_forecast_once",
+      "target": "function:engine/forecastbench/opus_forecaster.py:_parse",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/opus_forecaster.py:_stage1",
+      "target": "function:engine/forecastbench/opus_forecaster.py:_research",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/opus_forecaster.py:_stage1",
+      "target": "function:engine/forecastbench/opus_forecaster.py:_forecast_once",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/opus_forecaster.py:_stage2",
+      "target": "function:engine/forecastbench/opus_forecaster.py:_forecast_once",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/opus_forecaster.py:_stage2",
+      "target": "function:engine/forecastbench/opus_forecaster.py:_logit",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/opus_forecaster.py:_stage2",
+      "target": "function:engine/forecastbench/opus_forecaster.py:_sigmoid",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/opus_forecaster.py:run",
+      "target": "function:engine/forecastbench/opus_blend.py:judgmental_questions",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/opus_forecaster.py:run",
+      "target": "function:engine/forecastbench/opus_blend.py:_crowd_value",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/opus_forecaster.py:run",
+      "target": "function:engine/forecastbench/opus_forecaster.py:_key",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/score.py:brier",
+      "target": "function:engine/forecastbench/score.py:_key",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/score.py:score_submission",
+      "target": "function:engine/forecastbench/score.py:_key",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/score.py:crowd_forecast",
+      "target": "function:engine/forecastbench/score.py:single_questions",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/score.py:uniform_forecast",
+      "target": "function:engine/forecastbench/score.py:single_questions",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

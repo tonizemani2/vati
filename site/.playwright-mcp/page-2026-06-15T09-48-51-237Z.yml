@@ -1,0 +1,62 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - complementary [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e5]:
+          - img "Vaticinus" [ref=e7]
+          - generic [ref=e11]: Vaticinus
+        - button "Collapse sidebar" [ref=e12]:
+          - img [ref=e13]
+      - navigation [ref=e15]:
+        - button "New forecast" [ref=e16]:
+          - img [ref=e18]
+          - generic [ref=e21]: New forecast
+        - button "Live record" [ref=e22]:
+          - img [ref=e24]
+          - generic [ref=e27]: Live record
+        - button "Search calls" [ref=e28]:
+          - img [ref=e30]
+          - generic [ref=e33]: Search calls
+        - button "Deep research" [ref=e34]:
+          - img [ref=e36]
+          - generic [ref=e44]: Deep research
+        - button "Data layer" [ref=e45]:
+          - img [ref=e47]
+          - generic [ref=e51]: Data layer
+      - navigation [ref=e53]:
+        - button "Settings" [ref=e54]:
+          - img [ref=e56]
+          - generic [ref=e59]: Settings
+        - button "Help" [ref=e60]:
+          - img [ref=e62]
+          - generic [ref=e65]: Help
+      - generic [ref=e66]:
+        - paragraph [ref=e67]: Calls you can score
+        - paragraph [ref=e68]: Every forecast gets a date, a kill-criterion, and a public Brier score.
+    - main [ref=e69]:
+      - generic [ref=e70]:
+        - button "Vaticinus" [ref=e71]:
+          - text: Vaticinus
+          - img [ref=e72]
+        - button "Live record" [ref=e74]:
+          - img [ref=e75]
+          - text: Live record
+      - generic [ref=e111]:
+        - generic [ref=e113]: Will China's share of global gallium refining stay above 90% through end of 2027?
+        - generic [ref=e115]:
+          - button "Thinking" [ref=e116]:
+            - img [ref=e117]
+            - text: Thinking
+            - img [ref=e125]
+          - paragraph [ref=e128]: "We are asked: \"Will China's share of global gallium refining stay above 90% through end of 2027?\" This is a forecastable question. I need to reason about the binding constraint, provide a qualitative read, then decompose into a measurable quantity and emit the spec block. First, the question: China's share of global gallium refining. Gallium is a byproduct of aluminum and zinc production, and China dominates primary gallium production, with estimates often around 90-95% of global supply. The question is about refining (purification to high-purity gallium for semiconductors, LEDs, etc.), not just raw production. China also controls refining capacity. The constraint: gallium refining capacity is concentrated in China, but there are efforts to diversify due to export controls and strategic concerns. The question is whether China's share stays above 90% through end of 2027, meaning any significant non-Chinese refining capacity would need to come online fast enough to drop China's share below 90% by then. Given that building new refining plants takes years, and there are some projects in the US, Canada, and elsewhere, but they are small and may not scale rapidly. The binding constraint is likely the availability of primary gallium feedstock (bauxite, zinc residues) and the technology for refining, both of which China dominates. However, there is growing interest in recycling gallium from end-of-life products, which could shift shares, but that's still nascent. Policy: China's export controls on gallium since 2023 have spurred some non-Chinese production, but the lead times are long. So my qualitative read: I think the probability that China's share stays above 90% is high, but not a near certainty. The share might dip slightly but likely stays above 90% due to inertia and slow diversification. I need to check if this is already priced in: The consensus view is that China will dominate for years, but there's uncertainty about how much diversification will happen. Might be partially priced in. I'll call it pre-consensus because there's active debate. Now, for the decomposition: I need a measurable quantity whose threshold defines YES. The question: \"China's share of global gallium refining stays above 90% through end of 2027.\" So YES = share >90% at all times until end of 2027. That's a continuous condition, but a simpler approach: measure China's share of global gallium refining capacity or production at a point in time, say end of 2027, and if it's >90%, then likely it stayed above 90% throughout. But it might have dipped temporarily. Better to ask: \"Will China's share of global gallium refining be above 90% at year-end 2027?\" That's a point-in-time forecast, which captures if diversification has meaningfully reduced share by then. I'll set resolution date 2027-12-31. Quantity: China's share of global gallium refining capacity (or output). But what data source? I need a public series or report that estimates this. The U.S. Geological Survey (USGS) publishes annual mineral commodity summaries, including gallium production and maybe refining capacity. They often give China's primary production share. Another source could be industry reports (Fastmarkets, Asian Metal). But for a forecast, I can use \"China's share of global refined gallium production as reported by the USGS Mineral Commodity Summaries, measured as a percentage.\" That's a published figure. However, USGS gives primary gallium production, not necessarily refining. But primary production share is typically China's dominance. Refining might be similar. Alternatively, I could use \"capacity\" but that's harder to measure. I'll go with \"China's share of global primary gallium production\" because it's a well-tracked metric and strongly correlated with refining share. The question says \"refining,\" but primary production includes refining from bauxite. Actually, gallium is recovered during refining of alumina, so primary production already implies refining. I'll define quantity_label: \"China's share of global gallium primary production, percent\". Current base value: For 2023, USGS estimated world primary gallium production at ~690 metric tons, China producing ~670 metric tons? I need a number. In 2023, global primary gallium production was about 690 tons, China ~670 tons (97%). In 2022, China was estimated at ~98%. So current share is very high, about 97%. But there is some non-Chinese production, like from Japan, Russia, Kazakhstan, etc. Recently, there are projects in Australia, Canada, to increase production. I'll set base_value as 97 (percent). Horizon: now (2024) to end of 2027, so about 3.5 years. But my horizon_years will be rounded: from mid-2024 (now) to end of 2027 is 3.5 years. Use horizon_years: 3.5? The spec says horizon_years is integer? It says horizon_years: 3, can be decimal. I'll use 3.5. But the engine likely handles decimals. I'll set horizon_years: 3.5. Now growth: share can't grow much, it's near 100%, so growth in China's share is"
+      - generic [ref=e131]:
+        - generic [ref=e132]:
+          - button "Add" [ref=e133]:
+            - img [ref=e134]
+          - textbox "Ask anything" [ref=e135]
+          - button "Stop" [ref=e137]:
+            - img [ref=e138]
+        - paragraph [ref=e140]: Probabilities are computed by the Vaticinus Monte-Carlo engine. Every call is falsifiable, dated, and Brier-scored at resolution.
+  - button "Open Next.js Dev Tools" [ref=e102] [cursor=pointer]:
+    - img [ref=e103]
+  - alert [ref=e109]

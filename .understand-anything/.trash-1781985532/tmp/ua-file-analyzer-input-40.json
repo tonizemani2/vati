@@ -1,0 +1,184 @@
+{
+  "projectRoot": "/Users/emizemani/Desktop/predictthefuture",
+  "batchFiles": [
+    {
+      "path": "research/targets/researchers_openalex.jsonl",
+      "language": "jsonl",
+      "sizeLines": 2973,
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/docs/research/scripts-extracted/inline-1.js",
+      "language": "javascript",
+      "sizeLines": 18,
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/docs/research/scripts-extracted/inline-2.js",
+      "language": "javascript",
+      "sizeLines": 75,
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/docs/research/scripts-extracted/inline-3.js",
+      "language": "javascript",
+      "sizeLines": 69,
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/docs/research/scripts-extracted/inline-4.js",
+      "language": "javascript",
+      "sizeLines": 18,
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/docs/research/scripts-extracted/inline-5.js",
+      "language": "javascript",
+      "sizeLines": 45,
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/docs/research/scripts-extracted/inline-6.js",
+      "language": "javascript",
+      "sizeLines": 17,
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/docs/research/scripts-extracted/inline-7.js",
+      "language": "javascript",
+      "sizeLines": 55,
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/docs/research/scripts-extracted/inline-8.js",
+      "language": "javascript",
+      "sizeLines": 16,
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/docs/research/scripts-extracted/inline-9.js",
+      "language": "javascript",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/eslint.config.mjs",
+      "language": "javascript",
+      "sizeLines": 18,
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/functions/api/_resend.ts",
+      "language": "typescript",
+      "sizeLines": 56,
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/functions/api/contact.ts",
+      "language": "typescript",
+      "sizeLines": 190,
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/next.config.ts",
+      "language": "typescript",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/postcss.config.mjs",
+      "language": "javascript",
+      "sizeLines": 7,
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/public/_headers",
+      "language": "unknown",
+      "sizeLines": 19,
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/public/data/coverage.json",
+      "language": "json",
+      "sizeLines": 283,
+      "fileCategory": "config"
+    },
+    {
+      "path": "site/public/images/6891e0d64bb73bfd5cc7baaa_Scott_Headshot_Web_Use.avif",
+      "language": "avif",
+      "sizeLines": 141,
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/public/images/6891e0d6a4a062c5f241a2ab_Ben_Headshot_1_Web_Use.avif",
+      "language": "avif",
+      "sizeLines": 107,
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/public/images/6891e0d6a56642e6f2f8ca6b_Toby_Headshot_1_Web_Use.avif",
+      "language": "avif",
+      "sizeLines": 128,
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/public/images/6891e0d6cb597a8bb5b6282b_Matthew_Headshot_Web_Use.avif",
+      "language": "avif",
+      "sizeLines": 266,
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/public/images/6891e0d6d63df0d1263223ec_Max_Headshot_Web_Use-2.avif",
+      "language": "avif",
+      "sizeLines": 150,
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/public/images/6891e0d737c1720826f42fbb_Vlad_Headshot_Web_Use.avif",
+      "language": "avif",
+      "sizeLines": 123,
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/public/images/690cb136eef6de79e8f7d34d_vid_cover.avif",
+      "language": "avif",
+      "sizeLines": 236,
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/public/images/699d59d37cc5e6173de5d2a4_sales-nesetril-ex_p4AaBxbs-unsplash.avif",
+      "language": "avif",
+      "sizeLines": 37,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "research/targets/researchers_openalex.jsonl": [],
+    "site/docs/research/scripts-extracted/inline-1.js": [],
+    "site/docs/research/scripts-extracted/inline-2.js": [],
+    "site/docs/research/scripts-extracted/inline-3.js": [],
+    "site/docs/research/scripts-extracted/inline-4.js": [],
+    "site/docs/research/scripts-extracted/inline-5.js": [],
+    "site/docs/research/scripts-extracted/inline-6.js": [],
+    "site/docs/research/scripts-extracted/inline-7.js": [],
+    "site/docs/research/scripts-extracted/inline-8.js": [],
+    "site/docs/research/scripts-extracted/inline-9.js": [],
+    "site/eslint.config.mjs": [],
+    "site/functions/api/_resend.ts": [],
+    "site/functions/api/contact.ts": [
+      "site/functions/api/_resend.ts"
+    ],
+    "site/next.config.ts": [],
+    "site/postcss.config.mjs": [],
+    "site/public/_headers": [],
+    "site/public/data/coverage.json": [],
+    "site/public/images/6891e0d64bb73bfd5cc7baaa_Scott_Headshot_Web_Use.avif": [],
+    "site/public/images/6891e0d6a4a062c5f241a2ab_Ben_Headshot_1_Web_Use.avif": [],
+    "site/public/images/6891e0d6a56642e6f2f8ca6b_Toby_Headshot_1_Web_Use.avif": [],
+    "site/public/images/6891e0d6cb597a8bb5b6282b_Matthew_Headshot_Web_Use.avif": [],
+    "site/public/images/6891e0d6d63df0d1263223ec_Max_Headshot_Web_Use-2.avif": [],
+    "site/public/images/6891e0d737c1720826f42fbb_Vlad_Headshot_Web_Use.avif": [],
+    "site/public/images/690cb136eef6de79e8f7d34d_vid_cover.avif": [],
+    "site/public/images/699d59d37cc5e6173de5d2a4_sales-nesetril-ex_p4AaBxbs-unsplash.avif": []
+  }
+}

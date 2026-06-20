@@ -1,0 +1,324 @@
+{
+  "computed_at": "2026-06-19T18:39:57.989580+00:00",
+  "calls": [
+    {
+      "pre_consensus": true,
+      "verdict": "PURSUE",
+      "inelastic_input": "Allele",
+      "thesis": "Over 3 years, immuno-oncology reorganizes so that allele-specific reagents become the binding constraint for antigen-based vaccines because the accelerating neoantigen discovery requires precise HLA matching to avoid immune evasion.",
+      "p": 0.7,
+      "horizon_years": 3,
+      "dated_metric": "Quarterly count of patents with both 'allele' and 'antigen' in claims",
+      "why_unpriced": "Current research attention is on antigen identification and engineering, not on the upstream allele-specific tools needed for patient stratification.",
+      "kill": "",
+      "concept": "Antigen",
+      "inbound_load": 11,
+      "sustained_sigma": 5.296568163075729,
+      "spark": "█▆▅▅▅▄▃▃▃▃▂▂▂▃▁▂▂▁▁▁▁▁▁▂▁",
+      "capture": {
+        "target_org": "Allele Biotechnology & Pharmaceuticals Inc.",
+        "why_them": "They are a leading manufacturer of allele-specific reagents and iPSCs, with cGMP capabilities and a recent ARPA-H partnership with UC San Diego, positioning them as a critical supplier for neoantigen vaccine development.",
+        "person_or_role": "Role: Chief Executive Officer (search for current CEO)",
+        "reach_path": "Through the ARPA-H project network at UC San Diego, or via Allele Biotech's business development contact on their website.",
+        "the_ask": "Secure an offtake agreement for allele-specific reagents to ensure priority access for neoantigen vaccine clinical trials.",
+        "capture_mechanism": "offtake",
+        "who_pays": "Biopharma companies developing neoantigen vaccines (e.g., Moderna, BioNTech) or a Special Purpose Vehicle set up to hold the offtake rights.",
+        "first_move_this_week": "Contact the ARPA-H program manager at UC San Diego to request an introduction to Allele Biotech's CEO and propose a pilot offtake agreement.",
+        "_search_hits": [
+          {
+            "title": "Allele Biotechnology & Pharmaceuticals Inc.",
+            "url": "https://allelebiotech.com/"
+          },
+          {
+            "title": "Europe Allele Market: Trends, Key Drivers, and Strategic ... - LinkedIn",
+            "url": "https://www.linkedin.com/pulse/europe-allele-market-trends-key-drivers-strategic-mojze/"
+          },
+          {
+            "title": "Global Allele Market Size, Share, Trends & Industry Forecast 2026-2034",
+            "url": "https://www.verifiedmarketreports.com/product/allele-market/"
+          },
+          {
+            "title": "Allele Biotechnology & Pharmaceuticals - Products, Competitors, Financials, Employees, Headquarters Locations",
+            "url": "https://www.cbinsights.com/company/allele-biotechnology-pharmaceuticals"
+          },
+          {
+            "title": "Global Allele Market Growth (Status and Outlook) 2025-2031 | Market Research Reports® Inc.",
+            "url": "https://www.marketresearchreports.com/lpi/global-allele-market-growth-status-and-outlook-2025-2031"
+          }
+        ],
+        "_recurring_orgs": [
+          "Allele Biotechnology",
+          "Allele Biotech",
+          "Trends",
+          "Pharmaceuticals",
+          "Partner",
+          "UC San Diego",
+          "ARPA-H Project",
+          "BioSpace"
+        ]
+      }
+    },
+    {
+      "pre_consensus": true,
+      "verdict": "PURSUE",
+      "inelastic_input": "CD8 surface antigen",
+      "thesis": "Over 3 years, the immunotherapy sector reorganizes so that procurement costs for high-affinity anti-CD8 antibodies double because accelerated cytotoxic T cell research saturates limited high-performance antibody production capacity.",
+      "p": 0.65,
+      "horizon_years": 3,
+      "dated_metric": "Average price per mg of high-affinity anti-CD8 antibody from major suppliers",
+      "why_unpriced": "While cytotoxic T cell acceleration is widely discussed, the specific upstream constraint on CD8 reagents is overlooked because the focus remains on therapeutic outcomes rather than research consumables.",
+      "kill": "",
+      "concept": "Cytotoxic T cell",
+      "inbound_load": 16,
+      "sustained_sigma": 6.610288888805345,
+      "spark": "█▆▅▅▅▄▄▃▂▃▂▂▁▄▂▂▃▁▁▁▂▁▂▄▁",
+      "capture": {
+        "_error": "no json in response",
+        "_raw": "We are asked to produce a concrete plan to capture rent from the thesis: Over 3 years, immunotherapy sector reorganizes so that procurement costs for high-affinity anti-CD8 antibodies double because a",
+        "_search_hits": [
+          {
+            "title": "CD8A Antibody Market Research Report 2034 - Dataintelo",
+            "url": "https://dataintelo.com/report/global-cd8a-antibody-market"
+          },
+          {
+            "title": "CD8 Monoclonal Antibody (3B5), PE | Invitrogen (MHCD0804)",
+            "url": "https://thermofisher.com/antibody/product/CD8-Antibody-clone-3B5-Monoclonal/MHCD0804"
+          },
+          {
+            "title": "CD8 Monoclonal Antibody (OX-8) | Invitrogen (MA5-44075)",
+            "url": "https://thermofisher.com/antibody/product/CD8-Antibody-clone-OX-8-Monoclonal/MA5-44075"
+          },
+          {
+            "title": "CD8 Polyclonal Antibody, PE (BS-0648R-PE)",
+            "url": "https://thermofisher.com/antibody/product/CD8-Antibody-Polyclonal/BS-0648R-PE"
+          },
+          {
+            "title": "Antibodies Incorporated",
+            "url": "https://antibodiesinc.com/"
+          }
+        ],
+        "_recurring_orgs": [
+          "CD8 Monoclonal Antibody",
+          "Invitrogen",
+          "CD8A Human Recombinant",
+          "Protein"
+        ],
+        "target_org": "(no named org grounded in search — run the search-next below before naming one)",
+        "_ungrounded": true,
+        "first_move_this_week": "search 'CD8 surface antigen leading manufacturers suppliers market share' + a trade directory (e.g. ICIS, Panjiva); name the real operator before any outreach"
+      }
+    },
+    {
+      "pre_consensus": true,
+      "verdict": "PURSUE",
+      "inelastic_input": "thin-film lithium niobate (TFLN) wafers",
+      "thesis": "Over 4 years the photonic integrated circuit sector reorganizes so that TFLN becomes the dominant electro-optic modulator platform because its superior bandwidth and loss characteristics outperform alternatives, but the manufacturing of high-quality TFLN wafers via ion-slicing becomes the binding constraint as demand surges.",
+      "p": 0.6,
+      "horizon_years": 4,
+      "dated_metric": "Annual patent filings for thin-film lithium niobate fabrication processes",
+      "why_unpriced": "The market underestimates the manufacturing bottleneck for TFLN wafers, assuming scaling similar to silicon photonics, but TFLN requires specialized ion-slicing and bonding processes that are not easily commoditized.",
+      "kill": "",
+      "concept": "Lithium niobate",
+      "inbound_load": 1,
+      "sustained_sigma": 10.322025997883753,
+      "spark": "▆▅█▇▆▇▆▇▄▄▃▂▁▁▁▁▁▂▁▃▃▄▆▆▇",
+      "capture": {
+        "target_org": "(no named org grounded in search — run the search-next below before naming one)",
+        "why_them": "Announced plans to establish U.S. production of TFLN wafers, directly addressing the ion-slicing manufacturing constraint. G&H is a publicly traded photonics company with existing capabilities in crystal optics, making them a credible supplier.",
+        "person_or_role": "Role: Head of Business Development, Advanced Materials (G&H); search LinkedIn for 'G&H TFLN' to find specific individual.",
+        "reach_path": "LinkedIn outreach referencing the TFLN wafer announcement, followed by an introduction request to potential buyers like Liobate Technologies and Lightium (foundry).",
+        "the_ask": "Formalize a brokerage agreement: G&H pays a 5% commission on any TFLN wafer offtake contract sourced through our introductions to photonic modulator companies.",
+        "capture_mechanism": "brokered-intro fee",
+        "who_pays": "G&H (supplier) upon receipt of first purchase order from introduced customer.",
+        "first_move_this_week": "Send a LinkedIn message to G&H's CTO (search for current CTO on their website) referencing the TFLN production announcement and proposing a partnership to accelerate customer acquisition.",
+        "_search_hits": [
+          {
+            "title": "Top Thin-Film Lithium Niobate (TFLN) Modulator Companies in 2026",
+            "url": "https://en.liobate.com/news/top-tfln-modulator-companies-2026"
+          },
+          {
+            "title": "Lightium",
+            "url": "https://lightium.com/"
+          },
+          {
+            "title": "Advanced Fiber Resources (China)",
+            "url": "https://fiber-resources.com/"
+          },
+          {
+            "title": "Liobate Technologies Limited",
+            "url": "https://liobate.com/"
+          },
+          {
+            "title": "Global TFLN Wafer Supply, Demand and Key Producers, 2026-2032 - GlobalInfoResearch",
+            "url": "https://www.globalinforesearch.com/reports/3407457/tfln-wafer"
+          }
+        ],
+        "_recurring_orgs": [
+          "TFLN",
+          "Niobate",
+          "Thin Film Lithium",
+          "Quantum Computing Inc",
+          "Platform For Advanced",
+          "Materials And Technologies",
+          "Thin-Film Lithium Niobate",
+          "Thin Films"
+        ],
+        "_ungrounded": true
+      }
+    },
+    {
+      "pre_consensus": true,
+      "verdict": "PURSUE",
+      "inelastic_input": "Epoxy",
+      "thesis": "Over 4 years the thermoset composites sector reorganizes so that epoxy supply becomes the binding constraint for high-performance thermoset production because thermosetting polymer research is accelerating and epoxy is its most critical, tightening input.",
+      "p": 0.75,
+      "horizon_years": 4,
+      "dated_metric": "Epoxy resin global production capacity utilization rate",
+      "why_unpriced": "Epoxy is a well-known commodity but its role as the critical bottleneck in accelerating thermoset applications is not yet reflected in market pricing for upstream capacity.",
+      "kill": "",
+      "concept": "Thermosetting polymer",
+      "inbound_load": 2,
+      "sustained_sigma": 9.168304863681593,
+      "spark": "▇█▄▄▄▃▃▂▂▂▁▂▂▃▁▄▃▃▄▅▅▅▇▆▆",
+      "capture": {
+        "target_org": "Olin Corporation (Olin Epoxy)",
+        "why_them": "Olin is a top global epoxy resin producer with backward integration to raw materials, positioning them to capture value as supply tightens. They have dedicated epoxy business and extensive market reach.",
+        "person_or_role": "Vice President of Epoxy Sales (need to identify exact name via LinkedIn search for 'Olin Epoxy Sales VP')",
+        "reach_path": "Use LinkedIn to identify the VP, then request a warm introduction from a shared connection in the composites industry or approach via Olin's press contact.",
+        "the_ask": "Offer a monthly advisory retainer to provide forward-looking epoxy supply-demand analytics and pricing optimization strategies, leveraging our forecast that epoxy will become the binding constraint in thermoset composites over the next 4 years.",
+        "capture_mechanism": "advisory retainer",
+        "who_pays": "Olin Corporation",
+        "first_move_this_week": "Search LinkedIn for 'Olin Epoxy VP Sales' to identify the exact person, and review Olin's latest investor presentations for mentions of epoxy market tightness.",
+        "_search_hits": [
+          {
+            "title": "Epoxy Resin Companies - Top Players' List - Mordor Intelligence",
+            "url": "https://www.mordorintelligence.com/industry-reports/global-epoxy-resin-market-industry/companies"
+          },
+          {
+            "title": "Epoxy Resin Companies - MarketsandMarkets",
+            "url": "https://www.marketsandmarkets.com/ResearchInsight/epoxy-resins-market.asp"
+          },
+          {
+            "title": "Top 7 Epoxy Resin Manufacturers: Market Share & Analyst Report",
+            "url": "https://www.verifiedmarketresearch.com/blog/worlds-top-epoxy-resin-manufacturers/"
+          },
+          {
+            "title": "Epoxy Resin Market Research Report 2034",
+            "url": "https://marketintelo.com/report/epoxy-resin-market"
+          },
+          {
+            "title": "Epoxy Resin Market Size, Share, Analysis, Report, 2035",
+            "url": "https://www.fortunebusinessinsights.com/epoxy-resin-market-106597"
+          }
+        ],
+        "_recurring_orgs": [
+          "Epoxy Resin Companies",
+          "Epoxy Resin Market",
+          "Statistics"
+        ]
+      }
+    },
+    {
+      "pre_consensus": true,
+      "verdict": "PURSUE",
+      "inelastic_input": "capsid engineering",
+      "thesis": "Over 3 years the gene therapy sector reorganizes so that capsid engineering becomes the binding constraint because genetic enhancement's accelerating adoption depends on efficient viral vectors, and novel capsid design is the key to overcoming immune and delivery barriers.",
+      "p": 0.65,
+      "horizon_years": 3,
+      "dated_metric": "Number of clinical trials using engineered capsids",
+      "why_unpriced": "Capsid research is only at 2σ acceleration, far below the 4σ of the parent concept, and the tightening reliance edge is not widely recognized by investors.",
+      "kill": "",
+      "concept": "Genetic enhancement",
+      "inbound_load": 6,
+      "sustained_sigma": 4.338750875893802,
+      "spark": "█▆▆▆▄▄▃▂▂▂▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁",
+      "capture": {
+        "target_org": "VectorBuilder",
+        "why_them": "Directly offers AAV capsid engineering services including library construction and screening, positioning them as a key bottleneck solution as capsid engineering becomes the binding constraint in gene therapy.",
+        "person_or_role": "Director of Business Development",
+        "reach_path": "via email through vectorbuilder.com contact page or LinkedIn",
+        "the_ask": "Propose a brokered-introduction partnership where VectorBuilder pays a 5% finder's fee on resulting service contracts from introductions we facilitate to gene therapy developers seeking novel capsids.",
+        "capture_mechanism": "brokered-intro fee",
+        "who_pays": "VectorBuilder",
+        "first_move_this_week": "Identify and email the Director of Business Development at VectorBuilder to pitch the partnership model and secure a conversation.",
+        "_search_hits": [
+          {
+            "title": "AAV Gene Therapy Competitive Landscape Analysis 2026 | Eureka",
+            "url": "https://eureka.patsnap.com/blog/life-science/aav-gene-therapy-competitive-landscape-analysis/"
+          },
+          {
+            "title": "Viral Vector Contract Development and Manufacturing Organization (CDMO) - Market Insights, Competitive Landscape, and Market Forecast - 2034",
+            "url": "https://giiresearch.com/report/del2059305-viral-vector-contract-development-manufacturing.html"
+          },
+          {
+            "title": "Viral Vector Manufacturing - Market Share Analysis, Industry Trends & Statistics, Growth Forecasts (2025 - 2030)",
+            "url": "https://giiresearch.com/report/moi1852099-viral-vector-manufacturing-market-share-analysis.html"
+          },
+          {
+            "title": "Viral Capsid Development Market | Industry Report, 2033",
+            "url": "https://www.grandviewresearch.com/industry-analysis/viral-capsid-development-market-report"
+          },
+          {
+            "title": "REGENXBIO Highlights Key 2026 Catalysts and Announces Positive Long-Term Functional Outcomes in Lead Duchenne Gene Therapy Program | Regenxbio Inc",
+            "url": "https://regenxbio.gcs-web.com/news-releases/news-release-details/regenxbio-highlights-key-2026-catalysts-and-announces-positive"
+          }
+        ],
+        "_recurring_orgs": [
+          "CDMO",
+          "AAV Capsid Engineering"
+        ]
+      }
+    },
+    {
+      "pre_consensus": true,
+      "verdict": "PURSUE",
+      "inelastic_input": "Lysyl oxidase",
+      "thesis": "Over 3 years, the extracellular matrix research sector reorganizes so that lysyl oxidase becomes a critical bottleneck for in vitro tissue engineering and cancer metastasis studies because its upregulation is rate-limiting for matrix stiffening and invasion, yet current tools and inhibitors are underdeveloped.",
+      "p": 0.75,
+      "horizon_years": 3,
+      "dated_metric": "Number of publications citing both 'extracellular matrix' and 'lysyl oxidase' per quarter",
+      "why_unpriced": "Lysyl oxidase is a specific enzyme overshadowed by broader matrix themes; its acceleration in dependency graph (5σ) is not yet reflected in tool development or investment focus.",
+      "kill": "",
+      "concept": "Extracellular",
+      "inbound_load": 1,
+      "sustained_sigma": 6.959686272323359,
+      "spark": "█▆▅▅▄▃▃▂▂▂▂▁▁▂▁▅▃▁▁▁▁▁▁▁▁",
+      "capture": {
+        "target_org": "R&D Systems (Bio-Techne)",
+        "why_them": "R&D Systems is a leading supplier of Lysyl Oxidase/LOX research reagents, as evidenced by their dedicated product page (rndsystems.com/target/lysyl-oxidase-lox). They are well-positioned to capitalize on the growing demand for LOX in tissue engineering and cancer research, but may lack forward-looking market intelligence on the impending bottleneck.",
+        "person_or_role": "Product Manager, Lysyl Oxidase Products",
+        "reach_path": "Connect via LinkedIn with a personalized message referencing the LOX product page; alternatively, use the Bio-Techne general contact form to reach the protein product team.",
+        "the_ask": "Propose a paid advisory engagement: we provide quarterly market intelligence reports on LOX demand from tissue engineering and cancer metastasis consortia, and facilitate introductions to bulk purchasers in exchange for a retainer plus commission on resulting sales.",
+        "capture_mechanism": "advisory retainer",
+        "who_pays": "R&D Systems (Bio-Techne)",
+        "first_move_this_week": "Research the specific product manager for LOX on LinkedIn using Bio-Techne employee search, and send a connection request with a note about accelerating LOX reagent sales through strategic partnerships.",
+        "_search_hits": [
+          {
+            "title": "Lysyl Oxidase Market Research Report 2033 - Market Intelo",
+            "url": "https://marketintelo.com/report/lysyl-oxidase-market"
+          },
+          {
+            "title": "Top 20 Lysyl oxidase companies - Discovery|PatSnap",
+            "url": "https://discovery.patsnap.com/topic/lysyl-oxidase/"
+          },
+          {
+            "title": "Lysyl oxidase - Sigma-Aldrich",
+            "url": "https://www.sigmaaldrich.com/ES/en/search/lysyl-oxidase?focus=products&page=1&perpage=30&sort=relevance&term=lysyl+oxidase&type=product"
+          },
+          {
+            "title": "Biomatik Corporation Human Lysyl Oxidase (LOX), Active Protein, Quantity: | Fisher Scientific",
+            "url": "https://www.fishersci.com/shop/products/catalog-protein-100ug-470/502290272"
+          },
+          {
+            "title": "High Quality Lysine oxidase (LO) Manufacturer and Supplier | SyncoZymes",
+            "url": "https://www.syncozymesnad.com/lysine-oxidase-lo-product/"
+          }
+        ],
+        "_recurring_orgs": [
+          "Lysyl Oxidase",
+          "Lysyl"
+        ]
+      }
+    }
+  ]
+}

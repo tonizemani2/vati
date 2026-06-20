@@ -1,0 +1,90 @@
+{
+  "nodes": [
+    {
+      "id": "document:site/AGENTS.md",
+      "type": "document",
+      "name": "AGENTS.md",
+      "filePath": "site/AGENTS.md",
+      "summary": "Documentation file covering AGENTS for the Vati repository and its forecasting workflows.",
+      "tags": [
+        "frontend",
+        "documentation",
+        "document",
+        "docs",
+        "agents"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:site/README.md",
+      "type": "document",
+      "name": "README.md",
+      "filePath": "site/README.md",
+      "summary": "Documentation file covering README for the Vati repository and its forecasting workflows.",
+      "tags": [
+        "documentation",
+        "entry-point",
+        "overview",
+        "frontend"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:site/components.json",
+      "type": "config",
+      "name": "components.json",
+      "filePath": "site/components.json",
+      "summary": "Configuration file for components.json that shapes build, runtime, or tooling behavior in this repository.",
+      "tags": [
+        "frontend",
+        "configuration",
+        "config",
+        "components"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:site/package.json",
+      "type": "config",
+      "name": "package.json",
+      "filePath": "site/package.json",
+      "summary": "Configuration file for package.json that shapes build, runtime, or tooling behavior in this repository.",
+      "tags": [
+        "configuration",
+        "build-system",
+        "project-manifest",
+        "frontend"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:site/pnpm-workspace.yaml",
+      "type": "config",
+      "name": "pnpm-workspace.yaml",
+      "filePath": "site/pnpm-workspace.yaml",
+      "summary": "Configuration file for pnpm-workspace.yaml that shapes build, runtime, or tooling behavior in this repository.",
+      "tags": [
+        "frontend",
+        "configuration",
+        "config",
+        "pnpm-workspace"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:site/tsconfig.json",
+      "type": "config",
+      "name": "tsconfig.json",
+      "filePath": "site/tsconfig.json",
+      "summary": "Configuration file for tsconfig.json that shapes build, runtime, or tooling behavior in this repository.",
+      "tags": [
+        "configuration",
+        "typescript",
+        "build-system",
+        "frontend"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": []
+}

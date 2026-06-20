@@ -6,7 +6,6 @@ Usage: uv run python -m engine.forecastbench.backtest_all
 """
 from __future__ import annotations
 
-import glob
 import json
 from pathlib import Path
 
@@ -15,9 +14,18 @@ from .submit import make_submission
 
 
 def main():
-    # only canonical rounds: q_YYYY-MM-DD.json (skip the -human variant etc.)
-    rounds = sorted(p.name[2:12] for p in Path(DATA).glob("q_*.json")
-                    if len(p.name) == len("q_YYYY-MM-DD.json"))
+    # only canonical resolved rounds: q_YYYY-MM-DD.json with a matching r_ file.
+    # The latest question set can publish before resolutions, and it should still
+    # be buildable without breaking historical scoring.
+    rounds, skipped = [], []
+    for p in sorted(Path(DATA).glob("q_*.json")):
+        if len(p.name) != len("q_YYYY-MM-DD.json"):
+            continue
+        dt = p.name[2:12]
+        if (DATA / f"r_{dt}.json").exists():
+            rounds.append(dt)
+        else:
+            skipped.append(dt)
     pool = {"MARKET": [0.0, 0], "DATASET": [0.0, 0]}
     print(f"{'round':12s}{'overall':>9s}{'market':>9s}{'dataset':>9s}{'n':>7s}{'miss':>6s}")
     for dt in rounds:
@@ -34,6 +42,11 @@ def main():
         pool["MARKET"][1] += s["n_market"]
         pool["DATASET"][0] += (s["dataset"] or 0) * s["n_dataset"]
         pool["DATASET"][1] += s["n_dataset"]
+    if not rounds:
+        print("no resolved rounds found")
+        return
+    if skipped:
+        print(f"\nskipped unresolved question-only rounds: {', '.join(skipped)}")
     m = pool["MARKET"][0] / pool["MARKET"][1]
     d = pool["DATASET"][0] / pool["DATASET"][1]
     n = pool["MARKET"][1] + pool["DATASET"][1]

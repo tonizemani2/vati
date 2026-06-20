@@ -1,0 +1,41 @@
+{
+  "projectRoot": "/Users/emizemani/Desktop/predictthefuture",
+  "batchFiles": [
+    {
+      "path": "engine/adapters/_vendor/exa_search.py",
+      "language": "python",
+      "sizeLines": 153,
+      "fileCategory": "code"
+    },
+    {
+      "path": "research/targets/enrich_public_emails.py",
+      "language": "python",
+      "sizeLines": 325,
+      "fileCategory": "code"
+    },
+    {
+      "path": "research/targets/find.py",
+      "language": "python",
+      "sizeLines": 35,
+      "fileCategory": "code"
+    },
+    {
+      "path": "research/targets/harvest.py",
+      "language": "python",
+      "sizeLines": 191,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "engine/adapters/_vendor/exa_search.py": [],
+    "research/targets/enrich_public_emails.py": [
+      "engine/adapters/_vendor/exa_search.py"
+    ],
+    "research/targets/find.py": [
+      "engine/adapters/_vendor/exa_search.py"
+    ],
+    "research/targets/harvest.py": [
+      "engine/adapters/_vendor/exa_search.py"
+    ]
+  }
+}

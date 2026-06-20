@@ -1,0 +1,335 @@
+{
+  "nodes": [
+    {
+      "id": "document:training/AWS.md",
+      "type": "document",
+      "name": "AWS.md",
+      "filePath": "training/AWS.md",
+      "summary": "Documentation file covering AWS for the Vati repository and its forecasting workflows.",
+      "tags": [
+        "documentation",
+        "document",
+        "docs",
+        "aws"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "document:training/MLX.md",
+      "type": "document",
+      "name": "MLX.md",
+      "filePath": "training/MLX.md",
+      "summary": "Documentation file covering MLX for the Vati repository and its forecasting workflows.",
+      "tags": [
+        "documentation",
+        "document",
+        "docs",
+        "mlx"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "document:training/README.md",
+      "type": "document",
+      "name": "README.md",
+      "filePath": "training/README.md",
+      "summary": "Documentation file covering README for the Vati repository and its forecasting workflows.",
+      "tags": [
+        "documentation",
+        "entry-point",
+        "overview"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:training/RESIDUAL_RECIPE.md",
+      "type": "document",
+      "name": "RESIDUAL_RECIPE.md",
+      "filePath": "training/RESIDUAL_RECIPE.md",
+      "summary": "Documentation file covering RESIDUAL_RECIPE for the Vati repository and its forecasting workflows.",
+      "tags": [
+        "documentation",
+        "document",
+        "docs",
+        "residual-recipe"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:training/launch_big.sh",
+      "type": "file",
+      "name": "launch_big.sh",
+      "filePath": "training/launch_big.sh",
+      "summary": "launch_big.sh is a script asset in the repository.",
+      "tags": [
+        "script",
+        "automation",
+        "file",
+        "launch-big"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:training/launch_big_hunt.sh",
+      "type": "file",
+      "name": "launch_big_hunt.sh",
+      "filePath": "training/launch_big_hunt.sh",
+      "summary": "launch_big_hunt.sh is a script asset in the repository. It contains 1 function.",
+      "tags": [
+        "script",
+        "automation",
+        "file",
+        "launch-big-hunt"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:training/launch_mumbai.sh",
+      "type": "file",
+      "name": "launch_mumbai.sh",
+      "filePath": "training/launch_mumbai.sh",
+      "summary": "launch_mumbai.sh is a script asset in the repository. It contains 1 function.",
+      "tags": [
+        "script",
+        "automation",
+        "file",
+        "launch-mumbai"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:training/launch_residual.sh",
+      "type": "file",
+      "name": "launch_residual.sh",
+      "filePath": "training/launch_residual.sh",
+      "summary": "launch_residual.sh is a script asset in the repository.",
+      "tags": [
+        "script",
+        "automation",
+        "file",
+        "launch-residual"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:training/launch_resilient.sh",
+      "type": "file",
+      "name": "launch_resilient.sh",
+      "filePath": "training/launch_resilient.sh",
+      "summary": "launch_resilient.sh is a script asset in the repository.",
+      "tags": [
+        "script",
+        "automation",
+        "file",
+        "launch-resilient"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:training/launch_signal.sh",
+      "type": "file",
+      "name": "launch_signal.sh",
+      "filePath": "training/launch_signal.sh",
+      "summary": "launch_signal.sh is a script asset in the repository.",
+      "tags": [
+        "script",
+        "automation",
+        "file",
+        "launch-signal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:training/launch_smoke.sh",
+      "type": "file",
+      "name": "launch_smoke.sh",
+      "filePath": "training/launch_smoke.sh",
+      "summary": "launch_smoke.sh is a script asset in the repository.",
+      "tags": [
+        "script",
+        "automation",
+        "file",
+        "launch-smoke"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:training/requirements-mlx.txt",
+      "type": "document",
+      "name": "requirements-mlx.txt",
+      "filePath": "training/requirements-mlx.txt",
+      "summary": "Documentation file covering requirements-mlx for the Vati repository and its forecasting workflows.",
+      "tags": [
+        "documentation",
+        "document",
+        "docs",
+        "requirements-mlx"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:training/requirements.txt",
+      "type": "document",
+      "name": "requirements.txt",
+      "filePath": "training/requirements.txt",
+      "summary": "Documentation file covering requirements for the Vati repository and its forecasting workflows.",
+      "tags": [
+        "documentation",
+        "document",
+        "docs",
+        "requirements"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:training/run_all.sh",
+      "type": "file",
+      "name": "run_all.sh",
+      "filePath": "training/run_all.sh",
+      "summary": "run_all.sh is a script asset in the repository. It contains 1 function.",
+      "tags": [
+        "script",
+        "automation",
+        "file",
+        "run-all"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:training/run_big.sh",
+      "type": "file",
+      "name": "run_big.sh",
+      "filePath": "training/run_big.sh",
+      "summary": "run_big.sh is a script asset in the repository. It contains 2 functions.",
+      "tags": [
+        "script",
+        "automation",
+        "file",
+        "run-big"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:training/run_big.sh:run_pair",
+      "type": "function",
+      "name": "run_pair",
+      "filePath": "training/run_big.sh",
+      "lineRange": [
+        69,
+        78
+      ],
+      "summary": "Defines run_pair in run_big.sh, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entry-point",
+        "run-big"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:training/run_overnight.sh",
+      "type": "file",
+      "name": "run_overnight.sh",
+      "filePath": "training/run_overnight.sh",
+      "summary": "run_overnight.sh is a script asset in the repository.",
+      "tags": [
+        "script",
+        "automation",
+        "file",
+        "run-overnight"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:training/run_residual.sh",
+      "type": "file",
+      "name": "run_residual.sh",
+      "filePath": "training/run_residual.sh",
+      "summary": "run_residual.sh is a script asset in the repository. It contains 2 functions.",
+      "tags": [
+        "script",
+        "automation",
+        "file",
+        "run-residual"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:training/run_residual2.sh",
+      "type": "file",
+      "name": "run_residual2.sh",
+      "filePath": "training/run_residual2.sh",
+      "summary": "run_residual2.sh is a script asset in the repository. It contains 1 function.",
+      "tags": [
+        "script",
+        "automation",
+        "file",
+        "run-residual2"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:training/run_residual2.sh:run_pair",
+      "type": "function",
+      "name": "run_pair",
+      "filePath": "training/run_residual2.sh",
+      "lineRange": [
+        22,
+        32
+      ],
+      "summary": "Defines run_pair in run_residual2.sh, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entry-point",
+        "run-residual2"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:training/run_residual3.sh",
+      "type": "file",
+      "name": "run_residual3.sh",
+      "filePath": "training/run_residual3.sh",
+      "summary": "run_residual3.sh is a script asset in the repository.",
+      "tags": [
+        "script",
+        "automation",
+        "file",
+        "run-residual3"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:training/run_smoke.sh",
+      "type": "file",
+      "name": "run_smoke.sh",
+      "filePath": "training/run_smoke.sh",
+      "summary": "run_smoke.sh is a script asset in the repository. It contains 1 function.",
+      "tags": [
+        "script",
+        "automation",
+        "file",
+        "run-smoke"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:training/run_big.sh",
+      "target": "function:training/run_big.sh:run_pair",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:training/run_residual2.sh",
+      "target": "function:training/run_residual2.sh:run_pair",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    }
+  ]
+}

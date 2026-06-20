@@ -1,0 +1,570 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e6] [cursor=pointer]:
+    - button "Open Next.js Dev Tools" [ref=e7]:
+      - img [ref=e8]
+    - generic [ref=e11]:
+      - button "Open issues overlay" [ref=e12]:
+        - generic [ref=e13]:
+          - generic [ref=e14]: "0"
+          - generic [ref=e15]: "1"
+        - generic [ref=e16]: Issue
+      - button "Collapse issues badge" [ref=e17]:
+        - img [ref=e18]
+  - generic [ref=e20]:
+    - generic [ref=e22]:
+      - link "Skip to main content" [ref=e23] [cursor=pointer]:
+        - /url: /#main
+        - generic [ref=e24]: Skip to main content
+      - link "THE SEALED FORECAST RECORD · see the calls" [ref=e28] [cursor=pointer]:
+        - /url: "#research"
+        - generic [ref=e29]: THE SEALED FORECAST RECORD · see the calls
+      - banner [ref=e30]:
+        - generic [ref=e31]:
+          - link "Home Page" [ref=e32] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e33]:
+              - img [ref=e34]
+              - text: Vaticinus
+          - button "menu" [ref=e47] [cursor=pointer]
+    - main [ref=e51]:
+      - generic [ref=e53]:
+        - generic [ref=e57]:
+          - paragraph [ref=e59]:
+            - text: Forecasting where
+            - text: scarcity moves next
+          - paragraph [ref=e61]: Vaticinus reads millions of research papers, trade flows, and supply records to work out where value moves next. It runs a deep-research engine alongside a forecasting model we train on our own leak-free data. Every call gets a date, a kill-criterion, and a score in public.
+          - generic [ref=e63]:
+            - generic [ref=e64]:
+              - generic [ref=e65]:
+                - link "See the record" [ref=e66] [cursor=pointer]:
+                  - /url: "#sampleqs"
+                  - generic [ref=e67]: See the record
+                - button "See the record" [ref=e68] [cursor=pointer]:
+                  - generic [ref=e69]: See the record
+              - generic [ref=e70]: See the record
+            - generic [ref=e72] [cursor=pointer]: Get in touch
+        - generic [ref=e73]:
+          - generic [ref=e75]:
+            - generic [ref=e76]:
+              - generic [ref=e77]: Compute
+              - generic [ref=e78]: 4-yr
+            - paragraph: SiC substrate supply binds power electronics, not device fab
+            - generic [ref=e80]:
+              - generic [ref=e81]: Vati’s read
+              - generic [ref=e82]: 55%
+          - generic [ref=e86]:
+            - generic [ref=e87]:
+              - generic [ref=e88]: Compute
+              - generic [ref=e89]: 3-yr
+            - paragraph [ref=e90]: Advanced packaging is the named U.S. AI-hardware constraint
+            - generic [ref=e92]:
+              - generic [ref=e93]: Vati’s read
+              - generic [ref=e94]: 66%
+          - generic [ref=e98]:
+            - generic [ref=e99]:
+              - generic [ref=e100]: Energy
+              - generic [ref=e101]: "2028"
+            - paragraph [ref=e102]: Transformer PPI runs ≥1.5× its 2024 baseline through 2028
+            - generic [ref=e104]:
+              - generic [ref=e105]: Vati’s read
+              - generic [ref=e106]: 94%
+      - generic [ref=e111]:
+        - generic [ref=e112]:
+          - paragraph [ref=e116]: Forward calls
+          - heading "The calls on the board right now" [level=2] [ref=e118]
+          - paragraph [ref=e120]: Every call comes with a date, the constraint behind it, and the line that would prove it wrong, all fixed the moment we make it. Some resolve within a year. The long-horizon ones look a decade out, at limits physics and demography have already set. Open a board to read them in full.
+        - generic [ref=e121]:
+          - link "New board 6 calls Six inputs the market hasn't priced Each call is one upstream input fixed by physics, treaty, or demography while the system above it keeps scaling. The rent lands on what cannot answer a price signal. Flagship call · resolves 2032 Hafnium has no ore. Three industries now collide on one byproduct trickle. 70% our call on the dated version Open the board, PDF ↗" [ref=e122] [cursor=pointer]:
+            - /url: /forecasts/inelastic-needles.pdf
+            - generic [ref=e123]:
+              - generic [ref=e124]: New board
+              - generic [ref=e125]: 6 calls
+            - generic [ref=e126]: Six inputs the market hasn't priced
+            - paragraph [ref=e127]: Each call is one upstream input fixed by physics, treaty, or demography while the system above it keeps scaling. The rent lands on what cannot answer a price signal.
+            - generic [ref=e128]:
+              - generic [ref=e129]: Flagship call · resolves 2032
+              - paragraph [ref=e130]: Hafnium has no ore. Three industries now collide on one byproduct trickle.
+              - generic [ref=e131]:
+                - generic [ref=e132]: 70%
+                - generic [ref=e133]: our call on the dated version
+            - generic [ref=e134]: Open the board, PDF ↗
+          - link "Decade tier 6 calls · to 2038 The long-horizon theses Six places where physics or demography has already set the trajectory, while capital still looks elsewhere. Flagship call · resolves 2032 The grid runs out of people before it runs out of steel. 60% our call on the dated version Open the board, PDF ↗" [ref=e135] [cursor=pointer]:
+            - /url: /forecasts/long-horizon.pdf
+            - generic [ref=e136]:
+              - generic [ref=e137]: Decade tier
+              - generic [ref=e138]: 6 calls · to 2038
+            - generic [ref=e139]: The long-horizon theses
+            - paragraph [ref=e140]: Six places where physics or demography has already set the trajectory, while capital still looks elsewhere.
+            - generic [ref=e141]:
+              - generic [ref=e142]: Flagship call · resolves 2032
+              - paragraph [ref=e143]: The grid runs out of people before it runs out of steel.
+              - generic [ref=e144]:
+                - generic [ref=e145]: 60%
+                - generic [ref=e146]: our call on the dated version
+            - generic [ref=e147]: Open the board, PDF ↗
+          - link "Sector board 6 calls Where the space economy pays rent Cheap launch solved the wrong constraint. Here are six physical walls it cannot move. Flagship call · resolves 2034 Orbital data centers hit a heat-rejection wall before a launch-cost wall. 62% our call on the dated version Open the board, PDF ↗" [ref=e148] [cursor=pointer]:
+            - /url: /forecasts/space.pdf
+            - generic [ref=e149]:
+              - generic [ref=e150]: Sector board
+              - generic [ref=e151]: 6 calls
+            - generic [ref=e152]: Where the space economy pays rent
+            - paragraph [ref=e153]: Cheap launch solved the wrong constraint. Here are six physical walls it cannot move.
+            - generic [ref=e154]:
+              - generic [ref=e155]: Flagship call · resolves 2034
+              - paragraph [ref=e156]: Orbital data centers hit a heat-rejection wall before a launch-cost wall.
+              - generic [ref=e157]:
+                - generic [ref=e158]: 62%
+                - generic [ref=e159]: our call on the dated version
+            - generic [ref=e160]: Open the board, PDF ↗
+        - link "Read all 30 calls across 5 boards →" [ref=e162] [cursor=pointer]:
+          - /url: /forecasts/
+      - generic [ref=e165]:
+        - generic [ref=e166]:
+          - paragraph [ref=e170]: Early signal
+          - heading "Already moving our way" [level=2] [ref=e172]
+          - paragraph [ref=e174]: None of these has resolved. They are dated to 2027 and beyond, and they get scored only when they come due. But the constraint each one names is already moving the direction we called, on a live, dated price anchor. This is the early read, not a verdict.
+        - generic [ref=e175]:
+          - generic [ref=e176]:
+            - generic [ref=e177]:
+              - generic [ref=e178]: Critical materials
+              - generic [ref=e179]: resolves 2032
+            - paragraph [ref=e180]: "Hafnium is a byproduct trickle now hostage to three inelastic buyers at once: nuclear control rods, advanced-node gate dielectric, and turbine-blade superalloys."
+            - generic [ref=e181]:
+              - generic [ref=e182]: $4,365 → $13,115
+              - generic [ref=e183]: high-purity hafnium spot, per kg, Jan 2025 to Apr 2026 (about 3×) as China cut exports ~90%
+            - generic [ref=e184]:
+              - generic [ref=e185]: 70%
+              - generic [ref=e186]: our call on the dated version
+          - generic [ref=e187]:
+            - generic [ref=e188]:
+              - generic [ref=e189]: Semiconductors
+              - generic [ref=e190]: resolves 2035
+            - paragraph [ref=e191]: Ruthenium becomes the gating interconnect metal as copper hits its resistivity wall at sub-2nm pitches, with supply hard-capped as a platinum byproduct and no primary mine.
+            - generic [ref=e192]:
+              - generic [ref=e193]: $500 → $1,700+
+              - generic [ref=e194]: ruthenium spot, per oz, to mid-Mar 2026 (about 3×); the Ru:Pt price ratio has already inverted
+            - generic [ref=e195]:
+              - generic [ref=e196]: 40%
+              - generic [ref=e197]: our call on the dated version
+          - generic [ref=e198]:
+            - generic [ref=e199]:
+              - generic [ref=e200]: Solar / energy
+              - generic [ref=e201]: resolves 2027
+            - paragraph [ref=e202]: "A contrarian call: Chinese polysilicon stays below cash cost through 2027, because regulators banned the coordinated supply cut the bulls had already priced."
+            - generic [ref=e203]:
+              - generic [ref=e204]: 33.5 RMB/kg
+              - generic [ref=e205]: n-type polysilicon spot, Jun 2026, ~12 below the 45 RMB ceiling we set; futures hit the down-limit on the ruling
+            - generic [ref=e206]:
+              - generic [ref=e207]: 70%
+              - generic [ref=e208]: our call on the dated version
+        - link "See every call, with the date and the kill-criterion →" [ref=e210] [cursor=pointer]:
+          - /url: /forecasts/
+      - generic [ref=e212]:
+        - generic [ref=e215]:
+          - paragraph [ref=e219]: what vati does
+          - heading "A new kind of foresight" [level=2] [ref=e221]
+          - generic [ref=e222]:
+            - paragraph [ref=e223]:
+              - text: Despite decades of progress in computer modelling, the best predictions in the messy world of human affairs still come from top human forecasters, who use reasoning and judgement.
+              - emphasis: ‍
+            - paragraph [ref=e224]: ‍
+            - paragraph [ref=e225]:
+              - emphasis [ref=e226]: Vati predicts like an expert human forecaster, but with the speed and scale of a machine. Every call gets graded in public.
+          - paragraph [ref=e228]:
+            - emphasis [ref=e229]: Our preprint shows why the field has been measuring forecasting skill wrong. Across 25 leak-free ForecastBench rounds (2024 to 2026), frontier LLMs add almost no information beyond the market price, and more scale has not changed that. Human superforecasters clear the same bar by an order of magnitude.
+          - generic [ref=e230]:
+            - link [ref=e231] [cursor=pointer]:
+              - /url: /beyond-brier-preprint.pdf
+              - generic [ref=e232]: Read the preprint (PDF)
+            - link [ref=e233] [cursor=pointer]:
+              - /url: /beyond-brier-preprint.pdf
+              - generic [ref=e234]: Read the method
+        - generic [ref=e238]:
+          - generic [ref=e239]:
+            - img [ref=e244]
+            - strong [ref=e247]:
+              - text: Forecasting
+              - text: questions
+            - generic [ref=e248]: Superhuman throughput
+          - generic [ref=e249]:
+            - generic [ref=e250]:
+              - generic [ref=e251]:
+                - img [ref=e253]
+                - generic [ref=e256]: Research
+              - generic [ref=e257]:
+                - img [ref=e259]
+                - generic [ref=e261]: Analysis
+              - generic [ref=e262]:
+                - img [ref=e264]
+                - generic [ref=e266]: Prediction
+            - generic [ref=e267]: Vaticinus prediction engine
+          - generic [ref=e268]:
+            - img [ref=e273]
+            - strong [ref=e276]:
+              - text: In-depth
+              - text: explanations
+            - generic [ref=e277]: Full reasoning & sources
+        - generic [ref=e281]:
+          - paragraph [ref=e282]:
+            - emphasis [ref=e283]: Vati has an edge on exactly the topics where a purely data-driven approach falls short, the ones where judgement decides the answer, not data alone.
+          - paragraph [ref=e284]: We’ve developed our system to make medium term predictions (1 week - 1 year out) about geopolitics, business, policy, technology, and culture.
+        - generic [ref=e290]:
+          - generic [ref=e292]:
+            - paragraph [ref=e296]: Performance
+            - heading "Benchmarking against human forecasters" [level=2] [ref=e298]
+          - paragraph [ref=e302]: "On ForecastBench, the public benchmark the field runs, the top models already beat the best human superforecasters on the dataset half. Vati is built to land #1 among bots there, on a blind, leak-free test. The numbers below are internal, leak-free backtests run on the same public data. The official boards publish their next round in 2026."
+        - generic [ref=e303]:
+          - heading "Where Vati stands today, on the record:" [level=3] [ref=e307]
+          - generic [ref=e308]:
+            - generic [ref=e309]:
+              - generic [ref=e310]:
+                - img [ref=e312]
+                - generic [ref=e316]:
+                  - heading "Metaculus · live public record" [level=4] [ref=e318]
+                  - list [ref=e320]:
+                    - listitem [ref=e321]: 154 dated forecasts, live now on the public Metaculus board
+                    - listitem [ref=e322]: "One account anyone can open and check: the bot vaticinus, across 13 tournaments"
+                    - listitem [ref=e323]: Nothing resolved yet. The scores land as the questions close.
+              - generic [ref=e325]:
+                - generic [ref=e326]: "Topics covered:"
+                - list [ref=e329]:
+                  - listitem [ref=e330]: Nuclear risk
+                  - listitem [ref=e331]: Taiwan
+                  - listitem [ref=e332]: US elections
+                  - listitem [ref=e333]: Space & biotech
+            - generic [ref=e334]:
+              - generic [ref=e335]:
+                - img [ref=e337]
+                - generic [ref=e339]:
+                  - heading "ForecastBench · dataset half" [level=4] [ref=e341]
+                  - list [ref=e343]:
+                    - listitem [ref=e344]: Brier 0.124 on the dataset questions, beating the superforecaster crowd
+                    - listitem [ref=e345]: "Built to rank #1 among bots"
+                    - listitem [ref=e346]: Up from 0.142 after a type-aware prior rebuild
+              - generic [ref=e348]:
+                - generic [ref=e349]: "Topics covered:"
+                - list [ref=e352]:
+                  - listitem [ref=e353]: Geopolitics
+                  - listitem [ref=e354]: Elections
+                  - listitem [ref=e355]: Technology
+                  - listitem [ref=e356]: Energy
+            - generic [ref=e357]:
+              - generic [ref=e358]:
+                - img [ref=e360]
+                - generic [ref=e362]:
+                  - heading "Leak-free holdout (indicative)" [level=4] [ref=e364]
+                  - list [ref=e366]:
+                    - listitem [ref=e367]: Brier 0.110 vs 0.245 base on a date-gated test
+                    - listitem [ref=e368]: 6 of 7 leak-free questions called correctly
+                    - listitem [ref=e369]: Small sample (N=7), marked indicative, not yet validated
+              - generic [ref=e371]:
+                - generic [ref=e372]: "Topics covered:"
+                - list [ref=e375]:
+                  - listitem [ref=e376]: Company earnings & revenues
+                  - listitem [ref=e377]: Equity returns
+                  - listitem [ref=e378]: Bond yields
+            - generic [ref=e379]:
+              - generic [ref=e380]:
+                - img [ref=e382]
+                - generic [ref=e384]:
+                  - heading "KalshiBench · vs frontier LLMs" [level=4] [ref=e386]
+                  - list [ref=e388]:
+                    - listitem [ref=e389]: Brier 0.229, level with Opus 4.5 (0.227)
+                    - listitem [ref=e390]: ~6× lower calibration error (ECE)
+                    - listitem [ref=e391]: Leak-free per-category k-fold
+              - generic [ref=e393]:
+                - generic [ref=e394]: "Topics covered:"
+                - list [ref=e397]:
+                  - listitem [ref=e398]: Politics
+                  - listitem [ref=e399]: Economics
+                  - listitem [ref=e400]: Crypto
+                  - listitem [ref=e401]: Climate
+          - paragraph [ref=e403]:
+            - emphasis [ref=e404]: "Every call is dated, sealed, and scored. What powers them is the layer underneath: the supply side of the world, tracked over time."
+          - generic [ref=e405]:
+            - paragraph [ref=e409]: The data layer
+            - heading "The data most forecasters never look at" [level=3] [ref=e411]
+            - paragraph [ref=e413]: We track the supply side of the world over time. The research that flags a capability before it ships. The trade flows that show who controls a chokepoint. The mineral and component data that reveal where a bottleneck is forming, and the export controls that move it. A deep-research engine and a model we train on our own leak-free data turn that into dated, scored calls.
+          - generic [ref=e414]:
+            - generic [ref=e415]:
+              - generic [ref=e416]: 1.48M
+              - generic [ref=e417]: research papers indexed, so a capability shows up before it ships
+            - generic [ref=e418]:
+              - generic [ref=e419]: Trade flows
+              - generic [ref=e420]: UN Comtrade supply concentration, who really controls each critical input
+            - generic [ref=e421]:
+              - generic [ref=e422]: Geopolitics
+              - generic [ref=e423]: export controls, sanctions and policy decrees, tracked over time
+            - generic [ref=e424]:
+              - generic [ref=e425]: 29k · 24
+              - generic [ref=e426]: leak-free training examples across 24 domains, for the model we train ourselves
+      - generic [ref=e430]:
+        - generic [ref=e432]:
+          - heading "Calls we got right" [level=2] [ref=e434]
+          - paragraph [ref=e436]:
+            - text: Each call was made with only the information available
+            - emphasis [ref=e437]: before
+            - text: the question resolved, when the model knew nothing past its cutoff, then scored against what actually happened. These are selected resolved questions; the full, unfiltered scores are in the benchmarks above.
+        - generic [ref=e438]:
+          - button "Globe All topics" [ref=e439] [cursor=pointer]:
+            - img "Globe" [ref=e440]
+            - generic [ref=e441]: All topics
+          - list [ref=e443]:
+            - listitem [ref=e444] [cursor=pointer]:
+              - generic [ref=e445]: Technology
+            - listitem [ref=e446] [cursor=pointer]:
+              - generic [ref=e447]: Business
+            - listitem [ref=e448] [cursor=pointer]:
+              - generic [ref=e449]: Economics
+            - listitem [ref=e450] [cursor=pointer]:
+              - generic [ref=e451]: Conflict
+            - listitem [ref=e452] [cursor=pointer]:
+              - generic [ref=e453]: Politics
+        - list [ref=e455]:
+          - group "1 / 8" [ref=e456] [cursor=pointer]:
+            - generic [ref=e457]:
+              - generic [ref=e458]:
+                - list [ref=e460]:
+                  - listitem [ref=e461]:
+                    - generic [ref=e462]: Business
+                - heading "Reddit IPOs on the NYSE before April 2024" [level=3] [ref=e463]
+                - generic [ref=e464]:
+                  - paragraph [ref=e465]:
+                    - generic [ref=e466]: Why
+                    - text: The S-1 was on file and banks were mandated. The event was set; only the window was in doubt.
+                  - paragraph [ref=e467]:
+                    - generic [ref=e468]: Easy read
+                    - text: Most expected an IPO eventually, but a hard before-April clearance looked far from certain.
+              - generic [ref=e469]:
+                - generic [ref=e470]:
+                  - generic [ref=e471]: Vati’s call
+                  - generic [ref=e472]: 82%
+                - generic [ref=e475]:
+                  - img [ref=e476]
+                  - text: Resolved YES · Mar 2024
+                - generic [ref=e478]: Leak-free. Model knew nothing past 2023
+          - group "2 / 8" [ref=e479] [cursor=pointer]:
+            - generic [ref=e480]:
+              - generic [ref=e481]:
+                - list [ref=e483]:
+                  - listitem [ref=e484]:
+                    - generic [ref=e485]: Economics
+                - heading "A spot Ethereum ETF wins U.S. approval before 2026" [level=3] [ref=e486]
+                - generic [ref=e487]:
+                  - paragraph [ref=e488]:
+                    - generic [ref=e489]: Why
+                    - text: Once spot-Bitcoin ETFs cleared, the same legal template made an ETH approval a question of when.
+                  - paragraph [ref=e490]:
+                    - generic [ref=e491]: Easy read
+                    - text: The SEC's posture on ether read as hostile, so approval this cycle looked unlikely to many.
+              - generic [ref=e492]:
+                - generic [ref=e493]:
+                  - generic [ref=e494]: Vati’s call
+                  - generic [ref=e495]: 75%
+                - generic [ref=e498]:
+                  - img [ref=e499]
+                  - text: Resolved YES · 2025
+                - generic [ref=e501]: Leak-free. Model knew nothing past 2024
+          - group "3 / 8" [ref=e502] [cursor=pointer]:
+            - generic [ref=e503]:
+              - generic [ref=e504]:
+                - list [ref=e506]:
+                  - listitem [ref=e507]:
+                    - generic [ref=e508]: Technology
+                - heading "A SpaceX Dragon brings the stranded Starliner crew home" [level=3] [ref=e509]
+                - generic [ref=e510]:
+                  - paragraph [ref=e511]:
+                    - generic [ref=e512]: Why
+                    - text: Boeing's thruster faults made Starliner the riskier ride home, and NASA's safety bias points to Dragon.
+                  - paragraph [ref=e513]:
+                    - generic [ref=e514]: Easy read
+                    - text: The default assumption was the crew returns on the capsule that carried them up.
+              - generic [ref=e515]:
+                - generic [ref=e516]:
+                  - generic [ref=e517]: Vati’s call
+                  - generic [ref=e518]: 77%
+                - generic [ref=e521]:
+                  - img [ref=e522]
+                  - text: Resolved YES · 2025
+                - generic [ref=e524]: Leak-free. Model knew nothing past 2023
+          - group "4 / 8" [ref=e525] [cursor=pointer]:
+            - generic [ref=e526]:
+              - generic [ref=e527]:
+                - list [ref=e529]:
+                  - listitem [ref=e530]:
+                    - generic [ref=e531]: Technology
+                - heading "OpenAI ships a coding-agent rival to Devin in 2025" [level=3] [ref=e532]
+                - generic [ref=e533]:
+                  - paragraph [ref=e534]:
+                    - generic [ref=e535]: Why
+                    - text: Coding is OpenAI's most-used surface. A Devin-class agent was the obvious next thing to ship.
+                  - paragraph [ref=e536]:
+                    - generic [ref=e537]: Easy read
+                    - text: Autonomous coding agents looked like startup turf, not a near-term OpenAI release.
+              - generic [ref=e538]:
+                - generic [ref=e539]:
+                  - generic [ref=e540]: Vati’s call
+                  - generic [ref=e541]: 88%
+                - generic [ref=e544]:
+                  - img [ref=e545]
+                  - text: Resolved YES · 2025
+                - generic [ref=e547]: Leak-free. Model knew nothing past 2024
+          - group "5 / 8" [ref=e548] [cursor=pointer]:
+            - generic [ref=e549]:
+              - generic [ref=e550]:
+                - list [ref=e552]:
+                  - listitem [ref=e553]:
+                    - generic [ref=e554]: Technology
+                - heading "OpenAI’s fifth-generation model is branded “GPT-5”" [level=3] [ref=e555]
+                - generic [ref=e556]:
+                  - paragraph [ref=e557]:
+                    - generic [ref=e558]: Why
+                    - text: Brand-equity gravity. The flagship reverts to the name hundreds of millions already know.
+                  - paragraph [ref=e559]:
+                    - generic [ref=e560]: Easy read
+                    - text: After the o1 and o3 detour, many bet the GPT-5 label was retired for good.
+              - generic [ref=e561]:
+                - generic [ref=e562]:
+                  - generic [ref=e563]: Vati’s call
+                  - generic [ref=e564]: 85%
+                - generic [ref=e567]:
+                  - img [ref=e568]
+                  - text: Resolved YES · 2025
+                - generic [ref=e570]: Leak-free. Model knew nothing past 2023
+          - group "6 / 8" [ref=e571] [cursor=pointer]:
+            - generic [ref=e572]:
+              - generic [ref=e573]:
+                - list [ref=e575]:
+                  - listitem [ref=e576]:
+                    - generic [ref=e577]: Conflict
+                - heading "The Russia–Ukraine war is still active on Dec 31, 2025" [level=3] [ref=e578]
+                - generic [ref=e579]:
+                  - paragraph [ref=e580]:
+                    - generic [ref=e581]: Why
+                    - text: Entrenched lines and maximalist war aims make a clean within-year settlement a long shot.
+                  - paragraph [ref=e582]:
+                    - generic [ref=e583]: Easy read
+                    - text: Each diplomatic push made a 2025 end-of-war look plausible to the consensus.
+              - generic [ref=e584]:
+                - generic [ref=e585]:
+                  - generic [ref=e586]: Vati’s call
+                  - generic [ref=e587]: 85%
+                - generic [ref=e590]:
+                  - img [ref=e591]
+                  - text: Resolved YES · Dec 2025
+                - generic [ref=e593]: Leak-free. Model knew nothing past 2024
+          - group "7 / 8" [ref=e594] [cursor=pointer]:
+            - generic [ref=e595]:
+              - generic [ref=e596]:
+                - list [ref=e598]:
+                  - listitem [ref=e599]:
+                    - generic [ref=e600]: Politics
+                - heading "Zohran Mamdani wins a majority in the NYC mayoral vote" [level=3] [ref=e601]
+                - generic [ref=e602]:
+                  - paragraph [ref=e603]:
+                    - generic [ref=e604]: Why
+                    - text: A consolidated left field plus a turnout edge in a deep-blue city compounds toward a majority.
+                  - paragraph [ref=e605]:
+                    - generic [ref=e606]: Easy read
+                    - text: An outright democratic-socialist majority looked like a stretch to most observers.
+              - generic [ref=e607]:
+                - generic [ref=e608]:
+                  - generic [ref=e609]: Vati’s call
+                  - generic [ref=e610]: 73%
+                - generic [ref=e613]:
+                  - img [ref=e614]
+                  - text: Resolved YES · Nov 2025
+                - generic [ref=e616]: Leak-free. Model knew nothing past 2023
+          - group "8 / 8" [ref=e617] [cursor=pointer]:
+            - generic [ref=e618]:
+              - generic [ref=e619]:
+                - list [ref=e621]:
+                  - listitem [ref=e622]:
+                    - generic [ref=e623]: Business
+                - heading "OpenAI moves off its non-profit governance by end of 2025" [level=3] [ref=e624]
+                - generic [ref=e625]:
+                  - paragraph [ref=e626]:
+                    - generic [ref=e627]: Why
+                    - text: Frontier-scale capital needs collide with the non-profit cap. Structure bends toward the money.
+                  - paragraph [ref=e628]:
+                    - generic [ref=e629]: Easy read
+                    - text: The mission-bound non-profit framing made a governance change look unlikely so soon.
+              - generic [ref=e630]:
+                - generic [ref=e631]:
+                  - generic [ref=e632]: Vati’s call
+                  - generic [ref=e633]: 78%
+                - generic [ref=e636]:
+                  - img [ref=e637]
+                  - text: Resolved YES · 2025
+                - generic [ref=e639]: Leak-free. Model knew nothing past 2024
+        - generic [ref=e651]:
+          - generic [ref=e652]:
+            - link "View benchmarks" [ref=e654] [cursor=pointer]:
+              - /url: "#benchmarks"
+              - generic [ref=e655]: View benchmarks
+            - generic [ref=e656]: View benchmarks
+          - generic [ref=e657]:
+            - generic [ref=e658]: Get in touch
+            - img [ref=e659]
+            - generic [ref=e662]:
+              - link "Get in touch" [ref=e663] [cursor=pointer]:
+                - /url: "#"
+                - generic [ref=e664]: Get in touch
+              - button "Get in touch" [ref=e665] [cursor=pointer]:
+                - generic [ref=e666]: Get in touch
+      - generic [ref=e672]:
+        - heading "Our Mission" [level=2] [ref=e674]
+        - generic [ref=e675]:
+          - generic [ref=e676]:
+            - generic [ref=e677]: "01."
+            - generic [ref=e678] [cursor=pointer]:
+              - generic [ref=e679]: Find
+              - generic [ref=e680]: the binding constraint
+            - generic [ref=e681] [cursor=pointer]:
+              - generic [ref=e682]: before the market
+              - generic [ref=e683]: one layer beneath the headline, where an input quietly stops being elastic
+          - generic [ref=e684]:
+            - generic [ref=e685]: "02."
+            - generic [ref=e686]: to
+            - generic [ref=e687] [cursor=pointer]:
+              - generic [ref=e688]: prove it
+              - generic [ref=e689]: with a dated, falsifiable call and a Brier score at resolution
+            - generic [ref=e690] [cursor=pointer]:
+              - generic [ref=e691]: in public
+              - generic [ref=e692]: a sealed record anyone can audit
+      - generic [ref=e697]:
+        - generic [ref=e700]:
+          - img [ref=e701]
+          - heading "A new kind of foresight" [level=3] [ref=e715]
+          - paragraph [ref=e717]: Explore how Vati can add value to your organisation
+          - generic [ref=e719]:
+            - generic [ref=e720]:
+              - generic [ref=e721]:
+                - link "See the record" [ref=e722] [cursor=pointer]:
+                  - /url: "#research"
+                  - generic [ref=e723]: See the record
+                - button "See the record" [ref=e724] [cursor=pointer]:
+                  - generic [ref=e725]: See the record
+              - generic [ref=e726]: See the record
+            - generic [ref=e727]:
+              - generic [ref=e728]:
+                - link "Get in touch" [ref=e729] [cursor=pointer]:
+                  - /url: "#"
+                  - generic [ref=e730]: Get in touch
+                - button "Get in touch" [ref=e731] [cursor=pointer]:
+                  - generic [ref=e732]: Get in touch
+              - generic [ref=e733]: Get in touch
+        - generic [ref=e734]:
+          - list [ref=e735]:
+            - listitem [ref=e736]:
+              - link "v@vaticinus.com" [ref=e737] [cursor=pointer]:
+                - /url: mailto:v@vaticinus.com?subject=Hey!%20I%20have%20a%20question%E2%80%A6
+            - listitem [ref=e738]:
+              - link "Privacy Policy" [ref=e739] [cursor=pointer]:
+                - /url: /privacy-policy
+            - listitem [ref=e740]:
+              - link "Terms of Service" [ref=e741] [cursor=pointer]:
+                - /url: /terms-of-service
+          - generic [ref=e742]: An independent forecasting instrument.
+          - generic [ref=e743]: ©2026 Vaticinus. All rights reserved.
+  - alert [ref=e744]

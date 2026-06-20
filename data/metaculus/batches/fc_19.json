@@ -1,0 +1,16 @@
+[
+ {
+  "question_id": 30372,
+  "type": "date",
+  "percentiles": {
+   "0.05": "2031-01-01",
+   "0.1": "2033-01-01",
+   "0.25": "2036-01-01",
+   "0.5": "2040-01-01",
+   "0.75": "2047-01-01",
+   "0.9": "2058-01-01",
+   "0.95": "2066-01-01"
+  },
+  "reasoning": "Genuine Shor factoring on real hardware tops out at trivial numbers (21); RSA-2048 needs thousands of fault-tolerant logical qubits running for days, vs IBM's ~200-logical-qubit Starling targeted only for 2029 and Google's '1M qubits, ~a week, potentially by 2030' estimate. 2025-26 resource papers (Gidney <1M, Iceberg <100k) cut the bar sharply but are theoretical architectures, and quantum timelines historically slip, so first credible factorization most likely lands around 2040 with a long right tail."
+ }
+]

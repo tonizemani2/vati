@@ -1,0 +1,1374 @@
+{
+  "nodes": [
+    {
+      "id": "file:engine/feeds/relianceonscience.py",
+      "type": "file",
+      "name": "relianceonscience.py",
+      "filePath": "engine/feeds/relianceonscience.py",
+      "summary": "relianceonscience.py is a code asset in the forecasting engine. It contains 5 functions, 2 internal imports.",
+      "tags": [
+        "forecasting-engine",
+        "code",
+        "file",
+        "relianceonscience"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/feeds/relianceonscience.py:_sh",
+      "type": "function",
+      "name": "_sh",
+      "filePath": "engine/feeds/relianceonscience.py",
+      "lineRange": [
+        60,
+        63
+      ],
+      "summary": "Defines _sh in relianceonscience.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "relianceonscience"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/relianceonscience.py:prepare",
+      "type": "function",
+      "name": "prepare",
+      "filePath": "engine/feeds/relianceonscience.py",
+      "lineRange": [
+        66,
+        85
+      ],
+      "summary": "Defines prepare in relianceonscience.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "relianceonscience"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/relianceonscience.py:_paginate",
+      "type": "function",
+      "name": "_paginate",
+      "filePath": "engine/feeds/relianceonscience.py",
+      "lineRange": [
+        88,
+        104
+      ],
+      "summary": "Defines _paginate in relianceonscience.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "relianceonscience"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/relianceonscience.py:build",
+      "type": "function",
+      "name": "build",
+      "filePath": "engine/feeds/relianceonscience.py",
+      "lineRange": [
+        107,
+        145
+      ],
+      "summary": "Defines build in relianceonscience.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "relianceonscience"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/relianceonscience.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "engine/feeds/relianceonscience.py",
+      "lineRange": [
+        148,
+        159
+      ],
+      "summary": "Defines main in relianceonscience.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entry-point",
+        "relianceonscience"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:engine/feeds/resourcecontracts.py",
+      "type": "file",
+      "name": "resourcecontracts.py",
+      "filePath": "engine/feeds/resourcecontracts.py",
+      "summary": "resourcecontracts.py is a code asset in the forecasting engine. It contains 12 functions.",
+      "tags": [
+        "forecasting-engine",
+        "code",
+        "file",
+        "resourcecontracts"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:engine/feeds/resourcecontracts.py:_today",
+      "type": "function",
+      "name": "_today",
+      "filePath": "engine/feeds/resourcecontracts.py",
+      "lineRange": [
+        41,
+        42
+      ],
+      "summary": "Defines _today in resourcecontracts.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "resourcecontracts"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/resourcecontracts.py:_write_jsonl_atomic",
+      "type": "function",
+      "name": "_write_jsonl_atomic",
+      "filePath": "engine/feeds/resourcecontracts.py",
+      "lineRange": [
+        45,
+        51
+      ],
+      "summary": "Defines _write_jsonl_atomic in resourcecontracts.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "resourcecontracts"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/resourcecontracts.py:_fetch_json",
+      "type": "function",
+      "name": "_fetch_json",
+      "filePath": "engine/feeds/resourcecontracts.py",
+      "lineRange": [
+        54,
+        60
+      ],
+      "summary": "Defines _fetch_json in resourcecontracts.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-access",
+        "resourcecontracts"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/resourcecontracts.py:_group_url",
+      "type": "function",
+      "name": "_group_url",
+      "filePath": "engine/feeds/resourcecontracts.py",
+      "lineRange": [
+        63,
+        74
+      ],
+      "summary": "Defines _group_url in resourcecontracts.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "resourcecontracts"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/resourcecontracts.py:_metadata_url",
+      "type": "function",
+      "name": "_metadata_url",
+      "filePath": "engine/feeds/resourcecontracts.py",
+      "lineRange": [
+        77,
+        78
+      ],
+      "summary": "Defines _metadata_url in resourcecontracts.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "resourcecontracts"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/resourcecontracts.py:_date",
+      "type": "function",
+      "name": "_date",
+      "filePath": "engine/feeds/resourcecontracts.py",
+      "lineRange": [
+        81,
+        88
+      ],
+      "summary": "Defines _date in resourcecontracts.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "resourcecontracts"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/resourcecontracts.py:_year_end",
+      "type": "function",
+      "name": "_year_end",
+      "filePath": "engine/feeds/resourcecontracts.py",
+      "lineRange": [
+        91,
+        98
+      ],
+      "summary": "Defines _year_end in resourcecontracts.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "resourcecontracts"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/resourcecontracts.py:_names",
+      "type": "function",
+      "name": "_names",
+      "filePath": "engine/feeds/resourcecontracts.py",
+      "lineRange": [
+        101,
+        112
+      ],
+      "summary": "Defines _names in resourcecontracts.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "resourcecontracts"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/resourcecontracts.py:_company_names",
+      "type": "function",
+      "name": "_company_names",
+      "filePath": "engine/feeds/resourcecontracts.py",
+      "lineRange": [
+        115,
+        123
+      ],
+      "summary": "Defines _company_names in resourcecontracts.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "resourcecontracts"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/resourcecontracts.py:_file_urls",
+      "type": "function",
+      "name": "_file_urls",
+      "filePath": "engine/feeds/resourcecontracts.py",
+      "lineRange": [
+        126,
+        138
+      ],
+      "summary": "Defines _file_urls in resourcecontracts.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "resourcecontracts"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/resourcecontracts.py:_row_from_metadata",
+      "type": "function",
+      "name": "_row_from_metadata",
+      "filePath": "engine/feeds/resourcecontracts.py",
+      "lineRange": [
+        141,
+        202
+      ],
+      "summary": "Defines _row_from_metadata in resourcecontracts.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "resourcecontracts"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/feeds/resourcecontracts.py:collect",
+      "type": "function",
+      "name": "collect",
+      "filePath": "engine/feeds/resourcecontracts.py",
+      "lineRange": [
+        205,
+        243
+      ],
+      "summary": "Defines collect in resourcecontracts.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "resourcecontracts"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:engine/feeds/us_permitting_dashboard.py",
+      "type": "file",
+      "name": "us_permitting_dashboard.py",
+      "filePath": "engine/feeds/us_permitting_dashboard.py",
+      "summary": "us_permitting_dashboard.py is a code asset in the forecasting engine. It contains 15 functions.",
+      "tags": [
+        "forecasting-engine",
+        "code",
+        "file",
+        "us-permitting-dashboard"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:engine/feeds/us_permitting_dashboard.py:_write_jsonl_atomic",
+      "type": "function",
+      "name": "_write_jsonl_atomic",
+      "filePath": "engine/feeds/us_permitting_dashboard.py",
+      "lineRange": [
+        32,
+        38
+      ],
+      "summary": "Defines _write_jsonl_atomic in us_permitting_dashboard.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "us-permitting-dashboard"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/us_permitting_dashboard.py:_fetch_rows",
+      "type": "function",
+      "name": "_fetch_rows",
+      "filePath": "engine/feeds/us_permitting_dashboard.py",
+      "lineRange": [
+        41,
+        61
+      ],
+      "summary": "Defines _fetch_rows in us_permitting_dashboard.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-access",
+        "us-permitting-dashboard"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/us_permitting_dashboard.py:_text",
+      "type": "function",
+      "name": "_text",
+      "filePath": "engine/feeds/us_permitting_dashboard.py",
+      "lineRange": [
+        64,
+        68
+      ],
+      "summary": "Defines _text in us_permitting_dashboard.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "us-permitting-dashboard"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/us_permitting_dashboard.py:_iso_date",
+      "type": "function",
+      "name": "_iso_date",
+      "filePath": "engine/feeds/us_permitting_dashboard.py",
+      "lineRange": [
+        71,
+        77
+      ],
+      "summary": "Defines _iso_date in us_permitting_dashboard.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "us-permitting-dashboard"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/us_permitting_dashboard.py:_state_date",
+      "type": "function",
+      "name": "_state_date",
+      "filePath": "engine/feeds/us_permitting_dashboard.py",
+      "lineRange": [
+        80,
+        81
+      ],
+      "summary": "Defines _state_date in us_permitting_dashboard.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "us-permitting-dashboard"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/us_permitting_dashboard.py:_number",
+      "type": "function",
+      "name": "_number",
+      "filePath": "engine/feeds/us_permitting_dashboard.py",
+      "lineRange": [
+        84,
+        93
+      ],
+      "summary": "Defines _number in us_permitting_dashboard.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "us-permitting-dashboard"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/us_permitting_dashboard.py:_bool",
+      "type": "function",
+      "name": "_bool",
+      "filePath": "engine/feeds/us_permitting_dashboard.py",
+      "lineRange": [
+        96,
+        99
+      ],
+      "summary": "Defines _bool in us_permitting_dashboard.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "us-permitting-dashboard"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/us_permitting_dashboard.py:_project_key",
+      "type": "function",
+      "name": "_project_key",
+      "filePath": "engine/feeds/us_permitting_dashboard.py",
+      "lineRange": [
+        102,
+        104
+      ],
+      "summary": "Defines _project_key in us_permitting_dashboard.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "us-permitting-dashboard"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/us_permitting_dashboard.py:_action_key",
+      "type": "function",
+      "name": "_action_key",
+      "filePath": "engine/feeds/us_permitting_dashboard.py",
+      "lineRange": [
+        107,
+        109
+      ],
+      "summary": "Defines _action_key in us_permitting_dashboard.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "us-permitting-dashboard"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/us_permitting_dashboard.py:_latest_row",
+      "type": "function",
+      "name": "_latest_row",
+      "filePath": "engine/feeds/us_permitting_dashboard.py",
+      "lineRange": [
+        112,
+        117
+      ],
+      "summary": "Defines _latest_row in us_permitting_dashboard.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "us-permitting-dashboard"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/us_permitting_dashboard.py:_project_row",
+      "type": "function",
+      "name": "_project_row",
+      "filePath": "engine/feeds/us_permitting_dashboard.py",
+      "lineRange": [
+        120,
+        163
+      ],
+      "summary": "Defines _project_row in us_permitting_dashboard.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "us-permitting-dashboard"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/us_permitting_dashboard.py:_milestone_date",
+      "type": "function",
+      "name": "_milestone_date",
+      "filePath": "engine/feeds/us_permitting_dashboard.py",
+      "lineRange": [
+        166,
+        172
+      ],
+      "summary": "Defines _milestone_date in us_permitting_dashboard.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "us-permitting-dashboard"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/us_permitting_dashboard.py:_action_row",
+      "type": "function",
+      "name": "_action_row",
+      "filePath": "engine/feeds/us_permitting_dashboard.py",
+      "lineRange": [
+        175,
+        219
+      ],
+      "summary": "Defines _action_row in us_permitting_dashboard.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "us-permitting-dashboard"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/us_permitting_dashboard.py:normalize_rows",
+      "type": "function",
+      "name": "normalize_rows",
+      "filePath": "engine/feeds/us_permitting_dashboard.py",
+      "lineRange": [
+        222,
+        255
+      ],
+      "summary": "Defines normalize_rows in us_permitting_dashboard.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "us-permitting-dashboard"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/us_permitting_dashboard.py:collect",
+      "type": "function",
+      "name": "collect",
+      "filePath": "engine/feeds/us_permitting_dashboard.py",
+      "lineRange": [
+        258,
+        271
+      ],
+      "summary": "Defines collect in us_permitting_dashboard.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "us-permitting-dashboard"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:engine/feeds/relianceonscience.py",
+      "target": "function:engine/feeds/relianceonscience.py:_sh",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/relianceonscience.py",
+      "target": "function:engine/feeds/relianceonscience.py:_sh",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/relianceonscience.py",
+      "target": "function:engine/feeds/relianceonscience.py:prepare",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/relianceonscience.py",
+      "target": "function:engine/feeds/relianceonscience.py:prepare",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/relianceonscience.py",
+      "target": "function:engine/feeds/relianceonscience.py:_paginate",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/relianceonscience.py",
+      "target": "function:engine/feeds/relianceonscience.py:_paginate",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/relianceonscience.py",
+      "target": "function:engine/feeds/relianceonscience.py:build",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/relianceonscience.py",
+      "target": "function:engine/feeds/relianceonscience.py:build",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/relianceonscience.py",
+      "target": "function:engine/feeds/relianceonscience.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/relianceonscience.py",
+      "target": "function:engine/feeds/relianceonscience.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/resourcecontracts.py",
+      "target": "function:engine/feeds/resourcecontracts.py:_today",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/resourcecontracts.py",
+      "target": "function:engine/feeds/resourcecontracts.py:_today",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/resourcecontracts.py",
+      "target": "function:engine/feeds/resourcecontracts.py:_write_jsonl_atomic",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/resourcecontracts.py",
+      "target": "function:engine/feeds/resourcecontracts.py:_write_jsonl_atomic",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/resourcecontracts.py",
+      "target": "function:engine/feeds/resourcecontracts.py:_fetch_json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/resourcecontracts.py",
+      "target": "function:engine/feeds/resourcecontracts.py:_fetch_json",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/resourcecontracts.py",
+      "target": "function:engine/feeds/resourcecontracts.py:_group_url",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/resourcecontracts.py",
+      "target": "function:engine/feeds/resourcecontracts.py:_group_url",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/resourcecontracts.py",
+      "target": "function:engine/feeds/resourcecontracts.py:_metadata_url",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/resourcecontracts.py",
+      "target": "function:engine/feeds/resourcecontracts.py:_metadata_url",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/resourcecontracts.py",
+      "target": "function:engine/feeds/resourcecontracts.py:_date",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/resourcecontracts.py",
+      "target": "function:engine/feeds/resourcecontracts.py:_date",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/resourcecontracts.py",
+      "target": "function:engine/feeds/resourcecontracts.py:_year_end",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/resourcecontracts.py",
+      "target": "function:engine/feeds/resourcecontracts.py:_year_end",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/resourcecontracts.py",
+      "target": "function:engine/feeds/resourcecontracts.py:_names",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/resourcecontracts.py",
+      "target": "function:engine/feeds/resourcecontracts.py:_names",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/resourcecontracts.py",
+      "target": "function:engine/feeds/resourcecontracts.py:_company_names",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/resourcecontracts.py",
+      "target": "function:engine/feeds/resourcecontracts.py:_company_names",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/resourcecontracts.py",
+      "target": "function:engine/feeds/resourcecontracts.py:_file_urls",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/resourcecontracts.py",
+      "target": "function:engine/feeds/resourcecontracts.py:_file_urls",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/resourcecontracts.py",
+      "target": "function:engine/feeds/resourcecontracts.py:_row_from_metadata",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/resourcecontracts.py",
+      "target": "function:engine/feeds/resourcecontracts.py:_row_from_metadata",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/resourcecontracts.py",
+      "target": "function:engine/feeds/resourcecontracts.py:collect",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/resourcecontracts.py",
+      "target": "function:engine/feeds/resourcecontracts.py:collect",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/us_permitting_dashboard.py",
+      "target": "function:engine/feeds/us_permitting_dashboard.py:_write_jsonl_atomic",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/us_permitting_dashboard.py",
+      "target": "function:engine/feeds/us_permitting_dashboard.py:_write_jsonl_atomic",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/us_permitting_dashboard.py",
+      "target": "function:engine/feeds/us_permitting_dashboard.py:_fetch_rows",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/us_permitting_dashboard.py",
+      "target": "function:engine/feeds/us_permitting_dashboard.py:_fetch_rows",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/us_permitting_dashboard.py",
+      "target": "function:engine/feeds/us_permitting_dashboard.py:_text",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/us_permitting_dashboard.py",
+      "target": "function:engine/feeds/us_permitting_dashboard.py:_text",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/us_permitting_dashboard.py",
+      "target": "function:engine/feeds/us_permitting_dashboard.py:_iso_date",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/us_permitting_dashboard.py",
+      "target": "function:engine/feeds/us_permitting_dashboard.py:_iso_date",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/us_permitting_dashboard.py",
+      "target": "function:engine/feeds/us_permitting_dashboard.py:_state_date",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/us_permitting_dashboard.py",
+      "target": "function:engine/feeds/us_permitting_dashboard.py:_state_date",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/us_permitting_dashboard.py",
+      "target": "function:engine/feeds/us_permitting_dashboard.py:_number",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/us_permitting_dashboard.py",
+      "target": "function:engine/feeds/us_permitting_dashboard.py:_number",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/us_permitting_dashboard.py",
+      "target": "function:engine/feeds/us_permitting_dashboard.py:_bool",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/us_permitting_dashboard.py",
+      "target": "function:engine/feeds/us_permitting_dashboard.py:_bool",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/us_permitting_dashboard.py",
+      "target": "function:engine/feeds/us_permitting_dashboard.py:_project_key",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/us_permitting_dashboard.py",
+      "target": "function:engine/feeds/us_permitting_dashboard.py:_project_key",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/us_permitting_dashboard.py",
+      "target": "function:engine/feeds/us_permitting_dashboard.py:_action_key",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/us_permitting_dashboard.py",
+      "target": "function:engine/feeds/us_permitting_dashboard.py:_action_key",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/us_permitting_dashboard.py",
+      "target": "function:engine/feeds/us_permitting_dashboard.py:_latest_row",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/us_permitting_dashboard.py",
+      "target": "function:engine/feeds/us_permitting_dashboard.py:_latest_row",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/us_permitting_dashboard.py",
+      "target": "function:engine/feeds/us_permitting_dashboard.py:_project_row",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/us_permitting_dashboard.py",
+      "target": "function:engine/feeds/us_permitting_dashboard.py:_project_row",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/us_permitting_dashboard.py",
+      "target": "function:engine/feeds/us_permitting_dashboard.py:_milestone_date",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/us_permitting_dashboard.py",
+      "target": "function:engine/feeds/us_permitting_dashboard.py:_milestone_date",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/us_permitting_dashboard.py",
+      "target": "function:engine/feeds/us_permitting_dashboard.py:_action_row",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/us_permitting_dashboard.py",
+      "target": "function:engine/feeds/us_permitting_dashboard.py:_action_row",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/us_permitting_dashboard.py",
+      "target": "function:engine/feeds/us_permitting_dashboard.py:normalize_rows",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/us_permitting_dashboard.py",
+      "target": "function:engine/feeds/us_permitting_dashboard.py:normalize_rows",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/us_permitting_dashboard.py",
+      "target": "function:engine/feeds/us_permitting_dashboard.py:collect",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/us_permitting_dashboard.py",
+      "target": "function:engine/feeds/us_permitting_dashboard.py:collect",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/relianceonscience.py",
+      "target": "file:engine/feeds/__init__.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/feeds/relianceonscience.py",
+      "target": "file:engine/feeds/athena.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "function:engine/feeds/relianceonscience.py:prepare",
+      "target": "function:engine/feeds/relianceonscience.py:_sh",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/relianceonscience.py:build",
+      "target": "function:engine/feeds/relianceonscience.py:_paginate",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/relianceonscience.py:build",
+      "target": "function:engine/feeds/relianceonscience.py:_sh",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/relianceonscience.py:main",
+      "target": "function:engine/feeds/relianceonscience.py:prepare",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/relianceonscience.py:main",
+      "target": "function:engine/feeds/relianceonscience.py:build",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/resourcecontracts.py:_row_from_metadata",
+      "target": "function:engine/feeds/resourcecontracts.py:_date",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/resourcecontracts.py:_row_from_metadata",
+      "target": "function:engine/feeds/resourcecontracts.py:_year_end",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/resourcecontracts.py:_row_from_metadata",
+      "target": "function:engine/feeds/resourcecontracts.py:_today",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/resourcecontracts.py:_row_from_metadata",
+      "target": "function:engine/feeds/resourcecontracts.py:_names",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/resourcecontracts.py:_row_from_metadata",
+      "target": "function:engine/feeds/resourcecontracts.py:_company_names",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/resourcecontracts.py:_row_from_metadata",
+      "target": "function:engine/feeds/resourcecontracts.py:_metadata_url",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/resourcecontracts.py:_row_from_metadata",
+      "target": "function:engine/feeds/resourcecontracts.py:_file_urls",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/resourcecontracts.py:collect",
+      "target": "function:engine/feeds/resourcecontracts.py:_fetch_json",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/resourcecontracts.py:collect",
+      "target": "function:engine/feeds/resourcecontracts.py:_group_url",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/resourcecontracts.py:collect",
+      "target": "function:engine/feeds/resourcecontracts.py:_metadata_url",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/resourcecontracts.py:collect",
+      "target": "function:engine/feeds/resourcecontracts.py:_row_from_metadata",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/resourcecontracts.py:collect",
+      "target": "function:engine/feeds/resourcecontracts.py:_write_jsonl_atomic",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/us_permitting_dashboard.py:_state_date",
+      "target": "function:engine/feeds/us_permitting_dashboard.py:_iso_date",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/us_permitting_dashboard.py:_project_key",
+      "target": "function:engine/feeds/us_permitting_dashboard.py:_text",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/us_permitting_dashboard.py:_action_key",
+      "target": "function:engine/feeds/us_permitting_dashboard.py:_text",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/us_permitting_dashboard.py:_latest_row",
+      "target": "function:engine/feeds/us_permitting_dashboard.py:_state_date",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/us_permitting_dashboard.py:_project_row",
+      "target": "function:engine/feeds/us_permitting_dashboard.py:_project_key",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/us_permitting_dashboard.py:_project_row",
+      "target": "function:engine/feeds/us_permitting_dashboard.py:_text",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/us_permitting_dashboard.py:_project_row",
+      "target": "function:engine/feeds/us_permitting_dashboard.py:_state_date",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/us_permitting_dashboard.py:_project_row",
+      "target": "function:engine/feeds/us_permitting_dashboard.py:_number",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/us_permitting_dashboard.py:_project_row",
+      "target": "function:engine/feeds/us_permitting_dashboard.py:_bool",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/us_permitting_dashboard.py:_milestone_date",
+      "target": "function:engine/feeds/us_permitting_dashboard.py:_iso_date",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/us_permitting_dashboard.py:_action_row",
+      "target": "function:engine/feeds/us_permitting_dashboard.py:_action_key",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/us_permitting_dashboard.py:_action_row",
+      "target": "function:engine/feeds/us_permitting_dashboard.py:_project_key",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/us_permitting_dashboard.py:_action_row",
+      "target": "function:engine/feeds/us_permitting_dashboard.py:_text",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/us_permitting_dashboard.py:_action_row",
+      "target": "function:engine/feeds/us_permitting_dashboard.py:_state_date",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/us_permitting_dashboard.py:_action_row",
+      "target": "function:engine/feeds/us_permitting_dashboard.py:_milestone_date",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/us_permitting_dashboard.py:_action_row",
+      "target": "function:engine/feeds/us_permitting_dashboard.py:_bool",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/us_permitting_dashboard.py:normalize_rows",
+      "target": "function:engine/feeds/us_permitting_dashboard.py:_project_key",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/us_permitting_dashboard.py:normalize_rows",
+      "target": "function:engine/feeds/us_permitting_dashboard.py:_latest_row",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/us_permitting_dashboard.py:normalize_rows",
+      "target": "function:engine/feeds/us_permitting_dashboard.py:_action_key",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/us_permitting_dashboard.py:normalize_rows",
+      "target": "function:engine/feeds/us_permitting_dashboard.py:_bool",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/us_permitting_dashboard.py:normalize_rows",
+      "target": "function:engine/feeds/us_permitting_dashboard.py:_milestone_date",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/us_permitting_dashboard.py:normalize_rows",
+      "target": "function:engine/feeds/us_permitting_dashboard.py:_state_date",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/us_permitting_dashboard.py:normalize_rows",
+      "target": "function:engine/feeds/us_permitting_dashboard.py:_text",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/us_permitting_dashboard.py:normalize_rows",
+      "target": "function:engine/feeds/us_permitting_dashboard.py:_project_row",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/us_permitting_dashboard.py:normalize_rows",
+      "target": "function:engine/feeds/us_permitting_dashboard.py:_action_row",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/us_permitting_dashboard.py:collect",
+      "target": "function:engine/feeds/us_permitting_dashboard.py:_fetch_rows",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/us_permitting_dashboard.py:collect",
+      "target": "function:engine/feeds/us_permitting_dashboard.py:normalize_rows",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/us_permitting_dashboard.py:collect",
+      "target": "function:engine/feeds/us_permitting_dashboard.py:_write_jsonl_atomic",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

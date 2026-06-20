@@ -1,0 +1,1814 @@
+{
+  "nodes": [
+    {
+      "id": "file:engine/pillars/frontier.py",
+      "type": "file",
+      "name": "frontier.py",
+      "filePath": "engine/pillars/frontier.py",
+      "summary": "frontier.py is a code asset in the forecasting engine. It contains 28 functions, 3 internal imports.",
+      "tags": [
+        "forecasting-engine",
+        "code",
+        "file",
+        "frontier"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:engine/pillars/frontier.py:_get_json",
+      "type": "function",
+      "name": "_get_json",
+      "filePath": "engine/pillars/frontier.py",
+      "lineRange": [
+        123,
+        126
+      ],
+      "summary": "Defines _get_json in frontier.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "frontier"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/pillars/frontier.py:_get_text",
+      "type": "function",
+      "name": "_get_text",
+      "filePath": "engine/pillars/frontier.py",
+      "lineRange": [
+        129,
+        132
+      ],
+      "summary": "Defines _get_text in frontier.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "frontier"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/pillars/frontier.py:_post_json",
+      "type": "function",
+      "name": "_post_json",
+      "filePath": "engine/pillars/frontier.py",
+      "lineRange": [
+        135,
+        144
+      ],
+      "summary": "Defines _post_json in frontier.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "frontier"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/pillars/frontier.py:resolve_concept",
+      "type": "function",
+      "name": "resolve_concept",
+      "filePath": "engine/pillars/frontier.py",
+      "lineRange": [
+        150,
+        164
+      ],
+      "summary": "Defines resolve_concept in frontier.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "frontier"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/pillars/frontier.py:works_by_year",
+      "type": "function",
+      "name": "works_by_year",
+      "filePath": "engine/pillars/frontier.py",
+      "lineRange": [
+        167,
+        179
+      ],
+      "summary": "Defines works_by_year in frontier.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "frontier"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/pillars/frontier.py:_content_hash",
+      "type": "function",
+      "name": "_content_hash",
+      "filePath": "engine/pillars/frontier.py",
+      "lineRange": [
+        185,
+        186
+      ],
+      "summary": "Defines _content_hash in frontier.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "frontier"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/pillars/frontier.py:_upsert_source",
+      "type": "function",
+      "name": "_upsert_source",
+      "filePath": "engine/pillars/frontier.py",
+      "lineRange": [
+        189,
+        208
+      ],
+      "summary": "Defines _upsert_source in frontier.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "frontier"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/pillars/frontier.py:_upsert_series",
+      "type": "function",
+      "name": "_upsert_series",
+      "filePath": "engine/pillars/frontier.py",
+      "lineRange": [
+        211,
+        228
+      ],
+      "summary": "Defines _upsert_series in frontier.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "frontier"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/pillars/frontier.py:_upsert_observation",
+      "type": "function",
+      "name": "_upsert_observation",
+      "filePath": "engine/pillars/frontier.py",
+      "lineRange": [
+        231,
+        239
+      ],
+      "summary": "Defines _upsert_observation in frontier.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "frontier"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/pillars/frontier.py:_log_cost",
+      "type": "function",
+      "name": "_log_cost",
+      "filePath": "engine/pillars/frontier.py",
+      "lineRange": [
+        242,
+        251
+      ],
+      "summary": "Defines _log_cost in frontier.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "frontier"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/pillars/frontier.py:collect_openalex",
+      "type": "function",
+      "name": "collect_openalex",
+      "filePath": "engine/pillars/frontier.py",
+      "lineRange": [
+        257,
+        328
+      ],
+      "summary": "Defines collect_openalex in frontier.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "frontier"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/pillars/frontier.py:_field_simpson",
+      "type": "function",
+      "name": "_field_simpson",
+      "filePath": "engine/pillars/frontier.py",
+      "lineRange": [
+        343,
+        359
+      ],
+      "summary": "Defines _field_simpson in frontier.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "frontier"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/pillars/frontier.py:collect_diffusion",
+      "type": "function",
+      "name": "collect_diffusion",
+      "filePath": "engine/pillars/frontier.py",
+      "lineRange": [
+        362,
+        424
+      ],
+      "summary": "Defines collect_diffusion in frontier.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "frontier"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/pillars/frontier.py:_arxiv_total",
+      "type": "function",
+      "name": "_arxiv_total",
+      "filePath": "engine/pillars/frontier.py",
+      "lineRange": [
+        436,
+        444
+      ],
+      "summary": "Defines _arxiv_total in frontier.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "frontier"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/pillars/frontier.py:collect_arxiv",
+      "type": "function",
+      "name": "collect_arxiv",
+      "filePath": "engine/pillars/frontier.py",
+      "lineRange": [
+        447,
+        485
+      ],
+      "summary": "Defines collect_arxiv in frontier.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "frontier"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/pillars/frontier.py:_gpatents_count",
+      "type": "function",
+      "name": "_gpatents_count",
+      "filePath": "engine/pillars/frontier.py",
+      "lineRange": [
+        521,
+        550
+      ],
+      "summary": "Defines _gpatents_count in frontier.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "frontier"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/pillars/frontier.py:collect_patents",
+      "type": "function",
+      "name": "collect_patents",
+      "filePath": "engine/pillars/frontier.py",
+      "lineRange": [
+        553,
+        617
+      ],
+      "summary": "Defines collect_patents in frontier.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "frontier"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/pillars/frontier.py:_s2_get",
+      "type": "function",
+      "name": "_s2_get",
+      "filePath": "engine/pillars/frontier.py",
+      "lineRange": [
+        652,
+        673
+      ],
+      "summary": "Defines _s2_get in frontier.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "frontier"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/pillars/frontier.py:_s2_seminal",
+      "type": "function",
+      "name": "_s2_seminal",
+      "filePath": "engine/pillars/frontier.py",
+      "lineRange": [
+        676,
+        693
+      ],
+      "summary": "Defines _s2_seminal in frontier.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "frontier"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/pillars/frontier.py:_s2_citations_by_year",
+      "type": "function",
+      "name": "_s2_citations_by_year",
+      "filePath": "engine/pillars/frontier.py",
+      "lineRange": [
+        696,
+        714
+      ],
+      "summary": "Defines _s2_citations_by_year in frontier.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "frontier"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/pillars/frontier.py:collect_citation_velocity",
+      "type": "function",
+      "name": "collect_citation_velocity",
+      "filePath": "engine/pillars/frontier.py",
+      "lineRange": [
+        717,
+        782
+      ],
+      "summary": "Defines collect_citation_velocity in frontier.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "frontier"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/pillars/frontier.py:_nih_count",
+      "type": "function",
+      "name": "_nih_count",
+      "filePath": "engine/pillars/frontier.py",
+      "lineRange": [
+        799,
+        819
+      ],
+      "summary": "Defines _nih_count in frontier.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "frontier"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/pillars/frontier.py:collect_grants",
+      "type": "function",
+      "name": "collect_grants",
+      "filePath": "engine/pillars/frontier.py",
+      "lineRange": [
+        822,
+        865
+      ],
+      "summary": "Defines collect_grants in frontier.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "frontier"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/pillars/frontier.py:_epoch_year",
+      "type": "function",
+      "name": "_epoch_year",
+      "filePath": "engine/pillars/frontier.py",
+      "lineRange": [
+        875,
+        877
+      ],
+      "summary": "Defines _epoch_year in frontier.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "frontier"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/pillars/frontier.py:_epoch_flop",
+      "type": "function",
+      "name": "_epoch_flop",
+      "filePath": "engine/pillars/frontier.py",
+      "lineRange": [
+        880,
+        887
+      ],
+      "summary": "Defines _epoch_flop in frontier.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "frontier"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/pillars/frontier.py:collect_benchmarks",
+      "type": "function",
+      "name": "collect_benchmarks",
+      "filePath": "engine/pillars/frontier.py",
+      "lineRange": [
+        890,
+        949
+      ],
+      "summary": "Defines collect_benchmarks in frontier.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "frontier"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/pillars/frontier.py:add_control_series",
+      "type": "function",
+      "name": "add_control_series",
+      "filePath": "engine/pillars/frontier.py",
+      "lineRange": [
+        952,
+        973
+      ],
+      "summary": "Defines add_control_series in frontier.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "frontier"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/pillars/frontier.py:collect",
+      "type": "function",
+      "name": "collect",
+      "filePath": "engine/pillars/frontier.py",
+      "lineRange": [
+        976,
+        1001
+      ],
+      "summary": "Defines collect in frontier.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "frontier"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:engine/pillars/metals.py",
+      "type": "file",
+      "name": "metals.py",
+      "filePath": "engine/pillars/metals.py",
+      "summary": "metals.py is a code asset in the forecasting engine. It contains 1 function, 5 internal imports.",
+      "tags": [
+        "forecasting-engine",
+        "code",
+        "file",
+        "metals"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/pillars/metals.py:collect",
+      "type": "function",
+      "name": "collect",
+      "filePath": "engine/pillars/metals.py",
+      "lineRange": [
+        81,
+        142
+      ],
+      "summary": "Defines collect in metals.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "metals"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:engine/pillars/policy.py",
+      "type": "file",
+      "name": "policy.py",
+      "filePath": "engine/pillars/policy.py",
+      "summary": "policy.py is a code asset in the forecasting engine. It contains 2 functions, 4 internal imports.",
+      "tags": [
+        "forecasting-engine",
+        "code",
+        "file",
+        "policy"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/pillars/policy.py:_doc_count",
+      "type": "function",
+      "name": "_doc_count",
+      "filePath": "engine/pillars/policy.py",
+      "lineRange": [
+        39,
+        56
+      ],
+      "summary": "Defines _doc_count in policy.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "policy"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/pillars/policy.py:collect",
+      "type": "function",
+      "name": "collect",
+      "filePath": "engine/pillars/policy.py",
+      "lineRange": [
+        59,
+        118
+      ],
+      "summary": "Defines collect in policy.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "policy"
+      ],
+      "complexity": "moderate"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:engine/pillars/frontier.py",
+      "target": "function:engine/pillars/frontier.py:_get_json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/pillars/frontier.py",
+      "target": "function:engine/pillars/frontier.py:_get_json",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pillars/frontier.py",
+      "target": "function:engine/pillars/frontier.py:_get_text",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/pillars/frontier.py",
+      "target": "function:engine/pillars/frontier.py:_get_text",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pillars/frontier.py",
+      "target": "function:engine/pillars/frontier.py:_post_json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/pillars/frontier.py",
+      "target": "function:engine/pillars/frontier.py:_post_json",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pillars/frontier.py",
+      "target": "function:engine/pillars/frontier.py:resolve_concept",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/pillars/frontier.py",
+      "target": "function:engine/pillars/frontier.py:resolve_concept",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pillars/frontier.py",
+      "target": "function:engine/pillars/frontier.py:works_by_year",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/pillars/frontier.py",
+      "target": "function:engine/pillars/frontier.py:works_by_year",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pillars/frontier.py",
+      "target": "function:engine/pillars/frontier.py:_content_hash",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/pillars/frontier.py",
+      "target": "function:engine/pillars/frontier.py:_content_hash",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pillars/frontier.py",
+      "target": "function:engine/pillars/frontier.py:_upsert_source",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/pillars/frontier.py",
+      "target": "function:engine/pillars/frontier.py:_upsert_source",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pillars/frontier.py",
+      "target": "function:engine/pillars/frontier.py:_upsert_series",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/pillars/frontier.py",
+      "target": "function:engine/pillars/frontier.py:_upsert_series",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pillars/frontier.py",
+      "target": "function:engine/pillars/frontier.py:_upsert_observation",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/pillars/frontier.py",
+      "target": "function:engine/pillars/frontier.py:_upsert_observation",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pillars/frontier.py",
+      "target": "function:engine/pillars/frontier.py:_log_cost",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/pillars/frontier.py",
+      "target": "function:engine/pillars/frontier.py:_log_cost",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pillars/frontier.py",
+      "target": "function:engine/pillars/frontier.py:collect_openalex",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/pillars/frontier.py",
+      "target": "function:engine/pillars/frontier.py:collect_openalex",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pillars/frontier.py",
+      "target": "function:engine/pillars/frontier.py:_field_simpson",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/pillars/frontier.py",
+      "target": "function:engine/pillars/frontier.py:_field_simpson",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pillars/frontier.py",
+      "target": "function:engine/pillars/frontier.py:collect_diffusion",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/pillars/frontier.py",
+      "target": "function:engine/pillars/frontier.py:collect_diffusion",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pillars/frontier.py",
+      "target": "function:engine/pillars/frontier.py:_arxiv_total",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/pillars/frontier.py",
+      "target": "function:engine/pillars/frontier.py:_arxiv_total",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pillars/frontier.py",
+      "target": "function:engine/pillars/frontier.py:collect_arxiv",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/pillars/frontier.py",
+      "target": "function:engine/pillars/frontier.py:collect_arxiv",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pillars/frontier.py",
+      "target": "function:engine/pillars/frontier.py:_gpatents_count",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/pillars/frontier.py",
+      "target": "function:engine/pillars/frontier.py:_gpatents_count",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pillars/frontier.py",
+      "target": "function:engine/pillars/frontier.py:collect_patents",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/pillars/frontier.py",
+      "target": "function:engine/pillars/frontier.py:collect_patents",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pillars/frontier.py",
+      "target": "function:engine/pillars/frontier.py:_s2_get",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/pillars/frontier.py",
+      "target": "function:engine/pillars/frontier.py:_s2_get",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pillars/frontier.py",
+      "target": "function:engine/pillars/frontier.py:_s2_seminal",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/pillars/frontier.py",
+      "target": "function:engine/pillars/frontier.py:_s2_seminal",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pillars/frontier.py",
+      "target": "function:engine/pillars/frontier.py:_s2_citations_by_year",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/pillars/frontier.py",
+      "target": "function:engine/pillars/frontier.py:_s2_citations_by_year",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pillars/frontier.py",
+      "target": "function:engine/pillars/frontier.py:collect_citation_velocity",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/pillars/frontier.py",
+      "target": "function:engine/pillars/frontier.py:collect_citation_velocity",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pillars/frontier.py",
+      "target": "function:engine/pillars/frontier.py:_nih_count",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/pillars/frontier.py",
+      "target": "function:engine/pillars/frontier.py:_nih_count",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pillars/frontier.py",
+      "target": "function:engine/pillars/frontier.py:collect_grants",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/pillars/frontier.py",
+      "target": "function:engine/pillars/frontier.py:collect_grants",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pillars/frontier.py",
+      "target": "function:engine/pillars/frontier.py:_epoch_year",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/pillars/frontier.py",
+      "target": "function:engine/pillars/frontier.py:_epoch_year",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pillars/frontier.py",
+      "target": "function:engine/pillars/frontier.py:_epoch_flop",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/pillars/frontier.py",
+      "target": "function:engine/pillars/frontier.py:_epoch_flop",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pillars/frontier.py",
+      "target": "function:engine/pillars/frontier.py:collect_benchmarks",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/pillars/frontier.py",
+      "target": "function:engine/pillars/frontier.py:collect_benchmarks",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pillars/frontier.py",
+      "target": "function:engine/pillars/frontier.py:add_control_series",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/pillars/frontier.py",
+      "target": "function:engine/pillars/frontier.py:add_control_series",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pillars/frontier.py",
+      "target": "function:engine/pillars/frontier.py:collect",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/pillars/frontier.py",
+      "target": "function:engine/pillars/frontier.py:collect",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pillars/metals.py",
+      "target": "function:engine/pillars/metals.py:collect",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/pillars/metals.py",
+      "target": "function:engine/pillars/metals.py:collect",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pillars/policy.py",
+      "target": "function:engine/pillars/policy.py:_doc_count",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/pillars/policy.py",
+      "target": "function:engine/pillars/policy.py:_doc_count",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pillars/policy.py",
+      "target": "function:engine/pillars/policy.py:collect",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/pillars/policy.py",
+      "target": "function:engine/pillars/policy.py:collect",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pillars/frontier.py",
+      "target": "file:engine/__init__.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/pillars/frontier.py",
+      "target": "file:engine/db.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/pillars/frontier.py",
+      "target": "file:engine/schemas.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/pillars/metals.py",
+      "target": "file:engine/__init__.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/pillars/metals.py",
+      "target": "file:engine/db.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/pillars/metals.py",
+      "target": "file:engine/pillars/frontier.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/pillars/metals.py",
+      "target": "file:engine/pillars/power.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/pillars/metals.py",
+      "target": "file:engine/schemas.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/pillars/policy.py",
+      "target": "file:engine/__init__.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/pillars/policy.py",
+      "target": "file:engine/pillars/frontier.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/pillars/policy.py",
+      "target": "file:engine/schemas.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/pillars/policy.py",
+      "target": "file:engine/store.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "function:engine/pillars/frontier.py:resolve_concept",
+      "target": "function:engine/pillars/frontier.py:_get_json",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/frontier.py:works_by_year",
+      "target": "function:engine/pillars/frontier.py:_get_json",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/frontier.py:_log_cost",
+      "target": "class:engine/schemas.py:CostLedgerEntry",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/frontier.py:collect_openalex",
+      "target": "function:engine/pillars/frontier.py:resolve_concept",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/frontier.py:collect_openalex",
+      "target": "function:engine/pillars/frontier.py:works_by_year",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/frontier.py:collect_openalex",
+      "target": "class:engine/schemas.py:Source",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/frontier.py:collect_openalex",
+      "target": "function:engine/pillars/frontier.py:_content_hash",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/frontier.py:collect_openalex",
+      "target": "function:engine/pillars/frontier.py:_upsert_source",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/frontier.py:collect_openalex",
+      "target": "class:engine/schemas.py:Series",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/frontier.py:collect_openalex",
+      "target": "function:engine/pillars/frontier.py:_upsert_series",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/frontier.py:collect_openalex",
+      "target": "class:engine/schemas.py:Observation",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/frontier.py:collect_openalex",
+      "target": "function:engine/pillars/frontier.py:_upsert_observation",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/frontier.py:collect_openalex",
+      "target": "function:engine/pillars/frontier.py:_log_cost",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/frontier.py:_field_simpson",
+      "target": "function:engine/pillars/frontier.py:_get_json",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/frontier.py:collect_diffusion",
+      "target": "function:engine/pillars/frontier.py:_field_simpson",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/frontier.py:collect_diffusion",
+      "target": "class:engine/schemas.py:Source",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/frontier.py:collect_diffusion",
+      "target": "function:engine/pillars/frontier.py:_content_hash",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/frontier.py:collect_diffusion",
+      "target": "function:engine/pillars/frontier.py:_upsert_source",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/frontier.py:collect_diffusion",
+      "target": "class:engine/schemas.py:Series",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/frontier.py:collect_diffusion",
+      "target": "function:engine/pillars/frontier.py:_upsert_series",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/frontier.py:collect_diffusion",
+      "target": "function:engine/pillars/frontier.py:_upsert_observation",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/frontier.py:collect_diffusion",
+      "target": "class:engine/schemas.py:Observation",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/frontier.py:collect_diffusion",
+      "target": "function:engine/pillars/frontier.py:_log_cost",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/frontier.py:_arxiv_total",
+      "target": "function:engine/pillars/frontier.py:_get_text",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/frontier.py:collect_arxiv",
+      "target": "function:engine/schemas.py:_now",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/frontier.py:collect_arxiv",
+      "target": "function:engine/pillars/frontier.py:_arxiv_total",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/frontier.py:collect_arxiv",
+      "target": "class:engine/schemas.py:Source",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/frontier.py:collect_arxiv",
+      "target": "function:engine/pillars/frontier.py:_content_hash",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/frontier.py:collect_arxiv",
+      "target": "function:engine/pillars/frontier.py:_upsert_source",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/frontier.py:collect_arxiv",
+      "target": "class:engine/schemas.py:Series",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/frontier.py:collect_arxiv",
+      "target": "function:engine/pillars/frontier.py:_upsert_series",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/frontier.py:collect_arxiv",
+      "target": "function:engine/pillars/frontier.py:_upsert_observation",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/frontier.py:collect_arxiv",
+      "target": "class:engine/schemas.py:Observation",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/frontier.py:collect_arxiv",
+      "target": "function:engine/pillars/frontier.py:_log_cost",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/frontier.py:collect_patents",
+      "target": "function:engine/pillars/frontier.py:_log_cost",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/frontier.py:collect_patents",
+      "target": "function:engine/pillars/frontier.py:_gpatents_count",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/frontier.py:collect_patents",
+      "target": "class:engine/schemas.py:Source",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/frontier.py:collect_patents",
+      "target": "function:engine/pillars/frontier.py:_content_hash",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/frontier.py:collect_patents",
+      "target": "function:engine/pillars/frontier.py:_upsert_source",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/frontier.py:collect_patents",
+      "target": "class:engine/schemas.py:Series",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/frontier.py:collect_patents",
+      "target": "function:engine/pillars/frontier.py:_upsert_series",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/frontier.py:collect_patents",
+      "target": "function:engine/pillars/frontier.py:_upsert_observation",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/frontier.py:collect_patents",
+      "target": "class:engine/schemas.py:Observation",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/frontier.py:_s2_seminal",
+      "target": "function:engine/pillars/frontier.py:_s2_get",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/frontier.py:_s2_citations_by_year",
+      "target": "function:engine/pillars/frontier.py:_s2_get",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/frontier.py:collect_citation_velocity",
+      "target": "function:engine/pillars/frontier.py:_log_cost",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/frontier.py:collect_citation_velocity",
+      "target": "function:engine/pillars/frontier.py:_s2_seminal",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/frontier.py:collect_citation_velocity",
+      "target": "function:engine/pillars/frontier.py:_s2_citations_by_year",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/frontier.py:collect_citation_velocity",
+      "target": "class:engine/schemas.py:Source",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/frontier.py:collect_citation_velocity",
+      "target": "function:engine/pillars/frontier.py:_content_hash",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/frontier.py:collect_citation_velocity",
+      "target": "function:engine/pillars/frontier.py:_upsert_source",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/frontier.py:collect_citation_velocity",
+      "target": "class:engine/schemas.py:Series",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/frontier.py:collect_citation_velocity",
+      "target": "function:engine/pillars/frontier.py:_upsert_series",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/frontier.py:collect_citation_velocity",
+      "target": "function:engine/pillars/frontier.py:_upsert_observation",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/frontier.py:collect_citation_velocity",
+      "target": "class:engine/schemas.py:Observation",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/frontier.py:_nih_count",
+      "target": "function:engine/pillars/frontier.py:_post_json",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/frontier.py:collect_grants",
+      "target": "function:engine/pillars/frontier.py:_log_cost",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/frontier.py:collect_grants",
+      "target": "function:engine/pillars/frontier.py:_nih_count",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/frontier.py:collect_grants",
+      "target": "class:engine/schemas.py:Source",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/frontier.py:collect_grants",
+      "target": "function:engine/pillars/frontier.py:_content_hash",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/frontier.py:collect_grants",
+      "target": "function:engine/pillars/frontier.py:_upsert_source",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/frontier.py:collect_grants",
+      "target": "class:engine/schemas.py:Series",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/frontier.py:collect_grants",
+      "target": "function:engine/pillars/frontier.py:_upsert_series",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/frontier.py:collect_grants",
+      "target": "function:engine/pillars/frontier.py:_upsert_observation",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/frontier.py:collect_grants",
+      "target": "class:engine/schemas.py:Observation",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/frontier.py:collect_benchmarks",
+      "target": "function:engine/pillars/frontier.py:_log_cost",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/frontier.py:collect_benchmarks",
+      "target": "function:engine/pillars/frontier.py:_get_text",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/frontier.py:collect_benchmarks",
+      "target": "function:engine/pillars/frontier.py:_epoch_year",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/frontier.py:collect_benchmarks",
+      "target": "function:engine/pillars/frontier.py:_epoch_flop",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/frontier.py:collect_benchmarks",
+      "target": "class:engine/schemas.py:Source",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/frontier.py:collect_benchmarks",
+      "target": "function:engine/pillars/frontier.py:_content_hash",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/frontier.py:collect_benchmarks",
+      "target": "function:engine/pillars/frontier.py:_upsert_source",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/frontier.py:collect_benchmarks",
+      "target": "class:engine/schemas.py:Series",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/frontier.py:collect_benchmarks",
+      "target": "function:engine/pillars/frontier.py:_upsert_series",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/frontier.py:collect_benchmarks",
+      "target": "function:engine/pillars/frontier.py:_upsert_observation",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/frontier.py:collect_benchmarks",
+      "target": "class:engine/schemas.py:Observation",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/frontier.py:add_control_series",
+      "target": "class:engine/schemas.py:Series",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/frontier.py:add_control_series",
+      "target": "function:engine/pillars/frontier.py:_upsert_series",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/frontier.py:add_control_series",
+      "target": "function:engine/pillars/frontier.py:_upsert_observation",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/frontier.py:add_control_series",
+      "target": "class:engine/schemas.py:Observation",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/frontier.py:collect",
+      "target": "function:engine/pillars/frontier.py:collect_openalex",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/frontier.py:collect",
+      "target": "function:engine/pillars/frontier.py:collect_patents",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/frontier.py:collect",
+      "target": "function:engine/pillars/frontier.py:collect_grants",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/frontier.py:collect",
+      "target": "function:engine/pillars/frontier.py:collect_benchmarks",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/frontier.py:collect",
+      "target": "function:engine/pillars/frontier.py:collect_arxiv",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/frontier.py:collect",
+      "target": "function:engine/pillars/frontier.py:add_control_series",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/metals.py:collect",
+      "target": "function:engine/pillars/power.py:_fred_annual",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/metals.py:collect",
+      "target": "class:engine/schemas.py:Source",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/metals.py:collect",
+      "target": "function:engine/pillars/frontier.py:_content_hash",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/metals.py:collect",
+      "target": "function:engine/pillars/frontier.py:_upsert_source",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/metals.py:collect",
+      "target": "class:engine/schemas.py:Series",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/metals.py:collect",
+      "target": "function:engine/pillars/frontier.py:_upsert_series",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/metals.py:collect",
+      "target": "function:engine/pillars/frontier.py:_upsert_observation",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/metals.py:collect",
+      "target": "class:engine/schemas.py:Observation",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/metals.py:collect",
+      "target": "function:engine/pillars/frontier.py:_log_cost",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/policy.py:collect",
+      "target": "function:engine/pillars/frontier.py:_log_cost",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/policy.py:collect",
+      "target": "function:engine/pillars/policy.py:_doc_count",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/policy.py:collect",
+      "target": "class:engine/schemas.py:Source",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/policy.py:collect",
+      "target": "function:engine/pillars/frontier.py:_content_hash",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/policy.py:collect",
+      "target": "function:engine/pillars/frontier.py:_upsert_source",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/policy.py:collect",
+      "target": "class:engine/schemas.py:Series",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/policy.py:collect",
+      "target": "function:engine/pillars/frontier.py:_upsert_series",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/policy.py:collect",
+      "target": "class:engine/schemas.py:Observation",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

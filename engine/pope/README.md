@@ -17,11 +17,36 @@ render a professional PDF. Built to be run many times.
   [2] GATE+REFUTE   one adversary per candidate: price-channel check, supply-elasticity
       │             test, try to prove it's already priced, score TWO probabilities
       ▼
-  [3] SYNTHESIZE    pick top-K, cross-cutting read, emit a renderable spec (JSON)
+[3] SYNTHESIZE    pick top-K, cross-cutting read, emit a renderable spec (JSON)
       │
       ▼
-  render.py  ──►  <slug>.html  +  <slug>.pdf   (deterministic, headless Chrome)
+  [4] IMPLICATIONS  turn each surviving call into a buyer-facing decision object:
+                  exposure · action now · decision changed · ROI logic · winners/losers
+      │
+      ▼
+   render.py  ──►  <slug>.html  +  <slug>.pdf   (deterministic, headless Chrome)
 ```
+
+## Pope Ultra: from forecast to operating dossier
+
+Pope Mega stops at a buyer-facing board. Pope Ultra goes one layer deeper:
+permits, dockets, projects, companies, universities, labs, people, public contact
+paths, budget/action templates, verification status, and monitoring tasks.
+
+It is deterministic and conservative: it does not invent named facts. It turns
+unknowns into tasks with source requirements and truth floors.
+
+```
+python3 -m engine.pope.ultra research/pope/after-ai-2026-06-17.json \
+  --out-dir research/pope/after-ai-2026-06-17.ultra
+```
+
+Outputs:
+
+- `ultra.json` - structured source of truth.
+- `ultra.md` - human-readable operating dossier.
+- `task_queue.csv` - flattened verification and execution tasks.
+- `contacts_seed.csv` - public-contact research tasks, not guessed contact data.
 
 `.claude/workflows/pope.js` is steps 1-3 (the multi-agent engine).
 `engine/pope/render.py` is the deterministic spec -> PDF step.
@@ -77,14 +102,66 @@ is the only real asset. A 50% that resolves 50% of the time beats an 80% that do
     "metric": "...",            // dated leading metric to track
     "kill": "...",              // what falsifies it
     "refute": "...",            // why it survived the adversary (optional)
-    "why": "..."                // why this call over the obvious alternative
+    "why": "...",               // why this call over the obvious alternative
+    "implications": {           // forecast-grade "so what" if the call resolves true
+      "exposed": "...",         // buyer/stakeholder who should care now
+      "action_now": "...",      // concrete action to consider before consensus catches up
+      "decision_changed": "...",// capex/procurement/portfolio/hedge/policy/research decision altered
+      "roi_logic": "...",       // why acting early is worth money or avoided loss
+      "rent_path": "...",       // where the value actually lands; named, not "the industry"
+      "winners": [{"who": "...", "why": "..."}],  // named beneficiaries + the mechanism
+      "losers":  [{"who": "...", "why": "..."}],  // named parties disintermediated / repriced down
+      "reprices": "...",        // the specific instrument/contract that moves, and direction
+      "next_constraint": "...", // the next binding constraint this creates (the spine continues)
+      "watch": "..."            // earliest observable, ideally dated, sign the cascade has begun
+    }
   }],
   "runner_ups": [{"seed": "...", "case": "...", "why_not": "..."}]
 }
 ```
 
+The `implications` block is produced by the Implications phase (one grounded pass per
+surviving call) and rendered as a distinct dark "if the call is right, here is what
+moves" panel in both the PDF (`render.py`) and the `/forecasts/` web page
+(`publish_site.py`). This is the commercial translation layer: who is exposed, what
+they might do now, which decision changes, and why the timing edge can matter in ROI
+terms. It is still commentary on consequences, not part of the scored claim; the
+scored fields stay `clause_p` + `resolves` + `kill`.
+
 Prose fields render with a tiny markdown subset: `**bold**` and `*italic*`.
 Output styling matches the research-note house style (`research/long-horizon-theses.pdf`).
+
+## Capture board contract (what capture_render.py consumes)
+
+`pope-capture` (the forecast→revenue layer) walks the data layer agentically (`data-query
+entities|depend|market` on each needle), drafts a value-capture brief per call, then runs an
+**adversarial money-path refute** per call (is the payer real/budgeted, the ask reachable, is there a
+cleaner buyer/instrument) that either hardens the plan or marks it `PASS`. Its output renders to a PDF
+via `python -m engine.pope.capture_render <board.json> <out_base>`:
+
+```jsonc
+{
+  "title": "...", "domain": "...", "date": "2026-06-19",
+  "synthesis": "the single best, most reachable opportunity and why",
+  "shortlist": [{"rank":1,"headline":"...","target_org":"...","first_move":"...",
+                 "value_mechanism":"...","expected_value":"...","effort":"low|medium|high"}],
+  "this_week": ["action 1", "..."],
+  "plans": [{
+    "headline":"...", "verdict":"PURSUE|PASS", "why":"...",
+    "targets":[{"org":"...","role":"...","person":"","care_about":"...","reach":"..."}],
+    "the_ask":"...", "value_mechanism":"...", "who_pays":"...", "our_angle":"...",
+    "proof_to_show":"...", "instrument":"...", "first_move":"...",
+    "checkpoints":["..."], "disqualifier":"...", "confidence":"low|medium|high",
+    "refute": {"money_path_holds":true, "refutation":"...", "fixes":"...",
+               "hardened_ask":"...", "realistic_ticket":"...",
+               "revised_verdict":"PURSUE|PASS", "revised_confidence":"medium"}
+  }]
+}
+```
+
+The renderer shows the refute as a distinct "adversarial money-path test" panel and uses the revised
+verdict/confidence where present. Same deterministic headless-Chrome pipeline as `render.py`, in the
+canonical indigo brand.
 
 ## Doctrine rails (inherited)
 
@@ -93,3 +170,5 @@ Output styling matches the research-note house style (`research/long-horizon-the
 - Forecasts are immutable: resolution date + kill-criterion fixed at creation;
   supersede, never edit; Brier at resolution.
 - Physical-primary, name the needle, check the price channel with a live anchor.
+- Buyer-facing, not merely interesting: every promoted call should translate into
+  exposure, action, decision, ROI/risk logic, and a first observable trigger.

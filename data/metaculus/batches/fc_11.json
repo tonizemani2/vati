@@ -1,0 +1,50 @@
+[
+ {
+  "question_id": 8636,
+  "type": "binary",
+  "prob": 0.12,
+  "reasoning": "Russia-NATO risk is elevated (drone incidents, air-raid sirens in NATO states, German military warnings, New START expired), but the 1000-deaths/yr-with-US-staying-out bar is hard: Article 5 makes most Russia-NATO clashes pull in the US, which would void the no-US-war condition. Over ~9 years a deliberate but US-limited Russia-vs-Baltic clash is plausible yet remains the tail case."
+ },
+ {
+  "question_id": 8638,
+  "type": "binary",
+  "prob": 0.7,
+  "reasoning": "Conditional on any offensive detonation occurring at all, the most salient first-use scenarios (Russian tactical use in Ukraine, an India-Pakistan exchange spilling onto non-nuclear neighbors, Israel-Iran) frequently put the impact on or near a non-nuclear state. Ukraine is the leading candidate, so a non-nuclear-state fatality is the likely (not certain) form."
+ },
+ {
+  "question_id": 8644,
+  "type": "binary",
+  "prob": 0.1,
+  "reasoning": "Of the three buckets (deliberate, inadvertent, accidental), inadvertent launch from a mistaken counterattack belief is historically the rarest actual cause; deliberate use dominates first-detonation scenarios. Conditional on a first detonation, inadvertent is a low-probability mechanism."
+ },
+ {
+  "question_id": 8645,
+  "type": "binary",
+  "prob": 0.1,
+  "reasoning": "Accidental/unauthorized detonation (safeguard failure, rogue actor) is a low-probability mechanism relative to a deliberate decision to use; modern PALs and procedures make accidental detonation the least likely first event. Deliberate remains the dominant residual."
+ },
+ {
+  "question_id": 8646,
+  "type": "binary",
+  "prob": 0.95,
+  "reasoning": "Conditional on >100 offensive detonations (a major nuclear war), a >=10% one-year drop in global goods trade is near-certain: even the 2009 financial crisis cut world merchandise trade ~20%+, and a large nuclear exchange would devastate ports, infrastructure, and economies far more."
+ },
+ {
+  "question_id": 8363,
+  "type": "binary",
+  "prob": 0.08,
+  "reasoning": "China-India relations are in a 2025-26 normalization/thaw with managed friction; both are nuclear and economically interdependent. Even the deadliest recent clash (Galwan 2020) killed ~24, far below the 1000/yr threshold, so a war-scale conflict by 2035 is a low-probability tail despite unresolved border disputes."
+ },
+ {
+  "question_id": 8373,
+  "type": "numeric",
+  "percentiles": {"0.05": 1, "0.1": 1, "0.25": 1, "0.5": 1, "0.75": 2, "0.9": 3, "0.95": 6},
+  "reasoning": "Conditional on at least one HEMP attack by 2030, the count is heavily right-skewed at 1: a HEMP attack would be an extraordinary escalation, almost certainly isolated, with multiple attacks implying an ongoing nuclear exchange. Median 1, with a thin tail to a handful."
+ },
+ {
+  "question_id": 8376,
+  "type": "numeric",
+  "percentiles": {"0.05": 0.0, "0.1": 0.0, "0.25": 0.05, "0.5": 0.2, "0.75": 0.45, "0.9": 0.7, "0.95": 0.85},
+  "reasoning": "Most plausible state detonation scenarios (single tactical/demonstration use, battlefield or military/silo targets) are not dense-city strikes, pulling the fraction low; but a full countervalue exchange would push much of the mass onto cities. Wide distribution centered around 0.2, spanning 0 to near 1."
+ }
+]

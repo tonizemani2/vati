@@ -1,0 +1,4 @@
+deepseek world graph dry_run_call_plan: plan=full calls=40 est=$0.4662 cache-miss
+out_dir: research/world_graph/after-ai-2026-06-17.deepseek-pro
+manifest: research/world_graph/after-ai-2026-06-17.deepseek-pro/RUN_MANIFEST.md
+dry-run only; add --execute after setting DEEPSEEK_API_KEY and cost approval.

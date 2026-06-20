@@ -68,7 +68,8 @@ class ExaClient:
         return self._token
 
     async def search(self, query: str, num_results: int = 10,
-                     client: httpx.AsyncClient | None = None) -> list[SearchResult]:
+                     client: httpx.AsyncClient | None = None,
+                     text_chars: int = 300) -> list[SearchResult]:
         own_client = client is None
         if own_client:
             client = httpx.AsyncClient(timeout=15, follow_redirects=True)
@@ -92,7 +93,7 @@ class ExaClient:
                 results.append(SearchResult(
                     title=item.get("title", ""),
                     url=item.get("url", ""),
-                    snippet=item.get("text", "")[:300] if item.get("text") else "",
+                    snippet=item.get("text", "")[:text_chars] if item.get("text") else "",
                     source="exa",
                 ))
             return results

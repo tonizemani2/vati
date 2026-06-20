@@ -1,0 +1,1584 @@
+{
+  "nodes": [
+    {
+      "id": "file:engine/feeds/openfda_drugsfda.py",
+      "type": "file",
+      "name": "openfda_drugsfda.py",
+      "filePath": "engine/feeds/openfda_drugsfda.py",
+      "summary": "openfda_drugsfda.py is a code asset in the forecasting engine. It contains 10 functions.",
+      "tags": [
+        "forecasting-engine",
+        "code",
+        "file",
+        "openfda-drugsfda"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:engine/feeds/openfda_drugsfda.py:_existing_line_count",
+      "type": "function",
+      "name": "_existing_line_count",
+      "filePath": "engine/feeds/openfda_drugsfda.py",
+      "lineRange": [
+        74,
+        78
+      ],
+      "summary": "Defines _existing_line_count in openfda_drugsfda.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "openfda-drugsfda"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/openfda_drugsfda.py:_write_jsonl_atomic",
+      "type": "function",
+      "name": "_write_jsonl_atomic",
+      "filePath": "engine/feeds/openfda_drugsfda.py",
+      "lineRange": [
+        81,
+        87
+      ],
+      "summary": "Defines _write_jsonl_atomic in openfda_drugsfda.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "openfda-drugsfda"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/openfda_drugsfda.py:_fetch_json",
+      "type": "function",
+      "name": "_fetch_json",
+      "filePath": "engine/feeds/openfda_drugsfda.py",
+      "lineRange": [
+        90,
+        101
+      ],
+      "summary": "Defines _fetch_json in openfda_drugsfda.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-access",
+        "openfda-drugsfda"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/openfda_drugsfda.py:fetch_topic",
+      "type": "function",
+      "name": "fetch_topic",
+      "filePath": "engine/feeds/openfda_drugsfda.py",
+      "lineRange": [
+        104,
+        122
+      ],
+      "summary": "Defines fetch_topic in openfda_drugsfda.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-access",
+        "openfda-drugsfda"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/openfda_drugsfda.py:_date",
+      "type": "function",
+      "name": "_date",
+      "filePath": "engine/feeds/openfda_drugsfda.py",
+      "lineRange": [
+        125,
+        131
+      ],
+      "summary": "Defines _date in openfda_drugsfda.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "openfda-drugsfda"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/openfda_drugsfda.py:_product_names",
+      "type": "function",
+      "name": "_product_names",
+      "filePath": "engine/feeds/openfda_drugsfda.py",
+      "lineRange": [
+        134,
+        142
+      ],
+      "summary": "Defines _product_names in openfda_drugsfda.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "openfda-drugsfda"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/openfda_drugsfda.py:_submission_stub",
+      "type": "function",
+      "name": "_submission_stub",
+      "filePath": "engine/feeds/openfda_drugsfda.py",
+      "lineRange": [
+        145,
+        162
+      ],
+      "summary": "Defines _submission_stub in openfda_drugsfda.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "openfda-drugsfda"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/openfda_drugsfda.py:_examples",
+      "type": "function",
+      "name": "_examples",
+      "filePath": "engine/feeds/openfda_drugsfda.py",
+      "lineRange": [
+        165,
+        166
+      ],
+      "summary": "Defines _examples in openfda_drugsfda.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "openfda-drugsfda"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/openfda_drugsfda.py:normalize",
+      "type": "function",
+      "name": "normalize",
+      "filePath": "engine/feeds/openfda_drugsfda.py",
+      "lineRange": [
+        169,
+        251
+      ],
+      "summary": "Defines normalize in openfda_drugsfda.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "openfda-drugsfda"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/feeds/openfda_drugsfda.py:collect",
+      "type": "function",
+      "name": "collect",
+      "filePath": "engine/feeds/openfda_drugsfda.py",
+      "lineRange": [
+        254,
+        279
+      ],
+      "summary": "Defines collect in openfda_drugsfda.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "openfda-drugsfda"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:engine/feeds/owid.py",
+      "type": "file",
+      "name": "owid.py",
+      "filePath": "engine/feeds/owid.py",
+      "summary": "owid.py is a code asset in the forecasting engine. It contains 5 functions, 1 internal import.",
+      "tags": [
+        "forecasting-engine",
+        "code",
+        "file",
+        "owid"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/feeds/owid.py:_get_text",
+      "type": "function",
+      "name": "_get_text",
+      "filePath": "engine/feeds/owid.py",
+      "lineRange": [
+        97,
+        100
+      ],
+      "summary": "Defines _get_text in owid.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "owid"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/owid.py:_fetch_series",
+      "type": "function",
+      "name": "_fetch_series",
+      "filePath": "engine/feeds/owid.py",
+      "lineRange": [
+        103,
+        132
+      ],
+      "summary": "Defines _fetch_series in owid.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-access",
+        "owid"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/owid.py:_fetch_capability_curve",
+      "type": "function",
+      "name": "_fetch_capability_curve",
+      "filePath": "engine/feeds/owid.py",
+      "lineRange": [
+        135,
+        171
+      ],
+      "summary": "Defines _fetch_capability_curve in owid.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-access",
+        "owid"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/owid.py:collect",
+      "type": "function",
+      "name": "collect",
+      "filePath": "engine/feeds/owid.py",
+      "lineRange": [
+        174,
+        189
+      ],
+      "summary": "Defines collect in owid.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "owid"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/owid.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "engine/feeds/owid.py",
+      "lineRange": [
+        192,
+        201
+      ],
+      "summary": "Defines main in owid.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entry-point",
+        "owid"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:engine/feeds/patentsview.py",
+      "type": "file",
+      "name": "patentsview.py",
+      "filePath": "engine/feeds/patentsview.py",
+      "summary": "patentsview.py is a code asset in the forecasting engine. It contains 5 functions.",
+      "tags": [
+        "forecasting-engine",
+        "code",
+        "file",
+        "patentsview"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/feeds/patentsview.py:_build_query",
+      "type": "function",
+      "name": "_build_query",
+      "filePath": "engine/feeds/patentsview.py",
+      "lineRange": [
+        61,
+        73
+      ],
+      "summary": "Defines _build_query in patentsview.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "data-access",
+        "patentsview"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/patentsview.py:_probe_keyless",
+      "type": "function",
+      "name": "_probe_keyless",
+      "filePath": "engine/feeds/patentsview.py",
+      "lineRange": [
+        76,
+        96
+      ],
+      "summary": "Defines _probe_keyless in patentsview.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "patentsview"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/patentsview.py:_bucket_yearly",
+      "type": "function",
+      "name": "_bucket_yearly",
+      "filePath": "engine/feeds/patentsview.py",
+      "lineRange": [
+        99,
+        108
+      ],
+      "summary": "Defines _bucket_yearly in patentsview.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "patentsview"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/patentsview.py:_write_status",
+      "type": "function",
+      "name": "_write_status",
+      "filePath": "engine/feeds/patentsview.py",
+      "lineRange": [
+        111,
+        124
+      ],
+      "summary": "Defines _write_status in patentsview.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "patentsview"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/patentsview.py:collect",
+      "type": "function",
+      "name": "collect",
+      "filePath": "engine/feeds/patentsview.py",
+      "lineRange": [
+        127,
+        181
+      ],
+      "summary": "Defines collect in patentsview.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "patentsview"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:engine/feeds/pubmed.py",
+      "type": "file",
+      "name": "pubmed.py",
+      "filePath": "engine/feeds/pubmed.py",
+      "summary": "pubmed.py is a code asset in the forecasting engine. It contains 4 functions.",
+      "tags": [
+        "forecasting-engine",
+        "code",
+        "file",
+        "pubmed"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/feeds/pubmed.py:_write_jsonl_atomic",
+      "type": "function",
+      "name": "_write_jsonl_atomic",
+      "filePath": "engine/feeds/pubmed.py",
+      "lineRange": [
+        43,
+        49
+      ],
+      "summary": "Defines _write_jsonl_atomic in pubmed.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "pubmed"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/pubmed.py:_fetch_count",
+      "type": "function",
+      "name": "_fetch_count",
+      "filePath": "engine/feeds/pubmed.py",
+      "lineRange": [
+        52,
+        75
+      ],
+      "summary": "Defines _fetch_count in pubmed.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-access",
+        "pubmed"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/pubmed.py:normalize_topic",
+      "type": "function",
+      "name": "normalize_topic",
+      "filePath": "engine/feeds/pubmed.py",
+      "lineRange": [
+        78,
+        96
+      ],
+      "summary": "Defines normalize_topic in pubmed.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "pubmed"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/pubmed.py:collect",
+      "type": "function",
+      "name": "collect",
+      "filePath": "engine/feeds/pubmed.py",
+      "lineRange": [
+        99,
+        123
+      ],
+      "summary": "Defines collect in pubmed.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "pubmed"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:engine/feeds/semantic_scholar.py",
+      "type": "file",
+      "name": "semantic_scholar.py",
+      "filePath": "engine/feeds/semantic_scholar.py",
+      "summary": "semantic_scholar.py is a code asset in the forecasting engine. It contains 8 functions, 2 internal imports.",
+      "tags": [
+        "forecasting-engine",
+        "code",
+        "file",
+        "semantic-scholar"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/feeds/semantic_scholar.py:_fetch_json",
+      "type": "function",
+      "name": "_fetch_json",
+      "filePath": "engine/feeds/semantic_scholar.py",
+      "lineRange": [
+        28,
+        31
+      ],
+      "summary": "Defines _fetch_json in semantic_scholar.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-access",
+        "semantic-scholar"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/semantic_scholar.py:_parse_scaled_count",
+      "type": "function",
+      "name": "_parse_scaled_count",
+      "filePath": "engine/feeds/semantic_scholar.py",
+      "lineRange": [
+        34,
+        46
+      ],
+      "summary": "Defines _parse_scaled_count in semantic_scholar.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "semantic-scholar"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/semantic_scholar.py:_parse_file_count",
+      "type": "function",
+      "name": "_parse_file_count",
+      "filePath": "engine/feeds/semantic_scholar.py",
+      "lineRange": [
+        49,
+        54
+      ],
+      "summary": "Defines _parse_file_count in semantic_scholar.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "semantic-scholar"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/semantic_scholar.py:_row",
+      "type": "function",
+      "name": "_row",
+      "filePath": "engine/feeds/semantic_scholar.py",
+      "lineRange": [
+        57,
+        76
+      ],
+      "summary": "Defines _row in semantic_scholar.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "semantic-scholar"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/semantic_scholar.py:normalize_release",
+      "type": "function",
+      "name": "normalize_release",
+      "filePath": "engine/feeds/semantic_scholar.py",
+      "lineRange": [
+        79,
+        131
+      ],
+      "summary": "Defines normalize_release in semantic_scholar.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "semantic-scholar"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/feeds/semantic_scholar.py:collect",
+      "type": "function",
+      "name": "collect",
+      "filePath": "engine/feeds/semantic_scholar.py",
+      "lineRange": [
+        134,
+        152
+      ],
+      "summary": "Defines collect in semantic_scholar.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "semantic-scholar"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/semantic_scholar.py:probe_dataset_files",
+      "type": "function",
+      "name": "probe_dataset_files",
+      "filePath": "engine/feeds/semantic_scholar.py",
+      "lineRange": [
+        155,
+        167
+      ],
+      "summary": "Defines probe_dataset_files in semantic_scholar.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "semantic-scholar"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/semantic_scholar.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "engine/feeds/semantic_scholar.py",
+      "lineRange": [
+        170,
+        180
+      ],
+      "summary": "Defines main in semantic_scholar.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entry-point",
+        "semantic-scholar"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:engine/feeds/un_comtrade.py",
+      "type": "file",
+      "name": "un_comtrade.py",
+      "filePath": "engine/feeds/un_comtrade.py",
+      "summary": "un_comtrade.py is a code asset in the forecasting engine. It contains 6 functions, 2 internal imports.",
+      "tags": [
+        "forecasting-engine",
+        "code",
+        "file",
+        "un-comtrade"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/feeds/un_comtrade.py:_row_key",
+      "type": "function",
+      "name": "_row_key",
+      "filePath": "engine/feeds/un_comtrade.py",
+      "lineRange": [
+        24,
+        25
+      ],
+      "summary": "Defines _row_key in un_comtrade.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "un-comtrade"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/un_comtrade.py:_existing_rows",
+      "type": "function",
+      "name": "_existing_rows",
+      "filePath": "engine/feeds/un_comtrade.py",
+      "lineRange": [
+        28,
+        42
+      ],
+      "summary": "Defines _existing_rows in un_comtrade.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "un-comtrade"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/un_comtrade.py:_merge_rows",
+      "type": "function",
+      "name": "_merge_rows",
+      "filePath": "engine/feeds/un_comtrade.py",
+      "lineRange": [
+        45,
+        51
+      ],
+      "summary": "Defines _merge_rows in un_comtrade.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "un-comtrade"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/un_comtrade.py:_write_rows",
+      "type": "function",
+      "name": "_write_rows",
+      "filePath": "engine/feeds/un_comtrade.py",
+      "lineRange": [
+        54,
+        60
+      ],
+      "summary": "Defines _write_rows in un_comtrade.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "un-comtrade"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/un_comtrade.py:metric_rows",
+      "type": "function",
+      "name": "metric_rows",
+      "filePath": "engine/feeds/un_comtrade.py",
+      "lineRange": [
+        63,
+        93
+      ],
+      "summary": "Defines metric_rows in un_comtrade.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "un-comtrade"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/un_comtrade.py:collect",
+      "type": "function",
+      "name": "collect",
+      "filePath": "engine/feeds/un_comtrade.py",
+      "lineRange": [
+        96,
+        133
+      ],
+      "summary": "Defines collect in un_comtrade.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "un-comtrade"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:engine/feeds/openfda_drugsfda.py",
+      "target": "function:engine/feeds/openfda_drugsfda.py:_existing_line_count",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/openfda_drugsfda.py",
+      "target": "function:engine/feeds/openfda_drugsfda.py:_existing_line_count",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/openfda_drugsfda.py",
+      "target": "function:engine/feeds/openfda_drugsfda.py:_write_jsonl_atomic",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/openfda_drugsfda.py",
+      "target": "function:engine/feeds/openfda_drugsfda.py:_write_jsonl_atomic",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/openfda_drugsfda.py",
+      "target": "function:engine/feeds/openfda_drugsfda.py:_fetch_json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/openfda_drugsfda.py",
+      "target": "function:engine/feeds/openfda_drugsfda.py:_fetch_json",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/openfda_drugsfda.py",
+      "target": "function:engine/feeds/openfda_drugsfda.py:fetch_topic",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/openfda_drugsfda.py",
+      "target": "function:engine/feeds/openfda_drugsfda.py:fetch_topic",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/openfda_drugsfda.py",
+      "target": "function:engine/feeds/openfda_drugsfda.py:_date",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/openfda_drugsfda.py",
+      "target": "function:engine/feeds/openfda_drugsfda.py:_date",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/openfda_drugsfda.py",
+      "target": "function:engine/feeds/openfda_drugsfda.py:_product_names",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/openfda_drugsfda.py",
+      "target": "function:engine/feeds/openfda_drugsfda.py:_product_names",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/openfda_drugsfda.py",
+      "target": "function:engine/feeds/openfda_drugsfda.py:_submission_stub",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/openfda_drugsfda.py",
+      "target": "function:engine/feeds/openfda_drugsfda.py:_submission_stub",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/openfda_drugsfda.py",
+      "target": "function:engine/feeds/openfda_drugsfda.py:_examples",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/openfda_drugsfda.py",
+      "target": "function:engine/feeds/openfda_drugsfda.py:_examples",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/openfda_drugsfda.py",
+      "target": "function:engine/feeds/openfda_drugsfda.py:normalize",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/openfda_drugsfda.py",
+      "target": "function:engine/feeds/openfda_drugsfda.py:normalize",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/openfda_drugsfda.py",
+      "target": "function:engine/feeds/openfda_drugsfda.py:collect",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/openfda_drugsfda.py",
+      "target": "function:engine/feeds/openfda_drugsfda.py:collect",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/owid.py",
+      "target": "function:engine/feeds/owid.py:_get_text",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/owid.py",
+      "target": "function:engine/feeds/owid.py:_get_text",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/owid.py",
+      "target": "function:engine/feeds/owid.py:_fetch_series",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/owid.py",
+      "target": "function:engine/feeds/owid.py:_fetch_series",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/owid.py",
+      "target": "function:engine/feeds/owid.py:_fetch_capability_curve",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/owid.py",
+      "target": "function:engine/feeds/owid.py:_fetch_capability_curve",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/owid.py",
+      "target": "function:engine/feeds/owid.py:collect",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/owid.py",
+      "target": "function:engine/feeds/owid.py:collect",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/owid.py",
+      "target": "function:engine/feeds/owid.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/owid.py",
+      "target": "function:engine/feeds/owid.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/patentsview.py",
+      "target": "function:engine/feeds/patentsview.py:_build_query",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/patentsview.py",
+      "target": "function:engine/feeds/patentsview.py:_build_query",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/patentsview.py",
+      "target": "function:engine/feeds/patentsview.py:_probe_keyless",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/patentsview.py",
+      "target": "function:engine/feeds/patentsview.py:_probe_keyless",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/patentsview.py",
+      "target": "function:engine/feeds/patentsview.py:_bucket_yearly",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/patentsview.py",
+      "target": "function:engine/feeds/patentsview.py:_bucket_yearly",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/patentsview.py",
+      "target": "function:engine/feeds/patentsview.py:_write_status",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/patentsview.py",
+      "target": "function:engine/feeds/patentsview.py:_write_status",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/patentsview.py",
+      "target": "function:engine/feeds/patentsview.py:collect",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/patentsview.py",
+      "target": "function:engine/feeds/patentsview.py:collect",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/pubmed.py",
+      "target": "function:engine/feeds/pubmed.py:_write_jsonl_atomic",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/pubmed.py",
+      "target": "function:engine/feeds/pubmed.py:_write_jsonl_atomic",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/pubmed.py",
+      "target": "function:engine/feeds/pubmed.py:_fetch_count",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/pubmed.py",
+      "target": "function:engine/feeds/pubmed.py:_fetch_count",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/pubmed.py",
+      "target": "function:engine/feeds/pubmed.py:normalize_topic",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/pubmed.py",
+      "target": "function:engine/feeds/pubmed.py:normalize_topic",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/pubmed.py",
+      "target": "function:engine/feeds/pubmed.py:collect",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/pubmed.py",
+      "target": "function:engine/feeds/pubmed.py:collect",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/semantic_scholar.py",
+      "target": "function:engine/feeds/semantic_scholar.py:_fetch_json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/semantic_scholar.py",
+      "target": "function:engine/feeds/semantic_scholar.py:_fetch_json",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/semantic_scholar.py",
+      "target": "function:engine/feeds/semantic_scholar.py:_parse_scaled_count",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/semantic_scholar.py",
+      "target": "function:engine/feeds/semantic_scholar.py:_parse_scaled_count",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/semantic_scholar.py",
+      "target": "function:engine/feeds/semantic_scholar.py:_parse_file_count",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/semantic_scholar.py",
+      "target": "function:engine/feeds/semantic_scholar.py:_parse_file_count",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/semantic_scholar.py",
+      "target": "function:engine/feeds/semantic_scholar.py:_row",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/semantic_scholar.py",
+      "target": "function:engine/feeds/semantic_scholar.py:_row",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/semantic_scholar.py",
+      "target": "function:engine/feeds/semantic_scholar.py:normalize_release",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/semantic_scholar.py",
+      "target": "function:engine/feeds/semantic_scholar.py:normalize_release",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/semantic_scholar.py",
+      "target": "function:engine/feeds/semantic_scholar.py:collect",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/semantic_scholar.py",
+      "target": "function:engine/feeds/semantic_scholar.py:collect",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/semantic_scholar.py",
+      "target": "function:engine/feeds/semantic_scholar.py:probe_dataset_files",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/semantic_scholar.py",
+      "target": "function:engine/feeds/semantic_scholar.py:probe_dataset_files",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/semantic_scholar.py",
+      "target": "function:engine/feeds/semantic_scholar.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/semantic_scholar.py",
+      "target": "function:engine/feeds/semantic_scholar.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/un_comtrade.py",
+      "target": "function:engine/feeds/un_comtrade.py:_row_key",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/un_comtrade.py",
+      "target": "function:engine/feeds/un_comtrade.py:_row_key",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/un_comtrade.py",
+      "target": "function:engine/feeds/un_comtrade.py:_existing_rows",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/un_comtrade.py",
+      "target": "function:engine/feeds/un_comtrade.py:_existing_rows",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/un_comtrade.py",
+      "target": "function:engine/feeds/un_comtrade.py:_merge_rows",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/un_comtrade.py",
+      "target": "function:engine/feeds/un_comtrade.py:_merge_rows",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/un_comtrade.py",
+      "target": "function:engine/feeds/un_comtrade.py:_write_rows",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/un_comtrade.py",
+      "target": "function:engine/feeds/un_comtrade.py:_write_rows",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/un_comtrade.py",
+      "target": "function:engine/feeds/un_comtrade.py:metric_rows",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/un_comtrade.py",
+      "target": "function:engine/feeds/un_comtrade.py:metric_rows",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/un_comtrade.py",
+      "target": "function:engine/feeds/un_comtrade.py:collect",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/un_comtrade.py",
+      "target": "function:engine/feeds/un_comtrade.py:collect",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/owid.py",
+      "target": "file:engine/pillars/capability.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/feeds/semantic_scholar.py",
+      "target": "file:engine/__init__.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/feeds/semantic_scholar.py",
+      "target": "file:engine/disk_guard.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/feeds/un_comtrade.py",
+      "target": "file:engine/pillars/__init__.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/feeds/un_comtrade.py",
+      "target": "file:engine/pillars/dependency.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "function:engine/feeds/openfda_drugsfda.py:fetch_topic",
+      "target": "function:engine/feeds/openfda_drugsfda.py:_fetch_json",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/openfda_drugsfda.py:_submission_stub",
+      "target": "function:engine/feeds/openfda_drugsfda.py:_product_names",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/openfda_drugsfda.py:_submission_stub",
+      "target": "function:engine/feeds/openfda_drugsfda.py:_date",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/openfda_drugsfda.py:normalize",
+      "target": "function:engine/feeds/openfda_drugsfda.py:_date",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/openfda_drugsfda.py:normalize",
+      "target": "function:engine/feeds/openfda_drugsfda.py:_submission_stub",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/openfda_drugsfda.py:normalize",
+      "target": "function:engine/feeds/openfda_drugsfda.py:_examples",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/openfda_drugsfda.py:normalize",
+      "target": "function:engine/feeds/openfda_drugsfda.py:_product_names",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/openfda_drugsfda.py:collect",
+      "target": "function:engine/feeds/openfda_drugsfda.py:fetch_topic",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/openfda_drugsfda.py:collect",
+      "target": "function:engine/feeds/openfda_drugsfda.py:normalize",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/openfda_drugsfda.py:collect",
+      "target": "function:engine/feeds/openfda_drugsfda.py:_existing_line_count",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/openfda_drugsfda.py:collect",
+      "target": "function:engine/feeds/openfda_drugsfda.py:_write_jsonl_atomic",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/owid.py:_fetch_series",
+      "target": "function:engine/feeds/owid.py:_get_text",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/owid.py:_fetch_capability_curve",
+      "target": "function:engine/feeds/owid.py:_get_text",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/owid.py:collect",
+      "target": "function:engine/feeds/owid.py:_fetch_series",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/owid.py:collect",
+      "target": "function:engine/feeds/owid.py:_fetch_capability_curve",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/owid.py:main",
+      "target": "function:engine/feeds/owid.py:collect",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/patentsview.py:_probe_keyless",
+      "target": "function:engine/feeds/patentsview.py:_build_query",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/patentsview.py:collect",
+      "target": "function:engine/feeds/patentsview.py:_probe_keyless",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/patentsview.py:collect",
+      "target": "function:engine/feeds/patentsview.py:_write_status",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/patentsview.py:collect",
+      "target": "function:engine/feeds/patentsview.py:_build_query",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/patentsview.py:collect",
+      "target": "function:engine/feeds/patentsview.py:_bucket_yearly",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/pubmed.py:collect",
+      "target": "function:engine/feeds/pubmed.py:_fetch_count",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/pubmed.py:collect",
+      "target": "function:engine/feeds/pubmed.py:normalize_topic",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/pubmed.py:collect",
+      "target": "function:engine/feeds/pubmed.py:_write_jsonl_atomic",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/semantic_scholar.py:normalize_release",
+      "target": "function:engine/feeds/semantic_scholar.py:_row",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/semantic_scholar.py:normalize_release",
+      "target": "function:engine/feeds/semantic_scholar.py:_parse_scaled_count",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/semantic_scholar.py:normalize_release",
+      "target": "function:engine/feeds/semantic_scholar.py:_parse_file_count",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/semantic_scholar.py:collect",
+      "target": "function:engine/feeds/semantic_scholar.py:_fetch_json",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/semantic_scholar.py:collect",
+      "target": "function:engine/feeds/semantic_scholar.py:normalize_release",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/semantic_scholar.py:probe_dataset_files",
+      "target": "function:engine/feeds/semantic_scholar.py:_fetch_json",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/semantic_scholar.py:main",
+      "target": "function:engine/feeds/semantic_scholar.py:probe_dataset_files",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/semantic_scholar.py:main",
+      "target": "function:engine/feeds/semantic_scholar.py:collect",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/un_comtrade.py:_existing_rows",
+      "target": "function:engine/feeds/un_comtrade.py:_row_key",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/un_comtrade.py:_merge_rows",
+      "target": "function:engine/feeds/un_comtrade.py:_row_key",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/un_comtrade.py:collect",
+      "target": "function:engine/feeds/un_comtrade.py:metric_rows",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/un_comtrade.py:collect",
+      "target": "function:engine/feeds/un_comtrade.py:_existing_rows",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/un_comtrade.py:collect",
+      "target": "function:engine/feeds/un_comtrade.py:_merge_rows",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/un_comtrade.py:collect",
+      "target": "function:engine/feeds/un_comtrade.py:_write_rows",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

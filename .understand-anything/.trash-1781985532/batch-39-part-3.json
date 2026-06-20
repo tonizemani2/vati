@@ -1,0 +1,1265 @@
+{
+  "nodes": [
+    {
+      "id": "file:research/targets/angels_salvage.jsonl",
+      "type": "file",
+      "name": "angels_salvage.jsonl",
+      "filePath": "research/targets/angels_salvage.jsonl",
+      "summary": "angels_salvage.jsonl is a code asset in the repository.",
+      "tags": [
+        "code",
+        "file",
+        "angels-salvage"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:research/targets/build_contact_cockpit.py",
+      "type": "file",
+      "name": "build_contact_cockpit.py",
+      "filePath": "research/targets/build_contact_cockpit.py",
+      "summary": "build_contact_cockpit.py is a code asset in the repository. It contains 2 functions.",
+      "tags": [
+        "dashboard",
+        "code",
+        "file",
+        "build-contact-cockpit"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:research/targets/build_contact_cockpit.py:trim",
+      "type": "function",
+      "name": "trim",
+      "filePath": "research/targets/build_contact_cockpit.py",
+      "lineRange": [
+        48,
+        55
+      ],
+      "summary": "Defines trim in build_contact_cockpit.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "build-contact-cockpit"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:research/targets/build_contact_cockpit.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "research/targets/build_contact_cockpit.py",
+      "lineRange": [
+        58,
+        66
+      ],
+      "summary": "Defines main in build_contact_cockpit.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entry-point",
+        "build-contact-cockpit"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:research/targets/build_outreach_assets.py",
+      "type": "file",
+      "name": "build_outreach_assets.py",
+      "filePath": "research/targets/build_outreach_assets.py",
+      "summary": "build_outreach_assets.py is a code asset in the repository. It contains 20 functions.",
+      "tags": [
+        "code",
+        "file",
+        "build-outreach-assets"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:research/targets/build_outreach_assets.py:norm",
+      "type": "function",
+      "name": "norm",
+      "filePath": "research/targets/build_outreach_assets.py",
+      "lineRange": [
+        40,
+        43
+      ],
+      "summary": "Defines norm in build_outreach_assets.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "build-outreach-assets"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:research/targets/build_outreach_assets.py:first_name",
+      "type": "function",
+      "name": "first_name",
+      "filePath": "research/targets/build_outreach_assets.py",
+      "lineRange": [
+        46,
+        49
+      ],
+      "summary": "Defines first_name in build_outreach_assets.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "build-outreach-assets"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:research/targets/build_outreach_assets.py:load_targets",
+      "type": "function",
+      "name": "load_targets",
+      "filePath": "research/targets/build_outreach_assets.py",
+      "lineRange": [
+        52,
+        53
+      ],
+      "summary": "Defines load_targets in build_outreach_assets.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "build-outreach-assets"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:research/targets/build_outreach_assets.py:load_existing_messages",
+      "type": "function",
+      "name": "load_existing_messages",
+      "filePath": "research/targets/build_outreach_assets.py",
+      "lineRange": [
+        56,
+        73
+      ],
+      "summary": "Defines load_existing_messages in build_outreach_assets.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "build-outreach-assets"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:research/targets/build_outreach_assets.py:weak_name",
+      "type": "function",
+      "name": "weak_name",
+      "filePath": "research/targets/build_outreach_assets.py",
+      "lineRange": [
+        134,
+        144
+      ],
+      "summary": "Defines weak_name in build_outreach_assets.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "build-outreach-assets"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:research/targets/build_outreach_assets.py:score_row",
+      "type": "function",
+      "name": "score_row",
+      "filePath": "research/targets/build_outreach_assets.py",
+      "lineRange": [
+        147,
+        177
+      ],
+      "summary": "Defines score_row in build_outreach_assets.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "build-outreach-assets"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:research/targets/build_outreach_assets.py:is_contactable",
+      "type": "function",
+      "name": "is_contactable",
+      "filePath": "research/targets/build_outreach_assets.py",
+      "lineRange": [
+        180,
+        185
+      ],
+      "summary": "Defines is_contactable in build_outreach_assets.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "build-outreach-assets"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:research/targets/build_outreach_assets.py:assign_tiers",
+      "type": "function",
+      "name": "assign_tiers",
+      "filePath": "research/targets/build_outreach_assets.py",
+      "lineRange": [
+        188,
+        210
+      ],
+      "summary": "Defines assign_tiers in build_outreach_assets.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "build-outreach-assets"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:research/targets/build_outreach_assets.py:persona_for",
+      "type": "function",
+      "name": "persona_for",
+      "filePath": "research/targets/build_outreach_assets.py",
+      "lineRange": [
+        213,
+        222
+      ],
+      "summary": "Defines persona_for in build_outreach_assets.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "build-outreach-assets"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:research/targets/build_outreach_assets.py:hook_for",
+      "type": "function",
+      "name": "hook_for",
+      "filePath": "research/targets/build_outreach_assets.py",
+      "lineRange": [
+        225,
+        262
+      ],
+      "summary": "Defines hook_for in build_outreach_assets.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "build-outreach-assets"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:research/targets/build_outreach_assets.py:angle_for",
+      "type": "function",
+      "name": "angle_for",
+      "filePath": "research/targets/build_outreach_assets.py",
+      "lineRange": [
+        265,
+        282
+      ],
+      "summary": "Defines angle_for in build_outreach_assets.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "build-outreach-assets"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:research/targets/build_outreach_assets.py:cta_for",
+      "type": "function",
+      "name": "cta_for",
+      "filePath": "research/targets/build_outreach_assets.py",
+      "lineRange": [
+        285,
+        297
+      ],
+      "summary": "Defines cta_for in build_outreach_assets.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "build-outreach-assets"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:research/targets/build_outreach_assets.py:subject_for",
+      "type": "function",
+      "name": "subject_for",
+      "filePath": "research/targets/build_outreach_assets.py",
+      "lineRange": [
+        300,
+        315
+      ],
+      "summary": "Defines subject_for in build_outreach_assets.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "build-outreach-assets"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:research/targets/build_outreach_assets.py:generated_day0",
+      "type": "function",
+      "name": "generated_day0",
+      "filePath": "research/targets/build_outreach_assets.py",
+      "lineRange": [
+        318,
+        330
+      ],
+      "summary": "Defines generated_day0 in build_outreach_assets.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "build-outreach-assets"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:research/targets/build_outreach_assets.py:generated_day3",
+      "type": "function",
+      "name": "generated_day3",
+      "filePath": "research/targets/build_outreach_assets.py",
+      "lineRange": [
+        333,
+        349
+      ],
+      "summary": "Defines generated_day3 in build_outreach_assets.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "build-outreach-assets"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:research/targets/build_outreach_assets.py:enrich",
+      "type": "function",
+      "name": "enrich",
+      "filePath": "research/targets/build_outreach_assets.py",
+      "lineRange": [
+        352,
+        386
+      ],
+      "summary": "Defines enrich in build_outreach_assets.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "build-outreach-assets"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:research/targets/build_outreach_assets.py:write_csv",
+      "type": "function",
+      "name": "write_csv",
+      "filePath": "research/targets/build_outreach_assets.py",
+      "lineRange": [
+        398,
+        403
+      ],
+      "summary": "Defines write_csv in build_outreach_assets.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "build-outreach-assets"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:research/targets/build_outreach_assets.py:write_top_md",
+      "type": "function",
+      "name": "write_top_md",
+      "filePath": "research/targets/build_outreach_assets.py",
+      "lineRange": [
+        406,
+        423
+      ],
+      "summary": "Defines write_top_md in build_outreach_assets.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "build-outreach-assets"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:research/targets/build_outreach_assets.py:write_plan",
+      "type": "function",
+      "name": "write_plan",
+      "filePath": "research/targets/build_outreach_assets.py",
+      "lineRange": [
+        426,
+        483
+      ],
+      "summary": "Defines write_plan in build_outreach_assets.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "build-outreach-assets"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:research/targets/build_outreach_assets.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "research/targets/build_outreach_assets.py",
+      "lineRange": [
+        486,
+        509
+      ],
+      "summary": "Defines main in build_outreach_assets.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entry-point",
+        "build-outreach-assets"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:research/targets/build_outreach_panel.py",
+      "type": "file",
+      "name": "build_outreach_panel.py",
+      "filePath": "research/targets/build_outreach_panel.py",
+      "summary": "build_outreach_panel.py is a code asset in the repository. It contains 2 functions.",
+      "tags": [
+        "code",
+        "file",
+        "build-outreach-panel"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:research/targets/build_outreach_panel.py:load_csv",
+      "type": "function",
+      "name": "load_csv",
+      "filePath": "research/targets/build_outreach_panel.py",
+      "lineRange": [
+        14,
+        18
+      ],
+      "summary": "Defines load_csv in build_outreach_panel.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "build-outreach-panel"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:research/targets/build_outreach_panel.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "research/targets/build_outreach_panel.py",
+      "lineRange": [
+        21,
+        42
+      ],
+      "summary": "Defines main in build_outreach_panel.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entry-point",
+        "build-outreach-panel"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:research/targets/harvest_web.jsonl",
+      "type": "file",
+      "name": "harvest_web.jsonl",
+      "filePath": "research/targets/harvest_web.jsonl",
+      "summary": "harvest_web.jsonl is a code asset in the repository.",
+      "tags": [
+        "code",
+        "file",
+        "harvest-web"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:research/targets/merge_panel.py",
+      "type": "file",
+      "name": "merge_panel.py",
+      "filePath": "research/targets/merge_panel.py",
+      "summary": "merge_panel.py is a code asset in the repository. It contains 4 functions.",
+      "tags": [
+        "code",
+        "file",
+        "merge-panel"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:research/targets/merge_panel.py:norm",
+      "type": "function",
+      "name": "norm",
+      "filePath": "research/targets/merge_panel.py",
+      "lineRange": [
+        49,
+        52
+      ],
+      "summary": "Defines norm in merge_panel.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "merge-panel"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:research/targets/merge_panel.py:load_jsonl",
+      "type": "function",
+      "name": "load_jsonl",
+      "filePath": "research/targets/merge_panel.py",
+      "lineRange": [
+        54,
+        62
+      ],
+      "summary": "Defines load_jsonl in merge_panel.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "merge-panel"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:research/targets/merge_panel.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "research/targets/merge_panel.py",
+      "lineRange": [
+        64,
+        109
+      ],
+      "summary": "Defines main in merge_panel.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entry-point",
+        "merge-panel"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:research/targets/merge_panel.py:write_html",
+      "type": "function",
+      "name": "write_html",
+      "filePath": "research/targets/merge_panel.py",
+      "lineRange": [
+        111,
+        114
+      ],
+      "summary": "Defines write_html in merge_panel.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "merge-panel"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:research/targets/oa_harvest.py",
+      "type": "file",
+      "name": "oa_harvest.py",
+      "filePath": "research/targets/oa_harvest.py",
+      "summary": "oa_harvest.py is a code asset in the repository. It contains 2 functions.",
+      "tags": [
+        "code",
+        "file",
+        "oa-harvest"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:research/targets/oa_harvest.py:fetch",
+      "type": "function",
+      "name": "fetch",
+      "filePath": "research/targets/oa_harvest.py",
+      "lineRange": [
+        37,
+        48
+      ],
+      "summary": "Defines fetch in oa_harvest.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-access",
+        "oa-harvest"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:research/targets/oa_harvest.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "research/targets/oa_harvest.py",
+      "lineRange": [
+        51,
+        99
+      ],
+      "summary": "Defines main in oa_harvest.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entry-point",
+        "oa-harvest"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:research/targets/build_contact_cockpit.py",
+      "target": "function:research/targets/build_contact_cockpit.py:trim",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:research/targets/build_contact_cockpit.py",
+      "target": "function:research/targets/build_contact_cockpit.py:trim",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:research/targets/build_contact_cockpit.py",
+      "target": "function:research/targets/build_contact_cockpit.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:research/targets/build_contact_cockpit.py",
+      "target": "function:research/targets/build_contact_cockpit.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:research/targets/build_outreach_assets.py",
+      "target": "function:research/targets/build_outreach_assets.py:norm",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:research/targets/build_outreach_assets.py",
+      "target": "function:research/targets/build_outreach_assets.py:norm",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:research/targets/build_outreach_assets.py",
+      "target": "function:research/targets/build_outreach_assets.py:first_name",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:research/targets/build_outreach_assets.py",
+      "target": "function:research/targets/build_outreach_assets.py:first_name",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:research/targets/build_outreach_assets.py",
+      "target": "function:research/targets/build_outreach_assets.py:load_targets",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:research/targets/build_outreach_assets.py",
+      "target": "function:research/targets/build_outreach_assets.py:load_targets",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:research/targets/build_outreach_assets.py",
+      "target": "function:research/targets/build_outreach_assets.py:load_existing_messages",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:research/targets/build_outreach_assets.py",
+      "target": "function:research/targets/build_outreach_assets.py:load_existing_messages",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:research/targets/build_outreach_assets.py",
+      "target": "function:research/targets/build_outreach_assets.py:weak_name",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:research/targets/build_outreach_assets.py",
+      "target": "function:research/targets/build_outreach_assets.py:weak_name",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:research/targets/build_outreach_assets.py",
+      "target": "function:research/targets/build_outreach_assets.py:score_row",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:research/targets/build_outreach_assets.py",
+      "target": "function:research/targets/build_outreach_assets.py:score_row",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:research/targets/build_outreach_assets.py",
+      "target": "function:research/targets/build_outreach_assets.py:is_contactable",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:research/targets/build_outreach_assets.py",
+      "target": "function:research/targets/build_outreach_assets.py:is_contactable",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:research/targets/build_outreach_assets.py",
+      "target": "function:research/targets/build_outreach_assets.py:assign_tiers",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:research/targets/build_outreach_assets.py",
+      "target": "function:research/targets/build_outreach_assets.py:assign_tiers",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:research/targets/build_outreach_assets.py",
+      "target": "function:research/targets/build_outreach_assets.py:persona_for",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:research/targets/build_outreach_assets.py",
+      "target": "function:research/targets/build_outreach_assets.py:persona_for",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:research/targets/build_outreach_assets.py",
+      "target": "function:research/targets/build_outreach_assets.py:hook_for",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:research/targets/build_outreach_assets.py",
+      "target": "function:research/targets/build_outreach_assets.py:hook_for",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:research/targets/build_outreach_assets.py",
+      "target": "function:research/targets/build_outreach_assets.py:angle_for",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:research/targets/build_outreach_assets.py",
+      "target": "function:research/targets/build_outreach_assets.py:angle_for",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:research/targets/build_outreach_assets.py",
+      "target": "function:research/targets/build_outreach_assets.py:cta_for",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:research/targets/build_outreach_assets.py",
+      "target": "function:research/targets/build_outreach_assets.py:cta_for",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:research/targets/build_outreach_assets.py",
+      "target": "function:research/targets/build_outreach_assets.py:subject_for",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:research/targets/build_outreach_assets.py",
+      "target": "function:research/targets/build_outreach_assets.py:subject_for",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:research/targets/build_outreach_assets.py",
+      "target": "function:research/targets/build_outreach_assets.py:generated_day0",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:research/targets/build_outreach_assets.py",
+      "target": "function:research/targets/build_outreach_assets.py:generated_day0",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:research/targets/build_outreach_assets.py",
+      "target": "function:research/targets/build_outreach_assets.py:generated_day3",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:research/targets/build_outreach_assets.py",
+      "target": "function:research/targets/build_outreach_assets.py:generated_day3",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:research/targets/build_outreach_assets.py",
+      "target": "function:research/targets/build_outreach_assets.py:enrich",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:research/targets/build_outreach_assets.py",
+      "target": "function:research/targets/build_outreach_assets.py:enrich",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:research/targets/build_outreach_assets.py",
+      "target": "function:research/targets/build_outreach_assets.py:write_csv",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:research/targets/build_outreach_assets.py",
+      "target": "function:research/targets/build_outreach_assets.py:write_csv",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:research/targets/build_outreach_assets.py",
+      "target": "function:research/targets/build_outreach_assets.py:write_top_md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:research/targets/build_outreach_assets.py",
+      "target": "function:research/targets/build_outreach_assets.py:write_top_md",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:research/targets/build_outreach_assets.py",
+      "target": "function:research/targets/build_outreach_assets.py:write_plan",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:research/targets/build_outreach_assets.py",
+      "target": "function:research/targets/build_outreach_assets.py:write_plan",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:research/targets/build_outreach_assets.py",
+      "target": "function:research/targets/build_outreach_assets.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:research/targets/build_outreach_assets.py",
+      "target": "function:research/targets/build_outreach_assets.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:research/targets/build_outreach_panel.py",
+      "target": "function:research/targets/build_outreach_panel.py:load_csv",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:research/targets/build_outreach_panel.py",
+      "target": "function:research/targets/build_outreach_panel.py:load_csv",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:research/targets/build_outreach_panel.py",
+      "target": "function:research/targets/build_outreach_panel.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:research/targets/build_outreach_panel.py",
+      "target": "function:research/targets/build_outreach_panel.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:research/targets/merge_panel.py",
+      "target": "function:research/targets/merge_panel.py:norm",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:research/targets/merge_panel.py",
+      "target": "function:research/targets/merge_panel.py:norm",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:research/targets/merge_panel.py",
+      "target": "function:research/targets/merge_panel.py:load_jsonl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:research/targets/merge_panel.py",
+      "target": "function:research/targets/merge_panel.py:load_jsonl",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:research/targets/merge_panel.py",
+      "target": "function:research/targets/merge_panel.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:research/targets/merge_panel.py",
+      "target": "function:research/targets/merge_panel.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:research/targets/merge_panel.py",
+      "target": "function:research/targets/merge_panel.py:write_html",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:research/targets/merge_panel.py",
+      "target": "function:research/targets/merge_panel.py:write_html",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:research/targets/oa_harvest.py",
+      "target": "function:research/targets/oa_harvest.py:fetch",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:research/targets/oa_harvest.py",
+      "target": "function:research/targets/oa_harvest.py:fetch",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:research/targets/oa_harvest.py",
+      "target": "function:research/targets/oa_harvest.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:research/targets/oa_harvest.py",
+      "target": "function:research/targets/oa_harvest.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:research/targets/build_contact_cockpit.py:main",
+      "target": "function:research/targets/build_contact_cockpit.py:trim",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:research/targets/build_outreach_assets.py:load_existing_messages",
+      "target": "function:research/targets/build_outreach_assets.py:norm",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:research/targets/build_outreach_assets.py:score_row",
+      "target": "function:research/targets/build_outreach_assets.py:weak_name",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:research/targets/build_outreach_assets.py:is_contactable",
+      "target": "function:research/targets/build_outreach_assets.py:weak_name",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:research/targets/build_outreach_assets.py:assign_tiers",
+      "target": "function:research/targets/build_outreach_assets.py:is_contactable",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:research/targets/build_outreach_assets.py:generated_day0",
+      "target": "function:research/targets/build_outreach_assets.py:first_name",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:research/targets/build_outreach_assets.py:generated_day0",
+      "target": "function:research/targets/build_outreach_assets.py:hook_for",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:research/targets/build_outreach_assets.py:generated_day0",
+      "target": "function:research/targets/build_outreach_assets.py:angle_for",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:research/targets/build_outreach_assets.py:generated_day0",
+      "target": "function:research/targets/build_outreach_assets.py:cta_for",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:research/targets/build_outreach_assets.py:generated_day3",
+      "target": "function:research/targets/build_outreach_assets.py:first_name",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:research/targets/build_outreach_assets.py:enrich",
+      "target": "function:research/targets/build_outreach_assets.py:load_existing_messages",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:research/targets/build_outreach_assets.py:enrich",
+      "target": "function:research/targets/build_outreach_assets.py:score_row",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:research/targets/build_outreach_assets.py:enrich",
+      "target": "function:research/targets/build_outreach_assets.py:persona_for",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:research/targets/build_outreach_assets.py:enrich",
+      "target": "function:research/targets/build_outreach_assets.py:hook_for",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:research/targets/build_outreach_assets.py:enrich",
+      "target": "function:research/targets/build_outreach_assets.py:angle_for",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:research/targets/build_outreach_assets.py:enrich",
+      "target": "function:research/targets/build_outreach_assets.py:cta_for",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:research/targets/build_outreach_assets.py:enrich",
+      "target": "function:research/targets/build_outreach_assets.py:subject_for",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:research/targets/build_outreach_assets.py:enrich",
+      "target": "function:research/targets/build_outreach_assets.py:norm",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:research/targets/build_outreach_assets.py:enrich",
+      "target": "function:research/targets/build_outreach_assets.py:generated_day0",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:research/targets/build_outreach_assets.py:enrich",
+      "target": "function:research/targets/build_outreach_assets.py:generated_day3",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:research/targets/build_outreach_assets.py:enrich",
+      "target": "function:research/targets/build_outreach_assets.py:assign_tiers",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:research/targets/build_outreach_assets.py:write_plan",
+      "target": "function:research/targets/build_outreach_assets.py:is_contactable",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:research/targets/build_outreach_assets.py:main",
+      "target": "function:research/targets/build_outreach_assets.py:enrich",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:research/targets/build_outreach_assets.py:main",
+      "target": "function:research/targets/build_outreach_assets.py:load_targets",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:research/targets/build_outreach_assets.py:main",
+      "target": "function:research/targets/build_outreach_assets.py:is_contactable",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:research/targets/build_outreach_assets.py:main",
+      "target": "function:research/targets/build_outreach_assets.py:write_csv",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:research/targets/build_outreach_assets.py:main",
+      "target": "function:research/targets/build_outreach_assets.py:write_top_md",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:research/targets/build_outreach_assets.py:main",
+      "target": "function:research/targets/build_outreach_assets.py:write_plan",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:research/targets/build_outreach_panel.py:main",
+      "target": "function:research/targets/build_outreach_panel.py:load_csv",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:research/targets/merge_panel.py",
+      "target": "function:research/targets/merge_panel.py:norm",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:research/targets/merge_panel.py:main",
+      "target": "function:research/targets/merge_panel.py:load_jsonl",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:research/targets/merge_panel.py:main",
+      "target": "function:research/targets/merge_panel.py:write_html",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:research/targets/oa_harvest.py:main",
+      "target": "function:research/targets/oa_harvest.py:fetch",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

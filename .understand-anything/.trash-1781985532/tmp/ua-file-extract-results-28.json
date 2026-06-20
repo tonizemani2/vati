@@ -1,0 +1,107 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 11,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "research/targets/contact_cockpit.html",
+      "language": "html",
+      "fileCategory": "markup",
+      "totalLines": 180,
+      "nonEmptyLines": 169,
+      "metrics": {}
+    },
+    {
+      "path": "research/targets/contactable_messages.csv",
+      "language": "csv",
+      "fileCategory": "data",
+      "totalLines": 7361,
+      "nonEmptyLines": 4253,
+      "metrics": {}
+    },
+    {
+      "path": "research/targets/email_campaign_ready_strict.csv",
+      "language": "csv",
+      "fileCategory": "data",
+      "totalLines": 218,
+      "nonEmptyLines": 150,
+      "metrics": {}
+    },
+    {
+      "path": "research/targets/email_enrichment_queue.csv",
+      "language": "csv",
+      "fileCategory": "data",
+      "totalLines": 7185,
+      "nonEmptyLines": 4134,
+      "metrics": {}
+    },
+    {
+      "path": "research/targets/email_ready_messages.csv",
+      "language": "csv",
+      "fileCategory": "data",
+      "totalLines": 177,
+      "nonEmptyLines": 120,
+      "metrics": {}
+    },
+    {
+      "path": "research/targets/email_ready_messages_enriched.csv",
+      "language": "csv",
+      "fileCategory": "data",
+      "totalLines": 218,
+      "nonEmptyLines": 150,
+      "metrics": {}
+    },
+    {
+      "path": "research/targets/outreach_universe_scored.csv",
+      "language": "csv",
+      "fileCategory": "data",
+      "totalLines": 24532,
+      "nonEmptyLines": 14065,
+      "metrics": {}
+    },
+    {
+      "path": "research/targets/outreach_universe_scored.json",
+      "language": "json",
+      "fileCategory": "config",
+      "totalLines": 108440,
+      "nonEmptyLines": 108440,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 0
+      }
+    },
+    {
+      "path": "research/targets/public_email_enrichment_top300.csv",
+      "language": "csv",
+      "fileCategory": "data",
+      "totalLines": 2279,
+      "nonEmptyLines": 1349,
+      "metrics": {}
+    },
+    {
+      "path": "research/targets/targets.json",
+      "language": "json",
+      "fileCategory": "config",
+      "totalLines": 1,
+      "nonEmptyLines": 1,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 0
+      }
+    },
+    {
+      "path": "research/targets/top_fit_300_messages.csv",
+      "language": "csv",
+      "fileCategory": "data",
+      "totalLines": 2146,
+      "nonEmptyLines": 1273,
+      "metrics": {}
+    }
+  ]
+}

@@ -1,0 +1,1202 @@
+{
+  "nodes": [
+    {
+      "id": "file:chat/src/lib/db.ts",
+      "type": "file",
+      "name": "db.ts",
+      "filePath": "chat/src/lib/db.ts",
+      "summary": "db.ts is a code asset in the chat surface. It contains 10 functions.",
+      "tags": [
+        "chat",
+        "database",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:chat/src/lib/db.ts:db",
+      "type": "function",
+      "name": "db",
+      "filePath": "chat/src/lib/db.ts",
+      "lineRange": [
+        8,
+        14
+      ],
+      "summary": "Defines db in db.ts, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "db"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:chat/src/lib/db.ts:dbConfigured",
+      "type": "function",
+      "name": "dbConfigured",
+      "filePath": "chat/src/lib/db.ts",
+      "lineRange": [
+        16,
+        18
+      ],
+      "summary": "Defines dbConfigured in db.ts, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "db"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:chat/src/lib/db.ts:getForwardCalls",
+      "type": "function",
+      "name": "getForwardCalls",
+      "filePath": "chat/src/lib/db.ts",
+      "lineRange": [
+        47,
+        69
+      ],
+      "summary": "Defines getForwardCalls in db.ts, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "db"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:chat/src/lib/db.ts:createConversation",
+      "type": "function",
+      "name": "createConversation",
+      "filePath": "chat/src/lib/db.ts",
+      "lineRange": [
+        76,
+        83
+      ],
+      "summary": "Defines createConversation in db.ts, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "db"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:chat/src/lib/db.ts:listConversations",
+      "type": "function",
+      "name": "listConversations",
+      "filePath": "chat/src/lib/db.ts",
+      "lineRange": [
+        85,
+        93
+      ],
+      "summary": "Defines listConversations in db.ts, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "db"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:chat/src/lib/db.ts:getMessages",
+      "type": "function",
+      "name": "getMessages",
+      "filePath": "chat/src/lib/db.ts",
+      "lineRange": [
+        95,
+        104
+      ],
+      "summary": "Defines getMessages in db.ts, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "db"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:chat/src/lib/db.ts:conversationOwnedBy",
+      "type": "function",
+      "name": "conversationOwnedBy",
+      "filePath": "chat/src/lib/db.ts",
+      "lineRange": [
+        109,
+        115
+      ],
+      "summary": "Defines conversationOwnedBy in db.ts, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "db"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:chat/src/lib/db.ts:addMessage",
+      "type": "function",
+      "name": "addMessage",
+      "filePath": "chat/src/lib/db.ts",
+      "lineRange": [
+        117,
+        129
+      ],
+      "summary": "Defines addMessage in db.ts, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "db"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:chat/src/lib/db.ts:insertForecastCard",
+      "type": "function",
+      "name": "insertForecastCard",
+      "filePath": "chat/src/lib/db.ts",
+      "lineRange": [
+        155,
+        170
+      ],
+      "summary": "Defines insertForecastCard in db.ts, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "db"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:chat/src/lib/market.ts",
+      "type": "file",
+      "name": "market.ts",
+      "filePath": "chat/src/lib/market.ts",
+      "summary": "market.ts is a code asset in the chat surface. It contains 7 functions, 1 internal import.",
+      "tags": [
+        "chat",
+        "code",
+        "file",
+        "market"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:chat/src/lib/market.ts:distill",
+      "type": "function",
+      "name": "distill",
+      "filePath": "chat/src/lib/market.ts",
+      "lineRange": [
+        52,
+        64
+      ],
+      "summary": "Defines distill in market.ts, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "market"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:chat/src/lib/market.ts:getJson",
+      "type": "function",
+      "name": "getJson",
+      "filePath": "chat/src/lib/market.ts",
+      "lineRange": [
+        66,
+        80
+      ],
+      "summary": "Defines getJson in market.ts, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "market"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:chat/src/lib/market.ts:manifold",
+      "type": "function",
+      "name": "manifold",
+      "filePath": "chat/src/lib/market.ts",
+      "lineRange": [
+        83,
+        104
+      ],
+      "summary": "Defines manifold in market.ts, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "market"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:chat/src/lib/market.ts:metaculusToken",
+      "type": "function",
+      "name": "metaculusToken",
+      "filePath": "chat/src/lib/market.ts",
+      "lineRange": [
+        106,
+        115
+      ],
+      "summary": "Defines metaculusToken in market.ts, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "market"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:chat/src/lib/market.ts:metaculusCp",
+      "type": "function",
+      "name": "metaculusCp",
+      "filePath": "chat/src/lib/market.ts",
+      "lineRange": [
+        120,
+        129
+      ],
+      "summary": "Defines metaculusCp in market.ts, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "market"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:chat/src/lib/market.ts:metaculus",
+      "type": "function",
+      "name": "metaculus",
+      "filePath": "chat/src/lib/market.ts",
+      "lineRange": [
+        134,
+        160
+      ],
+      "summary": "Defines metaculus in market.ts, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "market"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:chat/src/lib/market.ts:anchorFor",
+      "type": "function",
+      "name": "anchorFor",
+      "filePath": "chat/src/lib/market.ts",
+      "lineRange": [
+        168,
+        178
+      ],
+      "summary": "Defines anchorFor in market.ts, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "market"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:chat/src/lib/mc.ts",
+      "type": "file",
+      "name": "mc.ts",
+      "filePath": "chat/src/lib/mc.ts",
+      "summary": "mc.ts is a code asset in the chat surface. It contains 5 functions.",
+      "tags": [
+        "chat",
+        "code",
+        "file",
+        "mc"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:chat/src/lib/mc.ts:seedFromQuestion",
+      "type": "function",
+      "name": "seedFromQuestion",
+      "filePath": "chat/src/lib/mc.ts",
+      "lineRange": [
+        43,
+        50
+      ],
+      "summary": "Defines seedFromQuestion in mc.ts, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "mc"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:chat/src/lib/mc.ts:mulberry32",
+      "type": "function",
+      "name": "mulberry32",
+      "filePath": "chat/src/lib/mc.ts",
+      "lineRange": [
+        52,
+        61
+      ],
+      "summary": "Defines mulberry32 in mc.ts, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "mc"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:chat/src/lib/mc.ts:makeGauss",
+      "type": "function",
+      "name": "makeGauss",
+      "filePath": "chat/src/lib/mc.ts",
+      "lineRange": [
+        64,
+        73
+      ],
+      "summary": "Defines makeGauss in mc.ts, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "mc"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:chat/src/lib/mc.ts:histogram",
+      "type": "function",
+      "name": "histogram",
+      "filePath": "chat/src/lib/mc.ts",
+      "lineRange": [
+        75,
+        89
+      ],
+      "summary": "Defines histogram in mc.ts, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "mc"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:chat/src/lib/mc.ts:runForecast",
+      "type": "function",
+      "name": "runForecast",
+      "filePath": "chat/src/lib/mc.ts",
+      "lineRange": [
+        91,
+        143
+      ],
+      "summary": "Defines runForecast in mc.ts, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entry-point",
+        "mc"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:chat/src/lib/model.ts",
+      "type": "file",
+      "name": "model.ts",
+      "filePath": "chat/src/lib/model.ts",
+      "summary": "model.ts is a code asset in the chat surface. It contains 2 functions.",
+      "tags": [
+        "chat",
+        "code",
+        "file",
+        "model"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:chat/src/lib/model.ts:loadRepoEnv",
+      "type": "function",
+      "name": "loadRepoEnv",
+      "filePath": "chat/src/lib/model.ts",
+      "lineRange": [
+        11,
+        34
+      ],
+      "summary": "Defines loadRepoEnv in model.ts, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "model"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:chat/src/lib/model.ts:resolveProvider",
+      "type": "function",
+      "name": "resolveProvider",
+      "filePath": "chat/src/lib/model.ts",
+      "lineRange": [
+        44,
+        82
+      ],
+      "summary": "Defines resolveProvider in model.ts, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "model"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:chat/src/lib/owner.ts",
+      "type": "file",
+      "name": "owner.ts",
+      "filePath": "chat/src/lib/owner.ts",
+      "summary": "owner.ts is a code asset in the chat surface. It contains 2 functions.",
+      "tags": [
+        "chat",
+        "code",
+        "file",
+        "owner"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:chat/src/lib/owner.ts:isOwner",
+      "type": "function",
+      "name": "isOwner",
+      "filePath": "chat/src/lib/owner.ts",
+      "lineRange": [
+        51,
+        80
+      ],
+      "summary": "Defines isOwner in owner.ts, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "owner"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:chat/src/lib/research.ts",
+      "type": "file",
+      "name": "research.ts",
+      "filePath": "chat/src/lib/research.ts",
+      "summary": "research.ts is a code asset in the chat surface. It contains 3 functions, 1 internal import.",
+      "tags": [
+        "chat",
+        "code",
+        "file",
+        "research"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:chat/src/lib/research.ts:openrouterKey",
+      "type": "function",
+      "name": "openrouterKey",
+      "filePath": "chat/src/lib/research.ts",
+      "lineRange": [
+        19,
+        29
+      ],
+      "summary": "Defines openrouterKey in research.ts, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "research"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:chat/src/lib/research.ts:extractCitations",
+      "type": "function",
+      "name": "extractCitations",
+      "filePath": "chat/src/lib/research.ts",
+      "lineRange": [
+        41,
+        66
+      ],
+      "summary": "Defines extractCitations in research.ts, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "research"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:chat/src/lib/research.ts:research",
+      "type": "function",
+      "name": "research",
+      "filePath": "chat/src/lib/research.ts",
+      "lineRange": [
+        69,
+        106
+      ],
+      "summary": "Defines research in research.ts, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-access",
+        "research"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:chat/src/lib/security.ts",
+      "type": "file",
+      "name": "security.ts",
+      "filePath": "chat/src/lib/security.ts",
+      "summary": "security.ts is a code asset in the chat surface. It contains 2 functions.",
+      "tags": [
+        "chat",
+        "code",
+        "file",
+        "security"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:chat/src/lib/security.ts:edgeRateLimit",
+      "type": "function",
+      "name": "edgeRateLimit",
+      "filePath": "chat/src/lib/security.ts",
+      "lineRange": [
+        17,
+        49
+      ],
+      "summary": "Defines edgeRateLimit in security.ts, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "security"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:chat/src/lib/stripe.ts",
+      "type": "file",
+      "name": "stripe.ts",
+      "filePath": "chat/src/lib/stripe.ts",
+      "summary": "stripe.ts is a code asset in the chat surface. It contains 4 functions.",
+      "tags": [
+        "chat",
+        "code",
+        "file",
+        "stripe"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:chat/src/lib/stripe.ts:stripe",
+      "type": "function",
+      "name": "stripe",
+      "filePath": "chat/src/lib/stripe.ts",
+      "lineRange": [
+        9,
+        19
+      ],
+      "summary": "Defines stripe in stripe.ts, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "stripe"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:chat/src/lib/stripe.ts:stripeConfigured",
+      "type": "function",
+      "name": "stripeConfigured",
+      "filePath": "chat/src/lib/stripe.ts",
+      "lineRange": [
+        21,
+        23
+      ],
+      "summary": "Defines stripeConfigured in stripe.ts, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "stripe"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:chat/src/lib/stripe.ts:packById",
+      "type": "function",
+      "name": "packById",
+      "filePath": "chat/src/lib/stripe.ts",
+      "lineRange": [
+        37,
+        39
+      ],
+      "summary": "Defines packById in stripe.ts, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "stripe"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:chat/src/lib/stripe.ts:planById",
+      "type": "function",
+      "name": "planById",
+      "filePath": "chat/src/lib/stripe.ts",
+      "lineRange": [
+        56,
+        58
+      ],
+      "summary": "Defines planById in stripe.ts, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "stripe"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:chat/src/lib/db.ts",
+      "target": "function:chat/src/lib/db.ts:db",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:chat/src/lib/db.ts",
+      "target": "function:chat/src/lib/db.ts:db",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:chat/src/lib/db.ts",
+      "target": "function:chat/src/lib/db.ts:dbConfigured",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:chat/src/lib/db.ts",
+      "target": "function:chat/src/lib/db.ts:dbConfigured",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:chat/src/lib/db.ts",
+      "target": "function:chat/src/lib/db.ts:getForwardCalls",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:chat/src/lib/db.ts",
+      "target": "function:chat/src/lib/db.ts:getForwardCalls",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:chat/src/lib/db.ts",
+      "target": "function:chat/src/lib/db.ts:createConversation",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:chat/src/lib/db.ts",
+      "target": "function:chat/src/lib/db.ts:createConversation",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:chat/src/lib/db.ts",
+      "target": "function:chat/src/lib/db.ts:listConversations",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:chat/src/lib/db.ts",
+      "target": "function:chat/src/lib/db.ts:listConversations",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:chat/src/lib/db.ts",
+      "target": "function:chat/src/lib/db.ts:getMessages",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:chat/src/lib/db.ts",
+      "target": "function:chat/src/lib/db.ts:getMessages",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:chat/src/lib/db.ts",
+      "target": "function:chat/src/lib/db.ts:conversationOwnedBy",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:chat/src/lib/db.ts",
+      "target": "function:chat/src/lib/db.ts:conversationOwnedBy",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:chat/src/lib/db.ts",
+      "target": "function:chat/src/lib/db.ts:addMessage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:chat/src/lib/db.ts",
+      "target": "function:chat/src/lib/db.ts:addMessage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:chat/src/lib/db.ts",
+      "target": "function:chat/src/lib/db.ts:insertForecastCard",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:chat/src/lib/db.ts",
+      "target": "function:chat/src/lib/db.ts:insertForecastCard",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:chat/src/lib/market.ts",
+      "target": "function:chat/src/lib/market.ts:distill",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:chat/src/lib/market.ts",
+      "target": "function:chat/src/lib/market.ts:getJson",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:chat/src/lib/market.ts",
+      "target": "function:chat/src/lib/market.ts:manifold",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:chat/src/lib/market.ts",
+      "target": "function:chat/src/lib/market.ts:metaculusToken",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:chat/src/lib/market.ts",
+      "target": "function:chat/src/lib/market.ts:metaculusCp",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:chat/src/lib/market.ts",
+      "target": "function:chat/src/lib/market.ts:metaculus",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:chat/src/lib/market.ts",
+      "target": "function:chat/src/lib/market.ts:anchorFor",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:chat/src/lib/market.ts",
+      "target": "function:chat/src/lib/market.ts:anchorFor",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:chat/src/lib/mc.ts",
+      "target": "function:chat/src/lib/mc.ts:seedFromQuestion",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:chat/src/lib/mc.ts",
+      "target": "function:chat/src/lib/mc.ts:seedFromQuestion",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:chat/src/lib/mc.ts",
+      "target": "function:chat/src/lib/mc.ts:mulberry32",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:chat/src/lib/mc.ts",
+      "target": "function:chat/src/lib/mc.ts:makeGauss",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:chat/src/lib/mc.ts",
+      "target": "function:chat/src/lib/mc.ts:histogram",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:chat/src/lib/mc.ts",
+      "target": "function:chat/src/lib/mc.ts:runForecast",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:chat/src/lib/mc.ts",
+      "target": "function:chat/src/lib/mc.ts:runForecast",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:chat/src/lib/model.ts",
+      "target": "function:chat/src/lib/model.ts:loadRepoEnv",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:chat/src/lib/model.ts",
+      "target": "function:chat/src/lib/model.ts:resolveProvider",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:chat/src/lib/model.ts",
+      "target": "function:chat/src/lib/model.ts:resolveProvider",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:chat/src/lib/owner.ts",
+      "target": "function:chat/src/lib/owner.ts:isOwner",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:chat/src/lib/owner.ts",
+      "target": "function:chat/src/lib/owner.ts:isOwner",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:chat/src/lib/research.ts",
+      "target": "function:chat/src/lib/research.ts:openrouterKey",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:chat/src/lib/research.ts",
+      "target": "function:chat/src/lib/research.ts:extractCitations",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:chat/src/lib/research.ts",
+      "target": "function:chat/src/lib/research.ts:research",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:chat/src/lib/research.ts",
+      "target": "function:chat/src/lib/research.ts:research",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:chat/src/lib/security.ts",
+      "target": "function:chat/src/lib/security.ts:edgeRateLimit",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:chat/src/lib/security.ts",
+      "target": "function:chat/src/lib/security.ts:edgeRateLimit",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:chat/src/lib/stripe.ts",
+      "target": "function:chat/src/lib/stripe.ts:stripe",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:chat/src/lib/stripe.ts",
+      "target": "function:chat/src/lib/stripe.ts:stripe",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:chat/src/lib/stripe.ts",
+      "target": "function:chat/src/lib/stripe.ts:stripeConfigured",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:chat/src/lib/stripe.ts",
+      "target": "function:chat/src/lib/stripe.ts:stripeConfigured",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:chat/src/lib/stripe.ts",
+      "target": "function:chat/src/lib/stripe.ts:packById",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:chat/src/lib/stripe.ts",
+      "target": "function:chat/src/lib/stripe.ts:packById",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:chat/src/lib/stripe.ts",
+      "target": "function:chat/src/lib/stripe.ts:planById",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:chat/src/lib/stripe.ts",
+      "target": "function:chat/src/lib/stripe.ts:planById",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:chat/src/lib/market.ts",
+      "target": "file:chat/src/lib/model.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:chat/src/lib/research.ts",
+      "target": "file:chat/src/lib/model.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "function:chat/src/lib/db.ts:getForwardCalls",
+      "target": "function:chat/src/lib/db.ts:db",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/src/lib/db.ts:createConversation",
+      "target": "function:chat/src/lib/db.ts:db",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/src/lib/db.ts:listConversations",
+      "target": "function:chat/src/lib/db.ts:db",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/src/lib/db.ts:getMessages",
+      "target": "function:chat/src/lib/db.ts:db",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/src/lib/db.ts:conversationOwnedBy",
+      "target": "function:chat/src/lib/db.ts:db",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/src/lib/db.ts:addMessage",
+      "target": "function:chat/src/lib/db.ts:db",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/src/lib/db.ts:insertForecastCard",
+      "target": "function:chat/src/lib/db.ts:db",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/src/lib/market.ts:manifold",
+      "target": "function:chat/src/lib/market.ts:getJson",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/src/lib/market.ts:metaculusToken",
+      "target": "function:chat/src/lib/model.ts:resolveProvider",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/src/lib/market.ts:metaculus",
+      "target": "function:chat/src/lib/market.ts:metaculusToken",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/src/lib/market.ts:metaculus",
+      "target": "function:chat/src/lib/market.ts:getJson",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/src/lib/market.ts:metaculus",
+      "target": "function:chat/src/lib/market.ts:metaculusCp",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/src/lib/market.ts:anchorFor",
+      "target": "function:chat/src/lib/market.ts:distill",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/src/lib/market.ts:anchorFor",
+      "target": "function:chat/src/lib/market.ts:manifold",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/src/lib/market.ts:anchorFor",
+      "target": "function:chat/src/lib/market.ts:metaculus",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/src/lib/mc.ts:runForecast",
+      "target": "function:chat/src/lib/mc.ts:seedFromQuestion",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/src/lib/mc.ts:runForecast",
+      "target": "function:chat/src/lib/mc.ts:mulberry32",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/src/lib/mc.ts:runForecast",
+      "target": "function:chat/src/lib/mc.ts:makeGauss",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/src/lib/mc.ts:runForecast",
+      "target": "function:chat/src/lib/mc.ts:histogram",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/src/lib/model.ts:resolveProvider",
+      "target": "function:chat/src/lib/model.ts:loadRepoEnv",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/src/lib/research.ts:openrouterKey",
+      "target": "function:chat/src/lib/model.ts:resolveProvider",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/src/lib/research.ts:research",
+      "target": "function:chat/src/lib/research.ts:openrouterKey",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/src/lib/research.ts:research",
+      "target": "function:chat/src/lib/research.ts:extractCitations",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

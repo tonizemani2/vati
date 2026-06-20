@@ -2,6 +2,7 @@ import {
   Activity,
   CircleDollarSign,
   Compass,
+  Database,
   GitBranch,
   Lightbulb,
   ListChecks,
@@ -51,6 +52,7 @@ import {
   getGraphNodes,
   getWorldNodes,
   getWorldEdges,
+  getWorldStateOverview,
   getHypotheses,
   getOpenDecisions,
   getPillars,
@@ -159,6 +161,7 @@ export default async function Cockpit() {
   const worldNodes = getWorldNodes();
   const worldEdges = getWorldEdges();
   const dataHealth = getDataHealth();
+  const worldState = getWorldStateOverview();
   const entities = getEntities();
   const entityEdges = getEntityEdges();
   const hypotheses = getHypotheses();
@@ -215,6 +218,7 @@ export default async function Cockpit() {
             ["#frontier", "Frontier signals", Zap],
             ["#hypotheses", "Hypothesis engine", Lightbulb],
             ["#data-health", "Data health", Activity],
+            ["#world-state", "World state", Database],
             ["#entities", "Entity spine", GitBranch],
             ["#supply-graph", "Supply graph", GitBranch],
             ["#consensus", "Consensus gate", Target],
@@ -677,6 +681,139 @@ export default async function Cockpit() {
               </CardHeader>
               <CardContent>
                 <DataHealthPanel health={dataHealth} />
+              </CardContent>
+            </Card>
+          </section>
+
+          {/* 1b3. World state — timestamped facts and frozen context manifests */}
+          <section id="world-state" className="scroll-mt-4">
+            <Card>
+              <CardHeader>
+                <div className="flex flex-wrap items-start justify-between gap-3">
+                  <div>
+                    <CardTitle className="flex items-center gap-2 text-base">
+                      <Database className="size-4 text-sky-300" />
+                      World state — timestamped fact spine
+                    </CardTitle>
+                    <CardDescription>
+                      Point-in-time facts, raw-byte coverage, snapshot hashes and blockers. This is
+                      separate from detector signals so a forecast can prove exactly what existed
+                      before its timestamp.
+                    </CardDescription>
+                  </div>
+                  <div className="flex flex-wrap gap-2">
+                    {worldState.facts === 0 && (
+                      <Badge variant="outline" className="border-amber-500/40 text-amber-300">
+                        no facts
+                      </Badge>
+                    )}
+                    {worldState.snapshots === 0 && (
+                      <Badge variant="outline" className="border-amber-500/40 text-amber-300">
+                        no snapshots
+                      </Badge>
+                    )}
+                    {worldState.missingSourceHashes > 0 && (
+                      <Badge variant="outline" className="border-rose-500/40 text-rose-300">
+                        {worldState.missingSourceHashes} legacy sources
+                      </Badge>
+                    )}
+                    {worldState.sourceHashesWithoutRawDoc > 0 && (
+                      <Badge variant="outline" className="border-rose-500/40 text-rose-300">
+                        {worldState.sourceHashesWithoutRawDoc} hashes missing bytes
+                      </Badge>
+                    )}
+                    {worldState.healthFail > 0 && (
+                      <Badge variant="outline" className="border-rose-500/40 text-rose-300">
+                        {worldState.healthFail} failed series
+                      </Badge>
+                    )}
+                  </div>
+                </div>
+              </CardHeader>
+              <CardContent className="space-y-4">
+                <div className="grid grid-cols-2 gap-3 md:grid-cols-4">
+                  {[
+                    ["facts", worldState.activeFacts, `${worldState.facts} total`],
+                    ["snapshots", worldState.snapshots, worldState.latestSnapshotAsOf ?? "none"],
+                    ["raw docs", worldState.rawDocs, `${worldState.rawByteCoveragePct}% byte linked`],
+                    ["burn", `$${(worldState.spendCents / 100).toFixed(2)}`, "ledger total"],
+                  ].map(([label, value, sub]) => (
+                    <div key={label as string} className="rounded-md border px-3 py-2">
+                      <div className="text-xs text-muted-foreground">{label}</div>
+                      <div className="mt-1 font-mono text-lg text-foreground">{value}</div>
+                      <div className="text-xs text-muted-foreground">{sub}</div>
+                    </div>
+                  ))}
+                </div>
+
+                <div className="grid grid-cols-1 gap-4 xl:grid-cols-2">
+                  <div className="rounded-md border">
+                    <Table>
+                      <TableHeader>
+                        <TableRow>
+                          <TableHead>Predicate</TableHead>
+                          <TableHead className="text-right">facts</TableHead>
+                        </TableRow>
+                      </TableHeader>
+                      <TableBody>
+                        {worldState.factsByPredicate.length ? (
+                          worldState.factsByPredicate.map((r) => (
+                            <TableRow key={r.name}>
+                              <TableCell className="font-mono text-xs">{r.name}</TableCell>
+                              <TableCell className="text-right font-mono">{r.n}</TableCell>
+                            </TableRow>
+                          ))
+                        ) : (
+                          <TableRow>
+                            <TableCell colSpan={2} className="py-6 text-center text-sm text-muted-foreground">
+                              no extracted facts yet
+                            </TableCell>
+                          </TableRow>
+                        )}
+                      </TableBody>
+                    </Table>
+                  </div>
+                  <div className="rounded-md border">
+                    <Table>
+                      <TableHeader>
+                        <TableRow>
+                          <TableHead>Source</TableHead>
+                          <TableHead className="text-right">facts</TableHead>
+                        </TableRow>
+                      </TableHeader>
+                      <TableBody>
+                        {worldState.factsBySource.length ? (
+                          worldState.factsBySource.map((r) => (
+                            <TableRow key={r.name}>
+                              <TableCell className="max-w-[24rem] truncate text-xs">{r.name}</TableCell>
+                              <TableCell className="text-right font-mono">{r.n}</TableCell>
+                            </TableRow>
+                          ))
+                        ) : (
+                          <TableRow>
+                            <TableCell colSpan={2} className="py-6 text-center text-sm text-muted-foreground">
+                              no fact-linked sources yet
+                            </TableCell>
+                          </TableRow>
+                        )}
+                      </TableBody>
+                    </Table>
+                  </div>
+                </div>
+
+                <div className="rounded-md border px-3 py-2 text-xs text-muted-foreground">
+                  Latest snapshot:{" "}
+                  {worldState.latestSnapshotHash ? (
+                    <>
+                      <span className="text-foreground">{worldState.latestSnapshotTopic}</span>{" "}
+                      as of <span className="font-mono text-foreground">{worldState.latestSnapshotAsOf}</span>{" "}
+                      hash <span className="font-mono text-foreground">{worldState.latestSnapshotHash}</span>{" "}
+                      facts <span className="font-mono text-foreground">{worldState.latestSnapshotFacts}</span>
+                    </>
+                  ) : (
+                    <span className="text-amber-300">none</span>
+                  )}
+                </div>
               </CardContent>
             </Card>
           </section>

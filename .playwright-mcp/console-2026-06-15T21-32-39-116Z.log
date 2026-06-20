@@ -1,0 +1,116 @@
+[     351ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:4317/_next/static/chunks/1wmt_next_dist_0orijmo._.js:2477
+[     958ms] [LOG] [Fast Refresh] done in 712ms @ http://localhost:4317/_next/static/chunks/1wmt_next_dist_0orijmo._.js:2477
+[    1868ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:4317/_next/static/chunks/1wmt_next_dist_0orijmo._.js:2477
+[    2018ms] [LOG] [HMR] connected @ http://localhost:4317/_next/static/chunks/1wmt_next_dist_0orijmo._.js:2477
+[    2024ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:4317/terms-of-service:0
+[    2030ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:4317/privacy-policy:0
+[    2090ms] Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <RenderFromTemplateContext>
+      <ScrollAndMaybeFocusHandler cacheNode={{rsc:{...}, ...}}>
+        <InnerScrollAndFocusHandlerOld focusAndScrollRef={{scrollRef:null, ...}} cacheNode={{rsc:{...}, ...}}>
+          <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+            <LoadingBoundary name="/" loading={null}>
+              <HTTPAccessFallbackBoundary notFound={{...}} forbidden={undefined} unauthorized={undefined}>
+                <HTTPAccessFallbackErrorBoundary pathname="/" notFound={{...}} forbidden={undefined} ...>
+                  <RedirectBoundary>
+                    <RedirectErrorBoundary router={{...}}>
+                      <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{rsc:{...}, ...}} ...>
+                        <SegmentViewNode type="page" pagePath="page.tsx">
+                          <SegmentTrieNode>
+                          <Home>
+                            <div className="page_wrap">
+                              <div>
+                              <main className="page_main" id="main">
+                                <div>
+                                <div>
+                                <div>
+                                <RawSection>
+                                  <div
+                                    style={{display:"contents"}}
+                                    dangerouslySetInnerHTML={{
++                                     __html: "<section id=\"research\" class=\"research_wrap u-section\"><div data-wf..."
+-                                     __html: "<section id=\"research\" class=\"research_wrap u-section\"><div data-wf..."
+                                    }}
+                                  >
+                                <RawSection>
+                                  <div
++                                   style={{display:"contents"}}
+-                                   style={{}}
+                                    dangerouslySetInnerHTML={{
++                                     __html: "<section id=\"sampleqs\" data-slider=\"component\" class=\"sampleqs_wra..."
+-                                     __html: ""
+                                    }}
+-                                   data-wf--spacer--section-space="small"
+-                                   className="u-section-spacer w-variant-d422cbd0-f212-c815-68df-63414354c21d u-point..."
+                                  >
+                                <RawSection>
+                                  <div
++                                   style={{display:"contents"}}
+-                                   style={{}}
+                                    dangerouslySetInnerHTML={{
++                                     __html: "<section id=\"about\" class=\"about_2col_wrap u-section u-theme-dark\">..."
+-                                     __html: "<div class=\"research_illustration_wrap\" style=\"position:relative;bac..."
+                                    }}
+-                                   className="research_contain-lg u-container"
+                                  >
+                                <RawSection>
+                                  <div
++                                   style={{display:"contents"}}
+-                                   style={{}}
+                                    dangerouslySetInnerHTML={{
++                                     __html: "<section class=\"footer_wrap u-section\"><div data-wf--spacer--section-..."
+-                                     __html: ""
+                                    }}
+-                                   data-wf--spacer--section-space="small"
+-                                   className="u-section-spacer w-variant-d422cbd0-f212-c815-68df-63414354c21d u-point..."
+                                  >
+-                               <div className="research_contain-sm u-container-small">
+-                               <div
+-                                 data-wf--spacer--section-space="main"
+-                                 className="u-section-spacer w-variant-60a7ad7d-02b0-6682-95a5-2218e6fd1490 u-pointer..."
+-                               >
+-                               <div className="divider_wrap" id="">
+-                               <div
+-                                 data-wf--spacer--section-space="main"
+-                                 className="u-section-spacer w-variant-60a7ad7d-02b0-6682-95a5-2218e6fd1490 u-pointer..."
+-                               >
+-                               <div id="benchmarks" className="research_contain-sm u-container-small">
+-                               <div id="benchmarks" className="research_contain-lg u-container">
+-                               <div
+-                                 data-wf--spacer--section-space="main"
+-                                 className="u-section-spacer w-variant-60a7ad7d-02b0-6682-95a5-2218e6fd1490 u-pointer..."
+-                               >
+-                               <div className="research_contain-sm u-container-small">
+-                               <div style={{display:"contents"}}>
+-                               <div style={{display:"contents"}}>
+-                               <div style={{display:"contents"}}>
+                              ...
+                        ...
+                      ...
+          ...
+
+    at throwOnHydrationMismatch (http://localhost:4317/_next/static/chunks/1wmt_next_dist_compiled_react-dom_0ggz9cr._.js:3318:56)
+    at popHydrationState (http://localhost:4317/_next/static/chunks/1wmt_next_dist_compiled_react-dom_0ggz9cr._.js:3403:13)
+    at completeWork (http://localhost:4317/_next/static/chunks/1wmt_next_dist_compiled_react-dom_0ggz9cr._.js:6922:25)
+    at runWithFiberInDEV (http://localhost:4317/_next/static/chunks/1wmt_next_dist_compiled_react-dom_0ggz9cr._.js:965:74)
+    at completeUnitOfWork (http://localhost:4317/_next/static/chunks/1wmt_next_dist_compiled_react-dom_0ggz9cr._.js:9622:23)
+    at performUnitOfWork (http://localhost:4317/_next/static/chunks/1wmt_next_dist_compiled_react-dom_0ggz9cr._.js:9557:28)
+    at workLoopConcurrentByScheduler (http://localhost:4317/_next/static/chunks/1wmt_next_dist_compiled_react-dom_0ggz9cr._.js:9551:58)
+    at renderRootConcurrent (http://localhost:4317/_next/static/chunks/1wmt_next_dist_compiled_react-dom_0ggz9cr._.js:9534:71)
+    at performWorkOnRoot (http://localhost:4317/_next/static/chunks/1wmt_next_dist_compiled_react-dom_0ggz9cr._.js:9061:150)
+    at performWorkOnRootViaSchedulerTask (http://localhost:4317/_next/static/chunks/1wmt_next_dist_compiled_react-dom_0ggz9cr._.js:10255:9)
+    at MessagePort.performWorkUntilDeadline (http://localhost:4317/_next/static/chunks/1wmt_next_dist_compiled_1r2gncp._.js:2647:64)
+[    2206ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:4317/privacy-policy:0
+[    2414ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:4317/terms-of-service:0

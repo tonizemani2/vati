@@ -1,0 +1,3150 @@
+{
+  "projectRoot": "/Users/emizemani/Desktop/predictthefuture",
+  "files": [
+    {
+      "path": ".claude/commands/futureeval.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": ".claude/commands/gate.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": ".claude/commands/goal.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": ".claude/commands/metaculus.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": ".claude/commands/needle.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": ".claude/commands/pope.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": ".claude/commands/wildcard.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": ".claude/commands/world-graph.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": ".claude/settings.json",
+      "language": "json",
+      "fileCategory": "config"
+    },
+    {
+      "path": ".claude/skills/taste-skill/SKILL.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": ".claude/skills/vati-distribute/SKILL.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": ".claude/skills/vati-post/formats.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": ".claude/skills/vati-post/postpack.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": ".claude/skills/vati-post/SKILL.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": ".claude/skills/vati-world-graph/agents/openai.yaml",
+      "language": "yaml",
+      "fileCategory": "config"
+    },
+    {
+      "path": ".claude/skills/vati-world-graph/references/deepseek.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": ".claude/skills/vati-world-graph/references/ontology.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": ".claude/skills/vati-world-graph/SKILL.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": ".claude/workflows/forecastbench-judge.js",
+      "language": "javascript",
+      "fileCategory": "code"
+    },
+    {
+      "path": ".claude/workflows/pope-capture.js",
+      "language": "javascript",
+      "fileCategory": "code"
+    },
+    {
+      "path": ".claude/workflows/pope-mega.js",
+      "language": "javascript",
+      "fileCategory": "code"
+    },
+    {
+      "path": ".claude/workflows/pope-pro.js",
+      "language": "javascript",
+      "fileCategory": "code"
+    },
+    {
+      "path": ".claude/workflows/pope.js",
+      "language": "javascript",
+      "fileCategory": "code"
+    },
+    {
+      "path": ".mac_fix_backup/codex-20260618-231003/CodexDockTilePlugin.plugin/Contents/_CodeSignature/CodeResources",
+      "language": "unknown",
+      "fileCategory": "code"
+    },
+    {
+      "path": ".mac_fix_backup/codex-20260618-231003/CodexDockTilePlugin.plugin/Contents/Info.plist",
+      "language": "xml",
+      "fileCategory": "config"
+    },
+    {
+      "path": ".mac_fix_backup/codex-20260618-231003/CodexDockTilePlugin.plugin/Contents/MacOS/CodexDockTilePlugin",
+      "language": "unknown",
+      "fileCategory": "code"
+    },
+    {
+      "path": ".mac_fix_backup/codex-20260618-231003/launch-services-helper",
+      "language": "unknown",
+      "fileCategory": "code"
+    },
+    {
+      "path": ".understand-anything/.understandignore",
+      "language": "unknown",
+      "fileCategory": "code"
+    },
+    {
+      "path": "AGENTS.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "BRIEFING.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "chat/db/schema.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "chat/db/seed_forward_calls.mjs",
+      "language": "javascript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/next.config.ts",
+      "language": "typescript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/open-next.config.ts",
+      "language": "typescript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/package.json",
+      "language": "json",
+      "fileCategory": "config"
+    },
+    {
+      "path": "chat/postcss.config.mjs",
+      "language": "javascript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/README.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "chat/scripts/test-council.ts",
+      "language": "typescript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/scripts/test-credits.ts",
+      "language": "typescript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/src/app/api/capture/route.ts",
+      "language": "typescript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/src/app/api/chat/route.ts",
+      "language": "typescript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/src/app/api/checkout/route.ts",
+      "language": "typescript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/src/app/api/conversations/route.ts",
+      "language": "typescript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/src/app/api/council/route.ts",
+      "language": "typescript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/src/app/api/credits/route.ts",
+      "language": "typescript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/src/app/api/forecast/route.ts",
+      "language": "typescript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/src/app/api/messages/route.ts",
+      "language": "typescript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/src/app/api/portal/route.ts",
+      "language": "typescript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/src/app/api/record/route.ts",
+      "language": "typescript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/src/app/api/stripe/webhook/route.ts",
+      "language": "typescript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/src/app/globals.css",
+      "language": "css",
+      "fileCategory": "markup"
+    },
+    {
+      "path": "chat/src/app/layout.tsx",
+      "language": "typescript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/src/app/page.tsx",
+      "language": "typescript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/src/app/robots.ts",
+      "language": "typescript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/src/components/Account.tsx",
+      "language": "typescript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/src/components/CapturePlan.tsx",
+      "language": "typescript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/src/components/Composer.tsx",
+      "language": "typescript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/src/components/CopyButton.tsx",
+      "language": "typescript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/src/components/Council.tsx",
+      "language": "typescript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/src/components/CreditsPanel.tsx",
+      "language": "typescript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/src/components/ForecastCard.tsx",
+      "language": "typescript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/src/components/LiteReadUpsell.tsx",
+      "language": "typescript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/src/components/Markdown.tsx",
+      "language": "typescript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/src/components/Reasoning.tsx",
+      "language": "typescript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/src/components/Sidebar.tsx",
+      "language": "typescript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/src/lib/auth.ts",
+      "language": "typescript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/src/lib/capture.ts",
+      "language": "typescript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/src/lib/cn.ts",
+      "language": "typescript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/src/lib/council.ts",
+      "language": "typescript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/src/lib/credits.ts",
+      "language": "typescript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/src/lib/dataLayer.ts",
+      "language": "typescript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/src/lib/db.ts",
+      "language": "typescript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/src/lib/forecast.ts",
+      "language": "typescript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/src/lib/market.ts",
+      "language": "typescript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/src/lib/mc.ts",
+      "language": "typescript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/src/lib/model.ts",
+      "language": "typescript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/src/lib/owner.ts",
+      "language": "typescript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/src/lib/research.ts",
+      "language": "typescript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/src/lib/security.ts",
+      "language": "typescript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/src/lib/stripe.ts",
+      "language": "typescript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/tsconfig.json",
+      "language": "json",
+      "fileCategory": "config"
+    },
+    {
+      "path": "chat/wrangler.jsonc",
+      "language": "jsonc",
+      "fileCategory": "config"
+    },
+    {
+      "path": "CLOUD_COSTS.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "cockpit/app/globals.css",
+      "language": "css",
+      "fileCategory": "markup"
+    },
+    {
+      "path": "cockpit/app/layout.tsx",
+      "language": "typescript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cockpit/app/page.tsx",
+      "language": "typescript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cockpit/components.json",
+      "language": "json",
+      "fileCategory": "config"
+    },
+    {
+      "path": "cockpit/components/bet-card.tsx",
+      "language": "typescript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cockpit/components/calibration-chart.tsx",
+      "language": "typescript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cockpit/components/consensus-gate.tsx",
+      "language": "typescript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cockpit/components/cross-domain-map.tsx",
+      "language": "typescript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cockpit/components/data-health.tsx",
+      "language": "typescript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cockpit/components/entity-spine.tsx",
+      "language": "typescript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cockpit/components/hypothesis-engine.tsx",
+      "language": "typescript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cockpit/components/retro-benchmark.tsx",
+      "language": "typescript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cockpit/components/supply-graph.tsx",
+      "language": "typescript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cockpit/components/ui/badge.tsx",
+      "language": "typescript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cockpit/components/ui/button.tsx",
+      "language": "typescript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cockpit/components/ui/card.tsx",
+      "language": "typescript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cockpit/components/ui/dialog.tsx",
+      "language": "typescript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cockpit/components/ui/progress.tsx",
+      "language": "typescript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cockpit/components/ui/sonner.tsx",
+      "language": "typescript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cockpit/components/ui/table.tsx",
+      "language": "typescript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cockpit/components/ui/tabs.tsx",
+      "language": "typescript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cockpit/components/universe-benchmark.tsx",
+      "language": "typescript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cockpit/eslint.config.mjs",
+      "language": "javascript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cockpit/lib/db.ts",
+      "language": "typescript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cockpit/lib/utils.ts",
+      "language": "typescript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cockpit/next.config.ts",
+      "language": "typescript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cockpit/package.json",
+      "language": "json",
+      "fileCategory": "config"
+    },
+    {
+      "path": "cockpit/pnpm-workspace.yaml",
+      "language": "yaml",
+      "fileCategory": "config"
+    },
+    {
+      "path": "cockpit/postcss.config.mjs",
+      "language": "javascript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cockpit/README.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "cockpit/tsconfig.json",
+      "language": "json",
+      "fileCategory": "config"
+    },
+    {
+      "path": "CONSTITUTION.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "content/after-ai-2026-06-17.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "content/posts-2026-06-19.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "DATA_LAYER_PLAN.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "dataset_sample_200.jsonl",
+      "language": "jsonl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "doctrine.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "EDGE_DATASET_PLAN.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "engine/__init__.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/adapters/__init__.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/adapters/_vendor/__init__.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/adapters/_vendor/deepinfra_keyless.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/adapters/_vendor/exa_search.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/adapters/answer.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/adapters/extract.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/adapters/html_to_markdown.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/adapters/llm.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/adapters/pdf_to_text.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/adapters/proxy.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/adapters/search.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/adapters/smoke.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/backtest.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/bet.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/capture/__init__.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/capture/DEPLOY.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "engine/capture/engine.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/capture/inbox.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/capture/run.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/capture/schema.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/chat_bridge.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/cli.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/companies_house_enrich.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/consensus.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/corpus.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/cost.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/coverage_grade.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/data_offload.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/db.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/decisions.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/detector.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/discover.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/disk_guard.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/emergent_scan.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/entity_candidates.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/entity.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/experiment.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/__init__.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/adoption_curves.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/athena.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/australia_epbc_referrals.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/baci.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/biorxiv.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/bis.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/blm_mining_claims.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/capability_curves.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/clinicaltrials.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/collect_all.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/comtrade.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/concept_edge_shift.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/concept_emergence.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/cordis.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/crossref.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/ecb_fx.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/eia.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/ember.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/eonet.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/epoch_ai.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/eu_sanctions.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/europe_pmc.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/eurostat.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/faostat.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/federal_register.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/fred_financial.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/fred.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/gdacs_alerts.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/gdelt.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/global_equities.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/global_policy.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/google_patents.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/ilo.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/imf.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/ingest.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/land_matrix.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/land_ownership.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/land_permit_sources.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/land_permits_canada_iaac.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/lbnl_queue.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/lbnl.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/metaculus.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/mining_rights_global.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/miningterminal_permits.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/nasa_gistemp.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/nih_reporter.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/noaa_climate_indices.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/noaa_enso.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/noaa_gml_greenhouse_gases.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/noaa_nsidc_sea_ice.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/noaa_swpc_solar.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/nsf_awards.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/oecd.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/ofac_sdn.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/openalex_load.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/openalex_snapshot.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/openalex.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/openfda_drugsfda.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/owid.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/patentsview.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/polymarket.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/pubmed.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/relianceonscience.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/resourcecontracts.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/sec_edgar.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/semantic_scholar.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/supply_elasticity.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/tech_adoption.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/ucdp.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/un_comtrade.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/us_permitting_dashboard.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/usaspending_sam.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/usgs_earthquakes.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/usgs_historical.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/usgs_minerals.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/vdem.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/wikipedia.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/world_bank.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/worldbank_capital.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/worldbank_wgi.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/forecast.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/forecastbench/__init__.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/forecastbench/assemble.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/forecastbench/backtest_all.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/forecastbench/bench.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/forecastbench/calib.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/forecastbench/check_submission.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/forecastbench/concept_gate.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/forecastbench/corpus.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/forecastbench/crowd.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/forecastbench/curate.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/forecastbench/dataset_diag.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/forecastbench/dataset.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/forecastbench/distill.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/forecastbench/diversify.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/forecastbench/domains.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/forecastbench/edge_dataset.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/forecastbench/edge_gate_stat.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/forecastbench/edge_gate.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/forecastbench/ensemble.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/forecastbench/gap_claude.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/forecastbench/harvest.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/forecastbench/inference.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/forecastbench/kalshibench.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/forecastbench/llm_fill.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/forecastbench/market.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/forecastbench/opus_blend.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/forecastbench/opus_forecaster.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/forecastbench/residual.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/forecastbench/score.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/forecastbench/sequential.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/forecastbench/structural_gate.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/forecastbench/SUBMIT.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "engine/forecastbench/submit.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/forecastbench/timesfm_eval.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/forecastbench/timesfm_model.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/forecastbench/traces.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/forecastbench/trainset.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/forecastbench/validate.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/forecasting/__init__.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/forecasting/calibration.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/forecasting/eval_anchor_gate.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/forecasting/ledger.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/gdelt_collect.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/gleif_enrich.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/global_equities_collect.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/graph.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/ground.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/holdout.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/hypothesis.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/indicators.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/ladder.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/locator.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/market.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/metaculus/__init__.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/metaculus/api.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/metaculus/calibrate.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/metaculus/deep_research.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/metaculus/fleet.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/metaculus/forecast.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/metaculus/human_api.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/metaculus/markets.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/metaculus/numeric_forecast.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/metaculus/numeric.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/metaculus/qbank.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/metaculus/research.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/metaculus/run.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/metaculus/SUBMIT.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "engine/pillars/__init__.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/pillars/capability.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/pillars/capital.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/pillars/demand.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/pillars/dependency.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/pillars/forces.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/pillars/frontier.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/pillars/metals.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/pillars/policy.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/pillars/power.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/pillars/research.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/pillars/slow.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/pope/__init__.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/pope/capture_render.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/pope/charts.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/pope/mega_deepseek.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/pope/publish_site.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/pope/README.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "engine/pope/render.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/pope/ultra.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/prophet/__init__.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/prophet/agent.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/prophet/anchor.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/prophet/backtest.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/prophet/kalshi.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/prophet/modal_app.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/prophet/openai_api.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/prophet/server.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/quality.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/raw_provenance.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/rawstore.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/render_emergence.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/research_papers.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/retro.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/saturation.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/schemas.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/sec_bulk_collect.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/sec_company_enrich.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/seed.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/sharpen.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/signals.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/significance.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/store.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/test_signals.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/universe.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/wikidata_enrich.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/world_catalog.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/world_extractor.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/world_graph_deepseek.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/world_graph.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/world_seed.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/world_state.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "experiments/forward_calls_seal.sha256",
+      "language": "sha256",
+      "fileCategory": "code"
+    },
+    {
+      "path": "experiments/protocol_locator.yaml",
+      "language": "yaml",
+      "fileCategory": "config"
+    },
+    {
+      "path": "experiments/protocol_structbench.yaml",
+      "language": "yaml",
+      "fileCategory": "config"
+    },
+    {
+      "path": "experiments/protocol_v1.yaml",
+      "language": "yaml",
+      "fileCategory": "config"
+    },
+    {
+      "path": "experiments/protocol_v2.yaml",
+      "language": "yaml",
+      "fileCategory": "config"
+    },
+    {
+      "path": "experiments/REGISTRY.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "experiments/timesfm_dataset_eval.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "FORECAST_LLM.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "FORECAST_SYSTEM_CONTROL_PLANE.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "FUTURE_MAP.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "humanizer-context.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "landing/app/globals.css",
+      "language": "css",
+      "fileCategory": "markup"
+    },
+    {
+      "path": "landing/app/layout.tsx",
+      "language": "typescript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "landing/app/page.tsx",
+      "language": "typescript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "landing/components/Counter.tsx",
+      "language": "typescript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "landing/components/ExamplePredictions.tsx",
+      "language": "typescript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "landing/components/Header.tsx",
+      "language": "typescript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "landing/components/HeroVisual.tsx",
+      "language": "typescript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "landing/components/Reveal.tsx",
+      "language": "typescript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "landing/components/StageBand.tsx",
+      "language": "typescript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "landing/docs/research/assets.json",
+      "language": "json",
+      "fileCategory": "config"
+    },
+    {
+      "path": "landing/docs/research/DESIGN_SPEC.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "landing/docs/research/sections.json",
+      "language": "json",
+      "fileCategory": "config"
+    },
+    {
+      "path": "landing/docs/research/tokens.json",
+      "language": "json",
+      "fileCategory": "config"
+    },
+    {
+      "path": "landing/docs/research/topology.json",
+      "language": "json",
+      "fileCategory": "config"
+    },
+    {
+      "path": "landing/docs/research/ui.json",
+      "language": "json",
+      "fileCategory": "config"
+    },
+    {
+      "path": "landing/next-env.d.ts",
+      "language": "typescript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "landing/next.config.ts",
+      "language": "typescript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "landing/package.json",
+      "language": "json",
+      "fileCategory": "config"
+    },
+    {
+      "path": "landing/postcss.config.mjs",
+      "language": "javascript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "landing/scripts/extract2.mjs",
+      "language": "javascript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "landing/scripts/recon.mjs",
+      "language": "javascript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "landing/tsconfig.json",
+      "language": "json",
+      "fileCategory": "config"
+    },
+    {
+      "path": "landing/tsconfig.tsbuildinfo",
+      "language": "tsbuildinfo",
+      "fileCategory": "code"
+    },
+    {
+      "path": "LEADERSHIP_AND_SUPERFORECASTING.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "NEGATIVE_RESULT_FINETUNE.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "newbenchmarksplan.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "OPS.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "OVERNIGHT_BRIEFING.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "paper_beyond_brier/beyond_brier_zemani.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "paper_beyond_brier/beyond_brier_zemani.tex",
+      "language": "tex",
+      "fileCategory": "code"
+    },
+    {
+      "path": "paper_beyond_brier/beyond_brier.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "paper_beyond_brier/beyond_brier.tex",
+      "language": "tex",
+      "fileCategory": "code"
+    },
+    {
+      "path": "paper_beyond_brier/compute_edge.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "paper_beyond_brier/eps_sens.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "paper_beyond_brier/forecast_sets/2024-07-21/human_public.json",
+      "language": "json",
+      "fileCategory": "config"
+    },
+    {
+      "path": "paper_beyond_brier/forecast_sets/2024-07-21/human_super.json",
+      "language": "json",
+      "fileCategory": "config"
+    },
+    {
+      "path": "paper_beyond_brier/llm_edge.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "paper_beyond_brier/llm_edge2.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "paper_beyond_brier/llm_figs.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "paper_beyond_brier/matched_question.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "paper_beyond_brier/mr_figs.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "paper_beyond_brier/multiround_rev.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "paper_beyond_brier/multiround.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "paper_beyond_brier/oos_debias.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "paper_beyond_brier/revise_edge_v3.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "paper_beyond_brier/revise_edge.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "paper_beyond_brier/tectonic",
+      "language": "unknown",
+      "fileCategory": "code"
+    },
+    {
+      "path": "paper_beyond_brier/worked_example.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "PATENT_NEEDLES.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "plan.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "POPE_ULTRA.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "proof.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "prophet-custom-agent.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "pyproject.toml",
+      "language": "toml",
+      "fileCategory": "config"
+    },
+    {
+      "path": "README.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "RESEARCH_PAPERS_OPERATION.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "research/closing_roadmap.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "research/contacts.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "research/MEGA_PLAN.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "research/outreach_messages.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "research/outreach_operating_plan.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "research/OUTREACH_PROMPT.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "research/outreach_templates.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "research/PEOPLE_MAP.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "research/targets/angels_salvage.jsonl",
+      "language": "jsonl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "research/targets/build_contact_cockpit.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "research/targets/build_outreach_assets.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "research/targets/build_outreach_panel.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "research/targets/contact_cockpit.html",
+      "language": "html",
+      "fileCategory": "markup"
+    },
+    {
+      "path": "research/targets/contactable_messages.csv",
+      "language": "csv",
+      "fileCategory": "data"
+    },
+    {
+      "path": "research/targets/email_campaign_ready_strict.csv",
+      "language": "csv",
+      "fileCategory": "data"
+    },
+    {
+      "path": "research/targets/email_enrichment_queue.csv",
+      "language": "csv",
+      "fileCategory": "data"
+    },
+    {
+      "path": "research/targets/email_ready_messages_enriched.csv",
+      "language": "csv",
+      "fileCategory": "data"
+    },
+    {
+      "path": "research/targets/email_ready_messages.csv",
+      "language": "csv",
+      "fileCategory": "data"
+    },
+    {
+      "path": "research/targets/enrich_public_emails.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "research/targets/find.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "research/targets/harvest_web.jsonl",
+      "language": "jsonl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "research/targets/harvest.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "research/targets/merge_panel.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "research/targets/oa_harvest.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "research/targets/outreach_universe_scored.csv",
+      "language": "csv",
+      "fileCategory": "data"
+    },
+    {
+      "path": "research/targets/outreach_universe_scored.json",
+      "language": "json",
+      "fileCategory": "config"
+    },
+    {
+      "path": "research/targets/public_email_enrichment_top300.csv",
+      "language": "csv",
+      "fileCategory": "data"
+    },
+    {
+      "path": "research/targets/researchers_openalex.jsonl",
+      "language": "jsonl",
+      "fileCategory": "code"
+    },
+    {
+      "path": "research/targets/targets.json",
+      "language": "json",
+      "fileCategory": "config"
+    },
+    {
+      "path": "research/targets/top_fit_300_messages.csv",
+      "language": "csv",
+      "fileCategory": "data"
+    },
+    {
+      "path": "research/top_fit_300.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "research/vaticinus_outreach_scale.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "scripts/launch_research_papers_ec2_pilot.sh",
+      "language": "shell",
+      "fileCategory": "script"
+    },
+    {
+      "path": "scripts/research_papers_ec2_pilot.sh",
+      "language": "shell",
+      "fileCategory": "script"
+    },
+    {
+      "path": "scripts/run_deepseek_resume_safe.sh",
+      "language": "shell",
+      "fileCategory": "script"
+    },
+    {
+      "path": "scripts/sync_foresight_to_box.sh",
+      "language": "shell",
+      "fileCategory": "script"
+    },
+    {
+      "path": "SECURITY_CLOUDFLARE.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "site/AGENTS.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "site/components.json",
+      "language": "json",
+      "fileCategory": "config"
+    },
+    {
+      "path": "site/docs/research/asset-manifest.json",
+      "language": "json",
+      "fileCategory": "config"
+    },
+    {
+      "path": "site/docs/research/BEHAVIORS.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "site/docs/research/fonts-and-tokens.json",
+      "language": "json",
+      "fileCategory": "config"
+    },
+    {
+      "path": "site/docs/research/fragments/about.html",
+      "language": "html",
+      "fileCategory": "markup"
+    },
+    {
+      "path": "site/docs/research/fragments/contactModal.html",
+      "language": "html",
+      "fileCategory": "markup"
+    },
+    {
+      "path": "site/docs/research/fragments/footer.html",
+      "language": "html",
+      "fileCategory": "markup"
+    },
+    {
+      "path": "site/docs/research/fragments/hero.html",
+      "language": "html",
+      "fileCategory": "markup"
+    },
+    {
+      "path": "site/docs/research/fragments/mission.html",
+      "language": "html",
+      "fileCategory": "markup"
+    },
+    {
+      "path": "site/docs/research/fragments/nav.html",
+      "language": "html",
+      "fileCategory": "markup"
+    },
+    {
+      "path": "site/docs/research/fragments/product.html",
+      "language": "html",
+      "fileCategory": "markup"
+    },
+    {
+      "path": "site/docs/research/fragments/research.html",
+      "language": "html",
+      "fileCategory": "markup"
+    },
+    {
+      "path": "site/docs/research/fragments/sampleqs.html",
+      "language": "html",
+      "fileCategory": "markup"
+    },
+    {
+      "path": "site/docs/research/fragments/sampleqsModal.html",
+      "language": "html",
+      "fileCategory": "markup"
+    },
+    {
+      "path": "site/docs/research/fragments/solutions.html",
+      "language": "html",
+      "fileCategory": "markup"
+    },
+    {
+      "path": "site/docs/research/fragments/team.html",
+      "language": "html",
+      "fileCategory": "markup"
+    },
+    {
+      "path": "site/docs/research/fragments/usecases.html",
+      "language": "html",
+      "fileCategory": "markup"
+    },
+    {
+      "path": "site/docs/research/fragments/videoModal.html",
+      "language": "html",
+      "fileCategory": "markup"
+    },
+    {
+      "path": "site/docs/research/global-extract.json",
+      "language": "json",
+      "fileCategory": "config"
+    },
+    {
+      "path": "site/docs/research/mantic.webflow.css",
+      "language": "css",
+      "fileCategory": "markup"
+    },
+    {
+      "path": "site/docs/research/PAGE_TOPOLOGY.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "site/docs/research/page.html",
+      "language": "html",
+      "fileCategory": "markup"
+    },
+    {
+      "path": "site/docs/research/reveals.json",
+      "language": "json",
+      "fileCategory": "config"
+    },
+    {
+      "path": "site/docs/research/scripts-extracted/inline-1.js",
+      "language": "javascript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/docs/research/scripts-extracted/inline-2.js",
+      "language": "javascript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/docs/research/scripts-extracted/inline-3.js",
+      "language": "javascript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/docs/research/scripts-extracted/inline-4.js",
+      "language": "javascript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/docs/research/scripts-extracted/inline-5.js",
+      "language": "javascript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/docs/research/scripts-extracted/inline-6.js",
+      "language": "javascript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/docs/research/scripts-extracted/inline-7.js",
+      "language": "javascript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/docs/research/scripts-extracted/inline-8.js",
+      "language": "javascript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/docs/research/scripts-extracted/inline-9.js",
+      "language": "javascript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/eslint.config.mjs",
+      "language": "javascript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/functions/api/_resend.ts",
+      "language": "typescript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/functions/api/contact.ts",
+      "language": "typescript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/next.config.ts",
+      "language": "typescript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/package.json",
+      "language": "json",
+      "fileCategory": "config"
+    },
+    {
+      "path": "site/pnpm-workspace.yaml",
+      "language": "yaml",
+      "fileCategory": "config"
+    },
+    {
+      "path": "site/postcss.config.mjs",
+      "language": "javascript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/public/_headers",
+      "language": "unknown",
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/public/data/coverage.json",
+      "language": "json",
+      "fileCategory": "config"
+    },
+    {
+      "path": "site/public/images/6891e0d64bb73bfd5cc7baaa_Scott_Headshot_Web_Use.avif",
+      "language": "avif",
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/public/images/6891e0d6a4a062c5f241a2ab_Ben_Headshot_1_Web_Use.avif",
+      "language": "avif",
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/public/images/6891e0d6a56642e6f2f8ca6b_Toby_Headshot_1_Web_Use.avif",
+      "language": "avif",
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/public/images/6891e0d6cb597a8bb5b6282b_Matthew_Headshot_Web_Use.avif",
+      "language": "avif",
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/public/images/6891e0d6d63df0d1263223ec_Max_Headshot_Web_Use-2.avif",
+      "language": "avif",
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/public/images/6891e0d737c1720826f42fbb_Vlad_Headshot_Web_Use.avif",
+      "language": "avif",
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/public/images/690cb136eef6de79e8f7d34d_vid_cover.avif",
+      "language": "avif",
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/public/images/699d59d37cc5e6173de5d2a4_sales-nesetril-ex_p4AaBxbs-unsplash.avif",
+      "language": "avif",
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/public/images/699d60cf9d1d57df8b4b546a_mathias-reding-yfXhqAW5X0c-unsplash.avif",
+      "language": "avif",
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/public/images/699d619163171055901d98a3_saulo-mohana-wNz7_5EvUWU-unsplash.avif",
+      "language": "avif",
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/public/images/699ef07119542b1455bffcd5_artin-bakhan-bBHMqG0X2V0-unsplash.avif",
+      "language": "avif",
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/public/images/699ef0e453fde1937e5d4c44_y-s-LGx9C3nSo5I-unsplash.avif",
+      "language": "avif",
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/public/images/69bd270c21763d0d24bb6982_Frame_2134281086.avif",
+      "language": "avif",
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/public/images/69bd270c7e3d256219e55594_Frame_2134281085.avif",
+      "language": "avif",
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/public/images/69bd270d6234e12377bc9231_Frame_2134281084.avif",
+      "language": "avif",
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/public/llms.txt",
+      "language": "txt",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "site/public/rive/foresight.riv",
+      "language": "riv",
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/public/rive/rive.js",
+      "language": "javascript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/public/rive/rive.wasm",
+      "language": "wasm",
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/README.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "site/scripts/build-foundation.mjs",
+      "language": "javascript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/scripts/download-assets.mjs",
+      "language": "javascript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/scripts/extract-deep.mjs",
+      "language": "javascript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/scripts/extract-fragments.mjs",
+      "language": "javascript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/scripts/extract-reveals.mjs",
+      "language": "javascript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/scripts/interaction-test.mjs",
+      "language": "javascript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/scripts/qa-shot.mjs",
+      "language": "javascript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/scripts/rebrand.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/scripts/recon.mjs",
+      "language": "javascript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/scripts/section-shots.mjs",
+      "language": "javascript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/src/app/admin/page.tsx",
+      "language": "typescript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/src/app/data/page.tsx",
+      "language": "typescript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/src/app/forecasts/ai-campus-power-claims/page.tsx",
+      "language": "typescript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/src/app/forecasts/page.tsx",
+      "language": "typescript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/src/app/globals.css",
+      "language": "css",
+      "fileCategory": "markup"
+    },
+    {
+      "path": "site/src/app/layout.tsx",
+      "language": "typescript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/src/app/page.tsx",
+      "language": "typescript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/src/app/privacy-policy/page.tsx",
+      "language": "typescript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/src/app/robots.ts",
+      "language": "typescript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/src/app/sitemap.ts",
+      "language": "typescript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/src/app/terms-of-service/page.tsx",
+      "language": "typescript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/src/components/ui/button.tsx",
+      "language": "typescript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/src/content/posts.json",
+      "language": "json",
+      "fileCategory": "config"
+    },
+    {
+      "path": "site/src/lib/utils.ts",
+      "language": "typescript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/src/sections/fragments/about.html",
+      "language": "html",
+      "fileCategory": "markup"
+    },
+    {
+      "path": "site/src/sections/fragments/contactModal.html",
+      "language": "html",
+      "fileCategory": "markup"
+    },
+    {
+      "path": "site/src/sections/fragments/engage.html",
+      "language": "html",
+      "fileCategory": "markup"
+    },
+    {
+      "path": "site/src/sections/fragments/footer.html",
+      "language": "html",
+      "fileCategory": "markup"
+    },
+    {
+      "path": "site/src/sections/fragments/forecasts.html",
+      "language": "html",
+      "fileCategory": "markup"
+    },
+    {
+      "path": "site/src/sections/fragments/hero.html",
+      "language": "html",
+      "fileCategory": "markup"
+    },
+    {
+      "path": "site/src/sections/fragments/mission.html",
+      "language": "html",
+      "fileCategory": "markup"
+    },
+    {
+      "path": "site/src/sections/fragments/nav.html",
+      "language": "html",
+      "fileCategory": "markup"
+    },
+    {
+      "path": "site/src/sections/fragments/product.html",
+      "language": "html",
+      "fileCategory": "markup"
+    },
+    {
+      "path": "site/src/sections/fragments/record.html",
+      "language": "html",
+      "fileCategory": "markup"
+    },
+    {
+      "path": "site/src/sections/fragments/research.html",
+      "language": "html",
+      "fileCategory": "markup"
+    },
+    {
+      "path": "site/src/sections/fragments/sampleqs.html",
+      "language": "html",
+      "fileCategory": "markup"
+    },
+    {
+      "path": "site/src/sections/fragments/sampleqsModal.html",
+      "language": "html",
+      "fileCategory": "markup"
+    },
+    {
+      "path": "site/src/sections/fragments/solutions.html",
+      "language": "html",
+      "fileCategory": "markup"
+    },
+    {
+      "path": "site/src/sections/fragments/track.html",
+      "language": "html",
+      "fileCategory": "markup"
+    },
+    {
+      "path": "site/src/sections/fragments/usecases.html",
+      "language": "html",
+      "fileCategory": "markup"
+    },
+    {
+      "path": "site/src/sections/fragments/videoModal.html",
+      "language": "html",
+      "fileCategory": "markup"
+    },
+    {
+      "path": "site/src/sections/raw.tsx",
+      "language": "typescript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/src/sections/SiteRuntime.tsx",
+      "language": "typescript",
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/src/styles/site.webflow.css",
+      "language": "css",
+      "fileCategory": "markup"
+    },
+    {
+      "path": "site/tsconfig.json",
+      "language": "json",
+      "fileCategory": "config"
+    },
+    {
+      "path": "SPEC_EDGE_LEVERS.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "tests/test_australia_epbc_referrals.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_blm_mining_claims.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_chat_bridge.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_collect_all.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_data_offload.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_disk_guard.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_europe_pmc.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_feed_safety.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_forecast_world_state_context.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_forecastbench_dataset.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_forecasting_control_plane.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_land_permit_sources.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_land_permits_canada_iaac.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_miningterminal_permits.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_pope_ultra.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_quality.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_raw_provenance.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_rawstore.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_research_papers_operation.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_resourcecontracts.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_us_permitting_dashboard.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_world_catalog.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_world_graph_deepseek.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_world_graph.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_world_state.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "training/AWS.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "training/common.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "training/eval.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "training/grpo.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "training/launch_big_hunt.sh",
+      "language": "shell",
+      "fileCategory": "script"
+    },
+    {
+      "path": "training/launch_big.sh",
+      "language": "shell",
+      "fileCategory": "script"
+    },
+    {
+      "path": "training/launch_mumbai.sh",
+      "language": "shell",
+      "fileCategory": "script"
+    },
+    {
+      "path": "training/launch_residual.sh",
+      "language": "shell",
+      "fileCategory": "script"
+    },
+    {
+      "path": "training/launch_resilient.sh",
+      "language": "shell",
+      "fileCategory": "script"
+    },
+    {
+      "path": "training/launch_signal.sh",
+      "language": "shell",
+      "fileCategory": "script"
+    },
+    {
+      "path": "training/launch_smoke.sh",
+      "language": "shell",
+      "fileCategory": "script"
+    },
+    {
+      "path": "training/mlx_convert.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "training/mlx_eval.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "training/mlx_rewards.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "training/MLX.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "training/README.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "training/requirements-mlx.txt",
+      "language": "txt",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "training/requirements.txt",
+      "language": "txt",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "training/residual_eval.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "training/RESIDUAL_RECIPE.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "training/run_all.sh",
+      "language": "shell",
+      "fileCategory": "script"
+    },
+    {
+      "path": "training/run_big.sh",
+      "language": "shell",
+      "fileCategory": "script"
+    },
+    {
+      "path": "training/run_overnight.sh",
+      "language": "shell",
+      "fileCategory": "script"
+    },
+    {
+      "path": "training/run_residual.sh",
+      "language": "shell",
+      "fileCategory": "script"
+    },
+    {
+      "path": "training/run_residual2.sh",
+      "language": "shell",
+      "fileCategory": "script"
+    },
+    {
+      "path": "training/run_residual3.sh",
+      "language": "shell",
+      "fileCategory": "script"
+    },
+    {
+      "path": "training/run_smoke.sh",
+      "language": "shell",
+      "fileCategory": "script"
+    },
+    {
+      "path": "training/sft.py",
+      "language": "python",
+      "fileCategory": "code"
+    },
+    {
+      "path": "training/watch_signal.sh",
+      "language": "shell",
+      "fileCategory": "script"
+    },
+    {
+      "path": "VATI_WORLD_GRAPH.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "VOICE.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "WORLD_DATA_PIPELINE.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    }
+  ]
+}

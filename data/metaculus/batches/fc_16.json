@@ -1,0 +1,66 @@
+[
+ {
+  "question_id": 25565,
+  "type": "binary",
+  "prob": 0.09,
+  "reasoning": "Current syngas/gas fermentation (LanzaTech etc.) operates at hundreds-to-thousands of tons/yr per plant; reaching 500M t/yr global capacity by 2050 demands a ~5-order-of-magnitude scale-up plus step-change CO2-fermenting strains and reactors that don't yet exist economically. Possible over 24 years but it requires the whole bottleneck stack to break, so default low."
+ },
+ {
+  "question_id": 25572,
+  "type": "binary",
+  "prob": 0.11,
+  "reasoning": "Bio-based ethylene, propylene and succinic acid all still carry meaningful price premiums over petrochemical routes in 2025 (bio-succinic ~$1,800/MT and startups have repeatedly failed on cost), and the question needs all three simultaneously within 2% of petro-parity. Achievable only with sustained high oil prices or a broad carbon tax plus fermentation breakthroughs, so unlikely though not negligible by 2050."
+ },
+ {
+  "question_id": 25575,
+  "type": "date",
+  "percentiles": {
+   "0.05": "2048-07-01",
+   "0.1": "2055-07-01",
+   "0.25": "2065-07-01",
+   "0.5": "2075-01-01",
+   "0.75": "2075-01-01",
+   "0.9": "2075-01-01",
+   "0.95": "2075-01-01"
+  },
+  "reasoning": "Synthetic-biology protein fibers (Spiber, Bolt) are a tiny fraction of well under 0.1% of ~116M tonnes of global fiber, still cost $20-30+/kg vs commodity synthetics, and largest fermenters make ~10kg batches; reaching 10% by mass (~12M t) needs a thousand-fold scale-up. Most likely it does not reach 10% before 2075, so upper percentiles sit at the open window end."
+ },
+ {
+  "question_id": 25578,
+  "type": "binary",
+  "prob": 0.03,
+  "reasoning": "PA6 nylon trades around $2-3/kg while recombinant protein/spider-silk fibers remain $20-30/kg at best (often hundreds to $1,800/kg), an order of magnitude too expensive, with no credible path to undercut nylon in an open 10-tonne order by end-2029. Effectively no chance by 2030."
+ },
+ {
+  "question_id": 25586,
+  "type": "binary",
+  "prob": 0.62,
+  "reasoning": "GFI and Tufts are actively building open-access cell-line banks, media formulations and tools for alternative-protein research with growing momentum, and the 100-item threshold is modest. Main risk is that resources stay fragmented across sites or fall short of the strict 'intended for meat alternatives' + single accessible repository wording before 2030."
+ },
+ {
+  "question_id": 25720,
+  "type": "binary",
+  "prob": 0.30,
+  "reasoning": "Citizen-science plant data efforts exist (Pl@ntNet, iNaturalist, GBIF-linked programs) and global biodiversity funding is rising, but the specific bar of >=30 Global-South countries (>=4 each across Africa, Asia/Pacific, Latin America) plus a documented $10M+ aggregate investment in such initiatives by 2030 is narrow and hard to evidence cleanly. Lean below even."
+ },
+ {
+  "question_id": 25735,
+  "type": "numeric",
+  "percentiles": {
+   "0.05": "20",
+   "0.1": "24",
+   "0.25": "30",
+   "0.5": "38",
+   "0.75": "48",
+   "0.9": "60",
+   "0.95": "72"
+  },
+  "reasoning": "Dilute coal flue-gas point-source capture is ~$47-77/t today with a DOE second-gen target near $40/t; over ~15 years to 2039 modest learning-curve declines but no order-of-magnitude drop are realistic for a dilute source, with upside risk if deployment stays limited. Median ~$38/t in 2024 dollars, wide both ways."
+ },
+ {
+  "question_id": 25736,
+  "type": "binary",
+  "prob": 0.07,
+  "reasoning": "Carbonic-anhydrase CO2-absorption assays in the literature are mostly immobilized-enzyme or packed-bed microreactor formats, whereas this needs a non-immobilized assay using <100 uL solvent and <5 mg enzyme that is also purchasable in batches of 100 or selling ~1,000/yr before 2028. The combined technical-plus-commercial bar in a short window is rarely met, so default low."
+ }
+]

@@ -1,0 +1,50 @@
+[
+ {
+  "question_id": 8609,
+  "type": "binary",
+  "prob": 0.12,
+  "reasoning": "Conditional on a 10% shortfall, Denkenberger himself notes near-zero mortality is unlikely but mass starvation is often averted via aid, rationing, and export controls; >400M dead (~5% of humanity) is an extreme tail requiring three credible sources to converge, plausible mainly if the shortfall stems from nuclear winter. Most non-nuclear 10%-shortfall paths fall well short of 400M."
+ },
+ {
+  "question_id": 8610,
+  "type": "numeric",
+  "percentiles": {"0.05": 0.0, "0.1": 0.02, "0.25": 0.08, "0.5": 0.2, "0.75": 0.4, "0.9": 0.6, "0.95": 0.75},
+  "reasoning": "US targeting is predominantly counterforce (silos, bases, C2), much of which lies outside dense >1500/km^2 city cores, but many military/leadership targets are co-located with or near large cities and a full exchange would include countervalue strikes. Wide distribution centered low-to-moderate."
+ },
+ {
+  "question_id": 8612,
+  "type": "binary",
+  "prob": 0.04,
+  "reasoning": "A direct US-Russia nuclear exchange within ~9 years carries a very low base rate (~3-5%), and conditioning on a successfully renewed/replaced arms-control treaty signals relatively cooperative relations that further lowers it. Mutual deterrence has held for 80 years."
+ },
+ {
+  "question_id": 8629,
+  "type": "binary",
+  "prob": 0.85,
+  "reasoning": "A conflict with 100+ detonations on US territory implies a large-scale exchange whose soot injection and climatic effects (nuclear winter literature) would very likely depress US cereal yields by far more than a 20% five-year average. The main downside risk is short, limited 100-detonation scenarios with milder climate effects."
+ },
+ {
+  "question_id": 8630,
+  "type": "numeric",
+  "percentiles": {"0.05": 1.5, "0.1": 3, "0.25": 8, "0.5": 30, "0.75": 120, "0.9": 360, "0.95": 600},
+  "reasoning": "Conditional on >100 detonations in one conflict, the most likely dynamic is a rapid strike/counterstrike playing out over hours, but tit-for-tat escalation could stretch across days within the 30-day same-conflict window. Heavy right skew toward longer drawn-out exchanges."
+ },
+ {
+  "question_id": 8631,
+  "type": "numeric",
+  "percentiles": {"0.05": 0.0, "0.1": 0.0, "0.25": 0.1, "0.5": 0.5, "0.75": 0.9, "0.9": 1.0, "0.95": 1.0},
+  "reasoning": "Outcome is bimodal: the single most likely first-use scenario (e.g. Russia in Ukraine) is one or a few tactical/non-strategic weapons giving a high proportion, while a large central exchange would be dominated by strategic weapons giving a low proportion. Median near 0.5 reflects this split."
+ },
+ {
+  "question_id": 8632,
+  "type": "binary",
+  "prob": 0.18,
+  "reasoning": "Exceeding 1000Mt total yield requires a near-full-scale strategic exchange of thousands of warheads. Conditional merely on any offensive detonation, the modal path is a limited single/few-weapon use that stays far below this threshold; only the all-out-war tail clears 1000Mt."
+ },
+ {
+  "question_id": 8635,
+  "type": "binary",
+  "prob": 0.35,
+  "reasoning": "A 50Mt total is reachable with roughly 100 strategic-class detonations, far easier than 1000Mt but still well beyond the most likely limited first-use scenario. Conditional on any offensive detonation, this sits between the limited-use mode and the full-exchange tail."
+ }
+]

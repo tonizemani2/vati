@@ -48,8 +48,21 @@ All five are surfaced in the cockpit. A capability that doesn't move one of thes
 
 ## Ambition vs. near-term proof
 
+*(Amended by Decision logged 2026-06-19: lead with the fast public win, not the 2027-28 confession. The
+deep structural cards remain the long tail; they are no longer the headline proof.)*
+
 - **Ambition:** a trillion-dollar-relevant foresight engine — the layer that sees constraint migration one step before the market.
-- **Near-term proof that we're real (honest):** there is **no calibration evidence on the actual deliverable (structural calls) until forward cards resolve in 2027–28.** Until then the only interim proxies are (a) each structural call **surviving an adversarial priced-in challenge at authoring time** (the consensus-eye gate + the independent multi-skeptic panel + a separate-model search for the published thesis), and (b) the **persistence ladder staying calibrated** — explicitly a persistence backtest, not proof of foresight. The retrodiction pass is **not** counted as proof-of-edge.
+- **Near-term proof (this summer, scored by someone other than us):** win on the **external benchmarks** that
+  resolve in weeks-to-months — ForecastBench (dataset half, upload Jun 21), the Metaculus Cup (closes Sep 1),
+  and the FutureEval Bot Tournament (open till Sept 6) — and stand up a **live, public, append-only call
+  board** where every call carries P + interval + resolution date + kill-criterion fixed at publish and is
+  Brier-scored on resolution. Scope the board to **short-horizon structural** calls so the record compounds
+  in months, not years. Calibration (Brier vs a base-rate baseline) is the headline number, so the board
+  cannot overclaim by construction.
+- **The long tail, not the proof:** the deep 2027-28 structural cards still get authored, still survive the
+  adversarial priced-in challenge at authoring time (the consensus-eye gate + the multi-skeptic panel + a
+  separate-model search for the published thesis), and still resolve on their own clock — but waiting on them
+  is no longer how we prove we're real. The fast public scoreboard is.
 
 ---
 

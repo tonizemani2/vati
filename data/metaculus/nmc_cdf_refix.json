@@ -1,0 +1,11 @@
+[
+ {
+  "qid": 43132,
+  "ok": false,
+  "err": "POST /questions/forecast/ \u2192 HTTP 400: {\"non_field_errors\":[{\"non_field_errors\":[\"CDF Invalid:\\ncontinuous_cdf at upper bound must be at most 0.999 due to upper bound being open.\\n\"]}]}"
+ },
+ {
+  "qid": 38115,
+  "ok": true
+ }
+]

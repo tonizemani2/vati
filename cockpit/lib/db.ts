@@ -930,6 +930,101 @@ export const getDataHealth = (): DataHealth => {
   return { n, ok, warn, fail, score, worst };
 };
 
+// --- timestamped world-state coverage (V1 spine) ---
+
+export type WorldStateCountRow = { name: string; n: number };
+export type WorldStateOverview = {
+  facts: number;
+  activeFacts: number;
+  snapshots: number;
+  latestSnapshotHash: string | null;
+  latestSnapshotTopic: string | null;
+  latestSnapshotAsOf: string | null;
+  latestSnapshotFacts: number;
+  rawDocs: number;
+  sources: number;
+  hashedSources: number;
+  sourcesWithRawDoc: number;
+  missingSourceHashes: number;
+  sourceHashesWithoutRawDoc: number;
+  rawCoveragePct: number;
+  rawByteCoveragePct: number;
+  healthOk: number;
+  healthWarn: number;
+  healthFail: number;
+  spendCents: number;
+  factsByPredicate: WorldStateCountRow[];
+  factsBySource: WorldStateCountRow[];
+};
+
+export const getWorldStateOverview = (): WorldStateOverview => {
+  const facts = scalar<number>("SELECT count(*) FROM world_state_facts", 0);
+  const activeFacts = scalar<number>(
+    "SELECT count(*) FROM world_state_facts WHERE status='active'",
+    0
+  );
+  const snapshots = scalar<number>("SELECT count(*) FROM world_state_snapshots", 0);
+  const latest = rows<{
+    topic: string; as_of: string; snapshot_hash: string; fact_count: number;
+  }>(
+    `SELECT topic, as_of, snapshot_hash, fact_count
+     FROM world_state_snapshots ORDER BY created_at DESC LIMIT 1`
+  )[0];
+  const sources = scalar<number>("SELECT count(*) FROM sources", 0);
+  const hashedSources = scalar<number>(
+    "SELECT count(*) FROM sources WHERE content_hash IS NOT NULL AND length(content_hash)>0",
+    0
+  );
+  const rawDocs = scalar<number>("SELECT count(*) FROM raw_docs", 0);
+  const sourcesWithRawDoc = scalar<number>(
+    `SELECT count(DISTINCT s.id)
+     FROM sources s
+     JOIN raw_docs r ON r.content_hash = s.content_hash`,
+    0
+  );
+  const health = rows<{ status: string; n: number }>(
+    "SELECT status, count(*) n FROM series_health GROUP BY status"
+  );
+  const healthMap = new Map(health.map((r) => [r.status, r.n]));
+  const factsByPredicate = rows<WorldStateCountRow>(
+    `SELECT predicate name, count(*) n
+     FROM world_state_facts GROUP BY predicate ORDER BY n DESC LIMIT 8`
+  );
+  const factsBySource = rows<WorldStateCountRow>(
+    `SELECT COALESCE(s.title, f.source_id, 'unknown') name, count(*) n
+     FROM world_state_facts f
+     LEFT JOIN sources s ON s.id = f.source_id
+     GROUP BY COALESCE(s.title, f.source_id, 'unknown')
+     ORDER BY n DESC LIMIT 8`
+  );
+  return {
+    facts,
+    activeFacts,
+    snapshots,
+    latestSnapshotHash: latest?.snapshot_hash ?? null,
+    latestSnapshotTopic: latest?.topic ?? null,
+    latestSnapshotAsOf: latest?.as_of ?? null,
+    latestSnapshotFacts: latest?.fact_count ?? 0,
+    rawDocs,
+    sources,
+    hashedSources,
+    sourcesWithRawDoc,
+    missingSourceHashes: Math.max(0, sources - hashedSources),
+    sourceHashesWithoutRawDoc: Math.max(0, hashedSources - sourcesWithRawDoc),
+    rawCoveragePct: sources ? Math.round((hashedSources / sources) * 1000) / 10 : 0,
+    rawByteCoveragePct: sources ? Math.round((sourcesWithRawDoc / sources) * 1000) / 10 : 0,
+    healthOk: healthMap.get("ok") ?? 0,
+    healthWarn: healthMap.get("warn") ?? 0,
+    healthFail: healthMap.get("fail") ?? 0,
+    spendCents: scalar<number>(
+      "SELECT COALESCE(sum(COALESCE(actual_cost_cents, est_cost_cents)),0) FROM cost_ledger",
+      0
+    ),
+    factsByPredicate,
+    factsBySource,
+  };
+};
+
 // Frontier time-series + the detector's latest verdict on each. Fired first, then by surprise.
 // Flat read (A6): n_obs/first/last/spark are precomputed onto the series row at detect time, so
 // this list view touches `observations` zero times (was 3 correlated subqueries + group_concat

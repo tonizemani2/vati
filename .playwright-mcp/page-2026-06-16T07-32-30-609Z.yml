@@ -1,0 +1,321 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]: Vaticinus · pre-consensus · dated · falsifiable
+    - 'heading "Where chip-supply rent moves next: eight inelastic nodes, six we''d back" [level=1] [ref=e4]'
+    - emphasis [ref=e6]: The constraint that binds is rarely the monopoly everyone names. It is the artisanal sub-step, the byproduct metal, the second-decade engineer, and the isotope cascade that money cannot ramp on a fab timeline.
+    - generic [ref=e7]:
+      - strong [ref=e8]: "The frame:"
+      - text: when a system scales, the money does not stay where the headlines are. It moves to the one input that cannot scale with it. Our job is to name that input, and the date it starts to bite, before the market prices it in.
+    - generic [ref=e9]:
+      - text: "Area: semiconductors and the chip supply chain (logic foundry, memory and HBM, advanced packaging and substrates, lithography and fab equipment and specialty gases/materials, EDA and IP, test, and the compute hardware stack) • Horizon: 2030 to 2040"
+      - text: "How we work: cast wide for ideas, then test every one hard against the price and the supply chain. We name the specific input, not the theme."
+      - text: "Two numbers per call: how strong we think the case is, and the odds on the exact, dated version, which is the one we are graded on."
+      - text: "Status: the calls that survived our own attempt to break them. Drafted 2026-06-14."
+  - generic [ref=e10]:
+    - 'heading "The board: 6 calls that survived the cut" [level=2] [ref=e11]'
+    - heading "The cross-cutting read" [level=3] [ref=e12]
+    - paragraph [ref=e13]: "All six calls share one shape. Capital, tools, and wafer capacity can all be bought on a capex clock, but the real ceiling sits a layer or two below the priced story, at an input whose supply grows on a physical or biological clock instead of a financial one. Three of the six are tacit-knowledge or labor constraints (Zeiss Oberkochen optics figuring, senior yield and integration engineers, certified UHP hookup welders), where supply is set by how fast a human banks a decade of on-line experience or a trade certifies a fitter, and neither parallelizes with money. Two are single-vendor or single-site equipment chokepoints (Zeiss again, IMS multibeam mask writers), where lead times of 18 to 36 months and no second qualified source cap how fast output can rise. Two are geologically or isotopically inelastic materials (ruthenium as a 30 t/yr platinum byproduct with no primary mine, enriched Si-28 from export-controlled separation cascades). The edge is not that these inputs are unknown. It is that the equity and policy channels price the wrong unit. They price ASML the company, not Zeiss the polishing bench. They price the fab as capex, not the engineer who carries the yield curve. They price the metal, not the chip-ramp risk it gates. The strongest calls keep two questions separate: is the physical mechanism real and inelastic, and does the specific dated, disclosure-dependent trigger actually fire. The lower second numbers honestly reflect substitution routes (molybdenum for ruthenium, Cu-Cu hybrid bonding for solder, superconducting qubits for silicon spin) and the fact that several triggers depend on a public disclosure supply chains may choose to manage quietly."
+    - heading "At a glance" [level=3] [ref=e14]
+    - table [ref=e15]:
+      - rowgroup [ref=e16]:
+        - row "# The boom Binding constraint (the needle) Case Our call Resolves" [ref=e17]:
+          - columnheader "#" [ref=e18]
+          - columnheader "The boom" [ref=e19]
+          - columnheader "Binding constraint (the needle)" [ref=e20]
+          - columnheader "Case" [ref=e21]
+          - columnheader "Our call" [ref=e22]
+          - columnheader "Resolves" [ref=e23]
+      - rowgroup [ref=e24]:
+        - row "P1 The loud story says ASML is the monopoly and EUV source power is the throughput knob. Capital is flooding into fab shells (TSMC AZ, Intel, Samsung, Rapidus) on the assumption the scanners will follow. Sell-side equity models and export-control rules both treat the ASML scanner as the atomic unit of scarcity. Neither breaks out the projection optics module as a separate, slower-moving constraint. Zeiss SMT deterministic ion-beam-figuring and Mo/Si multilayer-coating throughput for EUV/High-NA projection mirror sets 82% 52% 2032-12-31" [ref=e25]:
+          - cell "P1" [ref=e26]
+          - cell "The loud story says ASML is the monopoly and EUV source power is the throughput knob. Capital is flooding into fab shells (TSMC AZ, Intel, Samsung, Rapidus) on the assumption the scanners will follow. Sell-side equity models and export-control rules both treat the ASML scanner as the atomic unit of scarcity. Neither breaks out the projection optics module as a separate, slower-moving constraint." [ref=e27]
+          - cell "Zeiss SMT deterministic ion-beam-figuring and Mo/Si multilayer-coating throughput for EUV/High-NA projection mirror sets" [ref=e28]
+          - cell "82%" [ref=e29]
+          - cell "52%" [ref=e30]
+          - cell "2032-12-31" [ref=e31]
+        - row [ref=e32]:
+          - cell "P2" [ref=e33]
+          - cell [ref=e34]
+          - cell "Senior (second-decade, 10-plus years) yield-enhancement and process-integration engineers with multi-node hands-on ramp" [ref=e35]
+          - cell "82%" [ref=e36]
+          - cell "58%" [ref=e37]
+          - cell "2033-12-31" [ref=e38]
+        - row [ref=e39]:
+          - cell "P3" [ref=e40]
+          - cell [ref=e41]
+          - cell "Ruthenium metal supply and high-purity Ru sputtering-target and ALD-precursor conversion capacity for barrierless interc" [ref=e42]
+          - cell "72%" [ref=e43]
+          - cell "40%" [ref=e44]
+          - cell "2035-12-31" [ref=e45]
+        - row [ref=e46]:
+          - cell "P4" [ref=e47]
+          - cell [ref=e48]
+          - cell "Certified UHP orbital welders and UHP/PVDF gas-and-chemical-distribution fitters qualified to semiconductor contaminatio" [ref=e49]
+          - cell "72%" [ref=e50]
+          - cell "52%" [ref=e51]
+          - cell "2031-12-31" [ref=e52]
+        - row [ref=e53]:
+          - cell "P5" [ref=e54]
+          - cell [ref=e55]
+          - 'cell "Enriched Si-28 isotope-separation capacity: specifically the aerodynamic-separation (silane) or gas-centrifuge (SiF4) ca" [ref=e56]'
+          - cell "72%" [ref=e57]
+          - cell "34%" [ref=e58]
+          - cell "2034-12-31" [ref=e59]
+        - 'row "P6 The loud story is the GPU and ASIC design explosion: design talent, HBM, CoWoS packaging. Masks get treated as a solved commodity. The photomask conversation, where it happens at all, is about blank substrates (Hoya, AGC), not about who writes the pattern. The specialist trade press (SemiAnalysis, August 2022) has named the IMS monopoly, but the second-order point, that the AI-driven explosion in DISTINCT designs (not wafer volume) turns mask-write throughput into the gate on design diversity, is missing from mainstream financial and market coverage. Installed IMS multibeam-mask-writer write-hours per year at merchant and captive mask shops (Toppan, Tekscend, TSMC/Inte 72% 38% 2031-12-31" [ref=e60]':
+          - cell "P6" [ref=e61]
+          - 'cell "The loud story is the GPU and ASIC design explosion: design talent, HBM, CoWoS packaging. Masks get treated as a solved commodity. The photomask conversation, where it happens at all, is about blank substrates (Hoya, AGC), not about who writes the pattern. The specialist trade press (SemiAnalysis, August 2022) has named the IMS monopoly, but the second-order point, that the AI-driven explosion in DISTINCT designs (not wafer volume) turns mask-write throughput into the gate on design diversity, is missing from mainstream financial and market coverage." [ref=e62]'
+          - cell "Installed IMS multibeam-mask-writer write-hours per year at merchant and captive mask shops (Toppan, Tekscend, TSMC/Inte" [ref=e63]
+          - cell "72%" [ref=e64]
+          - cell "38%" [ref=e65]
+          - cell "2031-12-31" [ref=e66]
+    - paragraph [ref=e67]: Case = how strong we think the thesis is. Our call = the probability we put on the exact, dated version landing by the deadline, and the number we are graded on. The gap between them is the cost of pinning a date and a hard threshold, not a lack of conviction.
+  - generic [ref=e68]:
+    - generic [ref=e69]:
+      - heading "P1 · The ceiling on the AI-compute wafer build-out is not ASML, EUV source power, or fab shells. It is Zeiss SMT ion-beam-figuring throughput for EUV/High-NA projection mirror sets at one site in Oberkochen, Germany." [level=2] [ref=e70]
+      - generic [ref=e71]: P1
+    - paragraph [ref=e72]: "The boom: The loud story says ASML is the monopoly and EUV source power is the throughput knob. Capital is flooding into fab shells (TSMC AZ, Intel, Samsung, Rapidus) on the assumption the scanners will follow. Sell-side equity models and export-control rules both treat the ASML scanner as the atomic unit of scarcity. Neither breaks out the projection optics module as a separate, slower-moving constraint. · Domain: semiconductors"
+    - generic [ref=e73]:
+      - generic [ref=e74]:
+        - generic [ref=e75]: Structural case
+        - generic [ref=e76]: 82%
+      - generic [ref=e77]:
+        - generic [ref=e78]: Our call, dated
+        - generic [ref=e79]: 52%
+      - generic [ref=e80]:
+        - generic [ref=e81]: Resolves
+        - generic [ref=e82]: 2032-12-31
+    - paragraph [ref=e83]: "An EUV scanner's resolution lives entirely in its Zeiss SMT projection optics: six aspheric Mo/Si multilayer mirrors polished and ion-beam-figured to roughly 50-picometer surface deviation, then coated with 50-plus individually sputtered Mo/Si layer pairs. Each mirror needs iterative measurement-correction cycles run on custom interferometers that themselves take years to build and qualify. A full set is effectively a one-year artisanal build. The work sits at Zeiss SMT Oberkochen, where three decades of tacit skill in deterministic ion-beam figuring and closed-loop metrology have piled up. High-NA (0.55 NA) makes it worse: anamorphic mirrors of larger aperture, tighter tolerances, lower yield per attempt. No second qualified projection-optics figuring site exists. Zeiss has expanded globally for mask inspection (AIMS EUV 3.0), but mask inspection is not projection optics figuring, and the two share no relevant tacit-skill base. The supply elasticity of this input is near zero on any horizon shorter than a decade. As every hyperscaler and nation-state races to add leading-edge capacity at once, they are all bidding for the output of one optics shop's polishing benches, and that output grows in the low single digits per year at best. Fab shells, HBM, and packaging can be funded in parallel. Projection mirror sets cannot. Web search confirms High-NA volume ramp stays in the low tens of systems per year through at least 2028, with no second figuring site announced as of June 2026."
+    - generic [ref=e84]:
+      - generic [ref=e85]: Why it is not priced yet
+      - text: The market prices ASML the company as the monopoly and EUV source power as the throughput knob. Sell-side equity models do not break out Zeiss optics-figuring throughput as a separate capacity ceiling. Export-control rules (US BIS, Dutch Dekra controls) target the ASML scanner and DUV steppers; nothing targets optics modules on their own. Specialist semi media (SemiconductorX, The Elec) mention the Zeiss dependency in passing but frame it as handled for standard EUV, without modeling it as the governor on the High-NA ramp. FUTURE_MAP covers EUV source-side constraints (InP CW lasers, dry resist) but not projection-optics fabrication throughput. The specific move of the binding constraint from scanner to optics figuring at a single tacit-skill site is missing from equity modeling and policy framing.
+    - generic [ref=e86]:
+      - generic [ref=e87]: Where the price sits today
+      - text: No financial instrument prices Zeiss optics-figuring throughput directly. ASML trades on order backlog and system shipments; the optics module is not broken out in any sell-side model. No second-source or capacity-expansion announcement has opened a price channel as of June 2026.
+    - generic [ref=e88]:
+      - generic [ref=e89]: The binding constraint
+      - text: Zeiss SMT deterministic ion-beam-figuring and Mo/Si multilayer-coating throughput for EUV/High-NA projection mirror sets at sub-100pm figure accuracy, single site Oberkochen, tacit-skill-bound, roughly one year per mirror set.
+    - generic [ref=e90]:
+      - generic [ref=e91]: What we are watching
+      - text: "Zeiss SMT / ASML disclosed or inferable annual EUV plus High-NA projection-optics module output (proxy: ASML EUV plus High-NA system shipments capped by optics, vs. ASML's stated build-capacity ambition). Track the gap between ASML order backlog and delivered EUV units attributable to optics lead time, and any Zeiss SMT capacity-expansion or second-figuring-site announcement. Current baseline: High-NA production rate in low tens per year through 2028 per industry projections; no second figuring site exists as of June 2026."
+    - generic [ref=e92]:
+      - generic [ref=e93]: What would prove us wrong
+      - text: Kill if by 2032 Zeiss/ASML demonstrably break the one-set-per-year figuring rate at scale (for example a qualified second figuring or coating site outside Oberkochen, or robotic/computational-polishing pushing High-NA optics-module output above roughly 30 sets per year), OR if leading-edge wafer demand is met without optics being the binding scanner sub-component (source, stage, or throughput dominates the delivery gap instead), OR if a non-Zeiss EUV optics supplier qualifies for production scanners.
+    - generic [ref=e94]:
+      - generic [ref=e95]: How we tried to break it
+      - text: Three honest attacks. First, ASML management said in 2024 that the optics supply challenges from Zeiss had been resolved. That referred to standard EUV, and High-NA resets the difficulty at strictly tighter tolerances, so it is not a kill. Second, High-NA is early-ramp and not yet where most AI-accelerator wafers are made. The constraint bites hardest at sub-2nm nodes; standard EUV (0.33 NA) keeps serving 3nm/2nm where today's AI training silicon lives. That is a real scope limit and it keeps our second number off the high end even though the mechanism is credible. Third, 6.5 years is long enough for a partial supply response given the financial incentive. Zeiss is trying (roughly 2,000 of 9,349 employees working on High-NA as of 2025), and robotic and computational polishing are active research areas. The open question is whether any of that turns into a qualified second figuring site or a step-change in throughput by 2032. The physical difficulty and the tacit-knowledge moat make it unlikely on that timeline, not impossible. The structural claim survives because no current evidence contradicts the core physical inelasticity and no second site is on the horizon.
+    - generic [ref=e96]: "Why we are making the call We think the physical mechanism is real and tightly specified, and the supply inelasticity at Oberkochen is genuine and not replicated anywhere else. The market frames this wrong at the level that matters: equity and policy both treat the scanner as atomic when the real constraint is one optics shop's polishing benches. The input is named precisely, the kill criteria are honest, and the call holds up under attack. Two things keep our second number at 0.52 rather than higher: High-NA is not yet the dominant AI-wafer node, and 6.5 years leaves room for a partial supply response. The structural read sits at 0.82. We'd promote it with the scope caveat marked."
+    - generic [ref=e97]:
+      - generic [ref=e98]: If the call is right, here is what moves
+      - paragraph [ref=e99]:
+        - text: If Zeiss SMT figuring throughput is the true ceiling, the rent stops accruing to
+        - strong [ref=e100]: ASML
+        - text: as a whole and concentrates in the one Oberkochen optics shop. ASML keeps the brand and the backlog; the marginal scarcity premium moves upstream to the people who can figure a sub-100pm mirror.
+      - generic [ref=e101]:
+        - generic [ref=e102]:
+          - heading "Who gains" [level=5] [ref=e103]
+          - generic [ref=e104]: "Zeiss SMT (Oberkochen): sole holder of the tacit figuring skill; captures the scarcity premium directly"
+          - generic [ref=e105]: "Incumbent leading-edge fabs with delivered High-NA slots: their installed optics become a moat competitors cannot buy their way past"
+        - generic [ref=e106]:
+          - heading "Who loses" [level=5] [ref=e107]
+          - generic [ref=e108]: "Greenfield fab projects (Rapidus, second-wave Intel): capital cannot buy an optics set that does not exist; shells sit idle"
+          - generic [ref=e109]: "Sell-side models pricing ASML on shipment count: they miss the optics-module governor and misdate the ramp"
+      - generic [ref=e110]: What reprices
+      - paragraph [ref=e111]: ASML delivery guidance for High-NA slips relative to backlog; the gap shows up as lengthening lead times, not a headline cut. Watch the spread between ASML order backlog and optics-attributable deliveries.
+      - generic [ref=e112]: The next constraint it creates
+      - paragraph [ref=e113]: If figuring throughput is broken with a second site, the constraint moves one layer deeper to qualified Mo/Si multilayer-coating capacity and the custom interferometers used to measure the mirrors.
+      - generic [ref=e114]: Earliest sign it has begun
+      - paragraph [ref=e115]: A Zeiss SMT capacity-expansion or second-figuring-site announcement, or ASML breaking out optics lead time in guidance, is the earliest public sign the cascade has begun.
+  - generic [ref=e116]:
+    - generic [ref=e117]:
+      - heading "P2 · Senior yield and process-integration engineers with multi-node sub-5nm ramp experience are the input you cannot clone for ex-Taiwan leading-edge output through the 2030s. Capital and wafer capacity are fundable; a decade of hands-on ramp knowledge is not, and the rent moves to whoever holds that headcount." [level=2] [ref=e118]
+      - generic [ref=e119]: P2
+    - paragraph [ref=e120]: "The boom: Capital, EUV tools, and wafer capacity are all fundable on a capex timeline. The one input that is not is a person who has personally climbed the yield curve across several node generations at the sub-5nm class. Process integration and yield-enhancement engineering is overwhelmingly tacit: contamination fingerprinting, defectivity root-cause, and parametric drift diagnosis are learned over 10-plus years on a running line, and they do not transfer from a textbook or a two-year program. The market prices a fab as steel, tools, and a node label, then assumes the yield ramp arrives on schedule. It does not. TSMC blamed its Arizona delays on skilled worker shortages and flew in over 1,000 Taiwanese engineers on three-year assignments, then watched the second Arizona plant slip to 2027-2028. That is not a capex problem. It is a count-of-experienced-engineers problem. One-third of the US senior fab-engineer cohort is at or near retirement age (a fixed birth-cohort fact), degree enrollment in feeder programs lagged for years, and the announced ex-Taiwan fab count is contractually committed. The mismatch between capex-speed fab buildout and biology-speed expertise is mechanical, and decisions already made have locked it in. · Domain: semiconductors"
+    - generic [ref=e121]:
+      - generic [ref=e122]:
+        - generic [ref=e123]: Structural case
+        - generic [ref=e124]: 82%
+      - generic [ref=e125]:
+        - generic [ref=e126]: Our call, dated
+        - generic [ref=e127]: 58%
+      - generic [ref=e128]:
+        - generic [ref=e129]: Resolves
+        - generic [ref=e130]: 2033-12-31
+    - paragraph [ref=e131]: "These are demographic and learning-curve facts, not a forecast of behavior. The experienced-engineer pool grows only as fast as a person banks a decade of on-line ramp experience, and money cannot parallelize that. The senior US cohort retirement wave is a fixed birth-cohort event. The feeder-degree enrollment lag is already realized. The ex-Taiwan fab commitments (Arizona, Japan, Germany, CHIPS-funded US) are contractually binding. TSMC's Arizona experience is a live proof: even with an unlimited budget and top-brand pull, the fix was to import the experienced headcount, not grow it locally fast."
+    - generic [ref=e132]:
+      - generic [ref=e133]: Why it is not priced yet
+      - text: The market prices fabs as capex (tools, buildings, wafers) and treats the yield ramp as a scheduled engineering deliverable that capital and CHIPS subsidies will deliver on time. Equity and policy models carry no line for whether enough experienced integration engineers exist to ramp a new line. Where workforce comes up at all, it is framed as a generic technician or STEM-pipeline story (trainable in two years), not as a decade-deep, tacit, non-cloneable senior-engineer constraint concentrated in one company in one country. The TSMC Arizona delays ran in the financial press as a worker-shortage story, with no structural analysis of why the shortage is inelastic or what it does to ex-Taiwan leading-edge yield timelines through the 2030s. Markets price the wafers. They do not price the people who carry the wafer curve.
+    - generic [ref=e134]:
+      - generic [ref=e135]: Where the price sits today
+      - text: No financial instrument prices yield-ramp speed itself. TSMC trades on wafer-price and utilization; Intel and Samsung on process-generation and capex. The chance of structural ex-Taiwan output underdelivery driven by senior-engineer scarcity is not in sell-side models. AI-assisted process control (APC, ML defect detection, digital twins) is a real counter-force and worth watching, but current evidence says these tools amplify experienced engineers rather than replace their diagnostic judgment. TSMC Arizona hit production targets after importing experienced staff, not before.
+    - generic [ref=e136]:
+      - generic [ref=e137]: The binding constraint
+      - text: "Senior (second-decade, 10-plus years) yield-enhancement and process-integration engineers with multi-node hands-on ramp experience at sub-5nm-class nodes. Not engineers in general, not technicians, not designers: the specific tacit-knowledge-bearing integration and yield headcount that sets how fast a new advanced line reaches qualified yield. Concentrated inside TSMC and in Taiwan; replaceable only at roughly one decade per head."
+    - generic [ref=e138]:
+      - generic [ref=e139]: What we are watching
+      - text: (1) Time-to-qualified-yield (months from tool move-in to greater than 80 percent of mature yield) for ex-Taiwan leading-edge lines versus the Taiwan baseline for the same node; the gap stays above 12 months through the early 2030s. (2) Total compensation and signing premium for senior process-integration and yield engineers rising faster than fab construction cost indices. (3) Count of disclosed instances of TSMC, Intel, and Samsung relocating experienced Taiwanese or Korean engineers to staff ex-home-country ramps. (4) US senior fab-engineer vacancy duration and the SEMI/Deloitte engineer-shortfall figure trending upward, not closing, through 2030.
+    - generic [ref=e140]:
+      - generic [ref=e141]: What would prove us wrong
+      - text: Kill the call if, through the early 2030s, ex-Taiwan leading-edge lines reach Taiwan-parity qualified yield within roughly the same time window as the Taiwan baseline (gap closes to under 6 months) without importing experienced engineers; OR if AI-assisted or automated yield-ramp and self-learning process control demonstrably substitute for senior integration headcount at scale, with a major fab publicly attributing a parity-speed ramp to automation rather than experienced staff; OR if senior process-integration engineer real compensation premiums flatten relative to construction-cost indices, indicating the scarcity dissolved.
+    - generic [ref=e142]:
+      - generic [ref=e143]: How we tried to break it
+      - text: Three challenges survive scrutiny without killing the call. First, AI-assisted process control could compress ramp times faster than expected; the counter is that TSMC Arizona ramped faster than expected only after importing the experienced Taiwanese headcount, which says automation multiplies the scarce input rather than substituting for it. Second, ex-Taiwan yield lags may get blamed on other causes (permitting, tariffs, political friction) in public disclosures, creating a measurement problem at resolution; that is a resolution risk, not a structural refutation. Third, the general workforce-shortage story is known to industry practitioners and has appeared in trade and financial press; but known to practitioners does not mean priced into equity models, and no sell-side model carries the specific yield-ramp-lag-as-function-of-senior-headcount-density mechanism. The call survives all three.
+    - generic [ref=e144]: "Why we are making the call The causal mechanism is correct and confirmed by live evidence: TSMC Arizona delays, the engineer airlift, and the second-plant pushout to 2027-2028. The inelastic input is named at the right level of specificity. The demographic and learning-curve facts are locked in by decisions already taken. The pricing gap is real. No financial instrument or equity model carries this constraint, and the surface worker-shortage story in press coverage does not price what it means for rent migration. We put the structural read high at 0.82 because the mechanism is real and the evidence is direct. We hold the trigger number lower at 0.58 because the primary metric (time-to-qualified-yield versus the Taiwan baseline) needs data TSMC does not publish, and AI-assisted ramp tools are a real technology counter that could close the gap faster than the structural argument implies."
+  - generic [ref=e145]:
+    - generic [ref=e146]:
+      - heading "P3 · Ruthenium becomes the gating input for advanced-logic interconnects as copper hits its resistivity wall at sub-2nm pitches. Supply is hard-capped at roughly 30 tonnes per year as a platinum byproduct, with no primary mine to develop." [level=2] [ref=e147]
+      - generic [ref=e148]: P3
+    - paragraph [ref=e149]: "The boom: Copper interconnects fail by physics below roughly 12-16 nm pitch: electron surface scattering and grain-boundary scattering blow up resistivity, and the barrier and liner layer copper needs eats an ever-larger fraction of the shrinking cross-section. Ruthenium is the industry's escape hatch because it can go down barrierless, its resistivity holds up far better at nanoscale, and it is being designed into the tightest metal levels and backside-power-delivery vias at the A14 node and below, with ramp around 2027-2030. The catch is that ruthenium is not mined directly. It comes out as a byproduct of platinum-group-metal extraction, roughly 30 tonnes per year globally, concentrated in South Africa's Bushveld and Russia's Norilsk, and its output tracks platinum and palladium demand from autocatalysts and jewelry, not chip fabs. Move Ru from trace use in hard disks and catalysts to coating the bottom interconnect levels and backside vias of every advanced GPU, CPU, and HBM die, and even a few extra grams per wafer across tens of millions of leading-edge wafers runs straight into that 30-tonne ceiling. The rent moves from the foundry to whoever controls Ru refining and sputtering-target conversion. · Domain: semiconductors"
+    - generic [ref=e150]:
+      - generic [ref=e151]:
+        - generic [ref=e152]: Structural case
+        - generic [ref=e153]: 72%
+      - generic [ref=e154]:
+        - generic [ref=e155]: Our call, dated
+        - generic [ref=e156]: 40%
+      - generic [ref=e157]:
+        - generic [ref=e158]: Resolves
+        - generic [ref=e159]: 2035-12-31
+    - paragraph [ref=e160]: "Ruthenium supply is geologically inelastic: a PGM-mining byproduct with no primary deposit, decade-plus mine lead times, and output set by platinum and palladium economics rather than chip demand. It is the same byproduct trap as iridium and helium-3. Going back to copper is foreclosed by electron scattering physics at sub-2nm pitches. Molybdenum is a partial competitor at the lowest levels but carries its own supply and deposition constraints and does not erase Ru demand. The demand step is mandatory and synchronized across the entire leading edge, not optional or vendor-specific."
+    - generic [ref=e161]:
+      - generic [ref=e162]: Why it is not priced yet
+      - text: "The structural chokepoint read (Ru as a 30 t/yr PGM byproduct conscripted as a mandatory input for all advanced logic) is missing from chip-supply-chain equity coverage at major banks and from fab-level public disclosures as of mid-2026. The metals commodity market, though, has already partly moved: ruthenium exceeded $1,700/oz by mid-March 2026 against a prior-year price near $500/oz, which means specialist metals research has noticed and partly priced the scarcity. So the contrarian read holds in the semiconductor supply-chain channel (not in chip-stock coverage or fab procurement disclosures) but does NOT hold in the metals market itself, where the move has already been large. The window is narrower than the candidate claims."
+    - generic [ref=e163]:
+      - generic [ref=e164]: Where the price sits today
+      - text: Ruthenium spot has moved from roughly $500/oz to over $1,700/oz by mid-March 2026, a roughly 3x move, driven by scarcity and industrial demand including semiconductor applications. The Ru:Pt ratio has already inverted (Ru now above Pt in absolute price), partially satisfying the resolution metric before the A14 ramp begins. The call is partly priced in the metals market but not in semiconductor supply-chain equity coverage.
+    - generic [ref=e165]:
+      - generic [ref=e166]: The binding constraint
+      - text: Ruthenium metal supply and high-purity Ru sputtering-target and ALD-precursor conversion capacity for barrierless interconnect fill and backside-power vias at the A14 node and below. The inelastic node is the roughly 30 t/yr PGM-byproduct ruthenium stream plus target/precursor conversion, not the deposition tools or the transistor itself.
+    - generic [ref=e167]:
+      - generic [ref=e168]: What we are watching
+      - text: "(1) Ru:Pt price ratio versus its 2024-2026 baseline, with the call requiring at least a doubling. Note: ruthenium has already moved from roughly $500/oz to over $1,700/oz by mid-2026, partially satisfying this condition before A14 volume ramp even begins. (2) Estimated semiconductor share of annual ruthenium consumption, rising from low-single-digit percent toward a dominant share as A14-and-below ramp. (3) Public citations by TSMC, Intel, Samsung or their materials suppliers naming ruthenium supply or Ru sputtering-target availability as an interconnect or backside-power gating item."
+    - generic [ref=e169]:
+      - generic [ref=e170]: What would prove us wrong
+      - text: "Killed if by 2035-12-31: (a) the industry extends copper or adopts an abundant alternative such as molybdenum, graphene caps or air-gap schemes at the tightest levels such that ruthenium never becomes the dominant bottom-level or backside metal in volume, OR (b) ruthenium recycling plus modest PGM-supply growth keeps the Ru:Pt ratio within roughly 50% of its 2024-2026 baseline despite semiconductor adoption, OR (c) sub-2nm and CFET logic stalls so the volume of Ru-dependent wafers never reaches the scale that strains the 30 t/yr ceiling."
+    - generic [ref=e171]:
+      - generic [ref=e172]: How we tried to break it
+      - text: "Three live attack vectors. First and most material: the Ru price has already tripled from its prior-year level by mid-2026, before A14 volume ramp has started. That means either the price has already discounted forward demand (cutting the remaining upside and the trigger odds) or the move came from non-semiconductor factors and the chip-demand shock is still ahead. Either way the clean contrarian framing takes a hit. Second, molybdenum is a documented alternative at the tightest metal levels. If Mo takes the bottom-level fill role and Ru is used only for liners, per-wafer Ru mass drops sharply and total semiconductor demand may stay inside supply growth from recycling and scrap recovery at higher prices. Third, A14 volume ramp timing is uncertain. TSMC's A14 is a 2027-2028 earliest volume target, and CFET yield risks could push meaningful wafer volumes into the early 2030s, squeezing the window before the 2035 resolution date. The structural mechanism survives all three, but the trigger probability sits well below the structural read because of partial prior pricing, Mo substitution risk, and ramp timing uncertainty."
+    - generic [ref=e173]: "Why we are making the call We'd promote it. The physical forcing mechanism is sound and verified (copper resistivity wall at sub-2nm, Ru the chosen replacement), the supply inelasticity is genuine and confirmed (PGM byproduct, no primary mine, decade-plus lead times), and the semiconductor supply-chain angle stays unpriced in chip-stock equity coverage even as the metal price has moved. The partial price move already in the metal is a real headwind to the contrarian read but does not kill it: the chip-supply-chain channel has not absorbed this as a fab-ramp gating risk, which is where the remaining edge sits. Molybdenum substitution and ramp timing are the live kill risks, and they keep the trigger number well below the structural read."
+  - generic [ref=e174]:
+    - generic [ref=e175]:
+      - heading "P4 · The constraint on the US/EU fab buildout is not capital or tools but the tiny, slow-to-certify pool of UHP process-piping welders and hookup fitters. Their scarcity makes the announced 2023-2030 leading-edge capacity schedule structurally undeliverable." [level=2] [ref=e176]
+      - generic [ref=e177]: P4
+    - paragraph [ref=e178]: "The boom: A fab is two things: a building shell and an extraordinarily complex web of ultra-high-purity gas, chemical, slurry, and process-water distribution that has to be orbital-welded, hooked up, and certified leak-tight to SEMI particle standards before a single tool runs. That hookup work is its own specialty trade, certifiable only after years of pipefitting experience plus fab-specific qualification to smooth-bore, crevice-free, helium-leak-tested standards. TSMC Arizona already slipped on exactly this: the company had to airlift roughly 500 Taiwanese hookup specialists because the regional certified pool was too thin for even one major fab. SEMI's own data show roughly 97 high-volume fabs launching globally in 2023-2025, the largest US/EU share in history, all on overlapping schedules. The concurrent demand is a step-function. The certified-trade pool grows only as fast as the trades can train and qualify people, which takes years. The rent moves to the specialty UHP mechanical subcontractors and the certified-orbital-welder pool, and the visible symptom is schedule slip clustered on the install and hookup phase, not on construction or tool delivery. · Domain: semiconductors"
+    - generic [ref=e179]:
+      - generic [ref=e180]:
+        - generic [ref=e181]: Structural case
+        - generic [ref=e182]: 72%
+      - generic [ref=e183]:
+        - generic [ref=e184]: Our call, dated
+        - generic [ref=e185]: 52%
+      - generic [ref=e186]:
+        - generic [ref=e187]: Resolves
+        - generic [ref=e188]: 2031-12-31
+    - paragraph [ref=e189]: "This is labor-supply and certification-time arithmetic. The pool of UHP-qualified welders and hookup fitters in any region grows only as fast as the trades can train and certify people, on a multi-year timeline, while demand is a step-function from contractually committed, near-simultaneous fab groundbreakings. Prefabrication and modular UHP skidding move some work off-site but do not erase the on-site qualified-hookup labor requirement: certified fitters are still needed for final connections, leak testing, and tool hookup under SEMI standards. Robotic orbital welding systems cut headcount per weld but still need a qualified operator for setup, calibration, and per-weld certification; they blunt the constraint without dissolving it. The TSMC AZ response (imported Taiwanese crews, emergency Local 469 partnership) is the direct empirical signature of real supply inelasticity. UHP tubing installation costs rose approximately 18% between 2022 and 2024, consistent with a tight specialty-trade market."
+    - generic [ref=e190]:
+      - generic [ref=e191]: Why it is not priced yet
+      - text: "The market frames the fab buildout as a capital and policy story: CHIPS dollars committed, tools on order, ground broken, therefore capacity arrives on schedule. Where labor comes up, it is the generic construction-worker-shortage framing. The TSMC Arizona delay ran in trade press but read as a one-off local labor dispute, not as a structural, repeating constraint that hits every concurrent project drawing from the same regional pool. No sell-side equity coverage separately prices the specialty UHP mechanical subcontractor tier or the certified-orbital-welder pool as a distinct critical-path risk. The specific claim, that the constraint on the whole announced ex-Asia fab map is a few thousand certified UHP tradespeople per region and that the slip will cluster on the boring, invisible tool-hookup phase no equity model carries as a line item, is not in the analytical consensus. The demand-softening escape valve (Samsung Taylor pause, Intel Germany reassessment) is the main path by which the trigger fails even if the structural mechanism is real."
+    - generic [ref=e192]:
+      - generic [ref=e193]: Where the price sits today
+      - text: Not separately priced. Trade-press coverage of the TSMC AZ delay is public, but it reads as a one-off workforce story, not as a structural node that repeats across the concurrent US/EU fab wave. The specialty UHP mechanical subcontractor tier is not a distinct line item in any equity model or policy analysis I can find. The 18% install-cost escalation in UHP tubing systems (2022-2024) is a billing-rate signal that has not been translated into fab-schedule risk pricing. Narrative presence is not the same as price-channel pricing here.
+    - generic [ref=e194]:
+      - generic [ref=e195]: The binding constraint
+      - text: "Certified UHP orbital welders and UHP/PVDF gas-and-chemical-distribution fitters qualified to semiconductor contamination standards, specifically the billable trade-hours of this pool per concurrent fab project. Not general construction labor, not electricians broadly, not the building shell: the specific UHP install-and-hookup trade hours that gate the transition from a built fab to a tool-ready fab."
+    - generic [ref=e196]:
+      - generic [ref=e197]: What we are watching
+      - text: (1) Share of announced US/EU leading-edge fab projects whose first-production date slips, with the install/hookup or specialized-equipment-install phase named as the cited cause versus tool delivery, demand, or financing. (2) Union UHP/pipe-trade journeyman wage and total-package escalation in fab-cluster locals (Arizona pipe trades, Ohio, Texas) relative to the broader construction wage index. (3) Specialty UHP/mechanical subcontractor backlog and billing-rate trends, and frequency of imported Taiwanese or Korean hookup crews on US sites. (4) Count of CHIPS-funded leading-edge fabs reaching qualified first production on or after their originally announced date, with skilled-trade hookup labor cited.
+    - generic [ref=e198]:
+      - generic [ref=e199]: What would prove us wrong
+      - text: Kill if the bulk of announced US/EU leading-edge fabs reach qualified first production on or near their originally announced schedules without hookup/install labor being cited as a binding cause. Kill if prefabrication/modular UHP skidding plus robotic orbital welding demonstrably collapse on-site UHP hookup labor demand such that a major fab publicly attributes an on-time hookup specifically to off-site modularization displacing the scarce on-site trade. Kill if UHP pipe-trade wage and billing-rate escalation in fab clusters flattens to the general construction index, signaling the scarcity cleared. Kill if leading-edge demand softening delays the majority of the concurrent fab wave for demand or financing reasons before hookup labor can become the cited gating phase.
+    - generic [ref=e200]:
+      - generic [ref=e201]: How we tried to break it
+      - text: "Strongest attacks: (1) Already public. The TSMC AZ story ran in 2023 and is well-covered. Survives because trade-press coverage at the one-fab level is not the same as the replication thesis being priced across eight to twelve concurrent projects. (2) Automation. Robotic orbital welding exists. Survives because the machine still needs a qualified operator for per-weld setup and SEMI-grade certification; the headcount reduction is real but the trade-pool constraint does not dissolve. (3) Demand softening kills the trigger before hookup labor matters. This is the live risk that keeps our two numbers apart. Samsung Taylor is already paused for demand reasons; if leading-edge demand softens enough, fab schedules slip for demand causes and hookup labor never becomes the stated binding constraint even if it would have been one. The structural mechanism is genuine; the trigger resolution is uncertain because the demand-softening escape valve is non-trivial."
+    - generic [ref=e202]: "Why we are making the call The structural case is clean: inelastic supply (years to certify), step-function demand (near-simultaneous committed groundbreakings), and a live empirical signature (TSMC AZ imported 500 specialists, the Local 469 emergency partnership, 18% install-cost escalation). The pricing gap is real. The specific UHP hookup-trade-pool framing is absent from analytical coverage and equity pricing even though the one-off TSMC story is public. The call survives the automation and already-priced attacks. The thing that separates our two numbers is the demand-softening path: if leading-edge demand slows materially before 2028, the concurrent fab wave shrinks and hookup labor stops being the cited gating constraint even if the structural bottleneck stays latent."
+  - generic [ref=e203]:
+    - generic [ref=e204]:
+      - heading "P5 · Enriched Si-28 isotope-separation cascade capacity becomes the gating substrate input for silicon-spin qubits and, if adopted, 3D-logic thermal relief. World supply sits at tens to low hundreds of kg/yr against a potential tons-per-year demand cliff by the early 2030s." [level=2] [ref=e205]
+      - generic [ref=e206]: P5
+    - paragraph [ref=e207]: "The boom: Two independent demand curves land on one isotope-separation step. Silicon-spin qubits from Intel, Diraq, Quantum Motion and peers need 99.99%+ Si-28 to suppress Si-29 nuclear-spin decoherence, which is physics, not preference. Separately, stripping Si-29 and Si-30 from the silicon lattice raises thermal conductivity 60-600% over natural silicon, which matters for buried-device heat extraction in CFET and backside-power-delivery 3D stacks where junction temperatures are the binding physical limit. The enrichment process, aerodynamic separation of silane or gas-centrifuge on SiF4, is the same physics as uranium enrichment, so it carries export controls, long permitting timelines, and high capital intensity. ASP Isotopes (ASPI) is the only disclosed Western commercial enriched-Si-28 supplier, with a Pretoria facility restarted in May 2026 after engineering fixes, first commercial shipments targeted Q3 2026, and capacity documented at greater than 80 kg/yr from one facility. Three named purchase agreements already sit on that output (a major U.S. semiconductor company, a large industrial gases company, a large U.S. buyer). Total world capacity including any Rosatom legacy output is on the order of low hundreds of kg/yr. Any scenario where silicon-spin qubits reach even modest commercial volume, let alone where Si-28 epi gets adopted for 3D-logic thermal relief, needs 10 to 100 times that output. Aerodynamic and centrifuge cascades are among the slowest industrial plants to permit and commission; $333M in ASPI cash starts to relax supply over several years but does not dissolve the constraint inside a decade. · Domain: ai-compute"
+    - generic [ref=e208]:
+      - generic [ref=e209]:
+        - generic [ref=e210]: Structural case
+        - generic [ref=e211]: 72%
+      - generic [ref=e212]:
+        - generic [ref=e213]: Our call, dated
+        - generic [ref=e214]: 34%
+      - generic [ref=e215]:
+        - generic [ref=e216]: Resolves
+        - generic [ref=e217]: 2034-12-31
+    - paragraph [ref=e218]: "Isotope-separation cascade capacity for a chemically identical, one-neutron-difference isotope is physically inelastic on sub-decade timescales. You cannot demand-pull tons of Si-28 the way you can ramp a fab: the equipment is export-controlled, the cascades take years to commission, and there is no substitution (Si-28 is defined by the absence of Si-29 spin and the mass difference from Si-30). The inelastic node is separative work units for silicon isotopes, not the downstream wafer or fab process. Two demand vectors, spin-qubit substrates and 3D-logic thermal channels, converge on the same separation step, and neither is served by recycling or a materials workaround."
+    - generic [ref=e219]:
+      - generic [ref=e220]: Why it is not priced yet
+      - text: "ASP Isotopes (ASPI) is a public equity already being bought on the quantum-substrate thesis, and $333M has been raised against it, so the story is not invisible. But the consensus treats ASPI as a niche quantum-materials micro-cap, not as a gating input to semiconductor foundry economics on par with photoresist or specialty gases. The two-demand convergence, that the same export-controlled separation step gates both a qubit winner and a 3D-logic thermal-relief path, does not appear in mainstream semiconductor sell-side coverage or foundry cost models. The size of the supply-to-demand gap (10 to 100x scale-up required) shows up in no public analyst model I can identify. Contrarian in the way that counts: the equity exists, the structural semiconductor-input framing does not. Borderline, but it survives the price-channel check because there is no liquid spot market and no sell-side price target on enriched-Si-28 feedstock."
+    - generic [ref=e221]:
+      - generic [ref=e222]: Where the price sits today
+      - text: No public spot or contract price for enriched Si-28 feedstock is disclosed. ASPI does not publish contract pricing. Natural electronic-grade polysilicon trades around $5 to $15/kg; enriched Si-28 at research-grade quantities is reported in academic literature at roughly $1,000 to $10,000/kg, implying a current multiple of 100x to 1,000x, but this is not a liquid market price. The absence of a public price channel is itself a signal that the market is pre-commercial and not yet arbitraged. No sell-side price deck exists. The resolve condition references a greater than 5x multiple, which is almost certainly already exceeded in any disclosed transaction; the risk is whether a public, sustained, verifiable price benchmark exists by 2034, not whether the multiple is high.
+    - generic [ref=e223]:
+      - generic [ref=e224]: The binding constraint
+      - text: "Enriched Si-28 isotope-separation capacity: specifically the aerodynamic-separation (silane) or gas-centrifuge (SiF4) cascade throughput that converts natural silicon into 99.99%+ Si-28 feedstock. This is the inelastic node, not the wafer fab, not the qubit design, not the epi reactor."
+    - generic [ref=e225]:
+      - generic [ref=e226]: What we are watching
+      - text: (1) Global installed enriched-Si-28 (99.99%+) production capacity in kg/yr across all suppliers (ASP Isotopes/Pretoria, any Rosatom/legacy Russian output, new entrants) -- baseline today is on the order of tens to low hundreds of kg/yr from a literal handful of facilities. (2) Contract or spot price of enriched Si-28 feedstock or enriched silane as a multiple of natural electronic-grade polysilicon. (3) Count of commercial (non-R&D) silicon-spin-qubit or Si-28-epi-logic programs that publicly identify enriched-Si-28 substrate supply (not qubit design, not fab access) as a named procurement gate. Resolves TRUE if by 2034-12-31 enriched-Si-28 supply is publicly cited as a binding gate by at least two commercial programs AND enriched-Si-28 feedstock sustains a greater than 5x price multiple over natural electronic-grade silicon.
+    - generic [ref=e227]:
+      - generic [ref=e228]: What would prove us wrong
+      - text: "Killed if by 2034-12-31 any of: (a) world enriched-Si-28 capacity scales past roughly 1 ton/yr with the price multiple compressing below 3x, meaning supply caught up to demand; (b) silicon-spin qubits lose the modality race to superconducting, trapped-ion, or neutral-atom AND Si-28 epi is never designed into volume 3D-logic, collapsing both demand legs simultaneously; (c) a non-cascade enrichment route -- laser isotope separation, plasma separation, or sufficiently spin-clean natural-Si error correction -- reaches industrial scale and dissolves the separation chokepoint."
+    - generic [ref=e229]:
+      - generic [ref=e230]: How we tried to break it
+      - text: Three genuine challenges. First, ASPI is already public and $333M in cash means scale-up investment is happening, which starts to relax supply over an 8-year horizon. The supply inelasticity is real today but could erode faster than the trigger assumes if ASPI or a competitor adds cascade stages aggressively. Second, the 3D-logic demand leg (Si-28 epi for CFET thermal relief) is technically sound but speculative as a volume design-in. No major foundry (TSMC, Samsung, Intel Foundry) has publicly committed to Si-28 epi channels for volume CFET production. If that leg stays a research curiosity, total addressable demand is smaller and the supply gap may close on a longer timeline without becoming a binding gate. Third, qubit-modality risk is real over 8 years. Superconducting qubits (IBM, Google) and trapped-ion (IonQ, Quantinuum) are well-funded competing paths; if silicon-spin does not win commercial volume by the late 2020s, the quantum demand leg weakens and the trigger may not fire even if the structural mechanism is correct. The candidate survives on mechanism and supply inelasticity, but the trigger probability is meaningfully suppressed by these three factors.
+    - generic [ref=e231]: "Why we are making the call The physical mechanism is sound and the inelastic input is named correctly. Isotope-separation cascade capacity for Si-28 is genuinely inelastic on sub-decade timescales, the supply gap is large and real, and the two-demand convergence (qubits plus 3D-logic thermal) is original relative to consensus coverage. We put the structural read high because the constraint is real. We hold the trigger number materially lower: $333M in active investment partly relaxes supply over 8 years, the 3D-logic demand leg has no foundry design-in yet, the qubit-modality race is unresolved, and the resolve condition's price-multiple check leans on a public market that does not yet exist. This single Si-28 framing absorbs and supersedes a near-duplicate candidate (same input, lower scores)."
+  - generic [ref=e232]:
+    - generic [ref=e233]:
+      - heading "P6 · Multibeam mask-write throughput (IMS Nanofabrication, sole production vendor) becomes the gate on how many distinct High-NA AI-chip designs the industry can tape out per year by 2031." [level=2] [ref=e234]
+      - generic [ref=e235]: P6
+    - paragraph [ref=e236]: "The boom: The loud story is the GPU and ASIC design explosion: design talent, HBM, CoWoS packaging. Masks get treated as a solved commodity. The photomask conversation, where it happens at all, is about blank substrates (Hoya, AGC), not about who writes the pattern. The specialist trade press (SemiAnalysis, August 2022) has named the IMS monopoly, but the second-order point, that the AI-driven explosion in DISTINCT designs (not wafer volume) turns mask-write throughput into the gate on design diversity, is missing from mainstream financial and market coverage. · Domain: semiconductors"
+    - generic [ref=e237]:
+      - generic [ref=e238]:
+        - generic [ref=e239]: Structural case
+        - generic [ref=e240]: 72%
+      - generic [ref=e241]:
+        - generic [ref=e242]: Our call, dated
+        - generic [ref=e243]: 38%
+      - generic [ref=e244]:
+        - generic [ref=e245]: Resolves
+        - generic [ref=e246]: 2031-12-31
+    - paragraph [ref=e247]: "High-NA EUV mandates curvilinear inverse-lithography-technology masks: sub-2nm-class features need pre-distorted freeform patterns that fragment into millions of shots on legacy variable-shaped-beam writers, making write times economically ruinous. Only multibeam mask writers, which are shape-agnostic and write any pattern in roughly constant time (7-12 hours per layer), make curvilinear ILT viable at scale. Exactly one multibeam architecture has ever reached production: IMS Nanofabrication (Vienna), Intel-acquired 2015, with roughly 50 tools in the field. The AI-ASIC boom multiplies the count of DISTINCT designs and so the count of unique mask sets (60-80+ layers each, many EUV). Distinct-design count is rising far faster than the installed base of IMS writers can grow: these are precision e-beam instruments with 18-36 month lead times and low annual unit volume. The constraint on design diversity moves from scanner wafer-throughput (which serves high-volume parts well) to mask-write throughput, which scales with distinct design count and runs on a single-vendor tool base. Important update: Intel has sold minority stakes to TSMC (~10%), JEOL (~2.5%), and Bain Capital (~20%) at a ~$4.3B valuation (2023). The pure competitor-controlled-chokepoint framing is partly defused, but the sole-source supply constraint on the physical tool is unaffected by ownership structure."
+    - generic [ref=e248]:
+      - generic [ref=e249]: Why it is not priced yet
+      - text: "The IMS monopoly as a static fact was named by SemiAnalysis in August 2022 and is known in the specialist semiconductor investor community. What is not priced: the second-order mechanism that the AI-ASIC distinct-design explosion (not wafer volume) is the demand driver that turns a known monopoly into the active binding throughput constraint. The ownership structure has also shifted materially (TSMC, JEOL, Bain now co-holders), which defuses but does not dissolve the supply inelasticity argument."
+    - generic [ref=e250]:
+      - generic [ref=e251]: Where the price sits today
+      - text: SemiAnalysis August 2022 piece named the IMS monopoly explicitly. Intel minority-stake sales (TSMC, JEOL, Bain) are public press releases with a $4.3B valuation. The static monopoly fact is in the specialist price channel. The demand-mechanism (distinct AI-design count as throughput driver) is not explicitly covered in equity research found in this search.
+    - generic [ref=e252]:
+      - generic [ref=e253]: The binding constraint
+      - text: "Installed IMS multibeam-mask-writer write-hours per year at merchant and captive mask shops (Toppan, Tekscend, TSMC/Intel/Samsung in-house) versus the annual count of new leading-edge (EUV-layer) tape-outs demanding curvilinear ILT masks. Proxy: quoted leading-edge mask-set lead times and price trends at merchant shops; any mask shop citing writer capacity as limiting tape-out cadence."
+    - generic [ref=e254]:
+      - generic [ref=e255]: What we are watching
+      - text: Roughly 50 IMS MBMW tools in the field as of 2025, MBMW-301/401 class ramping for 3nm and below. Write time 7-12 hours per layer; 60-80+ layer sets per tape-out. No competing production multibeam writer qualified at any leading mask shop. IMS valued at ~$4.3B in 2023 minority-stake transactions. Europe's first MBMW installed at Tekscend November 2024.
+    - generic [ref=e256]:
+      - generic [ref=e257]: What would prove us wrong
+      - text: "Kill if by 2031: (1) a second independent production multibeam mask-writer vendor qualifies at a leading mask shop (JEOL's minority stake and e-beam expertise makes this the most plausible path, but no competing tool is currently qualified); (2) Intel or the IMS consortium demonstrates structurally neutral allocation such that no customer faces competitor-controlled rationing; (3) leading-edge mask-set lead times stay flat and no mask shop cites writer capacity as a tape-out bottleneck; or (4) High-NA adoption stalls and curvilinear ILT never becomes the dominant leading-edge mask mode."
+    - generic [ref=e258]:
+      - generic [ref=e259]: How we tried to break it
+      - text: "Three challenges survive. First, the competitor-owned framing is now stale: TSMC (the primary customer) and JEOL (a plausible future competing-tool developer) hold minority stakes, giving the industry co-governance levers. Second, SemiAnalysis coverage means the monopoly is partly in the specialist price channel even if it has not reached mainstream financial coverage. Third, the trigger requires mask-write throughput to become categorically the gate by 2031, a strong claim when scanner throughput, CoWoS, and HBM remain competing candidates for binding constraint, and the industry has five years plus strong incentive to add capacity. What survives refutation: the physical mechanism is real, the installed base is thin (~50 tools for global leading-edge demand), lead times on capital equipment of this class are 18-36 months minimum, and no competing production tool exists today. The throughput math is structurally sound. The structural read is solid; the exact trigger fires at roughly even odds given the five-year horizon and active kill-condition paths."
+    - generic [ref=e260]: "Why we are making the call The physical mechanism is real and the supply constraint is genuinely inelastic today. The contrarian check is partial: the static monopoly is known in specialist circles, but the demand-side mechanism (distinct AI-chip design count, not wafer volume, as the throughput driver) is not explicitly priced. The ownership update (TSMC/JEOL/Bain minority stakes at $4.3B) is material; it partly defuses the competitor-allocation-chokepoint framing and is itself a kill-condition path. We'd promote it because the structural case is strong and the input is physically specific, but we set the trigger number well below the structural read to reflect the active kill paths and the five-year window the industry has to respond."
+  - generic [ref=e261]:
+    - heading "Seeds considered and not promoted" [level=2] [ref=e262]
+    - paragraph [ref=e263]: These cleared the supply-side test but did not make the cut, usually because there was no clean way to express the trade or the move was already in the price. We list them because we would rather show our work than bury what we dropped.
+    - table [ref=e264]:
+      - rowgroup [ref=e265]:
+        - row "Seed Physical case Why not promoted" [ref=e266]:
+          - columnheader "Seed" [ref=e267]
+          - columnheader "Physical case" [ref=e268]
+          - columnheader "Why not promoted" [ref=e269]
+      - rowgroup [ref=e270]:
+        - 'row "By 2035, isotopically enriched Si-28 (SiF4 separation cascade throughput) is the binding supply constraint on both silicon spin-qubit fault-tolerant quantum machines and thermally-limited high-density 3D logic Si-28 enrichment cascade, dual quantum and 3D-logic demand Near-duplicate of P5: same inelastic input, same dual-demand mechanism, same sole Western producer, but at lower scores (conviction 0.62 vs 0.72, dated call 0.18 vs 0.34) and a 2035 vs 2034 horizon. P5 is the stronger framing of the identical call, and keeping both would double-count one bet." [ref=e271]':
+          - cell "By 2035, isotopically enriched Si-28 (SiF4 separation cascade throughput) is the binding supply constraint on both silicon spin-qubit fault-tolerant quantum machines and thermally-limited high-density 3D logic" [ref=e272]
+          - cell "Si-28 enrichment cascade, dual quantum and 3D-logic demand" [ref=e273]
+          - 'cell "Near-duplicate of P5: same inelastic input, same dual-demand mechanism, same sole Western producer, but at lower scores (conviction 0.62 vs 0.72, dated call 0.18 vs 0.34) and a 2035 vs 2034 horizon. P5 is the stronger framing of the identical call, and keeping both would double-count one bet." [ref=e274]'
+        - row "By 2032 the binding constraint on high-stack HBM and 3D-stacked logic is not bonding or substrates but the supply of ultra-low-alpha (ULA) lead and tin for bumps, microbumps and TSV fill Ultra-low-alpha lead/tin radiopurity for HBM/3D-logic solder Genuinely novel mechanism, but the lowest dated-call odds in the set (0.18) because the main mitigation (Cu-Cu hybrid bonding) is already funded at exactly the cell-adjacent interface the thesis depends on, and the resolution trigger leans on a public supplier disclosure that may never appear even if the constraint is real. Highest dissolution risk of the eight; held as the first reserve." [ref=e275]:
+          - cell "By 2032 the binding constraint on high-stack HBM and 3D-stacked logic is not bonding or substrates but the supply of ultra-low-alpha (ULA) lead and tin for bumps, microbumps and TSV fill" [ref=e276]
+          - cell "Ultra-low-alpha lead/tin radiopurity for HBM/3D-logic solder" [ref=e277]
+          - cell "Genuinely novel mechanism, but the lowest dated-call odds in the set (0.18) because the main mitigation (Cu-Cu hybrid bonding) is already funded at exactly the cell-adjacent interface the thesis depends on, and the resolution trigger leans on a public supplier disclosure that may never appear even if the constraint is real. Highest dissolution risk of the eight; held as the first reserve." [ref=e278]
+    - paragraph [ref=e279]: "Each call is dated, with the line that would prove us wrong fixed the day we make it. We do not move the goalposts: a call is superseded, never quietly edited, and graded in public when its date arrives."

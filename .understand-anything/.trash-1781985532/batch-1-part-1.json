@@ -1,0 +1,1237 @@
+{
+  "nodes": [
+    {
+      "id": "file:engine/adapters/proxy.py",
+      "type": "file",
+      "name": "proxy.py",
+      "filePath": "engine/adapters/proxy.py",
+      "summary": "proxy.py is a code asset in the forecasting engine. It contains 4 functions, 1 class, 3 internal imports.",
+      "tags": [
+        "forecasting-engine",
+        "integration",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/adapters/proxy.py:_session_tag",
+      "type": "function",
+      "name": "_session_tag",
+      "filePath": "engine/adapters/proxy.py",
+      "lineRange": [
+        35,
+        38
+      ],
+      "summary": "Defines _session_tag in proxy.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "proxy"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/adapters/proxy.py:proxy_url",
+      "type": "function",
+      "name": "proxy_url",
+      "filePath": "engine/adapters/proxy.py",
+      "lineRange": [
+        41,
+        67
+      ],
+      "summary": "Defines proxy_url in proxy.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "proxy"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/adapters/proxy.py:available",
+      "type": "function",
+      "name": "available",
+      "filePath": "engine/adapters/proxy.py",
+      "lineRange": [
+        70,
+        76
+      ],
+      "summary": "Defines available in proxy.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "proxy"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/adapters/proxy.py:fetch",
+      "type": "function",
+      "name": "fetch",
+      "filePath": "engine/adapters/proxy.py",
+      "lineRange": [
+        79,
+        105
+      ],
+      "summary": "Defines fetch in proxy.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-access",
+        "proxy"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:engine/adapters/proxy.py:ProxyConfigError",
+      "type": "class",
+      "name": "ProxyConfigError",
+      "filePath": "engine/adapters/proxy.py",
+      "lineRange": [
+        31,
+        32
+      ],
+      "summary": "Defines ProxyConfigError in proxy.py, encapsulating reusable behavior or state for this module.",
+      "tags": [
+        "class",
+        "implementation",
+        "proxy"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:engine/chat_bridge.py",
+      "type": "file",
+      "name": "chat_bridge.py",
+      "filePath": "engine/chat_bridge.py",
+      "summary": "chat_bridge.py is a code asset in the forecasting engine. It contains 5 functions, 1 internal import.",
+      "tags": [
+        "forecasting-engine",
+        "chat",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/chat_bridge.py:_seed_from",
+      "type": "function",
+      "name": "_seed_from",
+      "filePath": "engine/chat_bridge.py",
+      "lineRange": [
+        35,
+        37
+      ],
+      "summary": "Defines _seed_from in chat_bridge.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "chat-bridge"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/chat_bridge.py:_histogram",
+      "type": "function",
+      "name": "_histogram",
+      "filePath": "engine/chat_bridge.py",
+      "lineRange": [
+        40,
+        55
+      ],
+      "summary": "Defines _histogram in chat_bridge.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "chat-bridge"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/chat_bridge.py:forecast",
+      "type": "function",
+      "name": "forecast",
+      "filePath": "engine/chat_bridge.py",
+      "lineRange": [
+        58,
+        92
+      ],
+      "summary": "Defines forecast in chat_bridge.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "chat-bridge"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/chat_bridge.py:_bool_spec",
+      "type": "function",
+      "name": "_bool_spec",
+      "filePath": "engine/chat_bridge.py",
+      "lineRange": [
+        95,
+        109
+      ],
+      "summary": "Defines _bool_spec in chat_bridge.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "chat-bridge"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/chat_bridge.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "engine/chat_bridge.py",
+      "lineRange": [
+        112,
+        220
+      ],
+      "summary": "Defines main in chat_bridge.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entry-point",
+        "chat-bridge"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:engine/data_offload.py",
+      "type": "file",
+      "name": "data_offload.py",
+      "filePath": "engine/data_offload.py",
+      "summary": "data_offload.py is a code asset in the forecasting engine. It contains 17 functions, 4 classes.",
+      "tags": [
+        "forecasting-engine",
+        "code",
+        "file",
+        "data-offload"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:engine/data_offload.py:is_critical",
+      "type": "function",
+      "name": "is_critical",
+      "filePath": "engine/data_offload.py",
+      "lineRange": [
+        100,
+        101
+      ],
+      "summary": "Defines is_critical in data_offload.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-offload"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/data_offload.py:iter_large_files",
+      "type": "function",
+      "name": "iter_large_files",
+      "filePath": "engine/data_offload.py",
+      "lineRange": [
+        104,
+        124
+      ],
+      "summary": "Defines iter_large_files in data_offload.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-offload"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/data_offload.py:format_inventory",
+      "type": "function",
+      "name": "format_inventory",
+      "filePath": "engine/data_offload.py",
+      "lineRange": [
+        127,
+        136
+      ],
+      "summary": "Defines format_inventory in data_offload.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "data-offload"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/data_offload.py:inventory_summary",
+      "type": "function",
+      "name": "inventory_summary",
+      "filePath": "engine/data_offload.py",
+      "lineRange": [
+        139,
+        150
+      ],
+      "summary": "Defines inventory_summary in data_offload.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-offload"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/data_offload.py:estimate_s3_storage_usd_month",
+      "type": "function",
+      "name": "estimate_s3_storage_usd_month",
+      "filePath": "engine/data_offload.py",
+      "lineRange": [
+        153,
+        154
+      ],
+      "summary": "Defines estimate_s3_storage_usd_month in data_offload.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-offload"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/data_offload.py:s3_uri_for",
+      "type": "function",
+      "name": "s3_uri_for",
+      "filePath": "engine/data_offload.py",
+      "lineRange": [
+        157,
+        167
+      ],
+      "summary": "Defines s3_uri_for in data_offload.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-offload"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/data_offload.py:sha256_file",
+      "type": "function",
+      "name": "sha256_file",
+      "filePath": "engine/data_offload.py",
+      "lineRange": [
+        170,
+        175
+      ],
+      "summary": "Defines sha256_file in data_offload.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-offload"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/data_offload.py:aws_cp",
+      "type": "function",
+      "name": "aws_cp",
+      "filePath": "engine/data_offload.py",
+      "lineRange": [
+        178,
+        186
+      ],
+      "summary": "Defines aws_cp in data_offload.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-offload"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/data_offload.py:aws_remote_size",
+      "type": "function",
+      "name": "aws_remote_size",
+      "filePath": "engine/data_offload.py",
+      "lineRange": [
+        189,
+        204
+      ],
+      "summary": "Defines aws_remote_size in data_offload.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-offload"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/data_offload.py:append_manifest",
+      "type": "function",
+      "name": "append_manifest",
+      "filePath": "engine/data_offload.py",
+      "lineRange": [
+        207,
+        214
+      ],
+      "summary": "Defines append_manifest in data_offload.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-offload"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/data_offload.py:read_manifest",
+      "type": "function",
+      "name": "read_manifest",
+      "filePath": "engine/data_offload.py",
+      "lineRange": [
+        217,
+        243
+      ],
+      "summary": "Defines read_manifest in data_offload.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-offload"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/data_offload.py:format_manifest",
+      "type": "function",
+      "name": "format_manifest",
+      "filePath": "engine/data_offload.py",
+      "lineRange": [
+        246,
+        264
+      ],
+      "summary": "Defines format_manifest in data_offload.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "data-offload"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/data_offload.py:manifest_summary",
+      "type": "function",
+      "name": "manifest_summary",
+      "filePath": "engine/data_offload.py",
+      "lineRange": [
+        267,
+        277
+      ],
+      "summary": "Defines manifest_summary in data_offload.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-offload"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/data_offload.py:restore_commands",
+      "type": "function",
+      "name": "restore_commands",
+      "filePath": "engine/data_offload.py",
+      "lineRange": [
+        280,
+        285
+      ],
+      "summary": "Defines restore_commands in data_offload.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-offload"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/data_offload.py:format_restore_plan",
+      "type": "function",
+      "name": "format_restore_plan",
+      "filePath": "engine/data_offload.py",
+      "lineRange": [
+        288,
+        295
+      ],
+      "summary": "Defines format_restore_plan in data_offload.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "data-offload"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/data_offload.py:offload",
+      "type": "function",
+      "name": "offload",
+      "filePath": "engine/data_offload.py",
+      "lineRange": [
+        298,
+        341
+      ],
+      "summary": "Defines offload in data_offload.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-offload"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/data_offload.py:format_offload_plan",
+      "type": "function",
+      "name": "format_offload_plan",
+      "filePath": "engine/data_offload.py",
+      "lineRange": [
+        344,
+        361
+      ],
+      "summary": "Defines format_offload_plan in data_offload.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "data-offload"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:engine/data_offload.py:DataOffloadError",
+      "type": "class",
+      "name": "DataOffloadError",
+      "filePath": "engine/data_offload.py",
+      "lineRange": [
+        20,
+        21
+      ],
+      "summary": "Defines DataOffloadError in data_offload.py, encapsulating reusable behavior or state for this module.",
+      "tags": [
+        "class",
+        "implementation",
+        "data-offload"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:engine/data_offload.py:InventoryEntry",
+      "type": "class",
+      "name": "InventoryEntry",
+      "filePath": "engine/data_offload.py",
+      "lineRange": [
+        25,
+        46
+      ],
+      "summary": "Defines InventoryEntry in data_offload.py, encapsulating reusable behavior or state for this module.",
+      "tags": [
+        "class",
+        "implementation",
+        "data-offload"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:engine/data_offload.py:OffloadResult",
+      "type": "class",
+      "name": "OffloadResult",
+      "filePath": "engine/data_offload.py",
+      "lineRange": [
+        50,
+        68
+      ],
+      "summary": "Defines OffloadResult in data_offload.py, encapsulating reusable behavior or state for this module.",
+      "tags": [
+        "class",
+        "implementation",
+        "data-offload"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:engine/data_offload.py:ManifestEntry",
+      "type": "class",
+      "name": "ManifestEntry",
+      "filePath": "engine/data_offload.py",
+      "lineRange": [
+        72,
+        97
+      ],
+      "summary": "Defines ManifestEntry in data_offload.py, encapsulating reusable behavior or state for this module.",
+      "tags": [
+        "class",
+        "implementation",
+        "data-offload"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:engine/adapters/proxy.py",
+      "target": "function:engine/adapters/proxy.py:_session_tag",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/adapters/proxy.py",
+      "target": "function:engine/adapters/proxy.py:_session_tag",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/adapters/proxy.py",
+      "target": "function:engine/adapters/proxy.py:proxy_url",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/adapters/proxy.py",
+      "target": "function:engine/adapters/proxy.py:proxy_url",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/adapters/proxy.py",
+      "target": "function:engine/adapters/proxy.py:available",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/adapters/proxy.py",
+      "target": "function:engine/adapters/proxy.py:available",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/adapters/proxy.py",
+      "target": "function:engine/adapters/proxy.py:fetch",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/adapters/proxy.py",
+      "target": "function:engine/adapters/proxy.py:fetch",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/adapters/proxy.py",
+      "target": "class:engine/adapters/proxy.py:ProxyConfigError",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/adapters/proxy.py",
+      "target": "class:engine/adapters/proxy.py:ProxyConfigError",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/chat_bridge.py",
+      "target": "function:engine/chat_bridge.py:_seed_from",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/chat_bridge.py",
+      "target": "function:engine/chat_bridge.py:_seed_from",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/chat_bridge.py",
+      "target": "function:engine/chat_bridge.py:_histogram",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/chat_bridge.py",
+      "target": "function:engine/chat_bridge.py:_histogram",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/chat_bridge.py",
+      "target": "function:engine/chat_bridge.py:forecast",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/chat_bridge.py",
+      "target": "function:engine/chat_bridge.py:forecast",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/chat_bridge.py",
+      "target": "function:engine/chat_bridge.py:_bool_spec",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/chat_bridge.py",
+      "target": "function:engine/chat_bridge.py:_bool_spec",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/chat_bridge.py",
+      "target": "function:engine/chat_bridge.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/chat_bridge.py",
+      "target": "function:engine/chat_bridge.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/data_offload.py",
+      "target": "function:engine/data_offload.py:is_critical",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/data_offload.py",
+      "target": "function:engine/data_offload.py:is_critical",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/data_offload.py",
+      "target": "function:engine/data_offload.py:iter_large_files",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/data_offload.py",
+      "target": "function:engine/data_offload.py:iter_large_files",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/data_offload.py",
+      "target": "function:engine/data_offload.py:format_inventory",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/data_offload.py",
+      "target": "function:engine/data_offload.py:format_inventory",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/data_offload.py",
+      "target": "function:engine/data_offload.py:inventory_summary",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/data_offload.py",
+      "target": "function:engine/data_offload.py:inventory_summary",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/data_offload.py",
+      "target": "function:engine/data_offload.py:estimate_s3_storage_usd_month",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/data_offload.py",
+      "target": "function:engine/data_offload.py:estimate_s3_storage_usd_month",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/data_offload.py",
+      "target": "function:engine/data_offload.py:s3_uri_for",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/data_offload.py",
+      "target": "function:engine/data_offload.py:s3_uri_for",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/data_offload.py",
+      "target": "function:engine/data_offload.py:sha256_file",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/data_offload.py",
+      "target": "function:engine/data_offload.py:sha256_file",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/data_offload.py",
+      "target": "function:engine/data_offload.py:aws_cp",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/data_offload.py",
+      "target": "function:engine/data_offload.py:aws_cp",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/data_offload.py",
+      "target": "function:engine/data_offload.py:aws_remote_size",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/data_offload.py",
+      "target": "function:engine/data_offload.py:aws_remote_size",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/data_offload.py",
+      "target": "function:engine/data_offload.py:append_manifest",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/data_offload.py",
+      "target": "function:engine/data_offload.py:append_manifest",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/data_offload.py",
+      "target": "function:engine/data_offload.py:read_manifest",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/data_offload.py",
+      "target": "function:engine/data_offload.py:read_manifest",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/data_offload.py",
+      "target": "function:engine/data_offload.py:format_manifest",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/data_offload.py",
+      "target": "function:engine/data_offload.py:format_manifest",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/data_offload.py",
+      "target": "function:engine/data_offload.py:manifest_summary",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/data_offload.py",
+      "target": "function:engine/data_offload.py:manifest_summary",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/data_offload.py",
+      "target": "function:engine/data_offload.py:restore_commands",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/data_offload.py",
+      "target": "function:engine/data_offload.py:restore_commands",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/data_offload.py",
+      "target": "function:engine/data_offload.py:format_restore_plan",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/data_offload.py",
+      "target": "function:engine/data_offload.py:format_restore_plan",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/data_offload.py",
+      "target": "function:engine/data_offload.py:offload",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/data_offload.py",
+      "target": "function:engine/data_offload.py:offload",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/data_offload.py",
+      "target": "function:engine/data_offload.py:format_offload_plan",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/data_offload.py",
+      "target": "function:engine/data_offload.py:format_offload_plan",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/data_offload.py",
+      "target": "class:engine/data_offload.py:DataOffloadError",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/data_offload.py",
+      "target": "class:engine/data_offload.py:DataOffloadError",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/data_offload.py",
+      "target": "class:engine/data_offload.py:InventoryEntry",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/data_offload.py",
+      "target": "class:engine/data_offload.py:InventoryEntry",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/data_offload.py",
+      "target": "class:engine/data_offload.py:OffloadResult",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/data_offload.py",
+      "target": "class:engine/data_offload.py:OffloadResult",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/data_offload.py",
+      "target": "class:engine/data_offload.py:ManifestEntry",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/data_offload.py",
+      "target": "class:engine/data_offload.py:ManifestEntry",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/adapters/proxy.py",
+      "target": "file:engine/__init__.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/adapters/proxy.py",
+      "target": "file:engine/cost.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/adapters/proxy.py",
+      "target": "file:engine/rawstore.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/chat_bridge.py",
+      "target": "file:engine/forecast.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "function:engine/adapters/proxy.py:proxy_url",
+      "target": "class:engine/adapters/proxy.py:ProxyConfigError",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/adapters/proxy.py:proxy_url",
+      "target": "function:engine/adapters/proxy.py:_session_tag",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/adapters/proxy.py:available",
+      "target": "function:engine/adapters/proxy.py:proxy_url",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/adapters/proxy.py:fetch",
+      "target": "function:engine/adapters/proxy.py:proxy_url",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/chat_bridge.py:forecast",
+      "target": "function:engine/chat_bridge.py:_seed_from",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/chat_bridge.py:forecast",
+      "target": "function:engine/forecast.py:mc_quantity",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/chat_bridge.py:forecast",
+      "target": "function:engine/chat_bridge.py:_histogram",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/chat_bridge.py:main",
+      "target": "function:engine/chat_bridge.py:forecast",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/chat_bridge.py:main",
+      "target": "function:engine/chat_bridge.py:_bool_spec",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/data_offload.py:iter_large_files",
+      "target": "class:engine/data_offload.py:DataOffloadError",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/data_offload.py:iter_large_files",
+      "target": "class:engine/data_offload.py:InventoryEntry",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/data_offload.py:iter_large_files",
+      "target": "function:engine/data_offload.py:is_critical",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/data_offload.py:inventory_summary",
+      "target": "function:engine/data_offload.py:estimate_s3_storage_usd_month",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/data_offload.py:s3_uri_for",
+      "target": "class:engine/data_offload.py:DataOffloadError",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/data_offload.py:aws_cp",
+      "target": "class:engine/data_offload.py:DataOffloadError",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/data_offload.py:aws_remote_size",
+      "target": "class:engine/data_offload.py:DataOffloadError",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/data_offload.py:read_manifest",
+      "target": "class:engine/data_offload.py:ManifestEntry",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/data_offload.py:read_manifest",
+      "target": "class:engine/data_offload.py:DataOffloadError",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/data_offload.py:format_manifest",
+      "target": "function:engine/data_offload.py:manifest_summary",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/data_offload.py:format_restore_plan",
+      "target": "function:engine/data_offload.py:restore_commands",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/data_offload.py:offload",
+      "target": "function:engine/data_offload.py:s3_uri_for",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/data_offload.py:offload",
+      "target": "class:engine/data_offload.py:DataOffloadError",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/data_offload.py:offload",
+      "target": "function:engine/data_offload.py:sha256_file",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/data_offload.py:offload",
+      "target": "function:engine/data_offload.py:aws_cp",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/data_offload.py:offload",
+      "target": "function:engine/data_offload.py:aws_remote_size",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/data_offload.py:offload",
+      "target": "class:engine/data_offload.py:OffloadResult",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/data_offload.py:offload",
+      "target": "function:engine/data_offload.py:estimate_s3_storage_usd_month",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/data_offload.py:offload",
+      "target": "function:engine/data_offload.py:append_manifest",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

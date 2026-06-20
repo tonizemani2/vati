@@ -1,0 +1,1612 @@
+{
+  "nodes": [
+    {
+      "id": "file:engine/feeds/land_permit_sources.py",
+      "type": "file",
+      "name": "land_permit_sources.py",
+      "filePath": "engine/feeds/land_permit_sources.py",
+      "summary": "land_permit_sources.py is a code asset in the forecasting engine. It contains 4 functions, 4 internal imports.",
+      "tags": [
+        "forecasting-engine",
+        "code",
+        "file",
+        "land-permit-sources"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:engine/feeds/land_permit_sources.py:manifest_rows",
+      "type": "function",
+      "name": "manifest_rows",
+      "filePath": "engine/feeds/land_permit_sources.py",
+      "lineRange": [
+        155,
+        167
+      ],
+      "summary": "Defines manifest_rows in land_permit_sources.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "land-permit-sources"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/land_permit_sources.py:write_manifest",
+      "type": "function",
+      "name": "write_manifest",
+      "filePath": "engine/feeds/land_permit_sources.py",
+      "lineRange": [
+        170,
+        184
+      ],
+      "summary": "Defines write_manifest in land_permit_sources.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "land-permit-sources"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/land_permit_sources.py:seed_sources",
+      "type": "function",
+      "name": "seed_sources",
+      "filePath": "engine/feeds/land_permit_sources.py",
+      "lineRange": [
+        187,
+        253
+      ],
+      "summary": "Defines seed_sources in land_permit_sources.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "land-permit-sources"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/feeds/land_permit_sources.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "engine/feeds/land_permit_sources.py",
+      "lineRange": [
+        256,
+        261
+      ],
+      "summary": "Defines main in land_permit_sources.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entry-point",
+        "land-permit-sources"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:engine/feeds/land_permits_canada_iaac.py",
+      "type": "file",
+      "name": "land_permits_canada_iaac.py",
+      "filePath": "engine/feeds/land_permits_canada_iaac.py",
+      "summary": "land_permits_canada_iaac.py is a code asset in the forecasting engine. It contains 13 functions.",
+      "tags": [
+        "forecasting-engine",
+        "code",
+        "file",
+        "land-permits-canada-iaac"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:engine/feeds/land_permits_canada_iaac.py:_today",
+      "type": "function",
+      "name": "_today",
+      "filePath": "engine/feeds/land_permits_canada_iaac.py",
+      "lineRange": [
+        46,
+        47
+      ],
+      "summary": "Defines _today in land_permits_canada_iaac.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "land-permits-canada-iaac"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/land_permits_canada_iaac.py:_write_jsonl_atomic",
+      "type": "function",
+      "name": "_write_jsonl_atomic",
+      "filePath": "engine/feeds/land_permits_canada_iaac.py",
+      "lineRange": [
+        50,
+        56
+      ],
+      "summary": "Defines _write_jsonl_atomic in land_permits_canada_iaac.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "land-permits-canada-iaac"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/land_permits_canada_iaac.py:_fetch_text",
+      "type": "function",
+      "name": "_fetch_text",
+      "filePath": "engine/feeds/land_permits_canada_iaac.py",
+      "lineRange": [
+        59,
+        71
+      ],
+      "summary": "Defines _fetch_text in land_permits_canada_iaac.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-access",
+        "land-permits-canada-iaac"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/land_permits_canada_iaac.py:_clean_text",
+      "type": "function",
+      "name": "_clean_text",
+      "filePath": "engine/feeds/land_permits_canada_iaac.py",
+      "lineRange": [
+        74,
+        81
+      ],
+      "summary": "Defines _clean_text in land_permits_canada_iaac.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "land-permits-canada-iaac"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/land_permits_canada_iaac.py:_slug",
+      "type": "function",
+      "name": "_slug",
+      "filePath": "engine/feeds/land_permits_canada_iaac.py",
+      "lineRange": [
+        84,
+        86
+      ],
+      "summary": "Defines _slug in land_permits_canada_iaac.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "land-permits-canada-iaac"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/land_permits_canada_iaac.py:_field",
+      "type": "function",
+      "name": "_field",
+      "filePath": "engine/feeds/land_permits_canada_iaac.py",
+      "lineRange": [
+        89,
+        92
+      ],
+      "summary": "Defines _field in land_permits_canada_iaac.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "land-permits-canada-iaac"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/land_permits_canada_iaac.py:_link",
+      "type": "function",
+      "name": "_link",
+      "filePath": "engine/feeds/land_permits_canada_iaac.py",
+      "lineRange": [
+        95,
+        97
+      ],
+      "summary": "Defines _link in land_permits_canada_iaac.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "land-permits-canada-iaac"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/land_permits_canada_iaac.py:_title",
+      "type": "function",
+      "name": "_title",
+      "filePath": "engine/feeds/land_permits_canada_iaac.py",
+      "lineRange": [
+        100,
+        102
+      ],
+      "summary": "Defines _title in land_permits_canada_iaac.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "land-permits-canada-iaac"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/land_permits_canada_iaac.py:_location",
+      "type": "function",
+      "name": "_location",
+      "filePath": "engine/feeds/land_permits_canada_iaac.py",
+      "lineRange": [
+        105,
+        107
+      ],
+      "summary": "Defines _location in land_permits_canada_iaac.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "land-permits-canada-iaac"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/land_permits_canada_iaac.py:_description",
+      "type": "function",
+      "name": "_description",
+      "filePath": "engine/feeds/land_permits_canada_iaac.py",
+      "lineRange": [
+        110,
+        112
+      ],
+      "summary": "Defines _description in land_permits_canada_iaac.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "land-permits-canada-iaac"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/land_permits_canada_iaac.py:_parse_page",
+      "type": "function",
+      "name": "_parse_page",
+      "filePath": "engine/feeds/land_permits_canada_iaac.py",
+      "lineRange": [
+        115,
+        167
+      ],
+      "summary": "Defines _parse_page in land_permits_canada_iaac.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "land-permits-canada-iaac"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/feeds/land_permits_canada_iaac.py:parse_pages",
+      "type": "function",
+      "name": "parse_pages",
+      "filePath": "engine/feeds/land_permits_canada_iaac.py",
+      "lineRange": [
+        170,
+        201
+      ],
+      "summary": "Defines parse_pages in land_permits_canada_iaac.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "land-permits-canada-iaac"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/land_permits_canada_iaac.py:collect",
+      "type": "function",
+      "name": "collect",
+      "filePath": "engine/feeds/land_permits_canada_iaac.py",
+      "lineRange": [
+        204,
+        221
+      ],
+      "summary": "Defines collect in land_permits_canada_iaac.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "land-permits-canada-iaac"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:engine/feeds/miningterminal_permits.py",
+      "type": "file",
+      "name": "miningterminal_permits.py",
+      "filePath": "engine/feeds/miningterminal_permits.py",
+      "summary": "miningterminal_permits.py is a code asset in the forecasting engine. It contains 22 functions.",
+      "tags": [
+        "forecasting-engine",
+        "code",
+        "file",
+        "miningterminal-permits"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:engine/feeds/miningterminal_permits.py:_write_jsonl_atomic",
+      "type": "function",
+      "name": "_write_jsonl_atomic",
+      "filePath": "engine/feeds/miningterminal_permits.py",
+      "lineRange": [
+        80,
+        86
+      ],
+      "summary": "Defines _write_jsonl_atomic in miningterminal_permits.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "miningterminal-permits"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/miningterminal_permits.py:_write_status",
+      "type": "function",
+      "name": "_write_status",
+      "filePath": "engine/feeds/miningterminal_permits.py",
+      "lineRange": [
+        89,
+        91
+      ],
+      "summary": "Defines _write_status in miningterminal_permits.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "miningterminal-permits"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/miningterminal_permits.py:_today",
+      "type": "function",
+      "name": "_today",
+      "filePath": "engine/feeds/miningterminal_permits.py",
+      "lineRange": [
+        94,
+        95
+      ],
+      "summary": "Defines _today in miningterminal_permits.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "miningterminal-permits"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/miningterminal_permits.py:_text",
+      "type": "function",
+      "name": "_text",
+      "filePath": "engine/feeds/miningterminal_permits.py",
+      "lineRange": [
+        98,
+        99
+      ],
+      "summary": "Defines _text in miningterminal_permits.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "miningterminal-permits"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/miningterminal_permits.py:_slug",
+      "type": "function",
+      "name": "_slug",
+      "filePath": "engine/feeds/miningterminal_permits.py",
+      "lineRange": [
+        102,
+        104
+      ],
+      "summary": "Defines _slug in miningterminal_permits.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "miningterminal-permits"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/miningterminal_permits.py:_stable_suffix",
+      "type": "function",
+      "name": "_stable_suffix",
+      "filePath": "engine/feeds/miningterminal_permits.py",
+      "lineRange": [
+        107,
+        108
+      ],
+      "summary": "Defines _stable_suffix in miningterminal_permits.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "miningterminal-permits"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/miningterminal_permits.py:_series_key",
+      "type": "function",
+      "name": "_series_key",
+      "filePath": "engine/feeds/miningterminal_permits.py",
+      "lineRange": [
+        111,
+        116
+      ],
+      "summary": "Defines _series_key in miningterminal_permits.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "miningterminal-permits"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/miningterminal_permits.py:_number",
+      "type": "function",
+      "name": "_number",
+      "filePath": "engine/feeds/miningterminal_permits.py",
+      "lineRange": [
+        119,
+        125
+      ],
+      "summary": "Defines _number in miningterminal_permits.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "miningterminal-permits"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/miningterminal_permits.py:_date_text",
+      "type": "function",
+      "name": "_date_text",
+      "filePath": "engine/feeds/miningterminal_permits.py",
+      "lineRange": [
+        128,
+        149
+      ],
+      "summary": "Defines _date_text in miningterminal_permits.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "miningterminal-permits"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/miningterminal_permits.py:_min_date",
+      "type": "function",
+      "name": "_min_date",
+      "filePath": "engine/feeds/miningterminal_permits.py",
+      "lineRange": [
+        152,
+        157
+      ],
+      "summary": "Defines _min_date in miningterminal_permits.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "miningterminal-permits"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/miningterminal_permits.py:_max_date",
+      "type": "function",
+      "name": "_max_date",
+      "filePath": "engine/feeds/miningterminal_permits.py",
+      "lineRange": [
+        160,
+        165
+      ],
+      "summary": "Defines _max_date in miningterminal_permits.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "miningterminal-permits"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/miningterminal_permits.py:_metadata_from_prefix",
+      "type": "function",
+      "name": "_metadata_from_prefix",
+      "filePath": "engine/feeds/miningterminal_permits.py",
+      "lineRange": [
+        168,
+        185
+      ],
+      "summary": "Defines _metadata_from_prefix in miningterminal_permits.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "miningterminal-permits"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/miningterminal_permits.py:_snapshot_date",
+      "type": "function",
+      "name": "_snapshot_date",
+      "filePath": "engine/feeds/miningterminal_permits.py",
+      "lineRange": [
+        188,
+        199
+      ],
+      "summary": "Defines _snapshot_date in miningterminal_permits.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "miningterminal-permits"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/miningterminal_permits.py:_iter_feature_objects",
+      "type": "function",
+      "name": "_iter_feature_objects",
+      "filePath": "engine/feeds/miningterminal_permits.py",
+      "lineRange": [
+        202,
+        274
+      ],
+      "summary": "Defines _iter_feature_objects in miningterminal_permits.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "miningterminal-permits"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/feeds/miningterminal_permits.py:_commodity_parts",
+      "type": "function",
+      "name": "_commodity_parts",
+      "filePath": "engine/feeds/miningterminal_permits.py",
+      "lineRange": [
+        277,
+        302
+      ],
+      "summary": "Defines _commodity_parts in miningterminal_permits.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "miningterminal-permits"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/miningterminal_permits.py:_is_critical_commodity",
+      "type": "function",
+      "name": "_is_critical_commodity",
+      "filePath": "engine/feeds/miningterminal_permits.py",
+      "lineRange": [
+        305,
+        307
+      ],
+      "summary": "Defines _is_critical_commodity in miningterminal_permits.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "miningterminal-permits"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/miningterminal_permits.py:_new_group",
+      "type": "function",
+      "name": "_new_group",
+      "filePath": "engine/feeds/miningterminal_permits.py",
+      "lineRange": [
+        310,
+        342
+      ],
+      "summary": "Defines _new_group in miningterminal_permits.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "miningterminal-permits"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/miningterminal_permits.py:_update_group",
+      "type": "function",
+      "name": "_update_group",
+      "filePath": "engine/feeds/miningterminal_permits.py",
+      "lineRange": [
+        345,
+        353
+      ],
+      "summary": "Defines _update_group in miningterminal_permits.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "miningterminal-permits"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/miningterminal_permits.py:_feed_row",
+      "type": "function",
+      "name": "_feed_row",
+      "filePath": "engine/feeds/miningterminal_permits.py",
+      "lineRange": [
+        356,
+        420
+      ],
+      "summary": "Defines _feed_row in miningterminal_permits.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "miningterminal-permits"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/feeds/miningterminal_permits.py:summarize",
+      "type": "function",
+      "name": "summarize",
+      "filePath": "engine/feeds/miningterminal_permits.py",
+      "lineRange": [
+        423,
+        553
+      ],
+      "summary": "Defines summarize in miningterminal_permits.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "miningterminal-permits"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/feeds/miningterminal_permits.py:collect",
+      "type": "function",
+      "name": "collect",
+      "filePath": "engine/feeds/miningterminal_permits.py",
+      "lineRange": [
+        556,
+        602
+      ],
+      "summary": "Defines collect in miningterminal_permits.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "miningterminal-permits"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/miningterminal_permits.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "engine/feeds/miningterminal_permits.py",
+      "lineRange": [
+        605,
+        620
+      ],
+      "summary": "Defines main in miningterminal_permits.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entry-point",
+        "miningterminal-permits"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:engine/feeds/land_permit_sources.py",
+      "target": "function:engine/feeds/land_permit_sources.py:manifest_rows",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/land_permit_sources.py",
+      "target": "function:engine/feeds/land_permit_sources.py:manifest_rows",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/land_permit_sources.py",
+      "target": "function:engine/feeds/land_permit_sources.py:write_manifest",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/land_permit_sources.py",
+      "target": "function:engine/feeds/land_permit_sources.py:write_manifest",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/land_permit_sources.py",
+      "target": "function:engine/feeds/land_permit_sources.py:seed_sources",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/land_permit_sources.py",
+      "target": "function:engine/feeds/land_permit_sources.py:seed_sources",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/land_permit_sources.py",
+      "target": "function:engine/feeds/land_permit_sources.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/land_permit_sources.py",
+      "target": "function:engine/feeds/land_permit_sources.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/land_permits_canada_iaac.py",
+      "target": "function:engine/feeds/land_permits_canada_iaac.py:_today",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/land_permits_canada_iaac.py",
+      "target": "function:engine/feeds/land_permits_canada_iaac.py:_today",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/land_permits_canada_iaac.py",
+      "target": "function:engine/feeds/land_permits_canada_iaac.py:_write_jsonl_atomic",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/land_permits_canada_iaac.py",
+      "target": "function:engine/feeds/land_permits_canada_iaac.py:_write_jsonl_atomic",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/land_permits_canada_iaac.py",
+      "target": "function:engine/feeds/land_permits_canada_iaac.py:_fetch_text",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/land_permits_canada_iaac.py",
+      "target": "function:engine/feeds/land_permits_canada_iaac.py:_fetch_text",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/land_permits_canada_iaac.py",
+      "target": "function:engine/feeds/land_permits_canada_iaac.py:_clean_text",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/land_permits_canada_iaac.py",
+      "target": "function:engine/feeds/land_permits_canada_iaac.py:_clean_text",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/land_permits_canada_iaac.py",
+      "target": "function:engine/feeds/land_permits_canada_iaac.py:_slug",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/land_permits_canada_iaac.py",
+      "target": "function:engine/feeds/land_permits_canada_iaac.py:_slug",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/land_permits_canada_iaac.py",
+      "target": "function:engine/feeds/land_permits_canada_iaac.py:_field",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/land_permits_canada_iaac.py",
+      "target": "function:engine/feeds/land_permits_canada_iaac.py:_field",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/land_permits_canada_iaac.py",
+      "target": "function:engine/feeds/land_permits_canada_iaac.py:_link",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/land_permits_canada_iaac.py",
+      "target": "function:engine/feeds/land_permits_canada_iaac.py:_link",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/land_permits_canada_iaac.py",
+      "target": "function:engine/feeds/land_permits_canada_iaac.py:_title",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/land_permits_canada_iaac.py",
+      "target": "function:engine/feeds/land_permits_canada_iaac.py:_title",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/land_permits_canada_iaac.py",
+      "target": "function:engine/feeds/land_permits_canada_iaac.py:_location",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/land_permits_canada_iaac.py",
+      "target": "function:engine/feeds/land_permits_canada_iaac.py:_location",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/land_permits_canada_iaac.py",
+      "target": "function:engine/feeds/land_permits_canada_iaac.py:_description",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/land_permits_canada_iaac.py",
+      "target": "function:engine/feeds/land_permits_canada_iaac.py:_description",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/land_permits_canada_iaac.py",
+      "target": "function:engine/feeds/land_permits_canada_iaac.py:_parse_page",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/land_permits_canada_iaac.py",
+      "target": "function:engine/feeds/land_permits_canada_iaac.py:_parse_page",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/land_permits_canada_iaac.py",
+      "target": "function:engine/feeds/land_permits_canada_iaac.py:parse_pages",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/land_permits_canada_iaac.py",
+      "target": "function:engine/feeds/land_permits_canada_iaac.py:parse_pages",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/land_permits_canada_iaac.py",
+      "target": "function:engine/feeds/land_permits_canada_iaac.py:collect",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/land_permits_canada_iaac.py",
+      "target": "function:engine/feeds/land_permits_canada_iaac.py:collect",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/miningterminal_permits.py",
+      "target": "function:engine/feeds/miningterminal_permits.py:_write_jsonl_atomic",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/miningterminal_permits.py",
+      "target": "function:engine/feeds/miningterminal_permits.py:_write_jsonl_atomic",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/miningterminal_permits.py",
+      "target": "function:engine/feeds/miningterminal_permits.py:_write_status",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/miningterminal_permits.py",
+      "target": "function:engine/feeds/miningterminal_permits.py:_write_status",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/miningterminal_permits.py",
+      "target": "function:engine/feeds/miningterminal_permits.py:_today",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/miningterminal_permits.py",
+      "target": "function:engine/feeds/miningterminal_permits.py:_today",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/miningterminal_permits.py",
+      "target": "function:engine/feeds/miningterminal_permits.py:_text",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/miningterminal_permits.py",
+      "target": "function:engine/feeds/miningterminal_permits.py:_text",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/miningterminal_permits.py",
+      "target": "function:engine/feeds/miningterminal_permits.py:_slug",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/miningterminal_permits.py",
+      "target": "function:engine/feeds/miningterminal_permits.py:_slug",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/miningterminal_permits.py",
+      "target": "function:engine/feeds/miningterminal_permits.py:_stable_suffix",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/miningterminal_permits.py",
+      "target": "function:engine/feeds/miningterminal_permits.py:_stable_suffix",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/miningterminal_permits.py",
+      "target": "function:engine/feeds/miningterminal_permits.py:_series_key",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/miningterminal_permits.py",
+      "target": "function:engine/feeds/miningterminal_permits.py:_series_key",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/miningterminal_permits.py",
+      "target": "function:engine/feeds/miningterminal_permits.py:_number",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/miningterminal_permits.py",
+      "target": "function:engine/feeds/miningterminal_permits.py:_number",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/miningterminal_permits.py",
+      "target": "function:engine/feeds/miningterminal_permits.py:_date_text",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/miningterminal_permits.py",
+      "target": "function:engine/feeds/miningterminal_permits.py:_date_text",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/miningterminal_permits.py",
+      "target": "function:engine/feeds/miningterminal_permits.py:_min_date",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/miningterminal_permits.py",
+      "target": "function:engine/feeds/miningterminal_permits.py:_min_date",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/miningterminal_permits.py",
+      "target": "function:engine/feeds/miningterminal_permits.py:_max_date",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/miningterminal_permits.py",
+      "target": "function:engine/feeds/miningterminal_permits.py:_max_date",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/miningterminal_permits.py",
+      "target": "function:engine/feeds/miningterminal_permits.py:_metadata_from_prefix",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/miningterminal_permits.py",
+      "target": "function:engine/feeds/miningterminal_permits.py:_metadata_from_prefix",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/miningterminal_permits.py",
+      "target": "function:engine/feeds/miningterminal_permits.py:_snapshot_date",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/miningterminal_permits.py",
+      "target": "function:engine/feeds/miningterminal_permits.py:_snapshot_date",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/miningterminal_permits.py",
+      "target": "function:engine/feeds/miningterminal_permits.py:_iter_feature_objects",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/miningterminal_permits.py",
+      "target": "function:engine/feeds/miningterminal_permits.py:_iter_feature_objects",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/miningterminal_permits.py",
+      "target": "function:engine/feeds/miningterminal_permits.py:_commodity_parts",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/miningterminal_permits.py",
+      "target": "function:engine/feeds/miningterminal_permits.py:_commodity_parts",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/miningterminal_permits.py",
+      "target": "function:engine/feeds/miningterminal_permits.py:_is_critical_commodity",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/miningterminal_permits.py",
+      "target": "function:engine/feeds/miningterminal_permits.py:_is_critical_commodity",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/miningterminal_permits.py",
+      "target": "function:engine/feeds/miningterminal_permits.py:_new_group",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/miningterminal_permits.py",
+      "target": "function:engine/feeds/miningterminal_permits.py:_new_group",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/miningterminal_permits.py",
+      "target": "function:engine/feeds/miningterminal_permits.py:_update_group",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/miningterminal_permits.py",
+      "target": "function:engine/feeds/miningterminal_permits.py:_update_group",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/miningterminal_permits.py",
+      "target": "function:engine/feeds/miningterminal_permits.py:_feed_row",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/miningterminal_permits.py",
+      "target": "function:engine/feeds/miningterminal_permits.py:_feed_row",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/miningterminal_permits.py",
+      "target": "function:engine/feeds/miningterminal_permits.py:summarize",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/miningterminal_permits.py",
+      "target": "function:engine/feeds/miningterminal_permits.py:summarize",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/miningterminal_permits.py",
+      "target": "function:engine/feeds/miningterminal_permits.py:collect",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/miningterminal_permits.py",
+      "target": "function:engine/feeds/miningterminal_permits.py:collect",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/miningterminal_permits.py",
+      "target": "function:engine/feeds/miningterminal_permits.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/miningterminal_permits.py",
+      "target": "function:engine/feeds/miningterminal_permits.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/land_permit_sources.py",
+      "target": "file:engine/__init__.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/feeds/land_permit_sources.py",
+      "target": "file:engine/db.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/feeds/land_permit_sources.py",
+      "target": "file:engine/rawstore.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/feeds/land_permit_sources.py",
+      "target": "file:engine/schemas.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "function:engine/feeds/land_permit_sources.py:write_manifest",
+      "target": "function:engine/feeds/land_permit_sources.py:manifest_rows",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/land_permit_sources.py:seed_sources",
+      "target": "function:engine/feeds/land_permit_sources.py:write_manifest",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/land_permit_sources.py:seed_sources",
+      "target": "function:engine/schemas.py:_now",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/land_permit_sources.py:main",
+      "target": "function:engine/feeds/land_permit_sources.py:write_manifest",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/land_permits_canada_iaac.py:_field",
+      "target": "function:engine/feeds/land_permits_canada_iaac.py:_clean_text",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/land_permits_canada_iaac.py:_title",
+      "target": "function:engine/feeds/land_permits_canada_iaac.py:_clean_text",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/land_permits_canada_iaac.py:_location",
+      "target": "function:engine/feeds/land_permits_canada_iaac.py:_clean_text",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/land_permits_canada_iaac.py:_description",
+      "target": "function:engine/feeds/land_permits_canada_iaac.py:_clean_text",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/land_permits_canada_iaac.py:_parse_page",
+      "target": "function:engine/feeds/land_permits_canada_iaac.py:_field",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/land_permits_canada_iaac.py:_parse_page",
+      "target": "function:engine/feeds/land_permits_canada_iaac.py:_title",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/land_permits_canada_iaac.py:_parse_page",
+      "target": "function:engine/feeds/land_permits_canada_iaac.py:_link",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/land_permits_canada_iaac.py:_parse_page",
+      "target": "function:engine/feeds/land_permits_canada_iaac.py:_today",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/land_permits_canada_iaac.py:_parse_page",
+      "target": "function:engine/feeds/land_permits_canada_iaac.py:_location",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/land_permits_canada_iaac.py:_parse_page",
+      "target": "function:engine/feeds/land_permits_canada_iaac.py:_description",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/land_permits_canada_iaac.py:parse_pages",
+      "target": "function:engine/feeds/land_permits_canada_iaac.py:_parse_page",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/land_permits_canada_iaac.py:collect",
+      "target": "function:engine/feeds/land_permits_canada_iaac.py:_fetch_text",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/land_permits_canada_iaac.py:collect",
+      "target": "function:engine/feeds/land_permits_canada_iaac.py:_parse_page",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/land_permits_canada_iaac.py:collect",
+      "target": "function:engine/feeds/land_permits_canada_iaac.py:parse_pages",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/land_permits_canada_iaac.py:collect",
+      "target": "function:engine/feeds/land_permits_canada_iaac.py:_write_jsonl_atomic",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/miningterminal_permits.py:_slug",
+      "target": "function:engine/feeds/miningterminal_permits.py:_text",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/miningterminal_permits.py:_stable_suffix",
+      "target": "function:engine/feeds/miningterminal_permits.py:_text",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/miningterminal_permits.py:_series_key",
+      "target": "function:engine/feeds/miningterminal_permits.py:_slug",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/miningterminal_permits.py:_series_key",
+      "target": "function:engine/feeds/miningterminal_permits.py:_stable_suffix",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/miningterminal_permits.py:_date_text",
+      "target": "function:engine/feeds/miningterminal_permits.py:_text",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/miningterminal_permits.py:_snapshot_date",
+      "target": "function:engine/feeds/miningterminal_permits.py:_date_text",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/miningterminal_permits.py:_snapshot_date",
+      "target": "function:engine/feeds/miningterminal_permits.py:_today",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/miningterminal_permits.py:_commodity_parts",
+      "target": "function:engine/feeds/miningterminal_permits.py:_text",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/miningterminal_permits.py:_update_group",
+      "target": "function:engine/feeds/miningterminal_permits.py:_min_date",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/miningterminal_permits.py:_update_group",
+      "target": "function:engine/feeds/miningterminal_permits.py:_date_text",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/miningterminal_permits.py:_update_group",
+      "target": "function:engine/feeds/miningterminal_permits.py:_max_date",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/miningterminal_permits.py:_feed_row",
+      "target": "function:engine/feeds/miningterminal_permits.py:_series_key",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/miningterminal_permits.py:_feed_row",
+      "target": "function:engine/feeds/miningterminal_permits.py:_text",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/miningterminal_permits.py:summarize",
+      "target": "function:engine/feeds/miningterminal_permits.py:_metadata_from_prefix",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/miningterminal_permits.py:summarize",
+      "target": "function:engine/feeds/miningterminal_permits.py:_snapshot_date",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/miningterminal_permits.py:summarize",
+      "target": "function:engine/feeds/miningterminal_permits.py:_text",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/miningterminal_permits.py:summarize",
+      "target": "function:engine/feeds/miningterminal_permits.py:_iter_feature_objects",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/miningterminal_permits.py:summarize",
+      "target": "function:engine/feeds/miningterminal_permits.py:_number",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/miningterminal_permits.py:summarize",
+      "target": "function:engine/feeds/miningterminal_permits.py:_commodity_parts",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/miningterminal_permits.py:summarize",
+      "target": "function:engine/feeds/miningterminal_permits.py:_new_group",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/miningterminal_permits.py:summarize",
+      "target": "function:engine/feeds/miningterminal_permits.py:_update_group",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/miningterminal_permits.py:summarize",
+      "target": "function:engine/feeds/miningterminal_permits.py:_is_critical_commodity",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/miningterminal_permits.py:summarize",
+      "target": "function:engine/feeds/miningterminal_permits.py:_feed_row",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/miningterminal_permits.py:collect",
+      "target": "function:engine/feeds/miningterminal_permits.py:_write_status",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/miningterminal_permits.py:collect",
+      "target": "function:engine/feeds/miningterminal_permits.py:summarize",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/miningterminal_permits.py:collect",
+      "target": "function:engine/feeds/miningterminal_permits.py:_write_jsonl_atomic",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/miningterminal_permits.py:main",
+      "target": "function:engine/feeds/miningterminal_permits.py:collect",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

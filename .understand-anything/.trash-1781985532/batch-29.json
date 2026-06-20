@@ -1,0 +1,61 @@
+{
+  "nodes": [
+    {
+      "id": "file:scripts/launch_research_papers_ec2_pilot.sh",
+      "type": "file",
+      "name": "launch_research_papers_ec2_pilot.sh",
+      "filePath": "scripts/launch_research_papers_ec2_pilot.sh",
+      "summary": "launch_research_papers_ec2_pilot.sh is a script asset in the repository.",
+      "tags": [
+        "script",
+        "automation",
+        "file",
+        "launch-research-papers-ec2-pilot"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:scripts/research_papers_ec2_pilot.sh",
+      "type": "file",
+      "name": "research_papers_ec2_pilot.sh",
+      "filePath": "scripts/research_papers_ec2_pilot.sh",
+      "summary": "research_papers_ec2_pilot.sh is a script asset in the repository. It contains 1 function.",
+      "tags": [
+        "script",
+        "automation",
+        "file",
+        "research-papers-ec2-pilot"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:scripts/run_deepseek_resume_safe.sh",
+      "type": "file",
+      "name": "run_deepseek_resume_safe.sh",
+      "filePath": "scripts/run_deepseek_resume_safe.sh",
+      "summary": "run_deepseek_resume_safe.sh is a script asset in the repository.",
+      "tags": [
+        "script",
+        "automation",
+        "file",
+        "run-deepseek-resume-safe"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:scripts/sync_foresight_to_box.sh",
+      "type": "file",
+      "name": "sync_foresight_to_box.sh",
+      "filePath": "scripts/sync_foresight_to_box.sh",
+      "summary": "sync_foresight_to_box.sh is a script asset in the repository. It contains 1 function.",
+      "tags": [
+        "script",
+        "automation",
+        "file",
+        "sync-foresight-to-box"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": []
+}

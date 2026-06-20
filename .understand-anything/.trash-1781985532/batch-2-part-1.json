@@ -1,0 +1,896 @@
+{
+  "nodes": [
+    {
+      "id": "file:engine/adapters/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "engine/adapters/__init__.py",
+      "summary": "__init__.py is a code asset in the forecasting engine.",
+      "tags": [
+        "forecasting-engine",
+        "integration",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:engine/adapters/answer.py",
+      "type": "file",
+      "name": "answer.py",
+      "filePath": "engine/adapters/answer.py",
+      "summary": "answer.py is a code asset in the forecasting engine. It contains 7 functions, 1 class, 7 internal imports.",
+      "tags": [
+        "forecasting-engine",
+        "integration",
+        "code"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:engine/adapters/answer.py:_extract_json",
+      "type": "function",
+      "name": "_extract_json",
+      "filePath": "engine/adapters/answer.py",
+      "lineRange": [
+        60,
+        68
+      ],
+      "summary": "Defines _extract_json in answer.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "answer"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/adapters/answer.py:_relevant_excerpt",
+      "type": "function",
+      "name": "_relevant_excerpt",
+      "filePath": "engine/adapters/answer.py",
+      "lineRange": [
+        71,
+        108
+      ],
+      "summary": "Defines _relevant_excerpt in answer.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "answer"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/adapters/answer.py:_fetch_full",
+      "type": "function",
+      "name": "_fetch_full",
+      "filePath": "engine/adapters/answer.py",
+      "lineRange": [
+        111,
+        141
+      ],
+      "summary": "Defines _fetch_full in answer.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-access",
+        "answer"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/adapters/answer.py:_decide",
+      "type": "function",
+      "name": "_decide",
+      "filePath": "engine/adapters/answer.py",
+      "lineRange": [
+        144,
+        153
+      ],
+      "summary": "Defines _decide in answer.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "answer"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/adapters/answer.py:_norm",
+      "type": "function",
+      "name": "_norm",
+      "filePath": "engine/adapters/answer.py",
+      "lineRange": [
+        156,
+        157
+      ],
+      "summary": "Defines _norm in answer.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "answer"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/adapters/answer.py:_grounded",
+      "type": "function",
+      "name": "_grounded",
+      "filePath": "engine/adapters/answer.py",
+      "lineRange": [
+        160,
+        171
+      ],
+      "summary": "Defines _grounded in answer.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "answer"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/adapters/answer.py:find_number",
+      "type": "function",
+      "name": "find_number",
+      "filePath": "engine/adapters/answer.py",
+      "lineRange": [
+        174,
+        244
+      ],
+      "summary": "Defines find_number in answer.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "answer"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:engine/adapters/answer.py:Answer",
+      "type": "class",
+      "name": "Answer",
+      "filePath": "engine/adapters/answer.py",
+      "lineRange": [
+        50,
+        57
+      ],
+      "summary": "Defines Answer in answer.py, encapsulating reusable behavior or state for this module.",
+      "tags": [
+        "class",
+        "implementation",
+        "answer"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:engine/adapters/extract.py",
+      "type": "file",
+      "name": "extract.py",
+      "filePath": "engine/adapters/extract.py",
+      "summary": "extract.py is a code asset in the forecasting engine. It contains 5 functions, 1 class, 2 internal imports.",
+      "tags": [
+        "forecasting-engine",
+        "integration",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/adapters/extract.py:_norm",
+      "type": "function",
+      "name": "_norm",
+      "filePath": "engine/adapters/extract.py",
+      "lineRange": [
+        44,
+        45
+      ],
+      "summary": "Defines _norm in extract.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "extract"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/adapters/extract.py:_strip_fences",
+      "type": "function",
+      "name": "_strip_fences",
+      "filePath": "engine/adapters/extract.py",
+      "lineRange": [
+        48,
+        55
+      ],
+      "summary": "Defines _strip_fences in extract.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "extract"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/adapters/extract.py:_field_list",
+      "type": "function",
+      "name": "_field_list",
+      "filePath": "engine/adapters/extract.py",
+      "lineRange": [
+        58,
+        59
+      ],
+      "summary": "Defines _field_list in extract.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "extract"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/adapters/extract.py:_build_prompt",
+      "type": "function",
+      "name": "_build_prompt",
+      "filePath": "engine/adapters/extract.py",
+      "lineRange": [
+        62,
+        70
+      ],
+      "summary": "Defines _build_prompt in extract.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "extract"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/adapters/extract.py:extract_typed",
+      "type": "function",
+      "name": "extract_typed",
+      "filePath": "engine/adapters/extract.py",
+      "lineRange": [
+        73,
+        123
+      ],
+      "summary": "Defines extract_typed in extract.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "extract"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:engine/adapters/extract.py:Candidate",
+      "type": "class",
+      "name": "Candidate",
+      "filePath": "engine/adapters/extract.py",
+      "lineRange": [
+        36,
+        41
+      ],
+      "summary": "Defines Candidate in extract.py, encapsulating reusable behavior or state for this module.",
+      "tags": [
+        "class",
+        "implementation",
+        "extract"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:engine/adapters/html_to_markdown.py",
+      "type": "file",
+      "name": "html_to_markdown.py",
+      "filePath": "engine/adapters/html_to_markdown.py",
+      "summary": "html_to_markdown.py is a code asset in the forecasting engine. It contains 2 functions.",
+      "tags": [
+        "forecasting-engine",
+        "integration",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/adapters/html_to_markdown.py:html_to_markdown",
+      "type": "function",
+      "name": "html_to_markdown",
+      "filePath": "engine/adapters/html_to_markdown.py",
+      "lineRange": [
+        19,
+        30
+      ],
+      "summary": "Defines html_to_markdown in html_to_markdown.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "html-to-markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/adapters/html_to_markdown.py:url_to_markdown",
+      "type": "function",
+      "name": "url_to_markdown",
+      "filePath": "engine/adapters/html_to_markdown.py",
+      "lineRange": [
+        33,
+        41
+      ],
+      "summary": "Defines url_to_markdown in html_to_markdown.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "html-to-markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:engine/adapters/llm.py",
+      "type": "file",
+      "name": "llm.py",
+      "filePath": "engine/adapters/llm.py",
+      "summary": "llm.py is a code asset in the forecasting engine. It contains 2 functions, 2 classes, 2 internal imports.",
+      "tags": [
+        "forecasting-engine",
+        "integration",
+        "code"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:engine/adapters/llm.py:_resolve",
+      "type": "function",
+      "name": "_resolve",
+      "filePath": "engine/adapters/llm.py",
+      "lineRange": [
+        92,
+        111
+      ],
+      "summary": "Defines _resolve in llm.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "llm"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/adapters/llm.py:complete",
+      "type": "function",
+      "name": "complete",
+      "filePath": "engine/adapters/llm.py",
+      "lineRange": [
+        114,
+        292
+      ],
+      "summary": "Defines complete in llm.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "llm"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:engine/adapters/llm.py:LLMConfigError",
+      "type": "class",
+      "name": "LLMConfigError",
+      "filePath": "engine/adapters/llm.py",
+      "lineRange": [
+        27,
+        28
+      ],
+      "summary": "Defines LLMConfigError in llm.py, encapsulating reusable behavior or state for this module.",
+      "tags": [
+        "class",
+        "implementation",
+        "llm"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:engine/adapters/llm.py:Provider",
+      "type": "class",
+      "name": "Provider",
+      "filePath": "engine/adapters/llm.py",
+      "lineRange": [
+        32,
+        37
+      ],
+      "summary": "Defines Provider in llm.py, encapsulating reusable behavior or state for this module.",
+      "tags": [
+        "class",
+        "implementation",
+        "llm"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:engine/adapters/answer.py",
+      "target": "function:engine/adapters/answer.py:_extract_json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/adapters/answer.py",
+      "target": "function:engine/adapters/answer.py:_extract_json",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/adapters/answer.py",
+      "target": "function:engine/adapters/answer.py:_relevant_excerpt",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/adapters/answer.py",
+      "target": "function:engine/adapters/answer.py:_relevant_excerpt",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/adapters/answer.py",
+      "target": "function:engine/adapters/answer.py:_fetch_full",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/adapters/answer.py",
+      "target": "function:engine/adapters/answer.py:_fetch_full",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/adapters/answer.py",
+      "target": "function:engine/adapters/answer.py:_decide",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/adapters/answer.py",
+      "target": "function:engine/adapters/answer.py:_decide",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/adapters/answer.py",
+      "target": "function:engine/adapters/answer.py:_norm",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/adapters/answer.py",
+      "target": "function:engine/adapters/answer.py:_norm",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/adapters/answer.py",
+      "target": "function:engine/adapters/answer.py:_grounded",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/adapters/answer.py",
+      "target": "function:engine/adapters/answer.py:_grounded",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/adapters/answer.py",
+      "target": "function:engine/adapters/answer.py:find_number",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/adapters/answer.py",
+      "target": "function:engine/adapters/answer.py:find_number",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/adapters/answer.py",
+      "target": "class:engine/adapters/answer.py:Answer",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/adapters/answer.py",
+      "target": "class:engine/adapters/answer.py:Answer",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/adapters/extract.py",
+      "target": "function:engine/adapters/extract.py:_norm",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/adapters/extract.py",
+      "target": "function:engine/adapters/extract.py:_norm",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/adapters/extract.py",
+      "target": "function:engine/adapters/extract.py:_strip_fences",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/adapters/extract.py",
+      "target": "function:engine/adapters/extract.py:_strip_fences",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/adapters/extract.py",
+      "target": "function:engine/adapters/extract.py:_field_list",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/adapters/extract.py",
+      "target": "function:engine/adapters/extract.py:_field_list",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/adapters/extract.py",
+      "target": "function:engine/adapters/extract.py:_build_prompt",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/adapters/extract.py",
+      "target": "function:engine/adapters/extract.py:_build_prompt",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/adapters/extract.py",
+      "target": "function:engine/adapters/extract.py:extract_typed",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/adapters/extract.py",
+      "target": "function:engine/adapters/extract.py:extract_typed",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/adapters/extract.py",
+      "target": "class:engine/adapters/extract.py:Candidate",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/adapters/extract.py",
+      "target": "class:engine/adapters/extract.py:Candidate",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/adapters/html_to_markdown.py",
+      "target": "function:engine/adapters/html_to_markdown.py:html_to_markdown",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/adapters/html_to_markdown.py",
+      "target": "function:engine/adapters/html_to_markdown.py:html_to_markdown",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/adapters/html_to_markdown.py",
+      "target": "function:engine/adapters/html_to_markdown.py:url_to_markdown",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/adapters/html_to_markdown.py",
+      "target": "function:engine/adapters/html_to_markdown.py:url_to_markdown",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/adapters/llm.py",
+      "target": "function:engine/adapters/llm.py:_resolve",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/adapters/llm.py",
+      "target": "function:engine/adapters/llm.py:_resolve",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/adapters/llm.py",
+      "target": "function:engine/adapters/llm.py:complete",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/adapters/llm.py",
+      "target": "function:engine/adapters/llm.py:complete",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/adapters/llm.py",
+      "target": "class:engine/adapters/llm.py:LLMConfigError",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/adapters/llm.py",
+      "target": "class:engine/adapters/llm.py:LLMConfigError",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/adapters/llm.py",
+      "target": "class:engine/adapters/llm.py:Provider",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/adapters/llm.py",
+      "target": "class:engine/adapters/llm.py:Provider",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/adapters/answer.py",
+      "target": "file:engine/__init__.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/adapters/answer.py",
+      "target": "file:engine/adapters/__init__.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/adapters/answer.py",
+      "target": "file:engine/adapters/html_to_markdown.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/adapters/answer.py",
+      "target": "file:engine/adapters/llm.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/adapters/answer.py",
+      "target": "file:engine/adapters/pdf_to_text.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/adapters/answer.py",
+      "target": "file:engine/adapters/search.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/adapters/answer.py",
+      "target": "file:engine/cost.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/adapters/extract.py",
+      "target": "file:engine/adapters/__init__.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/adapters/extract.py",
+      "target": "file:engine/adapters/llm.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/adapters/llm.py",
+      "target": "file:engine/__init__.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/adapters/llm.py",
+      "target": "file:engine/cost.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "function:engine/adapters/answer.py:_fetch_full",
+      "target": "function:engine/adapters/answer.py:_relevant_excerpt",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/adapters/answer.py:_fetch_full",
+      "target": "function:engine/adapters/html_to_markdown.py:html_to_markdown",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/adapters/answer.py:_decide",
+      "target": "function:engine/adapters/answer.py:_extract_json",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/adapters/answer.py:_grounded",
+      "target": "function:engine/adapters/answer.py:_norm",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/adapters/answer.py:find_number",
+      "target": "function:engine/adapters/search.py:search",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/adapters/answer.py:find_number",
+      "target": "function:engine/adapters/answer.py:_fetch_full",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/adapters/answer.py:find_number",
+      "target": "function:engine/adapters/answer.py:_decide",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/adapters/answer.py:find_number",
+      "target": "class:engine/adapters/answer.py:Answer",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/adapters/answer.py:find_number",
+      "target": "function:engine/adapters/answer.py:_grounded",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/adapters/extract.py:_build_prompt",
+      "target": "function:engine/adapters/extract.py:_field_list",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/adapters/extract.py:extract_typed",
+      "target": "function:engine/adapters/extract.py:_build_prompt",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/adapters/extract.py:extract_typed",
+      "target": "function:engine/adapters/extract.py:_strip_fences",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/adapters/extract.py:extract_typed",
+      "target": "function:engine/adapters/extract.py:_norm",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/adapters/extract.py:extract_typed",
+      "target": "class:engine/adapters/extract.py:Candidate",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/adapters/html_to_markdown.py:url_to_markdown",
+      "target": "function:engine/adapters/html_to_markdown.py:html_to_markdown",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/adapters/llm.py:_resolve",
+      "target": "class:engine/adapters/llm.py:LLMConfigError",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/adapters/llm.py:complete",
+      "target": "class:engine/adapters/llm.py:LLMConfigError",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/adapters/llm.py:complete",
+      "target": "function:engine/adapters/llm.py:_resolve",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

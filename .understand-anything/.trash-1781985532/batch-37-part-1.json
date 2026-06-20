@@ -1,0 +1,2938 @@
+{
+  "nodes": [
+    {
+      "id": "file:engine/feeds/land_matrix.py",
+      "type": "file",
+      "name": "land_matrix.py",
+      "filePath": "engine/feeds/land_matrix.py",
+      "summary": "land_matrix.py is a code asset in the forecasting engine. It contains 10 functions.",
+      "tags": [
+        "forecasting-engine",
+        "code",
+        "file",
+        "land-matrix"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/feeds/land_matrix.py:_today",
+      "type": "function",
+      "name": "_today",
+      "filePath": "engine/feeds/land_matrix.py",
+      "lineRange": [
+        38,
+        39
+      ],
+      "summary": "Defines _today in land_matrix.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "land-matrix"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/land_matrix.py:_fetch_json",
+      "type": "function",
+      "name": "_fetch_json",
+      "filePath": "engine/feeds/land_matrix.py",
+      "lineRange": [
+        42,
+        48
+      ],
+      "summary": "Defines _fetch_json in land_matrix.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-access",
+        "land-matrix"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/land_matrix.py:_write_jsonl_atomic",
+      "type": "function",
+      "name": "_write_jsonl_atomic",
+      "filePath": "engine/feeds/land_matrix.py",
+      "lineRange": [
+        51,
+        57
+      ],
+      "summary": "Defines _write_jsonl_atomic in land_matrix.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "land-matrix"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/land_matrix.py:_country_map",
+      "type": "function",
+      "name": "_country_map",
+      "filePath": "engine/feeds/land_matrix.py",
+      "lineRange": [
+        60,
+        67
+      ],
+      "summary": "Defines _country_map in land_matrix.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "land-matrix"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/land_matrix.py:_year_end",
+      "type": "function",
+      "name": "_year_end",
+      "filePath": "engine/feeds/land_matrix.py",
+      "lineRange": [
+        70,
+        75
+      ],
+      "summary": "Defines _year_end in land_matrix.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "land-matrix"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/land_matrix.py:_clean_name",
+      "type": "function",
+      "name": "_clean_name",
+      "filePath": "engine/feeds/land_matrix.py",
+      "lineRange": [
+        78,
+        83
+      ],
+      "summary": "Defines _clean_name in land_matrix.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "land-matrix"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/land_matrix.py:_holders",
+      "type": "function",
+      "name": "_holders",
+      "filePath": "engine/feeds/land_matrix.py",
+      "lineRange": [
+        86,
+        106
+      ],
+      "summary": "Defines _holders in land_matrix.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "land-matrix"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/land_matrix.py:_coords",
+      "type": "function",
+      "name": "_coords",
+      "filePath": "engine/feeds/land_matrix.py",
+      "lineRange": [
+        109,
+        115
+      ],
+      "summary": "Defines _coords in land_matrix.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "land-matrix"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/land_matrix.py:_row_from_deal",
+      "type": "function",
+      "name": "_row_from_deal",
+      "filePath": "engine/feeds/land_matrix.py",
+      "lineRange": [
+        118,
+        176
+      ],
+      "summary": "Defines _row_from_deal in land_matrix.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "land-matrix"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/feeds/land_matrix.py:collect",
+      "type": "function",
+      "name": "collect",
+      "filePath": "engine/feeds/land_matrix.py",
+      "lineRange": [
+        179,
+        206
+      ],
+      "summary": "Defines collect in land_matrix.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "land-matrix"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:engine/feeds/land_ownership.py",
+      "type": "file",
+      "name": "land_ownership.py",
+      "filePath": "engine/feeds/land_ownership.py",
+      "summary": "land_ownership.py is a code asset in the forecasting engine. It contains 16 functions.",
+      "tags": [
+        "forecasting-engine",
+        "code",
+        "file",
+        "land-ownership"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:engine/feeds/land_ownership.py:_fetch_bytes",
+      "type": "function",
+      "name": "_fetch_bytes",
+      "filePath": "engine/feeds/land_ownership.py",
+      "lineRange": [
+        98,
+        109
+      ],
+      "summary": "Defines _fetch_bytes in land_ownership.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-access",
+        "land-ownership"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/land_ownership.py:_to_float",
+      "type": "function",
+      "name": "_to_float",
+      "filePath": "engine/feeds/land_ownership.py",
+      "lineRange": [
+        112,
+        121
+      ],
+      "summary": "Defines _to_float in land_ownership.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "land-ownership"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/land_ownership.py:_existing_line_count",
+      "type": "function",
+      "name": "_existing_line_count",
+      "filePath": "engine/feeds/land_ownership.py",
+      "lineRange": [
+        124,
+        128
+      ],
+      "summary": "Defines _existing_line_count in land_ownership.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "land-ownership"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/land_ownership.py:_write_jsonl_atomic",
+      "type": "function",
+      "name": "_write_jsonl_atomic",
+      "filePath": "engine/feeds/land_ownership.py",
+      "lineRange": [
+        131,
+        137
+      ],
+      "summary": "Defines _write_jsonl_atomic in land_ownership.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "land-ownership"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/land_ownership.py:_slug",
+      "type": "function",
+      "name": "_slug",
+      "filePath": "engine/feeds/land_ownership.py",
+      "lineRange": [
+        140,
+        141
+      ],
+      "summary": "Defines _slug in land_ownership.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "land-ownership"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/land_ownership.py:collect_faostat_landuse",
+      "type": "function",
+      "name": "collect_faostat_landuse",
+      "filePath": "engine/feeds/land_ownership.py",
+      "lineRange": [
+        160,
+        206
+      ],
+      "summary": "Defines collect_faostat_landuse in land_ownership.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "land-ownership"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/land_ownership.py:fetch_wb_series",
+      "type": "function",
+      "name": "fetch_wb_series",
+      "filePath": "engine/feeds/land_ownership.py",
+      "lineRange": [
+        235,
+        247
+      ],
+      "summary": "Defines fetch_wb_series in land_ownership.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-access",
+        "land-ownership"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/land_ownership.py:collect_world_bank",
+      "type": "function",
+      "name": "collect_world_bank",
+      "filePath": "engine/feeds/land_ownership.py",
+      "lineRange": [
+        250,
+        275
+      ],
+      "summary": "Defines collect_world_bank in land_ownership.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "land-ownership"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/land_ownership.py:collect_owid_longrun",
+      "type": "function",
+      "name": "collect_owid_longrun",
+      "filePath": "engine/feeds/land_ownership.py",
+      "lineRange": [
+        289,
+        328
+      ],
+      "summary": "Defines collect_owid_longrun in land_ownership.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entry-point",
+        "land-ownership"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/land_ownership.py:_resolve_sciencebase_file",
+      "type": "function",
+      "name": "_resolve_sciencebase_file",
+      "filePath": "engine/feeds/land_ownership.py",
+      "lineRange": [
+        338,
+        349
+      ],
+      "summary": "Defines _resolve_sciencebase_file in land_ownership.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "land-ownership"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/land_ownership.py:collect_padus_federal",
+      "type": "function",
+      "name": "collect_padus_federal",
+      "filePath": "engine/feeds/land_ownership.py",
+      "lineRange": [
+        352,
+        419
+      ],
+      "summary": "Defines collect_padus_federal in land_ownership.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "land-ownership"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/feeds/land_ownership.py:_extract_object",
+      "type": "function",
+      "name": "_extract_object",
+      "filePath": "engine/feeds/land_ownership.py",
+      "lineRange": [
+        435,
+        460
+      ],
+      "summary": "Defines _extract_object in land_ownership.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "land-ownership"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/land_ownership.py:_iter_feature_props",
+      "type": "function",
+      "name": "_iter_feature_props",
+      "filePath": "engine/feeds/land_ownership.py",
+      "lineRange": [
+        463,
+        496
+      ],
+      "summary": "Defines _iter_feature_props in land_ownership.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "land-ownership"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/land_ownership.py:_clean_holder",
+      "type": "function",
+      "name": "_clean_holder",
+      "filePath": "engine/feeds/land_ownership.py",
+      "lineRange": [
+        499,
+        502
+      ],
+      "summary": "Defines _clean_holder in land_ownership.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "land-ownership"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/land_ownership.py:collect_mining_concentration",
+      "type": "function",
+      "name": "collect_mining_concentration",
+      "filePath": "engine/feeds/land_ownership.py",
+      "lineRange": [
+        505,
+        561
+      ],
+      "summary": "Defines collect_mining_concentration in land_ownership.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "land-ownership"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/feeds/land_ownership.py:collect",
+      "type": "function",
+      "name": "collect",
+      "filePath": "engine/feeds/land_ownership.py",
+      "lineRange": [
+        566,
+        596
+      ],
+      "summary": "Defines collect in land_ownership.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "land-ownership"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:engine/feeds/lbnl_queue.py",
+      "type": "file",
+      "name": "lbnl_queue.py",
+      "filePath": "engine/feeds/lbnl_queue.py",
+      "summary": "lbnl_queue.py is a code asset in the forecasting engine. It contains 29 functions.",
+      "tags": [
+        "forecasting-engine",
+        "code",
+        "file",
+        "lbnl-queue"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:engine/feeds/lbnl_queue.py:_fetch_bytes",
+      "type": "function",
+      "name": "_fetch_bytes",
+      "filePath": "engine/feeds/lbnl_queue.py",
+      "lineRange": [
+        85,
+        96
+      ],
+      "summary": "Defines _fetch_bytes in lbnl_queue.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-access",
+        "lbnl-queue"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/lbnl_queue.py:_col_to_idx",
+      "type": "function",
+      "name": "_col_to_idx",
+      "filePath": "engine/feeds/lbnl_queue.py",
+      "lineRange": [
+        109,
+        116
+      ],
+      "summary": "Defines _col_to_idx in lbnl_queue.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "lbnl-queue"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/lbnl_queue.py:_shared_strings",
+      "type": "function",
+      "name": "_shared_strings",
+      "filePath": "engine/feeds/lbnl_queue.py",
+      "lineRange": [
+        119,
+        127
+      ],
+      "summary": "Defines _shared_strings in lbnl_queue.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "lbnl-queue"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/lbnl_queue.py:_sheet_targets",
+      "type": "function",
+      "name": "_sheet_targets",
+      "filePath": "engine/feeds/lbnl_queue.py",
+      "lineRange": [
+        130,
+        145
+      ],
+      "summary": "Defines _sheet_targets in lbnl_queue.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "lbnl-queue"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/lbnl_queue.py:_read_sheet_rows",
+      "type": "function",
+      "name": "_read_sheet_rows",
+      "filePath": "engine/feeds/lbnl_queue.py",
+      "lineRange": [
+        148,
+        182
+      ],
+      "summary": "Defines _read_sheet_rows in lbnl_queue.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "lbnl-queue"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/lbnl_queue.py:_num",
+      "type": "function",
+      "name": "_num",
+      "filePath": "engine/feeds/lbnl_queue.py",
+      "lineRange": [
+        186,
+        198
+      ],
+      "summary": "Defines _num in lbnl_queue.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "lbnl-queue"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/lbnl_queue.py:_year",
+      "type": "function",
+      "name": "_year",
+      "filePath": "engine/feeds/lbnl_queue.py",
+      "lineRange": [
+        201,
+        207
+      ],
+      "summary": "Defines _year in lbnl_queue.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "lbnl-queue"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/lbnl_queue.py:_slug",
+      "type": "function",
+      "name": "_slug",
+      "filePath": "engine/feeds/lbnl_queue.py",
+      "lineRange": [
+        210,
+        221
+      ],
+      "summary": "Defines _slug in lbnl_queue.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "lbnl-queue"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/lbnl_queue.py:_clean_label",
+      "type": "function",
+      "name": "_clean_label",
+      "filePath": "engine/feeds/lbnl_queue.py",
+      "lineRange": [
+        224,
+        226
+      ],
+      "summary": "Defines _clean_label in lbnl_queue.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "lbnl-queue"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/lbnl_queue.py:_dec31",
+      "type": "function",
+      "name": "_dec31",
+      "filePath": "engine/feeds/lbnl_queue.py",
+      "lineRange": [
+        229,
+        230
+      ],
+      "summary": "Defines _dec31 in lbnl_queue.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "lbnl-queue"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/lbnl_queue.py:_find_header",
+      "type": "function",
+      "name": "_find_header",
+      "filePath": "engine/feeds/lbnl_queue.py",
+      "lineRange": [
+        233,
+        241
+      ],
+      "summary": "Defines _find_header in lbnl_queue.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "lbnl-queue"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/lbnl_queue.py:_col_index",
+      "type": "function",
+      "name": "_col_index",
+      "filePath": "engine/feeds/lbnl_queue.py",
+      "lineRange": [
+        244,
+        249
+      ],
+      "summary": "Defines _col_index in lbnl_queue.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "lbnl-queue"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/lbnl_queue.py:_emit",
+      "type": "function",
+      "name": "_emit",
+      "filePath": "engine/feeds/lbnl_queue.py",
+      "lineRange": [
+        256,
+        272
+      ],
+      "summary": "Defines _emit in lbnl_queue.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "lbnl-queue"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/lbnl_queue.py:parse_annual_requests",
+      "type": "function",
+      "name": "parse_annual_requests",
+      "filePath": "engine/feeds/lbnl_queue.py",
+      "lineRange": [
+        275,
+        294
+      ],
+      "summary": "Defines parse_annual_requests in lbnl_queue.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "data-access",
+        "lbnl-queue"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/lbnl_queue.py:parse_active_by_cohort",
+      "type": "function",
+      "name": "parse_active_by_cohort",
+      "filePath": "engine/feeds/lbnl_queue.py",
+      "lineRange": [
+        297,
+        316
+      ],
+      "summary": "Defines parse_active_by_cohort in lbnl_queue.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "lbnl-queue"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/lbnl_queue.py:parse_active_by_type",
+      "type": "function",
+      "name": "parse_active_by_type",
+      "filePath": "engine/feeds/lbnl_queue.py",
+      "lineRange": [
+        319,
+        335
+      ],
+      "summary": "Defines parse_active_by_type in lbnl_queue.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "lbnl-queue"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/lbnl_queue.py:parse_active_region_type",
+      "type": "function",
+      "name": "parse_active_region_type",
+      "filePath": "engine/feeds/lbnl_queue.py",
+      "lineRange": [
+        338,
+        354
+      ],
+      "summary": "Defines parse_active_region_type in lbnl_queue.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "lbnl-queue"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/lbnl_queue.py:parse_queues_vs_installed",
+      "type": "function",
+      "name": "parse_queues_vs_installed",
+      "filePath": "engine/feeds/lbnl_queue.py",
+      "lineRange": [
+        357,
+        373
+      ],
+      "summary": "Defines parse_queues_vs_installed in lbnl_queue.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "lbnl-queue"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/lbnl_queue.py:parse_ia_throughput",
+      "type": "function",
+      "name": "parse_ia_throughput",
+      "filePath": "engine/feeds/lbnl_queue.py",
+      "lineRange": [
+        376,
+        397
+      ],
+      "summary": "Defines parse_ia_throughput in lbnl_queue.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "lbnl-queue"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/lbnl_queue.py:parse_operational_trend",
+      "type": "function",
+      "name": "parse_operational_trend",
+      "filePath": "engine/feeds/lbnl_queue.py",
+      "lineRange": [
+        400,
+        433
+      ],
+      "summary": "Defines parse_operational_trend in lbnl_queue.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "lbnl-queue"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/lbnl_queue.py:parse_withdrawn_trend",
+      "type": "function",
+      "name": "parse_withdrawn_trend",
+      "filePath": "engine/feeds/lbnl_queue.py",
+      "lineRange": [
+        436,
+        455
+      ],
+      "summary": "Defines parse_withdrawn_trend in lbnl_queue.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "lbnl-queue"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/lbnl_queue.py:parse_completion_trend",
+      "type": "function",
+      "name": "parse_completion_trend",
+      "filePath": "engine/feeds/lbnl_queue.py",
+      "lineRange": [
+        461,
+        500
+      ],
+      "summary": "Defines parse_completion_trend in lbnl_queue.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "lbnl-queue"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/lbnl_queue.py:_col_index_after",
+      "type": "function",
+      "name": "_col_index_after",
+      "filePath": "engine/feeds/lbnl_queue.py",
+      "lineRange": [
+        503,
+        510
+      ],
+      "summary": "Defines _col_index_after in lbnl_queue.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "lbnl-queue"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/lbnl_queue.py:_parse_status_by_dim",
+      "type": "function",
+      "name": "_parse_status_by_dim",
+      "filePath": "engine/feeds/lbnl_queue.py",
+      "lineRange": [
+        513,
+        553
+      ],
+      "summary": "Defines _parse_status_by_dim in lbnl_queue.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "lbnl-queue"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/lbnl_queue.py:parse_completion_by_type",
+      "type": "function",
+      "name": "parse_completion_by_type",
+      "filePath": "engine/feeds/lbnl_queue.py",
+      "lineRange": [
+        556,
+        558
+      ],
+      "summary": "Defines parse_completion_by_type in lbnl_queue.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "lbnl-queue"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/lbnl_queue.py:parse_completion_by_region",
+      "type": "function",
+      "name": "parse_completion_by_region",
+      "filePath": "engine/feeds/lbnl_queue.py",
+      "lineRange": [
+        561,
+        563
+      ],
+      "summary": "Defines parse_completion_by_region in lbnl_queue.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "lbnl-queue"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/lbnl_queue.py:parse_time_in_queue",
+      "type": "function",
+      "name": "parse_time_in_queue",
+      "filePath": "engine/feeds/lbnl_queue.py",
+      "lineRange": [
+        566,
+        602
+      ],
+      "summary": "Defines parse_time_in_queue in lbnl_queue.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "lbnl-queue"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/lbnl_queue.py:_write_jsonl_atomic",
+      "type": "function",
+      "name": "_write_jsonl_atomic",
+      "filePath": "engine/feeds/lbnl_queue.py",
+      "lineRange": [
+        622,
+        628
+      ],
+      "summary": "Defines _write_jsonl_atomic in lbnl_queue.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "lbnl-queue"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/lbnl_queue.py:collect",
+      "type": "function",
+      "name": "collect",
+      "filePath": "engine/feeds/lbnl_queue.py",
+      "lineRange": [
+        631,
+        677
+      ],
+      "summary": "Defines collect in lbnl_queue.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "lbnl-queue"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:engine/feeds/mining_rights_global.py",
+      "type": "file",
+      "name": "mining_rights_global.py",
+      "filePath": "engine/feeds/mining_rights_global.py",
+      "summary": "mining_rights_global.py is a code asset in the forecasting engine. It contains 7 functions.",
+      "tags": [
+        "forecasting-engine",
+        "code",
+        "file",
+        "mining-rights-global"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:engine/feeds/mining_rights_global.py:_ensure_ijson",
+      "type": "function",
+      "name": "_ensure_ijson",
+      "filePath": "engine/feeds/mining_rights_global.py",
+      "lineRange": [
+        98,
+        103
+      ],
+      "summary": "Defines _ensure_ijson in mining_rights_global.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "mining-rights-global"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/mining_rights_global.py:_norm_str",
+      "type": "function",
+      "name": "_norm_str",
+      "filePath": "engine/feeds/mining_rights_global.py",
+      "lineRange": [
+        106,
+        109
+      ],
+      "summary": "Defines _norm_str in mining_rights_global.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "mining-rights-global"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/mining_rights_global.py:_canon_phase",
+      "type": "function",
+      "name": "_canon_phase",
+      "filePath": "engine/feeds/mining_rights_global.py",
+      "lineRange": [
+        112,
+        114
+      ],
+      "summary": "Defines _canon_phase in mining_rights_global.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "mining-rights-global"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/mining_rights_global.py:_grant_year",
+      "type": "function",
+      "name": "_grant_year",
+      "filePath": "engine/feeds/mining_rights_global.py",
+      "lineRange": [
+        117,
+        123
+      ],
+      "summary": "Defines _grant_year in mining_rights_global.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "mining-rights-global"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/mining_rights_global.py:_commodities",
+      "type": "function",
+      "name": "_commodities",
+      "filePath": "engine/feeds/mining_rights_global.py",
+      "lineRange": [
+        126,
+        141
+      ],
+      "summary": "Defines _commodities in mining_rights_global.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "mining-rights-global"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/mining_rights_global.py:_country_code",
+      "type": "function",
+      "name": "_country_code",
+      "filePath": "engine/feeds/mining_rights_global.py",
+      "lineRange": [
+        144,
+        150
+      ],
+      "summary": "Defines _country_code in mining_rights_global.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "mining-rights-global"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/mining_rights_global.py:collect",
+      "type": "function",
+      "name": "collect",
+      "filePath": "engine/feeds/mining_rights_global.py",
+      "lineRange": [
+        153,
+        248
+      ],
+      "summary": "Defines collect in mining_rights_global.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "mining-rights-global"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:engine/feeds/oecd.py",
+      "type": "file",
+      "name": "oecd.py",
+      "filePath": "engine/feeds/oecd.py",
+      "summary": "oecd.py is a code asset in the forecasting engine. It contains 5 functions.",
+      "tags": [
+        "forecasting-engine",
+        "code",
+        "file",
+        "oecd"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/feeds/oecd.py:_build_url",
+      "type": "function",
+      "name": "_build_url",
+      "filePath": "engine/feeds/oecd.py",
+      "lineRange": [
+        66,
+        68
+      ],
+      "summary": "Defines _build_url in oecd.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "oecd"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/oecd.py:_fetch_json",
+      "type": "function",
+      "name": "_fetch_json",
+      "filePath": "engine/feeds/oecd.py",
+      "lineRange": [
+        71,
+        90
+      ],
+      "summary": "Defines _fetch_json in oecd.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-access",
+        "oecd"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/oecd.py:_period_to_date",
+      "type": "function",
+      "name": "_period_to_date",
+      "filePath": "engine/feeds/oecd.py",
+      "lineRange": [
+        93,
+        107
+      ],
+      "summary": "Defines _period_to_date in oecd.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "oecd"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/oecd.py:normalize",
+      "type": "function",
+      "name": "normalize",
+      "filePath": "engine/feeds/oecd.py",
+      "lineRange": [
+        110,
+        168
+      ],
+      "summary": "Defines normalize in oecd.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "oecd"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/feeds/oecd.py:collect",
+      "type": "function",
+      "name": "collect",
+      "filePath": "engine/feeds/oecd.py",
+      "lineRange": [
+        171,
+        196
+      ],
+      "summary": "Defines collect in oecd.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "oecd"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:engine/feeds/land_matrix.py",
+      "target": "function:engine/feeds/land_matrix.py:_today",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/land_matrix.py",
+      "target": "function:engine/feeds/land_matrix.py:_today",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/land_matrix.py",
+      "target": "function:engine/feeds/land_matrix.py:_fetch_json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/land_matrix.py",
+      "target": "function:engine/feeds/land_matrix.py:_fetch_json",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/land_matrix.py",
+      "target": "function:engine/feeds/land_matrix.py:_write_jsonl_atomic",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/land_matrix.py",
+      "target": "function:engine/feeds/land_matrix.py:_write_jsonl_atomic",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/land_matrix.py",
+      "target": "function:engine/feeds/land_matrix.py:_country_map",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/land_matrix.py",
+      "target": "function:engine/feeds/land_matrix.py:_country_map",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/land_matrix.py",
+      "target": "function:engine/feeds/land_matrix.py:_year_end",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/land_matrix.py",
+      "target": "function:engine/feeds/land_matrix.py:_year_end",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/land_matrix.py",
+      "target": "function:engine/feeds/land_matrix.py:_clean_name",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/land_matrix.py",
+      "target": "function:engine/feeds/land_matrix.py:_clean_name",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/land_matrix.py",
+      "target": "function:engine/feeds/land_matrix.py:_holders",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/land_matrix.py",
+      "target": "function:engine/feeds/land_matrix.py:_holders",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/land_matrix.py",
+      "target": "function:engine/feeds/land_matrix.py:_coords",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/land_matrix.py",
+      "target": "function:engine/feeds/land_matrix.py:_coords",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/land_matrix.py",
+      "target": "function:engine/feeds/land_matrix.py:_row_from_deal",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/land_matrix.py",
+      "target": "function:engine/feeds/land_matrix.py:_row_from_deal",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/land_matrix.py",
+      "target": "function:engine/feeds/land_matrix.py:collect",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/land_matrix.py",
+      "target": "function:engine/feeds/land_matrix.py:collect",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/land_ownership.py",
+      "target": "function:engine/feeds/land_ownership.py:_fetch_bytes",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/land_ownership.py",
+      "target": "function:engine/feeds/land_ownership.py:_fetch_bytes",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/land_ownership.py",
+      "target": "function:engine/feeds/land_ownership.py:_to_float",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/land_ownership.py",
+      "target": "function:engine/feeds/land_ownership.py:_to_float",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/land_ownership.py",
+      "target": "function:engine/feeds/land_ownership.py:_existing_line_count",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/land_ownership.py",
+      "target": "function:engine/feeds/land_ownership.py:_existing_line_count",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/land_ownership.py",
+      "target": "function:engine/feeds/land_ownership.py:_write_jsonl_atomic",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/land_ownership.py",
+      "target": "function:engine/feeds/land_ownership.py:_write_jsonl_atomic",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/land_ownership.py",
+      "target": "function:engine/feeds/land_ownership.py:_slug",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/land_ownership.py",
+      "target": "function:engine/feeds/land_ownership.py:_slug",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/land_ownership.py",
+      "target": "function:engine/feeds/land_ownership.py:collect_faostat_landuse",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/land_ownership.py",
+      "target": "function:engine/feeds/land_ownership.py:collect_faostat_landuse",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/land_ownership.py",
+      "target": "function:engine/feeds/land_ownership.py:fetch_wb_series",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/land_ownership.py",
+      "target": "function:engine/feeds/land_ownership.py:fetch_wb_series",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/land_ownership.py",
+      "target": "function:engine/feeds/land_ownership.py:collect_world_bank",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/land_ownership.py",
+      "target": "function:engine/feeds/land_ownership.py:collect_world_bank",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/land_ownership.py",
+      "target": "function:engine/feeds/land_ownership.py:collect_owid_longrun",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/land_ownership.py",
+      "target": "function:engine/feeds/land_ownership.py:collect_owid_longrun",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/land_ownership.py",
+      "target": "function:engine/feeds/land_ownership.py:_resolve_sciencebase_file",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/land_ownership.py",
+      "target": "function:engine/feeds/land_ownership.py:_resolve_sciencebase_file",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/land_ownership.py",
+      "target": "function:engine/feeds/land_ownership.py:collect_padus_federal",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/land_ownership.py",
+      "target": "function:engine/feeds/land_ownership.py:collect_padus_federal",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/land_ownership.py",
+      "target": "function:engine/feeds/land_ownership.py:_extract_object",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/land_ownership.py",
+      "target": "function:engine/feeds/land_ownership.py:_extract_object",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/land_ownership.py",
+      "target": "function:engine/feeds/land_ownership.py:_iter_feature_props",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/land_ownership.py",
+      "target": "function:engine/feeds/land_ownership.py:_iter_feature_props",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/land_ownership.py",
+      "target": "function:engine/feeds/land_ownership.py:_clean_holder",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/land_ownership.py",
+      "target": "function:engine/feeds/land_ownership.py:_clean_holder",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/land_ownership.py",
+      "target": "function:engine/feeds/land_ownership.py:collect_mining_concentration",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/land_ownership.py",
+      "target": "function:engine/feeds/land_ownership.py:collect_mining_concentration",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/land_ownership.py",
+      "target": "function:engine/feeds/land_ownership.py:collect",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/land_ownership.py",
+      "target": "function:engine/feeds/land_ownership.py:collect",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/lbnl_queue.py",
+      "target": "function:engine/feeds/lbnl_queue.py:_fetch_bytes",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/lbnl_queue.py",
+      "target": "function:engine/feeds/lbnl_queue.py:_fetch_bytes",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/lbnl_queue.py",
+      "target": "function:engine/feeds/lbnl_queue.py:_col_to_idx",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/lbnl_queue.py",
+      "target": "function:engine/feeds/lbnl_queue.py:_col_to_idx",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/lbnl_queue.py",
+      "target": "function:engine/feeds/lbnl_queue.py:_shared_strings",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/lbnl_queue.py",
+      "target": "function:engine/feeds/lbnl_queue.py:_shared_strings",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/lbnl_queue.py",
+      "target": "function:engine/feeds/lbnl_queue.py:_sheet_targets",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/lbnl_queue.py",
+      "target": "function:engine/feeds/lbnl_queue.py:_sheet_targets",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/lbnl_queue.py",
+      "target": "function:engine/feeds/lbnl_queue.py:_read_sheet_rows",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/lbnl_queue.py",
+      "target": "function:engine/feeds/lbnl_queue.py:_read_sheet_rows",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/lbnl_queue.py",
+      "target": "function:engine/feeds/lbnl_queue.py:_num",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/lbnl_queue.py",
+      "target": "function:engine/feeds/lbnl_queue.py:_num",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/lbnl_queue.py",
+      "target": "function:engine/feeds/lbnl_queue.py:_year",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/lbnl_queue.py",
+      "target": "function:engine/feeds/lbnl_queue.py:_year",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/lbnl_queue.py",
+      "target": "function:engine/feeds/lbnl_queue.py:_slug",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/lbnl_queue.py",
+      "target": "function:engine/feeds/lbnl_queue.py:_slug",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/lbnl_queue.py",
+      "target": "function:engine/feeds/lbnl_queue.py:_clean_label",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/lbnl_queue.py",
+      "target": "function:engine/feeds/lbnl_queue.py:_clean_label",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/lbnl_queue.py",
+      "target": "function:engine/feeds/lbnl_queue.py:_dec31",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/lbnl_queue.py",
+      "target": "function:engine/feeds/lbnl_queue.py:_dec31",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/lbnl_queue.py",
+      "target": "function:engine/feeds/lbnl_queue.py:_find_header",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/lbnl_queue.py",
+      "target": "function:engine/feeds/lbnl_queue.py:_find_header",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/lbnl_queue.py",
+      "target": "function:engine/feeds/lbnl_queue.py:_col_index",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/lbnl_queue.py",
+      "target": "function:engine/feeds/lbnl_queue.py:_col_index",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/lbnl_queue.py",
+      "target": "function:engine/feeds/lbnl_queue.py:_emit",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/lbnl_queue.py",
+      "target": "function:engine/feeds/lbnl_queue.py:_emit",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/lbnl_queue.py",
+      "target": "function:engine/feeds/lbnl_queue.py:parse_annual_requests",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/lbnl_queue.py",
+      "target": "function:engine/feeds/lbnl_queue.py:parse_annual_requests",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/lbnl_queue.py",
+      "target": "function:engine/feeds/lbnl_queue.py:parse_active_by_cohort",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/lbnl_queue.py",
+      "target": "function:engine/feeds/lbnl_queue.py:parse_active_by_cohort",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/lbnl_queue.py",
+      "target": "function:engine/feeds/lbnl_queue.py:parse_active_by_type",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/lbnl_queue.py",
+      "target": "function:engine/feeds/lbnl_queue.py:parse_active_by_type",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/lbnl_queue.py",
+      "target": "function:engine/feeds/lbnl_queue.py:parse_active_region_type",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/lbnl_queue.py",
+      "target": "function:engine/feeds/lbnl_queue.py:parse_active_region_type",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/lbnl_queue.py",
+      "target": "function:engine/feeds/lbnl_queue.py:parse_queues_vs_installed",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/lbnl_queue.py",
+      "target": "function:engine/feeds/lbnl_queue.py:parse_queues_vs_installed",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/lbnl_queue.py",
+      "target": "function:engine/feeds/lbnl_queue.py:parse_ia_throughput",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/lbnl_queue.py",
+      "target": "function:engine/feeds/lbnl_queue.py:parse_ia_throughput",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/lbnl_queue.py",
+      "target": "function:engine/feeds/lbnl_queue.py:parse_operational_trend",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/lbnl_queue.py",
+      "target": "function:engine/feeds/lbnl_queue.py:parse_operational_trend",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/lbnl_queue.py",
+      "target": "function:engine/feeds/lbnl_queue.py:parse_withdrawn_trend",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/lbnl_queue.py",
+      "target": "function:engine/feeds/lbnl_queue.py:parse_withdrawn_trend",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/lbnl_queue.py",
+      "target": "function:engine/feeds/lbnl_queue.py:parse_completion_trend",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/lbnl_queue.py",
+      "target": "function:engine/feeds/lbnl_queue.py:parse_completion_trend",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/lbnl_queue.py",
+      "target": "function:engine/feeds/lbnl_queue.py:_col_index_after",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/lbnl_queue.py",
+      "target": "function:engine/feeds/lbnl_queue.py:_col_index_after",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/lbnl_queue.py",
+      "target": "function:engine/feeds/lbnl_queue.py:_parse_status_by_dim",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/lbnl_queue.py",
+      "target": "function:engine/feeds/lbnl_queue.py:_parse_status_by_dim",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/lbnl_queue.py",
+      "target": "function:engine/feeds/lbnl_queue.py:parse_completion_by_type",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/lbnl_queue.py",
+      "target": "function:engine/feeds/lbnl_queue.py:parse_completion_by_type",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/lbnl_queue.py",
+      "target": "function:engine/feeds/lbnl_queue.py:parse_completion_by_region",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/lbnl_queue.py",
+      "target": "function:engine/feeds/lbnl_queue.py:parse_completion_by_region",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/lbnl_queue.py",
+      "target": "function:engine/feeds/lbnl_queue.py:parse_time_in_queue",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/lbnl_queue.py",
+      "target": "function:engine/feeds/lbnl_queue.py:parse_time_in_queue",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/lbnl_queue.py",
+      "target": "function:engine/feeds/lbnl_queue.py:_write_jsonl_atomic",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/lbnl_queue.py",
+      "target": "function:engine/feeds/lbnl_queue.py:_write_jsonl_atomic",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/lbnl_queue.py",
+      "target": "function:engine/feeds/lbnl_queue.py:collect",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/lbnl_queue.py",
+      "target": "function:engine/feeds/lbnl_queue.py:collect",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/mining_rights_global.py",
+      "target": "function:engine/feeds/mining_rights_global.py:_ensure_ijson",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/mining_rights_global.py",
+      "target": "function:engine/feeds/mining_rights_global.py:_ensure_ijson",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/mining_rights_global.py",
+      "target": "function:engine/feeds/mining_rights_global.py:_norm_str",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/mining_rights_global.py",
+      "target": "function:engine/feeds/mining_rights_global.py:_norm_str",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/mining_rights_global.py",
+      "target": "function:engine/feeds/mining_rights_global.py:_canon_phase",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/mining_rights_global.py",
+      "target": "function:engine/feeds/mining_rights_global.py:_canon_phase",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/mining_rights_global.py",
+      "target": "function:engine/feeds/mining_rights_global.py:_grant_year",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/mining_rights_global.py",
+      "target": "function:engine/feeds/mining_rights_global.py:_grant_year",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/mining_rights_global.py",
+      "target": "function:engine/feeds/mining_rights_global.py:_commodities",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/mining_rights_global.py",
+      "target": "function:engine/feeds/mining_rights_global.py:_commodities",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/mining_rights_global.py",
+      "target": "function:engine/feeds/mining_rights_global.py:_country_code",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/mining_rights_global.py",
+      "target": "function:engine/feeds/mining_rights_global.py:_country_code",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/mining_rights_global.py",
+      "target": "function:engine/feeds/mining_rights_global.py:collect",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/mining_rights_global.py",
+      "target": "function:engine/feeds/mining_rights_global.py:collect",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/oecd.py",
+      "target": "function:engine/feeds/oecd.py:_build_url",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/oecd.py",
+      "target": "function:engine/feeds/oecd.py:_build_url",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/oecd.py",
+      "target": "function:engine/feeds/oecd.py:_fetch_json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/oecd.py",
+      "target": "function:engine/feeds/oecd.py:_fetch_json",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/oecd.py",
+      "target": "function:engine/feeds/oecd.py:_period_to_date",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/oecd.py",
+      "target": "function:engine/feeds/oecd.py:_period_to_date",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/oecd.py",
+      "target": "function:engine/feeds/oecd.py:normalize",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/oecd.py",
+      "target": "function:engine/feeds/oecd.py:normalize",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/oecd.py",
+      "target": "function:engine/feeds/oecd.py:collect",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/oecd.py",
+      "target": "function:engine/feeds/oecd.py:collect",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/land_matrix.py:_country_map",
+      "target": "function:engine/feeds/land_matrix.py:_fetch_json",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/land_matrix.py:_holders",
+      "target": "function:engine/feeds/land_matrix.py:_clean_name",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/land_matrix.py:_row_from_deal",
+      "target": "function:engine/feeds/land_matrix.py:_holders",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/land_matrix.py:_row_from_deal",
+      "target": "function:engine/feeds/land_matrix.py:_year_end",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/land_matrix.py:_row_from_deal",
+      "target": "function:engine/feeds/land_matrix.py:_today",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/land_matrix.py:_row_from_deal",
+      "target": "function:engine/feeds/land_matrix.py:_coords",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/land_matrix.py:collect",
+      "target": "function:engine/feeds/land_matrix.py:_country_map",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/land_matrix.py:collect",
+      "target": "function:engine/feeds/land_matrix.py:_fetch_json",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/land_matrix.py:collect",
+      "target": "function:engine/feeds/land_matrix.py:_row_from_deal",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/land_matrix.py:collect",
+      "target": "function:engine/feeds/land_matrix.py:_write_jsonl_atomic",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/land_ownership.py:collect_faostat_landuse",
+      "target": "function:engine/feeds/land_ownership.py:_fetch_bytes",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/land_ownership.py:collect_faostat_landuse",
+      "target": "function:engine/feeds/land_ownership.py:_to_float",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/land_ownership.py:fetch_wb_series",
+      "target": "function:engine/feeds/land_ownership.py:_fetch_bytes",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/land_ownership.py:collect_world_bank",
+      "target": "function:engine/feeds/land_ownership.py:fetch_wb_series",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/land_ownership.py:collect_world_bank",
+      "target": "function:engine/feeds/land_ownership.py:_to_float",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/land_ownership.py:collect_owid_longrun",
+      "target": "function:engine/feeds/land_ownership.py:_fetch_bytes",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/land_ownership.py:collect_owid_longrun",
+      "target": "function:engine/feeds/land_ownership.py:_to_float",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/land_ownership.py:collect_owid_longrun",
+      "target": "function:engine/feeds/land_ownership.py:_slug",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/land_ownership.py:_resolve_sciencebase_file",
+      "target": "function:engine/feeds/land_ownership.py:_fetch_bytes",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/land_ownership.py:collect_padus_federal",
+      "target": "function:engine/feeds/land_ownership.py:_resolve_sciencebase_file",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/land_ownership.py:collect_padus_federal",
+      "target": "function:engine/feeds/land_ownership.py:_fetch_bytes",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/land_ownership.py:collect_padus_federal",
+      "target": "function:engine/feeds/land_ownership.py:_to_float",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/land_ownership.py:collect_padus_federal",
+      "target": "function:engine/feeds/land_ownership.py:_slug",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/land_ownership.py:_iter_feature_props",
+      "target": "function:engine/feeds/land_ownership.py:_extract_object",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/land_ownership.py:collect_mining_concentration",
+      "target": "function:engine/feeds/land_ownership.py:_iter_feature_props",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/land_ownership.py:collect_mining_concentration",
+      "target": "function:engine/feeds/land_ownership.py:_to_float",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/land_ownership.py:collect_mining_concentration",
+      "target": "function:engine/feeds/land_ownership.py:_clean_holder",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/land_ownership.py:collect_mining_concentration",
+      "target": "function:engine/feeds/land_ownership.py:_slug",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/land_ownership.py:collect",
+      "target": "function:engine/feeds/land_ownership.py:collect_faostat_landuse",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/land_ownership.py:collect",
+      "target": "function:engine/feeds/land_ownership.py:collect_world_bank",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/land_ownership.py:collect",
+      "target": "function:engine/feeds/land_ownership.py:collect_owid_longrun",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/land_ownership.py:collect",
+      "target": "function:engine/feeds/land_ownership.py:collect_padus_federal",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/land_ownership.py:collect",
+      "target": "function:engine/feeds/land_ownership.py:collect_mining_concentration",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/land_ownership.py:collect",
+      "target": "function:engine/feeds/land_ownership.py:_existing_line_count",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/land_ownership.py:collect",
+      "target": "function:engine/feeds/land_ownership.py:_write_jsonl_atomic",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/lbnl_queue.py:_read_sheet_rows",
+      "target": "function:engine/feeds/lbnl_queue.py:_col_to_idx",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/lbnl_queue.py:_year",
+      "target": "function:engine/feeds/lbnl_queue.py:_num",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/lbnl_queue.py:_emit",
+      "target": "function:engine/feeds/lbnl_queue.py:_dec31",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/lbnl_queue.py:parse_annual_requests",
+      "target": "function:engine/feeds/lbnl_queue.py:_find_header",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/lbnl_queue.py:parse_annual_requests",
+      "target": "function:engine/feeds/lbnl_queue.py:_year",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/lbnl_queue.py:parse_annual_requests",
+      "target": "function:engine/feeds/lbnl_queue.py:_num",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/lbnl_queue.py:parse_annual_requests",
+      "target": "function:engine/feeds/lbnl_queue.py:_emit",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/lbnl_queue.py:parse_active_by_cohort",
+      "target": "function:engine/feeds/lbnl_queue.py:_find_header",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/lbnl_queue.py:parse_active_by_cohort",
+      "target": "function:engine/feeds/lbnl_queue.py:_year",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/lbnl_queue.py:parse_active_by_cohort",
+      "target": "function:engine/feeds/lbnl_queue.py:_num",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/lbnl_queue.py:parse_active_by_cohort",
+      "target": "function:engine/feeds/lbnl_queue.py:_emit",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/lbnl_queue.py:parse_active_by_type",
+      "target": "function:engine/feeds/lbnl_queue.py:_find_header",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/lbnl_queue.py:parse_active_by_type",
+      "target": "function:engine/feeds/lbnl_queue.py:_year",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/lbnl_queue.py:parse_active_by_type",
+      "target": "function:engine/feeds/lbnl_queue.py:_num",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/lbnl_queue.py:parse_active_by_type",
+      "target": "function:engine/feeds/lbnl_queue.py:_clean_label",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/lbnl_queue.py:parse_active_by_type",
+      "target": "function:engine/feeds/lbnl_queue.py:_emit",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/lbnl_queue.py:parse_active_by_type",
+      "target": "function:engine/feeds/lbnl_queue.py:_slug",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/lbnl_queue.py:parse_active_region_type",
+      "target": "function:engine/feeds/lbnl_queue.py:_find_header",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/lbnl_queue.py:parse_active_region_type",
+      "target": "function:engine/feeds/lbnl_queue.py:_year",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/lbnl_queue.py:parse_active_region_type",
+      "target": "function:engine/feeds/lbnl_queue.py:_num",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/lbnl_queue.py:parse_active_region_type",
+      "target": "function:engine/feeds/lbnl_queue.py:_clean_label",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/lbnl_queue.py:parse_active_region_type",
+      "target": "function:engine/feeds/lbnl_queue.py:_emit",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/lbnl_queue.py:parse_active_region_type",
+      "target": "function:engine/feeds/lbnl_queue.py:_slug",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/lbnl_queue.py:parse_queues_vs_installed",
+      "target": "function:engine/feeds/lbnl_queue.py:_find_header",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/lbnl_queue.py:parse_queues_vs_installed",
+      "target": "function:engine/feeds/lbnl_queue.py:_num",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/lbnl_queue.py:parse_queues_vs_installed",
+      "target": "function:engine/feeds/lbnl_queue.py:_year",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/lbnl_queue.py:parse_queues_vs_installed",
+      "target": "function:engine/feeds/lbnl_queue.py:_clean_label",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/lbnl_queue.py:parse_queues_vs_installed",
+      "target": "function:engine/feeds/lbnl_queue.py:_emit",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/lbnl_queue.py:parse_queues_vs_installed",
+      "target": "function:engine/feeds/lbnl_queue.py:_slug",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/lbnl_queue.py:parse_ia_throughput",
+      "target": "function:engine/feeds/lbnl_queue.py:_find_header",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/lbnl_queue.py:parse_ia_throughput",
+      "target": "function:engine/feeds/lbnl_queue.py:_year",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/lbnl_queue.py:parse_ia_throughput",
+      "target": "function:engine/feeds/lbnl_queue.py:_num",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/lbnl_queue.py:parse_ia_throughput",
+      "target": "function:engine/feeds/lbnl_queue.py:_emit",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/lbnl_queue.py:parse_ia_throughput",
+      "target": "function:engine/feeds/lbnl_queue.py:_slug",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/lbnl_queue.py:parse_operational_trend",
+      "target": "function:engine/feeds/lbnl_queue.py:_year",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/lbnl_queue.py:parse_operational_trend",
+      "target": "function:engine/feeds/lbnl_queue.py:_num",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/lbnl_queue.py:parse_operational_trend",
+      "target": "function:engine/feeds/lbnl_queue.py:_emit",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/lbnl_queue.py:parse_withdrawn_trend",
+      "target": "function:engine/feeds/lbnl_queue.py:_find_header",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/lbnl_queue.py:parse_withdrawn_trend",
+      "target": "function:engine/feeds/lbnl_queue.py:_year",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/lbnl_queue.py:parse_withdrawn_trend",
+      "target": "function:engine/feeds/lbnl_queue.py:_num",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/lbnl_queue.py:parse_withdrawn_trend",
+      "target": "function:engine/feeds/lbnl_queue.py:_emit",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/lbnl_queue.py:parse_completion_trend",
+      "target": "function:engine/feeds/lbnl_queue.py:_col_index_after",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/lbnl_queue.py:parse_completion_trend",
+      "target": "function:engine/feeds/lbnl_queue.py:_year",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/lbnl_queue.py:parse_completion_trend",
+      "target": "function:engine/feeds/lbnl_queue.py:_num",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/lbnl_queue.py:parse_completion_trend",
+      "target": "function:engine/feeds/lbnl_queue.py:_emit",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/lbnl_queue.py:_parse_status_by_dim",
+      "target": "function:engine/feeds/lbnl_queue.py:_col_index_after",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/lbnl_queue.py:_parse_status_by_dim",
+      "target": "function:engine/feeds/lbnl_queue.py:_clean_label",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/lbnl_queue.py:_parse_status_by_dim",
+      "target": "function:engine/feeds/lbnl_queue.py:_num",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/lbnl_queue.py:_parse_status_by_dim",
+      "target": "function:engine/feeds/lbnl_queue.py:_emit",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/lbnl_queue.py:_parse_status_by_dim",
+      "target": "function:engine/feeds/lbnl_queue.py:_slug",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/lbnl_queue.py:parse_completion_by_type",
+      "target": "function:engine/feeds/lbnl_queue.py:_parse_status_by_dim",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/lbnl_queue.py:parse_completion_by_region",
+      "target": "function:engine/feeds/lbnl_queue.py:_parse_status_by_dim",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/lbnl_queue.py:parse_time_in_queue",
+      "target": "function:engine/feeds/lbnl_queue.py:_col_index",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/lbnl_queue.py:parse_time_in_queue",
+      "target": "function:engine/feeds/lbnl_queue.py:_year",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/lbnl_queue.py:parse_time_in_queue",
+      "target": "function:engine/feeds/lbnl_queue.py:_num",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/lbnl_queue.py:parse_time_in_queue",
+      "target": "function:engine/feeds/lbnl_queue.py:_emit",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/lbnl_queue.py:collect",
+      "target": "function:engine/feeds/lbnl_queue.py:_fetch_bytes",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/lbnl_queue.py:collect",
+      "target": "function:engine/feeds/lbnl_queue.py:_shared_strings",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/lbnl_queue.py:collect",
+      "target": "function:engine/feeds/lbnl_queue.py:_sheet_targets",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/lbnl_queue.py:collect",
+      "target": "function:engine/feeds/lbnl_queue.py:_read_sheet_rows",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/lbnl_queue.py:collect",
+      "target": "function:engine/feeds/lbnl_queue.py:_write_jsonl_atomic",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/mining_rights_global.py:_grant_year",
+      "target": "function:engine/feeds/mining_rights_global.py:_norm_str",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/mining_rights_global.py:_commodities",
+      "target": "function:engine/feeds/mining_rights_global.py:_norm_str",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/mining_rights_global.py:_country_code",
+      "target": "function:engine/feeds/mining_rights_global.py:_norm_str",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/mining_rights_global.py:collect",
+      "target": "function:engine/feeds/mining_rights_global.py:_ensure_ijson",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/mining_rights_global.py:collect",
+      "target": "function:engine/feeds/mining_rights_global.py:_grant_year",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/mining_rights_global.py:collect",
+      "target": "function:engine/feeds/mining_rights_global.py:_country_code",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/mining_rights_global.py:collect",
+      "target": "function:engine/feeds/mining_rights_global.py:_canon_phase",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/mining_rights_global.py:collect",
+      "target": "function:engine/feeds/mining_rights_global.py:_norm_str",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/mining_rights_global.py:collect",
+      "target": "function:engine/feeds/mining_rights_global.py:_commodities",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/oecd.py:normalize",
+      "target": "function:engine/feeds/oecd.py:_period_to_date",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/oecd.py:collect",
+      "target": "function:engine/feeds/oecd.py:_build_url",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/oecd.py:collect",
+      "target": "function:engine/feeds/oecd.py:_fetch_json",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/oecd.py:collect",
+      "target": "function:engine/feeds/oecd.py:normalize",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

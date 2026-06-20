@@ -1,0 +1,63 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - complementary [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e5]:
+          - img "Vaticinus" [ref=e7]
+          - generic [ref=e11]: Vaticinus
+        - button "Collapse sidebar" [ref=e12]:
+          - img [ref=e13]
+      - navigation [ref=e15]:
+        - button "New forecast" [ref=e16]:
+          - img [ref=e18]
+          - generic [ref=e21]: New forecast
+        - button "Live record" [ref=e22]:
+          - img [ref=e24]
+          - generic [ref=e27]: Live record
+        - button "Search calls" [ref=e28]:
+          - img [ref=e30]
+          - generic [ref=e33]: Search calls
+        - button "Deep research" [ref=e34]:
+          - img [ref=e36]
+          - generic [ref=e44]: Deep research
+        - button "Data layer" [ref=e45]:
+          - img [ref=e47]
+          - generic [ref=e51]: Data layer
+      - navigation [ref=e53]:
+        - button "Settings" [ref=e54]:
+          - img [ref=e56]
+          - generic [ref=e59]: Settings
+        - button "Help" [ref=e60]:
+          - img [ref=e62]
+          - generic [ref=e65]: Help
+      - generic [ref=e66]:
+        - paragraph [ref=e67]: Calls you can score
+        - paragraph [ref=e68]: Every forecast gets a date, a kill-criterion, and a public Brier score.
+    - main [ref=e69]:
+      - generic [ref=e70]:
+        - button "Vaticinus" [ref=e71]:
+          - text: Vaticinus
+          - img [ref=e72]
+        - button "Live record" [ref=e74]:
+          - img [ref=e75]
+          - text: Live record
+      - generic [ref=e78]:
+        - heading "What do you want to forecast?" [level=1] [ref=e79]
+        - paragraph [ref=e80]: Ask a structural question. Vaticinus reasons about where the binding constraint moves, then runs its Monte-Carlo engine to put a probability and an interval on it.
+        - generic [ref=e82]:
+          - button "Add" [ref=e83]:
+            - img [ref=e84]
+          - textbox "Ask anything" [active] [ref=e85]
+          - generic [ref=e86]:
+            - button "Dictate" [ref=e87]:
+              - img [ref=e88]
+            - button "Voice" [ref=e91]:
+              - img [ref=e92]
+              - text: Voice
+        - generic [ref=e93]:
+          - button "By 2026-12-31, is the 150mm SiC substrate average selling price ≥ 20% BELOW its 2023 level (Yole/TrendForce) — substrate is over-supplied and the rent fails to materialize, so the 2021-23 'SiC is THE EV bottleneck' narrative was hype-overpriced?" [ref=e106]
+          - button "By 2027-12-31, does US 155mm artillery-shell production remain below 80,000 rounds/month — the binding constraint on the Western munitions surge is ENERGETICS/propellant (nitrocellulose, TNT, RDX) capacity, not shell-body forging?" [ref=e107]
+          - button "By 2027-12-31, does the quoted delivery lead-time for a new heavy-duty (≥100 MW, F/H-class) gas turbine remain ≥ 3 years (next available OEM slot in 2030+) — turbine SLOTS, not generation broadly, are the binding pace-setter for AI firm power?" [ref=e108]
+  - button "Open Next.js Dev Tools" [ref=e102] [cursor=pointer]:
+    - img [ref=e103]
+  - alert [ref=e109]

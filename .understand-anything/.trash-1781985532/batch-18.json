@@ -1,0 +1,613 @@
+{
+  "nodes": [
+    {
+      "id": "file:engine/forecastbench/concept_gate.py",
+      "type": "file",
+      "name": "concept_gate.py",
+      "filePath": "engine/forecastbench/concept_gate.py",
+      "summary": "concept_gate.py is a code asset in the forecasting engine. It contains 3 functions, 2 internal imports.",
+      "tags": [
+        "forecasting-engine",
+        "forecasting",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/forecastbench/concept_gate.py:_load",
+      "type": "function",
+      "name": "_load",
+      "filePath": "engine/forecastbench/concept_gate.py",
+      "lineRange": [
+        43,
+        52
+      ],
+      "summary": "Defines _load in concept_gate.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "concept-gate"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/concept_gate.py:_build_panel",
+      "type": "function",
+      "name": "_build_panel",
+      "filePath": "engine/forecastbench/concept_gate.py",
+      "lineRange": [
+        55,
+        86
+      ],
+      "summary": "Defines _build_panel in concept_gate.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "concept-gate"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/concept_gate.py:run",
+      "type": "function",
+      "name": "run",
+      "filePath": "engine/forecastbench/concept_gate.py",
+      "lineRange": [
+        89,
+        145
+      ],
+      "summary": "Defines run in concept_gate.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entry-point",
+        "concept-gate"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:engine/forecastbench/edge_gate_stat.py",
+      "type": "file",
+      "name": "edge_gate_stat.py",
+      "filePath": "engine/forecastbench/edge_gate_stat.py",
+      "summary": "edge_gate_stat.py is a code asset in the forecasting engine. It contains 6 functions.",
+      "tags": [
+        "forecasting-engine",
+        "forecasting",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/forecastbench/edge_gate_stat.py:_feat_vector",
+      "type": "function",
+      "name": "_feat_vector",
+      "filePath": "engine/forecastbench/edge_gate_stat.py",
+      "lineRange": [
+        29,
+        41
+      ],
+      "summary": "Defines _feat_vector in edge_gate_stat.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "edge-gate-stat"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/edge_gate_stat.py:_logit",
+      "type": "function",
+      "name": "_logit",
+      "filePath": "engine/forecastbench/edge_gate_stat.py",
+      "lineRange": [
+        44,
+        46
+      ],
+      "summary": "Defines _logit in edge_gate_stat.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "edge-gate-stat"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/edge_gate_stat.py:_fit_logistic",
+      "type": "function",
+      "name": "_fit_logistic",
+      "filePath": "engine/forecastbench/edge_gate_stat.py",
+      "lineRange": [
+        49,
+        58
+      ],
+      "summary": "Defines _fit_logistic in edge_gate_stat.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "edge-gate-stat"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/edge_gate_stat.py:_predict",
+      "type": "function",
+      "name": "_predict",
+      "filePath": "engine/forecastbench/edge_gate_stat.py",
+      "lineRange": [
+        61,
+        62
+      ],
+      "summary": "Defines _predict in edge_gate_stat.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "edge-gate-stat"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/edge_gate_stat.py:_brier",
+      "type": "function",
+      "name": "_brier",
+      "filePath": "engine/forecastbench/edge_gate_stat.py",
+      "lineRange": [
+        65,
+        66
+      ],
+      "summary": "Defines _brier in edge_gate_stat.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "edge-gate-stat"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/edge_gate_stat.py:run",
+      "type": "function",
+      "name": "run",
+      "filePath": "engine/forecastbench/edge_gate_stat.py",
+      "lineRange": [
+        69,
+        134
+      ],
+      "summary": "Defines run in edge_gate_stat.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entry-point",
+        "edge-gate-stat"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:engine/forecastbench/structural_gate.py",
+      "type": "file",
+      "name": "structural_gate.py",
+      "filePath": "engine/forecastbench/structural_gate.py",
+      "summary": "structural_gate.py is a code asset in the forecasting engine. It contains 4 functions, 2 internal imports.",
+      "tags": [
+        "forecasting-engine",
+        "forecasting",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/forecastbench/structural_gate.py:_panel",
+      "type": "function",
+      "name": "_panel",
+      "filePath": "engine/forecastbench/structural_gate.py",
+      "lineRange": [
+        30,
+        46
+      ],
+      "summary": "Defines _panel in structural_gate.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "structural-gate"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/structural_gate.py:_surprise_sigma",
+      "type": "function",
+      "name": "_surprise_sigma",
+      "filePath": "engine/forecastbench/structural_gate.py",
+      "lineRange": [
+        49,
+        56
+      ],
+      "summary": "Defines _surprise_sigma in structural_gate.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "structural-gate"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/structural_gate.py:_rows",
+      "type": "function",
+      "name": "_rows",
+      "filePath": "engine/forecastbench/structural_gate.py",
+      "lineRange": [
+        59,
+        82
+      ],
+      "summary": "Defines _rows in structural_gate.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "structural-gate"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/structural_gate.py:run",
+      "type": "function",
+      "name": "run",
+      "filePath": "engine/forecastbench/structural_gate.py",
+      "lineRange": [
+        85,
+        137
+      ],
+      "summary": "Defines run in structural_gate.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entry-point",
+        "structural-gate"
+      ],
+      "complexity": "moderate"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:engine/forecastbench/concept_gate.py",
+      "target": "function:engine/forecastbench/concept_gate.py:_load",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/concept_gate.py",
+      "target": "function:engine/forecastbench/concept_gate.py:_load",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/concept_gate.py",
+      "target": "function:engine/forecastbench/concept_gate.py:_build_panel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/concept_gate.py",
+      "target": "function:engine/forecastbench/concept_gate.py:_build_panel",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/concept_gate.py",
+      "target": "function:engine/forecastbench/concept_gate.py:run",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/concept_gate.py",
+      "target": "function:engine/forecastbench/concept_gate.py:run",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/edge_gate_stat.py",
+      "target": "function:engine/forecastbench/edge_gate_stat.py:_feat_vector",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/edge_gate_stat.py",
+      "target": "function:engine/forecastbench/edge_gate_stat.py:_feat_vector",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/edge_gate_stat.py",
+      "target": "function:engine/forecastbench/edge_gate_stat.py:_logit",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/edge_gate_stat.py",
+      "target": "function:engine/forecastbench/edge_gate_stat.py:_logit",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/edge_gate_stat.py",
+      "target": "function:engine/forecastbench/edge_gate_stat.py:_fit_logistic",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/edge_gate_stat.py",
+      "target": "function:engine/forecastbench/edge_gate_stat.py:_fit_logistic",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/edge_gate_stat.py",
+      "target": "function:engine/forecastbench/edge_gate_stat.py:_predict",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/edge_gate_stat.py",
+      "target": "function:engine/forecastbench/edge_gate_stat.py:_predict",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/edge_gate_stat.py",
+      "target": "function:engine/forecastbench/edge_gate_stat.py:_brier",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/edge_gate_stat.py",
+      "target": "function:engine/forecastbench/edge_gate_stat.py:_brier",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/edge_gate_stat.py",
+      "target": "function:engine/forecastbench/edge_gate_stat.py:run",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/edge_gate_stat.py",
+      "target": "function:engine/forecastbench/edge_gate_stat.py:run",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/structural_gate.py",
+      "target": "function:engine/forecastbench/structural_gate.py:_panel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/structural_gate.py",
+      "target": "function:engine/forecastbench/structural_gate.py:_panel",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/structural_gate.py",
+      "target": "function:engine/forecastbench/structural_gate.py:_surprise_sigma",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/structural_gate.py",
+      "target": "function:engine/forecastbench/structural_gate.py:_surprise_sigma",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/structural_gate.py",
+      "target": "function:engine/forecastbench/structural_gate.py:_rows",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/structural_gate.py",
+      "target": "function:engine/forecastbench/structural_gate.py:_rows",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/structural_gate.py",
+      "target": "function:engine/forecastbench/structural_gate.py:run",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/structural_gate.py",
+      "target": "function:engine/forecastbench/structural_gate.py:run",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/concept_gate.py",
+      "target": "file:engine/detector.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/forecastbench/concept_gate.py",
+      "target": "file:engine/forecastbench/edge_gate_stat.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/forecastbench/structural_gate.py",
+      "target": "file:engine/db.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/forecastbench/structural_gate.py",
+      "target": "file:engine/forecastbench/edge_gate_stat.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "function:engine/forecastbench/concept_gate.py:_build_panel",
+      "target": "function:engine/forecastbench/concept_gate.py:_load",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/concept_gate.py:_build_panel",
+      "target": "function:engine/detector.py:detect",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/concept_gate.py:run",
+      "target": "function:engine/forecastbench/concept_gate.py:_build_panel",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/concept_gate.py:run",
+      "target": "function:engine/forecastbench/edge_gate_stat.py:_brier",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/concept_gate.py:run",
+      "target": "function:engine/forecastbench/edge_gate_stat.py:_fit_logistic",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/concept_gate.py:run",
+      "target": "function:engine/forecastbench/edge_gate_stat.py:_predict",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/edge_gate_stat.py:run",
+      "target": "function:engine/forecastbench/edge_gate_stat.py:_feat_vector",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/edge_gate_stat.py",
+      "target": "function:engine/forecastbench/edge_gate_stat.py:_feat_vector",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/edge_gate_stat.py",
+      "target": "function:engine/forecastbench/edge_gate_stat.py:_logit",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/edge_gate_stat.py:run",
+      "target": "function:engine/forecastbench/edge_gate_stat.py:_brier",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/edge_gate_stat.py:run",
+      "target": "function:engine/forecastbench/edge_gate_stat.py:_fit_logistic",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/edge_gate_stat.py:run",
+      "target": "function:engine/forecastbench/edge_gate_stat.py:_predict",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/structural_gate.py:_rows",
+      "target": "function:engine/forecastbench/structural_gate.py:_surprise_sigma",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/structural_gate.py:run",
+      "target": "function:engine/db.py:connect",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/structural_gate.py:run",
+      "target": "function:engine/forecastbench/structural_gate.py:_panel",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/structural_gate.py:run",
+      "target": "function:engine/forecastbench/structural_gate.py:_rows",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/structural_gate.py:run",
+      "target": "function:engine/forecastbench/edge_gate_stat.py:_brier",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/structural_gate.py:run",
+      "target": "function:engine/forecastbench/edge_gate_stat.py:_fit_logistic",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/structural_gate.py:run",
+      "target": "function:engine/forecastbench/edge_gate_stat.py:_predict",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

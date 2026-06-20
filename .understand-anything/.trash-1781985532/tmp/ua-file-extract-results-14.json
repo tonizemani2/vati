@@ -1,0 +1,1763 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 6,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "training/common.py",
+      "language": "python",
+      "fileCategory": "code",
+      "totalLines": 81,
+      "nonEmptyLines": 67,
+      "functions": [
+        {
+          "name": "parse_prob",
+          "startLine": 28,
+          "endLine": 42,
+          "params": [
+            "text"
+          ]
+        },
+        {
+          "name": "user_prompt",
+          "startLine": 45,
+          "endLine": 63,
+          "params": [
+            "row"
+          ]
+        },
+        {
+          "name": "messages",
+          "startLine": 66,
+          "endLine": 67,
+          "params": [
+            "row"
+          ]
+        },
+        {
+          "name": "load_jsonl",
+          "startLine": 70,
+          "endLine": 72,
+          "params": [
+            "path"
+          ]
+        },
+        {
+          "name": "completion_text",
+          "startLine": 75,
+          "endLine": 81,
+          "params": [
+            "completion"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "parse_prob",
+          "line": 28,
+          "isDefault": false
+        },
+        {
+          "name": "user_prompt",
+          "line": 45,
+          "isDefault": false
+        },
+        {
+          "name": "messages",
+          "line": 66,
+          "isDefault": false
+        },
+        {
+          "name": "load_jsonl",
+          "line": 70,
+          "isDefault": false
+        },
+        {
+          "name": "completion_text",
+          "line": 75,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "parse_prob",
+          "callee": "list",
+          "lineNumber": 32
+        },
+        {
+          "caller": "parse_prob",
+          "callee": "_PROB.finditer",
+          "lineNumber": 32
+        },
+        {
+          "caller": "parse_prob",
+          "callee": "min",
+          "lineNumber": 35
+        },
+        {
+          "caller": "parse_prob",
+          "callee": "max",
+          "lineNumber": 35
+        },
+        {
+          "caller": "parse_prob",
+          "callee": "float",
+          "lineNumber": 35
+        },
+        {
+          "caller": "parse_prob",
+          "callee": "m[-1].group",
+          "lineNumber": 35
+        },
+        {
+          "caller": "parse_prob",
+          "callee": "reversed",
+          "lineNumber": 38
+        },
+        {
+          "caller": "parse_prob",
+          "callee": "re.findall",
+          "lineNumber": 38
+        },
+        {
+          "caller": "parse_prob",
+          "callee": "float",
+          "lineNumber": 39
+        },
+        {
+          "caller": "parse_prob",
+          "callee": "min",
+          "lineNumber": 41
+        },
+        {
+          "caller": "parse_prob",
+          "callee": "max",
+          "lineNumber": 41
+        },
+        {
+          "caller": "user_prompt",
+          "callee": "row.get",
+          "lineNumber": 48
+        },
+        {
+          "caller": "user_prompt",
+          "callee": "parts.append",
+          "lineNumber": 49
+        },
+        {
+          "caller": "user_prompt",
+          "callee": "row.get",
+          "lineNumber": 50
+        },
+        {
+          "caller": "user_prompt",
+          "callee": "parts.append",
+          "lineNumber": 51
+        },
+        {
+          "caller": "user_prompt",
+          "callee": "row.get",
+          "lineNumber": 51
+        },
+        {
+          "caller": "user_prompt",
+          "callee": "row.get",
+          "lineNumber": 55
+        },
+        {
+          "caller": "user_prompt",
+          "callee": "row.get",
+          "lineNumber": 57
+        },
+        {
+          "caller": "user_prompt",
+          "callee": "row.get",
+          "lineNumber": 59
+        },
+        {
+          "caller": "user_prompt",
+          "callee": "parts.append",
+          "lineNumber": 60
+        },
+        {
+          "caller": "user_prompt",
+          "callee": "float",
+          "lineNumber": 60
+        },
+        {
+          "caller": "user_prompt",
+          "callee": "parts.append",
+          "lineNumber": 62
+        },
+        {
+          "caller": "user_prompt",
+          "callee": "row.get",
+          "lineNumber": 62
+        },
+        {
+          "caller": "user_prompt",
+          "callee": "\"\\n\".join",
+          "lineNumber": 63
+        },
+        {
+          "caller": "messages",
+          "callee": "user_prompt",
+          "lineNumber": 67
+        },
+        {
+          "caller": "load_jsonl",
+          "callee": "open",
+          "lineNumber": 71
+        },
+        {
+          "caller": "load_jsonl",
+          "callee": "json.loads",
+          "lineNumber": 72
+        },
+        {
+          "caller": "load_jsonl",
+          "callee": "line.strip",
+          "lineNumber": 72
+        },
+        {
+          "caller": "completion_text",
+          "callee": "isinstance",
+          "lineNumber": 77
+        },
+        {
+          "caller": "completion_text",
+          "callee": "isinstance",
+          "lineNumber": 79
+        },
+        {
+          "caller": "completion_text",
+          "callee": "completion[-1].get",
+          "lineNumber": 80
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 5,
+        "functionCount": 5,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "training/eval.py",
+      "language": "python",
+      "fileCategory": "code",
+      "totalLines": 179,
+      "nonEmptyLines": 158,
+      "functions": [
+        {
+          "name": "auc",
+          "startLine": 21,
+          "endLine": 28,
+          "params": [
+            "ps",
+            "ys"
+          ]
+        },
+        {
+          "name": "_logit",
+          "startLine": 31,
+          "endLine": 34,
+          "params": [
+            "p"
+          ]
+        },
+        {
+          "name": "temp_scale",
+          "startLine": 37,
+          "endLine": 55,
+          "params": [
+            "ps",
+            "ys"
+          ]
+        },
+        {
+          "name": "calibration",
+          "startLine": 58,
+          "endLine": 63,
+          "params": [
+            "ps",
+            "ys",
+            "bins"
+          ]
+        },
+        {
+          "name": "main",
+          "startLine": 66,
+          "endLine": 175,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "auc",
+          "line": 21,
+          "isDefault": false
+        },
+        {
+          "name": "_logit",
+          "line": 31,
+          "isDefault": false
+        },
+        {
+          "name": "temp_scale",
+          "line": 37,
+          "isDefault": false
+        },
+        {
+          "name": "calibration",
+          "line": 58,
+          "isDefault": false
+        },
+        {
+          "name": "main",
+          "line": 66,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "auc",
+          "callee": "zip",
+          "lineNumber": 23
+        },
+        {
+          "caller": "auc",
+          "callee": "zip",
+          "lineNumber": 24
+        },
+        {
+          "caller": "auc",
+          "callee": "sum",
+          "lineNumber": 27
+        },
+        {
+          "caller": "auc",
+          "callee": "len",
+          "lineNumber": 28
+        },
+        {
+          "caller": "auc",
+          "callee": "len",
+          "lineNumber": 28
+        },
+        {
+          "caller": "_logit",
+          "callee": "min",
+          "lineNumber": 32
+        },
+        {
+          "caller": "_logit",
+          "callee": "max",
+          "lineNumber": 32
+        },
+        {
+          "caller": "_logit",
+          "callee": "math.log",
+          "lineNumber": 34
+        },
+        {
+          "caller": "temp_scale",
+          "callee": "list",
+          "lineNumber": 44
+        },
+        {
+          "caller": "temp_scale",
+          "callee": "range",
+          "lineNumber": 44
+        },
+        {
+          "caller": "temp_scale",
+          "callee": "len",
+          "lineNumber": 44
+        },
+        {
+          "caller": "brier_at",
+          "callee": "math.exp",
+          "lineNumber": 51
+        },
+        {
+          "caller": "brier_at",
+          "callee": "_logit",
+          "lineNumber": 51
+        },
+        {
+          "caller": "brier_at",
+          "callee": "len",
+          "lineNumber": 53
+        },
+        {
+          "caller": "temp_scale",
+          "callee": "min",
+          "lineNumber": 54
+        },
+        {
+          "caller": "temp_scale",
+          "callee": "range",
+          "lineNumber": 54
+        },
+        {
+          "caller": "temp_scale",
+          "callee": "brier_at",
+          "lineNumber": 54
+        },
+        {
+          "caller": "temp_scale",
+          "callee": "brier_at",
+          "lineNumber": 55
+        },
+        {
+          "caller": "temp_scale",
+          "callee": "brier_at",
+          "lineNumber": 55
+        },
+        {
+          "caller": "calibration",
+          "callee": "defaultdict",
+          "lineNumber": 59
+        },
+        {
+          "caller": "calibration",
+          "callee": "zip",
+          "lineNumber": 60
+        },
+        {
+          "caller": "calibration",
+          "callee": "min",
+          "lineNumber": 61
+        },
+        {
+          "caller": "calibration",
+          "callee": "int",
+          "lineNumber": 61
+        },
+        {
+          "caller": "calibration",
+          "callee": "sorted",
+          "lineNumber": 63
+        },
+        {
+          "caller": "calibration",
+          "callee": "buckets.items",
+          "lineNumber": 63
+        },
+        {
+          "caller": "main",
+          "callee": "argparse.ArgumentParser",
+          "lineNumber": 67
+        },
+        {
+          "caller": "main",
+          "callee": "ap.add_argument",
+          "lineNumber": 68
+        },
+        {
+          "caller": "main",
+          "callee": "ap.add_argument",
+          "lineNumber": 69
+        },
+        {
+          "caller": "main",
+          "callee": "ap.add_argument",
+          "lineNumber": 70
+        },
+        {
+          "caller": "main",
+          "callee": "ap.add_argument",
+          "lineNumber": 71
+        },
+        {
+          "caller": "main",
+          "callee": "ap.add_argument",
+          "lineNumber": 72
+        },
+        {
+          "caller": "main",
+          "callee": "ap.add_argument",
+          "lineNumber": 73
+        },
+        {
+          "caller": "main",
+          "callee": "ap.parse_args",
+          "lineNumber": 77
+        },
+        {
+          "caller": "main",
+          "callee": "load_jsonl",
+          "lineNumber": 79
+        },
+        {
+          "caller": "main",
+          "callee": "AutoTokenizer.from_pretrained",
+          "lineNumber": 82
+        },
+        {
+          "caller": "main",
+          "callee": "AutoModelForCausalLM.from_pretrained",
+          "lineNumber": 86
+        },
+        {
+          "caller": "main",
+          "callee": "model.eval",
+          "lineNumber": 88
+        },
+        {
+          "caller": "main",
+          "callee": "range",
+          "lineNumber": 92
+        },
+        {
+          "caller": "main",
+          "callee": "len",
+          "lineNumber": 92
+        },
+        {
+          "caller": "main",
+          "callee": "tok.apply_chat_template",
+          "lineNumber": 97
+        },
+        {
+          "caller": "main",
+          "callee": "user_prompt",
+          "lineNumber": 98
+        },
+        {
+          "caller": "main",
+          "callee": "tok(prompts, return_tensors=\"pt\", padding=True, truncation=True,\n                  max_length=args.max_seq - 1024).to",
+          "lineNumber": 100
+        },
+        {
+          "caller": "main",
+          "callee": "tok",
+          "lineNumber": 100
+        },
+        {
+          "caller": "main",
+          "callee": "torch.no_grad",
+          "lineNumber": 102
+        },
+        {
+          "caller": "main",
+          "callee": "model.generate",
+          "lineNumber": 106
+        },
+        {
+          "caller": "main",
+          "callee": "tok.batch_decode",
+          "lineNumber": 108
+        },
+        {
+          "caller": "main",
+          "callee": "zip",
+          "lineNumber": 109
+        },
+        {
+          "caller": "main",
+          "callee": "parse_prob",
+          "lineNumber": 110
+        },
+        {
+          "caller": "main",
+          "callee": "r.get",
+          "lineNumber": 113
+        },
+        {
+          "caller": "main",
+          "callee": "r.get",
+          "lineNumber": 115
+        },
+        {
+          "caller": "main",
+          "callee": "model_ps.append",
+          "lineNumber": 118
+        },
+        {
+          "caller": "main",
+          "callee": "base_ps.append",
+          "lineNumber": 118
+        },
+        {
+          "caller": "main",
+          "callee": "float",
+          "lineNumber": 118
+        },
+        {
+          "caller": "main",
+          "callee": "ys.append",
+          "lineNumber": 118
+        },
+        {
+          "caller": "main",
+          "callee": "int",
+          "lineNumber": 118
+        },
+        {
+          "caller": "main",
+          "callee": "dom.append",
+          "lineNumber": 119
+        },
+        {
+          "caller": "main",
+          "callee": "r.get",
+          "lineNumber": 119
+        },
+        {
+          "caller": "main",
+          "callee": "kinds.append",
+          "lineNumber": 120
+        },
+        {
+          "caller": "main",
+          "callee": "r.get",
+          "lineNumber": 120
+        },
+        {
+          "caller": "main",
+          "callee": "r.get",
+          "lineNumber": 120
+        },
+        {
+          "caller": "main",
+          "callee": "horizons.append",
+          "lineNumber": 122
+        },
+        {
+          "caller": "main",
+          "callee": "r.get",
+          "lineNumber": 122
+        },
+        {
+          "caller": "main",
+          "callee": "pred_rows.append",
+          "lineNumber": 124
+        },
+        {
+          "caller": "main",
+          "callee": "round",
+          "lineNumber": 124
+        },
+        {
+          "caller": "main",
+          "callee": "r.get",
+          "lineNumber": 125
+        },
+        {
+          "caller": "main",
+          "callee": "int",
+          "lineNumber": 125
+        },
+        {
+          "caller": "main",
+          "callee": "print",
+          "lineNumber": 126
+        },
+        {
+          "caller": "main",
+          "callee": "min",
+          "lineNumber": 126
+        },
+        {
+          "caller": "main",
+          "callee": "len",
+          "lineNumber": 126
+        },
+        {
+          "caller": "main",
+          "callee": "len",
+          "lineNumber": 126
+        },
+        {
+          "caller": "main",
+          "callee": "open",
+          "lineNumber": 129
+        },
+        {
+          "caller": "main",
+          "callee": "f.write",
+          "lineNumber": 131
+        },
+        {
+          "caller": "main",
+          "callee": "json.dumps",
+          "lineNumber": 131
+        },
+        {
+          "caller": "main",
+          "callee": "print",
+          "lineNumber": 132
+        },
+        {
+          "caller": "main",
+          "callee": "len",
+          "lineNumber": 132
+        },
+        {
+          "caller": "main",
+          "callee": "len",
+          "lineNumber": 135
+        },
+        {
+          "caller": "main",
+          "callee": "sum",
+          "lineNumber": 136
+        },
+        {
+          "caller": "main",
+          "callee": "zip",
+          "lineNumber": 136
+        },
+        {
+          "caller": "main",
+          "callee": "sum",
+          "lineNumber": 137
+        },
+        {
+          "caller": "main",
+          "callee": "zip",
+          "lineNumber": 137
+        },
+        {
+          "caller": "main",
+          "callee": "print",
+          "lineNumber": 138
+        },
+        {
+          "caller": "main",
+          "callee": "print",
+          "lineNumber": 139
+        },
+        {
+          "caller": "main",
+          "callee": "auc",
+          "lineNumber": 139
+        },
+        {
+          "caller": "main",
+          "callee": "print",
+          "lineNumber": 140
+        },
+        {
+          "caller": "main",
+          "callee": "temp_scale",
+          "lineNumber": 141
+        },
+        {
+          "caller": "main",
+          "callee": "print",
+          "lineNumber": 145
+        },
+        {
+          "caller": "main",
+          "callee": "print",
+          "lineNumber": 147
+        },
+        {
+          "caller": "main",
+          "callee": "calibration(model_ps, ys).items",
+          "lineNumber": 148
+        },
+        {
+          "caller": "main",
+          "callee": "calibration",
+          "lineNumber": 148
+        },
+        {
+          "caller": "main",
+          "callee": "print",
+          "lineNumber": 149
+        },
+        {
+          "caller": "main",
+          "callee": "print",
+          "lineNumber": 152
+        },
+        {
+          "caller": "main",
+          "callee": "defaultdict",
+          "lineNumber": 153
+        },
+        {
+          "caller": "main",
+          "callee": "zip",
+          "lineNumber": 154
+        },
+        {
+          "caller": "main",
+          "callee": "sorted",
+          "lineNumber": 156
+        },
+        {
+          "caller": "main",
+          "callee": "by_kind.items",
+          "lineNumber": 156
+        },
+        {
+          "caller": "main",
+          "callee": "print",
+          "lineNumber": 157
+        },
+        {
+          "caller": "main",
+          "callee": "defaultdict",
+          "lineNumber": 162
+        },
+        {
+          "caller": "main",
+          "callee": "zip",
+          "lineNumber": 163
+        },
+        {
+          "caller": "main",
+          "callee": "hbucket",
+          "lineNumber": 164
+        },
+        {
+          "caller": "main",
+          "callee": "hbucket",
+          "lineNumber": 164
+        },
+        {
+          "caller": "main",
+          "callee": "print",
+          "lineNumber": 166
+        },
+        {
+          "caller": "main",
+          "callee": "sorted",
+          "lineNumber": 167
+        },
+        {
+          "caller": "main",
+          "callee": "order.get",
+          "lineNumber": 167
+        },
+        {
+          "caller": "main",
+          "callee": "print",
+          "lineNumber": 169
+        },
+        {
+          "caller": "main",
+          "callee": "defaultdict",
+          "lineNumber": 170
+        },
+        {
+          "caller": "main",
+          "callee": "zip",
+          "lineNumber": 171
+        },
+        {
+          "caller": "main",
+          "callee": "print",
+          "lineNumber": 173
+        },
+        {
+          "caller": "main",
+          "callee": "sorted",
+          "lineNumber": 174
+        },
+        {
+          "caller": "main",
+          "callee": "by_dom.items",
+          "lineNumber": 174
+        },
+        {
+          "caller": "main",
+          "callee": "print",
+          "lineNumber": 175
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 5,
+        "functionCount": 5,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "training/grpo.py",
+      "language": "python",
+      "fileCategory": "code",
+      "totalLines": 196,
+      "nonEmptyLines": 173,
+      "functions": [
+        {
+          "name": "brier_reward",
+          "startLine": 33,
+          "endLine": 39,
+          "params": [
+            "completions",
+            "outcome",
+            "**kwargs"
+          ]
+        },
+        {
+          "name": "make_composite_reward",
+          "startLine": 42,
+          "endLine": 76,
+          "params": [
+            "acc_bonus"
+          ]
+        },
+        {
+          "name": "format_reward",
+          "startLine": 79,
+          "endLine": 81,
+          "params": [
+            "completions",
+            "**kwargs"
+          ]
+        },
+        {
+          "name": "main",
+          "startLine": 84,
+          "endLine": 192,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "brier_reward",
+          "line": 33,
+          "isDefault": false
+        },
+        {
+          "name": "make_composite_reward",
+          "line": 42,
+          "isDefault": false
+        },
+        {
+          "name": "format_reward",
+          "line": 79,
+          "isDefault": false
+        },
+        {
+          "name": "main",
+          "line": 84,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "brier_reward",
+          "callee": "zip",
+          "lineNumber": 36
+        },
+        {
+          "caller": "brier_reward",
+          "callee": "parse_prob",
+          "lineNumber": 37
+        },
+        {
+          "caller": "brier_reward",
+          "callee": "completion_text",
+          "lineNumber": 37
+        },
+        {
+          "caller": "brier_reward",
+          "callee": "out.append",
+          "lineNumber": 38
+        },
+        {
+          "caller": "brier_reward",
+          "callee": "float",
+          "lineNumber": 38
+        },
+        {
+          "caller": "composite_reward",
+          "callee": "zip",
+          "lineNumber": 59
+        },
+        {
+          "caller": "composite_reward",
+          "callee": "parse_prob",
+          "lineNumber": 60
+        },
+        {
+          "caller": "composite_reward",
+          "callee": "completion_text",
+          "lineNumber": 60
+        },
+        {
+          "caller": "composite_reward",
+          "callee": "out.append",
+          "lineNumber": 62
+        },
+        {
+          "caller": "composite_reward",
+          "callee": "float",
+          "lineNumber": 64
+        },
+        {
+          "caller": "composite_reward",
+          "callee": "out.append",
+          "lineNumber": 74
+        },
+        {
+          "caller": "format_reward",
+          "callee": "parse_prob",
+          "lineNumber": 81
+        },
+        {
+          "caller": "format_reward",
+          "callee": "completion_text",
+          "lineNumber": 81
+        },
+        {
+          "caller": "main",
+          "callee": "argparse.ArgumentParser",
+          "lineNumber": 85
+        },
+        {
+          "caller": "main",
+          "callee": "ap.add_argument",
+          "lineNumber": 86
+        },
+        {
+          "caller": "main",
+          "callee": "ap.add_argument",
+          "lineNumber": 87
+        },
+        {
+          "caller": "main",
+          "callee": "ap.add_argument",
+          "lineNumber": 88
+        },
+        {
+          "caller": "main",
+          "callee": "ap.add_argument",
+          "lineNumber": 89
+        },
+        {
+          "caller": "main",
+          "callee": "ap.add_argument",
+          "lineNumber": 90
+        },
+        {
+          "caller": "main",
+          "callee": "ap.add_argument",
+          "lineNumber": 91
+        },
+        {
+          "caller": "main",
+          "callee": "ap.add_argument",
+          "lineNumber": 92
+        },
+        {
+          "caller": "main",
+          "callee": "ap.add_argument",
+          "lineNumber": 95
+        },
+        {
+          "caller": "main",
+          "callee": "ap.add_argument",
+          "lineNumber": 96
+        },
+        {
+          "caller": "main",
+          "callee": "ap.add_argument",
+          "lineNumber": 97
+        },
+        {
+          "caller": "main",
+          "callee": "ap.add_argument",
+          "lineNumber": 101
+        },
+        {
+          "caller": "main",
+          "callee": "ap.add_argument",
+          "lineNumber": 103
+        },
+        {
+          "caller": "main",
+          "callee": "ap.parse_args",
+          "lineNumber": 105
+        },
+        {
+          "caller": "main",
+          "callee": "AutoTokenizer.from_pretrained",
+          "lineNumber": 107
+        },
+        {
+          "caller": "main",
+          "callee": "AutoModelForCausalLM.from_pretrained",
+          "lineNumber": 110
+        },
+        {
+          "caller": "main",
+          "callee": "load_jsonl",
+          "lineNumber": 115
+        },
+        {
+          "caller": "main",
+          "callee": "Dataset.from_list",
+          "lineNumber": 116
+        },
+        {
+          "caller": "main",
+          "callee": "user_prompt",
+          "lineNumber": 118
+        },
+        {
+          "caller": "main",
+          "callee": "float",
+          "lineNumber": 119
+        },
+        {
+          "caller": "main",
+          "callee": "LoraConfig",
+          "lineNumber": 123
+        },
+        {
+          "caller": "main",
+          "callee": "GRPOConfig",
+          "lineNumber": 129
+        },
+        {
+          "caller": "main",
+          "callee": "os.path.join",
+          "lineNumber": 130
+        },
+        {
+          "caller": "main",
+          "callee": "os.getenv",
+          "lineNumber": 154
+        },
+        {
+          "caller": "main",
+          "callee": "isinstance",
+          "lineNumber": 160
+        },
+        {
+          "caller": "main",
+          "callee": "getattr",
+          "lineNumber": 160
+        },
+        {
+          "caller": "main",
+          "callee": "hasattr",
+          "lineNumber": 168
+        },
+        {
+          "caller": "main",
+          "callee": "hasattr",
+          "lineNumber": 174
+        },
+        {
+          "caller": "main",
+          "callee": "make_composite_reward",
+          "lineNumber": 177
+        },
+        {
+          "caller": "main",
+          "callee": "print",
+          "lineNumber": 179
+        },
+        {
+          "caller": "main",
+          "callee": "getattr",
+          "lineNumber": 180
+        },
+        {
+          "caller": "main",
+          "callee": "GRPOTrainer",
+          "lineNumber": 181
+        },
+        {
+          "caller": "main",
+          "callee": "trainer.train",
+          "lineNumber": 186
+        },
+        {
+          "caller": "main",
+          "callee": "trainer.model.merge_and_unload",
+          "lineNumber": 189
+        },
+        {
+          "caller": "main",
+          "callee": "merged.save_pretrained",
+          "lineNumber": 190
+        },
+        {
+          "caller": "main",
+          "callee": "tokenizer.save_pretrained",
+          "lineNumber": 191
+        },
+        {
+          "caller": "main",
+          "callee": "print",
+          "lineNumber": 192
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 4,
+        "functionCount": 4,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "training/mlx_convert.py",
+      "language": "python",
+      "fileCategory": "code",
+      "totalLines": 71,
+      "nonEmptyLines": 55,
+      "functions": [
+        {
+          "name": "_sample",
+          "startLine": 26,
+          "endLine": 31,
+          "params": [
+            "rows",
+            "limit"
+          ]
+        },
+        {
+          "name": "_write_split",
+          "startLine": 34,
+          "endLine": 42,
+          "params": [
+            "rows",
+            "out_dir",
+            "valid_frac"
+          ]
+        },
+        {
+          "name": "main",
+          "startLine": 45,
+          "endLine": 67,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "_sample",
+          "line": 26,
+          "isDefault": false
+        },
+        {
+          "name": "_write_split",
+          "line": 34,
+          "isDefault": false
+        },
+        {
+          "name": "main",
+          "line": 45,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "_sample",
+          "callee": "list",
+          "lineNumber": 29
+        },
+        {
+          "caller": "_sample",
+          "callee": "random.Random(0).shuffle",
+          "lineNumber": 30
+        },
+        {
+          "caller": "_sample",
+          "callee": "random.Random",
+          "lineNumber": 30
+        },
+        {
+          "caller": "_write_split",
+          "callee": "os.makedirs",
+          "lineNumber": 35
+        },
+        {
+          "caller": "_write_split",
+          "callee": "max",
+          "lineNumber": 36
+        },
+        {
+          "caller": "_write_split",
+          "callee": "int",
+          "lineNumber": 36
+        },
+        {
+          "caller": "_write_split",
+          "callee": "len",
+          "lineNumber": 36
+        },
+        {
+          "caller": "_write_split",
+          "callee": "len",
+          "lineNumber": 36
+        },
+        {
+          "caller": "_write_split",
+          "callee": "open",
+          "lineNumber": 39
+        },
+        {
+          "caller": "_write_split",
+          "callee": "os.path.join",
+          "lineNumber": 39
+        },
+        {
+          "caller": "_write_split",
+          "callee": "f.write",
+          "lineNumber": 41
+        },
+        {
+          "caller": "_write_split",
+          "callee": "json.dumps",
+          "lineNumber": 41
+        },
+        {
+          "caller": "_write_split",
+          "callee": "len",
+          "lineNumber": 42
+        },
+        {
+          "caller": "_write_split",
+          "callee": "len",
+          "lineNumber": 42
+        },
+        {
+          "caller": "main",
+          "callee": "argparse.ArgumentParser",
+          "lineNumber": 46
+        },
+        {
+          "caller": "main",
+          "callee": "ap.add_argument",
+          "lineNumber": 47
+        },
+        {
+          "caller": "main",
+          "callee": "ap.add_argument",
+          "lineNumber": 48
+        },
+        {
+          "caller": "main",
+          "callee": "ap.add_argument",
+          "lineNumber": 49
+        },
+        {
+          "caller": "main",
+          "callee": "ap.add_argument",
+          "lineNumber": 50
+        },
+        {
+          "caller": "main",
+          "callee": "ap.parse_args",
+          "lineNumber": 51
+        },
+        {
+          "caller": "main",
+          "callee": "_sample",
+          "lineNumber": 54
+        },
+        {
+          "caller": "main",
+          "callee": "load_jsonl",
+          "lineNumber": 54
+        },
+        {
+          "caller": "main",
+          "callee": "r.get",
+          "lineNumber": 55
+        },
+        {
+          "caller": "main",
+          "callee": "_write_split",
+          "lineNumber": 56
+        },
+        {
+          "caller": "main",
+          "callee": "print",
+          "lineNumber": 57
+        },
+        {
+          "caller": "main",
+          "callee": "_sample",
+          "lineNumber": 60
+        },
+        {
+          "caller": "main",
+          "callee": "load_jsonl",
+          "lineNumber": 60
+        },
+        {
+          "caller": "main",
+          "callee": "user_prompt",
+          "lineNumber": 62
+        },
+        {
+          "caller": "main",
+          "callee": "str",
+          "lineNumber": 62
+        },
+        {
+          "caller": "main",
+          "callee": "r.get",
+          "lineNumber": 64
+        },
+        {
+          "caller": "main",
+          "callee": "r.get",
+          "lineNumber": 64
+        },
+        {
+          "caller": "main",
+          "callee": "_write_split",
+          "lineNumber": 66
+        },
+        {
+          "caller": "main",
+          "callee": "print",
+          "lineNumber": 67
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 3,
+        "functionCount": 3,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "training/mlx_eval.py",
+      "language": "python",
+      "fileCategory": "code",
+      "totalLines": 69,
+      "nonEmptyLines": 53,
+      "functions": [
+        {
+          "name": "auc",
+          "startLine": 23,
+          "endLine": 30,
+          "params": [
+            "ps",
+            "ys"
+          ]
+        },
+        {
+          "name": "main",
+          "startLine": 33,
+          "endLine": 65,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "auc",
+          "line": 23,
+          "isDefault": false
+        },
+        {
+          "name": "main",
+          "line": 33,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "auc",
+          "callee": "zip",
+          "lineNumber": 25
+        },
+        {
+          "caller": "auc",
+          "callee": "zip",
+          "lineNumber": 26
+        },
+        {
+          "caller": "auc",
+          "callee": "sum",
+          "lineNumber": 29
+        },
+        {
+          "caller": "auc",
+          "callee": "len",
+          "lineNumber": 30
+        },
+        {
+          "caller": "auc",
+          "callee": "len",
+          "lineNumber": 30
+        },
+        {
+          "caller": "main",
+          "callee": "argparse.ArgumentParser",
+          "lineNumber": 34
+        },
+        {
+          "caller": "main",
+          "callee": "ap.add_argument",
+          "lineNumber": 35
+        },
+        {
+          "caller": "main",
+          "callee": "ap.add_argument",
+          "lineNumber": 36
+        },
+        {
+          "caller": "main",
+          "callee": "ap.add_argument",
+          "lineNumber": 37
+        },
+        {
+          "caller": "main",
+          "callee": "ap.add_argument",
+          "lineNumber": 38
+        },
+        {
+          "caller": "main",
+          "callee": "ap.add_argument",
+          "lineNumber": 39
+        },
+        {
+          "caller": "main",
+          "callee": "ap.parse_args",
+          "lineNumber": 40
+        },
+        {
+          "caller": "main",
+          "callee": "load",
+          "lineNumber": 42
+        },
+        {
+          "caller": "main",
+          "callee": "load_jsonl",
+          "lineNumber": 44
+        },
+        {
+          "caller": "main",
+          "callee": "enumerate",
+          "lineNumber": 46
+        },
+        {
+          "caller": "main",
+          "callee": "user_prompt",
+          "lineNumber": 48
+        },
+        {
+          "caller": "main",
+          "callee": "tok.apply_chat_template",
+          "lineNumber": 49
+        },
+        {
+          "caller": "main",
+          "callee": "generate",
+          "lineNumber": 51
+        },
+        {
+          "caller": "main",
+          "callee": "parse_prob",
+          "lineNumber": 52
+        },
+        {
+          "caller": "main",
+          "callee": "r.get",
+          "lineNumber": 55
+        },
+        {
+          "caller": "main",
+          "callee": "r.get",
+          "lineNumber": 55
+        },
+        {
+          "caller": "main",
+          "callee": "ps.append",
+          "lineNumber": 56
+        },
+        {
+          "caller": "main",
+          "callee": "base_ps.append",
+          "lineNumber": 56
+        },
+        {
+          "caller": "main",
+          "callee": "float",
+          "lineNumber": 56
+        },
+        {
+          "caller": "main",
+          "callee": "ys.append",
+          "lineNumber": 56
+        },
+        {
+          "caller": "main",
+          "callee": "int",
+          "lineNumber": 56
+        },
+        {
+          "caller": "main",
+          "callee": "float",
+          "lineNumber": 56
+        },
+        {
+          "caller": "main",
+          "callee": "print",
+          "lineNumber": 57
+        },
+        {
+          "caller": "main",
+          "callee": "len",
+          "lineNumber": 57
+        },
+        {
+          "caller": "main",
+          "callee": "len",
+          "lineNumber": 59
+        },
+        {
+          "caller": "main",
+          "callee": "sum",
+          "lineNumber": 60
+        },
+        {
+          "caller": "main",
+          "callee": "zip",
+          "lineNumber": 60
+        },
+        {
+          "caller": "main",
+          "callee": "sum",
+          "lineNumber": 61
+        },
+        {
+          "caller": "main",
+          "callee": "zip",
+          "lineNumber": 61
+        },
+        {
+          "caller": "main",
+          "callee": "print",
+          "lineNumber": 62
+        },
+        {
+          "caller": "main",
+          "callee": "print",
+          "lineNumber": 63
+        },
+        {
+          "caller": "main",
+          "callee": "auc",
+          "lineNumber": 63
+        },
+        {
+          "caller": "main",
+          "callee": "print",
+          "lineNumber": 64
+        },
+        {
+          "caller": "main",
+          "callee": "print",
+          "lineNumber": 65
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 2,
+        "functionCount": 2,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "training/mlx_rewards.py",
+      "language": "python",
+      "fileCategory": "code",
+      "totalLines": 50,
+      "nonEmptyLines": 41,
+      "functions": [
+        {
+          "name": "brier_reward",
+          "startLine": 29,
+          "endLine": 43,
+          "params": [
+            "prompts",
+            "completions",
+            "answer",
+            "types"
+          ]
+        },
+        {
+          "name": "format_reward",
+          "startLine": 47,
+          "endLine": 50,
+          "params": [
+            "prompts",
+            "completions",
+            "answer",
+            "types"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "brier_reward",
+          "line": 28,
+          "isDefault": false
+        },
+        {
+          "name": "format_reward",
+          "line": 46,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "brier_reward",
+          "callee": "zip",
+          "lineNumber": 32
+        },
+        {
+          "caller": "brier_reward",
+          "callee": "parse_prob",
+          "lineNumber": 33
+        },
+        {
+          "caller": "brier_reward",
+          "callee": "isinstance",
+          "lineNumber": 33
+        },
+        {
+          "caller": "brier_reward",
+          "callee": "out.append",
+          "lineNumber": 35
+        },
+        {
+          "caller": "brier_reward",
+          "callee": "float",
+          "lineNumber": 38
+        },
+        {
+          "caller": "brier_reward",
+          "callee": "out.append",
+          "lineNumber": 40
+        },
+        {
+          "caller": "brier_reward",
+          "callee": "out.append",
+          "lineNumber": 42
+        },
+        {
+          "caller": "format_reward",
+          "callee": "parse_prob",
+          "lineNumber": 49
+        },
+        {
+          "caller": "format_reward",
+          "callee": "isinstance",
+          "lineNumber": 49
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 2,
+        "functionCount": 2,
+        "classCount": 0
+      }
+    }
+  ]
+}

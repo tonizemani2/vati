@@ -1,0 +1,38 @@
+[
+ {
+  "question_id": 43495,
+  "type": "discrete",
+  "title": "How many WSOP bracelets will the 2026 Main Event winner hold at the end of the 2026 WSOP season?",
+  "short_title": "2026 WSOP Main Event winner total bracelets?",
+  "description": "The World Series of Poker (WSOP) is the most prestigious poker tournament series in the world, awarding [gold bracelets](https://en.wikipedia.org/wiki/World_Series_of_Poker_bracelet) to event winners. The [2026 WSOP](https://en.wikipedia.org/wiki/2026_World_Series_of_Poker) is the 57th edition of the series, running from May 26 through July 15 in Las Vegas, with 100 gold bracelets to be awarded. The centerpiece is the \\$10,000 No-Limit Hold'em Main Event, regularly attracting around ten thousand entrants, from amateur qualifiers to seasoned professionals. The Main Event begins July 2, with play continuing until the final table is reached on July 13. The final table will then take place from August 3\u20135, airing live on ESPN.\n\nA list of previous WSOP Main Event winners along with their total bracelet counts can be found on [Wikipedia](https://en.wikipedia.org/wiki/List_of_World_Series_of_Poker_Main_Event_champions).",
+  "resolution_criteria": "This question will resolve as the total number of WSOP bracelets held by the winner of the 2026 World Series of Poker Main Event at the conclusion of the 2026 WSOP season, per [official WSOP records](https://www.wsop.com/past-tournaments/2026/).",
+  "fine_print": "The question will resolve as the total number of bracelets won by the winner, not the number of bracelets won in 2026. The 2026 WSOP Main Event bracelet will itself count towards the total.\n\nIf the 2026 WSOP Main Event is cancelled or otherwise a winner cannot be determined by September 1, 2026, this question will be annulled.",
+  "options": null,
+  "unit": "bracelets",
+  "close": "2026-08-03T07:00:00Z",
+  "resolve": "2026-08-15T07:00:00Z",
+  "crowd": null,
+  "range_min": 0.5,
+  "range_max": 10.5,
+  "open_lower": false,
+  "open_upper": true
+ },
+ {
+  "question_id": 43333,
+  "type": "discrete",
+  "title": "What will be the relative rank of the weakest team to advance to the knockout stage in the 2026 FIFA World Cup?",
+  "short_title": "Lowest relative rank of knockout team 2026 FIFA World Cup?",
+  "description": "The [FIFA World Cup](https://en.wikipedia.org/wiki/FIFA_World_Cup) is a major soccer tournament which is held every four years and contested by men's national teams. According to [Wikipedia](https://en.wikipedia.org/wiki/FIFA_World_Cup):\n\n> The World Cup is globally regarded as the most prestigious association football competition, as well as the most widely viewed and followed sporting event in the world.[<sup>2,</sup>](https://en.wikipedia.org/wiki/FIFA_World_Cup#cite_note-DobsonGoddard2006-2)[<sup>3</sup>](https://en.wikipedia.org/wiki/FIFA_World_Cup#cite_note-3) The viewership of the [2018 World Cup](https://en.wikipedia.org/wiki/2018_FIFA_World_Cup \"2018 FIFA World Cup\") was estimated to be 3.57&nbsp;billion, close to half of the global population,[<sup>4,</sup>](https://en.wikipedia.org/wiki/FIFA_World_Cup#cite_note-4)[<sup>5</sup>](https://en.wikipedia.org/wiki/FIFA_World_Cup#cite_note-5) while the engagement with the 2022 World Cup was estimated to be 5&nbsp;billion, with about 1.5&nbsp;billion people watching [the final match](https://en.wikipedia.org/wiki/2022_FIFA_World_Cup_final \"2022 FIFA World Cup final\").[<sup>6</sup>](https://en.wikipedia.org/wiki/FIFA_World_Cup#cite_note-6)\n\nThe 2026 edition is to be held in North America with Canada, the US, and Mexico jointly hosting. This will be the first edition to feature a total of 48 teams competing with a new Round of 32 stage at the start of the knockout stages.\n\nAs of the 2022 World Cup, 22 final tournaments have been held since the event's inception in 1930, and a total of 80 national teams have competed. [The trophy](https://en.wikipedia.org/wiki/FIFA_World_Cup_Trophy \"FIFA World Cup Trophy\") has been won by eight national teams. With five wins, [Brazil](https://en.wikipedia.org/wiki/Brazil_national_football_team \"Brazil national football team\") is the only team to have played in every tournament. The other World Cup winners are [Germany](https://en.wikipedia.org/wiki/Germany_national_football_team \"Germany national football team\") and [Italy](https://en.wikipedia.org/wiki/Italy_national_football_team \"Italy national football team\"), with four titles each; Argentina, with three titles; France and inaugural winner [Uruguay](https://en.wikipedia.org/wiki/Uruguay_national_football_team \"Uruguay national football team\"), each with two titles; and [England](https://en.wikipedia.org/wiki/England_national_football_team \"England national football team\") and [Spain](https://en.wikipedia.org/wiki/Spain_",
+  "resolution_criteria": "This question will resolve as the lowest relative rank (shown in the rightmost column on the table below) of any team that advanced to the knockout stage of the 2026 FIFA World Cup.\n\n| Country                | FIFA rank as of May 1, 2026 | Relative rank among World Cup teams |\n| ---------------------- | --------------------------- | ----------------------------------- |\n| Paraguay               | 40                          | 32                                  |\n| Czechia                | 41                          | 33                                  |\n| Scotland               | 43                          | 34                                  |\n| Tunisia                | 44                          | 35                                  |\n| DR Congo               | 46                          | 36                                  |\n| Uzbekistan             | 50                          | 37                                  |\n| Qatar                  | 55                          | 38                                  |\n| Iraq                   | 57                          | 39                                  |\n| South Africa           | 60                          | 40                                  |\n| Saudi Arabia           | 61                          | 41                                  |\n| Jordan                 | 63                          | 42                                  |\n| Bosnia and Herzegovina | 65                          | 43                                  |\n| Cabo Verde             | 69                          | 44                                  |\n| Ghana                  | 74                          | 45                                  |\n| Cura\u00e7ao                | 82                          | 46                                  |\n| Haiti                  | 83                          | 47                                  |\n| New Zealand            | 85                          | 48                                  |",
+  "fine_print": "The relative ranks are calculated based on the FIFA ranking as of May 1, 2026 and will not be updated based on games in May, June, or July.&#x20;\n\nIf the teams qualified to the World Cup change, the above table will be recalculated.",
+  "options": null,
+  "unit": "",
+  "close": "2026-06-27T05:00:00Z",
+  "resolve": "2026-06-28T05:00:00Z",
+  "crowd": null,
+  "range_min": 31.5,
+  "range_max": 48.5,
+  "open_lower": false,
+  "open_upper": false
+ }
+]

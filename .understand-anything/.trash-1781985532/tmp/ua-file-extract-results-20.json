@@ -1,0 +1,340 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 8,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": ".claude/commands/futureeval.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 54,
+      "nonEmptyLines": 43,
+      "sections": [
+        {
+          "heading": "/futureeval — Opus subagent council for the Metaculus FutureEval bot tournament",
+          "level": 1,
+          "line": 6
+        },
+        {
+          "heading": "Procedure",
+          "level": 2,
+          "line": 14
+        },
+        {
+          "heading": "Guardrails",
+          "level": 2,
+          "line": 48
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 3
+      }
+    },
+    {
+      "path": ".claude/commands/gate.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 39,
+      "nonEmptyLines": 30,
+      "sections": [
+        {
+          "heading": "/gate — is it priced in? (the test that defines the edge)",
+          "level": 1,
+          "line": 5
+        },
+        {
+          "heading": "Priced-in is MULTI-CHANNEL — never finance-only",
+          "level": 2,
+          "line": 9
+        },
+        {
+          "heading": "Physical-primary, financial-optional (locked rule)",
+          "level": 2,
+          "line": 23
+        },
+        {
+          "heading": "Procedure",
+          "level": 2,
+          "line": 26
+        },
+        {
+          "heading": "Output contract",
+          "level": 2,
+          "line": 32
+        },
+        {
+          "heading": "Hard rules",
+          "level": 2,
+          "line": 36
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 6
+      }
+    },
+    {
+      "path": ".claude/commands/goal.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 31,
+      "nonEmptyLines": 25,
+      "sections": [
+        {
+          "heading": "The mission",
+          "level": 1,
+          "line": 5
+        },
+        {
+          "heading": "THE BAR — read twice",
+          "level": 1,
+          "line": 8
+        },
+        {
+          "heading": "The data moat — we are NOT a prompt layer",
+          "level": 1,
+          "line": 15
+        },
+        {
+          "heading": "Distribution = content, zero AI trace",
+          "level": 1,
+          "line": 21
+        },
+        {
+          "heading": "How to behave (non-negotiable)",
+          "level": 1,
+          "line": 27
+        },
+        {
+          "heading": "Your move",
+          "level": 1,
+          "line": 30
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 6
+      }
+    },
+    {
+      "path": ".claude/commands/metaculus.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 44,
+      "nonEmptyLines": 36,
+      "sections": [
+        {
+          "heading": "/metaculus — keep the Opus forecasts winning",
+          "level": 1,
+          "line": 6
+        },
+        {
+          "heading": "1. Pull the worklist",
+          "level": 2,
+          "line": 10
+        },
+        {
+          "heading": "2. Forecast each, Opus-grade",
+          "level": 2,
+          "line": 17
+        },
+        {
+          "heading": "3. Write the slate",
+          "level": 2,
+          "line": 24
+        },
+        {
+          "heading": "4. Dry-run, then submit",
+          "level": 2,
+          "line": 27
+        },
+        {
+          "heading": "5. Update the scoreboard + report",
+          "level": 2,
+          "line": 34
+        },
+        {
+          "heading": "Notes",
+          "level": 2,
+          "line": 40
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 7
+      }
+    },
+    {
+      "path": ".claude/commands/needle.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 35,
+      "nonEmptyLines": 28,
+      "sections": [
+        {
+          "heading": "/needle — surface the structural forecast, show the why, let Ruben decide",
+          "level": 1,
+          "line": 5
+        },
+        {
+          "heading": "The trap this exists to kill",
+          "level": 2,
+          "line": 11
+        },
+        {
+          "heading": "Procedure (each step is an existing gate)",
+          "level": 2,
+          "line": 14
+        },
+        {
+          "heading": "Output contract — what you hand back",
+          "level": 2,
+          "line": 22
+        },
+        {
+          "heading": "Hard rules",
+          "level": 2,
+          "line": 32
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 5
+      }
+    },
+    {
+      "path": ".claude/commands/pope.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 49,
+      "nonEmptyLines": 37,
+      "sections": [
+        {
+          "heading": "/pope — predict where the future is heading",
+          "level": 1,
+          "line": 6
+        },
+        {
+          "heading": "1. Generate + harden (multi-agent)",
+          "level": 2,
+          "line": 12
+        },
+        {
+          "heading": "2. Write the spec to disk",
+          "level": 2,
+          "line": 26
+        },
+        {
+          "heading": "3. Render the PDF",
+          "level": 2,
+          "line": 31
+        },
+        {
+          "heading": "3b. Humanizer gate (mandatory before anything ships publicly)",
+          "level": 2,
+          "line": 38
+        },
+        {
+          "heading": "4. Report back",
+          "level": 2,
+          "line": 41
+        },
+        {
+          "heading": "Notes",
+          "level": 2,
+          "line": 44
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 7
+      }
+    },
+    {
+      "path": ".claude/commands/wildcard.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 39,
+      "nonEmptyLines": 31,
+      "sections": [
+        {
+          "heading": "/wildcard — diverge wide (the front door the gate can't see)",
+          "level": 1,
+          "line": 5
+        },
+        {
+          "heading": "The trap this exists to kill",
+          "level": 2,
+          "line": 9
+        },
+        {
+          "heading": "What's legitimate here (and punished nowhere)",
+          "level": 2,
+          "line": 12
+        },
+        {
+          "heading": "Procedure",
+          "level": 2,
+          "line": 22
+        },
+        {
+          "heading": "Output contract — what you hand back",
+          "level": 2,
+          "line": 28
+        },
+        {
+          "heading": "Hard rules",
+          "level": 2,
+          "line": 35
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 6
+      }
+    },
+    {
+      "path": ".claude/commands/world-graph.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 17,
+      "nonEmptyLines": 11,
+      "sections": [
+        {
+          "heading": "/world-graph",
+          "level": 1,
+          "line": 1
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 1
+      }
+    }
+  ]
+}

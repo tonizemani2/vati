@@ -1,0 +1,116 @@
+{
+  "id": "G26",
+  "title": "AI Workflow Operations certificate: turn routine coordinators into workflow-integration owners before the 2030 postings reset",
+  "jobs_that_die_or_shrink": [
+    {"job": "Administrative coordinator / office coordinator", "shrink_mechanism": "Calendaring, meeting notes, routing, reminders, file prep, basic email drafting, and status chasing collapse into AI copilots embedded in office suites.", "2030_signal": "Posting share for generic coordinator/admin titles without systems, automation, data, or workflow ownership falls at least 25% from a 2026 baseline."},
+    {"job": "Project coordinator focused on updates and task chasing", "shrink_mechanism": "PM tools increasingly generate status summaries, dependency alerts, agendas, follow-ups, and stakeholder nudges directly from work logs.", "2030_signal": "Surviving postings ask for workflow design, risk escalation, automation QA, and cross-tool governance rather than meeting logistics alone."},
+    {"job": "Scheduling / intake / routing coordinator", "shrink_mechanism": "Voice, chat, forms, and calendar agents handle first-pass intake, triage, slot finding, reminders, and CRM/ticket creation.", "2030_signal": "Demand shifts toward exception handling, service design, data quality, and human escalation for regulated or high-empathy cases."},
+    {"job": "HR, recruiting, and customer-success coordinator", "shrink_mechanism": "Routine candidate/customer communications, FAQ handling, onboarding checklists, and record updates become agent-assisted workflows.", "2030_signal": "The lower-value title shrinks while PeopleOps/RevOps workflow owners who audit AI outputs and maintain system rules gain premium."},
+    {"job": "Data-entry, order-processing, and document-control coordinator", "shrink_mechanism": "OCR, extraction, RPA, and LLM-assisted validation absorb form-to-system transfer work.", "2030_signal": "Manual keying declines; work concentrates in exception queues, master-data stewardship, integration testing, and audit trails."}
+  ],
+  "jobs_high_demand_underpriced": [
+    {"job": "AI Workflow Operations Specialist", "why_underpriced": "Employers need the role before they know the title; it often hides inside admin, ops, RevOps, HR ops, or project coordinator postings.", "premium_source": "Owns the workflow map, AI use-case intake, automation backlog, acceptance tests, SOPs, controls, and adoption metrics."},
+    {"job": "Agent / automation supervisor", "why_underpriced": "Middle-skill workers can supervise business agents without becoming software engineers if they understand exceptions, permissions, and quality checks.", "premium_source": "Reduces manager load while preventing bad autonomous actions, broken handoffs, and silent data errors."},
+    {"job": "CRM / ERP / HRIS workflow integrator", "why_underpriced": "Companies have SaaS stacks but lack operators who can connect forms, tickets, records, approvals, and AI summaries across tools.", "premium_source": "Creates measurable cycle-time savings and better data hygiene without waiting on scarce engineering capacity."},
+    {"job": "AI governance operations associate", "why_underpriced": "AI risk work is framed as legal or data science, but daily controls need operators who keep inventories, approvals, logs, vendor records, and incident playbooks current.", "premium_source": "Turns NIST/ISO-style governance into repeatable operating procedure."},
+    {"job": "Knowledge operations / RAG coordinator", "why_underpriced": "Most teams do not need another chatbot; they need clean source-of-truth content, access rules, refresh cadence, and answer-quality evaluation.", "premium_source": "Raises AI reliability by improving the business knowledge layer."}
+  ],
+  "who_to_retrain": [
+    {"cohort": "Incumbent admins, coordinators, executive assistants, office managers, and business-ops associates", "selection_filter": "Strong judgment, spreadsheet comfort, process memory, stakeholder trust, and willingness to own a measurable workflow."},
+    {"cohort": "Project, customer-success, HR, recruiting, procurement, healthcare admin, legal admin, and finance-ops coordinators", "selection_filter": "Domain context plus recurring handoffs, approvals, records, and exception queues that can be redesigned."},
+    {"cohort": "Community-college and adult-learner students with office, retail lead, call-center, military admin, or nonprofit operations experience", "selection_filter": "Baseline digital fluency, clear writing, service mindset, and ability to document work."},
+    {"cohort": "Do not prioritize", "selection_filter": "Learners seeking only prompt tricks, fully remote passive clerical work, or a shortcut into data science without operational ownership."}
+  ],
+  "education_program_design": {
+    "credential": "16-week AI Workflow Operations certificate, stackable into business operations, project management, IT support, or applied AI pathways.",
+    "target_role": "A middle-skill operator who can map, improve, automate, monitor, and govern everyday business workflows using AI-enabled tools.",
+    "entry_requirements": "High school diploma or equivalent, spreadsheet basics, workplace writing sample, and a short workflow-observation exercise.",
+    "delivery": "Hybrid evening/weekend model: 6 hours weekly instruction, 4 hours lab, 2 hours employer project work; accelerated 8-week incumbent option.",
+    "modules": [
+      "Workflow literacy: intake, handoffs, bottlenecks, RACI, service levels, failure modes, and as-is/to-be mapping.",
+      "AI tool fluency: prompts, copilots, retrieval, summarization, extraction, structured outputs, hallucination checks, and human review.",
+      "Data and knowledge operations: source-of-truth design, taxonomy, permissions, document hygiene, CRM/ticket fields, and refresh cadence.",
+      "No-code and low-code automation: forms, approvals, notifications, spreadsheet/database tables, Zapier/Make/Power Automate/n8n-style flows, and basic API concepts.",
+      "Business-system integration: CRM, HRIS, ERP, ticketing, calendar, email, docs, and project-management handoffs.",
+      "Agent controls: tool access, approval ladders, escalation, rollback, logs, exception queues, and monitoring.",
+      "AI risk and governance ops: NIST AI RMF basics, generative AI risks, ISO 42001 operating records, vendor intake, privacy, bias, IP, and incident documentation.",
+      "Change management: training users, writing SOPs, measuring adoption, handling resistance, and communicating saved time without promising job cuts.",
+      "Capstone: redesign one employer workflow and prove cycle-time, quality, adoption, and risk-control gains."
+    ],
+    "assessment": "Students pass by shipping a working sandbox workflow, a governance packet, a user-training artifact, and a live demo to employer reviewers.",
+    "tools_policy": "Vendor-neutral outcomes; labs may use Microsoft 365/Power Platform, Google Workspace, Salesforce/HubSpot, ServiceNow/Jira, Zapier/Make/n8n, Airtable/Smartsheet, and at least two frontier AI assistants.",
+    "credential_levels": ["Level 1: AI workflow assistant", "Level 2: AI workflow operations specialist", "Level 3: employer-sponsored integration capstone"]
+  },
+  "portfolio_artifacts": [
+    "AI use-case intake form with value, risk, data, owner, and approval fields.",
+    "As-is/to-be workflow map with bottleneck math and exception taxonomy.",
+    "Automation backlog ranked by time saved, risk, feasibility, and owner readiness.",
+    "Working sandbox automation connecting at least three tools, with test data and rollback notes.",
+    "Prompt and output-quality evaluation pack with golden examples, failure cases, and acceptance thresholds.",
+    "Knowledge-base cleanup plan for a department, including source owners and refresh cadence.",
+    "Agent-control design showing permissions, approval ladder, logs, escalation, and stop conditions.",
+    "SOP plus one-page user guide for the redesigned workflow.",
+    "ROI dashboard showing cycle time, rework, queue age, adoption, satisfaction, and risk events before/after.",
+    "Capstone video demo and employer-facing implementation memo."
+  ],
+  "employer_partners": {
+    "best_fit_segments": ["Healthcare administration", "insurance and financial services operations", "local government and public services", "higher education administration", "manufacturing back office", "logistics and supply-chain operations", "professional services", "nonprofit operations", "regional SMBs using Microsoft or Google plus CRM/ticketing tools"],
+    "partner_commitments": ["Provide one real workflow problem per student team", "Assign an operations sponsor and IT/security reviewer", "Share sanitized baseline metrics", "Review capstones", "Interview completers for workflow, ops, and systems coordinator roles"],
+    "tool_ecosystem_partners": ["Microsoft Power Platform / Copilot ecosystem", "Google Workspace / Gemini ecosystem", "Salesforce or HubSpot admins", "ServiceNow, Jira, Asana, monday.com, Smartsheet, Airtable", "Zapier, Make, Workato, UiPath, n8n", "local managed-service providers and automation consultants"],
+    "first_sales_pitch": "Sponsor this certificate to convert trusted coordinators into the people who keep AI workflows useful, auditable, and adopted."
+  },
+  "measurement_dashboard": {
+    "forecast_tests": [
+      {"metric": "Routine coordinator postings share index", "definition": "Set 2026Q3 = 100 for postings with coordinator/admin assistant/scheduler/project coordinator/operations coordinator titles and no AI, automation, systems, CRM, data, integration, analytics, or workflow ownership terms.", "2030_target": "<=75 by 2030-12-31"},
+      {"metric": "AI workflow operations postings index", "definition": "Postings combining business ops/admin/project/RevOps/PeopleOps terms with AI, automation, workflow, integration, CRM, agent, governance, or knowledge operations.", "2030_target": ">=300 versus 2026Q3 baseline"},
+      {"metric": "Middle-skill AI workflow wage premium", "definition": "Advertised wage premium versus matched routine coordinator postings in the same region and industry.", "2030_target": ">=15% sustained premium; strong signal if >=25%"}
+    ],
+    "program_outcomes": [
+      {"metric": "Completion", "target": ">=75% of enrolled learners finish the certificate."},
+      {"metric": "Placement or internal promotion", "target": ">=65% within 180 days into workflow ops, business systems, RevOps, PeopleOps, project ops, automation, or AI governance ops roles."},
+      {"metric": "Portfolio quality", "target": ">=80% of completers pass employer review on capstone usefulness, controls, and maintainability."},
+      {"metric": "Equity access", "target": "At least 50% of seats reserved for incumbent workers or learners without a bachelor's degree; publish outcomes by cohort."}
+    ],
+    "employer_roi": [
+      {"metric": "Cycle-time reduction", "target": "20% or better in capstone workflow within 90 days of implementation."},
+      {"metric": "Rework or error reduction", "target": "15% or better for document, ticket, intake, or record-update workflows."},
+      {"metric": "Adoption", "target": "70% weekly active use among intended workflow users after 60 days."},
+      {"metric": "Control reliability", "target": "100% of production workflows have named owner, log location, approval rule, rollback path, and quarterly review date."}
+    ],
+    "kill_or_revise_conditions": ["Routine coordinator postings share stays above 85 by 2030 despite AI adoption.", "AI workflow postings remain concentrated in software-engineering titles instead of middle-skill operations roles.", "Employer partners report no measurable ROI from student capstones after two cohorts.", "Regulatory or security restrictions prevent learners from building realistic workflow portfolios."]
+  },
+  "risks": [
+    {"risk": "Title drift hides the signal", "mitigation": "Track tasks and required skills, not only exact titles; separate generic coordinator postings from systems/workflow-owner postings."},
+    {"risk": "Certificate becomes a prompt-engineering short course", "mitigation": "Require working automations, metrics, governance records, and employer capstones."},
+    {"risk": "Employers use the program as layoff cover", "mitigation": "Frame as redeployment and productivity-sharing; require incumbent advancement targets in partner MOUs."},
+    {"risk": "IT/security blocks real tool access", "mitigation": "Use sandbox tenants, synthetic data, access-review labs, and security reviewer signoff."},
+    {"risk": "Vendor lock-in", "mitigation": "Teach transferable workflow patterns and require each student to explain how the build would translate to another stack."},
+    {"risk": "AI reliability failures damage trust", "mitigation": "Make evaluation packs, human approval, logs, and rollback mandatory portfolio artifacts."},
+    {"risk": "Premium collapses if tools become too easy", "mitigation": "Move curriculum up the stack toward process ownership, governance, exception design, data stewardship, and change management."}
+  ],
+  "messaging_for_students": {
+    "one_liner": "The checklist version of coordination is shrinking; the workflow-owner version is becoming more valuable.",
+    "positioning": "You do not need to become a software engineer. You need to become the person who knows the work, improves the handoff, supervises the AI, proves the savings, and keeps the process safe.",
+    "promise": "Graduate with a portfolio employers can inspect: a mapped workflow, a working automation, a quality test, a governance packet, and an ROI dashboard.",
+    "avoid": "Do not sell this as learning magic prompts or becoming an AI expert in 16 weeks. Sell it as practical operations ownership in an AI-enabled workplace.",
+    "student_copy": "If you are the person everyone already asks how the office really works, this certificate turns that invisible knowledge into a promoted role."
+  },
+  "sources_to_cite": [
+    {"name": "BLS Occupational Outlook Handbook: Office and Administrative Support Occupations", "url": "https://www.bls.gov/ooh/office-and-administrative-support/", "use": "Baseline decline pressure for office/admin support occupations and replacement-opening context."},
+    {"name": "BLS Employment Projections 2024-2034 news release PDF", "url": "https://www.bls.gov/news.release/pdf/ecopro.pdf", "use": "Official statement that automated systems, including AI, are expected to contribute to declining office/admin support employment."},
+    {"name": "BLS Occupational Outlook Handbook: Project Management Specialists", "url": "https://www.bls.gov/ooh/business-and-financial/project-management-specialists.htm", "use": "Growth anchor for the workflow/project-operations bridge."},
+    {"name": "BLS Occupational Outlook Handbook: Management Analysts", "url": "https://www.bls.gov/ooh/business-and-financial/management-analysts.htm", "use": "Growth anchor for process-improvement and operations-analysis adjacency."},
+    {"name": "Indeed: Surprise! The Skills That Matter Most in an AI Economy Aren't in Tech", "url": "https://www.indeed.com/lead/surprise-the-skills-that-matter-most-in-an-ai-economy-arent-in-tech", "use": "Business operations skills appear in nearly three-quarters of US postings; admin coordination remains valuable when paired with judgment."},
+    {"name": "Indeed Hiring Lab: AI at Work Report 2025", "url": "https://www.hiringlab.org/2025/09/23/ai-at-work-report-2025-how-genai-is-rewiring-the-dna-of-jobs/", "use": "Evidence that GenAI transforms how skills are performed rather than only replacing whole jobs."},
+    {"name": "PwC 2026 Global AI Jobs Barometer", "url": "https://www.pwc.com/gx/en/services/ai/ai-jobs-barometer.html", "use": "AI skills premium, fast-changing skills, and senior-skill pressure in AI-exposed junior roles."},
+    {"name": "Lightcast: Beyond the Buzz AI skills report press release", "url": "https://lightcast.io/resources/blog/beyond-the-buzz-press-release-2025-07-23", "use": "AI skills salary premium and evidence that AI demand is spreading outside IT."},
+    {"name": "Microsoft 2025 Work Trend Index", "url": "https://blogs.microsoft.com/blog/2025/04/23/the-2025-annual-work-trend-index-the-frontier-firm-is-born/", "use": "Agent-boss and human-agent team framing for the target role."},
+    {"name": "OpenAI, OpenResearch, and University of Pennsylvania: GPTs are GPTs", "url": "https://openai.com/index/gpts-are-gpts/", "use": "Task-exposure framing for LLM impact across the US workforce."},
+    {"name": "NIST AI Risk Management Framework", "url": "https://www.nist.gov/itl/ai-risk-management-framework", "use": "Governance foundation for AI workflow operations."},
+    {"name": "NIST AI RMF Generative AI Profile", "url": "https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-generative-artificial-intelligence", "use": "Generative-AI risk categories and suggested actions to turn into operating checklists."},
+    {"name": "ISO/IEC 42001:2023 AI management systems", "url": "https://www.iso.org/standard/42001", "use": "Management-system model for AI inventories, responsibilities, monitoring, and continuous improvement."},
+    {"name": "UC Berkeley CLTC Agentic AI Risk-Management Standards Profile", "url": "https://cltc.berkeley.edu/publication/agentic-ai-risk-profile/", "use": "Agent-specific controls around tool access, environment interaction, monitoring, and human accountability."},
+    {"name": "National Skills Coalition: Skills Mismatch", "url": "https://nationalskillscoalition.org/skills-mismatch/", "use": "Middle-skill framing: jobs requiring more than high school but less than a four-year degree."},
+    {"name": "National Skills Coalition and Federal Reserve Bank of Atlanta: Closing the Digital Skill Divide", "url": "https://nationalskillscoalition.org/news/press-releases/new-report-92-of-jobs-require-digital-skills-one-third-of-workers-have-low-or-no-digital-skills-due-to-historic-underinvestment-structural-inequities/", "use": "Digital-skill access rationale for community-college and incumbent-worker design."}
+  ]
+}

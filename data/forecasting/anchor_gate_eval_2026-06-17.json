@@ -1,0 +1,52 @@
+{
+  "accepted": {
+    "base_brier": 0.017242328951556186,
+    "n": 1976,
+    "new_gate_brier": 0.028867334812695784,
+    "new_minus_base": 0.011625005861139598,
+    "new_minus_old": 0.0,
+    "old_blend_brier": 0.028867334812695784
+  },
+  "all": {
+    "base_brier": 0.015751260280423916,
+    "n": 3139,
+    "new_gate_brier": 0.023069199618305995,
+    "new_minus_base": 0.007317939337882079,
+    "new_minus_old": -0.007273700605096599,
+    "old_blend_brier": 0.030342900223402594
+  },
+  "eligible_rows": 7094,
+  "new_accepts": 1976,
+  "new_rejects": 1163,
+  "old_accepted_pairs": 3139,
+  "reject_reasons": [
+    [
+      "year mismatch",
+      575
+    ],
+    [
+      "month/deadline mismatch",
+      343
+    ],
+    [
+      "money threshold mismatch",
+      174
+    ],
+    [
+      "percent threshold mismatch",
+      106
+    ],
+    [
+      "direction mismatch",
+      32
+    ]
+  ],
+  "rejected": {
+    "base_brier": 0.013217853836608463,
+    "n": 1163,
+    "new_gate_brier": 0.013217853836608463,
+    "new_minus_base": 0.0,
+    "new_minus_old": -0.019632111951331237,
+    "old_blend_brier": 0.0328499657879397
+  }
+}

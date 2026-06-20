@@ -1,0 +1,42 @@
+# protocol_structbench.yaml — the STRUCTURAL retro bench (pre-registration / seal)
+#
+# Purpose: a DEFENSIBLE, leak-free retro test of the forecasting FRAMEWORK on Class-1 structural
+# questions — immune to the two fair critiques of the earlier holdout ("you wrote the questions" and
+# "N=7"). The git commit of this file is the SEAL: the rule below is fixed BEFORE any model is scored,
+# so the threshold/universe cannot be tuned to flatter a result.
+#
+# Why it is defensible:
+#   1. EXTERNALLY GROUNDED — every question is a mechanical function of a public, dated series the
+#      engine already collected (FRED PPIs, UN/China Comtrade trade values, World Bank demographics,
+#      OWID energy/compute, Epoch compute). We do not author narratives.
+#   2. MECHANICAL RULE — one fixed rule + one fixed threshold applied to the WHOLE universe; no series
+#      is hand-picked, none dropped after seeing outcomes.
+#   3. OBJECTIVELY RESOLVED — the outcome is the realized value already in the DB.
+#   4. LEAK-FREE — the horizon value is determined AFTER the model's MEASURED cutoff (non-leading recall
+#      probe), and questions whose outcome predates the cutoff are excluded at run time.
+
+rule:
+  template: "As of end-{cutoff_year}, will <series> be >= (1 + threshold) x its end-{cutoff_year} level by end-{horizon}?"
+  cutoff_year: "2023"          # the model's knowledge horizon (the value it is told / knows)
+  horizons: ["2024", "2025"]   # outcome years (post-cutoff -> leak-free)
+  threshold: 0.05              # fixed +5% rise; same for every series
+  resolution: "realized value in data/foresight.db (last observation in the horizon year)"
+
+universe:
+  providers: [fred, comtrade_china, un_comtrade, owid, world_bank, epoch_ai]
+  selection: "ALL series under these providers that have BOTH an end-2023 and an end-horizon observation"
+  no_cherry_picking: true
+
+forecaster:
+  brain: "an OLD-cutoff model via OpenRouter (leak-free); the framework PROMPT = the 6-step superforecaster method"
+  note: "the frontier brain (Claude) cannot be retro-scored (parametric leakage); it is validated FORWARD only."
+
+scoring:
+  metric: "Brier"
+  baselines: ["always-base-rate", "always-0.5"]
+  claim: "BEATS the base-rate baseline on a leak-free, externally-grounded, mechanically-built set"
+
+caveats:
+  - "An old brain is a leak-free FLOOR, not the product's ceiling (Claude should beat it, forward)."
+  - "Annual series -> some horizons are strongly inertial; the hard cases are the policy/price breaks."
+  - "Construction template + universe are ours; defensibility rests on the rule being fixed + mechanical."

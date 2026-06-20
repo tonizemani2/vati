@@ -1,0 +1,1874 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 8,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "site/src/app/data/page.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 247,
+      "nonEmptyLines": 237,
+      "functions": [
+        {
+          "name": "DataPage",
+          "startLine": 83,
+          "endLine": 247,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "metadata",
+          "line": 72,
+          "isDefault": false
+        },
+        {
+          "name": "DataPage",
+          "line": 83,
+          "isDefault": true
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "DataPage",
+          "callee": "walk.map",
+          "lineNumber": 124
+        },
+        {
+          "caller": "DataPage",
+          "callee": "evidenceChecks.map",
+          "lineNumber": 150
+        },
+        {
+          "caller": "DataPage",
+          "callee": "sourceGroups.map",
+          "lineNumber": 208
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 2,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "site/src/app/forecasts/ai-campus-power-claims/page.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 402,
+      "nonEmptyLines": 385,
+      "functions": [
+        {
+          "name": "StatusPill",
+          "startLine": 166,
+          "endLine": 168,
+          "params": [
+            "{ children }"
+          ]
+        },
+        {
+          "name": "CampusPowerClaimsPage",
+          "startLine": 170,
+          "endLine": 402,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "metadata",
+          "line": 150,
+          "isDefault": false
+        },
+        {
+          "name": "CampusPowerClaimsPage",
+          "line": 170,
+          "isDefault": true
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "CampusPowerClaimsPage",
+          "callee": "DOCKETS.map",
+          "lineNumber": 288
+        },
+        {
+          "caller": "CampusPowerClaimsPage",
+          "callee": "PROJECTS.map",
+          "lineNumber": 313
+        },
+        {
+          "caller": "CampusPowerClaimsPage",
+          "callee": "TARGETS.map",
+          "lineNumber": 364
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 2,
+        "functionCount": 2,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "site/src/app/forecasts/page.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 380,
+      "nonEmptyLines": 364,
+      "functions": [
+        {
+          "name": "repoPath",
+          "startLine": 108,
+          "endLine": 110,
+          "params": [
+            "...parts"
+          ]
+        },
+        {
+          "name": "loadBoards",
+          "startLine": 112,
+          "endLine": 119,
+          "params": []
+        },
+        {
+          "name": "pct",
+          "startLine": 121,
+          "endLine": 124,
+          "params": [
+            "value"
+          ]
+        },
+        {
+          "name": "short",
+          "startLine": 126,
+          "endLine": 130,
+          "params": [
+            "text",
+            "limit"
+          ]
+        },
+        {
+          "name": "CallRow",
+          "startLine": 132,
+          "endLine": 143,
+          "params": [
+            "{ thesis }"
+          ]
+        },
+        {
+          "name": "ForecastsPage",
+          "startLine": 145,
+          "endLine": 380,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "metadata",
+          "line": 92,
+          "isDefault": false
+        },
+        {
+          "name": "ForecastsPage",
+          "line": 145,
+          "isDefault": true
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "repoPath",
+          "callee": "join",
+          "lineNumber": 109
+        },
+        {
+          "caller": "repoPath",
+          "callee": "process.cwd",
+          "lineNumber": 109
+        },
+        {
+          "caller": "loadBoards",
+          "callee": "BOARDS.map",
+          "lineNumber": 113
+        },
+        {
+          "caller": "loadBoards",
+          "callee": "JSON.parse",
+          "lineNumber": 114
+        },
+        {
+          "caller": "loadBoards",
+          "callee": "readFileSync",
+          "lineNumber": 115
+        },
+        {
+          "caller": "loadBoards",
+          "callee": "repoPath",
+          "lineNumber": 115
+        },
+        {
+          "caller": "pct",
+          "callee": "Number.isNaN",
+          "lineNumber": 122
+        },
+        {
+          "caller": "pct",
+          "callee": "Math.round",
+          "lineNumber": 123
+        },
+        {
+          "caller": "short",
+          "callee": "(text ?? \"\").replace(/\\s+/g, \" \").trim",
+          "lineNumber": 127
+        },
+        {
+          "caller": "short",
+          "callee": "(text ?? \"\").replace",
+          "lineNumber": 127
+        },
+        {
+          "caller": "short",
+          "callee": "clean.slice(0, limit).replace",
+          "lineNumber": 129
+        },
+        {
+          "caller": "short",
+          "callee": "clean.slice",
+          "lineNumber": 129
+        },
+        {
+          "caller": "CallRow",
+          "callee": "pct",
+          "lineNumber": 138
+        },
+        {
+          "caller": "ForecastsPage",
+          "callee": "loadBoards",
+          "lineNumber": 146
+        },
+        {
+          "caller": "ForecastsPage",
+          "callee": "boards.reduce",
+          "lineNumber": 147
+        },
+        {
+          "caller": "ForecastsPage",
+          "callee": "boards[0]?.theses.slice",
+          "lineNumber": 148
+        },
+        {
+          "caller": "ForecastsPage",
+          "callee": "leadCalls.map",
+          "lineNumber": 202
+        },
+        {
+          "caller": "ForecastsPage",
+          "callee": "boards.map",
+          "lineNumber": 290
+        },
+        {
+          "caller": "ForecastsPage",
+          "callee": "board.theses.slice",
+          "lineNumber": 291
+        },
+        {
+          "caller": "ForecastsPage",
+          "callee": "board.theses.slice",
+          "lineNumber": 292
+        },
+        {
+          "caller": "ForecastsPage",
+          "callee": "short",
+          "lineNumber": 307
+        },
+        {
+          "caller": "ForecastsPage",
+          "callee": "short",
+          "lineNumber": 311
+        },
+        {
+          "caller": "ForecastsPage",
+          "callee": "visible.map",
+          "lineNumber": 318
+        },
+        {
+          "caller": "ForecastsPage",
+          "callee": "rest.map",
+          "lineNumber": 330
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 2,
+        "functionCount": 6,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "site/src/app/page.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 27,
+      "nonEmptyLines": 26,
+      "functions": [
+        {
+          "name": "Home",
+          "startLine": 4,
+          "endLine": 27,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "Home",
+          "line": 4,
+          "isDefault": true
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "site/src/app/privacy-policy/page.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 87,
+      "nonEmptyLines": 80,
+      "functions": [
+        {
+          "name": "PrivacyPolicyPage",
+          "startLine": 14,
+          "endLine": 87,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "metadata",
+          "line": 5,
+          "isDefault": false
+        },
+        {
+          "name": "PrivacyPolicyPage",
+          "line": 14,
+          "isDefault": true
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 2,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "site/src/app/terms-of-service/page.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 79,
+      "nonEmptyLines": 72,
+      "functions": [
+        {
+          "name": "TermsOfServicePage",
+          "startLine": 14,
+          "endLine": 79,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "metadata",
+          "line": 5,
+          "isDefault": false
+        },
+        {
+          "name": "TermsOfServicePage",
+          "line": 14,
+          "isDefault": true
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 2,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "site/src/sections/SiteRuntime.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 655,
+      "nonEmptyLines": 630,
+      "functions": [
+        {
+          "name": "loadTurnstile",
+          "startLine": 43,
+          "endLine": 58,
+          "params": []
+        },
+        {
+          "name": "loadRive",
+          "startLine": 61,
+          "endLine": 75,
+          "params": []
+        },
+        {
+          "name": "initCalEmbed",
+          "startLine": 83,
+          "endLine": 133,
+          "params": []
+        },
+        {
+          "name": "SiteRuntime",
+          "startLine": 138,
+          "endLine": 655,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "SiteRuntime",
+          "line": 138,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "loadTurnstile",
+          "callee": "Promise.reject",
+          "lineNumber": 44
+        },
+        {
+          "caller": "loadTurnstile",
+          "callee": "Promise.resolve",
+          "lineNumber": 46
+        },
+        {
+          "caller": "loadTurnstile",
+          "callee": "document.createElement",
+          "lineNumber": 49
+        },
+        {
+          "caller": "loadTurnstile",
+          "callee": "resolve",
+          "lineNumber": 53
+        },
+        {
+          "caller": "loadTurnstile",
+          "callee": "reject",
+          "lineNumber": 53
+        },
+        {
+          "caller": "loadTurnstile",
+          "callee": "document.head.appendChild",
+          "lineNumber": 55
+        },
+        {
+          "caller": "loadRive",
+          "callee": "Promise.reject",
+          "lineNumber": 62
+        },
+        {
+          "caller": "loadRive",
+          "callee": "Promise.resolve",
+          "lineNumber": 64
+        },
+        {
+          "caller": "loadRive",
+          "callee": "document.createElement",
+          "lineNumber": 67
+        },
+        {
+          "caller": "loadRive",
+          "callee": "resolve",
+          "lineNumber": 70
+        },
+        {
+          "caller": "loadRive",
+          "callee": "reject",
+          "lineNumber": 70
+        },
+        {
+          "caller": "loadRive",
+          "callee": "document.head.appendChild",
+          "lineNumber": 72
+        },
+        {
+          "caller": "initCalEmbed",
+          "callee": "document.querySelector",
+          "lineNumber": 85
+        },
+        {
+          "caller": "initCalEmbed",
+          "callee": "(function (C: any, A: string, L: string) {\n    const p = (a: any, ar: any) => {\n      a.q.push(ar);\n    };\n    const d = C.document;\n    C.Cal =\n      C.Cal ||\n      function () {\n        const cal = C.Cal;\n        // eslint-disable-next-line prefer-rest-params\n        const ar = arguments as unknown as any[];\n        if (!cal.loaded) {\n          cal.ns = {};\n          cal.q = cal.q || [];\n          d.head.appendChild(d.createElement(\"script\")).src = A;\n          cal.loaded = true;\n        }\n        if (ar[0] === L) {\n          const api = function () {\n            // eslint-disable-next-line prefer-rest-params\n            p(api, arguments as unknown as any[]);\n          } as any;\n          const namespace = ar[1];\n          api.q = api.q || [];\n          if (typeof namespace === \"string\") {\n            cal.ns[namespace] = cal.ns[namespace] || api;\n            p(cal.ns[namespace], ar);\n            p(cal, [\"initNamespace\", namespace]);\n          } else p(cal, ar);\n          return;\n        }\n        p(cal, ar);\n      };\n  })",
+          "lineNumber": 88
+        },
+        {
+          "caller": "p",
+          "callee": "a.q.push",
+          "lineNumber": 90
+        },
+        {
+          "caller": "initCalEmbed",
+          "callee": "d.head.appendChild",
+          "lineNumber": 102
+        },
+        {
+          "caller": "initCalEmbed",
+          "callee": "d.createElement",
+          "lineNumber": 102
+        },
+        {
+          "caller": "initCalEmbed",
+          "callee": "p",
+          "lineNumber": 108
+        },
+        {
+          "caller": "initCalEmbed",
+          "callee": "p",
+          "lineNumber": 114
+        },
+        {
+          "caller": "initCalEmbed",
+          "callee": "p",
+          "lineNumber": 115
+        },
+        {
+          "caller": "initCalEmbed",
+          "callee": "p",
+          "lineNumber": 116
+        },
+        {
+          "caller": "initCalEmbed",
+          "callee": "p",
+          "lineNumber": 119
+        },
+        {
+          "caller": "initCalEmbed",
+          "callee": "Cal",
+          "lineNumber": 123
+        },
+        {
+          "caller": "initCalEmbed",
+          "callee": "Cal.ns[\"30min\"]",
+          "lineNumber": 126
+        },
+        {
+          "caller": "initCalEmbed",
+          "callee": "Cal.ns[\"30min\"]",
+          "lineNumber": 131
+        },
+        {
+          "caller": "SiteRuntime",
+          "callee": "useEffect",
+          "lineNumber": 139
+        },
+        {
+          "caller": "SiteRuntime",
+          "callee": "document.querySelectorAll",
+          "lineNumber": 143
+        },
+        {
+          "caller": "SiteRuntime",
+          "callee": "loadRive()\n        .then((R) => {\n          R.RuntimeLoader.setWasmUrl(\"/rive/rive.wasm\");\n          riveHosts.forEach((host) => {\n           try {\n            const src = host.dataset.riveUrl;\n            if (!src) return;\n            // The captured fragment embeds the original (now-empty) Rive canvas;\n            // remove it before mounting a fresh, runtime-driven one.\n            host.querySelectorAll(\"canvas\").forEach((c) => c.remove());\n            const canvas = document.createElement(\"canvas\");\n            canvas.style.width = \"100%\";\n            canvas.style.height = \"100%\";\n            canvas.style.display = \"block\";\n            host.appendChild(canvas);\n            const stateMachine = host.dataset.riveStateMachine || undefined;\n            // The \"main\" state machine starts on an empty state: fire \"start\"\n            // to play the build, then the viewport trigger (\"desktop\"/\"mobile\")\n            // to pick the layout (matches the live Webflow Rive integration).\n            const playDiagram = () => {\n              if (!stateMachine) return;\n              const inputs = rive.stateMachineInputs(stateMachine) || [];\n              const fire = (n: string) => {\n                const i = inputs.find((x) => x.name === n);\n                if (i && typeof i.fire === \"function\") i.fire();\n              };\n              fire(\"start\");\n              const want = window.innerWidth >= 992 ? \"desktop\" : \"mobile\";\n              const t = setTimeout(() => fire(want), 150);\n              cleanups.push(() => clearTimeout(t));\n            };\n            const rive = new R.Rive({\n              src,\n              canvas,\n              autoplay: host.dataset.riveAutoplay !== \"false\",\n              stateMachines: stateMachine,\n              artboard: host.dataset.riveArtboard || undefined,\n              layout: new R.Layout({\n                fit: R.Fit.Contain,\n                alignment: R.Alignment.Center,\n              }),\n              onLoad: () => {\n                rive.resizeDrawingSurfaceToCanvas();\n                playDiagram();\n              },\n            });\n            const onResize = () => rive.resizeDrawingSurfaceToCanvas();\n            window.addEventListener(\"resize\", onResize);\n            cleanups.push(() => {\n              window.removeEventListener(\"resize\", onResize);\n              try {\n                rive.cleanup();\n              } catch {\n                /* noop */\n              }\n              canvas.remove();\n            });\n           } catch {\n             /* a single illustration failing must not break the rest of the runtime */\n           }\n          });\n        })\n        .catch",
+          "lineNumber": 147
+        },
+        {
+          "caller": "SiteRuntime",
+          "callee": "loadRive()\n        .then",
+          "lineNumber": 147
+        },
+        {
+          "caller": "SiteRuntime",
+          "callee": "loadRive",
+          "lineNumber": 147
+        },
+        {
+          "caller": "SiteRuntime",
+          "callee": "R.RuntimeLoader.setWasmUrl",
+          "lineNumber": 149
+        },
+        {
+          "caller": "SiteRuntime",
+          "callee": "riveHosts.forEach",
+          "lineNumber": 150
+        },
+        {
+          "caller": "SiteRuntime",
+          "callee": "host.querySelectorAll(\"canvas\").forEach",
+          "lineNumber": 156
+        },
+        {
+          "caller": "SiteRuntime",
+          "callee": "host.querySelectorAll",
+          "lineNumber": 156
+        },
+        {
+          "caller": "SiteRuntime",
+          "callee": "c.remove",
+          "lineNumber": 156
+        },
+        {
+          "caller": "SiteRuntime",
+          "callee": "document.createElement",
+          "lineNumber": 157
+        },
+        {
+          "caller": "SiteRuntime",
+          "callee": "host.appendChild",
+          "lineNumber": 161
+        },
+        {
+          "caller": "playDiagram",
+          "callee": "rive.stateMachineInputs",
+          "lineNumber": 168
+        },
+        {
+          "caller": "fire",
+          "callee": "inputs.find",
+          "lineNumber": 170
+        },
+        {
+          "caller": "fire",
+          "callee": "i.fire",
+          "lineNumber": 171
+        },
+        {
+          "caller": "playDiagram",
+          "callee": "fire",
+          "lineNumber": 173
+        },
+        {
+          "caller": "playDiagram",
+          "callee": "setTimeout",
+          "lineNumber": 175
+        },
+        {
+          "caller": "playDiagram",
+          "callee": "fire",
+          "lineNumber": 175
+        },
+        {
+          "caller": "playDiagram",
+          "callee": "cleanups.push",
+          "lineNumber": 176
+        },
+        {
+          "caller": "playDiagram",
+          "callee": "clearTimeout",
+          "lineNumber": 176
+        },
+        {
+          "caller": "SiteRuntime",
+          "callee": "rive.resizeDrawingSurfaceToCanvas",
+          "lineNumber": 189
+        },
+        {
+          "caller": "SiteRuntime",
+          "callee": "playDiagram",
+          "lineNumber": 190
+        },
+        {
+          "caller": "onResize",
+          "callee": "rive.resizeDrawingSurfaceToCanvas",
+          "lineNumber": 193
+        },
+        {
+          "caller": "SiteRuntime",
+          "callee": "window.addEventListener",
+          "lineNumber": 194
+        },
+        {
+          "caller": "SiteRuntime",
+          "callee": "cleanups.push",
+          "lineNumber": 195
+        },
+        {
+          "caller": "SiteRuntime",
+          "callee": "window.removeEventListener",
+          "lineNumber": 196
+        },
+        {
+          "caller": "SiteRuntime",
+          "callee": "rive.cleanup",
+          "lineNumber": 198
+        },
+        {
+          "caller": "SiteRuntime",
+          "callee": "canvas.remove",
+          "lineNumber": 202
+        },
+        {
+          "caller": "resetSwiper",
+          "callee": "root.querySelector",
+          "lineNumber": 218
+        },
+        {
+          "caller": "resetSwiper",
+          "callee": "wrapper.removeAttribute",
+          "lineNumber": 219
+        },
+        {
+          "caller": "resetSwiper",
+          "callee": "root\n        .querySelectorAll<HTMLElement>(\".swiper-slide\")\n        .forEach",
+          "lineNumber": 220
+        },
+        {
+          "caller": "resetSwiper",
+          "callee": "root\n        .querySelectorAll",
+          "lineNumber": 220
+        },
+        {
+          "caller": "resetSwiper",
+          "callee": "s.removeAttribute",
+          "lineNumber": 222
+        },
+        {
+          "caller": "resetSwiper",
+          "callee": "document.querySelector",
+          "lineNumber": 223
+        },
+        {
+          "caller": "makeSwiper",
+          "callee": "document.querySelector",
+          "lineNumber": 234
+        },
+        {
+          "caller": "makeSwiper",
+          "callee": "resetSwiper",
+          "lineNumber": 236
+        },
+        {
+          "caller": "SiteRuntime",
+          "callee": "makeSwiper",
+          "lineNumber": 250
+        },
+        {
+          "caller": "SiteRuntime",
+          "callee": "makeSwiper",
+          "lineNumber": 256
+        },
+        {
+          "caller": "SiteRuntime",
+          "callee": "makeSwiper",
+          "lineNumber": 263
+        },
+        {
+          "caller": "SiteRuntime",
+          "callee": "[sampleSwiper, solutionSwiper, usecaseSwiper].forEach",
+          "lineNumber": 269
+        },
+        {
+          "caller": "SiteRuntime",
+          "callee": "cleanups.push",
+          "lineNumber": 270
+        },
+        {
+          "caller": "SiteRuntime",
+          "callee": "s?.destroy",
+          "lineNumber": 270
+        },
+        {
+          "caller": "setupReveal",
+          "callee": "document.querySelector",
+          "lineNumber": 279
+        },
+        {
+          "caller": "setupReveal",
+          "callee": "Array.from",
+          "lineNumber": 281
+        },
+        {
+          "caller": "setupReveal",
+          "callee": "section.querySelectorAll",
+          "lineNumber": 282
+        },
+        {
+          "caller": "setupReveal",
+          "callee": "cards.forEach",
+          "lineNumber": 285
+        },
+        {
+          "caller": "reveal",
+          "callee": "cards.forEach",
+          "lineNumber": 294
+        },
+        {
+          "caller": "reveal",
+          "callee": "setTimeout",
+          "lineNumber": 295
+        },
+        {
+          "caller": "reveal",
+          "callee": "cleanups.push",
+          "lineNumber": 298
+        },
+        {
+          "caller": "reveal",
+          "callee": "clearTimeout",
+          "lineNumber": 298
+        },
+        {
+          "caller": "reveal",
+          "callee": "io?.disconnect",
+          "lineNumber": 300
+        },
+        {
+          "caller": "reveal",
+          "callee": "clearTimeout",
+          "lineNumber": 301
+        },
+        {
+          "caller": "setupReveal",
+          "callee": "entries.some",
+          "lineNumber": 307
+        },
+        {
+          "caller": "setupReveal",
+          "callee": "reveal",
+          "lineNumber": 307
+        },
+        {
+          "caller": "setupReveal",
+          "callee": "io.observe",
+          "lineNumber": 312
+        },
+        {
+          "caller": "setupReveal",
+          "callee": "reveal",
+          "lineNumber": 313
+        },
+        {
+          "caller": "setupReveal",
+          "callee": "setTimeout",
+          "lineNumber": 315
+        },
+        {
+          "caller": "setupReveal",
+          "callee": "cleanups.push",
+          "lineNumber": 316
+        },
+        {
+          "caller": "setupReveal",
+          "callee": "io?.disconnect",
+          "lineNumber": 317
+        },
+        {
+          "caller": "setupReveal",
+          "callee": "clearTimeout",
+          "lineNumber": 318
+        },
+        {
+          "caller": "SiteRuntime",
+          "callee": "setupReveal",
+          "lineNumber": 321
+        },
+        {
+          "caller": "SiteRuntime",
+          "callee": "setupReveal",
+          "lineNumber": 322
+        },
+        {
+          "caller": "SiteRuntime",
+          "callee": "setupReveal",
+          "lineNumber": 323
+        },
+        {
+          "caller": "wireFilter",
+          "callee": "document.querySelectorAll",
+          "lineNumber": 333
+        },
+        {
+          "caller": "wireFilter",
+          "callee": "document.querySelectorAll",
+          "lineNumber": 334
+        },
+        {
+          "caller": "wireFilter",
+          "callee": "tabs.forEach",
+          "lineNumber": 335
+        },
+        {
+          "caller": "onClick",
+          "callee": "tabs.forEach",
+          "lineNumber": 339
+        },
+        {
+          "caller": "onClick",
+          "callee": "x.classList.remove",
+          "lineNumber": 339
+        },
+        {
+          "caller": "onClick",
+          "callee": "current.classList.add",
+          "lineNumber": 340
+        },
+        {
+          "caller": "onClick",
+          "callee": "cards.forEach",
+          "lineNumber": 342
+        },
+        {
+          "caller": "onClick",
+          "callee": "cards.forEach",
+          "lineNumber": 344
+        },
+        {
+          "caller": "onClick",
+          "callee": "c.querySelectorAll",
+          "lineNumber": 345
+        },
+        {
+          "caller": "onClick",
+          "callee": "Array.from(tags).some",
+          "lineNumber": 346
+        },
+        {
+          "caller": "onClick",
+          "callee": "Array.from",
+          "lineNumber": 346
+        },
+        {
+          "caller": "onClick",
+          "callee": "swiper?.update",
+          "lineNumber": 352
+        },
+        {
+          "caller": "wireFilter",
+          "callee": "tab.addEventListener",
+          "lineNumber": 354
+        },
+        {
+          "caller": "wireFilter",
+          "callee": "cleanups.push",
+          "lineNumber": 355
+        },
+        {
+          "caller": "wireFilter",
+          "callee": "tab.removeEventListener",
+          "lineNumber": 355
+        },
+        {
+          "caller": "SiteRuntime",
+          "callee": "wireFilter",
+          "lineNumber": 358
+        },
+        {
+          "caller": "SiteRuntime",
+          "callee": "wireFilter",
+          "lineNumber": 365
+        },
+        {
+          "caller": "SiteRuntime",
+          "callee": "document.querySelector",
+          "lineNumber": 374
+        },
+        {
+          "caller": "openContact",
+          "callee": "contactModal?.classList.add",
+          "lineNumber": 376
+        },
+        {
+          "caller": "openContact",
+          "callee": "document.body.classList.add",
+          "lineNumber": 377
+        },
+        {
+          "caller": "closeContact",
+          "callee": "contactModal?.classList.remove",
+          "lineNumber": 380
+        },
+        {
+          "caller": "closeContact",
+          "callee": "document.body.classList.remove",
+          "lineNumber": 381
+        },
+        {
+          "caller": "closeContact",
+          "callee": "contactModal?.classList.remove",
+          "lineNumber": 383
+        },
+        {
+          "caller": "closeContact",
+          "callee": "contactModal?.querySelector",
+          "lineNumber": 384
+        },
+        {
+          "caller": "closeContact",
+          "callee": "contactModal?.querySelector",
+          "lineNumber": 387
+        },
+        {
+          "caller": "SiteRuntime",
+          "callee": "document.querySelectorAll<HTMLElement>(\"[data-contact]\").forEach",
+          "lineNumber": 391
+        },
+        {
+          "caller": "SiteRuntime",
+          "callee": "document.querySelectorAll",
+          "lineNumber": 391
+        },
+        {
+          "caller": "SiteRuntime",
+          "callee": "b.addEventListener",
+          "lineNumber": 392
+        },
+        {
+          "caller": "SiteRuntime",
+          "callee": "cleanups.push",
+          "lineNumber": 393
+        },
+        {
+          "caller": "SiteRuntime",
+          "callee": "b.removeEventListener",
+          "lineNumber": 393
+        },
+        {
+          "caller": "SiteRuntime",
+          "callee": "document\n      .querySelectorAll<HTMLElement>(\".contact-modal-close, .contact-modal-bg\")\n      .forEach",
+          "lineNumber": 395
+        },
+        {
+          "caller": "SiteRuntime",
+          "callee": "document\n      .querySelectorAll",
+          "lineNumber": 395
+        },
+        {
+          "caller": "SiteRuntime",
+          "callee": "b.addEventListener",
+          "lineNumber": 398
+        },
+        {
+          "caller": "SiteRuntime",
+          "callee": "cleanups.push",
+          "lineNumber": 399
+        },
+        {
+          "caller": "SiteRuntime",
+          "callee": "b.removeEventListener",
+          "lineNumber": 399
+        },
+        {
+          "caller": "SiteRuntime",
+          "callee": "document.querySelector",
+          "lineNumber": 406
+        },
+        {
+          "caller": "SiteRuntime",
+          "callee": "contactForm.closest",
+          "lineNumber": 410
+        },
+        {
+          "caller": "SiteRuntime",
+          "callee": "formWrap?.querySelector",
+          "lineNumber": 411
+        },
+        {
+          "caller": "SiteRuntime",
+          "callee": "formWrap?.querySelector",
+          "lineNumber": 412
+        },
+        {
+          "caller": "SiteRuntime",
+          "callee": "contactForm.querySelector",
+          "lineNumber": 413
+        },
+        {
+          "caller": "SiteRuntime",
+          "callee": "contactForm.querySelector",
+          "lineNumber": 416
+        },
+        {
+          "caller": "SiteRuntime",
+          "callee": "contactForm.querySelector",
+          "lineNumber": 419
+        },
+        {
+          "caller": "SiteRuntime",
+          "callee": "contactForm.querySelector",
+          "lineNumber": 422
+        },
+        {
+          "caller": "SiteRuntime",
+          "callee": "String",
+          "lineNumber": 425
+        },
+        {
+          "caller": "SiteRuntime",
+          "callee": "Date.now",
+          "lineNumber": 425
+        },
+        {
+          "caller": "resetTurnstile",
+          "callee": "(window as unknown as { turnstile: TurnstileGlobal }).turnstile.reset",
+          "lineNumber": 430
+        },
+        {
+          "caller": "SiteRuntime",
+          "callee": "loadTurnstile()\n          .then((turnstile) => {\n            if (turnstileWidget) return;\n            turnstileWidget = turnstile.render(turnstileBox, {\n              sitekey: TURNSTILE_SITE_KEY,\n              theme: \"auto\",\n              callback: (token) => {\n                turnstileField.value = token;\n              },\n              \"expired-callback\": () => {\n                turnstileField.value = \"\";\n              },\n              \"error-callback\": () => {\n                turnstileField.value = \"\";\n              },\n            });\n          })\n          .catch",
+          "lineNumber": 436
+        },
+        {
+          "caller": "SiteRuntime",
+          "callee": "loadTurnstile()\n          .then",
+          "lineNumber": 436
+        },
+        {
+          "caller": "SiteRuntime",
+          "callee": "loadTurnstile",
+          "lineNumber": 436
+        },
+        {
+          "caller": "SiteRuntime",
+          "callee": "turnstile.render",
+          "lineNumber": 439
+        },
+        {
+          "caller": "onSubmit",
+          "callee": "e.preventDefault",
+          "lineNumber": 459
+        },
+        {
+          "caller": "onSubmit",
+          "callee": "Object.fromEntries",
+          "lineNumber": 470
+        },
+        {
+          "caller": "onSubmit",
+          "callee": "new FormData(contactForm).entries",
+          "lineNumber": 471
+        },
+        {
+          "caller": "onSubmit",
+          "callee": "fetch",
+          "lineNumber": 473
+        },
+        {
+          "caller": "onSubmit",
+          "callee": "JSON.stringify",
+          "lineNumber": 476
+        },
+        {
+          "caller": "onSubmit",
+          "callee": "contactModal?.classList.add",
+          "lineNumber": 482
+        },
+        {
+          "caller": "onSubmit",
+          "callee": "initCalEmbed",
+          "lineNumber": 483
+        },
+        {
+          "caller": "onSubmit",
+          "callee": "resetTurnstile",
+          "lineNumber": 485
+        },
+        {
+          "caller": "SiteRuntime",
+          "callee": "contactForm.addEventListener",
+          "lineNumber": 494
+        },
+        {
+          "caller": "SiteRuntime",
+          "callee": "cleanups.push",
+          "lineNumber": 495
+        },
+        {
+          "caller": "SiteRuntime",
+          "callee": "contactForm.removeEventListener",
+          "lineNumber": 495
+        },
+        {
+          "caller": "SiteRuntime",
+          "callee": "document.querySelector",
+          "lineNumber": 499
+        },
+        {
+          "caller": "SiteRuntime",
+          "callee": "sampleqsModal.querySelectorAll",
+          "lineNumber": 501
+        },
+        {
+          "caller": "resetItems",
+          "callee": "items.forEach",
+          "lineNumber": 505
+        },
+        {
+          "caller": "SiteRuntime",
+          "callee": "resetItems",
+          "lineNumber": 506
+        },
+        {
+          "caller": "SiteRuntime",
+          "callee": "document\n        .querySelectorAll<HTMLElement>(\"[data-samplemodal]\")\n        .forEach",
+          "lineNumber": 507
+        },
+        {
+          "caller": "SiteRuntime",
+          "callee": "document\n        .querySelectorAll",
+          "lineNumber": 507
+        },
+        {
+          "caller": "onOpen",
+          "callee": "items.forEach",
+          "lineNumber": 512
+        },
+        {
+          "caller": "onOpen",
+          "callee": "sampleqsModal.classList.add",
+          "lineNumber": 515
+        },
+        {
+          "caller": "onOpen",
+          "callee": "document.body.classList.add",
+          "lineNumber": 516
+        },
+        {
+          "caller": "SiteRuntime",
+          "callee": "btn.addEventListener",
+          "lineNumber": 518
+        },
+        {
+          "caller": "SiteRuntime",
+          "callee": "cleanups.push",
+          "lineNumber": 519
+        },
+        {
+          "caller": "SiteRuntime",
+          "callee": "btn.removeEventListener",
+          "lineNumber": 519
+        },
+        {
+          "caller": "SiteRuntime",
+          "callee": "document\n        .querySelectorAll<HTMLElement>(\n          \".sampleqs-modal-close, .sampleqs-modal-bg, .sampleqs-modal-footer\",\n        )\n        .forEach",
+          "lineNumber": 521
+        },
+        {
+          "caller": "SiteRuntime",
+          "callee": "document\n        .querySelectorAll",
+          "lineNumber": 521
+        },
+        {
+          "caller": "onClose",
+          "callee": "e.stopPropagation",
+          "lineNumber": 527
+        },
+        {
+          "caller": "onClose",
+          "callee": "sampleqsModal.classList.remove",
+          "lineNumber": 528
+        },
+        {
+          "caller": "onClose",
+          "callee": "resetItems",
+          "lineNumber": 529
+        },
+        {
+          "caller": "onClose",
+          "callee": "document.body.classList.remove",
+          "lineNumber": 530
+        },
+        {
+          "caller": "SiteRuntime",
+          "callee": "btn.addEventListener",
+          "lineNumber": 532
+        },
+        {
+          "caller": "SiteRuntime",
+          "callee": "cleanups.push",
+          "lineNumber": 533
+        },
+        {
+          "caller": "SiteRuntime",
+          "callee": "btn.removeEventListener",
+          "lineNumber": 533
+        },
+        {
+          "caller": "SiteRuntime",
+          "callee": "sampleqsModal\n        .querySelectorAll<HTMLElement>(\".sampleqs-modal-accordion\")\n        .forEach",
+          "lineNumber": 537
+        },
+        {
+          "caller": "SiteRuntime",
+          "callee": "sampleqsModal\n        .querySelectorAll",
+          "lineNumber": 537
+        },
+        {
+          "caller": "SiteRuntime",
+          "callee": "acc.querySelector",
+          "lineNumber": 540
+        },
+        {
+          "caller": "SiteRuntime",
+          "callee": "acc.classList.contains",
+          "lineNumber": 548
+        },
+        {
+          "caller": "SiteRuntime",
+          "callee": "setMax",
+          "lineNumber": 548
+        },
+        {
+          "caller": "SiteRuntime",
+          "callee": "acc.querySelector",
+          "lineNumber": 549
+        },
+        {
+          "caller": "onToggle",
+          "callee": "acc.classList.toggle",
+          "lineNumber": 552
+        },
+        {
+          "caller": "onToggle",
+          "callee": "setMax",
+          "lineNumber": 553
+        },
+        {
+          "caller": "onToggle",
+          "callee": "acc.classList.contains",
+          "lineNumber": 553
+        },
+        {
+          "caller": "SiteRuntime",
+          "callee": "tab.addEventListener",
+          "lineNumber": 555
+        },
+        {
+          "caller": "SiteRuntime",
+          "callee": "cleanups.push",
+          "lineNumber": 556
+        },
+        {
+          "caller": "SiteRuntime",
+          "callee": "tab.removeEventListener",
+          "lineNumber": 556
+        },
+        {
+          "caller": "SiteRuntime",
+          "callee": "document.querySelector",
+          "lineNumber": 561
+        },
+        {
+          "caller": "SiteRuntime",
+          "callee": "vidModal?.querySelector",
+          "lineNumber": 562
+        },
+        {
+          "caller": "SiteRuntime",
+          "callee": "document.querySelectorAll<HTMLElement>(\"[data-video]\").forEach",
+          "lineNumber": 564
+        },
+        {
+          "caller": "SiteRuntime",
+          "callee": "document.querySelectorAll",
+          "lineNumber": 564
+        },
+        {
+          "caller": "onPlay",
+          "callee": "vidModal.classList.add",
+          "lineNumber": 568
+        },
+        {
+          "caller": "onPlay",
+          "callee": "videoElem.play().catch",
+          "lineNumber": 569
+        },
+        {
+          "caller": "onPlay",
+          "callee": "videoElem.play",
+          "lineNumber": 569
+        },
+        {
+          "caller": "SiteRuntime",
+          "callee": "slide.addEventListener",
+          "lineNumber": 571
+        },
+        {
+          "caller": "SiteRuntime",
+          "callee": "cleanups.push",
+          "lineNumber": 572
+        },
+        {
+          "caller": "SiteRuntime",
+          "callee": "slide.removeEventListener",
+          "lineNumber": 572
+        },
+        {
+          "caller": "SiteRuntime",
+          "callee": "vidModal.querySelector",
+          "lineNumber": 574
+        },
+        {
+          "caller": "onCloseVid",
+          "callee": "vidModal.classList.remove",
+          "lineNumber": 576
+        },
+        {
+          "caller": "SiteRuntime",
+          "callee": "close?.addEventListener",
+          "lineNumber": 579
+        },
+        {
+          "caller": "SiteRuntime",
+          "callee": "cleanups.push",
+          "lineNumber": 580
+        },
+        {
+          "caller": "SiteRuntime",
+          "callee": "close?.removeEventListener",
+          "lineNumber": 580
+        },
+        {
+          "caller": "SiteRuntime",
+          "callee": "sessionStorage.getItem",
+          "lineNumber": 584
+        },
+        {
+          "caller": "SiteRuntime",
+          "callee": "document.documentElement.classList.add",
+          "lineNumber": 585
+        },
+        {
+          "caller": "SiteRuntime",
+          "callee": "document\n      .querySelectorAll<HTMLElement>(\".nav_banner_close_wrap\")\n      .forEach",
+          "lineNumber": 587
+        },
+        {
+          "caller": "SiteRuntime",
+          "callee": "document\n      .querySelectorAll",
+          "lineNumber": 587
+        },
+        {
+          "caller": "onClose",
+          "callee": "sessionStorage.setItem",
+          "lineNumber": 591
+        },
+        {
+          "caller": "onClose",
+          "callee": "document.documentElement.classList.add",
+          "lineNumber": 592
+        },
+        {
+          "caller": "SiteRuntime",
+          "callee": "button.addEventListener",
+          "lineNumber": 594
+        },
+        {
+          "caller": "SiteRuntime",
+          "callee": "cleanups.push",
+          "lineNumber": 595
+        },
+        {
+          "caller": "SiteRuntime",
+          "callee": "button.removeEventListener",
+          "lineNumber": 595
+        },
+        {
+          "caller": "SiteRuntime",
+          "callee": "document\n      .querySelectorAll<HTMLElement>(\".clickable_wrap\")\n      .forEach",
+          "lineNumber": 603
+        },
+        {
+          "caller": "SiteRuntime",
+          "callee": "document\n      .querySelectorAll",
+          "lineNumber": 603
+        },
+        {
+          "caller": "SiteRuntime",
+          "callee": "wrap.querySelector",
+          "lineNumber": 606
+        },
+        {
+          "caller": "SiteRuntime",
+          "callee": "wrap.querySelector",
+          "lineNumber": 607
+        },
+        {
+          "caller": "SiteRuntime",
+          "callee": "a.getAttribute",
+          "lineNumber": 609
+        },
+        {
+          "caller": "go",
+          "callee": "e.preventDefault",
+          "lineNumber": 612
+        },
+        {
+          "caller": "go",
+          "callee": "a.click",
+          "lineNumber": 613
+        },
+        {
+          "caller": "SiteRuntime",
+          "callee": "btn.addEventListener",
+          "lineNumber": 615
+        },
+        {
+          "caller": "SiteRuntime",
+          "callee": "cleanups.push",
+          "lineNumber": 616
+        },
+        {
+          "caller": "SiteRuntime",
+          "callee": "btn.removeEventListener",
+          "lineNumber": 616
+        },
+        {
+          "caller": "SiteRuntime",
+          "callee": "document\n      .querySelectorAll<HTMLElement>(\".nav_wrap.is-mobile .nav_btn_wrap\")\n      .forEach",
+          "lineNumber": 620
+        },
+        {
+          "caller": "SiteRuntime",
+          "callee": "document\n      .querySelectorAll",
+          "lineNumber": 620
+        },
+        {
+          "caller": "SiteRuntime",
+          "callee": "btn.closest",
+          "lineNumber": 623
+        },
+        {
+          "caller": "SiteRuntime",
+          "callee": "nav.querySelector",
+          "lineNumber": 625
+        },
+        {
+          "caller": "setOpen",
+          "callee": "Math.round",
+          "lineNumber": 629
+        },
+        {
+          "caller": "setOpen",
+          "callee": "nav.getBoundingClientRect",
+          "lineNumber": 629
+        },
+        {
+          "caller": "setOpen",
+          "callee": "nav.classList.toggle",
+          "lineNumber": 631
+        },
+        {
+          "caller": "setOpen",
+          "callee": "btn.classList.toggle",
+          "lineNumber": 632
+        },
+        {
+          "caller": "setOpen",
+          "callee": "btn.setAttribute",
+          "lineNumber": 633
+        },
+        {
+          "caller": "setOpen",
+          "callee": "String",
+          "lineNumber": 633
+        },
+        {
+          "caller": "setOpen",
+          "callee": "document.documentElement.classList.toggle",
+          "lineNumber": 634
+        },
+        {
+          "caller": "onToggle",
+          "callee": "setOpen",
+          "lineNumber": 636
+        },
+        {
+          "caller": "onToggle",
+          "callee": "nav.classList.contains",
+          "lineNumber": 636
+        },
+        {
+          "caller": "SiteRuntime",
+          "callee": "btn.addEventListener",
+          "lineNumber": 637
+        },
+        {
+          "caller": "SiteRuntime",
+          "callee": "cleanups.push",
+          "lineNumber": 638
+        },
+        {
+          "caller": "SiteRuntime",
+          "callee": "btn.removeEventListener",
+          "lineNumber": 638
+        },
+        {
+          "caller": "SiteRuntime",
+          "callee": "nav\n          .querySelectorAll<HTMLElement>(\n            \".nav_links_link, .nav_links_link-2, .nav_menu_backdrop\",\n          )\n          .forEach",
+          "lineNumber": 640
+        },
+        {
+          "caller": "SiteRuntime",
+          "callee": "nav\n          .querySelectorAll",
+          "lineNumber": 640
+        },
+        {
+          "caller": "onClose",
+          "callee": "setOpen",
+          "lineNumber": 645
+        },
+        {
+          "caller": "SiteRuntime",
+          "callee": "c.addEventListener",
+          "lineNumber": 646
+        },
+        {
+          "caller": "SiteRuntime",
+          "callee": "cleanups.push",
+          "lineNumber": 647
+        },
+        {
+          "caller": "SiteRuntime",
+          "callee": "c.removeEventListener",
+          "lineNumber": 647
+        },
+        {
+          "caller": "SiteRuntime",
+          "callee": "cleanups.forEach",
+          "lineNumber": 651
+        },
+        {
+          "caller": "SiteRuntime",
+          "callee": "fn",
+          "lineNumber": 651
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 4,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "site/src/sections/raw.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 211,
+      "nonEmptyLines": 197,
+      "functions": [
+        {
+          "name": "escapeRegExp",
+          "startLine": 117,
+          "endLine": 119,
+          "params": [
+            "value"
+          ]
+        },
+        {
+          "name": "setAttribute",
+          "startLine": 121,
+          "endLine": 127,
+          "params": [
+            "tag",
+            "attr",
+            "value"
+          ]
+        },
+        {
+          "name": "applyImageSeoFixes",
+          "startLine": 129,
+          "endLine": 143,
+          "params": [
+            "html"
+          ]
+        },
+        {
+          "name": "repairResearchFragment",
+          "startLine": 145,
+          "endLine": 155,
+          "params": [
+            "html"
+          ]
+        },
+        {
+          "name": "enhanceFragment",
+          "startLine": 157,
+          "endLine": 191,
+          "params": [
+            "name",
+            "html"
+          ]
+        },
+        {
+          "name": "loadFragment",
+          "startLine": 196,
+          "endLine": 202,
+          "params": [
+            "name"
+          ]
+        },
+        {
+          "name": "RawSection",
+          "startLine": 204,
+          "endLine": 211,
+          "params": [
+            "{ name }"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "loadFragment",
+          "line": 196,
+          "isDefault": false
+        },
+        {
+          "name": "RawSection",
+          "line": 204,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "escapeRegExp",
+          "callee": "value.replace",
+          "lineNumber": 118
+        },
+        {
+          "caller": "setAttribute",
+          "callee": "attrPattern.test",
+          "lineNumber": 123
+        },
+        {
+          "caller": "setAttribute",
+          "callee": "tag.replace",
+          "lineNumber": 124
+        },
+        {
+          "caller": "setAttribute",
+          "callee": "tag.replace",
+          "lineNumber": 126
+        },
+        {
+          "caller": "applyImageSeoFixes",
+          "callee": "IMAGE_SEO_FIXES.reduce",
+          "lineNumber": 130
+        },
+        {
+          "caller": "applyImageSeoFixes",
+          "callee": "escapeRegExp",
+          "lineNumber": 132
+        },
+        {
+          "caller": "applyImageSeoFixes",
+          "callee": "current.replace",
+          "lineNumber": 135
+        },
+        {
+          "caller": "applyImageSeoFixes",
+          "callee": "setAttribute",
+          "lineNumber": 136
+        },
+        {
+          "caller": "applyImageSeoFixes",
+          "callee": "setAttribute",
+          "lineNumber": 137
+        },
+        {
+          "caller": "applyImageSeoFixes",
+          "callee": "setAttribute",
+          "lineNumber": 138
+        },
+        {
+          "caller": "applyImageSeoFixes",
+          "callee": "setAttribute",
+          "lineNumber": 139
+        },
+        {
+          "caller": "repairResearchFragment",
+          "callee": "html\n    .replace(\n      '</a></div></div></div></div></div><div data-wf--spacer--section-space=\"small\"',\n      '</a></div></div></div></div><div data-wf--spacer--section-space=\"small\"',\n    )\n    .replace",
+          "lineNumber": 146
+        },
+        {
+          "caller": "repairResearchFragment",
+          "callee": "html\n    .replace",
+          "lineNumber": 146
+        },
+        {
+          "caller": "enhanceFragment",
+          "callee": "applyImageSeoFixes",
+          "lineNumber": 158
+        },
+        {
+          "caller": "enhanceFragment",
+          "callee": "repairResearchFragment",
+          "lineNumber": 159
+        },
+        {
+          "caller": "enhanceFragment",
+          "callee": "enhanced.replace",
+          "lineNumber": 163
+        },
+        {
+          "caller": "enhanceFragment",
+          "callee": "enhanced.replace",
+          "lineNumber": 167
+        },
+        {
+          "caller": "enhanceFragment",
+          "callee": "enhanced.includes",
+          "lineNumber": 171
+        },
+        {
+          "caller": "enhanceFragment",
+          "callee": "enhanced.replace",
+          "lineNumber": 172
+        },
+        {
+          "caller": "enhanceFragment",
+          "callee": "enhanced.replace",
+          "lineNumber": 177
+        },
+        {
+          "caller": "enhanceFragment",
+          "callee": "enhanced.includes",
+          "lineNumber": 183
+        },
+        {
+          "caller": "enhanceFragment",
+          "callee": "enhanced.replace",
+          "lineNumber": 184
+        },
+        {
+          "caller": "loadFragment",
+          "callee": "readFileSync",
+          "lineNumber": 197
+        },
+        {
+          "caller": "loadFragment",
+          "callee": "join",
+          "lineNumber": 198
+        },
+        {
+          "caller": "loadFragment",
+          "callee": "process.cwd",
+          "lineNumber": 198
+        },
+        {
+          "caller": "loadFragment",
+          "callee": "enhanceFragment",
+          "lineNumber": 201
+        },
+        {
+          "caller": "RawSection",
+          "callee": "loadFragment",
+          "lineNumber": 208
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 2,
+        "functionCount": 7,
+        "classCount": 0
+      }
+    }
+  ]
+}

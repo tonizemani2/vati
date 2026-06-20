@@ -1,0 +1,1395 @@
+{
+  "nodes": [
+    {
+      "id": "file:chat/src/app/api/messages/route.ts",
+      "type": "file",
+      "name": "route.ts",
+      "filePath": "chat/src/app/api/messages/route.ts",
+      "summary": "route.ts is a code asset in the chat surface. It contains 1 function, 3 internal imports.",
+      "tags": [
+        "chat",
+        "code",
+        "file",
+        "route"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:chat/src/app/api/messages/route.ts:POST",
+      "type": "function",
+      "name": "POST",
+      "filePath": "chat/src/app/api/messages/route.ts",
+      "lineRange": [
+        10,
+        48
+      ],
+      "summary": "Defines POST in route.ts, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "route"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:chat/src/app/api/portal/route.ts",
+      "type": "file",
+      "name": "route.ts",
+      "filePath": "chat/src/app/api/portal/route.ts",
+      "summary": "route.ts is a code asset in the chat surface. It contains 2 functions, 4 internal imports.",
+      "tags": [
+        "chat",
+        "code",
+        "file",
+        "route"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:chat/src/app/api/portal/route.ts:POST",
+      "type": "function",
+      "name": "POST",
+      "filePath": "chat/src/app/api/portal/route.ts",
+      "lineRange": [
+        10,
+        38
+      ],
+      "summary": "Defines POST in route.ts, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "route"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:chat/src/app/api/record/route.ts",
+      "type": "file",
+      "name": "route.ts",
+      "filePath": "chat/src/app/api/record/route.ts",
+      "summary": "route.ts is a code asset in the chat surface. It contains 2 functions, 1 internal import.",
+      "tags": [
+        "chat",
+        "code",
+        "file",
+        "route"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:chat/src/app/api/record/route.ts:GET",
+      "type": "function",
+      "name": "GET",
+      "filePath": "chat/src/app/api/record/route.ts",
+      "lineRange": [
+        7,
+        32
+      ],
+      "summary": "Defines GET in route.ts, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "route"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:chat/src/app/api/stripe/webhook/route.ts",
+      "type": "file",
+      "name": "route.ts",
+      "filePath": "chat/src/app/api/stripe/webhook/route.ts",
+      "summary": "route.ts is a code asset in the chat surface. It contains 1 function, 2 internal imports.",
+      "tags": [
+        "chat",
+        "code",
+        "file",
+        "route"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:chat/src/app/api/stripe/webhook/route.ts:POST",
+      "type": "function",
+      "name": "POST",
+      "filePath": "chat/src/app/api/stripe/webhook/route.ts",
+      "lineRange": [
+        12,
+        108
+      ],
+      "summary": "Defines POST in route.ts, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "route"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:chat/src/lib/auth.ts",
+      "type": "file",
+      "name": "auth.ts",
+      "filePath": "chat/src/lib/auth.ts",
+      "summary": "auth.ts is a code asset in the chat surface. It contains 8 functions.",
+      "tags": [
+        "chat",
+        "code",
+        "file",
+        "auth"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:chat/src/lib/auth.ts:authEnabled",
+      "type": "function",
+      "name": "authEnabled",
+      "filePath": "chat/src/lib/auth.ts",
+      "lineRange": [
+        12,
+        14
+      ],
+      "summary": "Defines authEnabled in auth.ts, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "auth"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:chat/src/lib/auth.ts:getUserId",
+      "type": "function",
+      "name": "getUserId",
+      "filePath": "chat/src/lib/auth.ts",
+      "lineRange": [
+        27,
+        40
+      ],
+      "summary": "Defines getUserId in auth.ts, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "auth"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:chat/src/lib/auth.ts:viewAsUser",
+      "type": "function",
+      "name": "viewAsUser",
+      "filePath": "chat/src/lib/auth.ts",
+      "lineRange": [
+        56,
+        58
+      ],
+      "summary": "Defines viewAsUser in auth.ts, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "auth"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:chat/src/lib/auth.ts:resolveCaller",
+      "type": "function",
+      "name": "resolveCaller",
+      "filePath": "chat/src/lib/auth.ts",
+      "lineRange": [
+        75,
+        96
+      ],
+      "summary": "Defines resolveCaller in auth.ts, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "auth"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:chat/src/lib/auth.ts:badOrigin",
+      "type": "function",
+      "name": "badOrigin",
+      "filePath": "chat/src/lib/auth.ts",
+      "lineRange": [
+        106,
+        124
+      ],
+      "summary": "Defines badOrigin in auth.ts, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "auth"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:chat/src/lib/capture.ts",
+      "type": "file",
+      "name": "capture.ts",
+      "filePath": "chat/src/lib/capture.ts",
+      "summary": "capture.ts is a code asset in the chat surface. It contains 4 functions, 3 internal imports.",
+      "tags": [
+        "chat",
+        "code",
+        "file",
+        "capture"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:chat/src/lib/capture.ts:completeJSON",
+      "type": "function",
+      "name": "completeJSON",
+      "filePath": "chat/src/lib/capture.ts",
+      "lineRange": [
+        102,
+        141
+      ],
+      "summary": "Defines completeJSON in capture.ts, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "capture"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:chat/src/lib/capture.ts:extractJson",
+      "type": "function",
+      "name": "extractJson",
+      "filePath": "chat/src/lib/capture.ts",
+      "lineRange": [
+        146,
+        172
+      ],
+      "summary": "Defines extractJson in capture.ts, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "capture"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:chat/src/lib/capture.ts:coercePlan",
+      "type": "function",
+      "name": "coercePlan",
+      "filePath": "chat/src/lib/capture.ts",
+      "lineRange": [
+        176,
+        211
+      ],
+      "summary": "Defines coercePlan in capture.ts, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "capture"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:chat/src/lib/capture.ts:runCapture",
+      "type": "function",
+      "name": "runCapture",
+      "filePath": "chat/src/lib/capture.ts",
+      "lineRange": [
+        214,
+        284
+      ],
+      "summary": "Defines runCapture in capture.ts, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entry-point",
+        "capture"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:chat/src/lib/council.ts",
+      "type": "file",
+      "name": "council.ts",
+      "filePath": "chat/src/lib/council.ts",
+      "summary": "council.ts is a code asset in the chat surface. It contains 3 functions, 4 internal imports.",
+      "tags": [
+        "chat",
+        "code",
+        "file",
+        "council"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:chat/src/lib/council.ts:complete",
+      "type": "function",
+      "name": "complete",
+      "filePath": "chat/src/lib/council.ts",
+      "lineRange": [
+        81,
+        154
+      ],
+      "summary": "Defines complete in council.ts, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "council"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:chat/src/lib/council.ts:runCouncil",
+      "type": "function",
+      "name": "runCouncil",
+      "filePath": "chat/src/lib/council.ts",
+      "lineRange": [
+        165,
+        340
+      ],
+      "summary": "Defines runCouncil in council.ts, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entry-point",
+        "council"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:chat/src/lib/credits.ts",
+      "type": "file",
+      "name": "credits.ts",
+      "filePath": "chat/src/lib/credits.ts",
+      "summary": "credits.ts is a code asset in the chat surface. It contains 7 functions, 2 internal imports.",
+      "tags": [
+        "chat",
+        "code",
+        "file",
+        "credits"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:chat/src/lib/credits.ts:ensureAndRoll",
+      "type": "function",
+      "name": "ensureAndRoll",
+      "filePath": "chat/src/lib/credits.ts",
+      "lineRange": [
+        33,
+        46
+      ],
+      "summary": "Defines ensureAndRoll in credits.ts, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "credits"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:chat/src/lib/credits.ts:getAccount",
+      "type": "function",
+      "name": "getAccount",
+      "filePath": "chat/src/lib/credits.ts",
+      "lineRange": [
+        51,
+        67
+      ],
+      "summary": "Defines getAccount in credits.ts, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "credits"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:chat/src/lib/credits.ts:consume",
+      "type": "function",
+      "name": "consume",
+      "filePath": "chat/src/lib/credits.ts",
+      "lineRange": [
+        70,
+        129
+      ],
+      "summary": "Defines consume in credits.ts, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "credits"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:chat/src/lib/credits.ts:addCredits",
+      "type": "function",
+      "name": "addCredits",
+      "filePath": "chat/src/lib/credits.ts",
+      "lineRange": [
+        133,
+        152
+      ],
+      "summary": "Defines addCredits in credits.ts, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "credits"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:chat/src/lib/credits.ts:upsertSubscription",
+      "type": "function",
+      "name": "upsertSubscription",
+      "filePath": "chat/src/lib/credits.ts",
+      "lineRange": [
+        166,
+        190
+      ],
+      "summary": "Defines upsertSubscription in credits.ts, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "credits"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:chat/src/lib/credits.ts:getSubscriptionByCustomer",
+      "type": "function",
+      "name": "getSubscriptionByCustomer",
+      "filePath": "chat/src/lib/credits.ts",
+      "lineRange": [
+        193,
+        201
+      ],
+      "summary": "Defines getSubscriptionByCustomer in credits.ts, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "credits"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:chat/src/lib/credits.ts:getActiveSubscription",
+      "type": "function",
+      "name": "getActiveSubscription",
+      "filePath": "chat/src/lib/credits.ts",
+      "lineRange": [
+        204,
+        213
+      ],
+      "summary": "Defines getActiveSubscription in credits.ts, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "credits"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:chat/src/lib/dataLayer.ts",
+      "type": "file",
+      "name": "dataLayer.ts",
+      "filePath": "chat/src/lib/dataLayer.ts",
+      "summary": "dataLayer.ts is a code asset in the chat surface. It contains 6 functions.",
+      "tags": [
+        "chat",
+        "code",
+        "file",
+        "datalayer"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:chat/src/lib/dataLayer.ts:dataLayerEnabled",
+      "type": "function",
+      "name": "dataLayerEnabled",
+      "filePath": "chat/src/lib/dataLayer.ts",
+      "lineRange": [
+        25,
+        27
+      ],
+      "summary": "Defines dataLayerEnabled in dataLayer.ts, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "datalayer"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:chat/src/lib/dataLayer.ts:askDataLayer",
+      "type": "function",
+      "name": "askDataLayer",
+      "filePath": "chat/src/lib/dataLayer.ts",
+      "lineRange": [
+        33,
+        60
+      ],
+      "summary": "Defines askDataLayer in dataLayer.ts, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "datalayer"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:chat/src/lib/dataLayer.ts:askDataLayerAgentic",
+      "type": "function",
+      "name": "askDataLayerAgentic",
+      "filePath": "chat/src/lib/dataLayer.ts",
+      "lineRange": [
+        70,
+        133
+      ],
+      "summary": "Defines askDataLayerAgentic in dataLayer.ts, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "datalayer"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:chat/src/lib/dataLayer.ts:groundDeep",
+      "type": "function",
+      "name": "groundDeep",
+      "filePath": "chat/src/lib/dataLayer.ts",
+      "lineRange": [
+        139,
+        146
+      ],
+      "summary": "Defines groundDeep in dataLayer.ts, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "datalayer"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:chat/src/app/api/messages/route.ts",
+      "target": "function:chat/src/app/api/messages/route.ts:POST",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:chat/src/app/api/messages/route.ts",
+      "target": "function:chat/src/app/api/messages/route.ts:POST",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:chat/src/app/api/portal/route.ts",
+      "target": "function:chat/src/app/api/portal/route.ts:POST",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:chat/src/app/api/portal/route.ts",
+      "target": "function:chat/src/app/api/portal/route.ts:POST",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:chat/src/app/api/record/route.ts",
+      "target": "function:chat/src/app/api/record/route.ts:GET",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:chat/src/app/api/record/route.ts",
+      "target": "function:chat/src/app/api/record/route.ts:GET",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:chat/src/app/api/stripe/webhook/route.ts",
+      "target": "function:chat/src/app/api/stripe/webhook/route.ts:POST",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:chat/src/app/api/stripe/webhook/route.ts",
+      "target": "function:chat/src/app/api/stripe/webhook/route.ts:POST",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:chat/src/lib/auth.ts",
+      "target": "function:chat/src/lib/auth.ts:authEnabled",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:chat/src/lib/auth.ts",
+      "target": "function:chat/src/lib/auth.ts:authEnabled",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:chat/src/lib/auth.ts",
+      "target": "function:chat/src/lib/auth.ts:getUserId",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:chat/src/lib/auth.ts",
+      "target": "function:chat/src/lib/auth.ts:getUserId",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:chat/src/lib/auth.ts",
+      "target": "function:chat/src/lib/auth.ts:viewAsUser",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:chat/src/lib/auth.ts",
+      "target": "function:chat/src/lib/auth.ts:viewAsUser",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:chat/src/lib/auth.ts",
+      "target": "function:chat/src/lib/auth.ts:resolveCaller",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:chat/src/lib/auth.ts",
+      "target": "function:chat/src/lib/auth.ts:resolveCaller",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:chat/src/lib/auth.ts",
+      "target": "function:chat/src/lib/auth.ts:badOrigin",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:chat/src/lib/auth.ts",
+      "target": "function:chat/src/lib/auth.ts:badOrigin",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:chat/src/lib/capture.ts",
+      "target": "function:chat/src/lib/capture.ts:completeJSON",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:chat/src/lib/capture.ts",
+      "target": "function:chat/src/lib/capture.ts:extractJson",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:chat/src/lib/capture.ts",
+      "target": "function:chat/src/lib/capture.ts:coercePlan",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:chat/src/lib/capture.ts",
+      "target": "function:chat/src/lib/capture.ts:runCapture",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:chat/src/lib/capture.ts",
+      "target": "function:chat/src/lib/capture.ts:runCapture",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:chat/src/lib/council.ts",
+      "target": "function:chat/src/lib/council.ts:complete",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:chat/src/lib/council.ts",
+      "target": "function:chat/src/lib/council.ts:runCouncil",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:chat/src/lib/council.ts",
+      "target": "function:chat/src/lib/council.ts:runCouncil",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:chat/src/lib/credits.ts",
+      "target": "function:chat/src/lib/credits.ts:ensureAndRoll",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:chat/src/lib/credits.ts",
+      "target": "function:chat/src/lib/credits.ts:getAccount",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:chat/src/lib/credits.ts",
+      "target": "function:chat/src/lib/credits.ts:getAccount",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:chat/src/lib/credits.ts",
+      "target": "function:chat/src/lib/credits.ts:consume",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:chat/src/lib/credits.ts",
+      "target": "function:chat/src/lib/credits.ts:consume",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:chat/src/lib/credits.ts",
+      "target": "function:chat/src/lib/credits.ts:addCredits",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:chat/src/lib/credits.ts",
+      "target": "function:chat/src/lib/credits.ts:addCredits",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:chat/src/lib/credits.ts",
+      "target": "function:chat/src/lib/credits.ts:upsertSubscription",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:chat/src/lib/credits.ts",
+      "target": "function:chat/src/lib/credits.ts:upsertSubscription",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:chat/src/lib/credits.ts",
+      "target": "function:chat/src/lib/credits.ts:getSubscriptionByCustomer",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:chat/src/lib/credits.ts",
+      "target": "function:chat/src/lib/credits.ts:getSubscriptionByCustomer",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:chat/src/lib/credits.ts",
+      "target": "function:chat/src/lib/credits.ts:getActiveSubscription",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:chat/src/lib/credits.ts",
+      "target": "function:chat/src/lib/credits.ts:getActiveSubscription",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:chat/src/lib/dataLayer.ts",
+      "target": "function:chat/src/lib/dataLayer.ts:dataLayerEnabled",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:chat/src/lib/dataLayer.ts",
+      "target": "function:chat/src/lib/dataLayer.ts:dataLayerEnabled",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:chat/src/lib/dataLayer.ts",
+      "target": "function:chat/src/lib/dataLayer.ts:askDataLayer",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:chat/src/lib/dataLayer.ts",
+      "target": "function:chat/src/lib/dataLayer.ts:askDataLayer",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:chat/src/lib/dataLayer.ts",
+      "target": "function:chat/src/lib/dataLayer.ts:askDataLayerAgentic",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:chat/src/lib/dataLayer.ts",
+      "target": "function:chat/src/lib/dataLayer.ts:askDataLayerAgentic",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:chat/src/lib/dataLayer.ts",
+      "target": "function:chat/src/lib/dataLayer.ts:groundDeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:chat/src/lib/dataLayer.ts",
+      "target": "function:chat/src/lib/dataLayer.ts:groundDeep",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:chat/src/app/api/messages/route.ts",
+      "target": "file:chat/src/lib/auth.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:chat/src/app/api/messages/route.ts",
+      "target": "file:chat/src/lib/db.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:chat/src/app/api/messages/route.ts",
+      "target": "file:chat/src/lib/security.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:chat/src/app/api/portal/route.ts",
+      "target": "file:chat/src/lib/auth.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:chat/src/app/api/portal/route.ts",
+      "target": "file:chat/src/lib/credits.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:chat/src/app/api/portal/route.ts",
+      "target": "file:chat/src/lib/security.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:chat/src/app/api/portal/route.ts",
+      "target": "file:chat/src/lib/stripe.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:chat/src/app/api/record/route.ts",
+      "target": "file:chat/src/lib/db.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:chat/src/app/api/stripe/webhook/route.ts",
+      "target": "file:chat/src/lib/credits.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:chat/src/app/api/stripe/webhook/route.ts",
+      "target": "file:chat/src/lib/stripe.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:chat/src/lib/capture.ts",
+      "target": "file:chat/src/lib/dataLayer.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:chat/src/lib/capture.ts",
+      "target": "file:chat/src/lib/model.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:chat/src/lib/capture.ts",
+      "target": "file:chat/src/lib/research.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:chat/src/lib/council.ts",
+      "target": "file:chat/src/lib/dataLayer.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:chat/src/lib/council.ts",
+      "target": "file:chat/src/lib/market.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:chat/src/lib/council.ts",
+      "target": "file:chat/src/lib/model.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:chat/src/lib/council.ts",
+      "target": "file:chat/src/lib/research.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:chat/src/lib/credits.ts",
+      "target": "file:chat/src/lib/db.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:chat/src/lib/credits.ts",
+      "target": "file:chat/src/lib/owner.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "function:chat/src/app/api/messages/route.ts:POST",
+      "target": "function:chat/src/lib/auth.ts:badOrigin",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/src/app/api/messages/route.ts:POST",
+      "target": "function:chat/src/lib/security.ts:edgeRateLimit",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/src/app/api/messages/route.ts:POST",
+      "target": "function:chat/src/lib/auth.ts:resolveCaller",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/src/app/api/messages/route.ts:POST",
+      "target": "function:chat/src/lib/db.ts:dbConfigured",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/src/app/api/messages/route.ts:POST",
+      "target": "function:chat/src/lib/db.ts:conversationOwnedBy",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/src/app/api/messages/route.ts:POST",
+      "target": "function:chat/src/lib/db.ts:addMessage",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/src/app/api/portal/route.ts:POST",
+      "target": "function:chat/src/lib/auth.ts:badOrigin",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/src/app/api/portal/route.ts:POST",
+      "target": "function:chat/src/lib/security.ts:edgeRateLimit",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/src/app/api/portal/route.ts:POST",
+      "target": "function:chat/src/lib/auth.ts:getUserId",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/src/app/api/portal/route.ts:POST",
+      "target": "function:chat/src/lib/stripe.ts:stripeConfigured",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/src/app/api/portal/route.ts:POST",
+      "target": "function:chat/src/lib/credits.ts:getActiveSubscription",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/src/app/api/portal/route.ts:POST",
+      "target": "function:chat/src/lib/stripe.ts:stripe",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/src/app/api/record/route.ts:GET",
+      "target": "function:chat/src/lib/db.ts:dbConfigured",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/src/app/api/record/route.ts:GET",
+      "target": "function:chat/src/lib/db.ts:getForwardCalls",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/src/app/api/stripe/webhook/route.ts:POST",
+      "target": "function:chat/src/lib/stripe.ts:stripeConfigured",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/src/app/api/stripe/webhook/route.ts:POST",
+      "target": "function:chat/src/lib/stripe.ts:stripe",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/src/app/api/stripe/webhook/route.ts:POST",
+      "target": "function:chat/src/lib/credits.ts:upsertSubscription",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/src/app/api/stripe/webhook/route.ts:POST",
+      "target": "function:chat/src/lib/credits.ts:addCredits",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/src/app/api/stripe/webhook/route.ts:POST",
+      "target": "function:chat/src/lib/credits.ts:getSubscriptionByCustomer",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/src/lib/auth.ts:getUserId",
+      "target": "function:chat/src/lib/auth.ts:authEnabled",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/src/lib/auth.ts:resolveCaller",
+      "target": "function:chat/src/lib/auth.ts:getUserId",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/src/lib/capture.ts:completeJSON",
+      "target": "function:chat/src/lib/model.ts:resolveProvider",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/src/lib/capture.ts:runCapture",
+      "target": "function:chat/src/lib/research.ts:research",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/src/lib/capture.ts:runCapture",
+      "target": "function:chat/src/lib/dataLayer.ts:dataLayerEnabled",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/src/lib/capture.ts:runCapture",
+      "target": "function:chat/src/lib/dataLayer.ts:groundDeep",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/src/lib/capture.ts:runCapture",
+      "target": "function:chat/src/lib/capture.ts:completeJSON",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/src/lib/capture.ts:runCapture",
+      "target": "function:chat/src/lib/capture.ts:coercePlan",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/src/lib/capture.ts:runCapture",
+      "target": "function:chat/src/lib/capture.ts:extractJson",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/src/lib/council.ts:complete",
+      "target": "function:chat/src/lib/model.ts:resolveProvider",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/src/lib/council.ts:runCouncil",
+      "target": "function:chat/src/lib/council.ts:complete",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/src/lib/council.ts:runCouncil",
+      "target": "function:chat/src/lib/market.ts:anchorFor",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/src/lib/council.ts:runCouncil",
+      "target": "function:chat/src/lib/research.ts:research",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/src/lib/council.ts:runCouncil",
+      "target": "function:chat/src/lib/dataLayer.ts:dataLayerEnabled",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/src/lib/council.ts:runCouncil",
+      "target": "function:chat/src/lib/dataLayer.ts:groundDeep",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/src/lib/credits.ts:ensureAndRoll",
+      "target": "function:chat/src/lib/db.ts:db",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/src/lib/credits.ts:getAccount",
+      "target": "function:chat/src/lib/owner.ts:isOwner",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/src/lib/credits.ts:getAccount",
+      "target": "function:chat/src/lib/db.ts:dbConfigured",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/src/lib/credits.ts:getAccount",
+      "target": "function:chat/src/lib/credits.ts:ensureAndRoll",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/src/lib/credits.ts:getAccount",
+      "target": "function:chat/src/lib/db.ts:db",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/src/lib/credits.ts:consume",
+      "target": "function:chat/src/lib/db.ts:dbConfigured",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/src/lib/credits.ts:consume",
+      "target": "function:chat/src/lib/credits.ts:getAccount",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/src/lib/credits.ts:consume",
+      "target": "function:chat/src/lib/owner.ts:isOwner",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/src/lib/credits.ts:consume",
+      "target": "function:chat/src/lib/credits.ts:ensureAndRoll",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/src/lib/credits.ts:consume",
+      "target": "function:chat/src/lib/db.ts:db",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/src/lib/credits.ts:addCredits",
+      "target": "function:chat/src/lib/db.ts:db",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/src/lib/credits.ts:upsertSubscription",
+      "target": "function:chat/src/lib/db.ts:db",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/src/lib/credits.ts:getSubscriptionByCustomer",
+      "target": "function:chat/src/lib/db.ts:db",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/src/lib/credits.ts:getActiveSubscription",
+      "target": "function:chat/src/lib/db.ts:dbConfigured",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/src/lib/credits.ts:getActiveSubscription",
+      "target": "function:chat/src/lib/db.ts:db",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/src/lib/dataLayer.ts:groundDeep",
+      "target": "function:chat/src/lib/dataLayer.ts:askDataLayerAgentic",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/src/lib/dataLayer.ts:groundDeep",
+      "target": "function:chat/src/lib/dataLayer.ts:askDataLayer",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

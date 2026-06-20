@@ -1,0 +1,603 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 7,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "landing/app/page.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 407,
+      "nonEmptyLines": 386,
+      "functions": [
+        {
+          "name": "Icon",
+          "startLine": 9,
+          "endLine": 16,
+          "params": [
+            "{ path }"
+          ]
+        },
+        {
+          "name": "Page",
+          "startLine": 72,
+          "endLine": 407,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "Page",
+          "line": 72,
+          "isDefault": true
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "Page",
+          "callee": "SUGGESTIONS.map",
+          "lineNumber": 113
+        },
+        {
+          "caller": "Page",
+          "callee": "BENCH.map",
+          "lineNumber": 177
+        },
+        {
+          "caller": "Page",
+          "callee": "b.score.toFixed",
+          "lineNumber": 188
+        },
+        {
+          "caller": "Page",
+          "callee": "PILLARS.map",
+          "lineNumber": 227
+        },
+        {
+          "caller": "Page",
+          "callee": "MODELS.map",
+          "lineNumber": 252
+        },
+        {
+          "caller": "Page",
+          "callee": "m.tags.map",
+          "lineNumber": 263
+        },
+        {
+          "caller": "Page",
+          "callee": "USE_CASES.map",
+          "lineNumber": 296
+        },
+        {
+          "caller": "Page",
+          "callee": "[\n              { n: 8, suffix: \"B\", label: \"Parameters in Vati, fine-tuned on 29,445 leak-free reasoning traces across 24 domains.\" },\n              { n: 12, label: \"Forecasts live on the Metaculus Cup under the handle vaticinus, scored as questions resolve.\" },\n              { n: 53, label: \"Calls in our sealed record, each dated before the fact and Brier-scored at resolution.\" },\n            ].map",
+          "lineNumber": 319
+        }
+      ],
+      "metrics": {
+        "importCount": 6,
+        "exportCount": 1,
+        "functionCount": 2,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "landing/components/Counter.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 63,
+      "nonEmptyLines": 58,
+      "functions": [
+        {
+          "name": "Counter",
+          "startLine": 9,
+          "endLine": 63,
+          "params": [
+            "{\n  value,\n  decimals = 0,\n  prefix = \"\",\n  suffix = \"\",\n}"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "Counter",
+          "line": 9,
+          "isDefault": true
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "Counter",
+          "callee": "useRef",
+          "lineNumber": 20
+        },
+        {
+          "caller": "Counter",
+          "callee": "useState",
+          "lineNumber": 21
+        },
+        {
+          "caller": "Counter",
+          "callee": "useEffect",
+          "lineNumber": 23
+        },
+        {
+          "caller": "Counter",
+          "callee": "window.matchMedia",
+          "lineNumber": 26
+        },
+        {
+          "caller": "Counter",
+          "callee": "setN",
+          "lineNumber": 28
+        },
+        {
+          "caller": "Counter",
+          "callee": "io.disconnect",
+          "lineNumber": 35
+        },
+        {
+          "caller": "tick",
+          "callee": "Math.min",
+          "lineNumber": 40
+        },
+        {
+          "caller": "tick",
+          "callee": "Math.pow",
+          "lineNumber": 41
+        },
+        {
+          "caller": "tick",
+          "callee": "setN",
+          "lineNumber": 42
+        },
+        {
+          "caller": "tick",
+          "callee": "requestAnimationFrame",
+          "lineNumber": 43
+        },
+        {
+          "caller": "Counter",
+          "callee": "requestAnimationFrame",
+          "lineNumber": 45
+        },
+        {
+          "caller": "Counter",
+          "callee": "io.observe",
+          "lineNumber": 49
+        },
+        {
+          "caller": "Counter",
+          "callee": "io.disconnect",
+          "lineNumber": 50
+        },
+        {
+          "caller": "Counter",
+          "callee": "n.toLocaleString",
+          "lineNumber": 56
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "landing/components/ExamplePredictions.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 137,
+      "nonEmptyLines": 128,
+      "functions": [
+        {
+          "name": "ExamplePredictions",
+          "startLine": 70,
+          "endLine": 137,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "ExamplePredictions",
+          "line": 70,
+          "isDefault": true
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "ExamplePredictions",
+          "callee": "useState",
+          "lineNumber": 71
+        },
+        {
+          "caller": "ExamplePredictions",
+          "callee": "CARDS.filter",
+          "lineNumber": 72
+        },
+        {
+          "caller": "ExamplePredictions",
+          "callee": "CATEGORIES.map",
+          "lineNumber": 77
+        },
+        {
+          "caller": "ExamplePredictions",
+          "callee": "setActive",
+          "lineNumber": 80
+        },
+        {
+          "caller": "ExamplePredictions",
+          "callee": "shown.map",
+          "lineNumber": 94
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "landing/components/Header.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 82,
+      "nonEmptyLines": 74,
+      "functions": [
+        {
+          "name": "Mark",
+          "startLine": 14,
+          "endLine": 26,
+          "params": []
+        },
+        {
+          "name": "Header",
+          "startLine": 32,
+          "endLine": 82,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "Header",
+          "line": 32,
+          "isDefault": true
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "Header",
+          "callee": "useScroll",
+          "lineNumber": 33
+        },
+        {
+          "caller": "Header",
+          "callee": "useState",
+          "lineNumber": 34
+        },
+        {
+          "caller": "Header",
+          "callee": "useMotionValueEvent",
+          "lineNumber": 35
+        },
+        {
+          "caller": "Header",
+          "callee": "setSolid",
+          "lineNumber": 35
+        },
+        {
+          "caller": "Header",
+          "callee": "LINKS.map",
+          "lineNumber": 61
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 2,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "landing/components/HeroVisual.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 106,
+      "nonEmptyLines": 96,
+      "functions": [
+        {
+          "name": "HeroVisual",
+          "startLine": 10,
+          "endLine": 106,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "HeroVisual",
+          "line": 10,
+          "isDefault": true
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "HeroVisual",
+          "callee": "useRef",
+          "lineNumber": 11
+        },
+        {
+          "caller": "HeroVisual",
+          "callee": "useEffect",
+          "lineNumber": 13
+        },
+        {
+          "caller": "HeroVisual",
+          "callee": "canvas.getContext",
+          "lineNumber": 16
+        },
+        {
+          "caller": "HeroVisual",
+          "callee": "window.matchMedia",
+          "lineNumber": 19
+        },
+        {
+          "caller": "HeroVisual",
+          "callee": "Math.min",
+          "lineNumber": 23
+        },
+        {
+          "caller": "seed",
+          "callee": "Math.max",
+          "lineNumber": 29
+        },
+        {
+          "caller": "seed",
+          "callee": "Math.floor",
+          "lineNumber": 29
+        },
+        {
+          "caller": "seed",
+          "callee": "Array.from",
+          "lineNumber": 30
+        },
+        {
+          "caller": "seed",
+          "callee": "Math.random",
+          "lineNumber": 31
+        },
+        {
+          "caller": "seed",
+          "callee": "Math.random",
+          "lineNumber": 32
+        },
+        {
+          "caller": "seed",
+          "callee": "Math.random",
+          "lineNumber": 33
+        },
+        {
+          "caller": "seed",
+          "callee": "Math.random",
+          "lineNumber": 34
+        },
+        {
+          "caller": "seed",
+          "callee": "Math.random",
+          "lineNumber": 35
+        },
+        {
+          "caller": "resize",
+          "callee": "canvas.getBoundingClientRect",
+          "lineNumber": 40
+        },
+        {
+          "caller": "resize",
+          "callee": "ctx.setTransform",
+          "lineNumber": 45
+        },
+        {
+          "caller": "resize",
+          "callee": "seed",
+          "lineNumber": 46
+        },
+        {
+          "caller": "draw",
+          "callee": "ctx.clearRect",
+          "lineNumber": 50
+        },
+        {
+          "caller": "draw",
+          "callee": "ctx.beginPath",
+          "lineNumber": 65
+        },
+        {
+          "caller": "draw",
+          "callee": "ctx.moveTo",
+          "lineNumber": 66
+        },
+        {
+          "caller": "draw",
+          "callee": "ctx.lineTo",
+          "lineNumber": 67
+        },
+        {
+          "caller": "draw",
+          "callee": "ctx.stroke",
+          "lineNumber": 68
+        },
+        {
+          "caller": "draw",
+          "callee": "ctx.beginPath",
+          "lineNumber": 74
+        },
+        {
+          "caller": "draw",
+          "callee": "ctx.arc",
+          "lineNumber": 75
+        },
+        {
+          "caller": "draw",
+          "callee": "ctx.fill",
+          "lineNumber": 76
+        },
+        {
+          "caller": "draw",
+          "callee": "requestAnimationFrame",
+          "lineNumber": 78
+        },
+        {
+          "caller": "HeroVisual",
+          "callee": "resize",
+          "lineNumber": 81
+        },
+        {
+          "caller": "HeroVisual",
+          "callee": "window.addEventListener",
+          "lineNumber": 82
+        },
+        {
+          "caller": "HeroVisual",
+          "callee": "draw",
+          "lineNumber": 84
+        },
+        {
+          "caller": "HeroVisual",
+          "callee": "cancelAnimationFrame",
+          "lineNumber": 85
+        },
+        {
+          "caller": "HeroVisual",
+          "callee": "draw",
+          "lineNumber": 87
+        },
+        {
+          "caller": "HeroVisual",
+          "callee": "cancelAnimationFrame",
+          "lineNumber": 90
+        },
+        {
+          "caller": "HeroVisual",
+          "callee": "window.removeEventListener",
+          "lineNumber": 91
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "landing/components/Reveal.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 70,
+      "nonEmptyLines": 66,
+      "functions": [
+        {
+          "name": "Reveal",
+          "startLine": 9,
+          "endLine": 32,
+          "params": [
+            "{\n  children,\n  delay = 0,\n  y = 22,\n  className = \"\",\n}"
+          ]
+        },
+        {
+          "name": "Lines",
+          "startLine": 38,
+          "endLine": 70,
+          "params": [
+            "{\n  lines,\n  className = \"\",\n  lineClassName = \"\",\n}"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "Reveal",
+          "line": 9,
+          "isDefault": false
+        },
+        {
+          "name": "Lines",
+          "line": 38,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "Reveal",
+          "callee": "useReducedMotion",
+          "lineNumber": 20
+        },
+        {
+          "caller": "Lines",
+          "callee": "useReducedMotion",
+          "lineNumber": 47
+        },
+        {
+          "caller": "Lines",
+          "callee": "lines.map",
+          "lineNumber": 56
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 2,
+        "functionCount": 2,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "landing/components/StageBand.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 57,
+      "nonEmptyLines": 54,
+      "functions": [
+        {
+          "name": "StageBand",
+          "startLine": 23,
+          "endLine": 57,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "StageBand",
+          "line": 23,
+          "isDefault": true
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "StageBand",
+          "callee": "STAGES.map",
+          "lineNumber": 26
+        },
+        {
+          "caller": "StageBand",
+          "callee": "HOT.has",
+          "lineNumber": 27
+        },
+        {
+          "caller": "StageBand",
+          "callee": "String(i + 1).padStart",
+          "lineNumber": 44
+        },
+        {
+          "caller": "StageBand",
+          "callee": "String",
+          "lineNumber": 44
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,567 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 3,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "engine/capture/__init__.py",
+      "language": "python",
+      "fileCategory": "code",
+      "totalLines": 10,
+      "nonEmptyLines": 8,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "engine/capture/run.py",
+      "language": "python",
+      "fileCategory": "code",
+      "totalLines": 125,
+      "nonEmptyLines": 107,
+      "functions": [
+        {
+          "name": "run_play",
+          "startLine": 49,
+          "endLine": 72,
+          "params": [
+            "slug",
+            "top_n",
+            "conn"
+          ]
+        },
+        {
+          "name": "resynth",
+          "startLine": 75,
+          "endLine": 93,
+          "params": [
+            "slug",
+            "target_index",
+            "revision_note",
+            "conn"
+          ]
+        },
+        {
+          "name": "_tree_md",
+          "startLine": 98,
+          "endLine": 105,
+          "params": [
+            "nodes",
+            "depth"
+          ]
+        },
+        {
+          "name": "render_review",
+          "startLine": 108,
+          "endLine": 125,
+          "params": [
+            "brief",
+            "plays"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "run_play",
+          "line": 49,
+          "isDefault": false
+        },
+        {
+          "name": "resynth",
+          "line": 75,
+          "isDefault": false
+        },
+        {
+          "name": "_tree_md",
+          "line": 98,
+          "isDefault": false
+        },
+        {
+          "name": "render_review",
+          "line": 108,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "run_play",
+          "callee": "BRIEFS.get",
+          "lineNumber": 51
+        },
+        {
+          "caller": "run_play",
+          "callee": "ValueError",
+          "lineNumber": 53
+        },
+        {
+          "caller": "run_play",
+          "callee": "list",
+          "lineNumber": 53
+        },
+        {
+          "caller": "run_play",
+          "callee": "db.connect",
+          "lineNumber": 57
+        },
+        {
+          "caller": "run_play",
+          "callee": "ce.discover",
+          "lineNumber": 59
+        },
+        {
+          "caller": "run_play",
+          "callee": "ce.qualify",
+          "lineNumber": 60
+        },
+        {
+          "caller": "run_play",
+          "callee": "ce.synth_play",
+          "lineNumber": 62
+        },
+        {
+          "caller": "run_play",
+          "callee": "conn.close",
+          "lineNumber": 65
+        },
+        {
+          "caller": "run_play",
+          "callee": "play_dir",
+          "lineNumber": 67
+        },
+        {
+          "caller": "run_play",
+          "callee": "write_json",
+          "lineNumber": 68
+        },
+        {
+          "caller": "run_play",
+          "callee": "brief.to_dict",
+          "lineNumber": 68
+        },
+        {
+          "caller": "run_play",
+          "callee": "write_json",
+          "lineNumber": 69
+        },
+        {
+          "caller": "run_play",
+          "callee": "t.to_dict",
+          "lineNumber": 69
+        },
+        {
+          "caller": "run_play",
+          "callee": "write_json",
+          "lineNumber": 70
+        },
+        {
+          "caller": "run_play",
+          "callee": "p.to_dict",
+          "lineNumber": 70
+        },
+        {
+          "caller": "run_play",
+          "callee": "(d / \"review.md\").write_text",
+          "lineNumber": 71
+        },
+        {
+          "caller": "run_play",
+          "callee": "render_review",
+          "lineNumber": 71
+        },
+        {
+          "caller": "run_play",
+          "callee": "len",
+          "lineNumber": 72
+        },
+        {
+          "caller": "run_play",
+          "callee": "len",
+          "lineNumber": 72
+        },
+        {
+          "caller": "run_play",
+          "callee": "str",
+          "lineNumber": 72
+        },
+        {
+          "caller": "resynth",
+          "callee": "play_dir",
+          "lineNumber": 78
+        },
+        {
+          "caller": "resynth",
+          "callee": "Play.from_dict",
+          "lineNumber": 80
+        },
+        {
+          "caller": "resynth",
+          "callee": "read_json",
+          "lineNumber": 80
+        },
+        {
+          "caller": "resynth",
+          "callee": "db.connect",
+          "lineNumber": 84
+        },
+        {
+          "caller": "resynth",
+          "callee": "ce.synth_play",
+          "lineNumber": 86
+        },
+        {
+          "caller": "resynth",
+          "callee": "conn.close",
+          "lineNumber": 89
+        },
+        {
+          "caller": "resynth",
+          "callee": "write_json",
+          "lineNumber": 91
+        },
+        {
+          "caller": "resynth",
+          "callee": "p.to_dict",
+          "lineNumber": 91
+        },
+        {
+          "caller": "resynth",
+          "callee": "(d / \"review.md\").write_text",
+          "lineNumber": 92
+        },
+        {
+          "caller": "resynth",
+          "callee": "render_review",
+          "lineNumber": 92
+        },
+        {
+          "caller": "_tree_md",
+          "callee": "out.append",
+          "lineNumber": 102
+        },
+        {
+          "caller": "_tree_md",
+          "callee": "out.append",
+          "lineNumber": 104
+        },
+        {
+          "caller": "_tree_md",
+          "callee": "_tree_md",
+          "lineNumber": 104
+        },
+        {
+          "caller": "_tree_md",
+          "callee": "\"\\n\".join",
+          "lineNumber": 105
+        },
+        {
+          "caller": "render_review",
+          "callee": "enumerate",
+          "lineNumber": 113
+        },
+        {
+          "caller": "render_review",
+          "callee": "_tree_md",
+          "lineNumber": 122
+        },
+        {
+          "caller": "render_review",
+          "callee": "\"\\n\".join",
+          "lineNumber": 125
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 4,
+        "functionCount": 4,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "engine/capture/schema.py",
+      "language": "python",
+      "fileCategory": "code",
+      "totalLines": 117,
+      "nonEmptyLines": 89,
+      "functions": [
+        {
+          "name": "play_dir",
+          "startLine": 106,
+          "endLine": 109,
+          "params": [
+            "slug",
+            "repo_root"
+          ]
+        },
+        {
+          "name": "write_json",
+          "startLine": 112,
+          "endLine": 113,
+          "params": [
+            "path",
+            "obj"
+          ]
+        },
+        {
+          "name": "read_json",
+          "startLine": 116,
+          "endLine": 117,
+          "params": [
+            "path"
+          ]
+        }
+      ],
+      "classes": [
+        {
+          "name": "PlayBrief",
+          "startLine": 18,
+          "endLine": 31,
+          "methods": [
+            "to_dict"
+          ],
+          "properties": [
+            "slug",
+            "objective",
+            "rung",
+            "target_criteria",
+            "discovery_queries",
+            "linked_forecast",
+            "value_hook"
+          ]
+        },
+        {
+          "name": "Target",
+          "startLine": 37,
+          "endLine": 57,
+          "methods": [
+            "to_dict",
+            "from_dict"
+          ],
+          "properties": [
+            "name",
+            "org",
+            "role",
+            "url",
+            "why_them",
+            "what_they_have",
+            "reachability",
+            "fit",
+            "leverage",
+            "warm_path",
+            "reach_ease",
+            "score"
+          ]
+        },
+        {
+          "name": "TreeNode",
+          "startLine": 63,
+          "endLine": 77,
+          "methods": [
+            "to_dict",
+            "from_dict"
+          ],
+          "properties": [
+            "reply_type",
+            "our_move",
+            "children"
+          ]
+        },
+        {
+          "name": "Play",
+          "startLine": 81,
+          "endLine": 101,
+          "methods": [
+            "to_dict",
+            "from_dict"
+          ],
+          "properties": [
+            "target",
+            "rung",
+            "hook",
+            "opener",
+            "channel",
+            "tree",
+            "rating"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "PlayBrief",
+          "line": 17,
+          "isDefault": false
+        },
+        {
+          "name": "Target",
+          "line": 36,
+          "isDefault": false
+        },
+        {
+          "name": "TreeNode",
+          "line": 62,
+          "isDefault": false
+        },
+        {
+          "name": "Play",
+          "line": 80,
+          "isDefault": false
+        },
+        {
+          "name": "play_dir",
+          "line": 106,
+          "isDefault": false
+        },
+        {
+          "name": "write_json",
+          "line": 112,
+          "isDefault": false
+        },
+        {
+          "name": "read_json",
+          "line": 116,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "to_dict",
+          "callee": "asdict",
+          "lineNumber": 31
+        },
+        {
+          "caller": "to_dict",
+          "callee": "asdict",
+          "lineNumber": 53
+        },
+        {
+          "caller": "from_dict",
+          "callee": "cls",
+          "lineNumber": 57
+        },
+        {
+          "caller": "from_dict",
+          "callee": "d.items",
+          "lineNumber": 57
+        },
+        {
+          "caller": "to_dict",
+          "callee": "c.to_dict",
+          "lineNumber": 72
+        },
+        {
+          "caller": "from_dict",
+          "callee": "cls",
+          "lineNumber": 76
+        },
+        {
+          "caller": "from_dict",
+          "callee": "d.get",
+          "lineNumber": 76
+        },
+        {
+          "caller": "from_dict",
+          "callee": "d.get",
+          "lineNumber": 76
+        },
+        {
+          "caller": "from_dict",
+          "callee": "cls.from_dict",
+          "lineNumber": 77
+        },
+        {
+          "caller": "from_dict",
+          "callee": "d.get",
+          "lineNumber": 77
+        },
+        {
+          "caller": "to_dict",
+          "callee": "self.target.to_dict",
+          "lineNumber": 91
+        },
+        {
+          "caller": "to_dict",
+          "callee": "n.to_dict",
+          "lineNumber": 93
+        },
+        {
+          "caller": "from_dict",
+          "callee": "cls",
+          "lineNumber": 97
+        },
+        {
+          "caller": "from_dict",
+          "callee": "Target.from_dict",
+          "lineNumber": 97
+        },
+        {
+          "caller": "from_dict",
+          "callee": "d.get",
+          "lineNumber": 97
+        },
+        {
+          "caller": "from_dict",
+          "callee": "d.get",
+          "lineNumber": 98
+        },
+        {
+          "caller": "from_dict",
+          "callee": "d.get",
+          "lineNumber": 98
+        },
+        {
+          "caller": "from_dict",
+          "callee": "d.get",
+          "lineNumber": 99
+        },
+        {
+          "caller": "from_dict",
+          "callee": "TreeNode.from_dict",
+          "lineNumber": 100
+        },
+        {
+          "caller": "from_dict",
+          "callee": "d.get",
+          "lineNumber": 100
+        },
+        {
+          "caller": "from_dict",
+          "callee": "d.get",
+          "lineNumber": 101
+        },
+        {
+          "caller": "play_dir",
+          "callee": "d.mkdir",
+          "lineNumber": 108
+        },
+        {
+          "caller": "write_json",
+          "callee": "path.write_text",
+          "lineNumber": 113
+        },
+        {
+          "caller": "write_json",
+          "callee": "json.dumps",
+          "lineNumber": 113
+        },
+        {
+          "caller": "read_json",
+          "callee": "json.loads",
+          "lineNumber": 117
+        },
+        {
+          "caller": "read_json",
+          "callee": "path.read_text",
+          "lineNumber": 117
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 7,
+        "functionCount": 3,
+        "classCount": 4
+      }
+    }
+  ]
+}

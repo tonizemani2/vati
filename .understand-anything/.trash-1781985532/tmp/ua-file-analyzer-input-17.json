@@ -1,0 +1,31 @@
+{
+  "projectRoot": "/Users/emizemani/Desktop/predictthefuture",
+  "batchFiles": [
+    {
+      "path": "engine/capture/__init__.py",
+      "language": "python",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/capture/run.py",
+      "language": "python",
+      "sizeLines": 125,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/capture/schema.py",
+      "language": "python",
+      "sizeLines": 117,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "engine/capture/__init__.py": [],
+    "engine/capture/run.py": [
+      "engine/capture/__init__.py",
+      "engine/capture/schema.py"
+    ],
+    "engine/capture/schema.py": []
+  }
+}

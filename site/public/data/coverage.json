@@ -1,0 +1,284 @@
+{
+  "totals": {
+    "papers": 2768490,
+    "observations": 616081,
+    "series": 138179,
+    "entities": 96282,
+    "sources": 799,
+    "providers": 67,
+    "world_nodes": 432,
+    "concept_nodes": 13230,
+    "concept_edges": 51894
+  },
+  "volume_over_time": [
+    {
+      "year": "2000",
+      "observations": 7165
+    },
+    {
+      "year": "2001",
+      "observations": 7139
+    },
+    {
+      "year": "2002",
+      "observations": 7222
+    },
+    {
+      "year": "2003",
+      "observations": 7795
+    },
+    {
+      "year": "2004",
+      "observations": 7957
+    },
+    {
+      "year": "2005",
+      "observations": 9409
+    },
+    {
+      "year": "2006",
+      "observations": 9896
+    },
+    {
+      "year": "2007",
+      "observations": 10095
+    },
+    {
+      "year": "2008",
+      "observations": 10743
+    },
+    {
+      "year": "2009",
+      "observations": 10861
+    },
+    {
+      "year": "2010",
+      "observations": 11410
+    },
+    {
+      "year": "2011",
+      "observations": 11716
+    },
+    {
+      "year": "2012",
+      "observations": 11731
+    },
+    {
+      "year": "2013",
+      "observations": 11681
+    },
+    {
+      "year": "2014",
+      "observations": 11730
+    },
+    {
+      "year": "2015",
+      "observations": 11897
+    },
+    {
+      "year": "2016",
+      "observations": 11981
+    },
+    {
+      "year": "2017",
+      "observations": 12015
+    },
+    {
+      "year": "2018",
+      "observations": 12421
+    },
+    {
+      "year": "2019",
+      "observations": 12622
+    },
+    {
+      "year": "2020",
+      "observations": 25563
+    },
+    {
+      "year": "2021",
+      "observations": 26272
+    },
+    {
+      "year": "2022",
+      "observations": 26232
+    },
+    {
+      "year": "2023",
+      "observations": 27491
+    },
+    {
+      "year": "2024",
+      "observations": 28481
+    },
+    {
+      "year": "2025",
+      "observations": 46649
+    },
+    {
+      "year": "2026",
+      "observations": 156821
+    }
+  ],
+  "providers": [
+    "arxiv",
+    "australia_epbc_referrals",
+    "baci",
+    "biorxiv",
+    "blm_mining_claims",
+    "clinicaltrials",
+    "comtrade",
+    "comtrade_china",
+    "cordis",
+    "crossref",
+    "ecb_fx",
+    "ember",
+    "eonet",
+    "epoch_ai",
+    "eu_sanctions",
+    "europe_pmc",
+    "eurostat",
+    "faostat",
+    "federal_register",
+    "fred",
+    "fred_financial",
+    "gdacs_alerts",
+    "gdelt",
+    "global_equities",
+    "google_patents",
+    "ilo",
+    "imf",
+    "land_matrix",
+    "land_permits_canada_iaac",
+    "lbnl",
+    "miningterminal_permits",
+    "mofcom_ec",
+    "nasa_gistemp",
+    "nih_reporter",
+    "noaa_climate_indices",
+    "noaa_enso",
+    "noaa_gml_greenhouse_gases",
+    "noaa_nsidc_sea_ice",
+    "noaa_swpc_solar",
+    "nsf_awards",
+    "oecd",
+    "ofac_bis",
+    "ofac_sdn",
+    "openalex",
+    "openalex_bridge",
+    "openalex_citations",
+    "openalex_cite_velocity",
+    "openfda_drugsfda",
+    "owid",
+    "polymarket",
+    "pubmed",
+    "resourcecontracts",
+    "retro",
+    "sec_edgar",
+    "semantic_scholar",
+    "synthetic",
+    "ucdp",
+    "un_comtrade",
+    "us_permitting_dashboard",
+    "usaspending",
+    "usaspending_sam",
+    "usgs_earthquakes",
+    "usgs_minerals",
+    "vdem",
+    "wikipedia",
+    "world_bank",
+    "worldbank_wgi"
+  ],
+  "n_layers": 9,
+  "spine": [
+    {
+      "layer": "frontier",
+      "label": "Frontier",
+      "blurb": "the research frontier \u2014 papers, citations, concept share"
+    },
+    {
+      "layer": "capability",
+      "label": "Capability",
+      "blurb": "commercialised capability \u2014 paper\u2192patent linkage, patents"
+    },
+    {
+      "layer": "dependency",
+      "label": "Dependency graph",
+      "blurb": "the knowledge dependency graph \u2014 what draws on what"
+    },
+    {
+      "layer": "supply",
+      "label": "Supply elasticity",
+      "blurb": "value chains, trade flows, mineral & energy capacity"
+    },
+    {
+      "layer": "demand",
+      "label": "Demand / adoption",
+      "blurb": "derived demand build-out and attention"
+    },
+    {
+      "layer": "capital",
+      "label": "Capital flows",
+      "blurb": "filings, funding, macro and financial series"
+    },
+    {
+      "layer": "pricing",
+      "label": "Market pricing",
+      "blurb": "the priced-in gate \u2014 equities and prediction markets"
+    },
+    {
+      "layer": "policy",
+      "label": "Policy / geo",
+      "blurb": "permits, sanctions, dockets, regulatory action"
+    },
+    {
+      "layer": "outcome",
+      "label": "Outcomes",
+      "blurb": "terminal realised outcomes"
+    }
+  ],
+  "roadmap": {
+    "built_pct": 46,
+    "target_letter": "A",
+    "target_label": "complete coverage",
+    "layers": [
+      {
+        "label": "Frontier",
+        "built": 84
+      },
+      {
+        "label": "Capability",
+        "built": 56
+      },
+      {
+        "label": "Dependency graph",
+        "built": 68
+      },
+      {
+        "label": "Supply elasticity",
+        "built": 48
+      },
+      {
+        "label": "Demand / adoption",
+        "built": 21
+      },
+      {
+        "label": "Capital flows",
+        "built": 61
+      },
+      {
+        "label": "Market pricing",
+        "built": 42
+      },
+      {
+        "label": "Policy / geo",
+        "built": 21
+      },
+      {
+        "label": "Outcomes",
+        "built": 18
+      }
+    ]
+  },
+  "note": "Aggregate coverage of the live data layer. Per-layer depth and the agentic walk-the-data view are available on the research tier."
+}

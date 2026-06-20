@@ -1,0 +1,1924 @@
+{
+  "nodes": [
+    {
+      "id": "file:paper_beyond_brier/matched_question.py",
+      "type": "file",
+      "name": "matched_question.py",
+      "filePath": "paper_beyond_brier/matched_question.py",
+      "summary": "matched_question.py is a code asset in the repository. It contains 6 functions.",
+      "tags": [
+        "code",
+        "file",
+        "matched-question"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:paper_beyond_brier/matched_question.py:logit",
+      "type": "function",
+      "name": "logit",
+      "filePath": "paper_beyond_brier/matched_question.py",
+      "lineRange": [
+        30,
+        30
+      ],
+      "summary": "Defines logit in matched_question.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "matched-question"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:paper_beyond_brier/matched_question.py:fid_of",
+      "type": "function",
+      "name": "fid_of",
+      "filePath": "paper_beyond_brier/matched_question.py",
+      "lineRange": [
+        31,
+        34
+      ],
+      "summary": "Defines fid_of in matched_question.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "matched-question"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:paper_beyond_brier/matched_question.py:is_base",
+      "type": "function",
+      "name": "is_base",
+      "filePath": "paper_beyond_brier/matched_question.py",
+      "lineRange": [
+        35,
+        35
+      ],
+      "summary": "Defines is_base in matched_question.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "matched-question"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:paper_beyond_brier/matched_question.py:dll_adj",
+      "type": "function",
+      "name": "dll_adj",
+      "filePath": "paper_beyond_brier/matched_question.py",
+      "lineRange": [
+        37,
+        46
+      ],
+      "summary": "Defines dll_adj in matched_question.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "matched-question"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:paper_beyond_brier/matched_question.py:battery_mean",
+      "type": "function",
+      "name": "battery_mean",
+      "filePath": "paper_beyond_brier/matched_question.py",
+      "lineRange": [
+        74,
+        77
+      ],
+      "summary": "Defines battery_mean in matched_question.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "matched-question"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:paper_beyond_brier/matched_question.py:human_mean",
+      "type": "function",
+      "name": "human_mean",
+      "filePath": "paper_beyond_brier/matched_question.py",
+      "lineRange": [
+        79,
+        82
+      ],
+      "summary": "Defines human_mean in matched_question.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "matched-question"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:paper_beyond_brier/mr_figs.py",
+      "type": "file",
+      "name": "mr_figs.py",
+      "filePath": "paper_beyond_brier/mr_figs.py",
+      "summary": "mr_figs.py is a code asset in the repository.",
+      "tags": [
+        "code",
+        "file",
+        "mr-figs"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:paper_beyond_brier/multiround_rev.py",
+      "type": "file",
+      "name": "multiround_rev.py",
+      "filePath": "paper_beyond_brier/multiround_rev.py",
+      "summary": "multiround_rev.py is a code asset in the repository. It contains 4 functions.",
+      "tags": [
+        "code",
+        "file",
+        "multiround-rev"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:paper_beyond_brier/multiround_rev.py:rd_year",
+      "type": "function",
+      "name": "rd_year",
+      "filePath": "paper_beyond_brier/multiround_rev.py",
+      "lineRange": [
+        37,
+        38
+      ],
+      "summary": "Defines rd_year in multiround_rev.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "multiround-rev"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:paper_beyond_brier/multiround_rev.py:slope_ci",
+      "type": "function",
+      "name": "slope_ci",
+      "filePath": "paper_beyond_brier/multiround_rev.py",
+      "lineRange": [
+        65,
+        84
+      ],
+      "summary": "Defines slope_ci in multiround_rev.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "multiround-rev"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:paper_beyond_brier/multiround_rev.py:base_model",
+      "type": "function",
+      "name": "base_model",
+      "filePath": "paper_beyond_brier/multiround_rev.py",
+      "lineRange": [
+        111,
+        114
+      ],
+      "summary": "Defines base_model in multiround_rev.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "multiround-rev"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:paper_beyond_brier/multiround_rev.py:logit",
+      "type": "function",
+      "name": "logit",
+      "filePath": "paper_beyond_brier/multiround_rev.py",
+      "lineRange": [
+        158,
+        158
+      ],
+      "summary": "Defines logit in multiround_rev.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "multiround-rev"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:paper_beyond_brier/multiround.py",
+      "type": "file",
+      "name": "multiround.py",
+      "filePath": "paper_beyond_brier/multiround.py",
+      "summary": "multiround.py is a code asset in the repository. It contains 10 functions.",
+      "tags": [
+        "code",
+        "file",
+        "multiround"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:paper_beyond_brier/multiround.py:brier",
+      "type": "function",
+      "name": "brier",
+      "filePath": "paper_beyond_brier/multiround.py",
+      "lineRange": [
+        52,
+        52
+      ],
+      "summary": "Defines brier in multiround.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "multiround"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:paper_beyond_brier/multiround.py:logit",
+      "type": "function",
+      "name": "logit",
+      "filePath": "paper_beyond_brier/multiround.py",
+      "lineRange": [
+        53,
+        54
+      ],
+      "summary": "Defines logit in multiround.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "multiround"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:paper_beyond_brier/multiround.py:is_non_model",
+      "type": "function",
+      "name": "is_non_model",
+      "filePath": "paper_beyond_brier/multiround.py",
+      "lineRange": [
+        56,
+        58
+      ],
+      "summary": "Defines is_non_model in multiround.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "multiround"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:paper_beyond_brier/multiround.py:parse_release",
+      "type": "function",
+      "name": "parse_release",
+      "filePath": "paper_beyond_brier/multiround.py",
+      "lineRange": [
+        63,
+        111
+      ],
+      "summary": "Defines parse_release in multiround.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "multiround"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:paper_beyond_brier/multiround.py:round_to_year",
+      "type": "function",
+      "name": "round_to_year",
+      "filePath": "paper_beyond_brier/multiround.py",
+      "lineRange": [
+        113,
+        115
+      ],
+      "summary": "Defines round_to_year in multiround.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "multiround"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:paper_beyond_brier/multiround.py:load_round",
+      "type": "function",
+      "name": "load_round",
+      "filePath": "paper_beyond_brier/multiround.py",
+      "lineRange": [
+        118,
+        156
+      ],
+      "summary": "Defines load_round in multiround.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "multiround"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:paper_beyond_brier/multiround.py:delta_ll",
+      "type": "function",
+      "name": "delta_ll",
+      "filePath": "paper_beyond_brier/multiround.py",
+      "lineRange": [
+        158,
+        164
+      ],
+      "summary": "Defines delta_ll in multiround.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "multiround"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:paper_beyond_brier/multiround.py:per_config",
+      "type": "function",
+      "name": "per_config",
+      "filePath": "paper_beyond_brier/multiround.py",
+      "lineRange": [
+        166,
+        191
+      ],
+      "summary": "Defines per_config in multiround.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "multiround"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:paper_beyond_brier/multiround.py:quick_stat",
+      "type": "function",
+      "name": "quick_stat",
+      "filePath": "paper_beyond_brier/multiround.py",
+      "lineRange": [
+        193,
+        206
+      ],
+      "summary": "Defines quick_stat in multiround.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "multiround"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:paper_beyond_brier/multiround.py:split_half",
+      "type": "function",
+      "name": "split_half",
+      "filePath": "paper_beyond_brier/multiround.py",
+      "lineRange": [
+        208,
+        221
+      ],
+      "summary": "Defines split_half in multiround.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "multiround"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:paper_beyond_brier/oos_debias.py",
+      "type": "file",
+      "name": "oos_debias.py",
+      "filePath": "paper_beyond_brier/oos_debias.py",
+      "summary": "oos_debias.py is a code asset in the repository. It contains 10 functions.",
+      "tags": [
+        "code",
+        "file",
+        "oos-debias"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:paper_beyond_brier/oos_debias.py:logit",
+      "type": "function",
+      "name": "logit",
+      "filePath": "paper_beyond_brier/oos_debias.py",
+      "lineRange": [
+        34,
+        34
+      ],
+      "summary": "Defines logit in oos_debias.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "oos-debias"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:paper_beyond_brier/oos_debias.py:fid_of",
+      "type": "function",
+      "name": "fid_of",
+      "filePath": "paper_beyond_brier/oos_debias.py",
+      "lineRange": [
+        35,
+        38
+      ],
+      "summary": "Defines fid_of in oos_debias.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "oos-debias"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:paper_beyond_brier/oos_debias.py:is_base",
+      "type": "function",
+      "name": "is_base",
+      "filePath": "paper_beyond_brier/oos_debias.py",
+      "lineRange": [
+        39,
+        39
+      ],
+      "summary": "Defines is_base in oos_debias.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "oos-debias"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:paper_beyond_brier/oos_debias.py:fit_ll",
+      "type": "function",
+      "name": "fit_ll",
+      "filePath": "paper_beyond_brier/oos_debias.py",
+      "lineRange": [
+        40,
+        41
+      ],
+      "summary": "Defines fit_ll in oos_debias.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "oos-debias"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:paper_beyond_brier/oos_debias.py:ll_eval",
+      "type": "function",
+      "name": "ll_eval",
+      "filePath": "paper_beyond_brier/oos_debias.py",
+      "lineRange": [
+        42,
+        44
+      ],
+      "summary": "Defines ll_eval in oos_debias.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "oos-debias"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:paper_beyond_brier/oos_debias.py:insample_dll",
+      "type": "function",
+      "name": "insample_dll",
+      "filePath": "paper_beyond_brier/oos_debias.py",
+      "lineRange": [
+        46,
+        53
+      ],
+      "summary": "Defines insample_dll in oos_debias.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "oos-debias"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:paper_beyond_brier/oos_debias.py:oos_dll",
+      "type": "function",
+      "name": "oos_dll",
+      "filePath": "paper_beyond_brier/oos_debias.py",
+      "lineRange": [
+        55,
+        72
+      ],
+      "summary": "Defines oos_dll in oos_debias.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "oos-debias"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:paper_beyond_brier/oos_debias.py:add_debiased_ref",
+      "type": "function",
+      "name": "add_debiased_ref",
+      "filePath": "paper_beyond_brier/oos_debias.py",
+      "lineRange": [
+        97,
+        108
+      ],
+      "summary": "Defines add_debiased_ref in oos_debias.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "oos-debias"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:paper_beyond_brier/oos_debias.py:battery",
+      "type": "function",
+      "name": "battery",
+      "filePath": "paper_beyond_brier/oos_debias.py",
+      "lineRange": [
+        112,
+        115
+      ],
+      "summary": "Defines battery in oos_debias.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "oos-debias"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:paper_beyond_brier/oos_debias.py:humans",
+      "type": "function",
+      "name": "humans",
+      "filePath": "paper_beyond_brier/oos_debias.py",
+      "lineRange": [
+        116,
+        119
+      ],
+      "summary": "Defines humans in oos_debias.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "oos-debias"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:paper_beyond_brier/revise_edge_v3.py",
+      "type": "file",
+      "name": "revise_edge_v3.py",
+      "filePath": "paper_beyond_brier/revise_edge_v3.py",
+      "summary": "revise_edge_v3.py is a code asset in the repository. It contains 8 functions.",
+      "tags": [
+        "code",
+        "file",
+        "revise-edge-v3"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:paper_beyond_brier/revise_edge_v3.py:seed_of",
+      "type": "function",
+      "name": "seed_of",
+      "filePath": "paper_beyond_brier/revise_edge_v3.py",
+      "lineRange": [
+        40,
+        41
+      ],
+      "summary": "Defines seed_of in revise_edge_v3.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "revise-edge-v3"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:paper_beyond_brier/revise_edge_v3.py:logit",
+      "type": "function",
+      "name": "logit",
+      "filePath": "paper_beyond_brier/revise_edge_v3.py",
+      "lineRange": [
+        43,
+        45
+      ],
+      "summary": "Defines logit in revise_edge_v3.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "revise-edge-v3"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:paper_beyond_brier/revise_edge_v3.py:two_way_fe_alpha",
+      "type": "function",
+      "name": "two_way_fe_alpha",
+      "filePath": "paper_beyond_brier/revise_edge_v3.py",
+      "lineRange": [
+        67,
+        75
+      ],
+      "summary": "Defines two_way_fe_alpha in revise_edge_v3.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "revise-edge-v3"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:paper_beyond_brier/revise_edge_v3.py:design",
+      "type": "function",
+      "name": "design",
+      "filePath": "paper_beyond_brier/revise_edge_v3.py",
+      "lineRange": [
+        172,
+        177
+      ],
+      "summary": "Defines design in revise_edge_v3.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "revise-edge-v3"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:paper_beyond_brier/revise_edge_v3.py:cluster_t_lpm",
+      "type": "function",
+      "name": "cluster_t_lpm",
+      "filePath": "paper_beyond_brier/revise_edge_v3.py",
+      "lineRange": [
+        179,
+        184
+      ],
+      "summary": "Defines cluster_t_lpm in revise_edge_v3.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "revise-edge-v3"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:paper_beyond_brier/revise_edge_v3.py:wild_cluster_bootstrap_t",
+      "type": "function",
+      "name": "wild_cluster_bootstrap_t",
+      "filePath": "paper_beyond_brier/revise_edge_v3.py",
+      "lineRange": [
+        186,
+        212
+      ],
+      "summary": "Defines wild_cluster_bootstrap_t in revise_edge_v3.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "revise-edge-v3"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:paper_beyond_brier/revise_edge_v3.py:pairs_cluster_bootstrap_logit",
+      "type": "function",
+      "name": "pairs_cluster_bootstrap_logit",
+      "filePath": "paper_beyond_brier/revise_edge_v3.py",
+      "lineRange": [
+        214,
+        246
+      ],
+      "summary": "Defines pairs_cluster_bootstrap_logit in revise_edge_v3.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "revise-edge-v3"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:paper_beyond_brier/revise_edge_v3.py:freeze_val",
+      "type": "function",
+      "name": "freeze_val",
+      "filePath": "paper_beyond_brier/revise_edge_v3.py",
+      "lineRange": [
+        284,
+        289
+      ],
+      "summary": "Defines freeze_val in revise_edge_v3.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "revise-edge-v3"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:paper_beyond_brier/revise_edge.py",
+      "type": "file",
+      "name": "revise_edge.py",
+      "filePath": "paper_beyond_brier/revise_edge.py",
+      "summary": "revise_edge.py is a code asset in the repository. It contains 12 functions.",
+      "tags": [
+        "code",
+        "file",
+        "revise-edge"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:paper_beyond_brier/revise_edge.py:seed_of",
+      "type": "function",
+      "name": "seed_of",
+      "filePath": "paper_beyond_brier/revise_edge.py",
+      "lineRange": [
+        41,
+        43
+      ],
+      "summary": "Defines seed_of in revise_edge.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "revise-edge"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:paper_beyond_brier/revise_edge.py:brier",
+      "type": "function",
+      "name": "brier",
+      "filePath": "paper_beyond_brier/revise_edge.py",
+      "lineRange": [
+        45,
+        46
+      ],
+      "summary": "Defines brier in revise_edge.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "revise-edge"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:paper_beyond_brier/revise_edge.py:logscore_loss",
+      "type": "function",
+      "name": "logscore_loss",
+      "filePath": "paper_beyond_brier/revise_edge.py",
+      "lineRange": [
+        48,
+        51
+      ],
+      "summary": "Defines logscore_loss in revise_edge.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "revise-edge"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:paper_beyond_brier/revise_edge.py:logit",
+      "type": "function",
+      "name": "logit",
+      "filePath": "paper_beyond_brier/revise_edge.py",
+      "lineRange": [
+        53,
+        55
+      ],
+      "summary": "Defines logit in revise_edge.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "revise-edge"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:paper_beyond_brier/revise_edge.py:rho_vs_brier",
+      "type": "function",
+      "name": "rho_vs_brier",
+      "filePath": "paper_beyond_brier/revise_edge.py",
+      "lineRange": [
+        95,
+        100
+      ],
+      "summary": "Defines rho_vs_brier in revise_edge.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "revise-edge"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:paper_beyond_brier/revise_edge.py:reg_r2",
+      "type": "function",
+      "name": "reg_r2",
+      "filePath": "paper_beyond_brier/revise_edge.py",
+      "lineRange": [
+        265,
+        268
+      ],
+      "summary": "Defines reg_r2 in revise_edge.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "revise-edge"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:paper_beyond_brier/revise_edge.py:boot_ci",
+      "type": "function",
+      "name": "boot_ci",
+      "filePath": "paper_beyond_brier/revise_edge.py",
+      "lineRange": [
+        284,
+        290
+      ],
+      "summary": "Defines boot_ci in revise_edge.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "revise-edge"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:paper_beyond_brier/revise_edge.py:encompass_clustered",
+      "type": "function",
+      "name": "encompass_clustered",
+      "filePath": "paper_beyond_brier/revise_edge.py",
+      "lineRange": [
+        377,
+        402
+      ],
+      "summary": "Defines encompass_clustered in revise_edge.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "revise-edge"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:paper_beyond_brier/revise_edge.py:dm_hln_pvalue",
+      "type": "function",
+      "name": "dm_hln_pvalue",
+      "filePath": "paper_beyond_brier/revise_edge.py",
+      "lineRange": [
+        432,
+        447
+      ],
+      "summary": "Defines dm_hln_pvalue in revise_edge.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "revise-edge"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:paper_beyond_brier/revise_edge.py:oos_isotonic_shrink",
+      "type": "function",
+      "name": "oos_isotonic_shrink",
+      "filePath": "paper_beyond_brier/revise_edge.py",
+      "lineRange": [
+        505,
+        525
+      ],
+      "summary": "Defines oos_isotonic_shrink in revise_edge.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "revise-edge"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:paper_beyond_brier/revise_edge.py:load_raw",
+      "type": "function",
+      "name": "load_raw",
+      "filePath": "paper_beyond_brier/revise_edge.py",
+      "lineRange": [
+        599,
+        605
+      ],
+      "summary": "Defines load_raw in revise_edge.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "revise-edge"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:paper_beyond_brier/revise_edge.py:freeze_val",
+      "type": "function",
+      "name": "freeze_val",
+      "filePath": "paper_beyond_brier/revise_edge.py",
+      "lineRange": [
+        616,
+        620
+      ],
+      "summary": "Defines freeze_val in revise_edge.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "revise-edge"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:paper_beyond_brier/tectonic",
+      "type": "file",
+      "name": "tectonic",
+      "filePath": "paper_beyond_brier/tectonic",
+      "summary": "tectonic is a code asset in the repository.",
+      "tags": [
+        "code",
+        "file",
+        "tectonic"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:paper_beyond_brier/worked_example.py",
+      "type": "file",
+      "name": "worked_example.py",
+      "filePath": "paper_beyond_brier/worked_example.py",
+      "summary": "worked_example.py is a code asset in the repository. It contains 4 functions.",
+      "tags": [
+        "code",
+        "file",
+        "worked-example"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:paper_beyond_brier/worked_example.py:lg",
+      "type": "function",
+      "name": "lg",
+      "filePath": "paper_beyond_brier/worked_example.py",
+      "lineRange": [
+        27,
+        27
+      ],
+      "summary": "Defines lg in worked_example.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "worked-example"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:paper_beyond_brier/worked_example.py:brier",
+      "type": "function",
+      "name": "brier",
+      "filePath": "paper_beyond_brier/worked_example.py",
+      "lineRange": [
+        28,
+        28
+      ],
+      "summary": "Defines brier in worked_example.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "worked-example"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:paper_beyond_brier/worked_example.py:per_cfg",
+      "type": "function",
+      "name": "per_cfg",
+      "filePath": "paper_beyond_brier/worked_example.py",
+      "lineRange": [
+        59,
+        71
+      ],
+      "summary": "Defines per_cfg in worked_example.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "worked-example"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:paper_beyond_brier/worked_example.py:base_model",
+      "type": "function",
+      "name": "base_model",
+      "filePath": "paper_beyond_brier/worked_example.py",
+      "lineRange": [
+        108,
+        110
+      ],
+      "summary": "Defines base_model in worked_example.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "worked-example"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:paper_beyond_brier/matched_question.py",
+      "target": "function:paper_beyond_brier/matched_question.py:logit",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:paper_beyond_brier/matched_question.py",
+      "target": "function:paper_beyond_brier/matched_question.py:logit",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:paper_beyond_brier/matched_question.py",
+      "target": "function:paper_beyond_brier/matched_question.py:fid_of",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:paper_beyond_brier/matched_question.py",
+      "target": "function:paper_beyond_brier/matched_question.py:fid_of",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:paper_beyond_brier/matched_question.py",
+      "target": "function:paper_beyond_brier/matched_question.py:is_base",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:paper_beyond_brier/matched_question.py",
+      "target": "function:paper_beyond_brier/matched_question.py:is_base",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:paper_beyond_brier/matched_question.py",
+      "target": "function:paper_beyond_brier/matched_question.py:dll_adj",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:paper_beyond_brier/matched_question.py",
+      "target": "function:paper_beyond_brier/matched_question.py:dll_adj",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:paper_beyond_brier/matched_question.py",
+      "target": "function:paper_beyond_brier/matched_question.py:battery_mean",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:paper_beyond_brier/matched_question.py",
+      "target": "function:paper_beyond_brier/matched_question.py:battery_mean",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:paper_beyond_brier/matched_question.py",
+      "target": "function:paper_beyond_brier/matched_question.py:human_mean",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:paper_beyond_brier/matched_question.py",
+      "target": "function:paper_beyond_brier/matched_question.py:human_mean",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:paper_beyond_brier/multiround_rev.py",
+      "target": "function:paper_beyond_brier/multiround_rev.py:rd_year",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:paper_beyond_brier/multiround_rev.py",
+      "target": "function:paper_beyond_brier/multiround_rev.py:rd_year",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:paper_beyond_brier/multiround_rev.py",
+      "target": "function:paper_beyond_brier/multiround_rev.py:slope_ci",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:paper_beyond_brier/multiround_rev.py",
+      "target": "function:paper_beyond_brier/multiround_rev.py:slope_ci",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:paper_beyond_brier/multiround_rev.py",
+      "target": "function:paper_beyond_brier/multiround_rev.py:base_model",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:paper_beyond_brier/multiround_rev.py",
+      "target": "function:paper_beyond_brier/multiround_rev.py:base_model",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:paper_beyond_brier/multiround_rev.py",
+      "target": "function:paper_beyond_brier/multiround_rev.py:logit",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:paper_beyond_brier/multiround_rev.py",
+      "target": "function:paper_beyond_brier/multiround_rev.py:logit",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:paper_beyond_brier/multiround.py",
+      "target": "function:paper_beyond_brier/multiround.py:brier",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:paper_beyond_brier/multiround.py",
+      "target": "function:paper_beyond_brier/multiround.py:brier",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:paper_beyond_brier/multiround.py",
+      "target": "function:paper_beyond_brier/multiround.py:logit",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:paper_beyond_brier/multiround.py",
+      "target": "function:paper_beyond_brier/multiround.py:logit",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:paper_beyond_brier/multiround.py",
+      "target": "function:paper_beyond_brier/multiround.py:is_non_model",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:paper_beyond_brier/multiround.py",
+      "target": "function:paper_beyond_brier/multiround.py:is_non_model",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:paper_beyond_brier/multiround.py",
+      "target": "function:paper_beyond_brier/multiround.py:parse_release",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:paper_beyond_brier/multiround.py",
+      "target": "function:paper_beyond_brier/multiround.py:parse_release",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:paper_beyond_brier/multiround.py",
+      "target": "function:paper_beyond_brier/multiround.py:round_to_year",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:paper_beyond_brier/multiround.py",
+      "target": "function:paper_beyond_brier/multiround.py:round_to_year",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:paper_beyond_brier/multiround.py",
+      "target": "function:paper_beyond_brier/multiround.py:load_round",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:paper_beyond_brier/multiround.py",
+      "target": "function:paper_beyond_brier/multiround.py:load_round",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:paper_beyond_brier/multiround.py",
+      "target": "function:paper_beyond_brier/multiround.py:delta_ll",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:paper_beyond_brier/multiround.py",
+      "target": "function:paper_beyond_brier/multiround.py:delta_ll",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:paper_beyond_brier/multiround.py",
+      "target": "function:paper_beyond_brier/multiround.py:per_config",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:paper_beyond_brier/multiround.py",
+      "target": "function:paper_beyond_brier/multiround.py:per_config",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:paper_beyond_brier/multiround.py",
+      "target": "function:paper_beyond_brier/multiround.py:quick_stat",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:paper_beyond_brier/multiround.py",
+      "target": "function:paper_beyond_brier/multiround.py:quick_stat",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:paper_beyond_brier/multiround.py",
+      "target": "function:paper_beyond_brier/multiround.py:split_half",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:paper_beyond_brier/multiround.py",
+      "target": "function:paper_beyond_brier/multiround.py:split_half",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:paper_beyond_brier/oos_debias.py",
+      "target": "function:paper_beyond_brier/oos_debias.py:logit",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:paper_beyond_brier/oos_debias.py",
+      "target": "function:paper_beyond_brier/oos_debias.py:logit",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:paper_beyond_brier/oos_debias.py",
+      "target": "function:paper_beyond_brier/oos_debias.py:fid_of",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:paper_beyond_brier/oos_debias.py",
+      "target": "function:paper_beyond_brier/oos_debias.py:fid_of",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:paper_beyond_brier/oos_debias.py",
+      "target": "function:paper_beyond_brier/oos_debias.py:is_base",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:paper_beyond_brier/oos_debias.py",
+      "target": "function:paper_beyond_brier/oos_debias.py:is_base",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:paper_beyond_brier/oos_debias.py",
+      "target": "function:paper_beyond_brier/oos_debias.py:fit_ll",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:paper_beyond_brier/oos_debias.py",
+      "target": "function:paper_beyond_brier/oos_debias.py:fit_ll",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:paper_beyond_brier/oos_debias.py",
+      "target": "function:paper_beyond_brier/oos_debias.py:ll_eval",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:paper_beyond_brier/oos_debias.py",
+      "target": "function:paper_beyond_brier/oos_debias.py:ll_eval",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:paper_beyond_brier/oos_debias.py",
+      "target": "function:paper_beyond_brier/oos_debias.py:insample_dll",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:paper_beyond_brier/oos_debias.py",
+      "target": "function:paper_beyond_brier/oos_debias.py:insample_dll",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:paper_beyond_brier/oos_debias.py",
+      "target": "function:paper_beyond_brier/oos_debias.py:oos_dll",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:paper_beyond_brier/oos_debias.py",
+      "target": "function:paper_beyond_brier/oos_debias.py:oos_dll",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:paper_beyond_brier/oos_debias.py",
+      "target": "function:paper_beyond_brier/oos_debias.py:add_debiased_ref",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:paper_beyond_brier/oos_debias.py",
+      "target": "function:paper_beyond_brier/oos_debias.py:add_debiased_ref",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:paper_beyond_brier/oos_debias.py",
+      "target": "function:paper_beyond_brier/oos_debias.py:battery",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:paper_beyond_brier/oos_debias.py",
+      "target": "function:paper_beyond_brier/oos_debias.py:battery",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:paper_beyond_brier/oos_debias.py",
+      "target": "function:paper_beyond_brier/oos_debias.py:humans",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:paper_beyond_brier/oos_debias.py",
+      "target": "function:paper_beyond_brier/oos_debias.py:humans",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:paper_beyond_brier/revise_edge_v3.py",
+      "target": "function:paper_beyond_brier/revise_edge_v3.py:seed_of",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:paper_beyond_brier/revise_edge_v3.py",
+      "target": "function:paper_beyond_brier/revise_edge_v3.py:seed_of",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:paper_beyond_brier/revise_edge_v3.py",
+      "target": "function:paper_beyond_brier/revise_edge_v3.py:logit",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:paper_beyond_brier/revise_edge_v3.py",
+      "target": "function:paper_beyond_brier/revise_edge_v3.py:logit",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:paper_beyond_brier/revise_edge_v3.py",
+      "target": "function:paper_beyond_brier/revise_edge_v3.py:two_way_fe_alpha",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:paper_beyond_brier/revise_edge_v3.py",
+      "target": "function:paper_beyond_brier/revise_edge_v3.py:two_way_fe_alpha",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:paper_beyond_brier/revise_edge_v3.py",
+      "target": "function:paper_beyond_brier/revise_edge_v3.py:design",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:paper_beyond_brier/revise_edge_v3.py",
+      "target": "function:paper_beyond_brier/revise_edge_v3.py:design",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:paper_beyond_brier/revise_edge_v3.py",
+      "target": "function:paper_beyond_brier/revise_edge_v3.py:cluster_t_lpm",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:paper_beyond_brier/revise_edge_v3.py",
+      "target": "function:paper_beyond_brier/revise_edge_v3.py:cluster_t_lpm",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:paper_beyond_brier/revise_edge_v3.py",
+      "target": "function:paper_beyond_brier/revise_edge_v3.py:wild_cluster_bootstrap_t",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:paper_beyond_brier/revise_edge_v3.py",
+      "target": "function:paper_beyond_brier/revise_edge_v3.py:wild_cluster_bootstrap_t",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:paper_beyond_brier/revise_edge_v3.py",
+      "target": "function:paper_beyond_brier/revise_edge_v3.py:pairs_cluster_bootstrap_logit",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:paper_beyond_brier/revise_edge_v3.py",
+      "target": "function:paper_beyond_brier/revise_edge_v3.py:pairs_cluster_bootstrap_logit",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:paper_beyond_brier/revise_edge_v3.py",
+      "target": "function:paper_beyond_brier/revise_edge_v3.py:freeze_val",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:paper_beyond_brier/revise_edge_v3.py",
+      "target": "function:paper_beyond_brier/revise_edge_v3.py:freeze_val",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:paper_beyond_brier/revise_edge.py",
+      "target": "function:paper_beyond_brier/revise_edge.py:seed_of",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:paper_beyond_brier/revise_edge.py",
+      "target": "function:paper_beyond_brier/revise_edge.py:seed_of",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:paper_beyond_brier/revise_edge.py",
+      "target": "function:paper_beyond_brier/revise_edge.py:brier",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:paper_beyond_brier/revise_edge.py",
+      "target": "function:paper_beyond_brier/revise_edge.py:brier",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:paper_beyond_brier/revise_edge.py",
+      "target": "function:paper_beyond_brier/revise_edge.py:logscore_loss",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:paper_beyond_brier/revise_edge.py",
+      "target": "function:paper_beyond_brier/revise_edge.py:logscore_loss",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:paper_beyond_brier/revise_edge.py",
+      "target": "function:paper_beyond_brier/revise_edge.py:logit",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:paper_beyond_brier/revise_edge.py",
+      "target": "function:paper_beyond_brier/revise_edge.py:logit",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:paper_beyond_brier/revise_edge.py",
+      "target": "function:paper_beyond_brier/revise_edge.py:rho_vs_brier",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:paper_beyond_brier/revise_edge.py",
+      "target": "function:paper_beyond_brier/revise_edge.py:rho_vs_brier",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:paper_beyond_brier/revise_edge.py",
+      "target": "function:paper_beyond_brier/revise_edge.py:reg_r2",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:paper_beyond_brier/revise_edge.py",
+      "target": "function:paper_beyond_brier/revise_edge.py:reg_r2",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:paper_beyond_brier/revise_edge.py",
+      "target": "function:paper_beyond_brier/revise_edge.py:boot_ci",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:paper_beyond_brier/revise_edge.py",
+      "target": "function:paper_beyond_brier/revise_edge.py:boot_ci",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:paper_beyond_brier/revise_edge.py",
+      "target": "function:paper_beyond_brier/revise_edge.py:encompass_clustered",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:paper_beyond_brier/revise_edge.py",
+      "target": "function:paper_beyond_brier/revise_edge.py:encompass_clustered",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:paper_beyond_brier/revise_edge.py",
+      "target": "function:paper_beyond_brier/revise_edge.py:dm_hln_pvalue",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:paper_beyond_brier/revise_edge.py",
+      "target": "function:paper_beyond_brier/revise_edge.py:dm_hln_pvalue",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:paper_beyond_brier/revise_edge.py",
+      "target": "function:paper_beyond_brier/revise_edge.py:oos_isotonic_shrink",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:paper_beyond_brier/revise_edge.py",
+      "target": "function:paper_beyond_brier/revise_edge.py:oos_isotonic_shrink",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:paper_beyond_brier/revise_edge.py",
+      "target": "function:paper_beyond_brier/revise_edge.py:load_raw",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:paper_beyond_brier/revise_edge.py",
+      "target": "function:paper_beyond_brier/revise_edge.py:load_raw",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:paper_beyond_brier/revise_edge.py",
+      "target": "function:paper_beyond_brier/revise_edge.py:freeze_val",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:paper_beyond_brier/revise_edge.py",
+      "target": "function:paper_beyond_brier/revise_edge.py:freeze_val",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:paper_beyond_brier/worked_example.py",
+      "target": "function:paper_beyond_brier/worked_example.py:lg",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:paper_beyond_brier/worked_example.py",
+      "target": "function:paper_beyond_brier/worked_example.py:lg",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:paper_beyond_brier/worked_example.py",
+      "target": "function:paper_beyond_brier/worked_example.py:brier",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:paper_beyond_brier/worked_example.py",
+      "target": "function:paper_beyond_brier/worked_example.py:brier",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:paper_beyond_brier/worked_example.py",
+      "target": "function:paper_beyond_brier/worked_example.py:per_cfg",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:paper_beyond_brier/worked_example.py",
+      "target": "function:paper_beyond_brier/worked_example.py:per_cfg",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:paper_beyond_brier/worked_example.py",
+      "target": "function:paper_beyond_brier/worked_example.py:base_model",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:paper_beyond_brier/worked_example.py",
+      "target": "function:paper_beyond_brier/worked_example.py:base_model",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:paper_beyond_brier/matched_question.py:battery_mean",
+      "target": "function:paper_beyond_brier/matched_question.py:dll_adj",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:paper_beyond_brier/matched_question.py:human_mean",
+      "target": "function:paper_beyond_brier/matched_question.py:dll_adj",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:paper_beyond_brier/multiround.py:load_round",
+      "target": "function:paper_beyond_brier/multiround.py:is_non_model",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:paper_beyond_brier/multiround.py:load_round",
+      "target": "function:paper_beyond_brier/multiround.py:parse_release",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:paper_beyond_brier/multiround.py:load_round",
+      "target": "function:paper_beyond_brier/multiround.py:brier",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:paper_beyond_brier/multiround.py:load_round",
+      "target": "function:paper_beyond_brier/multiround.py:logit",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:paper_beyond_brier/multiround.py:per_config",
+      "target": "function:paper_beyond_brier/multiround.py:delta_ll",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:paper_beyond_brier/multiround.py:quick_stat",
+      "target": "function:paper_beyond_brier/multiround.py:delta_ll",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:paper_beyond_brier/multiround.py:split_half",
+      "target": "function:paper_beyond_brier/multiround.py:quick_stat",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:paper_beyond_brier/oos_debias.py:insample_dll",
+      "target": "function:paper_beyond_brier/oos_debias.py:fit_ll",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:paper_beyond_brier/oos_debias.py:oos_dll",
+      "target": "function:paper_beyond_brier/oos_debias.py:ll_eval",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:paper_beyond_brier/oos_debias.py:add_debiased_ref",
+      "target": "function:paper_beyond_brier/oos_debias.py:logit",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:paper_beyond_brier/revise_edge_v3.py:design",
+      "target": "function:paper_beyond_brier/revise_edge_v3.py:logit",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:paper_beyond_brier/revise_edge_v3.py:wild_cluster_bootstrap_t",
+      "target": "function:paper_beyond_brier/revise_edge_v3.py:cluster_t_lpm",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:paper_beyond_brier/revise_edge_v3.py:pairs_cluster_bootstrap_logit",
+      "target": "function:paper_beyond_brier/revise_edge_v3.py:design",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:paper_beyond_brier/revise_edge.py:encompass_clustered",
+      "target": "function:paper_beyond_brier/revise_edge.py:logit",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:paper_beyond_brier/revise_edge.py:oos_isotonic_shrink",
+      "target": "function:paper_beyond_brier/revise_edge.py:brier",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:paper_beyond_brier/worked_example.py:per_cfg",
+      "target": "function:paper_beyond_brier/worked_example.py:lg",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

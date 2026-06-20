@@ -1,0 +1,2067 @@
+{
+  "nodes": [
+    {
+      "id": "file:engine/feeds/fred.py",
+      "type": "file",
+      "name": "fred.py",
+      "filePath": "engine/feeds/fred.py",
+      "summary": "fred.py is a code asset in the forecasting engine. It contains 5 functions.",
+      "tags": [
+        "forecasting-engine",
+        "code",
+        "file",
+        "fred"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/feeds/fred.py:_fetch_csv",
+      "type": "function",
+      "name": "_fetch_csv",
+      "filePath": "engine/feeds/fred.py",
+      "lineRange": [
+        80,
+        84
+      ],
+      "summary": "Defines _fetch_csv in fred.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-access",
+        "fred"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/fred.py:_to_float",
+      "type": "function",
+      "name": "_to_float",
+      "filePath": "engine/feeds/fred.py",
+      "lineRange": [
+        87,
+        95
+      ],
+      "summary": "Defines _to_float in fred.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "fred"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/fred.py:normalize_series",
+      "type": "function",
+      "name": "normalize_series",
+      "filePath": "engine/feeds/fred.py",
+      "lineRange": [
+        98,
+        125
+      ],
+      "summary": "Defines normalize_series in fred.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "fred"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/fred.py:_write_jsonl",
+      "type": "function",
+      "name": "_write_jsonl",
+      "filePath": "engine/feeds/fred.py",
+      "lineRange": [
+        128,
+        134
+      ],
+      "summary": "Defines _write_jsonl in fred.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "fred"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/fred.py:collect",
+      "type": "function",
+      "name": "collect",
+      "filePath": "engine/feeds/fred.py",
+      "lineRange": [
+        137,
+        154
+      ],
+      "summary": "Defines collect in fred.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "fred"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:engine/feeds/fred_financial.py",
+      "type": "file",
+      "name": "fred_financial.py",
+      "filePath": "engine/feeds/fred_financial.py",
+      "summary": "fred_financial.py is a code asset in the forecasting engine. It contains 6 functions.",
+      "tags": [
+        "forecasting-engine",
+        "code",
+        "file",
+        "fred-financial"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/feeds/fred_financial.py:_existing_line_count",
+      "type": "function",
+      "name": "_existing_line_count",
+      "filePath": "engine/feeds/fred_financial.py",
+      "lineRange": [
+        74,
+        78
+      ],
+      "summary": "Defines _existing_line_count in fred_financial.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "fred-financial"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/fred_financial.py:_write_jsonl_atomic",
+      "type": "function",
+      "name": "_write_jsonl_atomic",
+      "filePath": "engine/feeds/fred_financial.py",
+      "lineRange": [
+        81,
+        87
+      ],
+      "summary": "Defines _write_jsonl_atomic in fred_financial.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "fred-financial"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/fred_financial.py:_fetch_csv",
+      "type": "function",
+      "name": "_fetch_csv",
+      "filePath": "engine/feeds/fred_financial.py",
+      "lineRange": [
+        90,
+        94
+      ],
+      "summary": "Defines _fetch_csv in fred_financial.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-access",
+        "fred-financial"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/fred_financial.py:_to_float",
+      "type": "function",
+      "name": "_to_float",
+      "filePath": "engine/feeds/fred_financial.py",
+      "lineRange": [
+        97,
+        107
+      ],
+      "summary": "Defines _to_float in fred_financial.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "fred-financial"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/fred_financial.py:normalize_series",
+      "type": "function",
+      "name": "normalize_series",
+      "filePath": "engine/feeds/fred_financial.py",
+      "lineRange": [
+        110,
+        135
+      ],
+      "summary": "Defines normalize_series in fred_financial.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "fred-financial"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/fred_financial.py:collect",
+      "type": "function",
+      "name": "collect",
+      "filePath": "engine/feeds/fred_financial.py",
+      "lineRange": [
+        138,
+        165
+      ],
+      "summary": "Defines collect in fred_financial.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "fred-financial"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:engine/feeds/gdacs_alerts.py",
+      "type": "file",
+      "name": "gdacs_alerts.py",
+      "filePath": "engine/feeds/gdacs_alerts.py",
+      "summary": "gdacs_alerts.py is a code asset in the forecasting engine. It contains 12 functions.",
+      "tags": [
+        "forecasting-engine",
+        "code",
+        "file",
+        "gdacs-alerts"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:engine/feeds/gdacs_alerts.py:_slug",
+      "type": "function",
+      "name": "_slug",
+      "filePath": "engine/feeds/gdacs_alerts.py",
+      "lineRange": [
+        37,
+        39
+      ],
+      "summary": "Defines _slug in gdacs_alerts.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "gdacs-alerts"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/gdacs_alerts.py:_parse_date",
+      "type": "function",
+      "name": "_parse_date",
+      "filePath": "engine/feeds/gdacs_alerts.py",
+      "lineRange": [
+        42,
+        52
+      ],
+      "summary": "Defines _parse_date in gdacs_alerts.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "gdacs-alerts"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/gdacs_alerts.py:_existing_line_count",
+      "type": "function",
+      "name": "_existing_line_count",
+      "filePath": "engine/feeds/gdacs_alerts.py",
+      "lineRange": [
+        55,
+        59
+      ],
+      "summary": "Defines _existing_line_count in gdacs_alerts.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "gdacs-alerts"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/gdacs_alerts.py:_write_jsonl_atomic",
+      "type": "function",
+      "name": "_write_jsonl_atomic",
+      "filePath": "engine/feeds/gdacs_alerts.py",
+      "lineRange": [
+        62,
+        68
+      ],
+      "summary": "Defines _write_jsonl_atomic in gdacs_alerts.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "gdacs-alerts"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/gdacs_alerts.py:fetch_events",
+      "type": "function",
+      "name": "fetch_events",
+      "filePath": "engine/feeds/gdacs_alerts.py",
+      "lineRange": [
+        71,
+        86
+      ],
+      "summary": "Defines fetch_events in gdacs_alerts.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-access",
+        "gdacs-alerts"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/gdacs_alerts.py:_props",
+      "type": "function",
+      "name": "_props",
+      "filePath": "engine/feeds/gdacs_alerts.py",
+      "lineRange": [
+        89,
+        90
+      ],
+      "summary": "Defines _props in gdacs_alerts.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "gdacs-alerts"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/gdacs_alerts.py:_country_entries",
+      "type": "function",
+      "name": "_country_entries",
+      "filePath": "engine/feeds/gdacs_alerts.py",
+      "lineRange": [
+        93,
+        108
+      ],
+      "summary": "Defines _country_entries in gdacs_alerts.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "gdacs-alerts"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/gdacs_alerts.py:_report_url",
+      "type": "function",
+      "name": "_report_url",
+      "filePath": "engine/feeds/gdacs_alerts.py",
+      "lineRange": [
+        111,
+        117
+      ],
+      "summary": "Defines _report_url in gdacs_alerts.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "gdacs-alerts"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/gdacs_alerts.py:_example",
+      "type": "function",
+      "name": "_example",
+      "filePath": "engine/feeds/gdacs_alerts.py",
+      "lineRange": [
+        120,
+        144
+      ],
+      "summary": "Defines _example in gdacs_alerts.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "gdacs-alerts"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/gdacs_alerts.py:_append_example",
+      "type": "function",
+      "name": "_append_example",
+      "filePath": "engine/feeds/gdacs_alerts.py",
+      "lineRange": [
+        147,
+        149
+      ],
+      "summary": "Defines _append_example in gdacs_alerts.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "gdacs-alerts"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/gdacs_alerts.py:normalize",
+      "type": "function",
+      "name": "normalize",
+      "filePath": "engine/feeds/gdacs_alerts.py",
+      "lineRange": [
+        152,
+        266
+      ],
+      "summary": "Defines normalize in gdacs_alerts.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "gdacs-alerts"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/feeds/gdacs_alerts.py:collect",
+      "type": "function",
+      "name": "collect",
+      "filePath": "engine/feeds/gdacs_alerts.py",
+      "lineRange": [
+        269,
+        290
+      ],
+      "summary": "Defines collect in gdacs_alerts.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "gdacs-alerts"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:engine/feeds/gdelt.py",
+      "type": "file",
+      "name": "gdelt.py",
+      "filePath": "engine/feeds/gdelt.py",
+      "summary": "gdelt.py is a code asset in the forecasting engine. It contains 17 functions, 1 class.",
+      "tags": [
+        "forecasting-engine",
+        "code",
+        "file",
+        "gdelt"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:engine/feeds/gdelt.py:_existing_line_count",
+      "type": "function",
+      "name": "_existing_line_count",
+      "filePath": "engine/feeds/gdelt.py",
+      "lineRange": [
+        127,
+        131
+      ],
+      "summary": "Defines _existing_line_count in gdelt.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "gdelt"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/gdelt.py:_read_existing_rows",
+      "type": "function",
+      "name": "_read_existing_rows",
+      "filePath": "engine/feeds/gdelt.py",
+      "lineRange": [
+        134,
+        145
+      ],
+      "summary": "Defines _read_existing_rows in gdelt.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "gdelt"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/gdelt.py:_merge_rows",
+      "type": "function",
+      "name": "_merge_rows",
+      "filePath": "engine/feeds/gdelt.py",
+      "lineRange": [
+        148,
+        153
+      ],
+      "summary": "Defines _merge_rows in gdelt.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "gdelt"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/gdelt.py:_write_jsonl_atomic",
+      "type": "function",
+      "name": "_write_jsonl_atomic",
+      "filePath": "engine/feeds/gdelt.py",
+      "lineRange": [
+        156,
+        162
+      ],
+      "summary": "Defines _write_jsonl_atomic in gdelt.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "gdelt"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/gdelt.py:_fetch_bytes",
+      "type": "function",
+      "name": "_fetch_bytes",
+      "filePath": "engine/feeds/gdelt.py",
+      "lineRange": [
+        165,
+        171
+      ],
+      "summary": "Defines _fetch_bytes in gdelt.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-access",
+        "gdelt"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/gdelt.py:_fetch_json",
+      "type": "function",
+      "name": "_fetch_json",
+      "filePath": "engine/feeds/gdelt.py",
+      "lineRange": [
+        174,
+        203
+      ],
+      "summary": "Defines _fetch_json in gdelt.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-access",
+        "gdelt"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/gdelt.py:fetch_timeline",
+      "type": "function",
+      "name": "fetch_timeline",
+      "filePath": "engine/feeds/gdelt.py",
+      "lineRange": [
+        206,
+        219
+      ],
+      "summary": "Defines fetch_timeline in gdelt.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-access",
+        "gdelt"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/gdelt.py:_parse_gdelt_date",
+      "type": "function",
+      "name": "_parse_gdelt_date",
+      "filePath": "engine/feeds/gdelt.py",
+      "lineRange": [
+        222,
+        231
+      ],
+      "summary": "Defines _parse_gdelt_date in gdelt.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "gdelt"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/gdelt.py:normalize",
+      "type": "function",
+      "name": "normalize",
+      "filePath": "engine/feeds/gdelt.py",
+      "lineRange": [
+        234,
+        261
+      ],
+      "summary": "Defines normalize in gdelt.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "gdelt"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/gdelt.py:_latest_export_url",
+      "type": "function",
+      "name": "_latest_export_url",
+      "filePath": "engine/feeds/gdelt.py",
+      "lineRange": [
+        264,
+        272
+      ],
+      "summary": "Defines _latest_export_url in gdelt.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "gdelt"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/gdelt.py:_recent_export_urls",
+      "type": "function",
+      "name": "_recent_export_urls",
+      "filePath": "engine/feeds/gdelt.py",
+      "lineRange": [
+        275,
+        285
+      ],
+      "summary": "Defines _recent_export_urls in gdelt.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "gdelt"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/gdelt.py:_iter_export_rows",
+      "type": "function",
+      "name": "_iter_export_rows",
+      "filePath": "engine/feeds/gdelt.py",
+      "lineRange": [
+        288,
+        298
+      ],
+      "summary": "Defines _iter_export_rows in gdelt.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "gdelt"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/gdelt.py:_date_from_dateadded",
+      "type": "function",
+      "name": "_date_from_dateadded",
+      "filePath": "engine/feeds/gdelt.py",
+      "lineRange": [
+        301,
+        305
+      ],
+      "summary": "Defines _date_from_dateadded in gdelt.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "gdelt"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/gdelt.py:_to_number",
+      "type": "function",
+      "name": "_to_number",
+      "filePath": "engine/feeds/gdelt.py",
+      "lineRange": [
+        308,
+        313
+      ],
+      "summary": "Defines _to_number in gdelt.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "gdelt"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/gdelt.py:_normalize_export_rows",
+      "type": "function",
+      "name": "_normalize_export_rows",
+      "filePath": "engine/feeds/gdelt.py",
+      "lineRange": [
+        316,
+        398
+      ],
+      "summary": "Defines _normalize_export_rows in gdelt.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "gdelt"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/feeds/gdelt.py:collect_recent_exports",
+      "type": "function",
+      "name": "collect_recent_exports",
+      "filePath": "engine/feeds/gdelt.py",
+      "lineRange": [
+        401,
+        420
+      ],
+      "summary": "Defines collect_recent_exports in gdelt.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "gdelt"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/gdelt.py:collect",
+      "type": "function",
+      "name": "collect",
+      "filePath": "engine/feeds/gdelt.py",
+      "lineRange": [
+        423,
+        466
+      ],
+      "summary": "Defines collect in gdelt.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "gdelt"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:engine/feeds/gdelt.py:GdeltRateLimited",
+      "type": "class",
+      "name": "GdeltRateLimited",
+      "filePath": "engine/feeds/gdelt.py",
+      "lineRange": [
+        91,
+        92
+      ],
+      "summary": "Defines GdeltRateLimited in gdelt.py, encapsulating reusable behavior or state for this module.",
+      "tags": [
+        "class",
+        "implementation",
+        "gdelt"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:engine/feeds/global_equities.py",
+      "type": "file",
+      "name": "global_equities.py",
+      "filePath": "engine/feeds/global_equities.py",
+      "summary": "global_equities.py is a code asset in the forecasting engine. It contains 10 functions, 1 class.",
+      "tags": [
+        "forecasting-engine",
+        "code",
+        "file",
+        "global-equities"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:engine/feeds/global_equities.py:_today",
+      "type": "function",
+      "name": "_today",
+      "filePath": "engine/feeds/global_equities.py",
+      "lineRange": [
+        100,
+        101
+      ],
+      "summary": "Defines _today in global_equities.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "global-equities"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/global_equities.py:_period_start",
+      "type": "function",
+      "name": "_period_start",
+      "filePath": "engine/feeds/global_equities.py",
+      "lineRange": [
+        104,
+        105
+      ],
+      "summary": "Defines _period_start in global_equities.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "global-equities"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/global_equities.py:_period_end",
+      "type": "function",
+      "name": "_period_end",
+      "filePath": "engine/feeds/global_equities.py",
+      "lineRange": [
+        108,
+        109
+      ],
+      "summary": "Defines _period_end in global_equities.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "global-equities"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/global_equities.py:_url",
+      "type": "function",
+      "name": "_url",
+      "filePath": "engine/feeds/global_equities.py",
+      "lineRange": [
+        112,
+        122
+      ],
+      "summary": "Defines _url in global_equities.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "global-equities"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/global_equities.py:_fetch_chart",
+      "type": "function",
+      "name": "_fetch_chart",
+      "filePath": "engine/feeds/global_equities.py",
+      "lineRange": [
+        125,
+        131
+      ],
+      "summary": "Defines _fetch_chart in global_equities.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-access",
+        "global-equities"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/global_equities.py:_write_jsonl_atomic",
+      "type": "function",
+      "name": "_write_jsonl_atomic",
+      "filePath": "engine/feeds/global_equities.py",
+      "lineRange": [
+        134,
+        140
+      ],
+      "summary": "Defines _write_jsonl_atomic in global_equities.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "global-equities"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/global_equities.py:_existing_line_count",
+      "type": "function",
+      "name": "_existing_line_count",
+      "filePath": "engine/feeds/global_equities.py",
+      "lineRange": [
+        143,
+        147
+      ],
+      "summary": "Defines _existing_line_count in global_equities.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "global-equities"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/global_equities.py:normalize_chart",
+      "type": "function",
+      "name": "normalize_chart",
+      "filePath": "engine/feeds/global_equities.py",
+      "lineRange": [
+        150,
+        202
+      ],
+      "summary": "Defines normalize_chart in global_equities.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "global-equities"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/feeds/global_equities.py:selected_universe",
+      "type": "function",
+      "name": "selected_universe",
+      "filePath": "engine/feeds/global_equities.py",
+      "lineRange": [
+        205,
+        208
+      ],
+      "summary": "Defines selected_universe in global_equities.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "global-equities"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/global_equities.py:collect",
+      "type": "function",
+      "name": "collect",
+      "filePath": "engine/feeds/global_equities.py",
+      "lineRange": [
+        211,
+        244
+      ],
+      "summary": "Defines collect in global_equities.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "global-equities"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:engine/feeds/global_equities.py:EquitySpec",
+      "type": "class",
+      "name": "EquitySpec",
+      "filePath": "engine/feeds/global_equities.py",
+      "lineRange": [
+        32,
+        36
+      ],
+      "summary": "Defines EquitySpec in global_equities.py, encapsulating reusable behavior or state for this module.",
+      "tags": [
+        "class",
+        "implementation",
+        "global-equities"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:engine/feeds/fred.py",
+      "target": "function:engine/feeds/fred.py:_fetch_csv",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/fred.py",
+      "target": "function:engine/feeds/fred.py:_fetch_csv",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/fred.py",
+      "target": "function:engine/feeds/fred.py:_to_float",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/fred.py",
+      "target": "function:engine/feeds/fred.py:_to_float",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/fred.py",
+      "target": "function:engine/feeds/fred.py:normalize_series",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/fred.py",
+      "target": "function:engine/feeds/fred.py:normalize_series",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/fred.py",
+      "target": "function:engine/feeds/fred.py:_write_jsonl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/fred.py",
+      "target": "function:engine/feeds/fred.py:_write_jsonl",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/fred.py",
+      "target": "function:engine/feeds/fred.py:collect",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/fred.py",
+      "target": "function:engine/feeds/fred.py:collect",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/fred_financial.py",
+      "target": "function:engine/feeds/fred_financial.py:_existing_line_count",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/fred_financial.py",
+      "target": "function:engine/feeds/fred_financial.py:_existing_line_count",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/fred_financial.py",
+      "target": "function:engine/feeds/fred_financial.py:_write_jsonl_atomic",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/fred_financial.py",
+      "target": "function:engine/feeds/fred_financial.py:_write_jsonl_atomic",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/fred_financial.py",
+      "target": "function:engine/feeds/fred_financial.py:_fetch_csv",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/fred_financial.py",
+      "target": "function:engine/feeds/fred_financial.py:_fetch_csv",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/fred_financial.py",
+      "target": "function:engine/feeds/fred_financial.py:_to_float",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/fred_financial.py",
+      "target": "function:engine/feeds/fred_financial.py:_to_float",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/fred_financial.py",
+      "target": "function:engine/feeds/fred_financial.py:normalize_series",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/fred_financial.py",
+      "target": "function:engine/feeds/fred_financial.py:normalize_series",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/fred_financial.py",
+      "target": "function:engine/feeds/fred_financial.py:collect",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/fred_financial.py",
+      "target": "function:engine/feeds/fred_financial.py:collect",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/gdacs_alerts.py",
+      "target": "function:engine/feeds/gdacs_alerts.py:_slug",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/gdacs_alerts.py",
+      "target": "function:engine/feeds/gdacs_alerts.py:_slug",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/gdacs_alerts.py",
+      "target": "function:engine/feeds/gdacs_alerts.py:_parse_date",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/gdacs_alerts.py",
+      "target": "function:engine/feeds/gdacs_alerts.py:_parse_date",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/gdacs_alerts.py",
+      "target": "function:engine/feeds/gdacs_alerts.py:_existing_line_count",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/gdacs_alerts.py",
+      "target": "function:engine/feeds/gdacs_alerts.py:_existing_line_count",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/gdacs_alerts.py",
+      "target": "function:engine/feeds/gdacs_alerts.py:_write_jsonl_atomic",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/gdacs_alerts.py",
+      "target": "function:engine/feeds/gdacs_alerts.py:_write_jsonl_atomic",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/gdacs_alerts.py",
+      "target": "function:engine/feeds/gdacs_alerts.py:fetch_events",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/gdacs_alerts.py",
+      "target": "function:engine/feeds/gdacs_alerts.py:fetch_events",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/gdacs_alerts.py",
+      "target": "function:engine/feeds/gdacs_alerts.py:_props",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/gdacs_alerts.py",
+      "target": "function:engine/feeds/gdacs_alerts.py:_props",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/gdacs_alerts.py",
+      "target": "function:engine/feeds/gdacs_alerts.py:_country_entries",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/gdacs_alerts.py",
+      "target": "function:engine/feeds/gdacs_alerts.py:_country_entries",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/gdacs_alerts.py",
+      "target": "function:engine/feeds/gdacs_alerts.py:_report_url",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/gdacs_alerts.py",
+      "target": "function:engine/feeds/gdacs_alerts.py:_report_url",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/gdacs_alerts.py",
+      "target": "function:engine/feeds/gdacs_alerts.py:_example",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/gdacs_alerts.py",
+      "target": "function:engine/feeds/gdacs_alerts.py:_example",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/gdacs_alerts.py",
+      "target": "function:engine/feeds/gdacs_alerts.py:_append_example",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/gdacs_alerts.py",
+      "target": "function:engine/feeds/gdacs_alerts.py:_append_example",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/gdacs_alerts.py",
+      "target": "function:engine/feeds/gdacs_alerts.py:normalize",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/gdacs_alerts.py",
+      "target": "function:engine/feeds/gdacs_alerts.py:normalize",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/gdacs_alerts.py",
+      "target": "function:engine/feeds/gdacs_alerts.py:collect",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/gdacs_alerts.py",
+      "target": "function:engine/feeds/gdacs_alerts.py:collect",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/gdelt.py",
+      "target": "function:engine/feeds/gdelt.py:_existing_line_count",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/gdelt.py",
+      "target": "function:engine/feeds/gdelt.py:_existing_line_count",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/gdelt.py",
+      "target": "function:engine/feeds/gdelt.py:_read_existing_rows",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/gdelt.py",
+      "target": "function:engine/feeds/gdelt.py:_read_existing_rows",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/gdelt.py",
+      "target": "function:engine/feeds/gdelt.py:_merge_rows",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/gdelt.py",
+      "target": "function:engine/feeds/gdelt.py:_merge_rows",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/gdelt.py",
+      "target": "function:engine/feeds/gdelt.py:_write_jsonl_atomic",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/gdelt.py",
+      "target": "function:engine/feeds/gdelt.py:_write_jsonl_atomic",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/gdelt.py",
+      "target": "function:engine/feeds/gdelt.py:_fetch_bytes",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/gdelt.py",
+      "target": "function:engine/feeds/gdelt.py:_fetch_bytes",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/gdelt.py",
+      "target": "function:engine/feeds/gdelt.py:_fetch_json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/gdelt.py",
+      "target": "function:engine/feeds/gdelt.py:_fetch_json",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/gdelt.py",
+      "target": "function:engine/feeds/gdelt.py:fetch_timeline",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/gdelt.py",
+      "target": "function:engine/feeds/gdelt.py:fetch_timeline",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/gdelt.py",
+      "target": "function:engine/feeds/gdelt.py:_parse_gdelt_date",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/gdelt.py",
+      "target": "function:engine/feeds/gdelt.py:_parse_gdelt_date",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/gdelt.py",
+      "target": "function:engine/feeds/gdelt.py:normalize",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/gdelt.py",
+      "target": "function:engine/feeds/gdelt.py:normalize",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/gdelt.py",
+      "target": "function:engine/feeds/gdelt.py:_latest_export_url",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/gdelt.py",
+      "target": "function:engine/feeds/gdelt.py:_latest_export_url",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/gdelt.py",
+      "target": "function:engine/feeds/gdelt.py:_recent_export_urls",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/gdelt.py",
+      "target": "function:engine/feeds/gdelt.py:_recent_export_urls",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/gdelt.py",
+      "target": "function:engine/feeds/gdelt.py:_iter_export_rows",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/gdelt.py",
+      "target": "function:engine/feeds/gdelt.py:_iter_export_rows",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/gdelt.py",
+      "target": "function:engine/feeds/gdelt.py:_date_from_dateadded",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/gdelt.py",
+      "target": "function:engine/feeds/gdelt.py:_date_from_dateadded",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/gdelt.py",
+      "target": "function:engine/feeds/gdelt.py:_to_number",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/gdelt.py",
+      "target": "function:engine/feeds/gdelt.py:_to_number",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/gdelt.py",
+      "target": "function:engine/feeds/gdelt.py:_normalize_export_rows",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/gdelt.py",
+      "target": "function:engine/feeds/gdelt.py:_normalize_export_rows",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/gdelt.py",
+      "target": "function:engine/feeds/gdelt.py:collect_recent_exports",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/gdelt.py",
+      "target": "function:engine/feeds/gdelt.py:collect_recent_exports",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/gdelt.py",
+      "target": "function:engine/feeds/gdelt.py:collect",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/gdelt.py",
+      "target": "function:engine/feeds/gdelt.py:collect",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/gdelt.py",
+      "target": "class:engine/feeds/gdelt.py:GdeltRateLimited",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/gdelt.py",
+      "target": "class:engine/feeds/gdelt.py:GdeltRateLimited",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/global_equities.py",
+      "target": "function:engine/feeds/global_equities.py:_today",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/global_equities.py",
+      "target": "function:engine/feeds/global_equities.py:_today",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/global_equities.py",
+      "target": "function:engine/feeds/global_equities.py:_period_start",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/global_equities.py",
+      "target": "function:engine/feeds/global_equities.py:_period_start",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/global_equities.py",
+      "target": "function:engine/feeds/global_equities.py:_period_end",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/global_equities.py",
+      "target": "function:engine/feeds/global_equities.py:_period_end",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/global_equities.py",
+      "target": "function:engine/feeds/global_equities.py:_url",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/global_equities.py",
+      "target": "function:engine/feeds/global_equities.py:_url",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/global_equities.py",
+      "target": "function:engine/feeds/global_equities.py:_fetch_chart",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/global_equities.py",
+      "target": "function:engine/feeds/global_equities.py:_fetch_chart",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/global_equities.py",
+      "target": "function:engine/feeds/global_equities.py:_write_jsonl_atomic",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/global_equities.py",
+      "target": "function:engine/feeds/global_equities.py:_write_jsonl_atomic",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/global_equities.py",
+      "target": "function:engine/feeds/global_equities.py:_existing_line_count",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/global_equities.py",
+      "target": "function:engine/feeds/global_equities.py:_existing_line_count",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/global_equities.py",
+      "target": "function:engine/feeds/global_equities.py:normalize_chart",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/global_equities.py",
+      "target": "function:engine/feeds/global_equities.py:normalize_chart",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/global_equities.py",
+      "target": "function:engine/feeds/global_equities.py:selected_universe",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/global_equities.py",
+      "target": "function:engine/feeds/global_equities.py:selected_universe",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/global_equities.py",
+      "target": "function:engine/feeds/global_equities.py:collect",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/global_equities.py",
+      "target": "function:engine/feeds/global_equities.py:collect",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/global_equities.py",
+      "target": "class:engine/feeds/global_equities.py:EquitySpec",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/global_equities.py",
+      "target": "class:engine/feeds/global_equities.py:EquitySpec",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/fred.py:normalize_series",
+      "target": "function:engine/feeds/fred.py:_to_float",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/fred.py:collect",
+      "target": "function:engine/feeds/fred.py:_fetch_csv",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/fred.py:collect",
+      "target": "function:engine/feeds/fred.py:normalize_series",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/fred.py:collect",
+      "target": "function:engine/feeds/fred.py:_write_jsonl",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/fred_financial.py:normalize_series",
+      "target": "function:engine/feeds/fred_financial.py:_to_float",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/fred_financial.py:collect",
+      "target": "function:engine/feeds/fred_financial.py:_fetch_csv",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/fred_financial.py:collect",
+      "target": "function:engine/feeds/fred_financial.py:normalize_series",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/fred_financial.py:collect",
+      "target": "function:engine/feeds/fred_financial.py:_existing_line_count",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/fred_financial.py:collect",
+      "target": "function:engine/feeds/fred_financial.py:_write_jsonl_atomic",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/gdacs_alerts.py:_example",
+      "target": "function:engine/feeds/gdacs_alerts.py:_props",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/gdacs_alerts.py:_example",
+      "target": "function:engine/feeds/gdacs_alerts.py:_country_entries",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/gdacs_alerts.py:_example",
+      "target": "function:engine/feeds/gdacs_alerts.py:_report_url",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/gdacs_alerts.py",
+      "target": "function:engine/feeds/gdacs_alerts.py:_append_example",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/gdacs_alerts.py",
+      "target": "function:engine/feeds/gdacs_alerts.py:_example",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/gdacs_alerts.py:normalize",
+      "target": "function:engine/feeds/gdacs_alerts.py:_props",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/gdacs_alerts.py:normalize",
+      "target": "function:engine/feeds/gdacs_alerts.py:_parse_date",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/gdacs_alerts.py:normalize",
+      "target": "function:engine/feeds/gdacs_alerts.py:_slug",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/gdacs_alerts.py:normalize",
+      "target": "function:engine/feeds/gdacs_alerts.py:_country_entries",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/gdacs_alerts.py:normalize",
+      "target": "function:engine/feeds/gdacs_alerts.py:_append_example",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/gdacs_alerts.py:normalize",
+      "target": "function:engine/feeds/gdacs_alerts.py:_example",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/gdacs_alerts.py:collect",
+      "target": "function:engine/feeds/gdacs_alerts.py:fetch_events",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/gdacs_alerts.py:collect",
+      "target": "function:engine/feeds/gdacs_alerts.py:normalize",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/gdacs_alerts.py:collect",
+      "target": "function:engine/feeds/gdacs_alerts.py:_existing_line_count",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/gdacs_alerts.py:collect",
+      "target": "function:engine/feeds/gdacs_alerts.py:_write_jsonl_atomic",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/gdelt.py:_fetch_json",
+      "target": "class:engine/feeds/gdelt.py:GdeltRateLimited",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/gdelt.py:fetch_timeline",
+      "target": "function:engine/feeds/gdelt.py:_fetch_json",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/gdelt.py:normalize",
+      "target": "function:engine/feeds/gdelt.py:_parse_gdelt_date",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/gdelt.py:_latest_export_url",
+      "target": "function:engine/feeds/gdelt.py:_fetch_bytes",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/gdelt.py:_normalize_export_rows",
+      "target": "function:engine/feeds/gdelt.py:_date_from_dateadded",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/gdelt.py:_normalize_export_rows",
+      "target": "function:engine/feeds/gdelt.py:_to_number",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/gdelt.py:collect_recent_exports",
+      "target": "function:engine/feeds/gdelt.py:_latest_export_url",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/gdelt.py:collect_recent_exports",
+      "target": "function:engine/feeds/gdelt.py:_recent_export_urls",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/gdelt.py:collect_recent_exports",
+      "target": "function:engine/feeds/gdelt.py:_fetch_bytes",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/gdelt.py:collect_recent_exports",
+      "target": "function:engine/feeds/gdelt.py:_iter_export_rows",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/gdelt.py:collect_recent_exports",
+      "target": "function:engine/feeds/gdelt.py:_normalize_export_rows",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/gdelt.py:collect",
+      "target": "function:engine/feeds/gdelt.py:fetch_timeline",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/gdelt.py:collect",
+      "target": "function:engine/feeds/gdelt.py:_existing_line_count",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/gdelt.py:collect",
+      "target": "function:engine/feeds/gdelt.py:normalize",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/gdelt.py:collect",
+      "target": "function:engine/feeds/gdelt.py:collect_recent_exports",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/gdelt.py:collect",
+      "target": "function:engine/feeds/gdelt.py:_merge_rows",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/gdelt.py:collect",
+      "target": "function:engine/feeds/gdelt.py:_read_existing_rows",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/gdelt.py:collect",
+      "target": "function:engine/feeds/gdelt.py:_write_jsonl_atomic",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/global_equities.py:_url",
+      "target": "function:engine/feeds/global_equities.py:_period_start",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/global_equities.py:_url",
+      "target": "function:engine/feeds/global_equities.py:_period_end",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/global_equities.py:_fetch_chart",
+      "target": "function:engine/feeds/global_equities.py:_url",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/global_equities.py:normalize_chart",
+      "target": "function:engine/feeds/global_equities.py:_today",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/global_equities.py:collect",
+      "target": "function:engine/feeds/global_equities.py:_today",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/global_equities.py:collect",
+      "target": "function:engine/feeds/global_equities.py:selected_universe",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/global_equities.py:collect",
+      "target": "function:engine/feeds/global_equities.py:_fetch_chart",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/global_equities.py:collect",
+      "target": "function:engine/feeds/global_equities.py:normalize_chart",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/global_equities.py:collect",
+      "target": "function:engine/feeds/global_equities.py:_existing_line_count",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/global_equities.py:collect",
+      "target": "function:engine/feeds/global_equities.py:_write_jsonl_atomic",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

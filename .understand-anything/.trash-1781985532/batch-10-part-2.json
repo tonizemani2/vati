@@ -1,0 +1,1812 @@
+{
+  "nodes": [
+    {
+      "id": "file:engine/forecastbench/dataset.py",
+      "type": "file",
+      "name": "dataset.py",
+      "filePath": "engine/forecastbench/dataset.py",
+      "summary": "dataset.py is a code asset in the forecasting engine. It contains 25 functions, 1 internal import.",
+      "tags": [
+        "forecasting-engine",
+        "forecasting",
+        "code"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:engine/forecastbench/dataset.py:_log_proxy_use_once",
+      "type": "function",
+      "name": "_log_proxy_use_once",
+      "filePath": "engine/forecastbench/dataset.py",
+      "lineRange": [
+        43,
+        58
+      ],
+      "summary": "Defines _log_proxy_use_once in dataset.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "dataset"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/dataset.py:_fetch_via_proxy",
+      "type": "function",
+      "name": "_fetch_via_proxy",
+      "filePath": "engine/forecastbench/dataset.py",
+      "lineRange": [
+        61,
+        86
+      ],
+      "summary": "Defines _fetch_via_proxy in dataset.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-access",
+        "dataset"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/dataset.py:_norm_cdf",
+      "type": "function",
+      "name": "_norm_cdf",
+      "filePath": "engine/forecastbench/dataset.py",
+      "lineRange": [
+        89,
+        90
+      ],
+      "summary": "Defines _norm_cdf in dataset.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "dataset"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/dataset.py:_logit",
+      "type": "function",
+      "name": "_logit",
+      "filePath": "engine/forecastbench/dataset.py",
+      "lineRange": [
+        93,
+        95
+      ],
+      "summary": "Defines _logit in dataset.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "dataset"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/dataset.py:_sigmoid",
+      "type": "function",
+      "name": "_sigmoid",
+      "filePath": "engine/forecastbench/dataset.py",
+      "lineRange": [
+        98,
+        99
+      ],
+      "summary": "Defines _sigmoid in dataset.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "dataset"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/dataset.py:calibrate_dataset_probability",
+      "type": "function",
+      "name": "calibrate_dataset_probability",
+      "filePath": "engine/forecastbench/dataset.py",
+      "lineRange": [
+        122,
+        134
+      ],
+      "summary": "Defines calibrate_dataset_probability in dataset.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "dataset"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/dataset.py:_d",
+      "type": "function",
+      "name": "_d",
+      "filePath": "engine/forecastbench/dataset.py",
+      "lineRange": [
+        137,
+        138
+      ],
+      "summary": "Defines _d in dataset.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "dataset"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/dataset.py:_get",
+      "type": "function",
+      "name": "_get",
+      "filePath": "engine/forecastbench/dataset.py",
+      "lineRange": [
+        141,
+        185
+      ],
+      "summary": "Defines _get in dataset.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "dataset"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/dataset.py:fetch_fred",
+      "type": "function",
+      "name": "fetch_fred",
+      "filePath": "engine/forecastbench/dataset.py",
+      "lineRange": [
+        190,
+        202
+      ],
+      "summary": "Defines fetch_fred in dataset.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-access",
+        "dataset"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/dataset.py:fetch_yahoo",
+      "type": "function",
+      "name": "fetch_yahoo",
+      "filePath": "engine/forecastbench/dataset.py",
+      "lineRange": [
+        205,
+        220
+      ],
+      "summary": "Defines fetch_yahoo in dataset.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-access",
+        "dataset"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/dataset.py:fetch_dbnomics",
+      "type": "function",
+      "name": "fetch_dbnomics",
+      "filePath": "engine/forecastbench/dataset.py",
+      "lineRange": [
+        223,
+        257
+      ],
+      "summary": "Defines fetch_dbnomics in dataset.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-access",
+        "dataset"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/dataset.py:_truncate",
+      "type": "function",
+      "name": "_truncate",
+      "filePath": "engine/forecastbench/dataset.py",
+      "lineRange": [
+        262,
+        263
+      ],
+      "summary": "Defines _truncate in dataset.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entry-point",
+        "dataset"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/dataset.py:p_higher_drift",
+      "type": "function",
+      "name": "p_higher_drift",
+      "filePath": "engine/forecastbench/dataset.py",
+      "lineRange": [
+        266,
+        301
+      ],
+      "summary": "Defines p_higher_drift in dataset.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "dataset"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/dataset.py:p_higher_equity",
+      "type": "function",
+      "name": "p_higher_equity",
+      "filePath": "engine/forecastbench/dataset.py",
+      "lineRange": [
+        309,
+        325
+      ],
+      "summary": "Defines p_higher_equity in dataset.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "dataset"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/dataset.py:p_higher_seasonal",
+      "type": "function",
+      "name": "p_higher_seasonal",
+      "filePath": "engine/forecastbench/dataset.py",
+      "lineRange": [
+        328,
+        349
+      ],
+      "summary": "Defines p_higher_seasonal in dataset.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "dataset"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/dataset.py:p_higher_baserate",
+      "type": "function",
+      "name": "p_higher_baserate",
+      "filePath": "engine/forecastbench/dataset.py",
+      "lineRange": [
+        359,
+        396
+      ],
+      "summary": "Defines p_higher_baserate in dataset.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "dataset"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/dataset.py:p_wikipedia",
+      "type": "function",
+      "name": "p_wikipedia",
+      "filePath": "engine/forecastbench/dataset.py",
+      "lineRange": [
+        399,
+        422
+      ],
+      "summary": "Defines p_wikipedia in dataset.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "dataset"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/dataset.py:_ninv",
+      "type": "function",
+      "name": "_ninv",
+      "filePath": "engine/forecastbench/dataset.py",
+      "lineRange": [
+        434,
+        453
+      ],
+      "summary": "Defines _ninv in dataset.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "dataset"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/dataset.py:_bivnorm_cdf",
+      "type": "function",
+      "name": "_bivnorm_cdf",
+      "filePath": "engine/forecastbench/dataset.py",
+      "lineRange": [
+        456,
+        475
+      ],
+      "summary": "Defines _bivnorm_cdf in dataset.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "dataset"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/dataset.py:estimate_corr",
+      "type": "function",
+      "name": "estimate_corr",
+      "filePath": "engine/forecastbench/dataset.py",
+      "lineRange": [
+        478,
+        503
+      ],
+      "summary": "Defines estimate_corr in dataset.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "dataset"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/dataset.py:joint_up",
+      "type": "function",
+      "name": "joint_up",
+      "filePath": "engine/forecastbench/dataset.py",
+      "lineRange": [
+        506,
+        512
+      ],
+      "summary": "Defines joint_up in dataset.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "dataset"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/dataset.py:combo_corr",
+      "type": "function",
+      "name": "combo_corr",
+      "filePath": "engine/forecastbench/dataset.py",
+      "lineRange": [
+        515,
+        543
+      ],
+      "summary": "Defines combo_corr in dataset.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "dataset"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/dataset.py:forecast_dataset_question",
+      "type": "function",
+      "name": "forecast_dataset_question",
+      "filePath": "engine/forecastbench/dataset.py",
+      "lineRange": [
+        548,
+        608
+      ],
+      "summary": "Defines forecast_dataset_question in dataset.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "dataset"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/forecastbench/dataset.py:prefetch_round",
+      "type": "function",
+      "name": "prefetch_round",
+      "filePath": "engine/forecastbench/dataset.py",
+      "lineRange": [
+        611,
+        640
+      ],
+      "summary": "Defines prefetch_round in dataset.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-access",
+        "dataset"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/dataset.py:forecast_round",
+      "type": "function",
+      "name": "forecast_round",
+      "filePath": "engine/forecastbench/dataset.py",
+      "lineRange": [
+        643,
+        655
+      ],
+      "summary": "Defines forecast_round in dataset.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "dataset"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:engine/forecastbench/diversify.py",
+      "type": "file",
+      "name": "diversify.py",
+      "filePath": "engine/forecastbench/diversify.py",
+      "summary": "diversify.py is a code asset in the forecasting engine. It contains 9 functions, 2 internal imports.",
+      "tags": [
+        "forecasting-engine",
+        "forecasting",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/forecastbench/diversify.py:_key",
+      "type": "function",
+      "name": "_key",
+      "filePath": "engine/forecastbench/diversify.py",
+      "lineRange": [
+        24,
+        25
+      ],
+      "summary": "Defines _key in diversify.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "diversify"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/diversify.py:_logit",
+      "type": "function",
+      "name": "_logit",
+      "filePath": "engine/forecastbench/diversify.py",
+      "lineRange": [
+        28,
+        30
+      ],
+      "summary": "Defines _logit in diversify.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "diversify"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/diversify.py:_sigmoid",
+      "type": "function",
+      "name": "_sigmoid",
+      "filePath": "engine/forecastbench/diversify.py",
+      "lineRange": [
+        33,
+        34
+      ],
+      "summary": "Defines _sigmoid in diversify.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "diversify"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/diversify.py:_soft_market_probability",
+      "type": "function",
+      "name": "_soft_market_probability",
+      "filePath": "engine/forecastbench/diversify.py",
+      "lineRange": [
+        37,
+        43
+      ],
+      "summary": "Defines _soft_market_probability in diversify.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "diversify"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/diversify.py:_raw_market_probability",
+      "type": "function",
+      "name": "_raw_market_probability",
+      "filePath": "engine/forecastbench/diversify.py",
+      "lineRange": [
+        46,
+        47
+      ],
+      "summary": "Defines _raw_market_probability in diversify.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "diversify"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/diversify.py:make_market_variant",
+      "type": "function",
+      "name": "make_market_variant",
+      "filePath": "engine/forecastbench/diversify.py",
+      "lineRange": [
+        50,
+        118
+      ],
+      "summary": "Defines make_market_variant in diversify.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "diversify"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/forecastbench/diversify.py:make_soft_market_variant",
+      "type": "function",
+      "name": "make_soft_market_variant",
+      "filePath": "engine/forecastbench/diversify.py",
+      "lineRange": [
+        121,
+        122
+      ],
+      "summary": "Defines make_soft_market_variant in diversify.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "diversify"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/diversify.py:make_raw_market_variant",
+      "type": "function",
+      "name": "make_raw_market_variant",
+      "filePath": "engine/forecastbench/diversify.py",
+      "lineRange": [
+        125,
+        126
+      ],
+      "summary": "Defines make_raw_market_variant in diversify.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "diversify"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/diversify.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "engine/forecastbench/diversify.py",
+      "lineRange": [
+        129,
+        146
+      ],
+      "summary": "Defines main in diversify.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entry-point",
+        "diversify"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:engine/forecastbench/gap_claude.py",
+      "type": "file",
+      "name": "gap_claude.py",
+      "filePath": "engine/forecastbench/gap_claude.py",
+      "summary": "gap_claude.py is a code asset in the forecasting engine. It contains 5 functions, 2 internal imports.",
+      "tags": [
+        "forecasting-engine",
+        "forecasting",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/forecastbench/gap_claude.py:find_gaps",
+      "type": "function",
+      "name": "find_gaps",
+      "filePath": "engine/forecastbench/gap_claude.py",
+      "lineRange": [
+        38,
+        50
+      ],
+      "summary": "Defines find_gaps in gap_claude.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "gap-claude"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/gap_claude.py:scan",
+      "type": "function",
+      "name": "scan",
+      "filePath": "engine/forecastbench/gap_claude.py",
+      "lineRange": [
+        53,
+        78
+      ],
+      "summary": "Defines scan in gap_claude.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "gap-claude"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/gap_claude.py:_key",
+      "type": "function",
+      "name": "_key",
+      "filePath": "engine/forecastbench/gap_claude.py",
+      "lineRange": [
+        81,
+        82
+      ],
+      "summary": "Defines _key in gap_claude.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "gap-claude"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/gap_claude.py:load_forecasts",
+      "type": "function",
+      "name": "load_forecasts",
+      "filePath": "engine/forecastbench/gap_claude.py",
+      "lineRange": [
+        85,
+        104
+      ],
+      "summary": "Defines load_forecasts in gap_claude.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "gap-claude"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/gap_claude.py:overlay",
+      "type": "function",
+      "name": "overlay",
+      "filePath": "engine/forecastbench/gap_claude.py",
+      "lineRange": [
+        107,
+        131
+      ],
+      "summary": "Defines overlay in gap_claude.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "gap-claude"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:engine/forecastbench/llm_fill.py",
+      "type": "file",
+      "name": "llm_fill.py",
+      "filePath": "engine/forecastbench/llm_fill.py",
+      "summary": "llm_fill.py is a code asset in the forecasting engine. It contains 4 functions.",
+      "tags": [
+        "forecasting-engine",
+        "forecasting",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/forecastbench/llm_fill.py:_prompt",
+      "type": "function",
+      "name": "_prompt",
+      "filePath": "engine/forecastbench/llm_fill.py",
+      "lineRange": [
+        29,
+        41
+      ],
+      "summary": "Defines _prompt in llm_fill.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "llm-fill"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/llm_fill.py:_parse",
+      "type": "function",
+      "name": "_parse",
+      "filePath": "engine/forecastbench/llm_fill.py",
+      "lineRange": [
+        44,
+        69
+      ],
+      "summary": "Defines _parse in llm_fill.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "llm-fill"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/llm_fill.py:forecast_one",
+      "type": "function",
+      "name": "forecast_one",
+      "filePath": "engine/forecastbench/llm_fill.py",
+      "lineRange": [
+        72,
+        82
+      ],
+      "summary": "Defines forecast_one in llm_fill.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "llm-fill"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/llm_fill.py:fill_gaps",
+      "type": "function",
+      "name": "fill_gaps",
+      "filePath": "engine/forecastbench/llm_fill.py",
+      "lineRange": [
+        85,
+        110
+      ],
+      "summary": "Defines fill_gaps in llm_fill.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "llm-fill"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:engine/forecastbench/dataset.py",
+      "target": "function:engine/forecastbench/dataset.py:_log_proxy_use_once",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/dataset.py",
+      "target": "function:engine/forecastbench/dataset.py:_log_proxy_use_once",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/dataset.py",
+      "target": "function:engine/forecastbench/dataset.py:_fetch_via_proxy",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/dataset.py",
+      "target": "function:engine/forecastbench/dataset.py:_fetch_via_proxy",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/dataset.py",
+      "target": "function:engine/forecastbench/dataset.py:_norm_cdf",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/dataset.py",
+      "target": "function:engine/forecastbench/dataset.py:_norm_cdf",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/dataset.py",
+      "target": "function:engine/forecastbench/dataset.py:_logit",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/dataset.py",
+      "target": "function:engine/forecastbench/dataset.py:_logit",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/dataset.py",
+      "target": "function:engine/forecastbench/dataset.py:_sigmoid",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/dataset.py",
+      "target": "function:engine/forecastbench/dataset.py:_sigmoid",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/dataset.py",
+      "target": "function:engine/forecastbench/dataset.py:calibrate_dataset_probability",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/dataset.py",
+      "target": "function:engine/forecastbench/dataset.py:calibrate_dataset_probability",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/dataset.py",
+      "target": "function:engine/forecastbench/dataset.py:_d",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/dataset.py",
+      "target": "function:engine/forecastbench/dataset.py:_d",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/dataset.py",
+      "target": "function:engine/forecastbench/dataset.py:_get",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/dataset.py",
+      "target": "function:engine/forecastbench/dataset.py:_get",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/dataset.py",
+      "target": "function:engine/forecastbench/dataset.py:fetch_fred",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/dataset.py",
+      "target": "function:engine/forecastbench/dataset.py:fetch_fred",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/dataset.py",
+      "target": "function:engine/forecastbench/dataset.py:fetch_yahoo",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/dataset.py",
+      "target": "function:engine/forecastbench/dataset.py:fetch_yahoo",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/dataset.py",
+      "target": "function:engine/forecastbench/dataset.py:fetch_dbnomics",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/dataset.py",
+      "target": "function:engine/forecastbench/dataset.py:fetch_dbnomics",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/dataset.py",
+      "target": "function:engine/forecastbench/dataset.py:_truncate",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/dataset.py",
+      "target": "function:engine/forecastbench/dataset.py:_truncate",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/dataset.py",
+      "target": "function:engine/forecastbench/dataset.py:p_higher_drift",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/dataset.py",
+      "target": "function:engine/forecastbench/dataset.py:p_higher_drift",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/dataset.py",
+      "target": "function:engine/forecastbench/dataset.py:p_higher_equity",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/dataset.py",
+      "target": "function:engine/forecastbench/dataset.py:p_higher_equity",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/dataset.py",
+      "target": "function:engine/forecastbench/dataset.py:p_higher_seasonal",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/dataset.py",
+      "target": "function:engine/forecastbench/dataset.py:p_higher_seasonal",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/dataset.py",
+      "target": "function:engine/forecastbench/dataset.py:p_higher_baserate",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/dataset.py",
+      "target": "function:engine/forecastbench/dataset.py:p_higher_baserate",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/dataset.py",
+      "target": "function:engine/forecastbench/dataset.py:p_wikipedia",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/dataset.py",
+      "target": "function:engine/forecastbench/dataset.py:p_wikipedia",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/dataset.py",
+      "target": "function:engine/forecastbench/dataset.py:_ninv",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/dataset.py",
+      "target": "function:engine/forecastbench/dataset.py:_ninv",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/dataset.py",
+      "target": "function:engine/forecastbench/dataset.py:_bivnorm_cdf",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/dataset.py",
+      "target": "function:engine/forecastbench/dataset.py:_bivnorm_cdf",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/dataset.py",
+      "target": "function:engine/forecastbench/dataset.py:estimate_corr",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/dataset.py",
+      "target": "function:engine/forecastbench/dataset.py:estimate_corr",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/dataset.py",
+      "target": "function:engine/forecastbench/dataset.py:joint_up",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/dataset.py",
+      "target": "function:engine/forecastbench/dataset.py:joint_up",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/dataset.py",
+      "target": "function:engine/forecastbench/dataset.py:combo_corr",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/dataset.py",
+      "target": "function:engine/forecastbench/dataset.py:combo_corr",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/dataset.py",
+      "target": "function:engine/forecastbench/dataset.py:forecast_dataset_question",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/dataset.py",
+      "target": "function:engine/forecastbench/dataset.py:forecast_dataset_question",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/dataset.py",
+      "target": "function:engine/forecastbench/dataset.py:prefetch_round",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/dataset.py",
+      "target": "function:engine/forecastbench/dataset.py:prefetch_round",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/dataset.py",
+      "target": "function:engine/forecastbench/dataset.py:forecast_round",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/dataset.py",
+      "target": "function:engine/forecastbench/dataset.py:forecast_round",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/diversify.py",
+      "target": "function:engine/forecastbench/diversify.py:_key",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/diversify.py",
+      "target": "function:engine/forecastbench/diversify.py:_key",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/diversify.py",
+      "target": "function:engine/forecastbench/diversify.py:_logit",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/diversify.py",
+      "target": "function:engine/forecastbench/diversify.py:_logit",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/diversify.py",
+      "target": "function:engine/forecastbench/diversify.py:_sigmoid",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/diversify.py",
+      "target": "function:engine/forecastbench/diversify.py:_sigmoid",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/diversify.py",
+      "target": "function:engine/forecastbench/diversify.py:_soft_market_probability",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/diversify.py",
+      "target": "function:engine/forecastbench/diversify.py:_soft_market_probability",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/diversify.py",
+      "target": "function:engine/forecastbench/diversify.py:_raw_market_probability",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/diversify.py",
+      "target": "function:engine/forecastbench/diversify.py:_raw_market_probability",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/diversify.py",
+      "target": "function:engine/forecastbench/diversify.py:make_market_variant",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/diversify.py",
+      "target": "function:engine/forecastbench/diversify.py:make_market_variant",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/diversify.py",
+      "target": "function:engine/forecastbench/diversify.py:make_soft_market_variant",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/diversify.py",
+      "target": "function:engine/forecastbench/diversify.py:make_soft_market_variant",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/diversify.py",
+      "target": "function:engine/forecastbench/diversify.py:make_raw_market_variant",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/diversify.py",
+      "target": "function:engine/forecastbench/diversify.py:make_raw_market_variant",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/diversify.py",
+      "target": "function:engine/forecastbench/diversify.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/diversify.py",
+      "target": "function:engine/forecastbench/diversify.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/gap_claude.py",
+      "target": "function:engine/forecastbench/gap_claude.py:find_gaps",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/gap_claude.py",
+      "target": "function:engine/forecastbench/gap_claude.py:find_gaps",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/gap_claude.py",
+      "target": "function:engine/forecastbench/gap_claude.py:scan",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/gap_claude.py",
+      "target": "function:engine/forecastbench/gap_claude.py:scan",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/gap_claude.py",
+      "target": "function:engine/forecastbench/gap_claude.py:_key",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/gap_claude.py",
+      "target": "function:engine/forecastbench/gap_claude.py:_key",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/gap_claude.py",
+      "target": "function:engine/forecastbench/gap_claude.py:load_forecasts",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/gap_claude.py",
+      "target": "function:engine/forecastbench/gap_claude.py:load_forecasts",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/gap_claude.py",
+      "target": "function:engine/forecastbench/gap_claude.py:overlay",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/gap_claude.py",
+      "target": "function:engine/forecastbench/gap_claude.py:overlay",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/llm_fill.py",
+      "target": "function:engine/forecastbench/llm_fill.py:_prompt",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/llm_fill.py",
+      "target": "function:engine/forecastbench/llm_fill.py:_prompt",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/llm_fill.py",
+      "target": "function:engine/forecastbench/llm_fill.py:_parse",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/llm_fill.py",
+      "target": "function:engine/forecastbench/llm_fill.py:_parse",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/llm_fill.py",
+      "target": "function:engine/forecastbench/llm_fill.py:forecast_one",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/llm_fill.py",
+      "target": "function:engine/forecastbench/llm_fill.py:forecast_one",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/llm_fill.py",
+      "target": "function:engine/forecastbench/llm_fill.py:fill_gaps",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/llm_fill.py",
+      "target": "function:engine/forecastbench/llm_fill.py:fill_gaps",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/dataset.py",
+      "target": "file:engine/forecastbench/score.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/forecastbench/diversify.py",
+      "target": "file:engine/forecastbench/market.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/forecastbench/diversify.py",
+      "target": "file:engine/forecastbench/score.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/forecastbench/gap_claude.py",
+      "target": "file:engine/forecastbench/market.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/forecastbench/gap_claude.py",
+      "target": "file:engine/forecastbench/score.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "function:engine/forecastbench/dataset.py:_fetch_via_proxy",
+      "target": "function:engine/forecastbench/dataset.py:_log_proxy_use_once",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/dataset.py:calibrate_dataset_probability",
+      "target": "function:engine/forecastbench/dataset.py:_sigmoid",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/dataset.py:calibrate_dataset_probability",
+      "target": "function:engine/forecastbench/dataset.py:_logit",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/dataset.py:_get",
+      "target": "function:engine/forecastbench/dataset.py:_fetch_via_proxy",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/dataset.py:fetch_fred",
+      "target": "function:engine/forecastbench/dataset.py:_get",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/dataset.py:fetch_fred",
+      "target": "function:engine/forecastbench/dataset.py:_d",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/dataset.py:fetch_yahoo",
+      "target": "function:engine/forecastbench/dataset.py:_get",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/dataset.py:fetch_dbnomics",
+      "target": "function:engine/forecastbench/dataset.py:_get",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/dataset.py:fetch_dbnomics",
+      "target": "function:engine/forecastbench/dataset.py:_d",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/dataset.py:p_higher_drift",
+      "target": "function:engine/forecastbench/dataset.py:_truncate",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/dataset.py:p_higher_drift",
+      "target": "function:engine/forecastbench/dataset.py:_norm_cdf",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/dataset.py:p_higher_equity",
+      "target": "function:engine/forecastbench/dataset.py:_truncate",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/dataset.py:p_higher_seasonal",
+      "target": "function:engine/forecastbench/dataset.py:_truncate",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/dataset.py:p_higher_baserate",
+      "target": "function:engine/forecastbench/dataset.py:_truncate",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/dataset.py:_bivnorm_cdf",
+      "target": "function:engine/forecastbench/dataset.py:_norm_cdf",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/dataset.py:joint_up",
+      "target": "function:engine/forecastbench/dataset.py:_bivnorm_cdf",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/dataset.py:joint_up",
+      "target": "function:engine/forecastbench/dataset.py:_ninv",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/dataset.py",
+      "target": "function:engine/forecastbench/dataset.py:fetch_yahoo",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/dataset.py",
+      "target": "function:engine/forecastbench/dataset.py:fetch_fred",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/dataset.py",
+      "target": "function:engine/forecastbench/dataset.py:fetch_dbnomics",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/dataset.py:combo_corr",
+      "target": "function:engine/forecastbench/dataset.py:estimate_corr",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/dataset.py:forecast_dataset_question",
+      "target": "function:engine/forecastbench/dataset.py:fetch_yahoo",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/dataset.py:forecast_dataset_question",
+      "target": "function:engine/forecastbench/dataset.py:_d",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/dataset.py:forecast_dataset_question",
+      "target": "function:engine/forecastbench/dataset.py:p_higher_equity",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/dataset.py:forecast_dataset_question",
+      "target": "function:engine/forecastbench/dataset.py:calibrate_dataset_probability",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/dataset.py:forecast_dataset_question",
+      "target": "function:engine/forecastbench/dataset.py:fetch_fred",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/dataset.py:forecast_dataset_question",
+      "target": "function:engine/forecastbench/dataset.py:p_higher_baserate",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/dataset.py:forecast_dataset_question",
+      "target": "function:engine/forecastbench/dataset.py:fetch_dbnomics",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/dataset.py:forecast_dataset_question",
+      "target": "function:engine/forecastbench/dataset.py:p_higher_seasonal",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/dataset.py:forecast_dataset_question",
+      "target": "function:engine/forecastbench/dataset.py:p_higher_drift",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/dataset.py:forecast_dataset_question",
+      "target": "function:engine/forecastbench/dataset.py:p_wikipedia",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/dataset.py:prefetch_round",
+      "target": "function:engine/forecastbench/dataset.py:fetch_yahoo",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/dataset.py:prefetch_round",
+      "target": "function:engine/forecastbench/dataset.py:fetch_fred",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/dataset.py:prefetch_round",
+      "target": "function:engine/forecastbench/dataset.py:fetch_dbnomics",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/dataset.py:forecast_round",
+      "target": "function:engine/forecastbench/dataset.py:forecast_dataset_question",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/diversify.py:_soft_market_probability",
+      "target": "function:engine/forecastbench/diversify.py:_sigmoid",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/diversify.py:_soft_market_probability",
+      "target": "function:engine/forecastbench/diversify.py:_logit",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/diversify.py:make_market_variant",
+      "target": "function:engine/forecastbench/diversify.py:_key",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/diversify.py:make_market_variant",
+      "target": "function:engine/forecastbench/diversify.py:_raw_market_probability",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/diversify.py:make_market_variant",
+      "target": "function:engine/forecastbench/diversify.py:_soft_market_probability",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/diversify.py:make_soft_market_variant",
+      "target": "function:engine/forecastbench/diversify.py:make_market_variant",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/diversify.py:make_raw_market_variant",
+      "target": "function:engine/forecastbench/diversify.py:make_market_variant",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/diversify.py:main",
+      "target": "function:engine/forecastbench/diversify.py:make_market_variant",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/gap_claude.py:find_gaps",
+      "target": "function:engine/forecastbench/market.py:crowd_anchor",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/gap_claude.py:find_gaps",
+      "target": "function:engine/forecastbench/score.py:single_questions",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/gap_claude.py:scan",
+      "target": "function:engine/forecastbench/gap_claude.py:find_gaps",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/gap_claude.py:scan",
+      "target": "function:engine/forecastbench/score.py:single_questions",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/gap_claude.py:load_forecasts",
+      "target": "function:engine/forecastbench/gap_claude.py:_key",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/gap_claude.py:overlay",
+      "target": "function:engine/forecastbench/gap_claude.py:_key",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/gap_claude.py:overlay",
+      "target": "function:engine/forecastbench/gap_claude.py:find_gaps",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/gap_claude.py:overlay",
+      "target": "function:engine/forecastbench/gap_claude.py:load_forecasts",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/llm_fill.py:forecast_one",
+      "target": "function:engine/forecastbench/llm_fill.py:_prompt",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/llm_fill.py:forecast_one",
+      "target": "function:engine/forecastbench/llm_fill.py:_parse",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/llm_fill.py:fill_gaps",
+      "target": "function:engine/forecastbench/llm_fill.py:forecast_one",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

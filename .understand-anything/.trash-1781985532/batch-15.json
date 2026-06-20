@@ -1,0 +1,1045 @@
+{
+  "nodes": [
+    {
+      "id": "file:engine/adapters/_vendor/exa_search.py",
+      "type": "file",
+      "name": "exa_search.py",
+      "filePath": "engine/adapters/_vendor/exa_search.py",
+      "summary": "exa_search.py is a code asset in the forecasting engine. It contains 1 function, 3 classes.",
+      "tags": [
+        "forecasting-engine",
+        "integration",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/adapters/_vendor/exa_search.py:random_ua",
+      "type": "function",
+      "name": "random_ua",
+      "filePath": "engine/adapters/_vendor/exa_search.py",
+      "lineRange": [
+        37,
+        38
+      ],
+      "summary": "Defines random_ua in exa_search.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "exa-search"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:engine/adapters/_vendor/exa_search.py:SearchResult",
+      "type": "class",
+      "name": "SearchResult",
+      "filePath": "engine/adapters/_vendor/exa_search.py",
+      "lineRange": [
+        43,
+        47
+      ],
+      "summary": "Defines SearchResult in exa_search.py, encapsulating reusable behavior or state for this module.",
+      "tags": [
+        "class",
+        "implementation",
+        "exa-search"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:engine/adapters/_vendor/exa_search.py:ExaClient",
+      "type": "class",
+      "name": "ExaClient",
+      "filePath": "engine/adapters/_vendor/exa_search.py",
+      "lineRange": [
+        50,
+        104
+      ],
+      "summary": "Defines ExaClient in exa_search.py, encapsulating reusable behavior or state for this module.",
+      "tags": [
+        "class",
+        "implementation",
+        "integration",
+        "exa-search"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:engine/adapters/_vendor/exa_search.py:DDGClient",
+      "type": "class",
+      "name": "DDGClient",
+      "filePath": "engine/adapters/_vendor/exa_search.py",
+      "lineRange": [
+        107,
+        153
+      ],
+      "summary": "Defines DDGClient in exa_search.py, encapsulating reusable behavior or state for this module.",
+      "tags": [
+        "class",
+        "implementation",
+        "integration",
+        "exa-search"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:research/targets/enrich_public_emails.py",
+      "type": "file",
+      "name": "enrich_public_emails.py",
+      "filePath": "research/targets/enrich_public_emails.py",
+      "summary": "enrich_public_emails.py is a code asset in the repository. It contains 14 functions, 1 internal import.",
+      "tags": [
+        "code",
+        "file",
+        "enrich-public-emails"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:research/targets/enrich_public_emails.py:read_rows",
+      "type": "function",
+      "name": "read_rows",
+      "filePath": "research/targets/enrich_public_emails.py",
+      "lineRange": [
+        50,
+        52
+      ],
+      "summary": "Defines read_rows in enrich_public_emails.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "enrich-public-emails"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:research/targets/enrich_public_emails.py:split_name",
+      "type": "function",
+      "name": "split_name",
+      "filePath": "research/targets/enrich_public_emails.py",
+      "lineRange": [
+        55,
+        60
+      ],
+      "summary": "Defines split_name in enrich_public_emails.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "enrich-public-emails"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:research/targets/enrich_public_emails.py:display_name_parts",
+      "type": "function",
+      "name": "display_name_parts",
+      "filePath": "research/targets/enrich_public_emails.py",
+      "lineRange": [
+        63,
+        69
+      ],
+      "summary": "Defines display_name_parts in enrich_public_emails.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "enrich-public-emails"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:research/targets/enrich_public_emails.py:clean_text",
+      "type": "function",
+      "name": "clean_text",
+      "filePath": "research/targets/enrich_public_emails.py",
+      "lineRange": [
+        72,
+        75
+      ],
+      "summary": "Defines clean_text in enrich_public_emails.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "enrich-public-emails"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:research/targets/enrich_public_emails.py:candidate_emails",
+      "type": "function",
+      "name": "candidate_emails",
+      "filePath": "research/targets/enrich_public_emails.py",
+      "lineRange": [
+        78,
+        92
+      ],
+      "summary": "Defines candidate_emails in enrich_public_emails.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "enrich-public-emails"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:research/targets/enrich_public_emails.py:email_score",
+      "type": "function",
+      "name": "email_score",
+      "filePath": "research/targets/enrich_public_emails.py",
+      "lineRange": [
+        95,
+        124
+      ],
+      "summary": "Defines email_score in enrich_public_emails.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "enrich-public-emails"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:research/targets/enrich_public_emails.py:has_identity_context",
+      "type": "function",
+      "name": "has_identity_context",
+      "filePath": "research/targets/enrich_public_emails.py",
+      "lineRange": [
+        127,
+        136
+      ],
+      "summary": "Defines has_identity_context in enrich_public_emails.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "enrich-public-emails"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:research/targets/enrich_public_emails.py:search_queries",
+      "type": "function",
+      "name": "search_queries",
+      "filePath": "research/targets/enrich_public_emails.py",
+      "lineRange": [
+        139,
+        150
+      ],
+      "summary": "Defines search_queries in enrich_public_emails.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-access",
+        "enrich-public-emails"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:research/targets/enrich_public_emails.py:fetch_page_text",
+      "type": "function",
+      "name": "fetch_page_text",
+      "filePath": "research/targets/enrich_public_emails.py",
+      "lineRange": [
+        153,
+        165
+      ],
+      "summary": "Defines fetch_page_text in enrich_public_emails.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-access",
+        "enrich-public-emails"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:research/targets/enrich_public_emails.py:enrich_one",
+      "type": "function",
+      "name": "enrich_one",
+      "filePath": "research/targets/enrich_public_emails.py",
+      "lineRange": [
+        168,
+        229
+      ],
+      "summary": "Defines enrich_one in enrich_public_emails.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "enrich-public-emails"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:research/targets/enrich_public_emails.py:write_csv",
+      "type": "function",
+      "name": "write_csv",
+      "filePath": "research/targets/enrich_public_emails.py",
+      "lineRange": [
+        232,
+        241
+      ],
+      "summary": "Defines write_csv in enrich_public_emails.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "enrich-public-emails"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:research/targets/enrich_public_emails.py:email_domain_company",
+      "type": "function",
+      "name": "email_domain_company",
+      "filePath": "research/targets/enrich_public_emails.py",
+      "lineRange": [
+        244,
+        249
+      ],
+      "summary": "Defines email_domain_company in enrich_public_emails.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entry-point",
+        "enrich-public-emails"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:research/targets/enrich_public_emails.py:campaign_rows",
+      "type": "function",
+      "name": "campaign_rows",
+      "filePath": "research/targets/enrich_public_emails.py",
+      "lineRange": [
+        252,
+        288
+      ],
+      "summary": "Defines campaign_rows in enrich_public_emails.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "enrich-public-emails"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:research/targets/enrich_public_emails.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "research/targets/enrich_public_emails.py",
+      "lineRange": [
+        291,
+        321
+      ],
+      "summary": "Defines main in enrich_public_emails.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entry-point",
+        "enrich-public-emails"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:research/targets/find.py",
+      "type": "file",
+      "name": "find.py",
+      "filePath": "research/targets/find.py",
+      "summary": "find.py is a code asset in the repository. It contains 1 function, 1 internal import.",
+      "tags": [
+        "code",
+        "file",
+        "find"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:research/targets/find.py:run",
+      "type": "function",
+      "name": "run",
+      "filePath": "research/targets/find.py",
+      "lineRange": [
+        19,
+        26
+      ],
+      "summary": "Defines run in find.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entry-point",
+        "find"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:research/targets/harvest.py",
+      "type": "file",
+      "name": "harvest.py",
+      "filePath": "research/targets/harvest.py",
+      "summary": "harvest.py is a code asset in the repository. It contains 6 functions, 1 internal import.",
+      "tags": [
+        "code",
+        "file",
+        "harvest"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:research/targets/harvest.py:build_matrix",
+      "type": "function",
+      "name": "build_matrix",
+      "filePath": "research/targets/harvest.py",
+      "lineRange": [
+        59,
+        105
+      ],
+      "summary": "Defines build_matrix in harvest.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "harvest"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:research/targets/harvest.py:clean_name",
+      "type": "function",
+      "name": "clean_name",
+      "filePath": "research/targets/harvest.py",
+      "lineRange": [
+        112,
+        123
+      ],
+      "summary": "Defines clean_name in harvest.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "harvest"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:research/targets/harvest.py:role_from_title",
+      "type": "function",
+      "name": "role_from_title",
+      "filePath": "research/targets/harvest.py",
+      "lineRange": [
+        125,
+        133
+      ],
+      "summary": "Defines role_from_title in harvest.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "harvest"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:research/targets/harvest.py:is_profile",
+      "type": "function",
+      "name": "is_profile",
+      "filePath": "research/targets/harvest.py",
+      "lineRange": [
+        135,
+        140
+      ],
+      "summary": "Defines is_profile in harvest.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "harvest"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:research/targets/harvest.py:valid_name",
+      "type": "function",
+      "name": "valid_name",
+      "filePath": "research/targets/harvest.py",
+      "lineRange": [
+        142,
+        150
+      ],
+      "summary": "Defines valid_name in harvest.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "harvest"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:research/targets/harvest.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "research/targets/harvest.py",
+      "lineRange": [
+        152,
+        188
+      ],
+      "summary": "Defines main in harvest.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entry-point",
+        "harvest"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:engine/adapters/_vendor/exa_search.py",
+      "target": "function:engine/adapters/_vendor/exa_search.py:random_ua",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/adapters/_vendor/exa_search.py",
+      "target": "function:engine/adapters/_vendor/exa_search.py:random_ua",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/adapters/_vendor/exa_search.py",
+      "target": "class:engine/adapters/_vendor/exa_search.py:SearchResult",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/adapters/_vendor/exa_search.py",
+      "target": "class:engine/adapters/_vendor/exa_search.py:SearchResult",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/adapters/_vendor/exa_search.py",
+      "target": "class:engine/adapters/_vendor/exa_search.py:ExaClient",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/adapters/_vendor/exa_search.py",
+      "target": "class:engine/adapters/_vendor/exa_search.py:ExaClient",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/adapters/_vendor/exa_search.py",
+      "target": "class:engine/adapters/_vendor/exa_search.py:DDGClient",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/adapters/_vendor/exa_search.py",
+      "target": "class:engine/adapters/_vendor/exa_search.py:DDGClient",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:research/targets/enrich_public_emails.py",
+      "target": "function:research/targets/enrich_public_emails.py:read_rows",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:research/targets/enrich_public_emails.py",
+      "target": "function:research/targets/enrich_public_emails.py:read_rows",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:research/targets/enrich_public_emails.py",
+      "target": "function:research/targets/enrich_public_emails.py:split_name",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:research/targets/enrich_public_emails.py",
+      "target": "function:research/targets/enrich_public_emails.py:split_name",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:research/targets/enrich_public_emails.py",
+      "target": "function:research/targets/enrich_public_emails.py:display_name_parts",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:research/targets/enrich_public_emails.py",
+      "target": "function:research/targets/enrich_public_emails.py:display_name_parts",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:research/targets/enrich_public_emails.py",
+      "target": "function:research/targets/enrich_public_emails.py:clean_text",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:research/targets/enrich_public_emails.py",
+      "target": "function:research/targets/enrich_public_emails.py:clean_text",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:research/targets/enrich_public_emails.py",
+      "target": "function:research/targets/enrich_public_emails.py:candidate_emails",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:research/targets/enrich_public_emails.py",
+      "target": "function:research/targets/enrich_public_emails.py:candidate_emails",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:research/targets/enrich_public_emails.py",
+      "target": "function:research/targets/enrich_public_emails.py:email_score",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:research/targets/enrich_public_emails.py",
+      "target": "function:research/targets/enrich_public_emails.py:email_score",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:research/targets/enrich_public_emails.py",
+      "target": "function:research/targets/enrich_public_emails.py:has_identity_context",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:research/targets/enrich_public_emails.py",
+      "target": "function:research/targets/enrich_public_emails.py:has_identity_context",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:research/targets/enrich_public_emails.py",
+      "target": "function:research/targets/enrich_public_emails.py:search_queries",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:research/targets/enrich_public_emails.py",
+      "target": "function:research/targets/enrich_public_emails.py:search_queries",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:research/targets/enrich_public_emails.py",
+      "target": "function:research/targets/enrich_public_emails.py:fetch_page_text",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:research/targets/enrich_public_emails.py",
+      "target": "function:research/targets/enrich_public_emails.py:fetch_page_text",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:research/targets/enrich_public_emails.py",
+      "target": "function:research/targets/enrich_public_emails.py:enrich_one",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:research/targets/enrich_public_emails.py",
+      "target": "function:research/targets/enrich_public_emails.py:enrich_one",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:research/targets/enrich_public_emails.py",
+      "target": "function:research/targets/enrich_public_emails.py:write_csv",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:research/targets/enrich_public_emails.py",
+      "target": "function:research/targets/enrich_public_emails.py:write_csv",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:research/targets/enrich_public_emails.py",
+      "target": "function:research/targets/enrich_public_emails.py:email_domain_company",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:research/targets/enrich_public_emails.py",
+      "target": "function:research/targets/enrich_public_emails.py:email_domain_company",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:research/targets/enrich_public_emails.py",
+      "target": "function:research/targets/enrich_public_emails.py:campaign_rows",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:research/targets/enrich_public_emails.py",
+      "target": "function:research/targets/enrich_public_emails.py:campaign_rows",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:research/targets/enrich_public_emails.py",
+      "target": "function:research/targets/enrich_public_emails.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:research/targets/enrich_public_emails.py",
+      "target": "function:research/targets/enrich_public_emails.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:research/targets/find.py",
+      "target": "function:research/targets/find.py:run",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:research/targets/find.py",
+      "target": "function:research/targets/find.py:run",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:research/targets/harvest.py",
+      "target": "function:research/targets/harvest.py:build_matrix",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:research/targets/harvest.py",
+      "target": "function:research/targets/harvest.py:build_matrix",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:research/targets/harvest.py",
+      "target": "function:research/targets/harvest.py:clean_name",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:research/targets/harvest.py",
+      "target": "function:research/targets/harvest.py:clean_name",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:research/targets/harvest.py",
+      "target": "function:research/targets/harvest.py:role_from_title",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:research/targets/harvest.py",
+      "target": "function:research/targets/harvest.py:role_from_title",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:research/targets/harvest.py",
+      "target": "function:research/targets/harvest.py:is_profile",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:research/targets/harvest.py",
+      "target": "function:research/targets/harvest.py:is_profile",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:research/targets/harvest.py",
+      "target": "function:research/targets/harvest.py:valid_name",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:research/targets/harvest.py",
+      "target": "function:research/targets/harvest.py:valid_name",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:research/targets/harvest.py",
+      "target": "function:research/targets/harvest.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:research/targets/harvest.py",
+      "target": "function:research/targets/harvest.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:research/targets/enrich_public_emails.py",
+      "target": "file:engine/adapters/_vendor/exa_search.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:research/targets/find.py",
+      "target": "file:engine/adapters/_vendor/exa_search.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:research/targets/harvest.py",
+      "target": "file:engine/adapters/_vendor/exa_search.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/adapters/_vendor/exa_search.py",
+      "target": "function:engine/adapters/_vendor/exa_search.py:random_ua",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/adapters/_vendor/exa_search.py",
+      "target": "class:engine/adapters/_vendor/exa_search.py:SearchResult",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:research/targets/enrich_public_emails.py:email_score",
+      "target": "function:research/targets/enrich_public_emails.py:split_name",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:research/targets/enrich_public_emails.py:fetch_page_text",
+      "target": "function:research/targets/enrich_public_emails.py:clean_text",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:research/targets/enrich_public_emails.py:enrich_one",
+      "target": "function:research/targets/enrich_public_emails.py:search_queries",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:research/targets/enrich_public_emails.py:enrich_one",
+      "target": "class:engine/adapters/_vendor/exa_search.py:DDGClient",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:research/targets/enrich_public_emails.py:enrich_one",
+      "target": "function:research/targets/enrich_public_emails.py:candidate_emails",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:research/targets/enrich_public_emails.py:enrich_one",
+      "target": "function:research/targets/enrich_public_emails.py:email_score",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:research/targets/enrich_public_emails.py:enrich_one",
+      "target": "function:research/targets/enrich_public_emails.py:fetch_page_text",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:research/targets/enrich_public_emails.py:enrich_one",
+      "target": "function:research/targets/enrich_public_emails.py:has_identity_context",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:research/targets/enrich_public_emails.py:campaign_rows",
+      "target": "function:research/targets/enrich_public_emails.py:display_name_parts",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:research/targets/enrich_public_emails.py:campaign_rows",
+      "target": "function:research/targets/enrich_public_emails.py:email_domain_company",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:research/targets/enrich_public_emails.py:main",
+      "target": "function:research/targets/enrich_public_emails.py:read_rows",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:research/targets/enrich_public_emails.py:main",
+      "target": "class:engine/adapters/_vendor/exa_search.py:ExaClient",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:research/targets/enrich_public_emails.py:main",
+      "target": "function:research/targets/enrich_public_emails.py:enrich_one",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:research/targets/enrich_public_emails.py:main",
+      "target": "function:research/targets/enrich_public_emails.py:write_csv",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:research/targets/enrich_public_emails.py:main",
+      "target": "function:research/targets/enrich_public_emails.py:campaign_rows",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:research/targets/find.py:run",
+      "target": "class:engine/adapters/_vendor/exa_search.py:ExaClient",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:research/targets/find.py:run",
+      "target": "class:engine/adapters/_vendor/exa_search.py:DDGClient",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:research/targets/harvest.py:main",
+      "target": "function:research/targets/harvest.py:build_matrix",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:research/targets/harvest.py:main",
+      "target": "class:engine/adapters/_vendor/exa_search.py:ExaClient",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:research/targets/harvest.py:main",
+      "target": "class:engine/adapters/_vendor/exa_search.py:DDGClient",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:research/targets/harvest.py:main",
+      "target": "function:research/targets/harvest.py:is_profile",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:research/targets/harvest.py:main",
+      "target": "function:research/targets/harvest.py:clean_name",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:research/targets/harvest.py:main",
+      "target": "function:research/targets/harvest.py:valid_name",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:research/targets/harvest.py:main",
+      "target": "function:research/targets/harvest.py:role_from_title",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

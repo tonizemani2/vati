@@ -2,6 +2,11 @@
 .env
 .env.local
 *.pem
+# Metaculus human-account session cookies (pasted in, short-lived) — NEVER commit
+data/metaculus/.human_session.json
+**/.human_session.json
+# Metaculus human-account working slates are private unresolved forecasts.
+data/metaculus/private_slates/
 
 # data — the live DB is local state, not source
 data/*.db
@@ -49,3 +54,23 @@ REVIEW.md
 redteam.md
 cockpit/CLAUDE.md
 cockpit/AGENTS.md
+
+# ForecastBench external datasets (downloaded, not ours)
+data/forecastbench/
+data/corpus/
+data/*.parquet
+
+# session secrets — never commit
+cookies.csv
+
+# FutureEval cron run logs
+data/metaculus/cron_logs/
+
+# bulk working data + build binaries — object storage / local only, never git
+# (data/feeds is ~670MB, _athena_tmp ~68MB; GitHub rejects >100MB files outright)
+data/feeds/
+data/_athena_tmp/
+data/_collect_logs/
+data/.foresight_sync.log
+data/_offload_manifest.jsonl
+paper_beyond_brier/tectonic

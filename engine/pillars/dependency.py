@@ -52,7 +52,7 @@ from engine.pillars.power import _content_hash
 from engine.schemas import Observation, Series, Source, SourceKind
 
 DEP_PILLAR_ID = 3            # Dependency graph — the chain structure / who-depends-on-whom
-UA = "predictthefuture research (ruben.stout@edu.escp.eu)"
+UA = "predictthefuture research (research@vaticinus.com)"
 COMTRADE = "https://comtradeapi.un.org/public/v1/preview/C/A/HS"
 US_REPORTER = 842
 WINDOW_START = 2012

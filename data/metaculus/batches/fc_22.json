@@ -1,0 +1,50 @@
+[
+ {
+  "question_id": 20460,
+  "type": "binary",
+  "prob": 0.95,
+  "reasoning": "Huawei plans ~600,000 domestically-designed (HiSilicon) and SMIC-fabbed Ascend 910C chips in 2026, with Chinese hyperscalers ordering at scale under state pressure; the >20,000-chip threshold within a one-year span is effectively already met."
+ },
+ {
+  "question_id": 20169,
+  "type": "binary",
+  "prob": 0.55,
+  "reasoning": "SMIC's 5nm node (Kirin X90) is in production at ~125 MTr/mm2 and Huawei's LogicFolding 5nm reportedly hits ~238 MTr/mm2, so a sourced >150 estimate on WikiChip/Wikipedia for an in-production Chinese chip is plausible by Jan 2027 but not yet confirmed at that density."
+ },
+ {
+  "question_id": 20136,
+  "type": "binary",
+  "prob": 0.06,
+  "reasoning": "SMIC's market cap is ~$92B versus TSMC's ~$2.18T (about 4%), so a Chinese foundry would need roughly a 5x relative gain in 18 months to reach 20%, which is highly improbable."
+ },
+ {
+  "question_id": 20466,
+  "type": "binary",
+  "prob": 0.40,
+  "reasoning": "Frontier Chinese models (DeepSeek, Qwen) have so far been trained predominantly on Nvidia silicon, but Ascend 910C capacity is ramping hard through 2026; a frontier run with >50% Chinese-designed-and-fabricated compute by end-2026 is plausible yet not yet demonstrated."
+ },
+ {
+  "question_id": 20157,
+  "type": "binary",
+  "prob": 0.18,
+  "reasoning": "Chinese foundries hold roughly 6-7% of global foundry revenue share against TSMC's ~60%; reaching 20% in a single quarter by 2033 requires a very large shift, though heavy state investment and capacity doubling keep it non-negligible over the 7-year window."
+ },
+ {
+  "question_id": 20146,
+  "type": "binary",
+  "prob": 0.82,
+  "reasoning": "China's domestic LDP-based EUV machine entered trial production in late 2025 with mass-production targeted for 2026-2028; over a 7-year window to 2033, volume EUV production at a Chinese fab is likely."
+ },
+ {
+  "question_id": 20134,
+  "type": "binary",
+  "prob": 0.45,
+  "reasoning": "SMIC is already test-driving domestic immersion (ArFi-class) DUV tools with integration into production lines targeted for 2027, but reaching genuine high-volume production (50k wafers/month) after qualification before Jan 2028 is a tight timeline."
+ },
+ {
+  "question_id": 20135,
+  "type": "binary",
+  "prob": 0.93,
+  "reasoning": "The bar is merely marketing an EUV machine on a website or a credible report of one being sold; with domestic EUV prototypes in trial production now and 2026 mass-production goals, this near-certainly clears by 2033."
+ }
+]

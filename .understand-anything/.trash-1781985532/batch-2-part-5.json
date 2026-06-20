@@ -1,0 +1,1637 @@
+{
+  "nodes": [
+    {
+      "id": "file:engine/forecastbench/sequential.py",
+      "type": "file",
+      "name": "sequential.py",
+      "filePath": "engine/forecastbench/sequential.py",
+      "summary": "sequential.py is a code asset in the forecasting engine. It contains 16 functions, 5 internal imports.",
+      "tags": [
+        "forecasting-engine",
+        "forecasting",
+        "code"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:engine/forecastbench/sequential.py:_clip",
+      "type": "function",
+      "name": "_clip",
+      "filePath": "engine/forecastbench/sequential.py",
+      "lineRange": [
+        40,
+        41
+      ],
+      "summary": "Defines _clip in sequential.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entry-point",
+        "sequential"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/sequential.py:_logit",
+      "type": "function",
+      "name": "_logit",
+      "filePath": "engine/forecastbench/sequential.py",
+      "lineRange": [
+        44,
+        46
+      ],
+      "summary": "Defines _logit in sequential.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "sequential"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/sequential.py:_sigmoid",
+      "type": "function",
+      "name": "_sigmoid",
+      "filePath": "engine/forecastbench/sequential.py",
+      "lineRange": [
+        49,
+        50
+      ],
+      "summary": "Defines _sigmoid in sequential.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "sequential"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/sequential.py:_anchor",
+      "type": "function",
+      "name": "_anchor",
+      "filePath": "engine/forecastbench/sequential.py",
+      "lineRange": [
+        53,
+        60
+      ],
+      "summary": "Defines _anchor in sequential.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "sequential"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/sequential.py:_context",
+      "type": "function",
+      "name": "_context",
+      "filePath": "engine/forecastbench/sequential.py",
+      "lineRange": [
+        63,
+        68
+      ],
+      "summary": "Defines _context in sequential.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "sequential"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/sequential.py:_qblock",
+      "type": "function",
+      "name": "_qblock",
+      "filePath": "engine/forecastbench/sequential.py",
+      "lineRange": [
+        71,
+        78
+      ],
+      "summary": "Defines _qblock in sequential.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "sequential"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/sequential.py:_parse_prob",
+      "type": "function",
+      "name": "_parse_prob",
+      "filePath": "engine/forecastbench/sequential.py",
+      "lineRange": [
+        107,
+        120
+      ],
+      "summary": "Defines _parse_prob in sequential.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "sequential"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/sequential.py:_parse_delta",
+      "type": "function",
+      "name": "_parse_delta",
+      "filePath": "engine/forecastbench/sequential.py",
+      "lineRange": [
+        123,
+        134
+      ],
+      "summary": "Defines _parse_delta in sequential.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "sequential"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/sequential.py:_call",
+      "type": "function",
+      "name": "_call",
+      "filePath": "engine/forecastbench/sequential.py",
+      "lineRange": [
+        137,
+        145
+      ],
+      "summary": "Defines _call in sequential.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "sequential"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/sequential.py:_decompose",
+      "type": "function",
+      "name": "_decompose",
+      "filePath": "engine/forecastbench/sequential.py",
+      "lineRange": [
+        148,
+        157
+      ],
+      "summary": "Defines _decompose in sequential.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "sequential"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/sequential.py:_delta_logit",
+      "type": "function",
+      "name": "_delta_logit",
+      "filePath": "engine/forecastbench/sequential.py",
+      "lineRange": [
+        160,
+        167
+      ],
+      "summary": "Defines _delta_logit in sequential.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "sequential"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/sequential.py:forecast_one",
+      "type": "function",
+      "name": "forecast_one",
+      "filePath": "engine/forecastbench/sequential.py",
+      "lineRange": [
+        170,
+        191
+      ],
+      "summary": "Defines forecast_one in sequential.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "sequential"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/sequential.py:oneshot_one",
+      "type": "function",
+      "name": "oneshot_one",
+      "filePath": "engine/forecastbench/sequential.py",
+      "lineRange": [
+        194,
+        199
+      ],
+      "summary": "Defines oneshot_one in sequential.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "sequential"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/sequential.py:_job",
+      "type": "function",
+      "name": "_job",
+      "filePath": "engine/forecastbench/sequential.py",
+      "lineRange": [
+        202,
+        211
+      ],
+      "summary": "Defines _job in sequential.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "sequential"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/sequential.py:_brier",
+      "type": "function",
+      "name": "_brier",
+      "filePath": "engine/forecastbench/sequential.py",
+      "lineRange": [
+        214,
+        215
+      ],
+      "summary": "Defines _brier in sequential.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "sequential"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/sequential.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "engine/forecastbench/sequential.py",
+      "lineRange": [
+        218,
+        272
+      ],
+      "summary": "Defines main in sequential.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entry-point",
+        "sequential"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:engine/forecastbench/traces.py",
+      "type": "file",
+      "name": "traces.py",
+      "filePath": "engine/forecastbench/traces.py",
+      "summary": "traces.py is a code asset in the forecasting engine. It contains 6 functions, 4 internal imports.",
+      "tags": [
+        "forecasting-engine",
+        "forecasting",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/forecastbench/traces.py:_user",
+      "type": "function",
+      "name": "_user",
+      "filePath": "engine/forecastbench/traces.py",
+      "lineRange": [
+        42,
+        49
+      ],
+      "summary": "Defines _user in traces.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "traces"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/traces.py:_parse_p",
+      "type": "function",
+      "name": "_parse_p",
+      "filePath": "engine/forecastbench/traces.py",
+      "lineRange": [
+        55,
+        70
+      ],
+      "summary": "Defines _parse_p in traces.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "traces"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/traces.py:_resolve_proxy",
+      "type": "function",
+      "name": "_resolve_proxy",
+      "filePath": "engine/forecastbench/traces.py",
+      "lineRange": [
+        73,
+        81
+      ],
+      "summary": "Defines _resolve_proxy in traces.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "traces"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/traces.py:_one_question",
+      "type": "function",
+      "name": "_one_question",
+      "filePath": "engine/forecastbench/traces.py",
+      "lineRange": [
+        84,
+        129
+      ],
+      "summary": "Defines _one_question in traces.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "traces"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/traces.py:generate",
+      "type": "function",
+      "name": "generate",
+      "filePath": "engine/forecastbench/traces.py",
+      "lineRange": [
+        132,
+        157
+      ],
+      "summary": "Defines generate in traces.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "traces"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/traces.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "engine/forecastbench/traces.py",
+      "lineRange": [
+        160,
+        192
+      ],
+      "summary": "Defines main in traces.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entry-point",
+        "traces"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:engine/forecasting/calibration.py",
+      "type": "file",
+      "name": "calibration.py",
+      "filePath": "engine/forecasting/calibration.py",
+      "summary": "calibration.py is a code asset in the forecasting engine. It contains 4 functions.",
+      "tags": [
+        "forecasting-engine",
+        "forecasting",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/forecasting/calibration.py:_is_finite",
+      "type": "function",
+      "name": "_is_finite",
+      "filePath": "engine/forecasting/calibration.py",
+      "lineRange": [
+        16,
+        20
+      ],
+      "summary": "Defines _is_finite in calibration.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "calibration"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecasting/calibration.py:sample_count",
+      "type": "function",
+      "name": "sample_count",
+      "filePath": "engine/forecasting/calibration.py",
+      "lineRange": [
+        23,
+        38
+      ],
+      "summary": "Defines sample_count in calibration.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "calibration"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecasting/calibration.py:check_artifact",
+      "type": "function",
+      "name": "check_artifact",
+      "filePath": "engine/forecasting/calibration.py",
+      "lineRange": [
+        41,
+        53
+      ],
+      "summary": "Defines check_artifact in calibration.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "calibration"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecasting/calibration.py:calibration_tag",
+      "type": "function",
+      "name": "calibration_tag",
+      "filePath": "engine/forecasting/calibration.py",
+      "lineRange": [
+        56,
+        60
+      ],
+      "summary": "Defines calibration_tag in calibration.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "calibration"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:engine/forecasting/eval_anchor_gate.py",
+      "type": "file",
+      "name": "eval_anchor_gate.py",
+      "filePath": "engine/forecasting/eval_anchor_gate.py",
+      "summary": "eval_anchor_gate.py is a code asset in the forecasting engine. It contains 7 functions, 2 internal imports.",
+      "tags": [
+        "forecasting-engine",
+        "forecasting",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/forecasting/eval_anchor_gate.py:_logit",
+      "type": "function",
+      "name": "_logit",
+      "filePath": "engine/forecasting/eval_anchor_gate.py",
+      "lineRange": [
+        32,
+        34
+      ],
+      "summary": "Defines _logit in eval_anchor_gate.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "eval-anchor-gate"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecasting/eval_anchor_gate.py:_sigmoid",
+      "type": "function",
+      "name": "_sigmoid",
+      "filePath": "engine/forecasting/eval_anchor_gate.py",
+      "lineRange": [
+        37,
+        38
+      ],
+      "summary": "Defines _sigmoid in eval_anchor_gate.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "eval-anchor-gate"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecasting/eval_anchor_gate.py:_anchor_weight",
+      "type": "function",
+      "name": "_anchor_weight",
+      "filePath": "engine/forecasting/eval_anchor_gate.py",
+      "lineRange": [
+        41,
+        42
+      ],
+      "summary": "Defines _anchor_weight in eval_anchor_gate.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "eval-anchor-gate"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecasting/eval_anchor_gate.py:_blend",
+      "type": "function",
+      "name": "_blend",
+      "filePath": "engine/forecasting/eval_anchor_gate.py",
+      "lineRange": [
+        45,
+        47
+      ],
+      "summary": "Defines _blend in eval_anchor_gate.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "eval-anchor-gate"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecasting/eval_anchor_gate.py:_brier",
+      "type": "function",
+      "name": "_brier",
+      "filePath": "engine/forecasting/eval_anchor_gate.py",
+      "lineRange": [
+        50,
+        51
+      ],
+      "summary": "Defines _brier in eval_anchor_gate.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "eval-anchor-gate"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecasting/eval_anchor_gate.py:evaluate",
+      "type": "function",
+      "name": "evaluate",
+      "filePath": "engine/forecasting/eval_anchor_gate.py",
+      "lineRange": [
+        54,
+        140
+      ],
+      "summary": "Defines evaluate in eval_anchor_gate.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "eval-anchor-gate"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/forecasting/eval_anchor_gate.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "engine/forecasting/eval_anchor_gate.py",
+      "lineRange": [
+        143,
+        145
+      ],
+      "summary": "Defines main in eval_anchor_gate.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entry-point",
+        "eval-anchor-gate"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:engine/forecasting/ledger.py",
+      "type": "file",
+      "name": "ledger.py",
+      "filePath": "engine/forecasting/ledger.py",
+      "summary": "ledger.py is a code asset in the forecasting engine. It contains 6 functions.",
+      "tags": [
+        "forecasting-engine",
+        "forecasting",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/forecasting/ledger.py:_jsonable",
+      "type": "function",
+      "name": "_jsonable",
+      "filePath": "engine/forecasting/ledger.py",
+      "lineRange": [
+        19,
+        28
+      ],
+      "summary": "Defines _jsonable in ledger.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "ledger"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecasting/ledger.py:stable_hash",
+      "type": "function",
+      "name": "stable_hash",
+      "filePath": "engine/forecasting/ledger.py",
+      "lineRange": [
+        31,
+        34
+      ],
+      "summary": "Defines stable_hash in ledger.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "ledger"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecasting/ledger.py:append_decision",
+      "type": "function",
+      "name": "append_decision",
+      "filePath": "engine/forecasting/ledger.py",
+      "lineRange": [
+        37,
+        46
+      ],
+      "summary": "Defines append_decision in ledger.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "ledger"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecasting/ledger.py:load_decisions",
+      "type": "function",
+      "name": "load_decisions",
+      "filePath": "engine/forecasting/ledger.py",
+      "lineRange": [
+        49,
+        54
+      ],
+      "summary": "Defines load_decisions in ledger.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "ledger"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecasting/ledger.py:_as_prob",
+      "type": "function",
+      "name": "_as_prob",
+      "filePath": "engine/forecasting/ledger.py",
+      "lineRange": [
+        57,
+        64
+      ],
+      "summary": "Defines _as_prob in ledger.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "ledger"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecasting/ledger.py:score_binary_shadows",
+      "type": "function",
+      "name": "score_binary_shadows",
+      "filePath": "engine/forecasting/ledger.py",
+      "lineRange": [
+        67,
+        87
+      ],
+      "summary": "Defines score_binary_shadows in ledger.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "ledger"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:engine/forecastbench/sequential.py",
+      "target": "function:engine/forecastbench/sequential.py:_clip",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/sequential.py",
+      "target": "function:engine/forecastbench/sequential.py:_clip",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/sequential.py",
+      "target": "function:engine/forecastbench/sequential.py:_logit",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/sequential.py",
+      "target": "function:engine/forecastbench/sequential.py:_logit",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/sequential.py",
+      "target": "function:engine/forecastbench/sequential.py:_sigmoid",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/sequential.py",
+      "target": "function:engine/forecastbench/sequential.py:_sigmoid",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/sequential.py",
+      "target": "function:engine/forecastbench/sequential.py:_anchor",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/sequential.py",
+      "target": "function:engine/forecastbench/sequential.py:_anchor",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/sequential.py",
+      "target": "function:engine/forecastbench/sequential.py:_context",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/sequential.py",
+      "target": "function:engine/forecastbench/sequential.py:_context",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/sequential.py",
+      "target": "function:engine/forecastbench/sequential.py:_qblock",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/sequential.py",
+      "target": "function:engine/forecastbench/sequential.py:_qblock",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/sequential.py",
+      "target": "function:engine/forecastbench/sequential.py:_parse_prob",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/sequential.py",
+      "target": "function:engine/forecastbench/sequential.py:_parse_prob",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/sequential.py",
+      "target": "function:engine/forecastbench/sequential.py:_parse_delta",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/sequential.py",
+      "target": "function:engine/forecastbench/sequential.py:_parse_delta",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/sequential.py",
+      "target": "function:engine/forecastbench/sequential.py:_call",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/sequential.py",
+      "target": "function:engine/forecastbench/sequential.py:_call",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/sequential.py",
+      "target": "function:engine/forecastbench/sequential.py:_decompose",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/sequential.py",
+      "target": "function:engine/forecastbench/sequential.py:_decompose",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/sequential.py",
+      "target": "function:engine/forecastbench/sequential.py:_delta_logit",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/sequential.py",
+      "target": "function:engine/forecastbench/sequential.py:_delta_logit",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/sequential.py",
+      "target": "function:engine/forecastbench/sequential.py:forecast_one",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/sequential.py",
+      "target": "function:engine/forecastbench/sequential.py:forecast_one",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/sequential.py",
+      "target": "function:engine/forecastbench/sequential.py:oneshot_one",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/sequential.py",
+      "target": "function:engine/forecastbench/sequential.py:oneshot_one",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/sequential.py",
+      "target": "function:engine/forecastbench/sequential.py:_job",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/sequential.py",
+      "target": "function:engine/forecastbench/sequential.py:_job",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/sequential.py",
+      "target": "function:engine/forecastbench/sequential.py:_brier",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/sequential.py",
+      "target": "function:engine/forecastbench/sequential.py:_brier",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/sequential.py",
+      "target": "function:engine/forecastbench/sequential.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/sequential.py",
+      "target": "function:engine/forecastbench/sequential.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/traces.py",
+      "target": "function:engine/forecastbench/traces.py:_user",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/traces.py",
+      "target": "function:engine/forecastbench/traces.py:_user",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/traces.py",
+      "target": "function:engine/forecastbench/traces.py:_parse_p",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/traces.py",
+      "target": "function:engine/forecastbench/traces.py:_parse_p",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/traces.py",
+      "target": "function:engine/forecastbench/traces.py:_resolve_proxy",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/traces.py",
+      "target": "function:engine/forecastbench/traces.py:_resolve_proxy",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/traces.py",
+      "target": "function:engine/forecastbench/traces.py:_one_question",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/traces.py",
+      "target": "function:engine/forecastbench/traces.py:_one_question",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/traces.py",
+      "target": "function:engine/forecastbench/traces.py:generate",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/traces.py",
+      "target": "function:engine/forecastbench/traces.py:generate",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/traces.py",
+      "target": "function:engine/forecastbench/traces.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/traces.py",
+      "target": "function:engine/forecastbench/traces.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecasting/calibration.py",
+      "target": "function:engine/forecasting/calibration.py:_is_finite",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecasting/calibration.py",
+      "target": "function:engine/forecasting/calibration.py:_is_finite",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecasting/calibration.py",
+      "target": "function:engine/forecasting/calibration.py:sample_count",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecasting/calibration.py",
+      "target": "function:engine/forecasting/calibration.py:sample_count",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecasting/calibration.py",
+      "target": "function:engine/forecasting/calibration.py:check_artifact",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecasting/calibration.py",
+      "target": "function:engine/forecasting/calibration.py:check_artifact",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecasting/calibration.py",
+      "target": "function:engine/forecasting/calibration.py:calibration_tag",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecasting/calibration.py",
+      "target": "function:engine/forecasting/calibration.py:calibration_tag",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecasting/eval_anchor_gate.py",
+      "target": "function:engine/forecasting/eval_anchor_gate.py:_logit",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecasting/eval_anchor_gate.py",
+      "target": "function:engine/forecasting/eval_anchor_gate.py:_logit",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecasting/eval_anchor_gate.py",
+      "target": "function:engine/forecasting/eval_anchor_gate.py:_sigmoid",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecasting/eval_anchor_gate.py",
+      "target": "function:engine/forecasting/eval_anchor_gate.py:_sigmoid",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecasting/eval_anchor_gate.py",
+      "target": "function:engine/forecasting/eval_anchor_gate.py:_anchor_weight",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecasting/eval_anchor_gate.py",
+      "target": "function:engine/forecasting/eval_anchor_gate.py:_anchor_weight",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecasting/eval_anchor_gate.py",
+      "target": "function:engine/forecasting/eval_anchor_gate.py:_blend",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecasting/eval_anchor_gate.py",
+      "target": "function:engine/forecasting/eval_anchor_gate.py:_blend",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecasting/eval_anchor_gate.py",
+      "target": "function:engine/forecasting/eval_anchor_gate.py:_brier",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecasting/eval_anchor_gate.py",
+      "target": "function:engine/forecasting/eval_anchor_gate.py:_brier",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecasting/eval_anchor_gate.py",
+      "target": "function:engine/forecasting/eval_anchor_gate.py:evaluate",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecasting/eval_anchor_gate.py",
+      "target": "function:engine/forecasting/eval_anchor_gate.py:evaluate",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecasting/eval_anchor_gate.py",
+      "target": "function:engine/forecasting/eval_anchor_gate.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecasting/eval_anchor_gate.py",
+      "target": "function:engine/forecasting/eval_anchor_gate.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecasting/ledger.py",
+      "target": "function:engine/forecasting/ledger.py:_jsonable",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecasting/ledger.py",
+      "target": "function:engine/forecasting/ledger.py:_jsonable",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecasting/ledger.py",
+      "target": "function:engine/forecasting/ledger.py:stable_hash",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecasting/ledger.py",
+      "target": "function:engine/forecasting/ledger.py:stable_hash",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecasting/ledger.py",
+      "target": "function:engine/forecasting/ledger.py:append_decision",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecasting/ledger.py",
+      "target": "function:engine/forecasting/ledger.py:append_decision",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecasting/ledger.py",
+      "target": "function:engine/forecasting/ledger.py:load_decisions",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecasting/ledger.py",
+      "target": "function:engine/forecasting/ledger.py:load_decisions",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecasting/ledger.py",
+      "target": "function:engine/forecasting/ledger.py:_as_prob",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecasting/ledger.py",
+      "target": "function:engine/forecasting/ledger.py:_as_prob",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecasting/ledger.py",
+      "target": "function:engine/forecasting/ledger.py:score_binary_shadows",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecasting/ledger.py",
+      "target": "function:engine/forecasting/ledger.py:score_binary_shadows",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/sequential.py",
+      "target": "file:engine/__init__.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/forecastbench/sequential.py",
+      "target": "file:engine/adapters/__init__.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/forecastbench/sequential.py",
+      "target": "file:engine/adapters/llm.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/forecastbench/sequential.py",
+      "target": "file:engine/adapters/search.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/forecastbench/sequential.py",
+      "target": "file:engine/db.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/forecastbench/traces.py",
+      "target": "file:engine/__init__.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/forecastbench/traces.py",
+      "target": "file:engine/adapters/__init__.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/forecastbench/traces.py",
+      "target": "file:engine/adapters/llm.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/forecastbench/traces.py",
+      "target": "file:engine/db.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/forecasting/eval_anchor_gate.py",
+      "target": "file:engine/metaculus/__init__.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/forecasting/eval_anchor_gate.py",
+      "target": "file:engine/metaculus/markets.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "function:engine/forecastbench/sequential.py:_qblock",
+      "target": "function:engine/forecastbench/sequential.py:_context",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/sequential.py:_parse_prob",
+      "target": "function:engine/forecastbench/sequential.py:_clip",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/sequential.py:_decompose",
+      "target": "function:engine/forecastbench/sequential.py:_call",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/sequential.py:_decompose",
+      "target": "function:engine/forecastbench/sequential.py:_qblock",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/sequential.py:_delta_logit",
+      "target": "function:engine/forecastbench/sequential.py:_qblock",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/sequential.py:_delta_logit",
+      "target": "function:engine/forecastbench/sequential.py:_call",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/sequential.py:_delta_logit",
+      "target": "function:engine/forecastbench/sequential.py:_parse_delta",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/sequential.py:forecast_one",
+      "target": "function:engine/forecastbench/sequential.py:_anchor",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/sequential.py:forecast_one",
+      "target": "function:engine/forecastbench/sequential.py:_logit",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/sequential.py:forecast_one",
+      "target": "function:engine/forecastbench/sequential.py:_decompose",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/sequential.py:forecast_one",
+      "target": "function:engine/forecastbench/sequential.py:_sigmoid",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/sequential.py:forecast_one",
+      "target": "function:engine/forecastbench/sequential.py:_delta_logit",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/sequential.py:forecast_one",
+      "target": "function:engine/forecastbench/sequential.py:_clip",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/sequential.py:oneshot_one",
+      "target": "function:engine/forecastbench/sequential.py:_qblock",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/sequential.py:oneshot_one",
+      "target": "function:engine/forecastbench/sequential.py:_call",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/sequential.py:oneshot_one",
+      "target": "function:engine/forecastbench/sequential.py:_parse_prob",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/sequential.py:oneshot_one",
+      "target": "function:engine/forecastbench/sequential.py:_clip",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/sequential.py:oneshot_one",
+      "target": "function:engine/forecastbench/sequential.py:_anchor",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/sequential.py:_job",
+      "target": "function:engine/forecastbench/sequential.py:forecast_one",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/sequential.py:_job",
+      "target": "function:engine/forecastbench/sequential.py:oneshot_one",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/sequential.py:main",
+      "target": "function:engine/forecastbench/sequential.py:_clip",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/sequential.py:main",
+      "target": "function:engine/forecastbench/sequential.py:_anchor",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/sequential.py:main",
+      "target": "function:engine/forecastbench/sequential.py:_brier",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/traces.py:_one_question",
+      "target": "function:engine/forecastbench/traces.py:_user",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/traces.py:_one_question",
+      "target": "function:engine/forecastbench/traces.py:_resolve_proxy",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/traces.py:_one_question",
+      "target": "function:engine/forecastbench/traces.py:_parse_p",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/traces.py:main",
+      "target": "function:engine/forecastbench/traces.py:generate",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecasting/calibration.py:check_artifact",
+      "target": "function:engine/forecasting/calibration.py:sample_count",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecasting/calibration.py:check_artifact",
+      "target": "function:engine/forecasting/calibration.py:_is_finite",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecasting/eval_anchor_gate.py:_blend",
+      "target": "function:engine/forecasting/eval_anchor_gate.py:_anchor_weight",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecasting/eval_anchor_gate.py:_blend",
+      "target": "function:engine/forecasting/eval_anchor_gate.py:_sigmoid",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecasting/eval_anchor_gate.py:_blend",
+      "target": "function:engine/forecasting/eval_anchor_gate.py:_logit",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecasting/eval_anchor_gate.py:evaluate",
+      "target": "function:engine/forecasting/eval_anchor_gate.py:_blend",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecasting/eval_anchor_gate.py",
+      "target": "function:engine/forecasting/eval_anchor_gate.py:_brier",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecasting/eval_anchor_gate.py:main",
+      "target": "function:engine/forecasting/eval_anchor_gate.py:evaluate",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecasting/ledger.py:stable_hash",
+      "target": "function:engine/forecasting/ledger.py:_jsonable",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecasting/ledger.py:append_decision",
+      "target": "function:engine/forecasting/ledger.py:_jsonable",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecasting/ledger.py:append_decision",
+      "target": "function:engine/forecasting/ledger.py:stable_hash",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecasting/ledger.py:score_binary_shadows",
+      "target": "function:engine/forecasting/ledger.py:_as_prob",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

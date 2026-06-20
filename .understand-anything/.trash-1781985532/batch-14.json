@@ -1,0 +1,966 @@
+{
+  "nodes": [
+    {
+      "id": "file:training/common.py",
+      "type": "file",
+      "name": "common.py",
+      "filePath": "training/common.py",
+      "summary": "common.py is a code asset in the repository. It contains 5 functions.",
+      "tags": [
+        "code",
+        "file",
+        "common"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:training/common.py:parse_prob",
+      "type": "function",
+      "name": "parse_prob",
+      "filePath": "training/common.py",
+      "lineRange": [
+        28,
+        42
+      ],
+      "summary": "Defines parse_prob in common.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "common"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:training/common.py:user_prompt",
+      "type": "function",
+      "name": "user_prompt",
+      "filePath": "training/common.py",
+      "lineRange": [
+        45,
+        63
+      ],
+      "summary": "Defines user_prompt in common.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "common"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:training/common.py:messages",
+      "type": "function",
+      "name": "messages",
+      "filePath": "training/common.py",
+      "lineRange": [
+        66,
+        67
+      ],
+      "summary": "Defines messages in common.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "common"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:training/common.py:load_jsonl",
+      "type": "function",
+      "name": "load_jsonl",
+      "filePath": "training/common.py",
+      "lineRange": [
+        70,
+        72
+      ],
+      "summary": "Defines load_jsonl in common.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "common"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:training/common.py:completion_text",
+      "type": "function",
+      "name": "completion_text",
+      "filePath": "training/common.py",
+      "lineRange": [
+        75,
+        81
+      ],
+      "summary": "Defines completion_text in common.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "common"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:training/eval.py",
+      "type": "file",
+      "name": "eval.py",
+      "filePath": "training/eval.py",
+      "summary": "eval.py is a code asset in the repository. It contains 5 functions, 1 internal import.",
+      "tags": [
+        "code",
+        "file",
+        "eval"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:training/eval.py:auc",
+      "type": "function",
+      "name": "auc",
+      "filePath": "training/eval.py",
+      "lineRange": [
+        21,
+        28
+      ],
+      "summary": "Defines auc in eval.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "eval"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:training/eval.py:_logit",
+      "type": "function",
+      "name": "_logit",
+      "filePath": "training/eval.py",
+      "lineRange": [
+        31,
+        34
+      ],
+      "summary": "Defines _logit in eval.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "eval"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:training/eval.py:temp_scale",
+      "type": "function",
+      "name": "temp_scale",
+      "filePath": "training/eval.py",
+      "lineRange": [
+        37,
+        55
+      ],
+      "summary": "Defines temp_scale in eval.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "eval"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:training/eval.py:calibration",
+      "type": "function",
+      "name": "calibration",
+      "filePath": "training/eval.py",
+      "lineRange": [
+        58,
+        63
+      ],
+      "summary": "Defines calibration in eval.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "eval"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:training/eval.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "training/eval.py",
+      "lineRange": [
+        66,
+        175
+      ],
+      "summary": "Defines main in eval.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entry-point",
+        "eval"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:training/grpo.py",
+      "type": "file",
+      "name": "grpo.py",
+      "filePath": "training/grpo.py",
+      "summary": "grpo.py is a code asset in the repository. It contains 4 functions, 1 internal import.",
+      "tags": [
+        "code",
+        "file",
+        "grpo"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:training/grpo.py:brier_reward",
+      "type": "function",
+      "name": "brier_reward",
+      "filePath": "training/grpo.py",
+      "lineRange": [
+        33,
+        39
+      ],
+      "summary": "Defines brier_reward in grpo.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "grpo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:training/grpo.py:make_composite_reward",
+      "type": "function",
+      "name": "make_composite_reward",
+      "filePath": "training/grpo.py",
+      "lineRange": [
+        42,
+        76
+      ],
+      "summary": "Defines make_composite_reward in grpo.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "grpo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:training/grpo.py:format_reward",
+      "type": "function",
+      "name": "format_reward",
+      "filePath": "training/grpo.py",
+      "lineRange": [
+        79,
+        81
+      ],
+      "summary": "Defines format_reward in grpo.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "grpo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:training/grpo.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "training/grpo.py",
+      "lineRange": [
+        84,
+        192
+      ],
+      "summary": "Defines main in grpo.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entry-point",
+        "grpo"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:training/mlx_convert.py",
+      "type": "file",
+      "name": "mlx_convert.py",
+      "filePath": "training/mlx_convert.py",
+      "summary": "mlx_convert.py is a code asset in the repository. It contains 3 functions, 1 internal import.",
+      "tags": [
+        "code",
+        "file",
+        "mlx-convert"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:training/mlx_convert.py:_sample",
+      "type": "function",
+      "name": "_sample",
+      "filePath": "training/mlx_convert.py",
+      "lineRange": [
+        26,
+        31
+      ],
+      "summary": "Defines _sample in mlx_convert.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "mlx-convert"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:training/mlx_convert.py:_write_split",
+      "type": "function",
+      "name": "_write_split",
+      "filePath": "training/mlx_convert.py",
+      "lineRange": [
+        34,
+        42
+      ],
+      "summary": "Defines _write_split in mlx_convert.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "mlx-convert"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:training/mlx_convert.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "training/mlx_convert.py",
+      "lineRange": [
+        45,
+        67
+      ],
+      "summary": "Defines main in mlx_convert.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entry-point",
+        "mlx-convert"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:training/mlx_eval.py",
+      "type": "file",
+      "name": "mlx_eval.py",
+      "filePath": "training/mlx_eval.py",
+      "summary": "mlx_eval.py is a code asset in the repository. It contains 2 functions, 1 internal import.",
+      "tags": [
+        "code",
+        "file",
+        "mlx-eval"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:training/mlx_eval.py:auc",
+      "type": "function",
+      "name": "auc",
+      "filePath": "training/mlx_eval.py",
+      "lineRange": [
+        23,
+        30
+      ],
+      "summary": "Defines auc in mlx_eval.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "mlx-eval"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:training/mlx_eval.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "training/mlx_eval.py",
+      "lineRange": [
+        33,
+        65
+      ],
+      "summary": "Defines main in mlx_eval.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entry-point",
+        "mlx-eval"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:training/mlx_rewards.py",
+      "type": "file",
+      "name": "mlx_rewards.py",
+      "filePath": "training/mlx_rewards.py",
+      "summary": "mlx_rewards.py is a code asset in the repository. It contains 2 functions, 1 internal import.",
+      "tags": [
+        "code",
+        "file",
+        "mlx-rewards"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:training/mlx_rewards.py:brier_reward",
+      "type": "function",
+      "name": "brier_reward",
+      "filePath": "training/mlx_rewards.py",
+      "lineRange": [
+        29,
+        43
+      ],
+      "summary": "Defines brier_reward in mlx_rewards.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "mlx-rewards"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:training/mlx_rewards.py:format_reward",
+      "type": "function",
+      "name": "format_reward",
+      "filePath": "training/mlx_rewards.py",
+      "lineRange": [
+        47,
+        50
+      ],
+      "summary": "Defines format_reward in mlx_rewards.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "mlx-rewards"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:training/common.py",
+      "target": "function:training/common.py:parse_prob",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:training/common.py",
+      "target": "function:training/common.py:parse_prob",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:training/common.py",
+      "target": "function:training/common.py:user_prompt",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:training/common.py",
+      "target": "function:training/common.py:user_prompt",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:training/common.py",
+      "target": "function:training/common.py:messages",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:training/common.py",
+      "target": "function:training/common.py:messages",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:training/common.py",
+      "target": "function:training/common.py:load_jsonl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:training/common.py",
+      "target": "function:training/common.py:load_jsonl",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:training/common.py",
+      "target": "function:training/common.py:completion_text",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:training/common.py",
+      "target": "function:training/common.py:completion_text",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:training/eval.py",
+      "target": "function:training/eval.py:auc",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:training/eval.py",
+      "target": "function:training/eval.py:auc",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:training/eval.py",
+      "target": "function:training/eval.py:_logit",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:training/eval.py",
+      "target": "function:training/eval.py:_logit",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:training/eval.py",
+      "target": "function:training/eval.py:temp_scale",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:training/eval.py",
+      "target": "function:training/eval.py:temp_scale",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:training/eval.py",
+      "target": "function:training/eval.py:calibration",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:training/eval.py",
+      "target": "function:training/eval.py:calibration",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:training/eval.py",
+      "target": "function:training/eval.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:training/eval.py",
+      "target": "function:training/eval.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:training/grpo.py",
+      "target": "function:training/grpo.py:brier_reward",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:training/grpo.py",
+      "target": "function:training/grpo.py:brier_reward",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:training/grpo.py",
+      "target": "function:training/grpo.py:make_composite_reward",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:training/grpo.py",
+      "target": "function:training/grpo.py:make_composite_reward",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:training/grpo.py",
+      "target": "function:training/grpo.py:format_reward",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:training/grpo.py",
+      "target": "function:training/grpo.py:format_reward",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:training/grpo.py",
+      "target": "function:training/grpo.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:training/grpo.py",
+      "target": "function:training/grpo.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:training/mlx_convert.py",
+      "target": "function:training/mlx_convert.py:_sample",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:training/mlx_convert.py",
+      "target": "function:training/mlx_convert.py:_sample",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:training/mlx_convert.py",
+      "target": "function:training/mlx_convert.py:_write_split",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:training/mlx_convert.py",
+      "target": "function:training/mlx_convert.py:_write_split",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:training/mlx_convert.py",
+      "target": "function:training/mlx_convert.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:training/mlx_convert.py",
+      "target": "function:training/mlx_convert.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:training/mlx_eval.py",
+      "target": "function:training/mlx_eval.py:auc",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:training/mlx_eval.py",
+      "target": "function:training/mlx_eval.py:auc",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:training/mlx_eval.py",
+      "target": "function:training/mlx_eval.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:training/mlx_eval.py",
+      "target": "function:training/mlx_eval.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:training/mlx_rewards.py",
+      "target": "function:training/mlx_rewards.py:brier_reward",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:training/mlx_rewards.py",
+      "target": "function:training/mlx_rewards.py:brier_reward",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:training/mlx_rewards.py",
+      "target": "function:training/mlx_rewards.py:format_reward",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:training/mlx_rewards.py",
+      "target": "function:training/mlx_rewards.py:format_reward",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:training/eval.py",
+      "target": "file:training/common.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:training/grpo.py",
+      "target": "file:training/common.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:training/mlx_convert.py",
+      "target": "file:training/common.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:training/mlx_eval.py",
+      "target": "file:training/common.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:training/mlx_rewards.py",
+      "target": "file:training/common.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "function:training/common.py:messages",
+      "target": "function:training/common.py:user_prompt",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:training/eval.py",
+      "target": "function:training/eval.py:_logit",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:training/eval.py:main",
+      "target": "function:training/common.py:load_jsonl",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:training/eval.py:main",
+      "target": "function:training/common.py:user_prompt",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:training/eval.py:main",
+      "target": "function:training/common.py:parse_prob",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:training/eval.py:main",
+      "target": "function:training/eval.py:auc",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:training/eval.py:main",
+      "target": "function:training/eval.py:temp_scale",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:training/eval.py:main",
+      "target": "function:training/eval.py:calibration",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:training/grpo.py:brier_reward",
+      "target": "function:training/common.py:parse_prob",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:training/grpo.py:brier_reward",
+      "target": "function:training/common.py:completion_text",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:training/grpo.py",
+      "target": "function:training/common.py:parse_prob",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:training/grpo.py",
+      "target": "function:training/common.py:completion_text",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:training/grpo.py:format_reward",
+      "target": "function:training/common.py:parse_prob",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:training/grpo.py:format_reward",
+      "target": "function:training/common.py:completion_text",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:training/grpo.py:main",
+      "target": "function:training/common.py:load_jsonl",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:training/grpo.py:main",
+      "target": "function:training/common.py:user_prompt",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:training/grpo.py:main",
+      "target": "function:training/grpo.py:make_composite_reward",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:training/mlx_convert.py:main",
+      "target": "function:training/mlx_convert.py:_sample",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:training/mlx_convert.py:main",
+      "target": "function:training/common.py:load_jsonl",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:training/mlx_convert.py:main",
+      "target": "function:training/mlx_convert.py:_write_split",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:training/mlx_convert.py:main",
+      "target": "function:training/common.py:user_prompt",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:training/mlx_eval.py:main",
+      "target": "function:training/common.py:load_jsonl",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:training/mlx_eval.py:main",
+      "target": "function:training/common.py:user_prompt",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:training/mlx_eval.py:main",
+      "target": "function:training/common.py:parse_prob",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:training/mlx_eval.py:main",
+      "target": "function:training/mlx_eval.py:auc",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:training/mlx_rewards.py:brier_reward",
+      "target": "function:training/common.py:parse_prob",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:training/mlx_rewards.py:format_reward",
+      "target": "function:training/common.py:parse_prob",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

@@ -1,0 +1,944 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 9,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "site/src/app/sitemap.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 43,
+      "nonEmptyLines": 40,
+      "functions": [
+        {
+          "name": "sitemap",
+          "startLine": 10,
+          "endLine": 43,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "dynamic",
+          "line": 8,
+          "isDefault": false
+        },
+        {
+          "name": "sitemap",
+          "line": 10,
+          "isDefault": true
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 2,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "site/src/components/ui/button.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 58,
+      "nonEmptyLines": 54,
+      "functions": [
+        {
+          "name": "Button",
+          "startLine": 43,
+          "endLine": 56,
+          "params": [
+            "{\n  className,\n  variant = \"default\",\n  size = \"default\",\n  ...props\n}"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "Button",
+          "line": 58,
+          "isDefault": false
+        },
+        {
+          "name": "buttonVariants",
+          "line": 58,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "Button",
+          "callee": "cn",
+          "lineNumber": 52
+        },
+        {
+          "caller": "Button",
+          "callee": "buttonVariants",
+          "lineNumber": 52
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 2,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "site/src/content/posts.json",
+      "language": "json",
+      "fileCategory": "config",
+      "totalLines": 116,
+      "nonEmptyLines": 116,
+      "sections": [
+        {
+          "heading": "generated",
+          "level": 1,
+          "line": 2
+        },
+        {
+          "heading": "note",
+          "level": 1,
+          "line": 3
+        },
+        {
+          "heading": "posts",
+          "level": 1,
+          "line": 4
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 3
+      }
+    },
+    {
+      "path": "site/src/lib/utils.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 6,
+      "nonEmptyLines": 5,
+      "functions": [
+        {
+          "name": "cn",
+          "startLine": 4,
+          "endLine": 6,
+          "params": [
+            "...inputs"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "cn",
+          "line": 4,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "cn",
+          "callee": "twMerge",
+          "lineNumber": 5
+        },
+        {
+          "caller": "cn",
+          "callee": "clsx",
+          "lineNumber": 5
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "site/src/styles/site.webflow.css",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 10025,
+      "nonEmptyLines": 8577,
+      "metrics": {}
+    },
+    {
+      "path": "tests/test_pope_ultra.py",
+      "language": "python",
+      "fileCategory": "code",
+      "totalLines": 76,
+      "nonEmptyLines": 67,
+      "classes": [
+        {
+          "name": "PopeUltraTests",
+          "startLine": 11,
+          "endLine": 72,
+          "methods": [
+            "_board",
+            "test_builds_truth_seeking_dossier",
+            "test_thesis_filter",
+            "test_writes_outputs"
+          ],
+          "properties": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "PopeUltraTests",
+          "line": 11,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "test_builds_truth_seeking_dossier",
+          "callee": "build_dossier",
+          "lineNumber": 39
+        },
+        {
+          "caller": "test_builds_truth_seeking_dossier",
+          "callee": "self._board",
+          "lineNumber": 39
+        },
+        {
+          "caller": "test_builds_truth_seeking_dossier",
+          "callee": "self.assertEqual",
+          "lineNumber": 40
+        },
+        {
+          "caller": "test_builds_truth_seeking_dossier",
+          "callee": "len",
+          "lineNumber": 40
+        },
+        {
+          "caller": "test_builds_truth_seeking_dossier",
+          "callee": "self.assertEqual",
+          "lineNumber": 42
+        },
+        {
+          "caller": "test_builds_truth_seeking_dossier",
+          "callee": "self.assertIn",
+          "lineNumber": 43
+        },
+        {
+          "caller": "test_builds_truth_seeking_dossier",
+          "callee": "self.assertGreaterEqual",
+          "lineNumber": 44
+        },
+        {
+          "caller": "test_builds_truth_seeking_dossier",
+          "callee": "len",
+          "lineNumber": 44
+        },
+        {
+          "caller": "test_builds_truth_seeking_dossier",
+          "callee": "self.assertIn",
+          "lineNumber": 46
+        },
+        {
+          "caller": "test_builds_truth_seeking_dossier",
+          "callee": "self.assertIn",
+          "lineNumber": 47
+        },
+        {
+          "caller": "test_builds_truth_seeking_dossier",
+          "callee": "self.assertIn",
+          "lineNumber": 48
+        },
+        {
+          "caller": "test_builds_truth_seeking_dossier",
+          "callee": "self.assertEqual",
+          "lineNumber": 50
+        },
+        {
+          "caller": "test_builds_truth_seeking_dossier",
+          "callee": "self.assertTrue",
+          "lineNumber": 51
+        },
+        {
+          "caller": "test_builds_truth_seeking_dossier",
+          "callee": "self.assertTrue",
+          "lineNumber": 52
+        },
+        {
+          "caller": "test_thesis_filter",
+          "callee": "build_dossier",
+          "lineNumber": 55
+        },
+        {
+          "caller": "test_thesis_filter",
+          "callee": "self._board",
+          "lineNumber": 55
+        },
+        {
+          "caller": "test_thesis_filter",
+          "callee": "self.assertEqual",
+          "lineNumber": 56
+        },
+        {
+          "caller": "test_thesis_filter",
+          "callee": "len",
+          "lineNumber": 56
+        },
+        {
+          "caller": "test_thesis_filter",
+          "callee": "self.assertRaises",
+          "lineNumber": 57
+        },
+        {
+          "caller": "test_thesis_filter",
+          "callee": "build_dossier",
+          "lineNumber": 58
+        },
+        {
+          "caller": "test_thesis_filter",
+          "callee": "self._board",
+          "lineNumber": 58
+        },
+        {
+          "caller": "test_writes_outputs",
+          "callee": "build_dossier",
+          "lineNumber": 61
+        },
+        {
+          "caller": "test_writes_outputs",
+          "callee": "self._board",
+          "lineNumber": 61
+        },
+        {
+          "caller": "test_writes_outputs",
+          "callee": "render_markdown",
+          "lineNumber": 62
+        },
+        {
+          "caller": "test_writes_outputs",
+          "callee": "self.assertIn",
+          "lineNumber": 63
+        },
+        {
+          "caller": "test_writes_outputs",
+          "callee": "self.assertIn",
+          "lineNumber": 64
+        },
+        {
+          "caller": "test_writes_outputs",
+          "callee": "md.lower",
+          "lineNumber": 64
+        },
+        {
+          "caller": "test_writes_outputs",
+          "callee": "tempfile.TemporaryDirectory",
+          "lineNumber": 65
+        },
+        {
+          "caller": "test_writes_outputs",
+          "callee": "Path",
+          "lineNumber": 66
+        },
+        {
+          "caller": "test_writes_outputs",
+          "callee": "write_outputs",
+          "lineNumber": 67
+        },
+        {
+          "caller": "test_writes_outputs",
+          "callee": "self.assertTrue",
+          "lineNumber": 68
+        },
+        {
+          "caller": "test_writes_outputs",
+          "callee": "(out / \"ultra.json\").exists",
+          "lineNumber": 68
+        },
+        {
+          "caller": "test_writes_outputs",
+          "callee": "self.assertTrue",
+          "lineNumber": 69
+        },
+        {
+          "caller": "test_writes_outputs",
+          "callee": "(out / \"ultra.md\").exists",
+          "lineNumber": 69
+        },
+        {
+          "caller": "test_writes_outputs",
+          "callee": "self.assertTrue",
+          "lineNumber": 70
+        },
+        {
+          "caller": "test_writes_outputs",
+          "callee": "(out / \"task_queue.csv\").exists",
+          "lineNumber": 70
+        },
+        {
+          "caller": "test_writes_outputs",
+          "callee": "json.loads",
+          "lineNumber": 71
+        },
+        {
+          "caller": "test_writes_outputs",
+          "callee": "(out / \"ultra.json\").read_text",
+          "lineNumber": 71
+        },
+        {
+          "caller": "test_writes_outputs",
+          "callee": "self.assertEqual",
+          "lineNumber": 72
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "training/residual_eval.py",
+      "language": "python",
+      "fileCategory": "code",
+      "totalLines": 108,
+      "nonEmptyLines": 90,
+      "functions": [
+        {
+          "name": "parse_prob",
+          "startLine": 21,
+          "endLine": 32,
+          "params": [
+            "text"
+          ]
+        },
+        {
+          "name": "auc",
+          "startLine": 35,
+          "endLine": 41,
+          "params": [
+            "ps",
+            "ys"
+          ]
+        },
+        {
+          "name": "ece",
+          "startLine": 44,
+          "endLine": 53,
+          "params": [
+            "ps",
+            "ys",
+            "bins"
+          ]
+        },
+        {
+          "name": "main",
+          "startLine": 56,
+          "endLine": 104,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "parse_prob",
+          "line": 21,
+          "isDefault": false
+        },
+        {
+          "name": "auc",
+          "line": 35,
+          "isDefault": false
+        },
+        {
+          "name": "ece",
+          "line": 44,
+          "isDefault": false
+        },
+        {
+          "name": "main",
+          "line": 56,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "parse_prob",
+          "callee": "PROB_RE.findall",
+          "lineNumber": 22
+        },
+        {
+          "caller": "parse_prob",
+          "callee": "re.findall",
+          "lineNumber": 25
+        },
+        {
+          "caller": "parse_prob",
+          "callee": "float",
+          "lineNumber": 29
+        },
+        {
+          "caller": "parse_prob",
+          "callee": "min",
+          "lineNumber": 32
+        },
+        {
+          "caller": "parse_prob",
+          "callee": "max",
+          "lineNumber": 32
+        },
+        {
+          "caller": "auc",
+          "callee": "zip",
+          "lineNumber": 36
+        },
+        {
+          "caller": "auc",
+          "callee": "zip",
+          "lineNumber": 37
+        },
+        {
+          "caller": "auc",
+          "callee": "sum",
+          "lineNumber": 40
+        },
+        {
+          "caller": "auc",
+          "callee": "len",
+          "lineNumber": 41
+        },
+        {
+          "caller": "auc",
+          "callee": "len",
+          "lineNumber": 41
+        },
+        {
+          "caller": "ece",
+          "callee": "range",
+          "lineNumber": 46
+        },
+        {
+          "caller": "ece",
+          "callee": "enumerate",
+          "lineNumber": 48
+        },
+        {
+          "caller": "ece",
+          "callee": "len",
+          "lineNumber": 51
+        },
+        {
+          "caller": "ece",
+          "callee": "abs",
+          "lineNumber": 51
+        },
+        {
+          "caller": "ece",
+          "callee": "statistics.mean",
+          "lineNumber": 51
+        },
+        {
+          "caller": "ece",
+          "callee": "statistics.mean",
+          "lineNumber": 51
+        },
+        {
+          "caller": "ece",
+          "callee": "len",
+          "lineNumber": 52
+        },
+        {
+          "caller": "main",
+          "callee": "argparse.ArgumentParser",
+          "lineNumber": 57
+        },
+        {
+          "caller": "main",
+          "callee": "ap.add_argument",
+          "lineNumber": 58
+        },
+        {
+          "caller": "main",
+          "callee": "ap.add_argument",
+          "lineNumber": 59
+        },
+        {
+          "caller": "main",
+          "callee": "ap.add_argument",
+          "lineNumber": 60
+        },
+        {
+          "caller": "main",
+          "callee": "ap.add_argument",
+          "lineNumber": 61
+        },
+        {
+          "caller": "main",
+          "callee": "ap.add_argument",
+          "lineNumber": 62
+        },
+        {
+          "caller": "main",
+          "callee": "ap.parse_args",
+          "lineNumber": 63
+        },
+        {
+          "caller": "main",
+          "callee": "load",
+          "lineNumber": 65
+        },
+        {
+          "caller": "main",
+          "callee": "make_sampler",
+          "lineNumber": 66
+        },
+        {
+          "caller": "main",
+          "callee": "json.loads",
+          "lineNumber": 67
+        },
+        {
+          "caller": "main",
+          "callee": "open",
+          "lineNumber": 67
+        },
+        {
+          "caller": "main",
+          "callee": "enumerate",
+          "lineNumber": 70
+        },
+        {
+          "caller": "main",
+          "callee": "tok.apply_chat_template",
+          "lineNumber": 72
+        },
+        {
+          "caller": "main",
+          "callee": "generate",
+          "lineNumber": 74
+        },
+        {
+          "caller": "main",
+          "callee": "parse_prob",
+          "lineNumber": 75
+        },
+        {
+          "caller": "main",
+          "callee": "ps.append",
+          "lineNumber": 77
+        },
+        {
+          "caller": "main",
+          "callee": "float",
+          "lineNumber": 77
+        },
+        {
+          "caller": "main",
+          "callee": "priors.append",
+          "lineNumber": 78
+        },
+        {
+          "caller": "main",
+          "callee": "float",
+          "lineNumber": 78
+        },
+        {
+          "caller": "main",
+          "callee": "tgts.append",
+          "lineNumber": 78
+        },
+        {
+          "caller": "main",
+          "callee": "float",
+          "lineNumber": 78
+        },
+        {
+          "caller": "main",
+          "callee": "ys.append",
+          "lineNumber": 79
+        },
+        {
+          "caller": "main",
+          "callee": "int",
+          "lineNumber": 79
+        },
+        {
+          "caller": "main",
+          "callee": "kinds.append",
+          "lineNumber": 79
+        },
+        {
+          "caller": "main",
+          "callee": "print",
+          "lineNumber": 81
+        },
+        {
+          "caller": "main",
+          "callee": "len",
+          "lineNumber": 81
+        },
+        {
+          "caller": "blk",
+          "callee": "range",
+          "lineNumber": 84
+        },
+        {
+          "caller": "blk",
+          "callee": "len",
+          "lineNumber": 84
+        },
+        {
+          "caller": "blk",
+          "callee": "sel",
+          "lineNumber": 84
+        },
+        {
+          "caller": "blk",
+          "callee": "len",
+          "lineNumber": 88
+        },
+        {
+          "caller": "blk",
+          "callee": "statistics.mean",
+          "lineNumber": 89
+        },
+        {
+          "caller": "blk",
+          "callee": "zip",
+          "lineNumber": 89
+        },
+        {
+          "caller": "blk",
+          "callee": "statistics.mean",
+          "lineNumber": 90
+        },
+        {
+          "caller": "blk",
+          "callee": "zip",
+          "lineNumber": 90
+        },
+        {
+          "caller": "blk",
+          "callee": "ece",
+          "lineNumber": 91
+        },
+        {
+          "caller": "blk",
+          "callee": "auc",
+          "lineNumber": 91
+        },
+        {
+          "caller": "main",
+          "callee": "print",
+          "lineNumber": 94
+        },
+        {
+          "caller": "main",
+          "callee": "len",
+          "lineNumber": 94
+        },
+        {
+          "caller": "main",
+          "callee": "len",
+          "lineNumber": 95
+        },
+        {
+          "caller": "main",
+          "callee": "print",
+          "lineNumber": 96
+        },
+        {
+          "caller": "main",
+          "callee": "blk",
+          "lineNumber": 99
+        },
+        {
+          "caller": "main",
+          "callee": "print",
+          "lineNumber": 102
+        },
+        {
+          "caller": "main",
+          "callee": "print",
+          "lineNumber": 104
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 4,
+        "functionCount": 4,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "training/sft.py",
+      "language": "python",
+      "fileCategory": "code",
+      "totalLines": 98,
+      "nonEmptyLines": 83,
+      "functions": [
+        {
+          "name": "main",
+          "startLine": 31,
+          "endLine": 94,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "main",
+          "line": 31,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "main",
+          "callee": "argparse.ArgumentParser",
+          "lineNumber": 32
+        },
+        {
+          "caller": "main",
+          "callee": "ap.add_argument",
+          "lineNumber": 33
+        },
+        {
+          "caller": "main",
+          "callee": "ap.add_argument",
+          "lineNumber": 34
+        },
+        {
+          "caller": "main",
+          "callee": "ap.add_argument",
+          "lineNumber": 35
+        },
+        {
+          "caller": "main",
+          "callee": "ap.add_argument",
+          "lineNumber": 36
+        },
+        {
+          "caller": "main",
+          "callee": "ap.add_argument",
+          "lineNumber": 37
+        },
+        {
+          "caller": "main",
+          "callee": "ap.add_argument",
+          "lineNumber": 38
+        },
+        {
+          "caller": "main",
+          "callee": "ap.add_argument",
+          "lineNumber": 39
+        },
+        {
+          "caller": "main",
+          "callee": "ap.add_argument",
+          "lineNumber": 40
+        },
+        {
+          "caller": "main",
+          "callee": "ap.add_argument",
+          "lineNumber": 41
+        },
+        {
+          "caller": "main",
+          "callee": "ap.parse_args",
+          "lineNumber": 42
+        },
+        {
+          "caller": "main",
+          "callee": "AutoTokenizer.from_pretrained",
+          "lineNumber": 44
+        },
+        {
+          "caller": "main",
+          "callee": "AutoModelForCausalLM.from_pretrained",
+          "lineNumber": 47
+        },
+        {
+          "caller": "main",
+          "callee": "load_dataset",
+          "lineNumber": 49
+        },
+        {
+          "caller": "to_pc",
+          "callee": "tokenizer.apply_chat_template",
+          "lineNumber": 61
+        },
+        {
+          "caller": "main",
+          "callee": "ds.map",
+          "lineNumber": 64
+        },
+        {
+          "caller": "main",
+          "callee": "LoraConfig",
+          "lineNumber": 66
+        },
+        {
+          "caller": "main",
+          "callee": "SFTConfig",
+          "lineNumber": 72
+        },
+        {
+          "caller": "main",
+          "callee": "os.path.join",
+          "lineNumber": 73
+        },
+        {
+          "caller": "main",
+          "callee": "os.getenv",
+          "lineNumber": 83
+        },
+        {
+          "caller": "main",
+          "callee": "SFTTrainer",
+          "lineNumber": 85
+        },
+        {
+          "caller": "main",
+          "callee": "trainer.train",
+          "lineNumber": 88
+        },
+        {
+          "caller": "main",
+          "callee": "trainer.model.merge_and_unload",
+          "lineNumber": 91
+        },
+        {
+          "caller": "main",
+          "callee": "merged.save_pretrained",
+          "lineNumber": 92
+        },
+        {
+          "caller": "main",
+          "callee": "tokenizer.save_pretrained",
+          "lineNumber": 93
+        },
+        {
+          "caller": "main",
+          "callee": "print",
+          "lineNumber": 94
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "training/watch_signal.sh",
+      "language": "shell",
+      "fileCategory": "script",
+      "totalLines": 31,
+      "nonEmptyLines": 31,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    }
+  ]
+}

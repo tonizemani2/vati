@@ -1,0 +1,81 @@
+{
+  "projectRoot": "/Users/emizemani/Desktop/predictthefuture",
+  "batchFiles": [
+    {
+      "path": "site/src/app/data/page.tsx",
+      "language": "typescript",
+      "sizeLines": 247,
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/src/app/forecasts/ai-campus-power-claims/page.tsx",
+      "language": "typescript",
+      "sizeLines": 402,
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/src/app/forecasts/page.tsx",
+      "language": "typescript",
+      "sizeLines": 380,
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/src/app/page.tsx",
+      "language": "typescript",
+      "sizeLines": 27,
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/src/app/privacy-policy/page.tsx",
+      "language": "typescript",
+      "sizeLines": 87,
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/src/app/terms-of-service/page.tsx",
+      "language": "typescript",
+      "sizeLines": 79,
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/src/sections/SiteRuntime.tsx",
+      "language": "typescript",
+      "sizeLines": 655,
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/src/sections/raw.tsx",
+      "language": "typescript",
+      "sizeLines": 211,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "site/src/app/data/page.tsx": [
+      "site/src/sections/raw.tsx",
+      "site/src/sections/SiteRuntime.tsx"
+    ],
+    "site/src/app/forecasts/ai-campus-power-claims/page.tsx": [
+      "site/src/sections/raw.tsx",
+      "site/src/sections/SiteRuntime.tsx"
+    ],
+    "site/src/app/forecasts/page.tsx": [
+      "site/src/sections/raw.tsx",
+      "site/src/sections/SiteRuntime.tsx"
+    ],
+    "site/src/app/page.tsx": [
+      "site/src/sections/raw.tsx",
+      "site/src/sections/SiteRuntime.tsx"
+    ],
+    "site/src/app/privacy-policy/page.tsx": [
+      "site/src/sections/raw.tsx",
+      "site/src/sections/SiteRuntime.tsx"
+    ],
+    "site/src/app/terms-of-service/page.tsx": [
+      "site/src/sections/raw.tsx",
+      "site/src/sections/SiteRuntime.tsx"
+    ],
+    "site/src/sections/SiteRuntime.tsx": [],
+    "site/src/sections/raw.tsx": []
+  }
+}

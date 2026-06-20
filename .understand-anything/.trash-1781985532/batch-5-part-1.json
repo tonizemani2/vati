@@ -1,0 +1,942 @@
+{
+  "nodes": [
+    {
+      "id": "file:engine/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "engine/__init__.py",
+      "summary": "__init__.py is a code asset in the forecasting engine.",
+      "tags": [
+        "forecasting-engine",
+        "code",
+        "file",
+        "init"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:engine/backtest.py",
+      "type": "file",
+      "name": "backtest.py",
+      "filePath": "engine/backtest.py",
+      "summary": "backtest.py is a code asset in the forecasting engine. It contains 10 functions, 1 class, 1 internal import.",
+      "tags": [
+        "forecasting-engine",
+        "code",
+        "file",
+        "backtest"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:engine/backtest.py:_points_by_year",
+      "type": "function",
+      "name": "_points_by_year",
+      "filePath": "engine/backtest.py",
+      "lineRange": [
+        63,
+        74
+      ],
+      "summary": "Defines _points_by_year in backtest.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "backtest"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/backtest.py:_resolve",
+      "type": "function",
+      "name": "_resolve",
+      "filePath": "engine/backtest.py",
+      "lineRange": [
+        77,
+        97
+      ],
+      "summary": "Defines _resolve in backtest.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "backtest"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/backtest.py:_cohort_totals",
+      "type": "function",
+      "name": "_cohort_totals",
+      "filePath": "engine/backtest.py",
+      "lineRange": [
+        100,
+        115
+      ],
+      "summary": "Defines _cohort_totals in backtest.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "backtest"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/backtest.py:_resolve_gain_share",
+      "type": "function",
+      "name": "_resolve_gain_share",
+      "filePath": "engine/backtest.py",
+      "lineRange": [
+        118,
+        139
+      ],
+      "summary": "Defines _resolve_gain_share in backtest.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "backtest"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/backtest.py:backtest",
+      "type": "function",
+      "name": "backtest",
+      "filePath": "engine/backtest.py",
+      "lineRange": [
+        142,
+        218
+      ],
+      "summary": "Defines backtest in backtest.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "backtest"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/backtest.py:run_backtest",
+      "type": "function",
+      "name": "run_backtest",
+      "filePath": "engine/backtest.py",
+      "lineRange": [
+        221,
+        268
+      ],
+      "summary": "Defines run_backtest in backtest.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entry-point",
+        "backtest"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/backtest.py:_fisher_exact_greater",
+      "type": "function",
+      "name": "_fisher_exact_greater",
+      "filePath": "engine/backtest.py",
+      "lineRange": [
+        279,
+        292
+      ],
+      "summary": "Defines _fisher_exact_greater in backtest.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "backtest"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/backtest.py:_loco_brier",
+      "type": "function",
+      "name": "_loco_brier",
+      "filePath": "engine/backtest.py",
+      "lineRange": [
+        295,
+        321
+      ],
+      "summary": "Defines _loco_brier in backtest.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "backtest"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/backtest.py:sweep_backtest",
+      "type": "function",
+      "name": "sweep_backtest",
+      "filePath": "engine/backtest.py",
+      "lineRange": [
+        324,
+        346
+      ],
+      "summary": "Defines sweep_backtest in backtest.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "backtest"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/backtest.py:run_sweep",
+      "type": "function",
+      "name": "run_sweep",
+      "filePath": "engine/backtest.py",
+      "lineRange": [
+        349,
+        373
+      ],
+      "summary": "Defines run_sweep in backtest.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entry-point",
+        "backtest"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:engine/backtest.py:SeriesVerdict",
+      "type": "class",
+      "name": "SeriesVerdict",
+      "filePath": "engine/backtest.py",
+      "lineRange": [
+        52,
+        60
+      ],
+      "summary": "Defines SeriesVerdict in backtest.py, encapsulating reusable behavior or state for this module.",
+      "tags": [
+        "class",
+        "implementation",
+        "backtest"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:engine/bet.py",
+      "type": "file",
+      "name": "bet.py",
+      "filePath": "engine/bet.py",
+      "summary": "bet.py is a code asset in the forecasting engine. It contains 10 functions, 1 class, 3 internal imports.",
+      "tags": [
+        "forecasting-engine",
+        "code",
+        "file",
+        "bet"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:engine/bet.py:_percentile",
+      "type": "function",
+      "name": "_percentile",
+      "filePath": "engine/bet.py",
+      "lineRange": [
+        74,
+        75
+      ],
+      "summary": "Defines _percentile in bet.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "bet"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/bet.py:mc_pair_payoff",
+      "type": "function",
+      "name": "mc_pair_payoff",
+      "filePath": "engine/bet.py",
+      "lineRange": [
+        78,
+        132
+      ],
+      "summary": "Defines mc_pair_payoff in bet.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "bet"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/bet.py:_capped",
+      "type": "function",
+      "name": "_capped",
+      "filePath": "engine/bet.py",
+      "lineRange": [
+        135,
+        137
+      ],
+      "summary": "Defines _capped in bet.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "bet"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/bet.py:_insert",
+      "type": "function",
+      "name": "_insert",
+      "filePath": "engine/bet.py",
+      "lineRange": [
+        143,
+        166
+      ],
+      "summary": "Defines _insert in bet.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "bet"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/bet.py:create_bet",
+      "type": "function",
+      "name": "create_bet",
+      "filePath": "engine/bet.py",
+      "lineRange": [
+        169,
+        173
+      ],
+      "summary": "Defines create_bet in bet.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "bet"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/bet.py:supersede",
+      "type": "function",
+      "name": "supersede",
+      "filePath": "engine/bet.py",
+      "lineRange": [
+        176,
+        186
+      ],
+      "summary": "Defines supersede in bet.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "bet"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/bet.py:_live_consensus",
+      "type": "function",
+      "name": "_live_consensus",
+      "filePath": "engine/bet.py",
+      "lineRange": [
+        192,
+        195
+      ],
+      "summary": "Defines _live_consensus in bet.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "bet"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/bet.py:_live_forward_card",
+      "type": "function",
+      "name": "_live_forward_card",
+      "filePath": "engine/bet.py",
+      "lineRange": [
+        198,
+        202
+      ],
+      "summary": "Defines _live_forward_card in bet.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "bet"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/bet.py:_open_consensus_decision",
+      "type": "function",
+      "name": "_open_consensus_decision",
+      "filePath": "engine/bet.py",
+      "lineRange": [
+        205,
+        209
+      ],
+      "summary": "Defines _open_consensus_decision in bet.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "bet"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/bet.py:translate",
+      "type": "function",
+      "name": "translate",
+      "filePath": "engine/bet.py",
+      "lineRange": [
+        212,
+        371
+      ],
+      "summary": "Defines translate in bet.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "bet"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:engine/bet.py:PairPayoff",
+      "type": "class",
+      "name": "PairPayoff",
+      "filePath": "engine/bet.py",
+      "lineRange": [
+        62,
+        71
+      ],
+      "summary": "Defines PairPayoff in bet.py, encapsulating reusable behavior or state for this module.",
+      "tags": [
+        "class",
+        "implementation",
+        "bet"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:engine/backtest.py",
+      "target": "function:engine/backtest.py:_points_by_year",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/backtest.py",
+      "target": "function:engine/backtest.py:_points_by_year",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/backtest.py",
+      "target": "function:engine/backtest.py:_resolve",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/backtest.py",
+      "target": "function:engine/backtest.py:_resolve",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/backtest.py",
+      "target": "function:engine/backtest.py:_cohort_totals",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/backtest.py",
+      "target": "function:engine/backtest.py:_cohort_totals",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/backtest.py",
+      "target": "function:engine/backtest.py:_resolve_gain_share",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/backtest.py",
+      "target": "function:engine/backtest.py:_resolve_gain_share",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/backtest.py",
+      "target": "function:engine/backtest.py:backtest",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/backtest.py",
+      "target": "function:engine/backtest.py:backtest",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/backtest.py",
+      "target": "function:engine/backtest.py:run_backtest",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/backtest.py",
+      "target": "function:engine/backtest.py:run_backtest",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/backtest.py",
+      "target": "function:engine/backtest.py:_fisher_exact_greater",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/backtest.py",
+      "target": "function:engine/backtest.py:_fisher_exact_greater",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/backtest.py",
+      "target": "function:engine/backtest.py:_loco_brier",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/backtest.py",
+      "target": "function:engine/backtest.py:_loco_brier",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/backtest.py",
+      "target": "function:engine/backtest.py:sweep_backtest",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/backtest.py",
+      "target": "function:engine/backtest.py:sweep_backtest",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/backtest.py",
+      "target": "function:engine/backtest.py:run_sweep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/backtest.py",
+      "target": "function:engine/backtest.py:run_sweep",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/backtest.py",
+      "target": "class:engine/backtest.py:SeriesVerdict",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/backtest.py",
+      "target": "class:engine/backtest.py:SeriesVerdict",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/bet.py",
+      "target": "function:engine/bet.py:_percentile",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/bet.py",
+      "target": "function:engine/bet.py:_percentile",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/bet.py",
+      "target": "function:engine/bet.py:mc_pair_payoff",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/bet.py",
+      "target": "function:engine/bet.py:mc_pair_payoff",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/bet.py",
+      "target": "function:engine/bet.py:_capped",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/bet.py",
+      "target": "function:engine/bet.py:_capped",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/bet.py",
+      "target": "function:engine/bet.py:_insert",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/bet.py",
+      "target": "function:engine/bet.py:_insert",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/bet.py",
+      "target": "function:engine/bet.py:create_bet",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/bet.py",
+      "target": "function:engine/bet.py:create_bet",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/bet.py",
+      "target": "function:engine/bet.py:supersede",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/bet.py",
+      "target": "function:engine/bet.py:supersede",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/bet.py",
+      "target": "function:engine/bet.py:_live_consensus",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/bet.py",
+      "target": "function:engine/bet.py:_live_consensus",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/bet.py",
+      "target": "function:engine/bet.py:_live_forward_card",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/bet.py",
+      "target": "function:engine/bet.py:_live_forward_card",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/bet.py",
+      "target": "function:engine/bet.py:_open_consensus_decision",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/bet.py",
+      "target": "function:engine/bet.py:_open_consensus_decision",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/bet.py",
+      "target": "function:engine/bet.py:translate",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/bet.py",
+      "target": "function:engine/bet.py:translate",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/bet.py",
+      "target": "class:engine/bet.py:PairPayoff",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/bet.py",
+      "target": "class:engine/bet.py:PairPayoff",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/backtest.py",
+      "target": "file:engine/detector.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/bet.py",
+      "target": "file:engine/__init__.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/bet.py",
+      "target": "file:engine/graph.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/bet.py",
+      "target": "file:engine/schemas.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "function:engine/backtest.py:_resolve",
+      "target": "function:engine/detector.py:theil_sen",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/backtest.py:_resolve",
+      "target": "function:engine/detector.py:_mad_sigma",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/backtest.py:backtest",
+      "target": "function:engine/backtest.py:_cohort_totals",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/backtest.py:backtest",
+      "target": "function:engine/backtest.py:_points_by_year",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/backtest.py:backtest",
+      "target": "function:engine/detector.py:detect",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/backtest.py:backtest",
+      "target": "function:engine/backtest.py:_resolve_gain_share",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/backtest.py:backtest",
+      "target": "function:engine/backtest.py:_resolve",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/backtest.py:backtest",
+      "target": "class:engine/backtest.py:SeriesVerdict",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/backtest.py:run_backtest",
+      "target": "function:engine/backtest.py:backtest",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/backtest.py:sweep_backtest",
+      "target": "function:engine/backtest.py:backtest",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/backtest.py:sweep_backtest",
+      "target": "function:engine/backtest.py:_loco_brier",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/backtest.py:sweep_backtest",
+      "target": "function:engine/backtest.py:_fisher_exact_greater",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/backtest.py:run_sweep",
+      "target": "function:engine/backtest.py:sweep_backtest",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/bet.py:mc_pair_payoff",
+      "target": "function:engine/bet.py:_percentile",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/bet.py:mc_pair_payoff",
+      "target": "class:engine/bet.py:PairPayoff",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/bet.py:create_bet",
+      "target": "class:engine/schemas.py:BetCard",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/bet.py:create_bet",
+      "target": "function:engine/bet.py:_insert",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/bet.py:supersede",
+      "target": "function:engine/bet.py:create_bet",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/bet.py:translate",
+      "target": "function:engine/bet.py:_live_consensus",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/bet.py:translate",
+      "target": "function:engine/bet.py:_live_forward_card",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/bet.py:translate",
+      "target": "function:engine/bet.py:_open_consensus_decision",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/bet.py:translate",
+      "target": "function:engine/bet.py:mc_pair_payoff",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/bet.py:translate",
+      "target": "function:engine/bet.py:_capped",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/bet.py:translate",
+      "target": "class:engine/schemas.py:BetLeg",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/bet.py:translate",
+      "target": "function:engine/bet.py:supersede",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/bet.py:translate",
+      "target": "function:engine/bet.py:create_bet",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

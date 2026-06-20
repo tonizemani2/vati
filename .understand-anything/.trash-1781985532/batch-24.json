@@ -1,0 +1,75 @@
+{
+  "nodes": [
+    {
+      "id": "document:cockpit/README.md",
+      "type": "document",
+      "name": "README.md",
+      "filePath": "cockpit/README.md",
+      "summary": "Documentation file covering README for the Vati repository and its forecasting workflows.",
+      "tags": [
+        "documentation",
+        "entry-point",
+        "overview",
+        "dashboard"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:cockpit/components.json",
+      "type": "config",
+      "name": "components.json",
+      "filePath": "cockpit/components.json",
+      "summary": "Configuration file for components.json that shapes build, runtime, or tooling behavior in this repository.",
+      "tags": [
+        "dashboard",
+        "configuration",
+        "config",
+        "components"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:cockpit/package.json",
+      "type": "config",
+      "name": "package.json",
+      "filePath": "cockpit/package.json",
+      "summary": "Configuration file for package.json that shapes build, runtime, or tooling behavior in this repository.",
+      "tags": [
+        "configuration",
+        "build-system",
+        "project-manifest",
+        "dashboard"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:cockpit/pnpm-workspace.yaml",
+      "type": "config",
+      "name": "pnpm-workspace.yaml",
+      "filePath": "cockpit/pnpm-workspace.yaml",
+      "summary": "Configuration file for pnpm-workspace.yaml that shapes build, runtime, or tooling behavior in this repository.",
+      "tags": [
+        "dashboard",
+        "configuration",
+        "config",
+        "pnpm-workspace"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:cockpit/tsconfig.json",
+      "type": "config",
+      "name": "tsconfig.json",
+      "filePath": "cockpit/tsconfig.json",
+      "summary": "Configuration file for tsconfig.json that shapes build, runtime, or tooling behavior in this repository.",
+      "tags": [
+        "configuration",
+        "typescript",
+        "build-system",
+        "dashboard"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": []
+}

@@ -1,0 +1,35 @@
+{
+  "projectRoot": "/Users/emizemani/Desktop/predictthefuture",
+  "batchFiles": [
+    {
+      "path": "chat/README.md",
+      "language": "markdown",
+      "sizeLines": 137,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "chat/package.json",
+      "language": "json",
+      "sizeLines": 36,
+      "fileCategory": "config"
+    },
+    {
+      "path": "chat/tsconfig.json",
+      "language": "json",
+      "sizeLines": 27,
+      "fileCategory": "config"
+    },
+    {
+      "path": "chat/wrangler.jsonc",
+      "language": "jsonc",
+      "sizeLines": 29,
+      "fileCategory": "config"
+    }
+  ],
+  "batchImportData": {
+    "chat/README.md": [],
+    "chat/package.json": [],
+    "chat/tsconfig.json": [],
+    "chat/wrangler.jsonc": []
+  }
+}

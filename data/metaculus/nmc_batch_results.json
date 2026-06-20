@@ -1,0 +1,64 @@
+[
+ {
+  "qid": 43930,
+  "ok": true
+ },
+ {
+  "qid": 43931,
+  "ok": true
+ },
+ {
+  "qid": 35726,
+  "ok": true
+ },
+ {
+  "qid": 35759,
+  "ok": true
+ },
+ {
+  "qid": 36712,
+  "ok": true
+ },
+ {
+  "qid": 35734,
+  "ok": true
+ },
+ {
+  "qid": 35775,
+  "ok": true
+ },
+ {
+  "qid": 35758,
+  "ok": true
+ },
+ {
+  "qid": 37442,
+  "ok": true
+ },
+ {
+  "qid": 43132,
+  "ok": false,
+  "err": "POST /questions/forecast/ \u2192 HTTP 400: {\"non_field_errors\":[{\"non_field_errors\":[\"CDF Invalid:\\ncontinuous_cdf must be increasing by at least 0.0009090"
+ },
+ {
+  "qid": 38115,
+  "ok": false,
+  "err": "POST /questions/forecast/ \u2192 HTTP 400: {\"non_field_errors\":[{\"non_field_errors\":[\"CDF Invalid:\\ncontinuous_cdf must be increasing by at least 0.001 at "
+ },
+ {
+  "qid": 37836,
+  "ok": true
+ },
+ {
+  "qid": 43928,
+  "ok": true
+ },
+ {
+  "qid": 43927,
+  "ok": true
+ },
+ {
+  "qid": 42099,
+  "ok": true
+ }
+]

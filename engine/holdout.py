@@ -25,10 +25,8 @@ log est_cost and block above the threshold until approved.
 
 from __future__ import annotations
 
-import json
 import re
 import sqlite3
-from pathlib import Path
 
 from engine.adapters import llm
 
@@ -88,13 +86,25 @@ _YEAR_RE = re.compile(r"\b(20\d{2})\b")
 
 def _ask_probability(conn: sqlite3.Connection, q: str, *, provider: str, model: str | None,
                      est_cost_cents: int, proxy: str | None) -> float | None:
-    """Ask the model for a calibrated P(yes) on a binary question, blind to the outcome. Returns the
-    parsed probability in [0,1], or None if it couldn't be parsed."""
-    system = ("You are a careful forecaster. Give your honest probability that the statement will be "
-              "TRUE, based only on what you know. Reason in one or two sentences, then end with a line "
-              "exactly like 'PROBABILITY: 0.NN' (a number between 0 and 1).")
+    """Run THE FRAMEWORK (the 6-step superforecaster method, VATI §20b) to get a calibrated P(yes),
+    blind to the outcome. This is the real instrument — structural decomposition + outside-view base
+    rate + inside-view binding-constraint adjustment + deliberate consensus divergence — NOT a one-line
+    'give me a probability' prompt. Returns the parsed probability in [0,1], or None if unparseable."""
+    system = (
+        "You are an elite calibrated forecaster. Work the SUPERFORECASTER METHOD explicitly and "
+        "concisely, in this order:\n"
+        "1. DECOMPOSE the question into its key causal drivers.\n"
+        "2. OUTSIDE VIEW — state the base rate for this reference class FIRST, before any specifics.\n"
+        "3. INSIDE VIEW — adjust for the binding physical constraint: the slowest-moving stock that "
+        "gates the outcome (lead times, capacity build-out, supply elasticity, depletion). Value and "
+        "scarcity migrate to whatever saturates first and can't be substituted.\n"
+        "4. CONSENSUS — state what the consensus expects, then where the STRUCTURAL evidence justifies "
+        "diverging from it (the only part that carries information).\n"
+        "5. Combine into ONE calibrated probability. Avoid 0 and 1; do not anchor on 0.5; be decisive "
+        "where the structure is clear.\n"
+        "End with a line EXACTLY like 'PROBABILITY: 0.NN' (a number between 0 and 1).")
     out = llm.complete(conn, q, provider=provider, model=model, system=system,
-                       est_cost_cents=est_cost_cents, max_tokens=256, proxy=proxy)
+                       est_cost_cents=est_cost_cents, max_tokens=700, proxy=proxy)
     m = _PROB_RE.search(out or "")
     if not m:
         return None
@@ -153,9 +163,9 @@ def run(conn: sqlite3.Connection, *, provider: str = "deepinfra_keyless", model:
         log("   ⚠️  INDICATIVE ONLY — a rigorous run needs ONE PINNED old-cutoff model. The keyless route "
             "ROTATES its roster (the probe model may differ from the scoring model) and/or has a fuzzy/"
             "recent cutoff. Treat any score below as a harness smoke-test, not a validated result.")
-    log(f"   STEP 1 — leakage probe (the validity gate):")
-    eff, _probe_rows = effective_cutoff(conn, provider=provider, model=model,
-                                        est_cost_cents=est_cost_cents, proxy=proxy, log=log)
+    log(f"   STEP 1 — leakage probe (the validity gate, non-leading recall):")
+    eff = recall_cutoff(conn, provider=provider, model=model,
+                        est_cost_cents=est_cost_cents, proxy=proxy, log=log)
 
     # PER-QUESTION GATE: a question is scorable only if the model's effective cutoff is strictly BEFORE
     # the year its outcome was determined. eff=None (model blind to all probes) → everything leak-free.
@@ -206,21 +216,11 @@ def run(conn: sqlite3.Connection, *, provider: str = "deepinfra_keyless", model:
             "hits": hits, "hit_rate": hits / n, "rigorous": rigorous, "n_leaked": len(leaked)}
 
 
-# ── EXTERNAL BENCHMARK: the defensible upgrade ────────────────────────────────────────────────────
-# The hand-authored HOLDOUT_QUESTIONS above invite two fair critiques: N=7, and "you wrote the
-# questions knowing the answers." This path removes both — it scores the model on EXTERNALLY-authored,
-# already-resolved binary questions pulled from ForecastBench (Polymarket/Manifold/Metaculus/Infer
-# markets), and uses a NON-LEADING recall probe so the leakage gate is honest (the original probe
-# STATED the event, which a weak model would just agree with → an inflated cutoff). Same leakage gate,
-# same Brier-vs-base-rate scoring. Questions resolve years after the 2021 cutoff (ForecastBench began
-# 2024) → leak-free by construction, but also a HARD long-horizon test of a deliberately-dumb model;
-# read the number as a leak-free floor, not a ceiling.
-
-QUESTIONS_PATH = Path(__file__).resolve().parent.parent / "experiments" / "holdout_questions.jsonl"
-
+# ── the cutoff probe (the validity gate) ──────────────────────────────────────────────────────────
 # Non-leading recall probes: open questions whose correct answer requires post-cutoff knowledge AND is
 # NOT guessable (so a model cannot luck into "knowing"). The latest year it correctly recalls = its
-# effective cutoff (a lower bound). Fixes the leading-question weakness of LEAKAGE_PROBES.
+# effective cutoff (a lower bound). Non-leading beats the old STATED-event probe (which a weak model
+# would just agree with → an inflated cutoff), so `run` uses this as the gate.
 RECALL_PROBES: list[dict] = [
     {"q": "What is the name of the AI chatbot OpenAI launched to the public in late 2022?",
      "year": 2022, "keys": ["chatgpt"]},
@@ -264,50 +264,95 @@ def recall_cutoff(conn: sqlite3.Connection, *, provider: str, model: str | None,
     return max(known) if known else None
 
 
-def run_external(conn: sqlite3.Connection, *, provider: str = "openrouter", model: str | None = None,
-                 est_cost_cents: int = 0, proxy: str | None = None,
-                 path: Path = QUESTIONS_PATH, log=print) -> dict:
-    """Score the model on EXTERNALLY-authored, already-resolved ForecastBench questions, leakage-gated
-    by the non-leading recall probe. The defensible answer to 'N=7 / self-authored'."""
-    if not path.is_file():
-        log(f"   no question set at {path} — fetch it first (see scripts/build the holdout set).")
+# ── STRUCTURAL BENCH: mechanically-built, externally-grounded Class-1 questions ──────────────────────
+# Kills the "self-authored / N-too-small" critique. Each question is a MECHANICAL function of a public,
+# dated series the engine already collected (FRED PPIs, China/world trade values, demographics, energy,
+# compute) under a FIXED rule + threshold — not a hand-written narrative. Outcome is the realized value
+# in the DB; leak-free because the horizon value is determined AFTER the model's MEASURED cutoff.
+# Rule: "as of end-CUTOFF, will <series> be ≥ (1+threshold)× its end-CUTOFF level by end-HORIZON?"
+# Pre-registered in experiments/protocol_structbench.yaml (commit = the seal).
+STRUCT_PROVIDERS = ("fred", "comtrade_china", "un_comtrade", "owid", "world_bank", "epoch_ai")
+
+
+def build_structural_questions(conn: sqlite3.Connection, *, cutoff_year: str = "2023",
+                               horizons: tuple[str, ...] = ("2024", "2025"), threshold: float = 0.05,
+                               providers: tuple[str, ...] = STRUCT_PROVIDERS) -> list[dict]:
+    """Mechanically derive binary questions from the engine's public dated series. One question per
+    (series, horizon) where both an end-cutoff and an end-horizon observation exist. No hand-picking."""
+    cur = conn.cursor()
+    placeholders = ",".join("?" * len(providers))
+    rows = cur.execute(
+        f"SELECT id, label, unit, provider FROM series WHERE provider IN ({placeholders})",
+        providers).fetchall()
+    qs: list[dict] = []
+    for sid, label, unit, provider in rows:
+        by_year: dict[str, float] = {}
+        for as_of, val in cur.execute(
+                "SELECT as_of, value FROM observations WHERE series_id=? ORDER BY as_of", (sid,)):
+            by_year[as_of[:4]] = val  # last obs in each year (Dec) wins
+        v0 = by_year.get(cutoff_year)
+        if v0 is None or v0 <= 0:
+            continue
+        for h in horizons:
+            vh = by_year.get(h)
+            if vh is None:
+                continue
+            outcome = bool(vh >= v0 * (1.0 + threshold))
+            qs.append({
+                "id": f"{provider}:{label[:28]}:{h}",
+                "determined": int(h),
+                "outcome": outcome,
+                "q": (f"As of end-{cutoff_year}, will the metric \"{label}\" ({unit}) be at least "
+                      f"{threshold:.0%} ABOVE its end-{cutoff_year} level by end-{h}? "
+                      f"(At end-{cutoff_year} it was {v0:.4g} {unit}.)"),
+                "rationale": (f"{label}: {v0:.4g} (end-{cutoff_year}) → {vh:.4g} (end-{h}); "
+                              f"{'rose' if outcome else 'did NOT rise'} ≥ {threshold:.0%}."),
+            })
+    return sorted(qs, key=lambda q: q["id"])
+
+
+def run_structural(conn: sqlite3.Connection, *, provider: str = "openrouter", model: str | None = None,
+                   est_cost_cents: int = 0, proxy: str | None = None, cutoff_year: str = "2023",
+                   threshold: float = 0.05, log=print) -> dict:
+    """Run THE FRAMEWORK on mechanically-built, externally-grounded structural questions, leak-gated.
+    The defensible retro number: immune to 'self-authored / N=7'. cost-gated (rule 3)."""
+    questions = build_structural_questions(conn, cutoff_year=cutoff_year, threshold=threshold)
+    log(f"\n📈  STRUCTURAL BENCH (the framework on public structural series) — provider={provider} "
+        f"model={model or 'roster'}")
+    log(f"   {len(questions)} mechanically-built questions · rule: ≥ +{threshold:.0%} vs end-{cutoff_year}"
+        f" · outcomes resolved from realized DB values")
+    if not questions:
+        log("   no eligible series (need an end-cutoff AND a horizon observation).")
         return {"valid": False, "n": 0}
-    qs = [json.loads(line) for line in path.read_text().splitlines() if line.strip()]
-    log(f"\n🌐  EXTERNAL HOLDOUT (ForecastBench) — provider={provider} model={model or 'roster'}")
-    log(f"   {len(qs)} externally-authored resolved binary questions "
-        f"({min(q['resolution_date'] for q in qs)}…{max(q['resolution_date'] for q in qs)})")
     log(f"   STEP 1 — non-leading recall probe (the validity gate):")
     eff = recall_cutoff(conn, provider=provider, model=model, est_cost_cents=est_cost_cents,
                         proxy=proxy, log=log)
     log(f"\n   effective cutoff = {eff if eff is not None else 'pre-2022 (blind to all probes)'}")
-
-    def determined(q: dict) -> int:
-        return int(str(q["resolution_date"])[:4])
-
-    leakfree = [q for q in qs if eff is None or eff < determined(q)]
-    leaked = [q for q in qs if not (eff is None or eff < determined(q))]
+    leakfree = [q for q in questions if eff is None or eff < q["determined"]]
+    leaked = [q for q in questions if not (eff is None or eff < q["determined"])]
     if leaked:
-        log(f"   ⛔ {len(leaked)} excluded (outcome determined ≤ cutoff).")
+        log(f"   ⛔ {len(leaked)} excluded — outcome determined ≤ cutoff (leakage).")
     if not leakfree:
         log("   ⛔ INVALID — no leak-free questions for this model.")
         return {"valid": False, "effective_cutoff": eff, "n": 0}
-
-    log(f"\n   STEP 2 — blind forecasts on {len(leakfree)} leak-free questions:")
-    scored, sq, n_skipped = [], 0.0, 0
+    log(f"\n   STEP 2 — framework forecasts on {len(leakfree)} leak-free questions:")
+    scored, sq, n_skip = [], 0.0, 0
     for q in leakfree:
         try:
-            p = _ask_probability(conn, q["question"], provider=provider, model=model,
+            p = _ask_probability(conn, q["q"], provider=provider, model=model,
                                  est_cost_cents=est_cost_cents, proxy=proxy)
-        except Exception as e:
-            n_skipped += 1  # provider content-filter / transient error — skip, don't crash the run
+        except Exception:
+            n_skip += 1
             continue
         if p is None:
-            n_skipped += 1
+            n_skip += 1
             continue
         o = 1.0 if q["outcome"] else 0.0
         brier = (p - o) ** 2
         sq += brier
-        scored.append({"p": p, "outcome": q["outcome"], "brier": brier})
+        scored.append({"id": q["id"], "p": p, "outcome": q["outcome"], "brier": brier})
+        hit = "✅" if (p >= 0.5) == q["outcome"] else "· "
+        log(f"   {hit} {q['id'][:36]:<36} P={p:.2f} outcome={'YES' if q['outcome'] else 'NO ':<3} brier={brier:.3f}")
     n = len(scored)
     if not n:
         log("   ⚠️  no parseable probabilities returned.")
@@ -316,15 +361,13 @@ def run_external(conn: sqlite3.Connection, *, provider: str = "openrouter", mode
     hits = sum(1 for s in scored if (s["p"] >= 0.5) == bool(s["outcome"]))
     base = sum(1 for s in scored if s["outcome"]) / n
     brier_base = sum((base - (1.0 if s["outcome"] else 0.0)) ** 2 for s in scored) / n
-    # the trivial constant-0.5 baseline too, so the skewed-base-rate caveat is explicit
     brier_half = sum((0.5 - (1.0 if s["outcome"] else 0.0)) ** 2 for s in scored) / n
     beat = brier < brier_base
-    log(f"\n   N={n} scored ({n_skipped} skipped — provider content-filter/errors) · "
-        f"Brier {brier:.3f}  vs  always-base-rate({base:.2f}) {brier_base:.3f}  vs  always-0.5 {brier_half:.3f}")
+    log(f"\n   N={n} ({n_skip} skipped) · Brier {brier:.3f}  vs  base-rate({base:.2f}) {brier_base:.3f}"
+        f"  vs  always-0.5 {brier_half:.3f}")
     log(f"   → {'BEATS the base-rate baseline ✅' if beat else 'does NOT beat base rate ❌'} · "
         f"hit-rate {hits}/{n} = {hits/n*100:.0f}%")
-    log("   Externally-authored + leak-gated → immune to the 'self-authored / N=7' critiques. Long "
-        "horizon (resolves years past a 2021 cutoff) makes this a hard FLOOR, not the method's ceiling.")
-    return {"valid": True, "effective_cutoff": eff, "n": n, "n_skipped": n_skipped, "brier": brier,
-            "brier_base": brier_base, "brier_half": brier_half, "hits": hits, "hit_rate": hits / n,
-            "base_rate": base}
+    log("   Mechanically built from public dated series + leak-gated → immune to 'self-authored / N=7'. "
+        "An OLD brain here is a leak-free FLOOR; Claude (validated forward) should beat it.")
+    return {"valid": True, "effective_cutoff": eff, "n": n, "brier": brier, "brier_base": brier_base,
+            "brier_half": brier_half, "hits": hits, "hit_rate": hits / n, "base_rate": base}

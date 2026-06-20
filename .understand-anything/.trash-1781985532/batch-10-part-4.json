@@ -1,0 +1,1055 @@
+{
+  "nodes": [
+    {
+      "id": "file:engine/forecastbench/submit.py",
+      "type": "file",
+      "name": "submit.py",
+      "filePath": "engine/forecastbench/submit.py",
+      "summary": "submit.py is a code asset in the forecasting engine. It contains 16 functions, 2 internal imports.",
+      "tags": [
+        "forecasting-engine",
+        "forecasting",
+        "code"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:engine/forecastbench/submit.py:_valid_cached_question_set",
+      "type": "function",
+      "name": "_valid_cached_question_set",
+      "filePath": "engine/forecastbench/submit.py",
+      "lineRange": [
+        42,
+        52
+      ],
+      "summary": "Defines _valid_cached_question_set in submit.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "submit"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/submit.py:_request",
+      "type": "function",
+      "name": "_request",
+      "filePath": "engine/forecastbench/submit.py",
+      "lineRange": [
+        55,
+        60
+      ],
+      "summary": "Defines _request in submit.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-access",
+        "submit"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/submit.py:_download",
+      "type": "function",
+      "name": "_download",
+      "filePath": "engine/forecastbench/submit.py",
+      "lineRange": [
+        63,
+        65
+      ],
+      "summary": "Defines _download in submit.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "submit"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/submit.py:_valid_question_set_bytes",
+      "type": "function",
+      "name": "_valid_question_set_bytes",
+      "filePath": "engine/forecastbench/submit.py",
+      "lineRange": [
+        68,
+        80
+      ],
+      "summary": "Defines _valid_question_set_bytes in submit.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "submit"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/submit.py:_fetch_via_latest",
+      "type": "function",
+      "name": "_fetch_via_latest",
+      "filePath": "engine/forecastbench/submit.py",
+      "lineRange": [
+        83,
+        100
+      ],
+      "summary": "Defines _fetch_via_latest in submit.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-access",
+        "submit"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/submit.py:_fetch_via_contents_api",
+      "type": "function",
+      "name": "_fetch_via_contents_api",
+      "filePath": "engine/forecastbench/submit.py",
+      "lineRange": [
+        103,
+        118
+      ],
+      "summary": "Defines _fetch_via_contents_api in submit.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-access",
+        "submit"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/submit.py:_download_question_set_bytes",
+      "type": "function",
+      "name": "_download_question_set_bytes",
+      "filePath": "engine/forecastbench/submit.py",
+      "lineRange": [
+        121,
+        135
+      ],
+      "summary": "Defines _download_question_set_bytes in submit.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "submit"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/submit.py:fetch_question_set",
+      "type": "function",
+      "name": "fetch_question_set",
+      "filePath": "engine/forecastbench/submit.py",
+      "lineRange": [
+        138,
+        155
+      ],
+      "summary": "Defines fetch_question_set in submit.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-access",
+        "submit"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/submit.py:cached_question_set_is_current",
+      "type": "function",
+      "name": "cached_question_set_is_current",
+      "filePath": "engine/forecastbench/submit.py",
+      "lineRange": [
+        158,
+        179
+      ],
+      "summary": "Defines cached_question_set_is_current in submit.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "submit"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/submit.py:build_single_forecasts",
+      "type": "function",
+      "name": "build_single_forecasts",
+      "filePath": "engine/forecastbench/submit.py",
+      "lineRange": [
+        186,
+        231
+      ],
+      "summary": "Defines build_single_forecasts in submit.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "submit"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/submit.py:_sub_p",
+      "type": "function",
+      "name": "_sub_p",
+      "filePath": "engine/forecastbench/submit.py",
+      "lineRange": [
+        234,
+        243
+      ],
+      "summary": "Defines _sub_p in submit.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "submit"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/submit.py:build_forecasts",
+      "type": "function",
+      "name": "build_forecasts",
+      "filePath": "engine/forecastbench/submit.py",
+      "lineRange": [
+        246,
+        290
+      ],
+      "summary": "Defines build_forecasts in submit.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "submit"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/submit.py:_coverage",
+      "type": "function",
+      "name": "_coverage",
+      "filePath": "engine/forecastbench/submit.py",
+      "lineRange": [
+        293,
+        304
+      ],
+      "summary": "Defines _coverage in submit.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "submit"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/submit.py:_key_id",
+      "type": "function",
+      "name": "_key_id",
+      "filePath": "engine/forecastbench/submit.py",
+      "lineRange": [
+        307,
+        308
+      ],
+      "summary": "Defines _key_id in submit.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "submit"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/submit.py:make_submission",
+      "type": "function",
+      "name": "make_submission",
+      "filePath": "engine/forecastbench/submit.py",
+      "lineRange": [
+        311,
+        338
+      ],
+      "summary": "Defines make_submission in submit.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "submit"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/submit.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "engine/forecastbench/submit.py",
+      "lineRange": [
+        341,
+        384
+      ],
+      "summary": "Defines main in submit.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entry-point",
+        "submit"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:engine/forecastbench/timesfm_eval.py",
+      "type": "file",
+      "name": "timesfm_eval.py",
+      "filePath": "engine/forecastbench/timesfm_eval.py",
+      "summary": "timesfm_eval.py is a code asset in the forecasting engine. It contains 3 functions, 1 internal import.",
+      "tags": [
+        "forecasting-engine",
+        "forecasting",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/forecastbench/timesfm_eval.py:_freeze",
+      "type": "function",
+      "name": "_freeze",
+      "filePath": "engine/forecastbench/timesfm_eval.py",
+      "lineRange": [
+        37,
+        41
+      ],
+      "summary": "Defines _freeze in timesfm_eval.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "timesfm-eval"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/timesfm_eval.py:_history",
+      "type": "function",
+      "name": "_history",
+      "filePath": "engine/forecastbench/timesfm_eval.py",
+      "lineRange": [
+        44,
+        56
+      ],
+      "summary": "Defines _history in timesfm_eval.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "timesfm-eval"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/timesfm_eval.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "engine/forecastbench/timesfm_eval.py",
+      "lineRange": [
+        59,
+        181
+      ],
+      "summary": "Defines main in timesfm_eval.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entry-point",
+        "timesfm-eval"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:engine/forecastbench/validate.py",
+      "type": "file",
+      "name": "validate.py",
+      "filePath": "engine/forecastbench/validate.py",
+      "summary": "validate.py is a code asset in the forecasting engine. It contains 1 function, 1 internal import.",
+      "tags": [
+        "forecasting-engine",
+        "forecasting",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/validate.py:run",
+      "type": "function",
+      "name": "run",
+      "filePath": "engine/forecastbench/validate.py",
+      "lineRange": [
+        17,
+        38
+      ],
+      "summary": "Defines run in validate.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entry-point",
+        "validate"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:tests/test_forecastbench_dataset.py",
+      "type": "file",
+      "name": "test_forecastbench_dataset.py",
+      "filePath": "tests/test_forecastbench_dataset.py",
+      "summary": "test_forecastbench_dataset.py is a code asset in the repository. It contains 1 class, 10 internal imports.",
+      "tags": [
+        "test",
+        "verification",
+        "forecasting",
+        "code"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "class:tests/test_forecastbench_dataset.py:ForecastBenchDatasetTests",
+      "type": "class",
+      "name": "ForecastBenchDatasetTests",
+      "filePath": "tests/test_forecastbench_dataset.py",
+      "lineRange": [
+        26,
+        979
+      ],
+      "summary": "Defines ForecastBenchDatasetTests in test_forecastbench_dataset.py, encapsulating reusable behavior or state for this module.",
+      "tags": [
+        "class",
+        "implementation",
+        "test-forecastbench-dataset"
+      ],
+      "complexity": "complex"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:engine/forecastbench/submit.py",
+      "target": "function:engine/forecastbench/submit.py:_valid_cached_question_set",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/submit.py",
+      "target": "function:engine/forecastbench/submit.py:_valid_cached_question_set",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/submit.py",
+      "target": "function:engine/forecastbench/submit.py:_request",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/submit.py",
+      "target": "function:engine/forecastbench/submit.py:_request",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/submit.py",
+      "target": "function:engine/forecastbench/submit.py:_download",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/submit.py",
+      "target": "function:engine/forecastbench/submit.py:_download",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/submit.py",
+      "target": "function:engine/forecastbench/submit.py:_valid_question_set_bytes",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/submit.py",
+      "target": "function:engine/forecastbench/submit.py:_valid_question_set_bytes",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/submit.py",
+      "target": "function:engine/forecastbench/submit.py:_fetch_via_latest",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/submit.py",
+      "target": "function:engine/forecastbench/submit.py:_fetch_via_latest",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/submit.py",
+      "target": "function:engine/forecastbench/submit.py:_fetch_via_contents_api",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/submit.py",
+      "target": "function:engine/forecastbench/submit.py:_fetch_via_contents_api",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/submit.py",
+      "target": "function:engine/forecastbench/submit.py:_download_question_set_bytes",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/submit.py",
+      "target": "function:engine/forecastbench/submit.py:_download_question_set_bytes",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/submit.py",
+      "target": "function:engine/forecastbench/submit.py:fetch_question_set",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/submit.py",
+      "target": "function:engine/forecastbench/submit.py:fetch_question_set",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/submit.py",
+      "target": "function:engine/forecastbench/submit.py:cached_question_set_is_current",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/submit.py",
+      "target": "function:engine/forecastbench/submit.py:cached_question_set_is_current",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/submit.py",
+      "target": "function:engine/forecastbench/submit.py:build_single_forecasts",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/submit.py",
+      "target": "function:engine/forecastbench/submit.py:build_single_forecasts",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/submit.py",
+      "target": "function:engine/forecastbench/submit.py:_sub_p",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/submit.py",
+      "target": "function:engine/forecastbench/submit.py:_sub_p",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/submit.py",
+      "target": "function:engine/forecastbench/submit.py:build_forecasts",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/submit.py",
+      "target": "function:engine/forecastbench/submit.py:build_forecasts",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/submit.py",
+      "target": "function:engine/forecastbench/submit.py:_coverage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/submit.py",
+      "target": "function:engine/forecastbench/submit.py:_coverage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/submit.py",
+      "target": "function:engine/forecastbench/submit.py:_key_id",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/submit.py",
+      "target": "function:engine/forecastbench/submit.py:_key_id",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/submit.py",
+      "target": "function:engine/forecastbench/submit.py:make_submission",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/submit.py",
+      "target": "function:engine/forecastbench/submit.py:make_submission",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/submit.py",
+      "target": "function:engine/forecastbench/submit.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/submit.py",
+      "target": "function:engine/forecastbench/submit.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/timesfm_eval.py",
+      "target": "function:engine/forecastbench/timesfm_eval.py:_freeze",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/timesfm_eval.py",
+      "target": "function:engine/forecastbench/timesfm_eval.py:_freeze",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/timesfm_eval.py",
+      "target": "function:engine/forecastbench/timesfm_eval.py:_history",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/timesfm_eval.py",
+      "target": "function:engine/forecastbench/timesfm_eval.py:_history",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/timesfm_eval.py",
+      "target": "function:engine/forecastbench/timesfm_eval.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/timesfm_eval.py",
+      "target": "function:engine/forecastbench/timesfm_eval.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/validate.py",
+      "target": "function:engine/forecastbench/validate.py:run",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/validate.py",
+      "target": "function:engine/forecastbench/validate.py:run",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:tests/test_forecastbench_dataset.py",
+      "target": "class:tests/test_forecastbench_dataset.py:ForecastBenchDatasetTests",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:tests/test_forecastbench_dataset.py",
+      "target": "class:tests/test_forecastbench_dataset.py:ForecastBenchDatasetTests",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/submit.py",
+      "target": "file:engine/forecastbench/market.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/forecastbench/submit.py",
+      "target": "file:engine/forecastbench/score.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/forecastbench/timesfm_eval.py",
+      "target": "file:engine/forecastbench/score.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/forecastbench/validate.py",
+      "target": "file:engine/forecastbench/score.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/test_forecastbench_dataset.py",
+      "target": "file:engine/__init__.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/test_forecastbench_dataset.py",
+      "target": "file:engine/db.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/test_forecastbench_dataset.py",
+      "target": "file:engine/forecastbench/__init__.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/test_forecastbench_dataset.py",
+      "target": "file:engine/forecastbench/check_submission.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/test_forecastbench_dataset.py",
+      "target": "file:engine/forecastbench/diversify.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/test_forecastbench_dataset.py",
+      "target": "file:engine/forecastbench/llm_fill.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/test_forecastbench_dataset.py",
+      "target": "file:engine/forecastbench/market.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/test_forecastbench_dataset.py",
+      "target": "file:engine/forecastbench/opus_blend.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/test_forecastbench_dataset.py",
+      "target": "file:engine/forecastbench/opus_forecaster.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/test_forecastbench_dataset.py",
+      "target": "file:engine/forecastbench/submit.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "function:engine/forecastbench/submit.py:_download",
+      "target": "function:engine/forecastbench/submit.py:_request",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/submit.py:_fetch_via_latest",
+      "target": "function:engine/forecastbench/submit.py:_download",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/submit.py:_fetch_via_latest",
+      "target": "function:engine/forecastbench/submit.py:_valid_question_set_bytes",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/submit.py:_fetch_via_contents_api",
+      "target": "function:engine/forecastbench/submit.py:_download",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/submit.py:_fetch_via_contents_api",
+      "target": "function:engine/forecastbench/submit.py:_valid_question_set_bytes",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/submit.py:_download_question_set_bytes",
+      "target": "function:engine/forecastbench/submit.py:_download",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/submit.py:_download_question_set_bytes",
+      "target": "function:engine/forecastbench/submit.py:_fetch_via_latest",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/submit.py:_download_question_set_bytes",
+      "target": "function:engine/forecastbench/submit.py:_fetch_via_contents_api",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/submit.py:_download_question_set_bytes",
+      "target": "function:engine/forecastbench/submit.py:_valid_question_set_bytes",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/submit.py:fetch_question_set",
+      "target": "function:engine/forecastbench/submit.py:_valid_cached_question_set",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/submit.py:fetch_question_set",
+      "target": "function:engine/forecastbench/submit.py:_download_question_set_bytes",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/submit.py:cached_question_set_is_current",
+      "target": "function:engine/forecastbench/submit.py:_valid_cached_question_set",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/submit.py:cached_question_set_is_current",
+      "target": "function:engine/forecastbench/submit.py:_download_question_set_bytes",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/submit.py:build_single_forecasts",
+      "target": "function:engine/forecastbench/market.py:crowd_anchor",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/submit.py:build_single_forecasts",
+      "target": "function:engine/forecastbench/score.py:single_questions",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/submit.py:build_forecasts",
+      "target": "function:engine/forecastbench/submit.py:build_single_forecasts",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/submit.py:build_forecasts",
+      "target": "function:engine/forecastbench/score.py:single_questions",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/submit.py:build_forecasts",
+      "target": "function:engine/forecastbench/submit.py:_sub_p",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/submit.py:_coverage",
+      "target": "function:engine/forecastbench/submit.py:_key_id",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/submit.py:_coverage",
+      "target": "function:engine/forecastbench/score.py:single_questions",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/submit.py:make_submission",
+      "target": "function:engine/forecastbench/submit.py:build_forecasts",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/submit.py:make_submission",
+      "target": "function:engine/forecastbench/submit.py:_coverage",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/submit.py:main",
+      "target": "function:engine/forecastbench/submit.py:cached_question_set_is_current",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/submit.py:main",
+      "target": "function:engine/forecastbench/submit.py:fetch_question_set",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/submit.py:main",
+      "target": "function:engine/forecastbench/submit.py:make_submission",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/timesfm_eval.py:main",
+      "target": "function:engine/forecastbench/score.py:load_round",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/timesfm_eval.py:main",
+      "target": "function:engine/forecastbench/score.py:resolved_rows",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/timesfm_eval.py:main",
+      "target": "function:engine/forecastbench/score.py:single_questions",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/timesfm_eval.py:main",
+      "target": "function:engine/forecastbench/timesfm_eval.py:_history",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/timesfm_eval.py:main",
+      "target": "function:engine/forecastbench/timesfm_eval.py:_freeze",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/validate.py:run",
+      "target": "function:engine/forecastbench/score.py:load_round",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/validate.py:run",
+      "target": "function:engine/forecastbench/score.py:resolved_rows",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/validate.py:run",
+      "target": "function:engine/forecastbench/score.py:crowd_forecast",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/validate.py:run",
+      "target": "function:engine/forecastbench/score.py:brier",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

@@ -1,0 +1,1420 @@
+{
+  "nodes": [
+    {
+      "id": "file:engine/forecastbench/kalshibench.py",
+      "type": "file",
+      "name": "kalshibench.py",
+      "filePath": "engine/forecastbench/kalshibench.py",
+      "summary": "kalshibench.py is a code asset in the forecasting engine. It contains 21 functions.",
+      "tags": [
+        "forecasting-engine",
+        "forecasting",
+        "code"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:engine/forecastbench/kalshibench.py:brier",
+      "type": "function",
+      "name": "brier",
+      "filePath": "engine/forecastbench/kalshibench.py",
+      "lineRange": [
+        54,
+        55
+      ],
+      "summary": "Defines brier in kalshibench.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "kalshibench"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/kalshibench.py:bss",
+      "type": "function",
+      "name": "bss",
+      "filePath": "engine/forecastbench/kalshibench.py",
+      "lineRange": [
+        58,
+        59
+      ],
+      "summary": "Defines bss in kalshibench.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "kalshibench"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/kalshibench.py:accuracy",
+      "type": "function",
+      "name": "accuracy",
+      "filePath": "engine/forecastbench/kalshibench.py",
+      "lineRange": [
+        62,
+        63
+      ],
+      "summary": "Defines accuracy in kalshibench.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "kalshibench"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/kalshibench.py:ece",
+      "type": "function",
+      "name": "ece",
+      "filePath": "engine/forecastbench/kalshibench.py",
+      "lineRange": [
+        66,
+        77
+      ],
+      "summary": "Defines ece in kalshibench.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "kalshibench"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/kalshibench.py:load_rows",
+      "type": "function",
+      "name": "load_rows",
+      "filePath": "engine/forecastbench/kalshibench.py",
+      "lineRange": [
+        81,
+        103
+      ],
+      "summary": "Defines load_rows in kalshibench.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "kalshibench"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/kalshibench.py:fold_of",
+      "type": "function",
+      "name": "fold_of",
+      "filePath": "engine/forecastbench/kalshibench.py",
+      "lineRange": [
+        106,
+        108
+      ],
+      "summary": "Defines fold_of in kalshibench.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "kalshibench"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/kalshibench.py:climatology",
+      "type": "function",
+      "name": "climatology",
+      "filePath": "engine/forecastbench/kalshibench.py",
+      "lineRange": [
+        112,
+        136
+      ],
+      "summary": "Defines climatology in kalshibench.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entry-point",
+        "kalshibench"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/kalshibench.py:clean_slice",
+      "type": "function",
+      "name": "clean_slice",
+      "filePath": "engine/forecastbench/kalshibench.py",
+      "lineRange": [
+        140,
+        142
+      ],
+      "summary": "Defines clean_slice in kalshibench.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "kalshibench"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/kalshibench.py:_clip",
+      "type": "function",
+      "name": "_clip",
+      "filePath": "engine/forecastbench/kalshibench.py",
+      "lineRange": [
+        146,
+        147
+      ],
+      "summary": "Defines _clip in kalshibench.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entry-point",
+        "kalshibench"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/kalshibench.py:_logit",
+      "type": "function",
+      "name": "_logit",
+      "filePath": "engine/forecastbench/kalshibench.py",
+      "lineRange": [
+        150,
+        152
+      ],
+      "summary": "Defines _logit in kalshibench.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "kalshibench"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/kalshibench.py:_sigmoid",
+      "type": "function",
+      "name": "_sigmoid",
+      "filePath": "engine/forecastbench/kalshibench.py",
+      "lineRange": [
+        155,
+        156
+      ],
+      "summary": "Defines _sigmoid in kalshibench.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "kalshibench"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/kalshibench.py:blend_logit",
+      "type": "function",
+      "name": "blend_logit",
+      "filePath": "engine/forecastbench/kalshibench.py",
+      "lineRange": [
+        159,
+        161
+      ],
+      "summary": "Defines blend_logit in kalshibench.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "kalshibench"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/kalshibench.py:fit_blend_weight",
+      "type": "function",
+      "name": "fit_blend_weight",
+      "filePath": "engine/forecastbench/kalshibench.py",
+      "lineRange": [
+        164,
+        182
+      ],
+      "summary": "Defines fit_blend_weight in kalshibench.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "kalshibench"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/kalshibench.py:_pav",
+      "type": "function",
+      "name": "_pav",
+      "filePath": "engine/forecastbench/kalshibench.py",
+      "lineRange": [
+        186,
+        201
+      ],
+      "summary": "Defines _pav in kalshibench.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "kalshibench"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/kalshibench.py:_apply_iso",
+      "type": "function",
+      "name": "_apply_iso",
+      "filePath": "engine/forecastbench/kalshibench.py",
+      "lineRange": [
+        204,
+        208
+      ],
+      "summary": "Defines _apply_iso in kalshibench.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "kalshibench"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/kalshibench.py:calibrate_oos",
+      "type": "function",
+      "name": "calibrate_oos",
+      "filePath": "engine/forecastbench/kalshibench.py",
+      "lineRange": [
+        211,
+        220
+      ],
+      "summary": "Defines calibrate_oos in kalshibench.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "kalshibench"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/kalshibench.py:report",
+      "type": "function",
+      "name": "report",
+      "filePath": "engine/forecastbench/kalshibench.py",
+      "lineRange": [
+        223,
+        227
+      ],
+      "summary": "Defines report in kalshibench.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "kalshibench"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/kalshibench.py:_forecast_prompt",
+      "type": "function",
+      "name": "_forecast_prompt",
+      "filePath": "engine/forecastbench/kalshibench.py",
+      "lineRange": [
+        239,
+        246
+      ],
+      "summary": "Defines _forecast_prompt in kalshibench.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "kalshibench"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/kalshibench.py:_parse_prob",
+      "type": "function",
+      "name": "_parse_prob",
+      "filePath": "engine/forecastbench/kalshibench.py",
+      "lineRange": [
+        249,
+        259
+      ],
+      "summary": "Defines _parse_prob in kalshibench.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "kalshibench"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/kalshibench.py:infer",
+      "type": "function",
+      "name": "infer",
+      "filePath": "engine/forecastbench/kalshibench.py",
+      "lineRange": [
+        262,
+        294
+      ],
+      "summary": "Defines infer in kalshibench.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "kalshibench"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/kalshibench.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "engine/forecastbench/kalshibench.py",
+      "lineRange": [
+        297,
+        368
+      ],
+      "summary": "Defines main in kalshibench.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entry-point",
+        "kalshibench"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:engine/forecastbench/residual.py",
+      "type": "file",
+      "name": "residual.py",
+      "filePath": "engine/forecastbench/residual.py",
+      "summary": "residual.py is a code asset in the forecasting engine. It contains 7 functions.",
+      "tags": [
+        "forecasting-engine",
+        "forecasting",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/forecastbench/residual.py:_load_resolutions",
+      "type": "function",
+      "name": "_load_resolutions",
+      "filePath": "engine/forecastbench/residual.py",
+      "lineRange": [
+        45,
+        62
+      ],
+      "summary": "Defines _load_resolutions in residual.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "residual"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/residual.py:_load_questions",
+      "type": "function",
+      "name": "_load_questions",
+      "filePath": "engine/forecastbench/residual.py",
+      "lineRange": [
+        65,
+        71
+      ],
+      "summary": "Defines _load_questions in residual.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "residual"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/residual.py:_crowd_anchor",
+      "type": "function",
+      "name": "_crowd_anchor",
+      "filePath": "engine/forecastbench/residual.py",
+      "lineRange": [
+        81,
+        92
+      ],
+      "summary": "Defines _crowd_anchor in residual.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "residual"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/residual.py:build",
+      "type": "function",
+      "name": "build",
+      "filePath": "engine/forecastbench/residual.py",
+      "lineRange": [
+        95,
+        166
+      ],
+      "summary": "Defines build in residual.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "residual"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/forecastbench/residual.py:_brier",
+      "type": "function",
+      "name": "_brier",
+      "filePath": "engine/forecastbench/residual.py",
+      "lineRange": [
+        169,
+        170
+      ],
+      "summary": "Defines _brier in residual.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "residual"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/residual.py:_auc",
+      "type": "function",
+      "name": "_auc",
+      "filePath": "engine/forecastbench/residual.py",
+      "lineRange": [
+        173,
+        185
+      ],
+      "summary": "Defines _auc in residual.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "residual"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/residual.py:_gate",
+      "type": "function",
+      "name": "_gate",
+      "filePath": "engine/forecastbench/residual.py",
+      "lineRange": [
+        188,
+        219
+      ],
+      "summary": "Defines _gate in residual.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "residual"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:engine/forecastbench/SUBMIT.md",
+      "type": "document",
+      "name": "SUBMIT.md",
+      "filePath": "engine/forecastbench/SUBMIT.md",
+      "summary": "Documentation file covering SUBMIT for the Vati repository and its forecasting workflows.",
+      "tags": [
+        "forecasting-engine",
+        "forecasting",
+        "documentation"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:engine/forecastbench/timesfm_model.py",
+      "type": "file",
+      "name": "timesfm_model.py",
+      "filePath": "engine/forecastbench/timesfm_model.py",
+      "summary": "timesfm_model.py is a code asset in the forecasting engine. It contains 7 functions.",
+      "tags": [
+        "forecasting-engine",
+        "forecasting",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/forecastbench/timesfm_model.py:available",
+      "type": "function",
+      "name": "available",
+      "filePath": "engine/forecastbench/timesfm_model.py",
+      "lineRange": [
+        43,
+        45
+      ],
+      "summary": "Defines available in timesfm_model.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "timesfm-model"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/timesfm_model.py:_load_model",
+      "type": "function",
+      "name": "_load_model",
+      "filePath": "engine/forecastbench/timesfm_model.py",
+      "lineRange": [
+        48,
+        82
+      ],
+      "summary": "Defines _load_model in timesfm_model.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "timesfm-model"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/timesfm_model.py:_cdf_at",
+      "type": "function",
+      "name": "_cdf_at",
+      "filePath": "engine/forecastbench/timesfm_model.py",
+      "lineRange": [
+        87,
+        104
+      ],
+      "summary": "Defines _cdf_at in timesfm_model.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "timesfm-model"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/timesfm_model.py:p_above",
+      "type": "function",
+      "name": "p_above",
+      "filePath": "engine/forecastbench/timesfm_model.py",
+      "lineRange": [
+        107,
+        117
+      ],
+      "summary": "Defines p_above in timesfm_model.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "timesfm-model"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/timesfm_model.py:_period_days",
+      "type": "function",
+      "name": "_period_days",
+      "filePath": "engine/forecastbench/timesfm_model.py",
+      "lineRange": [
+        122,
+        126
+      ],
+      "summary": "Defines _period_days in timesfm_model.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "timesfm-model"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/timesfm_model.py:_steps",
+      "type": "function",
+      "name": "_steps",
+      "filePath": "engine/forecastbench/timesfm_model.py",
+      "lineRange": [
+        129,
+        130
+      ],
+      "summary": "Defines _steps in timesfm_model.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "timesfm-model"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/timesfm_model.py:p_higher_timesfm",
+      "type": "function",
+      "name": "p_higher_timesfm",
+      "filePath": "engine/forecastbench/timesfm_model.py",
+      "lineRange": [
+        135,
+        183
+      ],
+      "summary": "Defines p_higher_timesfm in timesfm_model.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "timesfm-model"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:engine/forecasting/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "engine/forecasting/__init__.py",
+      "summary": "__init__.py is a code asset in the forecasting engine.",
+      "tags": [
+        "forecasting-engine",
+        "forecasting",
+        "code"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:engine/forecastbench/kalshibench.py",
+      "target": "function:engine/forecastbench/kalshibench.py:brier",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/kalshibench.py",
+      "target": "function:engine/forecastbench/kalshibench.py:brier",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/kalshibench.py",
+      "target": "function:engine/forecastbench/kalshibench.py:bss",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/kalshibench.py",
+      "target": "function:engine/forecastbench/kalshibench.py:bss",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/kalshibench.py",
+      "target": "function:engine/forecastbench/kalshibench.py:accuracy",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/kalshibench.py",
+      "target": "function:engine/forecastbench/kalshibench.py:accuracy",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/kalshibench.py",
+      "target": "function:engine/forecastbench/kalshibench.py:ece",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/kalshibench.py",
+      "target": "function:engine/forecastbench/kalshibench.py:ece",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/kalshibench.py",
+      "target": "function:engine/forecastbench/kalshibench.py:load_rows",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/kalshibench.py",
+      "target": "function:engine/forecastbench/kalshibench.py:load_rows",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/kalshibench.py",
+      "target": "function:engine/forecastbench/kalshibench.py:fold_of",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/kalshibench.py",
+      "target": "function:engine/forecastbench/kalshibench.py:fold_of",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/kalshibench.py",
+      "target": "function:engine/forecastbench/kalshibench.py:climatology",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/kalshibench.py",
+      "target": "function:engine/forecastbench/kalshibench.py:climatology",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/kalshibench.py",
+      "target": "function:engine/forecastbench/kalshibench.py:clean_slice",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/kalshibench.py",
+      "target": "function:engine/forecastbench/kalshibench.py:clean_slice",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/kalshibench.py",
+      "target": "function:engine/forecastbench/kalshibench.py:_clip",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/kalshibench.py",
+      "target": "function:engine/forecastbench/kalshibench.py:_clip",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/kalshibench.py",
+      "target": "function:engine/forecastbench/kalshibench.py:_logit",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/kalshibench.py",
+      "target": "function:engine/forecastbench/kalshibench.py:_logit",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/kalshibench.py",
+      "target": "function:engine/forecastbench/kalshibench.py:_sigmoid",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/kalshibench.py",
+      "target": "function:engine/forecastbench/kalshibench.py:_sigmoid",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/kalshibench.py",
+      "target": "function:engine/forecastbench/kalshibench.py:blend_logit",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/kalshibench.py",
+      "target": "function:engine/forecastbench/kalshibench.py:blend_logit",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/kalshibench.py",
+      "target": "function:engine/forecastbench/kalshibench.py:fit_blend_weight",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/kalshibench.py",
+      "target": "function:engine/forecastbench/kalshibench.py:fit_blend_weight",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/kalshibench.py",
+      "target": "function:engine/forecastbench/kalshibench.py:_pav",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/kalshibench.py",
+      "target": "function:engine/forecastbench/kalshibench.py:_pav",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/kalshibench.py",
+      "target": "function:engine/forecastbench/kalshibench.py:_apply_iso",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/kalshibench.py",
+      "target": "function:engine/forecastbench/kalshibench.py:_apply_iso",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/kalshibench.py",
+      "target": "function:engine/forecastbench/kalshibench.py:calibrate_oos",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/kalshibench.py",
+      "target": "function:engine/forecastbench/kalshibench.py:calibrate_oos",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/kalshibench.py",
+      "target": "function:engine/forecastbench/kalshibench.py:report",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/kalshibench.py",
+      "target": "function:engine/forecastbench/kalshibench.py:report",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/kalshibench.py",
+      "target": "function:engine/forecastbench/kalshibench.py:_forecast_prompt",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/kalshibench.py",
+      "target": "function:engine/forecastbench/kalshibench.py:_forecast_prompt",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/kalshibench.py",
+      "target": "function:engine/forecastbench/kalshibench.py:_parse_prob",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/kalshibench.py",
+      "target": "function:engine/forecastbench/kalshibench.py:_parse_prob",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/kalshibench.py",
+      "target": "function:engine/forecastbench/kalshibench.py:infer",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/kalshibench.py",
+      "target": "function:engine/forecastbench/kalshibench.py:infer",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/kalshibench.py",
+      "target": "function:engine/forecastbench/kalshibench.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/kalshibench.py",
+      "target": "function:engine/forecastbench/kalshibench.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/residual.py",
+      "target": "function:engine/forecastbench/residual.py:_load_resolutions",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/residual.py",
+      "target": "function:engine/forecastbench/residual.py:_load_resolutions",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/residual.py",
+      "target": "function:engine/forecastbench/residual.py:_load_questions",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/residual.py",
+      "target": "function:engine/forecastbench/residual.py:_load_questions",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/residual.py",
+      "target": "function:engine/forecastbench/residual.py:_crowd_anchor",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/residual.py",
+      "target": "function:engine/forecastbench/residual.py:_crowd_anchor",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/residual.py",
+      "target": "function:engine/forecastbench/residual.py:build",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/residual.py",
+      "target": "function:engine/forecastbench/residual.py:build",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/residual.py",
+      "target": "function:engine/forecastbench/residual.py:_brier",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/residual.py",
+      "target": "function:engine/forecastbench/residual.py:_brier",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/residual.py",
+      "target": "function:engine/forecastbench/residual.py:_auc",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/residual.py",
+      "target": "function:engine/forecastbench/residual.py:_auc",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/residual.py",
+      "target": "function:engine/forecastbench/residual.py:_gate",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/residual.py",
+      "target": "function:engine/forecastbench/residual.py:_gate",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/timesfm_model.py",
+      "target": "function:engine/forecastbench/timesfm_model.py:available",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/timesfm_model.py",
+      "target": "function:engine/forecastbench/timesfm_model.py:available",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/timesfm_model.py",
+      "target": "function:engine/forecastbench/timesfm_model.py:_load_model",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/timesfm_model.py",
+      "target": "function:engine/forecastbench/timesfm_model.py:_load_model",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/timesfm_model.py",
+      "target": "function:engine/forecastbench/timesfm_model.py:_cdf_at",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/timesfm_model.py",
+      "target": "function:engine/forecastbench/timesfm_model.py:_cdf_at",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/timesfm_model.py",
+      "target": "function:engine/forecastbench/timesfm_model.py:p_above",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/timesfm_model.py",
+      "target": "function:engine/forecastbench/timesfm_model.py:p_above",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/timesfm_model.py",
+      "target": "function:engine/forecastbench/timesfm_model.py:_period_days",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/timesfm_model.py",
+      "target": "function:engine/forecastbench/timesfm_model.py:_period_days",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/timesfm_model.py",
+      "target": "function:engine/forecastbench/timesfm_model.py:_steps",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/timesfm_model.py",
+      "target": "function:engine/forecastbench/timesfm_model.py:_steps",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/timesfm_model.py",
+      "target": "function:engine/forecastbench/timesfm_model.py:p_higher_timesfm",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/timesfm_model.py",
+      "target": "function:engine/forecastbench/timesfm_model.py:p_higher_timesfm",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/kalshibench.py:bss",
+      "target": "function:engine/forecastbench/kalshibench.py:brier",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/kalshibench.py:climatology",
+      "target": "function:engine/forecastbench/kalshibench.py:fold_of",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/kalshibench.py:_logit",
+      "target": "function:engine/forecastbench/kalshibench.py:_clip",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/kalshibench.py:blend_logit",
+      "target": "function:engine/forecastbench/kalshibench.py:_sigmoid",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/kalshibench.py:blend_logit",
+      "target": "function:engine/forecastbench/kalshibench.py:_logit",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/kalshibench.py:fit_blend_weight",
+      "target": "function:engine/forecastbench/kalshibench.py:fold_of",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/kalshibench.py:fit_blend_weight",
+      "target": "function:engine/forecastbench/kalshibench.py:blend_logit",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/kalshibench.py:fit_blend_weight",
+      "target": "function:engine/forecastbench/kalshibench.py:brier",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/kalshibench.py:calibrate_oos",
+      "target": "function:engine/forecastbench/kalshibench.py:fold_of",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/kalshibench.py:calibrate_oos",
+      "target": "function:engine/forecastbench/kalshibench.py:_pav",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/kalshibench.py:calibrate_oos",
+      "target": "function:engine/forecastbench/kalshibench.py:_apply_iso",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/kalshibench.py:report",
+      "target": "function:engine/forecastbench/kalshibench.py:accuracy",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/kalshibench.py:report",
+      "target": "function:engine/forecastbench/kalshibench.py:brier",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/kalshibench.py:report",
+      "target": "function:engine/forecastbench/kalshibench.py:ece",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/kalshibench.py:report",
+      "target": "function:engine/forecastbench/kalshibench.py:bss",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/kalshibench.py:_parse_prob",
+      "target": "function:engine/forecastbench/kalshibench.py:_clip",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/kalshibench.py:infer",
+      "target": "function:engine/forecastbench/kalshibench.py:_forecast_prompt",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/kalshibench.py:infer",
+      "target": "function:engine/forecastbench/kalshibench.py:_parse_prob",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/kalshibench.py:main",
+      "target": "function:engine/forecastbench/kalshibench.py:load_rows",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/kalshibench.py:main",
+      "target": "function:engine/forecastbench/kalshibench.py:clean_slice",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/kalshibench.py:main",
+      "target": "function:engine/forecastbench/kalshibench.py:climatology",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/kalshibench.py:main",
+      "target": "function:engine/forecastbench/kalshibench.py:report",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/kalshibench.py:main",
+      "target": "function:engine/forecastbench/kalshibench.py:fit_blend_weight",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/kalshibench.py:main",
+      "target": "function:engine/forecastbench/kalshibench.py:infer",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/kalshibench.py:main",
+      "target": "function:engine/forecastbench/kalshibench.py:calibrate_oos",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/residual.py:build",
+      "target": "function:engine/forecastbench/residual.py:_load_resolutions",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/residual.py:build",
+      "target": "function:engine/forecastbench/residual.py:_load_questions",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/residual.py:build",
+      "target": "function:engine/forecastbench/residual.py:_crowd_anchor",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/residual.py:build",
+      "target": "function:engine/forecastbench/residual.py:_gate",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/residual.py:_gate",
+      "target": "function:engine/forecastbench/residual.py:_brier",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/residual.py:_gate",
+      "target": "function:engine/forecastbench/residual.py:_auc",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/timesfm_model.py:available",
+      "target": "function:engine/forecastbench/timesfm_model.py:_load_model",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/timesfm_model.py:p_above",
+      "target": "function:engine/forecastbench/timesfm_model.py:_cdf_at",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/timesfm_model.py:p_higher_timesfm",
+      "target": "function:engine/forecastbench/timesfm_model.py:_period_days",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/timesfm_model.py:p_higher_timesfm",
+      "target": "function:engine/forecastbench/timesfm_model.py:_steps",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/timesfm_model.py:p_higher_timesfm",
+      "target": "function:engine/forecastbench/timesfm_model.py:_load_model",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/timesfm_model.py:p_higher_timesfm",
+      "target": "function:engine/forecastbench/timesfm_model.py:p_above",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

@@ -1,0 +1,210 @@
+{
+  "projectRoot": "/Users/emizemani/Desktop/predictthefuture",
+  "batchFiles": [
+    {
+      "path": "engine/feeds/noaa_enso.py",
+      "language": "python",
+      "sizeLines": 144,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/noaa_gml_greenhouse_gases.py",
+      "language": "python",
+      "sizeLines": 182,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/noaa_nsidc_sea_ice.py",
+      "language": "python",
+      "sizeLines": 144,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/noaa_swpc_solar.py",
+      "language": "python",
+      "sizeLines": 296,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/nsf_awards.py",
+      "language": "python",
+      "sizeLines": 181,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/ofac_sdn.py",
+      "language": "python",
+      "sizeLines": 356,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/openfda_drugsfda.py",
+      "language": "python",
+      "sizeLines": 291,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/owid.py",
+      "language": "python",
+      "sizeLines": 205,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/patentsview.py",
+      "language": "python",
+      "sizeLines": 186,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/pubmed.py",
+      "language": "python",
+      "sizeLines": 130,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/semantic_scholar.py",
+      "language": "python",
+      "sizeLines": 184,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/un_comtrade.py",
+      "language": "python",
+      "sizeLines": 139,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/usaspending_sam.py",
+      "language": "python",
+      "sizeLines": 316,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/usgs_earthquakes.py",
+      "language": "python",
+      "sizeLines": 203,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/usgs_minerals.py",
+      "language": "python",
+      "sizeLines": 435,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/wikipedia.py",
+      "language": "python",
+      "sizeLines": 148,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/world_bank.py",
+      "language": "python",
+      "sizeLines": 340,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/worldbank_capital.py",
+      "language": "python",
+      "sizeLines": 144,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/pillars/__init__.py",
+      "language": "python",
+      "sizeLines": 5,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_disk_guard.py",
+      "language": "python",
+      "sizeLines": 33,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_feed_safety.py",
+      "language": "python",
+      "sizeLines": 1338,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "engine/feeds/noaa_enso.py": [],
+    "engine/feeds/noaa_gml_greenhouse_gases.py": [],
+    "engine/feeds/noaa_nsidc_sea_ice.py": [],
+    "engine/feeds/noaa_swpc_solar.py": [],
+    "engine/feeds/nsf_awards.py": [],
+    "engine/feeds/ofac_sdn.py": [],
+    "engine/feeds/openfda_drugsfda.py": [],
+    "engine/feeds/owid.py": [
+      "engine/pillars/capability.py"
+    ],
+    "engine/feeds/patentsview.py": [],
+    "engine/feeds/pubmed.py": [],
+    "engine/feeds/semantic_scholar.py": [
+      "engine/__init__.py",
+      "engine/disk_guard.py"
+    ],
+    "engine/feeds/un_comtrade.py": [
+      "engine/pillars/__init__.py",
+      "engine/pillars/dependency.py"
+    ],
+    "engine/feeds/usaspending_sam.py": [],
+    "engine/feeds/usgs_earthquakes.py": [],
+    "engine/feeds/usgs_minerals.py": [],
+    "engine/feeds/wikipedia.py": [],
+    "engine/feeds/world_bank.py": [],
+    "engine/feeds/worldbank_capital.py": [
+      "engine/feeds/world_bank.py"
+    ],
+    "engine/pillars/__init__.py": [],
+    "tests/test_disk_guard.py": [
+      "engine/__init__.py",
+      "engine/disk_guard.py"
+    ],
+    "tests/test_feed_safety.py": [
+      "engine/__init__.py",
+      "engine/db.py",
+      "engine/feeds/__init__.py",
+      "engine/feeds/baci.py",
+      "engine/feeds/clinicaltrials.py",
+      "engine/feeds/collect_all.py",
+      "engine/feeds/comtrade.py",
+      "engine/feeds/cordis.py",
+      "engine/feeds/ecb_fx.py",
+      "engine/feeds/eonet.py",
+      "engine/feeds/epoch_ai.py",
+      "engine/feeds/eu_sanctions.py",
+      "engine/feeds/federal_register.py",
+      "engine/feeds/fred_financial.py",
+      "engine/feeds/fred.py",
+      "engine/feeds/gdacs_alerts.py",
+      "engine/feeds/gdelt.py",
+      "engine/feeds/global_equities.py",
+      "engine/feeds/ilo.py",
+      "engine/feeds/ingest.py",
+      "engine/feeds/lbnl.py",
+      "engine/feeds/metaculus.py",
+      "engine/feeds/nasa_gistemp.py",
+      "engine/feeds/nih_reporter.py",
+      "engine/feeds/noaa_climate_indices.py",
+      "engine/feeds/noaa_enso.py",
+      "engine/feeds/noaa_gml_greenhouse_gases.py",
+      "engine/feeds/noaa_nsidc_sea_ice.py",
+      "engine/feeds/noaa_swpc_solar.py",
+      "engine/feeds/nsf_awards.py",
+      "engine/feeds/ofac_sdn.py",
+      "engine/feeds/openfda_drugsfda.py",
+      "engine/feeds/owid.py",
+      "engine/feeds/patentsview.py",
+      "engine/feeds/pubmed.py",
+      "engine/feeds/semantic_scholar.py",
+      "engine/feeds/un_comtrade.py",
+      "engine/feeds/usaspending_sam.py",
+      "engine/feeds/usgs_earthquakes.py",
+      "engine/feeds/usgs_minerals.py",
+      "engine/feeds/wikipedia.py",
+      "engine/feeds/world_bank.py"
+    ]
+  }
+}

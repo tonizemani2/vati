@@ -1,0 +1,380 @@
+{
+  "id": "verification-labor-thesis-2026-06-17",
+  "title": "The Verification Labor Thesis",
+  "created_at": "2026-06-17",
+  "run_type": "full_pope_mega_multi_agent",
+  "local_only": true,
+  "published": false,
+  "topic": "jobs that shrink, jobs that become high-demand and underpriced, and how to educate people accordingly in the Codex/agentic-AI era",
+  "run_ledger": {
+    "generator_agents_completed": 10,
+    "candidate_theses_generated": 30,
+    "gate_agents_completed": 30,
+    "synthesis_agents_completed": 1,
+    "implication_agents_completed": 8,
+    "analytical_llm_calls_used": 49,
+    "duplicate_or_canceled_agents": [
+      {
+        "candidate": "G25",
+        "reason": "compaction hid the original agent id, so a duplicate was spawned and then shut down after the original result surfaced",
+        "used_in_final": false
+      }
+    ],
+    "publish_pipeline_run": false
+  },
+  "one_sentence_thesis": "Agentic AI kills the cheap junior task ladder faster than it kills work itself, while labor scarcity migrates to people who can verify, evidence, govern, insure, integrate, and certify AI-mediated work.",
+  "promoted_calls": [
+    {
+      "rank": 1,
+      "id": "G10",
+      "name": "The Entry Ladder Breaks",
+      "forecast": "By 2030, the entry ladder in AI-exposed white-collar work is visibly broken: 22-25 employment in at least four named software/support/analyst occupation groups is 20% below pre-ChatGPT trend, while AI evaluation/assurance postings outnumber entry-level software QA postings.",
+      "jobs_that_shrink": [
+        "junior code-only developer",
+        "entry-level manual QA",
+        "tier-one help desk and SaaS support",
+        "routine customer service rep",
+        "junior market research or BI analyst",
+        "junior operations or finance analyst doing templated reports"
+      ],
+      "high_demand_underpriced_roles": [
+        "AI evaluation engineer",
+        "AI assurance analyst",
+        "agent reliability operator",
+        "AI red-team and abuse-case tester",
+        "evaluation data curator",
+        "AI procurement and vendor risk analyst",
+        "domain AI QA specialist"
+      ],
+      "education_product": "AI Evaluation and Assurance Studio",
+      "portfolio_artifacts": [
+        "eval harness repo",
+        "AI system card",
+        "risk register and control map",
+        "red-team report",
+        "AI incident postmortem",
+        "monitoring dashboard",
+        "vendor due-diligence scorecard",
+        "executive assurance memo"
+      ],
+      "key_metric": "22-25 employment index plus AI assurance to entry-level software QA posting ratio",
+      "kill_risk": "Junior employment recovers to trend and AI-evaluation postings remain a niche category."
+    },
+    {
+      "rank": 2,
+      "id": "G13",
+      "name": "Evidence-Pack Engineers Beat Junior Builders",
+      "forecast": "By 2029, federal AI buying makes evidence-pack engineers scarcer than junior builders.",
+      "jobs_that_shrink": [
+        "junior AI app builder",
+        "prompt-only consultant",
+        "generic AI PM without governance artifacts",
+        "compliance-only GRC analyst",
+        "RFP boilerplate writer",
+        "model-wrapper engineer without procurement evidence"
+      ],
+      "high_demand_underpriced_roles": [
+        "evidence-pack engineer",
+        "AI acquisition test-and-evaluation engineer",
+        "AI QASP and performance-monitoring architect",
+        "AI ATO/FedRAMP documentation integrator",
+        "model and data provenance engineer",
+        "AI governance implementation lead",
+        "red-team-to-contract translator"
+      ],
+      "education_product": "Federal AI Evidence-Pack Engineering Certificate",
+      "portfolio_artifacts": [
+        "AI impact assessment",
+        "high-impact AI determination memo",
+        "vendor evidence request package",
+        "evaluation harness and test report",
+        "QASP for an AI system",
+        "data lineage and provenance record",
+        "ATO evidence addendum for AI",
+        "human oversight and remedies workflow",
+        "procurement-ready executive memo"
+      ],
+      "key_metric": "share of federal AI solicitations requiring testing, documentation, monitoring, impact assessment, QASP, or vendor evidence",
+      "kill_risk": "Federal procurement accepts lightweight vendor claims without process evidence."
+    },
+    {
+      "rank": 3,
+      "id": "G14",
+      "name": "AI Audit Trails Become Insurance Passports",
+      "forecast": "By 2030, AI audit trails become an underwriting passport for cyber and commercial liability risk transfer.",
+      "jobs_that_shrink": [
+        "prompt-only AI operator",
+        "checklist GRC analyst without runtime evidence",
+        "one-off ethics reviewer detached from logs and claims evidence",
+        "manual incident narrative writer",
+        "model evaluator who stops at benchmark scores"
+      ],
+      "high_demand_underpriced_roles": [
+        "AI insurance evidence-pack analyst",
+        "AI incident reconstruction lead",
+        "agent audit-log architect",
+        "AI governance controls tester",
+        "model and tool provenance engineer",
+        "cyber/E&O underwriting evidence specialist",
+        "AI claims forensics analyst"
+      ],
+      "education_product": "AI Risk Transfer Evidence Practitioner",
+      "portfolio_artifacts": [
+        "AI system inventory and criticality map",
+        "AI event-log schema and data dictionary",
+        "model, dataset, tool, and vendor provenance register",
+        "authority and approval matrix",
+        "controls crosswalk",
+        "broker-ready AI insurance evidence pack",
+        "incident reconstruction dossier",
+        "AI tabletop exercise and after-action report",
+        "vendor audit-rights checklist"
+      ],
+      "key_metric": "number of underwriting questionnaires, policies, or regulator protocols asking for AI inventory, logs, governance, model evidence, or incident reconstruction",
+      "kill_risk": "Insurers price AI risk without differentiated evidence requirements."
+    },
+    {
+      "rank": 4,
+      "id": "G28",
+      "name": "Verifier Curriculum Beats Prompt Engineering",
+      "forecast": "By 2030, AI programs with at least 25% AI-output verification, rubric design, test-case design, review protocol, and learning-scaffold design beat generic prompt-engineering or junior-coding bootcamps by placement or wage.",
+      "jobs_that_shrink": [
+        "generic prompt-engineering certificate graduate",
+        "junior coding bootcamp graduate trained mainly to produce CRUD apps",
+        "AI content operator who only generates drafts",
+        "manual QA tester who only follows scripts",
+        "bootcamp TA or grader who only explains syntax"
+      ],
+      "high_demand_underpriced_roles": [
+        "AI output verifier",
+        "rubric designer for AI systems",
+        "AI test-case designer",
+        "review protocol lead",
+        "verifier-curriculum engineer"
+      ],
+      "education_product": "Verifier-Curriculum Engineer Certificate",
+      "portfolio_artifacts": [
+        "AI output verification report",
+        "rubric packet",
+        "100-case evaluation dataset",
+        "review protocol",
+        "learning scaffold",
+        "measurement dashboard",
+        "employer-facing capstone"
+      ],
+      "key_metric": "180-day relevant placement rate and first-year wage compared with prompt-engineering or junior-coding bootcamp comparators",
+      "kill_risk": "Automated eval tooling commoditizes human verification before a durable role forms."
+    },
+    {
+      "rank": 5,
+      "id": "G26",
+      "name": "Workflow Owners Replace Routine Coordinators",
+      "forecast": "By 2030, routine coordinator title demand falls at least 25% in postings share while AI workflow/integration owners become the overlooked middle-skill premium.",
+      "jobs_that_shrink": [
+        "administrative coordinator",
+        "project coordinator focused on status updates",
+        "scheduling/intake/routing coordinator",
+        "HR/recruiting/customer-success coordinator",
+        "data-entry/order-processing/document-control coordinator"
+      ],
+      "high_demand_underpriced_roles": [
+        "AI workflow operations specialist",
+        "agent or automation supervisor",
+        "CRM/ERP/HRIS workflow integrator",
+        "AI governance operations associate",
+        "knowledge operations/RAG coordinator"
+      ],
+      "education_product": "AI Workflow Operations Certificate",
+      "portfolio_artifacts": [
+        "AI use-case intake form",
+        "as-is/to-be workflow map",
+        "automation backlog",
+        "working sandbox automation",
+        "prompt and output-quality evaluation pack",
+        "knowledge-base cleanup plan",
+        "agent-control design",
+        "SOP and user guide",
+        "ROI dashboard",
+        "capstone demo and implementation memo"
+      ],
+      "key_metric": "routine coordinator postings share index, AI workflow operations postings index, and wage premium vs matched coordinator postings",
+      "kill_risk": "AI workflow postings remain concentrated in software-engineering titles rather than middle-skill operations roles."
+    },
+    {
+      "rank": 6,
+      "id": "G27",
+      "name": "Teachers Become Validators of Judgment",
+      "forecast": "By 2032, credential-bearing education shifts scarce human labor from generic instruction to accountable validation.",
+      "jobs_that_shrink": [
+        "generic lecture-first instructor",
+        "low-stakes grader",
+        "content-packaging curriculum writer",
+        "seat-time program administrator",
+        "recall-exam test-prep instructor"
+      ],
+      "high_demand_underpriced_roles": [
+        "independent competency examiner",
+        "oral-defense examiner or viva chair",
+        "observed-performance assessor",
+        "portfolio auditor",
+        "apprenticeship sign-off mentor",
+        "assessor calibration and moderation lead",
+        "performance-assessment designer",
+        "credential evidence operations manager"
+      ],
+      "education_product": "Accountable Validation and Performance Assessment Certificate",
+      "portfolio_artifacts": [
+        "competency-to-evidence map",
+        "validated rubric",
+        "recorded oral defense",
+        "observed-performance scoring packet",
+        "portfolio audit report",
+        "apprenticeship readiness sign-off template",
+        "assessor calibration packet",
+        "adverse-impact and accessibility review",
+        "appeals response memo",
+        "employer-facing credential evidence brief"
+      ],
+      "key_metric": "growth in required validation events, examiner/assessor postings, and employer-rated credibility of process portfolios",
+      "kill_risk": "Credential bodies validate AI-era learning mostly through automated oral exams, proctoring, or detectors without human validation roles."
+    },
+    {
+      "rank": 7,
+      "id": "G15",
+      "name": "Education Moves From Output Trust to Process Evidence",
+      "forecast": "By 2032, AI-exposed assessment shifts from final-output trust to required process evidence across higher ed, K-12 entities, and education-sector integrity/governance jobs.",
+      "jobs_that_shrink": [
+        "final-output-only essay grader",
+        "AI-detector-only academic integrity reviewer",
+        "generic take-home assignment designer",
+        "standalone online proctoring coordinator",
+        "similarity-report plagiarism clerk"
+      ],
+      "high_demand_underpriced_roles": [
+        "assessment evidence architect",
+        "AI-use disclosure and process forensics lead",
+        "oral-defense and viva assessment designer",
+        "supervised-performance lab manager",
+        "process-portfolio systems administrator",
+        "AI assessment governance manager",
+        "faculty and teacher AI-assessment coach"
+      ],
+      "education_product": "Process Evidence and AI Assessment Integrity Certificate",
+      "portfolio_artifacts": [
+        "AI-exposure and stakes matrix",
+        "legacy assessment redesign",
+        "process evidence schema",
+        "mini-viva protocol",
+        "supervised-performance runbook",
+        "AI-use disclosure taxonomy",
+        "academic integrity evidence packet",
+        "portfolio dashboard",
+        "data retention and privacy policy",
+        "faculty workload model"
+      ],
+      "key_metric": "number of institutions requiring process evidence, oral defense, supervised performance, or AI-use disclosure in AI-exposed assessment",
+      "kill_risk": "Institutions accept final-output ambiguity or rely on detectors/proctoring without process evidence."
+    },
+    {
+      "rank": 8,
+      "id": "G23",
+      "name": "K-12 Demand Moves to Compliance Navigation",
+      "forecast": "By 2030, K-12 labor demand shifts from generic homework/content help to IEP, assistive-tech, evaluation, Medicaid, and compliance navigators.",
+      "jobs_that_shrink": [
+        "generic homework tutor",
+        "worksheet/content packet creator",
+        "undifferentiated edtech customer-success rep",
+        "test-prep answer explainer",
+        "low-skill after-school academic helper"
+      ],
+      "high_demand_underpriced_roles": [
+        "IEP navigator or case-management aide",
+        "assistive-technology implementation coach",
+        "evaluation and child-find coordinator",
+        "school-based Medicaid documentation and claiming navigator",
+        "special-education data and compliance analyst",
+        "transition-services navigator"
+      ],
+      "education_product": "Special Education Systems Navigator Certificate",
+      "portfolio_artifacts": [
+        "IEP lifecycle map",
+        "mock annual review packet",
+        "assistive-technology consideration matrix",
+        "AT classroom implementation plan",
+        "evaluation referral tracker",
+        "Medicaid service documentation packet",
+        "service-minute reconciliation report",
+        "compliance dashboard",
+        "plain-language parent meeting script",
+        "transition portfolio"
+      ],
+      "key_metric": "special-ed navigator postings, evaluation backlogs, service-minute compliance, AT implementation, Medicaid denials, and family satisfaction",
+      "kill_risk": "Funding or reimbursement constraints suppress navigator hiring despite caseload demand."
+    }
+  ],
+  "gate_ledger": [
+    {"id": "G01", "verdict": "DEMOTE", "reason": "data-center power labor real but already visible and overlapping"},
+    {"id": "G02", "verdict": "DEMOTE", "reason": "eldercare structural need real but openings already public and wage pass-through uncertain"},
+    {"id": "G03", "verdict": "DEMOTE", "reason": "robot uptime trades real but exact national wage/posting clause too demanding"},
+    {"id": "G04", "verdict": "DEMOTE", "reason": "junior CS ladder compression real but folded into stronger G10/G28"},
+    {"id": "G05", "verdict": "DEMOTE", "reason": "data-entry decline supported but broad clerk basket and pay clause brittle"},
+    {"id": "G06", "verdict": "DEMOTE", "reason": "AI governance grows but not as cheap technician layer"},
+    {"id": "G07", "verdict": "DEMOTE", "reason": "power commissioning duplicated visible power-labor calls"},
+    {"id": "G08", "verdict": "DEMOTE", "reason": "liquid cooling real but already priced and narrated"},
+    {"id": "G09", "verdict": "DEMOTE", "reason": "AI/OT cyber visible and credential-supply elastic"},
+    {"id": "G10", "verdict": "PROMOTE", "reason": "cleanest ladder-loss and AI-assurance transition"},
+    {"id": "G11", "verdict": "DEMOTE", "reason": "clinical placements real but claim spliced aides with preceptor bottleneck"},
+    {"id": "G12", "verdict": "DEMOTE", "reason": "field execution real but trades shortage too consensus and metric fragile"},
+    {"id": "G13", "verdict": "PROMOTE", "reason": "federal procurement evidence-pack labor is measurable and education-actionable"},
+    {"id": "G14", "verdict": "PROMOTE", "reason": "AI audit trails as insurability evidence passed after tightening"},
+    {"id": "G15", "verdict": "PROMOTE", "reason": "process evidence in education passed as measurable assessment shift"},
+    {"id": "G16", "verdict": "DEMOTE", "reason": "workflow owner advice useful but already visible and keyword fragile"},
+    {"id": "G17", "verdict": "DEMOTE", "reason": "evidence work real but overlaps governance/auditability calls"},
+    {"id": "G18", "verdict": "DEMOTE", "reason": "hands/trades infrastructure too public and overlapping"},
+    {"id": "G19", "verdict": "DEMOTE", "reason": "HCBS care captain useful but weak metric and consensus"},
+    {"id": "G20", "verdict": "DEMOTE", "reason": "K-12 support vs tutoring direction useful but thresholds weak"},
+    {"id": "G21", "verdict": "DEMOTE", "reason": "bilingual navigation real but over-conjunctive and wage clause doubtful"},
+    {"id": "G22", "verdict": "DEMOTE", "reason": "public procurement hybrid roles folded into G13"},
+    {"id": "G23", "verdict": "PROMOTE", "reason": "special-ed compliance navigation passed after narrowing"},
+    {"id": "G24", "verdict": "DEMOTE", "reason": "facilities controls/BAS useful but predictive maintenance already visible"},
+    {"id": "G25", "verdict": "DEMOTE", "reason": "junior developer squeeze real but already priced and folded into G10/G28"},
+    {"id": "G26", "verdict": "PROMOTE", "reason": "routine coordinator decline plus workflow-ops bridge passed after tightening"},
+    {"id": "G27", "verdict": "PROMOTE", "reason": "credential validation passed as underpriced education labor migration"},
+    {"id": "G28", "verdict": "PROMOTE", "reason": "verifier-curriculum pathway measurable against prompt/coding bootcamps"},
+    {"id": "G29", "verdict": "DEMOTE", "reason": "compliance-as-QA useful but overlaps G13/G14 and specialist channels"},
+    {"id": "G30", "verdict": "DEMOTE", "reason": "lab automation education wedge useful but autonomous-lab story already visible"}
+  ],
+  "education_strategy": {
+    "pillar_1": "AI verification and evaluation",
+    "pillar_2": "Evidence-pack production",
+    "pillar_3": "AI risk, insurance, and audit trails",
+    "pillar_4": "Agentic workflow operations",
+    "pillar_5": "Assessment integrity and human validation",
+    "pillar_6": "Special-education and compliance navigation"
+  },
+  "watchlist_demoted_edges": [
+    "trades and field execution: action layer only, not headline",
+    "care, eldercare, and navigation: funding and measurement watchlist",
+    "lab automation: education wedge, already visible",
+    "AI governance control testing: fold into G13 and G14",
+    "software junior collapse: support evidence for G10 and G28",
+    "public procurement hybrid risk roles: fold into G13",
+    "facilities controls/BAS: derivative domain for G26"
+  ],
+  "core_sources": [
+    "https://digitaleconomy.stanford.edu/publication/canaries-in-the-coal-mine-six-facts-about-the-recent-employment-effects-of-artificial-intelligence/",
+    "https://www.pwc.com/gx/en/services/ai/ai-jobs-barometer.html",
+    "https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm",
+    "https://www.whitehouse.gov/wp-content/uploads/2025/02/M-25-22-Driving-Efficient-Acquisition-of-Artificial-Intelligence-in-Government.pdf",
+    "https://www.whitehouse.gov/wp-content/uploads/2025/02/M-25-21-Accelerating-Federal-Use-of-AI-through-Innovation-Governance-and-Public-Trust.pdf",
+    "https://www.nist.gov/itl/ai-risk-management-framework",
+    "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf",
+    "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ:L_202401689",
+    "https://www.iso.org/standard/42001",
+    "https://content.naic.org/sites/default/files/cmte-h-big-data-artificial-intelligence-wg-ai-model-bulletin.pdf.pdf",
+    "https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assessment-reform-age-artificial-intelligence",
+    "https://www.ed.gov/sites/ed/files/documents/ai-report/ai-report.pdf",
+    "https://nces.ed.gov/programs/coe/indicator/cgg/students-with-disabilities",
+    "https://www.medicaid.gov/sites/default/files/2023-07/sbs-guide-medicaid-services-administrative-claiming-ud.pdf"
+  ]
+}

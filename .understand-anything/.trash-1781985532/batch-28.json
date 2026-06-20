@@ -1,0 +1,150 @@
+{
+  "nodes": [
+    {
+      "id": "file:research/targets/contact_cockpit.html",
+      "type": "file",
+      "name": "contact_cockpit.html",
+      "filePath": "research/targets/contact_cockpit.html",
+      "summary": "contact_cockpit.html is a markup asset in the repository.",
+      "tags": [
+        "dashboard",
+        "ui",
+        "file",
+        "markup",
+        "contact-cockpit"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:research/targets/contactable_messages.csv",
+      "type": "file",
+      "name": "contactable_messages.csv",
+      "filePath": "research/targets/contactable_messages.csv",
+      "summary": "contactable_messages.csv is a data asset in the repository.",
+      "tags": [
+        "file",
+        "data",
+        "contactable-messages"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:research/targets/email_campaign_ready_strict.csv",
+      "type": "file",
+      "name": "email_campaign_ready_strict.csv",
+      "filePath": "research/targets/email_campaign_ready_strict.csv",
+      "summary": "email_campaign_ready_strict.csv is a data asset in the repository.",
+      "tags": [
+        "file",
+        "data",
+        "email-campaign-ready-strict"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:research/targets/email_enrichment_queue.csv",
+      "type": "file",
+      "name": "email_enrichment_queue.csv",
+      "filePath": "research/targets/email_enrichment_queue.csv",
+      "summary": "email_enrichment_queue.csv is a data asset in the repository.",
+      "tags": [
+        "file",
+        "data",
+        "email-enrichment-queue"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:research/targets/email_ready_messages.csv",
+      "type": "file",
+      "name": "email_ready_messages.csv",
+      "filePath": "research/targets/email_ready_messages.csv",
+      "summary": "email_ready_messages.csv is a data asset in the repository.",
+      "tags": [
+        "file",
+        "data",
+        "email-ready-messages"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:research/targets/email_ready_messages_enriched.csv",
+      "type": "file",
+      "name": "email_ready_messages_enriched.csv",
+      "filePath": "research/targets/email_ready_messages_enriched.csv",
+      "summary": "email_ready_messages_enriched.csv is a data asset in the repository.",
+      "tags": [
+        "file",
+        "data",
+        "email-ready-messages-enriched"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:research/targets/outreach_universe_scored.csv",
+      "type": "file",
+      "name": "outreach_universe_scored.csv",
+      "filePath": "research/targets/outreach_universe_scored.csv",
+      "summary": "outreach_universe_scored.csv is a data asset in the repository.",
+      "tags": [
+        "file",
+        "data",
+        "outreach-universe-scored"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "config:research/targets/outreach_universe_scored.json",
+      "type": "config",
+      "name": "outreach_universe_scored.json",
+      "filePath": "research/targets/outreach_universe_scored.json",
+      "summary": "Configuration file for outreach_universe_scored.json that shapes build, runtime, or tooling behavior in this repository.",
+      "tags": [
+        "configuration",
+        "config",
+        "outreach-universe-scored"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:research/targets/public_email_enrichment_top300.csv",
+      "type": "file",
+      "name": "public_email_enrichment_top300.csv",
+      "filePath": "research/targets/public_email_enrichment_top300.csv",
+      "summary": "public_email_enrichment_top300.csv is a data asset in the repository.",
+      "tags": [
+        "file",
+        "data",
+        "public-email-enrichment-top300"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "config:research/targets/targets.json",
+      "type": "config",
+      "name": "targets.json",
+      "filePath": "research/targets/targets.json",
+      "summary": "Configuration file for targets.json that shapes build, runtime, or tooling behavior in this repository.",
+      "tags": [
+        "configuration",
+        "config",
+        "targets"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:research/targets/top_fit_300_messages.csv",
+      "type": "file",
+      "name": "top_fit_300_messages.csv",
+      "filePath": "research/targets/top_fit_300_messages.csv",
+      "summary": "top_fit_300_messages.csv is a data asset in the repository.",
+      "tags": [
+        "file",
+        "data",
+        "top-fit-300-messages"
+      ],
+      "complexity": "complex"
+    }
+  ],
+  "edges": []
+}

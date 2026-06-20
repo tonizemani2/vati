@@ -19,7 +19,9 @@ Expert input splits into three buckets. We treat each differently — on purpose
 3. **Expert *predictions* — what smart people currently think will happen.** → **Never loaded as
    reasoning context.** That *is* the consensus we exist to beat (`plan.md`: correct + already priced
    = zero). We ingest it as **timestamped data in Pillar 7** (the priced-in benchmark we measure our
-   divergence against), never as a prior we reason *from*.
+   divergence against), never as a prior we reason *from*. *(Scope of this ban: §0.7 — it binds on the
+   **convergent** side, where you score. In the **divergent** phase, expert *disagreement* is fair raw
+   material: surface where they conflict and what they jointly assume — never the median take.)*
 
 **The key reason this matters for us specifically:** a frontier model already absorbed the expert
 canon in pretraining. Re-feeding expert takes adds little information and a lot of anchoring — it
@@ -57,6 +59,49 @@ illustration, never proof. Log the leak as a known limit (logged-not-faked appli
 
 ---
 
+## 0.7 — Diverge wide, then converge hard (the two phases — and where the rules bind)
+
+This whole repo is a machine for **converging**: the gate, the saturation eye, the skeptic, the
+kill-criteria, Brier — disciplined *disposal*. But disposal can only filter what generation already
+surfaced. If the generator only emits candidates already shaped like the house thesis (*rent → binding
+constraint → one layer deeper*), the filter never sees anything else, and the system becomes a
+**hedgehog wearing the fox's clothes** — §1 preaches many lenses while every collector, every funnel,
+every output template bets the whole apparatus on *one*. The creative misses (the deep-learning-class
+blind spot, the force we never modelled) die at **generation**, before any gate can catch them, because
+they were never allowed to be born. This is the failure mode this section exists to kill.
+
+So forecasting runs in **two phases with deliberately different rules**:
+
+- **Divergent (generate).** Aperture wide open. **Not** bound by the binding-constraint template, the
+  structural-call shape, or the pre-consensus framing. Legitimate here and punished nowhere:
+  cross-domain analogy, category *obsolescence* (the thing that makes the constraint moot before it
+  binds), emergent behaviour, second-order and social cascades, two-trend collisions, and **inversions
+  of our own house thesis** (what if rent does *not* migrate to the constraint here — what eats it
+  instead?). Quantity over polish; a half-formed idea is welcome. Expert views *may* be engaged in this
+  phase — but only as **friction and raw material**: hunt where smart people *disagree*, and what
+  assumption they *all* share unexamined; never anchor onto the median take. **No idea is killed at
+  birth for not yet being a forecast.**
+
+- **Convergent (filter & score).** The full apparatus applies, **unchanged and un-weakened**: the
+  contamination rule (§0, §4), the structural template (§1.6), the multi-channel priced-in gate,
+  kill-criteria + resolution date, Brier, immutability (CONSTITUTION 7). Nothing here is loosened. This
+  is where rigour lives, and it stays exactly as hard as it is today.
+
+**Graduation is the membrane between them.** A divergent idea is *only an idea* — un-scored, outside the
+registry, polluting nothing (the anti-astrology valve still holds **absolutely**: nothing enters the
+immutable record without clearing the gate). When an idea looks real, it must be **reshaped into a
+falsifiable, dated claim and forced through the full convergent gate** to become a hypothesis or card.
+If it genuinely *cannot* be made falsifiable, it **parks** (logged, not faked) — and a park is a prompt
+to find its falsifiable core, **never** a reason it should have been suppressed upstream.
+
+The point, stated plainly: **this costs the scoring rigour nothing.** It reopens the front door without
+touching the back. The contamination rule and the template are real and they stay — they bind on the
+**convergent** side, not as a muzzle on generation. Operationally the divergent lane is **`/wildcard`**
+(the divergent twin of `/needle` — which is already a *convergent* tool: it hunts binding *constraints*,
+not free *ideas*). Run `/wildcard` to open the aperture; run `/needle` and `/gate` to close it.
+
+---
+
 ## 1. The core stance — be a fox, not a hedgehog
 
 Tetlock's central finding: calibrated generalists who hold *many* loosely-held models and update
@@ -64,6 +109,28 @@ often ("foxes") beat charismatic single-Big-Idea experts ("hedgehogs") — and t
 most-confident pundits are often the *worst* calibrated**, because boldness earns airtime, not
 accuracy. So: many lenses, lightly held; distrust the compelling single narrative (especially our
 own); confidence is a claim to be earned by a track record, not a tone.
+
+---
+
+## 1.1 — Trust is the binding constraint (trust-maxxing)
+
+Apply our own thesis to ourselves: rent accrues to the binding constraint, and the constraint on
+capturing value from forecasts is not the forecast, it is **trust**. Access, data, capital, and
+clients all flow only after someone believes us. So trust is the asset we compound, and it is the
+same discipline as leak-free forecasting, not a separate branding layer. One fabrication destroys
+it; an honest, dated, scored record compounds it.
+
+Operational rails (everywhere we speak — the chat, outreach, research, the board):
+- **Never fabricate.** No invented numbers, citations, track records, names, quotes, or
+  capabilities. The record is "publicly logged, dated, Brier-scored", never dressed up with metrics
+  we were not given. A fabricated proof is an instant trust-destroyer, the exact opposite of the win.
+- **Separate known from inferred.** Mark estimates as estimates; state confidence and where the
+  uncertainty lives; say "I don't know" and how it could be checked.
+- **Give before you take, and never overclaim.** Naming a limitation or the weaker case is a trust
+  deposit. Correct yourself in public when wrong. Calibration over bravado.
+
+This is why the capture engine's synth step is hard-gated against inventing proof, and why the chat
+carries a trust guideline that applies to every message, not just forecasts.
 
 ---
 
@@ -116,6 +183,12 @@ on "no clean instrument / already priced" — but the instrument was never the p
 financial-optional** (locked). The forecast scores on the *constraint metric* (capacity, lead-time,
 TWh, share, the input's own price series); a financial pair is an optional second expression, never the
 proof. The inelastic-input decomposition is the **mechanism/evidence**, not the deliverable.
+
+**This template is the shape of a *scored call*, not of every legal *idea* (§0.7).** The constraint-form
+is what an idea must take to **graduate** through the gate — it is the convergent mold, not a muzzle on
+generation. Ideas of other shapes (obsolescence, a behaviour shift, a two-trend collision, an inversion
+of this very thesis) are generated freely in the divergent lane and only reshaped into this form — or
+parked — *at graduation*. Don't strangle a candidate at birth for not yet fitting the mold.
 
 **The deliverable is a WEB of outcomes, not one extrapolated statement (2026-06-05).** A real forecast
 of the future is a *net* — "P here for this, P there for that" — not a single point-claim that is brittle
@@ -242,7 +315,6 @@ for their conclusions.**
 | **Hubbard — *How to Measure Anything*** | Anything can be quantified; calibration training; value of information | Probabilities not vibes; what to measure next |
 | **Flyvbjerg — *How Big Things Get Done*** | Reference-class forecasting; the planning fallacy | Outside-view rule (§2.1), "right but early" |
 | **Silver — *The Signal and the Noise*** | Bayesian updating in practice; signal vs. noise | Small-step updates; ignoring noise |
-| **Good Judgment Project / Metaculus / Polymarket / Kalshi** | Calibrated communities, public track records, scoring norms | Method *and* (as Pillar-7 data) the consensus benchmark |
 
 Buckets 2 & 3 are **not** loaded here. For the record, the framework lineage (Bucket 2, used as
 lenses) is Goldratt (Theory of Constraints — our thesis), Carlota Perez (tech-capital cycles),
@@ -255,6 +327,8 @@ rent; and — concepts only, dogma discarded — Christensen and Taleb's *Incert
 
 - ❌ Don't paste expert *predictions/takes* into reasoning context. Anchors to consensus, decays fast,
   and the model already knows them. → Store as **Pillar 7 data** instead (timestamped, GIGO-gated).
+  *(Convergent-side rule — §0.7. In the divergent phase, mine expert **disagreement** as raw material;
+  it's the median-as-a-prior that's banned, not engagement with the landscape.)*
 - ❌ Don't let a Bucket-2 framework *assert* an outcome. Frameworks **generate hypotheses**; the data
   and the red-team decide.
 - ❌ Don't raise confidence because the story is clean (rule §2.9) or because a famous name said it (§1).

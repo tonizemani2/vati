@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vaticinus — People & Outreach</title>
+<style>
+  :root{
+    --bg:#0b0e14; --panel:#121722; --panel2:#171d2b; --line:#232b3d;
+    --ink:#e6ebf2; --dim:#8a97ad; --accent:#6ea8fe; --good:#5fd0a0;
+    --warn:#e8c468; --s:#c792ea; --a:#6ea8fe; --b:#8a97ad;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);
+    font:14px/1.5 ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+  a{color:var(--accent);text-decoration:none}
+  header{padding:22px 26px 14px;border-bottom:1px solid var(--line);position:sticky;top:0;
+    background:linear-gradient(180deg,#0b0e14,#0b0e14f0);backdrop-filter:blur(4px);z-index:5}
+  h1{margin:0 0 4px;font-size:20px;letter-spacing:.2px}
+  .sub{color:var(--dim);font-size:13px;max-width:920px}
+  .loop{color:var(--good);font-weight:600}
+  .stats{display:flex;gap:18px;flex-wrap:wrap;margin-top:12px;font-size:12px;color:var(--dim)}
+  .stats b{color:var(--ink);font-size:15px;display:block}
+  .wrap{padding:18px 26px 60px;max-width:1280px;margin:0 auto}
+  .controls{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-bottom:18px}
+  input[type=search]{background:var(--panel);border:1px solid var(--line);color:var(--ink);
+    padding:8px 12px;border-radius:8px;min-width:240px;outline:none}
+  input[type=search]:focus{border-color:var(--accent)}
+  .chips{display:flex;gap:6px;flex-wrap:wrap}
+  .chip{padding:5px 11px;border:1px solid var(--line);border-radius:999px;background:var(--panel);
+    color:var(--dim);cursor:pointer;font-size:12px;user-select:none}
+  .chip.on{background:var(--accent);border-color:var(--accent);color:#06101f;font-weight:600}
+  .grp-label{font-size:11px;color:#5a6678;text-transform:uppercase;letter-spacing:.6px;margin-right:2px}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(330px,1fr));gap:14px}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:14px 15px;
+    display:flex;flex-direction:column;gap:8px}
+  .top{display:flex;justify-content:space-between;align-items:flex-start;gap:8px}
+  .name{font-size:16px;font-weight:600}
+  .badges{display:flex;gap:5px;flex-wrap:wrap;justify-content:flex-end}
+  .badge{font-size:10px;padding:2px 7px;border-radius:6px;border:1px solid var(--line);color:var(--dim);
+    white-space:nowrap}
+  .tier-S{background:#2a1d3a;border-color:#4a2f63;color:#d6b3ff}
+  .tier-A{background:#16263f;border-color:#274875;color:#9cc4ff}
+  .tier-B{background:#1a2230;color:#9aa7bd}
+  .xv{background:#10261c;border-color:#1f573d;color:#6fe0ad}
+  .prof{color:var(--dim);font-size:12.5px}
+  .meta{display:grid;grid-template-columns:auto 1fr;gap:3px 10px;font-size:12px;margin-top:2px}
+  .meta .k{color:#5a6678}
+  .meta .v{color:var(--ink)}
+  .close{color:var(--warn);font-weight:600}
+  .contact{display:flex;align-items:center;gap:6px;font-size:12px;margin-top:2px;
+    background:var(--panel2);border:1px solid var(--line);border-radius:7px;padding:6px 8px;
+    word-break:break-all}
+  .contact .ch{color:#5a6678;font-size:10px;text-transform:uppercase;letter-spacing:.5px}
+  .row{display:flex;gap:8px;margin-top:4px}
+  button.act{background:var(--panel2);border:1px solid var(--line);color:var(--dim);
+    padding:6px 10px;border-radius:7px;cursor:pointer;font-size:12px}
+  button.act:hover{border-color:var(--accent);color:var(--ink)}
+  pre.msg{display:none;white-space:pre-wrap;background:#0d1119;border:1px solid var(--line);
+    border-radius:8px;padding:11px;margin:6px 0 0;font:12.5px/1.55 ui-monospace,SFMono-Regular,Menlo,monospace;
+    color:#cdd6e4}
+  .card.open pre.msg{display:block}
+  .flag{font-size:11px;color:var(--warn)}
+  .count{color:var(--dim);font-size:12px;margin:0 0 10px}
+  .toast{position:fixed;bottom:20px;left:50%;transform:translateX(-50%);background:var(--good);
+    color:#06101f;padding:8px 16px;border-radius:8px;font-weight:600;font-size:13px;opacity:0;
+    transition:opacity .2s;pointer-events:none}
+  .toast.show{opacity:1}
+  footer{color:#5a6678;font-size:11px;padding:0 26px 30px;max-width:1280px;margin:0 auto}
+</style>
+</head>
+<body>
+<header>
+  <h1>Vaticinus — People &amp; Outreach</h1>
+  <div class="sub">Ring 1 (advisors, validators, amplifiers, advisor+capital). The play:
+    <span class="loop">proof unlocks people → people open doors to bigger proof → bigger proof unlocks bigger people.</span>
+    At a ~1% cold close rate this is a volume game, so raise the rate with warm paths and an
+    evidence-first opener. Do not send until the ablation + ForecastBench result are live (Jun 19-21).</div>
+  <div class="stats" id="stats"></div>
+</header>
+<div class="wrap">
+  <div class="controls">
+    <input type="search" id="q" placeholder="Search name, profile, close-goal…">
+    <div class="chips" id="phaseChips"><span class="grp-label">Phase</span></div>
+    <div class="chips" id="tierChips"><span class="grp-label">Tier</span></div>
+    <div class="chips" id="chanChips"><span class="grp-label">Channel</span></div>
+  </div>
+  <div class="count" id="count"></div>
+  <div class="grid" id="grid"></div>
+</div>
+<footer>
+  Sources: PEOPLE_MAP.md · closing_roadmap.md · contacts.md · outreach_messages.md.
+  [n] = how many of 4 independent searches surfaced the name. Verify "unconfirmed" emails before sending.
+  Round 1, 2026-06-17. Clients and angels are the round-2 pass.
+</footer>
+<div class="toast" id="toast">copied</div>
+<script>
+const PEOPLE = [
+ {n:"Eli Lifland",tier:"S",xv:4,phase:"P1",arch:"Forecasting authority",
+  prof:"#1 all-time RAND Forecasting Initiative; co-founder AI Futures Project (AI 2027); Samotsvety.",
+  close:"Anchor advisor",offer:"0.5-1%",chan:"X DM",contact:"@eli_lifland (or form on elilifland.com)",
+  msg:`Your AI 2027 report is one of the few forecasting artifacts that actually commits to a mechanism, not just a number. I'm building Vaticinus, a solo AI forecasting system making pre-consensus structural calls, all dated and Brier-scored as a public record. I'm running a 3-arm ablation right now (raw model / council / full system) to prove the edge is real. If you'd be open to a 20-min call to poke holes in the methodology, I'd genuinely value your read. {{record_link}}\n\nToni Zemani`},
+ {n:"Ezra Karger",tier:"S",xv:3,phase:"P1",arch:"Benchmark creator",
+  prof:"Chicago Fed economist; Forecasting Research Institute; lead author of ForecastBench.",
+  close:"Tech advisor / validator",offer:"0.25-0.5%",chan:"Email",contact:"ezra.karger@chi.frb.org",
+  msg:`Subject: ForecastBench bot + a leakage question from a current competitor\n\nYour leakage section in ForecastBench is the sharpest treatment of that problem I've seen in any benchmark paper. I built a bot, Vaticinus, that competes on the dataset half and is currently tracking near the top among bots. The whole system is built around one discipline: a call is never scored on an outcome the model could already know parametrically. I'm running a 3-arm ablation now to close the "prompt wrapper" objection.\n\nI'd appreciate 20 minutes to talk ForecastBench design and whether what I'm doing is valid from your vantage point.\n\nToni Zemani / Vaticinus / {{record_link}}`},
+ {n:"Danny Halawi",tier:"S",xv:2,phase:"P1",arch:"Applied-AI",
+  prof:"First author, 'Approaching Human-Level Forecasting with LLMs'; works on cutoff leakage.",
+  close:"Tech advisor",offer:"0.25-0.5%",chan:"Email",contact:"dhalawi@berkeley.edu",
+  msg:`Subject: Your cutoff-leakage work and a forecasting system built around it\n\nThe knowledge-cutoff section in "Approaching Human-Level Forecasting with LLMs" identified the exact failure mode I spent months trying to close. Vaticinus treats a call as void if the model's training cutoff could have baked in the outcome. Every forecast is dated, every resolution is Brier-scored against that date, public record.\n\nI'm now running a 3-arm ablation (raw model / council layer / full system) to measure whether the engineering actually adds signal. You'd be a rare person who could tell me if the design is sound or if I'm still fooling myself.\n\nWould you take a look? Toni Zemani / Vaticinus / {{record_link}}`},
+ {n:"Nuño Sempere",tier:"S",xv:3,phase:"P1",arch:"Forecasting authority",
+  prof:"Forecasting Newsletter; Samotsvety co-founder; Sentinel; builds forecasting infra.",
+  close:"Tech advisor + amplifier",offer:"0.25-0.5%",chan:"Email",contact:"nuno.semperelh@protonmail.com",
+  msg:`Subject: Vaticinus forecasting system, honest ask for your read\n\nYour Forecasting Newsletter writeups on what separates real forecasting systems from posturing ones are the clearest public writing on that question. I built Vaticinus solo: a leak-free, Brier-scored structural forecasting system that makes pre-consensus calls on where value migrates across industries. The whole record is public and dated, and I'm mid-ablation right now trying to prove the council layer adds something a raw model doesn't.\n\nI'd find your read on the architecture genuinely useful, not just a thumbs-up. Would you be open to a short call?\n\nToni Zemani / Vaticinus / {{record_link}}`},
+ {n:"Peter Wildeford",tier:"S",xv:2,phase:"P1",arch:"Market insider",
+  prof:"Metaculus board member; IAPS co-founder; The Power Law Substack; top-1% forecaster.",
+  close:"Advisor + amplifier",offer:"0.25-0.5%",chan:"Email",contact:"peter@iaps.ai",
+  msg:`Subject: Vaticinus bot scoring on Metaculus, honest ask for advisor input\n\nYour Power Law piece on what prediction markets actually measure is the frame I keep coming back to when I'm deciding whether a call has real information content. I've built Vaticinus, a solo AI forecasting system with a public, Brier-scored structural record now active on Metaculus. Given your board position there and your forecasting track record, your read on the methodology would carry real weight.\n\nI'm not asking for a promotional push. I want to know where the system fails. Would you be open to a short call?\n\nToni Zemani / Vaticinus / {{record_link}}`},
+ {n:"Tom Liptay",tier:"S",xv:1,phase:"P1",arch:"Market insider",
+  prof:"Ran the Metaculus AI Benchmark series; now Director of Forecasting at FutureSearch.",
+  close:"Validator / collaboration",offer:"relationship",chan:"X DM",contact:"@TLiptay (alt hello@futuresearch.ai)",
+  msg:`You ran AIB as cleanly as any bot evaluation I've seen, strict separation between method and self-report. I built Vaticinus, a solo AI forecasting system now scoring on Metaculus. I'd be genuinely curious whether the design passes your bar from the AIB perspective, and whether there's a way to get it into a future scoring run at FutureSearch. Builder-to-evaluator, honest conversation. {{record_link}}\n\nToni Zemani`},
+ {n:"Molly Hickman",tier:"S",xv:1,phase:"P1",arch:"Market insider",
+  prof:"Metaculus technical PM; AIB co-author; top RAND Samotsvety forecaster.",
+  close:"Tech advisor",offer:"0.25%",chan:"X / EA Forum",contact:"@celloMolly (EA Forum molly-hickman-1)",
+  msg:`You're probably one of three people who can critique a forecasting bot both on method and on whether the Metaculus scoring setup is actually fair. I built Vaticinus solo. It makes pre-consensus structural calls, every one dated and Brier-scored, and it's running on Metaculus now. The ablation to separate real signal from prompt noise is live. I'd value your honest read on whether the methodology holds up before I make any public claims about it. {{record_link}}\n\nToni Zemani`},
+ {n:"wasabipesto",tier:"S",xv:1,phase:"P1",arch:"Market insider",
+  prof:"Built brier.fyi / Calibration City: Brier-scores Polymarket/Kalshi/Manifold/Metaculus.",
+  close:"Collaboration",offer:"relationship",chan:"Email",contact:"contact@wasabipesto.com",
+  msg:`Subject: Would Vaticinus fit in Calibration City's scoring?\n\nCalibration City is the only public tool I've found that scores across Polymarket, Kalshi, Manifold, and Metaculus with consistent methodology. I built Vaticinus, a solo AI forecasting system with a public Brier-scored structural record, currently active on Metaculus. Getting it into your cross-platform scoring would be the most honest external validation I could ask for.\n\nI don't know if your data pipeline handles bot accounts or structural forecast types. Would you be open to a quick conversation about whether it's feasible?\n\nToni Zemani / Vaticinus / {{record_link}}`},
+ {n:"Phil Godzin",tier:"B",xv:2,phase:"P1",arch:"Applied-AI",
+  prof:"Top Metaculus AI Benchmark bot builder (pgodzinai). Pseudonymous: confirm identity first.",
+  close:"Tech advisor / peer",offer:"0.25%",chan:"X DM",contact:"@pgodzin",flag:"Confirm real identity before any equity ask.",
+  msg:`pgodzinai's AIB results are the benchmark I've actually been watching. I built Vaticinus, different approach: structural macro calls rather than broad-question coverage, fully Brier-scored public record, leak discipline baked in at the design level. Running a 3-arm ablation now to prove the council layer isn't just wrapping a raw model. Builder-to-builder, I'd be curious what you think the real leverage points are. {{record_link}}\n\nToni Zemani`},
+ {n:"Warren Hatch",tier:"A",xv:3,phase:"P2",arch:"Quant / forecasting",
+  prof:"CEO, Good Judgment Inc; superforecaster; ex-hedge-fund.",
+  close:"GTM advisor",offer:"0.5-1%",chan:"LinkedIn",contact:"linkedin.com/in/warren-hatch",
+  msg:`Warren, Good Judgment is the proof that calibrated forecasting sells to serious institutions, which is exactly the market I built Vaticinus for. It is a solo AI forecasting system with a dated, leak-free, Brier-scored public record, around 37 calls, tracking near the top among bots on ForecastBench. I am lining up a small advisory bench and would value someone who has taken this from research into the enterprise. Open to a short call? {{record_link}}\n\nToni Zemani / Vaticinus`},
+ {n:"Agustin Lebron",tier:"A",xv:1,phase:"P2",arch:"Quant",
+  prof:"Ex-Jane Street trader; author of The Laws of Trading; runs Essilen Research.",
+  close:"GTM advisor",offer:"0.5-1%",chan:"X DM",contact:"@AgustinLebron3",
+  msg:`Agustin, your law on edge in The Laws of Trading, that every profitable trade rests on a fact about the world the marginal participant can't understand or can't act on, is almost word-for-word the thesis I built Vaticinus on. Every call ships with a dated constraint metric, a kill-criterion, and a pre-consensus check so the "who's on the other side" question is answered up front.\n\n37+ Brier-scored calls, all public, no retro-fits. Tracking near the top among bots on ForecastBench. High-ticket plan is bespoke constraint-forecasting for trading desks. Would value your read on whether that framing lands. {{record_link}}\n\nToni Zemani / Vaticinus`},
+ {n:"Corey Hoffstein",tier:"A",xv:1,phase:"P2",arch:"Quant",
+  prof:"Quant CIO at Newfound; host of Flirting with Models.",
+  close:"GTM advisor + amplifier",offer:"0.5%",chan:"X DM",contact:"@choffstein (answers reader DMs)",
+  msg:`Corey, your "Rebalancing Timing Luck" paper, where calendar-year return spreads above 40% came purely from rebalance schedule, has stuck with me as the cleanest case for why attribution needs a record you can't fudge after the fact. That's the whole design of Vaticinus: dated, immutable, leak-free structural forecasts, each Brier-scored at resolution. 37+ on the public record.\n\nTracking near the top among bots on ForecastBench's dataset half, with a 3-arm ablation running now to separate engineering from the base model. Would love a quick chat if it lands. {{record_link}}\n\nToni Zemani / Vaticinus`},
+ {n:"Misha Yagudin",tier:"A",xv:3,phase:"P2",arch:"Forecasting authority",
+  prof:"Samotsvety co-founder; co-runs Arb Research (AI/forecasting consultancy).",
+  close:"Tech + GTM advisor",offer:"0.25-0.5%",chan:"Email",contact:"mike.yagudin@gmail.com (alt hi@arbresearch.com)",
+  msg:`Subject: Vaticinus, and where Arb's work overlaps\n\nMisha, Arb Research sits right where I have been working, elite human forecasting meeting machine evals. I built Vaticinus solo: dated, leak-free, Brier-scored structural calls, around 37 on the public record, tracking near the top among bots on the ForecastBench dataset half. A 3-arm ablation is running to show the council layer adds real signal over a raw model.\n\nI would value your read on the method, and a conversation about where the bespoke side could go.\n\nToni Zemani / Vaticinus / {{record_link}}`},
+ {n:"Robin Hanson",tier:"A",xv:3,phase:"P2",arch:"Market pioneer",
+  prof:"GMU economist; prediction-market pioneer; coined futarchy.",
+  close:"Validator",offer:"0.25%",chan:"Email",contact:"rhanson@gmu.edu",
+  msg:`Subject: A pre-consensus gate, built from idea futures\n\nRobin, your idea-futures argument, that the test of a forecast is whether it moves a price the consensus has not yet absorbed, is built into Vaticinus as a hard gate: a call only counts if it is both correct and not already priced in. It is a solo AI forecasting system with a dated, leak-free, Brier-scored public record.\n\nI am not pitching anything commercial. I would value your read on whether the pre-consensus gate is sound, and I would be glad to have your name near the work if it holds up.\n\nToni Zemani / Vaticinus / {{record_link}}`},
+ {n:"Nate Silver",tier:"A",xv:1,phase:"P2",arch:"Forecasting authority",
+  prof:"Silver Bulletin; The Signal and the Noise; already advises Polymarket.",
+  close:"Anchor advisor / amplifier",offer:"0.5-1% (warm intro preferred)",chan:"Email",contact:"silverbulletin.media@gmail.com",
+  msg:`Subject: You advise Polymarket; here is a record built to be scored\n\nNate, you took the Polymarket advisor seat because the pricing was getting uncannily good, and that same standard is the one I hold Vaticinus to: every call dated, leak-free, Brier-scored at resolution, nothing graded on what the model already knew. Around 37 on the public record, tracking near the top among bots on ForecastBench.\n\nI am a solo founder building a small advisory bench. Would you take a look and tell me if the record clears your bar?\n\nToni Zemani / Vaticinus / {{record_link}}`},
+ {n:"Joey Krug",tier:"A",xv:1,phase:"P2",arch:"Quant / VC",
+  prof:"Built Augur; ex-Pantera co-CIO; now a Founders Fund partner.",
+  close:"Advisor + capital",offer:"equity + the raise conversation",chan:"Email",contact:"joey@foundersfund.com",
+  msg:`Subject: From Augur to a forecasting system with the receipts\n\nJoey, you built Augur because someone had to make a market that actually prices the future. I am coming at the same goal from the model side. Vaticinus is a solo AI forecasting system with a dated, leak-free, Brier-scored public record, around 37 calls, near the top among bots on ForecastBench.\n\nI am building a small advisory bench and starting to think about a raise. Given Augur and your seat at Founders Fund, your read on both the method and the path would be worth a lot. Open to 20 minutes?\n\nToni Zemani / Vaticinus / {{record_link}}`},
+ {n:"Adhi Rajaprabhakaran",tier:"A",xv:1,phase:"P2",arch:"VC",
+  prof:"Ex-Kalshi; co-founder of 5c(c) Capital, the prediction-market VC backed by Kalshi + Polymarket CEOs.",
+  close:"Advisor + capital",offer:"equity + the raise conversation",chan:"X DM",contact:"@eightyhi",
+  msg:`Adhi, a fund built specifically for the second-order effects of prediction markets is exactly the thesis I have been building toward. Vaticinus is a solo AI forecasting system with a dated, leak-free, Brier-scored public record, near the top among bots on ForecastBench. I am lining up advisors who know this space and starting to think about capital. Would value your read on the work, and whether 5c(c) ever looks at something like this. {{record_link}}\n\nToni Zemani / Vaticinus`},
+ {n:"Robert de Neufville",tier:"A",xv:2,phase:"P2",arch:"Amplifier",
+  prof:"Superforecaster; hosts the 'Telling the Future' podcast that profiles forecasters and bots.",
+  close:"Amplifier",offer:"relationship / podcast feature",chan:"Substack / Bluesky",contact:"tellingthefuture.substack.com · @deneufville.bsky.social",
+  msg:`Your Telling the Future episode with the Good Judgment Open team made me think you'd find this interesting. I've built a solo AI forecasting system called Vaticinus. The angle that seems genuinely different: every call is dated on the day it's made, Brier-scored at resolution, and the record is fully public. No cherry-picking, no retroactive framing.\n\nI'm also running a 3-arm ablation right now to check whether the engineering actually adds anything over a raw frontier model. Happy to share results when they land, or to talk through the setup if it's useful for an episode.\n\nToni Zemani / Vaticinus / {{record_link}}`},
+ {n:"Dustin Gouker",tier:"A",xv:1,phase:"P2",arch:"Amplifier",
+  prof:"Writes 'The Event Horizon', a top independent Polymarket/Kalshi newsletter (~9k subs).",
+  close:"Amplifier",offer:"relationship / first look at a result",chan:"X DM",contact:"@DustinGouker",
+  msg:`Your Event Horizon coverage of the Kalshi/Polymarket data was exactly the kind of thing I want to give you a first look at: a leak-free Brier-scored AI forecasting record, and a live ablation comparing raw Opus vs. a full system to test whether the engineering is real or just prompt-wrapping. ~37 dated public calls, ForecastBench submission in. Worth a paragraph if the result is interesting. Toni Zemani / Vaticinus / {{record_link}}`},
+ {n:"Zvi Mowshowitz",tier:"A",xv:1,phase:"P2",arch:"Amplifier",
+  prof:"Writes 'Don't Worry About the Vase' (32k+ subs); one of the most-read AI writers.",
+  close:"Amplifier",offer:"a result worth a mention",chan:"X DM",contact:"@TheZvi (his stated preferred route)",
+  msg:`You've flagged in your AI roundups that most AI forecasting claims are hard to verify. I've tried to build the thing you'd want to see: every call dated, falsifiable, Brier-scored at resolution, public record. No post-hoc dating. There's also a 3-arm ablation running (raw model vs. council vs. full system) to answer whether it's real signal or just a better prompt. If the result is worth a line in your next roundup, I'll send it when it lands. Toni Zemani / Vaticinus / {{record_link}}`},
+ {n:"Saul Munn",tier:"A",xv:1,phase:"P2",arch:"Amplifier",
+  prof:"Organizes Manifest, the ~600-person forecasting festival.",
+  close:"Amplifier (the room)",offer:"relationship / talk / demo",chan:"X DM",contact:"@saulmunn (savvycal.com/saulmunn)",
+  msg:`Manifest is the one place I'd actually want to show this work. I've built a solo AI forecasting system with a fully public scored record, currently running a Brier ablation to test whether the engineering contributes beyond the base model. If there's a demo slot, lightning talk, or even a hallway conversation that makes sense for a builder at this stage, I'd love to be in the room. Happy to send the record and the ablation setup if that's useful context. Toni Zemani / Vaticinus / {{record_link}}`},
+ {n:"Austin Chen",tier:"A",xv:1,phase:"P2",arch:"Amplifier / capital",
+  prof:"Manifold co-founder; runs Manifund grants; co-organizes Manifest.",
+  close:"Amplifier + capital (Manifund)",offer:"feedback + grant fit",chan:"Email",contact:"akrolsmir@gmail.com",
+  msg:`Subject: Manifund fit check + a forecasting system with a public scored record\n\nAustin,\n\nManifold's public resolution data is part of what made building Vaticinus honest. Every call I make is dated, falsifiable, and Brier-scored at resolution against a public record. I'm also submitting to ForecastBench this round and running a calibration ablation to check whether the system adds real signal over a raw frontier model.\n\nTwo questions: does a Manifund grant fit this kind of infrastructure work, and would you be willing to take a look at the record and tell me where the argument breaks? Either way, genuinely useful to get your read.\n\nToni Zemani / Vaticinus / {{record_link}}`},
+ {n:"Panshul42",tier:"B",xv:2,phase:"P2",arch:"Applied-AI",
+  prof:"Won the Metaculus Q2 AI Benchmark; open-sourced the bot. Pseudonymous.",
+  close:"Peer relationship / validation",offer:"relationship",chan:"Metaculus / GitHub",contact:"github.com/Panshul42",flag:"Pseudonymous; keep it peer-level.",
+  msg:`Congrats on the Q2 AI Benchmark win. I've been building in a similar direction, a system called Vaticinus that uses a crowd-anchored quant leg plus a council research layer for the residual questions the dataset can't price. Running a Brier ablation now to see where the engineering actually earns its keep. Would be curious how you handled the numeric question type in your open-sourced bot. Toni Zemani / {{record_link}}`},
+ {n:"Barbara Mellers",tier:"B",xv:2,phase:"P3",arch:"Academic",
+  prof:"UPenn/Wharton; Good Judgment Project co-founder; calibration researcher.",
+  close:"Academic validator",offer:"small equity (warm intro)",chan:"Email",contact:"mellers@wharton.upenn.edu",
+  msg:`Subject: A leak-free scored record, and a calibration question for you\n\nProfessor Mellers,\n\nThe Good Judgment Project's finding that taught me the most is the one founders skip: probability training and tracking moved calibration, not just access to information. Most "AI forecaster" pitches ignore that and report accuracy with no calibration curve.\n\nI built Vaticinus solo. It makes dated, pre-consensus structural forecasts about where value moves across industries, around 37 so far, each scored only on outcomes the model could not already know, Brier-scored at resolution. A 3-arm ablation is running now to separate real skill from prompt-wrapping.\n\nI would value your read on whether the method holds up as calibration, not theater. Open to an advisory relationship if it does.\n\nToni Zemani / Vaticinus / {{record_link}}`},
+ {n:"Don Moore",tier:"B",xv:1,phase:"P3",arch:"Academic",
+  prof:"UC Berkeley Haas; GJP co-founder; author of 'Perfectly Confident' on overconfidence.",
+  close:"Validator",offer:"small equity (warm intro)",chan:"Email",contact:"dmoore@haas.berkeley.edu (pattern, unconfirmed)",flag:"Email unconfirmed: verify before sending.",
+  msg:`Subject: "they don't know what to do about it" — a system that tries to\n\nProfessor Moore,\n\nYour 2025 Management Science paper put a name to the thing I keep running into: people know they don't know, but they don't know what to do about it. The gap between feeling uncertain and expressing that uncertainty as a calibrated distribution is exactly where most forecasting tools fail quietly.\n\nI spent the last months building Vaticinus, a forecasting system I made alone. It produces dated, leak-free structural calls, scored only on outcomes it could not have known in advance, then Brier-scored when they resolve. Roughly 37 on the public record. I am running a 3-arm ablation to check whether the system adds skill or just wrapping.\n\nWould you look at the method and tell me where it fools itself? An advisory tie would mean a lot.\n\nToni Zemani / Vaticinus / {{record_link}}`},
+ {n:"Lyle Ungar",tier:"B",xv:1,phase:"P3",arch:"Academic / AI",
+  prof:"UPenn CS; built GJP's winning statistical aggregation; 'Wisdom of the silicon crowd' (2024).",
+  close:"Tech advisor / validator",offer:"0.25-0.5%",chan:"Email",contact:"ungar@cis.upenn.edu",
+  msg:`Subject: When does adding the next model add noise instead of signal?\n\nProfessor Ungar,\n\n"Wisdom of the silicon crowd" is the paper I argue with most. The ensemble landing indistinguishable from 925 humans was striking, but the part that stuck was the 17 to 28 percent jump once the models saw the median human prediction. It raised a question I cannot answer cleanly yet: at what point does adding another model stop adding signal and start adding correlated noise?\n\nI built Vaticinus solo, a forecasting system making dated, leak-free structural calls, scored only on outcomes it could not already know, Brier-scored at resolution. About 37 on record. I am running a 3-arm ablation right now, partly to test exactly that diminishing-returns question.\n\nI would value your read on the method, and your help thinking about the ensemble limit.\n\nToni Zemani / Vaticinus / {{record_link}}`},
+ {n:"Jacob Steinhardt",tier:"A",xv:2,phase:"P3",arch:"Applied-AI",
+  prof:"UC Berkeley; senior author on the LLM-forecasting paper; designed MMLU.",
+  close:"Tech advisor",offer:"0.25-0.5% (warm intro)",chan:"Email",contact:"jsteinhardt@berkeley.edu",
+  msg:`Subject: Ablating what actually drives forecast skill\n\nProfessor Steinhardt,\n\n"Approaching Human-Level Forecasting with LLMs" showed the gap closes with structured retrieval, but the question it left me with is the one you tend to ask anyway: which part of the pipeline is doing the work? Retrieval, aggregation, or the base model. The same instinct that made MMLU a real eval and not a vanity number.\n\nI built Vaticinus alone. It makes dated, leak-free structural forecasts about where value migrates, scored only on outcomes the model could not have seen, Brier-scored when they resolve. Around 37 public calls. I am running a 3-arm ablation now, raw model versus council versus full system, to separate skill from prompt-wrapping.\n\nI would value your technical read on whether the ablation is honest. Open to advising if it interests you.\n\nToni Zemani / Vaticinus / {{record_link}}`},
+ {n:"Pavel Atanasov",tier:"B",xv:1,phase:"P3",arch:"Academic",
+  prof:"IE University; decision psychologist; markets vs polls vs elite forecasters, aggregation.",
+  close:"Validator",offer:"small equity",chan:"Email",contact:"pavel.atanasov@ie.edu",
+  msg:`Subject: Skill over aggregation method — testing it on a live system\n\nProfessor Atanasov,\n\nYour crowd-prediction work made one point I keep coming back to: once you match forecaster skill, the market and the team poll basically tie, and small elite crowds beat larger ones. The aggregation method matters far less than people selling aggregation want to admit.\n\nI built Vaticinus solo, a forecasting system that makes dated, pre-consensus structural calls, scored only on outcomes it could not already know, then Brier-scored at resolution. About 37 on the public record, tracking near the top among bots on the ForecastBench dataset half. A 3-arm ablation is running to see whether the structure adds skill or just dressing.\n\nI would value your read on whether this is real skill or clever aggregation. An advisory relationship would be welcome.\n\nToni Zemani / Vaticinus / {{record_link}}`},
+ {n:"Joshua D. Clinton",tier:"B",xv:1,phase:"P3",arch:"Academic",
+  prof:"Vanderbilt; co-author of a 2026 study Brier-scoring Polymarket/Kalshi/PredictIt across 2,500+ markets.",
+  close:"Validator",offer:"small equity",chan:"Email",contact:"josh.clinton@vanderbilt.edu",
+  msg:`Subject: Brier across 2,500 markets, and one built to be scored that way\n\nProfessor Clinton,\n\nYour study scoring Polymarket, Kalshi, and PredictIt across 2,500-plus markets did something rare: it judged markets by Brier and log loss instead of vibes, and the result that PredictIt led on election eve despite the smallest volume cuts against the bigger-is-better story everyone repeats.\n\nI built Vaticinus solo. It makes dated, leak-free structural forecasts about where value moves across industries, scored only on outcomes the model could not already know, then Brier-scored at resolution. Around 37 on the public record. I am running a 3-arm ablation to check whether the system adds skill or just prompt-wrapping.\n\nSince you score forecasters the way I want mine judged, I would value your read on the method. Open to advising.\n\nToni Zemani / Vaticinus / {{record_link}}`},
+ {n:"Anthony Aguirre",tier:"A",xv:2,phase:"P3",arch:"Market insider",
+  prof:"Metaculus co-founder; physicist; Future of Life Institute.",
+  close:"Anchor advisor",offer:"0.5-1% (warm intro)",chan:"Email",contact:"aguirre@scipp.ucsc.edu (alt @AnthonyNAguirre)",
+  msg:`Subject: A dated, leak-free record, built in the Metaculus discipline\n\nAnthony,\n\nMetaculus is the reason I hold one rule above all others: a forecast is only worth anything if it is dated, immutable, and scored on outcomes the forecaster could not already know. You built the infrastructure that made that discipline normal. Most AI forecasting demos still quietly break it.\n\nI built Vaticinus solo, a system that makes pre-consensus structural calls about where value migrates across industries. Around 37 on the public record, each dated and leak-free, Brier-scored at resolution, tracking near the top among bots on the ForecastBench dataset half. A 3-arm ablation is running to separate skill from prompt-wrapping.\n\nI would value your read on whether the record meets the bar you set. If it does, I would welcome you as an advisor.\n\nToni Zemani / Vaticinus / {{record_link}}`},
+ {n:"Josh Rosenberg",tier:"B",xv:1,phase:"P3",arch:"Forecasting org",
+  prof:"CEO of the Forecasting Research Institute; the responsive door into FRI and Tetlock.",
+  close:"Door into FRI / Tetlock",offer:"relationship",chan:"Email",contact:"info@forecastingresearch.org",
+  msg:`Subject: Ablation data on the AI-vs-superforecaster gap\n\nJosh,\n\nFRI is one of the few groups actually measuring when AI forecasters catch superforecasters instead of just asserting it. That question is the spine of what I have been building, so your work reads less like background and more like the scoreboard.\n\nI built Vaticinus alone. It makes dated, leak-free structural forecasts, scored only on outcomes the model could not already know, then Brier-scored at resolution. Around 37 on the public record, tracking near the top among bots on the ForecastBench dataset half. Right now I am running a 3-arm ablation, raw model versus council versus full system, which is exactly the kind of data the AI-vs-human-gap question needs.\n\nI would value FRI's read on the method, and a path to sharing the ablation results when they land.\n\nToni Zemani / Vaticinus / {{record_link}}`},
+ {n:"Richard Craib",tier:"B",xv:1,phase:"P3",arch:"Quant",
+  prof:"Founder of Numerai, the crowdsourced quant hedge fund.",
+  close:"Validator / GTM",offer:"small equity",chan:"X DM",contact:"@richardcraib (alt richard@numer.ai)",
+  msg:`Richard, Numerai's whole bet is that you find signal by scoring models on held-out reality, not on how clever they sound. That is the same discipline I built Vaticinus on, solo.\n\nIt makes dated, leak-free structural forecasts, scored only on outcomes the model could not already know, Brier-scored at resolution. About 37 on the public record, near the top among bots on ForecastBench. A 3-arm ablation is running to separate real skill from prompt-wrapping.\n\nWould value your read on the method, and on the go-to-market.\n\nToni Zemani / Vaticinus / {{record_link}}`},
+ {n:"Andreas Stuhlmüller",tier:"B",xv:1,phase:"P3",arch:"Applied-AI",
+  prof:"Founder of Ought / Elicit; factored cognition; 'Asking Better Questions' on forecasting.",
+  close:"Tech advisor",offer:"0.25-0.5%",chan:"Email",contact:"andreas@stuhlmueller.org",
+  msg:`Subject: Factored cognition under a forecasting pipeline\n\nAndreas,\n\nElicit's bet, that you get reliable answers to hard questions by decomposing them into sub-questions a model can actually handle, is the same structure I lean on under the hood of a forecasting pipeline. A structural call about where value moves is just a stack of smaller, checkable sub-forecasts.\n\nI built Vaticinus solo. It makes dated, leak-free forecasts, scored only on outcomes the model could not already know, Brier-scored at resolution. Around 37 on the public record. A 3-arm ablation is running now to see whether the decomposition adds skill or just steps.\n\nI would value your technical read on whether the factoring is doing real work here. Open to an advisory relationship if it is useful.\n\nToni Zemani / Vaticinus / {{record_link}}`}
+];
+
+const PHASE_LABEL={P1:"Phase 1 · peer cluster",P2:"Phase 2 · buyer + amplify",P3:"Phase 3 · warm-intro"};
+const state={q:"",phase:new Set(),tier:new Set(),chan:new Set()};
+
+function uniq(key){return [...new Set(PEOPLE.map(p=>p[key]))];}
+function chanGroup(c){ if(c.includes("Email"))return "Email"; if(c.includes("LinkedIn"))return "LinkedIn";
+  if(c.includes("Substack")||c.includes("Bluesky"))return "Substack"; if(c.includes("GitHub")||c.includes("Metaculus"))return "Other";
+  return "X / DM"; }
+
+function buildChips(elId,values,bucket,labelFn){
+  const el=document.getElementById(elId);
+  values.forEach(v=>{
+    const c=document.createElement("span"); c.className="chip"; c.textContent=labelFn?labelFn(v):v;
+    c.onclick=()=>{ if(state[bucket].has(v))state[bucket].delete(v); else state[bucket].add(v);
+      c.classList.toggle("on"); render(); };
+    el.appendChild(c);
+  });
+}
+
+function matches(p){
+  if(state.phase.size&&!state.phase.has(p.phase))return false;
+  if(state.tier.size&&!state.tier.has(p.tier))return false;
+  if(state.chan.size&&!state.chan.has(chanGroup(p.chan)))return false;
+  if(state.q){ const s=(p.n+" "+p.prof+" "+p.close+" "+p.arch+" "+p.chan).toLowerCase();
+    if(!s.includes(state.q))return false; }
+  return true;
+}
+
+function esc(t){return t.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");}
+
+function render(){
+  const grid=document.getElementById("grid"); grid.innerHTML="";
+  const list=PEOPLE.filter(matches);
+  document.getElementById("count").textContent=list.length+" of "+PEOPLE.length+" people";
+  list.forEach(p=>{
+    const card=document.createElement("div"); card.className="card";
+    card.innerHTML=`
+      <div class="top">
+        <div class="name">${esc(p.n)}</div>
+        <div class="badges">
+          <span class="badge tier-${p.tier}">Tier ${p.tier}</span>
+          <span class="badge xv">${p.xv}/4 found</span>
+        </div>
+      </div>
+      <div class="prof">${esc(p.prof)}</div>
+      <div class="meta">
+        <span class="k">Close</span><span class="v close">${esc(p.close)}</span>
+        <span class="k">Offer</span><span class="v">${esc(p.offer)}</span>
+        <span class="k">When</span><span class="v">${PHASE_LABEL[p.phase]}</span>
+        <span class="k">Field</span><span class="v">${esc(p.arch)}</span>
+      </div>
+      <div class="contact"><span class="ch">${esc(p.chan)}</span><span class="cval">${esc(p.contact)}</span></div>
+      ${p.flag?`<div class="flag">⚠ ${esc(p.flag)}</div>`:""}
+      <div class="row">
+        <button class="act tgl">Show message</button>
+        <button class="act cpc">Copy contact</button>
+        <button class="act cpm">Copy message</button>
+      </div>
+      <pre class="msg">${esc(p.msg)}</pre>`;
+    card.querySelector(".tgl").onclick=()=>{ card.classList.toggle("open");
+      card.querySelector(".tgl").textContent=card.classList.contains("open")?"Hide message":"Show message"; };
+    card.querySelector(".cpc").onclick=()=>copy(p.contact);
+    card.querySelector(".cpm").onclick=()=>copy(p.msg);
+    grid.appendChild(card);
+  });
+}
+
+let toastT;
+function copy(t){ navigator.clipboard.writeText(t).then(()=>{
+  const el=document.getElementById("toast"); el.classList.add("show");
+  clearTimeout(toastT); toastT=setTimeout(()=>el.classList.remove("show"),1100);
+}); }
+
+function stats(){
+  const el=document.getElementById("stats");
+  const byPhase=p=>PEOPLE.filter(x=>x.phase===p).length;
+  const cap=PEOPLE.filter(x=>x.close.toLowerCase().includes("capital")).length;
+  const amp=PEOPLE.filter(x=>x.close.toLowerCase().includes("amplifier")).length;
+  el.innerHTML=`
+    <div><b>${PEOPLE.length}</b>targets</div>
+    <div><b>${byPhase("P1")}</b>Phase 1 (fire first)</div>
+    <div><b>${byPhase("P2")}</b>Phase 2</div>
+    <div><b>${byPhase("P3")}</b>Phase 3</div>
+    <div><b>${cap}</b>advisor + capital</div>
+    <div><b>${amp}</b>amplifiers</div>`;
+}
+
+buildChips("phaseChips",["P1","P2","P3"],"phase",v=>PHASE_LABEL[v]);
+buildChips("tierChips",["S","A","B"],"tier",v=>"Tier "+v);
+buildChips("chanChips",["Email","X / DM","LinkedIn","Substack","Other"],"chan");
+document.getElementById("q").addEventListener("input",e=>{state.q=e.target.value.toLowerCase();render();});
+stats(); render();
+</script>
+</body>
+</html>

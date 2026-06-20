@@ -1,0 +1,416 @@
+{
+  "nodes": [
+    {
+      "id": "file:engine/pillars/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "engine/pillars/__init__.py",
+      "summary": "__init__.py is a code asset in the forecasting engine.",
+      "tags": [
+        "forecasting-engine",
+        "code",
+        "file",
+        "init"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:tests/test_disk_guard.py",
+      "type": "file",
+      "name": "test_disk_guard.py",
+      "filePath": "tests/test_disk_guard.py",
+      "summary": "test_disk_guard.py is a code asset in the repository. It contains 1 class, 2 internal imports.",
+      "tags": [
+        "test",
+        "verification",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:tests/test_disk_guard.py:DiskGuardTests",
+      "type": "class",
+      "name": "DiskGuardTests",
+      "filePath": "tests/test_disk_guard.py",
+      "lineRange": [
+        9,
+        29
+      ],
+      "summary": "Defines DiskGuardTests in test_disk_guard.py, encapsulating reusable behavior or state for this module.",
+      "tags": [
+        "class",
+        "implementation",
+        "test-disk-guard"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:tests/test_feed_safety.py",
+      "type": "file",
+      "name": "test_feed_safety.py",
+      "filePath": "tests/test_feed_safety.py",
+      "summary": "test_feed_safety.py is a code asset in the repository. It contains 1 class, 42 internal imports.",
+      "tags": [
+        "test",
+        "verification",
+        "code"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "class:tests/test_feed_safety.py:FeedSafetyTests",
+      "type": "class",
+      "name": "FeedSafetyTests",
+      "filePath": "tests/test_feed_safety.py",
+      "lineRange": [
+        16,
+        1334
+      ],
+      "summary": "Defines FeedSafetyTests in test_feed_safety.py, encapsulating reusable behavior or state for this module.",
+      "tags": [
+        "class",
+        "implementation",
+        "test-feed-safety"
+      ],
+      "complexity": "complex"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:tests/test_disk_guard.py",
+      "target": "class:tests/test_disk_guard.py:DiskGuardTests",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:tests/test_disk_guard.py",
+      "target": "class:tests/test_disk_guard.py:DiskGuardTests",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:tests/test_feed_safety.py",
+      "target": "class:tests/test_feed_safety.py:FeedSafetyTests",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:tests/test_feed_safety.py",
+      "target": "class:tests/test_feed_safety.py:FeedSafetyTests",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:tests/test_disk_guard.py",
+      "target": "file:engine/__init__.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/test_disk_guard.py",
+      "target": "file:engine/disk_guard.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/test_feed_safety.py",
+      "target": "file:engine/__init__.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/test_feed_safety.py",
+      "target": "file:engine/db.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/test_feed_safety.py",
+      "target": "file:engine/feeds/__init__.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/test_feed_safety.py",
+      "target": "file:engine/feeds/baci.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/test_feed_safety.py",
+      "target": "file:engine/feeds/clinicaltrials.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/test_feed_safety.py",
+      "target": "file:engine/feeds/collect_all.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/test_feed_safety.py",
+      "target": "file:engine/feeds/comtrade.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/test_feed_safety.py",
+      "target": "file:engine/feeds/cordis.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/test_feed_safety.py",
+      "target": "file:engine/feeds/ecb_fx.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/test_feed_safety.py",
+      "target": "file:engine/feeds/eonet.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/test_feed_safety.py",
+      "target": "file:engine/feeds/epoch_ai.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/test_feed_safety.py",
+      "target": "file:engine/feeds/eu_sanctions.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/test_feed_safety.py",
+      "target": "file:engine/feeds/federal_register.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/test_feed_safety.py",
+      "target": "file:engine/feeds/fred_financial.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/test_feed_safety.py",
+      "target": "file:engine/feeds/fred.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/test_feed_safety.py",
+      "target": "file:engine/feeds/gdacs_alerts.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/test_feed_safety.py",
+      "target": "file:engine/feeds/gdelt.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/test_feed_safety.py",
+      "target": "file:engine/feeds/global_equities.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/test_feed_safety.py",
+      "target": "file:engine/feeds/ilo.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/test_feed_safety.py",
+      "target": "file:engine/feeds/ingest.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/test_feed_safety.py",
+      "target": "file:engine/feeds/lbnl.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/test_feed_safety.py",
+      "target": "file:engine/feeds/metaculus.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/test_feed_safety.py",
+      "target": "file:engine/feeds/nasa_gistemp.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/test_feed_safety.py",
+      "target": "file:engine/feeds/nih_reporter.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/test_feed_safety.py",
+      "target": "file:engine/feeds/noaa_climate_indices.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/test_feed_safety.py",
+      "target": "file:engine/feeds/noaa_enso.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/test_feed_safety.py",
+      "target": "file:engine/feeds/noaa_gml_greenhouse_gases.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/test_feed_safety.py",
+      "target": "file:engine/feeds/noaa_nsidc_sea_ice.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/test_feed_safety.py",
+      "target": "file:engine/feeds/noaa_swpc_solar.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/test_feed_safety.py",
+      "target": "file:engine/feeds/nsf_awards.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/test_feed_safety.py",
+      "target": "file:engine/feeds/ofac_sdn.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/test_feed_safety.py",
+      "target": "file:engine/feeds/openfda_drugsfda.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/test_feed_safety.py",
+      "target": "file:engine/feeds/owid.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/test_feed_safety.py",
+      "target": "file:engine/feeds/patentsview.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/test_feed_safety.py",
+      "target": "file:engine/feeds/pubmed.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/test_feed_safety.py",
+      "target": "file:engine/feeds/semantic_scholar.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/test_feed_safety.py",
+      "target": "file:engine/feeds/un_comtrade.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/test_feed_safety.py",
+      "target": "file:engine/feeds/usaspending_sam.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/test_feed_safety.py",
+      "target": "file:engine/feeds/usgs_earthquakes.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/test_feed_safety.py",
+      "target": "file:engine/feeds/usgs_minerals.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/test_feed_safety.py",
+      "target": "file:engine/feeds/wikipedia.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/test_feed_safety.py",
+      "target": "file:engine/feeds/world_bank.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    }
+  ]
+}

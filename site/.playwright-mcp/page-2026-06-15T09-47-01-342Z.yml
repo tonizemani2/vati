@@ -1,0 +1,62 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - complementary [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e5]:
+          - img "Vaticinus" [ref=e7]
+          - generic [ref=e11]: Vaticinus
+        - button "Collapse sidebar" [ref=e12]:
+          - img [ref=e13]
+      - navigation [ref=e15]:
+        - button "New forecast" [ref=e16]:
+          - img [ref=e18]
+          - generic [ref=e21]: New forecast
+        - button "Live record" [ref=e22]:
+          - img [ref=e24]
+          - generic [ref=e27]: Live record
+        - button "Search calls" [ref=e28]:
+          - img [ref=e30]
+          - generic [ref=e33]: Search calls
+        - button "Deep research" [ref=e34]:
+          - img [ref=e36]
+          - generic [ref=e44]: Deep research
+        - button "Data layer" [ref=e45]:
+          - img [ref=e47]
+          - generic [ref=e51]: Data layer
+      - navigation [ref=e53]:
+        - button "Settings" [ref=e54]:
+          - img [ref=e56]
+          - generic [ref=e59]: Settings
+        - button "Help" [ref=e60]:
+          - img [ref=e62]
+          - generic [ref=e65]: Help
+      - generic [ref=e66]:
+        - paragraph [ref=e67]: Calls you can score
+        - paragraph [ref=e68]: Every forecast gets a date, a kill-criterion, and a public Brier score.
+    - main [ref=e69]:
+      - generic [ref=e70]:
+        - button "Vaticinus" [ref=e71]:
+          - text: Vaticinus
+          - img [ref=e72]
+        - button "Live record" [ref=e74]:
+          - img [ref=e75]
+          - text: Live record
+      - generic [ref=e78]:
+        - heading "What do you want to forecast?" [level=1] [ref=e79]
+        - paragraph [ref=e80]: Ask a structural question. Vaticinus reasons about where the binding constraint moves, then runs its Monte-Carlo engine to put a probability and an interval on it.
+        - generic [ref=e82]:
+          - button "Add" [ref=e83]:
+            - img [ref=e84]
+          - textbox "Ask anything" [ref=e85]
+          - generic [ref=e86]:
+            - button "Dictate" [ref=e87]:
+              - img [ref=e88]
+            - button "Voice" [ref=e91]:
+              - img [ref=e92]
+              - text: Voice
+        - generic [ref=e93]:
+          - 'button "Where does the binding constraint in AI move next: chips, power, or data?" [ref=e94]'
+          - button "Will US grid interconnection queue waits exceed 4 years by end of 2027?" [ref=e95]
+          - button "Is HVDC cable-lay vessel capacity the pace-setter for offshore grid buildout?" [ref=e96]
+  - button "Open Next.js Dev Tools" [ref=e102] [cursor=pointer]:
+    - img [ref=e103]

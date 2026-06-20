@@ -1,0 +1,90 @@
+{
+  "nodes": [
+    {
+      "id": "document:landing/docs/research/DESIGN_SPEC.md",
+      "type": "document",
+      "name": "DESIGN_SPEC.md",
+      "filePath": "landing/docs/research/DESIGN_SPEC.md",
+      "summary": "Documentation file covering DESIGN_SPEC for the Vati repository and its forecasting workflows.",
+      "tags": [
+        "frontend",
+        "documentation",
+        "document",
+        "docs",
+        "design-spec"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "config:landing/docs/research/assets.json",
+      "type": "config",
+      "name": "assets.json",
+      "filePath": "landing/docs/research/assets.json",
+      "summary": "Configuration file for assets.json that shapes build, runtime, or tooling behavior in this repository.",
+      "tags": [
+        "frontend",
+        "configuration",
+        "config",
+        "assets"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "config:landing/docs/research/sections.json",
+      "type": "config",
+      "name": "sections.json",
+      "filePath": "landing/docs/research/sections.json",
+      "summary": "Configuration file for sections.json that shapes build, runtime, or tooling behavior in this repository.",
+      "tags": [
+        "frontend",
+        "configuration",
+        "config",
+        "sections"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "config:landing/docs/research/tokens.json",
+      "type": "config",
+      "name": "tokens.json",
+      "filePath": "landing/docs/research/tokens.json",
+      "summary": "Configuration file for tokens.json that shapes build, runtime, or tooling behavior in this repository.",
+      "tags": [
+        "frontend",
+        "configuration",
+        "config",
+        "tokens"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "config:landing/docs/research/topology.json",
+      "type": "config",
+      "name": "topology.json",
+      "filePath": "landing/docs/research/topology.json",
+      "summary": "Configuration file for topology.json that shapes build, runtime, or tooling behavior in this repository.",
+      "tags": [
+        "frontend",
+        "configuration",
+        "config",
+        "topology"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:landing/docs/research/ui.json",
+      "type": "config",
+      "name": "ui.json",
+      "filePath": "landing/docs/research/ui.json",
+      "summary": "Configuration file for ui.json that shapes build, runtime, or tooling behavior in this repository.",
+      "tags": [
+        "frontend",
+        "configuration",
+        "config",
+        "ui"
+      ],
+      "complexity": "moderate"
+    }
+  ],
+  "edges": []
+}

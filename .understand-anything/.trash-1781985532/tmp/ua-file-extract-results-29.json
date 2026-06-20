@@ -1,0 +1,75 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 4,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "scripts/launch_research_papers_ec2_pilot.sh",
+      "language": "shell",
+      "fileCategory": "script",
+      "totalLines": 130,
+      "nonEmptyLines": 119,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "scripts/research_papers_ec2_pilot.sh",
+      "language": "shell",
+      "fileCategory": "script",
+      "totalLines": 187,
+      "nonEmptyLines": 167,
+      "functions": [
+        {
+          "name": "upload_logs",
+          "startLine": 24,
+          "endLine": 29,
+          "params": []
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "scripts/run_deepseek_resume_safe.sh",
+      "language": "shell",
+      "fileCategory": "script",
+      "totalLines": 38,
+      "nonEmptyLines": 32,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "scripts/sync_foresight_to_box.sh",
+      "language": "shell",
+      "fileCategory": "script",
+      "totalLines": 39,
+      "nonEmptyLines": 34,
+      "functions": [
+        {
+          "name": "ts",
+          "startLine": 19,
+          "endLine": 19,
+          "params": []
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    }
+  ]
+}

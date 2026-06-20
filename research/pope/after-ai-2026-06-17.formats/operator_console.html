@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>After AI: where the constraint moves when intelligence leaves the screen - Operator Console</title>
+  <style>
+    :root { color-scheme: light; --ink:#171717; --muted:#666; --paper:#f7f5ef; --line:#d8d2c4; --brand:#3346aa; --green:#276749; --red:#8a2f2b; }
+    body { margin:0; font-family: Arial, sans-serif; background:#fbfaf7; color:var(--ink); line-height:1.45; }
+    header { padding:32px clamp(18px, 4vw, 56px) 22px; background:var(--paper); border-bottom:1px solid var(--line); }
+    h1 { max-width:980px; margin:0 0 10px; font-size:clamp(28px, 4vw, 48px); line-height:1.05; letter-spacing:0; }
+    .sub { max-width:980px; color:var(--muted); font-size:17px; }
+    .bar { display:flex; gap:10px; flex-wrap:wrap; padding:18px clamp(18px, 4vw, 56px); border-bottom:1px solid var(--line); background:white; position:sticky; top:0; }
+    .button { display:inline-block; padding:9px 11px; border:1px solid var(--line); border-radius:6px; color:var(--brand); text-decoration:none; background:white; font-weight:700; font-size:14px; }
+    main { padding:24px clamp(18px, 4vw, 56px) 46px; }
+    .grid { display:grid; grid-template-columns:repeat(auto-fit, minmax(280px, 1fr)); gap:16px; max-width:1300px; }
+    .card { background:white; border:1px solid var(--line); border-radius:8px; padding:16px; min-height:280px; }
+    .card h2 { font-size:20px; line-height:1.15; margin:8px 0 12px; letter-spacing:0; }
+    .meta { color:var(--brand); font-weight:700; font-size:12px; text-transform:uppercase; letter-spacing:.04em; }
+    strong { color:#000; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>After AI: where the constraint moves when intelligence leaves the screen</h1>
+    <div class="sub">The shared shift is that AI stops being mainly a model market and becomes a physical deployment market.</div>
+  </header>
+  <nav class="bar"><a class="button" href="now_what.md">Now What</a>
+<a class="button" href="action_plan.csv">Action Plan</a>
+<a class="button" href="buyer_action_sheets.md">Buyer Sheets</a>
+<a class="button" href="icp_matrix.csv">ICP Matrix</a>
+<a class="button" href="sales_sequences.md">Sales</a>
+<a class="button" href="watchlist.csv">Watchlist</a>
+<a class="button" href="scorecard.jsonl">Scorecard</a>
+<a class="button" href="investor_one_pager.md">Investor</a>
+<a class="button" href="deck_outline.md">Deck</a>
+<a class="button" href="api_summary.json">API</a></nav>
+  <main>
+    <div class="grid">
+      <article class="card">
+        <div class="meta">P1 · AI infrastructure / energy · 52%</div>
+        <h2>The AI frontier moves from model access to firm-power siting.</h2>
+        <p><strong>Now:</strong> Map sites by firm-power time-to-energize, not just land cost and fiber; secure options on campuses where geothermal, gas with carbon capture, nuclear restart, or other firm power can be contracted behind the meter.</p>
+        <p><strong>Buyer:</strong> Hyperscaler infrastructure teams, data-center developers, power developers, large AI labs with reserved compute needs, and investors underwriting AI infrastructure.</p>
+        <p><strong>Watch:</strong> A hyperscaler or top data-center REIT announcing a 100 MW plus campus whose stated differentiator is behind-the-meter clean firm power rather than cheap land.</p>
+        <p><strong>Stop:</strong> Kill if by end 2028 fewer than two hyperscaler-scale campuses publicly secure behind-the-meter firm clean generation as a core siting advantage, or if transformer and interconnection delays normalize below roughly 24 months in the main US AI data-center markets.</p>
+      </article>
+      <article class="card">
+        <div class="meta">P2 · robotics / industrial automation · 46%</div>
+        <h2>Physical AI's bottleneck is certified deployment, not robot bodies.</h2>
+        <p><strong>Now:</strong> Inventory repeatable tasks by commissioning burden and safety risk; structure pilots around validated productive hours and time-to-commission, not robot count or demo quality.</p>
+        <p><strong>Buyer:</strong> Manufacturing COOs, logistics operators, industrial automation integrators, robot OEMs, and investors in physical AI companies.</p>
+        <p><strong>Watch:</strong> A major automotive or logistics deployment where the press release names the validation, simulation, or task-library layer as the reason the rollout scaled.</p>
+        <p><strong>Stop:</strong> Kill if by end 2028 humanoid or mobile manipulation deployments scale mainly through turnkey robot hardware with little separate pricing for task validation, commissioning software, or safety case tooling.</p>
+      </article>
+      <article class="card">
+        <div class="meta">P3 · autonomous science / biotech / materials · 44%</div>
+        <h2>Autonomous science shifts the bottleneck from model discovery to experimental throughput.</h2>
+        <p><strong>Now:</strong> Audit which discovery programs are experiment-limited; secure access to robotic testbeds, assay vendors, and metadata/provenance infrastructure before model-generated proposal volume spikes.</p>
+        <p><strong>Buyer:</strong> Pharma R&amp;D leaders, materials companies, national labs, AI-for-science founders, and investors underwriting discovery platforms.</p>
+        <p><strong>Watch:</strong> A major pharma, chemicals, or materials company publicly saying its AI discovery bottleneck is lab throughput or assay availability, not model quality.</p>
+        <p><strong>Stop:</strong> Kill if by 2029 model-only AI discovery companies repeatedly produce commercially validated materials or therapies without materially expanding wet-lab or physical-test throughput.</p>
+      </article>
+      <article class="card">
+        <div class="meta">P4 · edge AI / consumer hardware · 43%</div>
+        <h2>The consumer AI interface moves to always-on edge devices, gated by thermals, battery, sensors, and privacy.</h2>
+        <p><strong>Now:</strong> Design around local context and power budgets; build features that improve when personal data stays on device instead of depending on generic cloud memory.</p>
+        <p><strong>Buyer:</strong> Device OEMs, chip vendors, mobile OS teams, consumer AI app developers, regulated enterprise buyers, and privacy/security teams.</p>
+        <p><strong>Watch:</strong> A Google, Samsung, Apple, or Meta product launch where the lead AI feature runs persistently on device and is marketed around private context rather than a bigger cloud model.</p>
+        <p><strong>Stop:</strong> Kill if by end 2028 the dominant consumer AI usage remains cloud-chat inside phones and browsers, with wearables and glasses failing to show persistent local context as a major usage mode.</p>
+      </article>
+      <article class="card">
+        <div class="meta">P5 · industrial biotech / biomanufacturing · 41%</div>
+        <h2>Biomanufacturing's bottleneck is scale-up, not AI organism design.</h2>
+        <p><strong>Now:</strong> Underwrite AI-bio companies on scale-up evidence, COGS path, downstream process, feedstock contracts, and pilot capacity access before valuing design claims.</p>
+        <p><strong>Buyer:</strong> Industrial biotech founders, chemicals strategics, food and materials companies, climate-tech investors, and CDMOs.</p>
+        <p><strong>Watch:</strong> A well-funded AI-bio or synbio company delaying launch because pilot capacity, downstream recovery, or COGS fails despite successful lab design.</p>
+        <p><strong>Stop:</strong> Kill if by 2030 multiple AI-designed industrial bio-products reach commodity-relevant scale and price parity without scarce pilot capacity, downstream processing, or process-development labor becoming a public bottleneck.</p>
+      </article>
+      <article class="card">
+        <div class="meta">P6 · enterprise AI / security / governance · 48%</div>
+        <h2>Agentic AI's scarce layer becomes authority, auditability, and rollback.</h2>
+        <p><strong>Now:</strong> Design agent deployments around authority boundaries first: least privilege, approval ladders, audit logs, rollback, and evidence packets for regulated workflows.</p>
+        <p><strong>Buyer:</strong> CISOs, CIOs, compliance leaders, insurers, enterprise software buyers, agent platform vendors, and legal teams.</p>
+        <p><strong>Watch:</strong> A Fortune 500 RFP, insurance policy, or regulator explicitly requiring agent action logs, approval chains, and rollback for production deployment.</p>
+        <p><strong>Stop:</strong> Kill if by mid-2028 large enterprises widely deploy multi-step agents with real system authority using mostly prompt-level guardrails and generic logging, without a separate action-governance budget.</p>
+      </article>
+    </div>
+  </main>
+</body>
+</html>

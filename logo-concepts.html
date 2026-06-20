@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Vaticinus — logo concepts</title>
+<style>
+  :root{
+    --indigo:#6d6afc;
+    --lav:#a9a6ff;
+    --blue:#3f66fe;
+    --steel:#b2c2ff;
+    --ink:#0c0b10;
+    --panel:#17141f;
+    --line:rgba(255,255,255,.10);
+    --muted:rgba(255,255,255,.55);
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0}
+  body{
+    background:
+      radial-gradient(1200px 600px at 80% -10%, rgba(109,106,252,.10), transparent 60%),
+      radial-gradient(900px 500px at -10% 110%, rgba(63,102,254,.08), transparent 60%),
+      var(--ink);
+    color:#fff;
+    font-family:'GT Standard',-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;
+    -webkit-font-smoothing:antialiased;
+    line-height:1.5;
+    padding:clamp(20px,4vw,64px);
+  }
+  .wrap{max-width:1180px;margin:0 auto}
+  header{margin-bottom:48px;max-width:62ch}
+  .eyebrow{
+    font-size:12px;letter-spacing:.18em;text-transform:uppercase;
+    color:var(--lav);font-weight:600;margin:0 0 14px;
+  }
+  h1{font-size:clamp(28px,4vw,44px);line-height:1.1;letter-spacing:-.02em;margin:0 0 14px;font-weight:600}
+  header p{color:var(--muted);font-size:16px;margin:0}
+  header p b{color:#fff;font-weight:600}
+
+  .grid{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:22px;
+  }
+  @media (max-width:820px){.grid{grid-template-columns:1fr}}
+
+  .card{
+    border:1px solid var(--line);
+    border-radius:20px;
+    background:linear-gradient(165deg,#15131d,#0e0d13);
+    overflow:hidden;
+    display:flex;flex-direction:column;
+  }
+  .card-top{
+    display:flex;align-items:center;justify-content:space-between;
+    padding:16px 20px;border-bottom:1px solid var(--line);
+  }
+  .num{
+    font-variant-numeric:tabular-nums;
+    font-size:12px;letter-spacing:.14em;color:var(--lav);font-weight:600;text-transform:uppercase;
+  }
+  .name{font-size:13px;color:var(--muted)}
+
+  /* big mark stage */
+  .stage{
+    height:200px;display:flex;align-items:center;justify-content:center;
+    background:
+      radial-gradient(420px 220px at 50% 30%, rgba(109,106,252,.10), transparent 70%);
+  }
+  .stage svg{display:block}
+
+  /* lockup row */
+  .lockup{
+    display:flex;align-items:center;gap:14px;
+    padding:18px 22px;border-top:1px solid var(--line);
+  }
+  .word{
+    font-size:26px;font-weight:600;letter-spacing:-.015em;line-height:1;white-space:nowrap;
+  }
+  .word .light{color:rgba(255,255,255,.55);font-weight:500}
+
+  /* mini row: favicon scale on dark + light + mono */
+  .mini{
+    display:flex;align-items:center;gap:18px;
+    padding:14px 22px;border-top:1px solid var(--line);
+  }
+  .chip{
+    width:44px;height:44px;border-radius:12px;display:flex;align-items:center;justify-content:center;flex:none;
+  }
+  .chip.dark{background:#0c0b10;border:1px solid var(--line)}
+  .chip.light{background:#f3f2f0}
+  .chip.brand{background:linear-gradient(150deg,#6d6afc,#3f66fe)}
+  .chip.tiny svg{width:18px;height:18px}
+  .mini .lab{font-size:12px;color:var(--muted);margin-left:auto}
+
+  .why{padding:0 22px 20px;color:var(--muted);font-size:13.5px}
+  .why b{color:#fff;font-weight:600}
+
+  footer{margin-top:48px;color:var(--muted);font-size:13px;max-width:60ch}
+  .pill{display:inline-block;padding:3px 9px;border:1px solid var(--line);border-radius:999px;font-size:11px;color:var(--lav);margin-right:6px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <p class="eyebrow">Vaticinus · identity exploration</p>
+    <h1>Ten marks for a forecasting research lab</h1>
+    <p>Each concept leans on the thesis spine: <b>rent accrues to the binding constraint</b>, and the edge is spotting where it moves before it's priced. So the recurring motifs are the <b>dependency graph</b>, the <b>pinch point</b> where a flow stops being elastic, the <b>forecast cone</b>, and the <b>sealed, dated record</b>. Every mark is shown large, in a wordmark lockup, and at favicon size on dark / light / brand. All single-color so they survive a 16px favicon and an embossed PDF seal.</p>
+  </header>
+
+  <div class="grid">
+
+    <!-- 01 BINDING NODE -->
+    <div class="card">
+      <div class="card-top"><span class="num">01</span><span class="name">The binding node</span></div>
+      <div class="stage">
+        <svg width="120" height="120" viewBox="0 0 120 120" fill="none">
+          <!-- many inputs converging to one node -->
+          <g stroke="#6d6afc" stroke-width="2" stroke-linecap="round" opacity=".55">
+            <path d="M14 18 L60 60"/><path d="M14 46 L60 60"/><path d="M14 74 L60 60"/><path d="M30 100 L60 60"/>
+          </g>
+          <g stroke="#a9a6ff" stroke-width="2" stroke-linecap="round" opacity=".9">
+            <path d="M60 60 L104 40"/><path d="M60 60 L104 80"/>
+          </g>
+          <g fill="#6d6afc" opacity=".7">
+            <circle cx="14" cy="18" r="4"/><circle cx="14" cy="46" r="4"/><circle cx="14" cy="74" r="4"/><circle cx="30" cy="100" r="4"/>
+          </g>
+          <circle cx="60" cy="60" r="11" fill="#6d6afc"/>
+          <circle cx="60" cy="60" r="11" stroke="#a9a6ff" stroke-width="2" opacity=".5"/>
+          <circle cx="104" cy="40" r="3.5" fill="#a9a6ff"/><circle cx="104" cy="80" r="3.5" fill="#a9a6ff"/>
+        </svg>
+      </div>
+      <div class="lockup">
+        <svg width="38" height="38" viewBox="0 0 120 120" fill="none"><g stroke="#6d6afc" stroke-width="4" stroke-linecap="round" opacity=".55"><path d="M14 18 L60 60"/><path d="M14 46 L60 60"/><path d="M14 74 L60 60"/><path d="M30 100 L60 60"/></g><g stroke="#a9a6ff" stroke-width="4" stroke-linecap="round" opacity=".9"><path d="M60 60 L104 40"/><path d="M60 60 L104 80"/></g><circle cx="60" cy="60" r="13" fill="#6d6afc"/></svg>
+        <span class="word">Vaticinus</span>
+      </div>
+      <div class="mini">
+        <div class="chip dark tiny"><svg viewBox="0 0 120 120" fill="none"><g stroke="#6d6afc" stroke-width="7" stroke-linecap="round"><path d="M16 20 L60 60"/><path d="M16 60 L60 60"/><path d="M16 100 L60 60"/></g><g stroke="#a9a6ff" stroke-width="7" stroke-linecap="round"><path d="M60 60 L104 60"/></g><circle cx="60" cy="60" r="16" fill="#6d6afc"/></svg></div>
+        <div class="chip light tiny"><svg viewBox="0 0 120 120" fill="none"><g stroke="#3f66fe" stroke-width="7" stroke-linecap="round"><path d="M16 20 L60 60"/><path d="M16 60 L60 60"/><path d="M16 100 L60 60"/><path d="M60 60 L104 60"/></g><circle cx="60" cy="60" r="16" fill="#3f66fe"/></svg></div>
+        <div class="chip brand tiny"><svg viewBox="0 0 120 120" fill="none"><g stroke="#fff" stroke-width="7" stroke-linecap="round"><path d="M16 20 L60 60"/><path d="M16 60 L60 60"/><path d="M16 100 L60 60"/><path d="M60 60 L104 60"/></g><circle cx="60" cy="60" r="16" fill="#fff"/></svg></div>
+        <span class="lab">favicon · dark / light / brand</span>
+      </div>
+      <p class="why"><b>Many inputs, one chokepoint, value flowing out.</b> Literally the thesis as a glyph: the graph converges on the input that stops being elastic. Most on-message of the set.</p>
+    </div>
+
+    <!-- 02 FORECAST CONE -->
+    <div class="card">
+      <div class="card-top"><span class="num">02</span><span class="name">Forecast cone</span></div>
+      <div class="stage">
+        <svg width="130" height="120" viewBox="0 0 130 120" fill="none">
+          <path d="M18 60 L120 20 L120 100 Z" fill="url(#cone)" opacity=".22"/>
+          <path d="M18 60 L120 30" stroke="#6d6afc" stroke-width="1.6" opacity=".4"/>
+          <path d="M18 60 L120 90" stroke="#6d6afc" stroke-width="1.6" opacity=".4"/>
+          <path d="M18 60 C 55 56, 80 70, 120 52" stroke="#a9a6ff" stroke-width="3" fill="none" stroke-linecap="round"/>
+          <circle cx="18" cy="60" r="6" fill="#6d6afc"/>
+          <circle cx="120" cy="52" r="6" fill="#a9a6ff"/>
+          <defs><linearGradient id="cone" x1="18" y1="60" x2="120" y2="60" gradientUnits="userSpaceOnUse"><stop stop-color="#6d6afc"/><stop offset="1" stop-color="#3f66fe" stop-opacity=".2"/></linearGradient></defs>
+        </svg>
+      </div>
+      <div class="lockup">
+        <svg width="40" height="38" viewBox="0 0 130 120" fill="none"><path d="M18 60 L120 22 L120 98 Z" fill="#6d6afc" opacity=".22"/><path d="M18 60 C 55 56, 80 70, 120 50" stroke="#a9a6ff" stroke-width="6" fill="none" stroke-linecap="round"/><circle cx="18" cy="60" r="9" fill="#6d6afc"/></svg>
+        <span class="word">Vaticinus</span>
+      </div>
+      <div class="mini">
+        <div class="chip dark tiny"><svg viewBox="0 0 130 120" fill="none"><path d="M18 60 L118 24 L118 96 Z" fill="#6d6afc" opacity=".35"/><circle cx="18" cy="60" r="11" fill="#6d6afc"/></svg></div>
+        <div class="chip light tiny"><svg viewBox="0 0 130 120" fill="none"><path d="M18 60 L118 24 L118 96 Z" fill="#3f66fe" opacity=".3"/><circle cx="18" cy="60" r="11" fill="#3f66fe"/></svg></div>
+        <div class="chip brand tiny"><svg viewBox="0 0 130 120" fill="none"><path d="M18 60 L118 24 L118 96 Z" fill="#fff" opacity=".4"/><circle cx="18" cy="60" r="11" fill="#fff"/></svg></div>
+        <span class="lab">favicon · dark / light / brand</span>
+      </div>
+      <p class="why"><b>A probability cone widening from a single dated point,</b> with the called path drawn through it. Reads instantly as "calibrated forecast," not magic. The dot is the dated, sealed origin.</p>
+    </div>
+
+    <!-- 03 V MONOGRAM / CONVERGING VECTORS -->
+    <div class="card">
+      <div class="card-top"><span class="num">03</span><span class="name">V monogram · converging vectors</span></div>
+      <div class="stage">
+        <svg width="120" height="120" viewBox="0 0 120 120" fill="none">
+          <path d="M22 26 L60 92" stroke="#6d6afc" stroke-width="9" stroke-linecap="round"/>
+          <path d="M98 26 L60 92" stroke="#a9a6ff" stroke-width="9" stroke-linecap="round"/>
+          <circle cx="60" cy="92" r="7" fill="#fff"/>
+          <circle cx="22" cy="26" r="4.5" fill="#6d6afc"/>
+          <circle cx="98" cy="26" r="4.5" fill="#a9a6ff"/>
+        </svg>
+      </div>
+      <div class="lockup">
+        <svg width="34" height="34" viewBox="0 0 120 120" fill="none"><path d="M22 26 L60 92" stroke="#6d6afc" stroke-width="11" stroke-linecap="round"/><path d="M98 26 L60 92" stroke="#a9a6ff" stroke-width="11" stroke-linecap="round"/><circle cx="60" cy="92" r="8" fill="#fff"/></svg>
+        <span class="word">Vaticinus</span>
+      </div>
+      <div class="mini">
+        <div class="chip dark tiny"><svg viewBox="0 0 120 120" fill="none"><path d="M24 28 L60 92" stroke="#6d6afc" stroke-width="13" stroke-linecap="round"/><path d="M96 28 L60 92" stroke="#a9a6ff" stroke-width="13" stroke-linecap="round"/></svg></div>
+        <div class="chip light tiny"><svg viewBox="0 0 120 120" fill="none"><path d="M24 28 L60 92" stroke="#3f66fe" stroke-width="13" stroke-linecap="round"/><path d="M96 28 L60 92" stroke="#3f66fe" stroke-width="13" stroke-linecap="round"/></svg></div>
+        <div class="chip brand tiny"><svg viewBox="0 0 120 120" fill="none"><path d="M24 28 L60 92" stroke="#fff" stroke-width="13" stroke-linecap="round"/><path d="M96 28 L60 92" stroke="#fff" stroke-width="13" stroke-linecap="round"/></svg></div>
+        <span class="lab">favicon · dark / light / brand</span>
+      </div>
+      <p class="why"><b>A bare "V" that's also two vectors converging to a point</b> — many possibilities resolving to one call. Cleanest, most scalable, most "lab logo." Two-tone says synthesis of two signals.</p>
+    </div>
+
+    <!-- 04 THE SEAL -->
+    <div class="card">
+      <div class="card-top"><span class="num">04</span><span class="name">The sealed record</span></div>
+      <div class="stage">
+        <svg width="120" height="120" viewBox="0 0 120 120" fill="none">
+          <circle cx="60" cy="60" r="42" stroke="#6d6afc" stroke-width="2.5" opacity=".5"/>
+          <circle cx="60" cy="60" r="42" stroke="#6d6afc" stroke-width="6" stroke-dasharray="2 7" opacity=".7"/>
+          <path d="M40 62 L54 74 L82 46" stroke="#a9a6ff" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </div>
+      <div class="lockup">
+        <svg width="36" height="36" viewBox="0 0 120 120" fill="none"><circle cx="60" cy="60" r="44" stroke="#6d6afc" stroke-width="7" stroke-dasharray="3 8" opacity=".75"/><path d="M40 62 L54 74 L82 46" stroke="#a9a6ff" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <span class="word">Vaticinus</span>
+      </div>
+      <div class="mini">
+        <div class="chip dark tiny"><svg viewBox="0 0 120 120" fill="none"><circle cx="60" cy="60" r="46" stroke="#6d6afc" stroke-width="9" opacity=".6"/><path d="M38 62 L54 76 L84 44" stroke="#a9a6ff" stroke-width="11" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        <div class="chip light tiny"><svg viewBox="0 0 120 120" fill="none"><circle cx="60" cy="60" r="46" stroke="#3f66fe" stroke-width="9" opacity=".7"/><path d="M38 62 L54 76 L84 44" stroke="#3f66fe" stroke-width="11" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        <div class="chip brand tiny"><svg viewBox="0 0 120 120" fill="none"><circle cx="60" cy="60" r="46" stroke="#fff" stroke-width="9" opacity=".8"/><path d="M38 62 L54 76 L84 44" stroke="#fff" stroke-width="11" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        <span class="lab">favicon · dark / light / brand</span>
+      </div>
+      <p class="why"><b>A wax-seal ring with a resolved check inside.</b> Plays the honesty card — every call dated, sealed, scored. Doubles beautifully as the emboss on the forecast PDFs. Less "research," more "proof."</p>
+    </div>
+
+    <!-- 05 APERTURE / SEER'S EYE -->
+    <div class="card">
+      <div class="card-top"><span class="num">05</span><span class="name">Aperture · the seer's eye</span></div>
+      <div class="stage">
+        <svg width="120" height="120" viewBox="0 0 120 120" fill="none">
+          <g opacity=".55" stroke="#6d6afc" stroke-width="2.5">
+            <path d="M60 18 A42 42 0 0 1 96 39"/>
+            <path d="M96 39 A42 42 0 0 1 96 81"/>
+            <path d="M96 81 A42 42 0 0 1 60 102"/>
+            <path d="M60 102 A42 42 0 0 1 24 81"/>
+            <path d="M24 81 A42 42 0 0 1 24 39"/>
+            <path d="M24 39 A42 42 0 0 1 60 18"/>
+          </g>
+          <g stroke="#a9a6ff" stroke-width="2.5" opacity=".8">
+            <path d="M60 18 L80 60"/><path d="M96 81 L60 60"/><path d="M24 81 L60 60"/>
+          </g>
+          <circle cx="60" cy="60" r="9" fill="#6d6afc"/>
+        </svg>
+      </div>
+      <div class="lockup">
+        <svg width="36" height="36" viewBox="0 0 120 120" fill="none"><circle cx="60" cy="60" r="40" stroke="#6d6afc" stroke-width="6" opacity=".5"/><g stroke="#a9a6ff" stroke-width="6" stroke-linecap="round"><path d="M60 22 L60 48"/><path d="M93 79 L70 66"/><path d="M27 79 L50 66"/></g><circle cx="60" cy="60" r="10" fill="#6d6afc"/></svg>
+        <span class="word">Vaticinus</span>
+      </div>
+      <div class="mini">
+        <div class="chip dark tiny"><svg viewBox="0 0 120 120" fill="none"><circle cx="60" cy="60" r="42" stroke="#6d6afc" stroke-width="9" opacity=".6"/><circle cx="60" cy="60" r="14" fill="#6d6afc"/></svg></div>
+        <div class="chip light tiny"><svg viewBox="0 0 120 120" fill="none"><circle cx="60" cy="60" r="42" stroke="#3f66fe" stroke-width="9" opacity=".7"/><circle cx="60" cy="60" r="14" fill="#3f66fe"/></svg></div>
+        <div class="chip brand tiny"><svg viewBox="0 0 120 120" fill="none"><circle cx="60" cy="60" r="42" stroke="#fff" stroke-width="9" opacity=".8"/><circle cx="60" cy="60" r="14" fill="#fff"/></svg></div>
+        <span class="lab">favicon · dark / light / brand</span>
+      </div>
+      <p class="why"><b>A camera aperture / iris with a focused pupil.</b> Nods to the "seer" in the name without going mystical — it's an instrument that focuses. Risk: irises are common; lean on the indigo and the spokes to differentiate.</p>
+    </div>
+
+    <!-- 06 PINCH / SCARCITY HOURGLASS -->
+    <div class="card">
+      <div class="card-top"><span class="num">06</span><span class="name">The pinch · supply elasticity</span></div>
+      <div class="stage">
+        <svg width="110" height="120" viewBox="0 0 110 120" fill="none">
+          <path d="M20 16 C 20 16, 55 50, 55 60 C 55 70, 20 104, 20 104" stroke="#6d6afc" stroke-width="5" stroke-linecap="round" fill="none"/>
+          <path d="M90 16 C 90 16, 55 50, 55 60 C 55 70, 90 104, 90 104" stroke="#a9a6ff" stroke-width="5" stroke-linecap="round" fill="none"/>
+          <circle cx="55" cy="60" r="8" fill="#fff"/>
+        </svg>
+      </div>
+      <div class="lockup">
+        <svg width="32" height="36" viewBox="0 0 110 120" fill="none"><path d="M20 16 C 20 16, 55 50, 55 60 C 55 70, 20 104, 20 104" stroke="#6d6afc" stroke-width="7" stroke-linecap="round" fill="none"/><path d="M90 16 C 90 16, 55 50, 55 60 C 55 70, 90 104, 90 104" stroke="#a9a6ff" stroke-width="7" stroke-linecap="round" fill="none"/><circle cx="55" cy="60" r="9" fill="#fff"/></svg>
+        <span class="word">Vaticinus</span>
+      </div>
+      <div class="mini">
+        <div class="chip dark tiny"><svg viewBox="0 0 110 120" fill="none"><path d="M22 18 C 22 18, 55 52, 55 60 C 55 68, 22 102, 22 102" stroke="#6d6afc" stroke-width="11" stroke-linecap="round" fill="none"/><path d="M88 18 C 88 18, 55 52, 55 60 C 55 68, 88 102, 88 102" stroke="#a9a6ff" stroke-width="11" stroke-linecap="round" fill="none"/></svg></div>
+        <div class="chip light tiny"><svg viewBox="0 0 110 120" fill="none"><path d="M22 18 C 22 18, 55 52, 55 60 C 55 68, 22 102, 22 102" stroke="#3f66fe" stroke-width="11" stroke-linecap="round" fill="none"/><path d="M88 18 C 88 18, 55 52, 55 60 C 55 68, 88 102, 88 102" stroke="#3f66fe" stroke-width="11" stroke-linecap="round" fill="none"/></svg></div>
+        <div class="chip brand tiny"><svg viewBox="0 0 110 120" fill="none"><path d="M22 18 C 22 18, 55 52, 55 60 C 55 68, 22 102, 22 102" stroke="#fff" stroke-width="11" stroke-linecap="round" fill="none"/><path d="M88 18 C 88 18, 55 52, 55 60 C 55 68, 88 102, 88 102" stroke="#fff" stroke-width="11" stroke-linecap="round" fill="none"/></svg></div>
+        <span class="lab">favicon · dark / light / brand</span>
+      </div>
+      <p class="why"><b>An hourglass that's also a "V" tipped to its waist</b> — the choke where supply stops being elastic and rent collects. Abstract and ownable; reads as both scarcity and time-to-resolution.</p>
+    </div>
+
+    <!-- 07 SIGNAL TICKS / RISING READ -->
+    <div class="card">
+      <div class="card-top"><span class="num">07</span><span class="name">The read · pre-consensus tick</span></div>
+      <div class="stage">
+        <svg width="130" height="110" viewBox="0 0 130 110" fill="none">
+          <g stroke="#6d6afc" stroke-width="6" stroke-linecap="round" opacity=".4">
+            <path d="M22 90 L22 76"/><path d="M44 90 L44 70"/><path d="M66 90 L66 78"/>
+          </g>
+          <path d="M22 64 L52 40 L78 56 L110 22" stroke="#a9a6ff" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="110" cy="22" r="8" fill="#6d6afc"/>
+          <circle cx="110" cy="22" r="14" stroke="#6d6afc" stroke-width="2" opacity=".4"/>
+        </svg>
+      </div>
+      <div class="lockup">
+        <svg width="42" height="36" viewBox="0 0 130 110" fill="none"><path d="M18 70 L52 40 L78 56 L112 20" stroke="#a9a6ff" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round"/><circle cx="112" cy="20" r="9" fill="#6d6afc"/></svg>
+        <span class="word">Vaticinus</span>
+      </div>
+      <div class="mini">
+        <div class="chip dark tiny"><svg viewBox="0 0 130 110" fill="none"><path d="M18 84 L52 44 L78 60 L112 20" stroke="#a9a6ff" stroke-width="11" fill="none" stroke-linecap="round" stroke-linejoin="round"/><circle cx="112" cy="20" r="13" fill="#6d6afc"/></svg></div>
+        <div class="chip light tiny"><svg viewBox="0 0 130 110" fill="none"><path d="M18 84 L52 44 L78 60 L112 20" stroke="#3f66fe" stroke-width="11" fill="none" stroke-linecap="round" stroke-linejoin="round"/><circle cx="112" cy="20" r="13" fill="#3f66fe"/></svg></div>
+        <div class="chip brand tiny"><svg viewBox="0 0 130 110" fill="none"><path d="M18 84 L52 44 L78 60 L112 20" stroke="#fff" stroke-width="11" fill="none" stroke-linecap="round" stroke-linejoin="round"/><circle cx="112" cy="20" r="13" fill="#fff"/></svg></div>
+        <span class="lab">favicon · dark / light / brand</span>
+      </div>
+      <p class="why"><b>A signal line breaking up and out, ending on a marked node.</b> Echoes the "Vati's read" bars already on the site. Most fintech-adjacent of the set; differentiate hard or it blends into every trading app.</p>
+    </div>
+
+    <!-- 08 CONSTELLATION (evolved current) -->
+    <div class="card">
+      <div class="card-top"><span class="num">08</span><span class="name">Constellation · evolved current mark</span></div>
+      <div class="stage">
+        <svg width="130" height="110" viewBox="0 0 130 110" fill="none">
+          <path d="M14 60 L30 34 L58 50 L84 26 L108 46" stroke="#a9a6ff" stroke-width="2" fill="none" opacity=".7" stroke-linecap="round"/>
+          <path d="M58 50 L66 80 L30 34" stroke="#6d6afc" stroke-width="2" fill="none" opacity=".5" stroke-linecap="round"/>
+          <g fill="#6d6afc">
+            <circle cx="14" cy="60" r="3.5"/><circle cx="30" cy="34" r="4.5"/><circle cx="58" cy="50" r="4"/><circle cx="66" cy="80" r="3.5"/>
+          </g>
+          <circle cx="108" cy="46" r="5.5" fill="#a9a6ff"/>
+          <!-- the seer spark -->
+          <path d="M84 18 L87 24 L93 26 L87 28 L84 34 L81 28 L75 26 L81 24 Z" fill="#6d6afc"/>
+        </svg>
+      </div>
+      <div class="lockup">
+        <svg width="40" height="34" viewBox="0 0 130 110" fill="none"><path d="M14 62 L34 36 L60 52 L88 30" stroke="#a9a6ff" stroke-width="4" fill="none" stroke-linecap="round"/><g fill="#6d6afc"><circle cx="14" cy="62" r="5"/><circle cx="34" cy="36" r="5"/><circle cx="60" cy="52" r="5"/></g><path d="M88 20 L92 28 L100 32 L92 36 L88 44 L84 36 L76 32 L84 28 Z" fill="#6d6afc"/></svg>
+        <span class="word">Vaticinus</span>
+      </div>
+      <div class="mini">
+        <div class="chip dark tiny"><svg viewBox="0 0 130 110" fill="none"><path d="M30 80 L60 50 L90 70" stroke="#a9a6ff" stroke-width="9" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M90 18 L96 32 L110 38 L96 44 L90 58 L84 44 L70 38 L84 32 Z" fill="#6d6afc"/></svg></div>
+        <div class="chip light tiny"><svg viewBox="0 0 130 110" fill="none"><path d="M30 80 L60 50 L90 70" stroke="#3f66fe" stroke-width="9" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M90 18 L96 32 L110 38 L96 44 L90 58 L84 44 L70 38 L84 32 Z" fill="#3f66fe"/></svg></div>
+        <div class="chip brand tiny"><svg viewBox="0 0 130 110" fill="none"><path d="M30 80 L60 50 L90 70" stroke="#fff" stroke-width="9" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M90 18 L96 32 L110 38 L96 44 L90 58 L84 44 L70 38 L84 32 Z" fill="#fff"/></svg></div>
+        <span class="lab">favicon · dark / light / brand</span>
+      </div>
+      <p class="why"><b>What you already ship, cleaned up:</b> a dependency constellation with the seer's spark. Lowest-risk path — keeps brand recognition. Weakness: too busy below ~24px, hence the simplified favicon.</p>
+    </div>
+
+    <!-- 09 LETTERFORM V + INTERVAL -->
+    <div class="card">
+      <div class="card-top"><span class="num">09</span><span class="name">V + interval brackets</span></div>
+      <div class="stage">
+        <svg width="130" height="110" viewBox="0 0 130 110" fill="none">
+          <path d="M18 30 L18 80" stroke="#6d6afc" stroke-width="4" stroke-linecap="round" opacity=".5"/>
+          <path d="M18 30 L26 30 M18 80 L26 80" stroke="#6d6afc" stroke-width="4" stroke-linecap="round" opacity=".5"/>
+          <path d="M112 30 L112 80" stroke="#6d6afc" stroke-width="4" stroke-linecap="round" opacity=".5"/>
+          <path d="M112 30 L104 30 M112 80 L104 80" stroke="#6d6afc" stroke-width="4" stroke-linecap="round" opacity=".5"/>
+          <path d="M42 34 L65 80 L88 34" stroke="#a9a6ff" stroke-width="9" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="65" cy="80" r="6" fill="#fff"/>
+        </svg>
+      </div>
+      <div class="lockup">
+        <svg width="40" height="34" viewBox="0 0 130 110" fill="none"><path d="M22 32 L22 78 M22 32 L30 32 M22 78 L30 78 M108 32 L108 78 M108 32 L100 32 M108 78 L100 78" stroke="#6d6afc" stroke-width="6" stroke-linecap="round" opacity=".55"/><path d="M44 34 L65 80 L86 34" stroke="#a9a6ff" stroke-width="10" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <span class="word">Vaticinus</span>
+      </div>
+      <div class="mini">
+        <div class="chip dark tiny"><svg viewBox="0 0 130 110" fill="none"><path d="M40 30 L65 84 L90 30" stroke="#a9a6ff" stroke-width="13" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        <div class="chip light tiny"><svg viewBox="0 0 130 110" fill="none"><path d="M40 30 L65 84 L90 30" stroke="#3f66fe" stroke-width="13" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        <div class="chip brand tiny"><svg viewBox="0 0 130 110" fill="none"><path d="M40 30 L65 84 L90 30" stroke="#fff" stroke-width="13" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        <span class="lab">favicon · dark / light / brand</span>
+      </div>
+      <p class="why"><b>A bold "V" held inside confidence-interval brackets.</b> Says forecasting-with-error-bars in one shape, and the V carries the name. The brackets drop cleanly at favicon size, leaving a strong monogram.</p>
+    </div>
+
+    <!-- 10 WORDMARK ONLY -->
+    <div class="card">
+      <div class="card-top"><span class="num">10</span><span class="name">Wordmark · no symbol</span></div>
+      <div class="stage" style="flex-direction:column;gap:14px">
+        <div style="font-size:34px;font-weight:600;letter-spacing:-.02em">Vaticinus</div>
+        <div style="display:flex;align-items:center;gap:10px">
+          <span style="font-size:34px;font-weight:600;letter-spacing:-.02em">Vati</span>
+          <span style="width:7px;height:7px;border-radius:2px;background:var(--indigo);transform:rotate(45deg);display:inline-block"></span>
+          <span style="font-size:34px;font-weight:600;letter-spacing:-.02em;color:var(--muted)">cinus</span>
+        </div>
+      </div>
+      <div class="lockup">
+        <span class="word">Vati<span style="color:var(--indigo)">·</span><span class="light">cinus</span></span>
+      </div>
+      <div class="mini">
+        <div class="chip dark" style="font-weight:700;color:#6d6afc;font-size:20px">V</div>
+        <div class="chip light" style="font-weight:700;color:#3f66fe;font-size:20px">V</div>
+        <div class="chip brand" style="font-weight:700;color:#fff;font-size:20px">V</div>
+        <span class="lab">favicon · single "V"</span>
+      </div>
+      <p class="why"><b>No symbol at all — let the name carry it,</b> with one indigo accent at the join (a "tick" between the reading and the verdict). Most institutional, ages best, hardest to do badly. The favicon is just a set "V".</p>
+    </div>
+
+  </div>
+
+  <footer>
+    <span class="pill">on-thesis</span> 01 binding node · 02 forecast cone · 06 pinch &nbsp;
+    <span class="pill">safest</span> 03 V-vectors · 08 evolved current · 10 wordmark &nbsp;
+    <span class="pill">proof angle</span> 04 seal<br><br>
+    My pick: <b>01 (binding node)</b> for the symbol — it's the only one that draws the actual thesis — paired with the <b>10</b> wordmark treatment. <b>03</b> is the safe institutional fallback if you want something that never looks dated. Tell me which one (or which two to merge) and I'll cut clean SVG + favicon + the PDF seal variant and wire it into <code>nav.html</code> / <code>render.py</code>.
+  </footer>
+</div>
+</body>
+</html>

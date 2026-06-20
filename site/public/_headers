@@ -1,0 +1,26 @@
+/*
+  Strict-Transport-Security: max-age=31536000; includeSubDomains
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  X-Frame-Options: DENY
+  Cross-Origin-Opener-Policy: same-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=()
+  Content-Security-Policy: default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'none'; form-action 'self' https://chat.vaticinus.com; img-src 'self' data: blob: https://*.cal.com; font-src 'self' data: https://fonts.gstatic.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; script-src 'self' 'unsafe-inline' 'wasm-unsafe-eval' https://*.cal.com https://challenges.cloudflare.com; connect-src 'self' https://chat.vaticinus.com https://*.cal.com https://challenges.cloudflare.com; frame-src https://*.cal.com https://challenges.cloudflare.com; worker-src 'self' blob:; media-src 'self' blob:; upgrade-insecure-requests
+
+/sitemap.xml
+  Content-Type: application/xml; charset=utf-8
+  X-Robots-Tag: index, follow
+
+/robots.txt
+  Content-Type: text/plain; charset=utf-8
+
+/api/*
+  Cache-Control: no-store
+  X-Robots-Tag: noindex, nofollow
+
+/understand/*
+  X-Robots-Tag: noindex, nofollow
+
+/understand-data/*
+  Cache-Control: no-store
+  X-Robots-Tag: noindex, nofollow

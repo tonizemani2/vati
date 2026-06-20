@@ -1,0 +1,2042 @@
+{
+  "nodes": [
+    {
+      "id": "file:engine/metaculus/forecast.py",
+      "type": "file",
+      "name": "forecast.py",
+      "filePath": "engine/metaculus/forecast.py",
+      "summary": "forecast.py is a code asset in the forecasting engine. It contains 12 functions, 8 internal imports.",
+      "tags": [
+        "forecasting-engine",
+        "forecasting",
+        "code"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:engine/metaculus/forecast.py:_prompt",
+      "type": "function",
+      "name": "_prompt",
+      "filePath": "engine/metaculus/forecast.py",
+      "lineRange": [
+        65,
+        94
+      ],
+      "summary": "Defines _prompt in forecast.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "forecast"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/metaculus/forecast.py:_world_state_enabled",
+      "type": "function",
+      "name": "_world_state_enabled",
+      "filePath": "engine/metaculus/forecast.py",
+      "lineRange": [
+        97,
+        99
+      ],
+      "summary": "Defines _world_state_enabled in forecast.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "forecast"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/metaculus/forecast.py:_world_state_proof_enabled",
+      "type": "function",
+      "name": "_world_state_proof_enabled",
+      "filePath": "engine/metaculus/forecast.py",
+      "lineRange": [
+        102,
+        106
+      ],
+      "summary": "Defines _world_state_proof_enabled in forecast.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "forecast"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/metaculus/forecast.py:_world_state_metadata_from_pack",
+      "type": "function",
+      "name": "_world_state_metadata_from_pack",
+      "filePath": "engine/metaculus/forecast.py",
+      "lineRange": [
+        109,
+        142
+      ],
+      "summary": "Defines _world_state_metadata_from_pack in forecast.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "forecast"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/metaculus/forecast.py:_world_state_metadata_from_proof",
+      "type": "function",
+      "name": "_world_state_metadata_from_proof",
+      "filePath": "engine/metaculus/forecast.py",
+      "lineRange": [
+        145,
+        149
+      ],
+      "summary": "Defines _world_state_metadata_from_proof in forecast.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "forecast"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/metaculus/forecast.py:_world_state_context",
+      "type": "function",
+      "name": "_world_state_context",
+      "filePath": "engine/metaculus/forecast.py",
+      "lineRange": [
+        152,
+        175
+      ],
+      "summary": "Defines _world_state_context in forecast.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "forecast"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/metaculus/forecast.py:_world_state_block",
+      "type": "function",
+      "name": "_world_state_block",
+      "filePath": "engine/metaculus/forecast.py",
+      "lineRange": [
+        178,
+        179
+      ],
+      "summary": "Defines _world_state_block in forecast.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "forecast"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/metaculus/forecast.py:_pool",
+      "type": "function",
+      "name": "_pool",
+      "filePath": "engine/metaculus/forecast.py",
+      "lineRange": [
+        182,
+        184
+      ],
+      "summary": "Defines _pool in forecast.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "forecast"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/metaculus/forecast.py:_coverage_ratio",
+      "type": "function",
+      "name": "_coverage_ratio",
+      "filePath": "engine/metaculus/forecast.py",
+      "lineRange": [
+        187,
+        190
+      ],
+      "summary": "Defines _coverage_ratio in forecast.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "forecast"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/metaculus/forecast.py:_adaptive_native_crowd_weight",
+      "type": "function",
+      "name": "_adaptive_native_crowd_weight",
+      "filePath": "engine/metaculus/forecast.py",
+      "lineRange": [
+        193,
+        206
+      ],
+      "summary": "Defines _adaptive_native_crowd_weight in forecast.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "forecast"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/metaculus/forecast.py:_adaptive_blind_shrink",
+      "type": "function",
+      "name": "_adaptive_blind_shrink",
+      "filePath": "engine/metaculus/forecast.py",
+      "lineRange": [
+        209,
+        215
+      ],
+      "summary": "Defines _adaptive_blind_shrink in forecast.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "forecast"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/metaculus/forecast.py:forecast_question",
+      "type": "function",
+      "name": "forecast_question",
+      "filePath": "engine/metaculus/forecast.py",
+      "lineRange": [
+        218,
+        340
+      ],
+      "summary": "Defines forecast_question in forecast.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "forecast"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:engine/metaculus/markets.py",
+      "type": "file",
+      "name": "markets.py",
+      "filePath": "engine/metaculus/markets.py",
+      "summary": "markets.py is a code asset in the forecasting engine. It contains 14 functions.",
+      "tags": [
+        "forecasting-engine",
+        "code",
+        "file",
+        "markets"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/metaculus/markets.py:_get",
+      "type": "function",
+      "name": "_get",
+      "filePath": "engine/metaculus/markets.py",
+      "lineRange": [
+        29,
+        32
+      ],
+      "summary": "Defines _get in markets.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "markets"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/metaculus/markets.py:_norm",
+      "type": "function",
+      "name": "_norm",
+      "filePath": "engine/metaculus/markets.py",
+      "lineRange": [
+        39,
+        41
+      ],
+      "summary": "Defines _norm in markets.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "markets"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/metaculus/markets.py:_similarity",
+      "type": "function",
+      "name": "_similarity",
+      "filePath": "engine/metaculus/markets.py",
+      "lineRange": [
+        44,
+        51
+      ],
+      "summary": "Defines _similarity in markets.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "markets"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/metaculus/markets.py:_years",
+      "type": "function",
+      "name": "_years",
+      "filePath": "engine/metaculus/markets.py",
+      "lineRange": [
+        63,
+        64
+      ],
+      "summary": "Defines _years in markets.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "markets"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/metaculus/markets.py:_months",
+      "type": "function",
+      "name": "_months",
+      "filePath": "engine/metaculus/markets.py",
+      "lineRange": [
+        67,
+        68
+      ],
+      "summary": "Defines _months in markets.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "markets"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/metaculus/markets.py:_money_amounts",
+      "type": "function",
+      "name": "_money_amounts",
+      "filePath": "engine/metaculus/markets.py",
+      "lineRange": [
+        71,
+        81
+      ],
+      "summary": "Defines _money_amounts in markets.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "markets"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/metaculus/markets.py:_percents",
+      "type": "function",
+      "name": "_percents",
+      "filePath": "engine/metaculus/markets.py",
+      "lineRange": [
+        84,
+        88
+      ],
+      "summary": "Defines _percents in markets.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "markets"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/metaculus/markets.py:_close_any",
+      "type": "function",
+      "name": "_close_any",
+      "filePath": "engine/metaculus/markets.py",
+      "lineRange": [
+        91,
+        92
+      ],
+      "summary": "Defines _close_any in markets.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "markets"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/metaculus/markets.py:_direction",
+      "type": "function",
+      "name": "_direction",
+      "filePath": "engine/metaculus/markets.py",
+      "lineRange": [
+        95,
+        101
+      ],
+      "summary": "Defines _direction in markets.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "markets"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/metaculus/markets.py:_usable_match",
+      "type": "function",
+      "name": "_usable_match",
+      "filePath": "engine/metaculus/markets.py",
+      "lineRange": [
+        104,
+        129
+      ],
+      "summary": "Defines _usable_match in markets.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "markets"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/metaculus/markets.py:_manifold",
+      "type": "function",
+      "name": "_manifold",
+      "filePath": "engine/metaculus/markets.py",
+      "lineRange": [
+        132,
+        144
+      ],
+      "summary": "Defines _manifold in markets.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "markets"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/metaculus/markets.py:_polymarket",
+      "type": "function",
+      "name": "_polymarket",
+      "filePath": "engine/metaculus/markets.py",
+      "lineRange": [
+        147,
+        167
+      ],
+      "summary": "Defines _polymarket in markets.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "markets"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/metaculus/markets.py:cross_market",
+      "type": "function",
+      "name": "cross_market",
+      "filePath": "engine/metaculus/markets.py",
+      "lineRange": [
+        170,
+        180
+      ],
+      "summary": "Defines cross_market in markets.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "markets"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/metaculus/markets.py:evidence_line",
+      "type": "function",
+      "name": "evidence_line",
+      "filePath": "engine/metaculus/markets.py",
+      "lineRange": [
+        183,
+        191
+      ],
+      "summary": "Defines evidence_line in markets.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "markets"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:engine/metaculus/numeric.py",
+      "type": "file",
+      "name": "numeric.py",
+      "filePath": "engine/metaculus/numeric.py",
+      "summary": "numeric.py is a code asset in the forecasting engine. It contains 8 functions, 2 internal imports.",
+      "tags": [
+        "forecasting-engine",
+        "code",
+        "file",
+        "numeric"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/metaculus/numeric.py:options_to_vector",
+      "type": "function",
+      "name": "options_to_vector",
+      "filePath": "engine/metaculus/numeric.py",
+      "lineRange": [
+        26,
+        33
+      ],
+      "summary": "Defines options_to_vector in numeric.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "numeric"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/metaculus/numeric.py:percentiles_to_cdf",
+      "type": "function",
+      "name": "percentiles_to_cdf",
+      "filePath": "engine/metaculus/numeric.py",
+      "lineRange": [
+        38,
+        62
+      ],
+      "summary": "Defines percentiles_to_cdf in numeric.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "numeric"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/metaculus/numeric.py:min_step",
+      "type": "function",
+      "name": "min_step",
+      "filePath": "engine/metaculus/numeric.py",
+      "lineRange": [
+        65,
+        68
+      ],
+      "summary": "Defines min_step in numeric.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "numeric"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/metaculus/numeric.py:enforce_valid_cdf",
+      "type": "function",
+      "name": "enforce_valid_cdf",
+      "filePath": "engine/metaculus/numeric.py",
+      "lineRange": [
+        71,
+        95
+      ],
+      "summary": "Defines enforce_valid_cdf in numeric.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "numeric"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/metaculus/numeric.py:validate_cdf",
+      "type": "function",
+      "name": "validate_cdf",
+      "filePath": "engine/metaculus/numeric.py",
+      "lineRange": [
+        98,
+        111
+      ],
+      "summary": "Defines validate_cdf in numeric.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "numeric"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/metaculus/numeric.py:submit_multiple_choice",
+      "type": "function",
+      "name": "submit_multiple_choice",
+      "filePath": "engine/metaculus/numeric.py",
+      "lineRange": [
+        116,
+        121
+      ],
+      "summary": "Defines submit_multiple_choice in numeric.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "numeric"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/metaculus/numeric.py:submit_cdf",
+      "type": "function",
+      "name": "submit_cdf",
+      "filePath": "engine/metaculus/numeric.py",
+      "lineRange": [
+        124,
+        129
+      ],
+      "summary": "Defines submit_cdf in numeric.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "numeric"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/metaculus/numeric.py:question_meta",
+      "type": "function",
+      "name": "question_meta",
+      "filePath": "engine/metaculus/numeric.py",
+      "lineRange": [
+        132,
+        148
+      ],
+      "summary": "Defines question_meta in numeric.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "numeric"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:engine/metaculus/numeric_forecast.py",
+      "type": "file",
+      "name": "numeric_forecast.py",
+      "filePath": "engine/metaculus/numeric_forecast.py",
+      "summary": "numeric_forecast.py is a code asset in the forecasting engine. It contains 8 functions, 7 internal imports.",
+      "tags": [
+        "forecasting-engine",
+        "forecasting",
+        "code"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:engine/metaculus/numeric_forecast.py:_num_prompt",
+      "type": "function",
+      "name": "_num_prompt",
+      "filePath": "engine/metaculus/numeric_forecast.py",
+      "lineRange": [
+        47,
+        65
+      ],
+      "summary": "Defines _num_prompt in numeric_forecast.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "numeric-forecast"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/metaculus/numeric_forecast.py:_mc_prompt",
+      "type": "function",
+      "name": "_mc_prompt",
+      "filePath": "engine/metaculus/numeric_forecast.py",
+      "lineRange": [
+        68,
+        78
+      ],
+      "summary": "Defines _mc_prompt in numeric_forecast.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "numeric-forecast"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/metaculus/numeric_forecast.py:_parse_pctiles",
+      "type": "function",
+      "name": "_parse_pctiles",
+      "filePath": "engine/metaculus/numeric_forecast.py",
+      "lineRange": [
+        81,
+        99
+      ],
+      "summary": "Defines _parse_pctiles in numeric_forecast.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "numeric-forecast"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/metaculus/numeric_forecast.py:_parse_dist",
+      "type": "function",
+      "name": "_parse_dist",
+      "filePath": "engine/metaculus/numeric_forecast.py",
+      "lineRange": [
+        102,
+        120
+      ],
+      "summary": "Defines _parse_dist in numeric_forecast.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "numeric-forecast"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/metaculus/numeric_forecast.py:_council",
+      "type": "function",
+      "name": "_council",
+      "filePath": "engine/metaculus/numeric_forecast.py",
+      "lineRange": [
+        123,
+        141
+      ],
+      "summary": "Defines _council in numeric_forecast.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "numeric-forecast"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/metaculus/numeric_forecast.py:forecast_numeric",
+      "type": "function",
+      "name": "forecast_numeric",
+      "filePath": "engine/metaculus/numeric_forecast.py",
+      "lineRange": [
+        144,
+        171
+      ],
+      "summary": "Defines forecast_numeric in numeric_forecast.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "numeric-forecast"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/metaculus/numeric_forecast.py:forecast_mc",
+      "type": "function",
+      "name": "forecast_mc",
+      "filePath": "engine/metaculus/numeric_forecast.py",
+      "lineRange": [
+        174,
+        190
+      ],
+      "summary": "Defines forecast_mc in numeric_forecast.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "numeric-forecast"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/metaculus/numeric_forecast.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "engine/metaculus/numeric_forecast.py",
+      "lineRange": [
+        195,
+        280
+      ],
+      "summary": "Defines main in numeric_forecast.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entry-point",
+        "numeric-forecast"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:engine/metaculus/qbank.py",
+      "type": "file",
+      "name": "qbank.py",
+      "filePath": "engine/metaculus/qbank.py",
+      "summary": "qbank.py is a code asset in the forecasting engine. It contains 6 functions.",
+      "tags": [
+        "forecasting-engine",
+        "code",
+        "file",
+        "qbank"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/metaculus/qbank.py:_get",
+      "type": "function",
+      "name": "_get",
+      "filePath": "engine/metaculus/qbank.py",
+      "lineRange": [
+        56,
+        59
+      ],
+      "summary": "Defines _get in qbank.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "qbank"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/metaculus/qbank.py:_ok",
+      "type": "function",
+      "name": "_ok",
+      "filePath": "engine/metaculus/qbank.py",
+      "lineRange": [
+        62,
+        73
+      ],
+      "summary": "Defines _ok in qbank.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "qbank"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/metaculus/qbank.py:_row",
+      "type": "function",
+      "name": "_row",
+      "filePath": "engine/metaculus/qbank.py",
+      "lineRange": [
+        76,
+        90
+      ],
+      "summary": "Defines _row in qbank.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "qbank"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/metaculus/qbank.py:harvest",
+      "type": "function",
+      "name": "harvest",
+      "filePath": "engine/metaculus/qbank.py",
+      "lineRange": [
+        93,
+        114
+      ],
+      "summary": "Defines harvest in qbank.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "qbank"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/metaculus/qbank.py:build",
+      "type": "function",
+      "name": "build",
+      "filePath": "engine/metaculus/qbank.py",
+      "lineRange": [
+        117,
+        130
+      ],
+      "summary": "Defines build in qbank.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "qbank"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/metaculus/qbank.py:load",
+      "type": "function",
+      "name": "load",
+      "filePath": "engine/metaculus/qbank.py",
+      "lineRange": [
+        133,
+        147
+      ],
+      "summary": "Defines load in qbank.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "qbank"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:engine/metaculus/forecast.py",
+      "target": "function:engine/metaculus/forecast.py:_prompt",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/metaculus/forecast.py",
+      "target": "function:engine/metaculus/forecast.py:_prompt",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/metaculus/forecast.py",
+      "target": "function:engine/metaculus/forecast.py:_world_state_enabled",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/metaculus/forecast.py",
+      "target": "function:engine/metaculus/forecast.py:_world_state_enabled",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/metaculus/forecast.py",
+      "target": "function:engine/metaculus/forecast.py:_world_state_proof_enabled",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/metaculus/forecast.py",
+      "target": "function:engine/metaculus/forecast.py:_world_state_proof_enabled",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/metaculus/forecast.py",
+      "target": "function:engine/metaculus/forecast.py:_world_state_metadata_from_pack",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/metaculus/forecast.py",
+      "target": "function:engine/metaculus/forecast.py:_world_state_metadata_from_pack",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/metaculus/forecast.py",
+      "target": "function:engine/metaculus/forecast.py:_world_state_metadata_from_proof",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/metaculus/forecast.py",
+      "target": "function:engine/metaculus/forecast.py:_world_state_metadata_from_proof",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/metaculus/forecast.py",
+      "target": "function:engine/metaculus/forecast.py:_world_state_context",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/metaculus/forecast.py",
+      "target": "function:engine/metaculus/forecast.py:_world_state_context",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/metaculus/forecast.py",
+      "target": "function:engine/metaculus/forecast.py:_world_state_block",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/metaculus/forecast.py",
+      "target": "function:engine/metaculus/forecast.py:_world_state_block",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/metaculus/forecast.py",
+      "target": "function:engine/metaculus/forecast.py:_pool",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/metaculus/forecast.py",
+      "target": "function:engine/metaculus/forecast.py:_pool",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/metaculus/forecast.py",
+      "target": "function:engine/metaculus/forecast.py:_coverage_ratio",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/metaculus/forecast.py",
+      "target": "function:engine/metaculus/forecast.py:_coverage_ratio",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/metaculus/forecast.py",
+      "target": "function:engine/metaculus/forecast.py:_adaptive_native_crowd_weight",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/metaculus/forecast.py",
+      "target": "function:engine/metaculus/forecast.py:_adaptive_native_crowd_weight",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/metaculus/forecast.py",
+      "target": "function:engine/metaculus/forecast.py:_adaptive_blind_shrink",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/metaculus/forecast.py",
+      "target": "function:engine/metaculus/forecast.py:_adaptive_blind_shrink",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/metaculus/forecast.py",
+      "target": "function:engine/metaculus/forecast.py:forecast_question",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/metaculus/forecast.py",
+      "target": "function:engine/metaculus/forecast.py:forecast_question",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/metaculus/markets.py",
+      "target": "function:engine/metaculus/markets.py:_get",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/metaculus/markets.py",
+      "target": "function:engine/metaculus/markets.py:_get",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/metaculus/markets.py",
+      "target": "function:engine/metaculus/markets.py:_norm",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/metaculus/markets.py",
+      "target": "function:engine/metaculus/markets.py:_norm",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/metaculus/markets.py",
+      "target": "function:engine/metaculus/markets.py:_similarity",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/metaculus/markets.py",
+      "target": "function:engine/metaculus/markets.py:_similarity",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/metaculus/markets.py",
+      "target": "function:engine/metaculus/markets.py:_years",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/metaculus/markets.py",
+      "target": "function:engine/metaculus/markets.py:_years",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/metaculus/markets.py",
+      "target": "function:engine/metaculus/markets.py:_months",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/metaculus/markets.py",
+      "target": "function:engine/metaculus/markets.py:_months",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/metaculus/markets.py",
+      "target": "function:engine/metaculus/markets.py:_money_amounts",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/metaculus/markets.py",
+      "target": "function:engine/metaculus/markets.py:_money_amounts",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/metaculus/markets.py",
+      "target": "function:engine/metaculus/markets.py:_percents",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/metaculus/markets.py",
+      "target": "function:engine/metaculus/markets.py:_percents",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/metaculus/markets.py",
+      "target": "function:engine/metaculus/markets.py:_close_any",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/metaculus/markets.py",
+      "target": "function:engine/metaculus/markets.py:_close_any",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/metaculus/markets.py",
+      "target": "function:engine/metaculus/markets.py:_direction",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/metaculus/markets.py",
+      "target": "function:engine/metaculus/markets.py:_direction",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/metaculus/markets.py",
+      "target": "function:engine/metaculus/markets.py:_usable_match",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/metaculus/markets.py",
+      "target": "function:engine/metaculus/markets.py:_usable_match",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/metaculus/markets.py",
+      "target": "function:engine/metaculus/markets.py:_manifold",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/metaculus/markets.py",
+      "target": "function:engine/metaculus/markets.py:_manifold",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/metaculus/markets.py",
+      "target": "function:engine/metaculus/markets.py:_polymarket",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/metaculus/markets.py",
+      "target": "function:engine/metaculus/markets.py:_polymarket",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/metaculus/markets.py",
+      "target": "function:engine/metaculus/markets.py:cross_market",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/metaculus/markets.py",
+      "target": "function:engine/metaculus/markets.py:cross_market",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/metaculus/markets.py",
+      "target": "function:engine/metaculus/markets.py:evidence_line",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/metaculus/markets.py",
+      "target": "function:engine/metaculus/markets.py:evidence_line",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/metaculus/numeric.py",
+      "target": "function:engine/metaculus/numeric.py:options_to_vector",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/metaculus/numeric.py",
+      "target": "function:engine/metaculus/numeric.py:options_to_vector",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/metaculus/numeric.py",
+      "target": "function:engine/metaculus/numeric.py:percentiles_to_cdf",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/metaculus/numeric.py",
+      "target": "function:engine/metaculus/numeric.py:percentiles_to_cdf",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/metaculus/numeric.py",
+      "target": "function:engine/metaculus/numeric.py:min_step",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/metaculus/numeric.py",
+      "target": "function:engine/metaculus/numeric.py:min_step",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/metaculus/numeric.py",
+      "target": "function:engine/metaculus/numeric.py:enforce_valid_cdf",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/metaculus/numeric.py",
+      "target": "function:engine/metaculus/numeric.py:enforce_valid_cdf",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/metaculus/numeric.py",
+      "target": "function:engine/metaculus/numeric.py:validate_cdf",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/metaculus/numeric.py",
+      "target": "function:engine/metaculus/numeric.py:validate_cdf",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/metaculus/numeric.py",
+      "target": "function:engine/metaculus/numeric.py:submit_multiple_choice",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/metaculus/numeric.py",
+      "target": "function:engine/metaculus/numeric.py:submit_multiple_choice",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/metaculus/numeric.py",
+      "target": "function:engine/metaculus/numeric.py:submit_cdf",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/metaculus/numeric.py",
+      "target": "function:engine/metaculus/numeric.py:submit_cdf",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/metaculus/numeric.py",
+      "target": "function:engine/metaculus/numeric.py:question_meta",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/metaculus/numeric.py",
+      "target": "function:engine/metaculus/numeric.py:question_meta",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/metaculus/numeric_forecast.py",
+      "target": "function:engine/metaculus/numeric_forecast.py:_num_prompt",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/metaculus/numeric_forecast.py",
+      "target": "function:engine/metaculus/numeric_forecast.py:_num_prompt",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/metaculus/numeric_forecast.py",
+      "target": "function:engine/metaculus/numeric_forecast.py:_mc_prompt",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/metaculus/numeric_forecast.py",
+      "target": "function:engine/metaculus/numeric_forecast.py:_mc_prompt",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/metaculus/numeric_forecast.py",
+      "target": "function:engine/metaculus/numeric_forecast.py:_parse_pctiles",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/metaculus/numeric_forecast.py",
+      "target": "function:engine/metaculus/numeric_forecast.py:_parse_pctiles",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/metaculus/numeric_forecast.py",
+      "target": "function:engine/metaculus/numeric_forecast.py:_parse_dist",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/metaculus/numeric_forecast.py",
+      "target": "function:engine/metaculus/numeric_forecast.py:_parse_dist",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/metaculus/numeric_forecast.py",
+      "target": "function:engine/metaculus/numeric_forecast.py:_council",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/metaculus/numeric_forecast.py",
+      "target": "function:engine/metaculus/numeric_forecast.py:_council",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/metaculus/numeric_forecast.py",
+      "target": "function:engine/metaculus/numeric_forecast.py:forecast_numeric",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/metaculus/numeric_forecast.py",
+      "target": "function:engine/metaculus/numeric_forecast.py:forecast_numeric",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/metaculus/numeric_forecast.py",
+      "target": "function:engine/metaculus/numeric_forecast.py:forecast_mc",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/metaculus/numeric_forecast.py",
+      "target": "function:engine/metaculus/numeric_forecast.py:forecast_mc",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/metaculus/numeric_forecast.py",
+      "target": "function:engine/metaculus/numeric_forecast.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/metaculus/numeric_forecast.py",
+      "target": "function:engine/metaculus/numeric_forecast.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/metaculus/qbank.py",
+      "target": "function:engine/metaculus/qbank.py:_get",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/metaculus/qbank.py",
+      "target": "function:engine/metaculus/qbank.py:_get",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/metaculus/qbank.py",
+      "target": "function:engine/metaculus/qbank.py:_ok",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/metaculus/qbank.py",
+      "target": "function:engine/metaculus/qbank.py:_ok",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/metaculus/qbank.py",
+      "target": "function:engine/metaculus/qbank.py:_row",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/metaculus/qbank.py",
+      "target": "function:engine/metaculus/qbank.py:_row",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/metaculus/qbank.py",
+      "target": "function:engine/metaculus/qbank.py:harvest",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/metaculus/qbank.py",
+      "target": "function:engine/metaculus/qbank.py:harvest",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/metaculus/qbank.py",
+      "target": "function:engine/metaculus/qbank.py:build",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/metaculus/qbank.py",
+      "target": "function:engine/metaculus/qbank.py:build",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/metaculus/qbank.py",
+      "target": "function:engine/metaculus/qbank.py:load",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/metaculus/qbank.py",
+      "target": "function:engine/metaculus/qbank.py:load",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/metaculus/forecast.py",
+      "target": "file:engine/__init__.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/metaculus/forecast.py",
+      "target": "file:engine/adapters/llm.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/metaculus/forecast.py",
+      "target": "file:engine/db.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/metaculus/forecast.py",
+      "target": "file:engine/forecastbench/ensemble.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/metaculus/forecast.py",
+      "target": "file:engine/forecastbench/inference.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/metaculus/forecast.py",
+      "target": "file:engine/forecasting/calibration.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/metaculus/forecast.py",
+      "target": "file:engine/metaculus/__init__.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/metaculus/forecast.py",
+      "target": "file:engine/metaculus/research.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/metaculus/numeric.py",
+      "target": "file:engine/metaculus/__init__.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/metaculus/numeric.py",
+      "target": "file:engine/metaculus/api.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/metaculus/numeric_forecast.py",
+      "target": "file:engine/__init__.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/metaculus/numeric_forecast.py",
+      "target": "file:engine/adapters/__init__.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/metaculus/numeric_forecast.py",
+      "target": "file:engine/adapters/llm.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/metaculus/numeric_forecast.py",
+      "target": "file:engine/db.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/metaculus/numeric_forecast.py",
+      "target": "file:engine/metaculus/__init__.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/metaculus/numeric_forecast.py",
+      "target": "file:engine/metaculus/api.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/metaculus/numeric_forecast.py",
+      "target": "file:engine/metaculus/research.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "function:engine/metaculus/forecast.py:_prompt",
+      "target": "function:engine/metaculus/forecast.py:_world_state_enabled",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/metaculus/forecast.py:_prompt",
+      "target": "function:engine/metaculus/forecast.py:_world_state_block",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/metaculus/forecast.py:_world_state_enabled",
+      "target": "function:engine/metaculus/forecast.py:_world_state_proof_enabled",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/metaculus/forecast.py:_world_state_metadata_from_proof",
+      "target": "function:engine/metaculus/forecast.py:_world_state_metadata_from_pack",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/metaculus/forecast.py:_world_state_context",
+      "target": "function:engine/metaculus/forecast.py:_world_state_proof_enabled",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/metaculus/forecast.py:_world_state_context",
+      "target": "function:engine/metaculus/forecast.py:_world_state_metadata_from_proof",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/metaculus/forecast.py:_world_state_context",
+      "target": "function:engine/metaculus/forecast.py:_world_state_metadata_from_pack",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/metaculus/forecast.py:_world_state_block",
+      "target": "function:engine/metaculus/forecast.py:_world_state_context",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/metaculus/forecast.py:_pool",
+      "target": "function:engine/forecastbench/ensemble.py:_logit",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/metaculus/forecast.py:_pool",
+      "target": "function:engine/forecastbench/ensemble.py:_sigmoid",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/metaculus/forecast.py:forecast_question",
+      "target": "function:engine/metaculus/forecast.py:_world_state_context",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/metaculus/forecast.py:forecast_question",
+      "target": "function:engine/metaculus/forecast.py:_world_state_enabled",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/metaculus/forecast.py:forecast_question",
+      "target": "function:engine/metaculus/forecast.py:_prompt",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/metaculus/forecast.py:forecast_question",
+      "target": "function:engine/forecastbench/inference.py:sample_one",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/metaculus/forecast.py:forecast_question",
+      "target": "function:engine/metaculus/forecast.py:_pool",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/metaculus/forecast.py:forecast_question",
+      "target": "function:engine/metaculus/forecast.py:_coverage_ratio",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/metaculus/forecast.py:forecast_question",
+      "target": "function:engine/metaculus/forecast.py:_adaptive_native_crowd_weight",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/metaculus/forecast.py:forecast_question",
+      "target": "function:engine/forecastbench/ensemble.py:_sigmoid",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/metaculus/forecast.py:forecast_question",
+      "target": "function:engine/forecastbench/ensemble.py:_logit",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/metaculus/forecast.py:forecast_question",
+      "target": "function:engine/metaculus/forecast.py:_adaptive_blind_shrink",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/metaculus/markets.py:_similarity",
+      "target": "function:engine/metaculus/markets.py:_norm",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/metaculus/markets.py:_direction",
+      "target": "function:engine/metaculus/markets.py:_norm",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/metaculus/markets.py:_usable_match",
+      "target": "function:engine/metaculus/markets.py:_norm",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/metaculus/markets.py:_usable_match",
+      "target": "function:engine/metaculus/markets.py:_years",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/metaculus/markets.py:_usable_match",
+      "target": "function:engine/metaculus/markets.py:_months",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/metaculus/markets.py:_usable_match",
+      "target": "function:engine/metaculus/markets.py:_money_amounts",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/metaculus/markets.py:_usable_match",
+      "target": "function:engine/metaculus/markets.py:_close_any",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/metaculus/markets.py:_usable_match",
+      "target": "function:engine/metaculus/markets.py:_percents",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/metaculus/markets.py:_usable_match",
+      "target": "function:engine/metaculus/markets.py:_direction",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/metaculus/markets.py:_manifold",
+      "target": "function:engine/metaculus/markets.py:_get",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/metaculus/markets.py:_polymarket",
+      "target": "function:engine/metaculus/markets.py:_get",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/metaculus/markets.py:cross_market",
+      "target": "function:engine/metaculus/markets.py:_manifold",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/metaculus/markets.py:cross_market",
+      "target": "function:engine/metaculus/markets.py:_polymarket",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/metaculus/markets.py:cross_market",
+      "target": "function:engine/metaculus/markets.py:_similarity",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/metaculus/markets.py:cross_market",
+      "target": "function:engine/metaculus/markets.py:_usable_match",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/metaculus/markets.py:evidence_line",
+      "target": "function:engine/metaculus/markets.py:cross_market",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/metaculus/numeric.py:percentiles_to_cdf",
+      "target": "function:engine/metaculus/numeric.py:enforce_valid_cdf",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/metaculus/numeric.py:enforce_valid_cdf",
+      "target": "function:engine/metaculus/numeric.py:min_step",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/metaculus/numeric.py:validate_cdf",
+      "target": "function:engine/metaculus/numeric.py:min_step",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/metaculus/numeric_forecast.py:forecast_numeric",
+      "target": "function:engine/metaculus/numeric_forecast.py:_num_prompt",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/metaculus/numeric_forecast.py:forecast_numeric",
+      "target": "function:engine/metaculus/numeric_forecast.py:_parse_pctiles",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/metaculus/numeric_forecast.py:forecast_numeric",
+      "target": "function:engine/metaculus/numeric_forecast.py:_council",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/metaculus/numeric_forecast.py:forecast_mc",
+      "target": "function:engine/metaculus/numeric_forecast.py:_mc_prompt",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/metaculus/numeric_forecast.py:forecast_mc",
+      "target": "function:engine/metaculus/numeric_forecast.py:_parse_dist",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/metaculus/numeric_forecast.py:forecast_mc",
+      "target": "function:engine/metaculus/numeric_forecast.py:_council",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/metaculus/numeric_forecast.py:main",
+      "target": "function:engine/metaculus/numeric_forecast.py:forecast_mc",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/metaculus/numeric_forecast.py:main",
+      "target": "function:engine/metaculus/numeric_forecast.py:forecast_numeric",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/metaculus/qbank.py:harvest",
+      "target": "function:engine/metaculus/qbank.py:_get",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/metaculus/qbank.py:harvest",
+      "target": "function:engine/metaculus/qbank.py:_ok",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/metaculus/qbank.py:harvest",
+      "target": "function:engine/metaculus/qbank.py:_row",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/metaculus/qbank.py:build",
+      "target": "function:engine/metaculus/qbank.py:harvest",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

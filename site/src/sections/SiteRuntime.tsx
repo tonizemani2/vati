@@ -23,6 +23,40 @@ type RiveInstance = {
   cleanup: () => void;
 };
 
+const TURNSTILE_SITE_KEY = process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY || "";
+
+type TurnstileGlobal = {
+  render: (
+    container: HTMLElement,
+    options: {
+      sitekey: string;
+      theme?: "auto" | "light" | "dark";
+      callback?: (token: string) => void;
+      "expired-callback"?: () => void;
+      "error-callback"?: () => void;
+    },
+  ) => string;
+  reset: (widgetId?: string) => void;
+};
+
+let turnstileLoader: Promise<TurnstileGlobal> | null = null;
+function loadTurnstile(): Promise<TurnstileGlobal> {
+  if (typeof window === "undefined") return Promise.reject();
+  const w = window as unknown as { turnstile?: TurnstileGlobal };
+  if (w.turnstile) return Promise.resolve(w.turnstile);
+  if (turnstileLoader) return turnstileLoader;
+  turnstileLoader = new Promise<TurnstileGlobal>((resolve, reject) => {
+    const s = document.createElement("script");
+    s.src = "https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit";
+    s.async = true;
+    s.defer = true;
+    s.onload = () => (w.turnstile ? resolve(w.turnstile) : reject());
+    s.onerror = reject;
+    document.head.appendChild(s);
+  });
+  return turnstileLoader;
+}
+
 let riveLoader: Promise<RiveGlobal> | null = null;
 function loadRive(): Promise<RiveGlobal> {
   if (typeof window === "undefined") return Promise.reject();
@@ -38,6 +72,64 @@ function loadRive(): Promise<RiveGlobal> {
     document.head.appendChild(s);
   });
   return riveLoader;
+}
+
+// ---- Cal.com inline booking embed ----
+// Revealed in the contact modal's success state so a qualified lead can book a
+// 30-min call right after submitting. Ports Cal's official inline-embed snippet
+// (the captured-fragment <script> won't run, so it lives here like the rest of
+// the runtime). Inits once, lazily, the first time the booking step is shown.
+let calInited = false;
+function initCalEmbed() {
+  if (calInited || typeof window === "undefined") return;
+  if (!document.querySelector("#my-cal-inline-30min")) return;
+  calInited = true;
+  /* eslint-disable @typescript-eslint/no-explicit-any */
+  (function (C: any, A: string, L: string) {
+    const p = (a: any, ar: any) => {
+      a.q.push(ar);
+    };
+    const d = C.document;
+    C.Cal =
+      C.Cal ||
+      function () {
+        const cal = C.Cal;
+        // eslint-disable-next-line prefer-rest-params
+        const ar = arguments as unknown as any[];
+        if (!cal.loaded) {
+          cal.ns = {};
+          cal.q = cal.q || [];
+          d.head.appendChild(d.createElement("script")).src = A;
+          cal.loaded = true;
+        }
+        if (ar[0] === L) {
+          const api = function () {
+            // eslint-disable-next-line prefer-rest-params
+            p(api, arguments as unknown as any[]);
+          } as any;
+          const namespace = ar[1];
+          api.q = api.q || [];
+          if (typeof namespace === "string") {
+            cal.ns[namespace] = cal.ns[namespace] || api;
+            p(cal.ns[namespace], ar);
+            p(cal, ["initNamespace", namespace]);
+          } else p(cal, ar);
+          return;
+        }
+        p(cal, ar);
+      };
+  })(window, "https://app.cal.com/embed/embed.js", "init");
+  const Cal = (window as any).Cal;
+  Cal("init", "30min", { origin: "https://app.cal.com" });
+  Cal.config = Cal.config || {};
+  Cal.config.forwardQueryParams = true;
+  Cal.ns["30min"]("inline", {
+    elementOrSelector: "#my-cal-inline-30min",
+    config: { layout: "month_view", useSlotsViewOnSmallScreen: "true" },
+    calLink: "vaticinus/30min",
+  });
+  Cal.ns["30min"]("ui", { hideEventTypeDetails: false, layout: "month_view" });
+  /* eslint-enable @typescript-eslint/no-explicit-any */
 }
 
 // Faithful re-implementation of the original inline init scripts (Swiper carousels,
@@ -287,6 +379,14 @@ export function SiteRuntime() {
     const closeContact = () => {
       contactModal?.classList.remove("visible");
       document.body.classList.remove("no-scroll");
+      // Reset to the form view so reopening never lands on a stale booking step.
+      contactModal?.classList.remove("booking");
+      const form = contactModal?.querySelector<HTMLElement>(
+        "#wf-form-Contact-Form",
+      );
+      const done = contactModal?.querySelector<HTMLElement>(".w-form-done");
+      if (form) form.style.display = "";
+      if (done) done.style.display = "none";
     };
     document.querySelectorAll<HTMLElement>("[data-contact]").forEach((b) => {
       b.addEventListener("click", openContact);
@@ -298,6 +398,102 @@ export function SiteRuntime() {
         b.addEventListener("click", closeContact);
         cleanups.push(() => b.removeEventListener("click", closeContact));
       });
+
+    // ---- Contact form submit (Webflow forms don't post off Webflow hosting) ----
+    // POST to the Cloudflare Pages Function at /api/contact, which sends the mail
+    // via Resend. Mirror Webflow's done/fail UI states. The hidden `ts` field
+    // seeds the server-side time-trap that screens out instant bot submissions.
+    const contactForm = document.querySelector<HTMLFormElement>(
+      "#wf-form-Contact-Form",
+    );
+    if (contactForm) {
+      const formWrap = contactForm.closest<HTMLElement>(".w-form");
+      const doneEl = formWrap?.querySelector<HTMLElement>(".w-form-done");
+      const failEl = formWrap?.querySelector<HTMLElement>(".w-form-fail");
+      const submitBtn = contactForm.querySelector<HTMLInputElement>(
+        'input[type="submit"]',
+      );
+      const tsField = contactForm.querySelector<HTMLInputElement>(
+        'input[name="ts"]',
+      );
+      const turnstileField = contactForm.querySelector<HTMLInputElement>(
+        'input[name="cf-turnstile-response"]',
+      );
+      const turnstileBox = contactForm.querySelector<HTMLElement>(
+        "[data-turnstile]",
+      );
+      if (tsField) tsField.value = String(Date.now());
+      let turnstileWidget: string | undefined;
+      const resetTurnstile = () => {
+        if (turnstileField) turnstileField.value = "";
+        if (turnstileWidget && (window as unknown as { turnstile?: TurnstileGlobal }).turnstile) {
+          (window as unknown as { turnstile: TurnstileGlobal }).turnstile.reset(
+            turnstileWidget,
+          );
+        }
+      };
+      if (TURNSTILE_SITE_KEY && turnstileBox && turnstileField) {
+        loadTurnstile()
+          .then((turnstile) => {
+            if (turnstileWidget) return;
+            turnstileWidget = turnstile.render(turnstileBox, {
+              sitekey: TURNSTILE_SITE_KEY,
+              theme: "auto",
+              callback: (token) => {
+                turnstileField.value = token;
+              },
+              "expired-callback": () => {
+                turnstileField.value = "";
+              },
+              "error-callback": () => {
+                turnstileField.value = "";
+              },
+            });
+          })
+          .catch(() => {
+            /* token validation remains server-side; form submission will fail if required */
+          });
+      }
+
+      const onSubmit = async (e: Event) => {
+        e.preventDefault();
+        if (failEl) failEl.style.display = "none";
+        const defaultLabel = submitBtn?.value;
+        if (submitBtn) {
+          submitBtn.value = submitBtn.dataset.wait || "Please wait...";
+          submitBtn.disabled = true;
+        }
+        try {
+          if (TURNSTILE_SITE_KEY && turnstileField && !turnstileField.value) {
+            throw new Error("turnstile not ready");
+          }
+          const payload = Object.fromEntries(
+            new FormData(contactForm).entries(),
+          );
+          const res = await fetch("/api/contact", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify(payload),
+          });
+          if (!res.ok) throw new Error(`status ${res.status}`);
+          contactForm.style.display = "none";
+          if (doneEl) doneEl.style.display = "block";
+          // Widen the modal and reveal the Cal.com booking step.
+          contactModal?.classList.add("booking");
+          initCalEmbed();
+        } catch {
+          resetTurnstile();
+          if (failEl) failEl.style.display = "block";
+        } finally {
+          if (submitBtn) {
+            if (defaultLabel !== undefined) submitBtn.value = defaultLabel;
+            submitBtn.disabled = false;
+          }
+        }
+      };
+      contactForm.addEventListener("submit", onSubmit);
+      cleanups.push(() => contactForm.removeEventListener("submit", onSubmit));
+    }
 
     // ---- Sample-question detail modal + accordions ----
     const sampleqsModal = document.querySelector("#sampleqs-modal");
@@ -397,6 +593,27 @@ export function SiteRuntime() {
         };
         button.addEventListener("click", onClose);
         cleanups.push(() => button.removeEventListener("click", onClose));
+      });
+
+    // ---- "Clickable" CTA buttons (Webflow's interaction JS isn't bundled) ----
+    // Each primary button renders a sibling <a class="clickable_link"> under a bare
+    // <button class="clickable_btn"> that sits on top and eats the click. Wire the
+    // button to follow its sibling anchor. Skip placeholder href="#" — those are
+    // modal triggers already handled by the [data-contact]/[data-video] blocks above.
+    document
+      .querySelectorAll<HTMLElement>(".clickable_wrap")
+      .forEach((wrap) => {
+        const a = wrap.querySelector<HTMLAnchorElement>("a.clickable_link[href]");
+        const btn = wrap.querySelector<HTMLElement>(".clickable_btn");
+        if (!a || !btn) return;
+        const href = a.getAttribute("href") || "";
+        if (!href || href === "#") return;
+        const go = (e: Event) => {
+          e.preventDefault();
+          a.click();
+        };
+        btn.addEventListener("click", go);
+        cleanups.push(() => btn.removeEventListener("click", go));
       });
 
     // ---- Mobile nav menu toggle (Webflow's collapse JS isn't bundled) ----

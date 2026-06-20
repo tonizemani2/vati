@@ -1,0 +1,2679 @@
+{
+  "nodes": [
+    {
+      "id": "file:engine/gdelt_collect.py",
+      "type": "file",
+      "name": "gdelt_collect.py",
+      "filePath": "engine/gdelt_collect.py",
+      "summary": "gdelt_collect.py is a code asset in the forecasting engine. It contains 10 functions.",
+      "tags": [
+        "forecasting-engine",
+        "code",
+        "file",
+        "gdelt-collect"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:engine/gdelt_collect.py:daterange",
+      "type": "function",
+      "name": "daterange",
+      "filePath": "engine/gdelt_collect.py",
+      "lineRange": [
+        69,
+        73
+      ],
+      "summary": "Defines daterange in gdelt_collect.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "gdelt-collect"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/gdelt_collect.py:stage_size",
+      "type": "function",
+      "name": "stage_size",
+      "filePath": "engine/gdelt_collect.py",
+      "lineRange": [
+        76,
+        81
+      ],
+      "summary": "Defines stage_size in gdelt_collect.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "gdelt-collect"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/gdelt_collect.py:fetch_day_zip",
+      "type": "function",
+      "name": "fetch_day_zip",
+      "filePath": "engine/gdelt_collect.py",
+      "lineRange": [
+        84,
+        105
+      ],
+      "summary": "Defines fetch_day_zip in gdelt_collect.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-access",
+        "gdelt-collect"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/gdelt_collect.py:aggregate_day",
+      "type": "function",
+      "name": "aggregate_day",
+      "filePath": "engine/gdelt_collect.py",
+      "lineRange": [
+        108,
+        177
+      ],
+      "summary": "Defines aggregate_day in gdelt_collect.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "gdelt-collect"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/gdelt_collect.py:emit_records",
+      "type": "function",
+      "name": "emit_records",
+      "filePath": "engine/gdelt_collect.py",
+      "lineRange": [
+        180,
+        229
+      ],
+      "summary": "Defines emit_records in gdelt_collect.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "gdelt-collect"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/gdelt_collect.py:shard_path",
+      "type": "function",
+      "name": "shard_path",
+      "filePath": "engine/gdelt_collect.py",
+      "lineRange": [
+        232,
+        234
+      ],
+      "summary": "Defines shard_path in gdelt_collect.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "gdelt-collect"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/gdelt_collect.py:flush_shard_to_s3",
+      "type": "function",
+      "name": "flush_shard_to_s3",
+      "filePath": "engine/gdelt_collect.py",
+      "lineRange": [
+        237,
+        250
+      ],
+      "summary": "Defines flush_shard_to_s3 in gdelt_collect.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "gdelt-collect"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/gdelt_collect.py:write_record_batch",
+      "type": "function",
+      "name": "write_record_batch",
+      "filePath": "engine/gdelt_collect.py",
+      "lineRange": [
+        253,
+        258
+      ],
+      "summary": "Defines write_record_batch in gdelt_collect.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "gdelt-collect"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/gdelt_collect.py:get_proxy_url",
+      "type": "function",
+      "name": "get_proxy_url",
+      "filePath": "engine/gdelt_collect.py",
+      "lineRange": [
+        261,
+        269
+      ],
+      "summary": "Defines get_proxy_url in gdelt_collect.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "gdelt-collect"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/gdelt_collect.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "engine/gdelt_collect.py",
+      "lineRange": [
+        272,
+        387
+      ],
+      "summary": "Defines main in gdelt_collect.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entry-point",
+        "gdelt-collect"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:engine/global_equities_collect.py",
+      "type": "file",
+      "name": "global_equities_collect.py",
+      "filePath": "engine/global_equities_collect.py",
+      "summary": "global_equities_collect.py is a code asset in the forecasting engine. It contains 4 functions, 1 class.",
+      "tags": [
+        "forecasting-engine",
+        "code",
+        "file",
+        "global-equities-collect"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:engine/global_equities_collect.py:build_universe",
+      "type": "function",
+      "name": "build_universe",
+      "filePath": "engine/global_equities_collect.py",
+      "lineRange": [
+        272,
+        307
+      ],
+      "summary": "Defines build_universe in global_equities_collect.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "global-equities-collect"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/global_equities_collect.py:fetch_symbol",
+      "type": "function",
+      "name": "fetch_symbol",
+      "filePath": "engine/global_equities_collect.py",
+      "lineRange": [
+        312,
+        372
+      ],
+      "summary": "Defines fetch_symbol in global_equities_collect.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-access",
+        "global-equities-collect"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/global_equities_collect.py:s3_upload",
+      "type": "function",
+      "name": "s3_upload",
+      "filePath": "engine/global_equities_collect.py",
+      "lineRange": [
+        410,
+        415
+      ],
+      "summary": "Defines s3_upload in global_equities_collect.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "global-equities-collect"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/global_equities_collect.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "engine/global_equities_collect.py",
+      "lineRange": [
+        420,
+        530
+      ],
+      "summary": "Defines main in global_equities_collect.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entry-point",
+        "global-equities-collect"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:engine/global_equities_collect.py:ShardWriter",
+      "type": "class",
+      "name": "ShardWriter",
+      "filePath": "engine/global_equities_collect.py",
+      "lineRange": [
+        377,
+        405
+      ],
+      "summary": "Defines ShardWriter in global_equities_collect.py, encapsulating reusable behavior or state for this module.",
+      "tags": [
+        "class",
+        "implementation",
+        "global-equities-collect"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:engine/metaculus/human_api.py",
+      "type": "file",
+      "name": "human_api.py",
+      "filePath": "engine/metaculus/human_api.py",
+      "summary": "human_api.py is a code asset in the forecasting engine. It contains 7 functions, 1 class.",
+      "tags": [
+        "forecasting-engine",
+        "code",
+        "file",
+        "human-api"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/metaculus/human_api.py:_session",
+      "type": "function",
+      "name": "_session",
+      "filePath": "engine/metaculus/human_api.py",
+      "lineRange": [
+        26,
+        29
+      ],
+      "summary": "Defines _session in human_api.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "human-api"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/metaculus/human_api.py:_headers",
+      "type": "function",
+      "name": "_headers",
+      "filePath": "engine/metaculus/human_api.py",
+      "lineRange": [
+        32,
+        41
+      ],
+      "summary": "Defines _headers in human_api.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "human-api"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/metaculus/human_api.py:_req",
+      "type": "function",
+      "name": "_req",
+      "filePath": "engine/metaculus/human_api.py",
+      "lineRange": [
+        44,
+        58
+      ],
+      "summary": "Defines _req in human_api.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "human-api"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/metaculus/human_api.py:me",
+      "type": "function",
+      "name": "me",
+      "filePath": "engine/metaculus/human_api.py",
+      "lineRange": [
+        61,
+        63
+      ],
+      "summary": "Defines me in human_api.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "human-api"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/metaculus/human_api.py:submit_binary",
+      "type": "function",
+      "name": "submit_binary",
+      "filePath": "engine/metaculus/human_api.py",
+      "lineRange": [
+        68,
+        73
+      ],
+      "summary": "Defines submit_binary in human_api.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "human-api"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/metaculus/human_api.py:submit_multiple_choice",
+      "type": "function",
+      "name": "submit_multiple_choice",
+      "filePath": "engine/metaculus/human_api.py",
+      "lineRange": [
+        76,
+        80
+      ],
+      "summary": "Defines submit_multiple_choice in human_api.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "human-api"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/metaculus/human_api.py:submit_cdf",
+      "type": "function",
+      "name": "submit_cdf",
+      "filePath": "engine/metaculus/human_api.py",
+      "lineRange": [
+        83,
+        87
+      ],
+      "summary": "Defines submit_cdf in human_api.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "human-api"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:engine/metaculus/human_api.py:SessionError",
+      "type": "class",
+      "name": "SessionError",
+      "filePath": "engine/metaculus/human_api.py",
+      "lineRange": [
+        22,
+        23
+      ],
+      "summary": "Defines SessionError in human_api.py, encapsulating reusable behavior or state for this module.",
+      "tags": [
+        "class",
+        "implementation",
+        "human-api"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:engine/metaculus/SUBMIT.md",
+      "type": "document",
+      "name": "SUBMIT.md",
+      "filePath": "engine/metaculus/SUBMIT.md",
+      "summary": "Documentation file covering SUBMIT for the Vati repository and its forecasting workflows.",
+      "tags": [
+        "forecasting-engine",
+        "documentation",
+        "document",
+        "docs",
+        "submit"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:engine/pope/capture_render.py",
+      "type": "file",
+      "name": "capture_render.py",
+      "filePath": "engine/pope/capture_render.py",
+      "summary": "capture_render.py is a code asset in the forecasting engine. It contains 14 functions.",
+      "tags": [
+        "forecasting-engine",
+        "code",
+        "file",
+        "capture-render"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:engine/pope/capture_render.py:_inline",
+      "type": "function",
+      "name": "_inline",
+      "filePath": "engine/pope/capture_render.py",
+      "lineRange": [
+        37,
+        48
+      ],
+      "summary": "Defines _inline in capture_render.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "capture-render"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/pope/capture_render.py:_field",
+      "type": "function",
+      "name": "_field",
+      "filePath": "engine/pope/capture_render.py",
+      "lineRange": [
+        51,
+        55
+      ],
+      "summary": "Defines _field in capture_render.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "capture-render"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/pope/capture_render.py:_meta_row",
+      "type": "function",
+      "name": "_meta_row",
+      "filePath": "engine/pope/capture_render.py",
+      "lineRange": [
+        113,
+        122
+      ],
+      "summary": "Defines _meta_row in capture_render.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "capture-render"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/pope/capture_render.py:_cover",
+      "type": "function",
+      "name": "_cover",
+      "filePath": "engine/pope/capture_render.py",
+      "lineRange": [
+        125,
+        135
+      ],
+      "summary": "Defines _cover in capture_render.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "capture-render"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/pope/capture_render.py:_shortlist",
+      "type": "function",
+      "name": "_shortlist",
+      "filePath": "engine/pope/capture_render.py",
+      "lineRange": [
+        138,
+        160
+      ],
+      "summary": "Defines _shortlist in capture_render.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "capture-render"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/pope/capture_render.py:_this_week",
+      "type": "function",
+      "name": "_this_week",
+      "filePath": "engine/pope/capture_render.py",
+      "lineRange": [
+        163,
+        168
+      ],
+      "summary": "Defines _this_week in capture_render.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "capture-render"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/pope/capture_render.py:_verdict",
+      "type": "function",
+      "name": "_verdict",
+      "filePath": "engine/pope/capture_render.py",
+      "lineRange": [
+        171,
+        173
+      ],
+      "summary": "Defines _verdict in capture_render.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "capture-render"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/pope/capture_render.py:_targets",
+      "type": "function",
+      "name": "_targets",
+      "filePath": "engine/pope/capture_render.py",
+      "lineRange": [
+        176,
+        190
+      ],
+      "summary": "Defines _targets in capture_render.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "capture-render"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/pope/capture_render.py:_refute",
+      "type": "function",
+      "name": "_refute",
+      "filePath": "engine/pope/capture_render.py",
+      "lineRange": [
+        193,
+        204
+      ],
+      "summary": "Defines _refute in capture_render.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "capture-render"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/pope/capture_render.py:_plan",
+      "type": "function",
+      "name": "_plan",
+      "filePath": "engine/pope/capture_render.py",
+      "lineRange": [
+        207,
+        243
+      ],
+      "summary": "Defines _plan in capture_render.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "capture-render"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/pope/capture_render.py:build_html",
+      "type": "function",
+      "name": "build_html",
+      "filePath": "engine/pope/capture_render.py",
+      "lineRange": [
+        246,
+        253
+      ],
+      "summary": "Defines build_html in capture_render.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "capture-render"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/pope/capture_render.py:_find_chrome",
+      "type": "function",
+      "name": "_find_chrome",
+      "filePath": "engine/pope/capture_render.py",
+      "lineRange": [
+        256,
+        262
+      ],
+      "summary": "Defines _find_chrome in capture_render.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "capture-render"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/pope/capture_render.py:render",
+      "type": "function",
+      "name": "render",
+      "filePath": "engine/pope/capture_render.py",
+      "lineRange": [
+        265,
+        287
+      ],
+      "summary": "Defines render in capture_render.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "capture-render"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/pope/capture_render.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "engine/pope/capture_render.py",
+      "lineRange": [
+        290,
+        295
+      ],
+      "summary": "Defines main in capture_render.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entry-point",
+        "capture-render"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:engine/pope/publish_site.py",
+      "type": "file",
+      "name": "publish_site.py",
+      "filePath": "engine/pope/publish_site.py",
+      "summary": "publish_site.py is a code asset in the forecasting engine. It contains 2 functions.",
+      "tags": [
+        "forecasting-engine",
+        "frontend",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/pope/publish_site.py:_preview_pdf",
+      "type": "function",
+      "name": "_preview_pdf",
+      "filePath": "engine/pope/publish_site.py",
+      "lineRange": [
+        76,
+        108
+      ],
+      "summary": "Defines _preview_pdf in publish_site.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "publish-site"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/pope/publish_site.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "engine/pope/publish_site.py",
+      "lineRange": [
+        111,
+        134
+      ],
+      "summary": "Defines main in publish_site.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entry-point",
+        "publish-site"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:engine/pope/README.md",
+      "type": "document",
+      "name": "README.md",
+      "filePath": "engine/pope/README.md",
+      "summary": "Documentation file covering README for the Vati repository and its forecasting workflows.",
+      "tags": [
+        "documentation",
+        "entry-point",
+        "overview",
+        "forecasting-engine"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:engine/pope/ultra.py",
+      "type": "file",
+      "name": "ultra.py",
+      "filePath": "engine/pope/ultra.py",
+      "summary": "ultra.py is a code asset in the forecasting engine. It contains 17 functions, 1 class.",
+      "tags": [
+        "forecasting-engine",
+        "code",
+        "file",
+        "ultra"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:engine/pope/ultra.py:_clean_text",
+      "type": "function",
+      "name": "_clean_text",
+      "filePath": "engine/pope/ultra.py",
+      "lineRange": [
+        396,
+        407
+      ],
+      "summary": "Defines _clean_text in ultra.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "ultra"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/pope/ultra.py:_query_phrase",
+      "type": "function",
+      "name": "_query_phrase",
+      "filePath": "engine/pope/ultra.py",
+      "lineRange": [
+        410,
+        419
+      ],
+      "summary": "Defines _query_phrase in ultra.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-access",
+        "ultra"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/pope/ultra.py:_slug",
+      "type": "function",
+      "name": "_slug",
+      "filePath": "engine/pope/ultra.py",
+      "lineRange": [
+        422,
+        424
+      ],
+      "summary": "Defines _slug in ultra.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "ultra"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/pope/ultra.py:_fmt",
+      "type": "function",
+      "name": "_fmt",
+      "filePath": "engine/pope/ultra.py",
+      "lineRange": [
+        427,
+        445
+      ],
+      "summary": "Defines _fmt in ultra.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "ultra"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/pope/ultra.py:_infer_domain_tags",
+      "type": "function",
+      "name": "_infer_domain_tags",
+      "filePath": "engine/pope/ultra.py",
+      "lineRange": [
+        448,
+        460
+      ],
+      "summary": "Defines _infer_domain_tags in ultra.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entry-point",
+        "ultra"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/pope/ultra.py:_packets_for",
+      "type": "function",
+      "name": "_packets_for",
+      "filePath": "engine/pope/ultra.py",
+      "lineRange": [
+        463,
+        467
+      ],
+      "summary": "Defines _packets_for in ultra.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "ultra"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/pope/ultra.py:_make_packet",
+      "type": "function",
+      "name": "_make_packet",
+      "filePath": "engine/pope/ultra.py",
+      "lineRange": [
+        470,
+        489
+      ],
+      "summary": "Defines _make_packet in ultra.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "ultra"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/pope/ultra.py:_layers",
+      "type": "function",
+      "name": "_layers",
+      "filePath": "engine/pope/ultra.py",
+      "lineRange": [
+        492,
+        537
+      ],
+      "summary": "Defines _layers in ultra.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "ultra"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/pope/ultra.py:_action_axes",
+      "type": "function",
+      "name": "_action_axes",
+      "filePath": "engine/pope/ultra.py",
+      "lineRange": [
+        540,
+        587
+      ],
+      "summary": "Defines _action_axes in ultra.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "ultra"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/pope/ultra.py:_agent_brief",
+      "type": "function",
+      "name": "_agent_brief",
+      "filePath": "engine/pope/ultra.py",
+      "lineRange": [
+        590,
+        599
+      ],
+      "summary": "Defines _agent_brief in ultra.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "ultra"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/pope/ultra.py:build_dossier",
+      "type": "function",
+      "name": "build_dossier",
+      "filePath": "engine/pope/ultra.py",
+      "lineRange": [
+        602,
+        679
+      ],
+      "summary": "Defines build_dossier in ultra.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "ultra"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/pope/ultra.py:_pct",
+      "type": "function",
+      "name": "_pct",
+      "filePath": "engine/pope/ultra.py",
+      "lineRange": [
+        682,
+        691
+      ],
+      "summary": "Defines _pct in ultra.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "ultra"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/pope/ultra.py:render_markdown",
+      "type": "function",
+      "name": "render_markdown",
+      "filePath": "engine/pope/ultra.py",
+      "lineRange": [
+        694,
+        763
+      ],
+      "summary": "Defines render_markdown in ultra.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "ultra"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/pope/ultra.py:_write_csv",
+      "type": "function",
+      "name": "_write_csv",
+      "filePath": "engine/pope/ultra.py",
+      "lineRange": [
+        766,
+        774
+      ],
+      "summary": "Defines _write_csv in ultra.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "ultra"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/pope/ultra.py:write_outputs",
+      "type": "function",
+      "name": "write_outputs",
+      "filePath": "engine/pope/ultra.py",
+      "lineRange": [
+        777,
+        782
+      ],
+      "summary": "Defines write_outputs in ultra.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "ultra"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/pope/ultra.py:parse_args",
+      "type": "function",
+      "name": "parse_args",
+      "filePath": "engine/pope/ultra.py",
+      "lineRange": [
+        785,
+        790
+      ],
+      "summary": "Defines parse_args in ultra.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "ultra"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/pope/ultra.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "engine/pope/ultra.py",
+      "lineRange": [
+        793,
+        805
+      ],
+      "summary": "Defines main in ultra.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entry-point",
+        "ultra"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:engine/pope/ultra.py:PacketTemplate",
+      "type": "class",
+      "name": "PacketTemplate",
+      "filePath": "engine/pope/ultra.py",
+      "lineRange": [
+        69,
+        77
+      ],
+      "summary": "Defines PacketTemplate in ultra.py, encapsulating reusable behavior or state for this module.",
+      "tags": [
+        "class",
+        "implementation",
+        "ultra"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:engine/prophet/kalshi.py",
+      "type": "file",
+      "name": "kalshi.py",
+      "filePath": "engine/prophet/kalshi.py",
+      "summary": "kalshi.py is a code asset in the forecasting engine. It contains 8 functions.",
+      "tags": [
+        "forecasting-engine",
+        "code",
+        "file",
+        "kalshi"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/prophet/kalshi.py:_get",
+      "type": "function",
+      "name": "_get",
+      "filePath": "engine/prophet/kalshi.py",
+      "lineRange": [
+        44,
+        55
+      ],
+      "summary": "Defines _get in kalshi.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "kalshi"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/prophet/kalshi.py:_ts",
+      "type": "function",
+      "name": "_ts",
+      "filePath": "engine/prophet/kalshi.py",
+      "lineRange": [
+        58,
+        59
+      ],
+      "summary": "Defines _ts in kalshi.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "kalshi"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/prophet/kalshi.py:_f",
+      "type": "function",
+      "name": "_f",
+      "filePath": "engine/prophet/kalshi.py",
+      "lineRange": [
+        62,
+        66
+      ],
+      "summary": "Defines _f in kalshi.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "kalshi"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/prophet/kalshi.py:_anchor_price",
+      "type": "function",
+      "name": "_anchor_price",
+      "filePath": "engine/prophet/kalshi.py",
+      "lineRange": [
+        69,
+        101
+      ],
+      "summary": "Defines _anchor_price in kalshi.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "kalshi"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/prophet/kalshi.py:harvest",
+      "type": "function",
+      "name": "harvest",
+      "filePath": "engine/prophet/kalshi.py",
+      "lineRange": [
+        104,
+        155
+      ],
+      "summary": "Defines harvest in kalshi.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "kalshi"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/prophet/kalshi.py:market_baseline",
+      "type": "function",
+      "name": "market_baseline",
+      "filePath": "engine/prophet/kalshi.py",
+      "lineRange": [
+        158,
+        171
+      ],
+      "summary": "Defines market_baseline in kalshi.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "kalshi"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/prophet/kalshi.py:to_event",
+      "type": "function",
+      "name": "to_event",
+      "filePath": "engine/prophet/kalshi.py",
+      "lineRange": [
+        174,
+        182
+      ],
+      "summary": "Defines to_event in kalshi.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "kalshi"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/prophet/kalshi.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "engine/prophet/kalshi.py",
+      "lineRange": [
+        185,
+        200
+      ],
+      "summary": "Defines main in kalshi.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entry-point",
+        "kalshi"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:engine/gdelt_collect.py",
+      "target": "function:engine/gdelt_collect.py:daterange",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/gdelt_collect.py",
+      "target": "function:engine/gdelt_collect.py:daterange",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/gdelt_collect.py",
+      "target": "function:engine/gdelt_collect.py:stage_size",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/gdelt_collect.py",
+      "target": "function:engine/gdelt_collect.py:stage_size",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/gdelt_collect.py",
+      "target": "function:engine/gdelt_collect.py:fetch_day_zip",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/gdelt_collect.py",
+      "target": "function:engine/gdelt_collect.py:fetch_day_zip",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/gdelt_collect.py",
+      "target": "function:engine/gdelt_collect.py:aggregate_day",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/gdelt_collect.py",
+      "target": "function:engine/gdelt_collect.py:aggregate_day",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/gdelt_collect.py",
+      "target": "function:engine/gdelt_collect.py:emit_records",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/gdelt_collect.py",
+      "target": "function:engine/gdelt_collect.py:emit_records",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/gdelt_collect.py",
+      "target": "function:engine/gdelt_collect.py:shard_path",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/gdelt_collect.py",
+      "target": "function:engine/gdelt_collect.py:shard_path",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/gdelt_collect.py",
+      "target": "function:engine/gdelt_collect.py:flush_shard_to_s3",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/gdelt_collect.py",
+      "target": "function:engine/gdelt_collect.py:flush_shard_to_s3",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/gdelt_collect.py",
+      "target": "function:engine/gdelt_collect.py:write_record_batch",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/gdelt_collect.py",
+      "target": "function:engine/gdelt_collect.py:write_record_batch",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/gdelt_collect.py",
+      "target": "function:engine/gdelt_collect.py:get_proxy_url",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/gdelt_collect.py",
+      "target": "function:engine/gdelt_collect.py:get_proxy_url",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/gdelt_collect.py",
+      "target": "function:engine/gdelt_collect.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/gdelt_collect.py",
+      "target": "function:engine/gdelt_collect.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/global_equities_collect.py",
+      "target": "function:engine/global_equities_collect.py:build_universe",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/global_equities_collect.py",
+      "target": "function:engine/global_equities_collect.py:build_universe",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/global_equities_collect.py",
+      "target": "function:engine/global_equities_collect.py:fetch_symbol",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/global_equities_collect.py",
+      "target": "function:engine/global_equities_collect.py:fetch_symbol",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/global_equities_collect.py",
+      "target": "function:engine/global_equities_collect.py:s3_upload",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/global_equities_collect.py",
+      "target": "function:engine/global_equities_collect.py:s3_upload",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/global_equities_collect.py",
+      "target": "function:engine/global_equities_collect.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/global_equities_collect.py",
+      "target": "function:engine/global_equities_collect.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/global_equities_collect.py",
+      "target": "class:engine/global_equities_collect.py:ShardWriter",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/global_equities_collect.py",
+      "target": "class:engine/global_equities_collect.py:ShardWriter",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/metaculus/human_api.py",
+      "target": "function:engine/metaculus/human_api.py:_session",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/metaculus/human_api.py",
+      "target": "function:engine/metaculus/human_api.py:_session",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/metaculus/human_api.py",
+      "target": "function:engine/metaculus/human_api.py:_headers",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/metaculus/human_api.py",
+      "target": "function:engine/metaculus/human_api.py:_headers",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/metaculus/human_api.py",
+      "target": "function:engine/metaculus/human_api.py:_req",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/metaculus/human_api.py",
+      "target": "function:engine/metaculus/human_api.py:_req",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/metaculus/human_api.py",
+      "target": "function:engine/metaculus/human_api.py:me",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/metaculus/human_api.py",
+      "target": "function:engine/metaculus/human_api.py:me",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/metaculus/human_api.py",
+      "target": "function:engine/metaculus/human_api.py:submit_binary",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/metaculus/human_api.py",
+      "target": "function:engine/metaculus/human_api.py:submit_binary",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/metaculus/human_api.py",
+      "target": "function:engine/metaculus/human_api.py:submit_multiple_choice",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/metaculus/human_api.py",
+      "target": "function:engine/metaculus/human_api.py:submit_multiple_choice",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/metaculus/human_api.py",
+      "target": "function:engine/metaculus/human_api.py:submit_cdf",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/metaculus/human_api.py",
+      "target": "function:engine/metaculus/human_api.py:submit_cdf",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/metaculus/human_api.py",
+      "target": "class:engine/metaculus/human_api.py:SessionError",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/metaculus/human_api.py",
+      "target": "class:engine/metaculus/human_api.py:SessionError",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pope/capture_render.py",
+      "target": "function:engine/pope/capture_render.py:_inline",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/pope/capture_render.py",
+      "target": "function:engine/pope/capture_render.py:_inline",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pope/capture_render.py",
+      "target": "function:engine/pope/capture_render.py:_field",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/pope/capture_render.py",
+      "target": "function:engine/pope/capture_render.py:_field",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pope/capture_render.py",
+      "target": "function:engine/pope/capture_render.py:_meta_row",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/pope/capture_render.py",
+      "target": "function:engine/pope/capture_render.py:_meta_row",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pope/capture_render.py",
+      "target": "function:engine/pope/capture_render.py:_cover",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/pope/capture_render.py",
+      "target": "function:engine/pope/capture_render.py:_cover",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pope/capture_render.py",
+      "target": "function:engine/pope/capture_render.py:_shortlist",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/pope/capture_render.py",
+      "target": "function:engine/pope/capture_render.py:_shortlist",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pope/capture_render.py",
+      "target": "function:engine/pope/capture_render.py:_this_week",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/pope/capture_render.py",
+      "target": "function:engine/pope/capture_render.py:_this_week",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pope/capture_render.py",
+      "target": "function:engine/pope/capture_render.py:_verdict",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/pope/capture_render.py",
+      "target": "function:engine/pope/capture_render.py:_verdict",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pope/capture_render.py",
+      "target": "function:engine/pope/capture_render.py:_targets",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/pope/capture_render.py",
+      "target": "function:engine/pope/capture_render.py:_targets",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pope/capture_render.py",
+      "target": "function:engine/pope/capture_render.py:_refute",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/pope/capture_render.py",
+      "target": "function:engine/pope/capture_render.py:_refute",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pope/capture_render.py",
+      "target": "function:engine/pope/capture_render.py:_plan",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/pope/capture_render.py",
+      "target": "function:engine/pope/capture_render.py:_plan",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pope/capture_render.py",
+      "target": "function:engine/pope/capture_render.py:build_html",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/pope/capture_render.py",
+      "target": "function:engine/pope/capture_render.py:build_html",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pope/capture_render.py",
+      "target": "function:engine/pope/capture_render.py:_find_chrome",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/pope/capture_render.py",
+      "target": "function:engine/pope/capture_render.py:_find_chrome",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pope/capture_render.py",
+      "target": "function:engine/pope/capture_render.py:render",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/pope/capture_render.py",
+      "target": "function:engine/pope/capture_render.py:render",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pope/capture_render.py",
+      "target": "function:engine/pope/capture_render.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/pope/capture_render.py",
+      "target": "function:engine/pope/capture_render.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pope/publish_site.py",
+      "target": "function:engine/pope/publish_site.py:_preview_pdf",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/pope/publish_site.py",
+      "target": "function:engine/pope/publish_site.py:_preview_pdf",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pope/publish_site.py",
+      "target": "function:engine/pope/publish_site.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/pope/publish_site.py",
+      "target": "function:engine/pope/publish_site.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pope/ultra.py",
+      "target": "function:engine/pope/ultra.py:_clean_text",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/pope/ultra.py",
+      "target": "function:engine/pope/ultra.py:_clean_text",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pope/ultra.py",
+      "target": "function:engine/pope/ultra.py:_query_phrase",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/pope/ultra.py",
+      "target": "function:engine/pope/ultra.py:_query_phrase",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pope/ultra.py",
+      "target": "function:engine/pope/ultra.py:_slug",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/pope/ultra.py",
+      "target": "function:engine/pope/ultra.py:_slug",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pope/ultra.py",
+      "target": "function:engine/pope/ultra.py:_fmt",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/pope/ultra.py",
+      "target": "function:engine/pope/ultra.py:_fmt",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pope/ultra.py",
+      "target": "function:engine/pope/ultra.py:_infer_domain_tags",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/pope/ultra.py",
+      "target": "function:engine/pope/ultra.py:_infer_domain_tags",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pope/ultra.py",
+      "target": "function:engine/pope/ultra.py:_packets_for",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/pope/ultra.py",
+      "target": "function:engine/pope/ultra.py:_packets_for",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pope/ultra.py",
+      "target": "function:engine/pope/ultra.py:_make_packet",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/pope/ultra.py",
+      "target": "function:engine/pope/ultra.py:_make_packet",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pope/ultra.py",
+      "target": "function:engine/pope/ultra.py:_layers",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/pope/ultra.py",
+      "target": "function:engine/pope/ultra.py:_layers",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pope/ultra.py",
+      "target": "function:engine/pope/ultra.py:_action_axes",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/pope/ultra.py",
+      "target": "function:engine/pope/ultra.py:_action_axes",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pope/ultra.py",
+      "target": "function:engine/pope/ultra.py:_agent_brief",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/pope/ultra.py",
+      "target": "function:engine/pope/ultra.py:_agent_brief",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pope/ultra.py",
+      "target": "function:engine/pope/ultra.py:build_dossier",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/pope/ultra.py",
+      "target": "function:engine/pope/ultra.py:build_dossier",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pope/ultra.py",
+      "target": "function:engine/pope/ultra.py:_pct",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/pope/ultra.py",
+      "target": "function:engine/pope/ultra.py:_pct",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pope/ultra.py",
+      "target": "function:engine/pope/ultra.py:render_markdown",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/pope/ultra.py",
+      "target": "function:engine/pope/ultra.py:render_markdown",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pope/ultra.py",
+      "target": "function:engine/pope/ultra.py:_write_csv",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/pope/ultra.py",
+      "target": "function:engine/pope/ultra.py:_write_csv",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pope/ultra.py",
+      "target": "function:engine/pope/ultra.py:write_outputs",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/pope/ultra.py",
+      "target": "function:engine/pope/ultra.py:write_outputs",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pope/ultra.py",
+      "target": "function:engine/pope/ultra.py:parse_args",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/pope/ultra.py",
+      "target": "function:engine/pope/ultra.py:parse_args",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pope/ultra.py",
+      "target": "function:engine/pope/ultra.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/pope/ultra.py",
+      "target": "function:engine/pope/ultra.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pope/ultra.py",
+      "target": "class:engine/pope/ultra.py:PacketTemplate",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/pope/ultra.py",
+      "target": "class:engine/pope/ultra.py:PacketTemplate",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/prophet/kalshi.py",
+      "target": "function:engine/prophet/kalshi.py:_get",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/prophet/kalshi.py",
+      "target": "function:engine/prophet/kalshi.py:_get",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/prophet/kalshi.py",
+      "target": "function:engine/prophet/kalshi.py:_ts",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/prophet/kalshi.py",
+      "target": "function:engine/prophet/kalshi.py:_ts",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/prophet/kalshi.py",
+      "target": "function:engine/prophet/kalshi.py:_f",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/prophet/kalshi.py",
+      "target": "function:engine/prophet/kalshi.py:_f",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/prophet/kalshi.py",
+      "target": "function:engine/prophet/kalshi.py:_anchor_price",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/prophet/kalshi.py",
+      "target": "function:engine/prophet/kalshi.py:_anchor_price",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/prophet/kalshi.py",
+      "target": "function:engine/prophet/kalshi.py:harvest",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/prophet/kalshi.py",
+      "target": "function:engine/prophet/kalshi.py:harvest",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/prophet/kalshi.py",
+      "target": "function:engine/prophet/kalshi.py:market_baseline",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/prophet/kalshi.py",
+      "target": "function:engine/prophet/kalshi.py:market_baseline",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/prophet/kalshi.py",
+      "target": "function:engine/prophet/kalshi.py:to_event",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/prophet/kalshi.py",
+      "target": "function:engine/prophet/kalshi.py:to_event",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/prophet/kalshi.py",
+      "target": "function:engine/prophet/kalshi.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/prophet/kalshi.py",
+      "target": "function:engine/prophet/kalshi.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/gdelt_collect.py:write_record_batch",
+      "target": "function:engine/gdelt_collect.py:shard_path",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/gdelt_collect.py:main",
+      "target": "function:engine/gdelt_collect.py:get_proxy_url",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/gdelt_collect.py:main",
+      "target": "function:engine/gdelt_collect.py:daterange",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/gdelt_collect.py:main",
+      "target": "function:engine/gdelt_collect.py:flush_shard_to_s3",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/gdelt_collect.py:main",
+      "target": "function:engine/gdelt_collect.py:stage_size",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/gdelt_collect.py:main",
+      "target": "function:engine/gdelt_collect.py:fetch_day_zip",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/gdelt_collect.py:main",
+      "target": "function:engine/gdelt_collect.py:write_record_batch",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/gdelt_collect.py:main",
+      "target": "function:engine/gdelt_collect.py:aggregate_day",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/gdelt_collect.py:main",
+      "target": "function:engine/gdelt_collect.py:emit_records",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/global_equities_collect.py:main",
+      "target": "function:engine/global_equities_collect.py:build_universe",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/global_equities_collect.py:main",
+      "target": "class:engine/global_equities_collect.py:ShardWriter",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/global_equities_collect.py:main",
+      "target": "function:engine/global_equities_collect.py:fetch_symbol",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/global_equities_collect.py:main",
+      "target": "function:engine/global_equities_collect.py:s3_upload",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/metaculus/human_api.py:_session",
+      "target": "class:engine/metaculus/human_api.py:SessionError",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/metaculus/human_api.py:_headers",
+      "target": "function:engine/metaculus/human_api.py:_session",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/metaculus/human_api.py:_headers",
+      "target": "class:engine/metaculus/human_api.py:SessionError",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/metaculus/human_api.py:_req",
+      "target": "function:engine/metaculus/human_api.py:_headers",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/metaculus/human_api.py:_req",
+      "target": "class:engine/metaculus/human_api.py:SessionError",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/metaculus/human_api.py:me",
+      "target": "function:engine/metaculus/human_api.py:_req",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/metaculus/human_api.py:submit_binary",
+      "target": "function:engine/metaculus/human_api.py:_req",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/metaculus/human_api.py:submit_multiple_choice",
+      "target": "function:engine/metaculus/human_api.py:_req",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/metaculus/human_api.py:submit_cdf",
+      "target": "function:engine/metaculus/human_api.py:_req",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pope/capture_render.py:_field",
+      "target": "function:engine/pope/capture_render.py:_inline",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pope/capture_render.py:_meta_row",
+      "target": "function:engine/pope/capture_render.py:_inline",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pope/capture_render.py:_meta_row",
+      "target": "function:engine/pope/capture_render.py:_verdict",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pope/capture_render.py:_cover",
+      "target": "function:engine/pope/capture_render.py:_inline",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pope/capture_render.py:_cover",
+      "target": "function:engine/pope/capture_render.py:_meta_row",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pope/capture_render.py:_shortlist",
+      "target": "function:engine/pope/capture_render.py:_inline",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pope/capture_render.py:_this_week",
+      "target": "function:engine/pope/capture_render.py:_inline",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pope/capture_render.py:_targets",
+      "target": "function:engine/pope/capture_render.py:_inline",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pope/capture_render.py:_refute",
+      "target": "function:engine/pope/capture_render.py:_field",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pope/capture_render.py:_plan",
+      "target": "function:engine/pope/capture_render.py:_verdict",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pope/capture_render.py:_plan",
+      "target": "function:engine/pope/capture_render.py:_inline",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pope/capture_render.py:_plan",
+      "target": "function:engine/pope/capture_render.py:_field",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pope/capture_render.py:_plan",
+      "target": "function:engine/pope/capture_render.py:_targets",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pope/capture_render.py:_plan",
+      "target": "function:engine/pope/capture_render.py:_refute",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pope/capture_render.py:build_html",
+      "target": "function:engine/pope/capture_render.py:_cover",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pope/capture_render.py:build_html",
+      "target": "function:engine/pope/capture_render.py:_shortlist",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pope/capture_render.py:build_html",
+      "target": "function:engine/pope/capture_render.py:_this_week",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pope/capture_render.py:build_html",
+      "target": "function:engine/pope/capture_render.py:_plan",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pope/capture_render.py:render",
+      "target": "function:engine/pope/capture_render.py:build_html",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pope/capture_render.py:render",
+      "target": "function:engine/pope/capture_render.py:_find_chrome",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pope/capture_render.py:main",
+      "target": "function:engine/pope/capture_render.py:render",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pope/publish_site.py:main",
+      "target": "function:engine/pope/publish_site.py:_preview_pdf",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pope/ultra.py:_query_phrase",
+      "target": "function:engine/pope/ultra.py:_clean_text",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pope/ultra.py:_fmt",
+      "target": "function:engine/pope/ultra.py:_query_phrase",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pope/ultra.py:_fmt",
+      "target": "function:engine/pope/ultra.py:_clean_text",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pope/ultra.py:_infer_domain_tags",
+      "target": "function:engine/pope/ultra.py:_clean_text",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pope/ultra.py:_packets_for",
+      "target": "function:engine/pope/ultra.py:_infer_domain_tags",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pope/ultra.py:_make_packet",
+      "target": "function:engine/pope/ultra.py:_clean_text",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pope/ultra.py:_make_packet",
+      "target": "function:engine/pope/ultra.py:_fmt",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pope/ultra.py:_layers",
+      "target": "function:engine/pope/ultra.py:_clean_text",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pope/ultra.py:_action_axes",
+      "target": "function:engine/pope/ultra.py:_clean_text",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pope/ultra.py:_agent_brief",
+      "target": "function:engine/pope/ultra.py:_clean_text",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pope/ultra.py:build_dossier",
+      "target": "function:engine/pope/ultra.py:_clean_text",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pope/ultra.py:build_dossier",
+      "target": "function:engine/pope/ultra.py:_make_packet",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pope/ultra.py:build_dossier",
+      "target": "function:engine/pope/ultra.py:_packets_for",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pope/ultra.py:build_dossier",
+      "target": "function:engine/pope/ultra.py:_layers",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pope/ultra.py:build_dossier",
+      "target": "function:engine/pope/ultra.py:_action_axes",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pope/ultra.py:build_dossier",
+      "target": "function:engine/pope/ultra.py:_agent_brief",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pope/ultra.py:render_markdown",
+      "target": "function:engine/pope/ultra.py:_pct",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pope/ultra.py:write_outputs",
+      "target": "function:engine/pope/ultra.py:render_markdown",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pope/ultra.py:write_outputs",
+      "target": "function:engine/pope/ultra.py:_write_csv",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pope/ultra.py:main",
+      "target": "function:engine/pope/ultra.py:parse_args",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pope/ultra.py:main",
+      "target": "function:engine/pope/ultra.py:build_dossier",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pope/ultra.py:main",
+      "target": "function:engine/pope/ultra.py:write_outputs",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/prophet/kalshi.py:_anchor_price",
+      "target": "function:engine/prophet/kalshi.py:_get",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/prophet/kalshi.py:_anchor_price",
+      "target": "function:engine/prophet/kalshi.py:_f",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/prophet/kalshi.py:harvest",
+      "target": "function:engine/prophet/kalshi.py:_get",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/prophet/kalshi.py:harvest",
+      "target": "function:engine/prophet/kalshi.py:_f",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/prophet/kalshi.py:harvest",
+      "target": "function:engine/prophet/kalshi.py:_anchor_price",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/prophet/kalshi.py:harvest",
+      "target": "function:engine/prophet/kalshi.py:_ts",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/prophet/kalshi.py:main",
+      "target": "function:engine/prophet/kalshi.py:harvest",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/prophet/kalshi.py:main",
+      "target": "function:engine/prophet/kalshi.py:market_baseline",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

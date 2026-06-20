@@ -1,0 +1,74 @@
+[
+ {
+  "question_id": 41678,
+  "type": "multiple_choice",
+  "option_probs": {
+   "Chad Bianco": 0.01,
+   "Steve Hilton": 0.07,
+   "Katie Porter": 0.01,
+   "Tom Steyer": 0.01,
+   "Xavier Becerra": 0.89,
+   "Other": 0.01
+  },
+  "reasoning": "June primary is settled: Democrat Xavier Becerra and Republican Steve Hilton advanced; Bianco, Porter, and Steyer were eliminated and cannot win. California is deep blue and elects Democrats statewide, so Becerra is the heavy favorite over Hilton."
+ },
+ {
+  "question_id": 43468,
+  "type": "multiple_choice",
+  "option_probs": {
+   "Democrat": 0.58,
+   "Republican": 0.20,
+   "Other": 0.22
+  },
+  "reasoning": "Open Democratic-held seat in a Democratic-leaning state decided by plurality, but former GOP chair Rick Bennett is a formidable independent who could win or split the field. Democrat favored, with a meaningful tail for Bennett (Other) and a weaker Republican."
+ },
+ {
+  "question_id": 43466,
+  "type": "multiple_choice",
+  "option_probs": {
+   "Democrat": 0.50,
+   "Republican": 0.42,
+   "Other": 0.08
+  },
+  "reasoning": "Open seat under ranked-choice voting; prediction markets put Democrats Begich (30%) and Kreiss-Tomkins (16%) ahead of Republican Wilson (25%) and Taylor (7%), with independent Walker around 6%. A red-leaning state but strong Democratic candidates and a Democratic national environment make it roughly a coin flip favoring the Democrat."
+ },
+ {
+  "question_id": 39983,
+  "type": "numeric",
+  "percentiles": {
+   "0.05": -40,
+   "0.1": -32,
+   "0.25": -22,
+   "0.5": -12,
+   "0.75": -3,
+   "0.9": 6,
+   "0.95": 13
+  },
+  "reasoning": "Strong out-party midterm environment (D+5 generic ballot, low presidential approval) plus markets pricing ~80% Democratic House makes a Democratic majority likely; median around a Dem edge of ~12 seats (GOP minus Dem ~ -12). Wide interval reflects the historically tight modern House map and possibility of a narrow GOP hold."
+ },
+ {
+  "question_id": 33997,
+  "type": "multiple_choice",
+  "option_probs": {
+   "Dem Senate / Dem House": 0.44,
+   "Rep Senate / Rep House": 0.18,
+   "Dem Senate / Rep House": 0.02,
+   "Rep Senate / Dem House": 0.36
+  },
+  "reasoning": "Markets price a Democratic sweep at ~44% and Republican-Senate/Democratic-House at ~35%, with a Republican sweep ~18%; House likely flips to Democrats while the Senate map favors Republicans. The split where Democrats hold the Senate but lose the House is near-impossible given correlated environment."
+ },
+ {
+  "question_id": 39986,
+  "type": "discrete",
+  "percentiles": {
+   "0.05": -4,
+   "0.1": -2,
+   "0.25": 0,
+   "0.5": 2,
+   "0.75": 4,
+   "0.9": 6,
+   "0.95": 6
+  },
+  "reasoning": "Republicans start at 53-47 (R+6); Democrats need a net +4 (to R+2 or better) for control, and markets rate the Senate a near toss-up with a slight Republican edge. Median lands around R+2 (51-49 R), with the distribution straddling Democratic control on a strong-environment night and a status-quo R+6 on the upside."
+ }
+]

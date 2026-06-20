@@ -1,0 +1,1729 @@
+{
+  "nodes": [
+    {
+      "id": "file:engine/feeds/ecb_fx.py",
+      "type": "file",
+      "name": "ecb_fx.py",
+      "filePath": "engine/feeds/ecb_fx.py",
+      "summary": "ecb_fx.py is a code asset in the forecasting engine. It contains 6 functions.",
+      "tags": [
+        "forecasting-engine",
+        "code",
+        "file",
+        "ecb-fx"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/feeds/ecb_fx.py:_today",
+      "type": "function",
+      "name": "_today",
+      "filePath": "engine/feeds/ecb_fx.py",
+      "lineRange": [
+        27,
+        28
+      ],
+      "summary": "Defines _today in ecb_fx.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "ecb-fx"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/ecb_fx.py:_fetch_zip",
+      "type": "function",
+      "name": "_fetch_zip",
+      "filePath": "engine/feeds/ecb_fx.py",
+      "lineRange": [
+        31,
+        34
+      ],
+      "summary": "Defines _fetch_zip in ecb_fx.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-access",
+        "ecb-fx"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/ecb_fx.py:_write_jsonl_atomic",
+      "type": "function",
+      "name": "_write_jsonl_atomic",
+      "filePath": "engine/feeds/ecb_fx.py",
+      "lineRange": [
+        37,
+        43
+      ],
+      "summary": "Defines _write_jsonl_atomic in ecb_fx.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "ecb-fx"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/ecb_fx.py:_csv_text",
+      "type": "function",
+      "name": "_csv_text",
+      "filePath": "engine/feeds/ecb_fx.py",
+      "lineRange": [
+        46,
+        51
+      ],
+      "summary": "Defines _csv_text in ecb_fx.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "ecb-fx"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/ecb_fx.py:normalize_csv",
+      "type": "function",
+      "name": "normalize_csv",
+      "filePath": "engine/feeds/ecb_fx.py",
+      "lineRange": [
+        54,
+        117
+      ],
+      "summary": "Defines normalize_csv in ecb_fx.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "ecb-fx"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/feeds/ecb_fx.py:collect",
+      "type": "function",
+      "name": "collect",
+      "filePath": "engine/feeds/ecb_fx.py",
+      "lineRange": [
+        120,
+        130
+      ],
+      "summary": "Defines collect in ecb_fx.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "ecb-fx"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:engine/feeds/eonet.py",
+      "type": "file",
+      "name": "eonet.py",
+      "filePath": "engine/feeds/eonet.py",
+      "summary": "eonet.py is a code asset in the forecasting engine. It contains 11 functions.",
+      "tags": [
+        "forecasting-engine",
+        "code",
+        "file",
+        "eonet"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:engine/feeds/eonet.py:_slug",
+      "type": "function",
+      "name": "_slug",
+      "filePath": "engine/feeds/eonet.py",
+      "lineRange": [
+        31,
+        33
+      ],
+      "summary": "Defines _slug in eonet.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "eonet"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/eonet.py:_parse_date",
+      "type": "function",
+      "name": "_parse_date",
+      "filePath": "engine/feeds/eonet.py",
+      "lineRange": [
+        36,
+        48
+      ],
+      "summary": "Defines _parse_date in eonet.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "eonet"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/eonet.py:_existing_line_count",
+      "type": "function",
+      "name": "_existing_line_count",
+      "filePath": "engine/feeds/eonet.py",
+      "lineRange": [
+        51,
+        55
+      ],
+      "summary": "Defines _existing_line_count in eonet.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "eonet"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/eonet.py:_write_jsonl_atomic",
+      "type": "function",
+      "name": "_write_jsonl_atomic",
+      "filePath": "engine/feeds/eonet.py",
+      "lineRange": [
+        58,
+        64
+      ],
+      "summary": "Defines _write_jsonl_atomic in eonet.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "eonet"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/eonet.py:fetch_events",
+      "type": "function",
+      "name": "fetch_events",
+      "filePath": "engine/feeds/eonet.py",
+      "lineRange": [
+        67,
+        76
+      ],
+      "summary": "Defines fetch_events in eonet.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-access",
+        "eonet"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/eonet.py:_categories",
+      "type": "function",
+      "name": "_categories",
+      "filePath": "engine/feeds/eonet.py",
+      "lineRange": [
+        79,
+        87
+      ],
+      "summary": "Defines _categories in eonet.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "eonet"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/eonet.py:_event_dates",
+      "type": "function",
+      "name": "_event_dates",
+      "filePath": "engine/feeds/eonet.py",
+      "lineRange": [
+        90,
+        98
+      ],
+      "summary": "Defines _event_dates in eonet.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "eonet"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/eonet.py:_example",
+      "type": "function",
+      "name": "_example",
+      "filePath": "engine/feeds/eonet.py",
+      "lineRange": [
+        101,
+        125
+      ],
+      "summary": "Defines _example in eonet.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "eonet"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/eonet.py:_append_example",
+      "type": "function",
+      "name": "_append_example",
+      "filePath": "engine/feeds/eonet.py",
+      "lineRange": [
+        128,
+        130
+      ],
+      "summary": "Defines _append_example in eonet.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "eonet"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/eonet.py:normalize",
+      "type": "function",
+      "name": "normalize",
+      "filePath": "engine/feeds/eonet.py",
+      "lineRange": [
+        133,
+        240
+      ],
+      "summary": "Defines normalize in eonet.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "eonet"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/feeds/eonet.py:collect",
+      "type": "function",
+      "name": "collect",
+      "filePath": "engine/feeds/eonet.py",
+      "lineRange": [
+        243,
+        264
+      ],
+      "summary": "Defines collect in eonet.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "eonet"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:engine/feeds/epoch_ai.py",
+      "type": "file",
+      "name": "epoch_ai.py",
+      "filePath": "engine/feeds/epoch_ai.py",
+      "summary": "epoch_ai.py is a code asset in the forecasting engine. It contains 5 functions.",
+      "tags": [
+        "forecasting-engine",
+        "code",
+        "file",
+        "epoch-ai"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/feeds/epoch_ai.py:_fetch_csv",
+      "type": "function",
+      "name": "_fetch_csv",
+      "filePath": "engine/feeds/epoch_ai.py",
+      "lineRange": [
+        26,
+        29
+      ],
+      "summary": "Defines _fetch_csv in epoch_ai.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-access",
+        "epoch-ai"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/epoch_ai.py:_year",
+      "type": "function",
+      "name": "_year",
+      "filePath": "engine/feeds/epoch_ai.py",
+      "lineRange": [
+        32,
+        34
+      ],
+      "summary": "Defines _year in epoch_ai.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "epoch-ai"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/epoch_ai.py:_flop",
+      "type": "function",
+      "name": "_flop",
+      "filePath": "engine/feeds/epoch_ai.py",
+      "lineRange": [
+        37,
+        44
+      ],
+      "summary": "Defines _flop in epoch_ai.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "epoch-ai"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/epoch_ai.py:normalize",
+      "type": "function",
+      "name": "normalize",
+      "filePath": "engine/feeds/epoch_ai.py",
+      "lineRange": [
+        47,
+        79
+      ],
+      "summary": "Defines normalize in epoch_ai.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "epoch-ai"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/epoch_ai.py:collect",
+      "type": "function",
+      "name": "collect",
+      "filePath": "engine/feeds/epoch_ai.py",
+      "lineRange": [
+        82,
+        96
+      ],
+      "summary": "Defines collect in epoch_ai.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "epoch-ai"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:engine/feeds/eu_sanctions.py",
+      "type": "file",
+      "name": "eu_sanctions.py",
+      "filePath": "engine/feeds/eu_sanctions.py",
+      "summary": "eu_sanctions.py is a code asset in the forecasting engine. It contains 13 functions.",
+      "tags": [
+        "forecasting-engine",
+        "code",
+        "file",
+        "eu-sanctions"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/feeds/eu_sanctions.py:_existing_line_count",
+      "type": "function",
+      "name": "_existing_line_count",
+      "filePath": "engine/feeds/eu_sanctions.py",
+      "lineRange": [
+        26,
+        30
+      ],
+      "summary": "Defines _existing_line_count in eu_sanctions.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "eu-sanctions"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/eu_sanctions.py:_write_jsonl_atomic",
+      "type": "function",
+      "name": "_write_jsonl_atomic",
+      "filePath": "engine/feeds/eu_sanctions.py",
+      "lineRange": [
+        33,
+        39
+      ],
+      "summary": "Defines _write_jsonl_atomic in eu_sanctions.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "eu-sanctions"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/eu_sanctions.py:_fetch_bytes",
+      "type": "function",
+      "name": "_fetch_bytes",
+      "filePath": "engine/feeds/eu_sanctions.py",
+      "lineRange": [
+        42,
+        48
+      ],
+      "summary": "Defines _fetch_bytes in eu_sanctions.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-access",
+        "eu-sanctions"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/eu_sanctions.py:_strip_ns",
+      "type": "function",
+      "name": "_strip_ns",
+      "filePath": "engine/feeds/eu_sanctions.py",
+      "lineRange": [
+        51,
+        52
+      ],
+      "summary": "Defines _strip_ns in eu_sanctions.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "eu-sanctions"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/eu_sanctions.py:_iter_children",
+      "type": "function",
+      "name": "_iter_children",
+      "filePath": "engine/feeds/eu_sanctions.py",
+      "lineRange": [
+        55,
+        58
+      ],
+      "summary": "Defines _iter_children in eu_sanctions.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "eu-sanctions"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/eu_sanctions.py:_first_child",
+      "type": "function",
+      "name": "_first_child",
+      "filePath": "engine/feeds/eu_sanctions.py",
+      "lineRange": [
+        61,
+        62
+      ],
+      "summary": "Defines _first_child in eu_sanctions.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "eu-sanctions"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/eu_sanctions.py:_slug",
+      "type": "function",
+      "name": "_slug",
+      "filePath": "engine/feeds/eu_sanctions.py",
+      "lineRange": [
+        65,
+        66
+      ],
+      "summary": "Defines _slug in eu_sanctions.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "eu-sanctions"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/eu_sanctions.py:_date_from_generation",
+      "type": "function",
+      "name": "_date_from_generation",
+      "filePath": "engine/feeds/eu_sanctions.py",
+      "lineRange": [
+        69,
+        71
+      ],
+      "summary": "Defines _date_from_generation in eu_sanctions.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "eu-sanctions"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/eu_sanctions.py:_entry_name",
+      "type": "function",
+      "name": "_entry_name",
+      "filePath": "engine/feeds/eu_sanctions.py",
+      "lineRange": [
+        74,
+        79
+      ],
+      "summary": "Defines _entry_name in eu_sanctions.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entry-point",
+        "eu-sanctions"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/eu_sanctions.py:parse_xml",
+      "type": "function",
+      "name": "parse_xml",
+      "filePath": "engine/feeds/eu_sanctions.py",
+      "lineRange": [
+        82,
+        110
+      ],
+      "summary": "Defines parse_xml in eu_sanctions.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "eu-sanctions"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/eu_sanctions.py:_examples",
+      "type": "function",
+      "name": "_examples",
+      "filePath": "engine/feeds/eu_sanctions.py",
+      "lineRange": [
+        113,
+        124
+      ],
+      "summary": "Defines _examples in eu_sanctions.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "eu-sanctions"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/eu_sanctions.py:normalize",
+      "type": "function",
+      "name": "normalize",
+      "filePath": "engine/feeds/eu_sanctions.py",
+      "lineRange": [
+        127,
+        191
+      ],
+      "summary": "Defines normalize in eu_sanctions.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "eu-sanctions"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/feeds/eu_sanctions.py:collect",
+      "type": "function",
+      "name": "collect",
+      "filePath": "engine/feeds/eu_sanctions.py",
+      "lineRange": [
+        194,
+        217
+      ],
+      "summary": "Defines collect in eu_sanctions.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "eu-sanctions"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:engine/feeds/federal_register.py",
+      "type": "file",
+      "name": "federal_register.py",
+      "filePath": "engine/feeds/federal_register.py",
+      "summary": "federal_register.py is a code asset in the forecasting engine. It contains 8 functions.",
+      "tags": [
+        "forecasting-engine",
+        "code",
+        "file",
+        "federal-register"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:engine/feeds/federal_register.py:_cutoff_year_month",
+      "type": "function",
+      "name": "_cutoff_year_month",
+      "filePath": "engine/feeds/federal_register.py",
+      "lineRange": [
+        96,
+        98
+      ],
+      "summary": "Defines _cutoff_year_month in federal_register.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "federal-register"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/federal_register.py:_existing_line_count",
+      "type": "function",
+      "name": "_existing_line_count",
+      "filePath": "engine/feeds/federal_register.py",
+      "lineRange": [
+        101,
+        105
+      ],
+      "summary": "Defines _existing_line_count in federal_register.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "federal-register"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/federal_register.py:_existing_count_same_schema",
+      "type": "function",
+      "name": "_existing_count_same_schema",
+      "filePath": "engine/feeds/federal_register.py",
+      "lineRange": [
+        108,
+        122
+      ],
+      "summary": "Defines _existing_count_same_schema in federal_register.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "federal-register"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/federal_register.py:_write_jsonl_atomic",
+      "type": "function",
+      "name": "_write_jsonl_atomic",
+      "filePath": "engine/feeds/federal_register.py",
+      "lineRange": [
+        125,
+        131
+      ],
+      "summary": "Defines _write_jsonl_atomic in federal_register.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "federal-register"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/federal_register.py:_count",
+      "type": "function",
+      "name": "_count",
+      "filePath": "engine/feeds/federal_register.py",
+      "lineRange": [
+        134,
+        152
+      ],
+      "summary": "Defines _count in federal_register.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "federal-register"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/federal_register.py:_month_last_day",
+      "type": "function",
+      "name": "_month_last_day",
+      "filePath": "engine/feeds/federal_register.py",
+      "lineRange": [
+        155,
+        157
+      ],
+      "summary": "Defines _month_last_day in federal_register.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "federal-register"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/federal_register.py:fetch_topic",
+      "type": "function",
+      "name": "fetch_topic",
+      "filePath": "engine/feeds/federal_register.py",
+      "lineRange": [
+        160,
+        209
+      ],
+      "summary": "Defines fetch_topic in federal_register.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-access",
+        "federal-register"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/feeds/federal_register.py:collect",
+      "type": "function",
+      "name": "collect",
+      "filePath": "engine/feeds/federal_register.py",
+      "lineRange": [
+        212,
+        235
+      ],
+      "summary": "Defines collect in federal_register.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "federal-register"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:engine/feeds/ecb_fx.py",
+      "target": "function:engine/feeds/ecb_fx.py:_today",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/ecb_fx.py",
+      "target": "function:engine/feeds/ecb_fx.py:_today",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/ecb_fx.py",
+      "target": "function:engine/feeds/ecb_fx.py:_fetch_zip",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/ecb_fx.py",
+      "target": "function:engine/feeds/ecb_fx.py:_fetch_zip",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/ecb_fx.py",
+      "target": "function:engine/feeds/ecb_fx.py:_write_jsonl_atomic",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/ecb_fx.py",
+      "target": "function:engine/feeds/ecb_fx.py:_write_jsonl_atomic",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/ecb_fx.py",
+      "target": "function:engine/feeds/ecb_fx.py:_csv_text",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/ecb_fx.py",
+      "target": "function:engine/feeds/ecb_fx.py:_csv_text",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/ecb_fx.py",
+      "target": "function:engine/feeds/ecb_fx.py:normalize_csv",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/ecb_fx.py",
+      "target": "function:engine/feeds/ecb_fx.py:normalize_csv",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/ecb_fx.py",
+      "target": "function:engine/feeds/ecb_fx.py:collect",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/ecb_fx.py",
+      "target": "function:engine/feeds/ecb_fx.py:collect",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/eonet.py",
+      "target": "function:engine/feeds/eonet.py:_slug",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/eonet.py",
+      "target": "function:engine/feeds/eonet.py:_slug",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/eonet.py",
+      "target": "function:engine/feeds/eonet.py:_parse_date",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/eonet.py",
+      "target": "function:engine/feeds/eonet.py:_parse_date",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/eonet.py",
+      "target": "function:engine/feeds/eonet.py:_existing_line_count",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/eonet.py",
+      "target": "function:engine/feeds/eonet.py:_existing_line_count",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/eonet.py",
+      "target": "function:engine/feeds/eonet.py:_write_jsonl_atomic",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/eonet.py",
+      "target": "function:engine/feeds/eonet.py:_write_jsonl_atomic",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/eonet.py",
+      "target": "function:engine/feeds/eonet.py:fetch_events",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/eonet.py",
+      "target": "function:engine/feeds/eonet.py:fetch_events",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/eonet.py",
+      "target": "function:engine/feeds/eonet.py:_categories",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/eonet.py",
+      "target": "function:engine/feeds/eonet.py:_categories",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/eonet.py",
+      "target": "function:engine/feeds/eonet.py:_event_dates",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/eonet.py",
+      "target": "function:engine/feeds/eonet.py:_event_dates",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/eonet.py",
+      "target": "function:engine/feeds/eonet.py:_example",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/eonet.py",
+      "target": "function:engine/feeds/eonet.py:_example",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/eonet.py",
+      "target": "function:engine/feeds/eonet.py:_append_example",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/eonet.py",
+      "target": "function:engine/feeds/eonet.py:_append_example",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/eonet.py",
+      "target": "function:engine/feeds/eonet.py:normalize",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/eonet.py",
+      "target": "function:engine/feeds/eonet.py:normalize",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/eonet.py",
+      "target": "function:engine/feeds/eonet.py:collect",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/eonet.py",
+      "target": "function:engine/feeds/eonet.py:collect",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/epoch_ai.py",
+      "target": "function:engine/feeds/epoch_ai.py:_fetch_csv",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/epoch_ai.py",
+      "target": "function:engine/feeds/epoch_ai.py:_fetch_csv",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/epoch_ai.py",
+      "target": "function:engine/feeds/epoch_ai.py:_year",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/epoch_ai.py",
+      "target": "function:engine/feeds/epoch_ai.py:_year",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/epoch_ai.py",
+      "target": "function:engine/feeds/epoch_ai.py:_flop",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/epoch_ai.py",
+      "target": "function:engine/feeds/epoch_ai.py:_flop",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/epoch_ai.py",
+      "target": "function:engine/feeds/epoch_ai.py:normalize",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/epoch_ai.py",
+      "target": "function:engine/feeds/epoch_ai.py:normalize",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/epoch_ai.py",
+      "target": "function:engine/feeds/epoch_ai.py:collect",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/epoch_ai.py",
+      "target": "function:engine/feeds/epoch_ai.py:collect",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/eu_sanctions.py",
+      "target": "function:engine/feeds/eu_sanctions.py:_existing_line_count",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/eu_sanctions.py",
+      "target": "function:engine/feeds/eu_sanctions.py:_existing_line_count",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/eu_sanctions.py",
+      "target": "function:engine/feeds/eu_sanctions.py:_write_jsonl_atomic",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/eu_sanctions.py",
+      "target": "function:engine/feeds/eu_sanctions.py:_write_jsonl_atomic",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/eu_sanctions.py",
+      "target": "function:engine/feeds/eu_sanctions.py:_fetch_bytes",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/eu_sanctions.py",
+      "target": "function:engine/feeds/eu_sanctions.py:_fetch_bytes",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/eu_sanctions.py",
+      "target": "function:engine/feeds/eu_sanctions.py:_strip_ns",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/eu_sanctions.py",
+      "target": "function:engine/feeds/eu_sanctions.py:_strip_ns",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/eu_sanctions.py",
+      "target": "function:engine/feeds/eu_sanctions.py:_iter_children",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/eu_sanctions.py",
+      "target": "function:engine/feeds/eu_sanctions.py:_iter_children",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/eu_sanctions.py",
+      "target": "function:engine/feeds/eu_sanctions.py:_first_child",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/eu_sanctions.py",
+      "target": "function:engine/feeds/eu_sanctions.py:_first_child",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/eu_sanctions.py",
+      "target": "function:engine/feeds/eu_sanctions.py:_slug",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/eu_sanctions.py",
+      "target": "function:engine/feeds/eu_sanctions.py:_slug",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/eu_sanctions.py",
+      "target": "function:engine/feeds/eu_sanctions.py:_date_from_generation",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/eu_sanctions.py",
+      "target": "function:engine/feeds/eu_sanctions.py:_date_from_generation",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/eu_sanctions.py",
+      "target": "function:engine/feeds/eu_sanctions.py:_entry_name",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/eu_sanctions.py",
+      "target": "function:engine/feeds/eu_sanctions.py:_entry_name",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/eu_sanctions.py",
+      "target": "function:engine/feeds/eu_sanctions.py:parse_xml",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/eu_sanctions.py",
+      "target": "function:engine/feeds/eu_sanctions.py:parse_xml",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/eu_sanctions.py",
+      "target": "function:engine/feeds/eu_sanctions.py:_examples",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/eu_sanctions.py",
+      "target": "function:engine/feeds/eu_sanctions.py:_examples",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/eu_sanctions.py",
+      "target": "function:engine/feeds/eu_sanctions.py:normalize",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/eu_sanctions.py",
+      "target": "function:engine/feeds/eu_sanctions.py:normalize",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/eu_sanctions.py",
+      "target": "function:engine/feeds/eu_sanctions.py:collect",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/eu_sanctions.py",
+      "target": "function:engine/feeds/eu_sanctions.py:collect",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/federal_register.py",
+      "target": "function:engine/feeds/federal_register.py:_cutoff_year_month",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/federal_register.py",
+      "target": "function:engine/feeds/federal_register.py:_cutoff_year_month",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/federal_register.py",
+      "target": "function:engine/feeds/federal_register.py:_existing_line_count",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/federal_register.py",
+      "target": "function:engine/feeds/federal_register.py:_existing_line_count",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/federal_register.py",
+      "target": "function:engine/feeds/federal_register.py:_existing_count_same_schema",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/federal_register.py",
+      "target": "function:engine/feeds/federal_register.py:_existing_count_same_schema",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/federal_register.py",
+      "target": "function:engine/feeds/federal_register.py:_write_jsonl_atomic",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/federal_register.py",
+      "target": "function:engine/feeds/federal_register.py:_write_jsonl_atomic",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/federal_register.py",
+      "target": "function:engine/feeds/federal_register.py:_count",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/federal_register.py",
+      "target": "function:engine/feeds/federal_register.py:_count",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/federal_register.py",
+      "target": "function:engine/feeds/federal_register.py:_month_last_day",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/federal_register.py",
+      "target": "function:engine/feeds/federal_register.py:_month_last_day",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/federal_register.py",
+      "target": "function:engine/feeds/federal_register.py:fetch_topic",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/federal_register.py",
+      "target": "function:engine/feeds/federal_register.py:fetch_topic",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/federal_register.py",
+      "target": "function:engine/feeds/federal_register.py:collect",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/federal_register.py",
+      "target": "function:engine/feeds/federal_register.py:collect",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/ecb_fx.py:normalize_csv",
+      "target": "function:engine/feeds/ecb_fx.py:_today",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/ecb_fx.py:collect",
+      "target": "function:engine/feeds/ecb_fx.py:_fetch_zip",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/ecb_fx.py:collect",
+      "target": "function:engine/feeds/ecb_fx.py:normalize_csv",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/ecb_fx.py:collect",
+      "target": "function:engine/feeds/ecb_fx.py:_csv_text",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/ecb_fx.py:collect",
+      "target": "function:engine/feeds/ecb_fx.py:_write_jsonl_atomic",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/eonet.py:_categories",
+      "target": "function:engine/feeds/eonet.py:_slug",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/eonet.py:_event_dates",
+      "target": "function:engine/feeds/eonet.py:_parse_date",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/eonet.py:_example",
+      "target": "function:engine/feeds/eonet.py:_parse_date",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/eonet.py:_example",
+      "target": "function:engine/feeds/eonet.py:_categories",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/eonet.py:normalize",
+      "target": "function:engine/feeds/eonet.py:_categories",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/eonet.py:normalize",
+      "target": "function:engine/feeds/eonet.py:_event_dates",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/eonet.py:normalize",
+      "target": "function:engine/feeds/eonet.py:_parse_date",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/eonet.py:normalize",
+      "target": "function:engine/feeds/eonet.py:_append_example",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/eonet.py:normalize",
+      "target": "function:engine/feeds/eonet.py:_example",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/eonet.py:collect",
+      "target": "function:engine/feeds/eonet.py:fetch_events",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/eonet.py:collect",
+      "target": "function:engine/feeds/eonet.py:normalize",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/eonet.py:collect",
+      "target": "function:engine/feeds/eonet.py:_existing_line_count",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/eonet.py:collect",
+      "target": "function:engine/feeds/eonet.py:_write_jsonl_atomic",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/epoch_ai.py:normalize",
+      "target": "function:engine/feeds/epoch_ai.py:_year",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/epoch_ai.py:normalize",
+      "target": "function:engine/feeds/epoch_ai.py:_flop",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/epoch_ai.py:collect",
+      "target": "function:engine/feeds/epoch_ai.py:normalize",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/epoch_ai.py:collect",
+      "target": "function:engine/feeds/epoch_ai.py:_fetch_csv",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/eu_sanctions.py:_iter_children",
+      "target": "function:engine/feeds/eu_sanctions.py:_strip_ns",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/eu_sanctions.py:_first_child",
+      "target": "function:engine/feeds/eu_sanctions.py:_iter_children",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/eu_sanctions.py:_entry_name",
+      "target": "function:engine/feeds/eu_sanctions.py:_iter_children",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/eu_sanctions.py:_entry_name",
+      "target": "function:engine/feeds/eu_sanctions.py:_first_child",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/eu_sanctions.py:parse_xml",
+      "target": "function:engine/feeds/eu_sanctions.py:_date_from_generation",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/eu_sanctions.py:parse_xml",
+      "target": "function:engine/feeds/eu_sanctions.py:_iter_children",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/eu_sanctions.py:parse_xml",
+      "target": "function:engine/feeds/eu_sanctions.py:_first_child",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/eu_sanctions.py:parse_xml",
+      "target": "function:engine/feeds/eu_sanctions.py:_entry_name",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/eu_sanctions.py:normalize",
+      "target": "function:engine/feeds/eu_sanctions.py:_examples",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/eu_sanctions.py:normalize",
+      "target": "function:engine/feeds/eu_sanctions.py:_slug",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/eu_sanctions.py:collect",
+      "target": "function:engine/feeds/eu_sanctions.py:_fetch_bytes",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/eu_sanctions.py:collect",
+      "target": "function:engine/feeds/eu_sanctions.py:_existing_line_count",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/eu_sanctions.py:collect",
+      "target": "function:engine/feeds/eu_sanctions.py:parse_xml",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/eu_sanctions.py:collect",
+      "target": "function:engine/feeds/eu_sanctions.py:normalize",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/eu_sanctions.py:collect",
+      "target": "function:engine/feeds/eu_sanctions.py:_write_jsonl_atomic",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/federal_register.py:fetch_topic",
+      "target": "function:engine/feeds/federal_register.py:_cutoff_year_month",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/federal_register.py:fetch_topic",
+      "target": "function:engine/feeds/federal_register.py:_count",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/federal_register.py:fetch_topic",
+      "target": "function:engine/feeds/federal_register.py:_month_last_day",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/federal_register.py:collect",
+      "target": "function:engine/feeds/federal_register.py:fetch_topic",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/federal_register.py:collect",
+      "target": "function:engine/feeds/federal_register.py:_existing_count_same_schema",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/federal_register.py:collect",
+      "target": "function:engine/feeds/federal_register.py:_existing_line_count",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/federal_register.py:collect",
+      "target": "function:engine/feeds/federal_register.py:_write_jsonl_atomic",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

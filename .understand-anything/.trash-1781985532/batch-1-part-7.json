@@ -1,0 +1,3458 @@
+{
+  "nodes": [
+    {
+      "id": "file:engine/world_state.py",
+      "type": "file",
+      "name": "world_state.py",
+      "filePath": "engine/world_state.py",
+      "summary": "world_state.py is a code asset in the forecasting engine. It contains 73 functions, 1 class, 7 internal imports.",
+      "tags": [
+        "forecasting-engine",
+        "code",
+        "file",
+        "world-state"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:engine/world_state.py:_now",
+      "type": "function",
+      "name": "_now",
+      "filePath": "engine/world_state.py",
+      "lineRange": [
+        98,
+        99
+      ],
+      "summary": "Defines _now in world_state.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-state"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_state.py:_iso_date",
+      "type": "function",
+      "name": "_iso_date",
+      "filePath": "engine/world_state.py",
+      "lineRange": [
+        102,
+        109
+      ],
+      "summary": "Defines _iso_date in world_state.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-state"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_state.py:_iso_dt",
+      "type": "function",
+      "name": "_iso_dt",
+      "filePath": "engine/world_state.py",
+      "lineRange": [
+        112,
+        117
+      ],
+      "summary": "Defines _iso_dt in world_state.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-state"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_state.py:_parse_date",
+      "type": "function",
+      "name": "_parse_date",
+      "filePath": "engine/world_state.py",
+      "lineRange": [
+        120,
+        123
+      ],
+      "summary": "Defines _parse_date in world_state.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "world-state"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_state.py:_tokens",
+      "type": "function",
+      "name": "_tokens",
+      "filePath": "engine/world_state.py",
+      "lineRange": [
+        126,
+        128
+      ],
+      "summary": "Defines _tokens in world_state.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-state"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_state.py:_score_text",
+      "type": "function",
+      "name": "_score_text",
+      "filePath": "engine/world_state.py",
+      "lineRange": [
+        131,
+        142
+      ],
+      "summary": "Defines _score_text in world_state.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-state"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_state.py:_topic_match_threshold",
+      "type": "function",
+      "name": "_topic_match_threshold",
+      "filePath": "engine/world_state.py",
+      "lineRange": [
+        145,
+        150
+      ],
+      "summary": "Defines _topic_match_threshold in world_state.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-state"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_state.py:_topic_match_ok",
+      "type": "function",
+      "name": "_topic_match_ok",
+      "filePath": "engine/world_state.py",
+      "lineRange": [
+        153,
+        154
+      ],
+      "summary": "Defines _topic_match_ok in world_state.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-state"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_state.py:_like_pattern",
+      "type": "function",
+      "name": "_like_pattern",
+      "filePath": "engine/world_state.py",
+      "lineRange": [
+        157,
+        164
+      ],
+      "summary": "Defines _like_pattern in world_state.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-state"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_state.py:_topic_prefilter_terms",
+      "type": "function",
+      "name": "_topic_prefilter_terms",
+      "filePath": "engine/world_state.py",
+      "lineRange": [
+        167,
+        172
+      ],
+      "summary": "Defines _topic_prefilter_terms in world_state.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-state"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_state.py:_phrase_variants",
+      "type": "function",
+      "name": "_phrase_variants",
+      "filePath": "engine/world_state.py",
+      "lineRange": [
+        175,
+        189
+      ],
+      "summary": "Defines _phrase_variants in world_state.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-state"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_state.py:_phrase_variant_score",
+      "type": "function",
+      "name": "_phrase_variant_score",
+      "filePath": "engine/world_state.py",
+      "lineRange": [
+        192,
+        197
+      ],
+      "summary": "Defines _phrase_variant_score in world_state.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-state"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_state.py:_visible_where_sql",
+      "type": "function",
+      "name": "_visible_where_sql",
+      "filePath": "engine/world_state.py",
+      "lineRange": [
+        200,
+        207
+      ],
+      "summary": "Defines _visible_where_sql in world_state.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-state"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_state.py:_topic_prefilter_sql",
+      "type": "function",
+      "name": "_topic_prefilter_sql",
+      "filePath": "engine/world_state.py",
+      "lineRange": [
+        210,
+        223
+      ],
+      "summary": "Defines _topic_prefilter_sql in world_state.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-state"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_state.py:_table_count",
+      "type": "function",
+      "name": "_table_count",
+      "filePath": "engine/world_state.py",
+      "lineRange": [
+        226,
+        230
+      ],
+      "summary": "Defines _table_count in world_state.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-state"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_state.py:insert_fact",
+      "type": "function",
+      "name": "insert_fact",
+      "filePath": "engine/world_state.py",
+      "lineRange": [
+        233,
+        265
+      ],
+      "summary": "Defines insert_fact in world_state.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-state"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_state.py:_stable_id",
+      "type": "function",
+      "name": "_stable_id",
+      "filePath": "engine/world_state.py",
+      "lineRange": [
+        268,
+        270
+      ],
+      "summary": "Defines _stable_id in world_state.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-state"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_state.py:backfill_observation_facts",
+      "type": "function",
+      "name": "backfill_observation_facts",
+      "filePath": "engine/world_state.py",
+      "lineRange": [
+        273,
+        390
+      ],
+      "summary": "Defines backfill_observation_facts in world_state.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-state"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/world_state.py:backfill_metric_entity_facts",
+      "type": "function",
+      "name": "backfill_metric_entity_facts",
+      "filePath": "engine/world_state.py",
+      "lineRange": [
+        402,
+        523
+      ],
+      "summary": "Defines backfill_metric_entity_facts in world_state.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-state"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/world_state.py:_identifier_source_url",
+      "type": "function",
+      "name": "_identifier_source_url",
+      "filePath": "engine/world_state.py",
+      "lineRange": [
+        553,
+        557
+      ],
+      "summary": "Defines _identifier_source_url in world_state.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-state"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_state.py:_ensure_identifier_entity",
+      "type": "function",
+      "name": "_ensure_identifier_entity",
+      "filePath": "engine/world_state.py",
+      "lineRange": [
+        560,
+        592
+      ],
+      "summary": "Defines _ensure_identifier_entity in world_state.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-state"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_state.py:backfill_entity_identifier_facts",
+      "type": "function",
+      "name": "backfill_entity_identifier_facts",
+      "filePath": "engine/world_state.py",
+      "lineRange": [
+        595,
+        730
+      ],
+      "summary": "Defines backfill_entity_identifier_facts in world_state.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-state"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/world_state.py:_load_json_list",
+      "type": "function",
+      "name": "_load_json_list",
+      "filePath": "engine/world_state.py",
+      "lineRange": [
+        774,
+        781
+      ],
+      "summary": "Defines _load_json_list in world_state.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-state"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_state.py:_ensure_geo_entities",
+      "type": "function",
+      "name": "_ensure_geo_entities",
+      "filePath": "engine/world_state.py",
+      "lineRange": [
+        784,
+        811
+      ],
+      "summary": "Defines _ensure_geo_entities in world_state.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-state"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_state.py:_upsert_subject_entity",
+      "type": "function",
+      "name": "_upsert_subject_entity",
+      "filePath": "engine/world_state.py",
+      "lineRange": [
+        814,
+        838
+      ],
+      "summary": "Defines _upsert_subject_entity in world_state.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-state"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_state.py:_series_subject_spec",
+      "type": "function",
+      "name": "_series_subject_spec",
+      "filePath": "engine/world_state.py",
+      "lineRange": [
+        841,
+        1478
+      ],
+      "summary": "Defines _series_subject_spec in world_state.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-state"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:engine/world_state.py:_bounded_term",
+      "type": "function",
+      "name": "_bounded_term",
+      "filePath": "engine/world_state.py",
+      "lineRange": [
+        1481,
+        1485
+      ],
+      "summary": "Defines _bounded_term in world_state.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-state"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_state.py:_bounded_upper",
+      "type": "function",
+      "name": "_bounded_upper",
+      "filePath": "engine/world_state.py",
+      "lineRange": [
+        1488,
+        1490
+      ],
+      "summary": "Defines _bounded_upper in world_state.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-state"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_state.py:autolink_series_entities",
+      "type": "function",
+      "name": "autolink_series_entities",
+      "filePath": "engine/world_state.py",
+      "lineRange": [
+        1534,
+        1663
+      ],
+      "summary": "Defines autolink_series_entities in world_state.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-state"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/world_state.py:_visible_candidate_rows",
+      "type": "function",
+      "name": "_visible_candidate_rows",
+      "filePath": "engine/world_state.py",
+      "lineRange": [
+        1666,
+        1702
+      ],
+      "summary": "Defines _visible_candidate_rows in world_state.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-state"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_state.py:visible_facts",
+      "type": "function",
+      "name": "visible_facts",
+      "filePath": "engine/world_state.py",
+      "lineRange": [
+        1705,
+        1749
+      ],
+      "summary": "Defines visible_facts in world_state.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-state"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_state.py:snapshot_hash",
+      "type": "function",
+      "name": "snapshot_hash",
+      "filePath": "engine/world_state.py",
+      "lineRange": [
+        1752,
+        1783
+      ],
+      "summary": "Defines snapshot_hash in world_state.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-state"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_state.py:record_snapshot",
+      "type": "function",
+      "name": "record_snapshot",
+      "filePath": "engine/world_state.py",
+      "lineRange": [
+        1786,
+        1824
+      ],
+      "summary": "Defines record_snapshot in world_state.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-state"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_state.py:_match_entities",
+      "type": "function",
+      "name": "_match_entities",
+      "filePath": "engine/world_state.py",
+      "lineRange": [
+        1827,
+        1843
+      ],
+      "summary": "Defines _match_entities in world_state.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-state"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_state.py:_series_summaries",
+      "type": "function",
+      "name": "_series_summaries",
+      "filePath": "engine/world_state.py",
+      "lineRange": [
+        1846,
+        1869
+      ],
+      "summary": "Defines _series_summaries in world_state.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-state"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_state.py:_entity_edges",
+      "type": "function",
+      "name": "_entity_edges",
+      "filePath": "engine/world_state.py",
+      "lineRange": [
+        1872,
+        1894
+      ],
+      "summary": "Defines _entity_edges in world_state.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-state"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_state.py:_raw_doc_location_for_hash",
+      "type": "function",
+      "name": "_raw_doc_location_for_hash",
+      "filePath": "engine/world_state.py",
+      "lineRange": [
+        1897,
+        1938
+      ],
+      "summary": "Defines _raw_doc_location_for_hash in world_state.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-state"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_state.py:_source_citations",
+      "type": "function",
+      "name": "_source_citations",
+      "filePath": "engine/world_state.py",
+      "lineRange": [
+        1941,
+        1967
+      ],
+      "summary": "Defines _source_citations in world_state.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-state"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_state.py:_fact_payload",
+      "type": "function",
+      "name": "_fact_payload",
+      "filePath": "engine/world_state.py",
+      "lineRange": [
+        1970,
+        2000
+      ],
+      "summary": "Defines _fact_payload in world_state.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-state"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_state.py:_diverse_facts",
+      "type": "function",
+      "name": "_diverse_facts",
+      "filePath": "engine/world_state.py",
+      "lineRange": [
+        2003,
+        2034
+      ],
+      "summary": "Defines _diverse_facts in world_state.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-state"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_state.py:_snapshot_manifest",
+      "type": "function",
+      "name": "_snapshot_manifest",
+      "filePath": "engine/world_state.py",
+      "lineRange": [
+        2037,
+        2052
+      ],
+      "summary": "Defines _snapshot_manifest in world_state.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-state"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_state.py:_select_visible_fact_set",
+      "type": "function",
+      "name": "_select_visible_fact_set",
+      "filePath": "engine/world_state.py",
+      "lineRange": [
+        2055,
+        2071
+      ],
+      "summary": "Defines _select_visible_fact_set in world_state.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-state"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_state.py:_research_source_ids",
+      "type": "function",
+      "name": "_research_source_ids",
+      "filePath": "engine/world_state.py",
+      "lineRange": [
+        2074,
+        2089
+      ],
+      "summary": "Defines _research_source_ids in world_state.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-access",
+        "world-state"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_state.py:_select_visible_research_facts",
+      "type": "function",
+      "name": "_select_visible_research_facts",
+      "filePath": "engine/world_state.py",
+      "lineRange": [
+        2092,
+        2149
+      ],
+      "summary": "Defines _select_visible_research_facts in world_state.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-access",
+        "world-state"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/world_state.py:_paper_text_expr",
+      "type": "function",
+      "name": "_paper_text_expr",
+      "filePath": "engine/world_state.py",
+      "lineRange": [
+        2152,
+        2161
+      ],
+      "summary": "Defines _paper_text_expr in world_state.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-state"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_state.py:_paper_prefilter_sql",
+      "type": "function",
+      "name": "_paper_prefilter_sql",
+      "filePath": "engine/world_state.py",
+      "lineRange": [
+        2164,
+        2169
+      ],
+      "summary": "Defines _paper_prefilter_sql in world_state.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-state"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_state.py:_paper_phrase_sql",
+      "type": "function",
+      "name": "_paper_phrase_sql",
+      "filePath": "engine/world_state.py",
+      "lineRange": [
+        2172,
+        2178
+      ],
+      "summary": "Defines _paper_phrase_sql in world_state.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-state"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_state.py:_paper_payload",
+      "type": "function",
+      "name": "_paper_payload",
+      "filePath": "engine/world_state.py",
+      "lineRange": [
+        2181,
+        2201
+      ],
+      "summary": "Defines _paper_payload in world_state.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-state"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_state.py:_hydrate_paper_abstracts",
+      "type": "function",
+      "name": "_hydrate_paper_abstracts",
+      "filePath": "engine/world_state.py",
+      "lineRange": [
+        2204,
+        2222
+      ],
+      "summary": "Defines _hydrate_paper_abstracts in world_state.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-state"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_state.py:_paper_candidate_select_sql",
+      "type": "function",
+      "name": "_paper_candidate_select_sql",
+      "filePath": "engine/world_state.py",
+      "lineRange": [
+        2225,
+        2232
+      ],
+      "summary": "Defines _paper_candidate_select_sql in world_state.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-state"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_state.py:_visible_research_papers",
+      "type": "function",
+      "name": "_visible_research_papers",
+      "filePath": "engine/world_state.py",
+      "lineRange": [
+        2235,
+        2328
+      ],
+      "summary": "Defines _visible_research_papers in world_state.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-access",
+        "world-state"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/world_state.py:_paper_exclusion_counts",
+      "type": "function",
+      "name": "_paper_exclusion_counts",
+      "filePath": "engine/world_state.py",
+      "lineRange": [
+        2331,
+        2369
+      ],
+      "summary": "Defines _paper_exclusion_counts in world_state.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-state"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_state.py:_research_summaries",
+      "type": "function",
+      "name": "_research_summaries",
+      "filePath": "engine/world_state.py",
+      "lineRange": [
+        2372,
+        2389
+      ],
+      "summary": "Defines _research_summaries in world_state.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-access",
+        "world-state"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_state.py:_research_snapshot_hash",
+      "type": "function",
+      "name": "_research_snapshot_hash",
+      "filePath": "engine/world_state.py",
+      "lineRange": [
+        2392,
+        2426
+      ],
+      "summary": "Defines _research_snapshot_hash in world_state.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-access",
+        "world-state"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_state.py:research_pack",
+      "type": "function",
+      "name": "research_pack",
+      "filePath": "engine/world_state.py",
+      "lineRange": [
+        2429,
+        2520
+      ],
+      "summary": "Defines research_pack in world_state.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-access",
+        "world-state"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/world_state.py:state_pack",
+      "type": "function",
+      "name": "state_pack",
+      "filePath": "engine/world_state.py",
+      "lineRange": [
+        2523,
+        2578
+      ],
+      "summary": "Defines state_pack in world_state.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-state"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/world_state.py:_date_gate",
+      "type": "function",
+      "name": "_date_gate",
+      "filePath": "engine/world_state.py",
+      "lineRange": [
+        2581,
+        2587
+      ],
+      "summary": "Defines _date_gate in world_state.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-state"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_state.py:_datetime_gate",
+      "type": "function",
+      "name": "_datetime_gate",
+      "filePath": "engine/world_state.py",
+      "lineRange": [
+        2590,
+        2596
+      ],
+      "summary": "Defines _datetime_gate in world_state.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-state"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_state.py:_proof_fact",
+      "type": "function",
+      "name": "_proof_fact",
+      "filePath": "engine/world_state.py",
+      "lineRange": [
+        2599,
+        2634
+      ],
+      "summary": "Defines _proof_fact in world_state.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-state"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_state.py:state_proof",
+      "type": "function",
+      "name": "state_proof",
+      "filePath": "engine/world_state.py",
+      "lineRange": [
+        2637,
+        2700
+      ],
+      "summary": "Defines state_proof in world_state.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-state"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/world_state.py:_exclusion_counts",
+      "type": "function",
+      "name": "_exclusion_counts",
+      "filePath": "engine/world_state.py",
+      "lineRange": [
+        2703,
+        2735
+      ],
+      "summary": "Defines _exclusion_counts in world_state.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-state"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_state.py:estimate_bigquery_cost_cents",
+      "type": "function",
+      "name": "estimate_bigquery_cost_cents",
+      "filePath": "engine/world_state.py",
+      "lineRange": [
+        2738,
+        2740
+      ],
+      "summary": "Defines estimate_bigquery_cost_cents in world_state.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-access",
+        "world-state"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_state.py:estimate_athena_cost_cents",
+      "type": "function",
+      "name": "estimate_athena_cost_cents",
+      "filePath": "engine/world_state.py",
+      "lineRange": [
+        2743,
+        2744
+      ],
+      "summary": "Defines estimate_athena_cost_cents in world_state.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-state"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_state.py:guard_scan_bytes",
+      "type": "function",
+      "name": "guard_scan_bytes",
+      "filePath": "engine/world_state.py",
+      "lineRange": [
+        2747,
+        2776
+      ],
+      "summary": "Defines guard_scan_bytes in world_state.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-state"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_state.py:_scan_log_estimates",
+      "type": "function",
+      "name": "_scan_log_estimates",
+      "filePath": "engine/world_state.py",
+      "lineRange": [
+        2779,
+        2803
+      ],
+      "summary": "Defines _scan_log_estimates in world_state.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-state"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_state.py:audit",
+      "type": "function",
+      "name": "audit",
+      "filePath": "engine/world_state.py",
+      "lineRange": [
+        2806,
+        3054
+      ],
+      "summary": "Defines audit in world_state.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-state"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:engine/world_state.py:format_pack",
+      "type": "function",
+      "name": "format_pack",
+      "filePath": "engine/world_state.py",
+      "lineRange": [
+        3057,
+        3092
+      ],
+      "summary": "Defines format_pack in world_state.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "world-state"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_state.py:format_research_pack",
+      "type": "function",
+      "name": "format_research_pack",
+      "filePath": "engine/world_state.py",
+      "lineRange": [
+        3095,
+        3135
+      ],
+      "summary": "Defines format_research_pack in world_state.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "data-access",
+        "world-state"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_state.py:format_proof",
+      "type": "function",
+      "name": "format_proof",
+      "filePath": "engine/world_state.py",
+      "lineRange": [
+        3138,
+        3175
+      ],
+      "summary": "Defines format_proof in world_state.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "world-state"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_state.py:_health_failure_detail",
+      "type": "function",
+      "name": "_health_failure_detail",
+      "filePath": "engine/world_state.py",
+      "lineRange": [
+        3178,
+        3202
+      ],
+      "summary": "Defines _health_failure_detail in world_state.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-state"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_state.py:_is_relative_to",
+      "type": "function",
+      "name": "_is_relative_to",
+      "filePath": "engine/world_state.py",
+      "lineRange": [
+        3205,
+        3210
+      ],
+      "summary": "Defines _is_relative_to in world_state.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-state"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_state.py:_raw_doc_file_status",
+      "type": "function",
+      "name": "_raw_doc_file_status",
+      "filePath": "engine/world_state.py",
+      "lineRange": [
+        3213,
+        3293
+      ],
+      "summary": "Defines _raw_doc_file_status in world_state.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-state"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/world_state.py:format_audit",
+      "type": "function",
+      "name": "format_audit",
+      "filePath": "engine/world_state.py",
+      "lineRange": [
+        3296,
+        3409
+      ],
+      "summary": "Defines format_audit in world_state.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "world-state"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:engine/world_state.py:CostGuardError",
+      "type": "class",
+      "name": "CostGuardError",
+      "filePath": "engine/world_state.py",
+      "lineRange": [
+        94,
+        95
+      ],
+      "summary": "Defines CostGuardError in world_state.py, encapsulating reusable behavior or state for this module.",
+      "tags": [
+        "class",
+        "implementation",
+        "world-state"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:tests/test_australia_epbc_referrals.py",
+      "type": "file",
+      "name": "test_australia_epbc_referrals.py",
+      "filePath": "tests/test_australia_epbc_referrals.py",
+      "summary": "test_australia_epbc_referrals.py is a code asset in the repository. It contains 1 class, 8 internal imports.",
+      "tags": [
+        "test",
+        "verification",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:tests/test_australia_epbc_referrals.py:AustraliaEPBCReferralsTests",
+      "type": "class",
+      "name": "AustraliaEPBCReferralsTests",
+      "filePath": "tests/test_australia_epbc_referrals.py",
+      "lineRange": [
+        34,
+        104
+      ],
+      "summary": "Defines AustraliaEPBCReferralsTests in test_australia_epbc_referrals.py, encapsulating reusable behavior or state for this module.",
+      "tags": [
+        "class",
+        "implementation",
+        "test-australia-epbc-referrals"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:tests/test_blm_mining_claims.py",
+      "type": "file",
+      "name": "test_blm_mining_claims.py",
+      "filePath": "tests/test_blm_mining_claims.py",
+      "summary": "test_blm_mining_claims.py is a code asset in the repository. It contains 1 class, 8 internal imports.",
+      "tags": [
+        "test",
+        "verification",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:tests/test_blm_mining_claims.py:BLMMniningClaimsTests",
+      "type": "class",
+      "name": "BLMMniningClaimsTests",
+      "filePath": "tests/test_blm_mining_claims.py",
+      "lineRange": [
+        49,
+        125
+      ],
+      "summary": "Defines BLMMniningClaimsTests in test_blm_mining_claims.py, encapsulating reusable behavior or state for this module.",
+      "tags": [
+        "class",
+        "implementation",
+        "test-blm-mining-claims"
+      ],
+      "complexity": "moderate"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:_now",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:_now",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:_iso_date",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:_iso_date",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:_iso_dt",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:_iso_dt",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:_parse_date",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:_parse_date",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:_tokens",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:_tokens",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:_score_text",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:_score_text",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:_topic_match_threshold",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:_topic_match_threshold",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:_topic_match_ok",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:_topic_match_ok",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:_like_pattern",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:_like_pattern",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:_topic_prefilter_terms",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:_topic_prefilter_terms",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:_phrase_variants",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:_phrase_variants",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:_phrase_variant_score",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:_phrase_variant_score",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:_visible_where_sql",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:_visible_where_sql",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:_topic_prefilter_sql",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:_topic_prefilter_sql",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:_table_count",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:_table_count",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:insert_fact",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:insert_fact",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:_stable_id",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:_stable_id",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:backfill_observation_facts",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:backfill_observation_facts",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:backfill_metric_entity_facts",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:backfill_metric_entity_facts",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:_identifier_source_url",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:_identifier_source_url",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:_ensure_identifier_entity",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:_ensure_identifier_entity",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:backfill_entity_identifier_facts",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:backfill_entity_identifier_facts",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:_load_json_list",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:_load_json_list",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:_ensure_geo_entities",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:_ensure_geo_entities",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:_upsert_subject_entity",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:_upsert_subject_entity",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:_series_subject_spec",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:_series_subject_spec",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:_bounded_term",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:_bounded_term",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:_bounded_upper",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:_bounded_upper",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:autolink_series_entities",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:autolink_series_entities",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:_visible_candidate_rows",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:_visible_candidate_rows",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:visible_facts",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:visible_facts",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:snapshot_hash",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:snapshot_hash",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:record_snapshot",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:record_snapshot",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:_match_entities",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:_match_entities",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:_series_summaries",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:_series_summaries",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:_entity_edges",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:_entity_edges",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:_raw_doc_location_for_hash",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:_raw_doc_location_for_hash",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:_source_citations",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:_source_citations",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:_fact_payload",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:_fact_payload",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:_diverse_facts",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:_diverse_facts",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:_snapshot_manifest",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:_snapshot_manifest",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:_select_visible_fact_set",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:_select_visible_fact_set",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:_research_source_ids",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:_research_source_ids",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:_select_visible_research_facts",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:_select_visible_research_facts",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:_paper_text_expr",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:_paper_text_expr",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:_paper_prefilter_sql",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:_paper_prefilter_sql",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:_paper_phrase_sql",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:_paper_phrase_sql",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:_paper_payload",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:_paper_payload",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:_hydrate_paper_abstracts",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:_hydrate_paper_abstracts",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:_paper_candidate_select_sql",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:_paper_candidate_select_sql",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:_visible_research_papers",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:_visible_research_papers",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:_paper_exclusion_counts",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:_paper_exclusion_counts",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:_research_summaries",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:_research_summaries",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:_research_snapshot_hash",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:_research_snapshot_hash",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:research_pack",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:research_pack",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:state_pack",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:state_pack",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:_date_gate",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:_date_gate",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:_datetime_gate",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:_datetime_gate",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:_proof_fact",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:_proof_fact",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:state_proof",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:state_proof",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:_exclusion_counts",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:_exclusion_counts",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:estimate_bigquery_cost_cents",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:estimate_bigquery_cost_cents",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:estimate_athena_cost_cents",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:estimate_athena_cost_cents",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:guard_scan_bytes",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:guard_scan_bytes",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:_scan_log_estimates",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:_scan_log_estimates",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:audit",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:audit",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:format_pack",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:format_pack",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:format_research_pack",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:format_research_pack",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:format_proof",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:format_proof",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:_health_failure_detail",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:_health_failure_detail",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:_is_relative_to",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:_is_relative_to",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:_raw_doc_file_status",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:_raw_doc_file_status",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:format_audit",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "function:engine/world_state.py:format_audit",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "class:engine/world_state.py:CostGuardError",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "class:engine/world_state.py:CostGuardError",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:tests/test_australia_epbc_referrals.py",
+      "target": "class:tests/test_australia_epbc_referrals.py:AustraliaEPBCReferralsTests",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:tests/test_australia_epbc_referrals.py",
+      "target": "class:tests/test_australia_epbc_referrals.py:AustraliaEPBCReferralsTests",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:tests/test_blm_mining_claims.py",
+      "target": "class:tests/test_blm_mining_claims.py:BLMMniningClaimsTests",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:tests/test_blm_mining_claims.py",
+      "target": "class:tests/test_blm_mining_claims.py:BLMMniningClaimsTests",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "file:engine/__init__.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "file:engine/data_offload.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "file:engine/db.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "file:engine/disk_guard.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "file:engine/raw_provenance.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "file:engine/rawstore.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/world_state.py",
+      "target": "file:engine/schemas.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/test_australia_epbc_referrals.py",
+      "target": "file:engine/__init__.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/test_australia_epbc_referrals.py",
+      "target": "file:engine/feeds/__init__.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/test_australia_epbc_referrals.py",
+      "target": "file:engine/feeds/australia_epbc_referrals.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/test_australia_epbc_referrals.py",
+      "target": "file:engine/feeds/collect_all.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/test_australia_epbc_referrals.py",
+      "target": "file:engine/feeds/ingest.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/test_australia_epbc_referrals.py",
+      "target": "file:engine/world_catalog.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/test_australia_epbc_referrals.py",
+      "target": "file:engine/world_state.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/test_australia_epbc_referrals.py",
+      "target": "file:tests/test_world_state.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/test_blm_mining_claims.py",
+      "target": "file:engine/__init__.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/test_blm_mining_claims.py",
+      "target": "file:engine/feeds/__init__.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/test_blm_mining_claims.py",
+      "target": "file:engine/feeds/blm_mining_claims.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/test_blm_mining_claims.py",
+      "target": "file:engine/feeds/collect_all.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/test_blm_mining_claims.py",
+      "target": "file:engine/feeds/ingest.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/test_blm_mining_claims.py",
+      "target": "file:engine/world_catalog.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/test_blm_mining_claims.py",
+      "target": "file:engine/world_state.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/test_blm_mining_claims.py",
+      "target": "file:tests/test_world_state.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "function:engine/world_state.py:_iso_dt",
+      "target": "function:engine/world_state.py:_now",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_state.py:_topic_match_ok",
+      "target": "function:engine/world_state.py:_topic_match_threshold",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_state.py:_phrase_variant_score",
+      "target": "function:engine/world_state.py:_phrase_variants",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_state.py:_phrase_variant_score",
+      "target": "function:engine/world_state.py:_tokens",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_state.py:_topic_prefilter_sql",
+      "target": "function:engine/world_state.py:_like_pattern",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_state.py:insert_fact",
+      "target": "function:engine/world_state.py:_iso_date",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_state.py:insert_fact",
+      "target": "function:engine/world_state.py:_iso_dt",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_state.py:backfill_observation_facts",
+      "target": "function:engine/world_state.py:_now",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_state.py:backfill_observation_facts",
+      "target": "function:engine/world_state.py:_stable_id",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_state.py:backfill_metric_entity_facts",
+      "target": "function:engine/world_state.py:_now",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_state.py:backfill_metric_entity_facts",
+      "target": "function:engine/world_state.py:_stable_id",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_state.py:_ensure_identifier_entity",
+      "target": "function:engine/world_state.py:_stable_id",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_state.py:_ensure_identifier_entity",
+      "target": "function:engine/world_state.py:_now",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_state.py:backfill_entity_identifier_facts",
+      "target": "function:engine/world_state.py:_identifier_source_url",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_state.py:backfill_entity_identifier_facts",
+      "target": "function:engine/world_state.py:_now",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_state.py:backfill_entity_identifier_facts",
+      "target": "function:engine/world_state.py:_ensure_identifier_entity",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_state.py:backfill_entity_identifier_facts",
+      "target": "function:engine/world_state.py:_stable_id",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_state.py:backfill_entity_identifier_facts",
+      "target": "function:engine/world_state.py:_iso_date",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_state.py:_ensure_geo_entities",
+      "target": "function:engine/world_state.py:_now",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_state.py:_ensure_geo_entities",
+      "target": "function:engine/world_state.py:_load_json_list",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_state.py:_ensure_geo_entities",
+      "target": "function:engine/world_state.py:_stable_id",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_state.py:_upsert_subject_entity",
+      "target": "function:engine/world_state.py:_load_json_list",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_state.py:_upsert_subject_entity",
+      "target": "function:engine/world_state.py:_stable_id",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_state.py:_upsert_subject_entity",
+      "target": "function:engine/world_state.py:_now",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_state.py:autolink_series_entities",
+      "target": "function:engine/world_state.py:_ensure_geo_entities",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_state.py:autolink_series_entities",
+      "target": "function:engine/world_state.py:_load_json_list",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_state.py:autolink_series_entities",
+      "target": "function:engine/world_state.py:_now",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_state.py:autolink_series_entities",
+      "target": "function:engine/world_state.py:_series_subject_spec",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_state.py:autolink_series_entities",
+      "target": "function:engine/world_state.py:_bounded_upper",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_state.py:autolink_series_entities",
+      "target": "function:engine/world_state.py:_bounded_term",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_state.py:autolink_series_entities",
+      "target": "function:engine/world_state.py:_upsert_subject_entity",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_state.py:autolink_series_entities",
+      "target": "function:engine/world_state.py:_stable_id",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_state.py:_visible_candidate_rows",
+      "target": "function:engine/world_state.py:_topic_prefilter_terms",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_state.py:_visible_candidate_rows",
+      "target": "function:engine/world_state.py:_topic_prefilter_sql",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_state.py:_visible_candidate_rows",
+      "target": "function:engine/world_state.py:_visible_where_sql",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_state.py:visible_facts",
+      "target": "function:engine/world_state.py:_parse_date",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_state.py:visible_facts",
+      "target": "function:engine/world_state.py:_now",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_state.py:visible_facts",
+      "target": "function:engine/world_state.py:_tokens",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_state.py:visible_facts",
+      "target": "function:engine/world_state.py:_visible_candidate_rows",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_state.py:visible_facts",
+      "target": "function:engine/world_state.py:_score_text",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_state.py:visible_facts",
+      "target": "function:engine/world_state.py:_topic_match_ok",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_state.py:visible_facts",
+      "target": "function:engine/world_state.py:_exclusion_counts",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_state.py:snapshot_hash",
+      "target": "function:engine/world_state.py:_parse_date",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_state.py:snapshot_hash",
+      "target": "function:engine/world_state.py:_iso_date",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_state.py:record_snapshot",
+      "target": "function:engine/world_state.py:_parse_date",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_state.py:record_snapshot",
+      "target": "function:engine/world_state.py:_now",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_state.py:record_snapshot",
+      "target": "function:engine/world_state.py:snapshot_hash",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_state.py:record_snapshot",
+      "target": "class:engine/schemas.py:WorldStateSnapshot",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_state.py:_match_entities",
+      "target": "function:engine/world_state.py:_tokens",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_state.py:_match_entities",
+      "target": "function:engine/world_state.py:_score_text",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_state.py:_series_summaries",
+      "target": "function:engine/world_state.py:_tokens",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_state.py:_series_summaries",
+      "target": "function:engine/world_state.py:_score_text",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_state.py:_source_citations",
+      "target": "function:engine/world_state.py:_raw_doc_location_for_hash",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_state.py:_fact_payload",
+      "target": "function:engine/world_state.py:_iso_date",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_state.py:_fact_payload",
+      "target": "function:engine/world_state.py:_raw_doc_location_for_hash",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_state.py:_snapshot_manifest",
+      "target": "function:engine/world_state.py:snapshot_hash",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_state.py:_select_visible_fact_set",
+      "target": "function:engine/world_state.py:visible_facts",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_state.py:_select_visible_fact_set",
+      "target": "function:engine/world_state.py:_diverse_facts",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_state.py:_select_visible_research_facts",
+      "target": "function:engine/world_state.py:_research_source_ids",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_state.py:_select_visible_research_facts",
+      "target": "function:engine/world_state.py:_tokens",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_state.py:_select_visible_research_facts",
+      "target": "function:engine/world_state.py:_visible_candidate_rows",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_state.py:_select_visible_research_facts",
+      "target": "function:engine/world_state.py:_score_text",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_state.py:_select_visible_research_facts",
+      "target": "function:engine/world_state.py:_topic_match_ok",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_state.py:_select_visible_research_facts",
+      "target": "function:engine/world_state.py:_exclusion_counts",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_state.py:_select_visible_research_facts",
+      "target": "function:engine/world_state.py:_diverse_facts",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_state.py:_paper_prefilter_sql",
+      "target": "function:engine/world_state.py:_paper_text_expr",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_state.py:_paper_prefilter_sql",
+      "target": "function:engine/world_state.py:_like_pattern",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_state.py:_paper_phrase_sql",
+      "target": "function:engine/world_state.py:_phrase_variants",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_state.py:_paper_phrase_sql",
+      "target": "function:engine/world_state.py:_paper_text_expr",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_state.py:_paper_phrase_sql",
+      "target": "function:engine/world_state.py:_like_pattern",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_state.py:_paper_payload",
+      "target": "function:engine/world_state.py:_iso_date",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_state.py:_visible_research_papers",
+      "target": "function:engine/world_state.py:_tokens",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_state.py:_visible_research_papers",
+      "target": "function:engine/world_state.py:_topic_prefilter_terms",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_state.py:_visible_research_papers",
+      "target": "function:engine/world_state.py:_paper_prefilter_sql",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_state.py:_visible_research_papers",
+      "target": "function:engine/world_state.py:_paper_phrase_sql",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_state.py:_visible_research_papers",
+      "target": "function:engine/world_state.py:_paper_candidate_select_sql",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_state.py:_visible_research_papers",
+      "target": "function:engine/world_state.py:_phrase_variant_score",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_state.py:_visible_research_papers",
+      "target": "function:engine/world_state.py:_score_text",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_state.py:_visible_research_papers",
+      "target": "function:engine/world_state.py:_topic_match_ok",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_state.py:_visible_research_papers",
+      "target": "function:engine/world_state.py:_hydrate_paper_abstracts",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_state.py:_visible_research_papers",
+      "target": "function:engine/world_state.py:_paper_payload",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_state.py:_paper_exclusion_counts",
+      "target": "function:engine/world_state.py:_tokens",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_state.py:_paper_exclusion_counts",
+      "target": "function:engine/world_state.py:_topic_prefilter_terms",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_state.py:_paper_exclusion_counts",
+      "target": "function:engine/world_state.py:_paper_prefilter_sql",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_state.py:_research_snapshot_hash",
+      "target": "function:engine/world_state.py:_iso_date",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_state.py:research_pack",
+      "target": "function:engine/world_state.py:_parse_date",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_state.py:research_pack",
+      "target": "function:engine/world_state.py:_now",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_state.py:research_pack",
+      "target": "function:engine/world_state.py:_select_visible_research_facts",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_state.py:research_pack",
+      "target": "function:engine/world_state.py:_visible_research_papers",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_state.py:research_pack",
+      "target": "function:engine/world_state.py:_paper_exclusion_counts",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_state.py:research_pack",
+      "target": "function:engine/world_state.py:_fact_payload",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_state.py:research_pack",
+      "target": "function:engine/world_state.py:_research_snapshot_hash",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_state.py:research_pack",
+      "target": "function:engine/world_state.py:_source_citations",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_state.py:research_pack",
+      "target": "function:engine/world_state.py:_research_summaries",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_state.py:state_pack",
+      "target": "function:engine/world_state.py:_parse_date",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_state.py:state_pack",
+      "target": "function:engine/world_state.py:_now",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_state.py:state_pack",
+      "target": "function:engine/world_state.py:_select_visible_fact_set",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_state.py:state_pack",
+      "target": "function:engine/world_state.py:record_snapshot",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_state.py:state_pack",
+      "target": "function:engine/world_state.py:_snapshot_manifest",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_state.py:state_pack",
+      "target": "function:engine/world_state.py:_match_entities",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_state.py:state_pack",
+      "target": "function:engine/world_state.py:_fact_payload",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_state.py:state_pack",
+      "target": "function:engine/world_state.py:_series_summaries",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_state.py:state_pack",
+      "target": "function:engine/world_state.py:_entity_edges",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_state.py:state_pack",
+      "target": "function:engine/world_state.py:_source_citations",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_state.py:_date_gate",
+      "target": "function:engine/world_state.py:_iso_date",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_state.py:_proof_fact",
+      "target": "function:engine/world_state.py:_date_gate",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_state.py:_proof_fact",
+      "target": "function:engine/world_state.py:_datetime_gate",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_state.py:state_proof",
+      "target": "function:engine/world_state.py:_parse_date",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_state.py:state_proof",
+      "target": "function:engine/world_state.py:_now",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_state.py:state_proof",
+      "target": "function:engine/world_state.py:_select_visible_fact_set",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_state.py:state_proof",
+      "target": "function:engine/world_state.py:_snapshot_manifest",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_state.py:state_proof",
+      "target": "function:engine/world_state.py:_fact_payload",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_state.py:state_proof",
+      "target": "function:engine/world_state.py:_source_citations",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_state.py:state_proof",
+      "target": "function:engine/world_state.py:_proof_fact",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_state.py:guard_scan_bytes",
+      "target": "class:engine/world_state.py:CostGuardError",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_state.py:guard_scan_bytes",
+      "target": "function:engine/world_state.py:estimate_bigquery_cost_cents",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_state.py:guard_scan_bytes",
+      "target": "function:engine/world_state.py:estimate_athena_cost_cents",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_state.py:_scan_log_estimates",
+      "target": "function:engine/world_state.py:estimate_athena_cost_cents",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_state.py:_scan_log_estimates",
+      "target": "function:engine/world_state.py:estimate_bigquery_cost_cents",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_state.py:audit",
+      "target": "function:engine/world_state.py:_table_count",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_state.py:audit",
+      "target": "function:engine/world_state.py:_raw_doc_file_status",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_state.py:audit",
+      "target": "function:engine/world_state.py:_scan_log_estimates",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_state.py:_raw_doc_file_status",
+      "target": "function:engine/world_state.py:_is_relative_to",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_state.py:format_audit",
+      "target": "function:engine/world_state.py:_health_failure_detail",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:tests/test_australia_epbc_referrals.py",
+      "target": "function:tests/test_world_state.py:memory_db",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:tests/test_blm_mining_claims.py",
+      "target": "function:tests/test_world_state.py:memory_db",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

@@ -1,0 +1,1062 @@
+{
+  "nodes": [
+    {
+      "id": "file:chat/scripts/test-council.ts",
+      "type": "file",
+      "name": "test-council.ts",
+      "filePath": "chat/scripts/test-council.ts",
+      "summary": "test-council.ts is a code asset in the chat surface. It contains 1 function, 1 internal import.",
+      "tags": [
+        "chat",
+        "code",
+        "file",
+        "test-council"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:chat/scripts/test-council.ts:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "chat/scripts/test-council.ts",
+      "lineRange": [
+        11,
+        30
+      ],
+      "summary": "Defines main in test-council.ts, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entry-point",
+        "test-council"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:chat/scripts/test-credits.ts",
+      "type": "file",
+      "name": "test-credits.ts",
+      "filePath": "chat/scripts/test-credits.ts",
+      "summary": "test-credits.ts is a code asset in the chat surface. It contains 2 functions, 2 internal imports.",
+      "tags": [
+        "chat",
+        "code",
+        "file",
+        "test-credits"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:chat/scripts/test-credits.ts:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "chat/scripts/test-credits.ts",
+      "lineRange": [
+        11,
+        37
+      ],
+      "summary": "Defines main in test-credits.ts, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entry-point",
+        "test-credits"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:chat/src/app/api/capture/route.ts",
+      "type": "file",
+      "name": "route.ts",
+      "filePath": "chat/src/app/api/capture/route.ts",
+      "summary": "route.ts is a code asset in the chat surface. It contains 1 function, 5 internal imports.",
+      "tags": [
+        "chat",
+        "code",
+        "file",
+        "route"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:chat/src/app/api/capture/route.ts:POST",
+      "type": "function",
+      "name": "POST",
+      "filePath": "chat/src/app/api/capture/route.ts",
+      "lineRange": [
+        14,
+        96
+      ],
+      "summary": "Defines POST in route.ts, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "route"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:chat/src/app/api/chat/route.ts",
+      "type": "file",
+      "name": "route.ts",
+      "filePath": "chat/src/app/api/chat/route.ts",
+      "summary": "route.ts is a code asset in the chat surface. It contains 1 function, 4 internal imports.",
+      "tags": [
+        "chat",
+        "code",
+        "file",
+        "route"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:chat/src/app/api/chat/route.ts:POST",
+      "type": "function",
+      "name": "POST",
+      "filePath": "chat/src/app/api/chat/route.ts",
+      "lineRange": [
+        9,
+        134
+      ],
+      "summary": "Defines POST in route.ts, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "route"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:chat/src/app/api/checkout/route.ts",
+      "type": "file",
+      "name": "route.ts",
+      "filePath": "chat/src/app/api/checkout/route.ts",
+      "summary": "route.ts is a code asset in the chat surface. It contains 3 functions, 3 internal imports.",
+      "tags": [
+        "chat",
+        "code",
+        "file",
+        "route"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:chat/src/app/api/checkout/route.ts:GET",
+      "type": "function",
+      "name": "GET",
+      "filePath": "chat/src/app/api/checkout/route.ts",
+      "lineRange": [
+        8,
+        12
+      ],
+      "summary": "Defines GET in route.ts, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "route"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:chat/src/app/api/checkout/route.ts:POST",
+      "type": "function",
+      "name": "POST",
+      "filePath": "chat/src/app/api/checkout/route.ts",
+      "lineRange": [
+        19,
+        96
+      ],
+      "summary": "Defines POST in route.ts, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "route"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:chat/src/app/api/conversations/route.ts",
+      "type": "file",
+      "name": "route.ts",
+      "filePath": "chat/src/app/api/conversations/route.ts",
+      "summary": "route.ts is a code asset in the chat surface. It contains 2 functions, 2 internal imports.",
+      "tags": [
+        "chat",
+        "code",
+        "file",
+        "route"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:chat/src/app/api/conversations/route.ts:GET",
+      "type": "function",
+      "name": "GET",
+      "filePath": "chat/src/app/api/conversations/route.ts",
+      "lineRange": [
+        6,
+        29
+      ],
+      "summary": "Defines GET in route.ts, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "route"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:chat/src/app/api/conversations/route.ts:json",
+      "type": "function",
+      "name": "json",
+      "filePath": "chat/src/app/api/conversations/route.ts",
+      "lineRange": [
+        31,
+        40
+      ],
+      "summary": "Defines json in route.ts, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "route"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:chat/src/app/api/council/route.ts",
+      "type": "file",
+      "name": "route.ts",
+      "filePath": "chat/src/app/api/council/route.ts",
+      "summary": "route.ts is a code asset in the chat surface. It contains 1 function, 5 internal imports.",
+      "tags": [
+        "chat",
+        "code",
+        "file",
+        "route"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:chat/src/app/api/council/route.ts:POST",
+      "type": "function",
+      "name": "POST",
+      "filePath": "chat/src/app/api/council/route.ts",
+      "lineRange": [
+        14,
+        100
+      ],
+      "summary": "Defines POST in route.ts, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "route"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:chat/src/app/api/credits/route.ts",
+      "type": "file",
+      "name": "route.ts",
+      "filePath": "chat/src/app/api/credits/route.ts",
+      "summary": "route.ts is a code asset in the chat surface. It contains 2 functions, 3 internal imports.",
+      "tags": [
+        "chat",
+        "code",
+        "file",
+        "route"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:chat/src/app/api/credits/route.ts:GET",
+      "type": "function",
+      "name": "GET",
+      "filePath": "chat/src/app/api/credits/route.ts",
+      "lineRange": [
+        14,
+        35
+      ],
+      "summary": "Defines GET in route.ts, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "route"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:chat/src/app/api/forecast/route.ts",
+      "type": "file",
+      "name": "route.ts",
+      "filePath": "chat/src/app/api/forecast/route.ts",
+      "summary": "route.ts is a code asset in the chat surface. It contains 2 functions, 4 internal imports.",
+      "tags": [
+        "forecasting",
+        "chat",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:chat/src/app/api/forecast/route.ts:POST",
+      "type": "function",
+      "name": "POST",
+      "filePath": "chat/src/app/api/forecast/route.ts",
+      "lineRange": [
+        11,
+        70
+      ],
+      "summary": "Defines POST in route.ts, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "route"
+      ],
+      "complexity": "moderate"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:chat/scripts/test-council.ts",
+      "target": "function:chat/scripts/test-council.ts:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:chat/scripts/test-credits.ts",
+      "target": "function:chat/scripts/test-credits.ts:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:chat/src/app/api/capture/route.ts",
+      "target": "function:chat/src/app/api/capture/route.ts:POST",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:chat/src/app/api/capture/route.ts",
+      "target": "function:chat/src/app/api/capture/route.ts:POST",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:chat/src/app/api/chat/route.ts",
+      "target": "function:chat/src/app/api/chat/route.ts:POST",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:chat/src/app/api/chat/route.ts",
+      "target": "function:chat/src/app/api/chat/route.ts:POST",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:chat/src/app/api/checkout/route.ts",
+      "target": "function:chat/src/app/api/checkout/route.ts:GET",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:chat/src/app/api/checkout/route.ts",
+      "target": "function:chat/src/app/api/checkout/route.ts:GET",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:chat/src/app/api/checkout/route.ts",
+      "target": "function:chat/src/app/api/checkout/route.ts:POST",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:chat/src/app/api/checkout/route.ts",
+      "target": "function:chat/src/app/api/checkout/route.ts:POST",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:chat/src/app/api/conversations/route.ts",
+      "target": "function:chat/src/app/api/conversations/route.ts:GET",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:chat/src/app/api/conversations/route.ts",
+      "target": "function:chat/src/app/api/conversations/route.ts:GET",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:chat/src/app/api/conversations/route.ts",
+      "target": "function:chat/src/app/api/conversations/route.ts:json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:chat/src/app/api/council/route.ts",
+      "target": "function:chat/src/app/api/council/route.ts:POST",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:chat/src/app/api/council/route.ts",
+      "target": "function:chat/src/app/api/council/route.ts:POST",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:chat/src/app/api/credits/route.ts",
+      "target": "function:chat/src/app/api/credits/route.ts:GET",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:chat/src/app/api/credits/route.ts",
+      "target": "function:chat/src/app/api/credits/route.ts:GET",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:chat/src/app/api/forecast/route.ts",
+      "target": "function:chat/src/app/api/forecast/route.ts:POST",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:chat/src/app/api/forecast/route.ts",
+      "target": "function:chat/src/app/api/forecast/route.ts:POST",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:chat/scripts/test-council.ts",
+      "target": "file:chat/src/lib/council.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:chat/scripts/test-credits.ts",
+      "target": "file:chat/src/lib/credits.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:chat/scripts/test-credits.ts",
+      "target": "file:chat/src/lib/db.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:chat/src/app/api/capture/route.ts",
+      "target": "file:chat/src/lib/auth.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:chat/src/app/api/capture/route.ts",
+      "target": "file:chat/src/lib/capture.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:chat/src/app/api/capture/route.ts",
+      "target": "file:chat/src/lib/credits.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:chat/src/app/api/capture/route.ts",
+      "target": "file:chat/src/lib/db.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:chat/src/app/api/capture/route.ts",
+      "target": "file:chat/src/lib/security.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:chat/src/app/api/chat/route.ts",
+      "target": "file:chat/src/lib/auth.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:chat/src/app/api/chat/route.ts",
+      "target": "file:chat/src/lib/db.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:chat/src/app/api/chat/route.ts",
+      "target": "file:chat/src/lib/model.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:chat/src/app/api/chat/route.ts",
+      "target": "file:chat/src/lib/security.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:chat/src/app/api/checkout/route.ts",
+      "target": "file:chat/src/lib/auth.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:chat/src/app/api/checkout/route.ts",
+      "target": "file:chat/src/lib/security.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:chat/src/app/api/checkout/route.ts",
+      "target": "file:chat/src/lib/stripe.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:chat/src/app/api/conversations/route.ts",
+      "target": "file:chat/src/lib/auth.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:chat/src/app/api/conversations/route.ts",
+      "target": "file:chat/src/lib/db.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:chat/src/app/api/council/route.ts",
+      "target": "file:chat/src/lib/auth.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:chat/src/app/api/council/route.ts",
+      "target": "file:chat/src/lib/council.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:chat/src/app/api/council/route.ts",
+      "target": "file:chat/src/lib/credits.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:chat/src/app/api/council/route.ts",
+      "target": "file:chat/src/lib/db.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:chat/src/app/api/council/route.ts",
+      "target": "file:chat/src/lib/security.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:chat/src/app/api/credits/route.ts",
+      "target": "file:chat/src/lib/auth.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:chat/src/app/api/credits/route.ts",
+      "target": "file:chat/src/lib/credits.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:chat/src/app/api/credits/route.ts",
+      "target": "file:chat/src/lib/owner.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:chat/src/app/api/forecast/route.ts",
+      "target": "file:chat/src/lib/auth.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:chat/src/app/api/forecast/route.ts",
+      "target": "file:chat/src/lib/db.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:chat/src/app/api/forecast/route.ts",
+      "target": "file:chat/src/lib/mc.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:chat/src/app/api/forecast/route.ts",
+      "target": "file:chat/src/lib/security.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "function:chat/scripts/test-council.ts:main",
+      "target": "function:chat/src/lib/council.ts:runCouncil",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/scripts/test-credits.ts:main",
+      "target": "function:chat/src/lib/db.ts:db",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/scripts/test-credits.ts:main",
+      "target": "function:chat/src/lib/credits.ts:getAccount",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/scripts/test-credits.ts:main",
+      "target": "function:chat/src/lib/credits.ts:consume",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/scripts/test-credits.ts:main",
+      "target": "function:chat/src/lib/credits.ts:addCredits",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/src/app/api/capture/route.ts:POST",
+      "target": "function:chat/src/lib/auth.ts:badOrigin",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/src/app/api/capture/route.ts:POST",
+      "target": "function:chat/src/lib/security.ts:edgeRateLimit",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/src/app/api/capture/route.ts:POST",
+      "target": "function:chat/src/lib/auth.ts:resolveCaller",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/src/app/api/capture/route.ts:POST",
+      "target": "function:chat/src/lib/credits.ts:consume",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/src/app/api/capture/route.ts:POST",
+      "target": "function:chat/src/lib/auth.ts:viewAsUser",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:chat/src/app/api/capture/route.ts",
+      "target": "function:chat/src/lib/db.ts:dbConfigured",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:chat/src/app/api/capture/route.ts",
+      "target": "function:chat/src/lib/db.ts:conversationOwnedBy",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:chat/src/app/api/capture/route.ts",
+      "target": "function:chat/src/lib/db.ts:addMessage",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:chat/src/app/api/capture/route.ts",
+      "target": "function:chat/src/lib/capture.ts:runCapture",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/src/app/api/chat/route.ts:POST",
+      "target": "function:chat/src/lib/auth.ts:badOrigin",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/src/app/api/chat/route.ts:POST",
+      "target": "function:chat/src/lib/security.ts:edgeRateLimit",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/src/app/api/chat/route.ts:POST",
+      "target": "function:chat/src/lib/auth.ts:resolveCaller",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/src/app/api/chat/route.ts:POST",
+      "target": "function:chat/src/lib/model.ts:resolveProvider",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/src/app/api/chat/route.ts:POST",
+      "target": "function:chat/src/lib/db.ts:dbConfigured",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/src/app/api/chat/route.ts:POST",
+      "target": "function:chat/src/lib/db.ts:conversationOwnedBy",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/src/app/api/chat/route.ts:POST",
+      "target": "function:chat/src/lib/db.ts:createConversation",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/src/app/api/chat/route.ts:POST",
+      "target": "function:chat/src/lib/db.ts:addMessage",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/src/app/api/checkout/route.ts:GET",
+      "target": "function:chat/src/lib/stripe.ts:stripeConfigured",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/src/app/api/checkout/route.ts:POST",
+      "target": "function:chat/src/lib/auth.ts:badOrigin",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/src/app/api/checkout/route.ts:POST",
+      "target": "function:chat/src/lib/security.ts:edgeRateLimit",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/src/app/api/checkout/route.ts:POST",
+      "target": "function:chat/src/lib/auth.ts:getUserId",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/src/app/api/checkout/route.ts:POST",
+      "target": "function:chat/src/lib/stripe.ts:stripeConfigured",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/src/app/api/checkout/route.ts:POST",
+      "target": "function:chat/src/lib/stripe.ts:planById",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/src/app/api/checkout/route.ts:POST",
+      "target": "function:chat/src/lib/stripe.ts:stripe",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/src/app/api/checkout/route.ts:POST",
+      "target": "function:chat/src/lib/stripe.ts:packById",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/src/app/api/conversations/route.ts:GET",
+      "target": "function:chat/src/lib/auth.ts:badOrigin",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/src/app/api/conversations/route.ts:GET",
+      "target": "function:chat/src/app/api/conversations/route.ts:json",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/src/app/api/conversations/route.ts:GET",
+      "target": "function:chat/src/lib/auth.ts:resolveCaller",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/src/app/api/conversations/route.ts:GET",
+      "target": "function:chat/src/lib/db.ts:dbConfigured",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/src/app/api/conversations/route.ts:GET",
+      "target": "function:chat/src/lib/db.ts:getMessages",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/src/app/api/conversations/route.ts:GET",
+      "target": "function:chat/src/lib/db.ts:listConversations",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/src/app/api/council/route.ts:POST",
+      "target": "function:chat/src/lib/auth.ts:badOrigin",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/src/app/api/council/route.ts:POST",
+      "target": "function:chat/src/lib/security.ts:edgeRateLimit",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/src/app/api/council/route.ts:POST",
+      "target": "function:chat/src/lib/auth.ts:resolveCaller",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/src/app/api/council/route.ts:POST",
+      "target": "function:chat/src/lib/credits.ts:consume",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/src/app/api/council/route.ts:POST",
+      "target": "function:chat/src/lib/auth.ts:viewAsUser",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/src/app/api/council/route.ts:POST",
+      "target": "function:chat/src/lib/db.ts:dbConfigured",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/src/app/api/council/route.ts:POST",
+      "target": "function:chat/src/lib/db.ts:conversationOwnedBy",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/src/app/api/council/route.ts:POST",
+      "target": "function:chat/src/lib/db.ts:createConversation",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/src/app/api/council/route.ts:POST",
+      "target": "function:chat/src/lib/db.ts:addMessage",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:chat/src/app/api/council/route.ts",
+      "target": "function:chat/src/lib/council.ts:runCouncil",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/src/app/api/credits/route.ts:GET",
+      "target": "function:chat/src/lib/auth.ts:getUserId",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/src/app/api/credits/route.ts:GET",
+      "target": "function:chat/src/lib/auth.ts:viewAsUser",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/src/app/api/credits/route.ts:GET",
+      "target": "function:chat/src/lib/owner.ts:isOwner",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/src/app/api/credits/route.ts:GET",
+      "target": "function:chat/src/lib/credits.ts:getAccount",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/src/app/api/credits/route.ts:GET",
+      "target": "function:chat/src/lib/credits.ts:getActiveSubscription",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/src/app/api/forecast/route.ts:POST",
+      "target": "function:chat/src/lib/auth.ts:badOrigin",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/src/app/api/forecast/route.ts:POST",
+      "target": "function:chat/src/lib/security.ts:edgeRateLimit",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/src/app/api/forecast/route.ts:POST",
+      "target": "function:chat/src/lib/mc.ts:runForecast",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/src/app/api/forecast/route.ts:POST",
+      "target": "function:chat/src/lib/db.ts:dbConfigured",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/src/app/api/forecast/route.ts:POST",
+      "target": "function:chat/src/lib/auth.ts:resolveCaller",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/src/app/api/forecast/route.ts:POST",
+      "target": "function:chat/src/lib/db.ts:conversationOwnedBy",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:chat/src/app/api/forecast/route.ts:POST",
+      "target": "function:chat/src/lib/db.ts:insertForecastCard",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

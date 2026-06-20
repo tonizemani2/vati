@@ -11,12 +11,15 @@ Output matches the FB schema:
    forecasts:[{id, source, forecast, resolution_date, direction, reasoning}]}
 
 Usage:
-  uv run python -m engine.forecastbench.submit <question_set.json> [out.json]
+  uv run python -m engine.forecastbench.submit [--no-llm] <question_set.json> [out.json]
 """
 from __future__ import annotations
 
+import base64
 import json
+import os
 import sys
+import urllib.error
 import urllib.request
 from datetime import datetime
 from pathlib import Path
@@ -27,20 +30,156 @@ from .score import DATA, MARKET_SOURCES, single_questions
 
 QSET_URL = ("https://raw.githubusercontent.com/forecastingresearch/"
             "forecastbench-datasets/main/datasets/question_sets/{date}-llm.json")
+LATEST_QSET_URL = ("https://raw.githubusercontent.com/forecastingresearch/"
+                   "forecastbench-datasets/main/datasets/question_sets/latest-llm.json")
+CONTENTS_QSET_URL = (
+    "https://api.github.com/repos/forecastingresearch/forecastbench-datasets/"
+    "contents/datasets/question_sets/{date}-llm.json?ref=main"
+)
+UNPUBLISHED_EXIT = 3
 
 
-def fetch_question_set(date: str) -> str:
+def _valid_cached_question_set(path: Path, date: str) -> bool:
+    try:
+        qd = json.loads(path.read_text())
+    except (OSError, json.JSONDecodeError):
+        return False
+    return (
+        qd.get("forecast_due_date") == date
+        and qd.get("question_set") == f"{date}-llm.json"
+        and isinstance(qd.get("questions"), list)
+        and bool(qd["questions"])
+    )
+
+
+def _request(url: str) -> urllib.request.Request:
+    return urllib.request.Request(url, headers={
+        "User-Agent": "Mozilla/5.0",
+        "Cache-Control": "no-cache",
+        "Pragma": "no-cache",
+    })
+
+
+def _download(url: str) -> bytes:
+    with urllib.request.urlopen(_request(url), timeout=60) as r:
+        return r.read()
+
+
+def _valid_question_set_bytes(raw: bytes, date: str) -> bytes | None:
+    try:
+        qd = json.loads(raw)
+    except json.JSONDecodeError:
+        return None
+    if (
+        qd.get("forecast_due_date") == date
+        and isinstance(qd.get("questions"), list)
+        and bool(qd["questions"])
+    ):
+        qd.setdefault("question_set", f"{date}-llm.json")
+        return json.dumps(qd).encode()
+    return None
+
+
+def _fetch_via_latest(date: str) -> bytes | None:
+    """Best-effort fallback when the dated raw URL is behind the latest pointer."""
+    try:
+        raw = _download(LATEST_QSET_URL)
+    except (urllib.error.HTTPError, urllib.error.URLError):
+        return None
+    parsed = _valid_question_set_bytes(raw, date)
+    if parsed is not None:
+        return parsed
+
+    pointer = raw.decode(errors="ignore").strip()
+    if pointer != f"{date}-llm.json":
+        return None
+    try:
+        raw = _download(QSET_URL.format(date=date))
+    except (urllib.error.HTTPError, urllib.error.URLError):
+        return None
+    return _valid_question_set_bytes(raw, date)
+
+
+def _fetch_via_contents_api(date: str) -> bytes | None:
+    """Fallback for the moment a file exists in GitHub API before raw catches up."""
+    try:
+        raw = _download(CONTENTS_QSET_URL.format(date=date))
+    except (urllib.error.HTTPError, urllib.error.URLError):
+        return None
+    try:
+        payload = json.loads(raw)
+        content = payload.get("content")
+        encoding = payload.get("encoding")
+        if not isinstance(content, str) or encoding != "base64":
+            return None
+        decoded = base64.b64decode(content)
+    except (ValueError, TypeError, json.JSONDecodeError):
+        return None
+    return _valid_question_set_bytes(decoded, date)
+
+
+def _download_question_set_bytes(date: str) -> bytes:
+    try:
+        raw = _download(QSET_URL.format(date=date))
+    except urllib.error.HTTPError as e:
+        if e.code != 404:
+            raise
+        raw = _fetch_via_latest(date)
+        if raw is None:
+            raw = _fetch_via_contents_api(date)
+        if raw is None:
+            raise e
+    parsed = _valid_question_set_bytes(raw, date)
+    if parsed is None:
+        raise ValueError(f"downloaded question set for {date} is invalid or stale")
+    return parsed
+
+
+def fetch_question_set(date: str, force_refresh: bool = False) -> str:
     """Download a round's LLM question set by due date (the live workflow)."""
     out = DATA / f"q_{date}.json"
-    if not out.exists():
-        req = urllib.request.Request(QSET_URL.format(date=date),
-                                     headers={"User-Agent": "Mozilla/5.0"})
-        with urllib.request.urlopen(req, timeout=60) as r:
-            out.write_bytes(r.read())
+    force_refresh = force_refresh or os.getenv("FORECASTBENCH_REFRESH_QSET", "0") == "1"
+    if out.exists() and not _valid_cached_question_set(out, date):
+        out.unlink()
+    if out.exists() and not force_refresh:
+        return str(out)
+    out.parent.mkdir(parents=True, exist_ok=True)
+    try:
+        parsed = _download_question_set_bytes(date)
+    except (urllib.error.HTTPError, urllib.error.URLError):
+        if out.exists() and _valid_cached_question_set(out, date):
+            print(f"WARNING: using cached question set for {date}; live refresh unavailable", file=sys.stderr)
+            return str(out)
+        raise
+    out.write_bytes(parsed)
     return str(out)
 
+
+def cached_question_set_is_current(date: str, qset_path: str | Path | None = None) -> int:
+    """Exit-code helper: 0=current, 1=missing/stale, 3=live qset unavailable."""
+    path = Path(qset_path) if qset_path is not None else DATA / f"q_{date}.json"
+    if not path.exists() or not _valid_cached_question_set(path, date):
+        print(f"cached question set missing or invalid for {date}: {path}", file=sys.stderr)
+        return 1
+    try:
+        live = json.loads(_download_question_set_bytes(date))
+    except urllib.error.HTTPError as e:
+        if e.code == 404:
+            print(f"live question set for {date} is not published/currently unavailable", file=sys.stderr)
+            return UNPUBLISHED_EXIT
+        raise
+    except urllib.error.URLError as e:
+        print(f"live question set check for {date} is temporarily unavailable: {e}", file=sys.stderr)
+        return UNPUBLISHED_EXIT
+    cached = json.loads(path.read_text())
+    if cached != live:
+        print(f"cached question set differs from live question set for {date}: {path}", file=sys.stderr)
+        return 1
+    print(f"cached question set is current for {date}: {path}")
+    return 0
+
 DIRECTIONS = [[1, 1], [1, -1], [-1, 1], [-1, -1]]   # 1 = happens, -1 = doesn't
-ORG = "Vati"
+ORG = "Vaticinus"           # FINAL once on the leaderboard — matches the onboarding email (Jun 8)
 MODEL = "vati-2.0"          # FINAL once on the leaderboard — do not rename casually
 
 
@@ -187,6 +326,7 @@ def make_submission(qset_path: str, out_path: str | None = None, n: int = 1,
            "question_set": qd["question_set"], "forecasts": rows}
     # FB upload naming: <due>.<org>.<N>.json
     out_path = out_path or f"data/forecastbench/{due_str}.{ORG}.{n}.json"
+    Path(out_path).parent.mkdir(parents=True, exist_ok=True)
     Path(out_path).write_text(json.dumps(sub))
     n_single = sum(1 for r in rows if r["direction"] is None)
     n_combo = len(rows) - n_single
@@ -198,9 +338,51 @@ def make_submission(qset_path: str, out_path: str | None = None, n: int = 1,
     return out_path
 
 
-if __name__ == "__main__":
-    arg = sys.argv[1]
+def main(argv: list[str] | None = None) -> int:
+    argv = list(sys.argv[1:] if argv is None else argv)
+    if argv and argv[0] == "--check-current":
+        if len(argv) not in (2, 3):
+            print(
+                "usage: python -m engine.forecastbench.submit "
+                "--check-current <YYYY-MM-DD> [qset.json]",
+                file=sys.stderr,
+            )
+            return 2
+        return cached_question_set_is_current(argv[1], argv[2] if len(argv) == 3 else None)
+    use_llm = True
+    force_refresh = False
+    if argv and argv[0] == "--refresh-qset":
+        force_refresh = True
+        argv = argv[1:]
+    if argv and argv[0] == "--no-llm":
+        use_llm = False
+        argv = argv[1:]
+    elif argv and argv[0] == "--llm":
+        use_llm = True
+        argv = argv[1:]
+    if not argv:
+        print(
+            "usage: python -m engine.forecastbench.submit "
+            "[--refresh-qset] [--no-llm|--llm] <question_set.json|YYYY-MM-DD> [out.json]",
+            file=sys.stderr,
+        )
+        return 2
+    arg = argv[0]
     # live mode: a bare YYYY-MM-DD due date -> download the round's question set
     if len(arg) == 10 and arg[4] == "-" and not arg.endswith(".json"):
-        arg = fetch_question_set(arg)
-    make_submission(arg, sys.argv[2] if len(sys.argv) > 2 else None)
+        try:
+            arg = fetch_question_set(arg, force_refresh=force_refresh)
+        except urllib.error.HTTPError as e:
+            if e.code == 404:
+                print(f"question set for {arg} is not published yet", file=sys.stderr)
+                return UNPUBLISHED_EXIT
+            raise
+        except urllib.error.URLError as e:
+            print(f"question set fetch for {arg} is temporarily unavailable: {e}", file=sys.stderr)
+            return UNPUBLISHED_EXIT
+    make_submission(arg, argv[1] if len(argv) > 1 else None, use_llm=use_llm)
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

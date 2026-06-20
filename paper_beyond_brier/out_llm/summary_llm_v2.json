@@ -1,0 +1,84 @@
+{
+  "panel": {
+    "rows": 73710,
+    "configs": 130,
+    "distinct_qids": 256,
+    "rows_per_config_median": 567,
+    "note_256_vs_567": "256 distinct market questions; ~567 rows/config because a question recurs under multiple resolution horizons"
+  },
+  "C1_beta_fc_reliability": {
+    "var_observed": 0.040868602633614325,
+    "mean_sampling_var": 0.03336827180400633,
+    "reliability": 0.18352305550664924,
+    "rho_beta_fc_brier": 0.06024662360540223,
+    "p": 0.4959336957489784,
+    "rho_95ci": [
+      -0.1107861696957821,
+      0.2341312143330142
+    ],
+    "frac_significant_beta_fc": 0.18461538461538463,
+    "verdict": "rho=0.06 with reliability~0.18 and p=0.50 cannot support an orthogonality claim; consistent with measurement noise."
+  },
+  "C2_delta_ll": {
+    "mean_per_row_nats": 0.0017522065672005238,
+    "rho_dll_brier": 0.013336246568982232,
+    "p": 0.8802954383248763,
+    "note": "Delta-LL is the collinearity-robust measure of info beyond the price."
+  },
+  "stability_split_half_rho": {
+    "brier": [
+      0.9572797662128391,
+      0.007016502664205129
+    ],
+    "beta_fc": [
+      0.23401302762566747,
+      0.11458286537811961
+    ],
+    "delta_ll": [
+      0.18307364568681805,
+      0.08373505176743222
+    ]
+  },
+  "method_counts": {
+    "logit": 130
+  },
+  "copy_the_market": {
+    "n_pairs": 46,
+    "n_families": 17,
+    "family_sign_tests": {
+      "dAbsdev": [
+        17,
+        -0.07688207158753675,
+        1.0,
+        1.52587890625e-05
+      ],
+      "dBrier": [
+        17,
+        -0.03311502357072016,
+        1.0,
+        1.52587890625e-05
+      ],
+      "dBeta": [
+        17,
+        -0.1917179818539626,
+        0.9411764705882353,
+        0.000274658203125
+      ],
+      "dDLL": [
+        17,
+        0.001987182734129858,
+        0.058823529411764705,
+        0.000274658203125
+      ]
+    },
+    "vif_base_median": 1.2880113893933283,
+    "vif_frz_median": 1.6243681702472281,
+    "dll_base_mean": 0.0007620121785323474,
+    "dll_frz_mean": 0.0027551472556781634
+  },
+  "FWL_verification": {
+    "rho": 1.0,
+    "max_centered_abs_diff": 1.0772632785815972e-15,
+    "n_forecasters": 23
+  }
+}

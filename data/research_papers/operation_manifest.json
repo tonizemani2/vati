@@ -1,0 +1,222 @@
+{
+  "blockers": [],
+  "disk_guard": {
+    "free_gb": 286.24292373657227,
+    "total_gb": 460.4317207336426,
+    "used_gb": 174.1887969970703,
+    "used_pct": 37.831623920159416
+  },
+  "execute_requested": false,
+  "local_status": {
+    "db_counts": {
+      "entities": 46733,
+      "graph_edges": 51910,
+      "graph_nodes": 13247,
+      "observations": 480904,
+      "papers": 2768364,
+      "raw_docs": 1242,
+      "series": 3162,
+      "sources": 782
+    },
+    "db_path": "/Users/emizemani/Desktop/predictthefuture/data/foresight.db",
+    "disk": {
+      "free_gb": 286.24292373657227,
+      "total_gb": 460.4317207336426,
+      "used_gb": 174.1887969970703,
+      "used_pct": 37.831623920159416
+    },
+    "feed_files": 54,
+    "operation_dir": "/Users/emizemani/Desktop/predictthefuture/data/research_papers",
+    "repo": "/Users/emizemani/Desktop/predictthefuture"
+  },
+  "plan": {
+    "budget_usd": 0.0,
+    "ec2_worker_plan": {
+      "lake_prefix": "s3://vaticinus-datalake-405844305300-us-east-1/research-papers",
+      "launch_posture": "not launched by this command; use after budget approval",
+      "local_mac_rule": "no source PDFs, tarballs, or parquet shards should land on the Mac except tiny manifests",
+      "recommended_backfill": {
+        "expected_cost_usd": "requires a separate named cap before launch",
+        "expected_runtime": "days to weeks depending on source and extractor",
+        "instance_family": "c7i.2xlarge/r7i.2xlarge or larger, remote scratch only",
+        "purpose": "bulk manifest-driven mirror, parquet conversion, extraction batching"
+      },
+      "recommended_pilot": {
+        "expected_cost_usd": "single-digit dollars excluding any full corpus storage",
+        "expected_runtime_hours": "1-3",
+        "instance_family": "c7i.large or c7g.large spot/on-demand",
+        "purpose": "copy source manifests and run one tiny arXiv/PMC shard through text extraction"
+      },
+      "region": "us-east-1",
+      "safe_first_phases": [
+        {
+          "bulk_bytes": "no",
+          "description": "copy or record official source manifests/file lists only",
+          "phase": "manifest_inventory",
+          "writes": "s3://vaticinus-datalake-405844305300-us-east-1/research-papers/manifests/"
+        },
+        {
+          "bulk_bytes": "bounded",
+          "description": "process one arXiv month/source shard plus one PMC OA package and validate extraction rows",
+          "phase": "one_shard_pilot",
+          "writes": "s3://vaticinus-datalake-405844305300-us-east-1/research-papers/pilot/"
+        },
+        {
+          "bulk_bytes": "yes",
+          "description": "remote-only mirror and extraction after pilot metrics pass",
+          "phase": "full_backfill",
+          "writes": "s3://vaticinus-datalake-405844305300-us-east-1/research-papers/raw/ and s3://vaticinus-datalake-405844305300-us-east-1/research-papers/parquet/"
+        }
+      ]
+    },
+    "generated_at": "2026-06-18T12:13:23.701773+00:00",
+    "known_kept_gib": 9712.0,
+    "known_raw_gib": 10293.0,
+    "next_safe_commands": [
+      "uv run python -m engine.cli research-papers-operation --json",
+      "uv run python -m engine.feeds.collect_all --audit",
+      "uv run python -m engine.cli data-offload --root data --min-size-mb 100 --json"
+    ],
+    "operation": "research_papers_global_lake",
+    "principles": [
+      "object storage is the lake; the Mac is a control node",
+      "metadata everywhere, full text where official access and license permit",
+      "structured extraction rows beat dumping millions of pages into a prompt",
+      "PDF text extraction before OCR; OCR only for scanned/low-text documents",
+      "no metered/requester-pays bulk operation without explicit budget and execute flags"
+    ],
+    "remote_prefix": "s3://vaticinus-datalake-405844305300-us-east-1/research-papers",
+    "source_count": 8,
+    "sources": [
+      {
+        "cadence": "free public snapshot refresh; incremental by updated_date partitions",
+        "coverage": "global scholarly metadata, authors, institutions, citations, topics",
+        "estimated_kept_gib": 150.0,
+        "estimated_raw_gib": 330.0,
+        "full_text": "metadata_only",
+        "id": "openalex_snapshot",
+        "label": "OpenAlex snapshot",
+        "legal_posture": "open metadata",
+        "local_default": "already partially represented by derived signals; do not copy raw to Mac",
+        "metered": false,
+        "notes": "source of truth for worldwide paper metadata and citation graph; no Floxy needed",
+        "official_access": "s3://openalex/data, no-sign-request public snapshot",
+        "remote_action": "sync/derive in-region to S3, then query via Athena/DuckDB",
+        "tier": "metadata_graph"
+      },
+      {
+        "cadence": "REST incremental; paid snapshots monthly",
+        "coverage": "DOI-registered scholarly metadata across publishers",
+        "estimated_kept_gib": 80.0,
+        "estimated_raw_gib": 200.0,
+        "full_text": "metadata_abstracts_when_available",
+        "id": "crossref_metadata",
+        "label": "Crossref metadata",
+        "legal_posture": "metadata open; some abstracts may have rights limits",
+        "local_default": "targeted keyless counts only",
+        "metered": true,
+        "notes": "fills DOI metadata gaps; not a blanket full-text source",
+        "official_access": "REST API keyless for targeted pulls; Metadata Plus snapshots for full corpus",
+        "remote_action": "snapshot to object storage only if paid access is approved",
+        "tier": "metadata"
+      },
+      {
+        "cadence": "annual baseline, daily update files",
+        "coverage": "biomedical citations and abstracts",
+        "estimated_kept_gib": 30.0,
+        "estimated_raw_gib": 60.0,
+        "full_text": "metadata_abstracts",
+        "id": "pubmed_baseline_updates",
+        "label": "PubMed baseline and daily updates",
+        "legal_posture": "official citation data; abstracts can have rights limits",
+        "local_default": "topic counts only",
+        "metered": false,
+        "notes": "gapless biomed metadata once baseline plus numbered daily files are tracked",
+        "official_access": "NCBI FTP baseline plus daily update XML files",
+        "remote_action": "load baseline to object storage, apply daily update files in order",
+        "tier": "metadata_biomed"
+      },
+      {
+        "cadence": "baseline packages plus daily incrementals",
+        "coverage": "OA biomedical article XML/text, plus selected PDFs/media",
+        "estimated_kept_gib": 250.0,
+        "estimated_raw_gib": 500.0,
+        "full_text": "xml_text_pdf_when_license_allows",
+        "id": "pmc_oa_full_text",
+        "label": "PubMed Central Open Access full text",
+        "legal_posture": "OA subset only; license must be stored per article",
+        "local_default": "manifest only",
+        "metered": false,
+        "notes": "best first full-text source after arXiv because XML is structured",
+        "official_access": "NCBI PMC FTP bulk baseline and daily incremental packages",
+        "remote_action": "store XML/text in object storage; PDF only when license/use allows",
+        "tier": "full_text_biomed"
+      },
+      {
+        "cadence": "monthly downloadable datasets",
+        "coverage": "papers, authors, citations, embeddings-adjacent metadata depending on dataset",
+        "estimated_kept_gib": null,
+        "estimated_raw_gib": null,
+        "full_text": "metadata_only_or_s2orc_when_available",
+        "id": "semantic_scholar_s2ag",
+        "label": "Semantic Scholar S2AG",
+        "legal_posture": "API/data license applies",
+        "local_default": "release manifest only",
+        "metered": false,
+        "notes": "use as cross-check and enrichment layer, not the only global corpus",
+        "official_access": "Datasets API; file downloads may require API key",
+        "remote_action": "request/use dataset key, mirror monthly release manifests and changed shards",
+        "tier": "metadata_graph"
+      },
+      {
+        "cadence": "recurring OAI harvest; resumable by state",
+        "coverage": "arXiv preprint metadata, categories, abstracts, versions",
+        "estimated_kept_gib": 2.0,
+        "estimated_raw_gib": 3.0,
+        "full_text": "metadata_abstracts",
+        "id": "arxiv_metadata",
+        "label": "arXiv metadata",
+        "legal_posture": "official metadata",
+        "local_default": "already local in papers table",
+        "metered": false,
+        "notes": "current local papers table is mostly this substrate",
+        "official_access": "OAI-PMH and existing local arXiv parquet ingest path",
+        "remote_action": "keep local derived DB plus offloaded parquet mirror",
+        "tier": "metadata_preprints"
+      },
+      {
+        "cadence": "monthly-ish bucket growth; inventory by S3 manifests",
+        "coverage": "arXiv PDFs and source bundles",
+        "estimated_kept_gib": 9200.0,
+        "estimated_raw_gib": 9200.0,
+        "full_text": "pdf_and_source",
+        "id": "arxiv_full_text",
+        "label": "arXiv full text",
+        "legal_posture": "index/link back; do not redistribute beyond licenses",
+        "local_default": "never download to Mac by default",
+        "metered": true,
+        "notes": "Floxy is the wrong path; official requester-pays S3 is the right path",
+        "official_access": "s3://arxiv requester-pays bucket, manifest-driven",
+        "remote_action": "remote-only S3-to-S3 or cloud worker; parse source before PDF; OCR last",
+        "tier": "full_text_preprints"
+      },
+      {
+        "cadence": "source-specific weekly/monthly",
+        "coverage": "SciELO, J-STAGE, ChinaXiv and other non-Western/open repositories",
+        "estimated_kept_gib": null,
+        "estimated_raw_gib": null,
+        "full_text": "mixed_by_license",
+        "id": "regional_open_preprints",
+        "label": "Regional OA and preprint indexes",
+        "legal_posture": "source/license specific",
+        "local_default": "not started",
+        "metered": false,
+        "notes": "Floxy only if official access is blocked and terms permit collection",
+        "official_access": "OAI/API/bulk where available; scrape only where allowed",
+        "remote_action": "add one official/bulk connector at a time with license rows",
+        "tier": "metadata_full_text_selected"
+      }
+    ]
+  },
+  "status": "planned"
+}

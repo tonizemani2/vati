@@ -1,0 +1,65 @@
+{
+  "round": "2024-07-21",
+  "data_source": "forecastbench.org processed forecast sets (public, CC BY-SA 4.0)",
+  "leak_free": "forecasts elicited at 2024-07-21 freeze, before resolution",
+  "panel_balance": {
+    "n_configs": 130,
+    "n_distinct_market_questions": 256,
+    "coverage_per_config": {
+      "min": 256,
+      "median": 256.0,
+      "max": 256
+    },
+    "n_questions_answered_by_all_configs": 256,
+    "frac_of_questions_common_to_all": 1.0
+  },
+  "D1_edge_vs_brier": {
+    "spearman_rho": 1.0,
+    "p": 0.0,
+    "reference_term_sd_across_configs": 0.0,
+    "interpretation": "On a (near-)balanced panel the reference score is constant across configs, so edge=const-Brier and the edge ranking is a monotone transform of Brier: the naive 'edge over market' does NOT reorder a balanced benchmark."
+  },
+  "D1b_decomposition_reorder": {
+    "beta_fc_vs_brier_rho": 0.06024662360540223,
+    "p": 0.4959336957489784,
+    "beta_fc_vs_edge_rho": 0.06024662360540223,
+    "interpretation": "beta_fc (unpriced edge) is NOT a monotone transform of Brier; ranking by it reorders the balanced leaderboard and is the honest instrument on balanced data."
+  },
+  "D2_copy_the_market": {
+    "n_pairs": 46,
+    "absdev": {
+      "base": 0.27706375493636226,
+      "freeze": 0.19943025688999694,
+      "median_delta": -0.07526099835370371,
+      "frac_freeze_copies_more": 1.0,
+      "wilcoxon_p": 2.842170943040401e-14
+    },
+    "brier": {
+      "base": 0.20418837410599386,
+      "freeze": 0.17502489548812505,
+      "median_delta": -0.027635988362428324,
+      "frac_freeze_better_brier": 0.9347826086956522,
+      "wilcoxon_p": 7.105427357601002e-13
+    },
+    "edge": {
+      "base": -0.13474767709979535,
+      "freeze": -0.10558419848192654,
+      "median_delta": 0.027635988362428345,
+      "frac_freeze_higher_edge": 0.9347826086956522,
+      "note": "edge=const-Brier on a question, so freeze 'winning' on edge is the SAME fact as freeze winning on Brier -> raw edge rewards copying."
+    },
+    "beta_fc_unpriced": {
+      "base": -0.08238447582100707,
+      "freeze": -0.2556824274709052,
+      "median_delta": -0.13558443760288744,
+      "frac_freeze_lower_unpriced": 0.8260869565217391,
+      "wilcoxon_p": 6.945569452909695e-08
+    },
+    "beta_ref_priced": {
+      "base": 1.3453524962009507,
+      "freeze": 1.4657687326970532,
+      "median_delta": 0.06981451892969126,
+      "frac_freeze_higher_priced": 0.9565217391304348
+    }
+  }
+}

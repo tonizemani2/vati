@@ -1,0 +1,536 @@
+- generic [active] [ref=e1]:
+  - link "The sealed forecast record · see the calls" [ref=e3] [cursor=pointer]:
+    - /url: /#research
+  - banner [ref=e4]:
+    - generic [ref=e6]:
+      - link "Vaticinus home" [ref=e7] [cursor=pointer]:
+        - /url: /
+        - img [ref=e8]
+        - text: Vaticinus
+      - navigation [ref=e21]:
+        - link "Forecasts" [ref=e22] [cursor=pointer]:
+          - /url: /forecasts/
+  - generic [ref=e24]:
+    - generic [ref=e25]: Forward calls · pre-consensus · calibrated · falsifiable
+    - heading "Where scarcity migrates next" [level=1] [ref=e26]
+    - paragraph [ref=e27]: 24 dated forward structural calls across 4 boards. Each names the inelastic input that captures the rent before pricing catches up, with the date and the test that would prove it wrong.
+  - generic [ref=e30]:
+    - generic [ref=e31]:
+      - heading "How to read these" [level=2] [ref=e32]
+      - paragraph [ref=e33]: "These are dated, falsifiable, pre-consensus forward calls: bets on which inelastic constraint captures the rent before the market prices it. They are not a resolved track record. None has paid out yet. Each one carries a resolution date and a kill-criterion fixed at creation, and is scored with the Brier rule when it resolves."
+      - paragraph [ref=e34]:
+        - text: Every call shows
+        - strong [ref=e35]: two
+        - text: probabilities, never one. The
+        - strong [ref=e36]: vision
+        - text: figure is how strong the structural case is. The
+        - strong [ref=e37]: clause
+        - text: figure is the calibrated odds that the exact dated, mechanically checkable clause resolves true, after the timing and measurement tax. The clause number is the one that gets scored. A call reading near 50 on the clause is honest uncertainty on a tight criterion, not a weak thesis.
+    - generic [ref=e38]:
+      - generic [ref=e39]:
+        - generic [ref=e40]: vision
+        - generic [ref=e41]: strength of the structural case
+      - generic [ref=e42]:
+        - generic [ref=e43]: clause
+        - generic [ref=e44]: calibrated odds the dated clause resolves; Brier-scored
+      - generic [ref=e45]:
+        - generic [ref=e46]: resolves
+        - generic [ref=e47]: fixed at creation; superseded, never edited
+  - generic [ref=e49]:
+    - generic [ref=e50]: cross-sector / 2032-2033
+    - heading "The long-horizon tier" [level=2] [ref=e51]
+    - paragraph [ref=e52]: Six decade-scale calls where physics or demography makes the trajectory close to inevitable, while capital is still looking elsewhere.
+    - paragraph [ref=e53]: Across all six the rent sits one layer below where capital is looking, on an input that cannot be expanded with money on the relevant timescale because the limit is an element, a reservoir, a human career, or a law of thermodynamics. The market prices the visible hardware; the binding constraint is the inelastic thing each buildout has to pass through to become real.
+    - link "Download the full board PDF — sources & refute notes ↓" [ref=e54] [cursor=pointer]:
+      - /url: long-horizon.pdf
+    - generic [ref=e55]:
+      - article [ref=e56]:
+        - generic [ref=e57]:
+          - generic [ref=e58]: L1
+          - generic [ref=e59]: resolves 2032-12-31
+        - heading "The grid runs out of people before it runs out of steel" [level=3] [ref=e60]
+        - generic [ref=e61]:
+          - generic [ref=e62]: vision 85%
+          - generic [ref=e63]: clause 60%
+        - generic [ref=e64]:
+          - generic [ref=e65]: Binding constraint (the needle)
+          - text: Senior power-systems engineers and high-voltage technicians. A career to train, a generation of lost enrollment; capital cannot expand it on any timescale shorter than a working life.
+        - generic [ref=e66]:
+          - generic [ref=e67]: Leading metric
+          - text: Real wage growth and vacancy rate for power-systems engineers vs general engineering; grid and datacenter projects that publicly cite labor, not equipment, as the binding slip cause.
+        - generic [ref=e68]:
+          - generic [ref=e69]: Kill-criterion
+          - text: AI design automation, immigration, and a training boom flatten the wage premium through 2032 and no major project names labor as the binding slip.
+        - group [ref=e70]:
+          - generic "Full argument +" [ref=e71] [cursor=pointer]
+      - article [ref=e72]:
+        - generic [ref=e73]:
+          - generic [ref=e74]: L2
+          - generic [ref=e75]: resolves 2032-12-31
+        - heading "Helium-4 is the resource that leaves and does not come back" [level=3] [ref=e76]
+        - generic [ref=e77]:
+          - generic [ref=e78]: vision 65%
+          - generic [ref=e79]: clause 52%
+        - generic [ref=e80]:
+          - generic [ref=e81]: Binding constraint (the needle)
+          - text: Helium-rich gas reservoirs plus conservation and recapture infrastructure. A non-renewable byproduct of a shrinking source base, physically lost to space when vented.
+        - generic [ref=e82]:
+          - generic [ref=e83]: Leading metric
+          - text: Bulk liquid-helium contract price vs a 2020 baseline; share of large-user demand on on-site recapture; recurrence of allocation events.
+        - generic [ref=e84]:
+          - generic [ref=e85]: Kill-criterion
+          - text: Amur, Qatar, and Tanzania's Rukwa field oversupply and the real price stays flat through 2032, or recapture makes demand elastic enough to cap the price.
+        - group [ref=e86]:
+          - generic "Full argument +" [ref=e87] [cursor=pointer]
+      - article [ref=e88]:
+        - generic [ref=e89]:
+          - generic [ref=e90]: L3
+          - generic [ref=e91]: resolves 2033-12-31
+        - heading "Phosphorus is essential, substitute-free, and geographically captured" [level=3] [ref=e92]
+        - generic [ref=e93]:
+          - generic [ref=e94]: vision 70%
+          - generic [ref=e95]: clause 50%
+        - generic [ref=e96]:
+          - generic [ref=e97]: Binding constraint (the needle)
+          - text: Sedimentary phosphate reserves, roughly 70% held by one producer. An element every crop needs and nothing can replace; the only escape is recovery from manure and wastewater.
+        - generic [ref=e98]:
+          - generic [ref=e99]: Leading metric
+          - text: Real DAP and rock price floor vs 2020; count of mandated or commercial phosphorus-recovery facilities; the dominant holder's share of internationally traded rock.
+        - generic [ref=e100]:
+          - generic [ref=e101]: Kill-criterion
+          - text: Large new low-cost reserves develop outside the dominant holder, or recovery scales fast enough to cap the rock price floor through 2033.
+        - group [ref=e102]:
+          - generic "Full argument +" [ref=e103] [cursor=pointer]
+      - article [ref=e104]:
+        - generic [ref=e105]:
+          - generic [ref=e106]: L4
+          - generic [ref=e107]: resolves 2033-12-31
+        - heading "The robot demand fixed by biology, not by adoption curves" [level=3] [ref=e108]
+        - generic [ref=e109]:
+          - generic [ref=e110]: vision 80%
+          - generic [ref=e111]: clause 45%
+        - generic [ref=e112]:
+          - generic [ref=e113]: Binding constraint (the needle)
+          - text: Physical human-contact care hours. The over-75 cohort of 2035 is already alive and the caregivers are already too few; the gated escape is robotics certified for safe physical contact.
+        - generic [ref=e114]:
+          - generic [ref=e115]: Leading metric
+          - text: Caregiver vacancy ratio in Japan and Korea; count of physical-assist robots with medical-device clearance for patient contact; the first reimbursement codes.
+        - generic [ref=e116]:
+          - generic [ref=e117]: Kill-criterion
+          - text: Immigration and wage solutions fill the caregiving gap, or contact-safety certification stalls so deployed machines stay non-contact through 2033.
+        - group [ref=e118]:
+          - generic "Full argument +" [ref=e119] [cursor=pointer]
+      - article [ref=e120]:
+        - generic [ref=e121]:
+          - generic [ref=e122]: L5
+          - generic [ref=e123]: resolves 2032-12-31
+        - heading "If carbon storage scales at all, the rent moves to the hole in the ground" [level=3] [ref=e124]
+        - generic [ref=e125]:
+          - generic [ref=e126]: vision 55%
+          - generic [ref=e127]: clause 40%
+        - generic [ref=e128]:
+          - generic [ref=e129]: Binding constraint (the needle)
+          - text: Permitted, location-fixed geologic pore space plus measurement and verification. Finite per basin and slow to permit, and a fundamentally different asset from the capture technology that keeps getting cheaper.
+        - generic [ref=e130]:
+          - generic [ref=e131]: Leading metric
+          - text: Class VI permits issued vs applied (the EPA backlog); storage-only contracts priced separately from capture; pore-space lease prices.
+        - generic [ref=e132]:
+          - generic [ref=e133]: Kill-criterion
+          - text: Durable removal demand stays negligible through 2032 so pore space never binds, or permitting accelerates so sharply that storage stays abundant and cheap.
+        - group [ref=e134]:
+          - generic "Full argument +" [ref=e135] [cursor=pointer]
+      - article [ref=e136]:
+        - generic [ref=e137]:
+          - generic [ref=e138]: L6
+          - generic [ref=e139]: resolves 2033-12-31
+        - heading "The energy wall forces a change of substrate, not just better chips" [level=3] [ref=e140]
+        - generic [ref=e141]:
+          - generic [ref=e142]: vision 70%
+          - generic [ref=e143]: clause 35%
+        - generic [ref=e144]:
+          - generic [ref=e145]: Binding constraint (the needle)
+          - text: Talent, IP, and foundry process for non-digital compute substrates. The scarce input is the narrow pool that can build analog-in-memory and photonic compute, not capital.
+        - generic [ref=e146]:
+          - generic [ref=e147]: Leading metric
+          - text: Share of frontier inference on non-digital-CMOS substrates; venture and patent concentration in analog and photonic compute; the first hyperscaler production deployment.
+        - generic [ref=e148]:
+          - generic [ref=e149]: Kill-criterion
+          - text: Digital CMOS plus advanced packaging keeps improving energy efficiency fast enough (3D stacking, sub-threshold, better dataflow) that analog and optical stay niche through 2033.
+        - group [ref=e150]:
+          - generic "Full argument +" [ref=e151] [cursor=pointer]
+  - generic [ref=e153]:
+    - generic [ref=e154]: space and the space economy (launch vehicles and propulsion,
+    - 'heading "Where the Space Economy''s Rent Migrates: Six Physical Walls Cheap Launch Cannot Move" [level=2] [ref=e155]'
+    - paragraph [ref=e156]:
+      - emphasis [ref=e157]: When you make getting to orbit free, scarcity jumps to the inputs that obey thermodynamics, decay physics, and treaty-fixed spectrum, not learning curves.
+    - paragraph [ref=e158]: "Every one of these six calls follows the same migration logic and the consensus misses it the same way. The funded, visible bottleneck in space is always transport: launch cost, cadence, landers, GPUs. Cheap reusable launch is collapsing that layer, and the market is pricing the collapse as if it solves the whole stack. It does not. It relocates the binding constraint to a small set of inputs that do not ride any learning curve because they are pinned by a physical or institutional invariant: radiative heat rejection in vacuum is fixed by Stefan-Boltzmann T-to-the-fourth (P1); the 354-hour lunar night sets a linear energy-storage mass floor that only fission escapes (P2); deep-space link budgets need treaty-protected S/X/Ka bands and 70 m steel that takes a decade to pour (P3); LEO position uncertainty is dominated by thermospheric density that a near-dead, non-commercial sensor base cannot forecast (P4); every US radioisotope heat source is clad in a single arc-remelted iridium alloy from one reconstituted ORNL line now bidding against the hydrogen buildout for the same 7-tonne-per-year metal stream (P5); and the stratosphere is a finite, 30-year-clearance alumina sink that a self-replacing megaconstellation fills monotonically (P6). In each case the needle is a specific inelastic input (square-meters of deployable radiator per kilowatt, kilograms of night-survival storage per watt, large-aperture antenna-hours, in-situ density-driver data, qualified iridium clad-vent-set throughput, qualified non-aluminum demisable structure) and in each case capital is still pricing the layer above it. The themes are now audible (cooling is hard, Pu-238 is short, reentry chemistry exists in geoscience papers); the quantitative, rent-bearing needles are not in a single equity model, sell-side note, or futures contract. That gap between an audible theme and an unpriced needle is the entire edge."
+    - link "Download the full board PDF — sources & refute notes ↓" [ref=e159] [cursor=pointer]:
+      - /url: space.pdf
+    - generic [ref=e160]:
+      - article [ref=e161]:
+        - generic [ref=e162]:
+          - generic [ref=e163]: P1
+          - generic [ref=e164]: resolves 2034-12-31
+        - heading "Orbital compute does not hit a launch-cost wall or a power wall first. It hits a radiator-area wall. The binding constraint on space-based AI compute through the 2030s is deployable, micrometeoroid-survivable heat-rejection AREA per launched kilogram, governed by Stefan-Boltzmann T-to-the-fourth and a hard ~few-kg-per-square-meter panel-plus-fluid-loop mass floor that does not ride a learning curve. Multi-gigawatt orbital data centers are physically uncoverable this decade, and the rent migrates to whoever owns large-area deployable-radiator and two-phase loop technology, not to whoever owns the GPUs or the launch." [level=3] [ref=e165]
+        - generic [ref=e166]:
+          - generic [ref=e167]: vision 82%
+          - generic [ref=e168]: clause 62%
+        - generic [ref=e169]:
+          - generic [ref=e170]: Binding constraint (the needle)
+          - text: "Qualified deployable space-radiator AREA (m2 of micrometeoroid-survivable, fluid-loop-coupled panel) per kilowatt of waste heat rejected, and the ~2-7 kg/m2 areal-mass floor of the panel plus its pumped two-phase transport loop. Not 'cooling' as a theme: the specific inelastic input is deployable radiator area-per-kW and the loop hardware behind it."
+        - generic [ref=e171]:
+          - generic [ref=e172]: Leading metric
+          - text: "Announced or as-built radiator area and radiator mass fraction of any orbital-compute spacecraft above ~100 kW IT load, expressed as m2 of radiator per kW rejected and as radiator-plus-loop mass as a share of dry mass. Track: (a) the largest single orbital-compute payload actually on orbit by power (currently sub-kW thermal on Starcloud-1, Nov 2025); (b) whether any flown system rejects >100 kW; (c) radiator areal mass in kg/m2 in flight hardware (currently ~3-7 kg/m2). Leading tell: every serious orbital-DC technical disclosure or teardown that names radiator area/mass (not power or launch) as the gating line item."
+        - generic [ref=e173]:
+          - generic [ref=e174]: Kill-criterion
+          - text: Killed if, by 2034-12-31, any orbital data center actually rejects >100 kW of IT waste heat on orbit at a radiator areal mass at or below ~1 kg/m2 (a 3-5x materials breakthrough, e.g. droplet/liquid-sheet radiators reaching >400 W/kg in qualified flight hardware), OR a flown system demonstrates >1 MW IT load without radiator area/mass being the dominant mass and cost driver. Either outcome means the area wall was engineered around and the constraint migrated off the radiator.
+        - group [ref=e175]:
+          - generic "Full argument +" [ref=e176] [cursor=pointer]
+      - article [ref=e177]:
+        - generic [ref=e178]:
+          - generic [ref=e179]: P2
+          - generic [ref=e180]: resolves 2038-12-31
+        - 'heading "Every kilowatt-class non-polar lunar surface asset through 2040 is gated by the 354-hour lunar night: the binding constraint is night-survival energy-storage mass per continuous watt, which forces fission surface power as the only viable route at useful power levels, and that route is single-sourced and schedule-fragile." [level=3] [ref=e181]'
+        - generic [ref=e182]:
+          - generic [ref=e183]: vision 82%
+          - generic [ref=e184]: clause 70%
+        - generic [ref=e185]:
+          - generic [ref=e186]: Binding constraint (the needle)
+          - text: "Night-survival energy/power mass per continuous watt across the 354-hour lunar night (kg per continuous-watt for the storage route; equivalently, the count of qualified, flight-ready fission surface power units for the only route whose mass does not scale with night length). Not \"lunar power\" as a theme: the specific inelastic input is bridge-the-night mass-per-watt, and the single-sourced reactor program that escapes it."
+        - generic [ref=e187]:
+          - generic [ref=e188]: Leading metric
+          - text: "(a) Count of fission surface power units that pass qualification and are manifested for lunar delivery (today: zero flown; one US program targeting Q1 2030 after slipping from 2026; design spec >=100 kWe, under 6 tonnes). (b) Best demonstrated night-survival energy-storage specific energy for a flight-qualified lunar system in Wh/kg including thermal keep-alive (today effectively battery-only, roughly 100-150 Wh/kg derated). (c) Count of non-polar lunar surface assets demonstrating continuous operation through a full lunar night at >=1 kW. Leading tell: any lander or base program that names night-survival power (not landing mass or launch cadence) as the schedule-gating line item, and any reactor-program slip past 2030."
+        - generic [ref=e189]:
+          - generic [ref=e190]: Kill-criterion
+          - text: Killed if, by 2038-12-31, either (a) two or more independent lunar surface assets demonstrate continuous >=1 kW operation through a full lunar night without a fission reactor -- requiring a storage or beamed-power breakthrough crossing roughly 400 Wh/kg flight-qualified night-survival specific energy, or operational cislunar/orbital power beaming delivering kilowatt-class night power -- OR (b) three or more qualified fission surface power units are delivered to the lunar surface on schedule, dissolving the single-source bottleneck. Either condition means the night-survival mass-per-watt constraint stopped binding.
+        - group [ref=e191]:
+          - generic "Full argument +" [ref=e192] [cursor=pointer]
+      - article [ref=e193]:
+        - generic [ref=e194]:
+          - generic [ref=e195]: P3
+          - generic [ref=e196]: resolves 2034-06-30
+        - heading "By 2034, deep-space-band large-aperture antenna-hours are the binding supply constraint on missions past GEO, with demand already exceeding DSN capacity at peak and the structural deficit widening faster than new aperture can be fielded." [level=3] [ref=e197]
+        - generic [ref=e198]:
+          - generic [ref=e199]: vision 78%
+          - generic [ref=e200]: clause 62%
+        - generic [ref=e201]:
+          - generic [ref=e202]: Binding constraint (the needle)
+          - text: Large-aperture (34 m / 70 m class) antenna-hours on the ITU-protected deep-space S/X/Ka bands, jointly with those coordinated spectrum allocations and the trained operations staff needed to run them. Not LEO ground stations. Not relay satellites. Not launch slots.
+        - generic [ref=e203]:
+          - generic [ref=e204]: Leading metric
+          - text: "(a) DSN demand-over-supply ratio: already reported at roughly 140% of capacity at peak by the 2023 NASA OIG audit, with the 2030s projection at 150% or above before new aperture comes online. (b) Count of missions reporting deferred, shortened, or descoped contact passes citing antenna contention rather than budget. (c) Number of operational 34/70 m-class deep-space-band apertures and their scheduled downtime: DSS-14 offline since September 2025 with no confirmed return. (d) ITU coordination filings for deep-space X/Ka as cislunar users multiply. Baseline state today: network already oversubscribed, the largest single dish offline for an indeterminate overhaul, demand curve steepening, and planned mitigations (LEGS cislunar antennas) acknowledged insufficient for the deep-space tier."
+        - generic [ref=e205]:
+          - generic [ref=e206]: Kill-criterion
+          - text: "The call is dead if by 2034: (a) a fielded constellation of new large-aperture or phased-array deep-space ground assets multiplies effective deep-space aperture-hours enough that demand-over-supply falls durably below 1.0 with no mission citing tracking time as a limiter; OR (b) optical (laser) deep-space communication is qualified and adopted as the primary link modality for the bulk of deep-space data volume, bypassing the RF aperture and protected-band constraint entirely; OR (c) the lunar and deep-space mission manifest collapses to the point that demand falls back to a level the existing network can absorb without rationing. Any one dissolves the needle."
+        - group [ref=e207]:
+          - generic "Full argument +" [ref=e208] [cursor=pointer]
+      - article [ref=e209]:
+        - generic [ref=e210]:
+          - generic [ref=e211]: P4
+          - generic [ref=e212]: resolves 2035-12-31
+        - heading "By 2035, the binding constraint on operating proliferated LEO is not tracking sensors or autonomous-maneuver software but the accuracy of thermospheric neutral-density forecasts, and the inelastic input gating that accuracy is real-time in-situ upper-atmosphere driver data from a tiny, non-redundant, government-funded sensor base with no commercial supply." [level=3] [ref=e213]
+        - generic [ref=e214]:
+          - generic [ref=e215]: vision 72%
+          - generic [ref=e216]: clause 52%
+        - generic [ref=e217]:
+          - generic [ref=e218]: Binding constraint (the needle)
+          - text: "Real-time in-situ thermospheric neutral-density driver data (direct accelerometer-derived density plus solar-EUV irradiance) feeding assimilated short-horizon density forecasts. The specific scarce asset is the measurement base: GOES SUVI-class EUV monitors and the retired CHAMP/GRACE-FO/SWARM accelerometer density lineage with zero commercial successor in qualified operational supply as of 2026."
+        - generic [ref=e219]:
+          - generic [ref=e220]: Leading metric
+          - text: "Operational thermospheric density forecast skill at 24-72h horizons (percent RMS error vs. assimilated truth) and the count of false-alert collision-avoidance maneuvers per active satellite per year attributable to density uncertainty. Baseline: density forecast error roughly 20-40 percent (much worse during storms); Starlink maneuver count climbing super-linearly. Secondary metrics: number of flying in-situ thermospheric density sensors (near zero post-SWARM), and any commercial density-data offtake contract signed by a major constellation operator."
+        - generic [ref=e221]:
+          - generic [ref=e222]: Kill-criterion
+          - text: "Kill the call if by 2035 any of the following: (a) operational 72h thermospheric density forecast error falls below roughly 10 percent through model or assimilation advances WITHOUT a new in-situ measurement layer, meaning the constraint dissolved by software or data-assimilation and density data never became the named gate; (b) autonomous maneuvering at full constellation scale proceeds with operators not citing density-forecast uncertainty as a material driver of maneuver burden or screening cost; or (c) a commercial in-situ thermospheric density-sensing constellation reaches qualified operational supply and prices the data as an ordinary commodity, meaning the constraint is relieved and the rent accrues only briefly. Also kill if the constraint resolves via a new government-funded replacement mission (a SWARM follow-on) that keeps supply public and non-commercial, negating the rent-migration thesis even if the physical gap closes."
+        - group [ref=e223]:
+          - generic "Full argument +" [ref=e224] [cursor=pointer]
+      - article [ref=e225]:
+        - generic [ref=e226]:
+          - generic [ref=e227]: P5
+          - generic [ref=e228]: resolves 2035-12-31
+        - heading "By 2035, iridium DOP-26 clad-vent-set fabrication at ORNL, not plutonium-238 fuel rate, becomes the named gating constraint on US deep-space and lunar-surface nuclear power" [level=3] [ref=e229]
+        - generic [ref=e230]:
+          - generic [ref=e231]: vision 72%
+          - generic [ref=e232]: clause 38%
+        - generic [ref=e233]:
+          - generic [ref=e234]: Binding constraint (the needle)
+          - text: Iridium DOP-26 alloy clad-vent-set fabrication capacity at ORNL, and the high-purity iridium feedstock underpinning it, not plutonium-238 fuel rate and not the RTG or RPS system as a whole
+        - generic [ref=e235]:
+          - generic [ref=e236]: Leading metric
+          - text: "(1) Iridium spot price and the PEM-electrolyzer share of world iridium consumption (2021: 4%; 2025: 12%; 2030 PEM demand literature: 32-40 t vs. 7 t/yr supply ceiling). Current live anchor: iridium at roughly $278/gram as of April 2026, up 70% year-to-date. (2) Any NASA, DOE, or GAO program-status or supply-chain document that names iridium DOP-26 or clad-vent-set fabrication throughput (as distinct from Pu-238 fuel production rate) as a schedule or unit-count limiter on a deep-space or lunar-surface mission. Baseline today: zero such citations exist in public program documentation."
+        - generic [ref=e237]:
+          - generic [ref=e238]: Kill-criterion
+          - text: By 2035-12-31, either (a) no NASA, DOE, or GAO program document names iridium, DOP-26, or clad-vent-set fabrication (as opposed to Pu-238 fuel supply) as a limiter on any deep-space or lunar-surface RPS-powered mission, AND iridium real price stays within 30% of its 2025 level; or (b) a qualified second-source iridium CVS fabrication line stands up at a facility other than ORNL; or (c) PEM electrolyzer iridium catalyst loading falls below 0.1 mg per square centimeter at commercial scale, or a non-iridium anode catalyst reaches commercial deployment at gigawatt scale, eliminating the PEM demand pressure on world iridium supply. Any of these dissolves the squeeze that drives the call.
+        - group [ref=e239]:
+          - generic "Full argument +" [ref=e240] [cursor=pointer]
+      - article [ref=e241]:
+        - generic [ref=e242]:
+          - generic [ref=e243]: P6
+          - generic [ref=e244]: resolves 2038-12-31
+        - heading "By 2038, the binding constraint on proliferated-LEO throughput is the stratosphere's finite alumina-absorption capacity, forcing a regulated migration to non-aluminum demisable structures as the scarce, rent-capturing input." [level=3] [ref=e245]
+        - generic [ref=e246]:
+          - generic [ref=e247]: vision 72%
+          - generic [ref=e248]: clause 52%
+        - generic [ref=e249]:
+          - generic [ref=e250]: Binding constraint (the needle)
+          - text: Qualified non-aluminum demisable spacecraft structural material at constellation scale, plus the stratospheric aluminum-deposition measurement and attribution capacity needed to set and enforce a reentry-mass cap. Candidates (magnesium alloys, novel polymer-composite hybrids) face 5-10 year space-qualification cycles for structural bus applications. There is no commodity market for this input; no constellation operator has committed to it; no sell-side coverage frames it as an investment category. The inelastic input is material qualification, not chips, launch, or bus electronics.
+        - generic [ref=e251]:
+          - generic [ref=e252]: Leading metric
+          - text: "Measured stratospheric Al2O3 burden and annual reentry-injected alumina mass (tonnes/year); share of newly launched LEO mass certified to a low-alumina or non-aluminum demisable structural standard. Baseline: ~360 t/yr Al2O3 projected at full megaconstellation build; 2022 reentry already roughly +30 percent above natural atmospheric aluminum; effectively 0 percent of fleet on qualified non-aluminum demisable structures; no binding atmospheric-deposition licensing criterion exists anywhere. Track: first national or multilateral (FAA, EASA, ITU, UNOOSA/COPUOS) rulemaking that names reentry atmospheric deposition -- not ground casualty -- as a licensing criterion."
+        - generic [ref=e253]:
+          - generic [ref=e254]: Kill-criterion
+          - text: "Kill if by 2038: (a) no regulator has introduced reentry atmospheric-deposition or stratospheric-alumina limits as a licensing criterion AND no constellation operator commits to non-aluminum demisable structures citing this driver; OR (b) measured stratospheric alumina accumulation is shown empirically benign or below any actionable threshold through 2038 (the sink does not bind on relevant timescales); OR (c) mitigation migrates entirely to controlled de-orbit to ocean for the full small-LEO fleet WITHOUT repricing structural materials (constraint relieved via operations, not the named material needle); OR (d) reentry alumina is shown substitutable by an already-abundant, space-qualified material so no scarce qualified input emerges."
+        - group [ref=e255]:
+          - generic "Full argument +" [ref=e256] [cursor=pointer]
+  - generic [ref=e258]:
+    - generic [ref=e259]: semiconductors and the chip supply chain (logic foundry, mem
+    - 'heading "Where chip-supply rent migrates next: eight inelastic nodes, six that survive" [level=2] [ref=e260]'
+    - paragraph [ref=e261]:
+      - emphasis [ref=e262]: The binding constraint is rarely the named monopoly. It is the artisanal sub-step, the byproduct metal, the second-decade engineer, and the isotope cascade that money cannot ramp on a fab timeline.
+    - paragraph [ref=e263]: "These six calls share one structural shape: capital, tools, and wafer capacity are all financializable on a capex clock, but the actual ceiling sits one or two layers below the priced narrative at an input whose supply grows on a physical or biological clock, not a financial one. Three of the six are tacit-knowledge or labor constraints (Zeiss Oberkochen optics figuring, senior yield/integration engineers, certified UHP hookup welders) where the supply curve is set by how fast a human accumulates a decade of on-line experience or a trade certifies a fitter, neither of which parallelizes with money. Two are single-vendor or single-site equipment chokepoints (Zeiss again, IMS multibeam mask writers) where lead times of 18 to 36 months and a nonexistent second qualified source cap how fast output can rise. Two are geologically or isotopically inelastic materials (ruthenium as a 30 t/yr platinum byproduct with no primary mine, enriched Si-28 from export-controlled separation cascades). The common edge is not that these inputs are unknown, but that the equity and policy channels price the wrong unit: they price ASML the company, not Zeiss the polishing bench; the fab as capex, not the yield-curve carrier; the metal price, not the chip-ramp gating risk. The strongest calls cleanly separate vision_p (is the physical mechanism real and inelastic) from clause_p (does the specific dated, disclosure-dependent clause fire), and the lower clause scores honestly reflect substitution routes (molybdenum for ruthenium, Cu-Cu hybrid bonding for solder, superconducting qubits for silicon spin) and the fact that several resolution triggers depend on a public disclosure that supply chains may manage quietly."
+    - link "Download the full board PDF — sources & refute notes ↓" [ref=e264] [cursor=pointer]:
+      - /url: chips.pdf
+    - generic [ref=e265]:
+      - article [ref=e266]:
+        - generic [ref=e267]:
+          - generic [ref=e268]: P1
+          - generic [ref=e269]: resolves 2032-12-31
+        - heading "The binding ceiling on the AI-compute wafer build-out is not ASML, EUV source power, or fab shells but Zeiss SMT ion-beam-figuring throughput for EUV/High-NA projection mirror sets at a single site in Oberkochen, Germany." [level=3] [ref=e270]
+        - generic [ref=e271]:
+          - generic [ref=e272]: vision 82%
+          - generic [ref=e273]: clause 52%
+        - generic [ref=e274]:
+          - generic [ref=e275]: Binding constraint (the needle)
+          - text: Zeiss SMT deterministic ion-beam-figuring and Mo/Si multilayer-coating throughput for EUV/High-NA projection mirror sets at sub-100pm figure accuracy, single site Oberkochen, tacit-skill-bound, approximately one year per mirror set.
+        - generic [ref=e276]:
+          - generic [ref=e277]: Leading metric
+          - text: "Zeiss SMT / ASML disclosed or inferable annual EUV plus High-NA projection-optics module output (proxy: ASML EUV plus High-NA system shipments capped by optics, vs. ASML's stated build-capacity ambition). Track the gap between ASML order backlog and delivered EUV units attributable to optics lead time, and any Zeiss SMT capacity-expansion or second-figuring-site announcement. Current baseline: High-NA production rate in low tens per year through 2028 per industry projections; no second figuring site exists as of June 2026."
+        - generic [ref=e278]:
+          - generic [ref=e279]: Kill-criterion
+          - text: Kill if by 2032 Zeiss/ASML demonstrably break the one-set-per-year figuring rate at scale (for example a qualified second figuring or coating site outside Oberkochen, or robotic/computational-polishing pushing High-NA optics-module output above roughly 30 sets per year), OR if leading-edge wafer demand is met without optics being the binding scanner sub-component (source, stage, or throughput dominates the delivery gap instead), OR if a non-Zeiss EUV optics supplier qualifies for production scanners.
+        - group [ref=e280]:
+          - generic "Full argument +" [ref=e281] [cursor=pointer]
+      - article [ref=e282]:
+        - generic [ref=e283]:
+          - generic [ref=e284]: P2
+          - generic [ref=e285]: resolves 2033-12-31
+        - heading "Senior yield/process-integration engineers with multi-node sub-5nm ramp experience are the non-cloneable binding constraint on ex-Taiwan leading-edge output through the 2030s; capital and wafer capacity are financializable but a decade of hands-on ramp knowledge is not, and the rent migrates to whoever holds that headcount." [level=3] [ref=e286]
+        - generic [ref=e287]:
+          - generic [ref=e288]: vision 82%
+          - generic [ref=e289]: clause 58%
+        - generic [ref=e290]:
+          - generic [ref=e291]: Binding constraint (the needle)
+          - text: "Senior (second-decade, 10-plus years) yield-enhancement and process-integration engineers with multi-node hands-on ramp experience at sub-5nm-class nodes. Not engineers in general, not technicians, not designers: the specific tacit-knowledge-bearing integration and yield headcount that determines how fast a new advanced line reaches qualified yield. Concentrated inside TSMC and in Taiwan; replaceable only at roughly one decade per head."
+        - generic [ref=e292]:
+          - generic [ref=e293]: Leading metric
+          - text: (1) Time-to-qualified-yield (months from tool move-in to greater than 80 percent of mature yield) for ex-Taiwan leading-edge lines versus the Taiwan baseline for the same node; the gap stays above 12 months through the early 2030s. (2) Total compensation and signing premium for senior process-integration and yield engineers rising faster than fab construction cost indices. (3) Count of disclosed instances of TSMC, Intel, and Samsung relocating experienced Taiwanese or Korean engineers to staff ex-home-country ramps. (4) US senior fab-engineer vacancy duration and the SEMI/Deloitte engineer-shortfall figure trending upward, not closing, through 2030.
+        - generic [ref=e294]:
+          - generic [ref=e295]: Kill-criterion
+          - text: Kill the call if, through the early 2030s, ex-Taiwan leading-edge lines reach Taiwan-parity qualified yield within roughly the same time window as the Taiwan baseline (gap closes to under 6 months) without importing experienced engineers; OR if AI-assisted or automated yield-ramp and self-learning process control demonstrably substitute for senior integration headcount at scale, with a major fab publicly attributing a parity-speed ramp to automation rather than experienced staff; OR if senior process-integration engineer real compensation premiums flatten relative to construction-cost indices, indicating the scarcity dissolved.
+        - group [ref=e296]:
+          - generic "Full argument +" [ref=e297] [cursor=pointer]
+      - article [ref=e298]:
+        - generic [ref=e299]:
+          - generic [ref=e300]: P3
+          - generic [ref=e301]: resolves 2035-12-31
+        - heading "Ruthenium becomes the gating input for advanced-logic interconnects as copper hits its resistivity wall at sub-2nm pitches, with supply hard-capped at roughly 30 tonnes per year as a platinum byproduct and no primary mine to develop." [level=3] [ref=e302]
+        - generic [ref=e303]:
+          - generic [ref=e304]: vision 72%
+          - generic [ref=e305]: clause 40%
+        - generic [ref=e306]:
+          - generic [ref=e307]: Binding constraint (the needle)
+          - text: Ruthenium metal supply and high-purity Ru sputtering-target and ALD-precursor conversion capacity for barrierless interconnect fill and backside-power vias at the A14 node and below. The inelastic node is the roughly 30 t/yr PGM-byproduct ruthenium stream plus target/precursor conversion, not the deposition tools or the transistor itself.
+        - generic [ref=e308]:
+          - generic [ref=e309]: Leading metric
+          - text: "(1) Ru:Pt price ratio versus its 2024-2026 baseline, with the call requiring at least a doubling. Note: ruthenium has already moved from roughly $500/oz to over $1,700/oz by mid-2026, partially satisfying this condition before A14 volume ramp even begins. (2) Estimated semiconductor share of annual ruthenium consumption, rising from low-single-digit percent toward a dominant share as A14-and-below ramp. (3) Public citations by TSMC, Intel, Samsung or their materials suppliers naming ruthenium supply or Ru sputtering-target availability as an interconnect or backside-power gating item."
+        - generic [ref=e310]:
+          - generic [ref=e311]: Kill-criterion
+          - text: "Killed if by 2035-12-31: (a) the industry extends copper or adopts an abundant alternative such as molybdenum, graphene caps or air-gap schemes at the tightest levels such that ruthenium never becomes the dominant bottom-level or backside metal in volume, OR (b) ruthenium recycling plus modest PGM-supply growth keeps the Ru:Pt ratio within roughly 50% of its 2024-2026 baseline despite semiconductor adoption, OR (c) sub-2nm and CFET logic stalls so the volume of Ru-dependent wafers never reaches the scale that strains the 30 t/yr ceiling."
+        - group [ref=e312]:
+          - generic "Full argument +" [ref=e313] [cursor=pointer]
+      - article [ref=e314]:
+        - generic [ref=e315]:
+          - generic [ref=e316]: P4
+          - generic [ref=e317]: resolves 2031-12-31
+        - heading "The binding constraint on the US/EU fab buildout is not capital or tools but the tiny, slow-to-certify pool of UHP process-piping welders and hookup fitters; their scarcity makes the announced 2023-2030 leading-edge capacity schedule structurally undeliverable." [level=3] [ref=e318]
+        - generic [ref=e319]:
+          - generic [ref=e320]: vision 72%
+          - generic [ref=e321]: clause 52%
+        - generic [ref=e322]:
+          - generic [ref=e323]: Binding constraint (the needle)
+          - text: "Certified UHP orbital welders and UHP/PVDF gas-and-chemical-distribution fitters qualified to semiconductor contamination standards, specifically the billable trade-hours of this pool per concurrent fab project. Not general construction labor, not electricians broadly, not the building shell: the specific UHP install-and-hookup trade hours that gate the transition from a built fab to a tool-ready fab."
+        - generic [ref=e324]:
+          - generic [ref=e325]: Leading metric
+          - text: (1) Share of announced US/EU leading-edge fab projects whose first-production date slips, with the install/hookup or specialized-equipment-install phase named as the cited cause versus tool delivery, demand, or financing. (2) Union UHP/pipe-trade journeyman wage and total-package escalation in fab-cluster locals (Arizona pipe trades, Ohio, Texas) relative to the broader construction wage index. (3) Specialty UHP/mechanical subcontractor backlog and billing-rate trends, and frequency of imported Taiwanese or Korean hookup crews on US sites. (4) Count of CHIPS-funded leading-edge fabs reaching qualified first production on or after their originally announced date, with skilled-trade hookup labor cited.
+        - generic [ref=e326]:
+          - generic [ref=e327]: Kill-criterion
+          - text: Kill if the bulk of announced US/EU leading-edge fabs reach qualified first production on or near their originally announced schedules without hookup/install labor being cited as a binding cause. Kill if prefabrication/modular UHP skidding plus robotic orbital welding demonstrably collapse on-site UHP hookup labor demand such that a major fab publicly attributes an on-time hookup specifically to off-site modularization displacing the scarce on-site trade. Kill if UHP pipe-trade wage and billing-rate escalation in fab clusters flattens to the general construction index, signaling the scarcity cleared. Kill if leading-edge demand softening delays the majority of the concurrent fab wave for demand or financing reasons before hookup labor can become the cited gating phase.
+        - group [ref=e328]:
+          - generic "Full argument +" [ref=e329] [cursor=pointer]
+      - article [ref=e330]:
+        - generic [ref=e331]:
+          - generic [ref=e332]: P5
+          - generic [ref=e333]: resolves 2034-12-31
+        - heading "Enriched Si-28 isotope-separation cascade capacity becomes the gating substrate input for silicon-spin qubits and (if adopted) 3D-logic thermal relief, with world supply sitting at tens to low hundreds of kg/yr against a potential tons-per-year demand cliff by the early 2030s." [level=3] [ref=e334]
+        - generic [ref=e335]:
+          - generic [ref=e336]: vision 72%
+          - generic [ref=e337]: clause 34%
+        - generic [ref=e338]:
+          - generic [ref=e339]: Binding constraint (the needle)
+          - text: "Enriched Si-28 isotope-separation capacity: specifically the aerodynamic-separation (silane) or gas-centrifuge (SiF4) cascade throughput that converts natural silicon into 99.99%+ Si-28 feedstock. This is the inelastic node, not the wafer fab, not the qubit design, not the epi reactor."
+        - generic [ref=e340]:
+          - generic [ref=e341]: Leading metric
+          - text: (1) Global installed enriched-Si-28 (99.99%+) production capacity in kg/yr across all suppliers (ASP Isotopes/Pretoria, any Rosatom/legacy Russian output, new entrants) -- baseline today is on the order of tens to low hundreds of kg/yr from a literal handful of facilities. (2) Contract or spot price of enriched Si-28 feedstock or enriched silane as a multiple of natural electronic-grade polysilicon. (3) Count of commercial (non-R&D) silicon-spin-qubit or Si-28-epi-logic programs that publicly identify enriched-Si-28 substrate supply (not qubit design, not fab access) as a named procurement gate. Resolves TRUE if by 2034-12-31 enriched-Si-28 supply is publicly cited as a binding gate by at least two commercial programs AND enriched-Si-28 feedstock sustains a greater than 5x price multiple over natural electronic-grade silicon.
+        - generic [ref=e342]:
+          - generic [ref=e343]: Kill-criterion
+          - text: "Killed if by 2034-12-31 any of: (a) world enriched-Si-28 capacity scales past roughly 1 ton/yr with the price multiple compressing below 3x, meaning supply caught up to demand; (b) silicon-spin qubits lose the modality race to superconducting, trapped-ion, or neutral-atom AND Si-28 epi is never designed into volume 3D-logic, collapsing both demand legs simultaneously; (c) a non-cascade enrichment route -- laser isotope separation, plasma separation, or sufficiently spin-clean natural-Si error correction -- reaches industrial scale and dissolves the separation chokepoint."
+        - group [ref=e344]:
+          - generic "Full argument +" [ref=e345] [cursor=pointer]
+      - article [ref=e346]:
+        - generic [ref=e347]:
+          - generic [ref=e348]: P6
+          - generic [ref=e349]: resolves 2031-12-31
+        - heading "Multibeam mask-write throughput (IMS Nanofabrication, sole production vendor) becomes the binding gate on how many distinct High-NA AI-chip designs the industry can tape out per year by 2031." [level=3] [ref=e350]
+        - generic [ref=e351]:
+          - generic [ref=e352]: vision 72%
+          - generic [ref=e353]: clause 38%
+        - generic [ref=e354]:
+          - generic [ref=e355]: Binding constraint (the needle)
+          - text: "Installed IMS multibeam-mask-writer write-hours per year at merchant and captive mask shops (Toppan, Tekscend, TSMC/Intel/Samsung in-house) versus the annual count of new leading-edge (EUV-layer) tape-outs demanding curvilinear ILT masks. Proxy: quoted leading-edge mask-set lead times and price trends at merchant shops; any mask shop citing writer capacity as limiting tape-out cadence."
+        - generic [ref=e356]:
+          - generic [ref=e357]: Leading metric
+          - text: Roughly 50 IMS MBMW tools in the field as of 2025, MBMW-301/401 class ramping for 3nm and below. Write time 7-12 hours per layer; 60-80+ layer sets per tape-out. No competing production multibeam writer qualified at any leading mask shop. IMS valued at ~$4.3B in 2023 minority-stake transactions. Europe's first MBMW installed at Tekscend November 2024.
+        - generic [ref=e358]:
+          - generic [ref=e359]: Kill-criterion
+          - text: "Kill if by 2031: (1) a second independent production multibeam mask-writer vendor qualifies at a leading mask shop (JEOL's minority stake and e-beam expertise makes this the most plausible path, but no competing tool is currently qualified); (2) Intel or the IMS consortium demonstrates structurally neutral allocation such that no customer faces competitor-controlled rationing; (3) leading-edge mask-set lead times stay flat and no mask shop cites writer capacity as a tape-out bottleneck; or (4) High-NA adoption stalls and curvilinear ILT never becomes the dominant leading-edge mask mode."
+        - group [ref=e360]:
+          - generic "Full argument +" [ref=e361] [cursor=pointer]
+  - generic [ref=e363]:
+    - generic [ref=e364]: biotech and human health (drug modalities and delivery, biom
+    - 'heading "Where the constraint migrates in biotech: finite atoms and human donors that capital cannot replicate" [level=2] [ref=e365]'
+    - paragraph [ref=e366]:
+      - emphasis [ref=e367]: "Six calls on inputs that scale with physics or human arms, not with money: isotope purity, legacy radium, enriched stable targets, donated plasma, donated platelets, and the organ pool GLP-1 quietly drains."
+    - paragraph [ref=e368]: "Every one of these six calls rests on the same structural move: a loud boom is funding the visible layer (curie count, fractionation plants, targeting ligands, reconditioning devices) while the binding constraint sits one layer upstream on an input that is physically or biologically non-manufacturable on the relevant timescale. Three are medical-isotope calls, but they name three genuinely different inelastic needles and must not be collapsed. The Ac-227 call is about isotopic inseparability: Ac-225 and Ac-227 are the same element in the same oxidation state, so every scaled accelerator route co-produces a radiotoxic impurity that no chemistry removes, and only the finite Th-229/U-233 generator stock is clean by construction. The Ra-226 call is about quantity: roughly 2.5 kg of legacy radium was ever extracted, the IAEA \"fix\" is a bounded gleaning of antique hospital sources rather than a manufacturing ramp, and building accelerators only intensifies competition for that fixed stock. The stable-isotope call is about geography: kilogram-scale gas-centrifuge enrichment of Yb-176, Zn-68 and Gd-160 (the targets that breed Lu-177, Cu-67, Tb-161) sits overwhelmingly in Rosatom cascades, and Western EMIS/laser rebuilds are gram-scale and isotope-narrow. The two donor-derived calls share the deepest physical truth: polyclonal IgG and platelet-lysate growth factors are not molecules you synthesize, they are pooled human repertoires whose therapeutic property is donor diversity, so supply is hard-bounded by eligible donors times a regulated max donation rate. The GLP-1 call inverts the consensus sign: by removing the metabolic and cardiovascular deaths that feed the marginal donor stream, GLP-1 degrades rather than improves the usable organ pool. Across all six, the pre-consensus seam is consistent and the clause probabilities are honestly held below the vision probabilities for one recurring reason: these constraints clear through government allocation tables, bilateral contracts, and informal hospital rationing rather than through Bloomberg-trackable spot prices, so the structural call can be correct while the dated, publicly-cited resolution criterion fails to print on schedule."
+    - link "Download the full board PDF — sources & refute notes ↓" [ref=e369] [cursor=pointer]:
+      - /url: biotech.pdf
+    - generic [ref=e370]:
+      - article [ref=e371]:
+        - generic [ref=e372]:
+          - generic [ref=e373]: P1
+          - generic [ref=e374]: resolves 2032-12-31
+        - heading "Isotopically pure (Ac-227-free) Ac-225 from the finite Th-229/U-233 stockpile is the physics-locked binding constraint on targeted-alpha therapy through the 2030s, not raw curie count" [level=3] [ref=e375]
+        - generic [ref=e376]:
+          - generic [ref=e377]: vision 74%
+          - generic [ref=e378]: clause 57%
+        - generic [ref=e379]:
+          - generic [ref=e380]: Binding constraint (the needle)
+          - text: "Isotopically pure, Ac-227-free Ac-225 sourced from the finite, non-replenishing Th-229/U-233 stockpile and the handful of generators derived from it. The inelastic input is not gross curie output but isotopic purity: the absence of the chemically inseparable Ac-227 co-impurity that physics dictates every scaled accelerator and reactor route introduces."
+        - generic [ref=e381]:
+          - generic [ref=e382]: Leading metric
+          - text: "Two tracked series, both annual from 2026. (1) Curies per year of isotopically pure, generator-sourced (Th-229/U-233) Ac-225 with certified Ac-227 content below the dose-acceptable threshold, versus total Ac-225 curies produced including accelerator/Ra-226/photonuclear routes. Current generator-grade supply is approximately 1 Ci/yr at ORNL while accelerator targets aim for 100-plus Ci/yr by 2029. (2) The price and contract-allocation spread per millicurie between certified-low-Ac-227 lots and accelerator-route lots, plus the count of TAT clinical or commercial programs that specify a maximum Ac-227 impurity concentration in their drug master file or supply contract. Resolution criterion: does the clean-grade share remain a small minority of total supply while commanding a rising purity premium, and does Ac-227 impurity become an explicitly cited gating specification in TAT supply agreements by 2032?"
+        - generic [ref=e383]:
+          - generic [ref=e384]: Kill-criterion
+          - text: "Kill if by 2032 an accelerator/reactor/photonuclear route reaches routine multi-tens-of-Curie annual output of Ac-225 whose Ac-227 content is certified low enough that regulators and sponsors treat it as interchangeable with generator-grade for chronic or repeat dosing (purity premium collapses to under 15 percent and no major TAT program cites Ac-227 as a supply or dosing constraint). Also kill if practical electromagnetic or mass-selective isotope separation removes the Ac-227 impurity at commercial scale, or if the field migrates decisively to Pb-212 or Tb-149 alpha emitters that sidestep the Ac-225 purity problem. Partial kill: if U-233 production is reinstated under a policy reversal, the finite-stockpile premise weakens even if the purity advantage of Th-229-derived material stays intact."
+        - group [ref=e385]:
+          - generic "Full argument +" [ref=e386] [cursor=pointer]
+      - article [ref=e387]:
+        - generic [ref=e388]:
+          - generic [ref=e389]: P2
+          - generic [ref=e390]: resolves 2034-12-31
+        - heading "By 2034, the binding constraint on the Ac-225 targeted-alpha-therapy boom is not the accelerator conversion step but the finite, non-manufacturable Ra-226 target feedstock that every accelerator route consumes, and the hot-cell capacity to fabricate, irradiate, and recover it." [level=3] [ref=e391]
+        - generic [ref=e392]:
+          - generic [ref=e393]: vision 78%
+          - generic [ref=e394]: clause 44%
+        - generic [ref=e395]:
+          - generic [ref=e396]: Binding constraint (the needle)
+          - text: Purified Ra-226 target feedstock (roughly 2.5 kg total global legacy stock, non-manufacturable, recoverable only from antique radium sources) plus the GMP shielded hot-cell capacity to fabricate, irradiate, and chemically recover those targets without radium loss.
+        - generic [ref=e397]:
+          - generic [ref=e398]: Leading metric
+          - text: "Public citations by an Ac-225 sponsor or CDMO of Ra-226 target availability as the rate-limiting input; emergence of a tracked spot or contract price for purified Ra-226 ($/mg or $/Ci); reported Ra-226 inventory recovered under the IAEA radium initiative versus annual Ac-225 demand. Baseline: global Ac-225 roughly 1.7 Ci/yr (enough for about 2000 patients); no public Ra-226 price index; DOE/NIDC lists Ra-226 as available in research quantities only; accelerator-conversion buildout is the entire headline story in equity and trade press."
+        - generic [ref=e399]:
+          - generic [ref=e400]: Kill-criterion
+          - text: The call is dead if, by 2034, accelerator buildout makes Ac-225 broadly available with no sponsor or CDMO citing Ra-226 target feedstock or target-fab hot-cell capacity as rate-limiting and no Ra-226 price or inventory tension emerges; OR if a Ra-226-free route to Ac-225 (high-energy proton spallation of Th-232 at TRIUMF or DOE scale, or Ra-226-free reactor routes) scales enough to make Ra-226 inventory irrelevant to supply; OR if Ac-225 alpha therapies fail pivotal efficacy or toxicity readouts and Lu-177 beta therapy remains dominant at scale.
+        - group [ref=e401]:
+          - generic "Full argument +" [ref=e402] [cursor=pointer]
+      - article [ref=e403]:
+        - generic [ref=e404]:
+          - generic [ref=e405]: P3
+          - generic [ref=e406]: resolves 2032-12-31
+        - heading "The binding constraint on the RLT boom migrates off the reactor onto kilogram-scale enriched stable-isotope feedstock (Yb-176, Zn-68, Gd-160) concentrated in Russian gas-centrifuge cascades, with Western rebuilds too gram-scale and too isotope-narrow to close the gap across the full therapeutic basket by 2032." [level=3] [ref=e407]
+        - generic [ref=e408]:
+          - generic [ref=e409]: vision 72%
+          - generic [ref=e410]: clause 38%
+        - generic [ref=e411]:
+          - generic [ref=e412]: Binding constraint (the needle)
+          - text: Kilogram-scale gas-centrifuge enrichment of stable-isotope targets (Yb-176, Zn-68, Gd-160) concentrated in Rosatom plants; Western EMIS and laser rebuilds are gram-scale for Yb-176 and nonexistent at scale for the rest of the therapeutic basket.
+        - generic [ref=e413]:
+          - generic [ref=e414]: Leading metric
+          - text: "Share of Western RLT therapeutic-isotope feedstock (enriched Yb-176, Zn-68, Gd-160) sourced from non-Russian kilogram-scale enrichment, plus disclosed Yb-176 unit price and lead time. Mid-2026 baseline: NCA Lu-177 supply chain still Russia-dependent for Yb-176 at commercial scale; Kinectrics targets 500 g/yr Yb-176; ASP Isotopes has produced commercial samples but no disclosed kg/yr throughput; no Western kilogram program announced for Zn-68 or Gd-160; enriched-target lead times measured in months and allocated by quiet bilateral contract rather than spot market."
+        - generic [ref=e415]:
+          - generic [ref=e416]: Kill-criterion
+          - text: "Western or allied centrifuge-equivalent stable-isotope enrichment reaches qualified kilogram-scale output for at least two of {Yb-176, Zn-68, Gd-160} before 2030 (e.g. ASP Isotopes MLIS scales to greater than 2 kg/yr at clinical grade for Yb-176 AND a second target isotope enters a kilogram-scale Western program), OR accelerator-direct production routes that bypass enriched stable targets scale enough to supply commercial RLT without target enrichment, OR RLT demand growth stalls such that enriched-target allocation pressure is not rate-limiting for any program."
+        - group [ref=e417]:
+          - generic "Full argument +" [ref=e418] [cursor=pointer]
+      - article [ref=e419]:
+        - generic [ref=e420]:
+          - generic [ref=e421]: P4
+          - generic [ref=e422]: resolves 2035-12-31
+        - heading "By 2035 the binding constraint on IVIG/SCIG supply is the human source-plasma donor base, a demographically and geographically concentrated input with no recombinant substitute; structural rationing or allocation tightens in at least two major wealthy markets, and the US share of world plasma collection stays above ~65 percent even as global IG demand grows materially." [level=3] [ref=e423]
+        - generic [ref=e424]:
+          - generic [ref=e425]: vision 82%
+          - generic [ref=e426]: clause 40%
+        - generic [ref=e427]:
+          - generic [ref=e428]: Binding constraint (the needle)
+          - text: Human source-plasma collection litres from the US-concentrated, compensated donor base -- the irreplaceable polyclonal-IgG feedstock. Not fractionation plant capacity, not albumin or Factor co-products, not any recombinant alternative (which cannot exist for polyclonal IgG).
+        - generic [ref=e429]:
+          - generic [ref=e430]: Leading metric
+          - text: "US share of global plasma collection (currently near 70 percent); IG demand growth vs collected source-plasma litre growth (demand tracking roughly +30 percent by 2030, collection per capita roughly flat); number of major wealthy markets (US, EU member states, Canada, Japan) imposing IVIG allocation, prioritization criteria, or formal rationing. Current state: chronic localized IVIG shortages recurring, non-self-sufficient nations dependent on US plasma, a 2025 PMC study documenting 9 percent therapy-delay rates from shortages, and donor management flagged as a demographic risk in regulatory filings."
+        - generic [ref=e431]:
+          - generic [ref=e432]: Kill-criterion
+          - text: By 2035 either (a) FcRn antagonists (efgartigimod class) or other recombinant immunomodulators substitute for enough IVIG demand in the neurology indications that pooled-plasma IgG stops being the binding modality for the fastest-growing demand cohort, OR (b) plasma collection broadens enough via EU/Asia self-sufficiency programs or higher per-donor yield that collected litres outpace IG demand, US share of collection falls below 60 percent, and no major market resorts to IVIG allocation. Either dissolves the donor-base constraint as the binding needle.
+        - group [ref=e433]:
+          - generic "Full argument +" [ref=e434] [cursor=pointer]
+      - article [ref=e435]:
+        - generic [ref=e436]:
+          - generic [ref=e437]: P5
+          - generic [ref=e438]: resolves 2033-12-31
+        - heading "Donor-derived human platelet lysate is the hidden, non-synthesizable feedstock that becomes the binding constraint on industrial-scale allogeneic cell therapy as the field migrates off FBS onto a supplement that can only be made from human blood donors -- a donor pool that is already chronically short for clinical transfusion." [level=3] [ref=e439]
+        - generic [ref=e440]:
+          - generic [ref=e441]: vision 72%
+          - generic [ref=e442]: clause 38%
+        - generic [ref=e443]:
+          - generic [ref=e444]: Binding constraint (the needle)
+          - text: GMP-grade human platelet lysate derived from pooled volunteer-donor blood-bank platelet units. The inelastic input is human-donor platelet mass itself (apheresis and whole-blood-derived platelets), which is biologically capped, already short for clinical transfusion, and cannot be synthesized or farmed.
+        - generic [ref=e445]:
+          - generic [ref=e446]: Leading metric
+          - text: "Tracked annually from 2026: (1) Estimated liters of GMP hPL consumed by cell-therapy and regenerative-medicine manufacturing versus total national platelet-unit collection, and the share of collected or expired platelet units diverted from transfusion into hPL production. (2) Real price per liter of GMP, pathogen-reduced, fibrinogen-depleted hPL and its trend, plus the count of cell-therapy sponsors disclosing hPL or human-platelet supply as a named supply-chain risk or qualifying second sources in regulatory filings or investor disclosures. (3) Whether blood establishments or regulatory bodies issue allocation guidance balancing transfusion versus manufacturing demand for platelets. Resolution requires real-terms hPL price rise plus at least three clinical-stage or commercial allogeneic programs publicly citing human-platelet or hPL supply as a rate-limiting or dual-sourced input."
+        - generic [ref=e447]:
+          - generic [ref=e448]: Kill-criterion
+          - text: Kill if, by 2033, a chemically defined or recombinant serum-free medium achieves broad GMP adoption across MSC, iPSC-derived, and allogeneic NK processes such that hPL is no longer the dominant supplement (major new allogeneic approvals run on defined media and hPL demand growth flattens). Also kill if scalable non-donor sources of the platelet growth-factor cargo emerge at cost-competitive GMP scale (iPSC-derived platelets, bioreactor-grown megakaryocytes, or recombinant factor cocktails), decoupling cell-therapy input supply from the human blood-donor pool. Also kill if hPL real price stays flat and no allogeneic sponsor cites human-platelet supply as a constraint through 2033.
+        - group [ref=e449]:
+          - generic "Full argument +" [ref=e450] [cursor=pointer]
+      - article [ref=e451]:
+        - generic [ref=e452]:
+          - generic [ref=e453]: P6
+          - generic [ref=e454]: resolves 2033-12-31
+        - 'heading "GLP-1 mass adoption structurally degrades the deceased-donor organ supply: by 2033 the binding constraint in solid-organ transplantation becomes the vanishing pool of young, low-comorbidity SCD organs, forcing value to migrate onto organ reconditioning (normothermic machine perfusion) and xeno/engineered organ infrastructure rather than donor recruitment." [level=3] [ref=e455]'
+        - generic [ref=e456]:
+          - generic [ref=e457]: vision 68%
+          - generic [ref=e458]: clause 38%
+        - generic [ref=e459]:
+          - generic [ref=e460]: Binding constraint (the needle)
+          - text: "Standard-criteria-donor (SCD) organs: young, low-comorbidity deceased-donor solid organs usable without reconditioning. A pool fed by traumatic/overdose/cerebrovascular young death, now physically shrinking as those death mechanisms recede and GLP-1 removes the metabolic-death replacement stream."
+        - generic [ref=e461]:
+          - generic [ref=e462]: Leading metric
+          - text: "(a) SCD share of the US deceased-donor pool and median donor age (OPTN/SRTR annual data); (b) fraction of transplanted organs requiring machine perfusion or reconditioning before implant; (c) DCD and extended-criteria-donor share of total transplants; (d) installed normothermic-machine-perfusion device base and per-organ reconditioning revenue. Current anchors: overdose-donor share 16.7% to 10.5% (2022 to Q1 2025); TransMedics (TMDX) revenue $605M in 2025, growing 36% year-over-year, active Buy coverage at $109 target; NMP market projected $2B in 2026 to $6.5B by 2033 at 18% CAGR. GLP-1 contribution to donor-pool degradation not yet separated in any published donor-pool analysis."
+        - generic [ref=e463]:
+          - generic [ref=e464]: Kill-criterion
+          - text: By 2033, the deceased-donor SCD pool is stable or growing in absolute terms and median donor age is flat-to-falling (a new young-death source or expanded living/altruistic donation offsets the decline), AND machine-perfusion reconditioning has not become a standard step for a rising majority of transplanted organs. OR scaled xeno/engineered organs become the dominant marginal-supply solution, meaning SCD scarcity was bypassed rather than binding. OR GLP-1 population effects demonstrably fail to reduce the comorbid-death donor stream within the window (donor mortality mechanisms unchanged by 2030), falsifying the causal mechanism.
+        - group [ref=e465]:
+          - generic "Full argument +" [ref=e466] [cursor=pointer]
+  - contentinfo [ref=e467]:
+    - generic [ref=e468]:
+      - paragraph [ref=e469]: "These calls are generated by an internal foresight system and hardened through an adversarial gate that tries to prove each one is already priced. Survivors are published here as forward instruments. They are not investment advice and not a resolved record. The point is calibration over time: dated claims, scored honestly when they come due."
+      - paragraph [ref=e470]:
+        - text: Generated 2026-06-14 ·
+        - link "vaticinus.com" [ref=e471] [cursor=pointer]:
+          - /url: /

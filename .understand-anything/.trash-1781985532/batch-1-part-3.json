@@ -1,0 +1,1184 @@
+{
+  "nodes": [
+    {
+      "id": "file:engine/feeds/collect_all.py",
+      "type": "file",
+      "name": "collect_all.py",
+      "filePath": "engine/feeds/collect_all.py",
+      "summary": "collect_all.py is a code asset in the forecasting engine. It contains 8 functions, 2 internal imports.",
+      "tags": [
+        "forecasting-engine",
+        "code",
+        "file",
+        "collect-all"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:engine/feeds/collect_all.py:_line_count",
+      "type": "function",
+      "name": "_line_count",
+      "filePath": "engine/feeds/collect_all.py",
+      "lineRange": [
+        74,
+        79
+      ],
+      "summary": "Defines _line_count in collect_all.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "collect-all"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/collect_all.py:_feed_file_status",
+      "type": "function",
+      "name": "_feed_file_status",
+      "filePath": "engine/feeds/collect_all.py",
+      "lineRange": [
+        82,
+        114
+      ],
+      "summary": "Defines _feed_file_status in collect_all.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "collect-all"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/collect_all.py:audit_feeds",
+      "type": "function",
+      "name": "audit_feeds",
+      "filePath": "engine/feeds/collect_all.py",
+      "lineRange": [
+        117,
+        142
+      ],
+      "summary": "Defines audit_feeds in collect_all.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "collect-all"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/collect_all.py:_diagnostic_block_reason",
+      "type": "function",
+      "name": "_diagnostic_block_reason",
+      "filePath": "engine/feeds/collect_all.py",
+      "lineRange": [
+        145,
+        154
+      ],
+      "summary": "Defines _diagnostic_block_reason in collect_all.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "collect-all"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/collect_all.py:select_collectors",
+      "type": "function",
+      "name": "select_collectors",
+      "filePath": "engine/feeds/collect_all.py",
+      "lineRange": [
+        157,
+        216
+      ],
+      "summary": "Defines select_collectors in collect_all.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "collect-all"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/feeds/collect_all.py:run_collector",
+      "type": "function",
+      "name": "run_collector",
+      "filePath": "engine/feeds/collect_all.py",
+      "lineRange": [
+        219,
+        233
+      ],
+      "summary": "Defines run_collector in collect_all.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entry-point",
+        "collect-all"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/collect_all.py:print_dry_run",
+      "type": "function",
+      "name": "print_dry_run",
+      "filePath": "engine/feeds/collect_all.py",
+      "lineRange": [
+        236,
+        250
+      ],
+      "summary": "Defines print_dry_run in collect_all.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entry-point",
+        "collect-all"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/collect_all.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "engine/feeds/collect_all.py",
+      "lineRange": [
+        253,
+        372
+      ],
+      "summary": "Defines main in collect_all.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entry-point",
+        "collect-all"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:engine/feeds/europe_pmc.py",
+      "type": "file",
+      "name": "europe_pmc.py",
+      "filePath": "engine/feeds/europe_pmc.py",
+      "summary": "europe_pmc.py is a code asset in the forecasting engine. It contains 13 functions.",
+      "tags": [
+        "forecasting-engine",
+        "code",
+        "file",
+        "europe-pmc"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:engine/feeds/europe_pmc.py:_write_jsonl_atomic",
+      "type": "function",
+      "name": "_write_jsonl_atomic",
+      "filePath": "engine/feeds/europe_pmc.py",
+      "lineRange": [
+        52,
+        58
+      ],
+      "summary": "Defines _write_jsonl_atomic in europe_pmc.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "europe-pmc"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/europe_pmc.py:_fetch_json",
+      "type": "function",
+      "name": "_fetch_json",
+      "filePath": "engine/feeds/europe_pmc.py",
+      "lineRange": [
+        61,
+        77
+      ],
+      "summary": "Defines _fetch_json in europe_pmc.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-access",
+        "europe-pmc"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/europe_pmc.py:_date_range_query",
+      "type": "function",
+      "name": "_date_range_query",
+      "filePath": "engine/feeds/europe_pmc.py",
+      "lineRange": [
+        80,
+        81
+      ],
+      "summary": "Defines _date_range_query in europe_pmc.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-access",
+        "europe-pmc"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/europe_pmc.py:_hit_count",
+      "type": "function",
+      "name": "_hit_count",
+      "filePath": "engine/feeds/europe_pmc.py",
+      "lineRange": [
+        84,
+        99
+      ],
+      "summary": "Defines _hit_count in europe_pmc.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "europe-pmc"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/europe_pmc.py:_paper_results",
+      "type": "function",
+      "name": "_paper_results",
+      "filePath": "engine/feeds/europe_pmc.py",
+      "lineRange": [
+        102,
+        117
+      ],
+      "summary": "Defines _paper_results in europe_pmc.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "europe-pmc"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/europe_pmc.py:_first",
+      "type": "function",
+      "name": "_first",
+      "filePath": "engine/feeds/europe_pmc.py",
+      "lineRange": [
+        120,
+        126
+      ],
+      "summary": "Defines _first in europe_pmc.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "europe-pmc"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/europe_pmc.py:_iso_date",
+      "type": "function",
+      "name": "_iso_date",
+      "filePath": "engine/feeds/europe_pmc.py",
+      "lineRange": [
+        129,
+        135
+      ],
+      "summary": "Defines _iso_date in europe_pmc.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "europe-pmc"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/europe_pmc.py:_source_id",
+      "type": "function",
+      "name": "_source_id",
+      "filePath": "engine/feeds/europe_pmc.py",
+      "lineRange": [
+        138,
+        144
+      ],
+      "summary": "Defines _source_id in europe_pmc.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "europe-pmc"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/europe_pmc.py:_authors",
+      "type": "function",
+      "name": "_authors",
+      "filePath": "engine/feeds/europe_pmc.py",
+      "lineRange": [
+        147,
+        160
+      ],
+      "summary": "Defines _authors in europe_pmc.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "europe-pmc"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/europe_pmc.py:_journal",
+      "type": "function",
+      "name": "_journal",
+      "filePath": "engine/feeds/europe_pmc.py",
+      "lineRange": [
+        163,
+        165
+      ],
+      "summary": "Defines _journal in europe_pmc.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "europe-pmc"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/europe_pmc.py:_paper_row",
+      "type": "function",
+      "name": "_paper_row",
+      "filePath": "engine/feeds/europe_pmc.py",
+      "lineRange": [
+        168,
+        235
+      ],
+      "summary": "Defines _paper_row in europe_pmc.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "europe-pmc"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/feeds/europe_pmc.py:normalize_topic",
+      "type": "function",
+      "name": "normalize_topic",
+      "filePath": "engine/feeds/europe_pmc.py",
+      "lineRange": [
+        238,
+        279
+      ],
+      "summary": "Defines normalize_topic in europe_pmc.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "europe-pmc"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/europe_pmc.py:collect",
+      "type": "function",
+      "name": "collect",
+      "filePath": "engine/feeds/europe_pmc.py",
+      "lineRange": [
+        282,
+        312
+      ],
+      "summary": "Defines collect in europe_pmc.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "europe-pmc"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:engine/feeds/ingest.py",
+      "type": "file",
+      "name": "ingest.py",
+      "filePath": "engine/feeds/ingest.py",
+      "summary": "ingest.py is a code asset in the forecasting engine. It contains 5 functions, 6 internal imports.",
+      "tags": [
+        "forecasting-engine",
+        "code",
+        "file",
+        "ingest"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:engine/feeds/ingest.py:_get_or_create_series",
+      "type": "function",
+      "name": "_get_or_create_series",
+      "filePath": "engine/feeds/ingest.py",
+      "lineRange": [
+        648,
+        673
+      ],
+      "summary": "Defines _get_or_create_series in ingest.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "ingest"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/ingest.py:_parse_feed_date",
+      "type": "function",
+      "name": "_parse_feed_date",
+      "filePath": "engine/feeds/ingest.py",
+      "lineRange": [
+        676,
+        685
+      ],
+      "summary": "Defines _parse_feed_date in ingest.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "ingest"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/ingest.py:_upsert_feed_papers",
+      "type": "function",
+      "name": "_upsert_feed_papers",
+      "filePath": "engine/feeds/ingest.py",
+      "lineRange": [
+        688,
+        747
+      ],
+      "summary": "Defines _upsert_feed_papers in ingest.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "ingest"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/feeds/ingest.py:ingest_feed",
+      "type": "function",
+      "name": "ingest_feed",
+      "filePath": "engine/feeds/ingest.py",
+      "lineRange": [
+        750,
+        826
+      ],
+      "summary": "Defines ingest_feed in ingest.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "ingest"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/feeds/ingest.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "engine/feeds/ingest.py",
+      "lineRange": [
+        829,
+        855
+      ],
+      "summary": "Defines main in ingest.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entry-point",
+        "ingest"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:engine/feeds/collect_all.py",
+      "target": "function:engine/feeds/collect_all.py:_line_count",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/collect_all.py",
+      "target": "function:engine/feeds/collect_all.py:_line_count",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/collect_all.py",
+      "target": "function:engine/feeds/collect_all.py:_feed_file_status",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/collect_all.py",
+      "target": "function:engine/feeds/collect_all.py:_feed_file_status",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/collect_all.py",
+      "target": "function:engine/feeds/collect_all.py:audit_feeds",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/collect_all.py",
+      "target": "function:engine/feeds/collect_all.py:audit_feeds",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/collect_all.py",
+      "target": "function:engine/feeds/collect_all.py:_diagnostic_block_reason",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/collect_all.py",
+      "target": "function:engine/feeds/collect_all.py:_diagnostic_block_reason",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/collect_all.py",
+      "target": "function:engine/feeds/collect_all.py:select_collectors",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/collect_all.py",
+      "target": "function:engine/feeds/collect_all.py:select_collectors",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/collect_all.py",
+      "target": "function:engine/feeds/collect_all.py:run_collector",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/collect_all.py",
+      "target": "function:engine/feeds/collect_all.py:run_collector",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/collect_all.py",
+      "target": "function:engine/feeds/collect_all.py:print_dry_run",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/collect_all.py",
+      "target": "function:engine/feeds/collect_all.py:print_dry_run",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/collect_all.py",
+      "target": "function:engine/feeds/collect_all.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/collect_all.py",
+      "target": "function:engine/feeds/collect_all.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/europe_pmc.py",
+      "target": "function:engine/feeds/europe_pmc.py:_write_jsonl_atomic",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/europe_pmc.py",
+      "target": "function:engine/feeds/europe_pmc.py:_write_jsonl_atomic",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/europe_pmc.py",
+      "target": "function:engine/feeds/europe_pmc.py:_fetch_json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/europe_pmc.py",
+      "target": "function:engine/feeds/europe_pmc.py:_fetch_json",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/europe_pmc.py",
+      "target": "function:engine/feeds/europe_pmc.py:_date_range_query",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/europe_pmc.py",
+      "target": "function:engine/feeds/europe_pmc.py:_date_range_query",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/europe_pmc.py",
+      "target": "function:engine/feeds/europe_pmc.py:_hit_count",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/europe_pmc.py",
+      "target": "function:engine/feeds/europe_pmc.py:_hit_count",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/europe_pmc.py",
+      "target": "function:engine/feeds/europe_pmc.py:_paper_results",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/europe_pmc.py",
+      "target": "function:engine/feeds/europe_pmc.py:_paper_results",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/europe_pmc.py",
+      "target": "function:engine/feeds/europe_pmc.py:_first",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/europe_pmc.py",
+      "target": "function:engine/feeds/europe_pmc.py:_first",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/europe_pmc.py",
+      "target": "function:engine/feeds/europe_pmc.py:_iso_date",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/europe_pmc.py",
+      "target": "function:engine/feeds/europe_pmc.py:_iso_date",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/europe_pmc.py",
+      "target": "function:engine/feeds/europe_pmc.py:_source_id",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/europe_pmc.py",
+      "target": "function:engine/feeds/europe_pmc.py:_source_id",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/europe_pmc.py",
+      "target": "function:engine/feeds/europe_pmc.py:_authors",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/europe_pmc.py",
+      "target": "function:engine/feeds/europe_pmc.py:_authors",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/europe_pmc.py",
+      "target": "function:engine/feeds/europe_pmc.py:_journal",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/europe_pmc.py",
+      "target": "function:engine/feeds/europe_pmc.py:_journal",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/europe_pmc.py",
+      "target": "function:engine/feeds/europe_pmc.py:_paper_row",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/europe_pmc.py",
+      "target": "function:engine/feeds/europe_pmc.py:_paper_row",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/europe_pmc.py",
+      "target": "function:engine/feeds/europe_pmc.py:normalize_topic",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/europe_pmc.py",
+      "target": "function:engine/feeds/europe_pmc.py:normalize_topic",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/europe_pmc.py",
+      "target": "function:engine/feeds/europe_pmc.py:collect",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/europe_pmc.py",
+      "target": "function:engine/feeds/europe_pmc.py:collect",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/ingest.py",
+      "target": "function:engine/feeds/ingest.py:_get_or_create_series",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/ingest.py",
+      "target": "function:engine/feeds/ingest.py:_get_or_create_series",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/ingest.py",
+      "target": "function:engine/feeds/ingest.py:_parse_feed_date",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/ingest.py",
+      "target": "function:engine/feeds/ingest.py:_parse_feed_date",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/ingest.py",
+      "target": "function:engine/feeds/ingest.py:_upsert_feed_papers",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/ingest.py",
+      "target": "function:engine/feeds/ingest.py:_upsert_feed_papers",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/ingest.py",
+      "target": "function:engine/feeds/ingest.py:ingest_feed",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/ingest.py",
+      "target": "function:engine/feeds/ingest.py:ingest_feed",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/ingest.py",
+      "target": "function:engine/feeds/ingest.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/ingest.py",
+      "target": "function:engine/feeds/ingest.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/collect_all.py",
+      "target": "file:engine/__init__.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/feeds/collect_all.py",
+      "target": "file:engine/disk_guard.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/feeds/ingest.py",
+      "target": "file:engine/__init__.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/feeds/ingest.py",
+      "target": "file:engine/db.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/feeds/ingest.py",
+      "target": "file:engine/graph.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/feeds/ingest.py",
+      "target": "file:engine/rawstore.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/feeds/ingest.py",
+      "target": "file:engine/schemas.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/feeds/ingest.py",
+      "target": "file:engine/store.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "function:engine/feeds/collect_all.py:_feed_file_status",
+      "target": "function:engine/feeds/collect_all.py:_line_count",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/collect_all.py:audit_feeds",
+      "target": "function:engine/feeds/collect_all.py:_feed_file_status",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/collect_all.py:audit_feeds",
+      "target": "function:engine/feeds/collect_all.py:_diagnostic_block_reason",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/collect_all.py:select_collectors",
+      "target": "function:engine/feeds/collect_all.py:_feed_file_status",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/collect_all.py:select_collectors",
+      "target": "function:engine/feeds/collect_all.py:_diagnostic_block_reason",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/collect_all.py:run_collector",
+      "target": "function:engine/feeds/collect_all.py:_line_count",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/collect_all.py:main",
+      "target": "function:engine/feeds/collect_all.py:select_collectors",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/collect_all.py:main",
+      "target": "function:engine/feeds/collect_all.py:print_dry_run",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/collect_all.py:main",
+      "target": "function:engine/feeds/collect_all.py:audit_feeds",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/collect_all.py:main",
+      "target": "function:engine/feeds/collect_all.py:run_collector",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/europe_pmc.py:_hit_count",
+      "target": "function:engine/feeds/europe_pmc.py:_fetch_json",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/europe_pmc.py:_hit_count",
+      "target": "function:engine/feeds/europe_pmc.py:_date_range_query",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/europe_pmc.py:_paper_results",
+      "target": "function:engine/feeds/europe_pmc.py:_fetch_json",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/europe_pmc.py:_paper_results",
+      "target": "function:engine/feeds/europe_pmc.py:_date_range_query",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/europe_pmc.py:_paper_row",
+      "target": "function:engine/feeds/europe_pmc.py:_iso_date",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/europe_pmc.py:_paper_row",
+      "target": "function:engine/feeds/europe_pmc.py:_first",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/europe_pmc.py:_paper_row",
+      "target": "function:engine/feeds/europe_pmc.py:_source_id",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/europe_pmc.py:_paper_row",
+      "target": "function:engine/feeds/europe_pmc.py:_authors",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/europe_pmc.py:_paper_row",
+      "target": "function:engine/feeds/europe_pmc.py:_journal",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/europe_pmc.py:normalize_topic",
+      "target": "function:engine/feeds/europe_pmc.py:_paper_row",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/europe_pmc.py:collect",
+      "target": "function:engine/feeds/europe_pmc.py:_hit_count",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/europe_pmc.py:collect",
+      "target": "function:engine/feeds/europe_pmc.py:_paper_results",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/europe_pmc.py:collect",
+      "target": "function:engine/feeds/europe_pmc.py:normalize_topic",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/europe_pmc.py:collect",
+      "target": "function:engine/feeds/europe_pmc.py:_write_jsonl_atomic",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/ingest.py:_get_or_create_series",
+      "target": "function:engine/schemas.py:_uid",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/ingest.py:_get_or_create_series",
+      "target": "function:engine/schemas.py:_now",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/ingest.py:_upsert_feed_papers",
+      "target": "function:engine/schemas.py:_now",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/ingest.py:_upsert_feed_papers",
+      "target": "function:engine/feeds/ingest.py:_parse_feed_date",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/ingest.py:_upsert_feed_papers",
+      "target": "function:engine/schemas.py:_uid",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/ingest.py:ingest_feed",
+      "target": "class:engine/schemas.py:Source",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/ingest.py:ingest_feed",
+      "target": "function:engine/graph.py:_upsert_source",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/ingest.py:ingest_feed",
+      "target": "function:engine/feeds/ingest.py:_upsert_feed_papers",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/ingest.py:ingest_feed",
+      "target": "function:engine/feeds/ingest.py:_get_or_create_series",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/ingest.py:ingest_feed",
+      "target": "function:engine/feeds/ingest.py:_parse_feed_date",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/ingest.py:ingest_feed",
+      "target": "class:engine/schemas.py:Observation",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/ingest.py:ingest_feed",
+      "target": "function:engine/store.py:bulk_upsert_observations",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/ingest.py:ingest_feed",
+      "target": "function:engine/store.py:write_precompute",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/ingest.py:main",
+      "target": "function:engine/feeds/ingest.py:ingest_feed",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

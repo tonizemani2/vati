@@ -1,0 +1,22 @@
+[
+ {
+  "question_id": 30372,
+  "type": "date",
+  "title": "When will the RSA-2048 challenge number be factorized by a quantum computer?",
+  "short_title": "Date of RSA-2048 quantum factorization?",
+  "description": "[RSA-2048](https://en.wikipedia.org/wiki/RSA_numbers#RSA-2048) is a seminal challenge in cryptography and computing, representing a 617-digit number that is the product of two prime numbers. It was published by RSA Laboratories as part of their [RSA Factoring Challenge](https://en.wikipedia.org/wiki/RSA_Factoring_Challenge) to encourage research in computational number theory and the practical difficulty of factoring large numbers.\n\nThe challenge has significant implications for cybersecurity, as the [RSA encryption system](https://en.wikipedia.org/wiki/RSA_\\(cryptosystem\\))'s security relies on the computational difficulty of factoring such large numbers. While classical computers would require impractical amounts of time to factor RSA-2048, quantum computers using Shor's algorithm [could theoretically accomplish](https://en.wikipedia.org/wiki/Post-quantum_cryptography) this task in a feasible timeframe.\n\nCurrent quantum computers face several key challenges:\n\n1. Achieving sufficient quantum bits (qubits) while maintaining coherence\n2. Implementing error correction at scale\n3. Developing the precise quantum circuits needed for Shor's algorithm\n\nExperts estimate that factoring RSA-2048 [would require](https://research.kudelskisecurity.com/2021/08/24/quantum-attack-resource-estimate-using-shors-algorithm-to-break-rsa-vs-dh-dsa-vs-ecc/) a minimum of 4098 of stable, error-corrected qubits, while current quantum computers typically have fewer than 1,000 noisy qubits. The achievement of this milestone would represent a fundamental breakthrough in quantum computing capability and would have profound implications for current cryptographic systems.\n\nRSA-2048 is the following number:\n`25195908475657893494027183240048398571429282126204032027777137836043662020707595556264018525880784406918290641249515082189298559149176184502808489120072844992687392807287776735971418347270261896375014971824691165077613379859095700097330459748808428401797429100642458691817195118746121515172654632282216869987549182422433637259085141865462043576798423387184774447920739934236584823824281198163815010674810451660377306056201619676256133844143603833904414952634432190114657544454178424020924616515723350778707749817125772467962926386356373289912154831438167899885040445364023527381951378636564391212010397122822120720357`",
+  "resolution_criteria": "This question will resolve as **January 1** of the year in which RSA-2048 is first successfully factorized by a quantum computer, according to credible sources. If this has not happened before January 1, 2075, this question will resolve as **>2074-12-31**.",
+  "fine_print": "&#x20;If RSA-2048 is factorized by a non-quantum computer first, this question will be **Annulled**.",
+  "options": null,
+  "unit": "",
+  "close": "2074-12-31T05:00:00Z",
+  "resolve": "2075-01-01T06:00:00Z",
+  "crowd": null,
+  "range_min": 1735707600,
+  "range_max": 3344994000,
+  "open_lower": false,
+  "open_upper": true,
+  "window_start": "2025-01-01",
+  "window_end": "2075-12-31"
+ }
+]

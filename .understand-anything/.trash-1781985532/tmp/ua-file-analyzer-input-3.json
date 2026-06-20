@@ -1,0 +1,308 @@
+{
+  "projectRoot": "/Users/emizemani/Desktop/predictthefuture",
+  "batchFiles": [
+    {
+      "path": "engine/metaculus/__init__.py",
+      "language": "python",
+      "sizeLines": 9,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/metaculus/api.py",
+      "language": "python",
+      "sizeLines": 163,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/metaculus/calibrate.py",
+      "language": "python",
+      "sizeLines": 490,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/metaculus/deep_research.py",
+      "language": "python",
+      "sizeLines": 147,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/metaculus/fleet.py",
+      "language": "python",
+      "sizeLines": 297,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/metaculus/forecast.py",
+      "language": "python",
+      "sizeLines": 340,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/metaculus/markets.py",
+      "language": "python",
+      "sizeLines": 191,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/metaculus/numeric.py",
+      "language": "python",
+      "sizeLines": 148,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/metaculus/numeric_forecast.py",
+      "language": "python",
+      "sizeLines": 284,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/metaculus/qbank.py",
+      "language": "python",
+      "sizeLines": 156,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/metaculus/research.py",
+      "language": "python",
+      "sizeLines": 99,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/metaculus/run.py",
+      "language": "python",
+      "sizeLines": 129,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/pope/mega_deepseek.py",
+      "language": "python",
+      "sizeLines": 330,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/prophet/__init__.py",
+      "language": "python",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/prophet/agent.py",
+      "language": "python",
+      "sizeLines": 126,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/prophet/anchor.py",
+      "language": "python",
+      "sizeLines": 133,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/prophet/backtest.py",
+      "language": "python",
+      "sizeLines": 95,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/prophet/openai_api.py",
+      "language": "python",
+      "sizeLines": 101,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/prophet/server.py",
+      "language": "python",
+      "sizeLines": 106,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/render_emergence.py",
+      "language": "python",
+      "sizeLines": 159,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/saturation.py",
+      "language": "python",
+      "sizeLines": 267,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/signals.py",
+      "language": "python",
+      "sizeLines": 547,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/test_signals.py",
+      "language": "python",
+      "sizeLines": 82,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/world_graph_deepseek.py",
+      "language": "python",
+      "sizeLines": 501,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_forecast_world_state_context.py",
+      "language": "python",
+      "sizeLines": 184,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_forecasting_control_plane.py",
+      "language": "python",
+      "sizeLines": 251,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_world_graph_deepseek.py",
+      "language": "python",
+      "sizeLines": 69,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "engine/metaculus/__init__.py": [],
+    "engine/metaculus/api.py": [
+      "engine/__init__.py",
+      "engine/cost.py"
+    ],
+    "engine/metaculus/calibrate.py": [
+      "engine/__init__.py",
+      "engine/adapters/__init__.py",
+      "engine/adapters/llm.py",
+      "engine/db.py",
+      "engine/forecastbench/ensemble.py",
+      "engine/forecastbench/inference.py",
+      "engine/metaculus/__init__.py"
+    ],
+    "engine/metaculus/deep_research.py": [
+      "engine/__init__.py",
+      "engine/adapters/__init__.py",
+      "engine/adapters/llm.py",
+      "engine/adapters/search.py",
+      "engine/db.py"
+    ],
+    "engine/metaculus/fleet.py": [
+      "engine/__init__.py",
+      "engine/adapters/__init__.py",
+      "engine/adapters/llm.py",
+      "engine/db.py",
+      "engine/holdout.py",
+      "engine/metaculus/__init__.py",
+      "engine/metaculus/qbank.py"
+    ],
+    "engine/metaculus/forecast.py": [
+      "engine/__init__.py",
+      "engine/adapters/llm.py",
+      "engine/db.py",
+      "engine/forecastbench/ensemble.py",
+      "engine/forecastbench/inference.py",
+      "engine/forecasting/calibration.py",
+      "engine/metaculus/__init__.py",
+      "engine/metaculus/research.py"
+    ],
+    "engine/metaculus/markets.py": [],
+    "engine/metaculus/numeric.py": [
+      "engine/metaculus/__init__.py",
+      "engine/metaculus/api.py"
+    ],
+    "engine/metaculus/numeric_forecast.py": [
+      "engine/__init__.py",
+      "engine/adapters/__init__.py",
+      "engine/adapters/llm.py",
+      "engine/db.py",
+      "engine/metaculus/__init__.py",
+      "engine/metaculus/api.py",
+      "engine/metaculus/research.py"
+    ],
+    "engine/metaculus/qbank.py": [],
+    "engine/metaculus/research.py": [
+      "engine/__init__.py",
+      "engine/adapters/__init__.py",
+      "engine/adapters/llm.py",
+      "engine/adapters/search.py",
+      "engine/db.py"
+    ],
+    "engine/metaculus/run.py": [
+      "engine/metaculus/__init__.py",
+      "engine/metaculus/api.py",
+      "engine/metaculus/forecast.py"
+    ],
+    "engine/pope/mega_deepseek.py": [
+      "engine/__init__.py",
+      "engine/adapters/llm.py",
+      "engine/db.py",
+      "engine/emergent_scan.py",
+      "engine/ground.py",
+      "engine/market.py"
+    ],
+    "engine/prophet/__init__.py": [],
+    "engine/prophet/agent.py": [
+      "engine/forecastbench/ensemble.py",
+      "engine/metaculus/__init__.py",
+      "engine/metaculus/forecast.py"
+    ],
+    "engine/prophet/anchor.py": [
+      "engine/forecastbench/ensemble.py",
+      "engine/prophet/agent.py"
+    ],
+    "engine/prophet/backtest.py": [
+      "engine/prophet/__init__.py",
+      "engine/prophet/agent.py"
+    ],
+    "engine/prophet/openai_api.py": [
+      "engine/__init__.py",
+      "engine/adapters/__init__.py",
+      "engine/adapters/llm.py",
+      "engine/db.py",
+      "engine/prophet/agent.py"
+    ],
+    "engine/prophet/server.py": [
+      "engine/prophet/__init__.py",
+      "engine/prophet/agent.py"
+    ],
+    "engine/render_emergence.py": [
+      "engine/__init__.py",
+      "engine/db.py",
+      "engine/signals.py"
+    ],
+    "engine/saturation.py": [
+      "engine/adapters/__init__.py",
+      "engine/adapters/search.py",
+      "engine/schemas.py"
+    ],
+    "engine/signals.py": [
+      "engine/__init__.py",
+      "engine/db.py"
+    ],
+    "engine/test_signals.py": [
+      "engine/signals.py"
+    ],
+    "engine/world_graph_deepseek.py": [
+      "engine/__init__.py",
+      "engine/adapters/__init__.py",
+      "engine/adapters/llm.py",
+      "engine/db.py",
+      "engine/world_graph.py"
+    ],
+    "tests/test_forecast_world_state_context.py": [
+      "engine/forecastbench/__init__.py",
+      "engine/forecastbench/inference.py",
+      "engine/metaculus/__init__.py"
+    ],
+    "tests/test_forecasting_control_plane.py": [
+      "engine/forecasting/calibration.py",
+      "engine/forecasting/ledger.py",
+      "engine/metaculus/__init__.py",
+      "engine/metaculus/markets.py"
+    ],
+    "tests/test_world_graph_deepseek.py": [
+      "engine/__init__.py",
+      "engine/world_graph_deepseek.py"
+    ]
+  }
+}

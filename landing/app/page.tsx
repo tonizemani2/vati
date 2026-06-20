@@ -1,124 +1,193 @@
 import Header from "@/components/Header";
-import { Reveal, Lines } from "@/components/Reveal";
+import ExamplePredictions from "@/components/ExamplePredictions";
+import HeroVisual from "@/components/HeroVisual";
+import StageBand from "@/components/StageBand";
+import { Reveal } from "@/components/Reveal";
 import Counter from "@/components/Counter";
-import LayerVein from "@/components/LayerVein";
 
-const ACCESS = "mailto:access@vaticinus.com?subject=Introduction";
-
-/* One label for one intent, used in the hero, here, and the footer. */
-function AccessLink({ className = "" }: { className?: string }) {
+/* ── Small inline icon ─────────────────────────────────────────────────────── */
+function Icon({ path }: { path: string }) {
   return (
-    <a
-      href={ACCESS}
-      className={`group inline-flex items-center gap-2 font-sans text-[0.74rem] uppercase tracking-[0.22em] text-ink transition-colors hover:text-gold ${className}`}
-    >
-      <span className="cta-rule">Access by introduction</span>
-      <span aria-hidden className="transition-transform duration-500 ease-out group-hover:translate-x-1">
-        &rarr;
-      </span>
-    </a>
+    <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor"
+      strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round">
+      <path d={path} />
+    </svg>
   );
 }
 
+const SUGGESTIONS = [
+  { icon: "M3 12h4l3 8 4-16 3 8h4", label: "Where does the next binding constraint land?" },
+  { icon: "M12 3l8 4v5c0 5-3.5 8-8 9-4.5-1-8-4-8-9V7l8-4z", label: "Is this shift already priced in?" },
+  { icon: "M4 7h16M4 12h10M4 17h7M16 15l2 2 4-4", label: "Show me the leak-free scored record" },
+];
+
+const PILLARS = [
+  {
+    title: "Read the signal early",
+    icon: "M3 12h4l3 8 4-16 3 8h4",
+    body: "Vati watches the places a shift shows up first: a capability curve bending, a dependency graph turning over, an input that quietly stops being elastic. It reads the fine grain, not the headline number, because by the time the aggregate moves the price already has.",
+  },
+  {
+    title: "Kill the weak calls",
+    icon: "M12 3l8 4v5c0 5-3.5 8-8 9-4.5-1-8-4-8-9V7l8-4z",
+    body: "A call the market has already priced is worth nothing to you. Every one has to clear a dated metric, a clean way to be proven wrong, and a check that the crowd has not caught up yet. Most ideas die at this step. That is the step working.",
+  },
+  {
+    title: "Grade in public",
+    icon: "M4 7h16M4 12h10M4 17h7M16 15l2 2 4-4",
+    body: "When Vati makes a call we lock it. The resolution date goes down first and the Brier score comes back at close, with nothing edited in between. What you get is a running scoreboard of how the lab actually does, win or lose.",
+  },
+];
+
+const BENCH = [
+  { label: "Vati (dataset split, leak-free)", score: 0.124, pct: 100, accent: true },
+  { label: "Crowd / market baseline", score: 0.142, pct: 86 },
+  { label: "Naive base rate", score: 0.248, pct: 50 },
+];
+
+const MODELS = [
+  {
+    name: "Vati 8B",
+    tags: ["8B parameters", "24 domains", "29,445 traces"],
+    lead: "An 8B model fine-tuned to find the binding constraint and call where it moves next.",
+    body: "Trained on leak-free reasoning traces so its read does not lean on outcomes it could have memorised. Live on the Metaculus Cup; built to lead the bot field on ForecastBench.",
+  },
+  {
+    name: "The gate",
+    tags: ["dated metric", "kill-criterion", "pre-consensus"],
+    lead: "The discipline that turns a wide field of ideas into a small set of tracked calls.",
+    body: "Generate wide, graduate strict. An idea only becomes a call once it clears a dated constraint metric, a falsifiable kill-criterion, and a check that the crowd has not already priced it.",
+  },
+];
+
+const USE_CASES = [
+  { role: "Investors", line: "Structural calls on where scarcity lands next, each carrying a score you can check." },
+  { role: "Operators", line: "Where the rent in your supply chain moves, before a competitor reprices it for you." },
+  { role: "Strategists", line: "The dependency graph read one layer below the shortage everyone is already talking about." },
+  { role: "Policy teams", line: "Where export controls and decreed scarcity bend the supply graph, ahead of the headline." },
+  { role: "Risk & procurement", line: "Lead-time and chokepoint warnings out of a clean, leak-free pipeline." },
+  { role: "Researchers", line: "A calibrated model you can audit. Every claim is dated, every method open to inspection." },
+];
+
 export default function Page() {
   return (
-    <main className="relative">
+    <div id="top" className="relative overflow-x-hidden bg-dark">
       <Header />
 
-      {/* ── Hero ──────────────────────────────────────────────────────── */}
-      <section className="relative flex min-h-[100dvh] items-center overflow-hidden pt-24">
-        <div className="absolute inset-0 -z-[1]">
-          <div
-            className="absolute inset-0 bg-cover bg-center"
-            style={{ backgroundImage: "url('/images/hero.webp')" }}
-          />
-          <div className="absolute inset-0 bg-gradient-to-r from-marble via-marble/88 to-marble/25" />
-          <div className="absolute inset-0 bg-gradient-to-t from-marble/75 via-transparent to-marble/45" />
+      {/* ── Hero (dark) ─────────────────────────────────────────────────────── */}
+      <section className="relative bg-dark-2 grid-tex">
+        <div className="glow left-[60%] top-[2rem] h-[40rem] w-[40rem]" />
+        <div className="absolute inset-y-0 right-0 hidden w-1/2 md:block">
+          <HeroVisual />
         </div>
-
-        <div className="mx-auto w-full max-w-6xl px-6 sm:px-8">
-          <div className="max-w-2xl">
-            {/* dictionary lockup: the brand signature, one unit */}
-            <h1 className="font-display text-[clamp(2.8rem,9vw,5.5rem)] font-medium leading-none tracking-monument text-ink">
-              VATICINUS
-            </h1>
-            <Reveal delay={0.2}>
-              <p className="mt-5 font-sans text-[0.7rem] uppercase tracking-wide-label text-gold">
-                adjective, Latin
-              </p>
-              <p className="mt-2 font-serif text-xl font-light italic leading-[1.2] text-ink-soft sm:text-2xl">
-                Of a seer. Foretelling what is not yet seen.
+        <div className="relative mx-auto max-w-[1280px] px-6 pb-28 pt-40 lg:px-14">
+          <div className="max-w-xl">
+            <Reveal>
+              <span className="eyebrow">A forecasting research lab · Berlin</span>
+            </Reveal>
+            <Reveal delay={0.06}>
+              <h1 className="display mt-6 max-w-[12ch] text-[2.55rem] text-fg sm:max-w-xl sm:text-[3.5rem] lg:text-[4rem]">
+                Find the <span className="hl inline-block">hidden bottleneck</span> before it reprices your plan.
+              </h1>
+            </Reveal>
+            <Reveal delay={0.14}>
+              <p className="mt-6 max-w-lg text-base leading-relaxed text-fg-soft">
+                Vaticinus builds Vati, an 8B model fine-tuned to find the binding constraint in an
+                industry and call where it moves next, before the market prices it in. Every call is
+                dated, locked, and scored in public.
               </p>
             </Reveal>
 
-            <div className="mt-9 mb-8 h-px w-24 bg-gold/70" />
+            <Reveal delay={0.22}>
+              <div className="mt-9 w-full max-w-full">
+                <div className="rounded-2xl border border-line bg-white/[0.03] p-2 backdrop-blur-sm">
+                  <div className="flex items-center gap-3 rounded-xl px-4 py-3">
+                    <span className="min-w-0 flex-1 text-sm text-fg-dim">Ask where value goes next...</span>
+                    <span className="grid h-9 w-9 shrink-0 place-items-center rounded-full bg-accent text-[#062020]">
+                      <Icon path="M5 12h14M13 6l6 6-6 6" />
+                    </span>
+                  </div>
+                </div>
 
-            <Lines
-              lines={["We find where value moves next,", "before it is priced in."]}
-              className="font-serif text-[clamp(2rem,5.2vw,3.4rem)] font-light leading-[1.12] text-ink text-balance"
-            />
-            <Reveal delay={0.6}>
-              <p className="mt-7 max-w-xl font-sans text-[1.04rem] leading-relaxed text-ink-soft text-pretty">
-                Calibrated, falsifiable forecasts of where scarcity migrates. Each
-                one is dated, scored, and built to be proven wrong.
-              </p>
-              <div className="mt-9">
-                <AccessLink />
+                <div className="mt-3 space-y-px overflow-hidden rounded-xl border border-line">
+                  {SUGGESTIONS.map((s) => (
+                    <div key={s.label} className="flex w-full items-center gap-3 bg-white/[0.02] px-4 py-3 text-left text-sm text-fg-soft">
+                      <span className="shrink-0 text-accent">
+                        <Icon path={s.icon} />
+                      </span>
+                      <span className="min-w-0 flex-1">{s.label}</span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </Reveal>
+
+            <Reveal delay={0.3}>
+              <div className="mt-9 flex flex-wrap items-center gap-3">
+                <a href="#record" className="pill-primary">Read the record</a>
+                <a href="mailto:research@vaticinus.com?subject=Vaticinus%20research" className="pill-soft on-dark">
+                  Get in touch
+                </a>
               </div>
             </Reveal>
           </div>
         </div>
       </section>
 
-      {/* ── The thesis + the method (constraint → rent, three moves) ───── */}
-      <section className="relative px-6 py-24 sm:px-8 sm:py-28">
-        <div className="mx-auto max-w-6xl">
-          <div className="grid items-start gap-12 md:grid-cols-12">
-            <div className="md:col-span-5">
-              <Lines
-                lines={["Rent accrues to", "the binding constraint."]}
-                className="font-serif text-[clamp(1.9rem,4vw,3rem)] font-light leading-[1.1] text-ink text-balance"
-              />
-            </div>
-            <Reveal delay={0.15} className="md:col-span-6 md:col-start-7">
-              <p className="font-sans text-[1.04rem] leading-relaxed text-ink-soft text-pretty">
-                Scarcity is never still. It gathers at the constraint the world has
-                not yet solved, and it moves the instant that constraint is
-                understood. Find the constraint before it binds, and you find where
-                value is about to go. The idea is simple. Seeing it early, and being
-                willing to be scored, is not.
+      {/* ── Method spine (dark) ─────────────────────────────────────────────── */}
+      <section id="method" className="border-t border-line bg-dark">
+        <div className="mx-auto max-w-[1280px] px-6 py-32 lg:px-14">
+          <div className="grid gap-12 md:grid-cols-[1fr_1.1fr] md:items-end">
+            <Reveal>
+              <span className="eyebrow">The method</span>
+              <h2 className="display mt-4 text-[clamp(2rem,3.6vw,3rem)] text-fg">
+                From hindsight to foresight. Read the constraint, not the headline.
+              </h2>
+            </Reveal>
+            <Reveal delay={0.1}>
+              <p className="text-base leading-relaxed text-fg-soft">
+                Rent accrues to the binding constraint. Vati follows the causal spine of an industry
+                from the frontier through to outcomes. The money is usually in the middle, where one
+                input stops being elastic while everyone is still watching the shortage above it. Price
+                is the last layer and it is also the test.
               </p>
             </Reveal>
           </div>
+          <div className="mt-14">
+            <StageBand />
+          </div>
+        </div>
+      </section>
 
-          {/* three moves, as an open sequence under one gold rule (not cards) */}
-          <div className="mt-20 grid gap-px overflow-hidden border-t border-gold/40 sm:grid-cols-3">
-            {[
-              {
-                n: "01",
-                h: "Locate the constraint",
-                b: "Read the world's record at full scale to find the input everything else will soon depend on.",
-              },
-              {
-                n: "02",
-                h: "Test if it is priced",
-                b: "A correct call already in the price is worth nothing. We read the narrative, the forecasters, and the tape.",
-              },
-              {
-                n: "03",
-                h: "Commit, dated",
-                b: "State the claim, the date it resolves, and the condition that would prove it wrong. Then keep the score.",
-              },
-            ].map((s, i) => (
-              <Reveal key={s.n} delay={i * 0.12}>
-                <div className="h-full pt-7 sm:pr-8">
-                  <span className="tnum font-display text-2xl text-gold">{s.n}</span>
-                  <h3 className="mt-4 font-serif text-2xl font-normal leading-snug text-ink">
-                    {s.h}
-                  </h3>
-                  <p className="mt-3 max-w-xs font-sans text-[0.96rem] leading-relaxed text-ink-soft">
-                    {s.b}
-                  </p>
+      {/* ── Performance / Brier (dark) ──────────────────────────────────────── */}
+      <section className="border-t border-line bg-dark">
+        <div className="mx-auto max-w-[1280px] px-6 py-32 lg:px-14">
+          <Reveal>
+            <span className="eyebrow">Scored where it can be checked</span>
+            <h2 className="display mt-4 max-w-2xl text-[clamp(2rem,3.6vw,3rem)] text-fg">
+              A 0.124 Brier on the ForecastBench dataset split.
+            </h2>
+            <p className="mt-5 max-w-2xl text-base leading-relaxed text-fg-soft">
+              On the benchmark the field runs, where the strongest bots already out-forecast human
+              superforecasters, Vati scores ahead of the crowd in our own leak-free testing. Lower is
+              better.
+            </p>
+          </Reveal>
+          <div className="mt-14 space-y-6">
+            {BENCH.map((b, i) => (
+              <Reveal key={b.label} delay={i * 0.08}>
+                <div className="flex items-center gap-5">
+                  <span className="w-64 shrink-0 text-sm text-fg-soft">{b.label}</span>
+                  <div className="h-9 flex-1 overflow-hidden rounded-md bg-white/[0.04]">
+                    <div
+                      className={`flex h-full items-center justify-end rounded-md px-3 ${
+                        b.accent ? "bg-accent text-[#062020]" : "bg-white/10 text-fg"
+                      }`}
+                      style={{ width: `${b.pct}%` }}
+                    >
+                      <span className="mono text-sm tnum">{b.score.toFixed(3)}</span>
+                    </div>
+                  </div>
                 </div>
               </Reveal>
             ))}
@@ -126,230 +195,213 @@ export default function Page() {
         </div>
       </section>
 
-      {/* ── The nine layers (the vein) ────────────────────────────────── */}
-      <section className="relative overflow-hidden px-6 py-24 sm:px-8 sm:py-28">
-        <div
-          className="absolute inset-y-0 right-0 -z-[1] hidden w-2/5 bg-cover bg-center opacity-[0.5] md:block"
-          style={{ backgroundImage: "url('/images/scale.webp')" }}
-        />
-        <div className="absolute inset-0 -z-[1] bg-gradient-to-r from-marble via-marble to-marble/55" />
-
-        <div className="mx-auto max-w-6xl">
-          <div className="max-w-2xl">
-            <Reveal>
-              <h2 className="font-serif text-[clamp(1.9rem,4vw,3rem)] font-light leading-[1.1] text-ink text-balance">
-                From frontier to price, in nine layers.
-              </h2>
-            </Reveal>
-            <Reveal delay={0.15}>
-              <p className="mt-6 max-w-xl font-sans text-[1.04rem] leading-relaxed text-ink-soft text-pretty">
-                Every forecast is placed on one map. We trace value down the chain
-                of dependence, layer by layer, to the point where it concentrates.
-              </p>
-            </Reveal>
+      {/* ── Calls on the record (dark) ──────────────────────────────────────── */}
+      <section id="record" className="border-t border-line bg-dark">
+        <div className="mx-auto max-w-[1280px] px-6 py-32 lg:px-14">
+          <Reveal>
+            <span className="eyebrow">On the record</span>
+            <h2 className="display mt-4 max-w-2xl text-[clamp(2rem,3.6vw,3rem)] text-fg">
+              Calls we are making now, each with a number that can prove us wrong.
+            </h2>
+            <p className="mt-5 max-w-2xl text-base leading-relaxed text-fg-soft">
+              These are our positions, on the record. Not stock tips. Each one says where the binding
+              constraint lands and ties that to a dated metric you can check. Filter by domain.
+            </p>
+          </Reveal>
+          <div className="mt-12">
+            <ExamplePredictions />
           </div>
+        </div>
+      </section>
 
-          {/* read-at-scale figures, hairline-divided, no boxes */}
-          <Reveal delay={0.2}>
-            <div className="mt-12 flex flex-wrap divide-line border-y border-line sm:divide-x">
-              {[
-                { v: <Counter value={1.4} decimals={1} suffix="M" />, l: "Papers, filings, patents read" },
-                { v: <Counter value={9} />, l: "Causal layers, frontier to price" },
-                { v: <span>100%</span>, l: "Dated and falsifiable" },
-              ].map((s, i) => (
-                <div key={i} className="flex-1 py-6 pr-8 sm:px-8 sm:first:pl-0">
-                  <div className="tnum font-display text-3xl text-gold sm:text-4xl">{s.v}</div>
-                  <div className="mt-2 font-sans text-[0.68rem] uppercase tracking-[0.16em] text-ink-soft">
-                    {s.l}
+      {/* ── Feature grid / pillars (cream) ──────────────────────────────────── */}
+      <section className="bg-cream text-ink">
+        <div className="mx-auto max-w-[1280px] px-6 py-32 lg:px-14">
+          <Reveal>
+            <span className="eyebrow">How we work</span>
+            <h2 className="display mt-4 max-w-xl text-[clamp(2rem,3.6vw,3rem)] text-ink">
+              From a faint early signal to a call you can hold us to.
+            </h2>
+          </Reveal>
+          <div className="mt-14 grid gap-5 md:grid-cols-3">
+            {PILLARS.map((p, i) => (
+              <Reveal key={p.title} delay={i * 0.08}>
+                <div className="card-cream h-full p-7">
+                  <div className="grid h-11 w-11 place-items-center rounded-xl border border-ink-line text-accent-deep">
+                    <Icon path={p.icon} />
+                  </div>
+                  <h3 className="display mt-6 text-xl text-ink">{p.title}</h3>
+                  <p className="mt-3 text-sm leading-relaxed text-ink-soft">{p.body}</p>
+                </div>
+              </Reveal>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ── Meet Vati — model rows (cream) ──────────────────────────────────── */}
+      <section id="vati" className="bg-cream text-ink">
+        <div className="mx-auto max-w-[1280px] px-6 pb-32 lg:px-14">
+          <Reveal>
+            <span className="eyebrow">The instrument</span>
+            <h2 className="display mt-4 max-w-xl text-[clamp(2rem,3.6vw,3rem)] text-ink">
+              Meet Vati and the gate that keeps it honest.
+            </h2>
+          </Reveal>
+          <div className="mt-12">
+            {MODELS.map((m, i) => (
+              <Reveal key={m.name} delay={i * 0.08}>
+                <div className={`grid gap-8 py-10 md:grid-cols-[0.8fr_1.2fr] ${i > 0 ? "rule-cream" : ""}`}>
+                  <div>
+                    <div className="flex items-center gap-3">
+                      <span className="grid h-10 w-10 place-items-center rounded-xl bg-accent-tint text-accent-deep">
+                        <Icon path="M12 2l2.4 7.2H22l-6 4.4 2.3 7.4L12 16.8 5.7 21l2.3-7.4-6-4.4h7.6L12 2z" />
+                      </span>
+                      <h3 className="display text-2xl text-ink">{m.name}</h3>
+                    </div>
+                    <div className="mt-5 flex flex-wrap gap-x-5 gap-y-2">
+                      {m.tags.map((t) => (
+                        <span key={t} className="tag">{t}</span>
+                      ))}
+                    </div>
+                  </div>
+                  <div>
+                    <p className="text-lg leading-snug text-ink">
+                      <span className="font-medium">{m.lead}</span>
+                    </p>
+                    <p className="mt-3 text-sm leading-relaxed text-ink-soft">{m.body}</p>
                   </div>
                 </div>
+              </Reveal>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ── Who we work with (cream) ────────────────────────────────────────── */}
+      <section className="bg-cream text-ink">
+        <div className="mx-auto max-w-[1280px] px-6 pb-32 lg:px-14">
+          <div className="grid gap-12 md:grid-cols-[0.85fr_1.15fr]">
+            <Reveal>
+              <span className="eyebrow">Who we work with</span>
+              <h2 className="display mt-4 text-[clamp(2rem,3.4vw,2.7rem)] text-ink">
+                For the people who have to call it before the crowd does.
+              </h2>
+              <a href="mailto:research@vaticinus.com?subject=Working%20with%20Vaticinus"
+                className="pill-primary mt-7">
+                Talk to the lab
+              </a>
+            </Reveal>
+            <div>
+              {USE_CASES.map((u, i) => (
+                <Reveal key={u.role} delay={i * 0.05}>
+                  <div className={`flex items-start justify-between gap-8 py-5 ${i > 0 ? "rule-cream" : ""}`}>
+                    <h3 className="w-44 shrink-0 text-base font-medium text-ink">{u.role}</h3>
+                    <p className="flex-1 text-sm leading-relaxed text-ink-soft">{u.line}</p>
+                  </div>
+                </Reveal>
               ))}
             </div>
-          </Reveal>
-
-          <div className="mt-16">
-            <LayerVein />
           </div>
-
-          <Reveal delay={0.2}>
-            <p className="mt-12 max-w-2xl font-sans text-[0.98rem] leading-relaxed text-ink-soft text-pretty">
-              <span className="text-ink">Value concentrates in the dependency and supply layers.</span>{" "}
-              Market pricing is the gate: a call that is correct and already priced
-              carries no edge. The whole craft is finding the layer the crowd has
-              not yet reached.
-            </p>
-          </Reveal>
         </div>
       </section>
 
-      {/* ── What a call looks like (the specimen) ─────────────────────── */}
-      <section className="relative px-6 py-24 sm:px-8 sm:py-28">
-        <div className="mx-auto max-w-6xl">
-          <div className="grid items-end gap-12 md:grid-cols-12">
-            <Reveal className="md:col-span-7">
-              <h2 className="font-serif text-[clamp(1.9rem,4vw,3rem)] font-light leading-[1.1] text-ink text-balance">
-                What a call looks like.
-              </h2>
-              <p className="mt-6 max-w-md font-sans text-[1.04rem] leading-relaxed text-ink-soft text-pretty">
-                Not a story. A claim with a date attached and a clear way for it to
-                die. The financial instrument is optional. The physical constraint
-                is the point.
-              </p>
-            </Reveal>
-          </div>
-
-          <Reveal delay={0.15}>
-            <article className="mt-12 rounded-sm border border-line bg-marble-bright/70 shadow-[0_40px_90px_-45px_rgba(13,17,48,0.3)]">
-              <div className="grid gap-px md:grid-cols-12">
-                {/* claim */}
-                <div className="border-b border-line p-8 sm:p-10 md:col-span-7 md:border-b-0 md:border-r">
-                  <div className="flex items-center justify-between">
-                    <span className="font-sans text-[0.66rem] uppercase tracking-[0.22em] text-gold">
-                      Specimen
-                    </span>
-                    <span className="tnum font-sans text-[0.66rem] uppercase tracking-[0.16em] text-ink-soft">
-                      Horizon 4 yr
-                    </span>
+      {/* ── Graded in public (dark) — replaces testimonials, no fabricated proof ─ */}
+      <section className="border-t border-line bg-dark">
+        <div className="mx-auto max-w-[1280px] px-6 py-32 lg:px-14">
+          <Reveal>
+            <span className="eyebrow">Graded in public</span>
+            <h2 className="display mt-4 max-w-2xl text-[clamp(2rem,3.6vw,3rem)] text-fg">
+              We would rather show the score than the pitch.
+            </h2>
+          </Reveal>
+          <div className="mt-14 grid gap-5 sm:grid-cols-3">
+            {[
+              { n: 8, suffix: "B", label: "Parameters in Vati, fine-tuned on 29,445 leak-free reasoning traces across 24 domains." },
+              { n: 12, label: "Forecasts live on the Metaculus Cup under the handle vaticinus, scored as questions resolve." },
+              { n: 53, label: "Calls in our sealed record, each dated before the fact and Brier-scored at resolution." },
+            ].map((m) => (
+              <Reveal key={m.label}>
+                <div className="card-dark h-full p-8">
+                  <div className="display tnum text-5xl text-fg">
+                    <Counter value={m.n} suffix={m.suffix ?? ""} />
                   </div>
-                  <p className="mt-6 font-serif text-[1.45rem] font-light leading-[1.3] text-ink">
-                    Over four years, antibody manufacturing reorganizes around one
-                    bottleneck: the capture resin that purifies every dose.
-                    Consensus prices the drugs. We price the resin.
-                  </p>
-                  <p className="mt-6 font-sans text-[0.86rem] uppercase tracking-[0.14em] text-ink-soft">
-                    Mispricing: the constraint sits one layer down.
-                  </p>
+                  <p className="mt-4 text-sm leading-relaxed text-fg-soft">{m.label}</p>
                 </div>
-
-                {/* ledger */}
-                <dl className="divide-y divide-line p-8 sm:p-10 md:col-span-5">
-                  {[
-                    ["Consensus believes", "Capacity scales with plant build-out."],
-                    ["We predict", "Margin migrates to the cornered purification input."],
-                    ["Resolves", "2029-12-31, on resin supplier margin and lead time."],
-                    ["Kill criteria", "A drop-in substitute reaches commercial scale."],
-                    ["Brier at resolution", "Pending"],
-                  ].map(([k, v]) => (
-                    <div key={k} className="flex flex-col gap-1 py-3 first:pt-0 last:pb-0">
-                      <dt className="font-sans text-[0.64rem] uppercase tracking-[0.18em] text-gold">
-                        {k}
-                      </dt>
-                      <dd className="tnum font-sans text-[0.95rem] leading-snug text-ink">
-                        {v}
-                      </dd>
-                    </div>
-                  ))}
-                </dl>
-              </div>
-            </article>
-          </Reveal>
+              </Reveal>
+            ))}
+          </div>
         </div>
       </section>
 
-      {/* ── The principle (the single dark interlude) ─────────────────── */}
-      <section className="relative flex min-h-[70dvh] items-center overflow-hidden bg-indigo px-6 py-32 sm:px-8">
-        <div className="absolute inset-x-0 top-0 h-px bg-gold/30" />
-        <div className="absolute inset-x-0 bottom-0 h-px bg-gold/30" />
-        <div className="mx-auto max-w-3xl text-center">
-          <Lines
-            lines={["A forecast that cannot fail", "is not a forecast."]}
-            className="font-serif text-[clamp(2rem,5vw,3.6rem)] font-light leading-[1.12] text-marble-bright text-balance"
-          />
-          <Reveal delay={0.4}>
-            <p className="mx-auto mt-9 max-w-xl font-sans text-[1.04rem] leading-relaxed text-marble-bright/70 text-pretty">
-              Each of ours carries its own undoing in advance, and is scored against
-              what happened. We would rather be precisely wrong than vaguely right.
+      {/* ── Leak-free by discipline (dark) ──────────────────────────────────── */}
+      <section id="about" className="border-t border-line bg-dark">
+        <div className="mx-auto max-w-[1280px] px-6 py-32 lg:px-14">
+          <div className="grid gap-12 md:grid-cols-2 md:items-center">
+            <Reveal>
+              <span className="eyebrow">The lab</span>
+              <h2 className="display mt-4 text-[clamp(2rem,3.6vw,3rem)] text-fg">
+                Leak-free by discipline. The honesty is the credential.
+              </h2>
+            </Reveal>
+            <Reveal delay={0.1}>
+              <p className="text-base leading-relaxed text-fg-soft">
+                We do not deal in vision decks. We commit to a number, lock it, and let the score
+                settle the argument. The one rule we never bend is leak control: a forecast is only
+                worth something if the model could not already know the answer, so everything is dated
+                and nothing is graded on what it could have read after the fact. It is the only
+                credential worth having in this work, and it is how we intend to win.
+              </p>
+            </Reveal>
+          </div>
+        </div>
+      </section>
+
+      {/* ── Closing CTA (cream) ─────────────────────────────────────────────── */}
+      <section className="bg-cream text-ink">
+        <div className="mx-auto max-w-[1280px] px-6 py-36 text-center lg:px-14">
+          <Reveal>
+            <h2 className="display mx-auto max-w-3xl text-[clamp(2.4rem,5vw,3.8rem)] text-ink">
+              The future, called early — and scored when it arrives.
+            </h2>
+            <p className="mx-auto mt-6 max-w-xl text-base leading-relaxed text-ink-soft">
+              Point us at your domain and we will tell you where the binding constraint moves next, and
+              the exact number that would tell you we got it wrong.
             </p>
+            <div className="mt-9 flex justify-center">
+              <a href="mailto:research@vaticinus.com?subject=Working%20with%20Vaticinus" className="pill-primary">
+                Talk to the lab
+              </a>
+            </div>
           </Reveal>
         </div>
       </section>
 
-      {/* ── The scoreboard (base rate by kind) ────────────────────────── */}
-      <section className="relative px-6 py-24 sm:px-8 sm:py-28">
-        <div className="mx-auto max-w-6xl">
-          <div className="grid items-start gap-12 md:grid-cols-12">
-            <div className="md:col-span-5">
-              <Reveal>
-                <h2 className="font-serif text-[clamp(1.9rem,4vw,3rem)] font-light leading-[1.1] text-ink text-balance">
-                  We keep the score.
-                </h2>
-              </Reveal>
-              <Reveal delay={0.15}>
-                <p className="mt-6 max-w-sm font-sans text-[1.04rem] leading-relaxed text-ink-soft text-pretty">
-                  Every call folds into a base rate: how often a kind of mispricing
-                  actually pays. This is measured, not asserted.
-                </p>
-              </Reveal>
-            </div>
-
-            <Reveal delay={0.1} className="md:col-span-6 md:col-start-7">
-              <div className="border-t border-line">
-                {[
-                  ["Constraint one layer down", 100],
-                  ["Cost-curve breakout", 100],
-                  ["Regime change", 25],
-                  ["Horizon mispricing", 0],
-                  ["Hot narrative, over-priced", 0],
-                ].map(([label, pct]) => (
-                  <div
-                    key={label as string}
-                    className="flex items-baseline justify-between gap-6 border-b border-line py-4"
-                  >
-                    <span className="font-sans text-[0.98rem] text-ink">{label}</span>
-                    <span className="tnum font-display text-xl text-gold">{pct}%</span>
-                  </div>
-                ))}
-              </div>
-              <p className="mt-5 font-sans text-[0.82rem] leading-relaxed text-ink-soft">
-                Retrodiction on a closed historical set. The live record is being
-                built, one dated call at a time.
-              </p>
-            </Reveal>
+      {/* ── Footer (dark) ───────────────────────────────────────────────────── */}
+      <footer className="border-t border-line bg-dark">
+        <div className="mx-auto max-w-[1280px] px-6 py-14 lg:px-14">
+          <div className="flex flex-col items-start justify-between gap-6 md:flex-row md:items-center">
+            <a href="#top" className="flex items-center gap-2 text-fg">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden>
+                <path d="M12 2.2 20.5 7v10L12 21.8 3.5 17V7L12 2.2Z" stroke="currentColor" strokeWidth="1.6" strokeLinejoin="round" />
+                <path d="M12 7.5 16.4 10v4L12 16.5 7.6 14v-4L12 7.5Z" fill="currentColor" />
+              </svg>
+              <span className="display text-base">vaticinus</span>
+            </a>
+            <nav className="flex flex-wrap gap-6 text-sm text-fg-soft">
+              <a href="#method" className="transition-colors hover:text-fg">Method</a>
+              <a href="#record" className="transition-colors hover:text-fg">Record</a>
+              <a href="#about" className="transition-colors hover:text-fg">The lab</a>
+              <a href="mailto:research@vaticinus.com" className="transition-colors hover:text-fg">
+                research@vaticinus.com
+              </a>
+            </nav>
           </div>
-        </div>
-      </section>
-
-      {/* ── Discipline (closing statement over marble) ────────────────── */}
-      <section className="relative flex min-h-[78dvh] items-center overflow-hidden px-6 py-32 sm:px-8">
-        <div
-          className="absolute inset-0 -z-[1] bg-cover bg-center"
-          style={{ backgroundImage: "url('/images/discipline.webp')" }}
-        />
-        <div className="absolute inset-0 -z-[1] bg-gradient-to-r from-marble via-marble/82 to-marble/25" />
-        <div className="mx-auto w-full max-w-6xl">
-          <div className="max-w-2xl">
-            <Lines
-              lines={["How we measure is ours.", "That it can be checked is yours."]}
-              className="font-serif text-[clamp(1.9rem,4.4vw,3.2rem)] font-light leading-[1.14] text-ink text-balance"
-            />
-            <Reveal delay={0.3}>
-              <p className="mt-7 max-w-lg font-sans text-[1.04rem] leading-relaxed text-ink-soft text-pretty">
-                What we publish is a discipline, not a narrative. Every forecast
-                names the date it will be judged and the condition that would prove
-                it wrong. We do not narrate. We resolve.
-              </p>
-              <div className="mt-9">
-                <AccessLink />
-              </div>
-            </Reveal>
+          <div className="mt-8 border-t border-line pt-6 text-xs text-fg-dim">
+            © 2026 Vaticinus. A forecasting research lab in Berlin. Vati is our model, graded in public.
           </div>
-        </div>
-      </section>
-
-      {/* ── Footer ────────────────────────────────────────────────────── */}
-      <footer className="relative border-t border-line px-6 py-16 sm:px-8">
-        <div className="mx-auto flex max-w-6xl flex-col items-center gap-4 text-center">
-          <span className="font-display text-lg tracking-monument text-ink">
-            VATICINUS
-          </span>
-          <span className="font-serif text-base italic text-gold">
-            We keep the score.
-          </span>
-          <span className="font-sans text-[0.68rem] uppercase tracking-[0.28em] text-ink-soft">
-            vaticinus.com
-          </span>
         </div>
       </footer>
-    </main>
+    </div>
   );
 }

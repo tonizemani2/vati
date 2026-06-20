@@ -1,0 +1,1421 @@
+{
+  "nodes": [
+    {
+      "id": "file:engine/forecastbench/assemble.py",
+      "type": "file",
+      "name": "assemble.py",
+      "filePath": "engine/forecastbench/assemble.py",
+      "summary": "assemble.py is a code asset in the forecasting engine. It contains 7 functions, 1 internal import.",
+      "tags": [
+        "forecasting-engine",
+        "forecasting",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/forecastbench/assemble.py:_pp",
+      "type": "function",
+      "name": "_pp",
+      "filePath": "engine/forecastbench/assemble.py",
+      "lineRange": [
+        49,
+        50
+      ],
+      "summary": "Defines _pp in assemble.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "assemble"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/assemble.py:_numeric_trace",
+      "type": "function",
+      "name": "_numeric_trace",
+      "filePath": "engine/forecastbench/assemble.py",
+      "lineRange": [
+        53,
+        59
+      ],
+      "summary": "Defines _numeric_trace in assemble.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "assemble"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/assemble.py:_market_trace",
+      "type": "function",
+      "name": "_market_trace",
+      "filePath": "engine/forecastbench/assemble.py",
+      "lineRange": [
+        62,
+        66
+      ],
+      "summary": "Defines _market_trace in assemble.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "assemble"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/assemble.py:_user",
+      "type": "function",
+      "name": "_user",
+      "filePath": "engine/forecastbench/assemble.py",
+      "lineRange": [
+        69,
+        78
+      ],
+      "summary": "Defines _user in assemble.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "assemble"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/assemble.py:_row",
+      "type": "function",
+      "name": "_row",
+      "filePath": "engine/forecastbench/assemble.py",
+      "lineRange": [
+        81,
+        84
+      ],
+      "summary": "Defines _row in assemble.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "assemble"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/assemble.py:_is_eval",
+      "type": "function",
+      "name": "_is_eval",
+      "filePath": "engine/forecastbench/assemble.py",
+      "lineRange": [
+        87,
+        90
+      ],
+      "summary": "Defines _is_eval in assemble.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "assemble"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/assemble.py:build",
+      "type": "function",
+      "name": "build",
+      "filePath": "engine/forecastbench/assemble.py",
+      "lineRange": [
+        93,
+        188
+      ],
+      "summary": "Defines build in assemble.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "assemble"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:engine/forecastbench/calib.py",
+      "type": "file",
+      "name": "calib.py",
+      "filePath": "engine/forecastbench/calib.py",
+      "summary": "calib.py is a code asset in the forecasting engine. It contains 7 functions.",
+      "tags": [
+        "forecasting-engine",
+        "forecasting",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/forecastbench/calib.py:_pav",
+      "type": "function",
+      "name": "_pav",
+      "filePath": "engine/forecastbench/calib.py",
+      "lineRange": [
+        29,
+        47
+      ],
+      "summary": "Defines _pav in calib.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "calib"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/calib.py:_fit_map",
+      "type": "function",
+      "name": "_fit_map",
+      "filePath": "engine/forecastbench/calib.py",
+      "lineRange": [
+        50,
+        63
+      ],
+      "summary": "Defines _fit_map in calib.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "calib"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/calib.py:_apply",
+      "type": "function",
+      "name": "_apply",
+      "filePath": "engine/forecastbench/calib.py",
+      "lineRange": [
+        66,
+        80
+      ],
+      "summary": "Defines _apply in calib.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "calib"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/calib.py:_brier",
+      "type": "function",
+      "name": "_brier",
+      "filePath": "engine/forecastbench/calib.py",
+      "lineRange": [
+        83,
+        84
+      ],
+      "summary": "Defines _brier in calib.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "calib"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/calib.py:_ece",
+      "type": "function",
+      "name": "_ece",
+      "filePath": "engine/forecastbench/calib.py",
+      "lineRange": [
+        87,
+        98
+      ],
+      "summary": "Defines _ece in calib.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "calib"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/calib.py:_auc",
+      "type": "function",
+      "name": "_auc",
+      "filePath": "engine/forecastbench/calib.py",
+      "lineRange": [
+        101,
+        107
+      ],
+      "summary": "Defines _auc in calib.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "calib"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/calib.py:build",
+      "type": "function",
+      "name": "build",
+      "filePath": "engine/forecastbench/calib.py",
+      "lineRange": [
+        110,
+        148
+      ],
+      "summary": "Defines build in calib.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "calib"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:engine/forecastbench/corpus.py",
+      "type": "file",
+      "name": "corpus.py",
+      "filePath": "engine/forecastbench/corpus.py",
+      "summary": "corpus.py is a code asset in the forecasting engine. It contains 4 functions.",
+      "tags": [
+        "forecasting-engine",
+        "forecasting",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/forecastbench/corpus.py:_load",
+      "type": "function",
+      "name": "_load",
+      "filePath": "engine/forecastbench/corpus.py",
+      "lineRange": [
+        25,
+        29
+      ],
+      "summary": "Defines _load in corpus.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "corpus"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/corpus.py:_report",
+      "type": "function",
+      "name": "_report",
+      "filePath": "engine/forecastbench/corpus.py",
+      "lineRange": [
+        32,
+        40
+      ],
+      "summary": "Defines _report in corpus.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "corpus"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/corpus.py:_cap_domain",
+      "type": "function",
+      "name": "_cap_domain",
+      "filePath": "engine/forecastbench/corpus.py",
+      "lineRange": [
+        43,
+        58
+      ],
+      "summary": "Defines _cap_domain in corpus.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entry-point",
+        "corpus"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/corpus.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "engine/forecastbench/corpus.py",
+      "lineRange": [
+        61,
+        112
+      ],
+      "summary": "Defines main in corpus.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entry-point",
+        "corpus"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:engine/forecastbench/crowd.py",
+      "type": "file",
+      "name": "crowd.py",
+      "filePath": "engine/forecastbench/crowd.py",
+      "summary": "crowd.py is a code asset in the forecasting engine. It contains 7 functions.",
+      "tags": [
+        "forecasting-engine",
+        "forecasting",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/forecastbench/crowd.py:_iso_to_ms",
+      "type": "function",
+      "name": "_iso_to_ms",
+      "filePath": "engine/forecastbench/crowd.py",
+      "lineRange": [
+        47,
+        48
+      ],
+      "summary": "Defines _iso_to_ms in crowd.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "crowd"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/crowd.py:_ms_to_iso",
+      "type": "function",
+      "name": "_ms_to_iso",
+      "filePath": "engine/forecastbench/crowd.py",
+      "lineRange": [
+        51,
+        52
+      ],
+      "summary": "Defines _ms_to_iso in crowd.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "crowd"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/crowd.py:_bets_page",
+      "type": "function",
+      "name": "_bets_page",
+      "filePath": "engine/forecastbench/crowd.py",
+      "lineRange": [
+        55,
+        63
+      ],
+      "summary": "Defines _bets_page in crowd.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "crowd"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/crowd.py:_crowd_at_freeze",
+      "type": "function",
+      "name": "_crowd_at_freeze",
+      "filePath": "engine/forecastbench/crowd.py",
+      "lineRange": [
+        66,
+        87
+      ],
+      "summary": "Defines _crowd_at_freeze in crowd.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "crowd"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/crowd.py:_liquidity",
+      "type": "function",
+      "name": "_liquidity",
+      "filePath": "engine/forecastbench/crowd.py",
+      "lineRange": [
+        93,
+        99
+      ],
+      "summary": "Defines _liquidity in crowd.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "crowd"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/crowd.py:_enrich_row",
+      "type": "function",
+      "name": "_enrich_row",
+      "filePath": "engine/forecastbench/crowd.py",
+      "lineRange": [
+        102,
+        133
+      ],
+      "summary": "Defines _enrich_row in crowd.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "crowd"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/crowd.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "engine/forecastbench/crowd.py",
+      "lineRange": [
+        136,
+        185
+      ],
+      "summary": "Defines main in crowd.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entry-point",
+        "crowd"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:engine/forecastbench/curate.py",
+      "type": "file",
+      "name": "curate.py",
+      "filePath": "engine/forecastbench/curate.py",
+      "summary": "curate.py is a code asset in the forecasting engine. It contains 10 functions.",
+      "tags": [
+        "forecasting-engine",
+        "forecasting",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/forecastbench/curate.py:_load",
+      "type": "function",
+      "name": "_load",
+      "filePath": "engine/forecastbench/curate.py",
+      "lineRange": [
+        47,
+        49
+      ],
+      "summary": "Defines _load in curate.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "curate"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/curate.py:_sig",
+      "type": "function",
+      "name": "_sig",
+      "filePath": "engine/forecastbench/curate.py",
+      "lineRange": [
+        52,
+        58
+      ],
+      "summary": "Defines _sig in curate.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "curate"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/curate.py:_richness",
+      "type": "function",
+      "name": "_richness",
+      "filePath": "engine/forecastbench/curate.py",
+      "lineRange": [
+        61,
+        64
+      ],
+      "summary": "Defines _richness in curate.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "curate"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/curate.py:_forecasters",
+      "type": "function",
+      "name": "_forecasters",
+      "filePath": "engine/forecastbench/curate.py",
+      "lineRange": [
+        67,
+        69
+      ],
+      "summary": "Defines _forecasters in curate.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "curate"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/curate.py:_dedup_market",
+      "type": "function",
+      "name": "_dedup_market",
+      "filePath": "engine/forecastbench/curate.py",
+      "lineRange": [
+        72,
+        82
+      ],
+      "summary": "Defines _dedup_market in curate.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "curate"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/curate.py:_balanced_cap",
+      "type": "function",
+      "name": "_balanced_cap",
+      "filePath": "engine/forecastbench/curate.py",
+      "lineRange": [
+        85,
+        90
+      ],
+      "summary": "Defines _balanced_cap in curate.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "curate"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/curate.py:_ref_base_rates",
+      "type": "function",
+      "name": "_ref_base_rates",
+      "filePath": "engine/forecastbench/curate.py",
+      "lineRange": [
+        93,
+        111
+      ],
+      "summary": "Defines _ref_base_rates in curate.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "curate"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/curate.py:_enrich",
+      "type": "function",
+      "name": "_enrich",
+      "filePath": "engine/forecastbench/curate.py",
+      "lineRange": [
+        114,
+        147
+      ],
+      "summary": "Defines _enrich in curate.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "curate"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/curate.py:_report",
+      "type": "function",
+      "name": "_report",
+      "filePath": "engine/forecastbench/curate.py",
+      "lineRange": [
+        150,
+        157
+      ],
+      "summary": "Defines _report in curate.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "curate"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/curate.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "engine/forecastbench/curate.py",
+      "lineRange": [
+        160,
+        206
+      ],
+      "summary": "Defines main in curate.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entry-point",
+        "curate"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:engine/forecastbench/assemble.py",
+      "target": "function:engine/forecastbench/assemble.py:_pp",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/assemble.py",
+      "target": "function:engine/forecastbench/assemble.py:_pp",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/assemble.py",
+      "target": "function:engine/forecastbench/assemble.py:_numeric_trace",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/assemble.py",
+      "target": "function:engine/forecastbench/assemble.py:_numeric_trace",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/assemble.py",
+      "target": "function:engine/forecastbench/assemble.py:_market_trace",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/assemble.py",
+      "target": "function:engine/forecastbench/assemble.py:_market_trace",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/assemble.py",
+      "target": "function:engine/forecastbench/assemble.py:_user",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/assemble.py",
+      "target": "function:engine/forecastbench/assemble.py:_user",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/assemble.py",
+      "target": "function:engine/forecastbench/assemble.py:_row",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/assemble.py",
+      "target": "function:engine/forecastbench/assemble.py:_row",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/assemble.py",
+      "target": "function:engine/forecastbench/assemble.py:_is_eval",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/assemble.py",
+      "target": "function:engine/forecastbench/assemble.py:_is_eval",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/assemble.py",
+      "target": "function:engine/forecastbench/assemble.py:build",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/assemble.py",
+      "target": "function:engine/forecastbench/assemble.py:build",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/calib.py",
+      "target": "function:engine/forecastbench/calib.py:_pav",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/calib.py",
+      "target": "function:engine/forecastbench/calib.py:_pav",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/calib.py",
+      "target": "function:engine/forecastbench/calib.py:_fit_map",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/calib.py",
+      "target": "function:engine/forecastbench/calib.py:_fit_map",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/calib.py",
+      "target": "function:engine/forecastbench/calib.py:_apply",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/calib.py",
+      "target": "function:engine/forecastbench/calib.py:_apply",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/calib.py",
+      "target": "function:engine/forecastbench/calib.py:_brier",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/calib.py",
+      "target": "function:engine/forecastbench/calib.py:_brier",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/calib.py",
+      "target": "function:engine/forecastbench/calib.py:_ece",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/calib.py",
+      "target": "function:engine/forecastbench/calib.py:_ece",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/calib.py",
+      "target": "function:engine/forecastbench/calib.py:_auc",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/calib.py",
+      "target": "function:engine/forecastbench/calib.py:_auc",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/calib.py",
+      "target": "function:engine/forecastbench/calib.py:build",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/calib.py",
+      "target": "function:engine/forecastbench/calib.py:build",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/corpus.py",
+      "target": "function:engine/forecastbench/corpus.py:_load",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/corpus.py",
+      "target": "function:engine/forecastbench/corpus.py:_load",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/corpus.py",
+      "target": "function:engine/forecastbench/corpus.py:_report",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/corpus.py",
+      "target": "function:engine/forecastbench/corpus.py:_report",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/corpus.py",
+      "target": "function:engine/forecastbench/corpus.py:_cap_domain",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/corpus.py",
+      "target": "function:engine/forecastbench/corpus.py:_cap_domain",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/corpus.py",
+      "target": "function:engine/forecastbench/corpus.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/corpus.py",
+      "target": "function:engine/forecastbench/corpus.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/crowd.py",
+      "target": "function:engine/forecastbench/crowd.py:_iso_to_ms",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/crowd.py",
+      "target": "function:engine/forecastbench/crowd.py:_iso_to_ms",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/crowd.py",
+      "target": "function:engine/forecastbench/crowd.py:_ms_to_iso",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/crowd.py",
+      "target": "function:engine/forecastbench/crowd.py:_ms_to_iso",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/crowd.py",
+      "target": "function:engine/forecastbench/crowd.py:_bets_page",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/crowd.py",
+      "target": "function:engine/forecastbench/crowd.py:_bets_page",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/crowd.py",
+      "target": "function:engine/forecastbench/crowd.py:_crowd_at_freeze",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/crowd.py",
+      "target": "function:engine/forecastbench/crowd.py:_crowd_at_freeze",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/crowd.py",
+      "target": "function:engine/forecastbench/crowd.py:_liquidity",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/crowd.py",
+      "target": "function:engine/forecastbench/crowd.py:_liquidity",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/crowd.py",
+      "target": "function:engine/forecastbench/crowd.py:_enrich_row",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/crowd.py",
+      "target": "function:engine/forecastbench/crowd.py:_enrich_row",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/crowd.py",
+      "target": "function:engine/forecastbench/crowd.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/crowd.py",
+      "target": "function:engine/forecastbench/crowd.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/curate.py",
+      "target": "function:engine/forecastbench/curate.py:_load",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/curate.py",
+      "target": "function:engine/forecastbench/curate.py:_load",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/curate.py",
+      "target": "function:engine/forecastbench/curate.py:_sig",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/curate.py",
+      "target": "function:engine/forecastbench/curate.py:_sig",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/curate.py",
+      "target": "function:engine/forecastbench/curate.py:_richness",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/curate.py",
+      "target": "function:engine/forecastbench/curate.py:_richness",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/curate.py",
+      "target": "function:engine/forecastbench/curate.py:_forecasters",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/curate.py",
+      "target": "function:engine/forecastbench/curate.py:_forecasters",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/curate.py",
+      "target": "function:engine/forecastbench/curate.py:_dedup_market",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/curate.py",
+      "target": "function:engine/forecastbench/curate.py:_dedup_market",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/curate.py",
+      "target": "function:engine/forecastbench/curate.py:_balanced_cap",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/curate.py",
+      "target": "function:engine/forecastbench/curate.py:_balanced_cap",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/curate.py",
+      "target": "function:engine/forecastbench/curate.py:_ref_base_rates",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/curate.py",
+      "target": "function:engine/forecastbench/curate.py:_ref_base_rates",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/curate.py",
+      "target": "function:engine/forecastbench/curate.py:_enrich",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/curate.py",
+      "target": "function:engine/forecastbench/curate.py:_enrich",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/curate.py",
+      "target": "function:engine/forecastbench/curate.py:_report",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/curate.py",
+      "target": "function:engine/forecastbench/curate.py:_report",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/curate.py",
+      "target": "function:engine/forecastbench/curate.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/curate.py",
+      "target": "function:engine/forecastbench/curate.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/assemble.py",
+      "target": "file:engine/forecastbench/calib.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "function:engine/forecastbench/assemble.py:_numeric_trace",
+      "target": "function:engine/forecastbench/assemble.py:_pp",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/assemble.py:_market_trace",
+      "target": "function:engine/forecastbench/assemble.py:_pp",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/assemble.py:_user",
+      "target": "function:engine/forecastbench/assemble.py:_pp",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/assemble.py:build",
+      "target": "function:engine/forecastbench/assemble.py:_user",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/assemble.py:build",
+      "target": "function:engine/forecastbench/assemble.py:_numeric_trace",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/assemble.py:build",
+      "target": "function:engine/forecastbench/assemble.py:_row",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/assemble.py:build",
+      "target": "function:engine/forecastbench/assemble.py:_is_eval",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/assemble.py:build",
+      "target": "function:engine/forecastbench/calib.py:_fit_map",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/assemble.py:build",
+      "target": "function:engine/forecastbench/calib.py:_apply",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/assemble.py:build",
+      "target": "function:engine/forecastbench/assemble.py:_market_trace",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/assemble.py:build",
+      "target": "function:engine/forecastbench/assemble.py:_pp",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/assemble.py",
+      "target": "function:engine/forecastbench/calib.py:_brier",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/assemble.py",
+      "target": "function:engine/forecastbench/calib.py:_ece",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/assemble.py",
+      "target": "function:engine/forecastbench/calib.py:_auc",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/calib.py:_fit_map",
+      "target": "function:engine/forecastbench/calib.py:_pav",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/calib.py:build",
+      "target": "function:engine/forecastbench/calib.py:_fit_map",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/calib.py:build",
+      "target": "function:engine/forecastbench/calib.py:_apply",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/calib.py:build",
+      "target": "function:engine/forecastbench/calib.py:_brier",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/calib.py:build",
+      "target": "function:engine/forecastbench/calib.py:_ece",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/calib.py:build",
+      "target": "function:engine/forecastbench/calib.py:_auc",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/corpus.py:main",
+      "target": "function:engine/forecastbench/corpus.py:_load",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/corpus.py:main",
+      "target": "function:engine/forecastbench/corpus.py:_cap_domain",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/corpus.py:main",
+      "target": "function:engine/forecastbench/corpus.py:_report",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/crowd.py:_crowd_at_freeze",
+      "target": "function:engine/forecastbench/crowd.py:_bets_page",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/crowd.py:_enrich_row",
+      "target": "function:engine/forecastbench/crowd.py:_iso_to_ms",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/crowd.py:_enrich_row",
+      "target": "function:engine/forecastbench/crowd.py:_crowd_at_freeze",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/crowd.py:_enrich_row",
+      "target": "function:engine/forecastbench/crowd.py:_liquidity",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/crowd.py:_enrich_row",
+      "target": "function:engine/forecastbench/crowd.py:_ms_to_iso",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/curate.py:_dedup_market",
+      "target": "function:engine/forecastbench/curate.py:_sig",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/curate.py:_dedup_market",
+      "target": "function:engine/forecastbench/curate.py:_richness",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/curate.py:main",
+      "target": "function:engine/forecastbench/curate.py:_load",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/curate.py:main",
+      "target": "function:engine/forecastbench/curate.py:_dedup_market",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/curate.py:main",
+      "target": "function:engine/forecastbench/curate.py:_balanced_cap",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/curate.py:main",
+      "target": "function:engine/forecastbench/curate.py:_ref_base_rates",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/curate.py:main",
+      "target": "function:engine/forecastbench/curate.py:_enrich",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/curate.py:main",
+      "target": "function:engine/forecastbench/curate.py:_report",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

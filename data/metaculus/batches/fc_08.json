@@ -1,0 +1,50 @@
+[
+ {
+  "question_id": 7452,
+  "type": "binary",
+  "prob": 0.12,
+  "reasoning": "Direct US-Russia war crossing 1,000 mutual battle deaths was avoided even at Cold War peak because both sides are nuclear-armed and rationally fear escalation, and proxy deaths (Ukraine) explicitly don't count. But the 24-year horizon, collapse of New START (Feb 2026) leaving no arms-control guardrails, and sustained NATO-Russia friction give a non-trivial tail."
+ },
+ {
+  "question_id": 8399,
+  "type": "binary",
+  "prob": 0.28,
+  "reasoning": "Only 9 states are nuclear-armed and adding a 10th deployable arsenal is historically rare (last was 2006). Iran is the most plausible 10th with near-zero breakout time post-Feb-2026 strikes, but it still has not weaponized and IAEA access ended; a 9-year window gives a real but minority chance via Iran or a knock-on proliferator."
+ },
+ {
+  "question_id": 8398,
+  "type": "binary",
+  "prob": 0.4,
+  "reasoning": "Conditional on a >100-detonation conflict, the toll depends heavily on counterforce vs counter-value targeting; 100 warheads on dense cities could promptly kill 100M+, but many would hit military targets and prompt (within-1-month) deaths from 100 detonations more often land in the tens of millions, with the bigger toll arriving later via fallout and famine."
+ },
+ {
+  "question_id": 7457,
+  "type": "numeric",
+  "percentiles": {"0.05": 0, "0.1": 0, "0.25": 0, "0.5": 0, "0.75": 1, "0.9": 3, "0.95": 25},
+  "reasoning": "Unconditional: most probability mass is on zero offensive detonations through 2050 (no warhead has been used in anger since 1945). The right tail covers a single demonstrative/terror use or a limited regional exchange, with a thin tail toward a large strategic exchange of thousands."
+ },
+ {
+  "question_id": 8377,
+  "type": "binary",
+  "prob": 0.03,
+  "reasoning": "Global stockpiles are ~12,300 and roughly flat-to-slowly-declining; reaching >20,000 by end-2029 would require ~8,000 net new warheads in under four years, far beyond even China's expansion plus any post-New-START buildup. Essentially structurally impossible on this timeline."
+ },
+ {
+  "question_id": 7811,
+  "type": "numeric",
+  "percentiles": {"0.05": 1, "0.1": 1, "0.25": 1, "0.5": 3, "0.75": 12, "0.9": 100, "0.95": 800},
+  "reasoning": "Conditional on at least one offensive detonation, the mode is a single use or very limited exchange (1-3 weapons), but conditioning on use raises the odds that escalation follows, producing a long right tail toward a regional (tens) or strategic (hundreds-to-thousands) exchange."
+ },
+ {
+  "question_id": 7464,
+  "type": "numeric",
+  "percentiles": {"0.05": 1, "0.1": 2, "0.25": 5, "0.5": 16, "0.75": 50, "0.9": 120, "0.95": 165},
+  "reasoning": "Median of peer-reviewed studies depends on the next conflict's scale: regional India-Pakistan modeling clusters around 5-16 Tg, while full US-Russia exchange studies (Robock/Coupe) reach 150+ Tg, with skeptics (Reisner) far lower. Median anchored near a regional/mid exchange with a wide tail toward superpower-war estimates."
+ },
+ {
+  "question_id": 8383,
+  "type": "binary",
+  "prob": 0.33,
+  "reasoning": "Conditional on a >100-detonation conflict by 2030, a >=3C global drop requires large soot injection (roughly the high-end nuclear-winter studies); 100 detonations sits at the threshold where modeled cooling spans ~1-5C depending on firestorm assumptions and targeting, and the contested Reisner-style critiques pull the central estimate below 3C."
+ }
+]

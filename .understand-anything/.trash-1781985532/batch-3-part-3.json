@@ -1,0 +1,927 @@
+{
+  "nodes": [
+    {
+      "id": "file:engine/metaculus/research.py",
+      "type": "file",
+      "name": "research.py",
+      "filePath": "engine/metaculus/research.py",
+      "summary": "research.py is a code asset in the forecasting engine. It contains 3 functions, 5 internal imports.",
+      "tags": [
+        "forecasting-engine",
+        "code",
+        "file",
+        "research"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/metaculus/research.py:_gen_queries",
+      "type": "function",
+      "name": "_gen_queries",
+      "filePath": "engine/metaculus/research.py",
+      "lineRange": [
+        27,
+        45
+      ],
+      "summary": "Defines _gen_queries in research.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "research"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/metaculus/research.py:_px",
+      "type": "function",
+      "name": "_px",
+      "filePath": "engine/metaculus/research.py",
+      "lineRange": [
+        48,
+        50
+      ],
+      "summary": "Defines _px in research.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "research"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/metaculus/research.py:gather",
+      "type": "function",
+      "name": "gather",
+      "filePath": "engine/metaculus/research.py",
+      "lineRange": [
+        53,
+        99
+      ],
+      "summary": "Defines gather in research.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "research"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:engine/metaculus/run.py",
+      "type": "file",
+      "name": "run.py",
+      "filePath": "engine/metaculus/run.py",
+      "summary": "run.py is a code asset in the forecasting engine. It contains 5 functions, 3 internal imports.",
+      "tags": [
+        "forecasting-engine",
+        "code",
+        "file",
+        "run"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/metaculus/run.py:_opt",
+      "type": "function",
+      "name": "_opt",
+      "filePath": "engine/metaculus/run.py",
+      "lineRange": [
+        32,
+        33
+      ],
+      "summary": "Defines _opt in run.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "run"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/metaculus/run.py:_selftest",
+      "type": "function",
+      "name": "_selftest",
+      "filePath": "engine/metaculus/run.py",
+      "lineRange": [
+        36,
+        52
+      ],
+      "summary": "Defines _selftest in run.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "run"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/metaculus/run.py:_log_path",
+      "type": "function",
+      "name": "_log_path",
+      "filePath": "engine/metaculus/run.py",
+      "lineRange": [
+        55,
+        56
+      ],
+      "summary": "Defines _log_path in run.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "run"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/metaculus/run.py:_already_done",
+      "type": "function",
+      "name": "_already_done",
+      "filePath": "engine/metaculus/run.py",
+      "lineRange": [
+        59,
+        62
+      ],
+      "summary": "Defines _already_done in run.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "run"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/metaculus/run.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "engine/metaculus/run.py",
+      "lineRange": [
+        65,
+        125
+      ],
+      "summary": "Defines main in run.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entry-point",
+        "run"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:engine/pope/mega_deepseek.py",
+      "type": "file",
+      "name": "mega_deepseek.py",
+      "filePath": "engine/pope/mega_deepseek.py",
+      "summary": "mega_deepseek.py is a code asset in the forecasting engine. It contains 6 functions, 6 internal imports.",
+      "tags": [
+        "forecasting-engine",
+        "code",
+        "file",
+        "mega-deepseek"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:engine/pope/mega_deepseek.py:_llm",
+      "type": "function",
+      "name": "_llm",
+      "filePath": "engine/pope/mega_deepseek.py",
+      "lineRange": [
+        70,
+        83
+      ],
+      "summary": "Defines _llm in mega_deepseek.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "mega-deepseek"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/pope/mega_deepseek.py:_scrub",
+      "type": "function",
+      "name": "_scrub",
+      "filePath": "engine/pope/mega_deepseek.py",
+      "lineRange": [
+        86,
+        100
+      ],
+      "summary": "Defines _scrub in mega_deepseek.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "mega-deepseek"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/pope/mega_deepseek.py:_pool_map",
+      "type": "function",
+      "name": "_pool_map",
+      "filePath": "engine/pope/mega_deepseek.py",
+      "lineRange": [
+        103,
+        110
+      ],
+      "summary": "Defines _pool_map in mega_deepseek.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "mega-deepseek"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/pope/mega_deepseek.py:run",
+      "type": "function",
+      "name": "run",
+      "filePath": "engine/pope/mega_deepseek.py",
+      "lineRange": [
+        113,
+        300
+      ],
+      "summary": "Defines run in mega_deepseek.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entry-point",
+        "mega-deepseek"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/pope/mega_deepseek.py:_slug",
+      "type": "function",
+      "name": "_slug",
+      "filePath": "engine/pope/mega_deepseek.py",
+      "lineRange": [
+        303,
+        304
+      ],
+      "summary": "Defines _slug in mega_deepseek.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "mega-deepseek"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/pope/mega_deepseek.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "engine/pope/mega_deepseek.py",
+      "lineRange": [
+        307,
+        326
+      ],
+      "summary": "Defines main in mega_deepseek.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entry-point",
+        "mega-deepseek"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:engine/prophet/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "engine/prophet/__init__.py",
+      "summary": "__init__.py is a code asset in the forecasting engine.",
+      "tags": [
+        "forecasting-engine",
+        "code",
+        "file",
+        "init"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:engine/prophet/agent.py",
+      "type": "file",
+      "name": "agent.py",
+      "filePath": "engine/prophet/agent.py",
+      "summary": "agent.py is a code asset in the forecasting engine. It contains 5 functions, 3 internal imports.",
+      "tags": [
+        "forecasting-engine",
+        "code",
+        "file",
+        "agent"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/prophet/agent.py:_blend",
+      "type": "function",
+      "name": "_blend",
+      "filePath": "engine/prophet/agent.py",
+      "lineRange": [
+        52,
+        57
+      ],
+      "summary": "Defines _blend in agent.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "agent"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/prophet/agent.py:_to_q",
+      "type": "function",
+      "name": "_to_q",
+      "filePath": "engine/prophet/agent.py",
+      "lineRange": [
+        60,
+        67
+      ],
+      "summary": "Defines _to_q in agent.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "agent"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/prophet/agent.py:_market_prob",
+      "type": "function",
+      "name": "_market_prob",
+      "filePath": "engine/prophet/agent.py",
+      "lineRange": [
+        70,
+        86
+      ],
+      "summary": "Defines _market_prob in agent.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "agent"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/prophet/agent.py:_uniform",
+      "type": "function",
+      "name": "_uniform",
+      "filePath": "engine/prophet/agent.py",
+      "lineRange": [
+        89,
+        91
+      ],
+      "summary": "Defines _uniform in agent.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "agent"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/prophet/agent.py:predict",
+      "type": "function",
+      "name": "predict",
+      "filePath": "engine/prophet/agent.py",
+      "lineRange": [
+        94,
+        126
+      ],
+      "summary": "Defines predict in agent.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "agent"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:engine/metaculus/research.py",
+      "target": "function:engine/metaculus/research.py:_gen_queries",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/metaculus/research.py",
+      "target": "function:engine/metaculus/research.py:_gen_queries",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/metaculus/research.py",
+      "target": "function:engine/metaculus/research.py:_px",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/metaculus/research.py",
+      "target": "function:engine/metaculus/research.py:_px",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/metaculus/research.py",
+      "target": "function:engine/metaculus/research.py:gather",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/metaculus/research.py",
+      "target": "function:engine/metaculus/research.py:gather",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/metaculus/run.py",
+      "target": "function:engine/metaculus/run.py:_opt",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/metaculus/run.py",
+      "target": "function:engine/metaculus/run.py:_opt",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/metaculus/run.py",
+      "target": "function:engine/metaculus/run.py:_selftest",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/metaculus/run.py",
+      "target": "function:engine/metaculus/run.py:_selftest",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/metaculus/run.py",
+      "target": "function:engine/metaculus/run.py:_log_path",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/metaculus/run.py",
+      "target": "function:engine/metaculus/run.py:_log_path",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/metaculus/run.py",
+      "target": "function:engine/metaculus/run.py:_already_done",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/metaculus/run.py",
+      "target": "function:engine/metaculus/run.py:_already_done",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/metaculus/run.py",
+      "target": "function:engine/metaculus/run.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/metaculus/run.py",
+      "target": "function:engine/metaculus/run.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pope/mega_deepseek.py",
+      "target": "function:engine/pope/mega_deepseek.py:_llm",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/pope/mega_deepseek.py",
+      "target": "function:engine/pope/mega_deepseek.py:_llm",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pope/mega_deepseek.py",
+      "target": "function:engine/pope/mega_deepseek.py:_scrub",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/pope/mega_deepseek.py",
+      "target": "function:engine/pope/mega_deepseek.py:_scrub",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pope/mega_deepseek.py",
+      "target": "function:engine/pope/mega_deepseek.py:_pool_map",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/pope/mega_deepseek.py",
+      "target": "function:engine/pope/mega_deepseek.py:_pool_map",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pope/mega_deepseek.py",
+      "target": "function:engine/pope/mega_deepseek.py:run",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/pope/mega_deepseek.py",
+      "target": "function:engine/pope/mega_deepseek.py:run",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pope/mega_deepseek.py",
+      "target": "function:engine/pope/mega_deepseek.py:_slug",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/pope/mega_deepseek.py",
+      "target": "function:engine/pope/mega_deepseek.py:_slug",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pope/mega_deepseek.py",
+      "target": "function:engine/pope/mega_deepseek.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/pope/mega_deepseek.py",
+      "target": "function:engine/pope/mega_deepseek.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/prophet/agent.py",
+      "target": "function:engine/prophet/agent.py:_blend",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/prophet/agent.py",
+      "target": "function:engine/prophet/agent.py:_blend",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/prophet/agent.py",
+      "target": "function:engine/prophet/agent.py:_to_q",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/prophet/agent.py",
+      "target": "function:engine/prophet/agent.py:_to_q",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/prophet/agent.py",
+      "target": "function:engine/prophet/agent.py:_market_prob",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/prophet/agent.py",
+      "target": "function:engine/prophet/agent.py:_market_prob",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/prophet/agent.py",
+      "target": "function:engine/prophet/agent.py:_uniform",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/prophet/agent.py",
+      "target": "function:engine/prophet/agent.py:_uniform",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/prophet/agent.py",
+      "target": "function:engine/prophet/agent.py:predict",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/prophet/agent.py",
+      "target": "function:engine/prophet/agent.py:predict",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/metaculus/research.py",
+      "target": "file:engine/__init__.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/metaculus/research.py",
+      "target": "file:engine/adapters/__init__.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/metaculus/research.py",
+      "target": "file:engine/adapters/llm.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/metaculus/research.py",
+      "target": "file:engine/adapters/search.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/metaculus/research.py",
+      "target": "file:engine/db.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/metaculus/run.py",
+      "target": "file:engine/metaculus/__init__.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/metaculus/run.py",
+      "target": "file:engine/metaculus/api.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/metaculus/run.py",
+      "target": "file:engine/metaculus/forecast.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/pope/mega_deepseek.py",
+      "target": "file:engine/__init__.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/pope/mega_deepseek.py",
+      "target": "file:engine/adapters/llm.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/pope/mega_deepseek.py",
+      "target": "file:engine/db.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/pope/mega_deepseek.py",
+      "target": "file:engine/emergent_scan.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/pope/mega_deepseek.py",
+      "target": "file:engine/ground.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/pope/mega_deepseek.py",
+      "target": "file:engine/market.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/prophet/agent.py",
+      "target": "file:engine/forecastbench/ensemble.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/prophet/agent.py",
+      "target": "file:engine/metaculus/__init__.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/prophet/agent.py",
+      "target": "file:engine/metaculus/forecast.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "function:engine/metaculus/research.py:_gen_queries",
+      "target": "function:engine/metaculus/research.py:_px",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/metaculus/research.py:_px",
+      "target": "function:engine/adapters/search.py:_resolve_proxy",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/metaculus/research.py:gather",
+      "target": "function:engine/metaculus/research.py:_gen_queries",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/metaculus/run.py:main",
+      "target": "function:engine/metaculus/run.py:_opt",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/metaculus/run.py:main",
+      "target": "function:engine/metaculus/run.py:_selftest",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/metaculus/run.py:main",
+      "target": "function:engine/metaculus/run.py:_log_path",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/metaculus/run.py:main",
+      "target": "function:engine/metaculus/run.py:_already_done",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pope/mega_deepseek.py:_llm",
+      "target": "function:engine/adapters/llm.py:complete",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pope/mega_deepseek.py:_llm",
+      "target": "function:engine/emergent_scan.py:_extract_json",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pope/mega_deepseek.py",
+      "target": "function:engine/pope/mega_deepseek.py:_llm",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pope/mega_deepseek.py:run",
+      "target": "function:engine/pope/mega_deepseek.py:_pool_map",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pope/mega_deepseek.py:run",
+      "target": "function:engine/pope/mega_deepseek.py:_llm",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pope/mega_deepseek.py:run",
+      "target": "function:engine/pope/mega_deepseek.py:_scrub",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pope/mega_deepseek.py:main",
+      "target": "function:engine/pope/mega_deepseek.py:run",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pope/mega_deepseek.py:main",
+      "target": "function:engine/pope/mega_deepseek.py:_slug",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/prophet/agent.py:_blend",
+      "target": "function:engine/forecastbench/ensemble.py:_sigmoid",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/prophet/agent.py:_blend",
+      "target": "function:engine/forecastbench/ensemble.py:_logit",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/prophet/agent.py:predict",
+      "target": "function:engine/prophet/agent.py:_to_q",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/prophet/agent.py:predict",
+      "target": "function:engine/prophet/agent.py:_blend",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/prophet/agent.py:predict",
+      "target": "function:engine/prophet/agent.py:_market_prob",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

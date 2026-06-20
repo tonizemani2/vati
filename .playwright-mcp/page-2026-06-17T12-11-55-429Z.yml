@@ -1,0 +1,321 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - banner [ref=e8]:
+      - link "Stalwart Logo" [ref=e9] [cursor=pointer]:
+        - /url: /admin
+        - img "Stalwart Logo" [ref=e10]
+      - generic [ref=e14]:
+        - img
+        - textbox [ref=e15]
+      - generic [ref=e16]:
+        - button "Toggle theme" [ref=e17]:
+          - img
+        - button "User menu" [ref=e18]:
+          - img
+    - generic [ref=e19]:
+      - complementary [ref=e20]:
+        - navigation [ref=e22]:
+          - button "Dashboard" [ref=e23]:
+            - img
+            - generic [ref=e24]: Dashboard
+            - img
+          - button "Directory" [ref=e26]:
+            - img
+            - generic [ref=e27]: Directory
+            - img
+          - generic [ref=e28]:
+            - button "Domains" [expanded] [active] [ref=e29]:
+              - img
+              - generic [ref=e30]: Domains
+              - img
+            - generic [ref=e280]:
+              - button "Domains" [ref=e281]:
+                - generic [ref=e282]: Domains
+              - button "DKIM Signatures" [ref=e283]:
+                - generic [ref=e284]: DKIM Signatures
+          - button "Emails" [ref=e32]:
+            - img
+            - generic [ref=e33]: Emails
+            - img
+          - button "Reports" [ref=e35]:
+            - img
+            - generic [ref=e36]: Reports
+            - img
+          - button "Observability" [ref=e38]:
+            - img
+            - generic [ref=e39]: Observability
+            - img
+          - button "Tasks" [ref=e41]:
+            - img
+            - generic [ref=e42]: Tasks
+            - img
+          - button "Cluster" [ref=e43]:
+            - img
+            - generic [ref=e44]: Cluster
+          - button "Actions" [ref=e45]:
+            - img
+            - generic [ref=e46]: Actions
+        - generic [ref=e47]:
+          - button "Management" [ref=e48]:
+            - img
+          - button "Settings" [ref=e49]:
+            - img
+          - button "Account" [ref=e50]:
+            - img
+      - main [ref=e51]:
+        - generic [ref=e52]:
+          - generic [ref=e53]:
+            - generic [ref=e54]:
+              - heading "Accounts" [level=1] [ref=e55]
+              - paragraph [ref=e56]: Manage user accounts
+            - button "Create user" [ref=e58]:
+              - img
+              - text: Create user
+          - button "Filters" [ref=e60]:
+            - img
+            - text: Filters
+            - img
+          - table [ref=e63]:
+            - rowgroup [ref=e64]:
+              - row "Select all Email Address Full Name Created At Actions" [ref=e65]:
+                - columnheader "Select all" [ref=e66]:
+                  - checkbox "Select all" [ref=e67]
+                - columnheader "Email Address" [ref=e68]:
+                  - generic [ref=e69]: Email Address
+                - columnheader "Full Name" [ref=e70]:
+                  - generic [ref=e71]: Full Name
+                - columnheader "Created At" [ref=e72]:
+                  - generic [ref=e73]: Created At
+                - columnheader "Actions" [ref=e74]
+            - rowgroup [ref=e75]:
+              - row "Select item toni@useminingterminal.com Mining brand mailbox toni@useminingterminal.com 28/05/2026, 18:48:54" [ref=e76] [cursor=pointer]:
+                - cell "Select item" [ref=e77]:
+                  - checkbox "Select item" [ref=e78]
+                - cell "toni@useminingterminal.com" [ref=e79]
+                - cell "Mining brand mailbox toni@useminingterminal.com" [ref=e80]
+                - cell "28/05/2026, 18:48:54" [ref=e81]
+                - cell [ref=e82]:
+                  - button [ref=e83]:
+                    - img
+              - row "Select item toni@useminingterminal.co Mining brand mailbox toni@useminingterminal.co 28/05/2026, 18:48:54" [ref=e84] [cursor=pointer]:
+                - cell "Select item" [ref=e85]:
+                  - checkbox "Select item" [ref=e86]
+                - cell "toni@useminingterminal.co" [ref=e87]
+                - cell "Mining brand mailbox toni@useminingterminal.co" [ref=e88]
+                - cell "28/05/2026, 18:48:54" [ref=e89]
+                - cell [ref=e90]:
+                  - button [ref=e91]:
+                    - img
+              - row "Select item toni@tryminingterminal.com Mining brand mailbox toni@tryminingterminal.com 28/05/2026, 18:48:54" [ref=e92] [cursor=pointer]:
+                - cell "Select item" [ref=e93]:
+                  - checkbox "Select item" [ref=e94]
+                - cell "toni@tryminingterminal.com" [ref=e95]
+                - cell "Mining brand mailbox toni@tryminingterminal.com" [ref=e96]
+                - cell "28/05/2026, 18:48:54" [ref=e97]
+                - cell [ref=e98]:
+                  - button [ref=e99]:
+                    - img
+              - row "Select item toni@theminingterminal.co Mining brand mailbox toni@theminingterminal.co 28/05/2026, 18:48:54" [ref=e100] [cursor=pointer]:
+                - cell "Select item" [ref=e101]:
+                  - checkbox "Select item" [ref=e102]
+                - cell "toni@theminingterminal.co" [ref=e103]
+                - cell "Mining brand mailbox toni@theminingterminal.co" [ref=e104]
+                - cell "28/05/2026, 18:48:54" [ref=e105]
+                - cell [ref=e106]:
+                  - button [ref=e107]:
+                    - img
+              - row "Select item toni@miningterminal.co Mining brand mailbox toni@miningterminal.co 28/05/2026, 18:48:54" [ref=e108] [cursor=pointer]:
+                - cell "Select item" [ref=e109]:
+                  - checkbox "Select item" [ref=e110]
+                - cell "toni@miningterminal.co" [ref=e111]
+                - cell "Mining brand mailbox toni@miningterminal.co" [ref=e112]
+                - cell "28/05/2026, 18:48:54" [ref=e113]
+                - cell [ref=e114]:
+                  - button [ref=e115]:
+                    - img
+              - row "Select item toni@miningmacro.com Mining brand mailbox toni@miningmacro.com 28/05/2026, 18:48:54" [ref=e116] [cursor=pointer]:
+                - cell "Select item" [ref=e117]:
+                  - checkbox "Select item" [ref=e118]
+                - cell "toni@miningmacro.com" [ref=e119]
+                - cell "Mining brand mailbox toni@miningmacro.com" [ref=e120]
+                - cell "28/05/2026, 18:48:54" [ref=e121]
+                - cell [ref=e122]:
+                  - button [ref=e123]:
+                    - img
+              - row "Select item toni@miningdatasets.co Mining brand mailbox toni@miningdatasets.co 28/05/2026, 18:48:54" [ref=e124] [cursor=pointer]:
+                - cell "Select item" [ref=e125]:
+                  - checkbox "Select item" [ref=e126]
+                - cell "toni@miningdatasets.co" [ref=e127]
+                - cell "Mining brand mailbox toni@miningdatasets.co" [ref=e128]
+                - cell "28/05/2026, 18:48:54" [ref=e129]
+                - cell [ref=e130]:
+                  - button [ref=e131]:
+                    - img
+              - row "Select item toni@miningdataset.co Mining brand mailbox toni@miningdataset.co 28/05/2026, 18:48:53" [ref=e132] [cursor=pointer]:
+                - cell "Select item" [ref=e133]:
+                  - checkbox "Select item" [ref=e134]
+                - cell "toni@miningdataset.co" [ref=e135]
+                - cell "Mining brand mailbox toni@miningdataset.co" [ref=e136]
+                - cell "28/05/2026, 18:48:53" [ref=e137]
+                - cell [ref=e138]:
+                  - button [ref=e139]:
+                    - img
+              - row "Select item toni@miningdata.co Mining brand mailbox toni@miningdata.co 28/05/2026, 18:48:53" [ref=e140] [cursor=pointer]:
+                - cell "Select item" [ref=e141]:
+                  - checkbox "Select item" [ref=e142]
+                - cell "toni@miningdata.co" [ref=e143]
+                - cell "Mining brand mailbox toni@miningdata.co" [ref=e144]
+                - cell "28/05/2026, 18:48:53" [ref=e145]
+                - cell [ref=e146]:
+                  - button [ref=e147]:
+                    - img
+              - row "Select item toni@theminingterminal.com Master mining mailbox — catch-all for 10 mining domains 19/05/2026, 17:38:32" [ref=e148] [cursor=pointer]:
+                - cell "Select item" [ref=e149]:
+                  - checkbox "Select item" [ref=e150]
+                - cell "toni@theminingterminal.com" [ref=e151]
+                - cell "Master mining mailbox — catch-all for 10 mining domains" [ref=e152]
+                - cell "19/05/2026, 17:38:32" [ref=e153]
+                - cell [ref=e154]:
+                  - button [ref=e155]:
+                    - img
+              - row "Select item ruben@g9solutions.co Cold-outreach mailbox ruben@g9solutions.co 16/05/2026, 00:18:33" [ref=e156] [cursor=pointer]:
+                - cell "Select item" [ref=e157]:
+                  - checkbox "Select item" [ref=e158]
+                - cell "ruben@g9solutions.co" [ref=e159]
+                - cell "Cold-outreach mailbox ruben@g9solutions.co" [ref=e160]
+                - cell "16/05/2026, 00:18:33" [ref=e161]
+                - cell [ref=e162]:
+                  - button [ref=e163]:
+                    - img
+              - row "Select item joel@g9solutions.co Cold-outreach mailbox joel@g9solutions.co 16/05/2026, 00:18:33" [ref=e164] [cursor=pointer]:
+                - cell "Select item" [ref=e165]:
+                  - checkbox "Select item" [ref=e166]
+                - cell "joel@g9solutions.co" [ref=e167]
+                - cell "Cold-outreach mailbox joel@g9solutions.co" [ref=e168]
+                - cell "16/05/2026, 00:18:33" [ref=e169]
+                - cell [ref=e170]:
+                  - button [ref=e171]:
+                    - img
+              - row "Select item toni@g9solutions.co Cold-outreach mailbox toni@g9solutions.co 16/05/2026, 00:18:33" [ref=e172] [cursor=pointer]:
+                - cell "Select item" [ref=e173]:
+                  - checkbox "Select item" [ref=e174]
+                - cell "toni@g9solutions.co" [ref=e175]
+                - cell "Cold-outreach mailbox toni@g9solutions.co" [ref=e176]
+                - cell "16/05/2026, 00:18:33" [ref=e177]
+                - cell [ref=e178]:
+                  - button [ref=e179]:
+                    - img
+              - row "Select item ruben@g5solutions.co Cold-outreach mailbox ruben@g5solutions.co 16/05/2026, 00:18:33" [ref=e180] [cursor=pointer]:
+                - cell "Select item" [ref=e181]:
+                  - checkbox "Select item" [ref=e182]
+                - cell "ruben@g5solutions.co" [ref=e183]
+                - cell "Cold-outreach mailbox ruben@g5solutions.co" [ref=e184]
+                - cell "16/05/2026, 00:18:33" [ref=e185]
+                - cell [ref=e186]:
+                  - button [ref=e187]:
+                    - img
+              - row "Select item joel@g5solutions.co Cold-outreach mailbox joel@g5solutions.co 16/05/2026, 00:18:33" [ref=e188] [cursor=pointer]:
+                - cell "Select item" [ref=e189]:
+                  - checkbox "Select item" [ref=e190]
+                - cell "joel@g5solutions.co" [ref=e191]
+                - cell "Cold-outreach mailbox joel@g5solutions.co" [ref=e192]
+                - cell "16/05/2026, 00:18:33" [ref=e193]
+                - cell [ref=e194]:
+                  - button [ref=e195]:
+                    - img
+              - row "Select item toni@g5solutions.co Cold-outreach mailbox toni@g5solutions.co 16/05/2026, 00:18:33" [ref=e196] [cursor=pointer]:
+                - cell "Select item" [ref=e197]:
+                  - checkbox "Select item" [ref=e198]
+                - cell "toni@g5solutions.co" [ref=e199]
+                - cell "Cold-outreach mailbox toni@g5solutions.co" [ref=e200]
+                - cell "16/05/2026, 00:18:33" [ref=e201]
+                - cell [ref=e202]:
+                  - button [ref=e203]:
+                    - img
+              - row "Select item ruben@g3solutions.co Cold-outreach mailbox ruben@g3solutions.co 16/05/2026, 00:18:33" [ref=e204] [cursor=pointer]:
+                - cell "Select item" [ref=e205]:
+                  - checkbox "Select item" [ref=e206]
+                - cell "ruben@g3solutions.co" [ref=e207]
+                - cell "Cold-outreach mailbox ruben@g3solutions.co" [ref=e208]
+                - cell "16/05/2026, 00:18:33" [ref=e209]
+                - cell [ref=e210]:
+                  - button [ref=e211]:
+                    - img
+              - row "Select item joel@g3solutions.co Cold-outreach mailbox joel@g3solutions.co 16/05/2026, 00:18:33" [ref=e212] [cursor=pointer]:
+                - cell "Select item" [ref=e213]:
+                  - checkbox "Select item" [ref=e214]
+                - cell "joel@g3solutions.co" [ref=e215]
+                - cell "Cold-outreach mailbox joel@g3solutions.co" [ref=e216]
+                - cell "16/05/2026, 00:18:33" [ref=e217]
+                - cell [ref=e218]:
+                  - button [ref=e219]:
+                    - img
+              - row "Select item toni@g3solutions.co Cold-outreach mailbox toni@g3solutions.co 16/05/2026, 00:18:33" [ref=e220] [cursor=pointer]:
+                - cell "Select item" [ref=e221]:
+                  - checkbox "Select item" [ref=e222]
+                - cell "toni@g3solutions.co" [ref=e223]
+                - cell "Cold-outreach mailbox toni@g3solutions.co" [ref=e224]
+                - cell "16/05/2026, 00:18:33" [ref=e225]
+                - cell [ref=e226]:
+                  - button [ref=e227]:
+                    - img
+              - row "Select item ruben@g2solutions.co Cold-outreach mailbox ruben@g2solutions.co 16/05/2026, 00:18:33" [ref=e228] [cursor=pointer]:
+                - cell "Select item" [ref=e229]:
+                  - checkbox "Select item" [ref=e230]
+                - cell "ruben@g2solutions.co" [ref=e231]
+                - cell "Cold-outreach mailbox ruben@g2solutions.co" [ref=e232]
+                - cell "16/05/2026, 00:18:33" [ref=e233]
+                - cell [ref=e234]:
+                  - button [ref=e235]:
+                    - img
+              - row "Select item joel@g2solutions.co Cold-outreach mailbox joel@g2solutions.co 16/05/2026, 00:18:33" [ref=e236] [cursor=pointer]:
+                - cell "Select item" [ref=e237]:
+                  - checkbox "Select item" [ref=e238]
+                - cell "joel@g2solutions.co" [ref=e239]
+                - cell "Cold-outreach mailbox joel@g2solutions.co" [ref=e240]
+                - cell "16/05/2026, 00:18:33" [ref=e241]
+                - cell [ref=e242]:
+                  - button [ref=e243]:
+                    - img
+              - row "Select item toni@g2solutions.co Cold-outreach mailbox toni@g2solutions.co 16/05/2026, 00:18:33" [ref=e244] [cursor=pointer]:
+                - cell "Select item" [ref=e245]:
+                  - checkbox "Select item" [ref=e246]
+                - cell "toni@g2solutions.co" [ref=e247]
+                - cell "Cold-outreach mailbox toni@g2solutions.co" [ref=e248]
+                - cell "16/05/2026, 00:18:33" [ref=e249]
+                - cell [ref=e250]:
+                  - button [ref=e251]:
+                    - img
+              - row "Select item ruben@f9solutions.co Cold-outreach mailbox ruben@f9solutions.co 16/05/2026, 00:18:33" [ref=e252] [cursor=pointer]:
+                - cell "Select item" [ref=e253]:
+                  - checkbox "Select item" [ref=e254]
+                - cell "ruben@f9solutions.co" [ref=e255]
+                - cell "Cold-outreach mailbox ruben@f9solutions.co" [ref=e256]
+                - cell "16/05/2026, 00:18:33" [ref=e257]
+                - cell [ref=e258]:
+                  - button [ref=e259]:
+                    - img
+              - row "Select item joel@f9solutions.co Cold-outreach mailbox joel@f9solutions.co 16/05/2026, 00:18:33" [ref=e260] [cursor=pointer]:
+                - cell "Select item" [ref=e261]:
+                  - checkbox "Select item" [ref=e262]
+                - cell "joel@f9solutions.co" [ref=e263]
+                - cell "Cold-outreach mailbox joel@f9solutions.co" [ref=e264]
+                - cell "16/05/2026, 00:18:33" [ref=e265]
+                - cell [ref=e266]:
+                  - button [ref=e267]:
+                    - img
+              - row "Select item toni@f9solutions.co Cold-outreach mailbox toni@f9solutions.co 16/05/2026, 00:18:33" [ref=e268] [cursor=pointer]:
+                - cell "Select item" [ref=e269]:
+                  - checkbox "Select item" [ref=e270]
+                - cell "toni@f9solutions.co" [ref=e271]
+                - cell "Cold-outreach mailbox toni@f9solutions.co" [ref=e272]
+                - cell "16/05/2026, 00:18:33" [ref=e273]
+                - cell [ref=e274]:
+                  - button [ref=e275]:
+                    - img
+          - generic [ref=e276]:
+            - generic [ref=e277]: Showing 1-25 of 131 users
+            - generic [ref=e278]:
+              - button "Previous" [disabled]
+              - button "Next" [ref=e279]
+  - list

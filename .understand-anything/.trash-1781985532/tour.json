@@ -1,0 +1,77 @@
+[
+  {
+    "order": 1,
+    "title": "Start With The Thesis",
+    "description": "Read the repository from the outside in: the README and top-level Vaticinus briefs explain the product claim, why leak-free forecasting matters, and what this repo is trying to prove.",
+    "nodeIds": [
+      "document:README.md",
+      "document:BRIEFING.md"
+    ]
+  },
+  {
+    "order": 2,
+    "title": "Anchor The Method",
+    "description": "These files define the method and guardrails: doctrine, constitution, proof standards, and the future-map framing that keeps the project from drifting into hand-wavy AI prose.",
+    "nodeIds": [
+      "document:doctrine.md",
+      "document:CONSTITUTION.md",
+      "document:proof.md",
+      "document:FUTURE_MAP.md",
+      "document:VATI_WORLD_GRAPH.md"
+    ]
+  },
+  {
+    "order": 3,
+    "title": "Follow The Core Engine",
+    "description": "The engine layer is where forecasting, scoring, world-graph compilation, and local orchestration actually happen. This is the technical heart of the repo.",
+    "nodeIds": [
+      "file:engine/cli.py",
+      "file:engine/forecast.py",
+      "file:engine/world_graph.py",
+      "file:engine/world_graph_deepseek.py"
+    ]
+  },
+  {
+    "order": 4,
+    "title": "Inspect Data And Feeds",
+    "description": "These files show how evidence enters the system through feeds, world-state ingestion, and offload paths. They are the bridge between abstract theses and observable signals.",
+    "nodeIds": [
+      "file:engine/feeds/collect_all.py",
+      "file:engine/world_state.py",
+      "file:engine/data_offload.py",
+      "file:engine/rawstore.py"
+    ]
+  },
+  {
+    "order": 5,
+    "title": "See The Product Surfaces",
+    "description": "The repo has several outward-facing surfaces: a cockpit, a chat product, and public site layers. This step shows where the same underlying system gets rendered for users.",
+    "nodeIds": [
+      "file:cockpit/app/page.tsx",
+      "file:cockpit/components/supply-graph.tsx",
+      "config:chat/package.json",
+      "config:site/package.json",
+      "config:landing/package.json"
+    ]
+  },
+  {
+    "order": 6,
+    "title": "Watch The Operator Workflows",
+    "description": "Operational files tie the method to real execution: agent workflows, run scripts, and ops notes for longer-running or more fragile forecasting jobs.",
+    "nodeIds": [
+      "file:.claude/workflows/pope-mega.js",
+      "file:scripts/run_deepseek_resume_safe.sh",
+      "document:OPS.md"
+    ]
+  },
+  {
+    "order": 7,
+    "title": "Close With Verification",
+    "description": "The tests show what the repo considers important enough to lock down, especially around world-graph behavior, data collection, and forecasting control paths.",
+    "nodeIds": [
+      "file:tests/test_world_graph.py",
+      "file:tests/test_pope_ultra.py",
+      "file:tests/test_collect_all.py"
+    ]
+  }
+]

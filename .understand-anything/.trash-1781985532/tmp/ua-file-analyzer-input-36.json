@@ -1,0 +1,186 @@
+{
+  "projectRoot": "/Users/emizemani/Desktop/predictthefuture",
+  "batchFiles": [
+    {
+      "path": "chat/src/app/globals.css",
+      "language": "css",
+      "sizeLines": 171,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "chat/src/app/layout.tsx",
+      "language": "typescript",
+      "sizeLines": 29,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/src/app/robots.ts",
+      "language": "typescript",
+      "sizeLines": 26,
+      "fileCategory": "code"
+    },
+    {
+      "path": "cockpit/app/globals.css",
+      "language": "css",
+      "sizeLines": 129,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "cockpit/app/layout.tsx",
+      "language": "typescript",
+      "sizeLines": 35,
+      "fileCategory": "code"
+    },
+    {
+      "path": "cockpit/components/ui/sonner.tsx",
+      "language": "typescript",
+      "sizeLines": 49,
+      "fileCategory": "code"
+    },
+    {
+      "path": "cockpit/eslint.config.mjs",
+      "language": "javascript",
+      "sizeLines": 18,
+      "fileCategory": "code"
+    },
+    {
+      "path": "cockpit/next.config.ts",
+      "language": "typescript",
+      "sizeLines": 7,
+      "fileCategory": "code"
+    },
+    {
+      "path": "cockpit/postcss.config.mjs",
+      "language": "javascript",
+      "sizeLines": 7,
+      "fileCategory": "code"
+    },
+    {
+      "path": "content/after-ai-2026-06-17.md",
+      "language": "markdown",
+      "sizeLines": 73,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "content/posts-2026-06-19.md",
+      "language": "markdown",
+      "sizeLines": 188,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "dataset_sample_200.jsonl",
+      "language": "jsonl",
+      "sizeLines": 200,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/adapters/_vendor/__init__.py",
+      "language": "python",
+      "sizeLines": 7,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/adapters/_vendor/deepinfra_keyless.py",
+      "language": "python",
+      "sizeLines": 95,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/capture/DEPLOY.md",
+      "language": "markdown",
+      "sizeLines": 29,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "engine/feeds/adoption_curves.py",
+      "language": "python",
+      "sizeLines": 150,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/biorxiv.py",
+      "language": "python",
+      "sizeLines": 131,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/bis.py",
+      "language": "python",
+      "sizeLines": 178,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/capability_curves.py",
+      "language": "python",
+      "sizeLines": 342,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/crossref.py",
+      "language": "python",
+      "sizeLines": 142,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/eia.py",
+      "language": "python",
+      "sizeLines": 404,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/ember.py",
+      "language": "python",
+      "sizeLines": 173,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/eurostat.py",
+      "language": "python",
+      "sizeLines": 272,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/faostat.py",
+      "language": "python",
+      "sizeLines": 195,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/imf.py",
+      "language": "python",
+      "sizeLines": 197,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "chat/src/app/globals.css": [],
+    "chat/src/app/layout.tsx": [
+      "chat/src/app/globals.css"
+    ],
+    "chat/src/app/robots.ts": [],
+    "cockpit/app/globals.css": [],
+    "cockpit/app/layout.tsx": [
+      "cockpit/app/globals.css"
+    ],
+    "cockpit/components/ui/sonner.tsx": [],
+    "cockpit/eslint.config.mjs": [],
+    "cockpit/next.config.ts": [],
+    "cockpit/postcss.config.mjs": [],
+    "content/after-ai-2026-06-17.md": [],
+    "content/posts-2026-06-19.md": [],
+    "dataset_sample_200.jsonl": [],
+    "engine/adapters/_vendor/__init__.py": [],
+    "engine/adapters/_vendor/deepinfra_keyless.py": [],
+    "engine/capture/DEPLOY.md": [],
+    "engine/feeds/adoption_curves.py": [],
+    "engine/feeds/biorxiv.py": [],
+    "engine/feeds/bis.py": [],
+    "engine/feeds/capability_curves.py": [],
+    "engine/feeds/crossref.py": [],
+    "engine/feeds/eia.py": [],
+    "engine/feeds/ember.py": [],
+    "engine/feeds/eurostat.py": [],
+    "engine/feeds/faostat.py": [],
+    "engine/feeds/imf.py": []
+  }
+}

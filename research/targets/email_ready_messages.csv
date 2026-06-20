@@ -1,0 +1,177 @@
+rank,personal_rank,priority_tier,fit_score,name,ring,segment,persona,role,profile,channel,contact,to_email,email_status,alternate_contact,email_search_query,confidence,specific_hook,fit_reason,cta,subject,message_source,day0,day3,source,query,send_status
+1,1,P0-founder-1to1,200,Ezra Karger,advisor,benchmark-creator,linda,FRI; lead author of ForecastBench,FRI; lead author of ForecastBench,email,ezra.karger@chi.frb.org,ezra.karger@chi.frb.org,confirmed_existing,ezra.karger@chi.frb.org,"""Ezra Karger"" email FRI; lead author of ForecastBench",high,your work shaping forecasting benchmarks,you can tell whether the method is credible before I ask anyone else to believe it,Would you be open to 20 minutes to poke holes in the method?,ForecastBench bot + a leakage question from a current competitor,existing_bespoke,"Your leakage section in ForecastBench is the sharpest treatment of that problem I've seen in any
+benchmark paper. I built a bot, Vaticinus, that competes on the dataset half and is currently
+tracking near the top among bots. The whole system is built around one discipline: a call is never
+scored on an outcome the model could already know parametrically. I'm running a 3-arm ablation now
+to close the ""prompt wrapper"" objection.
+
+I'd appreciate 20 minutes to talk ForecastBench design and whether what I'm doing is valid from
+your vantage point.
+
+Toni Zemani / Vaticinus / {{record_link}}","Ezra, short nudge. The useful question is not whether this sounds interesting, it is whether the dated record clears your bar. If no, a quick pass is completely fine.",round-1,,hold_verify_then_send
+2,2,P0-founder-1to1,198,Anthony Aguirre,advisor,market-insider,toni,Metaculus co-founder; FLI,Metaculus co-founder; FLI,email,aguirre@scipp.ucsc.edu,aguirre@scipp.ucsc.edu,confirmed_existing,aguirre@scipp.ucsc.edu,"""Anthony Aguirre"" email Metaculus co-founder; FLI",high,your work around prediction markets and public scoring,you can tell whether the method is credible before I ask anyone else to believe it,Would you be open to 20 minutes to poke holes in the method?,"A dated, leak-free record, built in the Metaculus discipline",existing_bespoke,"Anthony,
+
+Metaculus is the reason I hold one rule above all others: a forecast is only worth anything if it is dated, immutable, and scored on outcomes the forecaster could not already know. You built the infrastructure that made that discipline normal. Most AI forecasting demos still quietly break it.
+
+I built Vaticinus solo, a system that makes pre-consensus structural calls about where value migrates across industries. Around 37 on the public record, each dated and leak-free, Brier-scored at resolution, tracking near the top among bots on the ForecastBench dataset half. A 3-arm ablation is running to separate skill from prompt-wrapping.
+
+I would value your read on whether the record meets the bar you set. If it does, I would welcome you as an advisor.
+
+Toni Zemani / Vaticinus / {{record_link}}","Anthony, short nudge. The useful question is not whether this sounds interesting, it is whether the dated record clears your bar. If no, a quick pass is completely fine.",round-1,,hold_verify_then_send
+3,3,P0-founder-1to1,196,Josh Rosenberg,advisor,forecasting-org,toni,"CEO, FRI","CEO, FRI",email,info@forecastingresearch.org,info@forecastingresearch.org,confirmed_existing,info@forecastingresearch.org,"""Josh Rosenberg"" email CEO, FRI",high,your work in calibrated forecasting and judgmental accuracy,you can tell whether the method is credible before I ask anyone else to believe it,Would you be open to 20 minutes to poke holes in the method?,Ablation data on the AI-vs-superforecaster gap,existing_bespoke,"Josh,
+
+FRI is one of the few groups actually measuring when AI forecasters catch superforecasters instead of just asserting it. That question is the spine of what I have been building, so your work reads less like background and more like the scoreboard.
+
+I built Vaticinus alone. It makes dated, leak-free structural forecasts, scored only on outcomes the model could not already know, then Brier-scored at resolution. Around 37 on the public record, tracking near the top among bots on the ForecastBench dataset half. Right now I am running a 3-arm ablation, raw model versus council versus full system, which is exactly the kind of data the AI-vs-human-gap question needs.
+
+I would value FRI's read on the method, and a path to sharing the ablation results when they land.
+
+Toni Zemani / Vaticinus / {{record_link}}","Josh, short nudge. The useful question is not whether this sounds interesting, it is whether the dated record clears your bar. If no, a quick pass is completely fine.",round-1,,hold_verify_then_send
+4,4,P0-founder-1to1,194,Misha Yagudin,advisor,forecasting-authority,linda,Samotsvety; Arb Research,Samotsvety; Arb Research,email,mike.yagudin@gmail.com,mike.yagudin@gmail.com,confirmed_existing,mike.yagudin@gmail.com,"""Misha Yagudin"" email Samotsvety; Arb Research",high,your work in calibrated forecasting and judgmental accuracy,you can tell whether the method is credible before I ask anyone else to believe it,Would you be open to 20 minutes to poke holes in the method?,"Vaticinus, and where Arb's work overlaps",existing_bespoke,"Misha, Arb Research sits right where I have been working, elite human forecasting meeting machine
+evals. I built Vaticinus solo: dated, leak-free, Brier-scored structural calls, around 37 on the
+public record, tracking near the top among bots on the ForecastBench dataset half. A 3-arm ablation
+is running to show the council layer adds real signal over a raw model.
+
+I would value your read on the method, and a conversation about where the bespoke side could go.
+
+Toni Zemani / Vaticinus / {{record_link}}","Misha, short nudge. The useful question is not whether this sounds interesting, it is whether the dated record clears your bar. If no, a quick pass is completely fine.",round-1,,hold_verify_then_send
+5,5,P0-founder-1to1,193,Joey Krug,angel,ai-forecasting-investor,toni,Augur; Founders Fund partner,Augur; Founders Fund partner,email,joey@foundersfund.com,joey@foundersfund.com,confirmed_existing,joey@foundersfund.com,"""Joey Krug"" email Augur; Founders Fund partner",high,your AI-native investing work,"you are close enough to AI, markets, or forecasting to judge the proof without needing a category explained",Would you be open to a brief read once the ablation and benchmark result are live?,From Augur to a forecasting system with the receipts,existing_bespoke,"Joey, you built Augur because someone had to make a market that actually prices the future. I am
+coming at the same goal from the model side. Vaticinus is a solo AI forecasting system with a dated,
+leak-free, Brier-scored public record, around 37 calls, near the top among bots on ForecastBench.
+
+I am building a small advisory bench and starting to think about a raise. Given Augur and your seat
+at Founders Fund, your read on both the method and the path would be worth a lot. Open to 20 minutes?
+
+Toni Zemani / Vaticinus / {{record_link}}","Joey, short nudge. The useful question is not whether this sounds interesting, it is whether the dated record clears your bar. If no, a quick pass is completely fine.",round-1,,hold_verify_then_send
+6,6,P0-founder-1to1,193,Barbara Mellers,advisor,academic,linda,UPenn; GJP co-founder,UPenn; GJP co-founder,email,mellers@wharton.upenn.edu,mellers@wharton.upenn.edu,confirmed_existing,mellers@wharton.upenn.edu,"""Barbara Mellers"" email UPenn; GJP co-founder",high,UPenn; GJP co-founder,you can tell whether the method is credible before I ask anyone else to believe it,Would you be open to 20 minutes to poke holes in the method?,"A leak-free scored record, and a calibration question for you",existing_bespoke,"Professor Mellers,
+
+The Good Judgment Project's finding that taught me the most is the one founders skip: probability training and tracking moved calibration, not just access to information. Most ""AI forecaster"" pitches ignore that and report accuracy with no calibration curve.
+
+I built Vaticinus solo. It makes dated, pre-consensus structural forecasts about where value moves across industries, around 37 so far, each scored only on outcomes the model could not already know, Brier-scored at resolution. A 3-arm ablation is running now to separate real skill from prompt-wrapping.
+
+I would value your read on whether the method holds up as calibration, not theater. Open to an advisory relationship if it does.
+
+Toni Zemani / Vaticinus / {{record_link}}","Barbara, short nudge. The useful question is not whether this sounds interesting, it is whether the dated record clears your bar. If no, a quick pass is completely fine.",round-1,,hold_verify_then_send
+7,7,P0-founder-1to1,193,Don Moore,advisor,academic,linda,Berkeley Haas; GJP co-founder,Berkeley Haas; GJP co-founder,email,dmoore@haas.berkeley.edu,dmoore@haas.berkeley.edu,confirmed_existing,dmoore@haas.berkeley.edu,"""Don Moore"" email Berkeley Haas; GJP co-founder",high,Berkeley Haas; GJP co-founder,you can tell whether the method is credible before I ask anyone else to believe it,Would you be open to 20 minutes to poke holes in the method?,"""they don't know what to do about it"" — a system that tries to",existing_bespoke,"Professor Moore,
+
+Your 2025 Management Science paper put a name to the thing I keep running into: people know they don't know, but they don't know what to do about it. The gap between feeling uncertain and expressing that uncertainty as a calibrated distribution is exactly where most forecasting tools fail quietly.
+
+I spent the last months building Vaticinus, a forecasting system I made alone. It produces dated, leak-free structural calls, scored only on outcomes it could not have known in advance, then Brier-scored when they resolve. Roughly 37 on the public record. I am running a 3-arm ablation to check whether the system adds skill or just wrapping.
+
+Would you look at the method and tell me where it fools itself? An advisory tie would mean a lot.
+
+Toni Zemani / Vaticinus / {{record_link}}","Don, short nudge. The useful question is not whether this sounds interesting, it is whether the dated record clears your bar. If no, a quick pass is completely fine.",round-1,,hold_verify_then_send
+10,10,P0-founder-1to1,186,Nuño Sempere,advisor,forecasting-authority,linda,Forecasting Newsletter; Samotsvety,Forecasting Newsletter; Samotsvety,email,nuno.semperelh@protonmail.com,nuno.semperelh@protonmail.com,confirmed_existing,nuno.semperelh@protonmail.com,"""Nuño Sempere"" email Forecasting Newsletter; Samotsvety",high,your work in calibrated forecasting and judgmental accuracy,you can tell whether the method is credible before I ask anyone else to believe it,Would you be open to 20 minutes to poke holes in the method?,"Vaticinus forecasting system, honest ask for your read",existing_bespoke,"Your Forecasting Newsletter writeups on what separates real forecasting systems from posturing ones
+are the clearest public writing on that question. I built Vaticinus solo: a leak-free, Brier-scored
+structural forecasting system that makes pre-consensus calls on where value migrates across
+industries. The whole record is public and dated, and I'm mid-ablation right now trying to prove the
+council layer adds something a raw model doesn't.
+
+I'd find your read on the architecture genuinely useful, not just a thumbs-up. Would you be open to
+a short call?
+
+Toni Zemani / Vaticinus / {{record_link}}","Nuño, short nudge. The useful question is not whether this sounds interesting, it is whether the dated record clears your bar. If no, a quick pass is completely fine.",round-1,,hold_verify_then_send
+11,11,P0-founder-1to1,186,Nate Silver,advisor,forecasting-authority,linda,Silver Bulletin; advises Polymarket,Silver Bulletin; advises Polymarket,email,silverbulletin.media@gmail.com,silverbulletin.media@gmail.com,confirmed_existing,silverbulletin.media@gmail.com,"""Nate Silver"" email Silver Bulletin; advises Polymarket",high,your work in calibrated forecasting and judgmental accuracy,you can tell whether the method is credible before I ask anyone else to believe it,Would you be open to 20 minutes to poke holes in the method?,You advise Polymarket; here is a record built to be scored,existing_bespoke,"Nate, you took the Polymarket advisor seat because the pricing was getting uncannily good, and that
+same standard is the one I hold Vaticinus to: every call dated, leak-free, Brier-scored at
+resolution, nothing graded on what the model already knew. Around 37 on the public record, tracking
+near the top among bots on ForecastBench.
+
+I am a solo founder building a small advisory bench. Would you take a look and tell me if the record
+clears your bar?
+
+Toni Zemani / Vaticinus / {{record_link}}","Nate, short nudge. The useful question is not whether this sounds interesting, it is whether the dated record clears your bar. If no, a quick pass is completely fine.",round-1,,hold_verify_then_send
+12,12,P0-founder-1to1,185,Peter Wildeford,advisor,market-insider,toni,Metaculus board; IAPS,Metaculus board; IAPS,email,peter@iaps.ai,peter@iaps.ai,confirmed_existing,peter@iaps.ai,"""Peter Wildeford"" email Metaculus board; IAPS",high,your work around prediction markets and public scoring,you can tell whether the method is credible before I ask anyone else to believe it,Would you be open to 20 minutes to poke holes in the method?,"Vaticinus bot scoring on Metaculus, honest ask for advisor input",existing_bespoke,"Your Power Law piece on what prediction markets actually measure is the frame I keep coming back
+to when I'm deciding whether a call has real information content. I've built Vaticinus, a solo AI
+forecasting system with a public, Brier-scored structural record now active on Metaculus. Given
+your board position there and your forecasting track record, your read on the methodology would
+carry real weight.
+
+I'm not asking for a promotional push. I want to know where the system fails. Would you be open to
+a short call?
+
+Toni Zemani / Vaticinus / {{record_link}}","Peter, short nudge. The useful question is not whether this sounds interesting, it is whether the dated record clears your bar. If no, a quick pass is completely fine.",round-1,,hold_verify_then_send
+13,13,P0-founder-1to1,185,wasabipesto,advisor,market-insider,toni,brier.fyi / Calibration City,brier.fyi / Calibration City,email,contact@wasabipesto.com,contact@wasabipesto.com,confirmed_existing,contact@wasabipesto.com,"""wasabipesto"" email brier.fyi / Calibration City",high,your work around prediction markets and public scoring,you can tell whether the method is credible before I ask anyone else to believe it,Would you be open to 20 minutes to poke holes in the method?,Would Vaticinus fit in Calibration City's scoring?,existing_bespoke,"Calibration City is the only public tool I've found that scores across Polymarket, Kalshi, Manifold,
+and Metaculus with consistent methodology. I built Vaticinus, a solo AI forecasting system with a
+public Brier-scored structural record, currently active on Metaculus. Getting it into your
+cross-platform scoring would be the most honest external validation I could ask for.
+
+I don't know if your data pipeline handles bot accounts or structural forecast types. Would you be
+open to a quick conversation about whether it's feasible?
+
+Toni Zemani / Vaticinus / {{record_link}}","wasabipesto, short nudge. The useful question is not whether this sounds interesting, it is whether the dated record clears your bar. If no, a quick pass is completely fine.",round-1,,hold_verify_then_send
+16,16,P0-founder-1to1,182,Robin Hanson,advisor,market-pioneer,toni,GMU; prediction-market pioneer,GMU; prediction-market pioneer,email,rhanson@gmu.edu,rhanson@gmu.edu,confirmed_existing,rhanson@gmu.edu,"""Robin Hanson"" email GMU; prediction-market pioneer",high,your work around prediction markets and public scoring,you can tell whether the method is credible before I ask anyone else to believe it,Would you be open to 20 minutes to poke holes in the method?,"A pre-consensus gate, built from idea futures",existing_bespoke,"Robin, your idea-futures argument, that the test of a forecast is whether it moves a price the
+consensus has not yet absorbed, is built into Vaticinus as a hard gate: a call only counts if it is
+both correct and not already priced in. It is a solo AI forecasting system with a dated, leak-free,
+Brier-scored public record.
+
+I am not pitching anything commercial. I would value your read on whether the pre-consensus gate is
+sound, and I would be glad to have your name near the work if it holds up.
+
+Toni Zemani / Vaticinus / {{record_link}}","Robin, short nudge. The useful question is not whether this sounds interesting, it is whether the dated record clears your bar. If no, a quick pass is completely fine.",round-1,,hold_verify_then_send
+17,17,P0-founder-1to1,181,Danny Halawi,advisor,applied-ai,toni,"First author, LLM-forecasting paper","First author, LLM-forecasting paper",email,dhalawi@berkeley.edu,dhalawi@berkeley.edu,confirmed_existing,dhalawi@berkeley.edu,"""Danny Halawi"" email First author, LLM-forecasting paper",high,your work on whether AI systems can forecast rather than merely summarize,you can tell whether the method is credible before I ask anyone else to believe it,Would you be open to 20 minutes to poke holes in the method?,Your cutoff-leakage work and a forecasting system built around it,existing_bespoke,"The knowledge-cutoff section in ""Approaching Human-Level Forecasting with LLMs"" identified the
+exact failure mode I spent months trying to close. Vaticinus treats a call as void if the model's
+training cutoff could have baked in the outcome. Every forecast is dated, every resolution is
+Brier-scored against that date, public record.
+
+I'm now running a 3-arm ablation (raw model / council layer / full system) to measure whether the
+engineering actually adds signal. You'd be a rare person who could tell me if the design is sound
+or if I'm still fooling myself.
+
+Would you take a look? Toni Zemani / Vaticinus / {{record_link}}","Danny, short nudge. The useful question is not whether this sounds interesting, it is whether the dated record clears your bar. If no, a quick pass is completely fine.",round-1,,hold_verify_then_send
+18,18,P0-founder-1to1,181,Jacob Steinhardt,advisor,applied-ai,toni,Berkeley; MMLU; LLM-forecasting,Berkeley; MMLU; LLM-forecasting,email,jsteinhardt@berkeley.edu,jsteinhardt@berkeley.edu,confirmed_existing,jsteinhardt@berkeley.edu,"""Jacob Steinhardt"" email Berkeley; MMLU; LLM-forecasting",high,your work on whether AI systems can forecast rather than merely summarize,you can tell whether the method is credible before I ask anyone else to believe it,Would you be open to 20 minutes to poke holes in the method?,Ablating what actually drives forecast skill,existing_bespoke,"Professor Steinhardt,
+
+""Approaching Human-Level Forecasting with LLMs"" showed the gap closes with structured retrieval, but the question it left me with is the one you tend to ask anyway: which part of the pipeline is doing the work? Retrieval, aggregation, or the base model. The same instinct that made MMLU a real eval and not a vanity number.
+
+I built Vaticinus alone. It makes dated, leak-free structural forecasts about where value migrates, scored only on outcomes the model could not have seen, Brier-scored when they resolve. Around 37 public calls. I am running a 3-arm ablation now, raw model versus council versus full system, to separate skill from prompt-wrapping.
+
+I would value your technical read on whether the ablation is honest. Open to advising if it interests you.
+
+Toni Zemani / Vaticinus / {{record_link}}","Jacob, short nudge. The useful question is not whether this sounds interesting, it is whether the dated record clears your bar. If no, a quick pass is completely fine.",round-1,,hold_verify_then_send
+19,19,P0-founder-1to1,181,Andreas Stuhlmüller,advisor,applied-ai,toni,Ought / Elicit,Ought / Elicit,email,andreas@stuhlmueller.org,andreas@stuhlmueller.org,confirmed_existing,andreas@stuhlmueller.org,"""Andreas Stuhlmüller"" email Ought / Elicit",high,your work on whether AI systems can forecast rather than merely summarize,you can tell whether the method is credible before I ask anyone else to believe it,Would you be open to 20 minutes to poke holes in the method?,Factored cognition under a forecasting pipeline,existing_bespoke,"Andreas,
+
+Elicit's bet, that you get reliable answers to hard questions by decomposing them into sub-questions a model can actually handle, is the same structure I lean on under the hood of a forecasting pipeline. A structural call about where value moves is just a stack of smaller, checkable sub-forecasts.
+
+I built Vaticinus solo. It makes dated, leak-free forecasts, scored only on outcomes the model could not already know, Brier-scored at resolution. Around 37 on the public record. A 3-arm ablation is running now to see whether the decomposition adds skill or just steps.
+
+I would value your technical read on whether the factoring is doing real work here. Open to an advisory relationship if it is useful.
+
+Toni Zemani / Vaticinus / {{record_link}}","Andreas, short nudge. The useful question is not whether this sounds interesting, it is whether the dated record clears your bar. If no, a quick pass is completely fine.",round-1,,hold_verify_then_send
+21,21,P0-founder-1to1,180,Lyle Ungar,advisor,academic,linda,UPenn; silicon-crowd paper,UPenn; silicon-crowd paper,email,ungar@cis.upenn.edu,ungar@cis.upenn.edu,confirmed_existing,ungar@cis.upenn.edu,"""Lyle Ungar"" email UPenn; silicon-crowd paper",high,UPenn; silicon-crowd paper,you can tell whether the method is credible before I ask anyone else to believe it,Would you be open to 20 minutes to poke holes in the method?,When does adding the next model add noise instead of signal?,existing_bespoke,"Professor Ungar,
+
+""Wisdom of the silicon crowd"" is the paper I argue with most. The ensemble landing indistinguishable from 925 humans was striking, but the part that stuck was the 17 to 28 percent jump once the models saw the median human prediction. It raised a question I cannot answer cleanly yet: at what point does adding another model stop adding signal and start adding correlated noise?
+
+I built Vaticinus solo, a forecasting system making dated, leak-free structural calls, scored only on outcomes it could not already know, Brier-scored at resolution. About 37 on record. I am running a 3-arm ablation right now, partly to test exactly that diminishing-returns question.
+
+I would value your read on the method, and your help thinking about the ensemble limit.
+
+Toni Zemani / Vaticinus / {{record_link}}","Lyle, short nudge. The useful question is not whether this sounds interesting, it is whether the dated record clears your bar. If no, a quick pass is completely fine.",round-1,,hold_verify_then_send
+22,22,P0-founder-1to1,180,Pavel Atanasov,advisor,academic,linda,IE University; aggregation,IE University; aggregation,email,pavel.atanasov@ie.edu,pavel.atanasov@ie.edu,confirmed_existing,pavel.atanasov@ie.edu,"""Pavel Atanasov"" email IE University; aggregation",high,IE University; aggregation,you can tell whether the method is credible before I ask anyone else to believe it,Would you be open to 20 minutes to poke holes in the method?,Skill over aggregation method — testing it on a live system,existing_bespoke,"Professor Atanasov,
+
+Your crowd-prediction work made one point I keep coming back to: once you match forecaster skill, the market and the team poll basically tie, and small elite crowds beat larger ones. The aggregation method matters far less than people selling aggregation want to admit.
+
+I built Vaticinus solo, a forecasting system that makes dated, pre-consensus structural calls, scored only on outcomes it could not already know, then Brier-scored at resolution. About 37 on the public record, tracking near the top among bots on the ForecastBench dataset half. A 3-arm ablation is running to see whether the structure adds skill or just dressing.
+
+I would value your read on whether this is real skill or clever aggregation. An advisory relationship would be welcome.
+
+Toni Zemani / Vaticinus / {{record_link}}","Pavel, short nudge. The useful question is not whether this sounds interesting, it is whether the dated record clears your bar. If no, a quick pass is completely fine.",round-1,,hold_verify_then_send
+23,23,P0-founder-1to1,180,Joshua D. Clinton,advisor,academic,linda,Vanderbilt; market-scoring study,Vanderbilt; market-scoring study,email,josh.clinton@vanderbilt.edu,josh.clinton@vanderbilt.edu,confirmed_existing,josh.clinton@vanderbilt.edu,"""Joshua D. Clinton"" email Vanderbilt; market-scoring study",high,Vanderbilt; market-scoring study,you can tell whether the method is credible before I ask anyone else to believe it,Would you be open to 20 minutes to poke holes in the method?,"Brier across 2,500 markets, and one built to be scored that way",existing_bespoke,"Professor Clinton,
+
+Your study scoring Polymarket, Kalshi, and PredictIt across 2,500-plus markets did something rare: it judged markets by Brier and log loss instead of vibes, and the result that PredictIt led on election eve despite the smallest volume cuts against the bigger-is-better story everyone repeats.
+
+I built Vaticinus solo. It makes dated, leak-free structural forecasts about where value moves across industries, scored only on outcomes the model could not already know, then Brier-scored at resolution. Around 37 on the public record. I am running a 3-arm ablation to check whether the system adds skill or just prompt-wrapping.
+
+Since you score forecasters the way I want mine judged, I would value your read on the method. Open to advising.
+
+Toni Zemani / Vaticinus / {{record_link}}","Joshua, short nudge. The useful question is not whether this sounds interesting, it is whether the dated record clears your bar. If no, a quick pass is completely fine.",round-1,,hold_verify_then_send
+26,26,P0-founder-1to1,176,Austin Chen,angel,applied-ai-angel,toni,Manifold / Manifund,Manifold / Manifund,email,akrolsmir@gmail.com,akrolsmir@gmail.com,confirmed_existing,akrolsmir@gmail.com,"""Austin Chen"" email Manifold / Manifund",high,your AI-native investing work,"you are close enough to AI, markets, or forecasting to judge the proof without needing a category explained",Would you be open to a brief read once the ablation and benchmark result are live?,Manifund fit check + a forecasting system with a public scored record,existing_bespoke,"Austin,
+
+Manifold's public resolution data is part of what made building Vaticinus honest. Every
+call I make is dated, falsifiable, and Brier-scored at resolution against a public record.
+I'm also submitting to ForecastBench this round and running a calibration ablation to
+check whether the system adds real signal over a raw frontier model.
+
+Two questions: does a Manifund grant fit this kind of infrastructure work, and would you
+be willing to take a look at the record and tell me where the argument breaks? Either way,
+genuinely useful to get your read.
+
+Toni Zemani / Vaticinus / {{record_link}}","Austin, short nudge. The useful question is not whether this sounds interesting, it is whether the dated record clears your bar. If no, a quick pass is completely fine.",round-1,,hold_verify_then_send

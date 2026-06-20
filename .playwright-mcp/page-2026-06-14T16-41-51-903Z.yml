@@ -1,0 +1,535 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - link "Skip to main content" [ref=e4] [cursor=pointer]:
+      - /url: /#main
+      - generic [ref=e5]: Skip to main content
+    - link "FORECASTING THE IRAN CRISIS - Read here" [ref=e9] [cursor=pointer]:
+      - /url: https://blog.mantic.com/p/the-28-most-important-questions-about
+      - generic [ref=e10]: FORECASTING THE IRAN CRISIS - Read here
+    - banner [ref=e11]:
+      - generic [ref=e12]:
+        - link "Home Page" [ref=e13] [cursor=pointer]:
+          - /url: /
+          - img [ref=e14]
+        - button "menu" [ref=e22] [cursor=pointer]
+  - main [ref=e26]:
+    - generic [ref=e31]:
+      - paragraph [ref=e33]:
+        - text: The world's most
+        - text: accurate AI predictions
+      - paragraph [ref=e35]:
+        - text: "Mantic is a world-class technical team on a mission to solve the next AI grand challenge:"
+        - emphasis [ref=e36]: predicting global events with superhuman accuracy
+        - text: ", and deploying this capability to power radically improved decision-making in business and government."
+      - generic [ref=e38]:
+        - generic [ref=e39]:
+          - button "Book a demo" [ref=e41] [cursor=pointer]:
+            - generic [ref=e42]: Book a demo
+          - generic [ref=e43]: Book a demo
+        - generic [ref=e45] [cursor=pointer]: Contact us
+    - generic [ref=e59]:
+      - generic [ref=e61]:
+        - heading "Example predictions" [level=2] [ref=e63]
+        - paragraph [ref=e65]: From ongoing tournaments against human and AI forecasters.
+      - generic [ref=e66]:
+        - button "Globe All topics" [ref=e67] [cursor=pointer]:
+          - img "Globe" [ref=e68]
+          - generic [ref=e69]: All topics
+        - list [ref=e71]:
+          - listitem [ref=e72] [cursor=pointer]:
+            - generic [ref=e73]: Politics
+          - listitem [ref=e74] [cursor=pointer]:
+            - generic [ref=e75]: Conflict
+          - listitem [ref=e76] [cursor=pointer]:
+            - generic [ref=e77]: Economics
+          - listitem [ref=e78] [cursor=pointer]:
+            - generic [ref=e79]: Business
+      - list [ref=e81]:
+        - group "1 / 7" [ref=e82] [cursor=pointer]:
+          - img "Will the United States attack Venezuela before 2026?" [ref=e83]
+          - generic [ref=e85]:
+            - heading "Will the United States attack Venezuela before 2026?" [level=3] [ref=e86]
+            - list [ref=e88]:
+              - listitem [ref=e89]:
+                - generic [ref=e90]: Conflict
+            - button "plus" [ref=e91]:
+              - img "plus" [ref=e92]
+        - group "2 / 7" [ref=e93] [cursor=pointer]:
+          - img "Will the restrictions on Revolut's UK banking license be removed before July 26, 2025?" [ref=e94]
+          - generic [ref=e96]:
+            - heading "Will the restrictions on Revolut's UK banking license be removed before July 26, 2025?" [level=3] [ref=e97]
+            - list [ref=e99]:
+              - listitem [ref=e100]:
+                - generic [ref=e101]: Business
+            - button "plus" [ref=e102]:
+              - img "plus" [ref=e103]
+        - group "3 / 7" [ref=e104] [cursor=pointer]:
+          - img "On July 17, 2025, what will be the revised change in the UK payroll jobs data for May 2025?" [ref=e105]
+          - generic [ref=e107]:
+            - heading "On July 17, 2025, what will be the revised change in the UK payroll jobs data for May 2025?" [level=3] [ref=e108]
+            - list [ref=e110]:
+              - listitem [ref=e111]:
+                - generic [ref=e112]: Economics
+            - button "plus" [ref=e113]:
+              - img "plus" [ref=e114]
+        - group "4 / 7" [ref=e115] [cursor=pointer]:
+          - img "Will a new country be invited to BRICS at the 17th BRICS Summit?" [ref=e116]
+          - generic [ref=e118]:
+            - heading "Will a new country be invited to BRICS at the 17th BRICS Summit?" [level=3] [ref=e119]
+            - list [ref=e121]:
+              - listitem [ref=e122]:
+                - generic [ref=e123]: Politics
+            - button "plus" [ref=e124]:
+              - img "plus" [ref=e125]
+        - group "5 / 7" [ref=e126] [cursor=pointer]:
+          - img "What will the first reported earnings per share after September 2025 be for META?" [ref=e127]
+          - generic [ref=e129]:
+            - heading "What will the first reported earnings per share after September 2025 be for META?" [level=3] [ref=e130]
+            - list [ref=e132]:
+              - listitem [ref=e133]:
+                - generic [ref=e134]: Business
+            - button "plus" [ref=e135]:
+              - img "plus" [ref=e136]
+        - group "6 / 7" [ref=e137] [cursor=pointer]:
+          - img "Will Iran's supreme leader, Ali Khamenei, make a public appearance in Iran before July 14, 2025?" [ref=e138]
+          - generic [ref=e140]:
+            - heading "Will Iran's supreme leader, Ali Khamenei, make a public appearance in Iran before July 14, 2025?" [level=3] [ref=e141]
+            - list [ref=e143]:
+              - listitem [ref=e144]:
+                - generic [ref=e145]: Conflict
+            - button "plus" [ref=e146]:
+              - img "plus" [ref=e147]
+        - group "7 / 7" [ref=e148] [cursor=pointer]:
+          - img "How many members of the Legislative Yuan will lose recall elections on July 26, 2025?" [ref=e149]
+          - generic [ref=e151]:
+            - heading "How many members of the Legislative Yuan will lose recall elections on July 26, 2025?" [level=3] [ref=e152]
+            - list [ref=e154]:
+              - listitem [ref=e155]:
+                - generic [ref=e156]: Politics
+            - button "plus" [ref=e157]:
+              - img "plus" [ref=e158]
+      - generic [ref=e160]:
+        - button "Go to slide 1" [ref=e161] [cursor=pointer]
+        - button "Go to slide 2" [ref=e162] [cursor=pointer]
+        - button "Go to slide 3" [ref=e163] [cursor=pointer]
+        - button "Go to slide 4" [ref=e164] [cursor=pointer]
+        - button "Go to slide 5" [ref=e165] [cursor=pointer]
+        - button "Go to slide 6" [ref=e166] [cursor=pointer]
+        - button "Go to slide 7" [ref=e167] [cursor=pointer]
+      - generic [ref=e169]:
+        - generic [ref=e172]: View benchmarks
+        - generic [ref=e173]:
+          - generic [ref=e174]: Contact us
+          - img [ref=e175]
+          - button "Contact us" [ref=e179] [cursor=pointer]:
+            - generic [ref=e180]: Contact us
+    - generic [ref=e181]:
+      - generic [ref=e184]:
+        - paragraph [ref=e188]: what mantic does
+        - heading "A new kind of foresight" [level=2] [ref=e190]
+        - generic [ref=e191]:
+          - paragraph [ref=e192]:
+            - text: Despite decades of progress in computer modelling, the best predictions in the messy world of human affairs still come from top human forecasters, who use reasoning and judgement.
+            - emphasis: ‍
+          - paragraph [ref=e193]: ‍
+          - paragraph [ref=e194]:
+            - emphasis [ref=e195]: Mantic is building machines that can predict like an expert human forecaster but with digital speed and scale.
+      - generic [ref=e203]:
+        - paragraph [ref=e204]:
+          - emphasis [ref=e205]: Mantic has an edge on topics where a purely data-driven approach is infeasible or insufficient.
+        - paragraph [ref=e206]: We’ve developed our system to make medium term predictions (1 week - 1 year out) about geopolitics, business, policy, technology, and culture.
+      - generic [ref=e212]:
+        - generic [ref=e214]:
+          - paragraph [ref=e218]: Performance
+          - heading "Benchmarking against human forecasters" [level=2] [ref=e220]
+        - generic [ref=e222]:
+          - paragraph [ref=e224]: Ranked 4th out of 539 humans in the Metaculus Cup—the best AI result to date—as reported by Bloomberg, The Guardian, and Time Magazine.
+          - list [ref=e225]:
+            - listitem [ref=e226]:
+              - link [ref=e227] [cursor=pointer]:
+                - /url: https://www.theguardian.com/technology/2025/sep/20/british-ai-startup-beats-humans-in-international-forecasting-competition
+                - img [ref=e228]
+                - img [ref=e231]
+            - listitem [ref=e234]:
+              - link [ref=e235] [cursor=pointer]:
+                - /url: https://time.com/7318577/ai-model-forecasting-predict-future-metaculus/
+                - img [ref=e236]
+                - img [ref=e243]
+            - listitem [ref=e246]:
+              - link "The Atlantic" [ref=e247] [cursor=pointer]:
+                - /url: https://www.theatlantic.com/technology/2026/02/ai-prediction-human-forecasters/685955/
+                - img "The Atlantic"
+                - img [ref=e248]
+      - generic [ref=e258]:
+        - generic [ref=e259]:
+          - link [ref=e260] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e262]
+          - link [ref=e264] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e266]
+          - link [ref=e268] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e270]
+        - generic [ref=e273]:
+          - generic [ref=e274]: 00:00
+          - link [ref=e275] [cursor=pointer]:
+            - /url: "#"
+          - generic [ref=e276]: 07:02
+      - generic [ref=e278]:
+        - heading "We are setting new records for our tournament performance against human forecasters:" [level=3] [ref=e282]
+        - generic [ref=e283]:
+          - generic [ref=e284]:
+            - generic [ref=e285]:
+              - img [ref=e287]
+              - generic [ref=e289]:
+                - heading "Metaculus Cup (Fall '25)" [level=4] [ref=e291]
+                - list [ref=e293]:
+                  - listitem [ref=e294]: Ranked 4th / 539 human forecasters (top 1%), beating six pro forecasters
+                  - listitem [ref=e295]: Highest ever AI score
+                  - listitem [ref=e296]: Broke our own record set in the 2025 Summer Cup
+            - generic [ref=e298]:
+              - generic [ref=e299]: "Topics covered:"
+              - list [ref=e302]:
+                - listitem [ref=e303]: Geopolitics
+                - listitem [ref=e304]: Elections
+                - listitem [ref=e305]: Technology
+                - listitem [ref=e306]: Energy
+          - generic [ref=e307]:
+            - generic [ref=e308]:
+              - img [ref=e310]
+              - generic [ref=e312]:
+                - heading "Market Pulse Challenge (Q4)" [level=4] [ref=e314]
+                - list [ref=e316]:
+                  - listitem [ref=e317]: Ranked 17th / 147 entrants, beating two pro forecasters
+                  - listitem [ref=e318]: Highest ever AI score, and over double the next best AI entrant
+                  - listitem [ref=e319]: Broke our own record set in Q3 2025
+            - generic [ref=e321]:
+              - generic [ref=e322]: "Topics covered:"
+              - list [ref=e325]:
+                - listitem [ref=e326]: Company earnings & revenues
+                - listitem [ref=e327]: Equity returns
+                - listitem [ref=e328]: Bond yields
+        - paragraph [ref=e330]:
+          - emphasis [ref=e331]: AI enables us to scale across forecasting breadth, depth, and speed. Below is an example of a question we answered in the Metaculus Cup, where Mantic generated a fresh prediction every day, incorporating key developments in real time.
+        - blockquote [ref=e333]:
+          - emphasis [ref=e334]: How much photovoltaic capacity will China install in July 2025?
+        - generic [ref=e336]:
+          - generic [ref=e338]:
+            - img "Slide 1" [ref=e340]
+            - img "Slide 2" [ref=e342]
+            - img "Slide 3" [ref=e344]
+            - img "Slide 4" [ref=e346]
+            - img "Slide 5" [ref=e348]
+          - generic [ref=e349]:
+            - button "Previous slide" [ref=e350] [cursor=pointer]: ‹
+            - button "Next slide" [ref=e351] [cursor=pointer]: ›
+        - link [ref=e353] [cursor=pointer]:
+          - /url: /launch
+          - generic [ref=e354]: Read our launch post
+    - generic [ref=e355]:
+      - img "Vector"
+      - generic [ref=e356]:
+        - generic [ref=e358]:
+          - paragraph [ref=e362]: Product
+          - paragraph [ref=e364]: Providing foresight to decision-makers
+        - generic [ref=e365]:
+          - generic [ref=e366]: We...
+          - generic [ref=e367]: So that our users can be...
+          - generic [ref=e369]:
+            - group "1 / 3" [ref=e370]:
+              - generic [ref=e371]:
+                - generic [ref=e372]:
+                  - img "Solutions" [ref=e373]
+                  - img "Target" [ref=e375]
+                  - generic [ref=e376]: Horizon scan
+                  - generic [ref=e377]: Identify emerging issues based on what you care about
+                - generic [ref=e378]:
+                  - generic [ref=e379]: Early
+                  - generic [ref=e380]: Act on emerging risks and opportunities before others
+            - group "2 / 3" [ref=e381]:
+              - generic [ref=e382]:
+                - generic [ref=e383]:
+                  - img "Solutions" [ref=e384]
+                  - img "Eye" [ref=e386]
+                  - generic [ref=e387]: Forecast
+                  - generic [ref=e388]: Generate probabilistic predictions with clear reasoning and references
+                - generic [ref=e389]:
+                  - generic [ref=e390]: Informed
+                  - generic [ref=e391]: Make decisions confidently under uncertainty
+            - group "3 / 3" [ref=e392]:
+              - generic [ref=e393]:
+                - generic [ref=e394]:
+                  - img "Solutions" [ref=e395]
+                  - img "Chart" [ref=e397]
+                  - generic [ref=e398]: Monitor
+                  - generic [ref=e399]: Prioritise and update predictions as new information emerges
+                - generic [ref=e400]:
+                  - generic [ref=e401]: Fast
+                  - generic [ref=e402]: Adapt quickly when circumstances change
+          - generic [ref=e404]:
+            - button "Go to slide 1" [ref=e405] [cursor=pointer]
+            - button "Go to slide 2" [ref=e406] [cursor=pointer]
+            - button "Go to slide 3" [ref=e407] [cursor=pointer]
+    - generic [ref=e409]:
+      - generic [ref=e411]:
+        - paragraph [ref=e413]: Emerging use cases for predictive intelligence
+        - paragraph [ref=e415]: Mantic is built for teams operating under uncertainty, helping them cut through the noise, anticipate what’s ahead, and act with confidence.
+      - generic [ref=e416]:
+        - button "Globe All" [ref=e417] [cursor=pointer]:
+          - img "Globe" [ref=e418]
+          - generic [ref=e419]: All
+        - list [ref=e421]:
+          - listitem [ref=e422] [cursor=pointer]:
+            - generic [ref=e423]: Corporate
+          - listitem [ref=e424] [cursor=pointer]:
+            - generic [ref=e425]: Finance
+          - listitem [ref=e426] [cursor=pointer]:
+            - generic [ref=e427]: Government
+      - generic [ref=e428]:
+        - list [ref=e430]:
+          - group "1 / 7" [ref=e431]:
+            - generic [ref=e432]:
+              - list [ref=e434]:
+                - listitem [ref=e435]:
+                  - generic [ref=e436]: Finance
+                - listitem [ref=e437]:
+                  - generic [ref=e438]: Corporate
+                - listitem [ref=e439]:
+                  - generic [ref=e440]: Government
+              - img "Executives" [ref=e441]
+            - generic [ref=e442]:
+              - generic [ref=e443]: Executives
+              - generic [ref=e444]: Stay ahead of emerging issues and external forces affecting the business
+              - list [ref=e447]:
+                - listitem [ref=e448]: Macroeconomic shifts affecting demand
+                - listitem [ref=e449]: Competitive moves by industry leaders
+                - listitem [ref=e450]: Major regulatory changes
+                - listitem [ref=e451]: Relevant geopolitical developments
+                - listitem [ref=e452]: Disruptive technologies and innovation
+          - group "2 / 7" [ref=e453]:
+            - generic [ref=e454]:
+              - list [ref=e456]:
+                - listitem [ref=e457]:
+                  - generic [ref=e458]: Finance
+              - img "Traders" [ref=e459]
+            - generic [ref=e460]:
+              - generic [ref=e461]: Traders
+              - generic [ref=e462]: Surface market-moving events early at a macro or single stock level
+              - list [ref=e465]:
+                - listitem [ref=e466]: Commodity supply disruptions
+                - listitem [ref=e467]: Legal rulings
+                - listitem [ref=e468]: Central bank decisions
+                - listitem [ref=e469]: Company announcements
+                - listitem [ref=e470]: Geopolitical events impacting markets
+          - group "3 / 7" [ref=e471]:
+            - generic [ref=e472]:
+              - list [ref=e474]:
+                - listitem [ref=e475]:
+                  - generic [ref=e476]: Finance
+              - img "Investors" [ref=e477]
+            - generic [ref=e478]:
+              - generic [ref=e479]: Investors
+              - generic [ref=e480]: Anticipate company trajectories and monitor underlying assumptions
+              - list [ref=e483]:
+                - listitem [ref=e484]: Revenue
+                - listitem [ref=e485]: EBITDA
+                - listitem [ref=e486]: Growth trajectory
+                - listitem [ref=e487]: Key external risks and opportunities
+                - listitem [ref=e488]: Industry trends
+          - group "4 / 7" [ref=e489]:
+            - generic [ref=e490]:
+              - list [ref=e492]:
+                - listitem [ref=e493]:
+                  - generic [ref=e494]: Finance
+                - listitem [ref=e495]:
+                  - generic [ref=e496]: Corporate
+                - listitem [ref=e497]:
+                  - generic [ref=e498]: Government
+              - img "Researchers" [ref=e499]
+            - generic [ref=e500]:
+              - generic [ref=e501]: Researchers
+              - generic [ref=e502]: Complement traditional models with AI predictions on judgment-driven issues
+              - list [ref=e505]:
+                - listitem [ref=e506]: Economic growth and inflation outlook
+                - listitem [ref=e507]: Central bank policy and rate decisions
+                - listitem [ref=e508]: Policy and regulatory direction
+                - listitem [ref=e509]: Consumer demand and sentiment shifts
+                - listitem [ref=e510]: Geopolitical developments and risks
+          - group "5 / 7" [ref=e511]:
+            - generic [ref=e512]:
+              - list [ref=e514]:
+                - listitem [ref=e515]:
+                  - generic [ref=e516]: Corporate
+                - listitem [ref=e517]:
+                  - generic [ref=e518]: Government
+              - img "Strategists" [ref=e519]
+            - generic [ref=e520]:
+              - generic [ref=e521]: Strategists
+              - generic [ref=e522]: Augment decision-making with forward-looking signals, enabling a living strategy
+              - list [ref=e525]:
+                - listitem [ref=e526]: Competitor product launches
+                - listitem [ref=e527]: Customer behaviour shifts
+                - listitem [ref=e528]: Demand and growth dynamics
+                - listitem [ref=e529]: Industry consolidation and new entrants
+                - listitem [ref=e530]: Disruptive technologies and innovation
+          - group "6 / 7" [ref=e531]:
+            - generic [ref=e532]:
+              - list [ref=e534]:
+                - listitem [ref=e535]:
+                  - generic [ref=e536]: Corporate
+              - img "Regulation & risk teams" [ref=e537]
+            - generic [ref=e538]:
+              - generic [ref=e539]: Regulation & risk teams
+              - generic [ref=e540]: Identify and track exogenous regulatory, legal, or operational risks
+              - list [ref=e543]:
+                - listitem [ref=e544]: New industry regulations
+                - listitem [ref=e545]: Trade restrictions and tariffs
+                - listitem [ref=e546]: Litigation outcomes
+                - listitem [ref=e547]: Supply chain disruptions
+                - listitem [ref=e548]: Cybersecurity scenarios
+          - group "7 / 7" [ref=e549]:
+            - generic [ref=e550]:
+              - list [ref=e552]:
+                - listitem [ref=e553]:
+                  - generic [ref=e554]: Government
+              - img "Policymakers" [ref=e555]
+            - generic [ref=e556]:
+              - generic [ref=e557]: Policymakers
+              - generic [ref=e558]: Anticipate global and regional geopolitical developments in real time
+              - list [ref=e561]:
+                - listitem [ref=e562]: Election outcomes
+                - listitem [ref=e563]: Conflict escalation or ceasefires
+                - listitem [ref=e564]: Migration flows and demographic shifts
+                - listitem [ref=e565]: Sanctions and international policy changes
+                - listitem [ref=e566]: Energy and trade disruptions
+        - generic [ref=e568]:
+          - button "Go to slide 1" [ref=e569] [cursor=pointer]
+          - button "Go to slide 2" [ref=e570] [cursor=pointer]
+          - button "Go to slide 3" [ref=e571] [cursor=pointer]
+          - button "Go to slide 4" [ref=e572] [cursor=pointer]
+          - button "Go to slide 5" [ref=e573] [cursor=pointer]
+          - button "Go to slide 6" [ref=e574] [cursor=pointer]
+          - button "Go to slide 7" [ref=e575] [cursor=pointer]
+    - generic [ref=e577]:
+      - generic [ref=e579]:
+        - paragraph [ref=e581]: A forecasting tool for navigating uncertainty
+        - paragraph [ref=e583]: A generalist forecasting engine that reasons like a top human forecaster across domains, delivering clear, actionable insights.
+      - generic [ref=e587]:
+        - generic [ref=e591]:
+          - generic [ref=e592]:
+            - link [ref=e593] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e595]
+            - link [ref=e597] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e599]
+            - link [ref=e601] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e603]
+          - generic [ref=e606]:
+            - generic [ref=e607]: 00:00
+            - link [ref=e608] [cursor=pointer]:
+              - /url: "#"
+            - generic [ref=e609]: 04:56
+        - img "Mantic" [ref=e611]
+      - generic [ref=e613]:
+        - button "Book a demo" [ref=e615] [cursor=pointer]:
+          - generic [ref=e616]: Book a demo
+        - generic [ref=e617]: Book a demo
+    - generic [ref=e619]:
+      - paragraph [ref=e623]: About us
+      - heading "Mantic is a startup founded in London in 2024, on a mission to solve forecasting and radically improve decision-making." [level=2] [ref=e625]
+      - paragraph [ref=e627]: We raised $4 million in our pre-seed funding round, led by Episode 1, with participation from the US trading firm DRW and a range of angel investors including leading researchers at Google DeepMind and Anthropic.
+    - generic [ref=e633]:
+      - heading "Our Mission" [level=2] [ref=e635]
+      - generic [ref=e636]:
+        - generic [ref=e637]:
+          - generic [ref=e638]: "01."
+          - generic [ref=e639] [cursor=pointer]:
+            - generic [ref=e640]: Solve
+            - generic [ref=e641]: Superhuman accuracy
+          - generic [ref=e642] [cursor=pointer]:
+            - generic [ref=e643]: judgemental forecasting
+            - generic [ref=e644]: predicting future events that require bespoke research and contextual understanding
+        - generic [ref=e645]:
+          - generic [ref=e646]: "02."
+          - generic [ref=e647]: to
+          - generic [ref=e648] [cursor=pointer]:
+            - generic [ref=e649]: radically improve
+            - generic [ref=e650]: better understanding of future landscape & impact of decisions
+          - generic [ref=e651] [cursor=pointer]:
+            - generic [ref=e652]: decision-making
+            - generic [ref=e653]: Across the economy
+    - generic [ref=e658]:
+      - heading "Our Team" [level=2] [ref=e660]
+      - generic [ref=e661]:
+        - generic [ref=e665]:
+          - heading "Ben Day" [level=3] [ref=e667]
+          - generic [ref=e668]: CTO & co-founder
+          - paragraph [ref=e670]: Before Mantic Ben was Head of Research at Foresight Data Machines, developing AI for optimizing steel production. Ben has a PhD in machine learning from the University of Cambridge, where he researched meta-learning and graph neural networks. Alongside this, he was a Research Consultant at Relation Therapeutics on AI for drug development.
+        - generic [ref=e674]:
+          - heading "Toby Shevlane" [level=3] [ref=e676]
+          - generic [ref=e677]: CEO & co-founder
+          - paragraph [ref=e679]: Before Mantic Toby spent 2.5 years at Google DeepMind, where he worked as a Senior Research Scientist. There, he co-led a team within the Gemini effort that designed experiments to test Gemini’s dual-use capabilities. Before that, Toby’s PhD research at the University of Oxford was about the governance of LLM release decisions and potential misuse risks from AI.
+      - generic [ref=e680]:
+        - generic [ref=e684]:
+          - heading "Matthew Aitchison" [level=3] [ref=e686]
+          - generic [ref=e687]: Member of technical staff
+          - paragraph [ref=e689]: Previously, Research Engineer at Google DeepMind. PhD from ANU in reinforcement learning.
+        - generic [ref=e693]:
+          - heading "Scott Jeen" [level=3] [ref=e695]
+          - generic [ref=e696]: Member of technical staff
+          - paragraph [ref=e698]: Previously, PhD at University of Cambridge in reinforcement learning.
+        - generic [ref=e702]:
+          - heading "Vlad Bogolin" [level=3] [ref=e704]
+          - generic [ref=e705]: Member of technical staff
+          - paragraph [ref=e707]: Previously, researcher at University of Oxford; Senior Engineer at MariaDB and FlowX.AI. PhD in AI from the Romanian Academy.
+        - generic [ref=e711]:
+          - heading "Max Clark" [level=3] [ref=e713]
+          - generic [ref=e714]: Member of technical staff
+          - paragraph [ref=e716]: Previously, software engineer at Citadel. Highest dissertation mark at University of Cambridge CS undergrad for paper on AlphaGo.
+      - generic [ref=e717]:
+        - generic [ref=e721]:
+          - heading "Gabriel Fritsch" [level=3] [ref=e723]
+          - generic [ref=e724]: Member of technical staff
+          - paragraph [ref=e726]: Former Goldman Sachs economist, Oxford economics PhD.
+        - generic [ref=e730]:
+          - heading "Jack Davison" [level=3] [ref=e732]
+          - generic [ref=e733]: Member of technical staff
+          - paragraph [ref=e735]: Former Google and Palantir software engineer.
+        - generic [ref=e739]:
+          - heading "Lukas Alemu" [level=3] [ref=e741]
+          - generic [ref=e742]: Member of technical staff
+          - paragraph [ref=e744]: Former data scientist at the Bank of England.
+        - generic [ref=e748]:
+          - heading "Xiaman Wu" [level=3] [ref=e750]
+          - generic [ref=e751]: Commercial and Operations
+          - paragraph [ref=e753]: Former McKinsey consultant. Previously leading growth and product at healthtech and edtech start-ups.
+  - generic [ref=e754]:
+    - generic [ref=e757]:
+      - img [ref=e758]
+      - heading "A new kind of foresight" [level=3] [ref=e761]
+      - paragraph [ref=e763]: Explore how Mantic can add value to your organisation
+      - generic [ref=e765]:
+        - generic [ref=e766]:
+          - button "Book a demo" [ref=e768] [cursor=pointer]:
+            - generic [ref=e769]: Book a demo
+          - generic [ref=e770]: Book a demo
+        - generic [ref=e771]:
+          - button "Contact us" [ref=e773] [cursor=pointer]:
+            - generic [ref=e774]: Contact us
+          - generic [ref=e775]: Contact us
+    - generic [ref=e776]:
+      - list [ref=e777]:
+        - listitem [ref=e778]:
+          - link "contact@mantic.com" [ref=e779] [cursor=pointer]:
+            - /url: mailto:contact@mantic.com?subject=Hey!%20I%20have%20a%20question%E2%80%A6
+        - listitem [ref=e780]:
+          - link "Privacy Policy" [ref=e781] [cursor=pointer]:
+            - /url: /privacy-policy
+        - listitem [ref=e782]:
+          - link "Terms of Service" [ref=e783] [cursor=pointer]:
+            - /url: /terms-of-service
+      - generic [ref=e784]: Unit 326 Canalot Studios 222 Kensal Road, London, W10 5BN, United Kingdom
+      - generic [ref=e785]: ©2026 Mantic Technologies LTD. All Rights Reserved.

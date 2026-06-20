@@ -54,7 +54,7 @@ from engine.schemas import (
 FRONTIER_PILLAR_ID = 1
 
 # Polite-pool identification (keyless). The mailto puts us in OpenAlex's faster, free pool.
-MAILTO = "ruben.stout@edu.escp.eu"
+MAILTO = "research@vaticinus.com"
 UA = f"predictthefuture/0.1 (mailto:{MAILTO})"
 OPENALEX = "https://api.openalex.org"
 ARXIV = "https://export.arxiv.org/api/query"

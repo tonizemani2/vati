@@ -1,0 +1,1411 @@
+{
+  "nodes": [
+    {
+      "id": "file:engine/pillars/power.py",
+      "type": "file",
+      "name": "power.py",
+      "filePath": "engine/pillars/power.py",
+      "summary": "power.py is a code asset in the forecasting engine. It contains 4 functions, 4 internal imports.",
+      "tags": [
+        "forecasting-engine",
+        "code",
+        "file",
+        "power"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:engine/pillars/power.py:_get_text",
+      "type": "function",
+      "name": "_get_text",
+      "filePath": "engine/pillars/power.py",
+      "lineRange": [
+        147,
+        150
+      ],
+      "summary": "Defines _get_text in power.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "power"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/pillars/power.py:_content_hash",
+      "type": "function",
+      "name": "_content_hash",
+      "filePath": "engine/pillars/power.py",
+      "lineRange": [
+        153,
+        154
+      ],
+      "summary": "Defines _content_hash in power.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "power"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/pillars/power.py:_fred_annual",
+      "type": "function",
+      "name": "_fred_annual",
+      "filePath": "engine/pillars/power.py",
+      "lineRange": [
+        157,
+        174
+      ],
+      "summary": "Defines _fred_annual in power.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "power"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/pillars/power.py:collect",
+      "type": "function",
+      "name": "collect",
+      "filePath": "engine/pillars/power.py",
+      "lineRange": [
+        177,
+        260
+      ],
+      "summary": "Defines collect in power.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "power"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:engine/pillars/research.py",
+      "type": "file",
+      "name": "research.py",
+      "filePath": "engine/pillars/research.py",
+      "summary": "research.py is a code asset in the forecasting engine. It contains 19 functions, 4 internal imports.",
+      "tags": [
+        "forecasting-engine",
+        "code",
+        "file",
+        "research"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:engine/pillars/research.py:_oai_get",
+      "type": "function",
+      "name": "_oai_get",
+      "filePath": "engine/pillars/research.py",
+      "lineRange": [
+        127,
+        150
+      ],
+      "summary": "Defines _oai_get in research.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "research"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/pillars/research.py:_text",
+      "type": "function",
+      "name": "_text",
+      "filePath": "engine/pillars/research.py",
+      "lineRange": [
+        156,
+        158
+      ],
+      "summary": "Defines _text in research.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "research"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/pillars/research.py:_parse_record",
+      "type": "function",
+      "name": "_parse_record",
+      "filePath": "engine/pillars/research.py",
+      "lineRange": [
+        161,
+        190
+      ],
+      "summary": "Defines _parse_record in research.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "research"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/pillars/research.py:_load_state",
+      "type": "function",
+      "name": "_load_state",
+      "filePath": "engine/pillars/research.py",
+      "lineRange": [
+        193,
+        199
+      ],
+      "summary": "Defines _load_state in research.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "research"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/pillars/research.py:_save_state",
+      "type": "function",
+      "name": "_save_state",
+      "filePath": "engine/pillars/research.py",
+      "lineRange": [
+        202,
+        203
+      ],
+      "summary": "Defines _save_state in research.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "research"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/pillars/research.py:_upsert_papers",
+      "type": "function",
+      "name": "_upsert_papers",
+      "filePath": "engine/pillars/research.py",
+      "lineRange": [
+        206,
+        250
+      ],
+      "summary": "Defines _upsert_papers in research.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "research"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/pillars/research.py:harvest_set",
+      "type": "function",
+      "name": "harvest_set",
+      "filePath": "engine/pillars/research.py",
+      "lineRange": [
+        253,
+        317
+      ],
+      "summary": "Defines harvest_set in research.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "research"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/pillars/research.py:_month_floor",
+      "type": "function",
+      "name": "_month_floor",
+      "filePath": "engine/pillars/research.py",
+      "lineRange": [
+        323,
+        333
+      ],
+      "summary": "Defines _month_floor in research.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "research"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/pillars/research.py:_as_of",
+      "type": "function",
+      "name": "_as_of",
+      "filePath": "engine/pillars/research.py",
+      "lineRange": [
+        336,
+        339
+      ],
+      "summary": "Defines _as_of in research.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "research"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/pillars/research.py:_content_hash",
+      "type": "function",
+      "name": "_content_hash",
+      "filePath": "engine/pillars/research.py",
+      "lineRange": [
+        342,
+        343
+      ],
+      "summary": "Defines _content_hash in research.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "research"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/pillars/research.py:_log_cost",
+      "type": "function",
+      "name": "_log_cost",
+      "filePath": "engine/pillars/research.py",
+      "lineRange": [
+        346,
+        353
+      ],
+      "summary": "Defines _log_cost in research.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "research"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/pillars/research.py:_store_series",
+      "type": "function",
+      "name": "_store_series",
+      "filePath": "engine/pillars/research.py",
+      "lineRange": [
+        356,
+        410
+      ],
+      "summary": "Defines _store_series in research.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "research"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/pillars/research.py:build_category_series",
+      "type": "function",
+      "name": "build_category_series",
+      "filePath": "engine/pillars/research.py",
+      "lineRange": [
+        413,
+        448
+      ],
+      "summary": "Defines build_category_series in research.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "research"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/pillars/research.py:compute_signals",
+      "type": "function",
+      "name": "compute_signals",
+      "filePath": "engine/pillars/research.py",
+      "lineRange": [
+        451,
+        556
+      ],
+      "summary": "Defines compute_signals in research.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "research"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/pillars/research.py:collect",
+      "type": "function",
+      "name": "collect",
+      "filePath": "engine/pillars/research.py",
+      "lineRange": [
+        559,
+        593
+      ],
+      "summary": "Defines collect in research.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "research"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/pillars/research.py:_content_tokens",
+      "type": "function",
+      "name": "_content_tokens",
+      "filePath": "engine/pillars/research.py",
+      "lineRange": [
+        631,
+        632
+      ],
+      "summary": "Defines _content_tokens in research.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "research"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/pillars/research.py:_paper_ngrams",
+      "type": "function",
+      "name": "_paper_ngrams",
+      "filePath": "engine/pillars/research.py",
+      "lineRange": [
+        635,
+        643
+      ],
+      "summary": "Defines _paper_ngrams in research.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "research"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/pillars/research.py:_mean",
+      "type": "function",
+      "name": "_mean",
+      "filePath": "engine/pillars/research.py",
+      "lineRange": [
+        646,
+        647
+      ],
+      "summary": "Defines _mean in research.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "research"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/pillars/research.py:discover_emerging",
+      "type": "function",
+      "name": "discover_emerging",
+      "filePath": "engine/pillars/research.py",
+      "lineRange": [
+        650,
+        731
+      ],
+      "summary": "Defines discover_emerging in research.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "research"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:engine/pillars/slow.py",
+      "type": "file",
+      "name": "slow.py",
+      "filePath": "engine/pillars/slow.py",
+      "summary": "slow.py is a code asset in the forecasting engine. It contains 6 functions, 6 internal imports.",
+      "tags": [
+        "forecasting-engine",
+        "code",
+        "file",
+        "slow"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:engine/pillars/slow.py:_content_hash",
+      "type": "function",
+      "name": "_content_hash",
+      "filePath": "engine/pillars/slow.py",
+      "lineRange": [
+        123,
+        124
+      ],
+      "summary": "Defines _content_hash in slow.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "slow"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/pillars/slow.py:_wb_annual",
+      "type": "function",
+      "name": "_wb_annual",
+      "filePath": "engine/pillars/slow.py",
+      "lineRange": [
+        127,
+        135
+      ],
+      "summary": "Defines _wb_annual in slow.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "slow"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/pillars/slow.py:_points",
+      "type": "function",
+      "name": "_points",
+      "filePath": "engine/pillars/slow.py",
+      "lineRange": [
+        138,
+        141
+      ],
+      "summary": "Defines _points in slow.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "slow"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/pillars/slow.py:_project_crossing",
+      "type": "function",
+      "name": "_project_crossing",
+      "filePath": "engine/pillars/slow.py",
+      "lineRange": [
+        144,
+        176
+      ],
+      "summary": "Defines _project_crossing in slow.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "slow"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/pillars/slow.py:forecast_crossings",
+      "type": "function",
+      "name": "forecast_crossings",
+      "filePath": "engine/pillars/slow.py",
+      "lineRange": [
+        179,
+        236
+      ],
+      "summary": "Defines forecast_crossings in slow.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "slow"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/pillars/slow.py:collect",
+      "type": "function",
+      "name": "collect",
+      "filePath": "engine/pillars/slow.py",
+      "lineRange": [
+        239,
+        308
+      ],
+      "summary": "Defines collect in slow.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "slow"
+      ],
+      "complexity": "moderate"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:engine/pillars/power.py",
+      "target": "function:engine/pillars/power.py:_get_text",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/pillars/power.py",
+      "target": "function:engine/pillars/power.py:_get_text",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pillars/power.py",
+      "target": "function:engine/pillars/power.py:_content_hash",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/pillars/power.py",
+      "target": "function:engine/pillars/power.py:_content_hash",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pillars/power.py",
+      "target": "function:engine/pillars/power.py:_fred_annual",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/pillars/power.py",
+      "target": "function:engine/pillars/power.py:_fred_annual",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pillars/power.py",
+      "target": "function:engine/pillars/power.py:collect",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/pillars/power.py",
+      "target": "function:engine/pillars/power.py:collect",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pillars/research.py",
+      "target": "function:engine/pillars/research.py:_oai_get",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/pillars/research.py",
+      "target": "function:engine/pillars/research.py:_oai_get",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pillars/research.py",
+      "target": "function:engine/pillars/research.py:_text",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/pillars/research.py",
+      "target": "function:engine/pillars/research.py:_text",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pillars/research.py",
+      "target": "function:engine/pillars/research.py:_parse_record",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/pillars/research.py",
+      "target": "function:engine/pillars/research.py:_parse_record",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pillars/research.py",
+      "target": "function:engine/pillars/research.py:_load_state",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/pillars/research.py",
+      "target": "function:engine/pillars/research.py:_load_state",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pillars/research.py",
+      "target": "function:engine/pillars/research.py:_save_state",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/pillars/research.py",
+      "target": "function:engine/pillars/research.py:_save_state",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pillars/research.py",
+      "target": "function:engine/pillars/research.py:_upsert_papers",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/pillars/research.py",
+      "target": "function:engine/pillars/research.py:_upsert_papers",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pillars/research.py",
+      "target": "function:engine/pillars/research.py:harvest_set",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/pillars/research.py",
+      "target": "function:engine/pillars/research.py:harvest_set",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pillars/research.py",
+      "target": "function:engine/pillars/research.py:_month_floor",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/pillars/research.py",
+      "target": "function:engine/pillars/research.py:_month_floor",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pillars/research.py",
+      "target": "function:engine/pillars/research.py:_as_of",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/pillars/research.py",
+      "target": "function:engine/pillars/research.py:_as_of",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pillars/research.py",
+      "target": "function:engine/pillars/research.py:_content_hash",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/pillars/research.py",
+      "target": "function:engine/pillars/research.py:_content_hash",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pillars/research.py",
+      "target": "function:engine/pillars/research.py:_log_cost",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/pillars/research.py",
+      "target": "function:engine/pillars/research.py:_log_cost",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pillars/research.py",
+      "target": "function:engine/pillars/research.py:_store_series",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/pillars/research.py",
+      "target": "function:engine/pillars/research.py:_store_series",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pillars/research.py",
+      "target": "function:engine/pillars/research.py:build_category_series",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/pillars/research.py",
+      "target": "function:engine/pillars/research.py:build_category_series",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pillars/research.py",
+      "target": "function:engine/pillars/research.py:compute_signals",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/pillars/research.py",
+      "target": "function:engine/pillars/research.py:compute_signals",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pillars/research.py",
+      "target": "function:engine/pillars/research.py:collect",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/pillars/research.py",
+      "target": "function:engine/pillars/research.py:collect",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pillars/research.py",
+      "target": "function:engine/pillars/research.py:_content_tokens",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/pillars/research.py",
+      "target": "function:engine/pillars/research.py:_content_tokens",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pillars/research.py",
+      "target": "function:engine/pillars/research.py:_paper_ngrams",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/pillars/research.py",
+      "target": "function:engine/pillars/research.py:_paper_ngrams",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pillars/research.py",
+      "target": "function:engine/pillars/research.py:_mean",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/pillars/research.py",
+      "target": "function:engine/pillars/research.py:_mean",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pillars/research.py",
+      "target": "function:engine/pillars/research.py:discover_emerging",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/pillars/research.py",
+      "target": "function:engine/pillars/research.py:discover_emerging",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pillars/slow.py",
+      "target": "function:engine/pillars/slow.py:_content_hash",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/pillars/slow.py",
+      "target": "function:engine/pillars/slow.py:_content_hash",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pillars/slow.py",
+      "target": "function:engine/pillars/slow.py:_wb_annual",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/pillars/slow.py",
+      "target": "function:engine/pillars/slow.py:_wb_annual",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pillars/slow.py",
+      "target": "function:engine/pillars/slow.py:_points",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/pillars/slow.py",
+      "target": "function:engine/pillars/slow.py:_points",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pillars/slow.py",
+      "target": "function:engine/pillars/slow.py:_project_crossing",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/pillars/slow.py",
+      "target": "function:engine/pillars/slow.py:_project_crossing",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pillars/slow.py",
+      "target": "function:engine/pillars/slow.py:forecast_crossings",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/pillars/slow.py",
+      "target": "function:engine/pillars/slow.py:forecast_crossings",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pillars/slow.py",
+      "target": "function:engine/pillars/slow.py:collect",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/pillars/slow.py",
+      "target": "function:engine/pillars/slow.py:collect",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pillars/power.py",
+      "target": "file:engine/__init__.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/pillars/power.py",
+      "target": "file:engine/db.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/pillars/power.py",
+      "target": "file:engine/pillars/frontier.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/pillars/power.py",
+      "target": "file:engine/schemas.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/pillars/research.py",
+      "target": "file:engine/__init__.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/pillars/research.py",
+      "target": "file:engine/db.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/pillars/research.py",
+      "target": "file:engine/schemas.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/pillars/research.py",
+      "target": "file:engine/store.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/pillars/slow.py",
+      "target": "file:engine/__init__.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/pillars/slow.py",
+      "target": "file:engine/db.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/pillars/slow.py",
+      "target": "file:engine/detector.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/pillars/slow.py",
+      "target": "file:engine/pillars/frontier.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/pillars/slow.py",
+      "target": "file:engine/schemas.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/pillars/slow.py",
+      "target": "file:engine/store.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "function:engine/pillars/power.py:_fred_annual",
+      "target": "function:engine/pillars/power.py:_get_text",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/power.py:collect",
+      "target": "function:engine/pillars/power.py:_fred_annual",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/power.py:collect",
+      "target": "class:engine/schemas.py:Source",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/power.py:collect",
+      "target": "function:engine/pillars/power.py:_content_hash",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/power.py:collect",
+      "target": "function:engine/pillars/frontier.py:_upsert_source",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/power.py:collect",
+      "target": "class:engine/schemas.py:Series",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/power.py:collect",
+      "target": "function:engine/pillars/frontier.py:_upsert_series",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/power.py:collect",
+      "target": "function:engine/pillars/frontier.py:_upsert_observation",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/power.py:collect",
+      "target": "class:engine/schemas.py:Observation",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/power.py:collect",
+      "target": "function:engine/pillars/frontier.py:_log_cost",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/research.py:_parse_record",
+      "target": "function:engine/pillars/research.py:_text",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/research.py:_upsert_papers",
+      "target": "function:engine/schemas.py:_now",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/research.py:_upsert_papers",
+      "target": "function:engine/schemas.py:_uid",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/research.py:harvest_set",
+      "target": "function:engine/pillars/research.py:_load_state",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/research.py:harvest_set",
+      "target": "function:engine/pillars/research.py:_oai_get",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/research.py:harvest_set",
+      "target": "function:engine/pillars/research.py:_parse_record",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/research.py:harvest_set",
+      "target": "function:engine/pillars/research.py:_upsert_papers",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/research.py:harvest_set",
+      "target": "function:engine/pillars/research.py:_save_state",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/research.py:harvest_set",
+      "target": "function:engine/schemas.py:_now",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/research.py:_log_cost",
+      "target": "class:engine/schemas.py:CostLedgerEntry",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/research.py:_store_series",
+      "target": "class:engine/schemas.py:Source",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/research.py:_store_series",
+      "target": "function:engine/pillars/research.py:_as_of",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/research.py:_store_series",
+      "target": "function:engine/pillars/research.py:_content_hash",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/research.py:_store_series",
+      "target": "class:engine/schemas.py:Series",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/research.py:_store_series",
+      "target": "class:engine/schemas.py:Observation",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/research.py:build_category_series",
+      "target": "function:engine/pillars/research.py:_store_series",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/research.py:build_category_series",
+      "target": "function:engine/pillars/research.py:_log_cost",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/research.py:compute_signals",
+      "target": "function:engine/schemas.py:_now",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/research.py:compute_signals",
+      "target": "function:engine/pillars/research.py:_month_floor",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/research.py:compute_signals",
+      "target": "function:engine/pillars/research.py:_store_series",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/research.py:compute_signals",
+      "target": "function:engine/pillars/research.py:_log_cost",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/research.py:collect",
+      "target": "function:engine/pillars/research.py:harvest_set",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/research.py:collect",
+      "target": "function:engine/pillars/research.py:_log_cost",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/research.py:collect",
+      "target": "function:engine/pillars/research.py:compute_signals",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/research.py:_paper_ngrams",
+      "target": "function:engine/pillars/research.py:_content_tokens",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/research.py:discover_emerging",
+      "target": "function:engine/schemas.py:_now",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/research.py:discover_emerging",
+      "target": "function:engine/pillars/research.py:_paper_ngrams",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pillars/research.py",
+      "target": "function:engine/pillars/research.py:_mean",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/slow.py:forecast_crossings",
+      "target": "function:engine/pillars/slow.py:_points",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/slow.py:forecast_crossings",
+      "target": "function:engine/pillars/slow.py:_project_crossing",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/slow.py:collect",
+      "target": "function:engine/pillars/frontier.py:_log_cost",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/slow.py:collect",
+      "target": "function:engine/pillars/slow.py:_wb_annual",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/slow.py:collect",
+      "target": "class:engine/schemas.py:Source",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/slow.py:collect",
+      "target": "function:engine/pillars/slow.py:_content_hash",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/slow.py:collect",
+      "target": "function:engine/pillars/frontier.py:_upsert_source",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/slow.py:collect",
+      "target": "class:engine/schemas.py:Series",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/slow.py:collect",
+      "target": "function:engine/pillars/frontier.py:_upsert_series",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/slow.py:collect",
+      "target": "function:engine/pillars/frontier.py:_upsert_observation",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/slow.py:collect",
+      "target": "class:engine/schemas.py:Observation",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/slow.py:collect",
+      "target": "function:engine/pillars/slow.py:_points",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/slow.py:collect",
+      "target": "function:engine/schemas.py:_uid",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pillars/slow.py:collect",
+      "target": "function:engine/schemas.py:_now",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

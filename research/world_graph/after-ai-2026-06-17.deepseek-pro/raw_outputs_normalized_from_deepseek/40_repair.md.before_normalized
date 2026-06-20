@@ -1,0 +1,139 @@
+{
+  "add_nodes": [
+    {
+      "id": "u-unknown-p1-source-pack-attach-primary-official-source-urls-and-publication-dates-0d464a7b",
+      "kind": "verification_task",
+      "label": "Source Pack for P1",
+      "fields": {
+        "thesis_id": "P1",
+        "owner_agent": "A01",
+        "priority": "critical",
+        "question": "Attach primary/official source URLs and publication dates to every load-bearing node.",
+        "required_evidence": ["source_url", "source_date", "quote_or_field", "trust_rationale", "verification_status"],
+        "status": "open"
+      },
+      "confidence": 1.0,
+      "verification_status": "task_defined"
+    },
+    {
+      "id": "u-unknown-p1-substitute-path-map-substitutes-that-would-kill-or-weaken-the-bottlen-d1790b30",
+      "kind": "verification_task",
+      "label": "Substitute Path for P1",
+      "fields": {
+        "thesis_id": "P1",
+        "owner_agent": "A10",
+        "priority": "high",
+        "question": "Map substitutes that would kill or weaken the bottleneck.",
+        "required_evidence": ["source_url", "source_date", "quote_or_field", "trust_rationale", "verification_status"],
+        "status": "open"
+      },
+      "confidence": 1.0,
+      "verification_status": "task_defined"
+    },
+    {
+      "id": "u-unknown-p1-scenario-branch-create-at-least-one-base-upside-downside-scenario-bra-73f41b1e",
+      "kind": "verification_task",
+      "label": "Scenario Branch for P1",
+      "fields": {
+        "thesis_id": "P1",
+        "owner_agent": "A11",
+        "priority": "medium",
+        "question": "Create at least one base/upside/downside scenario branch around this thesis.",
+        "required_evidence": ["source_url", "source_date", "quote_or_field", "trust_rationale", "verification_status"],
+        "status": "open"
+      },
+      "confidence": 1.0,
+      "verification_status": "task_defined"
+    },
+    {
+      "id": "u-unknown-p1-entity-resolution-resolve-named-entities-to-canonical-companies-agenc-b9bed82a",
+      "kind": "verification_task",
+      "label": "Entity Resolution for P1",
+      "fields": {
+        "thesis_id": "P1",
+        "owner_agent": "A01",
+        "priority": "high",
+        "question": "Resolve named entities to canonical companies, agencies, labs, materials, and projects.",
+        "required_evidence": ["source_url", "source_date", "quote_or_field", "trust_rationale", "verification_status"],
+        "status": "open"
+      },
+      "confidence": 1.0,
+      "verification_status": "task_defined"
+    },
+    {
+      "id": "u-unknown-p2-source-pack-attach-primary-official-source-urls-and-publication-dates-c307c5d6",
+      "kind": "verification_task",
+      "label": "Source Pack for P2",
+      "fields": {
+        "thesis_id": "P2",
+        "owner_agent": "A01",
+        "priority": "critical",
+        "question": "Attach primary/official source URLs and publication dates to every load-bearing node.",
+        "required_evidence": ["source_url", "source_date", "quote_or_field", "trust_rationale", "verification_status"],
+        "status": "open"
+      },
+      "confidence": 1.0,
+      "verification_status": "task_defined"
+    },
+    {
+      "id": "u-unknown-p2-substitute-path-map-substitutes-that-would-kill-or-weaken-the-bottlen-8fa7996e",
+      "kind": "verification_task",
+      "label": "Substitute Path for P2",
+      "fields": {
+        "thesis_id": "P2",
+        "owner_agent": "A10",
+        "priority": "high",
+        "question": "Map substitutes that would kill or weaken the bottleneck.",
+        "required_evidence": ["source_url", "source_date", "quote_or_field", "trust_rationale", "verification_status"],
+        "status": "open"
+      },
+      "confidence": 1.0,
+      "verification_status": "task_defined"
+    },
+    {
+      "id": "u-unknown-p2-scenario-branch-create-at-least-one-base-upside-downside-scenario-bra-abdea055",
+      "kind": "verification_task",
+      "label": "Scenario Branch for P2",
+      "fields": {
+        "thesis_id": "P2",
+        "owner_agent": "A11",
+        "priority": "medium",
+        "question": "Create at least one base/upside/downside scenario branch around this thesis.",
+        "required_evidence": ["source_url", "source_date", "quote_or_field", "trust_rationale", "verification_status"],
+        "status": "open"
+      },
+      "confidence": 1.0,
+      "verification_status": "task_defined"
+    },
+    {
+      "id": "u-unknown-p2-entity-resolution-resolve-named-entities-to-canonical-companies-agenc-a38baf06",
+      "kind": "verification_task",
+      "label": "Entity Resolution for P2",
+      "fields": {
+        "thesis_id": "P2",
+        "owner_agent": "A01",
+        "priority": "high",
+        "question": "Resolve named entities to canonical companies, agencies, labs, materials, and projects.",
+        "required_evidence": ["source_url", "source_date", "quote_or_field", "trust_rationale", "verification_status"],
+        "status": "open"
+      },
+      "confidence": 1.0,
+      "verification_status": "task_defined"
+    },
+    {
+      "id": "u-unknown-p3-source-pack-attach-primary-official-source-urls-and-publication-dates-16a7677b",
+      "kind": "verification_task",
+      "label": "Source Pack for P3",
+      "fields": {
+        "thesis_id": "P3",
+        "owner_agent": "A01",
+        "priority": "critical",
+        "question": "Attach primary/official source URLs and publication dates to every load-bearing node.",
+        "required_evidence": ["source_url", "source_date", "quote_or_field", "trust_rationale", "verification_status"],
+        "status": "open"
+      },
+      "confidence": 1.0,
+      "verification_status": "task_defined"
+    },
+    {
+      "id": "u-unknown-p3-substitute-path-map-substitutes-that-would-kill-or-weaken-the-bott

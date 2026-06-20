@@ -56,7 +56,7 @@ from engine.schemas import ConsensusScore, Source, SourceKind, _now
 
 MARKET_PILLAR = 7          # Market pricing — THE GATE
 MC_N = 200_000
-UA = "predictthefuture research (ruben.stout@edu.escp.eu)"
+UA = "predictthefuture research (research@vaticinus.com)"
 
 
 @dataclass

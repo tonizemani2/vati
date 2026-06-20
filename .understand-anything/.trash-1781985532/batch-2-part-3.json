@@ -1,0 +1,1541 @@
+{
+  "nodes": [
+    {
+      "id": "file:engine/corpus.py",
+      "type": "file",
+      "name": "corpus.py",
+      "filePath": "engine/corpus.py",
+      "summary": "corpus.py is a code asset in the forecasting engine. It contains 5 functions, 2 internal imports.",
+      "tags": [
+        "forecasting-engine",
+        "code",
+        "file",
+        "corpus"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/corpus.py:_iso",
+      "type": "function",
+      "name": "_iso",
+      "filePath": "engine/corpus.py",
+      "lineRange": [
+        30,
+        32
+      ],
+      "summary": "Defines _iso in corpus.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "corpus"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/corpus.py:_parse_dates",
+      "type": "function",
+      "name": "_parse_dates",
+      "filePath": "engine/corpus.py",
+      "lineRange": [
+        35,
+        46
+      ],
+      "summary": "Defines _parse_dates in corpus.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "corpus"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/corpus.py:_codes",
+      "type": "function",
+      "name": "_codes",
+      "filePath": "engine/corpus.py",
+      "lineRange": [
+        49,
+        51
+      ],
+      "summary": "Defines _codes in corpus.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "corpus"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/corpus.py:_row_to_paper",
+      "type": "function",
+      "name": "_row_to_paper",
+      "filePath": "engine/corpus.py",
+      "lineRange": [
+        54,
+        73
+      ],
+      "summary": "Defines _row_to_paper in corpus.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "corpus"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/corpus.py:ingest_parquet",
+      "type": "function",
+      "name": "ingest_parquet",
+      "filePath": "engine/corpus.py",
+      "lineRange": [
+        76,
+        99
+      ],
+      "summary": "Defines ingest_parquet in corpus.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "corpus"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:engine/cost.py",
+      "type": "file",
+      "name": "cost.py",
+      "filePath": "engine/cost.py",
+      "summary": "cost.py is a code asset in the forecasting engine. It contains 5 functions, 1 class, 1 internal import.",
+      "tags": [
+        "forecasting-engine",
+        "code",
+        "file",
+        "cost"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/cost.py:load_repo_env",
+      "type": "function",
+      "name": "load_repo_env",
+      "filePath": "engine/cost.py",
+      "lineRange": [
+        46,
+        65
+      ],
+      "summary": "Defines load_repo_env in cost.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cost"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cost.py:auto_approve_cents",
+      "type": "function",
+      "name": "auto_approve_cents",
+      "filePath": "engine/cost.py",
+      "lineRange": [
+        68,
+        74
+      ],
+      "summary": "Defines auto_approve_cents in cost.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cost"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cost.py:gate",
+      "type": "function",
+      "name": "gate",
+      "filePath": "engine/cost.py",
+      "lineRange": [
+        77,
+        127
+      ],
+      "summary": "Defines gate in cost.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cost"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/cost.py:record_actual",
+      "type": "function",
+      "name": "record_actual",
+      "filePath": "engine/cost.py",
+      "lineRange": [
+        130,
+        136
+      ],
+      "summary": "Defines record_actual in cost.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cost"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/cost.py:approve",
+      "type": "function",
+      "name": "approve",
+      "filePath": "engine/cost.py",
+      "lineRange": [
+        139,
+        147
+      ],
+      "summary": "Defines approve in cost.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "cost"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:engine/cost.py:CostGateError",
+      "type": "class",
+      "name": "CostGateError",
+      "filePath": "engine/cost.py",
+      "lineRange": [
+        27,
+        43
+      ],
+      "summary": "Defines CostGateError in cost.py, encapsulating reusable behavior or state for this module.",
+      "tags": [
+        "class",
+        "implementation",
+        "cost"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:engine/db.py",
+      "type": "file",
+      "name": "db.py",
+      "filePath": "engine/db.py",
+      "summary": "db.py is a code asset in the forecasting engine. It contains 4 functions.",
+      "tags": [
+        "forecasting-engine",
+        "database",
+        "code"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:engine/db.py:connect",
+      "type": "function",
+      "name": "connect",
+      "filePath": "engine/db.py",
+      "lineRange": [
+        736,
+        745
+      ],
+      "summary": "Defines connect in db.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "db"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/db.py:_migrate_columns",
+      "type": "function",
+      "name": "_migrate_columns",
+      "filePath": "engine/db.py",
+      "lineRange": [
+        815,
+        820
+      ],
+      "summary": "Defines _migrate_columns in db.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "db"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/db.py:init_db",
+      "type": "function",
+      "name": "init_db",
+      "filePath": "engine/db.py",
+      "lineRange": [
+        903,
+        921
+      ],
+      "summary": "Defines init_db in db.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "db"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/db.py:table_names",
+      "type": "function",
+      "name": "table_names",
+      "filePath": "engine/db.py",
+      "lineRange": [
+        924,
+        928
+      ],
+      "summary": "Defines table_names in db.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "db"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:engine/emergent_scan.py",
+      "type": "file",
+      "name": "emergent_scan.py",
+      "filePath": "engine/emergent_scan.py",
+      "summary": "emergent_scan.py is a code asset in the forecasting engine. It contains 12 functions, 9 internal imports.",
+      "tags": [
+        "forecasting-engine",
+        "code",
+        "file",
+        "emergent-scan"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:engine/emergent_scan.py:_extract_json",
+      "type": "function",
+      "name": "_extract_json",
+      "filePath": "engine/emergent_scan.py",
+      "lineRange": [
+        117,
+        133
+      ],
+      "summary": "Defines _extract_json in emergent_scan.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "emergent-scan"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/emergent_scan.py:_deepseek_json",
+      "type": "function",
+      "name": "_deepseek_json",
+      "filePath": "engine/emergent_scan.py",
+      "lineRange": [
+        136,
+        154
+      ],
+      "summary": "Defines _deepseek_json in emergent_scan.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "emergent-scan"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/emergent_scan.py:_candidates",
+      "type": "function",
+      "name": "_candidates",
+      "filePath": "engine/emergent_scan.py",
+      "lineRange": [
+        157,
+        199
+      ],
+      "summary": "Defines _candidates in emergent_scan.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "emergent-scan"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/emergent_scan.py:_ground_context",
+      "type": "function",
+      "name": "_ground_context",
+      "filePath": "engine/emergent_scan.py",
+      "lineRange": [
+        202,
+        230
+      ],
+      "summary": "Defines _ground_context in emergent_scan.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "emergent-scan"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/emergent_scan.py:_recurring_orgs",
+      "type": "function",
+      "name": "_recurring_orgs",
+      "filePath": "engine/emergent_scan.py",
+      "lineRange": [
+        233,
+        242
+      ],
+      "summary": "Defines _recurring_orgs in emergent_scan.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "emergent-scan"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/emergent_scan.py:_capture",
+      "type": "function",
+      "name": "_capture",
+      "filePath": "engine/emergent_scan.py",
+      "lineRange": [
+        245,
+        294
+      ],
+      "summary": "Defines _capture in emergent_scan.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "emergent-scan"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/emergent_scan.py:scan",
+      "type": "function",
+      "name": "scan",
+      "filePath": "engine/emergent_scan.py",
+      "lineRange": [
+        297,
+        338
+      ],
+      "summary": "Defines scan in emergent_scan.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "emergent-scan"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/emergent_scan.py:_persist",
+      "type": "function",
+      "name": "_persist",
+      "filePath": "engine/emergent_scan.py",
+      "lineRange": [
+        341,
+        346
+      ],
+      "summary": "Defines _persist in emergent_scan.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "emergent-scan"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/emergent_scan.py:load_latest",
+      "type": "function",
+      "name": "load_latest",
+      "filePath": "engine/emergent_scan.py",
+      "lineRange": [
+        349,
+        353
+      ],
+      "summary": "Defines load_latest in emergent_scan.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "emergent-scan"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/emergent_scan.py:build_card_fields",
+      "type": "function",
+      "name": "build_card_fields",
+      "filePath": "engine/emergent_scan.py",
+      "lineRange": [
+        356,
+        383
+      ],
+      "summary": "Defines build_card_fields in emergent_scan.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "emergent-scan"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/emergent_scan.py:format_report",
+      "type": "function",
+      "name": "format_report",
+      "filePath": "engine/emergent_scan.py",
+      "lineRange": [
+        386,
+        412
+      ],
+      "summary": "Defines format_report in emergent_scan.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "emergent-scan"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/emergent_scan.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "engine/emergent_scan.py",
+      "lineRange": [
+        415,
+        429
+      ],
+      "summary": "Defines main in emergent_scan.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entry-point",
+        "emergent-scan"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:engine/feeds/google_patents.py",
+      "type": "file",
+      "name": "google_patents.py",
+      "filePath": "engine/feeds/google_patents.py",
+      "summary": "google_patents.py is a code asset in the forecasting engine. It contains 9 functions, 4 internal imports.",
+      "tags": [
+        "forecasting-engine",
+        "code",
+        "file",
+        "google-patents"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/feeds/google_patents.py:_title_predicate",
+      "type": "function",
+      "name": "_title_predicate",
+      "filePath": "engine/feeds/google_patents.py",
+      "lineRange": [
+        49,
+        57
+      ],
+      "summary": "Defines _title_predicate in google_patents.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "google-patents"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/google_patents.py:_sql_concentration",
+      "type": "function",
+      "name": "_sql_concentration",
+      "filePath": "engine/feeds/google_patents.py",
+      "lineRange": [
+        60,
+        73
+      ],
+      "summary": "Defines _sql_concentration in google_patents.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "google-patents"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/google_patents.py:_sql_trend",
+      "type": "function",
+      "name": "_sql_trend",
+      "filePath": "engine/feeds/google_patents.py",
+      "lineRange": [
+        76,
+        84
+      ],
+      "summary": "Defines _sql_trend in google_patents.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "google-patents"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/google_patents.py:_bq",
+      "type": "function",
+      "name": "_bq",
+      "filePath": "engine/feeds/google_patents.py",
+      "lineRange": [
+        87,
+        92
+      ],
+      "summary": "Defines _bq in google_patents.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "google-patents"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/google_patents.py:dry_run_gb",
+      "type": "function",
+      "name": "dry_run_gb",
+      "filePath": "engine/feeds/google_patents.py",
+      "lineRange": [
+        95,
+        102
+      ],
+      "summary": "Defines dry_run_gb in google_patents.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entry-point",
+        "google-patents"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/google_patents.py:run_json",
+      "type": "function",
+      "name": "run_json",
+      "filePath": "engine/feeds/google_patents.py",
+      "lineRange": [
+        105,
+        109
+      ],
+      "summary": "Defines run_json in google_patents.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entry-point",
+        "google-patents"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/google_patents.py:_hhi_and_share",
+      "type": "function",
+      "name": "_hhi_and_share",
+      "filePath": "engine/feeds/google_patents.py",
+      "lineRange": [
+        112,
+        119
+      ],
+      "summary": "Defines _hhi_and_share in google_patents.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "google-patents"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/google_patents.py:_log_cost",
+      "type": "function",
+      "name": "_log_cost",
+      "filePath": "engine/feeds/google_patents.py",
+      "lineRange": [
+        122,
+        125
+      ],
+      "summary": "Defines _log_cost in google_patents.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "google-patents"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/google_patents.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "engine/feeds/google_patents.py",
+      "lineRange": [
+        128,
+        227
+      ],
+      "summary": "Defines main in google_patents.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entry-point",
+        "google-patents"
+      ],
+      "complexity": "moderate"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:engine/corpus.py",
+      "target": "function:engine/corpus.py:_iso",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/corpus.py",
+      "target": "function:engine/corpus.py:_iso",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/corpus.py",
+      "target": "function:engine/corpus.py:_parse_dates",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/corpus.py",
+      "target": "function:engine/corpus.py:_parse_dates",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/corpus.py",
+      "target": "function:engine/corpus.py:_codes",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/corpus.py",
+      "target": "function:engine/corpus.py:_codes",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/corpus.py",
+      "target": "function:engine/corpus.py:_row_to_paper",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/corpus.py",
+      "target": "function:engine/corpus.py:_row_to_paper",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/corpus.py",
+      "target": "function:engine/corpus.py:ingest_parquet",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/corpus.py",
+      "target": "function:engine/corpus.py:ingest_parquet",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cost.py",
+      "target": "function:engine/cost.py:load_repo_env",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cost.py",
+      "target": "function:engine/cost.py:load_repo_env",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cost.py",
+      "target": "function:engine/cost.py:auto_approve_cents",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cost.py",
+      "target": "function:engine/cost.py:auto_approve_cents",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cost.py",
+      "target": "function:engine/cost.py:gate",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cost.py",
+      "target": "function:engine/cost.py:gate",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cost.py",
+      "target": "function:engine/cost.py:record_actual",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cost.py",
+      "target": "function:engine/cost.py:record_actual",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cost.py",
+      "target": "function:engine/cost.py:approve",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cost.py",
+      "target": "function:engine/cost.py:approve",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/cost.py",
+      "target": "class:engine/cost.py:CostGateError",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/cost.py",
+      "target": "class:engine/cost.py:CostGateError",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/db.py",
+      "target": "function:engine/db.py:connect",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/db.py",
+      "target": "function:engine/db.py:connect",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/db.py",
+      "target": "function:engine/db.py:_migrate_columns",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/db.py",
+      "target": "function:engine/db.py:_migrate_columns",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/db.py",
+      "target": "function:engine/db.py:init_db",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/db.py",
+      "target": "function:engine/db.py:init_db",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/db.py",
+      "target": "function:engine/db.py:table_names",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/db.py",
+      "target": "function:engine/db.py:table_names",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/emergent_scan.py",
+      "target": "function:engine/emergent_scan.py:_extract_json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/emergent_scan.py",
+      "target": "function:engine/emergent_scan.py:_extract_json",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/emergent_scan.py",
+      "target": "function:engine/emergent_scan.py:_deepseek_json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/emergent_scan.py",
+      "target": "function:engine/emergent_scan.py:_deepseek_json",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/emergent_scan.py",
+      "target": "function:engine/emergent_scan.py:_candidates",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/emergent_scan.py",
+      "target": "function:engine/emergent_scan.py:_candidates",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/emergent_scan.py",
+      "target": "function:engine/emergent_scan.py:_ground_context",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/emergent_scan.py",
+      "target": "function:engine/emergent_scan.py:_ground_context",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/emergent_scan.py",
+      "target": "function:engine/emergent_scan.py:_recurring_orgs",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/emergent_scan.py",
+      "target": "function:engine/emergent_scan.py:_recurring_orgs",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/emergent_scan.py",
+      "target": "function:engine/emergent_scan.py:_capture",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/emergent_scan.py",
+      "target": "function:engine/emergent_scan.py:_capture",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/emergent_scan.py",
+      "target": "function:engine/emergent_scan.py:scan",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/emergent_scan.py",
+      "target": "function:engine/emergent_scan.py:scan",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/emergent_scan.py",
+      "target": "function:engine/emergent_scan.py:_persist",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/emergent_scan.py",
+      "target": "function:engine/emergent_scan.py:_persist",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/emergent_scan.py",
+      "target": "function:engine/emergent_scan.py:load_latest",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/emergent_scan.py",
+      "target": "function:engine/emergent_scan.py:load_latest",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/emergent_scan.py",
+      "target": "function:engine/emergent_scan.py:build_card_fields",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/emergent_scan.py",
+      "target": "function:engine/emergent_scan.py:build_card_fields",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/emergent_scan.py",
+      "target": "function:engine/emergent_scan.py:format_report",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/emergent_scan.py",
+      "target": "function:engine/emergent_scan.py:format_report",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/emergent_scan.py",
+      "target": "function:engine/emergent_scan.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/emergent_scan.py",
+      "target": "function:engine/emergent_scan.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/google_patents.py",
+      "target": "function:engine/feeds/google_patents.py:_title_predicate",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/google_patents.py",
+      "target": "function:engine/feeds/google_patents.py:_title_predicate",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/google_patents.py",
+      "target": "function:engine/feeds/google_patents.py:_sql_concentration",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/google_patents.py",
+      "target": "function:engine/feeds/google_patents.py:_sql_concentration",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/google_patents.py",
+      "target": "function:engine/feeds/google_patents.py:_sql_trend",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/google_patents.py",
+      "target": "function:engine/feeds/google_patents.py:_sql_trend",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/google_patents.py",
+      "target": "function:engine/feeds/google_patents.py:_bq",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/google_patents.py",
+      "target": "function:engine/feeds/google_patents.py:_bq",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/google_patents.py",
+      "target": "function:engine/feeds/google_patents.py:dry_run_gb",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/google_patents.py",
+      "target": "function:engine/feeds/google_patents.py:dry_run_gb",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/google_patents.py",
+      "target": "function:engine/feeds/google_patents.py:run_json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/google_patents.py",
+      "target": "function:engine/feeds/google_patents.py:run_json",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/google_patents.py",
+      "target": "function:engine/feeds/google_patents.py:_hhi_and_share",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/google_patents.py",
+      "target": "function:engine/feeds/google_patents.py:_hhi_and_share",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/google_patents.py",
+      "target": "function:engine/feeds/google_patents.py:_log_cost",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/google_patents.py",
+      "target": "function:engine/feeds/google_patents.py:_log_cost",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/google_patents.py",
+      "target": "function:engine/feeds/google_patents.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/google_patents.py",
+      "target": "function:engine/feeds/google_patents.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/corpus.py",
+      "target": "file:engine/db.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/corpus.py",
+      "target": "file:engine/pillars/research.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/cost.py",
+      "target": "file:engine/schemas.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/emergent_scan.py",
+      "target": "file:engine/__init__.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/emergent_scan.py",
+      "target": "file:engine/adapters/__init__.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/emergent_scan.py",
+      "target": "file:engine/adapters/llm.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/emergent_scan.py",
+      "target": "file:engine/adapters/search.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/emergent_scan.py",
+      "target": "file:engine/db.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/emergent_scan.py",
+      "target": "file:engine/feeds/concept_emergence.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/emergent_scan.py",
+      "target": "file:engine/market.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/emergent_scan.py",
+      "target": "file:engine/schemas.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/emergent_scan.py",
+      "target": "file:engine/signals.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/feeds/google_patents.py",
+      "target": "file:engine/__init__.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/feeds/google_patents.py",
+      "target": "file:engine/cost.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/feeds/google_patents.py",
+      "target": "file:engine/db.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/feeds/google_patents.py",
+      "target": "file:engine/world_state.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "function:engine/corpus.py:_parse_dates",
+      "target": "function:engine/corpus.py:_iso",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/corpus.py:_row_to_paper",
+      "target": "function:engine/corpus.py:_parse_dates",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/corpus.py:_row_to_paper",
+      "target": "function:engine/corpus.py:_codes",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/corpus.py:ingest_parquet",
+      "target": "function:engine/corpus.py:_row_to_paper",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/corpus.py:ingest_parquet",
+      "target": "function:engine/pillars/research.py:_upsert_papers",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/cost.py:auto_approve_cents",
+      "target": "function:engine/cost.py:load_repo_env",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/cost.py:gate",
+      "target": "function:engine/cost.py:auto_approve_cents",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/cost.py:gate",
+      "target": "class:engine/schemas.py:CostLedgerEntry",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/cost.py:gate",
+      "target": "class:engine/cost.py:CostGateError",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/db.py:init_db",
+      "target": "function:engine/db.py:_migrate_columns",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/emergent_scan.py:_deepseek_json",
+      "target": "function:engine/adapters/llm.py:complete",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/emergent_scan.py:_deepseek_json",
+      "target": "function:engine/emergent_scan.py:_extract_json",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/emergent_scan.py:_capture",
+      "target": "function:engine/emergent_scan.py:_recurring_orgs",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/emergent_scan.py:_capture",
+      "target": "function:engine/emergent_scan.py:_deepseek_json",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/emergent_scan.py:scan",
+      "target": "function:engine/emergent_scan.py:_candidates",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/emergent_scan.py:scan",
+      "target": "function:engine/emergent_scan.py:_ground_context",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/emergent_scan.py:scan",
+      "target": "function:engine/emergent_scan.py:_deepseek_json",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/emergent_scan.py:scan",
+      "target": "function:engine/emergent_scan.py:_capture",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/emergent_scan.py:scan",
+      "target": "class:engine/schemas.py:CostLedgerEntry",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/emergent_scan.py:scan",
+      "target": "function:engine/emergent_scan.py:_persist",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/emergent_scan.py:_persist",
+      "target": "function:engine/schemas.py:_now",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/emergent_scan.py:main",
+      "target": "function:engine/emergent_scan.py:scan",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/emergent_scan.py:main",
+      "target": "function:engine/emergent_scan.py:format_report",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/google_patents.py:_sql_concentration",
+      "target": "function:engine/feeds/google_patents.py:_title_predicate",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/google_patents.py:_sql_trend",
+      "target": "function:engine/feeds/google_patents.py:_title_predicate",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/google_patents.py:dry_run_gb",
+      "target": "function:engine/feeds/google_patents.py:_bq",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/google_patents.py:run_json",
+      "target": "function:engine/feeds/google_patents.py:_bq",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/google_patents.py:main",
+      "target": "function:engine/feeds/google_patents.py:_sql_concentration",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/google_patents.py:main",
+      "target": "function:engine/feeds/google_patents.py:_sql_trend",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/google_patents.py:main",
+      "target": "function:engine/feeds/google_patents.py:dry_run_gb",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/google_patents.py:main",
+      "target": "function:engine/feeds/google_patents.py:run_json",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/google_patents.py:main",
+      "target": "function:engine/feeds/google_patents.py:_hhi_and_share",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/google_patents.py:main",
+      "target": "function:engine/feeds/google_patents.py:_log_cost",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

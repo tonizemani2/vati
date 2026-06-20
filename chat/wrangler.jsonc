@@ -1,0 +1,29 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "vaticinus-chat",
+  "main": ".open-next/worker.js",
+  "compatibility_date": "2025-09-23",
+  // nodejs_compat is required by OpenNext (and by the Neon driver + Clerk).
+  "compatibility_flags": ["nodejs_compat"],
+  // Serve the app at chat.vaticinus.com. custom_domain=true makes Cloudflare create the
+  // DNS record + TLS cert automatically (the vaticinus.com zone is in this account). The
+  // All public traffic should stay on the Cloudflare-proxied custom domain.
+  "routes": [{ "pattern": "chat.vaticinus.com", "custom_domain": true }],
+  // Do not expose the raw workers.dev hostname; it can bypass zone-level WAF/rate limits.
+  "workers_dev": false,
+  "assets": {
+    "directory": ".open-next/assets",
+    "binding": "ASSETS"
+  },
+  "observability": {
+    "enabled": true
+  }
+  // Secrets are NOT stored here. Set them once with wrangler (or in the dashboard):
+  //   wrangler secret put DATABASE_URL
+  //   wrangler secret put DEEPSEEK_API_KEY
+  //   wrangler secret put CLERK_SECRET_KEY            // Clerk (gates the API routes)
+  // NOTE: NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY is NOT a runtime secret. It is inlined into
+  // the client bundle at BUILD time, so it must be in the env when `pnpm ship` runs the
+  // OpenNext build (it is read from .env.local locally). Setting it as a Worker secret has
+  // no effect on the already-built client.
+}

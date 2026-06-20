@@ -1,0 +1,375 @@
+{
+  "projectRoot": "/Users/emizemani/Desktop/predictthefuture",
+  "batchFiles": [
+    {
+      "path": "engine/adapters/proxy.py",
+      "language": "python",
+      "sizeLines": 105,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/chat_bridge.py",
+      "language": "python",
+      "sizeLines": 224,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/data_offload.py",
+      "language": "python",
+      "sizeLines": 361,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/__init__.py",
+      "language": "python",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/australia_epbc_referrals.py",
+      "language": "python",
+      "sizeLines": 193,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/blm_mining_claims.py",
+      "language": "python",
+      "sizeLines": 309,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/collect_all.py",
+      "language": "python",
+      "sizeLines": 376,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/europe_pmc.py",
+      "language": "python",
+      "sizeLines": 319,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/ingest.py",
+      "language": "python",
+      "sizeLines": 859,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/land_permit_sources.py",
+      "language": "python",
+      "sizeLines": 265,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/land_permits_canada_iaac.py",
+      "language": "python",
+      "sizeLines": 238,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/miningterminal_permits.py",
+      "language": "python",
+      "sizeLines": 624,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/relianceonscience.py",
+      "language": "python",
+      "sizeLines": 163,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/resourcecontracts.py",
+      "language": "python",
+      "sizeLines": 263,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/us_permitting_dashboard.py",
+      "language": "python",
+      "sizeLines": 278,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/raw_provenance.py",
+      "language": "python",
+      "sizeLines": 388,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/rawstore.py",
+      "language": "python",
+      "sizeLines": 250,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/world_catalog.py",
+      "language": "python",
+      "sizeLines": 6130,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/world_state.py",
+      "language": "python",
+      "sizeLines": 3409,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_australia_epbc_referrals.py",
+      "language": "python",
+      "sizeLines": 108,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_blm_mining_claims.py",
+      "language": "python",
+      "sizeLines": 129,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_chat_bridge.py",
+      "language": "python",
+      "sizeLines": 202,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_collect_all.py",
+      "language": "python",
+      "sizeLines": 116,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_data_offload.py",
+      "language": "python",
+      "sizeLines": 179,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_europe_pmc.py",
+      "language": "python",
+      "sizeLines": 124,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_land_permit_sources.py",
+      "language": "python",
+      "sizeLines": 64,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_land_permits_canada_iaac.py",
+      "language": "python",
+      "sizeLines": 134,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_miningterminal_permits.py",
+      "language": "python",
+      "sizeLines": 164,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_raw_provenance.py",
+      "language": "python",
+      "sizeLines": 228,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_rawstore.py",
+      "language": "python",
+      "sizeLines": 167,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_resourcecontracts.py",
+      "language": "python",
+      "sizeLines": 134,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_us_permitting_dashboard.py",
+      "language": "python",
+      "sizeLines": 128,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_world_state.py",
+      "language": "python",
+      "sizeLines": 1676,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "engine/adapters/proxy.py": [
+      "engine/__init__.py",
+      "engine/cost.py",
+      "engine/rawstore.py"
+    ],
+    "engine/chat_bridge.py": [
+      "engine/forecast.py"
+    ],
+    "engine/data_offload.py": [],
+    "engine/feeds/__init__.py": [],
+    "engine/feeds/australia_epbc_referrals.py": [],
+    "engine/feeds/blm_mining_claims.py": [],
+    "engine/feeds/collect_all.py": [
+      "engine/__init__.py",
+      "engine/disk_guard.py"
+    ],
+    "engine/feeds/europe_pmc.py": [],
+    "engine/feeds/ingest.py": [
+      "engine/__init__.py",
+      "engine/db.py",
+      "engine/graph.py",
+      "engine/rawstore.py",
+      "engine/schemas.py",
+      "engine/store.py"
+    ],
+    "engine/feeds/land_permit_sources.py": [
+      "engine/__init__.py",
+      "engine/db.py",
+      "engine/rawstore.py",
+      "engine/schemas.py"
+    ],
+    "engine/feeds/land_permits_canada_iaac.py": [],
+    "engine/feeds/miningterminal_permits.py": [],
+    "engine/feeds/relianceonscience.py": [
+      "engine/feeds/__init__.py",
+      "engine/feeds/athena.py"
+    ],
+    "engine/feeds/resourcecontracts.py": [],
+    "engine/feeds/us_permitting_dashboard.py": [],
+    "engine/raw_provenance.py": [
+      "engine/__init__.py",
+      "engine/rawstore.py",
+      "engine/schemas.py"
+    ],
+    "engine/rawstore.py": [
+      "engine/__init__.py",
+      "engine/data_offload.py",
+      "engine/schemas.py"
+    ],
+    "engine/world_catalog.py": [
+      "engine/__init__.py",
+      "engine/data_offload.py",
+      "engine/disk_guard.py",
+      "engine/schemas.py"
+    ],
+    "engine/world_state.py": [
+      "engine/__init__.py",
+      "engine/data_offload.py",
+      "engine/db.py",
+      "engine/disk_guard.py",
+      "engine/raw_provenance.py",
+      "engine/rawstore.py",
+      "engine/schemas.py"
+    ],
+    "tests/test_australia_epbc_referrals.py": [
+      "engine/__init__.py",
+      "engine/feeds/__init__.py",
+      "engine/feeds/australia_epbc_referrals.py",
+      "engine/feeds/collect_all.py",
+      "engine/feeds/ingest.py",
+      "engine/world_catalog.py",
+      "engine/world_state.py",
+      "tests/test_world_state.py"
+    ],
+    "tests/test_blm_mining_claims.py": [
+      "engine/__init__.py",
+      "engine/feeds/__init__.py",
+      "engine/feeds/blm_mining_claims.py",
+      "engine/feeds/collect_all.py",
+      "engine/feeds/ingest.py",
+      "engine/world_catalog.py",
+      "engine/world_state.py",
+      "tests/test_world_state.py"
+    ],
+    "tests/test_chat_bridge.py": [
+      "engine/__init__.py",
+      "engine/chat_bridge.py",
+      "engine/world_state.py"
+    ],
+    "tests/test_collect_all.py": [
+      "engine/feeds/__init__.py",
+      "engine/feeds/collect_all.py"
+    ],
+    "tests/test_data_offload.py": [
+      "engine/__init__.py",
+      "engine/data_offload.py"
+    ],
+    "tests/test_europe_pmc.py": [
+      "engine/__init__.py",
+      "engine/feeds/__init__.py",
+      "engine/feeds/collect_all.py",
+      "engine/feeds/europe_pmc.py",
+      "engine/feeds/ingest.py",
+      "engine/world_catalog.py",
+      "engine/world_state.py",
+      "tests/test_world_state.py"
+    ],
+    "tests/test_land_permit_sources.py": [
+      "engine/feeds/__init__.py",
+      "engine/feeds/land_permit_sources.py",
+      "tests/test_world_state.py"
+    ],
+    "tests/test_land_permits_canada_iaac.py": [
+      "engine/__init__.py",
+      "engine/feeds/__init__.py",
+      "engine/feeds/collect_all.py",
+      "engine/feeds/ingest.py",
+      "engine/feeds/land_permits_canada_iaac.py",
+      "engine/world_catalog.py",
+      "tests/test_world_state.py"
+    ],
+    "tests/test_miningterminal_permits.py": [
+      "engine/__init__.py",
+      "engine/feeds/__init__.py",
+      "engine/feeds/collect_all.py",
+      "engine/feeds/ingest.py",
+      "engine/feeds/miningterminal_permits.py",
+      "engine/world_catalog.py",
+      "engine/world_state.py",
+      "tests/test_world_state.py"
+    ],
+    "tests/test_raw_provenance.py": [
+      "engine/__init__.py",
+      "engine/db.py",
+      "engine/raw_provenance.py",
+      "engine/rawstore.py"
+    ],
+    "tests/test_rawstore.py": [
+      "engine/__init__.py",
+      "engine/db.py",
+      "engine/rawstore.py"
+    ],
+    "tests/test_resourcecontracts.py": [
+      "engine/__init__.py",
+      "engine/feeds/__init__.py",
+      "engine/feeds/collect_all.py",
+      "engine/feeds/ingest.py",
+      "engine/feeds/resourcecontracts.py",
+      "engine/world_catalog.py",
+      "tests/test_world_state.py"
+    ],
+    "tests/test_us_permitting_dashboard.py": [
+      "engine/__init__.py",
+      "engine/feeds/__init__.py",
+      "engine/feeds/collect_all.py",
+      "engine/feeds/ingest.py",
+      "engine/feeds/us_permitting_dashboard.py",
+      "engine/world_catalog.py",
+      "engine/world_state.py",
+      "tests/test_world_state.py"
+    ],
+    "tests/test_world_state.py": [
+      "engine/__init__.py",
+      "engine/db.py",
+      "engine/feeds/__init__.py",
+      "engine/feeds/ingest.py",
+      "engine/rawstore.py",
+      "engine/schemas.py",
+      "engine/world_state.py"
+    ]
+  }
+}

@@ -38,9 +38,13 @@ def _revision_row(o: Observation, prev: sqlite3.Row, reason: str) -> tuple:
 
 
 _OBS_INSERT = (
-    "INSERT INTO observations (id,series_id,as_of,value,unit,uncertainty,created_at) "
-    "VALUES (?,?,?,?,?,?,?) "
-    "ON CONFLICT(series_id,as_of) DO UPDATE SET value=excluded.value, uncertainty=excluded.uncertainty"
+    "INSERT INTO observations "
+    "(id,series_id,as_of,event_time,published_at,observed_at,value,unit,uncertainty,created_at) "
+    "VALUES (?,?,?,?,?,?,?,?,?,?) "
+    "ON CONFLICT(series_id,as_of) DO UPDATE SET "
+    "event_time=excluded.event_time, published_at=excluded.published_at, "
+    "observed_at=excluded.observed_at, value=excluded.value, unit=excluded.unit, "
+    "uncertainty=excluded.uncertainty"
 )
 _REV_INSERT = (
     "INSERT INTO observation_revisions "
@@ -87,8 +91,21 @@ def upsert_observation(conn: sqlite3.Connection, o: Observation, *,
     ).fetchone()
     if prev is not None and prev["value"] != o.value:
         conn.execute(_REV_INSERT, _revision_row(o, prev, reason))
-    conn.execute(_OBS_INSERT, (o.id, o.series_id, o.as_of.isoformat(), o.value, o.unit,
-                               o.uncertainty, o.created_at.isoformat()))
+    conn.execute(
+        _OBS_INSERT,
+        (
+            o.id,
+            o.series_id,
+            o.as_of.isoformat(),
+            o.event_time.isoformat() if o.event_time else None,
+            o.published_at.isoformat() if o.published_at else None,
+            o.observed_at.isoformat() if o.observed_at else None,
+            o.value,
+            o.unit,
+            o.uncertainty,
+            o.created_at.isoformat(),
+        ),
+    )
 
 
 def bulk_upsert_observations(conn: sqlite3.Connection, rows: list[Observation], *,
@@ -107,8 +124,20 @@ def bulk_upsert_observations(conn: sqlite3.Connection, rows: list[Observation], 
         prev = existing.get((o.series_id, o.as_of.isoformat()))
         if prev is not None and prev["value"] != o.value:
             revisions.append(_revision_row(o, prev, reason))
-        obs_params.append((o.id, o.series_id, o.as_of.isoformat(), o.value, o.unit,
-                           o.uncertainty, o.created_at.isoformat()))
+        obs_params.append(
+            (
+                o.id,
+                o.series_id,
+                o.as_of.isoformat(),
+                o.event_time.isoformat() if o.event_time else None,
+                o.published_at.isoformat() if o.published_at else None,
+                o.observed_at.isoformat() if o.observed_at else None,
+                o.value,
+                o.unit,
+                o.uncertainty,
+                o.created_at.isoformat(),
+            )
+        )
     if revisions:
         conn.executemany(_REV_INSERT, revisions)
     conn.executemany(_OBS_INSERT, obs_params)

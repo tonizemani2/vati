@@ -1,0 +1,130 @@
+{
+  "nodes": [
+    {
+      "id": "document:VOICE.md",
+      "type": "document",
+      "name": "VOICE.md",
+      "filePath": "VOICE.md",
+      "summary": "Documentation file covering VOICE for the Vati repository and its forecasting workflows.",
+      "tags": [
+        "documentation",
+        "document",
+        "docs",
+        "voice"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:WORLD_DATA_PIPELINE.md",
+      "type": "document",
+      "name": "WORLD_DATA_PIPELINE.md",
+      "filePath": "WORLD_DATA_PIPELINE.md",
+      "summary": "Documentation file covering WORLD_DATA_PIPELINE for the Vati repository and its forecasting workflows.",
+      "tags": [
+        "documentation",
+        "document",
+        "docs",
+        "world-data-pipeline"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "document:doctrine.md",
+      "type": "document",
+      "name": "doctrine.md",
+      "filePath": "doctrine.md",
+      "summary": "Documentation file covering doctrine for the Vati repository and its forecasting workflows.",
+      "tags": [
+        "documentation",
+        "document",
+        "docs",
+        "doctrine"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "document:humanizer-context.md",
+      "type": "document",
+      "name": "humanizer-context.md",
+      "filePath": "humanizer-context.md",
+      "summary": "Documentation file covering humanizer-context for the Vati repository and its forecasting workflows.",
+      "tags": [
+        "documentation",
+        "document",
+        "docs",
+        "humanizer-context"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:newbenchmarksplan.md",
+      "type": "document",
+      "name": "newbenchmarksplan.md",
+      "filePath": "newbenchmarksplan.md",
+      "summary": "Documentation file covering newbenchmarksplan for the Vati repository and its forecasting workflows.",
+      "tags": [
+        "documentation",
+        "document",
+        "docs",
+        "newbenchmarksplan"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:plan.md",
+      "type": "document",
+      "name": "plan.md",
+      "filePath": "plan.md",
+      "summary": "Documentation file covering plan for the Vati repository and its forecasting workflows.",
+      "tags": [
+        "documentation",
+        "document",
+        "docs",
+        "plan"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:proof.md",
+      "type": "document",
+      "name": "proof.md",
+      "filePath": "proof.md",
+      "summary": "Documentation file covering proof for the Vati repository and its forecasting workflows.",
+      "tags": [
+        "documentation",
+        "document",
+        "docs",
+        "proof"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "document:prophet-custom-agent.md",
+      "type": "document",
+      "name": "prophet-custom-agent.md",
+      "filePath": "prophet-custom-agent.md",
+      "summary": "Documentation file covering prophet-custom-agent for the Vati repository and its forecasting workflows.",
+      "tags": [
+        "documentation",
+        "document",
+        "docs",
+        "prophet-custom-agent"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:pyproject.toml",
+      "type": "config",
+      "name": "pyproject.toml",
+      "filePath": "pyproject.toml",
+      "summary": "Configuration file for pyproject.toml that shapes build, runtime, or tooling behavior in this repository.",
+      "tags": [
+        "configuration",
+        "build-system",
+        "project-manifest"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": []
+}

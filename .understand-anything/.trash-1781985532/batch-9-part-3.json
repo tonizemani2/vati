@@ -1,0 +1,2106 @@
+{
+  "nodes": [
+    {
+      "id": "file:cockpit/components/ui/progress.tsx",
+      "type": "file",
+      "name": "progress.tsx",
+      "filePath": "cockpit/components/ui/progress.tsx",
+      "summary": "progress.tsx is a code asset in the cockpit dashboard. It contains 5 functions, 1 internal import.",
+      "tags": [
+        "dashboard",
+        "code",
+        "file",
+        "progress"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:cockpit/components/ui/progress.tsx:Progress",
+      "type": "function",
+      "name": "Progress",
+      "filePath": "cockpit/components/ui/progress.tsx",
+      "lineRange": [
+        7,
+        26
+      ],
+      "summary": "Defines Progress in progress.tsx, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "progress"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cockpit/components/ui/progress.tsx:ProgressTrack",
+      "type": "function",
+      "name": "ProgressTrack",
+      "filePath": "cockpit/components/ui/progress.tsx",
+      "lineRange": [
+        28,
+        39
+      ],
+      "summary": "Defines ProgressTrack in progress.tsx, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "progress"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cockpit/components/ui/progress.tsx:ProgressIndicator",
+      "type": "function",
+      "name": "ProgressIndicator",
+      "filePath": "cockpit/components/ui/progress.tsx",
+      "lineRange": [
+        41,
+        52
+      ],
+      "summary": "Defines ProgressIndicator in progress.tsx, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "progress"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cockpit/components/ui/progress.tsx:ProgressLabel",
+      "type": "function",
+      "name": "ProgressLabel",
+      "filePath": "cockpit/components/ui/progress.tsx",
+      "lineRange": [
+        54,
+        62
+      ],
+      "summary": "Defines ProgressLabel in progress.tsx, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "progress"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cockpit/components/ui/progress.tsx:ProgressValue",
+      "type": "function",
+      "name": "ProgressValue",
+      "filePath": "cockpit/components/ui/progress.tsx",
+      "lineRange": [
+        64,
+        75
+      ],
+      "summary": "Defines ProgressValue in progress.tsx, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "progress"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:cockpit/components/ui/table.tsx",
+      "type": "file",
+      "name": "table.tsx",
+      "filePath": "cockpit/components/ui/table.tsx",
+      "summary": "table.tsx is a code asset in the cockpit dashboard. It contains 8 functions, 1 internal import.",
+      "tags": [
+        "dashboard",
+        "code",
+        "file",
+        "table"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:cockpit/components/ui/table.tsx:Table",
+      "type": "function",
+      "name": "Table",
+      "filePath": "cockpit/components/ui/table.tsx",
+      "lineRange": [
+        7,
+        20
+      ],
+      "summary": "Defines Table in table.tsx, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "table"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cockpit/components/ui/table.tsx:TableHeader",
+      "type": "function",
+      "name": "TableHeader",
+      "filePath": "cockpit/components/ui/table.tsx",
+      "lineRange": [
+        22,
+        30
+      ],
+      "summary": "Defines TableHeader in table.tsx, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "table"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cockpit/components/ui/table.tsx:TableBody",
+      "type": "function",
+      "name": "TableBody",
+      "filePath": "cockpit/components/ui/table.tsx",
+      "lineRange": [
+        32,
+        40
+      ],
+      "summary": "Defines TableBody in table.tsx, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "table"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cockpit/components/ui/table.tsx:TableFooter",
+      "type": "function",
+      "name": "TableFooter",
+      "filePath": "cockpit/components/ui/table.tsx",
+      "lineRange": [
+        42,
+        53
+      ],
+      "summary": "Defines TableFooter in table.tsx, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "table"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cockpit/components/ui/table.tsx:TableRow",
+      "type": "function",
+      "name": "TableRow",
+      "filePath": "cockpit/components/ui/table.tsx",
+      "lineRange": [
+        55,
+        66
+      ],
+      "summary": "Defines TableRow in table.tsx, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "table"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cockpit/components/ui/table.tsx:TableHead",
+      "type": "function",
+      "name": "TableHead",
+      "filePath": "cockpit/components/ui/table.tsx",
+      "lineRange": [
+        68,
+        79
+      ],
+      "summary": "Defines TableHead in table.tsx, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "table"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cockpit/components/ui/table.tsx:TableCell",
+      "type": "function",
+      "name": "TableCell",
+      "filePath": "cockpit/components/ui/table.tsx",
+      "lineRange": [
+        81,
+        92
+      ],
+      "summary": "Defines TableCell in table.tsx, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "table"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cockpit/components/ui/table.tsx:TableCaption",
+      "type": "function",
+      "name": "TableCaption",
+      "filePath": "cockpit/components/ui/table.tsx",
+      "lineRange": [
+        94,
+        105
+      ],
+      "summary": "Defines TableCaption in table.tsx, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "table"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:cockpit/components/ui/tabs.tsx",
+      "type": "file",
+      "name": "tabs.tsx",
+      "filePath": "cockpit/components/ui/tabs.tsx",
+      "summary": "tabs.tsx is a code asset in the cockpit dashboard. It contains 4 functions, 1 internal import.",
+      "tags": [
+        "dashboard",
+        "code",
+        "file",
+        "tabs"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:cockpit/components/ui/tabs.tsx:Tabs",
+      "type": "function",
+      "name": "Tabs",
+      "filePath": "cockpit/components/ui/tabs.tsx",
+      "lineRange": [
+        8,
+        24
+      ],
+      "summary": "Defines Tabs in tabs.tsx, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "tabs"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cockpit/components/ui/tabs.tsx:TabsList",
+      "type": "function",
+      "name": "TabsList",
+      "filePath": "cockpit/components/ui/tabs.tsx",
+      "lineRange": [
+        41,
+        54
+      ],
+      "summary": "Defines TabsList in tabs.tsx, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "tabs"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cockpit/components/ui/tabs.tsx:TabsTrigger",
+      "type": "function",
+      "name": "TabsTrigger",
+      "filePath": "cockpit/components/ui/tabs.tsx",
+      "lineRange": [
+        56,
+        70
+      ],
+      "summary": "Defines TabsTrigger in tabs.tsx, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "tabs"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cockpit/components/ui/tabs.tsx:TabsContent",
+      "type": "function",
+      "name": "TabsContent",
+      "filePath": "cockpit/components/ui/tabs.tsx",
+      "lineRange": [
+        72,
+        80
+      ],
+      "summary": "Defines TabsContent in tabs.tsx, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "tabs"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:cockpit/components/universe-benchmark.tsx",
+      "type": "file",
+      "name": "universe-benchmark.tsx",
+      "filePath": "cockpit/components/universe-benchmark.tsx",
+      "summary": "universe-benchmark.tsx is a code asset in the cockpit dashboard. It contains 2 functions, 1 internal import.",
+      "tags": [
+        "dashboard",
+        "code",
+        "file",
+        "universe-benchmark"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:cockpit/components/universe-benchmark.tsx:UniverseBenchmark",
+      "type": "function",
+      "name": "UniverseBenchmark",
+      "filePath": "cockpit/components/universe-benchmark.tsx",
+      "lineRange": [
+        12,
+        158
+      ],
+      "summary": "Defines UniverseBenchmark in universe-benchmark.tsx, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "universe-benchmark"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:cockpit/lib/db.ts",
+      "type": "file",
+      "name": "db.ts",
+      "filePath": "cockpit/lib/db.ts",
+      "summary": "db.ts is a code asset in the cockpit dashboard. It contains 36 functions.",
+      "tags": [
+        "dashboard",
+        "database",
+        "code"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:cockpit/lib/db.ts:rows",
+      "type": "function",
+      "name": "rows",
+      "filePath": "cockpit/lib/db.ts",
+      "lineRange": [
+        21,
+        31
+      ],
+      "summary": "Defines rows in db.ts, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "db"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cockpit/lib/db.ts:scalar",
+      "type": "function",
+      "name": "scalar",
+      "filePath": "cockpit/lib/db.ts",
+      "lineRange": [
+        33,
+        45
+      ],
+      "summary": "Defines scalar in db.ts, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "db"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cockpit/lib/db.ts:consensusEcho",
+      "type": "function",
+      "name": "consensusEcho",
+      "filePath": "cockpit/lib/db.ts",
+      "lineRange": [
+        108,
+        109
+      ],
+      "summary": "Defines consensusEcho in db.ts, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "db"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cockpit/lib/db.ts:getPillars",
+      "type": "function",
+      "name": "getPillars",
+      "filePath": "cockpit/lib/db.ts",
+      "lineRange": [
+        152,
+        153
+      ],
+      "summary": "Defines getPillars in db.ts, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "db"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cockpit/lib/db.ts:getSources",
+      "type": "function",
+      "name": "getSources",
+      "filePath": "cockpit/lib/db.ts",
+      "lineRange": [
+        155,
+        158
+      ],
+      "summary": "Defines getSources in db.ts, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "db"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cockpit/lib/db.ts:getOpenDecisions",
+      "type": "function",
+      "name": "getOpenDecisions",
+      "filePath": "cockpit/lib/db.ts",
+      "lineRange": [
+        160,
+        163
+      ],
+      "summary": "Defines getOpenDecisions in db.ts, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "db"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cockpit/lib/db.ts:getCostLedger",
+      "type": "function",
+      "name": "getCostLedger",
+      "filePath": "cockpit/lib/db.ts",
+      "lineRange": [
+        165,
+        168
+      ],
+      "summary": "Defines getCostLedger in db.ts, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "db"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cockpit/lib/db.ts:getSpendCents",
+      "type": "function",
+      "name": "getSpendCents",
+      "filePath": "cockpit/lib/db.ts",
+      "lineRange": [
+        170,
+        174
+      ],
+      "summary": "Defines getSpendCents in db.ts, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "db"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cockpit/lib/db.ts:getForecasts",
+      "type": "function",
+      "name": "getForecasts",
+      "filePath": "cockpit/lib/db.ts",
+      "lineRange": [
+        178,
+        181
+      ],
+      "summary": "Defines getForecasts in db.ts, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "db"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cockpit/lib/db.ts:getCalibration",
+      "type": "function",
+      "name": "getCalibration",
+      "filePath": "cockpit/lib/db.ts",
+      "lineRange": [
+        184,
+        200
+      ],
+      "summary": "Defines getCalibration in db.ts, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "db"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cockpit/lib/db.ts:getLadder",
+      "type": "function",
+      "name": "getLadder",
+      "filePath": "cockpit/lib/db.ts",
+      "lineRange": [
+        233,
+        236
+      ],
+      "summary": "Defines getLadder in db.ts, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "db"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cockpit/lib/db.ts:getLadderScore",
+      "type": "function",
+      "name": "getLadderScore",
+      "filePath": "cockpit/lib/db.ts",
+      "lineRange": [
+        238,
+        285
+      ],
+      "summary": "Defines getLadderScore in db.ts, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "db"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cockpit/lib/db.ts:driftVol",
+      "type": "function",
+      "name": "driftVol",
+      "filePath": "cockpit/lib/db.ts",
+      "lineRange": [
+        326,
+        335
+      ],
+      "summary": "Defines driftVol in db.ts, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "db"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cockpit/lib/db.ts:statusOf",
+      "type": "function",
+      "name": "statusOf",
+      "filePath": "cockpit/lib/db.ts",
+      "lineRange": [
+        340,
+        367
+      ],
+      "summary": "Defines statusOf in db.ts, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "db"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cockpit/lib/db.ts:getDriverHealth",
+      "type": "function",
+      "name": "getDriverHealth",
+      "filePath": "cockpit/lib/db.ts",
+      "lineRange": [
+        369,
+        416
+      ],
+      "summary": "Defines getDriverHealth in db.ts, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "db"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cockpit/lib/db.ts:getGraphNodes",
+      "type": "function",
+      "name": "getGraphNodes",
+      "filePath": "cockpit/lib/db.ts",
+      "lineRange": [
+        442,
+        447
+      ],
+      "summary": "Defines getGraphNodes in db.ts, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "db"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cockpit/lib/db.ts:getGraphEdges",
+      "type": "function",
+      "name": "getGraphEdges",
+      "filePath": "cockpit/lib/db.ts",
+      "lineRange": [
+        449,
+        452
+      ],
+      "summary": "Defines getGraphEdges in db.ts, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "db"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cockpit/lib/db.ts:getWorldNodes",
+      "type": "function",
+      "name": "getWorldNodes",
+      "filePath": "cockpit/lib/db.ts",
+      "lineRange": [
+        460,
+        467
+      ],
+      "summary": "Defines getWorldNodes in db.ts, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "db"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cockpit/lib/db.ts:getWorldEdges",
+      "type": "function",
+      "name": "getWorldEdges",
+      "filePath": "cockpit/lib/db.ts",
+      "lineRange": [
+        469,
+        473
+      ],
+      "summary": "Defines getWorldEdges in db.ts, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "db"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cockpit/lib/db.ts:getConsensus",
+      "type": "function",
+      "name": "getConsensus",
+      "filePath": "cockpit/lib/db.ts",
+      "lineRange": [
+        500,
+        508
+      ],
+      "summary": "Defines getConsensus in db.ts, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "db"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cockpit/lib/db.ts:getBet",
+      "type": "function",
+      "name": "getBet",
+      "filePath": "cockpit/lib/db.ts",
+      "lineRange": [
+        548,
+        558
+      ],
+      "summary": "Defines getBet in db.ts, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "db"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cockpit/lib/db.ts:getRetroCases",
+      "type": "function",
+      "name": "getRetroCases",
+      "filePath": "cockpit/lib/db.ts",
+      "lineRange": [
+        583,
+        589
+      ],
+      "summary": "Defines getRetroCases in db.ts, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "db"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cockpit/lib/db.ts:getRecallProbe",
+      "type": "function",
+      "name": "getRecallProbe",
+      "filePath": "cockpit/lib/db.ts",
+      "lineRange": [
+        608,
+        613
+      ],
+      "summary": "Defines getRecallProbe in db.ts, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "db"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cockpit/lib/db.ts:getSlowConstraints",
+      "type": "function",
+      "name": "getSlowConstraints",
+      "filePath": "cockpit/lib/db.ts",
+      "lineRange": [
+        633,
+        640
+      ],
+      "summary": "Defines getSlowConstraints in db.ts, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "db"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cockpit/lib/db.ts:getRetroScore",
+      "type": "function",
+      "name": "getRetroScore",
+      "filePath": "cockpit/lib/db.ts",
+      "lineRange": [
+        658,
+        691
+      ],
+      "summary": "Defines getRetroScore in db.ts, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "db"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cockpit/lib/db.ts:getUniverseCases",
+      "type": "function",
+      "name": "getUniverseCases",
+      "filePath": "cockpit/lib/db.ts",
+      "lineRange": [
+        714,
+        719
+      ],
+      "summary": "Defines getUniverseCases in db.ts, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "db"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cockpit/lib/db.ts:confusion",
+      "type": "function",
+      "name": "confusion",
+      "filePath": "cockpit/lib/db.ts",
+      "lineRange": [
+        725,
+        739
+      ],
+      "summary": "Defines confusion in db.ts, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "db"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cockpit/lib/db.ts:getUniverseScore",
+      "type": "function",
+      "name": "getUniverseScore",
+      "filePath": "cockpit/lib/db.ts",
+      "lineRange": [
+        748,
+        782
+      ],
+      "summary": "Defines getUniverseScore in db.ts, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "db"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cockpit/lib/db.ts:getEntities",
+      "type": "function",
+      "name": "getEntities",
+      "filePath": "cockpit/lib/db.ts",
+      "lineRange": [
+        809,
+        831
+      ],
+      "summary": "Defines getEntities in db.ts, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "db"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cockpit/lib/db.ts:getEntityEdges",
+      "type": "function",
+      "name": "getEntityEdges",
+      "filePath": "cockpit/lib/db.ts",
+      "lineRange": [
+        843,
+        850
+      ],
+      "summary": "Defines getEntityEdges in db.ts, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "db"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cockpit/lib/db.ts:getHypotheses",
+      "type": "function",
+      "name": "getHypotheses",
+      "filePath": "cockpit/lib/db.ts",
+      "lineRange": [
+        881,
+        889
+      ],
+      "summary": "Defines getHypotheses in db.ts, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "db"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cockpit/lib/db.ts:getDataHealth",
+      "type": "function",
+      "name": "getDataHealth",
+      "filePath": "cockpit/lib/db.ts",
+      "lineRange": [
+        917,
+        931
+      ],
+      "summary": "Defines getDataHealth in db.ts, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "db"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cockpit/lib/db.ts:getWorldStateOverview",
+      "type": "function",
+      "name": "getWorldStateOverview",
+      "filePath": "cockpit/lib/db.ts",
+      "lineRange": [
+        960,
+        1026
+      ],
+      "summary": "Defines getWorldStateOverview in db.ts, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "db"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:cockpit/lib/db.ts:getSeries",
+      "type": "function",
+      "name": "getSeries",
+      "filePath": "cockpit/lib/db.ts",
+      "lineRange": [
+        1032,
+        1042
+      ],
+      "summary": "Defines getSeries in db.ts, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "db"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cockpit/lib/db.ts:getDiscovery",
+      "type": "function",
+      "name": "getDiscovery",
+      "filePath": "cockpit/lib/db.ts",
+      "lineRange": [
+        1074,
+        1148
+      ],
+      "summary": "Defines getDiscovery in db.ts, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "db"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:cockpit/lib/utils.ts",
+      "type": "file",
+      "name": "utils.ts",
+      "filePath": "cockpit/lib/utils.ts",
+      "summary": "utils.ts is a code asset in the cockpit dashboard. It contains 1 function.",
+      "tags": [
+        "dashboard",
+        "code",
+        "file",
+        "utils"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cockpit/lib/utils.ts:cn",
+      "type": "function",
+      "name": "cn",
+      "filePath": "cockpit/lib/utils.ts",
+      "lineRange": [
+        4,
+        6
+      ],
+      "summary": "Defines cn in utils.ts, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utils"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:cockpit/components/ui/progress.tsx",
+      "target": "function:cockpit/components/ui/progress.tsx:Progress",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cockpit/components/ui/progress.tsx",
+      "target": "function:cockpit/components/ui/progress.tsx:Progress",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cockpit/components/ui/progress.tsx",
+      "target": "function:cockpit/components/ui/progress.tsx:ProgressTrack",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cockpit/components/ui/progress.tsx",
+      "target": "function:cockpit/components/ui/progress.tsx:ProgressTrack",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cockpit/components/ui/progress.tsx",
+      "target": "function:cockpit/components/ui/progress.tsx:ProgressIndicator",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cockpit/components/ui/progress.tsx",
+      "target": "function:cockpit/components/ui/progress.tsx:ProgressIndicator",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cockpit/components/ui/progress.tsx",
+      "target": "function:cockpit/components/ui/progress.tsx:ProgressLabel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cockpit/components/ui/progress.tsx",
+      "target": "function:cockpit/components/ui/progress.tsx:ProgressLabel",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cockpit/components/ui/progress.tsx",
+      "target": "function:cockpit/components/ui/progress.tsx:ProgressValue",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cockpit/components/ui/progress.tsx",
+      "target": "function:cockpit/components/ui/progress.tsx:ProgressValue",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cockpit/components/ui/table.tsx",
+      "target": "function:cockpit/components/ui/table.tsx:Table",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cockpit/components/ui/table.tsx",
+      "target": "function:cockpit/components/ui/table.tsx:Table",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cockpit/components/ui/table.tsx",
+      "target": "function:cockpit/components/ui/table.tsx:TableHeader",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cockpit/components/ui/table.tsx",
+      "target": "function:cockpit/components/ui/table.tsx:TableHeader",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cockpit/components/ui/table.tsx",
+      "target": "function:cockpit/components/ui/table.tsx:TableBody",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cockpit/components/ui/table.tsx",
+      "target": "function:cockpit/components/ui/table.tsx:TableBody",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cockpit/components/ui/table.tsx",
+      "target": "function:cockpit/components/ui/table.tsx:TableFooter",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cockpit/components/ui/table.tsx",
+      "target": "function:cockpit/components/ui/table.tsx:TableFooter",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cockpit/components/ui/table.tsx",
+      "target": "function:cockpit/components/ui/table.tsx:TableRow",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cockpit/components/ui/table.tsx",
+      "target": "function:cockpit/components/ui/table.tsx:TableRow",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cockpit/components/ui/table.tsx",
+      "target": "function:cockpit/components/ui/table.tsx:TableHead",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cockpit/components/ui/table.tsx",
+      "target": "function:cockpit/components/ui/table.tsx:TableHead",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cockpit/components/ui/table.tsx",
+      "target": "function:cockpit/components/ui/table.tsx:TableCell",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cockpit/components/ui/table.tsx",
+      "target": "function:cockpit/components/ui/table.tsx:TableCell",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cockpit/components/ui/table.tsx",
+      "target": "function:cockpit/components/ui/table.tsx:TableCaption",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cockpit/components/ui/table.tsx",
+      "target": "function:cockpit/components/ui/table.tsx:TableCaption",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cockpit/components/ui/tabs.tsx",
+      "target": "function:cockpit/components/ui/tabs.tsx:Tabs",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cockpit/components/ui/tabs.tsx",
+      "target": "function:cockpit/components/ui/tabs.tsx:Tabs",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cockpit/components/ui/tabs.tsx",
+      "target": "function:cockpit/components/ui/tabs.tsx:TabsList",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cockpit/components/ui/tabs.tsx",
+      "target": "function:cockpit/components/ui/tabs.tsx:TabsList",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cockpit/components/ui/tabs.tsx",
+      "target": "function:cockpit/components/ui/tabs.tsx:TabsTrigger",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cockpit/components/ui/tabs.tsx",
+      "target": "function:cockpit/components/ui/tabs.tsx:TabsTrigger",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cockpit/components/ui/tabs.tsx",
+      "target": "function:cockpit/components/ui/tabs.tsx:TabsContent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cockpit/components/ui/tabs.tsx",
+      "target": "function:cockpit/components/ui/tabs.tsx:TabsContent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cockpit/components/universe-benchmark.tsx",
+      "target": "function:cockpit/components/universe-benchmark.tsx:UniverseBenchmark",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cockpit/components/universe-benchmark.tsx",
+      "target": "function:cockpit/components/universe-benchmark.tsx:UniverseBenchmark",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cockpit/lib/db.ts",
+      "target": "function:cockpit/lib/db.ts:rows",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cockpit/lib/db.ts",
+      "target": "function:cockpit/lib/db.ts:scalar",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cockpit/lib/db.ts",
+      "target": "function:cockpit/lib/db.ts:consensusEcho",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cockpit/lib/db.ts",
+      "target": "function:cockpit/lib/db.ts:consensusEcho",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cockpit/lib/db.ts",
+      "target": "function:cockpit/lib/db.ts:getPillars",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cockpit/lib/db.ts",
+      "target": "function:cockpit/lib/db.ts:getPillars",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cockpit/lib/db.ts",
+      "target": "function:cockpit/lib/db.ts:getSources",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cockpit/lib/db.ts",
+      "target": "function:cockpit/lib/db.ts:getSources",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cockpit/lib/db.ts",
+      "target": "function:cockpit/lib/db.ts:getOpenDecisions",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cockpit/lib/db.ts",
+      "target": "function:cockpit/lib/db.ts:getOpenDecisions",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cockpit/lib/db.ts",
+      "target": "function:cockpit/lib/db.ts:getCostLedger",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cockpit/lib/db.ts",
+      "target": "function:cockpit/lib/db.ts:getCostLedger",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cockpit/lib/db.ts",
+      "target": "function:cockpit/lib/db.ts:getSpendCents",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cockpit/lib/db.ts",
+      "target": "function:cockpit/lib/db.ts:getSpendCents",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cockpit/lib/db.ts",
+      "target": "function:cockpit/lib/db.ts:getForecasts",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cockpit/lib/db.ts",
+      "target": "function:cockpit/lib/db.ts:getForecasts",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cockpit/lib/db.ts",
+      "target": "function:cockpit/lib/db.ts:getCalibration",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cockpit/lib/db.ts",
+      "target": "function:cockpit/lib/db.ts:getCalibration",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cockpit/lib/db.ts",
+      "target": "function:cockpit/lib/db.ts:getLadder",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cockpit/lib/db.ts",
+      "target": "function:cockpit/lib/db.ts:getLadder",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cockpit/lib/db.ts",
+      "target": "function:cockpit/lib/db.ts:getLadderScore",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cockpit/lib/db.ts",
+      "target": "function:cockpit/lib/db.ts:getLadderScore",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cockpit/lib/db.ts",
+      "target": "function:cockpit/lib/db.ts:driftVol",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cockpit/lib/db.ts",
+      "target": "function:cockpit/lib/db.ts:statusOf",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cockpit/lib/db.ts",
+      "target": "function:cockpit/lib/db.ts:getDriverHealth",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cockpit/lib/db.ts",
+      "target": "function:cockpit/lib/db.ts:getDriverHealth",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cockpit/lib/db.ts",
+      "target": "function:cockpit/lib/db.ts:getGraphNodes",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cockpit/lib/db.ts",
+      "target": "function:cockpit/lib/db.ts:getGraphNodes",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cockpit/lib/db.ts",
+      "target": "function:cockpit/lib/db.ts:getGraphEdges",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cockpit/lib/db.ts",
+      "target": "function:cockpit/lib/db.ts:getGraphEdges",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cockpit/lib/db.ts",
+      "target": "function:cockpit/lib/db.ts:getWorldNodes",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cockpit/lib/db.ts",
+      "target": "function:cockpit/lib/db.ts:getWorldNodes",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cockpit/lib/db.ts",
+      "target": "function:cockpit/lib/db.ts:getWorldEdges",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cockpit/lib/db.ts",
+      "target": "function:cockpit/lib/db.ts:getWorldEdges",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cockpit/lib/db.ts",
+      "target": "function:cockpit/lib/db.ts:getConsensus",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cockpit/lib/db.ts",
+      "target": "function:cockpit/lib/db.ts:getConsensus",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cockpit/lib/db.ts",
+      "target": "function:cockpit/lib/db.ts:getBet",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cockpit/lib/db.ts",
+      "target": "function:cockpit/lib/db.ts:getBet",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cockpit/lib/db.ts",
+      "target": "function:cockpit/lib/db.ts:getRetroCases",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cockpit/lib/db.ts",
+      "target": "function:cockpit/lib/db.ts:getRetroCases",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cockpit/lib/db.ts",
+      "target": "function:cockpit/lib/db.ts:getRecallProbe",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cockpit/lib/db.ts",
+      "target": "function:cockpit/lib/db.ts:getRecallProbe",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cockpit/lib/db.ts",
+      "target": "function:cockpit/lib/db.ts:getSlowConstraints",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cockpit/lib/db.ts",
+      "target": "function:cockpit/lib/db.ts:getSlowConstraints",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cockpit/lib/db.ts",
+      "target": "function:cockpit/lib/db.ts:getRetroScore",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cockpit/lib/db.ts",
+      "target": "function:cockpit/lib/db.ts:getRetroScore",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cockpit/lib/db.ts",
+      "target": "function:cockpit/lib/db.ts:getUniverseCases",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cockpit/lib/db.ts",
+      "target": "function:cockpit/lib/db.ts:getUniverseCases",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cockpit/lib/db.ts",
+      "target": "function:cockpit/lib/db.ts:confusion",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cockpit/lib/db.ts",
+      "target": "function:cockpit/lib/db.ts:getUniverseScore",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cockpit/lib/db.ts",
+      "target": "function:cockpit/lib/db.ts:getUniverseScore",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cockpit/lib/db.ts",
+      "target": "function:cockpit/lib/db.ts:getEntities",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cockpit/lib/db.ts",
+      "target": "function:cockpit/lib/db.ts:getEntities",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cockpit/lib/db.ts",
+      "target": "function:cockpit/lib/db.ts:getEntityEdges",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cockpit/lib/db.ts",
+      "target": "function:cockpit/lib/db.ts:getEntityEdges",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cockpit/lib/db.ts",
+      "target": "function:cockpit/lib/db.ts:getHypotheses",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cockpit/lib/db.ts",
+      "target": "function:cockpit/lib/db.ts:getHypotheses",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cockpit/lib/db.ts",
+      "target": "function:cockpit/lib/db.ts:getDataHealth",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cockpit/lib/db.ts",
+      "target": "function:cockpit/lib/db.ts:getDataHealth",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cockpit/lib/db.ts",
+      "target": "function:cockpit/lib/db.ts:getWorldStateOverview",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cockpit/lib/db.ts",
+      "target": "function:cockpit/lib/db.ts:getWorldStateOverview",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cockpit/lib/db.ts",
+      "target": "function:cockpit/lib/db.ts:getSeries",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cockpit/lib/db.ts",
+      "target": "function:cockpit/lib/db.ts:getSeries",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cockpit/lib/db.ts",
+      "target": "function:cockpit/lib/db.ts:getDiscovery",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cockpit/lib/db.ts",
+      "target": "function:cockpit/lib/db.ts:getDiscovery",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cockpit/lib/utils.ts",
+      "target": "function:cockpit/lib/utils.ts:cn",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cockpit/lib/utils.ts",
+      "target": "function:cockpit/lib/utils.ts:cn",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cockpit/components/ui/progress.tsx",
+      "target": "file:cockpit/lib/utils.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:cockpit/components/ui/table.tsx",
+      "target": "file:cockpit/lib/utils.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:cockpit/components/ui/tabs.tsx",
+      "target": "file:cockpit/lib/utils.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:cockpit/components/universe-benchmark.tsx",
+      "target": "file:cockpit/lib/db.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "function:cockpit/components/ui/progress.tsx:Progress",
+      "target": "function:cockpit/lib/utils.ts:cn",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cockpit/components/ui/progress.tsx:ProgressTrack",
+      "target": "function:cockpit/lib/utils.ts:cn",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cockpit/components/ui/progress.tsx:ProgressIndicator",
+      "target": "function:cockpit/lib/utils.ts:cn",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cockpit/components/ui/progress.tsx:ProgressLabel",
+      "target": "function:cockpit/lib/utils.ts:cn",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cockpit/components/ui/progress.tsx:ProgressValue",
+      "target": "function:cockpit/lib/utils.ts:cn",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cockpit/components/ui/table.tsx:Table",
+      "target": "function:cockpit/lib/utils.ts:cn",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cockpit/components/ui/table.tsx:TableHeader",
+      "target": "function:cockpit/lib/utils.ts:cn",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cockpit/components/ui/table.tsx:TableBody",
+      "target": "function:cockpit/lib/utils.ts:cn",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cockpit/components/ui/table.tsx:TableFooter",
+      "target": "function:cockpit/lib/utils.ts:cn",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cockpit/components/ui/table.tsx:TableRow",
+      "target": "function:cockpit/lib/utils.ts:cn",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cockpit/components/ui/table.tsx:TableHead",
+      "target": "function:cockpit/lib/utils.ts:cn",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cockpit/components/ui/table.tsx:TableCell",
+      "target": "function:cockpit/lib/utils.ts:cn",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cockpit/components/ui/table.tsx:TableCaption",
+      "target": "function:cockpit/lib/utils.ts:cn",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cockpit/components/ui/tabs.tsx:Tabs",
+      "target": "function:cockpit/lib/utils.ts:cn",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cockpit/components/ui/tabs.tsx:TabsList",
+      "target": "function:cockpit/lib/utils.ts:cn",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cockpit/components/ui/tabs.tsx:TabsTrigger",
+      "target": "function:cockpit/lib/utils.ts:cn",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cockpit/components/ui/tabs.tsx:TabsContent",
+      "target": "function:cockpit/lib/utils.ts:cn",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cockpit/lib/db.ts:getPillars",
+      "target": "function:cockpit/lib/db.ts:rows",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cockpit/lib/db.ts:getSources",
+      "target": "function:cockpit/lib/db.ts:rows",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cockpit/lib/db.ts:getOpenDecisions",
+      "target": "function:cockpit/lib/db.ts:rows",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cockpit/lib/db.ts:getCostLedger",
+      "target": "function:cockpit/lib/db.ts:rows",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cockpit/lib/db.ts:getSpendCents",
+      "target": "function:cockpit/lib/db.ts:scalar",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cockpit/lib/db.ts:getForecasts",
+      "target": "function:cockpit/lib/db.ts:rows",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cockpit/lib/db.ts:getCalibration",
+      "target": "function:cockpit/lib/db.ts:rows",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cockpit/lib/db.ts:getLadder",
+      "target": "function:cockpit/lib/db.ts:rows",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cockpit/lib/db.ts:getLadderScore",
+      "target": "function:cockpit/lib/db.ts:rows",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cockpit/lib/db.ts:statusOf",
+      "target": "function:cockpit/lib/db.ts:driftVol",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cockpit/lib/db.ts:getDriverHealth",
+      "target": "function:cockpit/lib/db.ts:rows",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cockpit/lib/db.ts:getDriverHealth",
+      "target": "function:cockpit/lib/db.ts:statusOf",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cockpit/lib/db.ts:getGraphNodes",
+      "target": "function:cockpit/lib/db.ts:rows",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cockpit/lib/db.ts:getGraphEdges",
+      "target": "function:cockpit/lib/db.ts:rows",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cockpit/lib/db.ts:getWorldNodes",
+      "target": "function:cockpit/lib/db.ts:rows",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cockpit/lib/db.ts:getWorldEdges",
+      "target": "function:cockpit/lib/db.ts:rows",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cockpit/lib/db.ts:getConsensus",
+      "target": "function:cockpit/lib/db.ts:rows",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cockpit/lib/db.ts:getBet",
+      "target": "function:cockpit/lib/db.ts:rows",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cockpit/lib/db.ts:getRetroCases",
+      "target": "function:cockpit/lib/db.ts:rows",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cockpit/lib/db.ts:getRecallProbe",
+      "target": "function:cockpit/lib/db.ts:rows",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cockpit/lib/db.ts:getSlowConstraints",
+      "target": "function:cockpit/lib/db.ts:rows",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cockpit/lib/db.ts:getRetroScore",
+      "target": "function:cockpit/lib/db.ts:getRetroCases",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cockpit/lib/db.ts:getUniverseCases",
+      "target": "function:cockpit/lib/db.ts:rows",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cockpit/lib/db.ts:getUniverseScore",
+      "target": "function:cockpit/lib/db.ts:getUniverseCases",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cockpit/lib/db.ts:getUniverseScore",
+      "target": "function:cockpit/lib/db.ts:confusion",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cockpit/lib/db.ts:getEntities",
+      "target": "function:cockpit/lib/db.ts:rows",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cockpit/lib/db.ts:getEntityEdges",
+      "target": "function:cockpit/lib/db.ts:rows",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cockpit/lib/db.ts:getHypotheses",
+      "target": "function:cockpit/lib/db.ts:rows",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cockpit/lib/db.ts:getDataHealth",
+      "target": "function:cockpit/lib/db.ts:rows",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cockpit/lib/db.ts:getWorldStateOverview",
+      "target": "function:cockpit/lib/db.ts:scalar",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cockpit/lib/db.ts:getWorldStateOverview",
+      "target": "function:cockpit/lib/db.ts:rows",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cockpit/lib/db.ts:getSeries",
+      "target": "function:cockpit/lib/db.ts:rows",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cockpit/lib/db.ts:getDiscovery",
+      "target": "function:cockpit/lib/db.ts:rows",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

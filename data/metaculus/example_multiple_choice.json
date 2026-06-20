@@ -1,0 +1,355 @@
+{
+ "id": 37322,
+ "title": "Who will be the 2028 Democratic nominee for President of the United States?",
+ "short_title": "Who will be the 2028 Democratic nominee for President of the United States?",
+ "url_title": "Who will be the 2028 Democratic nominee for President of the United States?",
+ "slug": "who-will-be-the-2028-democratic-nominee-for-president-of-the-united-states",
+ "author_id": 101465,
+ "author_username": "Jgalt",
+ "coauthors": [],
+ "created_at": "2025-04-28T20:21:25.540797Z",
+ "published_at": "2025-05-01T15:20:24Z",
+ "edited_at": "2026-06-12T12:49:50.556938Z",
+ "curation_status": "approved",
+ "curation_status_updated_at": "2025-05-01T15:20:41Z",
+ "comment_count": 12,
+ "status": "open",
+ "resolved": false,
+ "actual_close_time": null,
+ "scheduled_close_time": "2028-09-15T22:00:00Z",
+ "scheduled_resolve_time": "2028-09-16T13:00:00Z",
+ "actual_resolve_time": null,
+ "open_time": "2025-05-01T18:00:00Z",
+ "nr_forecasters": 242,
+ "html_metadata_json": null,
+ "projects": {
+  "tournament": [
+   {
+    "id": 32722,
+    "type": "tournament",
+    "name": "POTUS Predictions",
+    "slug": "POTUS-predictions",
+    "header_image": "https://cdn.metaculus.com/potus-banner0.5x.webp",
+    "prize_pool": "15000.00",
+    "start_date": "2025-03-28T12:00:00Z",
+    "close_date": "2029-01-20T00:00:00Z",
+    "forecasting_end_date": "2029-01-03T00:00:00Z",
+    "html_metadata_json": null,
+    "is_ongoing": true,
+    "user_permission": null,
+    "order": 2,
+    "created_at": "2025-03-25T15:50:20.731169Z",
+    "edited_at": "2026-06-12T13:28:00.581618Z",
+    "score_type": "peer_tournament",
+    "default_permission": "forecaster",
+    "visibility": "normal",
+    "show_on_homepage": false,
+    "is_current_content_translated": false,
+    "bot_leaderboard_status": "exclude_and_show",
+    "description_preview": "<p><strong>June 1, 2025 Update:</strong> 10 more questions are live. The pre-planned launch phase is now complete; additional questions will"
+   }
+  ],
+  "default_project": {
+   "id": 32722,
+   "type": "tournament",
+   "name": "POTUS Predictions",
+   "slug": "POTUS-predictions",
+   "header_image": "https://cdn.metaculus.com/potus-banner0.5x.webp",
+   "prize_pool": "15000.00",
+   "start_date": "2025-03-28T12:00:00Z",
+   "close_date": "2029-01-20T00:00:00Z",
+   "forecasting_end_date": "2029-01-03T00:00:00Z",
+   "html_metadata_json": null,
+   "is_ongoing": true,
+   "user_permission": null,
+   "order": 2,
+   "created_at": "2025-03-25T15:50:20.731169Z",
+   "edited_at": "2026-06-12T13:28:00.581618Z",
+   "score_type": "peer_tournament",
+   "default_permission": "forecaster",
+   "visibility": "normal",
+   "show_on_homepage": false,
+   "is_current_content_translated": false,
+   "bot_leaderboard_status": "exclude_and_show",
+   "description_preview": "<p><strong>June 1, 2025 Update:</strong> 10 more questions are live. The pre-planned launch phase is now complete; additional questions will"
+  },
+  "category": [
+   {
+    "id": 3689,
+    "name": "Politics",
+    "slug": "politics",
+    "emoji": "\ud83c\udfdb\ufe0f",
+    "description": "Politics",
+    "type": "category"
+   },
+   {
+    "id": 3685,
+    "name": "Elections",
+    "slug": "elections",
+    "emoji": "\ud83d\uddf3\ufe0f",
+    "description": "Elections",
+    "type": "category"
+   }
+  ],
+  "question_series": [
+   {
+    "id": 32724,
+    "type": "question_series",
+    "name": "Full-Term Phase",
+    "slug": "full-term",
+    "header_image": null,
+    "prize_pool": null,
+    "start_date": null,
+    "close_date": null,
+    "forecasting_end_date": null,
+    "html_metadata_json": null,
+    "is_ongoing": true,
+    "user_permission": "forecaster",
+    "order": 0,
+    "created_at": "2025-03-28T14:15:19.589490Z",
+    "edited_at": "2026-06-12T12:51:01.852385Z",
+    "score_type": null,
+    "default_permission": "forecaster",
+    "visibility": "unlisted",
+    "show_on_homepage": false,
+    "is_current_content_translated": false,
+    "bot_leaderboard_status": "exclude_and_show",
+    "description_preview": ""
+   }
+  ]
+ },
+ "question": {
+  "id": 36696,
+  "title": "Who will be the 2028 Democratic nominee for President of the United States?",
+  "created_at": "2025-04-28T20:21:25.541285Z",
+  "open_time": "2025-05-01T18:00:00Z",
+  "cp_reveal_time": "2025-05-06T18:00:00Z",
+  "spot_scoring_time": "2025-05-06T18:00:00Z",
+  "scheduled_resolve_time": "2028-09-16T13:00:00Z",
+  "actual_resolve_time": null,
+  "resolution_set_time": null,
+  "scheduled_close_time": "2028-09-15T22:00:00Z",
+  "actual_close_time": "2028-09-15T22:00:00Z",
+  "type": "multiple_choice",
+  "options": [
+   "Gavin Newsom",
+   "Alexandria Ocasio-Cortez",
+   "Josh Shapiro",
+   "Pete Buttigieg",
+   "Gretchen Whitmer",
+   "Wes Moore",
+   "Kamala Harris",
+   "Other"
+  ],
+  "all_options_ever": null,
+  "options_history": null,
+  "options_order": null,
+  "group_variable": "Candidate",
+  "status": "open",
+  "possibilities": null,
+  "resolution": null,
+  "include_bots_in_aggregates": false,
+  "question_weight": 1,
+  "default_score_type": "peer",
+  "default_aggregation_method": "recency_weighted",
+  "label": "",
+  "unit": "",
+  "open_upper_bound": false,
+  "open_lower_bound": false,
+  "inbound_outcome_count": null,
+  "scaling": {
+   "range_min": null,
+   "range_max": null,
+   "nominal_min": null,
+   "nominal_max": null,
+   "zero_point": null,
+   "open_upper_bound": false,
+   "open_lower_bound": false,
+   "inbound_outcome_count": null,
+   "continuous_range": null
+  },
+  "group_rank": null,
+  "coherence_links": null,
+  "coherence_link_aggregations": null,
+  "description": "[Presidential elections](https://en.wikipedia.org/wiki/2028_United_States_presidential_election?useskin=vector) are scheduled to be held in the United States on November 7, 2028, to elect a president and vice president for a term of four years. After winning a non-consecutive second term in the [2024 presidential election](https://en.wikipedia.org/wiki/2024_United_States_presidential_election?useskin=vector), incumbent Republican Donald J. Trump, who was the nominee of the Republican Party in three consecutive elections, is prohibited by the [22nd Amendment](https://en.wikipedia.org/wiki/Twenty-second_Amendment_to_the_United_States_Constitution?useskin=vector) from being elected to a third term as president.\n\nIncumbent President Joe Biden won the [2024 Democratic Party presidential primary](https://en.wikipedia.org/wiki/2024_Democratic_Party_presidential_primaries), but subsequently [withdrew his candidacy](https://en.wikipedia.org/wiki/Withdrawal_of_Joe_Biden_from_the_2024_United_States_presidential_election) in July 2024, prior to the formal selection of the Democratic Party nominee. The withdrawal followed a June 27, 2024, debate with Donald Trump which raised questions about Biden's age and ability to serve a second term. Vice President [Kamala Harris](https://en.wikipedia.org/wiki/Kamala_Harris) received the Democratic Party's presidential nomination.",
+  "resolution_criteria": "This question will resolve as **Yes** for the person who is selected by the Democratic Party as the Democratic nominee for President of the United States for the [2028 United States presidential election](https://en.wikipedia.org/wiki/2028_United_States_presidential_election). If someone other than a named individual is selected this question will resolve as **Other**.",
+  "fine_print": "This question will resolve according to the candidate publicly announced as the nominee of the Democratic Party by the Democratic Party following the party's official presidential nominee selection process. As of April 2025, this is expected to occur at the 2028 Democratic National Convention.\n\nIn the event that the Democratic Party does not select a nominee for President of the United States before election day in 2028, this question and all sub-questions shall be annulled.&#x20;\n\nThis question will also be annulled in the event that no election for the office of President of the United States is held in 2028.",
+  "short_title": "Who will be the 2028 Democratic nominee for President of the United States?",
+  "post_id": 37322,
+  "aggregations": {
+   "recency_weighted": {
+    "history": null,
+    "latest": null,
+    "score_data": null,
+    "movement": null
+   }
+  },
+  "average_coverage": null
+ },
+ "user_permission": "forecaster",
+ "vote": {
+  "score": 7,
+  "user_vote": null
+ },
+ "forecasts_count": 1034,
+ "key_factors": [
+  {
+   "id": 1516,
+   "author": {
+    "id": 111743,
+    "username": "NathanpmYoung",
+    "is_bot": false,
+    "is_staff": false,
+    "metadata": null
+   },
+   "comment_id": 657943,
+   "created_at": "2026-02-05T12:31:49.951654+00:00",
+   "vote": {
+    "score": 2.5,
+    "aggregated_data": [
+     {
+      "score": 0,
+      "count": 2
+     },
+     {
+      "score": 5,
+      "count": 2
+     }
+    ],
+    "user_vote": null,
+    "user_vote_reason": null,
+    "count": 4
+   },
+   "question_id": 36696,
+   "question": {
+    "id": 36696,
+    "label": "",
+    "unit": ""
+   },
+   "question_option": "Gavin Newsom",
+   "freshness": 2.4804479495887684,
+   "driver": {
+    "text": "California's governance reputation",
+    "impact_direction": -1,
+    "certainty": null
+   },
+   "base_rate": null,
+   "news": null,
+   "post": {
+    "id": 37322,
+    "question_type": "multiple_choice",
+    "unit": ""
+   }
+  },
+  {
+   "id": 1517,
+   "author": {
+    "id": 111743,
+    "username": "NathanpmYoung",
+    "is_bot": false,
+    "is_staff": false,
+    "metadata": null
+   },
+   "comment_id": 657943,
+   "created_at": "2026-02-05T12:31:53.096040+00:00",
+   "vote": {
+    "score": 1.8333333333333333,
+    "aggregated_data": [
+     {
+      "score": 1,
+      "count": 2
+     },
+     {
+      "score": 2,
+      "count": 2
+     },
+     {
+      "score": 0,
+      "count": 1
+     },
+     {
+      "score": 5,
+      "count": 1
+     }
+    ],
+    "user_vote": null,
+    "user_vote_reason": null,
+    "count": 6
+   },
+   "question_id": null,
+   "question": null,
+   "question_option": "",
+   "freshness": 2.1671289871372714,
+   "driver": null,
+   "base_rate": null,
+   "news": {
+    "itn_article_id": null,
+    "url": "https://www.slowboring.com/p/gavin-newsom-is-very-similar-to-kamala",
+    "title": "Gavin Newsom is very similar to Kamala Harris",
+    "img_url": "https://substackcdn.com/image/fetch/$s_!Pl6P!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fae5b8f8f-f67d-479c-9173-ff000d8f1b50%2Ffavicon-48x48.png",
+    "source": "slowboring.com",
+    "published_at": "2026-02-02T00:00:00Z",
+    "impact_direction": -1,
+    "certainty": null
+   },
+   "post": {
+    "id": 37322,
+    "question_type": "multiple_choice",
+    "unit": ""
+   }
+  },
+  {
+   "id": 1515,
+   "author": {
+    "id": 111743,
+    "username": "NathanpmYoung",
+    "is_bot": false,
+    "is_staff": false,
+    "metadata": null
+   },
+   "comment_id": 657943,
+   "created_at": "2026-02-05T12:31:46.999766+00:00",
+   "vote": {
+    "score": 1.25,
+    "aggregated_data": [
+     {
+      "score": 2,
+      "count": 2
+     },
+     {
+      "score": 1,
+      "count": 1
+     },
+     {
+      "score": 0,
+      "count": 1
+     }
+    ],
+    "user_vote": null,
+    "user_vote_reason": null,
+    "count": 4
+   },
+   "question_id": 36696,
+   "question": {
+    "id": 36696,
+    "label": "",
+    "unit": ""
+   },
+   "question_option": "Gavin Newsom",
+   "freshness": 1.634078624267744,
+   "driver": {
+    "text": "Newsom hasn't beaten Republicans",
+    "impact_direction": -1,
+    "certainty": null
+   },
+   "base_rate": null,
+   "news": null,
+   "post": {
+    "id": 37322,
+    "question_type": "multiple_choice",
+    "unit": ""
+   }
+  }
+ ],
+ "is_current_content_translated": false
+}

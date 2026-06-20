@@ -1,0 +1,2276 @@
+{
+  "nodes": [
+    {
+      "id": "file:engine/gleif_enrich.py",
+      "type": "file",
+      "name": "gleif_enrich.py",
+      "filePath": "engine/gleif_enrich.py",
+      "summary": "gleif_enrich.py is a code asset in the forecasting engine. It contains 16 functions, 1 class, 5 internal imports.",
+      "tags": [
+        "forecasting-engine",
+        "code",
+        "file",
+        "gleif-enrich"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:engine/gleif_enrich.py:_load_aliases",
+      "type": "function",
+      "name": "_load_aliases",
+      "filePath": "engine/gleif_enrich.py",
+      "lineRange": [
+        50,
+        57
+      ],
+      "summary": "Defines _load_aliases in gleif_enrich.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "gleif-enrich"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/gleif_enrich.py:_norm",
+      "type": "function",
+      "name": "_norm",
+      "filePath": "engine/gleif_enrich.py",
+      "lineRange": [
+        60,
+        61
+      ],
+      "summary": "Defines _norm in gleif_enrich.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "gleif-enrich"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/gleif_enrich.py:_tokens",
+      "type": "function",
+      "name": "_tokens",
+      "filePath": "engine/gleif_enrich.py",
+      "lineRange": [
+        64,
+        65
+      ],
+      "summary": "Defines _tokens in gleif_enrich.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "gleif-enrich"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/gleif_enrich.py:_without_legal_suffixes",
+      "type": "function",
+      "name": "_without_legal_suffixes",
+      "filePath": "engine/gleif_enrich.py",
+      "lineRange": [
+        68,
+        78
+      ],
+      "summary": "Defines _without_legal_suffixes in gleif_enrich.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "gleif-enrich"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/gleif_enrich.py:_one_token_legal_match_ok",
+      "type": "function",
+      "name": "_one_token_legal_match_ok",
+      "filePath": "engine/gleif_enrich.py",
+      "lineRange": [
+        81,
+        91
+      ],
+      "summary": "Defines _one_token_legal_match_ok in gleif_enrich.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "gleif-enrich"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/gleif_enrich.py:_looks_like_legal_name",
+      "type": "function",
+      "name": "_looks_like_legal_name",
+      "filePath": "engine/gleif_enrich.py",
+      "lineRange": [
+        94,
+        100
+      ],
+      "summary": "Defines _looks_like_legal_name in gleif_enrich.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "gleif-enrich"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/gleif_enrich.py:_usable_queries",
+      "type": "function",
+      "name": "_usable_queries",
+      "filePath": "engine/gleif_enrich.py",
+      "lineRange": [
+        103,
+        134
+      ],
+      "summary": "Defines _usable_queries in gleif_enrich.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "gleif-enrich"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/gleif_enrich.py:_fetch",
+      "type": "function",
+      "name": "_fetch",
+      "filePath": "engine/gleif_enrich.py",
+      "lineRange": [
+        137,
+        158
+      ],
+      "summary": "Defines _fetch in gleif_enrich.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-access",
+        "gleif-enrich"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/gleif_enrich.py:_candidate_score",
+      "type": "function",
+      "name": "_candidate_score",
+      "filePath": "engine/gleif_enrich.py",
+      "lineRange": [
+        161,
+        189
+      ],
+      "summary": "Defines _candidate_score in gleif_enrich.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "gleif-enrich"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/gleif_enrich.py:_extract_match",
+      "type": "function",
+      "name": "_extract_match",
+      "filePath": "engine/gleif_enrich.py",
+      "lineRange": [
+        192,
+        213
+      ],
+      "summary": "Defines _extract_match in gleif_enrich.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "gleif-enrich"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/gleif_enrich.py:best_match",
+      "type": "function",
+      "name": "best_match",
+      "filePath": "engine/gleif_enrich.py",
+      "lineRange": [
+        216,
+        229
+      ],
+      "summary": "Defines best_match in gleif_enrich.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "gleif-enrich"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/gleif_enrich.py:_company_rows",
+      "type": "function",
+      "name": "_company_rows",
+      "filePath": "engine/gleif_enrich.py",
+      "lineRange": [
+        232,
+        244
+      ],
+      "summary": "Defines _company_rows in gleif_enrich.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "gleif-enrich"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/gleif_enrich.py:_clean_existing_gleif",
+      "type": "function",
+      "name": "_clean_existing_gleif",
+      "filePath": "engine/gleif_enrich.py",
+      "lineRange": [
+        247,
+        281
+      ],
+      "summary": "Defines _clean_existing_gleif in gleif_enrich.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "gleif-enrich"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/gleif_enrich.py:_upsert_gleif_source",
+      "type": "function",
+      "name": "_upsert_gleif_source",
+      "filePath": "engine/gleif_enrich.py",
+      "lineRange": [
+        284,
+        300
+      ],
+      "summary": "Defines _upsert_gleif_source in gleif_enrich.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "gleif-enrich"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/gleif_enrich.py:_apply_match",
+      "type": "function",
+      "name": "_apply_match",
+      "filePath": "engine/gleif_enrich.py",
+      "lineRange": [
+        303,
+        347
+      ],
+      "summary": "Defines _apply_match in gleif_enrich.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "gleif-enrich"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/gleif_enrich.py:enrich_top_entities",
+      "type": "function",
+      "name": "enrich_top_entities",
+      "filePath": "engine/gleif_enrich.py",
+      "lineRange": [
+        350,
+        411
+      ],
+      "summary": "Defines enrich_top_entities in gleif_enrich.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "gleif-enrich"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:engine/gleif_enrich.py:LeiMatch",
+      "type": "class",
+      "name": "LeiMatch",
+      "filePath": "engine/gleif_enrich.py",
+      "lineRange": [
+        34,
+        47
+      ],
+      "summary": "Defines LeiMatch in gleif_enrich.py, encapsulating reusable behavior or state for this module.",
+      "tags": [
+        "class",
+        "implementation",
+        "gleif-enrich"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:engine/graph.py",
+      "type": "file",
+      "name": "graph.py",
+      "filePath": "engine/graph.py",
+      "summary": "graph.py is a code asset in the forecasting engine. It contains 22 functions, 4 classes, 1 internal import.",
+      "tags": [
+        "forecasting-engine",
+        "graph",
+        "code"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:engine/graph.py:_upsert_source",
+      "type": "function",
+      "name": "_upsert_source",
+      "filePath": "engine/graph.py",
+      "lineRange": [
+        233,
+        255
+      ],
+      "summary": "Defines _upsert_source in graph.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "graph"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/graph.py:_upsert_node",
+      "type": "function",
+      "name": "_upsert_node",
+      "filePath": "engine/graph.py",
+      "lineRange": [
+        258,
+        275
+      ],
+      "summary": "Defines _upsert_node in graph.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "graph"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/graph.py:_upsert_edge",
+      "type": "function",
+      "name": "_upsert_edge",
+      "filePath": "engine/graph.py",
+      "lineRange": [
+        278,
+        293
+      ],
+      "summary": "Defines _upsert_edge in graph.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "graph"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/graph.py:_seed_chain",
+      "type": "function",
+      "name": "_seed_chain",
+      "filePath": "engine/graph.py",
+      "lineRange": [
+        296,
+        327
+      ],
+      "summary": "Defines _seed_chain in graph.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "graph"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/graph.py:seed_graph",
+      "type": "function",
+      "name": "seed_graph",
+      "filePath": "engine/graph.py",
+      "lineRange": [
+        330,
+        333
+      ],
+      "summary": "Defines seed_graph in graph.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "graph"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/graph.py:seed_ai_power",
+      "type": "function",
+      "name": "seed_ai_power",
+      "filePath": "engine/graph.py",
+      "lineRange": [
+        336,
+        339
+      ],
+      "summary": "Defines seed_ai_power in graph.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "graph"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/graph.py:seed_metals",
+      "type": "function",
+      "name": "seed_metals",
+      "filePath": "engine/graph.py",
+      "lineRange": [
+        402,
+        409
+      ],
+      "summary": "Defines seed_metals in graph.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "graph"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/graph.py:_link_chains",
+      "type": "function",
+      "name": "_link_chains",
+      "filePath": "engine/graph.py",
+      "lineRange": [
+        412,
+        437
+      ],
+      "summary": "Defines _link_chains in graph.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "graph"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/graph.py:propose_verification",
+      "type": "function",
+      "name": "propose_verification",
+      "filePath": "engine/graph.py",
+      "lineRange": [
+        443,
+        465
+      ],
+      "summary": "Defines propose_verification in graph.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "graph"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/graph.py:_open_decision",
+      "type": "function",
+      "name": "_open_decision",
+      "filePath": "engine/graph.py",
+      "lineRange": [
+        468,
+        484
+      ],
+      "summary": "Defines _open_decision in graph.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "graph"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/graph.py:propose_ai_power_verification",
+      "type": "function",
+      "name": "propose_ai_power_verification",
+      "filePath": "engine/graph.py",
+      "lineRange": [
+        487,
+        510
+      ],
+      "summary": "Defines propose_ai_power_verification in graph.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "graph"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/graph.py:record_decision",
+      "type": "function",
+      "name": "record_decision",
+      "filePath": "engine/graph.py",
+      "lineRange": [
+        513,
+        519
+      ],
+      "summary": "Defines record_decision in graph.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "graph"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/graph.py:_json",
+      "type": "function",
+      "name": "_json",
+      "filePath": "engine/graph.py",
+      "lineRange": [
+        522,
+        524
+      ],
+      "summary": "Defines _json in graph.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "graph"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/graph.py:_scope",
+      "type": "function",
+      "name": "_scope",
+      "filePath": "engine/graph.py",
+      "lineRange": [
+        553,
+        556
+      ],
+      "summary": "Defines _scope in graph.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "graph"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/graph.py:_depends_required",
+      "type": "function",
+      "name": "_depends_required",
+      "filePath": "engine/graph.py",
+      "lineRange": [
+        559,
+        583
+      ],
+      "summary": "Defines _depends_required in graph.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "graph"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/graph.py:propagate",
+      "type": "function",
+      "name": "propagate",
+      "filePath": "engine/graph.py",
+      "lineRange": [
+        586,
+        658
+      ],
+      "summary": "Defines propagate in graph.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "graph"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/graph.py:drill_targets",
+      "type": "function",
+      "name": "drill_targets",
+      "filePath": "engine/graph.py",
+      "lineRange": [
+        682,
+        708
+      ],
+      "summary": "Defines drill_targets in graph.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "graph"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/graph.py:variance_budget",
+      "type": "function",
+      "name": "variance_budget",
+      "filePath": "engine/graph.py",
+      "lineRange": [
+        729,
+        788
+      ],
+      "summary": "Defines variance_budget in graph.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "graph"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/graph.py:set_build_series",
+      "type": "function",
+      "name": "set_build_series",
+      "filePath": "engine/graph.py",
+      "lineRange": [
+        794,
+        813
+      ],
+      "summary": "Defines set_build_series in graph.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "graph"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/graph.py:graph_backed_forward_card",
+      "type": "function",
+      "name": "graph_backed_forward_card",
+      "filePath": "engine/graph.py",
+      "lineRange": [
+        819,
+        876
+      ],
+      "summary": "Defines graph_backed_forward_card in graph.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "graph"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/graph.py:constraint_card",
+      "type": "function",
+      "name": "constraint_card",
+      "filePath": "engine/graph.py",
+      "lineRange": [
+        888,
+        934
+      ],
+      "summary": "Defines constraint_card in graph.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "graph"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/graph.py:seed_constraint_cards",
+      "type": "function",
+      "name": "seed_constraint_cards",
+      "filePath": "engine/graph.py",
+      "lineRange": [
+        937,
+        983
+      ],
+      "summary": "Defines seed_constraint_cards in graph.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "graph"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:engine/graph.py:Pressure",
+      "type": "class",
+      "name": "Pressure",
+      "filePath": "engine/graph.py",
+      "lineRange": [
+        531,
+        539
+      ],
+      "summary": "Defines Pressure in graph.py, encapsulating reusable behavior or state for this module.",
+      "tags": [
+        "class",
+        "implementation",
+        "graph"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:engine/graph.py:Propagation",
+      "type": "class",
+      "name": "Propagation",
+      "filePath": "engine/graph.py",
+      "lineRange": [
+        543,
+        550
+      ],
+      "summary": "Defines Propagation in graph.py, encapsulating reusable behavior or state for this module.",
+      "tags": [
+        "class",
+        "implementation",
+        "graph"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:engine/graph.py:DrillTarget",
+      "type": "class",
+      "name": "DrillTarget",
+      "filePath": "engine/graph.py",
+      "lineRange": [
+        672,
+        679
+      ],
+      "summary": "Defines DrillTarget in graph.py, encapsulating reusable behavior or state for this module.",
+      "tags": [
+        "class",
+        "implementation",
+        "graph"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:engine/graph.py:VoITerm",
+      "type": "class",
+      "name": "VoITerm",
+      "filePath": "engine/graph.py",
+      "lineRange": [
+        721,
+        726
+      ],
+      "summary": "Defines VoITerm in graph.py, encapsulating reusable behavior or state for this module.",
+      "tags": [
+        "class",
+        "implementation",
+        "graph"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:engine/hypothesis.py",
+      "type": "file",
+      "name": "hypothesis.py",
+      "filePath": "engine/hypothesis.py",
+      "summary": "hypothesis.py is a code asset in the forecasting engine. It contains 11 functions, 2 internal imports.",
+      "tags": [
+        "forecasting-engine",
+        "code",
+        "file",
+        "hypothesis"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:engine/hypothesis.py:base_rate_for",
+      "type": "function",
+      "name": "base_rate_for",
+      "filePath": "engine/hypothesis.py",
+      "lineRange": [
+        87,
+        90
+      ],
+      "summary": "Defines base_rate_for in hypothesis.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "hypothesis"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/hypothesis.py:base_rates",
+      "type": "function",
+      "name": "base_rates",
+      "filePath": "engine/hypothesis.py",
+      "lineRange": [
+        124,
+        179
+      ],
+      "summary": "Defines base_rates in hypothesis.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "hypothesis"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/hypothesis.py:record_outcome",
+      "type": "function",
+      "name": "record_outcome",
+      "filePath": "engine/hypothesis.py",
+      "lineRange": [
+        182,
+        197
+      ],
+      "summary": "Defines record_outcome in hypothesis.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "hypothesis"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/hypothesis.py:gate",
+      "type": "function",
+      "name": "gate",
+      "filePath": "engine/hypothesis.py",
+      "lineRange": [
+        203,
+        222
+      ],
+      "summary": "Defines gate in hypothesis.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "hypothesis"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/hypothesis.py:_upsert",
+      "type": "function",
+      "name": "_upsert",
+      "filePath": "engine/hypothesis.py",
+      "lineRange": [
+        225,
+        260
+      ],
+      "summary": "Defines _upsert in hypothesis.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "hypothesis"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/hypothesis.py:add",
+      "type": "function",
+      "name": "add",
+      "filePath": "engine/hypothesis.py",
+      "lineRange": [
+        263,
+        268
+      ],
+      "summary": "Defines add in hypothesis.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "hypothesis"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/hypothesis.py:record_skeptic_panel",
+      "type": "function",
+      "name": "record_skeptic_panel",
+      "filePath": "engine/hypothesis.py",
+      "lineRange": [
+        278,
+        322
+      ],
+      "summary": "Defines record_skeptic_panel in hypothesis.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "hypothesis"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/hypothesis.py:_load",
+      "type": "function",
+      "name": "_load",
+      "filePath": "engine/hypothesis.py",
+      "lineRange": [
+        325,
+        342
+      ],
+      "summary": "Defines _load in hypothesis.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "hypothesis"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/hypothesis.py:seed",
+      "type": "function",
+      "name": "seed",
+      "filePath": "engine/hypothesis.py",
+      "lineRange": [
+        455,
+        469
+      ],
+      "summary": "Defines seed in hypothesis.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "hypothesis"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/hypothesis.py:promote",
+      "type": "function",
+      "name": "promote",
+      "filePath": "engine/hypothesis.py",
+      "lineRange": [
+        472,
+        511
+      ],
+      "summary": "Defines promote in hypothesis.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "hypothesis"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/hypothesis.py:list_hypotheses",
+      "type": "function",
+      "name": "list_hypotheses",
+      "filePath": "engine/hypothesis.py",
+      "lineRange": [
+        514,
+        529
+      ],
+      "summary": "Defines list_hypotheses in hypothesis.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "hypothesis"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:engine/gleif_enrich.py",
+      "target": "function:engine/gleif_enrich.py:_load_aliases",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/gleif_enrich.py",
+      "target": "function:engine/gleif_enrich.py:_load_aliases",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/gleif_enrich.py",
+      "target": "function:engine/gleif_enrich.py:_norm",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/gleif_enrich.py",
+      "target": "function:engine/gleif_enrich.py:_norm",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/gleif_enrich.py",
+      "target": "function:engine/gleif_enrich.py:_tokens",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/gleif_enrich.py",
+      "target": "function:engine/gleif_enrich.py:_tokens",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/gleif_enrich.py",
+      "target": "function:engine/gleif_enrich.py:_without_legal_suffixes",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/gleif_enrich.py",
+      "target": "function:engine/gleif_enrich.py:_without_legal_suffixes",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/gleif_enrich.py",
+      "target": "function:engine/gleif_enrich.py:_one_token_legal_match_ok",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/gleif_enrich.py",
+      "target": "function:engine/gleif_enrich.py:_one_token_legal_match_ok",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/gleif_enrich.py",
+      "target": "function:engine/gleif_enrich.py:_looks_like_legal_name",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/gleif_enrich.py",
+      "target": "function:engine/gleif_enrich.py:_looks_like_legal_name",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/gleif_enrich.py",
+      "target": "function:engine/gleif_enrich.py:_usable_queries",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/gleif_enrich.py",
+      "target": "function:engine/gleif_enrich.py:_usable_queries",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/gleif_enrich.py",
+      "target": "function:engine/gleif_enrich.py:_fetch",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/gleif_enrich.py",
+      "target": "function:engine/gleif_enrich.py:_fetch",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/gleif_enrich.py",
+      "target": "function:engine/gleif_enrich.py:_candidate_score",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/gleif_enrich.py",
+      "target": "function:engine/gleif_enrich.py:_candidate_score",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/gleif_enrich.py",
+      "target": "function:engine/gleif_enrich.py:_extract_match",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/gleif_enrich.py",
+      "target": "function:engine/gleif_enrich.py:_extract_match",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/gleif_enrich.py",
+      "target": "function:engine/gleif_enrich.py:best_match",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/gleif_enrich.py",
+      "target": "function:engine/gleif_enrich.py:best_match",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/gleif_enrich.py",
+      "target": "function:engine/gleif_enrich.py:_company_rows",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/gleif_enrich.py",
+      "target": "function:engine/gleif_enrich.py:_company_rows",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/gleif_enrich.py",
+      "target": "function:engine/gleif_enrich.py:_clean_existing_gleif",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/gleif_enrich.py",
+      "target": "function:engine/gleif_enrich.py:_clean_existing_gleif",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/gleif_enrich.py",
+      "target": "function:engine/gleif_enrich.py:_upsert_gleif_source",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/gleif_enrich.py",
+      "target": "function:engine/gleif_enrich.py:_upsert_gleif_source",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/gleif_enrich.py",
+      "target": "function:engine/gleif_enrich.py:_apply_match",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/gleif_enrich.py",
+      "target": "function:engine/gleif_enrich.py:_apply_match",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/gleif_enrich.py",
+      "target": "function:engine/gleif_enrich.py:enrich_top_entities",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/gleif_enrich.py",
+      "target": "function:engine/gleif_enrich.py:enrich_top_entities",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/gleif_enrich.py",
+      "target": "class:engine/gleif_enrich.py:LeiMatch",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/gleif_enrich.py",
+      "target": "class:engine/gleif_enrich.py:LeiMatch",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/graph.py",
+      "target": "function:engine/graph.py:_upsert_source",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/graph.py",
+      "target": "function:engine/graph.py:_upsert_source",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/graph.py",
+      "target": "function:engine/graph.py:_upsert_node",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/graph.py",
+      "target": "function:engine/graph.py:_upsert_node",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/graph.py",
+      "target": "function:engine/graph.py:_upsert_edge",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/graph.py",
+      "target": "function:engine/graph.py:_upsert_edge",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/graph.py",
+      "target": "function:engine/graph.py:_seed_chain",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/graph.py",
+      "target": "function:engine/graph.py:_seed_chain",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/graph.py",
+      "target": "function:engine/graph.py:seed_graph",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/graph.py",
+      "target": "function:engine/graph.py:seed_graph",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/graph.py",
+      "target": "function:engine/graph.py:seed_ai_power",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/graph.py",
+      "target": "function:engine/graph.py:seed_ai_power",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/graph.py",
+      "target": "function:engine/graph.py:seed_metals",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/graph.py",
+      "target": "function:engine/graph.py:seed_metals",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/graph.py",
+      "target": "function:engine/graph.py:_link_chains",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/graph.py",
+      "target": "function:engine/graph.py:_link_chains",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/graph.py",
+      "target": "function:engine/graph.py:propose_verification",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/graph.py",
+      "target": "function:engine/graph.py:propose_verification",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/graph.py",
+      "target": "function:engine/graph.py:_open_decision",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/graph.py",
+      "target": "function:engine/graph.py:_open_decision",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/graph.py",
+      "target": "function:engine/graph.py:propose_ai_power_verification",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/graph.py",
+      "target": "function:engine/graph.py:propose_ai_power_verification",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/graph.py",
+      "target": "function:engine/graph.py:record_decision",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/graph.py",
+      "target": "function:engine/graph.py:record_decision",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/graph.py",
+      "target": "function:engine/graph.py:_json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/graph.py",
+      "target": "function:engine/graph.py:_json",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/graph.py",
+      "target": "function:engine/graph.py:_scope",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/graph.py",
+      "target": "function:engine/graph.py:_scope",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/graph.py",
+      "target": "function:engine/graph.py:_depends_required",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/graph.py",
+      "target": "function:engine/graph.py:_depends_required",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/graph.py",
+      "target": "function:engine/graph.py:propagate",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/graph.py",
+      "target": "function:engine/graph.py:propagate",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/graph.py",
+      "target": "function:engine/graph.py:drill_targets",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/graph.py",
+      "target": "function:engine/graph.py:drill_targets",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/graph.py",
+      "target": "function:engine/graph.py:variance_budget",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/graph.py",
+      "target": "function:engine/graph.py:variance_budget",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/graph.py",
+      "target": "function:engine/graph.py:set_build_series",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/graph.py",
+      "target": "function:engine/graph.py:set_build_series",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/graph.py",
+      "target": "function:engine/graph.py:graph_backed_forward_card",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/graph.py",
+      "target": "function:engine/graph.py:graph_backed_forward_card",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/graph.py",
+      "target": "function:engine/graph.py:constraint_card",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/graph.py",
+      "target": "function:engine/graph.py:constraint_card",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/graph.py",
+      "target": "function:engine/graph.py:seed_constraint_cards",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/graph.py",
+      "target": "function:engine/graph.py:seed_constraint_cards",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/graph.py",
+      "target": "class:engine/graph.py:Pressure",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/graph.py",
+      "target": "class:engine/graph.py:Pressure",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/graph.py",
+      "target": "class:engine/graph.py:Propagation",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/graph.py",
+      "target": "class:engine/graph.py:Propagation",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/graph.py",
+      "target": "class:engine/graph.py:DrillTarget",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/graph.py",
+      "target": "class:engine/graph.py:DrillTarget",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/graph.py",
+      "target": "class:engine/graph.py:VoITerm",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/graph.py",
+      "target": "class:engine/graph.py:VoITerm",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/hypothesis.py",
+      "target": "function:engine/hypothesis.py:base_rate_for",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/hypothesis.py",
+      "target": "function:engine/hypothesis.py:base_rate_for",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/hypothesis.py",
+      "target": "function:engine/hypothesis.py:base_rates",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/hypothesis.py",
+      "target": "function:engine/hypothesis.py:base_rates",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/hypothesis.py",
+      "target": "function:engine/hypothesis.py:record_outcome",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/hypothesis.py",
+      "target": "function:engine/hypothesis.py:record_outcome",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/hypothesis.py",
+      "target": "function:engine/hypothesis.py:gate",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/hypothesis.py",
+      "target": "function:engine/hypothesis.py:gate",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/hypothesis.py",
+      "target": "function:engine/hypothesis.py:_upsert",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/hypothesis.py",
+      "target": "function:engine/hypothesis.py:_upsert",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/hypothesis.py",
+      "target": "function:engine/hypothesis.py:add",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/hypothesis.py",
+      "target": "function:engine/hypothesis.py:add",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/hypothesis.py",
+      "target": "function:engine/hypothesis.py:record_skeptic_panel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/hypothesis.py",
+      "target": "function:engine/hypothesis.py:record_skeptic_panel",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/hypothesis.py",
+      "target": "function:engine/hypothesis.py:_load",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/hypothesis.py",
+      "target": "function:engine/hypothesis.py:_load",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/hypothesis.py",
+      "target": "function:engine/hypothesis.py:seed",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/hypothesis.py",
+      "target": "function:engine/hypothesis.py:seed",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/hypothesis.py",
+      "target": "function:engine/hypothesis.py:promote",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/hypothesis.py",
+      "target": "function:engine/hypothesis.py:promote",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/hypothesis.py",
+      "target": "function:engine/hypothesis.py:list_hypotheses",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/hypothesis.py",
+      "target": "function:engine/hypothesis.py:list_hypotheses",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/gleif_enrich.py",
+      "target": "file:engine/__init__.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/gleif_enrich.py",
+      "target": "file:engine/graph.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/gleif_enrich.py",
+      "target": "file:engine/rawstore.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/gleif_enrich.py",
+      "target": "file:engine/schemas.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/gleif_enrich.py",
+      "target": "file:engine/world_catalog.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/graph.py",
+      "target": "file:engine/schemas.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/hypothesis.py",
+      "target": "file:engine/pillars/frontier.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/hypothesis.py",
+      "target": "file:engine/schemas.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "function:engine/gleif_enrich.py:_tokens",
+      "target": "function:engine/gleif_enrich.py:_norm",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/gleif_enrich.py:_without_legal_suffixes",
+      "target": "function:engine/gleif_enrich.py:_norm",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/gleif_enrich.py:_looks_like_legal_name",
+      "target": "function:engine/gleif_enrich.py:_norm",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/gleif_enrich.py:_usable_queries",
+      "target": "function:engine/gleif_enrich.py:_tokens",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/gleif_enrich.py:_usable_queries",
+      "target": "function:engine/gleif_enrich.py:_looks_like_legal_name",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/gleif_enrich.py:_candidate_score",
+      "target": "function:engine/gleif_enrich.py:_norm",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/gleif_enrich.py:_candidate_score",
+      "target": "function:engine/gleif_enrich.py:_without_legal_suffixes",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/gleif_enrich.py:_candidate_score",
+      "target": "function:engine/gleif_enrich.py:_usable_queries",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/gleif_enrich.py:_candidate_score",
+      "target": "function:engine/gleif_enrich.py:_tokens",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/gleif_enrich.py:_candidate_score",
+      "target": "function:engine/gleif_enrich.py:_one_token_legal_match_ok",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/gleif_enrich.py:_extract_match",
+      "target": "class:engine/gleif_enrich.py:LeiMatch",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/gleif_enrich.py:best_match",
+      "target": "function:engine/gleif_enrich.py:_load_aliases",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/gleif_enrich.py:best_match",
+      "target": "function:engine/gleif_enrich.py:_candidate_score",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/gleif_enrich.py:best_match",
+      "target": "function:engine/gleif_enrich.py:_extract_match",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/gleif_enrich.py:_clean_existing_gleif",
+      "target": "function:engine/gleif_enrich.py:_load_aliases",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/gleif_enrich.py:_upsert_gleif_source",
+      "target": "class:engine/schemas.py:Source",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/gleif_enrich.py:_upsert_gleif_source",
+      "target": "function:engine/graph.py:_upsert_source",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/gleif_enrich.py:_apply_match",
+      "target": "function:engine/gleif_enrich.py:_load_aliases",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/gleif_enrich.py:_apply_match",
+      "target": "function:engine/schemas.py:_now",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/gleif_enrich.py:enrich_top_entities",
+      "target": "function:engine/gleif_enrich.py:_company_rows",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/gleif_enrich.py:enrich_top_entities",
+      "target": "function:engine/gleif_enrich.py:_clean_existing_gleif",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/gleif_enrich.py:enrich_top_entities",
+      "target": "function:engine/gleif_enrich.py:_usable_queries",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/gleif_enrich.py:enrich_top_entities",
+      "target": "function:engine/gleif_enrich.py:_load_aliases",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/gleif_enrich.py:enrich_top_entities",
+      "target": "function:engine/gleif_enrich.py:_fetch",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/gleif_enrich.py:enrich_top_entities",
+      "target": "function:engine/gleif_enrich.py:best_match",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/gleif_enrich.py:enrich_top_entities",
+      "target": "function:engine/schemas.py:_now",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/gleif_enrich.py:enrich_top_entities",
+      "target": "function:engine/gleif_enrich.py:_upsert_gleif_source",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/gleif_enrich.py:enrich_top_entities",
+      "target": "function:engine/gleif_enrich.py:_apply_match",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/graph.py:_seed_chain",
+      "target": "class:engine/schemas.py:Source",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/graph.py:_seed_chain",
+      "target": "function:engine/graph.py:_upsert_source",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/graph.py:_seed_chain",
+      "target": "class:engine/schemas.py:GraphNode",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/graph.py:_seed_chain",
+      "target": "function:engine/graph.py:_upsert_node",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/graph.py:_seed_chain",
+      "target": "class:engine/schemas.py:GraphEdge",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/graph.py:_seed_chain",
+      "target": "function:engine/graph.py:_upsert_edge",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/graph.py:seed_graph",
+      "target": "function:engine/graph.py:_seed_chain",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/graph.py:seed_ai_power",
+      "target": "function:engine/graph.py:_seed_chain",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/graph.py:seed_metals",
+      "target": "function:engine/graph.py:_seed_chain",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/graph.py:seed_metals",
+      "target": "function:engine/graph.py:_link_chains",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/graph.py:_link_chains",
+      "target": "class:engine/schemas.py:Source",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/graph.py:_link_chains",
+      "target": "function:engine/graph.py:_upsert_source",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/graph.py:_link_chains",
+      "target": "class:engine/schemas.py:GraphEdge",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/graph.py:_link_chains",
+      "target": "function:engine/graph.py:_upsert_edge",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/graph.py:propose_verification",
+      "target": "function:engine/graph.py:_open_decision",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/graph.py:_open_decision",
+      "target": "class:engine/schemas.py:Decision",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/graph.py:_open_decision",
+      "target": "function:engine/graph.py:_json",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/graph.py:propose_ai_power_verification",
+      "target": "function:engine/graph.py:_open_decision",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/graph.py:record_decision",
+      "target": "function:engine/schemas.py:_now",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/graph.py:_depends_required",
+      "target": "function:engine/graph.py:_scope",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/graph.py:propagate",
+      "target": "function:engine/graph.py:_scope",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/graph.py:propagate",
+      "target": "function:engine/graph.py:_depends_required",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/graph.py",
+      "target": "class:engine/graph.py:Pressure",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/graph.py:propagate",
+      "target": "class:engine/graph.py:Propagation",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/graph.py:drill_targets",
+      "target": "function:engine/graph.py:_scope",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/graph.py:drill_targets",
+      "target": "class:engine/graph.py:DrillTarget",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/graph.py:variance_budget",
+      "target": "function:engine/graph.py:_scope",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/graph.py:variance_budget",
+      "target": "function:engine/graph.py:_depends_required",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/graph.py:variance_budget",
+      "target": "class:engine/graph.py:VoITerm",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/graph.py:seed_constraint_cards",
+      "target": "function:engine/graph.py:seed_graph",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/graph.py:seed_constraint_cards",
+      "target": "function:engine/graph.py:seed_ai_power",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/graph.py:seed_constraint_cards",
+      "target": "function:engine/graph.py:seed_metals",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/graph.py:seed_constraint_cards",
+      "target": "function:engine/graph.py:propagate",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/graph.py:seed_constraint_cards",
+      "target": "function:engine/graph.py:constraint_card",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/hypothesis.py:_upsert",
+      "target": "function:engine/hypothesis.py:gate",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/hypothesis.py:add",
+      "target": "class:engine/schemas.py:Hypothesis",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/hypothesis.py:add",
+      "target": "function:engine/hypothesis.py:_upsert",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/hypothesis.py:record_skeptic_panel",
+      "target": "function:engine/hypothesis.py:_load",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/hypothesis.py:record_skeptic_panel",
+      "target": "function:engine/hypothesis.py:gate",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/hypothesis.py:_load",
+      "target": "class:engine/schemas.py:Hypothesis",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/hypothesis.py:_load",
+      "target": "class:engine/schemas.py:ForecastOutcome",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/hypothesis.py:seed",
+      "target": "function:engine/pillars/frontier.py:_log_cost",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/hypothesis.py:seed",
+      "target": "function:engine/hypothesis.py:_upsert",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

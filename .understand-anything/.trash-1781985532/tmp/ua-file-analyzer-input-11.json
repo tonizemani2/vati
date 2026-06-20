@@ -1,0 +1,130 @@
+{
+  "projectRoot": "/Users/emizemani/Desktop/predictthefuture",
+  "batchFiles": [
+    {
+      "path": "chat/src/app/page.tsx",
+      "language": "typescript",
+      "sizeLines": 858,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/src/components/Account.tsx",
+      "language": "typescript",
+      "sizeLines": 43,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/src/components/CapturePlan.tsx",
+      "language": "typescript",
+      "sizeLines": 187,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/src/components/Composer.tsx",
+      "language": "typescript",
+      "sizeLines": 135,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/src/components/CopyButton.tsx",
+      "language": "typescript",
+      "sizeLines": 32,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/src/components/Council.tsx",
+      "language": "typescript",
+      "sizeLines": 251,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/src/components/CreditsPanel.tsx",
+      "language": "typescript",
+      "sizeLines": 245,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/src/components/ForecastCard.tsx",
+      "language": "typescript",
+      "sizeLines": 423,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/src/components/LiteReadUpsell.tsx",
+      "language": "typescript",
+      "sizeLines": 50,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/src/components/Markdown.tsx",
+      "language": "typescript",
+      "sizeLines": 125,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/src/components/Reasoning.tsx",
+      "language": "typescript",
+      "sizeLines": 38,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/src/components/Sidebar.tsx",
+      "language": "typescript",
+      "sizeLines": 184,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/src/lib/cn.ts",
+      "language": "typescript",
+      "sizeLines": 6,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/src/lib/forecast.ts",
+      "language": "typescript",
+      "sizeLines": 77,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "chat/src/app/page.tsx": [
+      "chat/src/components/CapturePlan.tsx",
+      "chat/src/components/Composer.tsx",
+      "chat/src/components/CopyButton.tsx",
+      "chat/src/components/Council.tsx",
+      "chat/src/components/CreditsPanel.tsx",
+      "chat/src/components/ForecastCard.tsx",
+      "chat/src/components/LiteReadUpsell.tsx",
+      "chat/src/components/Markdown.tsx",
+      "chat/src/components/Reasoning.tsx",
+      "chat/src/components/Sidebar.tsx",
+      "chat/src/lib/capture.ts",
+      "chat/src/lib/forecast.ts"
+    ],
+    "chat/src/components/Account.tsx": [],
+    "chat/src/components/CapturePlan.tsx": [
+      "chat/src/lib/capture.ts"
+    ],
+    "chat/src/components/Composer.tsx": [],
+    "chat/src/components/CopyButton.tsx": [],
+    "chat/src/components/Council.tsx": [],
+    "chat/src/components/CreditsPanel.tsx": [],
+    "chat/src/components/ForecastCard.tsx": [],
+    "chat/src/components/LiteReadUpsell.tsx": [
+      "chat/src/components/Composer.tsx"
+    ],
+    "chat/src/components/Markdown.tsx": [],
+    "chat/src/components/Reasoning.tsx": [
+      "chat/src/lib/cn.ts"
+    ],
+    "chat/src/components/Sidebar.tsx": [
+      "chat/src/components/Account.tsx",
+      "chat/src/components/CreditsPanel.tsx",
+      "chat/src/lib/cn.ts"
+    ],
+    "chat/src/lib/cn.ts": [],
+    "chat/src/lib/forecast.ts": [
+      "chat/src/components/ForecastCard.tsx"
+    ]
+  }
+}

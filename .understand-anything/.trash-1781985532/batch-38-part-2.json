@@ -1,0 +1,717 @@
+{
+  "nodes": [
+    {
+      "id": "file:engine/prophet/modal_app.py",
+      "type": "file",
+      "name": "modal_app.py",
+      "filePath": "engine/prophet/modal_app.py",
+      "summary": "modal_app.py is a code asset in the forecasting engine. It contains 1 function.",
+      "tags": [
+        "forecasting-engine",
+        "code",
+        "file",
+        "modal-app"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/prophet/modal_app.py:fastapi_app",
+      "type": "function",
+      "name": "fastapi_app",
+      "filePath": "engine/prophet/modal_app.py",
+      "lineRange": [
+        48,
+        56
+      ],
+      "summary": "Defines fastapi_app in modal_app.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "modal-app"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:engine/sec_bulk_collect.py",
+      "type": "file",
+      "name": "sec_bulk_collect.py",
+      "filePath": "engine/sec_bulk_collect.py",
+      "summary": "sec_bulk_collect.py is a code asset in the forecasting engine. It contains 8 functions.",
+      "tags": [
+        "forecasting-engine",
+        "code",
+        "file",
+        "sec-bulk-collect"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:engine/sec_bulk_collect.py:sec_get",
+      "type": "function",
+      "name": "sec_get",
+      "filePath": "engine/sec_bulk_collect.py",
+      "lineRange": [
+        95,
+        115
+      ],
+      "summary": "Defines sec_get in sec_bulk_collect.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "sec-bulk-collect"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/sec_bulk_collect.py:padded_cik",
+      "type": "function",
+      "name": "padded_cik",
+      "filePath": "engine/sec_bulk_collect.py",
+      "lineRange": [
+        118,
+        119
+      ],
+      "summary": "Defines padded_cik in sec_bulk_collect.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "sec-bulk-collect"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/sec_bulk_collect.py:fetch_company_tickers",
+      "type": "function",
+      "name": "fetch_company_tickers",
+      "filePath": "engine/sec_bulk_collect.py",
+      "lineRange": [
+        122,
+        133
+      ],
+      "summary": "Defines fetch_company_tickers in sec_bulk_collect.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-access",
+        "sec-bulk-collect"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/sec_bulk_collect.py:extract_key_facts",
+      "type": "function",
+      "name": "extract_key_facts",
+      "filePath": "engine/sec_bulk_collect.py",
+      "lineRange": [
+        136,
+        185
+      ],
+      "summary": "Defines extract_key_facts in sec_bulk_collect.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "sec-bulk-collect"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/sec_bulk_collect.py:fetch_eightk_index",
+      "type": "function",
+      "name": "fetch_eightk_index",
+      "filePath": "engine/sec_bulk_collect.py",
+      "lineRange": [
+        188,
+        218
+      ],
+      "summary": "Defines fetch_eightk_index in sec_bulk_collect.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-access",
+        "sec-bulk-collect"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/sec_bulk_collect.py:stage_bytes",
+      "type": "function",
+      "name": "stage_bytes",
+      "filePath": "engine/sec_bulk_collect.py",
+      "lineRange": [
+        221,
+        227
+      ],
+      "summary": "Defines stage_bytes in sec_bulk_collect.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "sec-bulk-collect"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/sec_bulk_collect.py:s3_sync_and_prune",
+      "type": "function",
+      "name": "s3_sync_and_prune",
+      "filePath": "engine/sec_bulk_collect.py",
+      "lineRange": [
+        230,
+        253
+      ],
+      "summary": "Defines s3_sync_and_prune in sec_bulk_collect.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entry-point",
+        "sec-bulk-collect"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/sec_bulk_collect.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "engine/sec_bulk_collect.py",
+      "lineRange": [
+        258,
+        407
+      ],
+      "summary": "Defines main in sec_bulk_collect.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entry-point",
+        "sec-bulk-collect"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:engine/world_extractor.py",
+      "type": "file",
+      "name": "world_extractor.py",
+      "filePath": "engine/world_extractor.py",
+      "summary": "world_extractor.py is a code asset in the forecasting engine. It contains 1 function, 5 classes.",
+      "tags": [
+        "forecasting-engine",
+        "code",
+        "file",
+        "world-extractor"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/world_extractor.py:critical_precision",
+      "type": "function",
+      "name": "critical_precision",
+      "filePath": "engine/world_extractor.py",
+      "lineRange": [
+        103,
+        112
+      ],
+      "summary": "Defines critical_precision in world_extractor.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-extractor"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:engine/world_extractor.py:ExtractionSourceKind",
+      "type": "class",
+      "name": "ExtractionSourceKind",
+      "filePath": "engine/world_extractor.py",
+      "lineRange": [
+        22,
+        28
+      ],
+      "summary": "Defines ExtractionSourceKind in world_extractor.py, encapsulating reusable behavior or state for this module.",
+      "tags": [
+        "class",
+        "implementation",
+        "world-extractor"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:engine/world_extractor.py:ExtractedEntity",
+      "type": "class",
+      "name": "ExtractedEntity",
+      "filePath": "engine/world_extractor.py",
+      "lineRange": [
+        31,
+        43
+      ],
+      "summary": "Defines ExtractedEntity in world_extractor.py, encapsulating reusable behavior or state for this module.",
+      "tags": [
+        "class",
+        "implementation",
+        "world-extractor"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:engine/world_extractor.py:ExtractedFact",
+      "type": "class",
+      "name": "ExtractedFact",
+      "filePath": "engine/world_extractor.py",
+      "lineRange": [
+        46,
+        64
+      ],
+      "summary": "Defines ExtractedFact in world_extractor.py, encapsulating reusable behavior or state for this module.",
+      "tags": [
+        "class",
+        "implementation",
+        "world-extractor"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:engine/world_extractor.py:ExtractedRelationship",
+      "type": "class",
+      "name": "ExtractedRelationship",
+      "filePath": "engine/world_extractor.py",
+      "lineRange": [
+        67,
+        80
+      ],
+      "summary": "Defines ExtractedRelationship in world_extractor.py, encapsulating reusable behavior or state for this module.",
+      "tags": [
+        "class",
+        "implementation",
+        "world-extractor"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:engine/world_extractor.py:ExtractionResult",
+      "type": "class",
+      "name": "ExtractionResult",
+      "filePath": "engine/world_extractor.py",
+      "lineRange": [
+        83,
+        100
+      ],
+      "summary": "Defines ExtractionResult in world_extractor.py, encapsulating reusable behavior or state for this module.",
+      "tags": [
+        "class",
+        "implementation",
+        "world-extractor"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:experiments/forward_calls_seal.sha256",
+      "type": "file",
+      "name": "forward_calls_seal.sha256",
+      "filePath": "experiments/forward_calls_seal.sha256",
+      "summary": "forward_calls_seal.sha256 is a code asset in the repository.",
+      "tags": [
+        "code",
+        "file",
+        "forward-calls-seal"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:landing/app/globals.css",
+      "type": "file",
+      "name": "globals.css",
+      "filePath": "landing/app/globals.css",
+      "summary": "globals.css is a markup asset in the landing surface.",
+      "tags": [
+        "frontend",
+        "ui",
+        "file",
+        "markup",
+        "globals"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:landing/app/layout.tsx",
+      "type": "file",
+      "name": "layout.tsx",
+      "filePath": "landing/app/layout.tsx",
+      "summary": "layout.tsx is a code asset in the landing surface. It contains 1 function, 1 internal import.",
+      "tags": [
+        "frontend",
+        "code",
+        "file",
+        "layout"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:landing/app/layout.tsx:RootLayout",
+      "type": "function",
+      "name": "RootLayout",
+      "filePath": "landing/app/layout.tsx",
+      "lineRange": [
+        49,
+        57
+      ],
+      "summary": "Defines RootLayout in layout.tsx, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "layout"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:landing/next-env.d.ts",
+      "type": "file",
+      "name": "next-env.d.ts",
+      "filePath": "landing/next-env.d.ts",
+      "summary": "next-env.d.ts is a code asset in the landing surface. It contains 1 internal import.",
+      "tags": [
+        "frontend",
+        "code",
+        "file",
+        "next-env-d"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:landing/next.config.ts",
+      "type": "file",
+      "name": "next.config.ts",
+      "filePath": "landing/next.config.ts",
+      "summary": "next.config.ts is a code asset in the landing surface.",
+      "tags": [
+        "configuration",
+        "nextjs",
+        "build-system",
+        "frontend",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:landing/package.json",
+      "type": "config",
+      "name": "package.json",
+      "filePath": "landing/package.json",
+      "summary": "Configuration file for package.json that shapes build, runtime, or tooling behavior in this repository.",
+      "tags": [
+        "configuration",
+        "build-system",
+        "project-manifest",
+        "frontend"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:engine/prophet/modal_app.py",
+      "target": "function:engine/prophet/modal_app.py:fastapi_app",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/prophet/modal_app.py",
+      "target": "function:engine/prophet/modal_app.py:fastapi_app",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/sec_bulk_collect.py",
+      "target": "function:engine/sec_bulk_collect.py:sec_get",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/sec_bulk_collect.py",
+      "target": "function:engine/sec_bulk_collect.py:sec_get",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/sec_bulk_collect.py",
+      "target": "function:engine/sec_bulk_collect.py:padded_cik",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/sec_bulk_collect.py",
+      "target": "function:engine/sec_bulk_collect.py:padded_cik",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/sec_bulk_collect.py",
+      "target": "function:engine/sec_bulk_collect.py:fetch_company_tickers",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/sec_bulk_collect.py",
+      "target": "function:engine/sec_bulk_collect.py:fetch_company_tickers",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/sec_bulk_collect.py",
+      "target": "function:engine/sec_bulk_collect.py:extract_key_facts",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/sec_bulk_collect.py",
+      "target": "function:engine/sec_bulk_collect.py:extract_key_facts",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/sec_bulk_collect.py",
+      "target": "function:engine/sec_bulk_collect.py:fetch_eightk_index",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/sec_bulk_collect.py",
+      "target": "function:engine/sec_bulk_collect.py:fetch_eightk_index",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/sec_bulk_collect.py",
+      "target": "function:engine/sec_bulk_collect.py:stage_bytes",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/sec_bulk_collect.py",
+      "target": "function:engine/sec_bulk_collect.py:stage_bytes",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/sec_bulk_collect.py",
+      "target": "function:engine/sec_bulk_collect.py:s3_sync_and_prune",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/sec_bulk_collect.py",
+      "target": "function:engine/sec_bulk_collect.py:s3_sync_and_prune",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/sec_bulk_collect.py",
+      "target": "function:engine/sec_bulk_collect.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/sec_bulk_collect.py",
+      "target": "function:engine/sec_bulk_collect.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_extractor.py",
+      "target": "function:engine/world_extractor.py:critical_precision",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_extractor.py",
+      "target": "function:engine/world_extractor.py:critical_precision",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_extractor.py",
+      "target": "class:engine/world_extractor.py:ExtractionSourceKind",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_extractor.py",
+      "target": "class:engine/world_extractor.py:ExtractionSourceKind",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_extractor.py",
+      "target": "class:engine/world_extractor.py:ExtractedEntity",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_extractor.py",
+      "target": "class:engine/world_extractor.py:ExtractedEntity",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_extractor.py",
+      "target": "class:engine/world_extractor.py:ExtractedFact",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_extractor.py",
+      "target": "class:engine/world_extractor.py:ExtractedFact",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_extractor.py",
+      "target": "class:engine/world_extractor.py:ExtractedRelationship",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_extractor.py",
+      "target": "class:engine/world_extractor.py:ExtractedRelationship",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_extractor.py",
+      "target": "class:engine/world_extractor.py:ExtractionResult",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_extractor.py",
+      "target": "class:engine/world_extractor.py:ExtractionResult",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:landing/app/layout.tsx",
+      "target": "function:landing/app/layout.tsx:RootLayout",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:landing/app/layout.tsx",
+      "target": "function:landing/app/layout.tsx:RootLayout",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:landing/app/layout.tsx",
+      "target": "file:landing/app/globals.css",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "function:engine/sec_bulk_collect.py:fetch_company_tickers",
+      "target": "function:engine/sec_bulk_collect.py:sec_get",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/sec_bulk_collect.py:fetch_eightk_index",
+      "target": "function:engine/sec_bulk_collect.py:padded_cik",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/sec_bulk_collect.py:fetch_eightk_index",
+      "target": "function:engine/sec_bulk_collect.py:sec_get",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/sec_bulk_collect.py:s3_sync_and_prune",
+      "target": "function:engine/sec_bulk_collect.py:stage_bytes",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/sec_bulk_collect.py:main",
+      "target": "function:engine/sec_bulk_collect.py:fetch_company_tickers",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/sec_bulk_collect.py:main",
+      "target": "function:engine/sec_bulk_collect.py:stage_bytes",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/sec_bulk_collect.py:main",
+      "target": "function:engine/sec_bulk_collect.py:padded_cik",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/sec_bulk_collect.py:main",
+      "target": "function:engine/sec_bulk_collect.py:sec_get",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/sec_bulk_collect.py:main",
+      "target": "function:engine/sec_bulk_collect.py:extract_key_facts",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/sec_bulk_collect.py:main",
+      "target": "function:engine/sec_bulk_collect.py:fetch_eightk_index",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/sec_bulk_collect.py:main",
+      "target": "function:engine/sec_bulk_collect.py:s3_sync_and_prune",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

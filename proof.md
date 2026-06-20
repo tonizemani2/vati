@@ -5,10 +5,11 @@
 > the **goal** (`plan.md`), not tailored to any audience; positioning falls *out of* the proof, never
 > the other way around.
 >
-> **Two rules keep it honest.** (1) It **cites artifacts, never asserts** — every claim points to a
-> number the cockpit or the DB can show live. (2) It states **maturity plainly** — what is proven
-> today vs. what is not yet. A proof doc that overclaims would violate the very fallibilism we sell.
-> Refresh it whenever a phase gate (`execution.md` §5) lights a new rung.
+> **Two rules keep it real.** (1) It **cites artifacts, never asserts** — every claim points to a
+> number the cockpit, the DB, or a public scoreboard can show live. (2) It states **maturity plainly** —
+> what is proven today vs. what is not yet — because an overclaim a third party can check is how you lose
+> in public, not how you win. We do not sell honesty; we sell being right where anyone can score us.
+> Refresh it whenever a phase gate (`execution.md` §5) or a public result lights a new rung.
 
 ---
 
@@ -61,8 +62,9 @@ Each rung is a distinct, showable claim. We climb in order; lower rungs never ex
 | 6 | **The edge was real and still capturable when found** | median lead-time vs. a timestamped consensus proxy (market price *or* non-market mention/coverage/survey count, pillar 7) | showing flags *lag* the consensus rather than lead it | Phase 5–6 |
 | 7 | **Acting on it beats a benchmark** *(bonus track — conditional)* | paper P&L vs. a benchmark, **only when a liquid pure-play + consensus gap both exist** | underperformance vs. the benchmark *where a bet was placeable* | Phase 7+ |
 
-Rungs 3–5 are the spine; rung 5 (the live track record) is the **moat** — it compounds and cannot be
-faked after the fact. **Two-track proof (§8.2):** rungs 4–6 (Brier-scored constraint forecasts) are the
+Rungs 3–5 are the spine; rung 5 (the live track record) is the **un-fakeable proof of edge** — it
+compounds and cannot be faked after the fact. (Proof, not a moat: a real moat is a better method,
+exclusive data, or owning the benchmark; the record only *certifies* edge once it exists.) **Two-track proof (§8.2):** rungs 4–6 (Brier-scored constraint forecasts) are the
 *primary* proof and reach the deepest, unbettable constraints; rung 7 (P&L) is a *conditional bonus* — most
 deep calls have no instrument, and that is expected, not a failure.
 
@@ -73,13 +75,14 @@ deep calls have no instrument, and that is expected, not a failure.
 - **Rung 1 — lit.** The method, the foundations, and the quantitative discipline exist and are inspectable right now.
 - **Rung 2 — stated, not yet demonstrated.** The mechanism is fully articulated; it gets *shown* when the graph runs (Phase 4).
 - **Rung 3 — strengthened, not yet lit.** The time-machine backtest (`engine/backtest.py`) runs point-in-time with **no look-ahead (assert-enforced)**. After correcting the base rate 72%→35% (14 laggard controls) and grading in log-space against the thesis target *"did it gain share of its field?"*, a **rolling-origin sweep** (origins 2008→2016) shows a **1.93× lift that holds at 5/5 origins** (1.44–2.28×; 69% precision vs 36% base), **Fisher-exact p<0.001**, and an **honest leave-one-cutoff-out Brier 0.205 < 0.229** — firing beats the base rate *out of sample*, so the probabilities are now demonstrably informative, not overconfident. Two honest limits keep the rung un-lit: **recall is 39%** (a precision instrument, not coverage — the biggest share-gainers were flat at the cutoff), and the tiny p is **clustering-optimistic** (the same concepts recur across origins), so the 5/5 consistency — not the p — is the load-bearing evidence. The companion **§8 case corpus** (`engine/retro.py`) carries the named winners/fizzles + lead-time. We report the edge and its limits together — and on the record, an honest single-cutoff run first showed *no* edge before the sweep corrected that overstatement.
-- **Rungs 4–7 — pending their phases.** We have **zero resolved forward forecasts**, so we claim **no live calibration and no track record yet.**
+- **Rungs 4–7 — pending their phases.** We have **zero resolved forward forecasts**, so we claim **no live calibration and no track record yet.** That is the gap to close, fast — not a confession to lead with.
 
-Saying this plainly *is* the first proof: a system that operates as advertised reports its own immaturity
-instead of dressing method up as results — and when an honest backtest first showed *no* edge (acceleration
-mean-reverts), we published that before finding the target on which an edge actually holds. The credible
-near-term milestone is **Phase 6** (retrodiction passes precision *and* recall, calibrated) — the first
-moment "we're real" is a number, not a claim.
+The credible near-term milestone is no longer a far-off internal phase. It is a **public result this summer**:
+a benchmark rank scored by someone other than us (ForecastBench dataset half, the Metaculus Cup, the
+FutureEval Bot Tournament) plus a **live, append-only, Brier-scored call board** on short-horizon structural
+calls. The first moment "we're real" is a number on a scoreboard a skeptic can check — not a claim, and not
+a polished admission of immaturity. Reporting maturity plainly is table stakes that keeps us from losing in
+public; *winning* in public is the proof.
 
 ---
 
@@ -120,7 +123,7 @@ would say so — if, after a meaningful N of resolved forecasts:
 - median **lead-time ≤ 0** (we lag the price — correct but not capturable), **or**
 - **decision value < benchmark** (right on paper, useless in allocation).
 
-We would rather know. A foresight engine that can't be proven wrong is the thing it exists to reject.
+A forecast that can't be proven wrong is worthless, and Vati refuses to make one.
 
 ---
 
@@ -149,7 +152,7 @@ Two gaps weaken the case today. Naming them *is* the discipline.
 2. **The unbettable-edge tension — RESOLVED (two-track, 2026-06-03).** The deepest constraints we
    derive (GOES, the interconnection queue) have **no public pure-play**, so a P&L record cannot reach
    where the real alpha lives — and both domains run so far returned *priced / inconclusive* on the
-   bettable layer. **Decision (Ruben):** "proven" is **two-track** —
+   bettable layer. **Decision (Toni):** "proven" is **two-track** —
    - **Primary track (always): Brier-scored forecasts on observable constraint-metrics**, instrument-free
      (e.g. "GOES supply gap > X by date Y"; "transformer PPI ≥ 1.5× baseline through 2028"). This is the
      proof that reaches the deep edge, and it is falsifiable without any market.

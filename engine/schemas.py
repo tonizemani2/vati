@@ -87,12 +87,72 @@ class Source(BaseModel):
     accessed_at: datetime = Field(default_factory=_now)
     cost_cents: int = 0                  # 0 for free/keyless
     content_hash: str | None = None      # point-in-time snapshot fingerprint
+    raw_provenance_status: str = "unknown"
+    raw_provenance_reason: str | None = None
+    raw_provenance_checked_at: datetime | None = None
 
     @field_validator("trust_rationale")
     @classmethod
     def _rationale_not_empty(cls, v: str) -> str:
         if not v or not v.strip():
             raise ValueError("trust_rationale is required and must be non-empty (GIGO gate)")
+        return v.strip()
+
+
+class WorldStateFact(BaseModel):
+    """Immutable extracted fact, visible only through point-in-time snapshot gates."""
+
+    id: str = Field(default_factory=_uid)
+    subject_entity_id: str | None = None
+    predicate: str
+    object_entity_id: str | None = None
+    value: float | None = None
+    unit: str | None = None
+    event_time: date | None = None
+    published_at: date | None = None
+    observed_at: date | None = None
+    ingested_at: datetime = Field(default_factory=_now)
+    source_id: str | None = None
+    content_hash: str | None = None
+    confidence: float = Field(default=0.5, ge=0.0, le=1.0)
+    extractor: str
+    rationale: str
+    supersedes_fact_id: str | None = None
+    status: str = "active"  # active | superseded | rejected | draft
+    created_at: datetime = Field(default_factory=_now)
+
+    @field_validator("predicate", "extractor", "rationale")
+    @classmethod
+    def _non_empty_fact_text(cls, v: str) -> str:
+        if not v or not v.strip():
+            raise ValueError("world-state fact text fields must be non-empty")
+        return v.strip()
+
+    @field_validator("status")
+    @classmethod
+    def _fact_status_ok(cls, v: str) -> str:
+        if v not in {"active", "superseded", "rejected", "draft"}:
+            raise ValueError("status must be active, superseded, rejected, or draft")
+        return v
+
+
+class WorldStateSnapshot(BaseModel):
+    """Deterministic manifest for the facts visible to one topic/as-of query."""
+
+    id: str = Field(default_factory=_uid)
+    topic: str
+    as_of: date
+    created_at: datetime = Field(default_factory=_now)
+    query_version: str
+    fact_count: int = Field(ge=0)
+    source_count: int = Field(ge=0)
+    snapshot_hash: str
+
+    @field_validator("topic", "query_version", "snapshot_hash")
+    @classmethod
+    def _snapshot_text_ok(cls, v: str) -> str:
+        if not v or not v.strip():
+            raise ValueError("snapshot fields must be non-empty")
         return v.strip()
 
 
@@ -310,6 +370,9 @@ class Observation(BaseModel):
     id: str = Field(default_factory=_uid)
     series_id: str
     as_of: date                          # when this value was knowable (point-in-time)
+    event_time: date | None = None       # when the measured event/period happened, if different
+    published_at: date | None = None     # when the source made the value knowable
+    observed_at: date | None = None      # when the measurement was observed by the source
     value: float
     unit: str
     uncertainty: float                   # absolute 1σ; for counts, Poisson sqrt(n)

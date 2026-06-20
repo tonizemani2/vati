@@ -1,0 +1,187 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - banner [ref=e237]:
+      - link "Stalwart Logo" [ref=e238] [cursor=pointer]:
+        - /url: /admin
+        - img "Stalwart Logo" [ref=e239]
+      - generic [ref=e243]:
+        - img
+        - textbox [ref=e244]
+      - generic [ref=e245]:
+        - button "Toggle theme" [ref=e246]:
+          - img
+        - button "User menu" [ref=e247]:
+          - img
+    - generic [ref=e248]:
+      - complementary [ref=e249]:
+        - navigation [ref=e251]:
+          - button "Dashboard" [ref=e252]:
+            - img
+            - generic [ref=e253]: Dashboard
+            - img
+          - generic [ref=e254]:
+            - button "Directory" [expanded] [ref=e255]:
+              - img
+              - generic [ref=e256]: Directory
+              - img
+            - generic [ref=e257]:
+              - button "Accounts" [ref=e258]:
+                - generic [ref=e259]: Accounts
+              - button "Groups" [ref=e260]:
+                - generic [ref=e261]: Groups
+              - button "Mailing Lists" [ref=e262]:
+                - generic [ref=e263]: Mailing Lists
+              - button "Tenants" [ref=e264]:
+                - generic [ref=e265]: Tenants
+                - img
+              - button "Roles" [ref=e266]:
+                - generic [ref=e267]: Roles
+              - button "OAuth Clients" [ref=e268]:
+                - generic [ref=e269]: OAuth Clients
+          - button "Domains" [ref=e271]:
+            - img
+            - generic [ref=e272]: Domains
+            - img
+          - button "Emails" [ref=e274]:
+            - img
+            - generic [ref=e275]: Emails
+            - img
+          - button "Reports" [ref=e277]:
+            - img
+            - generic [ref=e278]: Reports
+            - img
+          - button "Observability" [ref=e280]:
+            - img
+            - generic [ref=e281]: Observability
+            - img
+          - button "Tasks" [ref=e283]:
+            - img
+            - generic [ref=e284]: Tasks
+            - img
+          - button "Cluster" [ref=e285]:
+            - img
+            - generic [ref=e286]: Cluster
+          - button "Actions" [ref=e287]:
+            - img
+            - generic [ref=e288]: Actions
+        - generic [ref=e289]:
+          - button "Management" [ref=e290]:
+            - img
+          - button "Settings" [ref=e291]:
+            - img
+          - button "Account" [ref=e292]:
+            - img
+      - main [ref=e8]:
+        - generic [ref=e293]:
+          - generic [ref=e294]:
+            - button [ref=e295]:
+              - img
+            - heading "Create user" [level=1] [ref=e297]
+          - generic [ref=e301]:
+            - text: Account type
+            - combobox [ref=e302]:
+              - generic: User account
+              - img [ref=e303]
+          - generic [ref=e305]:
+            - generic [ref=e307]: User Account
+            - generic [ref=e309]:
+              - generic [ref=e310]:
+                - generic [ref=e312]: Username*
+                - paragraph [ref=e314]: Name of the account, typically an email address local part.
+                - textbox [ref=e315]
+              - generic [ref=e316]:
+                - generic [ref=e318]: Domain*
+                - paragraph [ref=e320]: Identifier for the domain this account belongs to. This is used to determine the email address of the account, which is formed as name@domain.
+                - button "Search" [ref=e322]:
+                  - img
+              - generic [ref=e323]:
+                - generic [ref=e325]: Full Name(optional)
+                - paragraph [ref=e327]: Description of the account
+                - textbox [ref=e328]
+              - generic [ref=e329]:
+                - generic [ref=e331]: Tenant(optional)
+                - paragraph [ref=e333]: Identifier for the tenant this account belongs to
+                - generic [ref=e335]: None
+          - generic [ref=e336]:
+            - generic [ref=e338]: Authentication
+            - generic [ref=e341]:
+              - generic [ref=e343]: Credentials
+              - paragraph [ref=e345]: List of credential objects representing authentication methods for the account
+              - button "Add item" [ref=e347]:
+                - img
+                - text: Add item
+          - generic [ref=e348]:
+            - generic [ref=e350]: Groups & Roles
+            - generic [ref=e352]:
+              - generic [ref=e353]:
+                - generic [ref=e355]: Groups
+                - paragraph [ref=e357]: List of groups that this account is a member of
+                - button "Search" [ref=e359]:
+                  - img
+              - generic [ref=e360]:
+                - generic [ref=e362]: Roles
+                - paragraph [ref=e364]: Roles assigned to this user account
+                - generic [ref=e366]:
+                  - text: Roles
+                  - combobox [ref=e367]:
+                    - generic: User role
+                    - img [ref=e368]
+              - generic [ref=e370]:
+                - generic [ref=e372]: Permissions
+                - paragraph [ref=e374]: Permissions assigned to this account
+                - generic [ref=e376]:
+                  - text: Permissions
+                  - combobox [ref=e377]:
+                    - generic: Inherited permissions
+                    - img [ref=e378]
+          - generic [ref=e380]:
+            - generic [ref=e382]: Email
+            - generic [ref=e385]:
+              - generic [ref=e387]: Email Aliases
+              - paragraph [ref=e389]: List of email aliases for the account
+              - button "Add item" [ref=e391]:
+                - img
+                - text: Add item
+          - generic [ref=e392]:
+            - generic [ref=e394]: Quotas
+            - generic [ref=e397]:
+              - generic [ref=e399]: Quotas
+              - paragraph [ref=e401]: Quotas for different object types within this account
+              - generic [ref=e403]:
+                - combobox [ref=e404]:
+                  - generic: Select key...
+                  - img [ref=e405]
+                - button "Add" [disabled]:
+                  - img
+                  - text: Add
+          - generic [ref=e407]:
+            - generic [ref=e409]: Locale & Time Zone
+            - generic [ref=e411]:
+              - generic [ref=e412]:
+                - generic [ref=e414]: Locale*
+                - paragraph [ref=e416]: Preferred locale for the account
+                - combobox [ref=e417]:
+                  - generic [ref=e418]: English locale for the USA.
+                  - img
+              - generic [ref=e419]:
+                - generic [ref=e421]: Time Zone(optional)
+                - paragraph [ref=e423]: Preferred time zone for the account
+                - combobox [ref=e424]:
+                  - generic [ref=e425]: Select...
+                  - img
+          - generic [ref=e426]:
+            - generic [ref=e428]: Encryption
+            - generic [ref=e431]:
+              - generic [ref=e433]: Encryption at Rest
+              - paragraph [ref=e435]: Encryption-at-rest settings for the account
+              - generic [ref=e437]:
+                - text: Encryption at Rest
+                - combobox [ref=e438]:
+                  - generic: Disabled
+                  - img [ref=e439]
+          - generic [ref=e442]:
+            - button "Cancel" [ref=e443]
+            - button "Create" [ref=e444]:
+              - img
+              - text: Create
+  - list

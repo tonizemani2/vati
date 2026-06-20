@@ -1,40 +1,52 @@
 @import "tailwindcss";
 
-/* ── Vaticinus · Marble ───────────────────────────────────────────────────
-   Marble is the subject, not the backdrop. Warm Carrara light dominates;
-   one deep-ink interlude; a single thread of antique gold as the vein.       */
+/* ── Vaticinus · Inception-system reskin ──────────────────────────────────────
+   Dark teal-black and cream alternating fields, a single bright teal accent,
+   light-weight large display type. Cloned visual system, Vati's own content.   */
 :root {
-  --marble: #e7e7e1; /* dominant cool Carrara field         */
-  --marble-bright: #f3f2ed; /* raised / lit marble          */
-  --marble-deep: #d6d6ce; /* shadowed marble, hairlines     */
-  --ink: #17181c; /* primary text (deep ink, not black)     */
-  --ink-soft: #4f5158; /* secondary text                   */
-  --indigo: #0d1130; /* the one dark interlude             */
-  --indigo-soft: #1b2046; /* raised on indigo               */
-  --gold: #a8895c; /* the vein / accent                    */
-  --gold-bright: #c6a878; /* lit gold                       */
-  --line: rgba(25, 25, 31, 0.14); /* hairline on marble     */
-  --line-gold: rgba(168, 137, 92, 0.4);
-  --line-dark: rgba(244, 239, 228, 0.16); /* hairline on indigo */
+  --dark: #041414; /* primary dark field                       */
+  --dark-2: #07100f; /* hero black                             */
+  --cream: #faf8f0; /* cream field                             */
+  --ink: #2b2a29; /* text on cream                             */
+  --ink-soft: rgba(43, 42, 41, 0.62); /* muted on cream        */
+  --ink-line: rgba(43, 42, 41, 0.1); /* hairline on cream      */
+  --paper: #fafaf7; /* card on cream                           */
+
+  --fg: #faf8f0; /* text on dark                               */
+  --fg-soft: rgba(250, 248, 240, 0.7); /* muted on dark        */
+  --fg-dim: rgba(250, 248, 240, 0.4); /* tertiary on dark      */
+  --card: #182727; /* card / panel on dark                     */
+  --card-soft: #1d2f2f;
+  --line: rgba(247, 247, 247, 0.1); /* hairline on dark        */
+  --line-strong: rgba(247, 247, 247, 0.18);
+
+  --accent: #17c4c4; /* bright teal                             */
+  --accent-deep: #159999;
+  --accent-tint: rgba(23, 196, 196, 0.12);
 }
 
 @theme inline {
-  --color-background: var(--marble);
-  --color-foreground: var(--ink);
-  --color-marble: var(--marble);
-  --color-marble-bright: var(--marble-bright);
-  --color-marble-deep: var(--marble-deep);
+  --color-dark: var(--dark);
+  --color-dark-2: var(--dark-2);
+  --color-cream: var(--cream);
   --color-ink: var(--ink);
   --color-ink-soft: var(--ink-soft);
-  --color-indigo: var(--indigo);
-  --color-indigo-soft: var(--indigo-soft);
-  --color-gold: var(--gold);
-  --color-gold-bright: var(--gold-bright);
+  --color-paper: var(--paper);
+  --color-fg: var(--fg);
+  --color-fg-soft: var(--fg-soft);
+  --color-fg-dim: var(--fg-dim);
+  --color-card: var(--card);
+  --color-card-soft: var(--card-soft);
   --color-line: var(--line);
+  --color-line-strong: var(--line-strong);
+  --color-ink-line: var(--ink-line);
+  --color-accent: var(--accent);
+  --color-accent-deep: var(--accent-deep);
+  --color-accent-tint: var(--accent-tint);
 
-  --font-display: var(--font-cinzel); /* inscriptional caps */
-  --font-serif: var(--font-cormorant); /* large statements   */
-  --font-sans: var(--font-geist); /* small labels / body     */
+  --font-sans: var(--font-inter);
+  --font-display: var(--font-display);
+  --font-mono: var(--font-mono);
 }
 
 html {
@@ -42,52 +54,161 @@ html {
 }
 
 body {
-  background-color: var(--marble);
-  color: var(--ink);
-  font-family: var(--font-sans), system-ui, sans-serif;
+  background-color: var(--dark);
+  color: var(--fg);
+  font-family: var(--font-inter), system-ui, -apple-system, sans-serif;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
 }
 
-/* Inscriptional letterspacing */
-.tracking-monument {
-  letter-spacing: 0.34em;
+/* Light geometric display — the signature. */
+.display {
+  font-family: var(--font-display), system-ui, sans-serif;
+  font-weight: 360;
+  letter-spacing: -0.012em;
+  line-height: 1.06;
 }
-.tracking-wide-label {
-  letter-spacing: 0.3em;
+.mono {
+  font-family: var(--font-mono), ui-monospace, monospace;
 }
-
-/* Lining, fixed-width figures everywhere a number reads as data */
 .tnum {
   font-variant-numeric: tabular-nums lining-nums;
 }
 
-/* Quiet link that draws its own gold rule on hover (the vein, again) */
-.cta-rule {
-  background-image: linear-gradient(var(--gold), var(--gold));
-  background-repeat: no-repeat;
-  background-position: 0 100%;
-  background-size: 0% 1px;
-  padding-bottom: 0.25rem;
-  transition: background-size 0.5s cubic-bezier(0.16, 1, 0.3, 1);
-}
-.cta-rule:hover {
-  background-size: 100% 1px;
+/* Section eyebrow — small teal label */
+.eyebrow {
+  font-size: 0.8rem;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  color: var(--accent-deep);
 }
 
-/* Fine paper-grain over marble, fixed so it never repaints on scroll */
-.grain::after {
+/* ── Pills / buttons ──────────────────────────────────────────────────────── */
+.pill-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.45rem;
+  border-radius: 999px;
+  background-color: var(--accent);
+  color: #062020;
+  font-weight: 500;
+  font-size: 0.9rem;
+  padding: 0.72rem 1.35rem;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+.pill-primary:hover {
+  background-color: #2ad3d3;
+  transform: translateY(-1px);
+}
+
+/* Soft pill — subtle fill, adapts to field via currentColor context */
+.pill-soft {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.45rem;
+  border-radius: 999px;
+  font-weight: 500;
+  font-size: 0.9rem;
+  padding: 0.72rem 1.35rem;
+  transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+.pill-soft.on-dark {
+  background-color: rgba(255, 255, 255, 0.08);
+  color: var(--fg);
+}
+.pill-soft.on-dark:hover {
+  background-color: rgba(255, 255, 255, 0.14);
+}
+.pill-soft.on-cream {
+  background-color: rgba(43, 42, 41, 0.05);
+  color: var(--ink);
+}
+.pill-soft.on-cream:hover {
+  background-color: rgba(43, 42, 41, 0.09);
+}
+
+/* tiny mono spec tag with a teal dot */
+.tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-family: var(--font-mono), monospace;
+  font-size: 0.74rem;
+  color: var(--ink-soft);
+}
+.tag::before {
   content: "";
-  position: fixed;
-  inset: 0;
-  z-index: 50;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 999px;
+  background: var(--accent);
+}
+
+/* highlight box around a hero phrase */
+.hl {
+  background: var(--accent);
+  color: #062020;
+  padding: 0 0.18em;
+  border-radius: 0.18em;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
+
+/* ── Cards ────────────────────────────────────────────────────────────────── */
+.card-dark {
+  border-radius: 1.1rem;
+  border: 1px solid var(--line);
+  background-color: var(--card);
+  transition: border-color 0.25s ease, background-color 0.25s ease;
+}
+.card-dark:hover {
+  border-color: var(--line-strong);
+  background-color: var(--card-soft);
+}
+.card-cream {
+  border-radius: 1.1rem;
+  border: 1px solid var(--ink-line);
+  background-color: var(--paper);
+  transition: border-color 0.25s ease;
+}
+.card-cream:hover {
+  border-color: rgba(43, 42, 41, 0.2);
+}
+
+/* hairline rule used between list rows */
+.rule-cream {
+  border-top: 1px solid var(--ink-line);
+}
+.rule-dark {
+  border-top: 1px solid var(--line);
+}
+
+/* radial teal glow behind dark hero/bands */
+.glow {
+  position: absolute;
+  border-radius: 999px;
+  filter: blur(100px);
+  opacity: 0.5;
   pointer-events: none;
-  opacity: 0.04;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  background: radial-gradient(circle, rgba(23, 196, 196, 0.45) 0%, rgba(23, 196, 196, 0) 70%);
+}
+
+/* faint grid texture for dark bands */
+.grid-tex {
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.022) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.022) 1px, transparent 1px);
+  background-size: 64px 64px;
+}
+
+/* diffusion token band cell */
+@keyframes settle {
+  0% { opacity: 0.15; transform: translateY(4px); }
+  100% { opacity: 1; transform: translateY(0); }
 }
 
 @media (prefers-reduced-motion: reduce) {
-  html {
-    scroll-behavior: auto;
-  }
+  html { scroll-behavior: auto; }
 }

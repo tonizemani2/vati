@@ -1,0 +1,5374 @@
+{
+  "name": "predictthefuture-engine",
+  "description": "Foresight engine and product surfaces for Vati, an honest leak-free forecasting instrument built around forward scoring, structured research, and operator-facing workflows. Note: this project has over 100 source files; consider scoping analysis to a subdirectory for faster results.",
+  "languages": [
+    "avif",
+    "css",
+    "csv",
+    "html",
+    "javascript",
+    "json",
+    "jsonc",
+    "jsonl",
+    "markdown",
+    "python",
+    "riv",
+    "sha256",
+    "shell",
+    "sql",
+    "tex",
+    "toml",
+    "tsbuildinfo",
+    "txt",
+    "typescript",
+    "wasm",
+    "xml",
+    "yaml"
+  ],
+  "frameworks": [
+    "Next.js",
+    "React",
+    "Tailwind CSS"
+  ],
+  "files": [
+    {
+      "path": ".claude/commands/futureeval.md",
+      "language": "markdown",
+      "sizeLines": 54,
+      "fileCategory": "docs"
+    },
+    {
+      "path": ".claude/commands/gate.md",
+      "language": "markdown",
+      "sizeLines": 39,
+      "fileCategory": "docs"
+    },
+    {
+      "path": ".claude/commands/goal.md",
+      "language": "markdown",
+      "sizeLines": 31,
+      "fileCategory": "docs"
+    },
+    {
+      "path": ".claude/commands/metaculus.md",
+      "language": "markdown",
+      "sizeLines": 44,
+      "fileCategory": "docs"
+    },
+    {
+      "path": ".claude/commands/needle.md",
+      "language": "markdown",
+      "sizeLines": 35,
+      "fileCategory": "docs"
+    },
+    {
+      "path": ".claude/commands/pope.md",
+      "language": "markdown",
+      "sizeLines": 49,
+      "fileCategory": "docs"
+    },
+    {
+      "path": ".claude/commands/wildcard.md",
+      "language": "markdown",
+      "sizeLines": 39,
+      "fileCategory": "docs"
+    },
+    {
+      "path": ".claude/commands/world-graph.md",
+      "language": "markdown",
+      "sizeLines": 17,
+      "fileCategory": "docs"
+    },
+    {
+      "path": ".claude/settings.json",
+      "language": "json",
+      "sizeLines": 5,
+      "fileCategory": "config"
+    },
+    {
+      "path": ".claude/skills/taste-skill/SKILL.md",
+      "language": "markdown",
+      "sizeLines": 1206,
+      "fileCategory": "docs"
+    },
+    {
+      "path": ".claude/skills/vati-distribute/SKILL.md",
+      "language": "markdown",
+      "sizeLines": 87,
+      "fileCategory": "docs"
+    },
+    {
+      "path": ".claude/skills/vati-post/formats.md",
+      "language": "markdown",
+      "sizeLines": 147,
+      "fileCategory": "docs"
+    },
+    {
+      "path": ".claude/skills/vati-post/postpack.py",
+      "language": "python",
+      "sizeLines": 259,
+      "fileCategory": "code"
+    },
+    {
+      "path": ".claude/skills/vati-post/SKILL.md",
+      "language": "markdown",
+      "sizeLines": 166,
+      "fileCategory": "docs"
+    },
+    {
+      "path": ".claude/skills/vati-world-graph/agents/openai.yaml",
+      "language": "yaml",
+      "sizeLines": 4,
+      "fileCategory": "config"
+    },
+    {
+      "path": ".claude/skills/vati-world-graph/references/deepseek.md",
+      "language": "markdown",
+      "sizeLines": 39,
+      "fileCategory": "docs"
+    },
+    {
+      "path": ".claude/skills/vati-world-graph/references/ontology.md",
+      "language": "markdown",
+      "sizeLines": 63,
+      "fileCategory": "docs"
+    },
+    {
+      "path": ".claude/skills/vati-world-graph/SKILL.md",
+      "language": "markdown",
+      "sizeLines": 111,
+      "fileCategory": "docs"
+    },
+    {
+      "path": ".claude/workflows/forecastbench-judge.js",
+      "language": "javascript",
+      "sizeLines": 109,
+      "fileCategory": "code"
+    },
+    {
+      "path": ".claude/workflows/pope-capture.js",
+      "language": "javascript",
+      "sizeLines": 151,
+      "fileCategory": "code"
+    },
+    {
+      "path": ".claude/workflows/pope-mega.js",
+      "language": "javascript",
+      "sizeLines": 202,
+      "fileCategory": "code"
+    },
+    {
+      "path": ".claude/workflows/pope-pro.js",
+      "language": "javascript",
+      "sizeLines": 202,
+      "fileCategory": "code"
+    },
+    {
+      "path": ".claude/workflows/pope.js",
+      "language": "javascript",
+      "sizeLines": 203,
+      "fileCategory": "code"
+    },
+    {
+      "path": ".mac_fix_backup/codex-20260618-231003/CodexDockTilePlugin.plugin/Contents/_CodeSignature/CodeResources",
+      "language": "unknown",
+      "sizeLines": 115,
+      "fileCategory": "code"
+    },
+    {
+      "path": ".mac_fix_backup/codex-20260618-231003/CodexDockTilePlugin.plugin/Contents/Info.plist",
+      "language": "xml",
+      "sizeLines": 32,
+      "fileCategory": "config"
+    },
+    {
+      "path": ".mac_fix_backup/codex-20260618-231003/CodexDockTilePlugin.plugin/Contents/MacOS/CodexDockTilePlugin",
+      "language": "unknown",
+      "sizeLines": 125,
+      "fileCategory": "code"
+    },
+    {
+      "path": ".mac_fix_backup/codex-20260618-231003/launch-services-helper",
+      "language": "unknown",
+      "sizeLines": 180,
+      "fileCategory": "code"
+    },
+    {
+      "path": ".understand-anything/.understandignore",
+      "language": "unknown",
+      "sizeLines": 52,
+      "fileCategory": "code"
+    },
+    {
+      "path": "AGENTS.md",
+      "language": "markdown",
+      "sizeLines": 7,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "BRIEFING.md",
+      "language": "markdown",
+      "sizeLines": 325,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "chat/db/schema.sql",
+      "language": "sql",
+      "sizeLines": 115,
+      "fileCategory": "data"
+    },
+    {
+      "path": "chat/db/seed_forward_calls.mjs",
+      "language": "javascript",
+      "sizeLines": 60,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/next.config.ts",
+      "language": "typescript",
+      "sizeLines": 39,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/open-next.config.ts",
+      "language": "typescript",
+      "sizeLines": 5,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/package.json",
+      "language": "json",
+      "sizeLines": 36,
+      "fileCategory": "config"
+    },
+    {
+      "path": "chat/postcss.config.mjs",
+      "language": "javascript",
+      "sizeLines": 7,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/README.md",
+      "language": "markdown",
+      "sizeLines": 137,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "chat/scripts/test-council.ts",
+      "language": "typescript",
+      "sizeLines": 31,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/scripts/test-credits.ts",
+      "language": "typescript",
+      "sizeLines": 41,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/src/app/api/capture/route.ts",
+      "language": "typescript",
+      "sizeLines": 96,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/src/app/api/chat/route.ts",
+      "language": "typescript",
+      "sizeLines": 134,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/src/app/api/checkout/route.ts",
+      "language": "typescript",
+      "sizeLines": 103,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/src/app/api/conversations/route.ts",
+      "language": "typescript",
+      "sizeLines": 40,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/src/app/api/council/route.ts",
+      "language": "typescript",
+      "sizeLines": 100,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/src/app/api/credits/route.ts",
+      "language": "typescript",
+      "sizeLines": 41,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/src/app/api/forecast/route.ts",
+      "language": "typescript",
+      "sizeLines": 77,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/src/app/api/messages/route.ts",
+      "language": "typescript",
+      "sizeLines": 48,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/src/app/api/portal/route.ts",
+      "language": "typescript",
+      "sizeLines": 45,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/src/app/api/record/route.ts",
+      "language": "typescript",
+      "sizeLines": 39,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/src/app/api/stripe/webhook/route.ts",
+      "language": "typescript",
+      "sizeLines": 108,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/src/app/globals.css",
+      "language": "css",
+      "sizeLines": 171,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "chat/src/app/layout.tsx",
+      "language": "typescript",
+      "sizeLines": 29,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/src/app/page.tsx",
+      "language": "typescript",
+      "sizeLines": 858,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/src/app/robots.ts",
+      "language": "typescript",
+      "sizeLines": 26,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/src/components/Account.tsx",
+      "language": "typescript",
+      "sizeLines": 43,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/src/components/CapturePlan.tsx",
+      "language": "typescript",
+      "sizeLines": 187,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/src/components/Composer.tsx",
+      "language": "typescript",
+      "sizeLines": 135,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/src/components/CopyButton.tsx",
+      "language": "typescript",
+      "sizeLines": 32,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/src/components/Council.tsx",
+      "language": "typescript",
+      "sizeLines": 251,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/src/components/CreditsPanel.tsx",
+      "language": "typescript",
+      "sizeLines": 245,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/src/components/ForecastCard.tsx",
+      "language": "typescript",
+      "sizeLines": 423,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/src/components/LiteReadUpsell.tsx",
+      "language": "typescript",
+      "sizeLines": 50,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/src/components/Markdown.tsx",
+      "language": "typescript",
+      "sizeLines": 125,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/src/components/Reasoning.tsx",
+      "language": "typescript",
+      "sizeLines": 38,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/src/components/Sidebar.tsx",
+      "language": "typescript",
+      "sizeLines": 184,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/src/lib/auth.ts",
+      "language": "typescript",
+      "sizeLines": 124,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/src/lib/capture.ts",
+      "language": "typescript",
+      "sizeLines": 284,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/src/lib/cn.ts",
+      "language": "typescript",
+      "sizeLines": 6,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/src/lib/council.ts",
+      "language": "typescript",
+      "sizeLines": 340,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/src/lib/credits.ts",
+      "language": "typescript",
+      "sizeLines": 213,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/src/lib/dataLayer.ts",
+      "language": "typescript",
+      "sizeLines": 146,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/src/lib/db.ts",
+      "language": "typescript",
+      "sizeLines": 170,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/src/lib/forecast.ts",
+      "language": "typescript",
+      "sizeLines": 77,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/src/lib/market.ts",
+      "language": "typescript",
+      "sizeLines": 178,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/src/lib/mc.ts",
+      "language": "typescript",
+      "sizeLines": 143,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/src/lib/model.ts",
+      "language": "typescript",
+      "sizeLines": 162,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/src/lib/owner.ts",
+      "language": "typescript",
+      "sizeLines": 80,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/src/lib/research.ts",
+      "language": "typescript",
+      "sizeLines": 106,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/src/lib/security.ts",
+      "language": "typescript",
+      "sizeLines": 49,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/src/lib/stripe.ts",
+      "language": "typescript",
+      "sizeLines": 58,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/tsconfig.json",
+      "language": "json",
+      "sizeLines": 27,
+      "fileCategory": "config"
+    },
+    {
+      "path": "chat/wrangler.jsonc",
+      "language": "jsonc",
+      "sizeLines": 29,
+      "fileCategory": "config"
+    },
+    {
+      "path": "CLOUD_COSTS.md",
+      "language": "markdown",
+      "sizeLines": 65,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "cockpit/app/globals.css",
+      "language": "css",
+      "sizeLines": 129,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "cockpit/app/layout.tsx",
+      "language": "typescript",
+      "sizeLines": 35,
+      "fileCategory": "code"
+    },
+    {
+      "path": "cockpit/app/page.tsx",
+      "language": "typescript",
+      "sizeLines": 1633,
+      "fileCategory": "code"
+    },
+    {
+      "path": "cockpit/components.json",
+      "language": "json",
+      "sizeLines": 25,
+      "fileCategory": "config"
+    },
+    {
+      "path": "cockpit/components/bet-card.tsx",
+      "language": "typescript",
+      "sizeLines": 141,
+      "fileCategory": "code"
+    },
+    {
+      "path": "cockpit/components/calibration-chart.tsx",
+      "language": "typescript",
+      "sizeLines": 57,
+      "fileCategory": "code"
+    },
+    {
+      "path": "cockpit/components/consensus-gate.tsx",
+      "language": "typescript",
+      "sizeLines": 157,
+      "fileCategory": "code"
+    },
+    {
+      "path": "cockpit/components/cross-domain-map.tsx",
+      "language": "typescript",
+      "sizeLines": 101,
+      "fileCategory": "code"
+    },
+    {
+      "path": "cockpit/components/data-health.tsx",
+      "language": "typescript",
+      "sizeLines": 119,
+      "fileCategory": "code"
+    },
+    {
+      "path": "cockpit/components/entity-spine.tsx",
+      "language": "typescript",
+      "sizeLines": 166,
+      "fileCategory": "code"
+    },
+    {
+      "path": "cockpit/components/hypothesis-engine.tsx",
+      "language": "typescript",
+      "sizeLines": 157,
+      "fileCategory": "code"
+    },
+    {
+      "path": "cockpit/components/retro-benchmark.tsx",
+      "language": "typescript",
+      "sizeLines": 216,
+      "fileCategory": "code"
+    },
+    {
+      "path": "cockpit/components/supply-graph.tsx",
+      "language": "typescript",
+      "sizeLines": 209,
+      "fileCategory": "code"
+    },
+    {
+      "path": "cockpit/components/ui/badge.tsx",
+      "language": "typescript",
+      "sizeLines": 52,
+      "fileCategory": "code"
+    },
+    {
+      "path": "cockpit/components/ui/button.tsx",
+      "language": "typescript",
+      "sizeLines": 58,
+      "fileCategory": "code"
+    },
+    {
+      "path": "cockpit/components/ui/card.tsx",
+      "language": "typescript",
+      "sizeLines": 103,
+      "fileCategory": "code"
+    },
+    {
+      "path": "cockpit/components/ui/dialog.tsx",
+      "language": "typescript",
+      "sizeLines": 160,
+      "fileCategory": "code"
+    },
+    {
+      "path": "cockpit/components/ui/progress.tsx",
+      "language": "typescript",
+      "sizeLines": 83,
+      "fileCategory": "code"
+    },
+    {
+      "path": "cockpit/components/ui/sonner.tsx",
+      "language": "typescript",
+      "sizeLines": 49,
+      "fileCategory": "code"
+    },
+    {
+      "path": "cockpit/components/ui/table.tsx",
+      "language": "typescript",
+      "sizeLines": 116,
+      "fileCategory": "code"
+    },
+    {
+      "path": "cockpit/components/ui/tabs.tsx",
+      "language": "typescript",
+      "sizeLines": 82,
+      "fileCategory": "code"
+    },
+    {
+      "path": "cockpit/components/universe-benchmark.tsx",
+      "language": "typescript",
+      "sizeLines": 158,
+      "fileCategory": "code"
+    },
+    {
+      "path": "cockpit/eslint.config.mjs",
+      "language": "javascript",
+      "sizeLines": 18,
+      "fileCategory": "code"
+    },
+    {
+      "path": "cockpit/lib/db.ts",
+      "language": "typescript",
+      "sizeLines": 1148,
+      "fileCategory": "code"
+    },
+    {
+      "path": "cockpit/lib/utils.ts",
+      "language": "typescript",
+      "sizeLines": 6,
+      "fileCategory": "code"
+    },
+    {
+      "path": "cockpit/next.config.ts",
+      "language": "typescript",
+      "sizeLines": 7,
+      "fileCategory": "code"
+    },
+    {
+      "path": "cockpit/package.json",
+      "language": "json",
+      "sizeLines": 41,
+      "fileCategory": "config"
+    },
+    {
+      "path": "cockpit/pnpm-workspace.yaml",
+      "language": "yaml",
+      "sizeLines": 3,
+      "fileCategory": "config"
+    },
+    {
+      "path": "cockpit/postcss.config.mjs",
+      "language": "javascript",
+      "sizeLines": 7,
+      "fileCategory": "code"
+    },
+    {
+      "path": "cockpit/README.md",
+      "language": "markdown",
+      "sizeLines": 36,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "cockpit/tsconfig.json",
+      "language": "json",
+      "sizeLines": 34,
+      "fileCategory": "config"
+    },
+    {
+      "path": "CONSTITUTION.md",
+      "language": "markdown",
+      "sizeLines": 40,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "content/after-ai-2026-06-17.md",
+      "language": "markdown",
+      "sizeLines": 73,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "content/posts-2026-06-19.md",
+      "language": "markdown",
+      "sizeLines": 188,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "DATA_LAYER_PLAN.md",
+      "language": "markdown",
+      "sizeLines": 268,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "dataset_sample_200.jsonl",
+      "language": "jsonl",
+      "sizeLines": 200,
+      "fileCategory": "code"
+    },
+    {
+      "path": "doctrine.md",
+      "language": "markdown",
+      "sizeLines": 345,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "EDGE_DATASET_PLAN.md",
+      "language": "markdown",
+      "sizeLines": 140,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "engine/__init__.py",
+      "language": "python",
+      "sizeLines": 7,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/adapters/__init__.py",
+      "language": "python",
+      "sizeLines": 6,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/adapters/_vendor/__init__.py",
+      "language": "python",
+      "sizeLines": 7,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/adapters/_vendor/deepinfra_keyless.py",
+      "language": "python",
+      "sizeLines": 95,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/adapters/_vendor/exa_search.py",
+      "language": "python",
+      "sizeLines": 153,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/adapters/answer.py",
+      "language": "python",
+      "sizeLines": 244,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/adapters/extract.py",
+      "language": "python",
+      "sizeLines": 123,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/adapters/html_to_markdown.py",
+      "language": "python",
+      "sizeLines": 41,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/adapters/llm.py",
+      "language": "python",
+      "sizeLines": 292,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/adapters/pdf_to_text.py",
+      "language": "python",
+      "sizeLines": 42,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/adapters/proxy.py",
+      "language": "python",
+      "sizeLines": 105,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/adapters/search.py",
+      "language": "python",
+      "sizeLines": 103,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/adapters/smoke.py",
+      "language": "python",
+      "sizeLines": 93,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/backtest.py",
+      "language": "python",
+      "sizeLines": 373,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/bet.py",
+      "language": "python",
+      "sizeLines": 371,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/capture/__init__.py",
+      "language": "python",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/capture/DEPLOY.md",
+      "language": "markdown",
+      "sizeLines": 29,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "engine/capture/engine.py",
+      "language": "python",
+      "sizeLines": 276,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/capture/inbox.py",
+      "language": "python",
+      "sizeLines": 138,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/capture/run.py",
+      "language": "python",
+      "sizeLines": 125,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/capture/schema.py",
+      "language": "python",
+      "sizeLines": 117,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/chat_bridge.py",
+      "language": "python",
+      "sizeLines": 224,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/cli.py",
+      "language": "python",
+      "sizeLines": 2940,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/companies_house_enrich.py",
+      "language": "python",
+      "sizeLines": 426,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/consensus.py",
+      "language": "python",
+      "sizeLines": 691,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/corpus.py",
+      "language": "python",
+      "sizeLines": 108,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/cost.py",
+      "language": "python",
+      "sizeLines": 147,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/coverage_grade.py",
+      "language": "python",
+      "sizeLines": 254,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/data_offload.py",
+      "language": "python",
+      "sizeLines": 361,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/db.py",
+      "language": "python",
+      "sizeLines": 928,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/decisions.py",
+      "language": "python",
+      "sizeLines": 76,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/detector.py",
+      "language": "python",
+      "sizeLines": 318,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/discover.py",
+      "language": "python",
+      "sizeLines": 438,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/disk_guard.py",
+      "language": "python",
+      "sizeLines": 49,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/emergent_scan.py",
+      "language": "python",
+      "sizeLines": 433,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/entity_candidates.py",
+      "language": "python",
+      "sizeLines": 538,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/entity.py",
+      "language": "python",
+      "sizeLines": 331,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/experiment.py",
+      "language": "python",
+      "sizeLines": 427,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/__init__.py",
+      "language": "python",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/adoption_curves.py",
+      "language": "python",
+      "sizeLines": 150,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/athena.py",
+      "language": "python",
+      "sizeLines": 93,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/australia_epbc_referrals.py",
+      "language": "python",
+      "sizeLines": 193,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/baci.py",
+      "language": "python",
+      "sizeLines": 349,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/biorxiv.py",
+      "language": "python",
+      "sizeLines": 131,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/bis.py",
+      "language": "python",
+      "sizeLines": 178,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/blm_mining_claims.py",
+      "language": "python",
+      "sizeLines": 309,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/capability_curves.py",
+      "language": "python",
+      "sizeLines": 342,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/clinicaltrials.py",
+      "language": "python",
+      "sizeLines": 269,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/collect_all.py",
+      "language": "python",
+      "sizeLines": 376,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/comtrade.py",
+      "language": "python",
+      "sizeLines": 232,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/concept_edge_shift.py",
+      "language": "python",
+      "sizeLines": 189,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/concept_emergence.py",
+      "language": "python",
+      "sizeLines": 206,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/cordis.py",
+      "language": "python",
+      "sizeLines": 589,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/crossref.py",
+      "language": "python",
+      "sizeLines": 142,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/ecb_fx.py",
+      "language": "python",
+      "sizeLines": 137,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/eia.py",
+      "language": "python",
+      "sizeLines": 404,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/ember.py",
+      "language": "python",
+      "sizeLines": 173,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/eonet.py",
+      "language": "python",
+      "sizeLines": 277,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/epoch_ai.py",
+      "language": "python",
+      "sizeLines": 102,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/eu_sanctions.py",
+      "language": "python",
+      "sizeLines": 228,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/europe_pmc.py",
+      "language": "python",
+      "sizeLines": 319,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/eurostat.py",
+      "language": "python",
+      "sizeLines": 272,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/faostat.py",
+      "language": "python",
+      "sizeLines": 195,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/federal_register.py",
+      "language": "python",
+      "sizeLines": 249,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/fred_financial.py",
+      "language": "python",
+      "sizeLines": 177,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/fred.py",
+      "language": "python",
+      "sizeLines": 160,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/gdacs_alerts.py",
+      "language": "python",
+      "sizeLines": 302,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/gdelt.py",
+      "language": "python",
+      "sizeLines": 479,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/global_equities.py",
+      "language": "python",
+      "sizeLines": 256,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/global_policy.py",
+      "language": "python",
+      "sizeLines": 185,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/google_patents.py",
+      "language": "python",
+      "sizeLines": 231,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/ilo.py",
+      "language": "python",
+      "sizeLines": 342,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/imf.py",
+      "language": "python",
+      "sizeLines": 197,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/ingest.py",
+      "language": "python",
+      "sizeLines": 859,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/land_matrix.py",
+      "language": "python",
+      "sizeLines": 219,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/land_ownership.py",
+      "language": "python",
+      "sizeLines": 618,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/land_permit_sources.py",
+      "language": "python",
+      "sizeLines": 265,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/land_permits_canada_iaac.py",
+      "language": "python",
+      "sizeLines": 238,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/lbnl_queue.py",
+      "language": "python",
+      "sizeLines": 692,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/lbnl.py",
+      "language": "python",
+      "sizeLines": 72,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/metaculus.py",
+      "language": "python",
+      "sizeLines": 310,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/mining_rights_global.py",
+      "language": "python",
+      "sizeLines": 259,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/miningterminal_permits.py",
+      "language": "python",
+      "sizeLines": 624,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/nasa_gistemp.py",
+      "language": "python",
+      "sizeLines": 147,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/nih_reporter.py",
+      "language": "python",
+      "sizeLines": 145,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/noaa_climate_indices.py",
+      "language": "python",
+      "sizeLines": 128,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/noaa_enso.py",
+      "language": "python",
+      "sizeLines": 144,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/noaa_gml_greenhouse_gases.py",
+      "language": "python",
+      "sizeLines": 182,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/noaa_nsidc_sea_ice.py",
+      "language": "python",
+      "sizeLines": 144,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/noaa_swpc_solar.py",
+      "language": "python",
+      "sizeLines": 296,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/nsf_awards.py",
+      "language": "python",
+      "sizeLines": 181,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/oecd.py",
+      "language": "python",
+      "sizeLines": 209,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/ofac_sdn.py",
+      "language": "python",
+      "sizeLines": 356,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/openalex_load.py",
+      "language": "python",
+      "sizeLines": 402,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/openalex_snapshot.py",
+      "language": "python",
+      "sizeLines": 147,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/openalex.py",
+      "language": "python",
+      "sizeLines": 164,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/openfda_drugsfda.py",
+      "language": "python",
+      "sizeLines": 291,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/owid.py",
+      "language": "python",
+      "sizeLines": 205,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/patentsview.py",
+      "language": "python",
+      "sizeLines": 186,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/polymarket.py",
+      "language": "python",
+      "sizeLines": 232,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/pubmed.py",
+      "language": "python",
+      "sizeLines": 130,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/relianceonscience.py",
+      "language": "python",
+      "sizeLines": 163,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/resourcecontracts.py",
+      "language": "python",
+      "sizeLines": 263,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/sec_edgar.py",
+      "language": "python",
+      "sizeLines": 189,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/semantic_scholar.py",
+      "language": "python",
+      "sizeLines": 184,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/supply_elasticity.py",
+      "language": "python",
+      "sizeLines": 273,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/tech_adoption.py",
+      "language": "python",
+      "sizeLines": 271,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/ucdp.py",
+      "language": "python",
+      "sizeLines": 169,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/un_comtrade.py",
+      "language": "python",
+      "sizeLines": 139,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/us_permitting_dashboard.py",
+      "language": "python",
+      "sizeLines": 278,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/usaspending_sam.py",
+      "language": "python",
+      "sizeLines": 316,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/usgs_earthquakes.py",
+      "language": "python",
+      "sizeLines": 203,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/usgs_historical.py",
+      "language": "python",
+      "sizeLines": 550,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/usgs_minerals.py",
+      "language": "python",
+      "sizeLines": 435,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/vdem.py",
+      "language": "python",
+      "sizeLines": 171,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/wikipedia.py",
+      "language": "python",
+      "sizeLines": 148,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/world_bank.py",
+      "language": "python",
+      "sizeLines": 340,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/worldbank_capital.py",
+      "language": "python",
+      "sizeLines": 144,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/feeds/worldbank_wgi.py",
+      "language": "python",
+      "sizeLines": 185,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/forecast.py",
+      "language": "python",
+      "sizeLines": 2154,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/forecastbench/__init__.py",
+      "language": "python",
+      "sizeLines": 14,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/forecastbench/assemble.py",
+      "language": "python",
+      "sizeLines": 192,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/forecastbench/backtest_all.py",
+      "language": "python",
+      "sizeLines": 58,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/forecastbench/bench.py",
+      "language": "python",
+      "sizeLines": 133,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/forecastbench/calib.py",
+      "language": "python",
+      "sizeLines": 152,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/forecastbench/check_submission.py",
+      "language": "python",
+      "sizeLines": 197,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/forecastbench/concept_gate.py",
+      "language": "python",
+      "sizeLines": 152,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/forecastbench/corpus.py",
+      "language": "python",
+      "sizeLines": 116,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/forecastbench/crowd.py",
+      "language": "python",
+      "sizeLines": 189,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/forecastbench/curate.py",
+      "language": "python",
+      "sizeLines": 210,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/forecastbench/dataset_diag.py",
+      "language": "python",
+      "sizeLines": 73,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/forecastbench/dataset.py",
+      "language": "python",
+      "sizeLines": 655,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/forecastbench/distill.py",
+      "language": "python",
+      "sizeLines": 127,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/forecastbench/diversify.py",
+      "language": "python",
+      "sizeLines": 150,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/forecastbench/domains.py",
+      "language": "python",
+      "sizeLines": 56,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/forecastbench/edge_dataset.py",
+      "language": "python",
+      "sizeLines": 354,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/forecastbench/edge_gate_stat.py",
+      "language": "python",
+      "sizeLines": 142,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/forecastbench/edge_gate.py",
+      "language": "python",
+      "sizeLines": 145,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/forecastbench/ensemble.py",
+      "language": "python",
+      "sizeLines": 234,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/forecastbench/gap_claude.py",
+      "language": "python",
+      "sizeLines": 142,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/forecastbench/harvest.py",
+      "language": "python",
+      "sizeLines": 288,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/forecastbench/inference.py",
+      "language": "python",
+      "sizeLines": 512,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/forecastbench/kalshibench.py",
+      "language": "python",
+      "sizeLines": 372,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/forecastbench/llm_fill.py",
+      "language": "python",
+      "sizeLines": 110,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/forecastbench/market.py",
+      "language": "python",
+      "sizeLines": 72,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/forecastbench/opus_blend.py",
+      "language": "python",
+      "sizeLines": 270,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/forecastbench/opus_forecaster.py",
+      "language": "python",
+      "sizeLines": 243,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/forecastbench/residual.py",
+      "language": "python",
+      "sizeLines": 226,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/forecastbench/score.py",
+      "language": "python",
+      "sizeLines": 153,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/forecastbench/sequential.py",
+      "language": "python",
+      "sizeLines": 276,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/forecastbench/structural_gate.py",
+      "language": "python",
+      "sizeLines": 144,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/forecastbench/SUBMIT.md",
+      "language": "markdown",
+      "sizeLines": 106,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "engine/forecastbench/submit.py",
+      "language": "python",
+      "sizeLines": 388,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/forecastbench/timesfm_eval.py",
+      "language": "python",
+      "sizeLines": 185,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/forecastbench/timesfm_model.py",
+      "language": "python",
+      "sizeLines": 183,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/forecastbench/traces.py",
+      "language": "python",
+      "sizeLines": 196,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/forecastbench/trainset.py",
+      "language": "python",
+      "sizeLines": 353,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/forecastbench/validate.py",
+      "language": "python",
+      "sizeLines": 44,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/forecasting/__init__.py",
+      "language": "python",
+      "sizeLines": 7,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/forecasting/calibration.py",
+      "language": "python",
+      "sizeLines": 61,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/forecasting/eval_anchor_gate.py",
+      "language": "python",
+      "sizeLines": 149,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/forecasting/ledger.py",
+      "language": "python",
+      "sizeLines": 87,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/gdelt_collect.py",
+      "language": "python",
+      "sizeLines": 391,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/gleif_enrich.py",
+      "language": "python",
+      "sizeLines": 411,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/global_equities_collect.py",
+      "language": "python",
+      "sizeLines": 534,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/graph.py",
+      "language": "python",
+      "sizeLines": 983,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/ground.py",
+      "language": "python",
+      "sizeLines": 104,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/holdout.py",
+      "language": "python",
+      "sizeLines": 373,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/hypothesis.py",
+      "language": "python",
+      "sizeLines": 529,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/indicators.py",
+      "language": "python",
+      "sizeLines": 208,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/ladder.py",
+      "language": "python",
+      "sizeLines": 332,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/locator.py",
+      "language": "python",
+      "sizeLines": 239,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/market.py",
+      "language": "python",
+      "sizeLines": 156,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/metaculus/__init__.py",
+      "language": "python",
+      "sizeLines": 9,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/metaculus/api.py",
+      "language": "python",
+      "sizeLines": 163,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/metaculus/calibrate.py",
+      "language": "python",
+      "sizeLines": 490,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/metaculus/deep_research.py",
+      "language": "python",
+      "sizeLines": 147,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/metaculus/fleet.py",
+      "language": "python",
+      "sizeLines": 297,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/metaculus/forecast.py",
+      "language": "python",
+      "sizeLines": 340,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/metaculus/human_api.py",
+      "language": "python",
+      "sizeLines": 87,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/metaculus/markets.py",
+      "language": "python",
+      "sizeLines": 191,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/metaculus/numeric_forecast.py",
+      "language": "python",
+      "sizeLines": 284,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/metaculus/numeric.py",
+      "language": "python",
+      "sizeLines": 148,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/metaculus/qbank.py",
+      "language": "python",
+      "sizeLines": 156,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/metaculus/research.py",
+      "language": "python",
+      "sizeLines": 99,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/metaculus/run.py",
+      "language": "python",
+      "sizeLines": 129,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/metaculus/SUBMIT.md",
+      "language": "markdown",
+      "sizeLines": 57,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "engine/pillars/__init__.py",
+      "language": "python",
+      "sizeLines": 5,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/pillars/capability.py",
+      "language": "python",
+      "sizeLines": 175,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/pillars/capital.py",
+      "language": "python",
+      "sizeLines": 384,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/pillars/demand.py",
+      "language": "python",
+      "sizeLines": 113,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/pillars/dependency.py",
+      "language": "python",
+      "sizeLines": 263,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/pillars/forces.py",
+      "language": "python",
+      "sizeLines": 645,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/pillars/frontier.py",
+      "language": "python",
+      "sizeLines": 1001,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/pillars/metals.py",
+      "language": "python",
+      "sizeLines": 142,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/pillars/policy.py",
+      "language": "python",
+      "sizeLines": 118,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/pillars/power.py",
+      "language": "python",
+      "sizeLines": 260,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/pillars/research.py",
+      "language": "python",
+      "sizeLines": 731,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/pillars/slow.py",
+      "language": "python",
+      "sizeLines": 308,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/pope/__init__.py",
+      "language": "python",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/pope/capture_render.py",
+      "language": "python",
+      "sizeLines": 299,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/pope/charts.py",
+      "language": "python",
+      "sizeLines": 185,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/pope/mega_deepseek.py",
+      "language": "python",
+      "sizeLines": 330,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/pope/publish_site.py",
+      "language": "python",
+      "sizeLines": 138,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/pope/README.md",
+      "language": "markdown",
+      "sizeLines": 174,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "engine/pope/render.py",
+      "language": "python",
+      "sizeLines": 410,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/pope/ultra.py",
+      "language": "python",
+      "sizeLines": 809,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/prophet/__init__.py",
+      "language": "python",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/prophet/agent.py",
+      "language": "python",
+      "sizeLines": 126,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/prophet/anchor.py",
+      "language": "python",
+      "sizeLines": 133,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/prophet/backtest.py",
+      "language": "python",
+      "sizeLines": 95,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/prophet/kalshi.py",
+      "language": "python",
+      "sizeLines": 204,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/prophet/modal_app.py",
+      "language": "python",
+      "sizeLines": 56,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/prophet/openai_api.py",
+      "language": "python",
+      "sizeLines": 101,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/prophet/server.py",
+      "language": "python",
+      "sizeLines": 106,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/quality.py",
+      "language": "python",
+      "sizeLines": 424,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/raw_provenance.py",
+      "language": "python",
+      "sizeLines": 388,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/rawstore.py",
+      "language": "python",
+      "sizeLines": 250,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/render_emergence.py",
+      "language": "python",
+      "sizeLines": 159,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/research_papers.py",
+      "language": "python",
+      "sizeLines": 359,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/retro.py",
+      "language": "python",
+      "sizeLines": 649,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/saturation.py",
+      "language": "python",
+      "sizeLines": 267,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/schemas.py",
+      "language": "python",
+      "sizeLines": 899,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/sec_bulk_collect.py",
+      "language": "python",
+      "sizeLines": 411,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/sec_company_enrich.py",
+      "language": "python",
+      "sizeLines": 276,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/seed.py",
+      "language": "python",
+      "sizeLines": 44,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/sharpen.py",
+      "language": "python",
+      "sizeLines": 122,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/signals.py",
+      "language": "python",
+      "sizeLines": 547,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/significance.py",
+      "language": "python",
+      "sizeLines": 355,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/store.py",
+      "language": "python",
+      "sizeLines": 145,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/test_signals.py",
+      "language": "python",
+      "sizeLines": 82,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/universe.py",
+      "language": "python",
+      "sizeLines": 522,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/wikidata_enrich.py",
+      "language": "python",
+      "sizeLines": 503,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/world_catalog.py",
+      "language": "python",
+      "sizeLines": 6130,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/world_extractor.py",
+      "language": "python",
+      "sizeLines": 113,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/world_graph_deepseek.py",
+      "language": "python",
+      "sizeLines": 501,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/world_graph.py",
+      "language": "python",
+      "sizeLines": 770,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/world_seed.py",
+      "language": "python",
+      "sizeLines": 259,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/world_state.py",
+      "language": "python",
+      "sizeLines": 3409,
+      "fileCategory": "code"
+    },
+    {
+      "path": "experiments/forward_calls_seal.sha256",
+      "language": "sha256",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "experiments/protocol_locator.yaml",
+      "language": "yaml",
+      "sizeLines": 67,
+      "fileCategory": "config"
+    },
+    {
+      "path": "experiments/protocol_structbench.yaml",
+      "language": "yaml",
+      "sizeLines": 42,
+      "fileCategory": "config"
+    },
+    {
+      "path": "experiments/protocol_v1.yaml",
+      "language": "yaml",
+      "sizeLines": 72,
+      "fileCategory": "config"
+    },
+    {
+      "path": "experiments/protocol_v2.yaml",
+      "language": "yaml",
+      "sizeLines": 56,
+      "fileCategory": "config"
+    },
+    {
+      "path": "experiments/REGISTRY.md",
+      "language": "markdown",
+      "sizeLines": 69,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "experiments/timesfm_dataset_eval.md",
+      "language": "markdown",
+      "sizeLines": 37,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "FORECAST_LLM.md",
+      "language": "markdown",
+      "sizeLines": 453,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "FORECAST_SYSTEM_CONTROL_PLANE.md",
+      "language": "markdown",
+      "sizeLines": 39,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "FUTURE_MAP.md",
+      "language": "markdown",
+      "sizeLines": 490,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "humanizer-context.md",
+      "language": "markdown",
+      "sizeLines": 52,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "landing/app/globals.css",
+      "language": "css",
+      "sizeLines": 214,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "landing/app/layout.tsx",
+      "language": "typescript",
+      "sizeLines": 57,
+      "fileCategory": "code"
+    },
+    {
+      "path": "landing/app/page.tsx",
+      "language": "typescript",
+      "sizeLines": 407,
+      "fileCategory": "code"
+    },
+    {
+      "path": "landing/components/Counter.tsx",
+      "language": "typescript",
+      "sizeLines": 63,
+      "fileCategory": "code"
+    },
+    {
+      "path": "landing/components/ExamplePredictions.tsx",
+      "language": "typescript",
+      "sizeLines": 137,
+      "fileCategory": "code"
+    },
+    {
+      "path": "landing/components/Header.tsx",
+      "language": "typescript",
+      "sizeLines": 82,
+      "fileCategory": "code"
+    },
+    {
+      "path": "landing/components/HeroVisual.tsx",
+      "language": "typescript",
+      "sizeLines": 106,
+      "fileCategory": "code"
+    },
+    {
+      "path": "landing/components/Reveal.tsx",
+      "language": "typescript",
+      "sizeLines": 70,
+      "fileCategory": "code"
+    },
+    {
+      "path": "landing/components/StageBand.tsx",
+      "language": "typescript",
+      "sizeLines": 57,
+      "fileCategory": "code"
+    },
+    {
+      "path": "landing/docs/research/assets.json",
+      "language": "json",
+      "sizeLines": 110,
+      "fileCategory": "config"
+    },
+    {
+      "path": "landing/docs/research/DESIGN_SPEC.md",
+      "language": "markdown",
+      "sizeLines": 61,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "landing/docs/research/sections.json",
+      "language": "json",
+      "sizeLines": 354,
+      "fileCategory": "config"
+    },
+    {
+      "path": "landing/docs/research/tokens.json",
+      "language": "json",
+      "sizeLines": 142,
+      "fileCategory": "config"
+    },
+    {
+      "path": "landing/docs/research/topology.json",
+      "language": "json",
+      "sizeLines": 12,
+      "fileCategory": "config"
+    },
+    {
+      "path": "landing/docs/research/ui.json",
+      "language": "json",
+      "sizeLines": 115,
+      "fileCategory": "config"
+    },
+    {
+      "path": "landing/next-env.d.ts",
+      "language": "typescript",
+      "sizeLines": 6,
+      "fileCategory": "code"
+    },
+    {
+      "path": "landing/next.config.ts",
+      "language": "typescript",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "landing/package.json",
+      "language": "json",
+      "sizeLines": 24,
+      "fileCategory": "config"
+    },
+    {
+      "path": "landing/postcss.config.mjs",
+      "language": "javascript",
+      "sizeLines": 7,
+      "fileCategory": "code"
+    },
+    {
+      "path": "landing/scripts/extract2.mjs",
+      "language": "javascript",
+      "sizeLines": 64,
+      "fileCategory": "code"
+    },
+    {
+      "path": "landing/scripts/recon.mjs",
+      "language": "javascript",
+      "sizeLines": 106,
+      "fileCategory": "code"
+    },
+    {
+      "path": "landing/tsconfig.json",
+      "language": "json",
+      "sizeLines": 27,
+      "fileCategory": "config"
+    },
+    {
+      "path": "landing/tsconfig.tsbuildinfo",
+      "language": "tsbuildinfo",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "LEADERSHIP_AND_SUPERFORECASTING.md",
+      "language": "markdown",
+      "sizeLines": 91,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "NEGATIVE_RESULT_FINETUNE.md",
+      "language": "markdown",
+      "sizeLines": 88,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "newbenchmarksplan.md",
+      "language": "markdown",
+      "sizeLines": 43,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "OPS.md",
+      "language": "markdown",
+      "sizeLines": 39,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "OVERNIGHT_BRIEFING.md",
+      "language": "markdown",
+      "sizeLines": 47,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "paper_beyond_brier/beyond_brier_zemani.md",
+      "language": "markdown",
+      "sizeLines": 205,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "paper_beyond_brier/beyond_brier_zemani.tex",
+      "language": "tex",
+      "sizeLines": 266,
+      "fileCategory": "code"
+    },
+    {
+      "path": "paper_beyond_brier/beyond_brier.md",
+      "language": "markdown",
+      "sizeLines": 205,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "paper_beyond_brier/beyond_brier.tex",
+      "language": "tex",
+      "sizeLines": 266,
+      "fileCategory": "code"
+    },
+    {
+      "path": "paper_beyond_brier/compute_edge.py",
+      "language": "python",
+      "sizeLines": 579,
+      "fileCategory": "code"
+    },
+    {
+      "path": "paper_beyond_brier/eps_sens.py",
+      "language": "python",
+      "sizeLines": 65,
+      "fileCategory": "code"
+    },
+    {
+      "path": "paper_beyond_brier/forecast_sets/2024-07-21/human_public.json",
+      "language": "json",
+      "sizeLines": 429118,
+      "fileCategory": "config"
+    },
+    {
+      "path": "paper_beyond_brier/forecast_sets/2024-07-21/human_super.json",
+      "language": "json",
+      "sizeLines": 93733,
+      "fileCategory": "config"
+    },
+    {
+      "path": "paper_beyond_brier/llm_edge.py",
+      "language": "python",
+      "sizeLines": 333,
+      "fileCategory": "code"
+    },
+    {
+      "path": "paper_beyond_brier/llm_edge2.py",
+      "language": "python",
+      "sizeLines": 280,
+      "fileCategory": "code"
+    },
+    {
+      "path": "paper_beyond_brier/llm_figs.py",
+      "language": "python",
+      "sizeLines": 68,
+      "fileCategory": "code"
+    },
+    {
+      "path": "paper_beyond_brier/matched_question.py",
+      "language": "python",
+      "sizeLines": 115,
+      "fileCategory": "code"
+    },
+    {
+      "path": "paper_beyond_brier/mr_figs.py",
+      "language": "python",
+      "sizeLines": 115,
+      "fileCategory": "code"
+    },
+    {
+      "path": "paper_beyond_brier/multiround_rev.py",
+      "language": "python",
+      "sizeLines": 214,
+      "fileCategory": "code"
+    },
+    {
+      "path": "paper_beyond_brier/multiround.py",
+      "language": "python",
+      "sizeLines": 362,
+      "fileCategory": "code"
+    },
+    {
+      "path": "paper_beyond_brier/oos_debias.py",
+      "language": "python",
+      "sizeLines": 138,
+      "fileCategory": "code"
+    },
+    {
+      "path": "paper_beyond_brier/revise_edge_v3.py",
+      "language": "python",
+      "sizeLines": 377,
+      "fileCategory": "code"
+    },
+    {
+      "path": "paper_beyond_brier/revise_edge.py",
+      "language": "python",
+      "sizeLines": 681,
+      "fileCategory": "code"
+    },
+    {
+      "path": "paper_beyond_brier/tectonic",
+      "language": "unknown",
+      "sizeLines": 217147,
+      "fileCategory": "code"
+    },
+    {
+      "path": "paper_beyond_brier/worked_example.py",
+      "language": "python",
+      "sizeLines": 142,
+      "fileCategory": "code"
+    },
+    {
+      "path": "PATENT_NEEDLES.md",
+      "language": "markdown",
+      "sizeLines": 95,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "plan.md",
+      "language": "markdown",
+      "sizeLines": 73,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "POPE_ULTRA.md",
+      "language": "markdown",
+      "sizeLines": 146,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "proof.md",
+      "language": "markdown",
+      "sizeLines": 172,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "prophet-custom-agent.md",
+      "language": "markdown",
+      "sizeLines": 35,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "pyproject.toml",
+      "language": "toml",
+      "sizeLines": 26,
+      "fileCategory": "config"
+    },
+    {
+      "path": "README.md",
+      "language": "markdown",
+      "sizeLines": 52,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "RESEARCH_PAPERS_OPERATION.md",
+      "language": "markdown",
+      "sizeLines": 128,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "research/closing_roadmap.md",
+      "language": "markdown",
+      "sizeLines": 119,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "research/contacts.md",
+      "language": "markdown",
+      "sizeLines": 46,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "research/MEGA_PLAN.md",
+      "language": "markdown",
+      "sizeLines": 104,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "research/outreach_messages.md",
+      "language": "markdown",
+      "sizeLines": 492,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "research/outreach_operating_plan.md",
+      "language": "markdown",
+      "sizeLines": 89,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "research/OUTREACH_PROMPT.md",
+      "language": "markdown",
+      "sizeLines": 44,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "research/outreach_templates.md",
+      "language": "markdown",
+      "sizeLines": 114,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "research/PEOPLE_MAP.md",
+      "language": "markdown",
+      "sizeLines": 248,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "research/targets/angels_salvage.jsonl",
+      "language": "jsonl",
+      "sizeLines": 31,
+      "fileCategory": "code"
+    },
+    {
+      "path": "research/targets/build_contact_cockpit.py",
+      "language": "python",
+      "sizeLines": 252,
+      "fileCategory": "code"
+    },
+    {
+      "path": "research/targets/build_outreach_assets.py",
+      "language": "python",
+      "sizeLines": 513,
+      "fileCategory": "code"
+    },
+    {
+      "path": "research/targets/build_outreach_panel.py",
+      "language": "python",
+      "sizeLines": 114,
+      "fileCategory": "code"
+    },
+    {
+      "path": "research/targets/contact_cockpit.html",
+      "language": "html",
+      "sizeLines": 179,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "research/targets/contactable_messages.csv",
+      "language": "csv",
+      "sizeLines": 7361,
+      "fileCategory": "data"
+    },
+    {
+      "path": "research/targets/email_campaign_ready_strict.csv",
+      "language": "csv",
+      "sizeLines": 218,
+      "fileCategory": "data"
+    },
+    {
+      "path": "research/targets/email_enrichment_queue.csv",
+      "language": "csv",
+      "sizeLines": 7185,
+      "fileCategory": "data"
+    },
+    {
+      "path": "research/targets/email_ready_messages_enriched.csv",
+      "language": "csv",
+      "sizeLines": 218,
+      "fileCategory": "data"
+    },
+    {
+      "path": "research/targets/email_ready_messages.csv",
+      "language": "csv",
+      "sizeLines": 177,
+      "fileCategory": "data"
+    },
+    {
+      "path": "research/targets/enrich_public_emails.py",
+      "language": "python",
+      "sizeLines": 325,
+      "fileCategory": "code"
+    },
+    {
+      "path": "research/targets/find.py",
+      "language": "python",
+      "sizeLines": 35,
+      "fileCategory": "code"
+    },
+    {
+      "path": "research/targets/harvest_web.jsonl",
+      "language": "jsonl",
+      "sizeLines": 1055,
+      "fileCategory": "code"
+    },
+    {
+      "path": "research/targets/harvest.py",
+      "language": "python",
+      "sizeLines": 191,
+      "fileCategory": "code"
+    },
+    {
+      "path": "research/targets/merge_panel.py",
+      "language": "python",
+      "sizeLines": 201,
+      "fileCategory": "code"
+    },
+    {
+      "path": "research/targets/oa_harvest.py",
+      "language": "python",
+      "sizeLines": 103,
+      "fileCategory": "code"
+    },
+    {
+      "path": "research/targets/outreach_universe_scored.csv",
+      "language": "csv",
+      "sizeLines": 24532,
+      "fileCategory": "data"
+    },
+    {
+      "path": "research/targets/outreach_universe_scored.json",
+      "language": "json",
+      "sizeLines": 108439,
+      "fileCategory": "config"
+    },
+    {
+      "path": "research/targets/public_email_enrichment_top300.csv",
+      "language": "csv",
+      "sizeLines": 2279,
+      "fileCategory": "data"
+    },
+    {
+      "path": "research/targets/researchers_openalex.jsonl",
+      "language": "jsonl",
+      "sizeLines": 2973,
+      "fileCategory": "code"
+    },
+    {
+      "path": "research/targets/targets.json",
+      "language": "json",
+      "sizeLines": 0,
+      "fileCategory": "config"
+    },
+    {
+      "path": "research/targets/top_fit_300_messages.csv",
+      "language": "csv",
+      "sizeLines": 2146,
+      "fileCategory": "data"
+    },
+    {
+      "path": "research/top_fit_300.md",
+      "language": "markdown",
+      "sizeLines": 306,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "research/vaticinus_outreach_scale.md",
+      "language": "markdown",
+      "sizeLines": 94,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "scripts/launch_research_papers_ec2_pilot.sh",
+      "language": "shell",
+      "sizeLines": 130,
+      "fileCategory": "script"
+    },
+    {
+      "path": "scripts/research_papers_ec2_pilot.sh",
+      "language": "shell",
+      "sizeLines": 187,
+      "fileCategory": "script"
+    },
+    {
+      "path": "scripts/run_deepseek_resume_safe.sh",
+      "language": "shell",
+      "sizeLines": 38,
+      "fileCategory": "script"
+    },
+    {
+      "path": "scripts/sync_foresight_to_box.sh",
+      "language": "shell",
+      "sizeLines": 39,
+      "fileCategory": "script"
+    },
+    {
+      "path": "SECURITY_CLOUDFLARE.md",
+      "language": "markdown",
+      "sizeLines": 77,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "site/AGENTS.md",
+      "language": "markdown",
+      "sizeLines": 7,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "site/components.json",
+      "language": "json",
+      "sizeLines": 25,
+      "fileCategory": "config"
+    },
+    {
+      "path": "site/docs/research/asset-manifest.json",
+      "language": "json",
+      "sizeLines": 88,
+      "fileCategory": "config"
+    },
+    {
+      "path": "site/docs/research/BEHAVIORS.md",
+      "language": "markdown",
+      "sizeLines": 47,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "site/docs/research/fonts-and-tokens.json",
+      "language": "json",
+      "sizeLines": 120,
+      "fileCategory": "config"
+    },
+    {
+      "path": "site/docs/research/fragments/about.html",
+      "language": "html",
+      "sizeLines": 0,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "site/docs/research/fragments/contactModal.html",
+      "language": "html",
+      "sizeLines": 34,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "site/docs/research/fragments/footer.html",
+      "language": "html",
+      "sizeLines": 0,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "site/docs/research/fragments/hero.html",
+      "language": "html",
+      "sizeLines": 0,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "site/docs/research/fragments/mission.html",
+      "language": "html",
+      "sizeLines": 57,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "site/docs/research/fragments/nav.html",
+      "language": "html",
+      "sizeLines": 98,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "site/docs/research/fragments/product.html",
+      "language": "html",
+      "sizeLines": 11,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "site/docs/research/fragments/research.html",
+      "language": "html",
+      "sizeLines": 173,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "site/docs/research/fragments/sampleqs.html",
+      "language": "html",
+      "sizeLines": 108,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "site/docs/research/fragments/sampleqsModal.html",
+      "language": "html",
+      "sizeLines": 102,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "site/docs/research/fragments/solutions.html",
+      "language": "html",
+      "sizeLines": 44,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "site/docs/research/fragments/team.html",
+      "language": "html",
+      "sizeLines": 0,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "site/docs/research/fragments/usecases.html",
+      "language": "html",
+      "sizeLines": 204,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "site/docs/research/fragments/videoModal.html",
+      "language": "html",
+      "sizeLines": 27,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "site/docs/research/global-extract.json",
+      "language": "json",
+      "sizeLines": 0,
+      "fileCategory": "config"
+    },
+    {
+      "path": "site/docs/research/mantic.webflow.css",
+      "language": "css",
+      "sizeLines": 10022,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "site/docs/research/PAGE_TOPOLOGY.md",
+      "language": "markdown",
+      "sizeLines": 35,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "site/docs/research/page.html",
+      "language": "html",
+      "sizeLines": 1143,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "site/docs/research/reveals.json",
+      "language": "json",
+      "sizeLines": 221,
+      "fileCategory": "config"
+    },
+    {
+      "path": "site/docs/research/scripts-extracted/inline-1.js",
+      "language": "javascript",
+      "sizeLines": 18,
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/docs/research/scripts-extracted/inline-2.js",
+      "language": "javascript",
+      "sizeLines": 75,
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/docs/research/scripts-extracted/inline-3.js",
+      "language": "javascript",
+      "sizeLines": 69,
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/docs/research/scripts-extracted/inline-4.js",
+      "language": "javascript",
+      "sizeLines": 18,
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/docs/research/scripts-extracted/inline-5.js",
+      "language": "javascript",
+      "sizeLines": 45,
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/docs/research/scripts-extracted/inline-6.js",
+      "language": "javascript",
+      "sizeLines": 17,
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/docs/research/scripts-extracted/inline-7.js",
+      "language": "javascript",
+      "sizeLines": 55,
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/docs/research/scripts-extracted/inline-8.js",
+      "language": "javascript",
+      "sizeLines": 16,
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/docs/research/scripts-extracted/inline-9.js",
+      "language": "javascript",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/eslint.config.mjs",
+      "language": "javascript",
+      "sizeLines": 18,
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/functions/api/_resend.ts",
+      "language": "typescript",
+      "sizeLines": 56,
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/functions/api/contact.ts",
+      "language": "typescript",
+      "sizeLines": 190,
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/next.config.ts",
+      "language": "typescript",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/package.json",
+      "language": "json",
+      "sizeLines": 38,
+      "fileCategory": "config"
+    },
+    {
+      "path": "site/pnpm-workspace.yaml",
+      "language": "yaml",
+      "sizeLines": 6,
+      "fileCategory": "config"
+    },
+    {
+      "path": "site/postcss.config.mjs",
+      "language": "javascript",
+      "sizeLines": 7,
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/public/_headers",
+      "language": "unknown",
+      "sizeLines": 19,
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/public/data/coverage.json",
+      "language": "json",
+      "sizeLines": 283,
+      "fileCategory": "config"
+    },
+    {
+      "path": "site/public/images/6891e0d64bb73bfd5cc7baaa_Scott_Headshot_Web_Use.avif",
+      "language": "avif",
+      "sizeLines": 141,
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/public/images/6891e0d6a4a062c5f241a2ab_Ben_Headshot_1_Web_Use.avif",
+      "language": "avif",
+      "sizeLines": 107,
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/public/images/6891e0d6a56642e6f2f8ca6b_Toby_Headshot_1_Web_Use.avif",
+      "language": "avif",
+      "sizeLines": 128,
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/public/images/6891e0d6cb597a8bb5b6282b_Matthew_Headshot_Web_Use.avif",
+      "language": "avif",
+      "sizeLines": 266,
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/public/images/6891e0d6d63df0d1263223ec_Max_Headshot_Web_Use-2.avif",
+      "language": "avif",
+      "sizeLines": 150,
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/public/images/6891e0d737c1720826f42fbb_Vlad_Headshot_Web_Use.avif",
+      "language": "avif",
+      "sizeLines": 123,
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/public/images/690cb136eef6de79e8f7d34d_vid_cover.avif",
+      "language": "avif",
+      "sizeLines": 236,
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/public/images/699d59d37cc5e6173de5d2a4_sales-nesetril-ex_p4AaBxbs-unsplash.avif",
+      "language": "avif",
+      "sizeLines": 37,
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/public/images/699d60cf9d1d57df8b4b546a_mathias-reding-yfXhqAW5X0c-unsplash.avif",
+      "language": "avif",
+      "sizeLines": 951,
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/public/images/699d619163171055901d98a3_saulo-mohana-wNz7_5EvUWU-unsplash.avif",
+      "language": "avif",
+      "sizeLines": 508,
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/public/images/699ef07119542b1455bffcd5_artin-bakhan-bBHMqG0X2V0-unsplash.avif",
+      "language": "avif",
+      "sizeLines": 785,
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/public/images/699ef0e453fde1937e5d4c44_y-s-LGx9C3nSo5I-unsplash.avif",
+      "language": "avif",
+      "sizeLines": 973,
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/public/images/69bd270c21763d0d24bb6982_Frame_2134281086.avif",
+      "language": "avif",
+      "sizeLines": 37,
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/public/images/69bd270c7e3d256219e55594_Frame_2134281085.avif",
+      "language": "avif",
+      "sizeLines": 25,
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/public/images/69bd270d6234e12377bc9231_Frame_2134281084.avif",
+      "language": "avif",
+      "sizeLines": 84,
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/public/llms.txt",
+      "language": "txt",
+      "sizeLines": 26,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "site/public/rive/foresight.riv",
+      "language": "riv",
+      "sizeLines": 728,
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/public/rive/rive.js",
+      "language": "javascript",
+      "sizeLines": 8869,
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/public/rive/rive.wasm",
+      "language": "wasm",
+      "sizeLines": 11272,
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/README.md",
+      "language": "markdown",
+      "sizeLines": 36,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "site/scripts/build-foundation.mjs",
+      "language": "javascript",
+      "sizeLines": 39,
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/scripts/download-assets.mjs",
+      "language": "javascript",
+      "sizeLines": 64,
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/scripts/extract-deep.mjs",
+      "language": "javascript",
+      "sizeLines": 75,
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/scripts/extract-fragments.mjs",
+      "language": "javascript",
+      "sizeLines": 65,
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/scripts/extract-reveals.mjs",
+      "language": "javascript",
+      "sizeLines": 73,
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/scripts/interaction-test.mjs",
+      "language": "javascript",
+      "sizeLines": 31,
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/scripts/qa-shot.mjs",
+      "language": "javascript",
+      "sizeLines": 21,
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/scripts/rebrand.py",
+      "language": "python",
+      "sizeLines": 111,
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/scripts/recon.mjs",
+      "language": "javascript",
+      "sizeLines": 79,
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/scripts/section-shots.mjs",
+      "language": "javascript",
+      "sizeLines": 51,
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/src/app/admin/page.tsx",
+      "language": "typescript",
+      "sizeLines": 473,
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/src/app/data/page.tsx",
+      "language": "typescript",
+      "sizeLines": 247,
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/src/app/forecasts/ai-campus-power-claims/page.tsx",
+      "language": "typescript",
+      "sizeLines": 402,
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/src/app/forecasts/page.tsx",
+      "language": "typescript",
+      "sizeLines": 380,
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/src/app/globals.css",
+      "language": "css",
+      "sizeLines": 1640,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "site/src/app/layout.tsx",
+      "language": "typescript",
+      "sizeLines": 95,
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/src/app/page.tsx",
+      "language": "typescript",
+      "sizeLines": 27,
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/src/app/privacy-policy/page.tsx",
+      "language": "typescript",
+      "sizeLines": 87,
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/src/app/robots.ts",
+      "language": "typescript",
+      "sizeLines": 43,
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/src/app/sitemap.ts",
+      "language": "typescript",
+      "sizeLines": 43,
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/src/app/terms-of-service/page.tsx",
+      "language": "typescript",
+      "sizeLines": 79,
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/src/components/ui/button.tsx",
+      "language": "typescript",
+      "sizeLines": 58,
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/src/content/posts.json",
+      "language": "json",
+      "sizeLines": 116,
+      "fileCategory": "config"
+    },
+    {
+      "path": "site/src/lib/utils.ts",
+      "language": "typescript",
+      "sizeLines": 6,
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/src/sections/fragments/about.html",
+      "language": "html",
+      "sizeLines": 1,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "site/src/sections/fragments/contactModal.html",
+      "language": "html",
+      "sizeLines": 22,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "site/src/sections/fragments/engage.html",
+      "language": "html",
+      "sizeLines": 33,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "site/src/sections/fragments/footer.html",
+      "language": "html",
+      "sizeLines": 1,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "site/src/sections/fragments/forecasts.html",
+      "language": "html",
+      "sizeLines": 80,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "site/src/sections/fragments/hero.html",
+      "language": "html",
+      "sizeLines": 24,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "site/src/sections/fragments/mission.html",
+      "language": "html",
+      "sizeLines": 57,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "site/src/sections/fragments/nav.html",
+      "language": "html",
+      "sizeLines": 79,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "site/src/sections/fragments/product.html",
+      "language": "html",
+      "sizeLines": 11,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "site/src/sections/fragments/record.html",
+      "language": "html",
+      "sizeLines": 46,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "site/src/sections/fragments/research.html",
+      "language": "html",
+      "sizeLines": 18,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "site/src/sections/fragments/sampleqs.html",
+      "language": "html",
+      "sizeLines": 44,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "site/src/sections/fragments/sampleqsModal.html",
+      "language": "html",
+      "sizeLines": 10,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "site/src/sections/fragments/solutions.html",
+      "language": "html",
+      "sizeLines": 24,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "site/src/sections/fragments/track.html",
+      "language": "html",
+      "sizeLines": 47,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "site/src/sections/fragments/usecases.html",
+      "language": "html",
+      "sizeLines": 157,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "site/src/sections/fragments/videoModal.html",
+      "language": "html",
+      "sizeLines": 9,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "site/src/sections/raw.tsx",
+      "language": "typescript",
+      "sizeLines": 211,
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/src/sections/SiteRuntime.tsx",
+      "language": "typescript",
+      "sizeLines": 655,
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/src/styles/site.webflow.css",
+      "language": "css",
+      "sizeLines": 10025,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "site/tsconfig.json",
+      "language": "json",
+      "sizeLines": 34,
+      "fileCategory": "config"
+    },
+    {
+      "path": "SPEC_EDGE_LEVERS.md",
+      "language": "markdown",
+      "sizeLines": 124,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "tests/test_australia_epbc_referrals.py",
+      "language": "python",
+      "sizeLines": 108,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_blm_mining_claims.py",
+      "language": "python",
+      "sizeLines": 129,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_chat_bridge.py",
+      "language": "python",
+      "sizeLines": 202,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_collect_all.py",
+      "language": "python",
+      "sizeLines": 116,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_data_offload.py",
+      "language": "python",
+      "sizeLines": 179,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_disk_guard.py",
+      "language": "python",
+      "sizeLines": 33,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_europe_pmc.py",
+      "language": "python",
+      "sizeLines": 124,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_feed_safety.py",
+      "language": "python",
+      "sizeLines": 1338,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_forecast_world_state_context.py",
+      "language": "python",
+      "sizeLines": 184,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_forecastbench_dataset.py",
+      "language": "python",
+      "sizeLines": 983,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_forecasting_control_plane.py",
+      "language": "python",
+      "sizeLines": 251,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_land_permit_sources.py",
+      "language": "python",
+      "sizeLines": 64,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_land_permits_canada_iaac.py",
+      "language": "python",
+      "sizeLines": 134,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_miningterminal_permits.py",
+      "language": "python",
+      "sizeLines": 164,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_pope_ultra.py",
+      "language": "python",
+      "sizeLines": 76,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_quality.py",
+      "language": "python",
+      "sizeLines": 326,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_raw_provenance.py",
+      "language": "python",
+      "sizeLines": 228,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_rawstore.py",
+      "language": "python",
+      "sizeLines": 167,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_research_papers_operation.py",
+      "language": "python",
+      "sizeLines": 66,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_resourcecontracts.py",
+      "language": "python",
+      "sizeLines": 134,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_us_permitting_dashboard.py",
+      "language": "python",
+      "sizeLines": 128,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_world_catalog.py",
+      "language": "python",
+      "sizeLines": 2281,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_world_graph_deepseek.py",
+      "language": "python",
+      "sizeLines": 69,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_world_graph.py",
+      "language": "python",
+      "sizeLines": 77,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_world_state.py",
+      "language": "python",
+      "sizeLines": 1676,
+      "fileCategory": "code"
+    },
+    {
+      "path": "training/AWS.md",
+      "language": "markdown",
+      "sizeLines": 116,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "training/common.py",
+      "language": "python",
+      "sizeLines": 81,
+      "fileCategory": "code"
+    },
+    {
+      "path": "training/eval.py",
+      "language": "python",
+      "sizeLines": 179,
+      "fileCategory": "code"
+    },
+    {
+      "path": "training/grpo.py",
+      "language": "python",
+      "sizeLines": 196,
+      "fileCategory": "code"
+    },
+    {
+      "path": "training/launch_big_hunt.sh",
+      "language": "shell",
+      "sizeLines": 94,
+      "fileCategory": "script"
+    },
+    {
+      "path": "training/launch_big.sh",
+      "language": "shell",
+      "sizeLines": 58,
+      "fileCategory": "script"
+    },
+    {
+      "path": "training/launch_mumbai.sh",
+      "language": "shell",
+      "sizeLines": 52,
+      "fileCategory": "script"
+    },
+    {
+      "path": "training/launch_residual.sh",
+      "language": "shell",
+      "sizeLines": 62,
+      "fileCategory": "script"
+    },
+    {
+      "path": "training/launch_resilient.sh",
+      "language": "shell",
+      "sizeLines": 78,
+      "fileCategory": "script"
+    },
+    {
+      "path": "training/launch_signal.sh",
+      "language": "shell",
+      "sizeLines": 40,
+      "fileCategory": "script"
+    },
+    {
+      "path": "training/launch_smoke.sh",
+      "language": "shell",
+      "sizeLines": 42,
+      "fileCategory": "script"
+    },
+    {
+      "path": "training/mlx_convert.py",
+      "language": "python",
+      "sizeLines": 71,
+      "fileCategory": "code"
+    },
+    {
+      "path": "training/mlx_eval.py",
+      "language": "python",
+      "sizeLines": 69,
+      "fileCategory": "code"
+    },
+    {
+      "path": "training/mlx_rewards.py",
+      "language": "python",
+      "sizeLines": 50,
+      "fileCategory": "code"
+    },
+    {
+      "path": "training/MLX.md",
+      "language": "markdown",
+      "sizeLines": 102,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "training/README.md",
+      "language": "markdown",
+      "sizeLines": 55,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "training/requirements-mlx.txt",
+      "language": "txt",
+      "sizeLines": 7,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "training/requirements.txt",
+      "language": "txt",
+      "sizeLines": 12,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "training/residual_eval.py",
+      "language": "python",
+      "sizeLines": 108,
+      "fileCategory": "code"
+    },
+    {
+      "path": "training/RESIDUAL_RECIPE.md",
+      "language": "markdown",
+      "sizeLines": 85,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "training/run_all.sh",
+      "language": "shell",
+      "sizeLines": 53,
+      "fileCategory": "script"
+    },
+    {
+      "path": "training/run_big.sh",
+      "language": "shell",
+      "sizeLines": 116,
+      "fileCategory": "script"
+    },
+    {
+      "path": "training/run_overnight.sh",
+      "language": "shell",
+      "sizeLines": 33,
+      "fileCategory": "script"
+    },
+    {
+      "path": "training/run_residual.sh",
+      "language": "shell",
+      "sizeLines": 83,
+      "fileCategory": "script"
+    },
+    {
+      "path": "training/run_residual2.sh",
+      "language": "shell",
+      "sizeLines": 48,
+      "fileCategory": "script"
+    },
+    {
+      "path": "training/run_residual3.sh",
+      "language": "shell",
+      "sizeLines": 40,
+      "fileCategory": "script"
+    },
+    {
+      "path": "training/run_smoke.sh",
+      "language": "shell",
+      "sizeLines": 38,
+      "fileCategory": "script"
+    },
+    {
+      "path": "training/sft.py",
+      "language": "python",
+      "sizeLines": 98,
+      "fileCategory": "code"
+    },
+    {
+      "path": "training/watch_signal.sh",
+      "language": "shell",
+      "sizeLines": 31,
+      "fileCategory": "script"
+    },
+    {
+      "path": "VATI_WORLD_GRAPH.md",
+      "language": "markdown",
+      "sizeLines": 84,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "VOICE.md",
+      "language": "markdown",
+      "sizeLines": 48,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "WORLD_DATA_PIPELINE.md",
+      "language": "markdown",
+      "sizeLines": 203,
+      "fileCategory": "docs"
+    }
+  ],
+  "totalFiles": 629,
+  "filteredByIgnore": 699,
+  "estimatedComplexity": "very-large",
+  "importMap": {
+    ".claude/commands/futureeval.md": [],
+    ".claude/commands/gate.md": [],
+    ".claude/commands/goal.md": [],
+    ".claude/commands/metaculus.md": [],
+    ".claude/commands/needle.md": [],
+    ".claude/commands/pope.md": [],
+    ".claude/commands/wildcard.md": [],
+    ".claude/commands/world-graph.md": [],
+    ".claude/settings.json": [],
+    ".claude/skills/taste-skill/SKILL.md": [],
+    ".claude/skills/vati-distribute/SKILL.md": [],
+    ".claude/skills/vati-post/formats.md": [],
+    ".claude/skills/vati-post/postpack.py": [],
+    ".claude/skills/vati-post/SKILL.md": [],
+    ".claude/skills/vati-world-graph/agents/openai.yaml": [],
+    ".claude/skills/vati-world-graph/references/deepseek.md": [],
+    ".claude/skills/vati-world-graph/references/ontology.md": [],
+    ".claude/skills/vati-world-graph/SKILL.md": [],
+    ".claude/workflows/forecastbench-judge.js": [],
+    ".claude/workflows/pope-capture.js": [],
+    ".claude/workflows/pope-mega.js": [],
+    ".claude/workflows/pope-pro.js": [],
+    ".claude/workflows/pope.js": [],
+    ".mac_fix_backup/codex-20260618-231003/CodexDockTilePlugin.plugin/Contents/_CodeSignature/CodeResources": [],
+    ".mac_fix_backup/codex-20260618-231003/CodexDockTilePlugin.plugin/Contents/Info.plist": [],
+    ".mac_fix_backup/codex-20260618-231003/CodexDockTilePlugin.plugin/Contents/MacOS/CodexDockTilePlugin": [],
+    ".mac_fix_backup/codex-20260618-231003/launch-services-helper": [],
+    ".understand-anything/.understandignore": [],
+    "AGENTS.md": [],
+    "BRIEFING.md": [],
+    "chat/db/schema.sql": [],
+    "chat/db/seed_forward_calls.mjs": [],
+    "chat/next.config.ts": [],
+    "chat/open-next.config.ts": [],
+    "chat/package.json": [],
+    "chat/postcss.config.mjs": [],
+    "chat/README.md": [],
+    "chat/scripts/test-council.ts": [
+      "chat/src/lib/council.ts"
+    ],
+    "chat/scripts/test-credits.ts": [
+      "chat/src/lib/credits.ts",
+      "chat/src/lib/db.ts"
+    ],
+    "chat/src/app/api/capture/route.ts": [
+      "chat/src/lib/auth.ts",
+      "chat/src/lib/capture.ts",
+      "chat/src/lib/credits.ts",
+      "chat/src/lib/db.ts",
+      "chat/src/lib/security.ts"
+    ],
+    "chat/src/app/api/chat/route.ts": [
+      "chat/src/lib/auth.ts",
+      "chat/src/lib/db.ts",
+      "chat/src/lib/model.ts",
+      "chat/src/lib/security.ts"
+    ],
+    "chat/src/app/api/checkout/route.ts": [
+      "chat/src/lib/auth.ts",
+      "chat/src/lib/security.ts",
+      "chat/src/lib/stripe.ts"
+    ],
+    "chat/src/app/api/conversations/route.ts": [
+      "chat/src/lib/auth.ts",
+      "chat/src/lib/db.ts"
+    ],
+    "chat/src/app/api/council/route.ts": [
+      "chat/src/lib/auth.ts",
+      "chat/src/lib/council.ts",
+      "chat/src/lib/credits.ts",
+      "chat/src/lib/db.ts",
+      "chat/src/lib/security.ts"
+    ],
+    "chat/src/app/api/credits/route.ts": [
+      "chat/src/lib/auth.ts",
+      "chat/src/lib/credits.ts",
+      "chat/src/lib/owner.ts"
+    ],
+    "chat/src/app/api/forecast/route.ts": [
+      "chat/src/lib/auth.ts",
+      "chat/src/lib/db.ts",
+      "chat/src/lib/mc.ts",
+      "chat/src/lib/security.ts"
+    ],
+    "chat/src/app/api/messages/route.ts": [
+      "chat/src/lib/auth.ts",
+      "chat/src/lib/db.ts",
+      "chat/src/lib/security.ts"
+    ],
+    "chat/src/app/api/portal/route.ts": [
+      "chat/src/lib/auth.ts",
+      "chat/src/lib/credits.ts",
+      "chat/src/lib/security.ts",
+      "chat/src/lib/stripe.ts"
+    ],
+    "chat/src/app/api/record/route.ts": [
+      "chat/src/lib/db.ts"
+    ],
+    "chat/src/app/api/stripe/webhook/route.ts": [
+      "chat/src/lib/credits.ts",
+      "chat/src/lib/stripe.ts"
+    ],
+    "chat/src/app/globals.css": [],
+    "chat/src/app/layout.tsx": [
+      "chat/src/app/globals.css"
+    ],
+    "chat/src/app/page.tsx": [
+      "chat/src/components/CapturePlan.tsx",
+      "chat/src/components/Composer.tsx",
+      "chat/src/components/CopyButton.tsx",
+      "chat/src/components/Council.tsx",
+      "chat/src/components/CreditsPanel.tsx",
+      "chat/src/components/ForecastCard.tsx",
+      "chat/src/components/LiteReadUpsell.tsx",
+      "chat/src/components/Markdown.tsx",
+      "chat/src/components/Reasoning.tsx",
+      "chat/src/components/Sidebar.tsx",
+      "chat/src/lib/capture.ts",
+      "chat/src/lib/forecast.ts"
+    ],
+    "chat/src/app/robots.ts": [],
+    "chat/src/components/Account.tsx": [],
+    "chat/src/components/CapturePlan.tsx": [
+      "chat/src/lib/capture.ts"
+    ],
+    "chat/src/components/Composer.tsx": [],
+    "chat/src/components/CopyButton.tsx": [],
+    "chat/src/components/Council.tsx": [],
+    "chat/src/components/CreditsPanel.tsx": [],
+    "chat/src/components/ForecastCard.tsx": [],
+    "chat/src/components/LiteReadUpsell.tsx": [
+      "chat/src/components/Composer.tsx"
+    ],
+    "chat/src/components/Markdown.tsx": [],
+    "chat/src/components/Reasoning.tsx": [
+      "chat/src/lib/cn.ts"
+    ],
+    "chat/src/components/Sidebar.tsx": [
+      "chat/src/components/Account.tsx",
+      "chat/src/components/CreditsPanel.tsx",
+      "chat/src/lib/cn.ts"
+    ],
+    "chat/src/lib/auth.ts": [],
+    "chat/src/lib/capture.ts": [
+      "chat/src/lib/dataLayer.ts",
+      "chat/src/lib/model.ts",
+      "chat/src/lib/research.ts"
+    ],
+    "chat/src/lib/cn.ts": [],
+    "chat/src/lib/council.ts": [
+      "chat/src/lib/dataLayer.ts",
+      "chat/src/lib/market.ts",
+      "chat/src/lib/model.ts",
+      "chat/src/lib/research.ts"
+    ],
+    "chat/src/lib/credits.ts": [
+      "chat/src/lib/db.ts",
+      "chat/src/lib/owner.ts"
+    ],
+    "chat/src/lib/dataLayer.ts": [],
+    "chat/src/lib/db.ts": [],
+    "chat/src/lib/forecast.ts": [
+      "chat/src/components/ForecastCard.tsx"
+    ],
+    "chat/src/lib/market.ts": [
+      "chat/src/lib/model.ts"
+    ],
+    "chat/src/lib/mc.ts": [],
+    "chat/src/lib/model.ts": [],
+    "chat/src/lib/owner.ts": [],
+    "chat/src/lib/research.ts": [
+      "chat/src/lib/model.ts"
+    ],
+    "chat/src/lib/security.ts": [],
+    "chat/src/lib/stripe.ts": [],
+    "chat/tsconfig.json": [],
+    "chat/wrangler.jsonc": [],
+    "CLOUD_COSTS.md": [],
+    "cockpit/app/globals.css": [],
+    "cockpit/app/layout.tsx": [
+      "cockpit/app/globals.css"
+    ],
+    "cockpit/app/page.tsx": [
+      "cockpit/components/bet-card.tsx",
+      "cockpit/components/calibration-chart.tsx",
+      "cockpit/components/consensus-gate.tsx",
+      "cockpit/components/cross-domain-map.tsx",
+      "cockpit/components/data-health.tsx",
+      "cockpit/components/entity-spine.tsx",
+      "cockpit/components/hypothesis-engine.tsx",
+      "cockpit/components/retro-benchmark.tsx",
+      "cockpit/components/supply-graph.tsx",
+      "cockpit/components/ui/badge.tsx",
+      "cockpit/components/ui/card.tsx",
+      "cockpit/components/ui/progress.tsx",
+      "cockpit/components/ui/table.tsx",
+      "cockpit/components/universe-benchmark.tsx",
+      "cockpit/lib/db.ts"
+    ],
+    "cockpit/components.json": [],
+    "cockpit/components/bet-card.tsx": [
+      "cockpit/lib/db.ts"
+    ],
+    "cockpit/components/calibration-chart.tsx": [],
+    "cockpit/components/consensus-gate.tsx": [
+      "cockpit/lib/db.ts"
+    ],
+    "cockpit/components/cross-domain-map.tsx": [
+      "cockpit/lib/db.ts"
+    ],
+    "cockpit/components/data-health.tsx": [
+      "cockpit/lib/db.ts"
+    ],
+    "cockpit/components/entity-spine.tsx": [
+      "cockpit/lib/db.ts"
+    ],
+    "cockpit/components/hypothesis-engine.tsx": [
+      "cockpit/lib/db.ts"
+    ],
+    "cockpit/components/retro-benchmark.tsx": [
+      "cockpit/lib/db.ts"
+    ],
+    "cockpit/components/supply-graph.tsx": [
+      "cockpit/lib/db.ts"
+    ],
+    "cockpit/components/ui/badge.tsx": [
+      "cockpit/lib/utils.ts"
+    ],
+    "cockpit/components/ui/button.tsx": [
+      "cockpit/lib/utils.ts"
+    ],
+    "cockpit/components/ui/card.tsx": [
+      "cockpit/lib/utils.ts"
+    ],
+    "cockpit/components/ui/dialog.tsx": [
+      "cockpit/components/ui/button.tsx",
+      "cockpit/lib/utils.ts"
+    ],
+    "cockpit/components/ui/progress.tsx": [
+      "cockpit/lib/utils.ts"
+    ],
+    "cockpit/components/ui/sonner.tsx": [],
+    "cockpit/components/ui/table.tsx": [
+      "cockpit/lib/utils.ts"
+    ],
+    "cockpit/components/ui/tabs.tsx": [
+      "cockpit/lib/utils.ts"
+    ],
+    "cockpit/components/universe-benchmark.tsx": [
+      "cockpit/lib/db.ts"
+    ],
+    "cockpit/eslint.config.mjs": [],
+    "cockpit/lib/db.ts": [],
+    "cockpit/lib/utils.ts": [],
+    "cockpit/next.config.ts": [],
+    "cockpit/package.json": [],
+    "cockpit/pnpm-workspace.yaml": [],
+    "cockpit/postcss.config.mjs": [],
+    "cockpit/README.md": [],
+    "cockpit/tsconfig.json": [],
+    "CONSTITUTION.md": [],
+    "content/after-ai-2026-06-17.md": [],
+    "content/posts-2026-06-19.md": [],
+    "DATA_LAYER_PLAN.md": [],
+    "dataset_sample_200.jsonl": [],
+    "doctrine.md": [],
+    "EDGE_DATASET_PLAN.md": [],
+    "engine/__init__.py": [],
+    "engine/adapters/__init__.py": [],
+    "engine/adapters/_vendor/__init__.py": [],
+    "engine/adapters/_vendor/deepinfra_keyless.py": [],
+    "engine/adapters/_vendor/exa_search.py": [],
+    "engine/adapters/answer.py": [
+      "engine/__init__.py",
+      "engine/adapters/__init__.py",
+      "engine/adapters/html_to_markdown.py",
+      "engine/adapters/llm.py",
+      "engine/adapters/pdf_to_text.py",
+      "engine/adapters/search.py",
+      "engine/cost.py"
+    ],
+    "engine/adapters/extract.py": [
+      "engine/adapters/__init__.py",
+      "engine/adapters/llm.py"
+    ],
+    "engine/adapters/html_to_markdown.py": [],
+    "engine/adapters/llm.py": [
+      "engine/__init__.py",
+      "engine/cost.py"
+    ],
+    "engine/adapters/pdf_to_text.py": [],
+    "engine/adapters/proxy.py": [
+      "engine/__init__.py",
+      "engine/cost.py",
+      "engine/rawstore.py"
+    ],
+    "engine/adapters/search.py": [
+      "engine/__init__.py",
+      "engine/adapters/_vendor/exa_search.py",
+      "engine/cost.py"
+    ],
+    "engine/adapters/smoke.py": [
+      "engine/__init__.py",
+      "engine/adapters/__init__.py",
+      "engine/adapters/llm.py",
+      "engine/adapters/pdf_to_text.py",
+      "engine/adapters/search.py",
+      "engine/cost.py",
+      "engine/db.py"
+    ],
+    "engine/backtest.py": [
+      "engine/detector.py"
+    ],
+    "engine/bet.py": [
+      "engine/__init__.py",
+      "engine/graph.py",
+      "engine/schemas.py"
+    ],
+    "engine/capture/__init__.py": [],
+    "engine/capture/DEPLOY.md": [],
+    "engine/capture/engine.py": [
+      "engine/adapters/__init__.py",
+      "engine/adapters/llm.py",
+      "engine/adapters/search.py",
+      "engine/capture/schema.py"
+    ],
+    "engine/capture/inbox.py": [
+      "engine/capture/engine.py"
+    ],
+    "engine/capture/run.py": [
+      "engine/capture/__init__.py",
+      "engine/capture/schema.py"
+    ],
+    "engine/capture/schema.py": [],
+    "engine/chat_bridge.py": [
+      "engine/forecast.py"
+    ],
+    "engine/cli.py": [
+      "engine/__init__.py",
+      "engine/backtest.py",
+      "engine/bet.py",
+      "engine/companies_house_enrich.py",
+      "engine/consensus.py",
+      "engine/cost.py",
+      "engine/coverage_grade.py",
+      "engine/data_offload.py",
+      "engine/db.py",
+      "engine/decisions.py",
+      "engine/detector.py",
+      "engine/discover.py",
+      "engine/disk_guard.py",
+      "engine/entity.py",
+      "engine/experiment.py",
+      "engine/forecast.py",
+      "engine/gleif_enrich.py",
+      "engine/graph.py",
+      "engine/holdout.py",
+      "engine/hypothesis.py",
+      "engine/indicators.py",
+      "engine/ladder.py",
+      "engine/locator.py",
+      "engine/market.py",
+      "engine/pillars/__init__.py",
+      "engine/pillars/dependency.py",
+      "engine/pillars/frontier.py",
+      "engine/pillars/metals.py",
+      "engine/pillars/power.py",
+      "engine/pillars/research.py",
+      "engine/quality.py",
+      "engine/raw_provenance.py",
+      "engine/rawstore.py",
+      "engine/research_papers.py",
+      "engine/retro.py",
+      "engine/saturation.py",
+      "engine/schemas.py",
+      "engine/sec_company_enrich.py",
+      "engine/seed.py",
+      "engine/signals.py",
+      "engine/significance.py",
+      "engine/universe.py",
+      "engine/wikidata_enrich.py",
+      "engine/world_catalog.py",
+      "engine/world_graph_deepseek.py",
+      "engine/world_graph.py",
+      "engine/world_seed.py",
+      "engine/world_state.py"
+    ],
+    "engine/companies_house_enrich.py": [
+      "engine/__init__.py",
+      "engine/graph.py",
+      "engine/rawstore.py",
+      "engine/schemas.py",
+      "engine/world_catalog.py"
+    ],
+    "engine/consensus.py": [
+      "engine/__init__.py",
+      "engine/cost.py",
+      "engine/schemas.py"
+    ],
+    "engine/corpus.py": [
+      "engine/db.py",
+      "engine/pillars/research.py"
+    ],
+    "engine/cost.py": [
+      "engine/schemas.py"
+    ],
+    "engine/coverage_grade.py": [
+      "engine/__init__.py",
+      "engine/world_seed.py"
+    ],
+    "engine/data_offload.py": [],
+    "engine/db.py": [],
+    "engine/decisions.py": [
+      "engine/schemas.py"
+    ],
+    "engine/detector.py": [
+      "engine/__init__.py",
+      "engine/schemas.py",
+      "engine/store.py"
+    ],
+    "engine/discover.py": [
+      "engine/__init__.py",
+      "engine/detector.py",
+      "engine/quality.py",
+      "engine/significance.py"
+    ],
+    "engine/disk_guard.py": [],
+    "engine/emergent_scan.py": [
+      "engine/__init__.py",
+      "engine/adapters/__init__.py",
+      "engine/adapters/llm.py",
+      "engine/adapters/search.py",
+      "engine/db.py",
+      "engine/feeds/concept_emergence.py",
+      "engine/market.py",
+      "engine/schemas.py",
+      "engine/signals.py"
+    ],
+    "engine/entity_candidates.py": [
+      "engine/__init__.py",
+      "engine/entity.py",
+      "engine/schemas.py"
+    ],
+    "engine/entity.py": [
+      "engine/__init__.py",
+      "engine/db.py",
+      "engine/pillars/frontier.py",
+      "engine/schemas.py"
+    ],
+    "engine/experiment.py": [
+      "engine/__init__.py",
+      "engine/schemas.py",
+      "engine/universe.py"
+    ],
+    "engine/feeds/__init__.py": [],
+    "engine/feeds/adoption_curves.py": [],
+    "engine/feeds/athena.py": [],
+    "engine/feeds/australia_epbc_referrals.py": [],
+    "engine/feeds/baci.py": [
+      "engine/__init__.py",
+      "engine/disk_guard.py"
+    ],
+    "engine/feeds/biorxiv.py": [],
+    "engine/feeds/bis.py": [],
+    "engine/feeds/blm_mining_claims.py": [],
+    "engine/feeds/capability_curves.py": [],
+    "engine/feeds/clinicaltrials.py": [],
+    "engine/feeds/collect_all.py": [
+      "engine/__init__.py",
+      "engine/disk_guard.py"
+    ],
+    "engine/feeds/comtrade.py": [],
+    "engine/feeds/concept_edge_shift.py": [
+      "engine/__init__.py",
+      "engine/db.py",
+      "engine/detector.py",
+      "engine/feeds/__init__.py",
+      "engine/feeds/athena.py",
+      "engine/feeds/openalex_load.py",
+      "engine/schemas.py"
+    ],
+    "engine/feeds/concept_emergence.py": [
+      "engine/__init__.py",
+      "engine/db.py",
+      "engine/detector.py",
+      "engine/feeds/__init__.py",
+      "engine/feeds/athena.py",
+      "engine/schemas.py"
+    ],
+    "engine/feeds/cordis.py": [],
+    "engine/feeds/crossref.py": [],
+    "engine/feeds/ecb_fx.py": [],
+    "engine/feeds/eia.py": [],
+    "engine/feeds/ember.py": [],
+    "engine/feeds/eonet.py": [],
+    "engine/feeds/epoch_ai.py": [],
+    "engine/feeds/eu_sanctions.py": [],
+    "engine/feeds/europe_pmc.py": [],
+    "engine/feeds/eurostat.py": [],
+    "engine/feeds/faostat.py": [],
+    "engine/feeds/federal_register.py": [],
+    "engine/feeds/fred_financial.py": [],
+    "engine/feeds/fred.py": [],
+    "engine/feeds/gdacs_alerts.py": [],
+    "engine/feeds/gdelt.py": [],
+    "engine/feeds/global_equities.py": [],
+    "engine/feeds/global_policy.py": [
+      "engine/feeds/federal_register.py"
+    ],
+    "engine/feeds/google_patents.py": [
+      "engine/__init__.py",
+      "engine/cost.py",
+      "engine/db.py",
+      "engine/world_state.py"
+    ],
+    "engine/feeds/ilo.py": [],
+    "engine/feeds/imf.py": [],
+    "engine/feeds/ingest.py": [
+      "engine/__init__.py",
+      "engine/db.py",
+      "engine/graph.py",
+      "engine/rawstore.py",
+      "engine/schemas.py",
+      "engine/store.py"
+    ],
+    "engine/feeds/land_matrix.py": [],
+    "engine/feeds/land_ownership.py": [],
+    "engine/feeds/land_permit_sources.py": [
+      "engine/__init__.py",
+      "engine/db.py",
+      "engine/rawstore.py",
+      "engine/schemas.py"
+    ],
+    "engine/feeds/land_permits_canada_iaac.py": [],
+    "engine/feeds/lbnl_queue.py": [],
+    "engine/feeds/lbnl.py": [],
+    "engine/feeds/metaculus.py": [],
+    "engine/feeds/mining_rights_global.py": [],
+    "engine/feeds/miningterminal_permits.py": [],
+    "engine/feeds/nasa_gistemp.py": [],
+    "engine/feeds/nih_reporter.py": [],
+    "engine/feeds/noaa_climate_indices.py": [],
+    "engine/feeds/noaa_enso.py": [],
+    "engine/feeds/noaa_gml_greenhouse_gases.py": [],
+    "engine/feeds/noaa_nsidc_sea_ice.py": [],
+    "engine/feeds/noaa_swpc_solar.py": [],
+    "engine/feeds/nsf_awards.py": [],
+    "engine/feeds/oecd.py": [],
+    "engine/feeds/ofac_sdn.py": [],
+    "engine/feeds/openalex_load.py": [
+      "engine/__init__.py",
+      "engine/db.py",
+      "engine/entity.py",
+      "engine/feeds/__init__.py",
+      "engine/feeds/athena.py",
+      "engine/graph.py",
+      "engine/pillars/frontier.py",
+      "engine/schemas.py"
+    ],
+    "engine/feeds/openalex_snapshot.py": [],
+    "engine/feeds/openalex.py": [],
+    "engine/feeds/openfda_drugsfda.py": [],
+    "engine/feeds/owid.py": [
+      "engine/pillars/capability.py"
+    ],
+    "engine/feeds/patentsview.py": [],
+    "engine/feeds/polymarket.py": [],
+    "engine/feeds/pubmed.py": [],
+    "engine/feeds/relianceonscience.py": [
+      "engine/feeds/__init__.py",
+      "engine/feeds/athena.py"
+    ],
+    "engine/feeds/resourcecontracts.py": [],
+    "engine/feeds/sec_edgar.py": [],
+    "engine/feeds/semantic_scholar.py": [
+      "engine/__init__.py",
+      "engine/disk_guard.py"
+    ],
+    "engine/feeds/supply_elasticity.py": [],
+    "engine/feeds/tech_adoption.py": [],
+    "engine/feeds/ucdp.py": [],
+    "engine/feeds/un_comtrade.py": [
+      "engine/pillars/__init__.py",
+      "engine/pillars/dependency.py"
+    ],
+    "engine/feeds/us_permitting_dashboard.py": [],
+    "engine/feeds/usaspending_sam.py": [],
+    "engine/feeds/usgs_earthquakes.py": [],
+    "engine/feeds/usgs_historical.py": [],
+    "engine/feeds/usgs_minerals.py": [],
+    "engine/feeds/vdem.py": [],
+    "engine/feeds/wikipedia.py": [],
+    "engine/feeds/world_bank.py": [],
+    "engine/feeds/worldbank_capital.py": [
+      "engine/feeds/world_bank.py"
+    ],
+    "engine/feeds/worldbank_wgi.py": [],
+    "engine/forecast.py": [
+      "engine/schemas.py"
+    ],
+    "engine/forecastbench/__init__.py": [],
+    "engine/forecastbench/assemble.py": [
+      "engine/forecastbench/calib.py"
+    ],
+    "engine/forecastbench/backtest_all.py": [
+      "engine/forecastbench/score.py",
+      "engine/forecastbench/submit.py"
+    ],
+    "engine/forecastbench/bench.py": [
+      "engine/forecastbench/domains.py"
+    ],
+    "engine/forecastbench/calib.py": [],
+    "engine/forecastbench/check_submission.py": [
+      "engine/forecastbench/score.py",
+      "engine/forecastbench/submit.py"
+    ],
+    "engine/forecastbench/concept_gate.py": [
+      "engine/detector.py",
+      "engine/forecastbench/edge_gate_stat.py"
+    ],
+    "engine/forecastbench/corpus.py": [],
+    "engine/forecastbench/crowd.py": [],
+    "engine/forecastbench/curate.py": [],
+    "engine/forecastbench/dataset_diag.py": [
+      "engine/forecastbench/score.py"
+    ],
+    "engine/forecastbench/dataset.py": [
+      "engine/forecastbench/score.py"
+    ],
+    "engine/forecastbench/distill.py": [
+      "engine/__init__.py",
+      "engine/adapters/__init__.py",
+      "engine/adapters/llm.py",
+      "engine/cost.py",
+      "engine/db.py"
+    ],
+    "engine/forecastbench/diversify.py": [
+      "engine/forecastbench/market.py",
+      "engine/forecastbench/score.py"
+    ],
+    "engine/forecastbench/domains.py": [],
+    "engine/forecastbench/edge_dataset.py": [
+      "engine/db.py",
+      "engine/metaculus/qbank.py"
+    ],
+    "engine/forecastbench/edge_gate_stat.py": [],
+    "engine/forecastbench/edge_gate.py": [
+      "engine/adapters/__init__.py",
+      "engine/adapters/llm.py",
+      "engine/db.py",
+      "engine/forecastbench/edge_dataset.py"
+    ],
+    "engine/forecastbench/ensemble.py": [],
+    "engine/forecastbench/gap_claude.py": [
+      "engine/forecastbench/market.py",
+      "engine/forecastbench/score.py"
+    ],
+    "engine/forecastbench/harvest.py": [
+      "engine/forecastbench/domains.py"
+    ],
+    "engine/forecastbench/inference.py": [
+      "engine/__init__.py",
+      "engine/adapters/__init__.py",
+      "engine/adapters/llm.py",
+      "engine/db.py",
+      "engine/forecastbench/ensemble.py",
+      "engine/forecastbench/traces.py"
+    ],
+    "engine/forecastbench/kalshibench.py": [],
+    "engine/forecastbench/llm_fill.py": [],
+    "engine/forecastbench/market.py": [
+      "engine/forecastbench/score.py"
+    ],
+    "engine/forecastbench/opus_blend.py": [
+      "engine/forecastbench/market.py",
+      "engine/forecastbench/score.py"
+    ],
+    "engine/forecastbench/opus_forecaster.py": [
+      "engine/forecastbench/opus_blend.py"
+    ],
+    "engine/forecastbench/residual.py": [],
+    "engine/forecastbench/score.py": [],
+    "engine/forecastbench/sequential.py": [
+      "engine/__init__.py",
+      "engine/adapters/__init__.py",
+      "engine/adapters/llm.py",
+      "engine/adapters/search.py",
+      "engine/db.py"
+    ],
+    "engine/forecastbench/structural_gate.py": [
+      "engine/db.py",
+      "engine/forecastbench/edge_gate_stat.py"
+    ],
+    "engine/forecastbench/SUBMIT.md": [],
+    "engine/forecastbench/submit.py": [
+      "engine/forecastbench/market.py",
+      "engine/forecastbench/score.py"
+    ],
+    "engine/forecastbench/timesfm_eval.py": [
+      "engine/forecastbench/score.py"
+    ],
+    "engine/forecastbench/timesfm_model.py": [],
+    "engine/forecastbench/traces.py": [
+      "engine/__init__.py",
+      "engine/adapters/__init__.py",
+      "engine/adapters/llm.py",
+      "engine/db.py"
+    ],
+    "engine/forecastbench/trainset.py": [
+      "engine/forecastbench/domains.py"
+    ],
+    "engine/forecastbench/validate.py": [
+      "engine/forecastbench/score.py"
+    ],
+    "engine/forecasting/__init__.py": [],
+    "engine/forecasting/calibration.py": [],
+    "engine/forecasting/eval_anchor_gate.py": [
+      "engine/metaculus/__init__.py",
+      "engine/metaculus/markets.py"
+    ],
+    "engine/forecasting/ledger.py": [],
+    "engine/gdelt_collect.py": [],
+    "engine/gleif_enrich.py": [
+      "engine/__init__.py",
+      "engine/graph.py",
+      "engine/rawstore.py",
+      "engine/schemas.py",
+      "engine/world_catalog.py"
+    ],
+    "engine/global_equities_collect.py": [],
+    "engine/graph.py": [
+      "engine/schemas.py"
+    ],
+    "engine/ground.py": [
+      "engine/__init__.py",
+      "engine/db.py",
+      "engine/market.py",
+      "engine/signals.py",
+      "engine/world_seed.py"
+    ],
+    "engine/holdout.py": [
+      "engine/adapters/__init__.py",
+      "engine/adapters/llm.py"
+    ],
+    "engine/hypothesis.py": [
+      "engine/pillars/frontier.py",
+      "engine/schemas.py"
+    ],
+    "engine/indicators.py": [
+      "engine/__init__.py",
+      "engine/schemas.py",
+      "engine/sharpen.py"
+    ],
+    "engine/ladder.py": [
+      "engine/__init__.py",
+      "engine/forecast.py",
+      "engine/schemas.py",
+      "engine/sharpen.py"
+    ],
+    "engine/locator.py": [
+      "engine/__init__.py",
+      "engine/backtest.py",
+      "engine/detector.py",
+      "engine/graph.py",
+      "engine/schemas.py"
+    ],
+    "engine/market.py": [
+      "engine/__init__.py",
+      "engine/cost.py",
+      "engine/db.py"
+    ],
+    "engine/metaculus/__init__.py": [],
+    "engine/metaculus/api.py": [
+      "engine/__init__.py",
+      "engine/cost.py"
+    ],
+    "engine/metaculus/calibrate.py": [
+      "engine/__init__.py",
+      "engine/adapters/__init__.py",
+      "engine/adapters/llm.py",
+      "engine/db.py",
+      "engine/forecastbench/ensemble.py",
+      "engine/forecastbench/inference.py",
+      "engine/metaculus/__init__.py"
+    ],
+    "engine/metaculus/deep_research.py": [
+      "engine/__init__.py",
+      "engine/adapters/__init__.py",
+      "engine/adapters/llm.py",
+      "engine/adapters/search.py",
+      "engine/db.py"
+    ],
+    "engine/metaculus/fleet.py": [
+      "engine/__init__.py",
+      "engine/adapters/__init__.py",
+      "engine/adapters/llm.py",
+      "engine/db.py",
+      "engine/holdout.py",
+      "engine/metaculus/__init__.py",
+      "engine/metaculus/qbank.py"
+    ],
+    "engine/metaculus/forecast.py": [
+      "engine/__init__.py",
+      "engine/adapters/llm.py",
+      "engine/db.py",
+      "engine/forecastbench/ensemble.py",
+      "engine/forecastbench/inference.py",
+      "engine/forecasting/calibration.py",
+      "engine/metaculus/__init__.py",
+      "engine/metaculus/research.py"
+    ],
+    "engine/metaculus/human_api.py": [],
+    "engine/metaculus/markets.py": [],
+    "engine/metaculus/numeric_forecast.py": [
+      "engine/__init__.py",
+      "engine/adapters/__init__.py",
+      "engine/adapters/llm.py",
+      "engine/db.py",
+      "engine/metaculus/__init__.py",
+      "engine/metaculus/api.py",
+      "engine/metaculus/research.py"
+    ],
+    "engine/metaculus/numeric.py": [
+      "engine/metaculus/__init__.py",
+      "engine/metaculus/api.py"
+    ],
+    "engine/metaculus/qbank.py": [],
+    "engine/metaculus/research.py": [
+      "engine/__init__.py",
+      "engine/adapters/__init__.py",
+      "engine/adapters/llm.py",
+      "engine/adapters/search.py",
+      "engine/db.py"
+    ],
+    "engine/metaculus/run.py": [
+      "engine/metaculus/__init__.py",
+      "engine/metaculus/api.py",
+      "engine/metaculus/forecast.py"
+    ],
+    "engine/metaculus/SUBMIT.md": [],
+    "engine/pillars/__init__.py": [],
+    "engine/pillars/capability.py": [
+      "engine/__init__.py",
+      "engine/pillars/frontier.py",
+      "engine/schemas.py",
+      "engine/store.py"
+    ],
+    "engine/pillars/capital.py": [
+      "engine/__init__.py",
+      "engine/pillars/frontier.py",
+      "engine/schemas.py",
+      "engine/store.py"
+    ],
+    "engine/pillars/demand.py": [
+      "engine/__init__.py",
+      "engine/pillars/frontier.py",
+      "engine/schemas.py",
+      "engine/store.py"
+    ],
+    "engine/pillars/dependency.py": [
+      "engine/__init__.py",
+      "engine/db.py",
+      "engine/pillars/frontier.py",
+      "engine/pillars/power.py",
+      "engine/schemas.py"
+    ],
+    "engine/pillars/forces.py": [
+      "engine/__init__.py",
+      "engine/pillars/frontier.py",
+      "engine/schemas.py",
+      "engine/store.py"
+    ],
+    "engine/pillars/frontier.py": [
+      "engine/__init__.py",
+      "engine/db.py",
+      "engine/schemas.py"
+    ],
+    "engine/pillars/metals.py": [
+      "engine/__init__.py",
+      "engine/db.py",
+      "engine/pillars/frontier.py",
+      "engine/pillars/power.py",
+      "engine/schemas.py"
+    ],
+    "engine/pillars/policy.py": [
+      "engine/__init__.py",
+      "engine/pillars/frontier.py",
+      "engine/schemas.py",
+      "engine/store.py"
+    ],
+    "engine/pillars/power.py": [
+      "engine/__init__.py",
+      "engine/db.py",
+      "engine/pillars/frontier.py",
+      "engine/schemas.py"
+    ],
+    "engine/pillars/research.py": [
+      "engine/__init__.py",
+      "engine/db.py",
+      "engine/schemas.py",
+      "engine/store.py"
+    ],
+    "engine/pillars/slow.py": [
+      "engine/__init__.py",
+      "engine/db.py",
+      "engine/detector.py",
+      "engine/pillars/frontier.py",
+      "engine/schemas.py",
+      "engine/store.py"
+    ],
+    "engine/pope/__init__.py": [],
+    "engine/pope/capture_render.py": [],
+    "engine/pope/charts.py": [],
+    "engine/pope/mega_deepseek.py": [
+      "engine/__init__.py",
+      "engine/adapters/llm.py",
+      "engine/db.py",
+      "engine/emergent_scan.py",
+      "engine/ground.py",
+      "engine/market.py"
+    ],
+    "engine/pope/publish_site.py": [],
+    "engine/pope/README.md": [],
+    "engine/pope/render.py": [
+      "engine/pope/__init__.py",
+      "engine/pope/charts.py"
+    ],
+    "engine/pope/ultra.py": [],
+    "engine/prophet/__init__.py": [],
+    "engine/prophet/agent.py": [
+      "engine/forecastbench/ensemble.py",
+      "engine/metaculus/__init__.py",
+      "engine/metaculus/forecast.py"
+    ],
+    "engine/prophet/anchor.py": [
+      "engine/forecastbench/ensemble.py",
+      "engine/prophet/agent.py"
+    ],
+    "engine/prophet/backtest.py": [
+      "engine/prophet/__init__.py",
+      "engine/prophet/agent.py"
+    ],
+    "engine/prophet/kalshi.py": [],
+    "engine/prophet/modal_app.py": [],
+    "engine/prophet/openai_api.py": [
+      "engine/__init__.py",
+      "engine/adapters/__init__.py",
+      "engine/adapters/llm.py",
+      "engine/db.py",
+      "engine/prophet/agent.py"
+    ],
+    "engine/prophet/server.py": [
+      "engine/prophet/__init__.py",
+      "engine/prophet/agent.py"
+    ],
+    "engine/quality.py": [
+      "engine/schemas.py"
+    ],
+    "engine/raw_provenance.py": [
+      "engine/__init__.py",
+      "engine/rawstore.py",
+      "engine/schemas.py"
+    ],
+    "engine/rawstore.py": [
+      "engine/__init__.py",
+      "engine/data_offload.py",
+      "engine/schemas.py"
+    ],
+    "engine/render_emergence.py": [
+      "engine/__init__.py",
+      "engine/db.py",
+      "engine/signals.py"
+    ],
+    "engine/research_papers.py": [
+      "engine/__init__.py",
+      "engine/db.py",
+      "engine/disk_guard.py"
+    ],
+    "engine/retro.py": [
+      "engine/__init__.py",
+      "engine/db.py",
+      "engine/detector.py",
+      "engine/pillars/frontier.py",
+      "engine/schemas.py"
+    ],
+    "engine/saturation.py": [
+      "engine/adapters/__init__.py",
+      "engine/adapters/search.py",
+      "engine/schemas.py"
+    ],
+    "engine/schemas.py": [],
+    "engine/sec_bulk_collect.py": [],
+    "engine/sec_company_enrich.py": [
+      "engine/__init__.py",
+      "engine/graph.py",
+      "engine/rawstore.py",
+      "engine/schemas.py",
+      "engine/world_catalog.py"
+    ],
+    "engine/seed.py": [],
+    "engine/sharpen.py": [],
+    "engine/signals.py": [
+      "engine/__init__.py",
+      "engine/db.py"
+    ],
+    "engine/significance.py": [
+      "engine/detector.py",
+      "engine/schemas.py"
+    ],
+    "engine/store.py": [
+      "engine/schemas.py"
+    ],
+    "engine/test_signals.py": [
+      "engine/signals.py"
+    ],
+    "engine/universe.py": [
+      "engine/backtest.py",
+      "engine/detector.py",
+      "engine/pillars/frontier.py",
+      "engine/schemas.py"
+    ],
+    "engine/wikidata_enrich.py": [
+      "engine/__init__.py",
+      "engine/graph.py",
+      "engine/rawstore.py",
+      "engine/schemas.py",
+      "engine/world_catalog.py"
+    ],
+    "engine/world_catalog.py": [
+      "engine/__init__.py",
+      "engine/data_offload.py",
+      "engine/disk_guard.py",
+      "engine/schemas.py"
+    ],
+    "engine/world_extractor.py": [],
+    "engine/world_graph_deepseek.py": [
+      "engine/__init__.py",
+      "engine/adapters/__init__.py",
+      "engine/adapters/llm.py",
+      "engine/db.py",
+      "engine/world_graph.py"
+    ],
+    "engine/world_graph.py": [],
+    "engine/world_seed.py": [
+      "engine/__init__.py",
+      "engine/db.py",
+      "engine/signals.py"
+    ],
+    "engine/world_state.py": [
+      "engine/__init__.py",
+      "engine/data_offload.py",
+      "engine/db.py",
+      "engine/disk_guard.py",
+      "engine/raw_provenance.py",
+      "engine/rawstore.py",
+      "engine/schemas.py"
+    ],
+    "experiments/forward_calls_seal.sha256": [],
+    "experiments/protocol_locator.yaml": [],
+    "experiments/protocol_structbench.yaml": [],
+    "experiments/protocol_v1.yaml": [],
+    "experiments/protocol_v2.yaml": [],
+    "experiments/REGISTRY.md": [],
+    "experiments/timesfm_dataset_eval.md": [],
+    "FORECAST_LLM.md": [],
+    "FORECAST_SYSTEM_CONTROL_PLANE.md": [],
+    "FUTURE_MAP.md": [],
+    "humanizer-context.md": [],
+    "landing/app/globals.css": [],
+    "landing/app/layout.tsx": [
+      "landing/app/globals.css"
+    ],
+    "landing/app/page.tsx": [
+      "landing/components/Counter.tsx",
+      "landing/components/ExamplePredictions.tsx",
+      "landing/components/Header.tsx",
+      "landing/components/HeroVisual.tsx",
+      "landing/components/Reveal.tsx",
+      "landing/components/StageBand.tsx"
+    ],
+    "landing/components/Counter.tsx": [],
+    "landing/components/ExamplePredictions.tsx": [],
+    "landing/components/Header.tsx": [],
+    "landing/components/HeroVisual.tsx": [],
+    "landing/components/Reveal.tsx": [],
+    "landing/components/StageBand.tsx": [],
+    "landing/docs/research/assets.json": [],
+    "landing/docs/research/DESIGN_SPEC.md": [],
+    "landing/docs/research/sections.json": [],
+    "landing/docs/research/tokens.json": [],
+    "landing/docs/research/topology.json": [],
+    "landing/docs/research/ui.json": [],
+    "landing/next-env.d.ts": [],
+    "landing/next.config.ts": [],
+    "landing/package.json": [],
+    "landing/postcss.config.mjs": [],
+    "landing/scripts/extract2.mjs": [],
+    "landing/scripts/recon.mjs": [],
+    "landing/tsconfig.json": [],
+    "landing/tsconfig.tsbuildinfo": [],
+    "LEADERSHIP_AND_SUPERFORECASTING.md": [],
+    "NEGATIVE_RESULT_FINETUNE.md": [],
+    "newbenchmarksplan.md": [],
+    "OPS.md": [],
+    "OVERNIGHT_BRIEFING.md": [],
+    "paper_beyond_brier/beyond_brier_zemani.md": [],
+    "paper_beyond_brier/beyond_brier_zemani.tex": [],
+    "paper_beyond_brier/beyond_brier.md": [],
+    "paper_beyond_brier/beyond_brier.tex": [],
+    "paper_beyond_brier/compute_edge.py": [],
+    "paper_beyond_brier/eps_sens.py": [],
+    "paper_beyond_brier/forecast_sets/2024-07-21/human_public.json": [],
+    "paper_beyond_brier/forecast_sets/2024-07-21/human_super.json": [],
+    "paper_beyond_brier/llm_edge.py": [],
+    "paper_beyond_brier/llm_edge2.py": [],
+    "paper_beyond_brier/llm_figs.py": [],
+    "paper_beyond_brier/matched_question.py": [],
+    "paper_beyond_brier/mr_figs.py": [],
+    "paper_beyond_brier/multiround_rev.py": [],
+    "paper_beyond_brier/multiround.py": [],
+    "paper_beyond_brier/oos_debias.py": [],
+    "paper_beyond_brier/revise_edge_v3.py": [],
+    "paper_beyond_brier/revise_edge.py": [],
+    "paper_beyond_brier/tectonic": [],
+    "paper_beyond_brier/worked_example.py": [],
+    "PATENT_NEEDLES.md": [],
+    "plan.md": [],
+    "POPE_ULTRA.md": [],
+    "proof.md": [],
+    "prophet-custom-agent.md": [],
+    "pyproject.toml": [],
+    "README.md": [],
+    "RESEARCH_PAPERS_OPERATION.md": [],
+    "research/closing_roadmap.md": [],
+    "research/contacts.md": [],
+    "research/MEGA_PLAN.md": [],
+    "research/outreach_messages.md": [],
+    "research/outreach_operating_plan.md": [],
+    "research/OUTREACH_PROMPT.md": [],
+    "research/outreach_templates.md": [],
+    "research/PEOPLE_MAP.md": [],
+    "research/targets/angels_salvage.jsonl": [],
+    "research/targets/build_contact_cockpit.py": [],
+    "research/targets/build_outreach_assets.py": [],
+    "research/targets/build_outreach_panel.py": [],
+    "research/targets/contact_cockpit.html": [],
+    "research/targets/contactable_messages.csv": [],
+    "research/targets/email_campaign_ready_strict.csv": [],
+    "research/targets/email_enrichment_queue.csv": [],
+    "research/targets/email_ready_messages_enriched.csv": [],
+    "research/targets/email_ready_messages.csv": [],
+    "research/targets/enrich_public_emails.py": [
+      "engine/adapters/_vendor/exa_search.py"
+    ],
+    "research/targets/find.py": [
+      "engine/adapters/_vendor/exa_search.py"
+    ],
+    "research/targets/harvest_web.jsonl": [],
+    "research/targets/harvest.py": [
+      "engine/adapters/_vendor/exa_search.py"
+    ],
+    "research/targets/merge_panel.py": [],
+    "research/targets/oa_harvest.py": [],
+    "research/targets/outreach_universe_scored.csv": [],
+    "research/targets/outreach_universe_scored.json": [],
+    "research/targets/public_email_enrichment_top300.csv": [],
+    "research/targets/researchers_openalex.jsonl": [],
+    "research/targets/targets.json": [],
+    "research/targets/top_fit_300_messages.csv": [],
+    "research/top_fit_300.md": [],
+    "research/vaticinus_outreach_scale.md": [],
+    "scripts/launch_research_papers_ec2_pilot.sh": [],
+    "scripts/research_papers_ec2_pilot.sh": [],
+    "scripts/run_deepseek_resume_safe.sh": [],
+    "scripts/sync_foresight_to_box.sh": [],
+    "SECURITY_CLOUDFLARE.md": [],
+    "site/AGENTS.md": [],
+    "site/components.json": [],
+    "site/docs/research/asset-manifest.json": [],
+    "site/docs/research/BEHAVIORS.md": [],
+    "site/docs/research/fonts-and-tokens.json": [],
+    "site/docs/research/fragments/about.html": [],
+    "site/docs/research/fragments/contactModal.html": [],
+    "site/docs/research/fragments/footer.html": [],
+    "site/docs/research/fragments/hero.html": [],
+    "site/docs/research/fragments/mission.html": [],
+    "site/docs/research/fragments/nav.html": [],
+    "site/docs/research/fragments/product.html": [],
+    "site/docs/research/fragments/research.html": [],
+    "site/docs/research/fragments/sampleqs.html": [],
+    "site/docs/research/fragments/sampleqsModal.html": [],
+    "site/docs/research/fragments/solutions.html": [],
+    "site/docs/research/fragments/team.html": [],
+    "site/docs/research/fragments/usecases.html": [],
+    "site/docs/research/fragments/videoModal.html": [],
+    "site/docs/research/global-extract.json": [],
+    "site/docs/research/mantic.webflow.css": [],
+    "site/docs/research/PAGE_TOPOLOGY.md": [],
+    "site/docs/research/page.html": [],
+    "site/docs/research/reveals.json": [],
+    "site/docs/research/scripts-extracted/inline-1.js": [],
+    "site/docs/research/scripts-extracted/inline-2.js": [],
+    "site/docs/research/scripts-extracted/inline-3.js": [],
+    "site/docs/research/scripts-extracted/inline-4.js": [],
+    "site/docs/research/scripts-extracted/inline-5.js": [],
+    "site/docs/research/scripts-extracted/inline-6.js": [],
+    "site/docs/research/scripts-extracted/inline-7.js": [],
+    "site/docs/research/scripts-extracted/inline-8.js": [],
+    "site/docs/research/scripts-extracted/inline-9.js": [],
+    "site/eslint.config.mjs": [],
+    "site/functions/api/_resend.ts": [],
+    "site/functions/api/contact.ts": [
+      "site/functions/api/_resend.ts"
+    ],
+    "site/next.config.ts": [],
+    "site/package.json": [],
+    "site/pnpm-workspace.yaml": [],
+    "site/postcss.config.mjs": [],
+    "site/public/_headers": [],
+    "site/public/data/coverage.json": [],
+    "site/public/images/6891e0d64bb73bfd5cc7baaa_Scott_Headshot_Web_Use.avif": [],
+    "site/public/images/6891e0d6a4a062c5f241a2ab_Ben_Headshot_1_Web_Use.avif": [],
+    "site/public/images/6891e0d6a56642e6f2f8ca6b_Toby_Headshot_1_Web_Use.avif": [],
+    "site/public/images/6891e0d6cb597a8bb5b6282b_Matthew_Headshot_Web_Use.avif": [],
+    "site/public/images/6891e0d6d63df0d1263223ec_Max_Headshot_Web_Use-2.avif": [],
+    "site/public/images/6891e0d737c1720826f42fbb_Vlad_Headshot_Web_Use.avif": [],
+    "site/public/images/690cb136eef6de79e8f7d34d_vid_cover.avif": [],
+    "site/public/images/699d59d37cc5e6173de5d2a4_sales-nesetril-ex_p4AaBxbs-unsplash.avif": [],
+    "site/public/images/699d60cf9d1d57df8b4b546a_mathias-reding-yfXhqAW5X0c-unsplash.avif": [],
+    "site/public/images/699d619163171055901d98a3_saulo-mohana-wNz7_5EvUWU-unsplash.avif": [],
+    "site/public/images/699ef07119542b1455bffcd5_artin-bakhan-bBHMqG0X2V0-unsplash.avif": [],
+    "site/public/images/699ef0e453fde1937e5d4c44_y-s-LGx9C3nSo5I-unsplash.avif": [],
+    "site/public/images/69bd270c21763d0d24bb6982_Frame_2134281086.avif": [],
+    "site/public/images/69bd270c7e3d256219e55594_Frame_2134281085.avif": [],
+    "site/public/images/69bd270d6234e12377bc9231_Frame_2134281084.avif": [],
+    "site/public/llms.txt": [],
+    "site/public/rive/foresight.riv": [],
+    "site/public/rive/rive.js": [],
+    "site/public/rive/rive.wasm": [],
+    "site/README.md": [],
+    "site/scripts/build-foundation.mjs": [],
+    "site/scripts/download-assets.mjs": [],
+    "site/scripts/extract-deep.mjs": [],
+    "site/scripts/extract-fragments.mjs": [],
+    "site/scripts/extract-reveals.mjs": [],
+    "site/scripts/interaction-test.mjs": [],
+    "site/scripts/qa-shot.mjs": [],
+    "site/scripts/rebrand.py": [],
+    "site/scripts/recon.mjs": [],
+    "site/scripts/section-shots.mjs": [],
+    "site/src/app/admin/page.tsx": [
+      "site/src/content/posts.json"
+    ],
+    "site/src/app/data/page.tsx": [
+      "site/src/sections/raw.tsx",
+      "site/src/sections/SiteRuntime.tsx"
+    ],
+    "site/src/app/forecasts/ai-campus-power-claims/page.tsx": [
+      "site/src/sections/raw.tsx",
+      "site/src/sections/SiteRuntime.tsx"
+    ],
+    "site/src/app/forecasts/page.tsx": [
+      "site/src/sections/raw.tsx",
+      "site/src/sections/SiteRuntime.tsx"
+    ],
+    "site/src/app/globals.css": [],
+    "site/src/app/layout.tsx": [
+      "site/src/app/globals.css"
+    ],
+    "site/src/app/page.tsx": [
+      "site/src/sections/raw.tsx",
+      "site/src/sections/SiteRuntime.tsx"
+    ],
+    "site/src/app/privacy-policy/page.tsx": [
+      "site/src/sections/raw.tsx",
+      "site/src/sections/SiteRuntime.tsx"
+    ],
+    "site/src/app/robots.ts": [],
+    "site/src/app/sitemap.ts": [],
+    "site/src/app/terms-of-service/page.tsx": [
+      "site/src/sections/raw.tsx",
+      "site/src/sections/SiteRuntime.tsx"
+    ],
+    "site/src/components/ui/button.tsx": [
+      "site/src/lib/utils.ts"
+    ],
+    "site/src/content/posts.json": [],
+    "site/src/lib/utils.ts": [],
+    "site/src/sections/fragments/about.html": [],
+    "site/src/sections/fragments/contactModal.html": [],
+    "site/src/sections/fragments/engage.html": [],
+    "site/src/sections/fragments/footer.html": [],
+    "site/src/sections/fragments/forecasts.html": [],
+    "site/src/sections/fragments/hero.html": [],
+    "site/src/sections/fragments/mission.html": [],
+    "site/src/sections/fragments/nav.html": [],
+    "site/src/sections/fragments/product.html": [],
+    "site/src/sections/fragments/record.html": [],
+    "site/src/sections/fragments/research.html": [],
+    "site/src/sections/fragments/sampleqs.html": [],
+    "site/src/sections/fragments/sampleqsModal.html": [],
+    "site/src/sections/fragments/solutions.html": [],
+    "site/src/sections/fragments/track.html": [],
+    "site/src/sections/fragments/usecases.html": [],
+    "site/src/sections/fragments/videoModal.html": [],
+    "site/src/sections/raw.tsx": [],
+    "site/src/sections/SiteRuntime.tsx": [],
+    "site/src/styles/site.webflow.css": [],
+    "site/tsconfig.json": [],
+    "SPEC_EDGE_LEVERS.md": [],
+    "tests/test_australia_epbc_referrals.py": [
+      "engine/__init__.py",
+      "engine/feeds/__init__.py",
+      "engine/feeds/australia_epbc_referrals.py",
+      "engine/feeds/collect_all.py",
+      "engine/feeds/ingest.py",
+      "engine/world_catalog.py",
+      "engine/world_state.py",
+      "tests/test_world_state.py"
+    ],
+    "tests/test_blm_mining_claims.py": [
+      "engine/__init__.py",
+      "engine/feeds/__init__.py",
+      "engine/feeds/blm_mining_claims.py",
+      "engine/feeds/collect_all.py",
+      "engine/feeds/ingest.py",
+      "engine/world_catalog.py",
+      "engine/world_state.py",
+      "tests/test_world_state.py"
+    ],
+    "tests/test_chat_bridge.py": [
+      "engine/__init__.py",
+      "engine/chat_bridge.py",
+      "engine/world_state.py"
+    ],
+    "tests/test_collect_all.py": [
+      "engine/feeds/__init__.py",
+      "engine/feeds/collect_all.py"
+    ],
+    "tests/test_data_offload.py": [
+      "engine/__init__.py",
+      "engine/data_offload.py"
+    ],
+    "tests/test_disk_guard.py": [
+      "engine/__init__.py",
+      "engine/disk_guard.py"
+    ],
+    "tests/test_europe_pmc.py": [
+      "engine/__init__.py",
+      "engine/feeds/__init__.py",
+      "engine/feeds/collect_all.py",
+      "engine/feeds/europe_pmc.py",
+      "engine/feeds/ingest.py",
+      "engine/world_catalog.py",
+      "engine/world_state.py",
+      "tests/test_world_state.py"
+    ],
+    "tests/test_feed_safety.py": [
+      "engine/__init__.py",
+      "engine/db.py",
+      "engine/feeds/__init__.py",
+      "engine/feeds/baci.py",
+      "engine/feeds/clinicaltrials.py",
+      "engine/feeds/collect_all.py",
+      "engine/feeds/comtrade.py",
+      "engine/feeds/cordis.py",
+      "engine/feeds/ecb_fx.py",
+      "engine/feeds/eonet.py",
+      "engine/feeds/epoch_ai.py",
+      "engine/feeds/eu_sanctions.py",
+      "engine/feeds/federal_register.py",
+      "engine/feeds/fred_financial.py",
+      "engine/feeds/fred.py",
+      "engine/feeds/gdacs_alerts.py",
+      "engine/feeds/gdelt.py",
+      "engine/feeds/global_equities.py",
+      "engine/feeds/ilo.py",
+      "engine/feeds/ingest.py",
+      "engine/feeds/lbnl.py",
+      "engine/feeds/metaculus.py",
+      "engine/feeds/nasa_gistemp.py",
+      "engine/feeds/nih_reporter.py",
+      "engine/feeds/noaa_climate_indices.py",
+      "engine/feeds/noaa_enso.py",
+      "engine/feeds/noaa_gml_greenhouse_gases.py",
+      "engine/feeds/noaa_nsidc_sea_ice.py",
+      "engine/feeds/noaa_swpc_solar.py",
+      "engine/feeds/nsf_awards.py",
+      "engine/feeds/ofac_sdn.py",
+      "engine/feeds/openfda_drugsfda.py",
+      "engine/feeds/owid.py",
+      "engine/feeds/patentsview.py",
+      "engine/feeds/pubmed.py",
+      "engine/feeds/semantic_scholar.py",
+      "engine/feeds/un_comtrade.py",
+      "engine/feeds/usaspending_sam.py",
+      "engine/feeds/usgs_earthquakes.py",
+      "engine/feeds/usgs_minerals.py",
+      "engine/feeds/wikipedia.py",
+      "engine/feeds/world_bank.py"
+    ],
+    "tests/test_forecast_world_state_context.py": [
+      "engine/forecastbench/__init__.py",
+      "engine/forecastbench/inference.py",
+      "engine/metaculus/__init__.py"
+    ],
+    "tests/test_forecastbench_dataset.py": [
+      "engine/__init__.py",
+      "engine/db.py",
+      "engine/forecastbench/__init__.py",
+      "engine/forecastbench/check_submission.py",
+      "engine/forecastbench/diversify.py",
+      "engine/forecastbench/llm_fill.py",
+      "engine/forecastbench/market.py",
+      "engine/forecastbench/opus_blend.py",
+      "engine/forecastbench/opus_forecaster.py",
+      "engine/forecastbench/submit.py"
+    ],
+    "tests/test_forecasting_control_plane.py": [
+      "engine/forecasting/calibration.py",
+      "engine/forecasting/ledger.py",
+      "engine/metaculus/__init__.py",
+      "engine/metaculus/markets.py"
+    ],
+    "tests/test_land_permit_sources.py": [
+      "engine/feeds/__init__.py",
+      "engine/feeds/land_permit_sources.py",
+      "tests/test_world_state.py"
+    ],
+    "tests/test_land_permits_canada_iaac.py": [
+      "engine/__init__.py",
+      "engine/feeds/__init__.py",
+      "engine/feeds/collect_all.py",
+      "engine/feeds/ingest.py",
+      "engine/feeds/land_permits_canada_iaac.py",
+      "engine/world_catalog.py",
+      "tests/test_world_state.py"
+    ],
+    "tests/test_miningterminal_permits.py": [
+      "engine/__init__.py",
+      "engine/feeds/__init__.py",
+      "engine/feeds/collect_all.py",
+      "engine/feeds/ingest.py",
+      "engine/feeds/miningterminal_permits.py",
+      "engine/world_catalog.py",
+      "engine/world_state.py",
+      "tests/test_world_state.py"
+    ],
+    "tests/test_pope_ultra.py": [
+      "engine/pope/ultra.py"
+    ],
+    "tests/test_quality.py": [
+      "engine/__init__.py",
+      "engine/db.py",
+      "engine/quality.py"
+    ],
+    "tests/test_raw_provenance.py": [
+      "engine/__init__.py",
+      "engine/db.py",
+      "engine/raw_provenance.py",
+      "engine/rawstore.py"
+    ],
+    "tests/test_rawstore.py": [
+      "engine/__init__.py",
+      "engine/db.py",
+      "engine/rawstore.py"
+    ],
+    "tests/test_research_papers_operation.py": [
+      "engine/__init__.py",
+      "engine/db.py",
+      "engine/research_papers.py"
+    ],
+    "tests/test_resourcecontracts.py": [
+      "engine/__init__.py",
+      "engine/feeds/__init__.py",
+      "engine/feeds/collect_all.py",
+      "engine/feeds/ingest.py",
+      "engine/feeds/resourcecontracts.py",
+      "engine/world_catalog.py",
+      "tests/test_world_state.py"
+    ],
+    "tests/test_us_permitting_dashboard.py": [
+      "engine/__init__.py",
+      "engine/feeds/__init__.py",
+      "engine/feeds/collect_all.py",
+      "engine/feeds/ingest.py",
+      "engine/feeds/us_permitting_dashboard.py",
+      "engine/world_catalog.py",
+      "engine/world_state.py",
+      "tests/test_world_state.py"
+    ],
+    "tests/test_world_catalog.py": [
+      "engine/__init__.py",
+      "engine/companies_house_enrich.py",
+      "engine/gleif_enrich.py",
+      "engine/rawstore.py",
+      "engine/sec_company_enrich.py",
+      "engine/wikidata_enrich.py",
+      "engine/world_catalog.py",
+      "tests/test_world_state.py"
+    ],
+    "tests/test_world_graph_deepseek.py": [
+      "engine/__init__.py",
+      "engine/world_graph_deepseek.py"
+    ],
+    "tests/test_world_graph.py": [
+      "engine/__init__.py",
+      "engine/world_graph.py"
+    ],
+    "tests/test_world_state.py": [
+      "engine/__init__.py",
+      "engine/db.py",
+      "engine/feeds/__init__.py",
+      "engine/feeds/ingest.py",
+      "engine/rawstore.py",
+      "engine/schemas.py",
+      "engine/world_state.py"
+    ],
+    "training/AWS.md": [],
+    "training/common.py": [],
+    "training/eval.py": [
+      "training/common.py"
+    ],
+    "training/grpo.py": [
+      "training/common.py"
+    ],
+    "training/launch_big_hunt.sh": [],
+    "training/launch_big.sh": [],
+    "training/launch_mumbai.sh": [],
+    "training/launch_residual.sh": [],
+    "training/launch_resilient.sh": [],
+    "training/launch_signal.sh": [],
+    "training/launch_smoke.sh": [],
+    "training/mlx_convert.py": [
+      "training/common.py"
+    ],
+    "training/mlx_eval.py": [
+      "training/common.py"
+    ],
+    "training/mlx_rewards.py": [
+      "training/common.py"
+    ],
+    "training/MLX.md": [],
+    "training/README.md": [],
+    "training/requirements-mlx.txt": [],
+    "training/requirements.txt": [],
+    "training/residual_eval.py": [],
+    "training/RESIDUAL_RECIPE.md": [],
+    "training/run_all.sh": [],
+    "training/run_big.sh": [],
+    "training/run_overnight.sh": [],
+    "training/run_residual.sh": [],
+    "training/run_residual2.sh": [],
+    "training/run_residual3.sh": [],
+    "training/run_smoke.sh": [],
+    "training/sft.py": [],
+    "training/watch_signal.sh": [],
+    "VATI_WORLD_GRAPH.md": [],
+    "VOICE.md": [],
+    "WORLD_DATA_PIPELINE.md": []
+  }
+}

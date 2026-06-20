@@ -1,0 +1,1412 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 20,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "AGENTS.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 7,
+      "nonEmptyLines": 4,
+      "sections": [
+        {
+          "heading": "AGENTS.md — operating notes",
+          "level": 1,
+          "line": 1
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 1
+      }
+    },
+    {
+      "path": "BRIEFING.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 325,
+      "nonEmptyLines": 263,
+      "sections": [
+        {
+          "heading": "BRIEFING.md — The whole initiative, in one place",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Layer 0 — In one paragraph",
+          "level": 2,
+          "line": 14
+        },
+        {
+          "heading": "Layer 1 — The one-page story (explain it to anyone)",
+          "level": 2,
+          "line": 27
+        },
+        {
+          "heading": "Layer 2 — What has actually been built (honest inventory)",
+          "level": 2,
+          "line": 58
+        },
+        {
+          "heading": "Layer 3 — What has actually been found (results, including the negatives)",
+          "level": 2,
+          "line": 101
+        },
+        {
+          "heading": "Layer 4 — The ideas over time (how the thinking evolved)",
+          "level": 2,
+          "line": 138
+        },
+        {
+          "heading": "Layer 5 — The honest scorecard (what's proven, what's not)",
+          "level": 2,
+          "line": 169
+        },
+        {
+          "heading": "Layer 6 — As a business / initiative (what this could become)",
+          "level": 2,
+          "line": 191
+        },
+        {
+          "heading": "Layer 7 — My honest opinion (no hedging)",
+          "level": 2,
+          "line": 229
+        },
+        {
+          "heading": "Appendix — Paste-ready context block for another AI",
+          "level": 2,
+          "line": 273
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 10
+      }
+    },
+    {
+      "path": "CLOUD_COSTS.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 65,
+      "nonEmptyLines": 56,
+      "sections": [
+        {
+          "heading": "CLOUD_COSTS.md — the credit-coverage rule (read before using ANY paid cloud resource)",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "HARD RULE",
+          "level": 2,
+          "line": 3
+        },
+        {
+          "heading": "RESOLUTION 2026-06-16 (Ruben)",
+          "level": 2,
+          "line": 8
+        },
+        {
+          "heading": "Incident 2026-06-16 — initial scare (Cost Explorer member-account view looked uncovered)",
+          "level": 2,
+          "line": 17
+        },
+        {
+          "heading": "Action taken",
+          "level": 2,
+          "line": 39
+        },
+        {
+          "heading": "How to verify credit coverage BEFORE using a cloud resource",
+          "level": 2,
+          "line": 45
+        },
+        {
+          "heading": "Path forward (pick one before resuming any cloud spend)",
+          "level": 2,
+          "line": 58
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 7
+      }
+    },
+    {
+      "path": "CONSTITUTION.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 40,
+      "nonEmptyLines": 26,
+      "sections": [
+        {
+          "heading": "CONSTITUTION.md — How We Work",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "1. GIGO gate — trust is earned, not ranked",
+          "level": 3,
+          "line": 10
+        },
+        {
+          "heading": "2. Strict layering — exhaust before advancing",
+          "level": 3,
+          "line": 13
+        },
+        {
+          "heading": "3. Cost gate — free first, ask before spending",
+          "level": 3,
+          "line": 16
+        },
+        {
+          "heading": "4. Ask, don't assume — pivotal choices are concise Decisions",
+          "level": 3,
+          "line": 19
+        },
+        {
+          "heading": "5. Minimalism — earn your place",
+          "level": 3,
+          "line": 22
+        },
+        {
+          "heading": "6. Vendored isolation — never leak secrets, never couple",
+          "level": 3,
+          "line": 25
+        },
+        {
+          "heading": "7. Forecasts are immutable + falsifiable",
+          "level": 3,
+          "line": 28
+        },
+        {
+          "heading": "8. Visual-first — if the human can't see it, it doesn't exist",
+          "level": 3,
+          "line": 31
+        },
+        {
+          "heading": "Reasoning vs. scale",
+          "level": 3,
+          "line": 36
+        },
+        {
+          "heading": "The one risk we actively guard against",
+          "level": 3,
+          "line": 39
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 11
+      }
+    },
+    {
+      "path": "DATA_LAYER_PLAN.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 268,
+      "nonEmptyLines": 221,
+      "sections": [
+        {
+          "heading": "DATA_LAYER_PLAN.md",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Current state (measured 2026-06-15)",
+          "level": 2,
+          "line": 21
+        },
+        {
+          "heading": "Source plan: storage, access, keys, proxies, cost",
+          "level": 2,
+          "line": 34
+        },
+        {
+          "heading": "Tier 1 — full-corpus substrate (own it; leading indicators)",
+          "level": 3,
+          "line": 39
+        },
+        {
+          "heading": "Tier 2 — full-history series (sample, do not hoard raw)",
+          "level": 3,
+          "line": 50
+        },
+        {
+          "heading": "Tier 3 — rolling window + extract events (never hoard raw)",
+          "level": 3,
+          "line": 59
+        },
+        {
+          "heading": "Storage totals (plan for)",
+          "level": 2,
+          "line": 72
+        },
+        {
+          "heading": "LOCAL DISK SAFETY — 2026-06-17",
+          "level": 2,
+          "line": 83
+        },
+        {
+          "heading": "METACULUS API STATUS — 2026-06-17",
+          "level": 2,
+          "line": 105
+        },
+        {
+          "heading": "Proxies — when actually needed",
+          "level": 2,
+          "line": 114
+        },
+        {
+          "heading": "Costs to approve (cost-gate \"quick nod\" items)",
+          "level": 2,
+          "line": 122
+        },
+        {
+          "heading": "Build order (highest leverage first)",
+          "level": 2,
+          "line": 131
+        },
+        {
+          "heading": "BUILD LOG — 2026-06-15 (keyless half shipped, one click away)",
+          "level": 2,
+          "line": 143
+        },
+        {
+          "heading": "STORAGE DECISION — RESOLVED 2026-06-15: keep it all AWS",
+          "level": 2,
+          "line": 171
+        },
+        {
+          "heading": "AWS BUILD LOG — 2026-06-15",
+          "level": 3,
+          "line": 185
+        },
+        {
+          "heading": "CITATION GRAPH — DONE 2026-06-15 (all-AWS, Athena)",
+          "level": 3,
+          "line": 195
+        },
+        {
+          "heading": "LEADING CHANNELS — DONE 2026-06-15 (the recall lever the goal named)",
+          "level": 3,
+          "line": 206
+        },
+        {
+          "heading": "DATA-QUALITY FINDING (GIGO gate) — OpenAlex spam cluster",
+          "level": 3,
+          "line": 216
+        },
+        {
+          "heading": "AI BACKEND CONNECTION — DONE 2026-06-15 (the keystone)",
+          "level": 3,
+          "line": 224
+        },
+        {
+          "heading": "LOADED THIS PASS",
+          "level": 3,
+          "line": 248
+        },
+        {
+          "heading": "DEFERRED (with reasons — not skipped)",
+          "level": 3,
+          "line": 254
+        },
+        {
+          "heading": "NEXT (all-AWS, no GCP)",
+          "level": 3,
+          "line": 262
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 22
+      }
+    },
+    {
+      "path": "EDGE_DATASET_PLAN.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 140,
+      "nonEmptyLines": 111,
+      "sections": [
+        {
+          "heading": "Edge Dataset + Finetune Plan",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "0. The non-negotiable: leak-freeness",
+          "level": 2,
+          "line": 17
+        },
+        {
+          "heading": "1. Sources (chosen for: dated, leak-auditable, free/keyless first)",
+          "level": 2,
+          "line": 39
+        },
+        {
+          "heading": "Labels + priors (scrapable, the easy half)",
+          "level": 3,
+          "line": 41
+        },
+        {
+          "heading": "Feature substrate — Lane A (structured, already in your 6GB layer)",
+          "level": 3,
+          "line": 49
+        },
+        {
+          "heading": "Feature substrate — Lane B (time-machine, phase 2)",
+          "level": 3,
+          "line": 58
+        },
+        {
+          "heading": "2. Row structure",
+          "level": 2,
+          "line": 70
+        },
+        {
+          "heading": "3. Costs (measured against the pricing pulled 2026-06-19)",
+          "level": 2,
+          "line": 96
+        },
+        {
+          "heading": "Dataset generation — cheap; spend is NOT the bottleneck",
+          "level": 3,
+          "line": 98
+        },
+        {
+          "heading": "Finetune compute",
+          "level": 3,
+          "line": 112
+        },
+        {
+          "heading": "4. Build order",
+          "level": 2,
+          "line": 126
+        },
+        {
+          "heading": "5. The raise framing (not \"fund a bigger model\")",
+          "level": 2,
+          "line": 137
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 12
+      }
+    },
+    {
+      "path": "FORECAST_LLM.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 453,
+      "nonEmptyLines": 387,
+      "sections": [
+        {
+          "heading": "FORECAST_LLM.md — building a forecasting LLM (full build-out)",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "0.0 Kill the \"LLMs can't beat human forecasters\" line (read this BEFORE anything)",
+          "level": 2,
+          "line": 12
+        },
+        {
+          "heading": "0.1 The board is won at INFERENCE time TODAY — the fine-tune is the AMPLIFIER, not the edge",
+          "level": 2,
+          "line": 34
+        },
+        {
+          "heading": "0. Verdict (read this first)",
+          "level": 2,
+          "line": 59
+        },
+        {
+          "heading": "1. State of the space (2026)",
+          "level": 2,
+          "line": 88
+        },
+        {
+          "heading": "2. Model selection",
+          "level": 2,
+          "line": 102
+        },
+        {
+          "heading": "3. The exact system flow",
+          "level": 2,
+          "line": 117
+        },
+        {
+          "heading": "4. Data spec (the core) — designed to match the real target",
+          "level": 2,
+          "line": 153
+        },
+        {
+          "heading": "4.1 The real schemas (so we match them)",
+          "level": 3,
+          "line": 161
+        },
+        {
+          "heading": "4.2 Our unified training row (superset; carries everything for training + audit)",
+          "level": 3,
+          "line": 187
+        },
+        {
+          "heading": "4.3 Question taxonomy (mint for diversity — don't overfit one template)",
+          "level": 3,
+          "line": 211
+        },
+        {
+          "heading": "4.4 The mix (this is what makes it \"enough\", not just big)",
+          "level": 3,
+          "line": 221
+        },
+        {
+          "heading": "4.5 Quality gates (every row must pass — this is the \"good & quality\" guarantee)",
+          "level": 3,
+          "line": 231
+        },
+        {
+          "heading": "4.6 How many rows — \"enough to be sure\", justified",
+          "level": 3,
+          "line": 252
+        },
+        {
+          "heading": "4.7 Generation procedure",
+          "level": 3,
+          "line": 260
+        },
+        {
+          "heading": "5. Training recipe",
+          "level": 2,
+          "line": 271
+        },
+        {
+          "heading": "5.1 SFT warmup",
+          "level": 3,
+          "line": 273
+        },
+        {
+          "heading": "5.2 GRPO",
+          "level": 3,
+          "line": 277
+        },
+        {
+          "heading": "5.3 Anti-reward-hacking (watch)",
+          "level": 3,
+          "line": 292
+        },
+        {
+          "heading": "6. The stack",
+          "level": 2,
+          "line": 299
+        },
+        {
+          "heading": "7. Compute & cost — with AWS credits",
+          "level": 2,
+          "line": 316
+        },
+        {
+          "heading": "POC (Qwen3-8B) — credit burn",
+          "level": 3,
+          "line": 323
+        },
+        {
+          "heading": "Scaled (post-raise / on credits)",
+          "level": 3,
+          "line": 331
+        },
+        {
+          "heading": "8. Phased build plan",
+          "level": 2,
+          "line": 343
+        },
+        {
+          "heading": "9. Eval protocol (non-negotiable)",
+          "level": 2,
+          "line": 426
+        },
+        {
+          "heading": "10. Honest risks / failure modes",
+          "level": 2,
+          "line": 433
+        },
+        {
+          "heading": "11. References",
+          "level": 2,
+          "line": 444
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 27
+      }
+    },
+    {
+      "path": "FORECAST_SYSTEM_CONTROL_PLANE.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 39,
+      "nonEmptyLines": 33,
+      "sections": [
+        {
+          "heading": "Forecast System Control Plane",
+          "level": 1,
+          "line": 1
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 1
+      }
+    },
+    {
+      "path": "FUTURE_MAP.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 491,
+      "nonEmptyLines": 404,
+      "sections": [
+        {
+          "heading": "FUTURE_MAP — where scarcity / value migrates next",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Synthesis — the cross-cutting read",
+          "level": 2,
+          "line": 13
+        },
+        {
+          "heading": "Top pre-consensus calls",
+          "level": 2,
+          "line": 17
+        },
+        {
+          "heading": "Dependency graph",
+          "level": 2,
+          "line": 38
+        },
+        {
+          "heading": "High-conviction tier — 18 calls that survived the refute pass",
+          "level": 2,
+          "line": 85
+        },
+        {
+          "heading": "AI-compute upstream constraint cascade (HBM -> logic base-die -> bonders/substrates -> photonics/lasers)",
+          "level": 3,
+          "line": 87
+        },
+        {
+          "heading": "`compute-frontier-25` · The binding constraint on HBM4E/custom-HBM ramp shifts off DRAM cell yield onto leading-edge LOGIC foundry capacity for the base die: by H2 2027 the HBM base-die (TSMC N5/N3-class) becomes the gating wafer input, with custom-HBM logic-die NRE/wafer allocation, not stacking yield, determining who can ship premium HBM to NVIDIA/Google.",
+          "level": 4,
+          "line": 89
+        },
+        {
+          "heading": "Datacenter power & grid balance-of-plant migration (steel -> switchgear -> gas -> pipeline -> nuclear)",
+          "level": 3,
+          "line": 100
+        },
+        {
+          "heading": "`constraint-migration-124` · Once transformer assembly capacity is funded (Hitachi/Siemens 2028 plants), the binding constraint moves upstream to grain-oriented electrical steel (GOES) core laminations. By H2 2027, GOES allocation -- not transformer fab slots -- becomes the explicitly cited gating item in US data-center power procurement, and CRGO spot premiums (M3/M4 grade) rise >25% above 2025 levels.",
+          "level": 4,
+          "line": 102
+        },
+        {
+          "heading": "Research methods migration: foundation models & cross-field technique diffusion",
+          "level": 3,
+          "line": 113
+        },
+        {
+          "heading": "`arxiv-subtopic-2` · Machine-learning interatomic potentials (MLIP universal foundation models: MACE/CHGNet/Orb/equivariant-GNN class) cross into industrial materials/catalysis R&D as a standard screening tier: by end-2027 at least 3 chemical/materials/battery firms publicly report MLIP-driven screening in pipelines or peer-reviewed work, and universal-MLIP arXiv share keeps rising.",
+          "level": 4,
+          "line": 115
+        },
+        {
+          "heading": "`cross-field-diffusion-13` · Deep reinforcement learning for real-time magnetic plasma control crosses from research tokamaks (TCV/KSTAR demos) INTO a privately-funded fusion startup's pilot/demonstration device control stack: at least one private fusion company (CFS, TAE, Tokamak Energy, Type One, Zap) publicly confirms an RL/learned controller in its real-time plasma-control loop on hardware, not just simulation.",
+          "level": 4,
+          "line": 126
+        },
+        {
+          "heading": "`cross-field-diffusion-12` · Universal machine-learning interatomic potentials (MLIP foundation models like UMA/MatterSim) cross from materials screening INTO mainstream wet-lab heterogeneous-catalyst discovery: at least one major industrial catalyst/chemicals producer (BASF, Johnson Matthey, Sabic, Dow) publicly attributes a new commercial catalyst formulation or process-condition change to MLIP-driven screening rather than DFT or empirical Edisonian search.",
+          "level": 4,
+          "line": 137
+        },
+        {
+          "heading": "`cross-field-diffusion-14` · Neural operators (Fourier/transformer PDE solvers, born in academic ML) cross INTO the commercial EDA/semiconductor TCAD and thermal/electromigration sign-off flow: a major EDA vendor (Synopsys, Cadence, Ansys/Synopsys) ships or publicly demos a neural-operator surrogate replacing a finite-element step in a chip thermal or stress sign-off product.",
+          "level": 4,
+          "line": 148
+        },
+        {
+          "heading": "`cross-field-diffusion-16` · Conformal prediction (distribution-free uncertainty, born in statistics/ML) crosses INTO autonomous-laboratory / self-driving-lab decision loops as the standard mechanism for deciding which experiments to run, with multiple self-driving-lab platforms reporting conformal-guided active experiment selection.",
+          "level": 4,
+          "line": 159
+        },
+        {
+          "heading": "`arxiv-subtopic-3` · Continuous/test-time learning and memory architectures (beyond static-weights + context window) become a fast-growing published frontier sub-topic: arXiv share of papers on 'continual/online weight adaptation, learned memory modules, test-time training' among frontier-affiliated authors at least doubles by end-2027 and at least one frontier lab ships a model with persistent learned memory beyond context.",
+          "level": 4,
+          "line": 170
+        },
+        {
+          "heading": "`cross-field-diffusion-15` · Differentiable programming / autodiff (born in deep learning) crosses INTO end-to-end optimization of physical fabrication processes: at least one semiconductor or advanced-manufacturing firm publicly reports a differentiable-simulation pipeline used to co-optimize a process recipe (lithography, deposition, or etch) with the device design.",
+          "level": 4,
+          "line": 181
+        },
+        {
+          "heading": "Biotech bottleneck migration: off modality, onto delivery / shared upstream / capacity inversion",
+          "level": 3,
+          "line": 192
+        },
+        {
+          "heading": "`biotech-health-55` · The binding constraint for in-vivo gene editing (base/prime editing, e.g. Verve, Beam, Prime Medicine in-vivo programs) becomes liver-extrahepatic targeted delivery, NOT the editor enzyme: the first non-liver in-vivo editing program (CNS, muscle, lung, or HSC in-vivo) to show human proof-of-mechanism will do so via a novel delivery modality (not naked LNP) by resolution date.",
+          "level": 4,
+          "line": 194
+        },
+        {
+          "heading": "Robotics/humanoid: rent in the smallest mechanical sub-components & deployment software",
+          "level": 3,
+          "line": 205
+        },
+        {
+          "heading": "`robotics-manufacturing-91` · A non-China LFP-cell or cathode equipment+process bottleneck binds US battery reshoring: by end-2027, the gating constraint for qualified domestic LFP cell output is not gigafactory floor space but the scarcity of process-qualified coating/calendering equipment lines AND the engineers who can tune them, with >3 announced US LFP lines slipping production timelines citing equipment/process-qualification, not demand.",
+          "level": 4,
+          "line": 207
+        },
+        {
+          "heading": "`robotics-manufacturing-90` · Auto-commissioning / sim-to-real deployment software captures the rent that integration labor scarcity creates: by mid-2028 at least 2 robot OEMs or large integrators standardize on a foundation-model-driven auto-programming layer (natural-language or demonstration-to-policy) that cuts cell commissioning time >40%, and this software layer is sold/priced separately as the value-bearing component.",
+          "level": 4,
+          "line": 218
+        },
+        {
+          "heading": "Water/climate-adaptation: physically-capped inputs gate datacenters, ag, and shipping",
+          "level": 3,
+          "line": 229
+        },
+        {
+          "heading": "`climate-water-agri-101` · A US groundwater basin enters formal adjudication or mandatory pumping curtailment that strands a material share of permitted agricultural irrigation, repricing senior water rights upward >30% in that basin's transfer market within 18 months.",
+          "level": 4,
+          "line": 231
+        },
+        {
+          "heading": "`climate-water-agri-102` · Phosphogypsum / phosphate-processing waste stack capacity (radioactive byproduct disposal) becomes the binding permitting constraint on expanding US/EU low-cadmium phosphate processing, not the rock itself.",
+          "level": 4,
+          "line": 242
+        },
+        {
+          "heading": "`climate-water-agri-103` · Brackish/seawater desalination concentrate (brine) disposal capacity -- not desal energy or membranes -- becomes the binding permitting constraint that gates new inland desalination capacity in the arid US Southwest.",
+          "level": 4,
+          "line": 253
+        },
+        {
+          "heading": "Defense/space dual-use: specialty sub-component chokepoints behind every platform",
+          "level": 3,
+          "line": 264
+        },
+        {
+          "heading": "`defense-space-dualuse-113` · Tactical-grade fiber-optic gyro (FOG) and MEMS IMU supply becomes the binding input for mass-produced one-way-attack drones and loitering munitions as GPS-denied navigation requirements push every munition toward inertial-grade sensors; allied-sourced tactical IMU unit pricing fails to fall on the cost curve the drone-attritability thesis assumes.",
+          "level": 4,
+          "line": 266
+        },
+        {
+          "heading": "`defense-space-dualuse-112` · Radiation-hardened space-grade FPGAs/SoCs become the binding constraint on proliferated-LEO defense constellations: lead times for rad-hard reconfigurable logic (Microchip RTG4-class and successors) extend past 52 weeks and a US-allied rad-hard foundry capacity gap forces program reschedules in at least one SDA Tranche or comparable proliferated-constellation award.",
+          "level": 4,
+          "line": 277
+        },
+        {
+          "heading": "`defense-space-dualuse-117` · Trusted/secure microelectronics packaging and assembly (advanced packaging on a DMEA-accredited or domestic line) — not wafer fab — becomes the binding constraint for fielding leading-edge compute in defense autonomy/edge-AI systems; a defense edge-AI/autonomy program cites trusted advanced-packaging capacity as the limiter.",
+          "level": 4,
+          "line": 288
+        },
+        {
+          "heading": "Wide candidate pool — 117 calls (generate-wide; pricing risk flagged, not yet high-conviction)",
+          "level": 2,
+          "line": 301
+        },
+        {
+          "heading": "AI-compute upstream constraint cascade (HBM -> logic base-die -> bonders/substrates -> photonics/lasers)",
+          "level": 3,
+          "line": 305
+        },
+        {
+          "heading": "Datacenter power & grid balance-of-plant migration (steel -> switchgear -> gas -> pipeline -> nuclear)",
+          "level": 3,
+          "line": 327
+        },
+        {
+          "heading": "China-concentrated critical-materials midstream chokepoints & export-control weaponization",
+          "level": 3,
+          "line": 352
+        },
+        {
+          "heading": "Research methods migration: foundation models & cross-field technique diffusion",
+          "level": 3,
+          "line": 369
+        },
+        {
+          "heading": "Biotech bottleneck migration: off modality, onto delivery / shared upstream / capacity inversion",
+          "level": 3,
+          "line": 392
+        },
+        {
+          "heading": "Robotics/humanoid: rent in the smallest mechanical sub-components & deployment software",
+          "level": 3,
+          "line": 410
+        },
+        {
+          "heading": "Water/climate-adaptation: physically-capped inputs gate datacenters, ag, and shipping",
+          "level": 3,
+          "line": 423
+        },
+        {
+          "heading": "Defense/space dual-use: specialty sub-component chokepoints behind every platform",
+          "level": 3,
+          "line": 438
+        },
+        {
+          "heading": "Quantum & cryo enabling stack: He-3, dilution fridges, QEC decoders, cryo control as the real gate",
+          "level": 3,
+          "line": 453
+        },
+        {
+          "heading": "Energy-transition chemistries & patent IP-fencing tells (Na-ion, AEM, iron-air, ammonia-cracking, GaN, recycling)",
+          "level": 3,
+          "line": 463
+        },
+        {
+          "heading": "Provenance",
+          "level": 2,
+          "line": 474
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 42
+      }
+    },
+    {
+      "path": "LEADERSHIP_AND_SUPERFORECASTING.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 91,
+      "nonEmptyLines": 55,
+      "sections": [
+        {
+          "heading": "Leadership, Superforecasters, and the LLM Translation",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "1. Would I change what \"leadership\" is? Yes.",
+          "level": 2,
+          "line": 7
+        },
+        {
+          "heading": "2. How superforecasters actually do it",
+          "level": 2,
+          "line": 25
+        },
+        {
+          "heading": "3. The LLM translation: turning each habit into a mechanism",
+          "level": 2,
+          "line": 53
+        },
+        {
+          "heading": "What this says to prioritize",
+          "level": 3,
+          "line": 70
+        },
+        {
+          "heading": "Sources",
+          "level": 2,
+          "line": 82
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 6
+      }
+    },
+    {
+      "path": "NEGATIVE_RESULT_FINETUNE.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 88,
+      "nonEmptyLines": 66,
+      "sections": [
+        {
+          "heading": "We fine-tuned an LLM to forecast on 30k auto-minted questions. It got worse. Here's exactly why.",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "What we built",
+          "level": 2,
+          "line": 7
+        },
+        {
+          "heading": "What happened",
+          "level": 2,
+          "line": 18
+        },
+        {
+          "heading": "The root cause was in the data, not the training",
+          "level": 2,
+          "line": 31
+        },
+        {
+          "heading": "Why this is a beyond-brier story",
+          "level": 2,
+          "line": 47
+        },
+        {
+          "heading": "The fix (validated, in progress)",
+          "level": 2,
+          "line": 60
+        },
+        {
+          "heading": "Why we are not open-sourcing the full dataset",
+          "level": 2,
+          "line": 75
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 7
+      }
+    },
+    {
+      "path": "OPS.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 39,
+      "nonEmptyLines": 32,
+      "sections": [
+        {
+          "heading": "OPS.md — the one-and-done forecasting setup (read this when confused)",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "What runs automatically (cron, already installed)",
+          "level": 2,
+          "line": 7
+        },
+        {
+          "heading": "The ONLY things you ever touch (one-time, ~5 min, then never again)",
+          "level": 2,
+          "line": 17
+        },
+        {
+          "heading": "Reliability caveat",
+          "level": 2,
+          "line": 24
+        },
+        {
+          "heading": "Cost (plain)",
+          "level": 2,
+          "line": 29
+        },
+        {
+          "heading": "Check status anytime (optional, not required)",
+          "level": 2,
+          "line": 35
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 6
+      }
+    },
+    {
+      "path": "OVERNIGHT_BRIEFING.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 47,
+      "nonEmptyLines": 41,
+      "sections": [
+        {
+          "heading": "Overnight Briefing — Data Lake + the Loop-Closing Measurement",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "TL;DR (the bigger picture)",
+          "level": 2,
+          "line": 4
+        },
+        {
+          "heading": "What we have (verified in S3)",
+          "level": 2,
+          "line": 12
+        },
+        {
+          "heading": "The measurement (forecast_bank: 1,500 questions × 3–5 frontier models, real outcomes)",
+          "level": 2,
+          "line": 30
+        },
+        {
+          "heading": "Prioritized next moves (high ROI first)",
+          "level": 2,
+          "line": 36
+        },
+        {
+          "heading": "Honest caveats",
+          "level": 2,
+          "line": 42
+        },
+        {
+          "heading": "Still running (background, no Claude needed; Mac caffeinated + on AC)",
+          "level": 2,
+          "line": 46
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 7
+      }
+    },
+    {
+      "path": "PATENT_NEEDLES.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 95,
+      "nonEmptyLines": 76,
+      "sections": [
+        {
+          "heading": "Patent-channel needles — session 2026-06-13",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "What is wired",
+          "level": 2,
+          "line": 7
+        },
+        {
+          "heading": "Run it on a topic (confirmation)",
+          "level": 3,
+          "line": 19
+        },
+        {
+          "heading": "The instrument is validated",
+          "level": 2,
+          "line": 26
+        },
+        {
+          "heading": "Discovery scan (the \"find the next big thing\" instrument)",
+          "level": 2,
+          "line": 40
+        },
+        {
+          "heading": "Gated calls now tracked (hypotheses, NOT cards)",
+          "level": 2,
+          "line": 58
+        },
+        {
+          "heading": "Next candidates to gate (for a later session)",
+          "level": 2,
+          "line": 74
+        },
+        {
+          "heading": "Resume command (paste into a clean session)",
+          "level": 2,
+          "line": 84
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 8
+      }
+    },
+    {
+      "path": "POPE_ULTRA.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 146,
+      "nonEmptyLines": 105,
+      "sections": [
+        {
+          "heading": "Pope Ultra",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "The Product Shift",
+          "level": 2,
+          "line": 10
+        },
+        {
+          "heading": "The Truth Rule",
+          "level": 2,
+          "line": 27
+        },
+        {
+          "heading": "The Layers",
+          "level": 2,
+          "line": 50
+        },
+        {
+          "heading": "L0 - Claim Integrity",
+          "level": 3,
+          "line": 52
+        },
+        {
+          "heading": "L1 - Decision Surface",
+          "level": 3,
+          "line": 57
+        },
+        {
+          "heading": "L2 - Named World Map",
+          "level": 3,
+          "line": 68
+        },
+        {
+          "heading": "L3 - Verification",
+          "level": 3,
+          "line": 80
+        },
+        {
+          "heading": "L4 - Action Economics",
+          "level": 3,
+          "line": 91
+        },
+        {
+          "heading": "L5 - Outreach",
+          "level": 3,
+          "line": 104
+        },
+        {
+          "heading": "L6 - Monitoring",
+          "level": 3,
+          "line": 115
+        },
+        {
+          "heading": "CLI",
+          "level": 2,
+          "line": 120
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 12
+      }
+    },
+    {
+      "path": "README.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 52,
+      "nonEmptyLines": 44,
+      "sections": [
+        {
+          "heading": "Vati — an honest, leak-free forecasting instrument",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "What's proven vs not (stated plainly)",
+          "level": 2,
+          "line": 22
+        },
+        {
+          "heading": "The sealed record",
+          "level": 2,
+          "line": 37
+        },
+        {
+          "heading": "How it's built",
+          "level": 2,
+          "line": 45
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 4
+      }
+    },
+    {
+      "path": "RESEARCH_PAPERS_OPERATION.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 128,
+      "nonEmptyLines": 93,
+      "sections": [
+        {
+          "heading": "RESEARCH_PAPERS_OPERATION.md",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Non-negotiables",
+          "level": 2,
+          "line": 9
+        },
+        {
+          "heading": "Current command",
+          "level": 2,
+          "line": 21
+        },
+        {
+          "heading": "Source plan",
+          "level": 2,
+          "line": 44
+        },
+        {
+          "heading": "Execution shape",
+          "level": 2,
+          "line": 57
+        },
+        {
+          "heading": "EC2 path",
+          "level": 2,
+          "line": 69
+        },
+        {
+          "heading": "Pilot run — 2026-06-18",
+          "level": 2,
+          "line": 91
+        },
+        {
+          "heading": "What \"all papers\" means",
+          "level": 2,
+          "line": 124
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 8
+      }
+    },
+    {
+      "path": "SECURITY_CLOUDFLARE.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 77,
+      "nonEmptyLines": 51,
+      "sections": [
+        {
+          "heading": "Cloudflare security runbook",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Turnstile for `Work with us`",
+          "level": 2,
+          "line": 6
+        },
+        {
+          "heading": "WAF custom rules",
+          "level": 2,
+          "line": 32
+        },
+        {
+          "heading": "Managed protections",
+          "level": 2,
+          "line": 67
+        },
+        {
+          "heading": "Deployment posture",
+          "level": 2,
+          "line": 73
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 5
+      }
+    },
+    {
+      "path": "SPEC_EDGE_LEVERS.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 124,
+      "nonEmptyLines": 80,
+      "sections": [
+        {
+          "heading": "Spec: the two edge levers",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Lever 1: sequential Bayesian update loop",
+          "level": 2,
+          "line": 9
+        },
+        {
+          "heading": "The idea, and why it beats one-shot",
+          "level": 3,
+          "line": 14
+        },
+        {
+          "heading": "Flow",
+          "level": 3,
+          "line": 30
+        },
+        {
+          "heading": "Signatures",
+          "level": 3,
+          "line": 39
+        },
+        {
+          "heading": "Acceptance gate (leak-free)",
+          "level": 3,
+          "line": 53
+        },
+        {
+          "heading": "Lever 2: decorrelated structural member",
+          "level": 2,
+          "line": 63
+        },
+        {
+          "heading": "The idea, and the one rule that makes or breaks it",
+          "level": 3,
+          "line": 68
+        },
+        {
+          "heading": "Flow",
+          "level": 3,
+          "line": 76
+        },
+        {
+          "heading": "Signatures",
+          "level": 3,
+          "line": 82
+        },
+        {
+          "heading": "Acceptance gate: contribution-beyond-price (the leadership metric)",
+          "level": 3,
+          "line": 91
+        },
+        {
+          "heading": "Shared follow-ups in `ensemble.py`",
+          "level": 2,
+          "line": 103
+        },
+        {
+          "heading": "Build order",
+          "level": 2,
+          "line": 112
+        },
+        {
+          "heading": "Honest risks",
+          "level": 2,
+          "line": 120
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 14
+      }
+    },
+    {
+      "path": "VATI_WORLD_GRAPH.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 84,
+      "nonEmptyLines": 63,
+      "sections": [
+        {
+          "heading": "VATI_WORLD_GRAPH - the persistent future atlas",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "What this is",
+          "level": 2,
+          "line": 3
+        },
+        {
+          "heading": "The spine",
+          "level": 2,
+          "line": 12
+        },
+        {
+          "heading": "Artifact contract",
+          "level": 2,
+          "line": 29
+        },
+        {
+          "heading": "Agent topology",
+          "level": 2,
+          "line": 48
+        },
+        {
+          "heading": "Quality bar",
+          "level": 2,
+          "line": 70
+        },
+        {
+          "heading": "Product shape",
+          "level": 2,
+          "line": 79
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 7
+      }
+    }
+  ]
+}

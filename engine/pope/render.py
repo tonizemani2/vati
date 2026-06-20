@@ -8,7 +8,7 @@ Usage:
     python -m engine.pope.render <spec.json> <out_basepath>
     # writes <out_basepath>.html and <out_basepath>.pdf
 
-Spec JSON shape (see engine/pope/README.md for the full contract):
+    Spec JSON shape (see engine/pope/README.md for the full contract):
     {
       "title": "Where Scarcity Migrates Next",
       "subtitle": "...",
@@ -20,8 +20,8 @@ Spec JSON shape (see engine/pope/README.md for the full contract):
       "runner_ups": [ {"seed": "", "case": "", "why_not": ""} ]
     }
 Each thesis: id, headline, boom, domain, vision_p, clause_p, resolves,
-structural, pre_consensus, price_channel(optional), needle, metric, kill,
-why, refute(optional).
+	structural, pre_consensus, price_channel(optional), needle, metric, kill,
+	why, refute(optional), implications(optional).
 """
 from __future__ import annotations
 
@@ -33,13 +33,23 @@ import shutil
 import subprocess
 import sys
 
+from engine.pope import charts
+
 
 # ---------------------------------------------------------------- text helpers
 def _inline(text: str) -> str:
     """Escape, then re-enable a tiny markdown subset (**bold**, *italic*)."""
     if text is None:
         return ""
-    out = html.escape(str(text))
+    raw = (
+        str(text)
+        .replace("\u2014", " - ")
+        .replace("\u2013", "-")
+        .replace("\u2011", "-")
+        .replace("\u2212", "-")
+        .replace("\u2026", "...")
+    )
+    out = html.escape(raw)
     out = re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", out)
     out = re.sub(r"(?<!\*)\*(?!\*)(.+?)(?<!\*)\*(?!\*)", r"<em>\1</em>", out)
     return out
@@ -57,7 +67,7 @@ def _field(label: str, text: str, kind: str = "field") -> str:
 
 def _pct(v) -> str:
     if v is None:
-        return "&mdash;"
+        return "-"
     v = float(v)
     if v <= 1.0:  # workflow returns 0-1 fractions (0.82); authored specs use 0-100
         v *= 100
@@ -71,7 +81,7 @@ def _clip(text, n=110) -> str:
     text = str(text).strip()
     if len(text) <= n:
         return text
-    return text[:n].rsplit(" ", 1)[0].rstrip(",;:.") + "…"
+    return text[:n].rsplit(" ", 1)[0].rstrip(",;:.") + "..."
 
 
 # ------------------------------------------------------------------- templates
@@ -84,67 +94,94 @@ FONT_CSS = """
   @font-face{font-family:'Gt Standard Mono';font-weight:500;font-style:normal;font-display:swap;src:url('https://cdn.prod.website-files.com/68907168d294618a86ec6518/689b29750af0e8f994b5a45e_GT-Standard-Mono-Narrow-Medium.woff2') format('woff2');}
 """
 
-# Brand tokens mirror the live site (site.webflow.css) and the /forecasts/ web
-# page (publish_site.py): paper #f3f2f0, ink #343434, near-black #0c0b10, brand
-# indigo #6d6afc / deep #4a47c4. The PDF now reads as the same family as the site.
+# Print system: memo-like, mostly monochrome, with one signal accent. The live
+# site can stay more branded; the PDFs need to read as research artifacts.
 CSS = FONT_CSS + """
-  :root { --paper:#f3f2f0; --ink:#343434; --dark:#0c0b10; --brand:#6d6afc; --brand-deep:#4a47c4; --line:rgba(12,11,16,.14); --mut:#6c6c6c; }
-  @page { size: Letter; margin: 22mm 20mm 20mm 20mm;
-    @bottom-center { content: counter(page); font-family: 'Gt Standard Mono', monospace; font-size: 8.5pt; color: #9a9a9a; } }
+  :root { --page:#fbfaf7; --paper:#f2f0ea; --ink:#151515; --text:#33312d; --mut:#706c65; --quiet:#9b958d; --line:#d9d4cc; --line-strong:#151515; --accent:#6d6afc; --accent-soft:#eeedff; }
+  @page { size: Letter; margin: 18mm 17mm 18mm 17mm;
+    @bottom-left { content: "Vaticinus"; font-family: 'Gt Standard Mono', monospace; font-size: 7.5pt; color: #a7a19a; }
+    @bottom-center { content: counter(page); font-family: 'Gt Standard Mono', monospace; font-size: 8pt; color: #a7a19a; } }
   html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
-  body { font-family: 'Gt Standard', Arial, sans-serif; font-weight: 400; color: #343434; line-height: 1.55; font-size: 10.5pt; margin: 0; }
-  h1, h2, h3, h4 { font-family: 'Gt Standard', Arial, sans-serif; font-weight: 500; color: #0c0b10; line-height: 1.12; letter-spacing: -0.01em; }
-  h1 { font-size: 26pt; letter-spacing: -0.02em; margin: 0 0 8px; }
-  h2 { font-size: 15pt; margin: 26px 0 8px; border-bottom: 1.5px solid #0c0b10; padding-bottom: 6px; }
-  h3 { font-size: 12.5pt; margin: 20px 0 4px; color: #0c0b10; }
-  h4 { font-family: 'Gt Standard Mono', monospace; font-size: 9.5pt; margin: 14px 0 3px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--mut); }
-  p { margin: 0 0 9px; }
-  .accent { color: var(--brand-deep); } .muted { color: var(--mut); } .small { font-size: 9pt; } strong { color: #0c0b10; }
-  .cover { padding-top: 30mm; border-top: 6px solid var(--brand); }
-  .cover .kicker { font-family: 'Gt Standard Mono', monospace; font-weight: 500; text-transform: uppercase; letter-spacing: 0.18em; font-size: 9.5pt; color: var(--brand-deep); margin-bottom: 16px; }
-  .cover .sub { font-size: 13pt; color: var(--mut); margin-top: 10px; font-style: italic; }
-  .cover .meta { margin-top: 30mm; font-family: 'Gt Standard Mono', monospace; font-size: 9pt; color: var(--mut); line-height: 1.8; }
-  .cover .spine { margin-top: 16px; padding: 13px 15px; background: var(--paper); border-left: 4px solid var(--brand); border-radius: 0 8px 8px 0; font-size: 9.5pt; }
+  body { font-family: 'Gt Standard', Arial, sans-serif; font-weight: 400; color: var(--text); line-height: 1.48; font-size: 10pt; margin: 0; background: var(--page); }
+  h1, h2, h3, h4 { font-family: 'Gt Standard', Arial, sans-serif; font-weight: 500; color: var(--ink); line-height: 1.08; letter-spacing: 0; }
+  h1 { font-size: 34pt; margin: 0; max-width: 650px; }
+  h2 { font-size: 17pt; margin: 0; }
+  h3 { font-size: 11.8pt; margin: 18px 0 5px; color: var(--ink); }
+  h4 { font-family: 'Gt Standard Mono', monospace; font-size: 8.2pt; margin: 12px 0 3px; color: var(--mut); }
+  p { margin: 0 0 8px; }
+  .accent { color: var(--accent); } .muted { color: var(--mut); } .small { font-size: 8.7pt; } strong { color: var(--ink); font-weight: 500; }
+  .cover { min-height: 238mm; display: flex; flex-direction: column; }
+  .cover .mast { display: flex; justify-content: space-between; align-items: baseline; border-top: 2px solid var(--ink); border-bottom: 1px solid var(--line); padding: 8px 0 10px; font-family: 'Gt Standard Mono', monospace; font-weight: 500; font-size: 8pt; color: var(--mut); }
+  .cover .mast span:last-child { color: var(--accent); }
+  .cover .title-block { padding-top: 33mm; }
+  .cover .sub { font-size: 13.5pt; color: var(--mut); margin-top: 10px; max-width: 610px; line-height: 1.38; }
+  .cover .frame { margin-top: auto; display: grid; grid-template-columns: 1.15fr .85fr; gap: 18px; border-top: 2px solid var(--ink); border-bottom: 1px solid var(--line); padding: 15px 0 14px; }
+  .cover .frame-copy { font-size: 10pt; max-width: 420px; }
+  .cover .frame-copy .label { display: block; font-family: 'Gt Standard Mono', monospace; font-weight: 500; font-size: 7.7pt; color: var(--accent); margin-bottom: 4px; }
+  .cover .meta { display: grid; grid-template-columns: 1fr; gap: 7px; font-size: 9pt; }
+  .cover .meta div { border-top: 1px solid var(--line); padding-top: 6px; }
+  .cover .meta span { display: block; font-family: 'Gt Standard Mono', monospace; font-size: 7.3pt; color: var(--quiet); margin-bottom: 1px; }
   .page-break { page-break-before: always; }
-  table { border-collapse: collapse; width: 100%; font-size: 9.2pt; margin: 10px 0 14px; }
-  th, td { text-align: left; padding: 6px 8px; vertical-align: top; }
-  thead th { background: #0c0b10; color: #fff; font-family: 'Gt Standard Mono', monospace; font-weight: 500; font-size: 8.4pt; text-transform: uppercase; letter-spacing: 0.05em; }
-  tbody tr:nth-child(even) { background: var(--paper); }
+  .section-rule { border-top: 2px solid var(--ink); padding-top: 10px; margin-bottom: 14px; }
+  table { border-collapse: collapse; table-layout: fixed; width: 100%; font-size: 8.1pt; line-height: 1.28; margin: 10px 0 11px; border-top: 1.5px solid var(--ink); border-bottom: 1px solid var(--line); }
+  th, td { text-align: left; padding: 4.5px 6px; vertical-align: top; overflow-wrap: anywhere; }
+  thead th { border-bottom: 1px solid var(--ink); color: var(--mut); font-family: 'Gt Standard Mono', monospace; font-weight: 500; font-size: 7.3pt; }
+  tbody tr + tr { border-top: 1px solid var(--line); }
+  tbody tr:nth-child(even) { background: rgba(242,240,234,.58); }
+  tr { break-inside: avoid; }
   td.num { font-family: 'Gt Standard Mono', monospace; font-variant-numeric: tabular-nums; white-space: nowrap; }
   .thesis { page-break-before: always; }
-  .thesis-head { display: flex; justify-content: space-between; align-items: baseline; border-bottom: 1.5px solid #0c0b10; padding-bottom: 6px; margin-bottom: 4px; }
-  .thesis-head h2 { border: 0; margin: 0; padding: 0; }
-  .thesis-head .id { font-family: 'Gt Standard Mono', monospace; font-weight: 500; font-size: 9pt; color: #fff; background: var(--brand); padding: 3px 9px; border-radius: 6px; letter-spacing: 0.08em; }
-  .prob-band { display: flex; gap: 10px; margin: 10px 0 14px; }
-  .prob-card { flex: 1; border: 1px solid var(--line); border-radius: 10px; padding: 10px 12px; }
-  .prob-card .label { font-family: 'Gt Standard Mono', monospace; font-weight: 500; font-size: 7.6pt; text-transform: uppercase; letter-spacing: 0.08em; color: var(--mut); }
-  .prob-card .val { font-family: 'Gt Standard', Arial, sans-serif; font-weight: 500; font-size: 20pt; color: #0c0b10; line-height: 1.1; }
-  .prob-card.vision { background: #edf3ec; border-color: #cfe0c8; }
-  .prob-card.vision .val { color: #2f5a2a; }
-  .prob-card.clause { background: rgba(109,106,252,.10); border-color: rgba(109,106,252,.32); }
-  .prob-card.clause .val { color: var(--brand-deep); }
-  .prob-card.date { background: #faf6ee; border-color: #e7dcc4; }
-  .prob-card.date .val { color: #7a611f; }
-  .prob-card .val.sm { font-size: 12.5pt; padding-top: 5px; }
-  .field { margin: 7px 0; }
-  .field .k { font-family: 'Gt Standard Mono', monospace; font-weight: 500; font-size: 8.2pt; text-transform: uppercase; letter-spacing: 0.07em; color: var(--brand-deep); display: block; margin-bottom: 2px; }
-  .why { background: rgba(109,106,252,.07); border-left: 4px solid var(--brand); border-radius: 0 8px 8px 0; padding: 10px 13px; margin: 10px 0; }
-  .why .k { color: var(--brand-deep); }
-  .footer-note { margin-top: 6px; font-family: 'Gt Standard Mono', monospace; font-size: 8.4pt; color: #9a9a9a; }
+  .thesis-head { display: grid; grid-template-columns: 42px 1fr; gap: 13px; border-top: 2px solid var(--ink); padding-top: 10px; margin-bottom: 8px; }
+  .thesis-head .id { font-family: 'Gt Standard Mono', monospace; font-weight: 500; font-size: 9pt; color: var(--accent); padding-top: 2px; }
+  .thesis-head h2 { font-size: 16.2pt; }
+  .thesis-meta { display: grid; grid-template-columns: 1fr 108px; gap: 16px; margin: 6px 0 12px 55px; color: var(--mut); font-size: 8.7pt; }
+  .thesis-meta .date { font-family: 'Gt Standard Mono', monospace; color: var(--ink); text-align: right; }
+  .prob-band { display: grid; grid-template-columns: 1fr 1fr 1.18fr; margin: 11px 0 14px 55px; border-top: 1.5px solid var(--ink); border-bottom: 1px solid var(--line); }
+  .prob-card { padding: 8px 10px 9px; border-right: 1px solid var(--line); }
+  .prob-card:last-child { border-right: 0; }
+  .prob-card .label { font-family: 'Gt Standard Mono', monospace; font-weight: 500; font-size: 7.2pt; color: var(--quiet); }
+  .prob-card .val { font-family: 'Gt Standard', Arial, sans-serif; font-weight: 500; font-size: 20pt; color: var(--ink); line-height: 1.05; }
+  .prob-card.clause .val { color: var(--accent); }
+  .prob-card .val.sm { font-size: 11.6pt; padding-top: 5px; font-family: 'Gt Standard Mono', monospace; }
+  .thesis-body { margin-left: 55px; }
+  .lead { font-size: 10.5pt; color: var(--ink); margin-bottom: 10px; }
+  .charts { margin: 12px 0; break-inside: avoid; }
+  .chartbox { margin: 8px 0 14px; padding: 10px 12px; border: 1px solid var(--line); border-radius: 4px; background: #fff; break-inside: avoid; }
+  .chartbox .vf-chart { display: block; }
+  .field, .why { display: grid; grid-template-columns: 138px 1fr; gap: 14px; border-top: 1px solid var(--line); padding-top: 7px; margin: 0 0 8px; break-inside: avoid; }
+  .field .k, .why .k { font-family: 'Gt Standard Mono', monospace; font-weight: 500; font-size: 7.4pt; color: var(--mut); }
+  .why { background: var(--accent-soft); border-top: 0; border-left: 3px solid var(--accent); padding: 9px 11px; margin: 11px 0; }
+  .impl { margin: 13px 0 4px; padding: 11px 12px; background: #f6f7fb; border: 1px solid var(--line); border-left: 3px solid var(--accent); break-inside: avoid; }
+  .impl .k { font-family: 'Gt Standard Mono', monospace; font-weight: 500; font-size: 7.4pt; color: var(--accent); display: block; margin-bottom: 4px; }
+  .impl p { margin: 0 0 7px; }
+  .decision { display: grid; grid-template-columns: 1fr 1fr; gap: 9px 12px; margin: 8px 0 10px; }
+  .decision .ditem { border-top: 1px solid var(--line); padding-top: 5px; }
+  .decision .dk { display: block; font-family: 'Gt Standard Mono', monospace; font-weight: 500; font-size: 7.1pt; color: var(--mut); margin-bottom: 2px; }
+  .wl { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin: 8px 0 10px; }
+  .wl .col { border-top: 1px solid var(--line); padding-top: 5px; }
+  .wl h5 { font-family: 'Gt Standard Mono', monospace; font-weight: 500; font-size: 7.2pt; color: var(--mut); margin: 0 0 5px; }
+  .wl .row { margin: 0 0 5px; font-size: 8.8pt; line-height: 1.38; }
+  .wl .who { font-weight: 500; color: var(--ink); }
+  .impl .sub { margin-top: 7px; }
+  .footer-note { margin-top: 8px; font-family: 'Gt Standard Mono', monospace; font-size: 7.8pt; color: var(--quiet); }
 """
 
 
 def _cover(spec: dict) -> str:
     return f"""<section class="cover">
-  <div class="kicker">Vaticinus &middot; pre-consensus &middot; dated &middot; falsifiable</div>
-  <h1>{_inline(spec.get('title', 'Where Scarcity Migrates Next'))}</h1>
-  <div class="sub">{_inline(spec.get('subtitle', ''))}</div>
-  <div class="spine"><strong>The frame:</strong> when a system scales, the money does not stay where the headlines are. It moves to the one input that cannot scale with it. Our job is to name that input, and the date it starts to bite, before the market prices it in.</div>
-  <div class="meta">
-    Area: {_inline(spec.get('domain', 'any'))} &nbsp;&bull;&nbsp; Horizon: {_inline(spec.get('horizon', ''))}<br>
-    How we work: cast wide for ideas, then test every one hard against the price and the supply chain. We name the specific input, not the theme.<br>
-    Two numbers per call: how strong we think the case is, and the odds on the exact, dated version, which is the one we are graded on.<br>
-    Status: the calls that survived our own attempt to break them. Drafted {_inline(spec.get('date', ''))}.
+  <div class="mast"><span>Vaticinus forecast board</span><span>Dated / falsifiable</span></div>
+  <div class="title-block">
+    <h1>{_inline(spec.get('title', 'Where Scarcity Migrates Next'))}</h1>
+    <div class="sub">{_inline(spec.get('subtitle', ''))}</div>
+  </div>
+  <div class="frame">
+    <div class="frame-copy"><span class="label">Frame</span>When a system scales, the money moves to the input that cannot scale with it. This board names that input, the date it starts to bite, and the line that would break the call.</div>
+    <div class="meta">
+      <div><span>Area</span>{_inline(spec.get('domain', 'any'))}</div>
+      <div><span>Horizon</span>{_inline(spec.get('horizon', ''))}</div>
+      <div><span>Issued</span>{_inline(spec.get('date', ''))}</div>
+      <div><span>Method</span>Wide cast, adversarial gate, public resolution criteria.</div>
+    </div>
   </div>
 </section>"""
 
@@ -154,8 +191,8 @@ def _summary_table(spec: dict) -> str:
     for t in spec["theses"]:
         rows.append(
             f'<tr><td>{_inline(t.get("id",""))}</td>'
-            f'<td>{_inline(t.get("boom",""))}</td>'
-            f'<td>{_inline(t.get("needle_short", t.get("needle","")[:120]))}</td>'
+            f'<td>{_inline(_clip(t.get("boom",""), 120))}</td>'
+            f'<td>{_inline(_clip(t.get("needle_short", t.get("needle","")), 110))}</td>'
             f'<td class="num">{_pct(t.get("vision_p"))}</td>'
             f'<td class="num">{_pct(t.get("clause_p"))}</td>'
             f'<td class="num">{_inline(t.get("resolves",""))}</td></tr>'
@@ -166,15 +203,99 @@ def _summary_table(spec: dict) -> str:
         else ""
     )
     return f"""<section class="page-break">
-  <h2>The board: {len(spec['theses'])} calls that survived the cut</h2>
+  <div class="section-rule"><h2>Board summary</h2></div>
   {syn}
   <h3>At a glance</h3>
   <table><thead><tr>
-    <th style="width:5%">#</th><th style="width:28%">The boom</th><th style="width:37%">Binding constraint (the needle)</th>
-    <th class="num" style="width:10%">Case</th><th class="num" style="width:10%">Our&nbsp;call</th><th class="num" style="width:10%">Resolves</th>
+    <th style="width:6%">#</th><th style="width:36%">Claim</th><th style="width:31%">Binding constraint</th>
+    <th class="num" style="width:8%">Case</th><th class="num" style="width:9%">Call</th><th class="num" style="width:10%">Resolves</th>
   </tr></thead><tbody>{''.join(rows)}</tbody></table>
-  <p class="small muted">Case = how strong we think the thesis is. Our call = the probability we put on the exact, dated version landing by the deadline, and the number we are graded on. The gap between them is the cost of pinning a date and a hard threshold, not a lack of conviction.</p>
+  <p class="small muted">Case is the strength of the structural thesis. Call is the probability on the exact dated clause.</p>
 </section>"""
+
+
+def _wl_col(label: str, items, klass: str) -> str:
+    rows = []
+    for it in items or []:
+        who = _inline(it.get("who", "")) if isinstance(it, dict) else _inline(str(it))
+        why = _inline(it.get("why", "")) if isinstance(it, dict) else ""
+        sep = ": " if who and why else ""
+        rows.append(f'<div class="row"><span class="who">{who}</span>{sep}{why}</div>')
+    if not rows:
+        return ""
+    return f'<div class="col {klass}"><h5>{html.escape(label)}</h5>{"".join(rows)}</div>'
+
+
+def _implications(t: dict) -> str:
+    im = t.get("implications")
+    if not im or not isinstance(im, dict):
+        return ""
+    win = _wl_col("Who gains", im.get("winners"), "gain")
+    los = _wl_col("Who loses", im.get("losers"), "lose")
+    parts = ['<div class="k">If the call is right</div>']
+    decision_rows = []
+    for label, key in (
+        ("Who is exposed", "exposed"),
+        ("Action now", "action_now"),
+        ("Decision it changes", "decision_changed"),
+        ("ROI / risk logic", "roi_logic"),
+    ):
+        if im.get(key):
+            decision_rows.append(
+                f'<div class="ditem"><span class="dk">{html.escape(label)}</span>'
+                f'{_inline(im[key])}</div>'
+            )
+    if decision_rows:
+        parts.append(f'<div class="decision">{"".join(decision_rows)}</div>')
+    if im.get("rent_path"):
+        parts.append(f'<p>{_inline(im["rent_path"])}</p>')
+    if win or los:
+        parts.append(f'<div class="wl">{win}{los}</div>')
+    for label, key in (
+        ("What reprices", "reprices"),
+        ("The next constraint it creates", "next_constraint"),
+        ("Earliest sign it has begun", "watch"),
+    ):
+        if im.get(key):
+            parts.append(
+                f'<span class="sub k">{html.escape(label)}</span>'
+                f'<p>{_inline(im[key])}</p>'
+            )
+    return f'<div class="impl">{"".join(parts)}</div>'
+
+
+def _one_chart(c: dict) -> str:
+    """Dispatch a single chart spec to the charts toolkit. Unknown/empty -> ''. """
+    if not isinstance(c, dict):
+        return ""
+    kind = (c.get("type") or "").lower()
+    cap = c.get("caption", "")
+    if kind in ("trendline", "line", "spark"):
+        return charts.trendline(c.get("values"), caption=cap, labels=c.get("labels"))
+    if kind in ("bars", "bar"):
+        items = []
+        for i in (c.get("items") or []):
+            if isinstance(i, dict) and "label" in i and "value" in i:
+                items.append((i["label"], i["value"]))
+            elif isinstance(i, (list, tuple)) and len(i) >= 2:
+                items.append((i[0], i[1]))
+        return charts.bar_chart(items, caption=cap, highlight=c.get("highlight"))
+    if kind == "gap":
+        return charts.gap_chart(c.get("supply_label", "Supply"), c.get("supply"),
+                                c.get("demand_label", "Demand"), c.get("demand"), caption=cap)
+    if kind in ("dependency", "chain", "depend"):
+        return charts.dependency_chain(c.get("nodes"), caption=cap, needle=c.get("needle"))
+    return ""
+
+
+def _chart(t: dict) -> str:
+    """Render a thesis chart (single `chart` dict or a `charts` list). Evidence, not decoration."""
+    specs = t.get("charts") if isinstance(t.get("charts"), list) else (
+        [t["chart"]] if isinstance(t.get("chart"), dict) else [])
+    svgs = [s for s in (_one_chart(c) for c in specs) if s]
+    if not svgs:
+        return ""
+    return '<div class="charts">' + "".join(f'<div class="chartbox">{s}</div>' for s in svgs) + "</div>"
 
 
 def _thesis(t: dict) -> str:
@@ -185,28 +306,29 @@ def _thesis(t: dict) -> str:
   </div>"""
     body = "\n".join(
         [
-            f'<p>{_inline(t.get("structural",""))}</p>',
+            f'<p class="lead">{_inline(t.get("structural",""))}</p>',
+            _field("The boom", t.get("boom", "")),
             _field("Why it is not priced yet", t.get("pre_consensus", "")),
             _field("Where the price sits today", t.get("price_channel", "")),
             _field("The binding constraint", t.get("needle", "")),
             _field("What we are watching", t.get("metric", "")),
+            _chart(t),
             _field("What would prove us wrong", t.get("kill", "")),
             _field("How we tried to break it", t.get("refute", "")),
             _field("Why we are making the call", t.get("why", ""), kind="why"),
+            _implications(t),
         ]
     )
     if t.get("subtitle"):
         sub_html = _inline(t["subtitle"])
     else:
-        sub_html = (
-            f'The boom: {_inline(t.get("boom",""))} &middot; '
-            f'Domain: {_inline(t.get("domain",""))}'
-        )
+        sub_html = f'Domain: {_inline(t.get("domain",""))}'
+    title = _clip(t.get("headline", ""), 190)
     return f"""<section class="thesis">
-  <div class="thesis-head"><h2>{_inline(t.get('id',''))} &middot; {_inline(t.get('headline',''))}</h2><span class="id">{_inline(t.get('id',''))}</span></div>
-  <p class="muted small">{sub_html}</p>
+  <div class="thesis-head"><span class="id">{_inline(t.get('id',''))}</span><h2>{_inline(title)}</h2></div>
+  <div class="thesis-meta"><div>{sub_html}</div><div class="date">{_inline(t.get('resolves',''))}</div></div>
   {cards}
-  {body}
+  <div class="thesis-body">{body}</div>
 </section>"""
 
 
@@ -220,11 +342,11 @@ def _runner_ups(spec: dict) -> str:
         for r in rus
     )
     return f"""<section class="page-break">
-  <h2>Seeds considered and not promoted</h2>
-  <p>These cleared the supply-side test but did not make the cut, usually because there was no clean way to express the trade or the move was already in the price. We list them because we would rather show our work than bury what we dropped.</p>
+  <div class="section-rule"><h2>Seeds considered</h2></div>
+  <p>These cleared the supply-side test but did not make the final board, usually because the trade was not clean or the move was already priced.</p>
   <table><thead><tr><th style="width:24%">Seed</th><th style="width:40%">Physical case</th><th style="width:36%">Why not promoted</th></tr></thead>
   <tbody>{rows}</tbody></table>
-  <p class="footer-note">Each call is dated, with the line that would prove us wrong fixed the day we make it. We do not move the goalposts: a call is superseded, never quietly edited, and graded in public when its date arrives.</p>
+  <p class="footer-note">Each call is dated. The line that would prove it wrong is fixed when the board is issued.</p>
 </section>"""
 
 

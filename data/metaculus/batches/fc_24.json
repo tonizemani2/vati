@@ -1,0 +1,42 @@
+[
+ {
+  "question_id": 13896,
+  "type": "numeric",
+  "percentiles": {
+   "0.05": 0,
+   "0.1": 0,
+   "0.25": 1,
+   "0.5": 2,
+   "0.75": 3,
+   "0.9": 5,
+   "0.95": 7
+  },
+  "reasoning": "Successful kinetic ASAT intercepts (interceptor hitting a satellite) are rare; since the Dec 2022 baseline only a small number of confirmed successful tests have occurred, and the US holds a destructive-test moratorium. China/Russia/India could each add one, so a median of ~2 with a fat low tail and modest upside fits."
+ },
+ {
+  "question_id": 13912,
+  "type": "numeric",
+  "percentiles": {
+   "0.05": 6,
+   "0.1": 7,
+   "0.25": 8,
+   "0.5": 10,
+   "0.75": 12,
+   "0.9": 15,
+   "0.95": 18
+  },
+  "reasoning": "Baseline was 8 in 2022 (ISS, Tianhe, plus docked capsules); by 2030 the ISS likely still flies (~4), Tiangong is expanded, multiple crewed capsules are typically docked, and commercial stations (Axiom, Starlab, Orbital Reef) plus possible Starship add upside, but ISS retirement risk caps the low side."
+ },
+ {
+  "question_id": 13743,
+  "type": "binary",
+  "prob": 0.22,
+  "reasoning": "No confirmed deliberate offensive ASAT use against a satellite itself has occurred despite years of conflict; ongoing jamming/dazzling typically targets ground links or users rather than the satellite, and kinetic/co-orbital offensive use remains a high-escalation rarity, so a low-moderate probability is warranted."
+ },
+ {
+  "question_id": 13752,
+  "type": "binary",
+  "prob": 0.95,
+  "reasoning": "Far from repeal, the Wolf Amendment is gaining momentum toward permanent codification (2025 Frank Wolf Space Security Act) amid hawkish US-China space tensions; overturning legislation before 2030 is very unlikely, so status-quo YES is near-certain."
+ }
+]

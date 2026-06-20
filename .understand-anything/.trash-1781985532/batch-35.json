@@ -1,0 +1,1061 @@
+{
+  "nodes": [
+    {
+      "id": "config:.claude/settings.json",
+      "type": "config",
+      "name": "settings.json",
+      "filePath": ".claude/settings.json",
+      "summary": "Configuration file for settings.json that shapes build, runtime, or tooling behavior in this repository.",
+      "tags": [
+        "configuration",
+        "config",
+        "settings"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:.claude/skills/taste-skill/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": ".claude/skills/taste-skill/SKILL.md",
+      "summary": "Documentation file covering SKILL for the Vati repository and its forecasting workflows.",
+      "tags": [
+        "documentation",
+        "document",
+        "docs",
+        "skill"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "document:.claude/skills/vati-distribute/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": ".claude/skills/vati-distribute/SKILL.md",
+      "summary": "Documentation file covering SKILL for the Vati repository and its forecasting workflows.",
+      "tags": [
+        "documentation",
+        "document",
+        "docs",
+        "skill"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "document:.claude/skills/vati-post/formats.md",
+      "type": "document",
+      "name": "formats.md",
+      "filePath": ".claude/skills/vati-post/formats.md",
+      "summary": "Documentation file covering formats for the Vati repository and its forecasting workflows.",
+      "tags": [
+        "documentation",
+        "document",
+        "docs",
+        "formats"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:.claude/skills/vati-post/postpack.py",
+      "type": "file",
+      "name": "postpack.py",
+      "filePath": ".claude/skills/vati-post/postpack.py",
+      "summary": "postpack.py is a code asset in the repository. It contains 13 functions.",
+      "tags": [
+        "code",
+        "file",
+        "postpack"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:.claude/skills/vati-post/postpack.py:_pct",
+      "type": "function",
+      "name": "_pct",
+      "filePath": ".claude/skills/vati-post/postpack.py",
+      "lineRange": [
+        31,
+        38
+      ],
+      "summary": "Defines _pct in postpack.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "postpack"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:.claude/skills/vati-post/postpack.py:_load",
+      "type": "function",
+      "name": "_load",
+      "filePath": ".claude/skills/vati-post/postpack.py",
+      "lineRange": [
+        41,
+        43
+      ],
+      "summary": "Defines _load in postpack.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "postpack"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:.claude/skills/vati-post/postpack.py:_spec_files",
+      "type": "function",
+      "name": "_spec_files",
+      "filePath": ".claude/skills/vati-post/postpack.py",
+      "lineRange": [
+        46,
+        53
+      ],
+      "summary": "Defines _spec_files in postpack.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "postpack"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:.claude/skills/vati-post/postpack.py:_days_to",
+      "type": "function",
+      "name": "_days_to",
+      "filePath": ".claude/skills/vati-post/postpack.py",
+      "lineRange": [
+        56,
+        66
+      ],
+      "summary": "Defines _days_to in postpack.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "postpack"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:.claude/skills/vati-post/postpack.py:_horizon_bucket",
+      "type": "function",
+      "name": "_horizon_bucket",
+      "filePath": ".claude/skills/vati-post/postpack.py",
+      "lineRange": [
+        69,
+        76
+      ],
+      "summary": "Defines _horizon_bucket in postpack.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "postpack"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:.claude/skills/vati-post/postpack.py:_has_named",
+      "type": "function",
+      "name": "_has_named",
+      "filePath": ".claude/skills/vati-post/postpack.py",
+      "lineRange": [
+        79,
+        83
+      ],
+      "summary": "Defines _has_named in postpack.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "postpack"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:.claude/skills/vati-post/postpack.py:score_thesis",
+      "type": "function",
+      "name": "score_thesis",
+      "filePath": ".claude/skills/vati-post/postpack.py",
+      "lineRange": [
+        86,
+        125
+      ],
+      "summary": "Defines score_thesis in postpack.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "postpack"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:.claude/skills/vati-post/postpack.py:cmd_list",
+      "type": "function",
+      "name": "cmd_list",
+      "filePath": ".claude/skills/vati-post/postpack.py",
+      "lineRange": [
+        128,
+        138
+      ],
+      "summary": "Defines cmd_list in postpack.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "postpack"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:.claude/skills/vati-post/postpack.py:cmd_rank",
+      "type": "function",
+      "name": "cmd_rank",
+      "filePath": ".claude/skills/vati-post/postpack.py",
+      "lineRange": [
+        141,
+        164
+      ],
+      "summary": "Defines cmd_rank in postpack.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "postpack"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:.claude/skills/vati-post/postpack.py:_suggest_format",
+      "type": "function",
+      "name": "_suggest_format",
+      "filePath": ".claude/skills/vati-post/postpack.py",
+      "lineRange": [
+        167,
+        174
+      ],
+      "summary": "Defines _suggest_format in postpack.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "postpack"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:.claude/skills/vati-post/postpack.py:_clean",
+      "type": "function",
+      "name": "_clean",
+      "filePath": ".claude/skills/vati-post/postpack.py",
+      "lineRange": [
+        177,
+        181
+      ],
+      "summary": "Defines _clean in postpack.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "postpack"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:.claude/skills/vati-post/postpack.py:cmd_card",
+      "type": "function",
+      "name": "cmd_card",
+      "filePath": ".claude/skills/vati-post/postpack.py",
+      "lineRange": [
+        184,
+        237
+      ],
+      "summary": "Defines cmd_card in postpack.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "postpack"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:.claude/skills/vati-post/postpack.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": ".claude/skills/vati-post/postpack.py",
+      "lineRange": [
+        240,
+        255
+      ],
+      "summary": "Defines main in postpack.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entry-point",
+        "postpack"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:.claude/skills/vati-post/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": ".claude/skills/vati-post/SKILL.md",
+      "summary": "Documentation file covering SKILL for the Vati repository and its forecasting workflows.",
+      "tags": [
+        "documentation",
+        "document",
+        "docs",
+        "skill"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "config:.claude/skills/vati-world-graph/agents/openai.yaml",
+      "type": "config",
+      "name": "openai.yaml",
+      "filePath": ".claude/skills/vati-world-graph/agents/openai.yaml",
+      "summary": "Configuration file for openai.yaml that shapes build, runtime, or tooling behavior in this repository.",
+      "tags": [
+        "graph",
+        "configuration",
+        "config",
+        "openai"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:.claude/skills/vati-world-graph/references/deepseek.md",
+      "type": "document",
+      "name": "deepseek.md",
+      "filePath": ".claude/skills/vati-world-graph/references/deepseek.md",
+      "summary": "Documentation file covering deepseek for the Vati repository and its forecasting workflows.",
+      "tags": [
+        "graph",
+        "documentation",
+        "document",
+        "docs",
+        "deepseek"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:.claude/skills/vati-world-graph/references/ontology.md",
+      "type": "document",
+      "name": "ontology.md",
+      "filePath": ".claude/skills/vati-world-graph/references/ontology.md",
+      "summary": "Documentation file covering ontology for the Vati repository and its forecasting workflows.",
+      "tags": [
+        "graph",
+        "documentation",
+        "document",
+        "docs",
+        "ontology"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "document:.claude/skills/vati-world-graph/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": ".claude/skills/vati-world-graph/SKILL.md",
+      "summary": "Documentation file covering SKILL for the Vati repository and its forecasting workflows.",
+      "tags": [
+        "graph",
+        "documentation",
+        "document",
+        "docs",
+        "skill"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:.claude/workflows/forecastbench-judge.js",
+      "type": "file",
+      "name": "forecastbench-judge.js",
+      "filePath": ".claude/workflows/forecastbench-judge.js",
+      "summary": "forecastbench-judge.js is a code asset in the repository. It contains 7 functions.",
+      "tags": [
+        "forecasting",
+        "code",
+        "file",
+        "forecastbench-judge"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:.claude/workflows/forecastbench-judge.js:GUIDE",
+      "type": "function",
+      "name": "GUIDE",
+      "filePath": ".claude/workflows/forecastbench-judge.js",
+      "lineRange": [
+        43,
+        56
+      ],
+      "summary": "Defines GUIDE in forecastbench-judge.js, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "forecastbench-judge"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:.claude/workflows/pope-capture.js",
+      "type": "file",
+      "name": "pope-capture.js",
+      "filePath": ".claude/workflows/pope-capture.js",
+      "summary": "pope-capture.js is a code asset in the repository. It contains 2 functions.",
+      "tags": [
+        "code",
+        "file",
+        "pope-capture"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:.claude/workflows/pope-capture.js:CAPTURE_PROMPT",
+      "type": "function",
+      "name": "CAPTURE_PROMPT",
+      "filePath": ".claude/workflows/pope-capture.js",
+      "lineRange": [
+        68,
+        87
+      ],
+      "summary": "Defines CAPTURE_PROMPT in pope-capture.js, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "pope-capture"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:.claude/workflows/pope-capture.js:REFUTE_PROMPT",
+      "type": "function",
+      "name": "REFUTE_PROMPT",
+      "filePath": ".claude/workflows/pope-capture.js",
+      "lineRange": [
+        103,
+        114
+      ],
+      "summary": "Defines REFUTE_PROMPT in pope-capture.js, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "pope-capture"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:.claude/workflows/pope-mega.js",
+      "type": "file",
+      "name": "pope-mega.js",
+      "filePath": ".claude/workflows/pope-mega.js",
+      "summary": "pope-mega.js is a code asset in the repository. It contains 3 functions.",
+      "tags": [
+        "code",
+        "file",
+        "pope-mega"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:.claude/workflows/pope-mega.js:IMPL_PROMPT",
+      "type": "function",
+      "name": "IMPL_PROMPT",
+      "filePath": ".claude/workflows/pope-mega.js",
+      "lineRange": [
+        119,
+        133
+      ],
+      "summary": "Defines IMPL_PROMPT in pope-mega.js, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "pope-mega"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:.claude/workflows/pope-mega.js:gatePrompt",
+      "type": "function",
+      "name": "gatePrompt",
+      "filePath": ".claude/workflows/pope-mega.js",
+      "lineRange": [
+        162,
+        180
+      ],
+      "summary": "Defines gatePrompt in pope-mega.js, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "pope-mega"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:.claude/workflows/pope-pro.js",
+      "type": "file",
+      "name": "pope-pro.js",
+      "filePath": ".claude/workflows/pope-pro.js",
+      "summary": "pope-pro.js is a code asset in the repository. It contains 1 function.",
+      "tags": [
+        "code",
+        "file",
+        "pope-pro"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:.claude/workflows/pope-pro.js:IMPL_PROMPT",
+      "type": "function",
+      "name": "IMPL_PROMPT",
+      "filePath": ".claude/workflows/pope-pro.js",
+      "lineRange": [
+        121,
+        135
+      ],
+      "summary": "Defines IMPL_PROMPT in pope-pro.js, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "pope-pro"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:.claude/workflows/pope.js",
+      "type": "file",
+      "name": "pope.js",
+      "filePath": ".claude/workflows/pope.js",
+      "summary": "pope.js is a code asset in the repository. It contains 1 function.",
+      "tags": [
+        "code",
+        "file",
+        "pope"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:.claude/workflows/pope.js:IMPL_PROMPT",
+      "type": "function",
+      "name": "IMPL_PROMPT",
+      "filePath": ".claude/workflows/pope.js",
+      "lineRange": [
+        119,
+        133
+      ],
+      "summary": "Defines IMPL_PROMPT in pope.js, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "pope"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:.mac_fix_backup/codex-20260618-231003/CodexDockTilePlugin.plugin/Contents/_CodeSignature/CodeResources",
+      "type": "file",
+      "name": "CodeResources",
+      "filePath": ".mac_fix_backup/codex-20260618-231003/CodexDockTilePlugin.plugin/Contents/_CodeSignature/CodeResources",
+      "summary": "CodeResources is a code asset in the repository.",
+      "tags": [
+        "code",
+        "file",
+        "coderesources"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "config:.mac_fix_backup/codex-20260618-231003/CodexDockTilePlugin.plugin/Contents/Info.plist",
+      "type": "config",
+      "name": "Info.plist",
+      "filePath": ".mac_fix_backup/codex-20260618-231003/CodexDockTilePlugin.plugin/Contents/Info.plist",
+      "summary": "Configuration file for Info.plist that shapes build, runtime, or tooling behavior in this repository.",
+      "tags": [
+        "configuration",
+        "config",
+        "info"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:.mac_fix_backup/codex-20260618-231003/CodexDockTilePlugin.plugin/Contents/MacOS/CodexDockTilePlugin",
+      "type": "file",
+      "name": "CodexDockTilePlugin",
+      "filePath": ".mac_fix_backup/codex-20260618-231003/CodexDockTilePlugin.plugin/Contents/MacOS/CodexDockTilePlugin",
+      "summary": "CodexDockTilePlugin is a code asset in the repository.",
+      "tags": [
+        "code",
+        "file",
+        "codexdocktileplugin"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:.mac_fix_backup/codex-20260618-231003/launch-services-helper",
+      "type": "file",
+      "name": "launch-services-helper",
+      "filePath": ".mac_fix_backup/codex-20260618-231003/launch-services-helper",
+      "summary": "launch-services-helper is a code asset in the repository.",
+      "tags": [
+        "code",
+        "file",
+        "launch-services-helper"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:.understand-anything/.understandignore",
+      "type": "file",
+      "name": ".understandignore",
+      "filePath": ".understand-anything/.understandignore",
+      "summary": ".understandignore is a code asset in the repository.",
+      "tags": [
+        "code",
+        "file"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:chat/db/schema.sql",
+      "type": "table",
+      "name": "schema.sql",
+      "filePath": "chat/db/schema.sql",
+      "summary": "schema.sql is a data asset in the chat surface.",
+      "tags": [
+        "chat",
+        "database",
+        "table",
+        "data",
+        "schema"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:chat/db/seed_forward_calls.mjs",
+      "type": "file",
+      "name": "seed_forward_calls.mjs",
+      "filePath": "chat/db/seed_forward_calls.mjs",
+      "summary": "seed_forward_calls.mjs is a code asset in the chat surface.",
+      "tags": [
+        "chat",
+        "database",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:chat/next.config.ts",
+      "type": "file",
+      "name": "next.config.ts",
+      "filePath": "chat/next.config.ts",
+      "summary": "next.config.ts is a code asset in the chat surface.",
+      "tags": [
+        "configuration",
+        "nextjs",
+        "build-system",
+        "chat",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:chat/open-next.config.ts",
+      "type": "file",
+      "name": "open-next.config.ts",
+      "filePath": "chat/open-next.config.ts",
+      "summary": "open-next.config.ts is a code asset in the chat surface.",
+      "tags": [
+        "chat",
+        "code",
+        "file",
+        "open-next-config"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:chat/postcss.config.mjs",
+      "type": "file",
+      "name": "postcss.config.mjs",
+      "filePath": "chat/postcss.config.mjs",
+      "summary": "postcss.config.mjs is a code asset in the chat surface.",
+      "tags": [
+        "chat",
+        "code",
+        "file",
+        "postcss-config"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:.claude/skills/vati-post/postpack.py",
+      "target": "function:.claude/skills/vati-post/postpack.py:_pct",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:.claude/skills/vati-post/postpack.py",
+      "target": "function:.claude/skills/vati-post/postpack.py:_pct",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:.claude/skills/vati-post/postpack.py",
+      "target": "function:.claude/skills/vati-post/postpack.py:_load",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:.claude/skills/vati-post/postpack.py",
+      "target": "function:.claude/skills/vati-post/postpack.py:_load",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:.claude/skills/vati-post/postpack.py",
+      "target": "function:.claude/skills/vati-post/postpack.py:_spec_files",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:.claude/skills/vati-post/postpack.py",
+      "target": "function:.claude/skills/vati-post/postpack.py:_spec_files",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:.claude/skills/vati-post/postpack.py",
+      "target": "function:.claude/skills/vati-post/postpack.py:_days_to",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:.claude/skills/vati-post/postpack.py",
+      "target": "function:.claude/skills/vati-post/postpack.py:_days_to",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:.claude/skills/vati-post/postpack.py",
+      "target": "function:.claude/skills/vati-post/postpack.py:_horizon_bucket",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:.claude/skills/vati-post/postpack.py",
+      "target": "function:.claude/skills/vati-post/postpack.py:_horizon_bucket",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:.claude/skills/vati-post/postpack.py",
+      "target": "function:.claude/skills/vati-post/postpack.py:_has_named",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:.claude/skills/vati-post/postpack.py",
+      "target": "function:.claude/skills/vati-post/postpack.py:_has_named",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:.claude/skills/vati-post/postpack.py",
+      "target": "function:.claude/skills/vati-post/postpack.py:score_thesis",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:.claude/skills/vati-post/postpack.py",
+      "target": "function:.claude/skills/vati-post/postpack.py:score_thesis",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:.claude/skills/vati-post/postpack.py",
+      "target": "function:.claude/skills/vati-post/postpack.py:cmd_list",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:.claude/skills/vati-post/postpack.py",
+      "target": "function:.claude/skills/vati-post/postpack.py:cmd_list",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:.claude/skills/vati-post/postpack.py",
+      "target": "function:.claude/skills/vati-post/postpack.py:cmd_rank",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:.claude/skills/vati-post/postpack.py",
+      "target": "function:.claude/skills/vati-post/postpack.py:cmd_rank",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:.claude/skills/vati-post/postpack.py",
+      "target": "function:.claude/skills/vati-post/postpack.py:_suggest_format",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:.claude/skills/vati-post/postpack.py",
+      "target": "function:.claude/skills/vati-post/postpack.py:_suggest_format",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:.claude/skills/vati-post/postpack.py",
+      "target": "function:.claude/skills/vati-post/postpack.py:_clean",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:.claude/skills/vati-post/postpack.py",
+      "target": "function:.claude/skills/vati-post/postpack.py:_clean",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:.claude/skills/vati-post/postpack.py",
+      "target": "function:.claude/skills/vati-post/postpack.py:cmd_card",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:.claude/skills/vati-post/postpack.py",
+      "target": "function:.claude/skills/vati-post/postpack.py:cmd_card",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:.claude/skills/vati-post/postpack.py",
+      "target": "function:.claude/skills/vati-post/postpack.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:.claude/skills/vati-post/postpack.py",
+      "target": "function:.claude/skills/vati-post/postpack.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:.claude/workflows/forecastbench-judge.js",
+      "target": "function:.claude/workflows/forecastbench-judge.js:GUIDE",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:.claude/workflows/pope-capture.js",
+      "target": "function:.claude/workflows/pope-capture.js:CAPTURE_PROMPT",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:.claude/workflows/pope-capture.js",
+      "target": "function:.claude/workflows/pope-capture.js:REFUTE_PROMPT",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:.claude/workflows/pope-mega.js",
+      "target": "function:.claude/workflows/pope-mega.js:IMPL_PROMPT",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:.claude/workflows/pope-mega.js",
+      "target": "function:.claude/workflows/pope-mega.js:gatePrompt",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:.claude/workflows/pope-pro.js",
+      "target": "function:.claude/workflows/pope-pro.js:IMPL_PROMPT",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:.claude/workflows/pope.js",
+      "target": "function:.claude/workflows/pope.js:IMPL_PROMPT",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "function:.claude/skills/vati-post/postpack.py:score_thesis",
+      "target": "function:.claude/skills/vati-post/postpack.py:_pct",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:.claude/skills/vati-post/postpack.py:score_thesis",
+      "target": "function:.claude/skills/vati-post/postpack.py:_days_to",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:.claude/skills/vati-post/postpack.py:score_thesis",
+      "target": "function:.claude/skills/vati-post/postpack.py:_has_named",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:.claude/skills/vati-post/postpack.py:cmd_list",
+      "target": "function:.claude/skills/vati-post/postpack.py:_spec_files",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:.claude/skills/vati-post/postpack.py:cmd_list",
+      "target": "function:.claude/skills/vati-post/postpack.py:_load",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:.claude/skills/vati-post/postpack.py:cmd_rank",
+      "target": "function:.claude/skills/vati-post/postpack.py:_spec_files",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:.claude/skills/vati-post/postpack.py:cmd_rank",
+      "target": "function:.claude/skills/vati-post/postpack.py:_load",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:.claude/skills/vati-post/postpack.py:cmd_rank",
+      "target": "function:.claude/skills/vati-post/postpack.py:score_thesis",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:.claude/skills/vati-post/postpack.py:cmd_rank",
+      "target": "function:.claude/skills/vati-post/postpack.py:_horizon_bucket",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:.claude/skills/vati-post/postpack.py:cmd_rank",
+      "target": "function:.claude/skills/vati-post/postpack.py:_suggest_format",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:.claude/skills/vati-post/postpack.py:cmd_card",
+      "target": "function:.claude/skills/vati-post/postpack.py:_spec_files",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:.claude/skills/vati-post/postpack.py:cmd_card",
+      "target": "function:.claude/skills/vati-post/postpack.py:_load",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:.claude/skills/vati-post/postpack.py:cmd_card",
+      "target": "function:.claude/skills/vati-post/postpack.py:_pct",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:.claude/skills/vati-post/postpack.py:cmd_card",
+      "target": "function:.claude/skills/vati-post/postpack.py:_days_to",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:.claude/skills/vati-post/postpack.py",
+      "target": "function:.claude/skills/vati-post/postpack.py:_clean",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:.claude/skills/vati-post/postpack.py:cmd_card",
+      "target": "function:.claude/skills/vati-post/postpack.py:_horizon_bucket",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:.claude/skills/vati-post/postpack.py:cmd_card",
+      "target": "function:.claude/skills/vati-post/postpack.py:_clean",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:.claude/skills/vati-post/postpack.py:main",
+      "target": "function:.claude/skills/vati-post/postpack.py:cmd_list",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:.claude/skills/vati-post/postpack.py:main",
+      "target": "function:.claude/skills/vati-post/postpack.py:cmd_rank",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:.claude/skills/vati-post/postpack.py:main",
+      "target": "function:.claude/skills/vati-post/postpack.py:cmd_card",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

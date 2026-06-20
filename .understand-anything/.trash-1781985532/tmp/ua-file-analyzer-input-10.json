@@ -1,0 +1,160 @@
+{
+  "projectRoot": "/Users/emizemani/Desktop/predictthefuture",
+  "batchFiles": [
+    {
+      "path": "engine/forecastbench/__init__.py",
+      "language": "python",
+      "sizeLines": 14,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/forecastbench/backtest_all.py",
+      "language": "python",
+      "sizeLines": 58,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/forecastbench/check_submission.py",
+      "language": "python",
+      "sizeLines": 197,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/forecastbench/dataset.py",
+      "language": "python",
+      "sizeLines": 655,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/forecastbench/dataset_diag.py",
+      "language": "python",
+      "sizeLines": 73,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/forecastbench/diversify.py",
+      "language": "python",
+      "sizeLines": 150,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/forecastbench/gap_claude.py",
+      "language": "python",
+      "sizeLines": 142,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/forecastbench/llm_fill.py",
+      "language": "python",
+      "sizeLines": 110,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/forecastbench/market.py",
+      "language": "python",
+      "sizeLines": 72,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/forecastbench/opus_blend.py",
+      "language": "python",
+      "sizeLines": 270,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/forecastbench/opus_forecaster.py",
+      "language": "python",
+      "sizeLines": 243,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/forecastbench/score.py",
+      "language": "python",
+      "sizeLines": 153,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/forecastbench/submit.py",
+      "language": "python",
+      "sizeLines": 388,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/forecastbench/timesfm_eval.py",
+      "language": "python",
+      "sizeLines": 185,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/forecastbench/validate.py",
+      "language": "python",
+      "sizeLines": 44,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_forecastbench_dataset.py",
+      "language": "python",
+      "sizeLines": 983,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "engine/forecastbench/__init__.py": [],
+    "engine/forecastbench/backtest_all.py": [
+      "engine/forecastbench/score.py",
+      "engine/forecastbench/submit.py"
+    ],
+    "engine/forecastbench/check_submission.py": [
+      "engine/forecastbench/score.py",
+      "engine/forecastbench/submit.py"
+    ],
+    "engine/forecastbench/dataset.py": [
+      "engine/forecastbench/score.py"
+    ],
+    "engine/forecastbench/dataset_diag.py": [
+      "engine/forecastbench/score.py"
+    ],
+    "engine/forecastbench/diversify.py": [
+      "engine/forecastbench/market.py",
+      "engine/forecastbench/score.py"
+    ],
+    "engine/forecastbench/gap_claude.py": [
+      "engine/forecastbench/market.py",
+      "engine/forecastbench/score.py"
+    ],
+    "engine/forecastbench/llm_fill.py": [],
+    "engine/forecastbench/market.py": [
+      "engine/forecastbench/score.py"
+    ],
+    "engine/forecastbench/opus_blend.py": [
+      "engine/forecastbench/market.py",
+      "engine/forecastbench/score.py"
+    ],
+    "engine/forecastbench/opus_forecaster.py": [
+      "engine/forecastbench/opus_blend.py"
+    ],
+    "engine/forecastbench/score.py": [],
+    "engine/forecastbench/submit.py": [
+      "engine/forecastbench/market.py",
+      "engine/forecastbench/score.py"
+    ],
+    "engine/forecastbench/timesfm_eval.py": [
+      "engine/forecastbench/score.py"
+    ],
+    "engine/forecastbench/validate.py": [
+      "engine/forecastbench/score.py"
+    ],
+    "tests/test_forecastbench_dataset.py": [
+      "engine/__init__.py",
+      "engine/db.py",
+      "engine/forecastbench/__init__.py",
+      "engine/forecastbench/check_submission.py",
+      "engine/forecastbench/diversify.py",
+      "engine/forecastbench/llm_fill.py",
+      "engine/forecastbench/market.py",
+      "engine/forecastbench/opus_blend.py",
+      "engine/forecastbench/opus_forecaster.py",
+      "engine/forecastbench/submit.py"
+    ]
+  }
+}

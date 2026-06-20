@@ -57,7 +57,7 @@ from engine.schemas import (
 
 FRONTIER_PILLAR_ID = 1
 
-MAILTO = "ruben.stout@edu.escp.eu"
+MAILTO = "research@vaticinus.com"
 UA = f"predictthefuture/0.1 (mailto:{MAILTO})"
 OAI = "https://export.arxiv.org/oai2"
 

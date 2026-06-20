@@ -1,0 +1,7 @@
+# Mac-only (Apple Silicon) — the LOCAL plumbing smoke test (training/MLX.md).
+# Do NOT mix with requirements.txt: that file is the CUDA GPU box (unsloth/vllm/bitsandbytes),
+# none of which run on a Mac. These are the Metal-backed equivalents.
+# Floors are 2026 baselines — `pip install -U` and verify against what resolves on your box.
+mlx>=0.21
+mlx-lm>=0.21
+mlx-lm-lora>=0.3        # SFT + GRPO on MLX, custom reward-function registry

@@ -1,0 +1,795 @@
+{
+  "nodes": [
+    {
+      "id": "file:engine/ground.py",
+      "type": "file",
+      "name": "ground.py",
+      "filePath": "engine/ground.py",
+      "summary": "ground.py is a code asset in the forecasting engine. It contains 3 functions, 5 internal imports.",
+      "tags": [
+        "forecasting-engine",
+        "code",
+        "file",
+        "ground"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/ground.py:ground_pack",
+      "type": "function",
+      "name": "ground_pack",
+      "filePath": "engine/ground.py",
+      "lineRange": [
+        29,
+        42
+      ],
+      "summary": "Defines ground_pack in ground.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "ground"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/ground.py:format_ground",
+      "type": "function",
+      "name": "format_ground",
+      "filePath": "engine/ground.py",
+      "lineRange": [
+        61,
+        84
+      ],
+      "summary": "Defines format_ground in ground.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "ground"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/ground.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "engine/ground.py",
+      "lineRange": [
+        87,
+        100
+      ],
+      "summary": "Defines main in ground.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entry-point",
+        "ground"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:engine/holdout.py",
+      "type": "file",
+      "name": "holdout.py",
+      "filePath": "engine/holdout.py",
+      "summary": "holdout.py is a code asset in the forecasting engine. It contains 8 functions, 2 internal imports.",
+      "tags": [
+        "forecasting-engine",
+        "code",
+        "file",
+        "holdout"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:engine/holdout.py:_ask_probability",
+      "type": "function",
+      "name": "_ask_probability",
+      "filePath": "engine/holdout.py",
+      "lineRange": [
+        87,
+        115
+      ],
+      "summary": "Defines _ask_probability in holdout.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "holdout"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/holdout.py:_ask_probe",
+      "type": "function",
+      "name": "_ask_probe",
+      "filePath": "engine/holdout.py",
+      "lineRange": [
+        118,
+        133
+      ],
+      "summary": "Defines _ask_probe in holdout.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "holdout"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/holdout.py:effective_cutoff",
+      "type": "function",
+      "name": "effective_cutoff",
+      "filePath": "engine/holdout.py",
+      "lineRange": [
+        136,
+        150
+      ],
+      "summary": "Defines effective_cutoff in holdout.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "holdout"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/holdout.py:run",
+      "type": "function",
+      "name": "run",
+      "filePath": "engine/holdout.py",
+      "lineRange": [
+        153,
+        216
+      ],
+      "summary": "Defines run in holdout.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entry-point",
+        "holdout"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/holdout.py:_ask_recall",
+      "type": "function",
+      "name": "_ask_recall",
+      "filePath": "engine/holdout.py",
+      "lineRange": [
+        238,
+        246
+      ],
+      "summary": "Defines _ask_recall in holdout.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "holdout"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/holdout.py:recall_cutoff",
+      "type": "function",
+      "name": "recall_cutoff",
+      "filePath": "engine/holdout.py",
+      "lineRange": [
+        249,
+        264
+      ],
+      "summary": "Defines recall_cutoff in holdout.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "holdout"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/holdout.py:build_structural_questions",
+      "type": "function",
+      "name": "build_structural_questions",
+      "filePath": "engine/holdout.py",
+      "lineRange": [
+        277,
+        311
+      ],
+      "summary": "Defines build_structural_questions in holdout.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "holdout"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/holdout.py:run_structural",
+      "type": "function",
+      "name": "run_structural",
+      "filePath": "engine/holdout.py",
+      "lineRange": [
+        314,
+        373
+      ],
+      "summary": "Defines run_structural in holdout.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entry-point",
+        "holdout"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:engine/market.py",
+      "type": "file",
+      "name": "market.py",
+      "filePath": "engine/market.py",
+      "summary": "market.py is a code asset in the forecasting engine. It contains 7 functions, 3 internal imports.",
+      "tags": [
+        "forecasting-engine",
+        "code",
+        "file",
+        "market"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/market.py:_gated_json",
+      "type": "function",
+      "name": "_gated_json",
+      "filePath": "engine/market.py",
+      "lineRange": [
+        35,
+        43
+      ],
+      "summary": "Defines _gated_json in market.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "market"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/market.py:_manifold",
+      "type": "function",
+      "name": "_manifold",
+      "filePath": "engine/market.py",
+      "lineRange": [
+        49,
+        66
+      ],
+      "summary": "Defines _manifold in market.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "market"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/market.py:_dig",
+      "type": "function",
+      "name": "_dig",
+      "filePath": "engine/market.py",
+      "lineRange": [
+        72,
+        77
+      ],
+      "summary": "Defines _dig in market.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "market"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/market.py:_metaculus",
+      "type": "function",
+      "name": "_metaculus",
+      "filePath": "engine/market.py",
+      "lineRange": [
+        80,
+        107
+      ],
+      "summary": "Defines _metaculus in market.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "market"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/market.py:market_anchor",
+      "type": "function",
+      "name": "market_anchor",
+      "filePath": "engine/market.py",
+      "lineRange": [
+        113,
+        127
+      ],
+      "summary": "Defines market_anchor in market.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "market"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/market.py:format_anchor",
+      "type": "function",
+      "name": "format_anchor",
+      "filePath": "engine/market.py",
+      "lineRange": [
+        130,
+        141
+      ],
+      "summary": "Defines format_anchor in market.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "market"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/market.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "engine/market.py",
+      "lineRange": [
+        144,
+        152
+      ],
+      "summary": "Defines main in market.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entry-point",
+        "market"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:engine/ground.py",
+      "target": "function:engine/ground.py:ground_pack",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/ground.py",
+      "target": "function:engine/ground.py:ground_pack",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/ground.py",
+      "target": "function:engine/ground.py:format_ground",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/ground.py",
+      "target": "function:engine/ground.py:format_ground",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/ground.py",
+      "target": "function:engine/ground.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/ground.py",
+      "target": "function:engine/ground.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/holdout.py",
+      "target": "function:engine/holdout.py:_ask_probability",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/holdout.py",
+      "target": "function:engine/holdout.py:_ask_probability",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/holdout.py",
+      "target": "function:engine/holdout.py:_ask_probe",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/holdout.py",
+      "target": "function:engine/holdout.py:_ask_probe",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/holdout.py",
+      "target": "function:engine/holdout.py:effective_cutoff",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/holdout.py",
+      "target": "function:engine/holdout.py:effective_cutoff",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/holdout.py",
+      "target": "function:engine/holdout.py:run",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/holdout.py",
+      "target": "function:engine/holdout.py:run",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/holdout.py",
+      "target": "function:engine/holdout.py:_ask_recall",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/holdout.py",
+      "target": "function:engine/holdout.py:_ask_recall",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/holdout.py",
+      "target": "function:engine/holdout.py:recall_cutoff",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/holdout.py",
+      "target": "function:engine/holdout.py:recall_cutoff",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/holdout.py",
+      "target": "function:engine/holdout.py:build_structural_questions",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/holdout.py",
+      "target": "function:engine/holdout.py:build_structural_questions",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/holdout.py",
+      "target": "function:engine/holdout.py:run_structural",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/holdout.py",
+      "target": "function:engine/holdout.py:run_structural",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/market.py",
+      "target": "function:engine/market.py:_gated_json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/market.py",
+      "target": "function:engine/market.py:_gated_json",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/market.py",
+      "target": "function:engine/market.py:_manifold",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/market.py",
+      "target": "function:engine/market.py:_manifold",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/market.py",
+      "target": "function:engine/market.py:_dig",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/market.py",
+      "target": "function:engine/market.py:_dig",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/market.py",
+      "target": "function:engine/market.py:_metaculus",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/market.py",
+      "target": "function:engine/market.py:_metaculus",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/market.py",
+      "target": "function:engine/market.py:market_anchor",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/market.py",
+      "target": "function:engine/market.py:market_anchor",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/market.py",
+      "target": "function:engine/market.py:format_anchor",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/market.py",
+      "target": "function:engine/market.py:format_anchor",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/market.py",
+      "target": "function:engine/market.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/market.py",
+      "target": "function:engine/market.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/ground.py",
+      "target": "file:engine/__init__.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/ground.py",
+      "target": "file:engine/db.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/ground.py",
+      "target": "file:engine/market.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/ground.py",
+      "target": "file:engine/signals.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/ground.py",
+      "target": "file:engine/world_seed.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/holdout.py",
+      "target": "file:engine/adapters/__init__.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/holdout.py",
+      "target": "file:engine/adapters/llm.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/market.py",
+      "target": "file:engine/__init__.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/market.py",
+      "target": "file:engine/cost.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/market.py",
+      "target": "file:engine/db.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "function:engine/ground.py:main",
+      "target": "function:engine/ground.py:ground_pack",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/ground.py:main",
+      "target": "function:engine/ground.py:format_ground",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/holdout.py:effective_cutoff",
+      "target": "function:engine/holdout.py:_ask_probe",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/holdout.py:run",
+      "target": "function:engine/holdout.py:recall_cutoff",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/holdout.py:run",
+      "target": "function:engine/holdout.py:_ask_probability",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/holdout.py:recall_cutoff",
+      "target": "function:engine/holdout.py:_ask_recall",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/holdout.py:run_structural",
+      "target": "function:engine/holdout.py:build_structural_questions",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/holdout.py:run_structural",
+      "target": "function:engine/holdout.py:recall_cutoff",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/holdout.py:run_structural",
+      "target": "function:engine/holdout.py:_ask_probability",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/market.py:_manifold",
+      "target": "function:engine/market.py:_gated_json",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/market.py:_metaculus",
+      "target": "function:engine/market.py:_gated_json",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/market.py:_metaculus",
+      "target": "function:engine/market.py:_dig",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/market.py:market_anchor",
+      "target": "function:engine/market.py:_manifold",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/market.py:market_anchor",
+      "target": "function:engine/market.py:_metaculus",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/market.py:main",
+      "target": "function:engine/market.py:market_anchor",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/market.py:main",
+      "target": "function:engine/market.py:format_anchor",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

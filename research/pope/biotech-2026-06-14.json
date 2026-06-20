@@ -18,7 +18,41 @@
       "pre_consensus": "The market has loudly noticed raw Ac-225 scarcity and is pouring capital into curie expansion (Cardinal, NorthStar, TerraPower, PanTera, SHINE, Eckert and Ziegler). That first-order shortage already sits in pharma supply agreements and equity models. What does not sit there is the second-order, physics-locked point: scaled routes co-produce Ac-227 inseparably, so adding curies does not add clean curies. Sell-side models treat Ac-225 supply as a single fungible number, never separating generator-grade from accelerator-grade and never pricing the Ac-227 ceiling on cumulative patient dose. NorthStar's April 2026 DMF acceptance leans on \"no-carrier-added\" language that conflates chemistry purity with isotopic purity, a sign that even regulators and suppliers have not yet formally split the two. The purity premium is forming, but it has not yet shown up in contract pricing or drug master file specifications in the public record. We read this as a genuine seam that the existing FUTURE_MAP biotech calls do not cover, since none of them touch medical isotope chokepoints.",
       "price_channel": "Not priced at the isotopic-purity layer. Raw Ac-225 scarcity shows up in pharma supply agreements and private-market valuations for isotope producers. The Ac-227 purity distinction does not yet appear in public sell-side models, contract pricing disclosures, or regulatory guidance separating generator-grade from accelerator-grade for repeat-dosing indications. NorthStar's NCA DMF language is the closest public signal, and it does not resolve the Ac-227 versus carrier-free ambiguity. The price channel is partially obscure on the needle as specified.",
       "refute": "Three attacks survive, at reduced severity. First, single-dose or low-repeat TAT protocols (the current standard) may never accumulate Ac-227 to a regulatory ceiling, which keeps the purity constraint theoretical unless chronic dosing scales. That is the load-bearing assumption. Second, U-233 production closure is policy, not physics, so a future nuclear-materials program could reopen the route and weaken the finite-stockpile premise. Third, Pb-212 alpha therapy (from Ra-228/Th-228 generators) is a live alternative modality that sidesteps the Ac-227 problem entirely, and if it captures a large share of the TAT pipeline the purity constraint goes niche. None of these kills the call today, but together they set the real odds below the structural ceiling because each is plausible inside the resolution window.",
-      "why": "The physics of co-production is locked. Ac-225 and Ac-227 are the same element, and every accelerator scaling route makes both. The Th-229/U-233 source is the only route that avoids this by construction, and that source is permanently capped under current policy. The purity premium is not yet priced into equity models or supply contracts. The call survives all three adversarial attacks at the structural level. We hold the dated-call probability below our conviction in the thesis because the resolution criterion needs observable market signals (purity premiums in contracts, Ac-227 specs in DMFs) that are forming but not yet locked, and because the chronic-dosing proliferation timeline stays uncertain inside the 2026 to 2032 window."
+      "why": "The physics of co-production is locked. Ac-225 and Ac-227 are the same element, and every accelerator scaling route makes both. The Th-229/U-233 source is the only route that avoids this by construction, and that source is permanently capped under current policy. The purity premium is not yet priced into equity models or supply contracts. The call survives all three adversarial attacks at the structural level. We hold the dated-call probability below our conviction in the thesis because the resolution criterion needs observable market signals (purity premiums in contracts, Ac-227 specs in DMFs) that are forming but not yet locked, and because the chronic-dosing proliferation timeline stays uncertain inside the 2026 to 2032 window.",
+      "implications": {
+        "rent_path": "If isotopic purity binds, the rent lands on the holders of the Th-229/U-233 generator stock, principally Oak Ridge National Laboratory and the DOE Isotope Program that allocates its roughly 1 Ci/yr of Ac-227-free material, and on whichever sponsor locks a multi-year clean-grade contract early. NorthStar, Cardinal Health, and Niowave can sell curies but their Ra-226 and accelerator routes co-produce Ac-227, so they capture the bulk-volume margin while the scarcity premium accrues separately to certified-clean lots reserved for chronic or repeat-dose programs. The value sits in the certificate of Ac-227 content, not the curie.",
+        "winners": [
+          {
+            "who": "Oak Ridge National Laboratory / DOE Isotope Program",
+            "why": "sole custodian of the non-replenishing Th-229 generator stock, so it sets the allocation table for the only construction-clean Ac-225 and can price repeat-dose access."
+          },
+          {
+            "who": "Perspective Therapeutics (CATX)",
+            "why": "its Pb-212 platform (212Pb-VMT-alpha-NET, 43 percent response in NET cohort) sidesteps the Ac-227 problem entirely, so a purity ceiling on Ac-225 pulls chronic-dosing programs toward its modality."
+          },
+          {
+            "who": "Sponsors holding early generator-grade supply deals (Convergent Therapeutics, Alpha-9 via NorthStar agreements)",
+            "why": "a contracted clean-grade allotment becomes the gating asset for any label that requires multiple cycles."
+          }
+        ],
+        "losers": [
+          {
+            "who": "Accelerator and Ra-226-route producers selling on raw curie count (NorthStar Beloit linac output, Cardinal Indianapolis line, Niowave 5-10 Ci/yr)",
+            "why": "their material carries inseparable Ac-227, so it gets repriced to single-dose or research use once chronic-dose specs name an Ac-227 ceiling."
+          },
+          {
+            "who": "TAT sponsors whose pivotal designs assume curie supply is fungible (RayzeBio/BMS-class Ac-225 programs that already paused on shortage)",
+            "why": "a clean-grade requirement narrows their usable supply below headline production."
+          },
+          {
+            "who": "Sell-side models that quote one Ac-225 supply number",
+            "why": "they get marked down when the clean-grade share is revealed as a small minority of total curies."
+          }
+        ],
+        "reprices": "No clean public instrument prices the isotopic-purity layer today. The first observable mover is the per-millicurie contract spread between certified-low-Ac-227 generator lots and accelerator lots, which widens; equity in pure-curie producers (NorthStar private, Cardinal Health CAH segment) compresses on the realization that volume is not clean volume. Perspective Therapeutics (CATX) equity is the cleanest listed proxy that moves up on a binding Ac-225 purity ceiling.",
+        "next_constraint": "Once Ac-227-free Ac-225 binds, the constraint moves to the Pb-212 supply chain (Ra-228/Th-228 generators) and to GMP radiochemistry hot-cell time for whichever clean emitter the field adopts. If U-233 production stays shut, the deeper floor is the fixed Th-229 inventory itself, which cannot be added to under current policy.",
+        "watch": "The first TAT supply contract or FDA drug master file that names a maximum Ac-227 impurity concentration as a release specification, distinct from no-carrier-added language. NorthStar's April 2026 NCA DMF did not do this; the marker is the first filing that splits isotopic purity from chemical purity in writing."
+      }
     },
     {
       "id": "P2",
@@ -35,7 +69,41 @@
       "pre_consensus": "The investor and trade narrative has settled on \"Ac-225 is scarce, fund accelerators and hot-cells.\" IAEA, DOE/NIDC, and the trade press (AuntMinnie, Clinical Trial Vanguard) already name Ra-226 sourcing as a feedstock concern, so the framing is not buried. It has not, though, crossed into sell-side equity models, where accelerator capacity remains the consensus binding variable. The second-order migration (solving conversion just exposes the Ra-226 floor) is absent from financial modeling. We think the mispricing is real but eroding, since awareness keeps rising in technical and institutional channels. The cleanest tell that financial markets have not priced this yet is the price-channel leg: there is no tracked spot price for Ra-226.",
       "price_channel": "No public spot or contract price for purified Ra-226 exists. DOE/NIDC sells research quantities under administrative allocation, not open-market bidding. So the structural constraint is real, but price discovery may stay inside government allocation tables rather than a Bloomberg-trackable index, which is the primary risk to the dated call resolving regardless of whether the structural call is correct.",
       "refute": "Three adversarial attacks. (1) Ra-226-free routes. High-energy proton spallation of Th-232 at TRIUMF and BNL produces Ac-225 without Ra-226 targets. If these scale commercially before 2034, Ra-226 becomes irrelevant. The risk is real, but multi-GeV proton accelerators are expensive and sparse, and commercial displacement of Ra-226 routes by 2034 is not current consensus. (2) Already named publicly. NIDC, IAEA, and AuntMinnie already cite Ra-226 sourcing. If a sell-side analyst picks this up soon, the \"not priced\" premise weakens fast. The resolution test asks for a tracked spot price, which needs open-market price discovery, and government allocation could block that even as the constraint bites. (3) Target recycling loop. Accelerator routes can recycle Ra-226 after irradiation if hot-cell recovery is efficient. The constraint then shifts to recovery yield and hot-cell capacity rather than Ra-226 atoms outright. The needle should name both Ra-226 inventory and hot-cell recovery capacity together, which the candidate already does. The structural logic survives all three, but the exact dated call stays vulnerable to the government-allocation pricing mechanism.",
-      "why": "We promote on structural strength: the Ra-226 supply inelasticity is physically real, the constraint-migration logic from conversion to feedstock is deterministic as accelerator capacity builds, and the He-3 comparison holds. The mispricing is genuine in financial channels. We hold the dated-call probability to 0.44 because the resolution test needs a tracked spot or contract price for Ra-226, which may never emerge if DOE keeps allocating administratively rather than via open-market bidding, and because Ra-226-free spallation routes are a live kill-line risk. The structural view (Ra-226 becomes the real ceiling) has a high probability of being correct; the dated call is tighter than the structural story alone."
+      "why": "We promote on structural strength: the Ra-226 supply inelasticity is physically real, the constraint-migration logic from conversion to feedstock is deterministic as accelerator capacity builds, and the He-3 comparison holds. The mispricing is genuine in financial channels. We hold the dated-call probability to 0.44 because the resolution test needs a tracked spot or contract price for Ra-226, which may never emerge if DOE keeps allocating administratively rather than via open-market bidding, and because Ra-226-free spallation routes are a live kill-line risk. The structural view (Ra-226 becomes the real ceiling) has a high probability of being correct; the dated call is tighter than the structural story alone.",
+      "implications": {
+        "rent_path": "If Ra-226 feedstock binds, the rent lands on holders of legacy radium and on the hot-cell operators who can fabricate and recover targets without loss, not on the accelerator owners. QSA Global, which signed multi-year Ra-226 purification and supply deals with both Niowave and NorthStar in 2024-2026, sits on the chokepoint as the party aggregating and purifying antique radium sources under the IAEA radium-management framework. CNL (via the Actineer JV with ITM) and Niowave capture value through scarce shielded hot-cell capacity, while the accelerator conversion step they funded becomes the commodity layer.",
+        "winners": [
+          {
+            "who": "QSA Global",
+            "why": "contracted to purify and supply Ra-226 to multiple Ac-225 producers, so it controls the gate between the 2.5 kg legacy stock and every accelerator route."
+          },
+          {
+            "who": "Canadian Nuclear Laboratories / Actineer (ITM-CNL JV)",
+            "why": "owns GMP hot-cell fabrication and recovery capacity, the second inelastic input, and already produces cyclotron Ac-225 from Ra-226."
+          },
+          {
+            "who": "TRIUMF and DOE/BNL spallation programs",
+            "why": "a Ra-226-free Th-232 spallation route, if scaled, captures the supply that Ra-226 cannot, making the national lab beam-time the hedge against the feedstock floor."
+          }
+        ],
+        "losers": [
+          {
+            "who": "Accelerator-only entrants whose thesis is beam-time and conversion capacity (Niowave on the conversion step, new cyclotron CDMOs)",
+            "why": "without secured Ra-226 their installed capacity runs below nameplate."
+          },
+          {
+            "who": "Late TAT sponsors signing supply deals after the legacy radium is contracted",
+            "why": "they face allocation rather than purchase, since there is no spot market to clear into."
+          },
+          {
+            "who": "Equity narratives pricing Ac-225 as an accelerator-capacity story",
+            "why": "marked down when feedstock, not conversion, is named as rate-limiting."
+          }
+        ],
+        "reprices": "Nothing prices Ra-226 cleanly: DOE/NIDC lists it in research quantities under administrative allocation, with no spot or contract index. This is the explicit fragility of the dated call. The first observable repricing is a published $/mg or $/Ci Ra-226 contract figure, or a sponsor 10-K that names target feedstock as rate-limiting. Absent that, the constraint stays inside government allocation tables and never prints.",
+        "next_constraint": "Once Ra-226 atoms bind, the constraint moves to recovery yield, the fraction of radium recovered from each irradiated target, and to the count of licensed shielded hot cells that can handle radium without loss. After that, the only relief is a Ra-226-free spallation route, which moves the floor to multi-GeV proton beam-time at TRIUMF/BNL.",
+        "watch": "A public citation by an Ac-225 sponsor or CDMO (in a 10-K, investor deck, or trade interview) of Ra-226 target availability or hot-cell recovery capacity as the rate-limiting input, or the first quoted purified-Ra-226 contract price. The QSA-Niowave-NorthStar radium deals are the precursor; the marker is feedstock named as the ceiling, not conversion."
+      }
     },
     {
       "id": "P3",
@@ -52,7 +120,41 @@
       "pre_consensus": "The first-order dependency (Yb-176 from Russia for Lu-177) now shows up in trade press, EU consortium papers (EURASIS 2024), and equity narratives (ASPI listed on Nasdaq explicitly to trade this thesis). That layer is partially priced. The second-order claim is less priced: the constraint is not the reactor, not Lu-177 specifically, and not Yb-176 alone, but the upstream gas-centrifuge enrichment step shared across the entire next generation of therapeutic isotopes as a basket, with Western rebuilds solving one isotope partially while leaving Zn-68 and Gd-160 unaddressed, and with allocation contracts keeping the bottleneck invisible to spot-market signals and equity coverage. Policy and equity narratives price the drug and the reactor while overlooking the centrifuge two layers upstream. Western EMIS announcements (Kinectrics 500 g/yr) get treated as a solution when the demand arithmetic does not support that at full basket scale. This is distinct from the existing biotech calls in FUTURE_MAP (delivery, AAV, plasmid, ADC conjugation), none of which touch medical isotopes or stable-isotope enrichment.",
       "price_channel": "Partially priced at the first-order level via ASPI equity and DOE SIPRC funding. The second-order basket argument (Zn-68, Gd-160 remaining unaddressed; enriched-target allocation as the shared constraint across all next-generation therapeutic isotopes) is not reflected in any visible spot price or dedicated equity vehicle. Enriched target prices get set by bilateral allocation contracts without public disclosure, which keeps the constraint structurally invisible to markets even when it is operationally real.",
       "refute": "Three attacks survive partial scrutiny. First, the resolution test requires public citation by RLT sponsors of enriched-target supply as the rate-limiting input over reactor time. CDMOs and sponsors routinely describe supply chain risk in vague 10-K language, and if allocation is secured bilaterally, sponsors have no incentive to disclose the specific bottleneck, which makes the evidentiary bar hard to meet even when the bottleneck is real. Second, the Kinectrics plus ASPI plus SIPRC overlap could solve Yb-176 specifically by 2029, splitting the dated call: Western capacity may exceed demand for Lu-177 while staying inadequate for Tb-161 and Cu-67, producing an ambiguous resolve rather than a clean TRUE. Third, six years is a long runway. The West has identified the dependency and capital is moving, so by 2032 the basket may be partially addressed for the leading commercial isotopes even if not fully closed. The structural observation survives all three attacks; the specific dated call is the weaker component.",
-      "why": "We promote because the second-order structural mechanism is correct and inelastic through the mid-term, the basket argument (Zn-68, Gd-160 have no Western kilogram rebuild) extends past what equity or policy has priced, and the allocation-contract invisibility is a genuine market-structure reason the bottleneck does not self-disclose. We hold the dated-call probability below 0.5 because the evidentiary bar (public citation by sponsors of enriched target as rate-limiting input over reactor time, for two isotopes) may not be met on schedule even when the bottleneck is operationally real, and because ASP Isotopes plus Kinectrics could solve Yb-176 before 2032 and split the resolve."
+      "why": "We promote because the second-order structural mechanism is correct and inelastic through the mid-term, the basket argument (Zn-68, Gd-160 have no Western kilogram rebuild) extends past what equity or policy has priced, and the allocation-contract invisibility is a genuine market-structure reason the bottleneck does not self-disclose. We hold the dated-call probability below 0.5 because the evidentiary bar (public citation by sponsors of enriched target as rate-limiting input over reactor time, for two isotopes) may not be met on schedule even when the bottleneck is operationally real, and because ASP Isotopes plus Kinectrics could solve Yb-176 before 2032 and split the resolve.",
+      "implications": {
+        "rent_path": "If kilogram-scale enriched-stable-target supply binds across the therapeutic basket, the rent lands on whoever holds non-Russian centrifuge-equivalent capacity for Yb-176, Zn-68 and Gd-160, and on Rosatom's Electrochemical Plant and Ural Electrochemical for as long as the West stays gram-scale. ASP Isotopes (ASPI) and Kinectrics capture Yb-176 value as they reach commercial shipments, but neither has announced kilogram programs for Zn-68 or Gd-160, so the basket constraint moves the rent to whoever first enriches the second and third target. Novartis and other RLT sponsors pay the allocation premium through bilateral target contracts, not spot.",
+        "winners": [
+          {
+            "who": "ASP Isotopes (ASPI)",
+            "why": "laser-enrichment Yb-176 facility rated near 1 kg/yr with commercial shipments targeted for Q3 2026, the leading listed Western vehicle for the first basket isotope."
+          },
+          {
+            "who": "Kinectrics",
+            "why": "EMIS Yb-176 production over 500 g/yr by end-2025 and first non-Russian shipments in 2024, the qualified allied second source for Lu-177 feedstock."
+          },
+          {
+            "who": "Rosatom (Electrochemical Plant Zelenogorsk, Ural Electrochemical Novouralsk)",
+            "why": "retains kilogram-scale cascades for the full basket, so it captures the residual until Western Zn-68 and Gd-160 programs exist, which none yet do."
+          }
+        ],
+        "losers": [
+          {
+            "who": "RLT sponsors dependent on a single enriched isotope with no qualified second source for the next-generation emitters (Tb-161 needing Gd-160, Cu-67 needing Zn-68)",
+            "why": "their pipeline diversification stalls on feedstock, not reactor time."
+          },
+          {
+            "who": "Reactor and cyclotron operators positioned as the bottleneck owners",
+            "why": "their activation slots are commoditized once the target feedstock above them is revealed as the true ceiling."
+          },
+          {
+            "who": "Western supply-security programs that treated Kinectrics 500 g/yr as a solution",
+            "why": "repriced as gram-scale relative to full-basket demand arithmetic."
+          }
+        ],
+        "reprices": "Partially priced at the first order via ASPI equity and DOE SIPRC funding; the second-order basket argument is not in any spot price or dedicated vehicle. Enriched-target prices are set by undisclosed bilateral allocation contracts. The cleanest observable mover is disclosed Yb-176 unit price and lead time, plus ASPI equity, which re-rates on a kilogram-scale clinical-grade shipment for a second isotope.",
+        "next_constraint": "Once enriched stable targets bind, the constraint moves to GMP qualification time per isotope (years to certify a new enrichment source under regulatory review) and to centrifuge/laser-cascade build time for Zn-68 and Gd-160, where no Western program exists. Geopolitically the deeper floor is Rosatom sanction exposure forcing requalification on compressed timelines.",
+        "watch": "The first disclosed kilogram-per-year clinical-grade shipment of a second basket isotope (Zn-68 or Gd-160) from a non-Russian source, or an RLT sponsor publicly citing enriched-target supply, not reactor time, as rate-limiting for two isotopes. The Rosatom Sanctions Enforcement Act moving through the US House is the policy precursor."
+      }
     },
     {
       "id": "P4",
@@ -69,7 +171,41 @@
       "pre_consensus": "Partially mispriced. The biology of non-substitutability is a permanent fact and nobody contests it. The shortage risk, though, is more priced than the candidate implies. Grifols, CSL Behring, and Takeda are all publicly traded or carry public debt; sell-side analysts at Jefferies, Morgan Stanley, and Berenberg have covered plasma collection volume as the primary operating driver for at least five years. The \"US supplies ~70 percent of world plasma\" figure shows up in WHO working group documents and regulatory filings. What stays genuinely underpriced: the convergence of three demand curves at once (neurology expansion, immunocompromised-survivor population, aging-primary-immunodeficiency), the specific demographic fragility of compensated donation under any economic-normalisation scenario, and the absence of any FcRn-class substitute for the primary-immunodeficiency (non-neurology) IVIG base. The claim that this is entirely un-modeled is too strong; the claim that the full binding severity is priced is also too strong. The truth sits in between, which is why we promote but hold the dated-call probability well below our conviction in the thesis.",
       "price_channel": "Plasma fractionator equities trade on collection-volume growth as the primary lever; the shortage risk is a standing topic on earnings calls. Market research projections (USD 13B to USD 23B by 2035, CAGR ~5.9 percent) get cited widely. FcRn antagonist launches (efgartigimod, rozanolixizumab) are already partially priced as a neurology-demand offset. The US-geographic concentration sits in public regulatory filings. This is not a dark, uncovered corner of the market.",
       "refute": "Three attacks. First, FcRn antagonists are not hypothetical: argenx's efgartigimod (Vyvgart) is commercially approved for MG and CIDP and growing, competing directly for the highest-dose IVIG users in neurology, the exact demand cohort the candidate calls open-ended. Over a 9-year horizon, this class is a material kill path, not a speculative one. Second, EU plasma self-sufficiency is an active policy target: the European Commission's Plasma Action Plan (2023) and post-COVID health-security legislation have made non-US plasma collection a genuine political priority with capital behind it, and nine years is enough time to move the US share below 65 percent. Third, the rationing sub-condition is fragile: formal public rationing in two major wealthy markets requires both governments and hospital systems to move from informal shortage management (the current state) to declared allocation frameworks, which has not happened despite years of recurring shortages, suggesting the system absorbs the stress informally rather than triggering the formal resolution criterion. The biological core of the call survives all three attacks; the specific dated call does not survive them cleanly.",
-      "why": "We promote because the biological mechanism is real, the needle (donated human plasma litres) is genuinely inelastic and non-substitutable for the primary-immunodeficiency base, demand compounds from three independent curves, and the call is directionally correct over a 9-year horizon. We downgrade the dated-call probability materially below our conviction in the thesis to reflect the three active kill paths: FcRn substitution in neurology, EU self-sufficiency policy, and the fragility of the formal-rationing resolution criterion. The structural foresight is sound; the exact dated call as written carries a live 60 percent probability of failing on its specific terms even as the underlying constraint tightens."
+      "why": "We promote because the biological mechanism is real, the needle (donated human plasma litres) is genuinely inelastic and non-substitutable for the primary-immunodeficiency base, demand compounds from three independent curves, and the call is directionally correct over a 9-year horizon. We downgrade the dated-call probability materially below our conviction in the thesis to reflect the three active kill paths: FcRn substitution in neurology, EU self-sufficiency policy, and the fragility of the formal-rationing resolution criterion. The structural foresight is sound; the exact dated call as written carries a live 60 percent probability of failing on its specific terms even as the underlying constraint tightens.",
+      "implications": {
+        "rent_path": "If the source-plasma donor base binds, the rent lands on the three vertically integrated fractionators that own US donor-center litres, Grifols, CSL Behring and Takeda, since collected litres, not plant capacity, gate finished IgG. Grifols owns the only fully integrated US collection-to-commercialization platform and is building Egypt collection toward 3 million litres by 2029 to rebalance, but US donors still supply roughly 70 percent of world plasma. The value concentrates in donor-center count and litres per donor, an input that capital cannot manufacture.",
+        "winners": [
+          {
+            "who": "Grifols (GRF)",
+            "why": "fully integrated US plasma collection plus fractionation, so it captures the scarcity rent on litres it already owns and adds Egypt capacity to extend it."
+          },
+          {
+            "who": "CSL Behring (CSL)",
+            "why": "largest collection network with the Kankakee expansion adding 800,000 litres in 2025, monetizing every additional litre against a flat per-capita donor base."
+          },
+          {
+            "who": "argenx (ARGX)",
+            "why": "efgartigimod (Vyvgart), an FcRn antagonist approved in MG and CIDP, captures the highest-dose neurology IVIG users, so it gains from any IVIG rationing as the non-plasma substitute."
+          }
+        ],
+        "losers": [
+          {
+            "who": "Non-self-sufficient health systems dependent on imported US plasma (much of the EU, parts of Asia)",
+            "why": "they face allocation and therapy-delay first, with a 2025 study already documenting 9 percent therapy-delay rates."
+          },
+          {
+            "who": "Primary-immunodeficiency patients with no FcRn substitute",
+            "why": "efgartigimod offsets neurology demand but does not replace the polyclonal-repertoire base, so this cohort absorbs the binding shortage."
+          },
+          {
+            "who": "Hospital systems forced into informal rationing",
+            "why": "they bear the allocation cost rather than the manufacturers, and repriced reimbursement does not relieve the litre ceiling."
+          }
+        ],
+        "reprices": "Fractionator equities (GRF, CSL, Takeda) already trade on collection-volume growth, so the constraint is partially priced. The under-priced mover is the convergence of three demand curves against flat per-capita collection; the cleanest signal is the US share of global collection holding above 65 percent while IG demand grows roughly 30 percent. argenx (ARGX) equity is the listed offset that rises as FcRn substitution erodes neurology IVIG demand.",
+        "next_constraint": "If donor litres bind, the constraint moves to compensated-donor demographic fragility (collection depends on a low-income compensated US cohort sensitive to any economic normalization) and to the fixed 7-12 month fractionation lead time that prevents any sprint. Beyond that, FcRn substitution shifts the binding demand to the non-substitutable primary-immunodeficiency base.",
+        "watch": "A formal indication-based IVIG allocation or prioritization framework declared by a government or hospital system in a major wealthy market (US, an EU member state, Canada, or Japan), moving from the current informal shortage management to a published rationing rule. The EU Plasma Action Plan progress on non-US collection share is the counter-marker."
+      }
     },
     {
       "id": "P5",
@@ -86,7 +222,41 @@
       "pre_consensus": "Market-research reports (Technavio, Polaris, TowardsHealthcare) name the hPL market and project 15% CAGR growth, so the category is tracked. The framing throughout, though, is growth-opportunity-in-a-niche, not supply-constraint-story. No equity analyst covers a public hPL pure-play. No forward price curve exists for hPL. No blood-bank or regulatory body has yet issued allocation guidance balancing transfusion versus manufacturing demand. The field frames hPL as the better, safer FBS replacement, not as a donor-derived bottleneck that cannot scale past human donation. The donor-platelet-diversion framing is absent from regulatory filings and blood-establishment policy. We see that as a genuine framing gap: the constraint is not yet priced at the level that matters.",
       "price_channel": "No spot-price index for hPL exists. Catalog list prices from STEMCELL Technologies and MP Biomedicals are publicly visible but do not reflect GMP commercial-scale contract pricing, which is negotiated privately. No sell-side coverage of a hPL pure-play. Market-report coverage names the sector without pricing the constraint. The absence of a liquid price channel is consistent with the call being mispriced, not evidence it is already priced.",
       "refute": "Three attacks. First: the category is already in market reports, so it is priced. This weakens on inspection, because the reports price the growth opportunity in hPL sales, not the scarcity of donor platelet mass as a bottleneck for cell-therapy producers. Those are different claims pointing in opposite directions commercially. Second: defined media and recombinant supplements will substitute before the constraint bites. This is non-trivial and the most serious attack. Miltenyi TexMACS and others are active, and some MSC runs are already hPL-free. But no single defined medium matches hPL performance across the full cell-type space today, regulatory requalification adds years per product, and allogeneic scale-up is moving faster than defined-media validation. The kill criterion captures this exit. Third: the volume math does not close by 2033. Possible. Commercial allogeneic products at million-dose scale are still 5-10 years from dominance, and the diversion math may not become visible until post-2033. This attack does not kill the structural case, but it does compress the dated-call probability. The call survives all three with reduced but positive conviction. We hold the dated-call probability at 0.38 because the resolution bar (public price rise plus three named-input disclosures) is specific, the timeline is tight relative to allogeneic scale-up, and defined-media progress is real.",
-      "why": "We promote because the biological mechanism is genuine and non-synthesizable, the inelastic needle is precisely identified (donor platelet mass), the field is systematically mispricing the dependency by framing hPL as a quality upgrade rather than a constrained input, and no liquid price channel or equity coverage currently reflects the donor-diversion risk. The kill line is honest and testable. We hold the dated-call probability to 0.38, not inflated, because defined-media substitution is a real competing path and the resolution bar requires public evidentiary disclosure that sponsors have structural incentives to avoid."
+      "why": "We promote because the biological mechanism is genuine and non-synthesizable, the inelastic needle is precisely identified (donor platelet mass), the field is systematically mispricing the dependency by framing hPL as a quality upgrade rather than a constrained input, and no liquid price channel or equity coverage currently reflects the donor-diversion risk. The kill line is honest and testable. We hold the dated-call probability to 0.38, not inflated, because defined-media substitution is a real competing path and the resolution bar requires public evidentiary disclosure that sponsors have structural incentives to avoid.",
+      "implications": {
+        "rent_path": "If donor-platelet mass binds, the rent lands on blood establishments and apheresis-chair operators who control platelet units, and on the hPL processors (STEMCELL Technologies, Macopharma, Sigma/Merck PLTMax) that pool 40-80 donor units per batch, not on the cell-therapy sponsors. Because platelet supply is already short for clinical transfusion, hPL demand from allogeneic MSC, iPSC and NK manufacturing competes directly with hospital transfusion services for the same units. Value concentrates in whoever can secure pooled, pathogen-reduced, fibrinogen-depleted platelet supply at GMP scale.",
+        "winners": [
+          {
+            "who": "hPL processors (STEMCELL Technologies, Macopharma, Merck PLTMax)",
+            "why": "they convert scarce donor platelet units into GMP supplement and capture the price as demand outruns the donor pool."
+          },
+          {
+            "who": "Blood establishments and apheresis networks (American Red Cross-class collectors)",
+            "why": "they hold the inelastic platelet mass and gain pricing power as manufacturing bids against transfusion."
+          },
+          {
+            "who": "Defined-media vendors (Miltenyi TexMACS and chemically defined media suppliers)",
+            "why": "they capture the substitution flow that any hPL price spike accelerates, the kill-path beneficiary."
+          }
+        ],
+        "losers": [
+          {
+            "who": "Allogeneic cell-therapy sponsors scaling to bioreactor volumes at 5 percent hPL supplement",
+            "why": "their cost of goods and supply security degrade as hPL price rises and units are diverted."
+          },
+          {
+            "who": "Hospital transfusion services and platelet-dependent patients",
+            "why": "they lose units to higher-paying manufacturing demand, the diversion the field does not yet model."
+          },
+          {
+            "who": "Cell-therapy programs locked into hPL by regulatory requalification cost (2-5 years per process change)",
+            "why": "they cannot exit to defined media fast enough when the constraint bites."
+          }
+        ],
+        "reprices": "No spot-price index or equity pure-play exists for hPL; catalog list prices from STEMCELL and MP Biomedicals do not reflect GMP contract pricing. The absence of a liquid channel is consistent with mispricing. The cleanest observable mover is real-terms GMP hPL price per litre, plus the count of allogeneic sponsors naming human-platelet or hPL supply as a rate-limiting or dual-sourced input in filings.",
+        "next_constraint": "If donor platelet mass binds, the constraint moves to apheresis-chair capacity and donor-recruitment elasticity (the same ceiling that already produces seasonal transfusion shortages), and then to whether bioreactor-grown megakaryocytes or iPSC-derived platelets can supply the growth-factor cargo without human donors. Until then the deeper floor is regulatory allocation of platelets between transfusion and manufacturing.",
+        "watch": "A blood establishment or regulator issuing allocation guidance that balances transfusion against manufacturing demand for platelets, or three or more clinical-stage allogeneic programs publicly citing human-platelet/hPL supply as rate-limiting. The first GMP hPL contract price disclosure showing a real-terms rise is the precursor."
+      }
     },
     {
       "id": "P6",
@@ -103,7 +273,41 @@
       "pre_consensus": "The transplant field discusses the aging/comorbid donor-pool shift and the overdose-donor decline as separate phenomena, and separately celebrates GLP-1 as beneficial for organ health and recipients. The specific second-order synthesis (that GLP-1 mass adoption removes the metabolic/cardiovascular-death donor stream and thereby tightens the supply of usable young SCD organs, repricing reconditioning and engineered-organ infrastructure as the binding capacity) appears in zero published transplant or investor analysis. Sell-side covers TransMedics as a technology/logistics adoption story, not as a GLP-1 second-order consequence. The consensus has the sign of GLP-1's effect on transplantation backwards at the population-supply level. Note: the downstream asset (NMP/reconditioning equity) is already partially priced, since TMDX is a high-momentum public compounder, but the specific causal attribution via GLP-1 donor-pool degradation is genuinely absent from coverage, which makes this a structural-mechanism insight rather than an undiscovered equity trade.",
       "price_channel": "TransMedics (TMDX) at $605M 2025 revenue, 36% growth, active Buy-rated analyst coverage at $109 price target, stock up 81% in 2025. NMP market reports project $2B (2026) to $6.5B+ (2033) at 18% CAGR. The reconditioning value migration is therefore partially priced as a technology-adoption story. The GLP-1 donor-pool-degradation causal path is not in any sell-side model or transplant analysis. Our read: the downstream consequence is partially priced on technology grounds; the specific mechanism named here is not priced. A structural call on the mechanism and its compounding is still mispriced; a simple \"buy NMP stocks\" trade is not.",
       "refute": "Three serious attacks survive review. First, the downstream asset is already priced: TMDX at high-multiple, high-momentum Buy-rated status means the market has partly re-rated NMP as the organ-quality solution. The \"value migrates to reconditioning\" call is thus partially already in prices, which weakens the investment edge. Second, the GLP-1 mortality timeline is slow: mass adoption began around 2023, and cardiovascular/metabolic death-rate effects at population scale take 5-10 years, so by 2033 GLP-1 may have only 10 years at scale and the donor-pool signal may not be separable from other variance within the window. Third, the kill criteria are plausible: DCD expansion is already accelerating as a partial offset, living donation is growing, and xeno-organ trials (FDA-authorized pig-to-human, 2024) are on a plausible timeline to reach limited commercial scale by 2030-2033, potentially bypassing rather than confirming the SCD-scarcity binding constraint. The structural direction is sound; the exact dated call (SCD scarcity becoming THE binding constraint and forcing observable value migration by 2033) is weaker because value migration is already underway and the GLP-1 causal contribution is not separable within the window. The call survives as a structural insight but not at high precision on the exact resolution test.",
-      "why": "We promote on the structural mechanism: the GLP-1-as-donor-pool-degrader second-order insight is genuinely absent from transplant and investor analysis, the SCD organ needle is genuinely inelastic, and the directional trend (worse donor pool, rising NMP adoption) is already confirmed in real data. We hold the dated-call probability below 0.5 because the downstream equity is partially priced on technology grounds already, the GLP-1 causal contribution is not separable within the 2033 window, and alternative elastic responses (DCD expansion, xeno) may prevent SCD scarcity from becoming definitively \"binding\" in a measurable sense. This is a real structural insight worth tracking, not a high-confidence binary resolution."
+      "why": "We promote on the structural mechanism: the GLP-1-as-donor-pool-degrader second-order insight is genuinely absent from transplant and investor analysis, the SCD organ needle is genuinely inelastic, and the directional trend (worse donor pool, rising NMP adoption) is already confirmed in real data. We hold the dated-call probability below 0.5 because the downstream equity is partially priced on technology grounds already, the GLP-1 causal contribution is not separable within the 2033 window, and alternative elastic responses (DCD expansion, xeno) may prevent SCD scarcity from becoming definitively \"binding\" in a measurable sense. This is a real structural insight worth tracking, not a high-confidence binary resolution.",
+      "implications": {
+        "rent_path": "If the young low-comorbidity SCD organ pool shrinks as GLP-1 removes the metabolic-death replacement stream, the rent lands on reconditioning infrastructure and on engineered-organ supply, not on donor recruitment. TransMedics (TMDX), at roughly $585-605M 2025 revenue growing over 30 percent, captures the value of making marginal, DCD and steatotic organs usable through normothermic machine perfusion. The deeper migration pulls value toward xeno-organ developers eGenesis and United Therapeutics as the only elastic supply once the deceased-donor pool ages and contracts.",
+        "winners": [
+          {
+            "who": "TransMedics (TMDX)",
+            "why": "OCS machine-perfusion installed base and per-organ reconditioning revenue grow as a rising majority of transplanted organs need reconditioning before implant."
+          },
+          {
+            "who": "United Therapeutics (UTHR)",
+            "why": "FDA-cleared UKidney trial (10 gene-edited pig, 6 patients expanding to 50 toward a BLA) positions it to supply elastic engineered organs when SCD scarcity binds."
+          },
+          {
+            "who": "eGenesis",
+            "why": "69-edit pig kidney (EGEN-2784) with FDA IND clearance and live human transplants, the second xeno supplier capturing demand the shrinking SCD pool cannot meet."
+          }
+        ],
+        "losers": [
+          {
+            "who": "Transplant programs and OPOs dependent on a young traumatic/overdose-death donor stream",
+            "why": "overdose-donor share already fell from 16.7 percent (2022) to 10.5 percent (Q1 2025), removing their highest-quality supply."
+          },
+          {
+            "who": "Patients on waitlists for non-reconditionable organs",
+            "why": "they face longer waits and worse graft survival as the median donor ages and DCD reliance rises."
+          },
+          {
+            "who": "Cost models assuming a stable deceased-donor supply",
+            "why": "repriced as reconditioning and xeno become mandatory rather than optional steps."
+          }
+        ],
+        "reprices": "Partially priced on technology grounds: TMDX is a high-momentum Buy-rated compounder (up 81 percent in 2025, $109 target), and the NMP market is modeled $2B (2026) to $6.5B (2033) at 18 percent CAGR. The GLP-1 donor-pool-degradation causal path is in no sell-side model. The clean mover is the SCD share of the deceased-donor pool and median donor age in OPTN/SRTR data; a simple NMP-equity trade is already in prices, the mechanism is not.",
+        "next_constraint": "If SCD organs bind, the constraint moves to NMP device and perfusionist capacity (whether reconditioning throughput can scale to a majority of transplants), then to xeno-organ manufacturing: gene-edited source-pig herd capacity, designated-pathogen-free facility throughput, and the FDA pathway from trial to commercial BLA at eGenesis and United Therapeutics.",
+        "watch": "OPTN/SRTR annual data showing SCD share of the deceased-donor pool falling and median donor age rising while machine-perfusion becomes a standard step for a rising majority of transplanted organs. The earliest separable marker is a published donor-pool analysis attributing comorbid-death donor decline to GLP-1 population effects, which currently exists in zero analyses."
+      }
     }
   ],
   "runner_ups": [

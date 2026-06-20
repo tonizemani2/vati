@@ -1,4 +1,4 @@
-/* Vaticinus — the vendored Webflow stylesheet is the single source of visual truth.
+/* Vaticinus - the vendored Webflow stylesheet is the single source of visual truth.
    Tailwind is intentionally NOT imported: the Webflow CSS ships its own reset, and
    layering Tailwind preflight on top causes base-element conflicts. */
 @import "../styles/site.webflow.css";
@@ -32,6 +32,86 @@ body {
    black void; the heading + copy carry the section on their own. */
 .performance_vid_wrap { display: none !important; }
 
+/* Hero chat handoff. This is real HTML generated at build time in raw.tsx: the
+   form submits a GET request to chat.vaticinus.com, which can auto-start from
+   q=...&auto=1. Keep it narrow and self-contained so the Webflow hero stays
+   stable across the static export. */
+.vati-hero-chat-shell {
+  width: min(100%, 44rem);
+  margin: clamp(18px, 2.2vw, 28px) auto 0;
+  color: var(--swatch--light-100);
+}
+.vati-hero-chat {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 7px;
+  border: 1px solid rgba(255, 255, 255, .14);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, .07);
+  box-shadow: 0 18px 60px rgba(0, 0, 0, .32);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+}
+.vati-hero-chat-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-width: 0;
+}
+.vati-hero-chat-input {
+  box-sizing: border-box;
+  flex: 1 1 auto;
+  min-width: 0;
+  height: 44px;
+  padding: 0 12px 0 16px;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  color: var(--swatch--light-100);
+  font-size: 16px;
+  line-height: 1;
+  text-align: left;
+}
+.vati-hero-chat-input::placeholder { color: rgba(255, 255, 255, .5); }
+.vati-hero-chat-submit {
+  flex: 0 0 auto;
+  min-width: 74px;
+  height: 44px;
+  padding: 0 20px;
+  border: 0;
+  border-radius: 999px;
+  background: var(--swatch--brand-500);
+  color: #1a1206;
+  font-weight: 600;
+  cursor: pointer;
+}
+.vati-hero-chat-submit:hover { background: var(--swatch--brand-400); }
+.vati-hero-chat-prompts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 10px;
+}
+.vati-hero-chat-prompts a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 32px;
+  padding: 0 12px;
+  border: 1px solid rgba(255, 255, 255, .12);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, .04);
+  color: rgba(255, 255, 255, .72);
+  font-size: 13px;
+  line-height: 1;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.vati-hero-chat-prompts a:hover {
+  border-color: rgba(255, 255, 255, .22);
+  color: var(--swatch--light-100);
+}
+
 /* Solutions section contrast fix. The section background is dark (dark-900) and
    its photos are dark night/data scenes, but the cloned theme resolved the
    section text color to the near-black button-text token (#1a1206), so the
@@ -54,10 +134,46 @@ body {
    indigo number. */
 .vati-calls-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: clamp(16px, 1.6vw, 24px);
 }
 @media (max-width: 860px) { .vati-calls-grid { grid-template-columns: 1fr; } }
+@media (min-width: 861px) {
+  .vati-calls-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  .vati-call-card:first-child,
+  .vati-call-card:nth-child(4) {
+    grid-column: span 2;
+  }
+  .vati-call-card:nth-child(5) {
+    display: grid;
+    grid-column: 1 / -1;
+    grid-template-areas:
+      "head head"
+      "preview title"
+      "preview text"
+      "preview feature"
+      "preview cta";
+    grid-template-columns: minmax(280px, .78fr) minmax(0, 1fr);
+    gap: 14px clamp(22px, 2.4vw, 34px);
+    align-items: start;
+  }
+  .vati-call-card:nth-child(5) .vati-call-head { grid-area: head; }
+  .vati-call-card:nth-child(5) .vati-call-preview { grid-area: preview; }
+  .vati-call-card:nth-child(5) .vati-call-title { grid-area: title; }
+  .vati-call-card:nth-child(5) .vati-call-text { grid-area: text; }
+  .vati-call-card:nth-child(5) .vati-call-feature { grid-area: feature; }
+  .vati-call-card:nth-child(5) .vati-call-cta { grid-area: cta; }
+  .vati-call-card:first-child .vati-call-preview,
+  .vati-call-card:nth-child(4) .vati-call-preview {
+    aspect-ratio: 2.15 / 1;
+  }
+  .vati-call-card:first-child .vati-call-preview img,
+  .vati-call-card:nth-child(4) .vati-call-preview img {
+    object-position: center 24%;
+  }
+}
 .vati-call-card {
   display: flex;
   flex-direction: column;
@@ -89,6 +205,41 @@ body {
   font-weight: 500;
   color: rgba(255, 255, 255, .45);
   font-variant-numeric: tabular-nums;
+}
+.vati-call-preview {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, .13);
+  border-radius: 12px;
+  background: #f7f2ea;
+  box-shadow: inset 0 0 0 1px rgba(12, 11, 16, .08);
+  aspect-ratio: 1.45 / 1;
+}
+.vati-call-preview img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+  transform: scale(1.01);
+  transition: transform .22s ease;
+}
+.vati-call-card:hover .vati-call-preview img { transform: scale(1.035); }
+.vati-call-preview span {
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+  padding: 5px 8px;
+  border: 1px solid rgba(255, 255, 255, .16);
+  border-radius: 999px;
+  background: rgba(12, 11, 16, .72);
+  color: #fff;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 1;
+}
+.vati-call-preview span {
+  display: none;
 }
 .vati-call-title {
   font-size: clamp(19px, 1.5vw, 22px);
@@ -150,6 +301,872 @@ body {
   text-decoration: none;
 }
 .vati-calls-all:hover { text-decoration: underline; }
+
+/* Header cleanup pass. The hero forecast tiles should read as atmosphere, not as
+   five extra mini headlines behind the actual headline. */
+.hero_wrap .hero_bg_wrap {
+  opacity: .64;
+  filter: saturate(.78) contrast(.92);
+}
+.hero_wrap .herotile {
+  border-color: rgba(255, 255, 255, .07) !important;
+  background: linear-gradient(160deg, rgba(16, 19, 28, .54), rgba(10, 12, 18, .72)) !important;
+  box-shadow: none !important;
+}
+.hero_wrap .herotile p {
+  display: none !important;
+}
+.hero_wrap .herotile span {
+  color: rgba(255, 255, 255, .38) !important;
+}
+.hero_wrap .herotile div[style*="height:clamp"] {
+  opacity: .38;
+}
+
+@media (min-width: 992px) {
+  .hero_wrap {
+    min-height: min(860px, 94svh);
+  }
+  .hero_wrap [data-hero="content"] {
+    max-width: min(760px, 68vw);
+    margin-inline: auto;
+  }
+  .hero_wrap .hero_bg_wrap {
+    opacity: .48;
+  }
+  .hero_wrap .herotile.is-9 {
+    display: none !important;
+  }
+  .hero_wrap #herobtn .u-button-group {
+    margin-top: 24px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1180px) {
+  .hero_wrap #heroh1,
+  .hero_wrap #heroh1 p {
+    font-size: clamp(56px, 7vw, 74px) !important;
+    line-height: .98 !important;
+  }
+  .hero_wrap .herotile.is-6,
+  .hero_wrap .herotile.is-11 {
+    display: none !important;
+  }
+  .hero_wrap .herotile.is-12 {
+    top: 15% !important;
+    left: 7% !important;
+  }
+  .hero_wrap .herotile.is-10 {
+    top: 13% !important;
+    left: 70% !important;
+  }
+}
+
+@media (min-width: 1181px) {
+  .hero_wrap .herotile.is-12 {
+    left: max(6%, calc((100vw - 1280px) / 2)) !important;
+  }
+  .hero_wrap .herotile.is-6 {
+    top: 68% !important;
+    left: max(7%, calc((100vw - 1280px) / 2 + 12px)) !important;
+  }
+  .hero_wrap .herotile.is-10 {
+    left: min(72%, calc(100vw - 416px)) !important;
+  }
+  .hero_wrap .herotile.is-11 {
+    left: auto !important;
+    right: max(7%, calc((100vw - 1280px) / 2)) !important;
+  }
+}
+
+/* Landing PDF cards now match the redesigned memo PDFs: light paper, black rules,
+   restrained labels. This keeps the previews from looking like old purple UI. */
+.forecasts_wrap .vati-call-card {
+  border-color: rgba(21, 21, 21, .15);
+  border-radius: 10px;
+  background: #fbfaf7;
+  color: #151515;
+  box-shadow: 0 16px 44px rgba(21, 21, 21, .08);
+}
+.forecasts_wrap .vati-call-card:hover {
+  border-color: rgba(36, 79, 216, .38);
+  box-shadow: 0 22px 58px rgba(21, 21, 21, .12);
+}
+.forecasts_wrap .vati-call-tag,
+.forecasts_wrap .vati-call-count,
+.forecasts_wrap .vati-call-feature-label,
+.forecasts_wrap .vati-call-pct-label {
+  color: #706c65;
+}
+.forecasts_wrap .vati-call-title,
+.forecasts_wrap .vati-call-feature-q {
+  color: #151515;
+}
+.forecasts_wrap .vati-call-text {
+  color: #5f5b54;
+}
+.forecasts_wrap .vati-call-preview {
+  border-color: rgba(21, 21, 21, .16);
+  border-radius: 6px;
+  background: #fbfaf7;
+  box-shadow: inset 0 0 0 1px rgba(21, 21, 21, .06);
+}
+.forecasts_wrap .vati-call-feature {
+  border-color: #d9d4cc;
+  border-radius: 6px;
+  background: #f2f0ea;
+}
+.forecasts_wrap .vati-call-pct,
+.forecasts_wrap .vati-call-cta,
+.forecasts_wrap .vati-call-tag {
+  color: #244fd8;
+}
+
+/* Taste pass: keep the Webflow identity, but remove repeated section-label noise
+   from sections whose headline already names the job. */
+#record .eyebrow_wrap,
+#track .eyebrow_wrap,
+#about .eyebrow_wrap,
+#engage .eyebrow_wrap {
+  display: none;
+}
+
+#research #benchmarks.research_contain-sm .u-content-wrapper {
+  display: block !important;
+}
+
+#research #benchmarks.research_contain-sm .c-heading {
+  max-width: 24ch;
+}
+
+.footer_wrap .c-heading h3 {
+  max-width: 18ch;
+  margin-inline: auto;
+  letter-spacing: 0;
+  line-height: 1.03;
+}
+
+/* Forecasts route. Unlike the old public/forecasts/index.html artifact, this is
+   a real Next page that sits inside the same nav/footer/runtime as the landing
+   page. Keep the visual vocabulary close to the homepage: dark hero, restrained
+   copy, dark board tickets, and compact scan-first rows. */
+.vf-page {
+  background: var(--swatch--light-100);
+}
+.vf-hero {
+  position: relative;
+  overflow: hidden;
+  background: var(--swatch--dark-900);
+  color: var(--swatch--light-100);
+}
+.vf-hero::before {
+  content: "";
+  position: absolute;
+  inset: -18% -10% auto auto;
+  width: min(62vw, 760px);
+  height: min(62vw, 760px);
+  background: radial-gradient(circle, rgba(109, 106, 252, .18), rgba(109, 106, 252, 0) 62%);
+  pointer-events: none;
+}
+.vf-hero-inner {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(320px, 420px);
+  gap: clamp(34px, 5vw, 76px);
+  align-items: center;
+  min-height: calc(100svh - var(--nav--height-total, 6.4rem));
+  padding-block: clamp(70px, 8vw, 118px);
+}
+.vf-hero .c-heading h1 {
+  max-width: 12ch;
+  font-size: clamp(42px, 6vw, 78px);
+  line-height: .98;
+  letter-spacing: 0;
+}
+.vf-live-panel {
+  padding: 18px;
+  border: 1px solid rgba(255, 255, 255, .12);
+  border-radius: 18px;
+  background: linear-gradient(165deg, #17141f, #0c0b10);
+  box-shadow: 0 28px 80px rgba(0, 0, 0, .38);
+}
+.vf-panel-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 14px;
+  margin-bottom: 4px;
+  border-bottom: 1px solid rgba(255, 255, 255, .1);
+}
+.vf-panel-head strong {
+  color: #fff;
+  font-weight: 500;
+}
+.vf-panel-head span,
+.vf-board-kicker,
+.vf-call-id,
+.vf-more-calls summary,
+.vf-board-meta span {
+  font-family: "Gt Standard Mono", monospace;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+}
+.vf-panel-head span {
+  color: rgba(255, 255, 255, .45);
+  font-size: 11px;
+}
+.vf-boards {
+  background: var(--swatch--light-100);
+  color: var(--swatch--dark-900);
+}
+.nav_logo_wrap img,
+.c-icon.is-logo {
+  display: block;
+  border-radius: 7px;
+}
+.vf-section-head {
+  display: block;
+  max-width: 720px;
+  margin-bottom: clamp(24px, 3vw, 36px);
+}
+.vf-section-head .c-paragraph {
+  max-width: 58ch;
+}
+.vf-board-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+.vf-board-card {
+  display: grid;
+  grid-template-columns: minmax(230px, 320px) minmax(0, 1fr);
+  gap: clamp(20px, 3vw, 34px);
+  padding: clamp(18px, 2.2vw, 28px);
+  border: 1px solid rgba(255, 255, 255, .1);
+  border-radius: 18px;
+  background: linear-gradient(165deg, #17141f, #0c0b10);
+  color: #fff;
+  box-shadow: 0 18px 55px rgba(12, 11, 16, .16);
+}
+.vf-cover {
+  position: relative;
+  display: block;
+  align-self: start;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, .12);
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: inset 0 0 0 1px rgba(12, 11, 16, .1);
+}
+.vf-cover::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  box-shadow: inset 0 -42px 70px rgba(12, 11, 16, .10);
+}
+.vf-cover img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1.08 / 1;
+  object-fit: cover;
+  object-position: center 18%;
+  filter: saturate(.92) contrast(1.02);
+  transform: scale(1.08);
+  transition: transform .2s ease;
+}
+.vf-board-card:hover .vf-cover img {
+  transform: scale(1.11);
+}
+.vf-board-kicker,
+.vf-call-id,
+.vf-more-calls summary {
+  color: #a9a6ff;
+  font-size: 11px;
+}
+.vf-board-card h3 {
+  max-width: 24ch;
+  margin: 9px 0 10px;
+  color: #fff;
+  font-size: clamp(22px, 2.4vw, 31px);
+  font-weight: 500;
+  line-height: 1.08;
+  letter-spacing: 0;
+}
+.vf-board-summary {
+  display: -webkit-box;
+  max-width: 64ch;
+  margin: 0 0 16px;
+  overflow: hidden;
+  color: rgba(255, 255, 255, .64);
+  font-size: 15px;
+  line-height: 1.55;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+.vf-board-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+.vf-board-meta span {
+  display: inline-flex;
+  align-items: center;
+  min-height: 28px;
+  padding: 0 10px;
+  border: 1px solid rgba(255, 255, 255, .12);
+  border-radius: 999px;
+  color: rgba(255, 255, 255, .56);
+  font-size: 11px;
+}
+.vf-call-list {
+  border-top: 1px solid rgba(255, 255, 255, .1);
+}
+.vf-call-row {
+  display: grid;
+  grid-template-columns: 54px minmax(0, 1fr) 108px;
+  gap: 12px;
+  align-items: start;
+  padding: 11px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, .08);
+}
+.vf-call-title {
+  display: -webkit-box;
+  overflow: hidden;
+  color: rgba(255, 255, 255, .88);
+  font-size: 14px;
+  line-height: 1.36;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+.vf-call-read {
+  color: #fff;
+  font-size: 13px;
+  font-variant-numeric: tabular-nums;
+  text-align: right;
+}
+.vf-call-read small {
+  display: block;
+  margin-top: 1px;
+  color: rgba(255, 255, 255, .42);
+  font-size: 11px;
+}
+.vf-more-calls summary {
+  cursor: pointer;
+  list-style: none;
+  padding: 11px 0;
+}
+.vf-more-calls summary::-webkit-details-marker {
+  display: none;
+}
+.vf-more-calls summary::after {
+  content: " +";
+}
+.vf-more-calls[open] summary::after {
+  content: " -";
+}
+.vf-board-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 18px;
+}
+.vf-pill {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 36px;
+  padding: 0 13px;
+  border: 1px solid rgba(255, 255, 255, .14);
+  border-radius: 999px;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 500;
+  text-decoration: none;
+}
+.vf-pill-primary {
+  border-color: var(--swatch--brand-500);
+  background: var(--swatch--brand-500);
+}
+.vf-note {
+  padding-top: 0;
+  color: var(--swatch--dark-700);
+  font-size: 13px;
+}
+.vf-disclaimer {
+  margin: 0;
+  padding-top: 22px;
+  border-top: 1px solid rgba(12, 11, 16, .12);
+}
+.vf-ultra-link {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 24px;
+  align-items: center;
+  margin-bottom: 28px;
+  padding: clamp(18px, 2.4vw, 28px);
+  border: 1px solid rgba(12, 11, 16, .12);
+  border-radius: 12px;
+  background: #fbfaf7;
+}
+.vf-ultra-link span {
+  display: block;
+  margin-bottom: 8px;
+  color: #244fd8;
+  font-family: "Gt Standard Mono", monospace;
+  font-size: 11px;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+.vf-ultra-link h2 {
+  margin: 0 0 8px;
+  color: #151515;
+  font-size: clamp(24px, 2.6vw, 34px);
+  font-weight: 500;
+  line-height: 1.05;
+  letter-spacing: 0;
+}
+.vf-ultra-link p {
+  max-width: 62ch;
+  margin: 0;
+  color: #5f5b54;
+  font-size: 15px;
+  line-height: 1.55;
+}
+.vf-ultra-link a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 42px;
+  padding: 0 16px;
+  border-radius: 999px;
+  background: #244fd8;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  white-space: nowrap;
+}
+@media (max-width: 860px) {
+  .vf-hero-inner,
+  .vf-section-head,
+  .vf-board-card {
+    grid-template-columns: 1fr;
+  }
+  .vf-hero-inner {
+    min-height: auto;
+    padding: 124px 0 62px;
+  }
+  .vf-live-panel {
+    display: none;
+  }
+  .vf-cover {
+    max-width: 320px;
+  }
+  .vf-call-row {
+    grid-template-columns: 44px minmax(0, 1fr);
+  }
+  .vf-call-read {
+    grid-column: 2;
+    text-align: left;
+  }
+  .vf-ultra-link {
+    grid-template-columns: 1fr;
+  }
+  .vf-ultra-link a {
+    width: 100%;
+  }
+}
+
+/* Analyst dossier reading page: dark opening, paper sections, compact evidence
+   rows, and only one accent. */
+.vfu-page {
+  background: #f5f4ef;
+  color: #151515;
+}
+.vfu-hero {
+  background: #101016;
+  color: #fff;
+}
+.vfu-hero-inner {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(280px, 390px);
+  gap: clamp(32px, 5vw, 72px);
+  align-items: center;
+  min-height: min(760px, calc(100svh - var(--nav--height-total, 6.4rem)));
+  padding-block: clamp(92px, 10vw, 136px) clamp(62px, 8vw, 96px);
+}
+.vfu-back {
+  display: inline-flex;
+  margin-bottom: 28px;
+  color: #a9a6ff;
+  font-family: "Gt Standard Mono", monospace;
+  font-size: 12px;
+  letter-spacing: .1em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.vfu-hero h1 {
+  max-width: 11ch;
+  margin: 0;
+  color: #fff;
+  font-size: clamp(42px, 6.2vw, 82px);
+  font-weight: 500;
+  line-height: .98;
+  letter-spacing: 0;
+}
+.vfu-hero-copy p {
+  max-width: 50ch;
+  margin: 24px 0 0;
+  color: rgba(255, 255, 255, .68);
+  font-size: clamp(17px, 1.5vw, 20px);
+  line-height: 1.48;
+}
+.vfu-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 30px;
+}
+.vfu-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  padding: 0 17px;
+  border: 1px solid #244fd8;
+  border-radius: 999px;
+  background: #244fd8;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.vfu-button-secondary {
+  border-color: rgba(255, 255, 255, .18);
+  background: transparent;
+}
+.vfu-side {
+  display: grid;
+  gap: 14px;
+}
+.vfu-cover-card {
+  display: block;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, .14);
+  border-radius: 14px;
+  background: #fff;
+  box-shadow: 0 22px 70px rgba(0, 0, 0, .28);
+}
+.vfu-cover-card img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1.08 / 1;
+  object-fit: cover;
+  object-position: center 18%;
+}
+.vfu-brief {
+  display: grid;
+  gap: 1px;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, .12);
+  border-radius: 14px;
+  background: rgba(255, 255, 255, .1);
+}
+.vfu-brief div {
+  padding: 18px;
+  background: #17141f;
+}
+.vfu-brief span,
+.vfu-row-label,
+.vfu-pill,
+.vfu-project-top span,
+.vfu-targets span,
+.vfu-source-links a {
+  font-family: "Gt Standard Mono", monospace;
+  letter-spacing: .09em;
+  text-transform: uppercase;
+}
+.vfu-brief span {
+  display: block;
+  margin-bottom: 6px;
+  color: rgba(255, 255, 255, .44);
+  font-size: 11px;
+}
+.vfu-brief strong {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+}
+.vfu-section {
+  padding-block: clamp(58px, 7vw, 98px);
+}
+.vfu-section-tight {
+  padding-block: clamp(38px, 5vw, 64px);
+}
+.vfu-lede {
+  max-width: 900px;
+  margin-bottom: 30px;
+}
+.vfu-lede p {
+  margin: 0;
+  color: #151515;
+  font-size: clamp(24px, 3vw, 40px);
+  line-height: 1.08;
+  letter-spacing: 0;
+}
+.vfu-rule-grid {
+  display: grid;
+  grid-template-columns: .8fr 1.2fr;
+  gap: 14px;
+}
+.vfu-rule-card {
+  min-height: 210px;
+  padding: clamp(20px, 2.4vw, 30px);
+  border: 1px solid rgba(12, 11, 16, .12);
+  border-radius: 12px;
+  background: #fff;
+}
+.vfu-rule-card-plain {
+  background: #eceae2;
+}
+.vfu-rule-card h2,
+.vfu-label-rule h2,
+.vfu-section-head h2,
+.vfu-offer h2,
+.vfu-source-links h2 {
+  margin: 0 0 12px;
+  color: #151515;
+  font-size: clamp(26px, 3vw, 42px);
+  font-weight: 500;
+  line-height: 1.05;
+  letter-spacing: 0;
+}
+.vfu-rule-card p,
+.vfu-label-rule p,
+.vfu-section-head p,
+.vfu-offer p,
+.vfu-targets p {
+  max-width: 62ch;
+  margin: 0;
+  color: #5f5b54;
+  font-size: 16px;
+  line-height: 1.56;
+}
+.vfu-label-rule {
+  padding: clamp(22px, 3vw, 34px);
+  border: 1px solid rgba(12, 11, 16, .12);
+  border-radius: 12px;
+  background: #fbfaf7;
+}
+.vfu-label-rule code {
+  color: #244fd8;
+}
+.vfu-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 20px;
+}
+.vfu-pill {
+  display: inline-flex;
+  align-items: center;
+  min-height: 28px;
+  padding: 0 9px;
+  border: 1px solid rgba(36, 79, 216, .24);
+  border-radius: 999px;
+  background: rgba(36, 79, 216, .06);
+  color: #244fd8;
+  font-size: 10px;
+  line-height: 1.2;
+}
+.vfu-section-head {
+  max-width: 760px;
+  margin-bottom: 24px;
+}
+.vfu-table,
+.vfu-project-stack {
+  display: grid;
+  gap: 10px;
+}
+.vfu-table-row {
+  display: grid;
+  grid-template-columns: minmax(170px, .7fr) minmax(0, 1.25fr) minmax(0, 1fr);
+  gap: 18px;
+  padding: 18px;
+  border: 1px solid rgba(12, 11, 16, .12);
+  border-radius: 12px;
+  background: #fbfaf7;
+}
+.vfu-row-label,
+.vfu-project-top span,
+.vfu-targets span {
+  display: block;
+  margin-bottom: 8px;
+  color: #244fd8;
+  font-size: 10px;
+}
+.vfu-table-row h3,
+.vfu-project h3,
+.vfu-targets h3 {
+  margin: 0;
+  color: #151515;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.16;
+  letter-spacing: 0;
+}
+.vfu-table-row p {
+  margin: 0;
+  color: #5f5b54;
+  font-size: 14px;
+  line-height: 1.5;
+}
+.vfu-project {
+  padding: clamp(18px, 2.4vw, 26px);
+  border: 1px solid rgba(12, 11, 16, .12);
+  border-radius: 12px;
+  background: #fff;
+}
+.vfu-project-top {
+  display: flex;
+  gap: 16px;
+  align-items: start;
+  justify-content: space-between;
+  margin-bottom: 18px;
+}
+.vfu-project dl {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1px;
+  margin: 0;
+  overflow: hidden;
+  border: 1px solid rgba(12, 11, 16, .1);
+  border-radius: 10px;
+  background: rgba(12, 11, 16, .1);
+}
+.vfu-project dl div {
+  padding: 14px;
+  background: #fbfaf7;
+}
+.vfu-project dt {
+  margin-bottom: 8px;
+  color: #706c65;
+  font-size: 12px;
+}
+.vfu-project dd {
+  margin: 0;
+  color: #28251f;
+  font-size: 14px;
+  line-height: 1.48;
+}
+.vfu-offer {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(280px, 440px);
+  gap: clamp(24px, 4vw, 64px);
+  align-items: start;
+  padding: clamp(22px, 3vw, 36px);
+  border-radius: 14px;
+  background: #101016;
+}
+.vfu-offer h2,
+.vfu-offer p {
+  color: #fff;
+}
+.vfu-offer p {
+  color: rgba(255, 255, 255, .64);
+}
+.vfu-offer-list {
+  border: 1px solid rgba(255, 255, 255, .1);
+  border-radius: 12px;
+  background: #17141f;
+  padding: 18px;
+}
+.vfu-offer-list p {
+  margin-bottom: 12px;
+  font-family: "Gt Standard Mono", monospace;
+  font-size: 11px;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+.vfu-offer-list ul {
+  display: grid;
+  gap: 10px;
+  margin: 0;
+  padding-left: 18px;
+  color: rgba(255, 255, 255, .76);
+  font-size: 14px;
+  line-height: 1.45;
+}
+.vfu-targets {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  margin-top: 12px;
+}
+.vfu-targets article {
+  padding: 18px;
+  border: 1px solid rgba(12, 11, 16, .12);
+  border-radius: 12px;
+  background: #fbfaf7;
+}
+.vfu-targets h3 {
+  margin-bottom: 10px;
+}
+.vfu-source-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  padding-top: 24px;
+  border-top: 1px solid rgba(12, 11, 16, .12);
+}
+.vfu-source-links h2 {
+  width: 100%;
+  margin-bottom: 6px;
+  font-size: clamp(24px, 2.4vw, 32px);
+}
+.vfu-source-links a {
+  display: inline-flex;
+  min-height: 32px;
+  align-items: center;
+  padding: 0 10px;
+  border: 1px solid rgba(12, 11, 16, .14);
+  border-radius: 999px;
+  color: #244fd8;
+  font-size: 10px;
+  text-decoration: none;
+}
+@media (max-width: 900px) {
+  .vfu-hero-inner,
+  .vfu-rule-grid,
+  .vfu-table-row,
+  .vfu-offer,
+  .vfu-targets {
+    grid-template-columns: 1fr;
+  }
+  .vfu-hero-inner {
+    min-height: auto;
+    padding-top: 128px;
+  }
+  .vfu-hero h1 {
+    max-width: 12ch;
+  }
+  .vfu-cover-card {
+    max-width: 340px;
+  }
+  .vfu-project dl {
+    grid-template-columns: 1fr;
+  }
+  .vfu-project-top {
+    display: grid;
+  }
+  .vfu-project-top .vfu-pill {
+    justify-self: start;
+  }
+}
 
 /* "Already moving our way" track section. Small dark ticket cards (the same family
    as the forward-calls cards) shown right after the board cards: each is a live,
@@ -224,44 +1241,231 @@ body {
 .vati-track-read .lbl { font-size: 11.5px; color: rgba(255, 255, 255, .5); }
 .vati-track-note { margin-top: 6px; font-size: 13.5px; line-height: 1.55; color: var(--swatch--dark-800); font-style: italic; }
 
-/* Data-layer stat grid (research section). Same card family as the forward-calls
-   cards, tuned for short stat + label. Replaces the old product-screenshot demo. */
-.vati-dl-grid {
+/* Data layer (research section): an editorial source index, not a card grid.
+   Category on the left, the actual feeds in mono on the right, divided by
+   hairlines so it reads like the sources page of a research note. */
+.vati-dl-list { border-top: 1px solid var(--swatch--dark-900-o12); }
+.vati-dl-row {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: clamp(14px, 1.4vw, 20px);
+  grid-template-columns: 1fr 1.25fr;
+  gap: clamp(12px, 3vw, 48px);
+  align-items: baseline;
+  padding: clamp(18px, 2vw, 26px) 0;
+  border-bottom: 1px solid var(--swatch--dark-900-o12);
 }
-@media (max-width: 860px) { .vati-dl-grid { grid-template-columns: 1fr 1fr; } }
-@media (max-width: 540px) { .vati-dl-grid { grid-template-columns: 1fr; } }
-.vati-dl-card {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-  padding: clamp(18px, 1.8vw, 24px);
-  border: 1px solid var(--swatch--dark-900-o12);
-  border-radius: 16px;
-  background: var(--swatch--light-100);
+@media (max-width: 640px) {
+  .vati-dl-row { grid-template-columns: 1fr; gap: 6px; padding: 18px 0; }
 }
-.vati-dl-num {
-  font-size: clamp(22px, 2vw, 30px);
-  font-weight: 500;
-  line-height: 1.05;
-  letter-spacing: -0.01em;
-  color: var(--swatch--brand-500);
+.vati-dl-name {
+  font-size: clamp(19px, 1.7vw, 25px);
+  font-weight: 600;
+  line-height: 1.1;
+  letter-spacing: -0.015em;
+  color: var(--swatch--dark-900);
+  margin: 0;
 }
-.vati-dl-label {
-  font-size: 13.5px;
+.vati-dl-src {
+  font-family: 'Gt Standard Mono N Md', ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: clamp(12px, 1vw, 14px);
   line-height: 1.5;
+  color: var(--swatch--dark-700);
+}
+
+/* About pillars: plain confident statements, no boxes. */
+.vati-about-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: clamp(20px, 3vw, 48px);
+  border-top: 1px solid var(--swatch--dark-900-o12);
+  padding-top: clamp(24px, 2.5vw, 36px);
+}
+@media (max-width: 640px) { .vati-about-grid { grid-template-columns: 1fr; gap: 26px; } }
+.vati-about-name {
+  font-size: clamp(16px, 1.3vw, 18px);
+  font-weight: 600;
+  color: var(--swatch--dark-900);
+  margin: 0 0 6px;
+}
+.vati-about-text {
+  font-size: clamp(13.5px, 1vw, 14.5px);
+  line-height: 1.55;
   color: var(--swatch--dark-800);
+  margin: 0;
+}
+
+/* "Work with us" closing section - the high-ticket path for institutional finance.
+   Dark band so it reads as the premium close after the proof + about stack. Two
+   columns on desktop: the pitch + CTA on the left, three engagement-deliverable
+   cards on the right. Stacks on narrow screens. */
+.vati-engage-wrap {
+  background: linear-gradient(165deg, #14121c, #0a0910);
+  color: #fff;
+}
+.vati-engage-inner {
+  display: grid;
+  grid-template-columns: 1.05fr 0.95fr;
+  gap: clamp(28px, 3.4vw, 64px);
+  align-items: center;
+}
+@media (max-width: 900px) { .vati-engage-inner { grid-template-columns: 1fr; gap: 32px; } }
+.vati-engage-title {
+  font-size: clamp(28px, 3vw, 44px);
+  font-weight: 500;
+  line-height: 1.08;
+  letter-spacing: -0.02em;
+  margin: 0 0 18px;
+  color: #fff;
+}
+.vati-engage-text {
+  font-size: clamp(15px, 1.1vw, 17px);
+  line-height: 1.6;
+  color: rgba(255, 255, 255, .66);
+  margin: 0 0 14px;
+  max-width: 52ch;
+}
+.vati-engage-cta-row {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 26px;
+  flex-wrap: wrap;
+}
+.vati-engage-sub { font-size: 14px; font-weight: 500; color: #a9a6ff; text-decoration: none; }
+.vati-engage-sub:hover { text-decoration: underline; }
+.vati-engage-cards { display: flex; flex-direction: column; gap: 14px; }
+.vati-engage-card {
+  padding: clamp(18px, 1.7vw, 22px);
+  border: 1px solid rgba(255, 255, 255, .10);
+  border-radius: 14px;
+  background: rgba(255, 255, 255, .03);
+}
+.vati-engage-card-num {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: .14em;
+  color: #6d6afc;
+  font-variant-numeric: tabular-nums;
+  margin-bottom: 8px;
+}
+.vati-engage-card-title { font-size: 16px; font-weight: 600; color: #fff; margin-bottom: 6px; }
+.vati-engage-card-text { font-size: 13.5px; line-height: 1.5; color: rgba(255, 255, 255, .6); }
+
+/* Intake selects: match the text inputs so the qualified fields look native, and
+   render a chevron (native appearance is stripped). The placeholder option is
+   disabled+selected, so the field reads :invalid until a real choice is made -
+   use that to grey the placeholder text like a real input placeholder. */
+select.input-select {
+  -webkit-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8' fill='none'%3E%3Cpath d='M1 1.5L6 6.5L11 1.5' stroke='%23999999' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 16px center;
+  padding-right: 40px;
+}
+select.input-select:invalid { color: #8b8794; }
+
+/* Cal.com booking step. Shown in the contact modal's success state. Widen the
+   modal when booking so the month view is usable, and give the embed a bounded,
+   scrollable height. */
+.contact-modal.booking .contact-modal-content {
+  max-width: 720px;
+  width: min(92vw, 720px);
+  max-height: 88vh;
+  overflow-y: auto;
+}
+.vati-cal-embed {
+  width: 100%;
+  min-height: 540px;
+  height: 62vh;
+  max-height: 640px;
+  overflow: auto;
+  margin-top: 10px;
+  border-radius: 12px;
 }
 
 /* Hero title on small screens: cap the size so "Forecasting where / scarcity
    moves next" holds two lines instead of wrapping to four. */
 @media (max-width: 600px) {
   #heroh1, #heroh1 p { font-size: 32px !important; line-height: 1.08 !important; }
+  .hero_wrap { height: auto !important; min-height: 100svh; overflow: hidden; }
+  .hero_wrap .herotile { display: none !important; }
+  .hero_wrap [data-hero="content"] {
+    box-sizing: border-box;
+    width: 100vw !important;
+    max-width: 100vw !important;
+    padding-inline: clamp(20px, 6.5vw, 26px);
+  }
+  .hero_wrap #heroP {
+    width: 100%;
+    min-width: 0;
+  }
+  .hero_wrap .u-button-group {
+    justify-content: center;
+    gap: 10px;
+  }
+  .hero_wrap .button_main_wrap {
+    flex: 0 1 auto;
+    min-width: 0;
+  }
+  .hero_wrap .button_main_text { white-space: nowrap; }
+  .vati-hero-chat-shell {
+    width: 100%;
+    margin-top: 18px;
+  }
+  .vati-hero-chat {
+    padding: 5px;
+    border-radius: 18px;
+  }
+  .vati-hero-chat-row {
+    align-items: stretch;
+    gap: 5px;
+  }
+  .vati-hero-chat-input {
+    height: 42px;
+    padding-inline: 12px;
+  }
+  .vati-hero-chat-submit {
+    height: 42px;
+    min-width: 58px;
+    padding: 0 14px;
+  }
+  .vati-hero-chat-prompts {
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow: visible;
+    padding-bottom: 2px;
+    scrollbar-width: none;
+  }
+  .vati-hero-chat-prompts::-webkit-scrollbar { display: none; }
 }
 
-/* Mobile nav menu — Webflow's collapse JS isn't bundled, so SiteRuntime toggles
+@media (max-width: 360px) {
+  #heroh1,
+  #heroh1 p {
+    font-size: 29px !important;
+    line-height: 1.07 !important;
+  }
+  .hero_wrap #heroh1 {
+    margin-bottom: 26px !important;
+  }
+  .hero_wrap #heroP {
+    margin-bottom: 14px !important;
+  }
+  .vati-hero-chat-shell {
+    margin-top: 14px;
+  }
+  .hero_wrap .u-button-group {
+    flex-wrap: nowrap;
+    gap: 8px;
+    margin-top: 22px;
+  }
+  .hero_wrap .button_main_wrap {
+    padding: 16px 18px;
+  }
+}
+
+/* Mobile nav menu - Webflow's collapse JS isn't bundled, so SiteRuntime toggles
    `.is-open`. The panel is anchored under the bar (top set inline) so the logo and
    hamburger stay tappable to close. */
 .nav_wrap.is-mobile.is-open .nav_menu_wrap {
@@ -280,3 +1484,157 @@ html.nav-locked body { overflow: hidden; }
 .nav_btn_wrap .nav_btn_line { transition: transform .25s ease, opacity .2s ease; }
 .nav_btn_wrap.w--open .nav_btn_line:first-child { transform: translateY(0.28rem) rotate(45deg); }
 .nav_btn_wrap.w--open .nav_btn_line:last-child { transform: translateY(-0.28rem) rotate(-45deg); }
+
+/* ---- /data : the data-layer showcase --------------------------------------- */
+.vf-data-page {
+  background: var(--swatch--light-100);
+}
+.vf-data-hero-inner {
+  grid-template-columns: minmax(0, 1fr) minmax(320px, 460px);
+}
+.vf-data-walk-panel {
+  padding: clamp(18px, 2.2vw, 24px);
+  border: 1px solid rgba(255, 255, 255, .12);
+  border-radius: 18px;
+  background: linear-gradient(165deg, #17141f, #0c0b10);
+  box-shadow: 0 28px 80px rgba(0, 0, 0, .38);
+}
+.vf-data-walk-list {
+  display: grid;
+  gap: 1px;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, .08);
+  border-radius: 12px;
+  background: rgba(255, 255, 255, .08);
+}
+.vf-data-walk-row {
+  padding: 17px;
+  background: #17141f;
+}
+.vf-data-walk-row strong,
+.vf-data-check-card span,
+.vf-data-rule-stack strong {
+  font-family: "Gt Standard Mono", monospace;
+  letter-spacing: .09em;
+  text-transform: uppercase;
+}
+.vf-data-walk-row strong {
+  display: block;
+  margin-bottom: 7px;
+  color: #a9a6ff;
+  font-size: 11px;
+  font-weight: 500;
+}
+.vf-data-walk-row p {
+  margin: 0;
+  color: rgba(255, 255, 255, .68);
+  font-size: 14px;
+  line-height: 1.5;
+}
+.vf-data-check-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: clamp(14px, 1.4vw, 20px);
+}
+/* 6 cards: 3-up on desktop, a real 2-up tablet stage, 1-up on phones. The shared
+   900px collapse below only handles the hero + method card, not this grid. */
+@media (max-width: 1024px) { .vf-data-check-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 620px) { .vf-data-check-grid { grid-template-columns: 1fr; } }
+.vf-data-check-card {
+  min-height: 250px;
+  padding: clamp(20px, 2.2vw, 28px);
+  border: 1px solid var(--swatch--dark-900-o12);
+  border-radius: 16px;
+  background: var(--swatch--light-100);
+}
+.vf-data-check-card:nth-child(even) {
+  background: #f7f4ed;
+}
+.vf-data-check-card span {
+  display: block;
+  margin-bottom: 18px;
+  color: var(--swatch--brand-500);
+  font-size: 11px;
+  font-weight: 500;
+}
+.vf-data-check-card h3 {
+  max-width: 20ch;
+  margin: 0 0 12px;
+  color: var(--swatch--dark-900);
+  font-size: clamp(22px, 2vw, 30px);
+  font-weight: 500;
+  line-height: 1.08;
+  letter-spacing: 0;
+}
+.vf-data-check-card p {
+  margin: 0;
+  color: var(--swatch--dark-800);
+  font-size: 14.5px;
+  line-height: 1.55;
+}
+.vf-data-method-card {
+  display: grid;
+  grid-template-columns: minmax(0, .95fr) minmax(280px, .75fr);
+  gap: clamp(24px, 4vw, 60px);
+  padding: clamp(22px, 3vw, 36px);
+  border-radius: 18px;
+  background: linear-gradient(165deg, #14121c, #0a0910);
+  color: #fff;
+}
+.vf-data-method-card .c-heading h2 {
+  color: #fff;
+}
+.vf-data-method-card .c-paragraph {
+  color: rgba(255, 255, 255, .66);
+}
+.vf-data-rule-stack {
+  display: grid;
+  gap: 12px;
+}
+.vf-data-rule-stack div {
+  padding: 17px;
+  border: 1px solid rgba(255, 255, 255, .1);
+  border-radius: 12px;
+  background: rgba(255, 255, 255, .04);
+}
+.vf-data-rule-stack strong {
+  display: block;
+  margin-bottom: 8px;
+  color: #a9a6ff;
+  font-size: 11px;
+  font-weight: 500;
+}
+.vf-data-rule-stack p {
+  margin: 0;
+  color: rgba(255, 255, 255, .68);
+  font-size: 14px;
+  line-height: 1.5;
+}
+.vf-chip-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .5rem;
+}
+.vf-chip {
+  font-family: "Gt Standard Mono", monospace;
+  font-size: .78rem;
+  padding: .4rem .7rem;
+  border: 1px solid rgba(26, 18, 6, .16);
+  border-radius: 999px;
+  color: rgba(26, 18, 6, .72);
+  background: var(--swatch--light-100, #fff);
+}
+.vf-data-source-wrap {
+  max-width: 920px;
+}
+
+@media (max-width: 900px) {
+  .vf-data-hero-inner,
+  .vf-data-method-card {
+    grid-template-columns: 1fr;
+  }
+  .vf-data-hero-inner {
+    min-height: auto;
+    padding-top: 124px;
+  }
+}

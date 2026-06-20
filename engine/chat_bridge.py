@@ -9,11 +9,17 @@ distribution by running the same Monte-Carlo engine the forecast cards use
 
 $0 throughout. The `forecast` verb is pure (stdlib `random`, no I/O); `signals` reads the
 data layer (SQLite + the derived feed artifacts); `market` does keyless prediction-market
-reads (cost-gated $0). Each reads a JSON spec on stdin, writes a JSON result on stdout.
+reads (cost-gated $0); `world_state` reads the timestamped fact spine and returns a frozen
+snapshot manifest; `world_research` returns dated paper/research context; `world_state_proof`
+returns the same point-in-time gates and raw-byte provenance without recording a DB snapshot.
+Each reads a JSON spec on stdin, writes a JSON result on stdout.
 
 Usage:
     echo '<spec json>' | uv run python -m engine.chat_bridge forecast
     echo '{"topic":"deep learning"}' | uv run python -m engine.chat_bridge signals
+    echo '{"topic":"AI power bottlenecks","as_of":"2024-06-01"}' | uv run python -m engine.chat_bridge world_state
+    echo '{"topic":"solid state battery","as_of":"2023-12-31"}' | uv run python -m engine.chat_bridge world_research
+    echo '{"topic":"AI power bottlenecks","as_of":"2024-06-01"}' | uv run python -m engine.chat_bridge world_state_proof
     echo '{"claim":"US recession in 2026"}' | uv run python -m engine.chat_bridge market
 """
 
@@ -86,6 +92,23 @@ def forecast(spec: dict) -> dict:
     }
 
 
+def _bool_spec(spec: dict, key: str, default: bool) -> bool:
+    value = spec.get(key, default)
+    if isinstance(value, bool):
+        return value
+    if value is None:
+        return default
+    if isinstance(value, (int, float)):
+        return bool(value)
+    if isinstance(value, str):
+        v = value.strip().lower()
+        if v in {"1", "true", "yes", "y", "on"}:
+            return True
+        if v in {"0", "false", "no", "n", "off"}:
+            return False
+    return default
+
+
 def main(argv: list[str]) -> int:
     cmd = argv[1] if len(argv) > 1 else "forecast"
     raw = sys.stdin.read()
@@ -108,6 +131,76 @@ def main(argv: list[str]) -> int:
                 pack = evidence_pack(topic)
                 out = {"ok": True, "engine": "data_layer_signals",
                        "context": format_pack(pack), **pack}
+        elif cmd == "world_state":
+            # Topic + as_of -> frozen world-state context with snapshot hash and leak gates.
+            from datetime import date
+
+            from engine import db, world_state
+
+            topic = str(spec.get("topic") or spec.get("question") or spec.get("claim") or "").strip()
+            if not topic:
+                out = {"ok": False, "error": "world_state needs a 'topic', 'question' or 'claim'"}
+            else:
+                as_of = str(spec.get("as_of") or date.today().isoformat())[:10]
+                record = _bool_spec(spec, "record", True)
+                conn = db.connect()
+                db.init_db(conn)
+                pack = world_state.state_pack(topic, as_of, conn=conn, record=record)
+                conn.close()
+                out = {"ok": True, "engine": "world_state", "context": world_state.format_pack(pack), **pack}
+        elif cmd == "world_state_proof":
+            # Topic + as_of -> read-only proof of the exact facts and leak gates.
+            from datetime import date
+
+            from engine import db, world_state
+
+            topic = str(spec.get("topic") or spec.get("question") or spec.get("claim") or "").strip()
+            if not topic:
+                out = {"ok": False, "error": "world_state_proof needs a 'topic', 'question' or 'claim'"}
+            else:
+                as_of = str(spec.get("as_of") or date.today().isoformat())[:10]
+                limit = int(spec.get("limit") or 12)
+                conn = db.connect()
+                db.init_db(conn)
+                proof = world_state.state_proof(topic, as_of, conn=conn, limit=limit)
+                conn.close()
+                out = {"ok": True, "engine": "world_state_proof", "context": world_state.format_proof(proof), **proof}
+        elif cmd == "world_research":
+            # Topic + as_of -> read-only paper/research context under point-in-time gates.
+            from datetime import date
+
+            from engine import db, world_state
+
+            topic = str(spec.get("topic") or spec.get("question") or spec.get("claim") or "").strip()
+            if not topic:
+                out = {"ok": False, "error": "world_research needs a 'topic', 'question' or 'claim'"}
+            else:
+                as_of = str(spec.get("as_of") or date.today().isoformat())[:10]
+                paper_limit = int(spec.get("paper_limit") or world_state.DEFAULT_RESEARCH_PAPER_LIMIT)
+                fact_limit = int(spec.get("fact_limit") or world_state.DEFAULT_RESEARCH_FACT_LIMIT)
+                count_fact_exclusions = _bool_spec(spec, "count_fact_exclusions", False)
+                count_paper_exclusions = _bool_spec(spec, "count_paper_exclusions", False)
+                search_abstracts = _bool_spec(spec, "search_abstracts", False)
+                fill_token_fallback = _bool_spec(spec, "fill_token_fallback", False)
+                full_paper_scan = _bool_spec(spec, "full_paper_scan", False)
+                paper_scan_rows = int(spec.get("paper_scan_rows") or world_state.DEFAULT_RESEARCH_PAPER_SCAN_ROWS)
+                conn = db.connect()
+                db.init_db(conn)
+                pack = world_state.research_pack(
+                    topic,
+                    as_of,
+                    conn=conn,
+                    paper_limit=paper_limit,
+                    fact_limit=fact_limit,
+                    count_fact_exclusions=count_fact_exclusions,
+                    count_paper_exclusions=count_paper_exclusions,
+                    search_abstracts=search_abstracts,
+                    fill_token_fallback=fill_token_fallback,
+                    full_paper_scan=full_paper_scan,
+                    paper_scan_rows=paper_scan_rows,
+                )
+                conn.close()
+                out = {"ok": True, "engine": "world_research", "context": world_state.format_research_pack(pack), **pack}
         elif cmd == "market":
             # Claim → live prediction-market anchor (the 'already priced?' check, keyless).
             from engine.market import format_anchor, market_anchor

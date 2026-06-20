@@ -1,0 +1,36 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - navigation [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e5]:
+          - link "AI Prophet AI Prophet" [ref=e6] [cursor=pointer]:
+            - /url: /
+            - img "AI Prophet" [ref=e7]
+            - generic [ref=e8]: AI Prophet
+          - generic [ref=e9]:
+            - link "Events" [ref=e10] [cursor=pointer]:
+              - /url: /markets
+            - link "Leaderboard" [ref=e11] [cursor=pointer]:
+              - /url: /leaderboard
+            - link "Developer" [ref=e12] [cursor=pointer]:
+              - /url: /developer
+            - link "Research" [ref=e13] [cursor=pointer]:
+              - /url: /research
+            - link "About" [ref=e14] [cursor=pointer]:
+              - /url: /about
+        - generic [ref=e15]:
+          - button "Toggle theme" [ref=e16]:
+            - img [ref=e17]
+          - link "Login" [ref=e28] [cursor=pointer]:
+            - /url: /auth/login
+    - main [ref=e19]:
+      - generic [ref=e20]:
+        - paragraph [ref=e21]: "404"
+        - heading "Page not found" [level=1] [ref=e22]
+        - paragraph [ref=e23]: The page you're looking for doesn't exist or you don't have permission to view it.
+        - generic [ref=e24]:
+          - link "Go home" [ref=e25] [cursor=pointer]:
+            - /url: /
+          - link "View leaderboard" [ref=e26] [cursor=pointer]:
+            - /url: /leaderboard
+  - alert [ref=e27]

@@ -24,7 +24,11 @@ DEFAULT_MODEL = "deepseek-ai/DeepSeek-V4-Flash"  # 1M context, direct (no reason
 
 # Models that emit only reasoning_content unless reasoning_effort is forced off (orca roster).
 THINKING_MODELS = {
-    "Qwen/Qwen3.5-397B-A17B", "zai-org/GLM-5.1", "Qwen/Qwen3-Max-Thinking",
+    "Qwen/Qwen3.5-397B-A17B", "Qwen/Qwen3.6-35B-A3B", "zai-org/GLM-5.1", "zai-org/GLM-5",
+    "Qwen/Qwen3-Max-Thinking", "moonshotai/Kimi-K2-Instruct", "moonshotai/Kimi-K2.6",
+    "moonshotai/Kimi-K2.5", "moonshotai/Kimi-K2-Thinking", "deepseek-ai/DeepSeek-V3.2-Exp",
+    "deepseek-ai/DeepSeek-V3.2", "deepseek-ai/DeepSeek-V4-Pro", "Qwen/Qwen3.5-122B-A10B",
+    "MiniMaxAI/MiniMax-M2.5",
 }
 
 _USER_AGENTS = [

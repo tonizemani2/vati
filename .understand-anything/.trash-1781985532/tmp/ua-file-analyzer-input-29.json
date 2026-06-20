@@ -1,0 +1,35 @@
+{
+  "projectRoot": "/Users/emizemani/Desktop/predictthefuture",
+  "batchFiles": [
+    {
+      "path": "scripts/launch_research_papers_ec2_pilot.sh",
+      "language": "shell",
+      "sizeLines": 130,
+      "fileCategory": "script"
+    },
+    {
+      "path": "scripts/research_papers_ec2_pilot.sh",
+      "language": "shell",
+      "sizeLines": 187,
+      "fileCategory": "script"
+    },
+    {
+      "path": "scripts/run_deepseek_resume_safe.sh",
+      "language": "shell",
+      "sizeLines": 38,
+      "fileCategory": "script"
+    },
+    {
+      "path": "scripts/sync_foresight_to_box.sh",
+      "language": "shell",
+      "sizeLines": 39,
+      "fileCategory": "script"
+    }
+  ],
+  "batchImportData": {
+    "scripts/launch_research_papers_ec2_pilot.sh": [],
+    "scripts/research_papers_ec2_pilot.sh": [],
+    "scripts/run_deepseek_resume_safe.sh": [],
+    "scripts/sync_foresight_to_box.sh": []
+  }
+}

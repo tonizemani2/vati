@@ -1,0 +1,4417 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 20,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "cockpit/app/page.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 1633,
+      "nonEmptyLines": 1593,
+      "functions": [
+        {
+          "name": "statusBadge",
+          "startLine": 85,
+          "endLine": 91,
+          "params": [
+            "status"
+          ]
+        },
+        {
+          "name": "trustClass",
+          "startLine": 93,
+          "endLine": 97,
+          "params": [
+            "score"
+          ]
+        },
+        {
+          "name": "Sparkline",
+          "startLine": 100,
+          "endLine": 120,
+          "params": [
+            "{ values, fired }"
+          ]
+        },
+        {
+          "name": "fmtSigma",
+          "startLine": 122,
+          "endLine": 126,
+          "params": [
+            "s"
+          ]
+        },
+        {
+          "name": "fmtP",
+          "startLine": 130,
+          "endLine": 135,
+          "params": [
+            "p",
+            "m"
+          ]
+        },
+        {
+          "name": "EmptyState",
+          "startLine": 137,
+          "endLine": 143,
+          "params": [
+            "{ children }"
+          ]
+        },
+        {
+          "name": "Cockpit",
+          "startLine": 145,
+          "endLine": 1633,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "dynamic",
+          "line": 76,
+          "isDefault": false
+        },
+        {
+          "name": "Cockpit",
+          "line": 145,
+          "isDefault": true
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "Sparkline",
+          "callee": "Math.min",
+          "lineNumber": 104
+        },
+        {
+          "caller": "Sparkline",
+          "callee": "Math.max",
+          "lineNumber": 105
+        },
+        {
+          "caller": "Sparkline",
+          "callee": "values\n    .map((v, i) => {\n      const x = (i / (values.length - 1)) * (w - 2) + 1;\n      const y = h - 1 - ((v - min) / span) * (h - 2);\n      return `${x.toFixed(1)},${y.toFixed(1)}`;\n    })\n    .join",
+          "lineNumber": 107
+        },
+        {
+          "caller": "Sparkline",
+          "callee": "values\n    .map",
+          "lineNumber": 107
+        },
+        {
+          "caller": "Sparkline",
+          "callee": "x.toFixed",
+          "lineNumber": 111
+        },
+        {
+          "caller": "Sparkline",
+          "callee": "y.toFixed",
+          "lineNumber": 111
+        },
+        {
+          "caller": "fmtSigma",
+          "callee": "Math.round",
+          "lineNumber": 124
+        },
+        {
+          "caller": "fmtSigma",
+          "callee": "s.toFixed",
+          "lineNumber": 125
+        },
+        {
+          "caller": "fmtP",
+          "callee": "floor.toPrecision",
+          "lineNumber": 133
+        },
+        {
+          "caller": "fmtP",
+          "callee": "p.toFixed",
+          "lineNumber": 134
+        },
+        {
+          "caller": "fmtP",
+          "callee": "p.toFixed",
+          "lineNumber": 134
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "getPillars",
+          "lineNumber": 146
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "getSources",
+          "lineNumber": 147
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "getOpenDecisions",
+          "lineNumber": 148
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "getCostLedger",
+          "lineNumber": 149
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "getForecasts",
+          "lineNumber": 150
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "getCalibration",
+          "lineNumber": 151
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "getLadder",
+          "lineNumber": 152
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "getLadderScore",
+          "lineNumber": 153
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "getDriverHealth",
+          "lineNumber": 154
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "getSpendCents",
+          "lineNumber": 155
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "getSeries",
+          "lineNumber": 156
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "getGraphNodes",
+          "lineNumber": 157
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "getGraphEdges",
+          "lineNumber": 158
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "getGraphNodes",
+          "lineNumber": 159
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "getGraphEdges",
+          "lineNumber": 160
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "getWorldNodes",
+          "lineNumber": 161
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "getWorldEdges",
+          "lineNumber": 162
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "getDataHealth",
+          "lineNumber": 163
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "getWorldStateOverview",
+          "lineNumber": 164
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "getEntities",
+          "lineNumber": 165
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "getEntityEdges",
+          "lineNumber": 166
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "getHypotheses",
+          "lineNumber": 167
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "getConsensus",
+          "lineNumber": 168
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "getConsensus",
+          "lineNumber": 169
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "getBet",
+          "lineNumber": 170
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "getRetroCases",
+          "lineNumber": 171
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "getRetroScore",
+          "lineNumber": 172
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "getRecallProbe",
+          "lineNumber": 173
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "getSlowConstraints",
+          "lineNumber": 174
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "getUniverseScore",
+          "lineNumber": 175
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "getDiscovery",
+          "lineNumber": 176
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "series.filter",
+          "lineNumber": 178
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "series.filter",
+          "lineNumber": 179
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "series.find",
+          "lineNumber": 180
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "series.some",
+          "lineNumber": 181
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "series.filter",
+          "lineNumber": 183
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "sig.filter",
+          "lineNumber": 185
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "sig.filter",
+          "lineNumber": 186
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "sig.find",
+          "lineNumber": 187
+        },
+        {
+          "caller": "sparkOf",
+          "callee": "s.spark.split(\",\").map(Number).filter",
+          "lineNumber": 190
+        },
+        {
+          "caller": "sparkOf",
+          "callee": "s.spark.split(\",\").map",
+          "lineNumber": 190
+        },
+        {
+          "caller": "sparkOf",
+          "callee": "s.spark.split",
+          "lineNumber": 190
+        },
+        {
+          "caller": "sparkOf",
+          "callee": "Number.isNaN",
+          "lineNumber": 190
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "sourcesByPillar.set",
+          "lineNumber": 194
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "sourcesByPillar.get",
+          "lineNumber": 194
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "pillars.find",
+          "lineNumber": 197
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "forecasts.filter",
+          "lineNumber": 199
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "[\n            [\"#discovery\", \"Discovery\", Compass],\n            [\"#slow\", \"Slow constraints\", Compass],\n            [\"#pillars\", \"Pillars\", Compass],\n            [\"#frontier\", \"Frontier signals\", Zap],\n            [\"#hypotheses\", \"Hypothesis engine\", Lightbulb],\n            [\"#data-health\", \"Data health\", Activity],\n            [\"#world-state\", \"World state\", Database],\n            [\"#entities\", \"Entity spine\", GitBranch],\n            [\"#supply-graph\", \"Supply graph\", GitBranch],\n            [\"#consensus\", \"Consensus gate\", Target],\n            [\"#retro\", \"Retrodiction test\", Activity],\n            [\"#universe\", \"Bias-proof universe\", Activity],\n            [\"#bet\", \"Bet translation\", ListChecks],\n            [\"#sources\", \"Sources & trust\", GitBranch],\n            [\"#decisions\", \"Decisions\", ShieldQuestion],\n            [\"#costs\", \"Cost ledger\", CircleDollarSign],\n            [\"#forecasts\", \"Forecasts\", ListChecks],\n            [\"#drivers\", \"Driver tracker\", Activity],\n            [\"#ladder\", \"Resolution ladder\", Activity],\n          ].map",
+          "lineNumber": 214
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "(spendCents / 100).toFixed",
+          "lineNumber": 263
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "PROVIDERS.map",
+          "lineNumber": 267
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "Math.round",
+          "lineNumber": 305
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "discovery.expFalse.toFixed",
+          "lineNumber": 305
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "discovery.early.map",
+          "lineNumber": 314
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "fmtSigma",
+          "lineNumber": 319
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "e.leads.slice(0, 3).map((l) => `${l.label} (${l.provider} ${fmtSigma(l.sig)})`).join",
+          "lineNumber": 326
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "e.leads.slice(0, 3).map",
+          "lineNumber": 326
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "e.leads.slice",
+          "lineNumber": 326
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "fmtSigma",
+          "lineNumber": 326
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "e.saturation?.toFixed",
+          "lineNumber": 332
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "discovery.laggingOnly.map((e) => e.name).join",
+          "lineNumber": 349
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "discovery.laggingOnly.map",
+          "lineNumber": 349
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "discovery.priced.map((e) => e.name).join",
+          "lineNumber": 354
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "discovery.priced.map",
+          "lineNumber": 354
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "discovery.feeds.join",
+          "lineNumber": 358
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "slowConstraints.map",
+          "lineNumber": 384
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "Math.round",
+          "lineNumber": 396
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "s.status.replace",
+          "lineNumber": 404
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "(s.current_val / 1e6).toFixed",
+          "lineNumber": 411
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "s.current_val.toFixed",
+          "lineNumber": 411
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "slowConstraints.filter",
+          "lineNumber": 424
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "slowConstraints.filter",
+          "lineNumber": 425
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "pillars.map",
+          "lineNumber": 440
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "[\n                      \"gap-2 transition-colors\",\n                      isNext ? \"border-primary/60 bg-primary/5\" : \"\",\n                      dim ? \"opacity-50\" : \"\",\n                    ].join",
+          "lineNumber": 446
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "String(p.ord).padStart",
+          "lineNumber": 456
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "String",
+          "lineNumber": 456
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "statusBadge",
+          "lineNumber": 460
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "sourcesByPillar.get",
+          "lineNumber": 467
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "fmtSigma",
+          "lineNumber": 513
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "fmtSigma",
+          "lineNumber": 514
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "(sigQ * 100).toFixed",
+          "lineNumber": 536
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "sigExpFalse.toFixed",
+          "lineNumber": 537
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "series.map",
+          "lineNumber": 554
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "s.first_as_of?.slice",
+          "lineNumber": 569
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "s.last_as_of?.slice",
+          "lineNumber": 569
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "Math.round",
+          "lineNumber": 572
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "Math.round",
+          "lineNumber": 572
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "sparkOf",
+          "lineNumber": 577
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "fmtSigma",
+          "lineNumber": 584
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "(() => {\n                                  // persistence annotation (redteam #1): sustained bend vs 1-pt spike.\n                                  // Replicate detector.py's rule from n_obs (holdout ≈ 30%).\n                                  const holdout = Math.max(2, Math.round(0.3 * s.n_obs));\n                                  const need = Math.max(2, Math.ceil(holdout / 2));\n                                  const sustained = (s.last_n_consecutive ?? 0) >= need;\n                                  return (\n                                    <div\n                                      className={`text-[10px] font-normal ${\n                                        sustained ? \"text-emerald-400/70\" : \"text-amber-400\"\n                                      }`}\n                                      title={\n                                        sustained\n                                          ? `sustained bend: ${s.last_n_consecutive} consecutive points above trend (not a one-point spike)`\n                                          : `transient: only ${s.last_n_consecutive} consecutive point(s) above trend — the fire may be a single spike/revision. Annotation only; the verdict still fired (recall).`\n                                      }\n                                    >\n                                      {sustained ? \"sustained\" : \"spike?\"}\n                                    </div>\n                                  );\n                                })",
+          "lineNumber": 585
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "Math.max",
+          "lineNumber": 588
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "Math.round",
+          "lineNumber": 588
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "Math.max",
+          "lineNumber": 589
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "Math.ceil",
+          "lineNumber": 589
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "fmtSigma",
+          "lineNumber": 609
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "fmtP",
+          "lineNumber": 633
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "[\n                    [\"facts\", worldState.activeFacts, `${worldState.facts} total`],\n                    [\"snapshots\", worldState.snapshots, worldState.latestSnapshotAsOf ?? \"none\"],\n                    [\"raw docs\", worldState.rawDocs, `${worldState.rawByteCoveragePct}% byte linked`],\n                    [\"burn\", `$${(worldState.spendCents / 100).toFixed(2)}`, \"ledger total\"],\n                  ].map",
+          "lineNumber": 735
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "(worldState.spendCents / 100).toFixed",
+          "lineNumber": 739
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "worldState.factsByPredicate.map",
+          "lineNumber": 760
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "worldState.factsBySource.map",
+          "lineNumber": 786
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "worldNodes.some",
+          "lineNumber": 913
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "(() => {\n                      const STYLE: Record<string, [string, string]> = {\n                        recall_gain: [\"✓ recall gain\", \"font-semibold text-emerald-400\"],\n                        no_gain: [\"— no gain\", \"text-muted-foreground\"],\n                        silent_correct: [\"✓ silent (precision)\", \"font-semibold text-sky-400\"],\n                        false_positive: [\"✗ false positive\", \"font-semibold text-rose-400\"],\n                        research_fired: [\"◐ research fired (gate-rejected)\", \"text-amber-400\"],\n                        silent: [\"· silent\", \"text-muted-foreground\"],\n                      };\n                      return recallProbe.map((p) => {\n                        const [lbl, cls] = STYLE[p.verdict] ?? [p.verdict, \"text-muted-foreground\"];\n                        return (\n                          <div key={`${p.term}-${p.channel}`} className=\"flex items-baseline gap-2 text-[11px]\">\n                            <span className={cls}>{lbl}</span>\n                            <span className=\"text-foreground\">\n                              {p.term} ({p.channel.replace(\"_\", \" \")})\n                            </span>\n                            {p.verdict === \"recall_gain\" && (\n                              <span className=\"text-muted-foreground\">\n                                fires {p.first_fire_year} ({p.first_fire_sigma}σ), {p.lead_years}y before §8\n                                signal {p.canonical_signal}\n                              </span>\n                            )}\n                          </div>\n                        );\n                      });\n                    })",
+          "lineNumber": 1012
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "recallProbe.map",
+          "lineNumber": 1021
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "p.channel.replace",
+          "lineNumber": 1027
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "sources.map",
+          "lineNumber": 1118
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "trustClass",
+          "lineNumber": 1128
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "decisions.map",
+          "lineNumber": 1155
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "JSON.parse",
+          "lineNumber": 1158
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "opts.map",
+          "lineNumber": 1171
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "(spendCents / 100).toFixed",
+          "lineNumber": 1198
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "ledger.map",
+          "lineNumber": 1218
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "(c.est_cost_cents / 100).toFixed",
+          "lineNumber": 1223
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "forecasts.filter",
+          "lineNumber": 1252
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "calibration.brier_model.toFixed",
+          "lineNumber": 1271
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "calibration.brier_baseline.toFixed",
+          "lineNumber": 1277
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "forecasts.map",
+          "lineNumber": 1290
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "JSON.parse",
+          "lineNumber": 1293
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "Math.round",
+          "lineNumber": 1306
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "Math.round",
+          "lineNumber": 1310
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "Math.round",
+          "lineNumber": 1310
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "(() => {\n                                const echo = consensusEcho(f.saturation);\n                                if (echo === null) return null; // saturation unmeasured → no tag (honest)\n                                return echo ? (\n                                  <Badge className=\"bg-amber-500/20 text-amber-300\" title={`narrative-saturation ${f.saturation?.toFixed(2)} ≥ ${CONSENSUS_ECHO_AT} — already widely covered`}>\n                                    consensus-echo · sat {f.saturation?.toFixed(2)}\n                                  </Badge>\n                                ) : (\n                                  <Badge className=\"bg-sky-500/20 text-sky-300\" title={`narrative-saturation ${f.saturation?.toFixed(2)} < ${CONSENSUS_ECHO_AT} — still ahead of the crowd`}>\n                                    pre-consensus · sat {f.saturation?.toFixed(2)}\n                                  </Badge>\n                                );\n                              })",
+          "lineNumber": 1318
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "consensusEcho",
+          "lineNumber": 1319
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "f.saturation?.toFixed",
+          "lineNumber": 1322
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "f.saturation?.toFixed",
+          "lineNumber": 1323
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "f.saturation?.toFixed",
+          "lineNumber": 1326
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "f.saturation?.toFixed",
+          "lineNumber": 1327
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "f.brier_score?.toFixed",
+          "lineNumber": 1340
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "kills.map",
+          "lineNumber": 1352
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "driverHealth.map",
+          "lineNumber": 1393
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "Math.round",
+          "lineNumber": 1394
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "h.drivers.map",
+          "lineNumber": 1414
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "d.spark.split(\",\").map(Number).filter",
+          "lineNumber": 1421
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "d.spark.split(\",\").map",
+          "lineNumber": 1421
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "d.spark.split",
+          "lineNumber": 1421
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "Number.isNaN",
+          "lineNumber": 1421
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "(+d.value.toPrecision(4)).toString",
+          "lineNumber": 1430
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "d.value.toPrecision",
+          "lineNumber": 1430
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "(+d.threshold.toPrecision(4)).toString",
+          "lineNumber": 1431
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "d.threshold.toPrecision",
+          "lineNumber": 1431
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "d.margin_sigma.toFixed",
+          "lineNumber": 1434
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "ladderScore.brier_model?.toFixed",
+          "lineNumber": 1493
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "ladderScore.brier_baseline?.toFixed",
+          "lineNumber": 1495
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "ladderScore.brier_baserate?.toFixed",
+          "lineNumber": 1496
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "ladderScore.auc?.toFixed",
+          "lineNumber": 1509
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "Math.round",
+          "lineNumber": 1516
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "Math.round",
+          "lineNumber": 1518
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "ladderScore.brier_model?.toFixed",
+          "lineNumber": 1541
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "ladderScore.brier_baseline?.toFixed",
+          "lineNumber": 1542
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "ladderScore.brier_baserate?.toFixed",
+          "lineNumber": 1543
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "ladderScore.brier_persist?.toFixed",
+          "lineNumber": 1544
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "ladderScore.logloss_model?.toFixed",
+          "lineNumber": 1548
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "ladderScore.logloss_baseline?.toFixed",
+          "lineNumber": 1549
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "ladderScore.logloss_baserate?.toFixed",
+          "lineNumber": 1550
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "ladderScore.logloss_persist?.toFixed",
+          "lineNumber": 1551
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "ladderScore.bins.map",
+          "lineNumber": 1566
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "Math.round",
+          "lineNumber": 1569
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "Math.round",
+          "lineNumber": 1574
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "Math.round",
+          "lineNumber": 1578
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "Math.round",
+          "lineNumber": 1583
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "ladder.map",
+          "lineNumber": 1595
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "Math.round",
+          "lineNumber": 1609
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "r.brier_score?.toFixed",
+          "lineNumber": 1614
+        },
+        {
+          "caller": "Cockpit",
+          "callee": "r.resolution_date.slice",
+          "lineNumber": 1617
+        }
+      ],
+      "metrics": {
+        "importCount": 15,
+        "exportCount": 2,
+        "functionCount": 7,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "cockpit/components/bet-card.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 141,
+      "nonEmptyLines": 131,
+      "functions": [
+        {
+          "name": "parse",
+          "startLine": 6,
+          "endLine": 12,
+          "params": [
+            "json",
+            "fallback"
+          ]
+        },
+        {
+          "name": "pct",
+          "startLine": 14,
+          "endLine": 15,
+          "params": [
+            "v",
+            "sign"
+          ]
+        },
+        {
+          "name": "BetCard",
+          "startLine": 17,
+          "endLine": 118,
+          "params": [
+            "{ b }"
+          ]
+        },
+        {
+          "name": "TriggerList",
+          "startLine": 120,
+          "endLine": 141,
+          "params": [
+            "{\n  title,\n  tone,\n  items,\n}"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "BetCard",
+          "line": 17,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "parse",
+          "callee": "JSON.parse",
+          "lineNumber": 8
+        },
+        {
+          "caller": "pct",
+          "callee": "Math.round",
+          "lineNumber": 15
+        },
+        {
+          "caller": "BetCard",
+          "callee": "parse",
+          "lineNumber": 26
+        },
+        {
+          "caller": "BetCard",
+          "callee": "parse",
+          "lineNumber": 27
+        },
+        {
+          "caller": "BetCard",
+          "callee": "parse",
+          "lineNumber": 28
+        },
+        {
+          "caller": "BetCard",
+          "callee": "parse",
+          "lineNumber": 29
+        },
+        {
+          "caller": "BetCard",
+          "callee": "pct",
+          "lineNumber": 46
+        },
+        {
+          "caller": "BetCard",
+          "callee": "pct",
+          "lineNumber": 49
+        },
+        {
+          "caller": "BetCard",
+          "callee": "pct",
+          "lineNumber": 49
+        },
+        {
+          "caller": "BetCard",
+          "callee": "b.kelly_full.toFixed",
+          "lineNumber": 51
+        },
+        {
+          "caller": "BetCard",
+          "callee": "pct",
+          "lineNumber": 53
+        },
+        {
+          "caller": "BetCard",
+          "callee": "pct",
+          "lineNumber": 59
+        },
+        {
+          "caller": "BetCard",
+          "callee": "pct",
+          "lineNumber": 62
+        },
+        {
+          "caller": "BetCard",
+          "callee": "pct",
+          "lineNumber": 62
+        },
+        {
+          "caller": "BetCard",
+          "callee": "pct",
+          "lineNumber": 63
+        },
+        {
+          "caller": "BetCard",
+          "callee": "legs.map",
+          "lineNumber": 75
+        },
+        {
+          "caller": "BetCard",
+          "callee": "l.side.toUpperCase",
+          "lineNumber": 84
+        },
+        {
+          "caller": "BetCard",
+          "callee": "Math.round",
+          "lineNumber": 88
+        },
+        {
+          "caller": "TriggerList",
+          "callee": "items.map",
+          "lineNumber": 136
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 4,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "cockpit/components/calibration-chart.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 57,
+      "nonEmptyLines": 53,
+      "functions": [
+        {
+          "name": "CalibrationChart",
+          "startLine": 17,
+          "endLine": 57,
+          "params": [
+            "{ points }"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "CalibrationChart",
+          "line": 17,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "CalibrationChart",
+          "callee": "Math.round",
+          "lineNumber": 35
+        },
+        {
+          "caller": "CalibrationChart",
+          "callee": "Math.round",
+          "lineNumber": 42
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "cockpit/components/consensus-gate.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 157,
+      "nonEmptyLines": 143,
+      "functions": [
+        {
+          "name": "ConsensusGate",
+          "startLine": 33,
+          "endLine": 157,
+          "params": [
+            "{ c }"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "ConsensusGate",
+          "line": 33,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "ConsensusGate",
+          "callee": "Math.max",
+          "lineNumber": 50
+        },
+        {
+          "caller": "ConsensusGate",
+          "callee": "xOf",
+          "lineNumber": 54
+        },
+        {
+          "caller": "ConsensusGate",
+          "callee": "xOf",
+          "lineNumber": 55
+        },
+        {
+          "caller": "ConsensusGate",
+          "callee": "xOf",
+          "lineNumber": 56
+        },
+        {
+          "caller": "ConsensusGate",
+          "callee": "xOf",
+          "lineNumber": 58
+        },
+        {
+          "caller": "ConsensusGate",
+          "callee": "xOf",
+          "lineNumber": 59
+        },
+        {
+          "caller": "ConsensusGate",
+          "callee": "c.delta_median.toFixed",
+          "lineNumber": 74
+        },
+        {
+          "caller": "ConsensusGate",
+          "callee": "c.delta_ci_low.toFixed",
+          "lineNumber": 77
+        },
+        {
+          "caller": "ConsensusGate",
+          "callee": "c.delta_ci_high.toFixed",
+          "lineNumber": 77
+        },
+        {
+          "caller": "ConsensusGate",
+          "callee": "Math.round",
+          "lineNumber": 78
+        },
+        {
+          "caller": "ConsensusGate",
+          "callee": "[1.0, 1.5, 2.0, 2.5, 3.0].filter((t) => t >= lo && t <= hi).map",
+          "lineNumber": 90
+        },
+        {
+          "caller": "ConsensusGate",
+          "callee": "[1.0, 1.5, 2.0, 2.5, 3.0].filter",
+          "lineNumber": 90
+        },
+        {
+          "caller": "ConsensusGate",
+          "callee": "xOf",
+          "lineNumber": 92
+        },
+        {
+          "caller": "ConsensusGate",
+          "callee": "xOf",
+          "lineNumber": 92
+        },
+        {
+          "caller": "ConsensusGate",
+          "callee": "xOf",
+          "lineNumber": 93
+        },
+        {
+          "caller": "ConsensusGate",
+          "callee": "t.toFixed",
+          "lineNumber": 95
+        },
+        {
+          "caller": "ConsensusGate",
+          "callee": "Math.min",
+          "lineNumber": 108
+        },
+        {
+          "caller": "ConsensusGate",
+          "callee": "Math.abs",
+          "lineNumber": 108
+        },
+        {
+          "caller": "ConsensusGate",
+          "callee": "c.r_market.toFixed",
+          "lineNumber": 118
+        },
+        {
+          "caller": "ConsensusGate",
+          "callee": "c.r_fair.toFixed",
+          "lineNumber": 127
+        },
+        {
+          "caller": "ConsensusGate",
+          "callee": "c.ps_consumable.toFixed",
+          "lineNumber": 135
+        },
+        {
+          "caller": "ConsensusGate",
+          "callee": "c.ps_sequencer.toFixed",
+          "lineNumber": 139
+        },
+        {
+          "caller": "ConsensusGate",
+          "callee": "c.threshold.toFixed",
+          "lineNumber": 142
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "cockpit/components/cross-domain-map.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 101,
+      "nonEmptyLines": 92,
+      "functions": [
+        {
+          "name": "CrossDomainMap",
+          "startLine": 21,
+          "endLine": 101,
+          "params": [
+            "{\n  nodes,\n  edges,\n}"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "CrossDomainMap",
+          "line": 21,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "CrossDomainMap",
+          "callee": "subWeight.set",
+          "lineNumber": 39
+        },
+        {
+          "caller": "CrossDomainMap",
+          "callee": "Math.min",
+          "lineNumber": 39
+        },
+        {
+          "caller": "CrossDomainMap",
+          "callee": "subWeight.get",
+          "lineNumber": 39
+        },
+        {
+          "caller": "CrossDomainMap",
+          "callee": "nodes\n    .filter((n) => n.kind !== \"substitute\" && n.supply_multiple_3y != null)\n    .map((n) => {\n      const supply = n.supply_multiple_3y as number;\n      const substitutability = subWeight.get(n.id) ?? 0;\n      return { node: n, supply, substitutability, pressure: (SHOCK / supply) * (1 - substitutability) };\n    })\n    .sort",
+          "lineNumber": 41
+        },
+        {
+          "caller": "CrossDomainMap",
+          "callee": "nodes\n    .filter((n) => n.kind !== \"substitute\" && n.supply_multiple_3y != null)\n    .map",
+          "lineNumber": 41
+        },
+        {
+          "caller": "CrossDomainMap",
+          "callee": "nodes\n    .filter",
+          "lineNumber": 41
+        },
+        {
+          "caller": "CrossDomainMap",
+          "callee": "subWeight.get",
+          "lineNumber": 45
+        },
+        {
+          "caller": "CrossDomainMap",
+          "callee": "nodes.map",
+          "lineNumber": 54
+        },
+        {
+          "caller": "CrossDomainMap",
+          "callee": "edges.filter",
+          "lineNumber": 55
+        },
+        {
+          "caller": "CrossDomainMap",
+          "callee": "chainOf.get",
+          "lineNumber": 56
+        },
+        {
+          "caller": "CrossDomainMap",
+          "callee": "chainOf.get",
+          "lineNumber": 56
+        },
+        {
+          "caller": "CrossDomainMap",
+          "callee": "chainOf.get",
+          "lineNumber": 57
+        },
+        {
+          "caller": "CrossDomainMap",
+          "callee": "chainOf.get",
+          "lineNumber": 57
+        },
+        {
+          "caller": "CrossDomainMap",
+          "callee": "lanes.map",
+          "lineNumber": 63
+        },
+        {
+          "caller": "CrossDomainMap",
+          "callee": "Math.max",
+          "lineNumber": 77
+        },
+        {
+          "caller": "CrossDomainMap",
+          "callee": "l.pressure.toFixed",
+          "lineNumber": 80
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "cockpit/components/data-health.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 119,
+      "nonEmptyLines": 110,
+      "functions": [
+        {
+          "name": "scoreClass",
+          "startLine": 12,
+          "endLine": 16,
+          "params": [
+            "s"
+          ]
+        },
+        {
+          "name": "detailLine",
+          "startLine": 18,
+          "endLine": 29,
+          "params": [
+            "detail"
+          ]
+        },
+        {
+          "name": "DataHealthPanel",
+          "startLine": 31,
+          "endLine": 119,
+          "params": [
+            "{ health }"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "DataHealthPanel",
+          "line": 31,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "detailLine",
+          "callee": "JSON.parse",
+          "lineNumber": 20
+        },
+        {
+          "caller": "detailLine",
+          "callee": "[d.fresh, d.complete, d.valid, d.prov, d.recon]\n      .filter((x) => x && !/^(no gaps|sourced|in range|frozen|co-moves|sole series|single point|too short|latest \\d+ \\(≤)/.test(x))\n      .slice(0, 2)\n      .join",
+          "lineNumber": 22
+        },
+        {
+          "caller": "detailLine",
+          "callee": "[d.fresh, d.complete, d.valid, d.prov, d.recon]\n      .filter((x) => x && !/^(no gaps|sourced|in range|frozen|co-moves|sole series|single point|too short|latest \\d+ \\(≤)/.test(x))\n      .slice",
+          "lineNumber": 22
+        },
+        {
+          "caller": "detailLine",
+          "callee": "[d.fresh, d.complete, d.valid, d.prov, d.recon]\n      .filter",
+          "lineNumber": 22
+        },
+        {
+          "caller": "detailLine",
+          "callee": "/^(no gaps|sourced|in range|frozen|co-moves|sole series|single point|too short|latest \\d+ \\(≤)/.test",
+          "lineNumber": 23
+        },
+        {
+          "caller": "pct",
+          "callee": "Math.round",
+          "lineNumber": 39
+        },
+        {
+          "caller": "DataHealthPanel",
+          "callee": "scoreClass",
+          "lineNumber": 48
+        },
+        {
+          "caller": "DataHealthPanel",
+          "callee": "health.score.toFixed",
+          "lineNumber": 49
+        },
+        {
+          "caller": "DataHealthPanel",
+          "callee": "pct",
+          "lineNumber": 71
+        },
+        {
+          "caller": "DataHealthPanel",
+          "callee": "pct",
+          "lineNumber": 72
+        },
+        {
+          "caller": "DataHealthPanel",
+          "callee": "pct",
+          "lineNumber": 73
+        },
+        {
+          "caller": "DataHealthPanel",
+          "callee": "health.worst.map",
+          "lineNumber": 88
+        },
+        {
+          "caller": "DataHealthPanel",
+          "callee": "detailLine",
+          "lineNumber": 95
+        },
+        {
+          "caller": "DataHealthPanel",
+          "callee": "r.health_score.toFixed",
+          "lineNumber": 97
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 3,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "cockpit/components/entity-spine.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 166,
+      "nonEmptyLines": 155,
+      "functions": [
+        {
+          "name": "PillarRail",
+          "startLine": 29,
+          "endLine": 48,
+          "params": [
+            "{ spanned }"
+          ]
+        },
+        {
+          "name": "EntitySpine",
+          "startLine": 50,
+          "endLine": 166,
+          "params": [
+            "{ entities, edges = [] }"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "EntitySpine",
+          "line": 50,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "PillarRail",
+          "callee": "Array.from({ length: 9 }, (_, i) => i + 1).map",
+          "lineNumber": 33
+        },
+        {
+          "caller": "PillarRail",
+          "callee": "Array.from",
+          "lineNumber": 33
+        },
+        {
+          "caller": "PillarRail",
+          "callee": "set.has",
+          "lineNumber": 38
+        },
+        {
+          "caller": "EntitySpine",
+          "callee": "entities.reduce",
+          "lineNumber": 58
+        },
+        {
+          "caller": "EntitySpine",
+          "callee": "edges.map",
+          "lineNumber": 84
+        },
+        {
+          "caller": "EntitySpine",
+          "callee": "entities.map",
+          "lineNumber": 100
+        },
+        {
+          "caller": "EntitySpine",
+          "callee": "(() => {\n            try {\n              return JSON.parse(e.aliases) as string[];\n            } catch {\n              return [];\n            }\n          })",
+          "lineNumber": 101
+        },
+        {
+          "caller": "EntitySpine",
+          "callee": "JSON.parse",
+          "lineNumber": 103
+        },
+        {
+          "caller": "EntitySpine",
+          "callee": "aliases.map",
+          "lineNumber": 119
+        },
+        {
+          "caller": "EntitySpine",
+          "callee": "e.links.map",
+          "lineNumber": 134
+        },
+        {
+          "caller": "EntitySpine",
+          "callee": "l.confidence.toFixed",
+          "lineNumber": 149
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 2,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "cockpit/components/hypothesis-engine.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 157,
+      "nonEmptyLines": 147,
+      "functions": [
+        {
+          "name": "count",
+          "startLine": 29,
+          "endLine": 31,
+          "params": [
+            "rows",
+            "status"
+          ]
+        },
+        {
+          "name": "HypothesisEngine",
+          "startLine": 33,
+          "endLine": 157,
+          "params": [
+            "{ hypotheses }"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "HypothesisEngine",
+          "line": 33,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "count",
+          "callee": "rows.filter",
+          "lineNumber": 30
+        },
+        {
+          "caller": "HypothesisEngine",
+          "callee": "count",
+          "lineNumber": 51
+        },
+        {
+          "caller": "HypothesisEngine",
+          "callee": "count",
+          "lineNumber": 55
+        },
+        {
+          "caller": "HypothesisEngine",
+          "callee": "count",
+          "lineNumber": 59
+        },
+        {
+          "caller": "HypothesisEngine",
+          "callee": "count",
+          "lineNumber": 61
+        },
+        {
+          "caller": "HypothesisEngine",
+          "callee": "count",
+          "lineNumber": 64
+        },
+        {
+          "caller": "HypothesisEngine",
+          "callee": "hypotheses.map",
+          "lineNumber": 70
+        },
+        {
+          "caller": "HypothesisEngine",
+          "callee": "JSON.parse",
+          "lineNumber": 74
+        },
+        {
+          "caller": "HypothesisEngine",
+          "callee": "h.obvious_layer.split(\"—\")[0].split(\"(\")[0].trim().slice",
+          "lineNumber": 95
+        },
+        {
+          "caller": "HypothesisEngine",
+          "callee": "h.obvious_layer.split(\"—\")[0].split(\"(\")[0].trim",
+          "lineNumber": 95
+        },
+        {
+          "caller": "HypothesisEngine",
+          "callee": "h.obvious_layer.split(\"—\")[0].split",
+          "lineNumber": 95
+        },
+        {
+          "caller": "HypothesisEngine",
+          "callee": "h.obvious_layer.split",
+          "lineNumber": 95
+        },
+        {
+          "caller": "HypothesisEngine",
+          "callee": "h.inelastic_layer.split(\"(\")[0].trim().slice",
+          "lineNumber": 99
+        },
+        {
+          "caller": "HypothesisEngine",
+          "callee": "h.inelastic_layer.split(\"(\")[0].trim",
+          "lineNumber": 99
+        },
+        {
+          "caller": "HypothesisEngine",
+          "callee": "h.inelastic_layer.split",
+          "lineNumber": 99
+        },
+        {
+          "caller": "HypothesisEngine",
+          "callee": "Math.round",
+          "lineNumber": 107
+        },
+        {
+          "caller": "HypothesisEngine",
+          "callee": "kills.map",
+          "lineNumber": 145
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 2,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "cockpit/components/retro-benchmark.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 216,
+      "nonEmptyLines": 204,
+      "functions": [
+        {
+          "name": "pct",
+          "startLine": 7,
+          "endLine": 9,
+          "params": [
+            "x"
+          ]
+        },
+        {
+          "name": "fmtSigma",
+          "startLine": 11,
+          "endLine": 15,
+          "params": [
+            "s"
+          ]
+        },
+        {
+          "name": "RetroBenchmark",
+          "startLine": 24,
+          "endLine": 216,
+          "params": [
+            "{\n  cases,\n  score,\n}"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "RetroBenchmark",
+          "line": 24,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "pct",
+          "callee": "Math.round",
+          "lineNumber": 8
+        },
+        {
+          "caller": "fmtSigma",
+          "callee": "Math.abs",
+          "lineNumber": 13
+        },
+        {
+          "caller": "fmtSigma",
+          "callee": "s.toFixed",
+          "lineNumber": 14
+        },
+        {
+          "caller": "RetroBenchmark",
+          "callee": "cases.filter",
+          "lineNumber": 38
+        },
+        {
+          "caller": "RetroBenchmark",
+          "callee": "cases.filter",
+          "lineNumber": 39
+        },
+        {
+          "caller": "fired",
+          "callee": "cs.filter",
+          "lineNumber": 46
+        },
+        {
+          "caller": "RetroBenchmark",
+          "callee": "fired",
+          "lineNumber": 47
+        },
+        {
+          "caller": "RetroBenchmark",
+          "callee": "fired",
+          "lineNumber": 49
+        },
+        {
+          "caller": "RetroBenchmark",
+          "callee": "[\n          [\"Precision\", pct(score.precision), \"winner | fired\", score.lift > 1],\n          [\"Recall\", pct(score.recall), \"fired | winner\", score.recall >= 0.6],\n          [\"Specificity\", pct(score.specificity), \"reject | fizzle\", score.specificity >= 0.6],\n          [\n            \"Lead time\",\n            score.median_lead_months !== null ? `${score.median_lead_months}mo` : \"—\",\n            \"before consensus\",\n            (score.median_lead_months ?? 0) > 0,\n          ],\n        ].map",
+          "lineNumber": 77
+        },
+        {
+          "caller": "RetroBenchmark",
+          "callee": "pct",
+          "lineNumber": 78
+        },
+        {
+          "caller": "RetroBenchmark",
+          "callee": "pct",
+          "lineNumber": 79
+        },
+        {
+          "caller": "RetroBenchmark",
+          "callee": "pct",
+          "lineNumber": 80
+        },
+        {
+          "caller": "RetroBenchmark",
+          "callee": "pct",
+          "lineNumber": 106
+        },
+        {
+          "caller": "RetroBenchmark",
+          "callee": "score.lift.toFixed",
+          "lineNumber": 112
+        },
+        {
+          "caller": "RetroBenchmark",
+          "callee": "score.brier_model?.toFixed",
+          "lineNumber": 118
+        },
+        {
+          "caller": "RetroBenchmark",
+          "callee": "score.brier_base?.toFixed",
+          "lineNumber": 120
+        },
+        {
+          "caller": "RetroBenchmark",
+          "callee": "[...winners, ...fizzles].map",
+          "lineNumber": 154
+        },
+        {
+          "caller": "RetroBenchmark",
+          "callee": "c.signal_date.slice",
+          "lineNumber": 172
+        },
+        {
+          "caller": "RetroBenchmark",
+          "callee": "fmtSigma",
+          "lineNumber": 187
+        },
+        {
+          "caller": "RetroBenchmark",
+          "callee": "fmtSigma",
+          "lineNumber": 194
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 3,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "cockpit/components/supply-graph.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 209,
+      "nonEmptyLines": 193,
+      "functions": [
+        {
+          "name": "derive",
+          "startLine": 25,
+          "endLine": 49,
+          "params": [
+            "nodes",
+            "edges"
+          ]
+        },
+        {
+          "name": "SupplyGraph",
+          "startLine": 61,
+          "endLine": 209,
+          "params": [
+            "{\n  nodes,\n  edges,\n}"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "SupplyGraph",
+          "line": 61,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "derive",
+          "callee": "subWeight.set",
+          "lineNumber": 29
+        },
+        {
+          "caller": "derive",
+          "callee": "Math.min",
+          "lineNumber": 29
+        },
+        {
+          "caller": "derive",
+          "callee": "subWeight.get",
+          "lineNumber": 29
+        },
+        {
+          "caller": "derive",
+          "callee": "nodes\n    .filter((n) => n.kind !== \"substitute\")\n    .map",
+          "lineNumber": 31
+        },
+        {
+          "caller": "derive",
+          "callee": "nodes\n    .filter",
+          "lineNumber": 31
+        },
+        {
+          "caller": "derive",
+          "callee": "subWeight.get",
+          "lineNumber": 35
+        },
+        {
+          "caller": "derive",
+          "callee": "n.name.slice",
+          "lineNumber": 39
+        },
+        {
+          "caller": "derive",
+          "callee": "lanes.filter",
+          "lineNumber": 43
+        },
+        {
+          "caller": "derive",
+          "callee": "supplyLanes.reduce",
+          "lineNumber": 44
+        },
+        {
+          "caller": "SupplyGraph",
+          "callee": "derive",
+          "lineNumber": 75
+        },
+        {
+          "caller": "SupplyGraph",
+          "callee": "lanes.filter",
+          "lineNumber": 79
+        },
+        {
+          "caller": "SupplyGraph",
+          "callee": "lanes.filter",
+          "lineNumber": 80
+        },
+        {
+          "caller": "SupplyGraph",
+          "callee": "nodes.filter",
+          "lineNumber": 84
+        },
+        {
+          "caller": "SupplyGraph",
+          "callee": "subParent.set",
+          "lineNumber": 87
+        },
+        {
+          "caller": "SupplyGraph",
+          "callee": "ordered.forEach",
+          "lineNumber": 98
+        },
+        {
+          "caller": "SupplyGraph",
+          "callee": "xById.set",
+          "lineNumber": 98
+        },
+        {
+          "caller": "SupplyGraph",
+          "callee": "xOf",
+          "lineNumber": 98
+        },
+        {
+          "caller": "SupplyGraph",
+          "callee": "ordered.slice(0, -1).map",
+          "lineNumber": 122
+        },
+        {
+          "caller": "SupplyGraph",
+          "callee": "ordered.slice",
+          "lineNumber": 122
+        },
+        {
+          "caller": "SupplyGraph",
+          "callee": "xOf",
+          "lineNumber": 123
+        },
+        {
+          "caller": "SupplyGraph",
+          "callee": "xOf",
+          "lineNumber": 124
+        },
+        {
+          "caller": "SupplyGraph",
+          "callee": "subs.map",
+          "lineNumber": 133
+        },
+        {
+          "caller": "SupplyGraph",
+          "callee": "xById.get",
+          "lineNumber": 134
+        },
+        {
+          "caller": "SupplyGraph",
+          "callee": "subParent.get",
+          "lineNumber": 134
+        },
+        {
+          "caller": "SupplyGraph",
+          "callee": "s.name.slice",
+          "lineNumber": 147
+        },
+        {
+          "caller": "SupplyGraph",
+          "callee": "(() => {\n                  const w = edges.find((e) => e.dst === s.id && e.rel === \"substitutes\")?.weight ?? 0;\n                  return `routes ~${Math.round(w * 100)}% around`;\n                })",
+          "lineNumber": 150
+        },
+        {
+          "caller": "SupplyGraph",
+          "callee": "edges.find",
+          "lineNumber": 151
+        },
+        {
+          "caller": "SupplyGraph",
+          "callee": "Math.round",
+          "lineNumber": 152
+        },
+        {
+          "caller": "SupplyGraph",
+          "callee": "ordered.map",
+          "lineNumber": 160
+        },
+        {
+          "caller": "SupplyGraph",
+          "callee": "xOf",
+          "lineNumber": 161
+        },
+        {
+          "caller": "SupplyGraph",
+          "callee": "color",
+          "lineNumber": 162
+        },
+        {
+          "caller": "SupplyGraph",
+          "callee": "Math.round",
+          "lineNumber": 178
+        },
+        {
+          "caller": "SupplyGraph",
+          "callee": "l.pressure.toFixed",
+          "lineNumber": 182
+        },
+        {
+          "caller": "SupplyGraph",
+          "callee": "bottleneck.short.toLowerCase",
+          "lineNumber": 200
+        },
+        {
+          "caller": "SupplyGraph",
+          "callee": "bottleneck.pressure?.toFixed",
+          "lineNumber": 201
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 2,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "cockpit/components/ui/badge.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 52,
+      "nonEmptyLines": 48,
+      "functions": [
+        {
+          "name": "Badge",
+          "startLine": 30,
+          "endLine": 50,
+          "params": [
+            "{\n  className,\n  variant = \"default\",\n  render,\n  ...props\n}"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "Badge",
+          "line": 52,
+          "isDefault": false
+        },
+        {
+          "name": "badgeVariants",
+          "line": 52,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "Badge",
+          "callee": "useRender",
+          "lineNumber": 36
+        },
+        {
+          "caller": "Badge",
+          "callee": "mergeProps",
+          "lineNumber": 38
+        },
+        {
+          "caller": "Badge",
+          "callee": "cn",
+          "lineNumber": 40
+        },
+        {
+          "caller": "Badge",
+          "callee": "badgeVariants",
+          "lineNumber": 40
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 2,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "cockpit/components/ui/button.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 58,
+      "nonEmptyLines": 54,
+      "functions": [
+        {
+          "name": "Button",
+          "startLine": 43,
+          "endLine": 56,
+          "params": [
+            "{\n  className,\n  variant = \"default\",\n  size = \"default\",\n  ...props\n}"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "Button",
+          "line": 58,
+          "isDefault": false
+        },
+        {
+          "name": "buttonVariants",
+          "line": 58,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "Button",
+          "callee": "cn",
+          "lineNumber": 52
+        },
+        {
+          "caller": "Button",
+          "callee": "buttonVariants",
+          "lineNumber": 52
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 2,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "cockpit/components/ui/card.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 103,
+      "nonEmptyLines": 94,
+      "functions": [
+        {
+          "name": "Card",
+          "startLine": 5,
+          "endLine": 21,
+          "params": [
+            "{\n  className,\n  size = \"default\",\n  ...props\n}"
+          ]
+        },
+        {
+          "name": "CardHeader",
+          "startLine": 23,
+          "endLine": 34,
+          "params": [
+            "{ className, ...props }"
+          ]
+        },
+        {
+          "name": "CardTitle",
+          "startLine": 36,
+          "endLine": 47,
+          "params": [
+            "{ className, ...props }"
+          ]
+        },
+        {
+          "name": "CardDescription",
+          "startLine": 49,
+          "endLine": 57,
+          "params": [
+            "{ className, ...props }"
+          ]
+        },
+        {
+          "name": "CardAction",
+          "startLine": 59,
+          "endLine": 70,
+          "params": [
+            "{ className, ...props }"
+          ]
+        },
+        {
+          "name": "CardContent",
+          "startLine": 72,
+          "endLine": 80,
+          "params": [
+            "{ className, ...props }"
+          ]
+        },
+        {
+          "name": "CardFooter",
+          "startLine": 82,
+          "endLine": 93,
+          "params": [
+            "{ className, ...props }"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "Card",
+          "line": 95,
+          "isDefault": false
+        },
+        {
+          "name": "CardHeader",
+          "line": 95,
+          "isDefault": false
+        },
+        {
+          "name": "CardFooter",
+          "line": 95,
+          "isDefault": false
+        },
+        {
+          "name": "CardTitle",
+          "line": 95,
+          "isDefault": false
+        },
+        {
+          "name": "CardAction",
+          "line": 95,
+          "isDefault": false
+        },
+        {
+          "name": "CardDescription",
+          "line": 95,
+          "isDefault": false
+        },
+        {
+          "name": "CardContent",
+          "line": 95,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "Card",
+          "callee": "cn",
+          "lineNumber": 14
+        },
+        {
+          "caller": "CardHeader",
+          "callee": "cn",
+          "lineNumber": 27
+        },
+        {
+          "caller": "CardTitle",
+          "callee": "cn",
+          "lineNumber": 40
+        },
+        {
+          "caller": "CardDescription",
+          "callee": "cn",
+          "lineNumber": 53
+        },
+        {
+          "caller": "CardAction",
+          "callee": "cn",
+          "lineNumber": 63
+        },
+        {
+          "caller": "CardContent",
+          "callee": "cn",
+          "lineNumber": 76
+        },
+        {
+          "caller": "CardFooter",
+          "callee": "cn",
+          "lineNumber": 86
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 7,
+        "functionCount": 7,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "cockpit/components/ui/dialog.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 160,
+      "nonEmptyLines": 147,
+      "functions": [
+        {
+          "name": "Dialog",
+          "startLine": 10,
+          "endLine": 12,
+          "params": [
+            "{ ...props }"
+          ]
+        },
+        {
+          "name": "DialogTrigger",
+          "startLine": 14,
+          "endLine": 16,
+          "params": [
+            "{ ...props }"
+          ]
+        },
+        {
+          "name": "DialogPortal",
+          "startLine": 18,
+          "endLine": 20,
+          "params": [
+            "{ ...props }"
+          ]
+        },
+        {
+          "name": "DialogClose",
+          "startLine": 22,
+          "endLine": 24,
+          "params": [
+            "{ ...props }"
+          ]
+        },
+        {
+          "name": "DialogOverlay",
+          "startLine": 26,
+          "endLine": 40,
+          "params": [
+            "{\n  className,\n  ...props\n}"
+          ]
+        },
+        {
+          "name": "DialogContent",
+          "startLine": 42,
+          "endLine": 81,
+          "params": [
+            "{\n  className,\n  children,\n  showCloseButton = true,\n  ...props\n}"
+          ]
+        },
+        {
+          "name": "DialogHeader",
+          "startLine": 83,
+          "endLine": 91,
+          "params": [
+            "{ className, ...props }"
+          ]
+        },
+        {
+          "name": "DialogFooter",
+          "startLine": 93,
+          "endLine": 118,
+          "params": [
+            "{\n  className,\n  showCloseButton = false,\n  children,\n  ...props\n}"
+          ]
+        },
+        {
+          "name": "DialogTitle",
+          "startLine": 120,
+          "endLine": 131,
+          "params": [
+            "{ className, ...props }"
+          ]
+        },
+        {
+          "name": "DialogDescription",
+          "startLine": 133,
+          "endLine": 147,
+          "params": [
+            "{\n  className,\n  ...props\n}"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "Dialog",
+          "line": 149,
+          "isDefault": false
+        },
+        {
+          "name": "DialogClose",
+          "line": 149,
+          "isDefault": false
+        },
+        {
+          "name": "DialogContent",
+          "line": 149,
+          "isDefault": false
+        },
+        {
+          "name": "DialogDescription",
+          "line": 149,
+          "isDefault": false
+        },
+        {
+          "name": "DialogFooter",
+          "line": 149,
+          "isDefault": false
+        },
+        {
+          "name": "DialogHeader",
+          "line": 149,
+          "isDefault": false
+        },
+        {
+          "name": "DialogOverlay",
+          "line": 149,
+          "isDefault": false
+        },
+        {
+          "name": "DialogPortal",
+          "line": 149,
+          "isDefault": false
+        },
+        {
+          "name": "DialogTitle",
+          "line": 149,
+          "isDefault": false
+        },
+        {
+          "name": "DialogTrigger",
+          "line": 149,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "DialogOverlay",
+          "callee": "cn",
+          "lineNumber": 33
+        },
+        {
+          "caller": "DialogContent",
+          "callee": "cn",
+          "lineNumber": 55
+        },
+        {
+          "caller": "DialogHeader",
+          "callee": "cn",
+          "lineNumber": 87
+        },
+        {
+          "caller": "DialogFooter",
+          "callee": "cn",
+          "lineNumber": 104
+        },
+        {
+          "caller": "DialogTitle",
+          "callee": "cn",
+          "lineNumber": 124
+        },
+        {
+          "caller": "DialogDescription",
+          "callee": "cn",
+          "lineNumber": 140
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 10,
+        "functionCount": 10,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "cockpit/components/ui/progress.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 83,
+      "nonEmptyLines": 75,
+      "functions": [
+        {
+          "name": "Progress",
+          "startLine": 7,
+          "endLine": 26,
+          "params": [
+            "{\n  className,\n  children,\n  value,\n  ...props\n}"
+          ]
+        },
+        {
+          "name": "ProgressTrack",
+          "startLine": 28,
+          "endLine": 39,
+          "params": [
+            "{ className, ...props }"
+          ]
+        },
+        {
+          "name": "ProgressIndicator",
+          "startLine": 41,
+          "endLine": 52,
+          "params": [
+            "{\n  className,\n  ...props\n}"
+          ]
+        },
+        {
+          "name": "ProgressLabel",
+          "startLine": 54,
+          "endLine": 62,
+          "params": [
+            "{ className, ...props }"
+          ]
+        },
+        {
+          "name": "ProgressValue",
+          "startLine": 64,
+          "endLine": 75,
+          "params": [
+            "{ className, ...props }"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "Progress",
+          "line": 77,
+          "isDefault": false
+        },
+        {
+          "name": "ProgressTrack",
+          "line": 77,
+          "isDefault": false
+        },
+        {
+          "name": "ProgressIndicator",
+          "line": 77,
+          "isDefault": false
+        },
+        {
+          "name": "ProgressLabel",
+          "line": 77,
+          "isDefault": false
+        },
+        {
+          "name": "ProgressValue",
+          "line": 77,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "Progress",
+          "callee": "cn",
+          "lineNumber": 17
+        },
+        {
+          "caller": "ProgressTrack",
+          "callee": "cn",
+          "lineNumber": 31
+        },
+        {
+          "caller": "ProgressIndicator",
+          "callee": "cn",
+          "lineNumber": 48
+        },
+        {
+          "caller": "ProgressLabel",
+          "callee": "cn",
+          "lineNumber": 57
+        },
+        {
+          "caller": "ProgressValue",
+          "callee": "cn",
+          "lineNumber": 67
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 5,
+        "functionCount": 5,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "cockpit/components/ui/table.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 116,
+      "nonEmptyLines": 105,
+      "functions": [
+        {
+          "name": "Table",
+          "startLine": 7,
+          "endLine": 20,
+          "params": [
+            "{ className, ...props }"
+          ]
+        },
+        {
+          "name": "TableHeader",
+          "startLine": 22,
+          "endLine": 30,
+          "params": [
+            "{ className, ...props }"
+          ]
+        },
+        {
+          "name": "TableBody",
+          "startLine": 32,
+          "endLine": 40,
+          "params": [
+            "{ className, ...props }"
+          ]
+        },
+        {
+          "name": "TableFooter",
+          "startLine": 42,
+          "endLine": 53,
+          "params": [
+            "{ className, ...props }"
+          ]
+        },
+        {
+          "name": "TableRow",
+          "startLine": 55,
+          "endLine": 66,
+          "params": [
+            "{ className, ...props }"
+          ]
+        },
+        {
+          "name": "TableHead",
+          "startLine": 68,
+          "endLine": 79,
+          "params": [
+            "{ className, ...props }"
+          ]
+        },
+        {
+          "name": "TableCell",
+          "startLine": 81,
+          "endLine": 92,
+          "params": [
+            "{ className, ...props }"
+          ]
+        },
+        {
+          "name": "TableCaption",
+          "startLine": 94,
+          "endLine": 105,
+          "params": [
+            "{\n  className,\n  ...props\n}"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "Table",
+          "line": 107,
+          "isDefault": false
+        },
+        {
+          "name": "TableHeader",
+          "line": 107,
+          "isDefault": false
+        },
+        {
+          "name": "TableBody",
+          "line": 107,
+          "isDefault": false
+        },
+        {
+          "name": "TableFooter",
+          "line": 107,
+          "isDefault": false
+        },
+        {
+          "name": "TableHead",
+          "line": 107,
+          "isDefault": false
+        },
+        {
+          "name": "TableRow",
+          "line": 107,
+          "isDefault": false
+        },
+        {
+          "name": "TableCell",
+          "line": 107,
+          "isDefault": false
+        },
+        {
+          "name": "TableCaption",
+          "line": 107,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "Table",
+          "callee": "cn",
+          "lineNumber": 15
+        },
+        {
+          "caller": "TableHeader",
+          "callee": "cn",
+          "lineNumber": 26
+        },
+        {
+          "caller": "TableBody",
+          "callee": "cn",
+          "lineNumber": 36
+        },
+        {
+          "caller": "TableFooter",
+          "callee": "cn",
+          "lineNumber": 46
+        },
+        {
+          "caller": "TableRow",
+          "callee": "cn",
+          "lineNumber": 59
+        },
+        {
+          "caller": "TableHead",
+          "callee": "cn",
+          "lineNumber": 72
+        },
+        {
+          "caller": "TableCell",
+          "callee": "cn",
+          "lineNumber": 85
+        },
+        {
+          "caller": "TableCaption",
+          "callee": "cn",
+          "lineNumber": 101
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 8,
+        "functionCount": 8,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "cockpit/components/ui/tabs.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 82,
+      "nonEmptyLines": 74,
+      "functions": [
+        {
+          "name": "Tabs",
+          "startLine": 8,
+          "endLine": 24,
+          "params": [
+            "{\n  className,\n  orientation = \"horizontal\",\n  ...props\n}"
+          ]
+        },
+        {
+          "name": "TabsList",
+          "startLine": 41,
+          "endLine": 54,
+          "params": [
+            "{\n  className,\n  variant = \"default\",\n  ...props\n}"
+          ]
+        },
+        {
+          "name": "TabsTrigger",
+          "startLine": 56,
+          "endLine": 70,
+          "params": [
+            "{ className, ...props }"
+          ]
+        },
+        {
+          "name": "TabsContent",
+          "startLine": 72,
+          "endLine": 80,
+          "params": [
+            "{ className, ...props }"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "Tabs",
+          "line": 82,
+          "isDefault": false
+        },
+        {
+          "name": "TabsList",
+          "line": 82,
+          "isDefault": false
+        },
+        {
+          "name": "TabsTrigger",
+          "line": 82,
+          "isDefault": false
+        },
+        {
+          "name": "TabsContent",
+          "line": 82,
+          "isDefault": false
+        },
+        {
+          "name": "tabsListVariants",
+          "line": 82,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "Tabs",
+          "callee": "cn",
+          "lineNumber": 17
+        },
+        {
+          "caller": "TabsList",
+          "callee": "cn",
+          "lineNumber": 50
+        },
+        {
+          "caller": "TabsList",
+          "callee": "tabsListVariants",
+          "lineNumber": 50
+        },
+        {
+          "caller": "TabsTrigger",
+          "callee": "cn",
+          "lineNumber": 60
+        },
+        {
+          "caller": "TabsContent",
+          "callee": "cn",
+          "lineNumber": 76
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 5,
+        "functionCount": 4,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "cockpit/components/universe-benchmark.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 158,
+      "nonEmptyLines": 150,
+      "functions": [
+        {
+          "name": "pct",
+          "startLine": 8,
+          "endLine": 10,
+          "params": [
+            "x"
+          ]
+        },
+        {
+          "name": "UniverseBenchmark",
+          "startLine": 12,
+          "endLine": 158,
+          "params": [
+            "{ score }"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "UniverseBenchmark",
+          "line": 12,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "pct",
+          "callee": "Math.round",
+          "lineNumber": 9
+        },
+        {
+          "caller": "UniverseBenchmark",
+          "callee": "[\n          [\"Lift\", `${score.lift.toFixed(2)}×`, \"precision ÷ base rate\", score.lift > 1],\n          [\"Precision\", pct(score.precision), \"winner | fired\", score.lift > 1],\n          [\"Recall\", pct(score.recall), \"fired | winner\", score.recall >= 0.6],\n          [\"Specificity\", pct(score.specificity), \"reject | loser\", score.specificity >= 0.6],\n        ].map",
+          "lineNumber": 35
+        },
+        {
+          "caller": "UniverseBenchmark",
+          "callee": "score.lift.toFixed",
+          "lineNumber": 36
+        },
+        {
+          "caller": "UniverseBenchmark",
+          "callee": "pct",
+          "lineNumber": 37
+        },
+        {
+          "caller": "UniverseBenchmark",
+          "callee": "pct",
+          "lineNumber": 38
+        },
+        {
+          "caller": "UniverseBenchmark",
+          "callee": "pct",
+          "lineNumber": 39
+        },
+        {
+          "caller": "UniverseBenchmark",
+          "callee": "pct",
+          "lineNumber": 57
+        },
+        {
+          "caller": "UniverseBenchmark",
+          "callee": "score.lift.toFixed",
+          "lineNumber": 63
+        },
+        {
+          "caller": "UniverseBenchmark",
+          "callee": "score.declustered.lift.toFixed",
+          "lineNumber": 72
+        },
+        {
+          "caller": "UniverseBenchmark",
+          "callee": "score.per_origin.map",
+          "lineNumber": 116
+        },
+        {
+          "caller": "UniverseBenchmark",
+          "callee": "pct",
+          "lineNumber": 126
+        },
+        {
+          "caller": "UniverseBenchmark",
+          "callee": "pct",
+          "lineNumber": 128
+        },
+        {
+          "caller": "UniverseBenchmark",
+          "callee": "r.lift.toFixed",
+          "lineNumber": 134
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 2,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "cockpit/lib/db.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 1148,
+      "nonEmptyLines": 1058,
+      "functions": [
+        {
+          "name": "open",
+          "startLine": 10,
+          "endLine": 17,
+          "params": []
+        },
+        {
+          "name": "rows",
+          "startLine": 21,
+          "endLine": 31,
+          "params": [
+            "sql"
+          ]
+        },
+        {
+          "name": "scalar",
+          "startLine": 33,
+          "endLine": 45,
+          "params": [
+            "sql",
+            "fallback"
+          ]
+        },
+        {
+          "name": "consensusEcho",
+          "startLine": 108,
+          "endLine": 109,
+          "params": [
+            "sat"
+          ]
+        },
+        {
+          "name": "getPillars",
+          "startLine": 152,
+          "endLine": 153,
+          "params": []
+        },
+        {
+          "name": "getSources",
+          "startLine": 155,
+          "endLine": 158,
+          "params": []
+        },
+        {
+          "name": "getOpenDecisions",
+          "startLine": 160,
+          "endLine": 163,
+          "params": []
+        },
+        {
+          "name": "getCostLedger",
+          "startLine": 165,
+          "endLine": 168,
+          "params": []
+        },
+        {
+          "name": "getSpendCents",
+          "startLine": 170,
+          "endLine": 174,
+          "params": []
+        },
+        {
+          "name": "getForecasts",
+          "startLine": 178,
+          "endLine": 181,
+          "params": []
+        },
+        {
+          "name": "getCalibration",
+          "startLine": 184,
+          "endLine": 200,
+          "params": []
+        },
+        {
+          "name": "getLadder",
+          "startLine": 233,
+          "endLine": 236,
+          "params": []
+        },
+        {
+          "name": "getLadderScore",
+          "startLine": 238,
+          "endLine": 285,
+          "params": []
+        },
+        {
+          "name": "driftVol",
+          "startLine": 326,
+          "endLine": 335,
+          "params": [
+            "values"
+          ]
+        },
+        {
+          "name": "statusOf",
+          "startLine": 340,
+          "endLine": 367,
+          "params": [
+            "d"
+          ]
+        },
+        {
+          "name": "getDriverHealth",
+          "startLine": 369,
+          "endLine": 416,
+          "params": []
+        },
+        {
+          "name": "getGraphNodes",
+          "startLine": 442,
+          "endLine": 447,
+          "params": [
+            "chain"
+          ]
+        },
+        {
+          "name": "getGraphEdges",
+          "startLine": 449,
+          "endLine": 452,
+          "params": [
+            "chain"
+          ]
+        },
+        {
+          "name": "getWorldNodes",
+          "startLine": 460,
+          "endLine": 467,
+          "params": []
+        },
+        {
+          "name": "getWorldEdges",
+          "startLine": 469,
+          "endLine": 473,
+          "params": []
+        },
+        {
+          "name": "getConsensus",
+          "startLine": 500,
+          "endLine": 508,
+          "params": [
+            "chain"
+          ]
+        },
+        {
+          "name": "getBet",
+          "startLine": 548,
+          "endLine": 558,
+          "params": [
+            "chain"
+          ]
+        },
+        {
+          "name": "getRetroCases",
+          "startLine": 583,
+          "endLine": 589,
+          "params": []
+        },
+        {
+          "name": "getRecallProbe",
+          "startLine": 608,
+          "endLine": 613,
+          "params": []
+        },
+        {
+          "name": "getSlowConstraints",
+          "startLine": 633,
+          "endLine": 640,
+          "params": []
+        },
+        {
+          "name": "getRetroScore",
+          "startLine": 658,
+          "endLine": 691,
+          "params": []
+        },
+        {
+          "name": "getUniverseCases",
+          "startLine": 714,
+          "endLine": 719,
+          "params": []
+        },
+        {
+          "name": "confusion",
+          "startLine": 725,
+          "endLine": 739,
+          "params": [
+            "rows"
+          ]
+        },
+        {
+          "name": "getUniverseScore",
+          "startLine": 748,
+          "endLine": 782,
+          "params": []
+        },
+        {
+          "name": "getEntities",
+          "startLine": 809,
+          "endLine": 831,
+          "params": []
+        },
+        {
+          "name": "getEntityEdges",
+          "startLine": 843,
+          "endLine": 850,
+          "params": []
+        },
+        {
+          "name": "getHypotheses",
+          "startLine": 881,
+          "endLine": 889,
+          "params": []
+        },
+        {
+          "name": "getDataHealth",
+          "startLine": 917,
+          "endLine": 931,
+          "params": []
+        },
+        {
+          "name": "getWorldStateOverview",
+          "startLine": 960,
+          "endLine": 1026,
+          "params": []
+        },
+        {
+          "name": "getSeries",
+          "startLine": 1032,
+          "endLine": 1042,
+          "params": []
+        },
+        {
+          "name": "getDiscovery",
+          "startLine": 1074,
+          "endLine": 1148,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "CONSENSUS_ECHO_AT",
+          "line": 107,
+          "isDefault": false
+        },
+        {
+          "name": "consensusEcho",
+          "line": 108,
+          "isDefault": false
+        },
+        {
+          "name": "getPillars",
+          "line": 152,
+          "isDefault": false
+        },
+        {
+          "name": "getSources",
+          "line": 155,
+          "isDefault": false
+        },
+        {
+          "name": "getOpenDecisions",
+          "line": 160,
+          "isDefault": false
+        },
+        {
+          "name": "getCostLedger",
+          "line": 165,
+          "isDefault": false
+        },
+        {
+          "name": "getSpendCents",
+          "line": 170,
+          "isDefault": false
+        },
+        {
+          "name": "getForecasts",
+          "line": 178,
+          "isDefault": false
+        },
+        {
+          "name": "getCalibration",
+          "line": 184,
+          "isDefault": false
+        },
+        {
+          "name": "getLadder",
+          "line": 233,
+          "isDefault": false
+        },
+        {
+          "name": "getLadderScore",
+          "line": 238,
+          "isDefault": false
+        },
+        {
+          "name": "getDriverHealth",
+          "line": 369,
+          "isDefault": false
+        },
+        {
+          "name": "SHOCK",
+          "line": 440,
+          "isDefault": false
+        },
+        {
+          "name": "getGraphNodes",
+          "line": 442,
+          "isDefault": false
+        },
+        {
+          "name": "getGraphEdges",
+          "line": 449,
+          "isDefault": false
+        },
+        {
+          "name": "getWorldNodes",
+          "line": 460,
+          "isDefault": false
+        },
+        {
+          "name": "getWorldEdges",
+          "line": 469,
+          "isDefault": false
+        },
+        {
+          "name": "getConsensus",
+          "line": 500,
+          "isDefault": false
+        },
+        {
+          "name": "getBet",
+          "line": 548,
+          "isDefault": false
+        },
+        {
+          "name": "getRetroCases",
+          "line": 583,
+          "isDefault": false
+        },
+        {
+          "name": "getRecallProbe",
+          "line": 608,
+          "isDefault": false
+        },
+        {
+          "name": "getSlowConstraints",
+          "line": 633,
+          "isDefault": false
+        },
+        {
+          "name": "getRetroScore",
+          "line": 658,
+          "isDefault": false
+        },
+        {
+          "name": "getUniverseCases",
+          "line": 714,
+          "isDefault": false
+        },
+        {
+          "name": "getUniverseScore",
+          "line": 748,
+          "isDefault": false
+        },
+        {
+          "name": "getEntities",
+          "line": 809,
+          "isDefault": false
+        },
+        {
+          "name": "getEntityEdges",
+          "line": 843,
+          "isDefault": false
+        },
+        {
+          "name": "getHypotheses",
+          "line": 881,
+          "isDefault": false
+        },
+        {
+          "name": "getDataHealth",
+          "line": 917,
+          "isDefault": false
+        },
+        {
+          "name": "getWorldStateOverview",
+          "line": 960,
+          "isDefault": false
+        },
+        {
+          "name": "getSeries",
+          "line": 1032,
+          "isDefault": false
+        },
+        {
+          "name": "getDiscovery",
+          "line": 1074,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "open",
+          "callee": "fs.existsSync",
+          "lineNumber": 11
+        },
+        {
+          "caller": "rows",
+          "callee": "open",
+          "lineNumber": 22
+        },
+        {
+          "caller": "rows",
+          "callee": "db.prepare(sql).all",
+          "lineNumber": 25
+        },
+        {
+          "caller": "rows",
+          "callee": "db.prepare",
+          "lineNumber": 25
+        },
+        {
+          "caller": "rows",
+          "callee": "db.close",
+          "lineNumber": 29
+        },
+        {
+          "caller": "scalar",
+          "callee": "open",
+          "lineNumber": 34
+        },
+        {
+          "caller": "scalar",
+          "callee": "db.prepare(sql).get",
+          "lineNumber": 37
+        },
+        {
+          "caller": "scalar",
+          "callee": "db.prepare",
+          "lineNumber": 37
+        },
+        {
+          "caller": "scalar",
+          "callee": "Object.values",
+          "lineNumber": 39
+        },
+        {
+          "caller": "scalar",
+          "callee": "db.close",
+          "lineNumber": 43
+        },
+        {
+          "caller": "getPillars",
+          "callee": "rows",
+          "lineNumber": 153
+        },
+        {
+          "caller": "getSources",
+          "callee": "rows",
+          "lineNumber": 156
+        },
+        {
+          "caller": "getOpenDecisions",
+          "callee": "rows",
+          "lineNumber": 161
+        },
+        {
+          "caller": "getCostLedger",
+          "callee": "rows",
+          "lineNumber": 166
+        },
+        {
+          "caller": "getSpendCents",
+          "callee": "scalar",
+          "lineNumber": 171
+        },
+        {
+          "caller": "getForecasts",
+          "callee": "rows",
+          "lineNumber": 179
+        },
+        {
+          "caller": "getCalibration",
+          "callee": "rows",
+          "lineNumber": 185
+        },
+        {
+          "caller": "getCalibration",
+          "callee": "resolved.map",
+          "lineNumber": 189
+        },
+        {
+          "caller": "getCalibration",
+          "callee": "resolved.reduce",
+          "lineNumber": 194
+        },
+        {
+          "caller": "getCalibration",
+          "callee": "points.reduce",
+          "lineNumber": 197
+        },
+        {
+          "caller": "getLadder",
+          "callee": "rows",
+          "lineNumber": 234
+        },
+        {
+          "caller": "getLadderScore",
+          "callee": "rows",
+          "lineNumber": 239
+        },
+        {
+          "caller": "getLadderScore",
+          "callee": "r.map",
+          "lineNumber": 245
+        },
+        {
+          "caller": "getLadderScore",
+          "callee": "r.reduce",
+          "lineNumber": 246
+        },
+        {
+          "caller": "getLadderScore",
+          "callee": "y.reduce",
+          "lineNumber": 247
+        },
+        {
+          "caller": "getLadderScore",
+          "callee": "y.reduce",
+          "lineNumber": 248
+        },
+        {
+          "caller": "getLadderScore",
+          "callee": "y.reduce",
+          "lineNumber": 251
+        },
+        {
+          "caller": "clip",
+          "callee": "Math.min",
+          "lineNumber": 254
+        },
+        {
+          "caller": "clip",
+          "callee": "Math.max",
+          "lineNumber": 254
+        },
+        {
+          "caller": "ll",
+          "callee": "Math.log",
+          "lineNumber": 255
+        },
+        {
+          "caller": "ll",
+          "callee": "clip",
+          "lineNumber": 255
+        },
+        {
+          "caller": "ll",
+          "callee": "Math.log",
+          "lineNumber": 255
+        },
+        {
+          "caller": "ll",
+          "callee": "clip",
+          "lineNumber": 255
+        },
+        {
+          "caller": "getLadderScore",
+          "callee": "r.reduce",
+          "lineNumber": 256
+        },
+        {
+          "caller": "getLadderScore",
+          "callee": "ll",
+          "lineNumber": 256
+        },
+        {
+          "caller": "getLadderScore",
+          "callee": "Math.log",
+          "lineNumber": 257
+        },
+        {
+          "caller": "getLadderScore",
+          "callee": "ll",
+          "lineNumber": 258
+        },
+        {
+          "caller": "getLadderScore",
+          "callee": "ll",
+          "lineNumber": 258
+        },
+        {
+          "caller": "getLadderScore",
+          "callee": "y.reduce",
+          "lineNumber": 259
+        },
+        {
+          "caller": "getLadderScore",
+          "callee": "ll",
+          "lineNumber": 259
+        },
+        {
+          "caller": "getLadderScore",
+          "callee": "r.reduce",
+          "lineNumber": 260
+        },
+        {
+          "caller": "getLadderScore",
+          "callee": "r.filter((_, i) => y[i] === 1).map",
+          "lineNumber": 262
+        },
+        {
+          "caller": "getLadderScore",
+          "callee": "r.filter",
+          "lineNumber": 262
+        },
+        {
+          "caller": "getLadderScore",
+          "callee": "r.filter((_, i) => y[i] === 0).map",
+          "lineNumber": 263
+        },
+        {
+          "caller": "getLadderScore",
+          "callee": "r.filter",
+          "lineNumber": 263
+        },
+        {
+          "caller": "getLadderScore",
+          "callee": "r\n      .map((x, i) => ({ p: x.probability, y: y[i] }))\n      .filter",
+          "lineNumber": 274
+        },
+        {
+          "caller": "getLadderScore",
+          "callee": "r\n      .map",
+          "lineNumber": 274
+        },
+        {
+          "caller": "getLadderScore",
+          "callee": "bins.push",
+          "lineNumber": 278
+        },
+        {
+          "caller": "getLadderScore",
+          "callee": "sub.reduce",
+          "lineNumber": 279
+        },
+        {
+          "caller": "getLadderScore",
+          "callee": "sub.reduce",
+          "lineNumber": 280
+        },
+        {
+          "caller": "driftVol",
+          "callee": "rets.push",
+          "lineNumber": 329
+        },
+        {
+          "caller": "driftVol",
+          "callee": "Math.log",
+          "lineNumber": 329
+        },
+        {
+          "caller": "driftVol",
+          "callee": "rets.reduce",
+          "lineNumber": 332
+        },
+        {
+          "caller": "driftVol",
+          "callee": "Math.max",
+          "lineNumber": 333
+        },
+        {
+          "caller": "driftVol",
+          "callee": "Math.sqrt",
+          "lineNumber": 333
+        },
+        {
+          "caller": "driftVol",
+          "callee": "rets.reduce",
+          "lineNumber": 333
+        },
+        {
+          "caller": "statusOf",
+          "callee": "d.spark.split(\",\").map(Number).filter",
+          "lineNumber": 343
+        },
+        {
+          "caller": "statusOf",
+          "callee": "d.spark.split(\",\").map",
+          "lineNumber": 343
+        },
+        {
+          "caller": "statusOf",
+          "callee": "d.spark.split",
+          "lineNumber": 343
+        },
+        {
+          "caller": "statusOf",
+          "callee": "Number.isNaN",
+          "lineNumber": 343
+        },
+        {
+          "caller": "statusOf",
+          "callee": "driftVol",
+          "lineNumber": 348
+        },
+        {
+          "caller": "statusOf",
+          "callee": "Math.max",
+          "lineNumber": 351
+        },
+        {
+          "caller": "statusOf",
+          "callee": "Math.abs",
+          "lineNumber": 351
+        },
+        {
+          "caller": "statusOf",
+          "callee": "Math.max",
+          "lineNumber": 357
+        },
+        {
+          "caller": "statusOf",
+          "callee": "Math.abs",
+          "lineNumber": 357
+        },
+        {
+          "caller": "statusOf",
+          "callee": "Math.max",
+          "lineNumber": 361
+        },
+        {
+          "caller": "statusOf",
+          "callee": "Math.min",
+          "lineNumber": 361
+        },
+        {
+          "caller": "statusOf",
+          "callee": "Math.exp",
+          "lineNumber": 362
+        },
+        {
+          "caller": "getDriverHealth",
+          "callee": "rows",
+          "lineNumber": 370
+        },
+        {
+          "caller": "getDriverHealth",
+          "callee": "statusOf",
+          "lineNumber": 390
+        },
+        {
+          "caller": "getDriverHealth",
+          "callee": "byKey.get",
+          "lineNumber": 395
+        },
+        {
+          "caller": "getDriverHealth",
+          "callee": "byKey.set",
+          "lineNumber": 399
+        },
+        {
+          "caller": "getDriverHealth",
+          "callee": "h.drivers.push",
+          "lineNumber": 401
+        },
+        {
+          "caller": "getDriverHealth",
+          "callee": "byKey.values",
+          "lineNumber": 403
+        },
+        {
+          "caller": "getDriverHealth",
+          "callee": "h.drivers.filter",
+          "lineNumber": 406
+        },
+        {
+          "caller": "getDriverHealth",
+          "callee": "h.drivers.filter",
+          "lineNumber": 407
+        },
+        {
+          "caller": "getDriverHealth",
+          "callee": "h.drivers.filter",
+          "lineNumber": 408
+        },
+        {
+          "caller": "getDriverHealth",
+          "callee": "h.drivers.filter",
+          "lineNumber": 409
+        },
+        {
+          "caller": "getDriverHealth",
+          "callee": "h.drivers.filter",
+          "lineNumber": 410
+        },
+        {
+          "caller": "getDriverHealth",
+          "callee": "scored.reduce",
+          "lineNumber": 411
+        },
+        {
+          "caller": "getDriverHealth",
+          "callee": "h.drivers.reduce",
+          "lineNumber": 412
+        },
+        {
+          "caller": "getGraphNodes",
+          "callee": "rows",
+          "lineNumber": 443
+        },
+        {
+          "caller": "getGraphEdges",
+          "callee": "rows",
+          "lineNumber": 450
+        },
+        {
+          "caller": "getWorldNodes",
+          "callee": "rows",
+          "lineNumber": 461
+        },
+        {
+          "caller": "getWorldEdges",
+          "callee": "rows",
+          "lineNumber": 470
+        },
+        {
+          "caller": "getConsensus",
+          "callee": "rows",
+          "lineNumber": 501
+        },
+        {
+          "caller": "getBet",
+          "callee": "rows",
+          "lineNumber": 549
+        },
+        {
+          "caller": "getRetroCases",
+          "callee": "rows",
+          "lineNumber": 584
+        },
+        {
+          "caller": "getRecallProbe",
+          "callee": "rows",
+          "lineNumber": 609
+        },
+        {
+          "caller": "getSlowConstraints",
+          "callee": "rows",
+          "lineNumber": 634
+        },
+        {
+          "caller": "getRetroScore",
+          "callee": "getRetroCases",
+          "lineNumber": 659
+        },
+        {
+          "caller": "getRetroScore",
+          "callee": "cases.filter",
+          "lineNumber": 662
+        },
+        {
+          "caller": "getRetroScore",
+          "callee": "cases.filter",
+          "lineNumber": 663
+        },
+        {
+          "caller": "getRetroScore",
+          "callee": "cases.filter",
+          "lineNumber": 664
+        },
+        {
+          "caller": "getRetroScore",
+          "callee": "fired.filter",
+          "lineNumber": 665
+        },
+        {
+          "caller": "getRetroScore",
+          "callee": "fizzles.filter",
+          "lineNumber": 670
+        },
+        {
+          "caller": "getRetroScore",
+          "callee": "fired\n    .filter((c) => c.outcome === 1 && c.lead_months !== null)\n    .map((c) => c.lead_months as number)\n    .sort",
+          "lineNumber": 672
+        },
+        {
+          "caller": "getRetroScore",
+          "callee": "fired\n    .filter((c) => c.outcome === 1 && c.lead_months !== null)\n    .map",
+          "lineNumber": 672
+        },
+        {
+          "caller": "getRetroScore",
+          "callee": "fired\n    .filter",
+          "lineNumber": 672
+        },
+        {
+          "caller": "getRetroScore",
+          "callee": "cases.reduce",
+          "lineNumber": 676
+        },
+        {
+          "caller": "getRetroScore",
+          "callee": "cases.reduce",
+          "lineNumber": 677
+        },
+        {
+          "caller": "getRetroScore",
+          "callee": "Math.floor",
+          "lineNumber": 687
+        },
+        {
+          "caller": "getUniverseCases",
+          "callee": "rows",
+          "lineNumber": 715
+        },
+        {
+          "caller": "confusion",
+          "callee": "rows.filter",
+          "lineNumber": 726
+        },
+        {
+          "caller": "confusion",
+          "callee": "rows.filter",
+          "lineNumber": 727
+        },
+        {
+          "caller": "confusion",
+          "callee": "rows.filter",
+          "lineNumber": 728
+        },
+        {
+          "caller": "confusion",
+          "callee": "rows.filter",
+          "lineNumber": 729
+        },
+        {
+          "caller": "getUniverseScore",
+          "callee": "getUniverseCases",
+          "lineNumber": 749
+        },
+        {
+          "caller": "getUniverseScore",
+          "callee": "cases.filter",
+          "lineNumber": 751
+        },
+        {
+          "caller": "getUniverseScore",
+          "callee": "confusion",
+          "lineNumber": 753
+        },
+        {
+          "caller": "getUniverseScore",
+          "callee": "scored\n    .filter((r) => r.fired === 1 && r.label_winner === 1 && r.lead_months !== null)\n    .map((r) => r.lead_months as number)\n    .sort",
+          "lineNumber": 755
+        },
+        {
+          "caller": "getUniverseScore",
+          "callee": "scored\n    .filter((r) => r.fired === 1 && r.label_winner === 1 && r.lead_months !== null)\n    .map",
+          "lineNumber": 755
+        },
+        {
+          "caller": "getUniverseScore",
+          "callee": "scored\n    .filter",
+          "lineNumber": 755
+        },
+        {
+          "caller": "getUniverseScore",
+          "callee": "[...new Set(scored.map((r) => r.origin_year))].sort",
+          "lineNumber": 760
+        },
+        {
+          "caller": "getUniverseScore",
+          "callee": "scored.map",
+          "lineNumber": 760
+        },
+        {
+          "caller": "getUniverseScore",
+          "callee": "origins.map",
+          "lineNumber": 761
+        },
+        {
+          "caller": "getUniverseScore",
+          "callee": "confusion",
+          "lineNumber": 762
+        },
+        {
+          "caller": "getUniverseScore",
+          "callee": "scored.filter",
+          "lineNumber": 762
+        },
+        {
+          "caller": "getUniverseScore",
+          "callee": "cases.filter",
+          "lineNumber": 763
+        },
+        {
+          "caller": "getUniverseScore",
+          "callee": "earliest.get",
+          "lineNumber": 770
+        },
+        {
+          "caller": "getUniverseScore",
+          "callee": "earliest.set",
+          "lineNumber": 771
+        },
+        {
+          "caller": "getUniverseScore",
+          "callee": "confusion",
+          "lineNumber": 773
+        },
+        {
+          "caller": "getUniverseScore",
+          "callee": "earliest.values",
+          "lineNumber": 773
+        },
+        {
+          "caller": "getUniverseScore",
+          "callee": "cases.filter",
+          "lineNumber": 777
+        },
+        {
+          "caller": "getUniverseScore",
+          "callee": "Math.floor",
+          "lineNumber": 778
+        },
+        {
+          "caller": "getEntities",
+          "callee": "rows",
+          "lineNumber": 810
+        },
+        {
+          "caller": "getEntities",
+          "callee": "rows",
+          "lineNumber": 813
+        },
+        {
+          "caller": "getEntities",
+          "callee": "ents\n    .map((e) => {\n      const ls = links.filter((l) => l.entity_id === e.id);\n      const pillars = [...new Set(ls.map((l) => l.pillar_id).filter((p): p is number => p != null))].sort(\n        (a, b) => a - b\n      );\n      return { ...e, links: ls, pillars };\n    })\n    // cross-pillar entities first (the trace is the point), then most-linked, then name\n    .sort",
+          "lineNumber": 816
+        },
+        {
+          "caller": "getEntities",
+          "callee": "ents\n    .map",
+          "lineNumber": 816
+        },
+        {
+          "caller": "getEntities",
+          "callee": "links.filter",
+          "lineNumber": 818
+        },
+        {
+          "caller": "getEntities",
+          "callee": "[...new Set(ls.map((l) => l.pillar_id).filter((p): p is number => p != null))].sort",
+          "lineNumber": 819
+        },
+        {
+          "caller": "getEntities",
+          "callee": "ls.map((l) => l.pillar_id).filter",
+          "lineNumber": 819
+        },
+        {
+          "caller": "getEntities",
+          "callee": "ls.map",
+          "lineNumber": 819
+        },
+        {
+          "caller": "getEntities",
+          "callee": "a.canonical_name.localeCompare",
+          "lineNumber": 829
+        },
+        {
+          "caller": "getEntityEdges",
+          "callee": "rows",
+          "lineNumber": 844
+        },
+        {
+          "caller": "getHypotheses",
+          "callee": "rows",
+          "lineNumber": 882
+        },
+        {
+          "caller": "getDataHealth",
+          "callee": "rows",
+          "lineNumber": 918
+        },
+        {
+          "caller": "getDataHealth",
+          "callee": "all.filter",
+          "lineNumber": 925
+        },
+        {
+          "caller": "getDataHealth",
+          "callee": "all.filter",
+          "lineNumber": 926
+        },
+        {
+          "caller": "getDataHealth",
+          "callee": "all.filter",
+          "lineNumber": 927
+        },
+        {
+          "caller": "getDataHealth",
+          "callee": "Math.round",
+          "lineNumber": 928
+        },
+        {
+          "caller": "getDataHealth",
+          "callee": "all.reduce",
+          "lineNumber": 928
+        },
+        {
+          "caller": "getDataHealth",
+          "callee": "all.filter((r) => r.status !== \"ok\").slice",
+          "lineNumber": 929
+        },
+        {
+          "caller": "getDataHealth",
+          "callee": "all.filter",
+          "lineNumber": 929
+        },
+        {
+          "caller": "getWorldStateOverview",
+          "callee": "scalar",
+          "lineNumber": 961
+        },
+        {
+          "caller": "getWorldStateOverview",
+          "callee": "scalar",
+          "lineNumber": 962
+        },
+        {
+          "caller": "getWorldStateOverview",
+          "callee": "scalar",
+          "lineNumber": 966
+        },
+        {
+          "caller": "getWorldStateOverview",
+          "callee": "rows",
+          "lineNumber": 967
+        },
+        {
+          "caller": "getWorldStateOverview",
+          "callee": "scalar",
+          "lineNumber": 973
+        },
+        {
+          "caller": "getWorldStateOverview",
+          "callee": "scalar",
+          "lineNumber": 974
+        },
+        {
+          "caller": "getWorldStateOverview",
+          "callee": "scalar",
+          "lineNumber": 978
+        },
+        {
+          "caller": "getWorldStateOverview",
+          "callee": "scalar",
+          "lineNumber": 979
+        },
+        {
+          "caller": "getWorldStateOverview",
+          "callee": "rows",
+          "lineNumber": 985
+        },
+        {
+          "caller": "getWorldStateOverview",
+          "callee": "health.map",
+          "lineNumber": 988
+        },
+        {
+          "caller": "getWorldStateOverview",
+          "callee": "rows",
+          "lineNumber": 989
+        },
+        {
+          "caller": "getWorldStateOverview",
+          "callee": "rows",
+          "lineNumber": 993
+        },
+        {
+          "caller": "getWorldStateOverview",
+          "callee": "Math.max",
+          "lineNumber": 1012
+        },
+        {
+          "caller": "getWorldStateOverview",
+          "callee": "Math.max",
+          "lineNumber": 1013
+        },
+        {
+          "caller": "getWorldStateOverview",
+          "callee": "Math.round",
+          "lineNumber": 1014
+        },
+        {
+          "caller": "getWorldStateOverview",
+          "callee": "Math.round",
+          "lineNumber": 1015
+        },
+        {
+          "caller": "getWorldStateOverview",
+          "callee": "healthMap.get",
+          "lineNumber": 1016
+        },
+        {
+          "caller": "getWorldStateOverview",
+          "callee": "healthMap.get",
+          "lineNumber": 1017
+        },
+        {
+          "caller": "getWorldStateOverview",
+          "callee": "healthMap.get",
+          "lineNumber": 1018
+        },
+        {
+          "caller": "getWorldStateOverview",
+          "callee": "scalar",
+          "lineNumber": 1019
+        },
+        {
+          "caller": "getSeries",
+          "callee": "rows",
+          "lineNumber": 1033
+        },
+        {
+          "caller": "getDiscovery",
+          "callee": "rows",
+          "lineNumber": 1075
+        },
+        {
+          "caller": "getDiscovery",
+          "callee": "[...new Set(survivors.map((s) => s.provider))].sort",
+          "lineNumber": 1082
+        },
+        {
+          "caller": "getDiscovery",
+          "callee": "survivors.map",
+          "lineNumber": 1082
+        },
+        {
+          "caller": "getDiscovery",
+          "callee": "rows",
+          "lineNumber": 1085
+        },
+        {
+          "caller": "getDiscovery",
+          "callee": "rows<{ entity_id: string }>(\n      \"SELECT DISTINCT entity_id FROM entity_links WHERE ref_table='ticker'\"\n    ).map",
+          "lineNumber": 1098
+        },
+        {
+          "caller": "getDiscovery",
+          "callee": "rows",
+          "lineNumber": 1098
+        },
+        {
+          "caller": "getDiscovery",
+          "callee": "rows",
+          "lineNumber": 1103
+        },
+        {
+          "caller": "getDiscovery",
+          "callee": "satRows.map",
+          "lineNumber": 1106
+        },
+        {
+          "caller": "getDiscovery",
+          "callee": "ents.get",
+          "lineNumber": 1111
+        },
+        {
+          "caller": "getDiscovery",
+          "callee": "tickers.has",
+          "lineNumber": 1114
+        },
+        {
+          "caller": "getDiscovery",
+          "callee": "ents.set",
+          "lineNumber": 1117
+        },
+        {
+          "caller": "getDiscovery",
+          "callee": "LEAD_PROVIDERS.has",
+          "lineNumber": 1119
+        },
+        {
+          "caller": "getDiscovery",
+          "callee": "Math.max",
+          "lineNumber": 1122
+        },
+        {
+          "caller": "getDiscovery",
+          "callee": "e.leads.push",
+          "lineNumber": 1123
+        },
+        {
+          "caller": "getDiscovery",
+          "callee": "LAG_PROVIDERS.has",
+          "lineNumber": 1125
+        },
+        {
+          "caller": "getDiscovery",
+          "callee": "ents.values",
+          "lineNumber": 1132
+        },
+        {
+          "caller": "getDiscovery",
+          "callee": "satByEid.get",
+          "lineNumber": 1133
+        },
+        {
+          "caller": "getDiscovery",
+          "callee": "priced.push",
+          "lineNumber": 1139
+        },
+        {
+          "caller": "getDiscovery",
+          "callee": "early.push",
+          "lineNumber": 1141
+        },
+        {
+          "caller": "getDiscovery",
+          "callee": "priced.push",
+          "lineNumber": 1142
+        },
+        {
+          "caller": "getDiscovery",
+          "callee": "laggingOnly.push",
+          "lineNumber": 1143
+        },
+        {
+          "caller": "getDiscovery",
+          "callee": "early.sort",
+          "lineNumber": 1145
+        },
+        {
+          "caller": "getDiscovery",
+          "callee": "priced.sort",
+          "lineNumber": 1146
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 32,
+        "functionCount": 36,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "cockpit/lib/utils.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 6,
+      "nonEmptyLines": 5,
+      "functions": [
+        {
+          "name": "cn",
+          "startLine": 4,
+          "endLine": 6,
+          "params": [
+            "...inputs"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "cn",
+          "line": 4,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "cn",
+          "callee": "twMerge",
+          "lineNumber": 5
+        },
+        {
+          "caller": "cn",
+          "callee": "clsx",
+          "lineNumber": 5
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    }
+  ]
+}

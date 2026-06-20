@@ -1,0 +1,557 @@
+{
+  "nodes": [
+    {
+      "id": "file:research/targets/researchers_openalex.jsonl",
+      "type": "file",
+      "name": "researchers_openalex.jsonl",
+      "filePath": "research/targets/researchers_openalex.jsonl",
+      "summary": "researchers_openalex.jsonl is a code asset in the repository.",
+      "tags": [
+        "code",
+        "file",
+        "researchers-openalex"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:site/docs/research/scripts-extracted/inline-1.js",
+      "type": "file",
+      "name": "inline-1.js",
+      "filePath": "site/docs/research/scripts-extracted/inline-1.js",
+      "summary": "inline-1.js is a code asset in the public site.",
+      "tags": [
+        "frontend",
+        "code",
+        "file",
+        "inline-1"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:site/docs/research/scripts-extracted/inline-2.js",
+      "type": "file",
+      "name": "inline-2.js",
+      "filePath": "site/docs/research/scripts-extracted/inline-2.js",
+      "summary": "inline-2.js is a code asset in the public site.",
+      "tags": [
+        "frontend",
+        "code",
+        "file",
+        "inline-2"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:site/docs/research/scripts-extracted/inline-3.js",
+      "type": "file",
+      "name": "inline-3.js",
+      "filePath": "site/docs/research/scripts-extracted/inline-3.js",
+      "summary": "inline-3.js is a code asset in the public site.",
+      "tags": [
+        "frontend",
+        "code",
+        "file",
+        "inline-3"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:site/docs/research/scripts-extracted/inline-4.js",
+      "type": "file",
+      "name": "inline-4.js",
+      "filePath": "site/docs/research/scripts-extracted/inline-4.js",
+      "summary": "inline-4.js is a code asset in the public site.",
+      "tags": [
+        "frontend",
+        "code",
+        "file",
+        "inline-4"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:site/docs/research/scripts-extracted/inline-5.js",
+      "type": "file",
+      "name": "inline-5.js",
+      "filePath": "site/docs/research/scripts-extracted/inline-5.js",
+      "summary": "inline-5.js is a code asset in the public site.",
+      "tags": [
+        "frontend",
+        "code",
+        "file",
+        "inline-5"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:site/docs/research/scripts-extracted/inline-6.js",
+      "type": "file",
+      "name": "inline-6.js",
+      "filePath": "site/docs/research/scripts-extracted/inline-6.js",
+      "summary": "inline-6.js is a code asset in the public site.",
+      "tags": [
+        "frontend",
+        "code",
+        "file",
+        "inline-6"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:site/docs/research/scripts-extracted/inline-7.js",
+      "type": "file",
+      "name": "inline-7.js",
+      "filePath": "site/docs/research/scripts-extracted/inline-7.js",
+      "summary": "inline-7.js is a code asset in the public site.",
+      "tags": [
+        "frontend",
+        "code",
+        "file",
+        "inline-7"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:site/docs/research/scripts-extracted/inline-8.js",
+      "type": "file",
+      "name": "inline-8.js",
+      "filePath": "site/docs/research/scripts-extracted/inline-8.js",
+      "summary": "inline-8.js is a code asset in the public site.",
+      "tags": [
+        "frontend",
+        "code",
+        "file",
+        "inline-8"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:site/docs/research/scripts-extracted/inline-9.js",
+      "type": "file",
+      "name": "inline-9.js",
+      "filePath": "site/docs/research/scripts-extracted/inline-9.js",
+      "summary": "inline-9.js is a code asset in the public site.",
+      "tags": [
+        "frontend",
+        "code",
+        "file",
+        "inline-9"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:site/eslint.config.mjs",
+      "type": "file",
+      "name": "eslint.config.mjs",
+      "filePath": "site/eslint.config.mjs",
+      "summary": "eslint.config.mjs is a code asset in the public site.",
+      "tags": [
+        "frontend",
+        "code",
+        "file",
+        "eslint-config"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:site/functions/api/_resend.ts",
+      "type": "file",
+      "name": "_resend.ts",
+      "filePath": "site/functions/api/_resend.ts",
+      "summary": "_resend.ts is a code asset in the public site. It contains 1 function.",
+      "tags": [
+        "frontend",
+        "code",
+        "file",
+        "resend"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:site/functions/api/_resend.ts:sendEmail",
+      "type": "function",
+      "name": "sendEmail",
+      "filePath": "site/functions/api/_resend.ts",
+      "lineRange": [
+        20,
+        56
+      ],
+      "summary": "Defines sendEmail in _resend.ts, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "resend"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:site/functions/api/contact.ts",
+      "type": "file",
+      "name": "contact.ts",
+      "filePath": "site/functions/api/contact.ts",
+      "summary": "contact.ts is a code asset in the public site. It contains 7 functions, 1 internal import.",
+      "tags": [
+        "frontend",
+        "code",
+        "file",
+        "contact"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:site/functions/api/contact.ts:originAllowed",
+      "type": "function",
+      "name": "originAllowed",
+      "filePath": "site/functions/api/contact.ts",
+      "lineRange": [
+        31,
+        45
+      ],
+      "summary": "Defines originAllowed in contact.ts, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "contact"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:site/functions/api/contact.ts:hostnameAllowed",
+      "type": "function",
+      "name": "hostnameAllowed",
+      "filePath": "site/functions/api/contact.ts",
+      "lineRange": [
+        53,
+        62
+      ],
+      "summary": "Defines hostnameAllowed in contact.ts, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "contact"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:site/functions/api/contact.ts:verifyTurnstile",
+      "type": "function",
+      "name": "verifyTurnstile",
+      "filePath": "site/functions/api/contact.ts",
+      "lineRange": [
+        64,
+        96
+      ],
+      "summary": "Defines verifyTurnstile in contact.ts, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "contact"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:site/functions/api/contact.ts:rateLimited",
+      "type": "function",
+      "name": "rateLimited",
+      "filePath": "site/functions/api/contact.ts",
+      "lineRange": [
+        100,
+        115
+      ],
+      "summary": "Defines rateLimited in contact.ts, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "contact"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:site/functions/api/contact.ts:onRequestPost",
+      "type": "function",
+      "name": "onRequestPost",
+      "filePath": "site/functions/api/contact.ts",
+      "lineRange": [
+        117,
+        189
+      ],
+      "summary": "Defines onRequestPost in contact.ts, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-access",
+        "contact"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:site/next.config.ts",
+      "type": "file",
+      "name": "next.config.ts",
+      "filePath": "site/next.config.ts",
+      "summary": "next.config.ts is a code asset in the public site.",
+      "tags": [
+        "configuration",
+        "nextjs",
+        "build-system",
+        "frontend",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:site/postcss.config.mjs",
+      "type": "file",
+      "name": "postcss.config.mjs",
+      "filePath": "site/postcss.config.mjs",
+      "summary": "postcss.config.mjs is a code asset in the public site.",
+      "tags": [
+        "frontend",
+        "code",
+        "file",
+        "postcss-config"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:site/public/_headers",
+      "type": "file",
+      "name": "_headers",
+      "filePath": "site/public/_headers",
+      "summary": "_headers is a code asset in the public site.",
+      "tags": [
+        "frontend",
+        "code",
+        "file",
+        "headers"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:site/public/data/coverage.json",
+      "type": "config",
+      "name": "coverage.json",
+      "filePath": "site/public/data/coverage.json",
+      "summary": "Configuration file for coverage.json that shapes build, runtime, or tooling behavior in this repository.",
+      "tags": [
+        "frontend",
+        "configuration",
+        "config",
+        "coverage"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:site/public/images/6891e0d64bb73bfd5cc7baaa_Scott_Headshot_Web_Use.avif",
+      "type": "file",
+      "name": "6891e0d64bb73bfd5cc7baaa_Scott_Headshot_Web_Use.avif",
+      "filePath": "site/public/images/6891e0d64bb73bfd5cc7baaa_Scott_Headshot_Web_Use.avif",
+      "summary": "6891e0d64bb73bfd5cc7baaa_Scott_Headshot_Web_Use.avif is a code asset in the public site.",
+      "tags": [
+        "frontend",
+        "code",
+        "file",
+        "6891e0d64bb73bfd5cc7baaa-scott-headshot-web-use"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:site/public/images/6891e0d6a4a062c5f241a2ab_Ben_Headshot_1_Web_Use.avif",
+      "type": "file",
+      "name": "6891e0d6a4a062c5f241a2ab_Ben_Headshot_1_Web_Use.avif",
+      "filePath": "site/public/images/6891e0d6a4a062c5f241a2ab_Ben_Headshot_1_Web_Use.avif",
+      "summary": "6891e0d6a4a062c5f241a2ab_Ben_Headshot_1_Web_Use.avif is a code asset in the public site.",
+      "tags": [
+        "frontend",
+        "code",
+        "file",
+        "6891e0d6a4a062c5f241a2ab-ben-headshot-1-web-use"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:site/public/images/6891e0d6a56642e6f2f8ca6b_Toby_Headshot_1_Web_Use.avif",
+      "type": "file",
+      "name": "6891e0d6a56642e6f2f8ca6b_Toby_Headshot_1_Web_Use.avif",
+      "filePath": "site/public/images/6891e0d6a56642e6f2f8ca6b_Toby_Headshot_1_Web_Use.avif",
+      "summary": "6891e0d6a56642e6f2f8ca6b_Toby_Headshot_1_Web_Use.avif is a code asset in the public site.",
+      "tags": [
+        "frontend",
+        "code",
+        "file",
+        "6891e0d6a56642e6f2f8ca6b-toby-headshot-1-web-use"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:site/public/images/6891e0d6cb597a8bb5b6282b_Matthew_Headshot_Web_Use.avif",
+      "type": "file",
+      "name": "6891e0d6cb597a8bb5b6282b_Matthew_Headshot_Web_Use.avif",
+      "filePath": "site/public/images/6891e0d6cb597a8bb5b6282b_Matthew_Headshot_Web_Use.avif",
+      "summary": "6891e0d6cb597a8bb5b6282b_Matthew_Headshot_Web_Use.avif is a code asset in the public site.",
+      "tags": [
+        "frontend",
+        "code",
+        "file",
+        "6891e0d6cb597a8bb5b6282b-matthew-headshot-web-use"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:site/public/images/6891e0d6d63df0d1263223ec_Max_Headshot_Web_Use-2.avif",
+      "type": "file",
+      "name": "6891e0d6d63df0d1263223ec_Max_Headshot_Web_Use-2.avif",
+      "filePath": "site/public/images/6891e0d6d63df0d1263223ec_Max_Headshot_Web_Use-2.avif",
+      "summary": "6891e0d6d63df0d1263223ec_Max_Headshot_Web_Use-2.avif is a code asset in the public site.",
+      "tags": [
+        "frontend",
+        "code",
+        "file",
+        "6891e0d6d63df0d1263223ec-max-headshot-web-use-2"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:site/public/images/6891e0d737c1720826f42fbb_Vlad_Headshot_Web_Use.avif",
+      "type": "file",
+      "name": "6891e0d737c1720826f42fbb_Vlad_Headshot_Web_Use.avif",
+      "filePath": "site/public/images/6891e0d737c1720826f42fbb_Vlad_Headshot_Web_Use.avif",
+      "summary": "6891e0d737c1720826f42fbb_Vlad_Headshot_Web_Use.avif is a code asset in the public site.",
+      "tags": [
+        "frontend",
+        "code",
+        "file",
+        "6891e0d737c1720826f42fbb-vlad-headshot-web-use"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:site/public/images/690cb136eef6de79e8f7d34d_vid_cover.avif",
+      "type": "file",
+      "name": "690cb136eef6de79e8f7d34d_vid_cover.avif",
+      "filePath": "site/public/images/690cb136eef6de79e8f7d34d_vid_cover.avif",
+      "summary": "690cb136eef6de79e8f7d34d_vid_cover.avif is a code asset in the public site.",
+      "tags": [
+        "frontend",
+        "code",
+        "file",
+        "690cb136eef6de79e8f7d34d-vid-cover"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:site/public/images/699d59d37cc5e6173de5d2a4_sales-nesetril-ex_p4AaBxbs-unsplash.avif",
+      "type": "file",
+      "name": "699d59d37cc5e6173de5d2a4_sales-nesetril-ex_p4AaBxbs-unsplash.avif",
+      "filePath": "site/public/images/699d59d37cc5e6173de5d2a4_sales-nesetril-ex_p4AaBxbs-unsplash.avif",
+      "summary": "699d59d37cc5e6173de5d2a4_sales-nesetril-ex_p4AaBxbs-unsplash.avif is a code asset in the public site.",
+      "tags": [
+        "frontend",
+        "code",
+        "file",
+        "699d59d37cc5e6173de5d2a4-sales-nesetril-ex-p4aabxbs-unsplash"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:site/functions/api/_resend.ts",
+      "target": "function:site/functions/api/_resend.ts:sendEmail",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:site/functions/api/_resend.ts",
+      "target": "function:site/functions/api/_resend.ts:sendEmail",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:site/functions/api/contact.ts",
+      "target": "function:site/functions/api/contact.ts:originAllowed",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:site/functions/api/contact.ts",
+      "target": "function:site/functions/api/contact.ts:hostnameAllowed",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:site/functions/api/contact.ts",
+      "target": "function:site/functions/api/contact.ts:verifyTurnstile",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:site/functions/api/contact.ts",
+      "target": "function:site/functions/api/contact.ts:rateLimited",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:site/functions/api/contact.ts",
+      "target": "function:site/functions/api/contact.ts:onRequestPost",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:site/functions/api/contact.ts",
+      "target": "function:site/functions/api/contact.ts:onRequestPost",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:site/functions/api/contact.ts",
+      "target": "file:site/functions/api/_resend.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "function:site/functions/api/contact.ts:verifyTurnstile",
+      "target": "function:site/functions/api/contact.ts:hostnameAllowed",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:site/functions/api/contact.ts:onRequestPost",
+      "target": "function:site/functions/api/contact.ts:originAllowed",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:site/functions/api/contact.ts:onRequestPost",
+      "target": "function:site/functions/api/contact.ts:verifyTurnstile",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:site/functions/api/contact.ts:onRequestPost",
+      "target": "function:site/functions/api/contact.ts:rateLimited",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:site/functions/api/contact.ts:onRequestPost",
+      "target": "function:site/functions/api/_resend.ts:sendEmail",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

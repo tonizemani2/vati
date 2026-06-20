@@ -1,0 +1,1731 @@
+{
+  "nodes": [
+    {
+      "id": "file:engine/metaculus/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "engine/metaculus/__init__.py",
+      "summary": "__init__.py is a code asset in the forecasting engine.",
+      "tags": [
+        "forecasting-engine",
+        "code",
+        "file",
+        "init"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:engine/metaculus/api.py",
+      "type": "file",
+      "name": "api.py",
+      "filePath": "engine/metaculus/api.py",
+      "summary": "api.py is a code asset in the forecasting engine. It contains 9 functions, 1 class, 2 internal imports.",
+      "tags": [
+        "forecasting-engine",
+        "code",
+        "file",
+        "api"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/metaculus/api.py:_token",
+      "type": "function",
+      "name": "_token",
+      "filePath": "engine/metaculus/api.py",
+      "lineRange": [
+        33,
+        41
+      ],
+      "summary": "Defines _token in api.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "api"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/metaculus/api.py:_req",
+      "type": "function",
+      "name": "_req",
+      "filePath": "engine/metaculus/api.py",
+      "lineRange": [
+        44,
+        67
+      ],
+      "summary": "Defines _req in api.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "api"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/metaculus/api.py:list_open_questions",
+      "type": "function",
+      "name": "list_open_questions",
+      "filePath": "engine/metaculus/api.py",
+      "lineRange": [
+        72,
+        90
+      ],
+      "summary": "Defines list_open_questions in api.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "api"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/metaculus/api.py:get_post",
+      "type": "function",
+      "name": "get_post",
+      "filePath": "engine/metaculus/api.py",
+      "lineRange": [
+        93,
+        95
+      ],
+      "summary": "Defines get_post in api.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "api"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/metaculus/api.py:binary_question",
+      "type": "function",
+      "name": "binary_question",
+      "filePath": "engine/metaculus/api.py",
+      "lineRange": [
+        100,
+        106
+      ],
+      "summary": "Defines binary_question in api.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "api"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/metaculus/api.py:community_prob",
+      "type": "function",
+      "name": "community_prob",
+      "filePath": "engine/metaculus/api.py",
+      "lineRange": [
+        109,
+        125
+      ],
+      "summary": "Defines community_prob in api.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "api"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/metaculus/api.py:question_text",
+      "type": "function",
+      "name": "question_text",
+      "filePath": "engine/metaculus/api.py",
+      "lineRange": [
+        128,
+        140
+      ],
+      "summary": "Defines question_text in api.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "api"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/metaculus/api.py:submit_binary",
+      "type": "function",
+      "name": "submit_binary",
+      "filePath": "engine/metaculus/api.py",
+      "lineRange": [
+        145,
+        154
+      ],
+      "summary": "Defines submit_binary in api.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "api"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/metaculus/api.py:post_comment",
+      "type": "function",
+      "name": "post_comment",
+      "filePath": "engine/metaculus/api.py",
+      "lineRange": [
+        157,
+        163
+      ],
+      "summary": "Defines post_comment in api.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "api"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:engine/metaculus/api.py:MetaculusError",
+      "type": "class",
+      "name": "MetaculusError",
+      "filePath": "engine/metaculus/api.py",
+      "lineRange": [
+        29,
+        30
+      ],
+      "summary": "Defines MetaculusError in api.py, encapsulating reusable behavior or state for this module.",
+      "tags": [
+        "class",
+        "implementation",
+        "api"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:engine/metaculus/calibrate.py",
+      "type": "file",
+      "name": "calibrate.py",
+      "filePath": "engine/metaculus/calibrate.py",
+      "summary": "calibrate.py is a code asset in the forecasting engine. It contains 15 functions, 7 internal imports.",
+      "tags": [
+        "forecasting-engine",
+        "code",
+        "file",
+        "calibrate"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:engine/metaculus/calibrate.py:_get",
+      "type": "function",
+      "name": "_get",
+      "filePath": "engine/metaculus/calibrate.py",
+      "lineRange": [
+        49,
+        52
+      ],
+      "summary": "Defines _get in calibrate.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "calibrate"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/metaculus/calibrate.py:_ms_to_date",
+      "type": "function",
+      "name": "_ms_to_date",
+      "filePath": "engine/metaculus/calibrate.py",
+      "lineRange": [
+        55,
+        58
+      ],
+      "summary": "Defines _ms_to_date in calibrate.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "calibrate"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/metaculus/calibrate.py:fetch_manifold_resolved",
+      "type": "function",
+      "name": "fetch_manifold_resolved",
+      "filePath": "engine/metaculus/calibrate.py",
+      "lineRange": [
+        70,
+        108
+      ],
+      "summary": "Defines fetch_manifold_resolved in calibrate.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-access",
+        "calibrate"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/metaculus/calibrate.py:early_crowd",
+      "type": "function",
+      "name": "early_crowd",
+      "filePath": "engine/metaculus/calibrate.py",
+      "lineRange": [
+        111,
+        132
+      ],
+      "summary": "Defines early_crowd in calibrate.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "calibrate"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/metaculus/calibrate.py:manifold_to_q",
+      "type": "function",
+      "name": "manifold_to_q",
+      "filePath": "engine/metaculus/calibrate.py",
+      "lineRange": [
+        135,
+        142
+      ],
+      "summary": "Defines manifold_to_q in calibrate.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "calibrate"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/metaculus/calibrate.py:_pool_d",
+      "type": "function",
+      "name": "_pool_d",
+      "filePath": "engine/metaculus/calibrate.py",
+      "lineRange": [
+        147,
+        150
+      ],
+      "summary": "Defines _pool_d in calibrate.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "calibrate"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/metaculus/calibrate.py:_brier",
+      "type": "function",
+      "name": "_brier",
+      "filePath": "engine/metaculus/calibrate.py",
+      "lineRange": [
+        153,
+        154
+      ],
+      "summary": "Defines _brier in calibrate.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "calibrate"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/metaculus/calibrate.py:_best_d_cv",
+      "type": "function",
+      "name": "_best_d_cv",
+      "filePath": "engine/metaculus/calibrate.py",
+      "lineRange": [
+        157,
+        173
+      ],
+      "summary": "Defines _best_d_cv in calibrate.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "calibrate"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/metaculus/calibrate.py:_best_crowd_w_cv",
+      "type": "function",
+      "name": "_best_crowd_w_cv",
+      "filePath": "engine/metaculus/calibrate.py",
+      "lineRange": [
+        176,
+        196
+      ],
+      "summary": "Defines _best_crowd_w_cv in calibrate.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "calibrate"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/metaculus/calibrate.py:_reliability",
+      "type": "function",
+      "name": "_reliability",
+      "filePath": "engine/metaculus/calibrate.py",
+      "lineRange": [
+        199,
+        213
+      ],
+      "summary": "Defines _reliability in calibrate.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "calibrate"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/metaculus/calibrate.py:_parse_p",
+      "type": "function",
+      "name": "_parse_p",
+      "filePath": "engine/metaculus/calibrate.py",
+      "lineRange": [
+        234,
+        243
+      ],
+      "summary": "Defines _parse_p in calibrate.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "calibrate"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/metaculus/calibrate.py:_ensemble_samples",
+      "type": "function",
+      "name": "_ensemble_samples",
+      "filePath": "engine/metaculus/calibrate.py",
+      "lineRange": [
+        246,
+        271
+      ],
+      "summary": "Defines _ensemble_samples in calibrate.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "calibrate"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/metaculus/calibrate.py:run",
+      "type": "function",
+      "name": "run",
+      "filePath": "engine/metaculus/calibrate.py",
+      "lineRange": [
+        274,
+        422
+      ],
+      "summary": "Defines run in calibrate.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entry-point",
+        "calibrate"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/metaculus/calibrate.py:_write_verdict",
+      "type": "function",
+      "name": "_write_verdict",
+      "filePath": "engine/metaculus/calibrate.py",
+      "lineRange": [
+        425,
+        444
+      ],
+      "summary": "Defines _write_verdict in calibrate.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "calibrate"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/metaculus/calibrate.py:_sample_bank",
+      "type": "function",
+      "name": "_sample_bank",
+      "filePath": "engine/metaculus/calibrate.py",
+      "lineRange": [
+        449,
+        455
+      ],
+      "summary": "Defines _sample_bank in calibrate.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "calibrate"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:engine/metaculus/deep_research.py",
+      "type": "file",
+      "name": "deep_research.py",
+      "filePath": "engine/metaculus/deep_research.py",
+      "summary": "deep_research.py is a code asset in the forecasting engine. It contains 7 functions, 5 internal imports.",
+      "tags": [
+        "forecasting-engine",
+        "code",
+        "file",
+        "deep-research"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/metaculus/deep_research.py:_lines",
+      "type": "function",
+      "name": "_lines",
+      "filePath": "engine/metaculus/deep_research.py",
+      "lineRange": [
+        49,
+        51
+      ],
+      "summary": "Defines _lines in deep_research.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "deep-research"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/metaculus/deep_research.py:_orch_model",
+      "type": "function",
+      "name": "_orch_model",
+      "filePath": "engine/metaculus/deep_research.py",
+      "lineRange": [
+        54,
+        57
+      ],
+      "summary": "Defines _orch_model in deep_research.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "deep-research"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/metaculus/deep_research.py:_decompose",
+      "type": "function",
+      "name": "_decompose",
+      "filePath": "engine/metaculus/deep_research.py",
+      "lineRange": [
+        60,
+        69
+      ],
+      "summary": "Defines _decompose in deep_research.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "deep-research"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/metaculus/deep_research.py:_read_angle",
+      "type": "function",
+      "name": "_read_angle",
+      "filePath": "engine/metaculus/deep_research.py",
+      "lineRange": [
+        72,
+        86
+      ],
+      "summary": "Defines _read_angle in deep_research.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "deep-research"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/metaculus/deep_research.py:_search_and_read",
+      "type": "function",
+      "name": "_search_and_read",
+      "filePath": "engine/metaculus/deep_research.py",
+      "lineRange": [
+        89,
+        97
+      ],
+      "summary": "Defines _search_and_read in deep_research.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-access",
+        "deep-research"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/metaculus/deep_research.py:_gap",
+      "type": "function",
+      "name": "_gap",
+      "filePath": "engine/metaculus/deep_research.py",
+      "lineRange": [
+        100,
+        110
+      ],
+      "summary": "Defines _gap in deep_research.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "deep-research"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/metaculus/deep_research.py:deep_gather",
+      "type": "function",
+      "name": "deep_gather",
+      "filePath": "engine/metaculus/deep_research.py",
+      "lineRange": [
+        113,
+        147
+      ],
+      "summary": "Defines deep_gather in deep_research.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "deep-research"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:engine/metaculus/fleet.py",
+      "type": "file",
+      "name": "fleet.py",
+      "filePath": "engine/metaculus/fleet.py",
+      "summary": "fleet.py is a code asset in the forecasting engine. It contains 7 functions, 7 internal imports.",
+      "tags": [
+        "forecasting-engine",
+        "code",
+        "file",
+        "fleet"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:engine/metaculus/fleet.py:_load_cache",
+      "type": "function",
+      "name": "_load_cache",
+      "filePath": "engine/metaculus/fleet.py",
+      "lineRange": [
+        87,
+        91
+      ],
+      "summary": "Defines _load_cache in fleet.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "fleet"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/metaculus/fleet.py:_save_cache",
+      "type": "function",
+      "name": "_save_cache",
+      "filePath": "engine/metaculus/fleet.py",
+      "lineRange": [
+        94,
+        97
+      ],
+      "summary": "Defines _save_cache in fleet.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "fleet"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/metaculus/fleet.py:measure_cutoff",
+      "type": "function",
+      "name": "measure_cutoff",
+      "filePath": "engine/metaculus/fleet.py",
+      "lineRange": [
+        100,
+        125
+      ],
+      "summary": "Defines measure_cutoff in fleet.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "fleet"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/metaculus/fleet.py:_done_pairs",
+      "type": "function",
+      "name": "_done_pairs",
+      "filePath": "engine/metaculus/fleet.py",
+      "lineRange": [
+        130,
+        140
+      ],
+      "summary": "Defines _done_pairs in fleet.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "fleet"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/metaculus/fleet.py:_forecast_one",
+      "type": "function",
+      "name": "_forecast_one",
+      "filePath": "engine/metaculus/fleet.py",
+      "lineRange": [
+        143,
+        156
+      ],
+      "summary": "Defines _forecast_one in fleet.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "fleet"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/metaculus/fleet.py:run_grid",
+      "type": "function",
+      "name": "run_grid",
+      "filePath": "engine/metaculus/fleet.py",
+      "lineRange": [
+        159,
+        212
+      ],
+      "summary": "Defines run_grid in fleet.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entry-point",
+        "fleet"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/metaculus/fleet.py:analyze_grid",
+      "type": "function",
+      "name": "analyze_grid",
+      "filePath": "engine/metaculus/fleet.py",
+      "lineRange": [
+        217,
+        280
+      ],
+      "summary": "Defines analyze_grid in fleet.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "fleet"
+      ],
+      "complexity": "moderate"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:engine/metaculus/api.py",
+      "target": "function:engine/metaculus/api.py:_token",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/metaculus/api.py",
+      "target": "function:engine/metaculus/api.py:_token",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/metaculus/api.py",
+      "target": "function:engine/metaculus/api.py:_req",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/metaculus/api.py",
+      "target": "function:engine/metaculus/api.py:_req",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/metaculus/api.py",
+      "target": "function:engine/metaculus/api.py:list_open_questions",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/metaculus/api.py",
+      "target": "function:engine/metaculus/api.py:list_open_questions",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/metaculus/api.py",
+      "target": "function:engine/metaculus/api.py:get_post",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/metaculus/api.py",
+      "target": "function:engine/metaculus/api.py:get_post",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/metaculus/api.py",
+      "target": "function:engine/metaculus/api.py:binary_question",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/metaculus/api.py",
+      "target": "function:engine/metaculus/api.py:binary_question",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/metaculus/api.py",
+      "target": "function:engine/metaculus/api.py:community_prob",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/metaculus/api.py",
+      "target": "function:engine/metaculus/api.py:community_prob",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/metaculus/api.py",
+      "target": "function:engine/metaculus/api.py:question_text",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/metaculus/api.py",
+      "target": "function:engine/metaculus/api.py:question_text",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/metaculus/api.py",
+      "target": "function:engine/metaculus/api.py:submit_binary",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/metaculus/api.py",
+      "target": "function:engine/metaculus/api.py:submit_binary",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/metaculus/api.py",
+      "target": "function:engine/metaculus/api.py:post_comment",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/metaculus/api.py",
+      "target": "function:engine/metaculus/api.py:post_comment",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/metaculus/api.py",
+      "target": "class:engine/metaculus/api.py:MetaculusError",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/metaculus/api.py",
+      "target": "class:engine/metaculus/api.py:MetaculusError",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/metaculus/calibrate.py",
+      "target": "function:engine/metaculus/calibrate.py:_get",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/metaculus/calibrate.py",
+      "target": "function:engine/metaculus/calibrate.py:_get",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/metaculus/calibrate.py",
+      "target": "function:engine/metaculus/calibrate.py:_ms_to_date",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/metaculus/calibrate.py",
+      "target": "function:engine/metaculus/calibrate.py:_ms_to_date",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/metaculus/calibrate.py",
+      "target": "function:engine/metaculus/calibrate.py:fetch_manifold_resolved",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/metaculus/calibrate.py",
+      "target": "function:engine/metaculus/calibrate.py:fetch_manifold_resolved",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/metaculus/calibrate.py",
+      "target": "function:engine/metaculus/calibrate.py:early_crowd",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/metaculus/calibrate.py",
+      "target": "function:engine/metaculus/calibrate.py:early_crowd",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/metaculus/calibrate.py",
+      "target": "function:engine/metaculus/calibrate.py:manifold_to_q",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/metaculus/calibrate.py",
+      "target": "function:engine/metaculus/calibrate.py:manifold_to_q",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/metaculus/calibrate.py",
+      "target": "function:engine/metaculus/calibrate.py:_pool_d",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/metaculus/calibrate.py",
+      "target": "function:engine/metaculus/calibrate.py:_pool_d",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/metaculus/calibrate.py",
+      "target": "function:engine/metaculus/calibrate.py:_brier",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/metaculus/calibrate.py",
+      "target": "function:engine/metaculus/calibrate.py:_brier",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/metaculus/calibrate.py",
+      "target": "function:engine/metaculus/calibrate.py:_best_d_cv",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/metaculus/calibrate.py",
+      "target": "function:engine/metaculus/calibrate.py:_best_d_cv",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/metaculus/calibrate.py",
+      "target": "function:engine/metaculus/calibrate.py:_best_crowd_w_cv",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/metaculus/calibrate.py",
+      "target": "function:engine/metaculus/calibrate.py:_best_crowd_w_cv",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/metaculus/calibrate.py",
+      "target": "function:engine/metaculus/calibrate.py:_reliability",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/metaculus/calibrate.py",
+      "target": "function:engine/metaculus/calibrate.py:_reliability",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/metaculus/calibrate.py",
+      "target": "function:engine/metaculus/calibrate.py:_parse_p",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/metaculus/calibrate.py",
+      "target": "function:engine/metaculus/calibrate.py:_parse_p",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/metaculus/calibrate.py",
+      "target": "function:engine/metaculus/calibrate.py:_ensemble_samples",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/metaculus/calibrate.py",
+      "target": "function:engine/metaculus/calibrate.py:_ensemble_samples",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/metaculus/calibrate.py",
+      "target": "function:engine/metaculus/calibrate.py:run",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/metaculus/calibrate.py",
+      "target": "function:engine/metaculus/calibrate.py:run",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/metaculus/calibrate.py",
+      "target": "function:engine/metaculus/calibrate.py:_write_verdict",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/metaculus/calibrate.py",
+      "target": "function:engine/metaculus/calibrate.py:_write_verdict",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/metaculus/calibrate.py",
+      "target": "function:engine/metaculus/calibrate.py:_sample_bank",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/metaculus/calibrate.py",
+      "target": "function:engine/metaculus/calibrate.py:_sample_bank",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/metaculus/deep_research.py",
+      "target": "function:engine/metaculus/deep_research.py:_lines",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/metaculus/deep_research.py",
+      "target": "function:engine/metaculus/deep_research.py:_lines",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/metaculus/deep_research.py",
+      "target": "function:engine/metaculus/deep_research.py:_orch_model",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/metaculus/deep_research.py",
+      "target": "function:engine/metaculus/deep_research.py:_orch_model",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/metaculus/deep_research.py",
+      "target": "function:engine/metaculus/deep_research.py:_decompose",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/metaculus/deep_research.py",
+      "target": "function:engine/metaculus/deep_research.py:_decompose",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/metaculus/deep_research.py",
+      "target": "function:engine/metaculus/deep_research.py:_read_angle",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/metaculus/deep_research.py",
+      "target": "function:engine/metaculus/deep_research.py:_read_angle",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/metaculus/deep_research.py",
+      "target": "function:engine/metaculus/deep_research.py:_search_and_read",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/metaculus/deep_research.py",
+      "target": "function:engine/metaculus/deep_research.py:_search_and_read",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/metaculus/deep_research.py",
+      "target": "function:engine/metaculus/deep_research.py:_gap",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/metaculus/deep_research.py",
+      "target": "function:engine/metaculus/deep_research.py:_gap",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/metaculus/deep_research.py",
+      "target": "function:engine/metaculus/deep_research.py:deep_gather",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/metaculus/deep_research.py",
+      "target": "function:engine/metaculus/deep_research.py:deep_gather",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/metaculus/fleet.py",
+      "target": "function:engine/metaculus/fleet.py:_load_cache",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/metaculus/fleet.py",
+      "target": "function:engine/metaculus/fleet.py:_load_cache",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/metaculus/fleet.py",
+      "target": "function:engine/metaculus/fleet.py:_save_cache",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/metaculus/fleet.py",
+      "target": "function:engine/metaculus/fleet.py:_save_cache",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/metaculus/fleet.py",
+      "target": "function:engine/metaculus/fleet.py:measure_cutoff",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/metaculus/fleet.py",
+      "target": "function:engine/metaculus/fleet.py:measure_cutoff",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/metaculus/fleet.py",
+      "target": "function:engine/metaculus/fleet.py:_done_pairs",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/metaculus/fleet.py",
+      "target": "function:engine/metaculus/fleet.py:_done_pairs",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/metaculus/fleet.py",
+      "target": "function:engine/metaculus/fleet.py:_forecast_one",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/metaculus/fleet.py",
+      "target": "function:engine/metaculus/fleet.py:_forecast_one",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/metaculus/fleet.py",
+      "target": "function:engine/metaculus/fleet.py:run_grid",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/metaculus/fleet.py",
+      "target": "function:engine/metaculus/fleet.py:run_grid",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/metaculus/fleet.py",
+      "target": "function:engine/metaculus/fleet.py:analyze_grid",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/metaculus/fleet.py",
+      "target": "function:engine/metaculus/fleet.py:analyze_grid",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/metaculus/api.py",
+      "target": "file:engine/__init__.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/metaculus/api.py",
+      "target": "file:engine/cost.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/metaculus/calibrate.py",
+      "target": "file:engine/__init__.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/metaculus/calibrate.py",
+      "target": "file:engine/adapters/__init__.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/metaculus/calibrate.py",
+      "target": "file:engine/adapters/llm.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/metaculus/calibrate.py",
+      "target": "file:engine/db.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/metaculus/calibrate.py",
+      "target": "file:engine/forecastbench/ensemble.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/metaculus/calibrate.py",
+      "target": "file:engine/forecastbench/inference.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/metaculus/calibrate.py",
+      "target": "file:engine/metaculus/__init__.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/metaculus/deep_research.py",
+      "target": "file:engine/__init__.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/metaculus/deep_research.py",
+      "target": "file:engine/adapters/__init__.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/metaculus/deep_research.py",
+      "target": "file:engine/adapters/llm.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/metaculus/deep_research.py",
+      "target": "file:engine/adapters/search.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/metaculus/deep_research.py",
+      "target": "file:engine/db.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/metaculus/fleet.py",
+      "target": "file:engine/__init__.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/metaculus/fleet.py",
+      "target": "file:engine/adapters/__init__.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/metaculus/fleet.py",
+      "target": "file:engine/adapters/llm.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/metaculus/fleet.py",
+      "target": "file:engine/db.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/metaculus/fleet.py",
+      "target": "file:engine/holdout.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/metaculus/fleet.py",
+      "target": "file:engine/metaculus/__init__.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/metaculus/fleet.py",
+      "target": "file:engine/metaculus/qbank.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "function:engine/metaculus/api.py:_token",
+      "target": "class:engine/metaculus/api.py:MetaculusError",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/metaculus/api.py:_req",
+      "target": "function:engine/metaculus/api.py:_token",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/metaculus/api.py:_req",
+      "target": "class:engine/metaculus/api.py:MetaculusError",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/metaculus/api.py:list_open_questions",
+      "target": "function:engine/metaculus/api.py:_req",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/metaculus/api.py:get_post",
+      "target": "function:engine/metaculus/api.py:_req",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/metaculus/api.py:submit_binary",
+      "target": "function:engine/metaculus/api.py:_req",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/metaculus/api.py:post_comment",
+      "target": "function:engine/metaculus/api.py:_req",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/metaculus/calibrate.py:fetch_manifold_resolved",
+      "target": "function:engine/metaculus/calibrate.py:_get",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/metaculus/calibrate.py:fetch_manifold_resolved",
+      "target": "function:engine/metaculus/calibrate.py:_ms_to_date",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/metaculus/calibrate.py:early_crowd",
+      "target": "function:engine/metaculus/calibrate.py:_get",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/metaculus/calibrate.py:_pool_d",
+      "target": "function:engine/forecastbench/ensemble.py:_logit",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/metaculus/calibrate.py:_pool_d",
+      "target": "function:engine/forecastbench/ensemble.py:_sigmoid",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/metaculus/calibrate.py:_best_d_cv",
+      "target": "function:engine/metaculus/calibrate.py:_brier",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/metaculus/calibrate.py:_best_d_cv",
+      "target": "function:engine/metaculus/calibrate.py:_pool_d",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/metaculus/calibrate.py",
+      "target": "function:engine/metaculus/calibrate.py:_pool_d",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/metaculus/calibrate.py",
+      "target": "function:engine/forecastbench/ensemble.py:_sigmoid",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/metaculus/calibrate.py",
+      "target": "function:engine/forecastbench/ensemble.py:_logit",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/metaculus/calibrate.py:_best_crowd_w_cv",
+      "target": "function:engine/metaculus/calibrate.py:_brier",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/metaculus/calibrate.py:_ensemble_samples",
+      "target": "function:engine/metaculus/calibrate.py:_parse_p",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/metaculus/calibrate.py:run",
+      "target": "function:engine/metaculus/calibrate.py:fetch_manifold_resolved",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/metaculus/calibrate.py:run",
+      "target": "function:engine/metaculus/calibrate.py:manifold_to_q",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/metaculus/calibrate.py:run",
+      "target": "function:engine/metaculus/calibrate.py:_ensemble_samples",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/metaculus/calibrate.py:run",
+      "target": "function:engine/metaculus/calibrate.py:early_crowd",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/metaculus/calibrate.py:run",
+      "target": "function:engine/metaculus/calibrate.py:_pool_d",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/metaculus/calibrate.py:run",
+      "target": "function:engine/metaculus/calibrate.py:_brier",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/metaculus/calibrate.py:run",
+      "target": "function:engine/metaculus/calibrate.py:_best_d_cv",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/metaculus/calibrate.py:run",
+      "target": "function:engine/metaculus/calibrate.py:_best_crowd_w_cv",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/metaculus/calibrate.py:run",
+      "target": "function:engine/metaculus/calibrate.py:_reliability",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/metaculus/calibrate.py:run",
+      "target": "function:engine/metaculus/calibrate.py:_write_verdict",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/metaculus/deep_research.py:_decompose",
+      "target": "function:engine/metaculus/deep_research.py:_orch_model",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/metaculus/deep_research.py:_decompose",
+      "target": "function:engine/metaculus/deep_research.py:_lines",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/metaculus/deep_research.py:_search_and_read",
+      "target": "function:engine/metaculus/deep_research.py:_read_angle",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/metaculus/deep_research.py:_gap",
+      "target": "function:engine/metaculus/deep_research.py:_orch_model",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/metaculus/deep_research.py:_gap",
+      "target": "function:engine/metaculus/deep_research.py:_lines",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/metaculus/deep_research.py:deep_gather",
+      "target": "function:engine/metaculus/deep_research.py:_decompose",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/metaculus/deep_research.py:deep_gather",
+      "target": "function:engine/metaculus/deep_research.py:_search_and_read",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/metaculus/deep_research.py:deep_gather",
+      "target": "function:engine/metaculus/deep_research.py:_gap",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/metaculus/fleet.py:measure_cutoff",
+      "target": "function:engine/metaculus/fleet.py:_load_cache",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/metaculus/fleet.py:measure_cutoff",
+      "target": "function:engine/metaculus/fleet.py:_save_cache",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/metaculus/fleet.py:run_grid",
+      "target": "function:engine/metaculus/fleet.py:measure_cutoff",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/metaculus/fleet.py:run_grid",
+      "target": "function:engine/metaculus/fleet.py:_done_pairs",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/metaculus/fleet.py:run_grid",
+      "target": "function:engine/metaculus/fleet.py:analyze_grid",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

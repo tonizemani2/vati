@@ -1,0 +1,1712 @@
+{
+  "nodes": [
+    {
+      "id": "file:engine/schemas.py",
+      "type": "file",
+      "name": "schemas.py",
+      "filePath": "engine/schemas.py",
+      "summary": "schemas.py is a code asset in the forecasting engine. It contains 2 functions, 30 classes.",
+      "tags": [
+        "forecasting-engine",
+        "code",
+        "file",
+        "schemas"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:engine/schemas.py:_now",
+      "type": "function",
+      "name": "_now",
+      "filePath": "engine/schemas.py",
+      "lineRange": [
+        17,
+        18
+      ],
+      "summary": "Defines _now in schemas.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "schemas"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/schemas.py:_uid",
+      "type": "function",
+      "name": "_uid",
+      "filePath": "engine/schemas.py",
+      "lineRange": [
+        21,
+        22
+      ],
+      "summary": "Defines _uid in schemas.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "schemas"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:engine/schemas.py:PillarStatus",
+      "type": "class",
+      "name": "PillarStatus",
+      "filePath": "engine/schemas.py",
+      "lineRange": [
+        28,
+        33
+      ],
+      "summary": "Defines PillarStatus in schemas.py, encapsulating reusable behavior or state for this module.",
+      "tags": [
+        "class",
+        "implementation",
+        "schemas"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:engine/schemas.py:SourceKind",
+      "type": "class",
+      "name": "SourceKind",
+      "filePath": "engine/schemas.py",
+      "lineRange": [
+        36,
+        42
+      ],
+      "summary": "Defines SourceKind in schemas.py, encapsulating reusable behavior or state for this module.",
+      "tags": [
+        "class",
+        "implementation",
+        "schemas"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:engine/schemas.py:ForecastOutcome",
+      "type": "class",
+      "name": "ForecastOutcome",
+      "filePath": "engine/schemas.py",
+      "lineRange": [
+        45,
+        47
+      ],
+      "summary": "Defines ForecastOutcome in schemas.py, encapsulating reusable behavior or state for this module.",
+      "tags": [
+        "class",
+        "implementation",
+        "schemas"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:engine/schemas.py:ApprovalStatus",
+      "type": "class",
+      "name": "ApprovalStatus",
+      "filePath": "engine/schemas.py",
+      "lineRange": [
+        50,
+        54
+      ],
+      "summary": "Defines ApprovalStatus in schemas.py, encapsulating reusable behavior or state for this module.",
+      "tags": [
+        "class",
+        "implementation",
+        "schemas"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:engine/schemas.py:DecisionStatus",
+      "type": "class",
+      "name": "DecisionStatus",
+      "filePath": "engine/schemas.py",
+      "lineRange": [
+        57,
+        60
+      ],
+      "summary": "Defines DecisionStatus in schemas.py, encapsulating reusable behavior or state for this module.",
+      "tags": [
+        "class",
+        "implementation",
+        "schemas"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:engine/schemas.py:Pillar",
+      "type": "class",
+      "name": "Pillar",
+      "filePath": "engine/schemas.py",
+      "lineRange": [
+        66,
+        73
+      ],
+      "summary": "Defines Pillar in schemas.py, encapsulating reusable behavior or state for this module.",
+      "tags": [
+        "class",
+        "implementation",
+        "schemas"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:engine/schemas.py:Source",
+      "type": "class",
+      "name": "Source",
+      "filePath": "engine/schemas.py",
+      "lineRange": [
+        76,
+        99
+      ],
+      "summary": "Defines Source in schemas.py, encapsulating reusable behavior or state for this module.",
+      "tags": [
+        "class",
+        "implementation",
+        "schemas"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:engine/schemas.py:WorldStateFact",
+      "type": "class",
+      "name": "WorldStateFact",
+      "filePath": "engine/schemas.py",
+      "lineRange": [
+        102,
+        136
+      ],
+      "summary": "Defines WorldStateFact in schemas.py, encapsulating reusable behavior or state for this module.",
+      "tags": [
+        "class",
+        "implementation",
+        "schemas"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:engine/schemas.py:WorldStateSnapshot",
+      "type": "class",
+      "name": "WorldStateSnapshot",
+      "filePath": "engine/schemas.py",
+      "lineRange": [
+        139,
+        156
+      ],
+      "summary": "Defines WorldStateSnapshot in schemas.py, encapsulating reusable behavior or state for this module.",
+      "tags": [
+        "class",
+        "implementation",
+        "schemas"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:engine/schemas.py:ForecastCard",
+      "type": "class",
+      "name": "ForecastCard",
+      "filePath": "engine/schemas.py",
+      "lineRange": [
+        165,
+        281
+      ],
+      "summary": "Defines ForecastCard in schemas.py, encapsulating reusable behavior or state for this module.",
+      "tags": [
+        "class",
+        "implementation",
+        "schemas"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:engine/schemas.py:Decision",
+      "type": "class",
+      "name": "Decision",
+      "filePath": "engine/schemas.py",
+      "lineRange": [
+        284,
+        296
+      ],
+      "summary": "Defines Decision in schemas.py, encapsulating reusable behavior or state for this module.",
+      "tags": [
+        "class",
+        "implementation",
+        "schemas"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:engine/schemas.py:CostLedgerEntry",
+      "type": "class",
+      "name": "CostLedgerEntry",
+      "filePath": "engine/schemas.py",
+      "lineRange": [
+        299,
+        311
+      ],
+      "summary": "Defines CostLedgerEntry in schemas.py, encapsulating reusable behavior or state for this module.",
+      "tags": [
+        "class",
+        "implementation",
+        "schemas"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:engine/schemas.py:Series",
+      "type": "class",
+      "name": "Series",
+      "filePath": "engine/schemas.py",
+      "lineRange": [
+        321,
+        364
+      ],
+      "summary": "Defines Series in schemas.py, encapsulating reusable behavior or state for this module.",
+      "tags": [
+        "class",
+        "implementation",
+        "schemas"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:engine/schemas.py:Observation",
+      "type": "class",
+      "name": "Observation",
+      "filePath": "engine/schemas.py",
+      "lineRange": [
+        367,
+        379
+      ],
+      "summary": "Defines Observation in schemas.py, encapsulating reusable behavior or state for this module.",
+      "tags": [
+        "class",
+        "implementation",
+        "schemas"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:engine/schemas.py:GraphNode",
+      "type": "class",
+      "name": "GraphNode",
+      "filePath": "engine/schemas.py",
+      "lineRange": [
+        390,
+        420
+      ],
+      "summary": "Defines GraphNode in schemas.py, encapsulating reusable behavior or state for this module.",
+      "tags": [
+        "class",
+        "implementation",
+        "schemas"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:engine/schemas.py:GraphEdge",
+      "type": "class",
+      "name": "GraphEdge",
+      "filePath": "engine/schemas.py",
+      "lineRange": [
+        423,
+        436
+      ],
+      "summary": "Defines GraphEdge in schemas.py, encapsulating reusable behavior or state for this module.",
+      "tags": [
+        "class",
+        "implementation",
+        "schemas"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:engine/schemas.py:ConsensusScore",
+      "type": "class",
+      "name": "ConsensusScore",
+      "filePath": "engine/schemas.py",
+      "lineRange": [
+        445,
+        476
+      ],
+      "summary": "Defines ConsensusScore in schemas.py, encapsulating reusable behavior or state for this module.",
+      "tags": [
+        "class",
+        "implementation",
+        "schemas"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:engine/schemas.py:SaturationScore",
+      "type": "class",
+      "name": "SaturationScore",
+      "filePath": "engine/schemas.py",
+      "lineRange": [
+        489,
+        507
+      ],
+      "summary": "Defines SaturationScore in schemas.py, encapsulating reusable behavior or state for this module.",
+      "tags": [
+        "class",
+        "implementation",
+        "schemas"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:engine/schemas.py:BetLeg",
+      "type": "class",
+      "name": "BetLeg",
+      "filePath": "engine/schemas.py",
+      "lineRange": [
+        519,
+        526
+      ],
+      "summary": "Defines BetLeg in schemas.py, encapsulating reusable behavior or state for this module.",
+      "tags": [
+        "class",
+        "implementation",
+        "schemas"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:engine/schemas.py:BetCard",
+      "type": "class",
+      "name": "BetCard",
+      "filePath": "engine/schemas.py",
+      "lineRange": [
+        529,
+        581
+      ],
+      "summary": "Defines BetCard in schemas.py, encapsulating reusable behavior or state for this module.",
+      "tags": [
+        "class",
+        "implementation",
+        "schemas"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:engine/schemas.py:RetroCase",
+      "type": "class",
+      "name": "RetroCase",
+      "filePath": "engine/schemas.py",
+      "lineRange": [
+        594,
+        626
+      ],
+      "summary": "Defines RetroCase in schemas.py, encapsulating reusable behavior or state for this module.",
+      "tags": [
+        "class",
+        "implementation",
+        "schemas"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:engine/schemas.py:Entity",
+      "type": "class",
+      "name": "Entity",
+      "filePath": "engine/schemas.py",
+      "lineRange": [
+        639,
+        657
+      ],
+      "summary": "Defines Entity in schemas.py, encapsulating reusable behavior or state for this module.",
+      "tags": [
+        "class",
+        "implementation",
+        "schemas"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:engine/schemas.py:EntityLink",
+      "type": "class",
+      "name": "EntityLink",
+      "filePath": "engine/schemas.py",
+      "lineRange": [
+        660,
+        680
+      ],
+      "summary": "Defines EntityLink in schemas.py, encapsulating reusable behavior or state for this module.",
+      "tags": [
+        "class",
+        "implementation",
+        "schemas"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:engine/schemas.py:EntityEdge",
+      "type": "class",
+      "name": "EntityEdge",
+      "filePath": "engine/schemas.py",
+      "lineRange": [
+        683,
+        700
+      ],
+      "summary": "Defines EntityEdge in schemas.py, encapsulating reusable behavior or state for this module.",
+      "tags": [
+        "class",
+        "implementation",
+        "schemas"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:engine/schemas.py:EntityCandidate",
+      "type": "class",
+      "name": "EntityCandidate",
+      "filePath": "engine/schemas.py",
+      "lineRange": [
+        703,
+        730
+      ],
+      "summary": "Defines EntityCandidate in schemas.py, encapsulating reusable behavior or state for this module.",
+      "tags": [
+        "class",
+        "implementation",
+        "schemas"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:engine/schemas.py:Hypothesis",
+      "type": "class",
+      "name": "Hypothesis",
+      "filePath": "engine/schemas.py",
+      "lineRange": [
+        746,
+        804
+      ],
+      "summary": "Defines Hypothesis in schemas.py, encapsulating reusable behavior or state for this module.",
+      "tags": [
+        "class",
+        "implementation",
+        "schemas"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:engine/schemas.py:ObservationRevision",
+      "type": "class",
+      "name": "ObservationRevision",
+      "filePath": "engine/schemas.py",
+      "lineRange": [
+        810,
+        822
+      ],
+      "summary": "Defines ObservationRevision in schemas.py, encapsulating reusable behavior or state for this module.",
+      "tags": [
+        "class",
+        "implementation",
+        "schemas"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:engine/schemas.py:RawDoc",
+      "type": "class",
+      "name": "RawDoc",
+      "filePath": "engine/schemas.py",
+      "lineRange": [
+        825,
+        835
+      ],
+      "summary": "Defines RawDoc in schemas.py, encapsulating reusable behavior or state for this module.",
+      "tags": [
+        "class",
+        "implementation",
+        "schemas"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:engine/schemas.py:SeriesHealth",
+      "type": "class",
+      "name": "SeriesHealth",
+      "filePath": "engine/schemas.py",
+      "lineRange": [
+        841,
+        858
+      ],
+      "summary": "Defines SeriesHealth in schemas.py, encapsulating reusable behavior or state for this module.",
+      "tags": [
+        "class",
+        "implementation",
+        "schemas"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:engine/schemas.py:BeliefEdge",
+      "type": "class",
+      "name": "BeliefEdge",
+      "filePath": "engine/schemas.py",
+      "lineRange": [
+        861,
+        899
+      ],
+      "summary": "Defines BeliefEdge in schemas.py, encapsulating reusable behavior or state for this module.",
+      "tags": [
+        "class",
+        "implementation",
+        "schemas"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:engine/sec_company_enrich.py",
+      "type": "file",
+      "name": "sec_company_enrich.py",
+      "filePath": "engine/sec_company_enrich.py",
+      "summary": "sec_company_enrich.py is a code asset in the forecasting engine. It contains 13 functions, 2 classes, 5 internal imports.",
+      "tags": [
+        "forecasting-engine",
+        "code",
+        "file",
+        "sec-company-enrich"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:engine/sec_company_enrich.py:_stable_id",
+      "type": "function",
+      "name": "_stable_id",
+      "filePath": "engine/sec_company_enrich.py",
+      "lineRange": [
+        47,
+        49
+      ],
+      "summary": "Defines _stable_id in sec_company_enrich.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "sec-company-enrich"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/sec_company_enrich.py:_load_aliases",
+      "type": "function",
+      "name": "_load_aliases",
+      "filePath": "engine/sec_company_enrich.py",
+      "lineRange": [
+        52,
+        59
+      ],
+      "summary": "Defines _load_aliases in sec_company_enrich.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "sec-company-enrich"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/sec_company_enrich.py:_norm",
+      "type": "function",
+      "name": "_norm",
+      "filePath": "engine/sec_company_enrich.py",
+      "lineRange": [
+        62,
+        63
+      ],
+      "summary": "Defines _norm in sec_company_enrich.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "sec-company-enrich"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/sec_company_enrich.py:_without_legal_suffixes",
+      "type": "function",
+      "name": "_without_legal_suffixes",
+      "filePath": "engine/sec_company_enrich.py",
+      "lineRange": [
+        66,
+        75
+      ],
+      "summary": "Defines _without_legal_suffixes in sec_company_enrich.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "sec-company-enrich"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/sec_company_enrich.py:_cik_padded",
+      "type": "function",
+      "name": "_cik_padded",
+      "filePath": "engine/sec_company_enrich.py",
+      "lineRange": [
+        78,
+        79
+      ],
+      "summary": "Defines _cik_padded in sec_company_enrich.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "sec-company-enrich"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/sec_company_enrich.py:_is_plain_ticker",
+      "type": "function",
+      "name": "_is_plain_ticker",
+      "filePath": "engine/sec_company_enrich.py",
+      "lineRange": [
+        82,
+        88
+      ],
+      "summary": "Defines _is_plain_ticker in sec_company_enrich.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "sec-company-enrich"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/sec_company_enrich.py:_fetch_company_tickers",
+      "type": "function",
+      "name": "_fetch_company_tickers",
+      "filePath": "engine/sec_company_enrich.py",
+      "lineRange": [
+        91,
+        98
+      ],
+      "summary": "Defines _fetch_company_tickers in sec_company_enrich.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-access",
+        "sec-company-enrich"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/sec_company_enrich.py:_records",
+      "type": "function",
+      "name": "_records",
+      "filePath": "engine/sec_company_enrich.py",
+      "lineRange": [
+        101,
+        115
+      ],
+      "summary": "Defines _records in sec_company_enrich.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "sec-company-enrich"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/sec_company_enrich.py:_company_rows",
+      "type": "function",
+      "name": "_company_rows",
+      "filePath": "engine/sec_company_enrich.py",
+      "lineRange": [
+        118,
+        130
+      ],
+      "summary": "Defines _company_rows in sec_company_enrich.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "sec-company-enrich"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/sec_company_enrich.py:_best_match",
+      "type": "function",
+      "name": "_best_match",
+      "filePath": "engine/sec_company_enrich.py",
+      "lineRange": [
+        133,
+        171
+      ],
+      "summary": "Defines _best_match in sec_company_enrich.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "sec-company-enrich"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/sec_company_enrich.py:_upsert_sec_source",
+      "type": "function",
+      "name": "_upsert_sec_source",
+      "filePath": "engine/sec_company_enrich.py",
+      "lineRange": [
+        174,
+        190
+      ],
+      "summary": "Defines _upsert_sec_source in sec_company_enrich.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "sec-company-enrich"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/sec_company_enrich.py:_apply_match",
+      "type": "function",
+      "name": "_apply_match",
+      "filePath": "engine/sec_company_enrich.py",
+      "lineRange": [
+        193,
+        238
+      ],
+      "summary": "Defines _apply_match in sec_company_enrich.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "sec-company-enrich"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/sec_company_enrich.py:enrich_top_entities",
+      "type": "function",
+      "name": "enrich_top_entities",
+      "filePath": "engine/sec_company_enrich.py",
+      "lineRange": [
+        241,
+        276
+      ],
+      "summary": "Defines enrich_top_entities in sec_company_enrich.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "sec-company-enrich"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:engine/sec_company_enrich.py:SecCompanyRecord",
+      "type": "class",
+      "name": "SecCompanyRecord",
+      "filePath": "engine/sec_company_enrich.py",
+      "lineRange": [
+        29,
+        32
+      ],
+      "summary": "Defines SecCompanyRecord in sec_company_enrich.py, encapsulating reusable behavior or state for this module.",
+      "tags": [
+        "class",
+        "implementation",
+        "sec-company-enrich"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:engine/sec_company_enrich.py:SecCompanyMatch",
+      "type": "class",
+      "name": "SecCompanyMatch",
+      "filePath": "engine/sec_company_enrich.py",
+      "lineRange": [
+        36,
+        44
+      ],
+      "summary": "Defines SecCompanyMatch in sec_company_enrich.py, encapsulating reusable behavior or state for this module.",
+      "tags": [
+        "class",
+        "implementation",
+        "sec-company-enrich"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:engine/seed.py",
+      "type": "file",
+      "name": "seed.py",
+      "filePath": "engine/seed.py",
+      "summary": "seed.py is a code asset in the forecasting engine. It contains 1 function.",
+      "tags": [
+        "forecasting-engine",
+        "code",
+        "file",
+        "seed"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/seed.py:seed_pillars",
+      "type": "function",
+      "name": "seed_pillars",
+      "filePath": "engine/seed.py",
+      "lineRange": [
+        34,
+        44
+      ],
+      "summary": "Defines seed_pillars in seed.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "seed"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:engine/schemas.py",
+      "target": "function:engine/schemas.py:_now",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/schemas.py",
+      "target": "function:engine/schemas.py:_now",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/schemas.py",
+      "target": "function:engine/schemas.py:_uid",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/schemas.py",
+      "target": "function:engine/schemas.py:_uid",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/schemas.py",
+      "target": "class:engine/schemas.py:PillarStatus",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/schemas.py",
+      "target": "class:engine/schemas.py:PillarStatus",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/schemas.py",
+      "target": "class:engine/schemas.py:SourceKind",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/schemas.py",
+      "target": "class:engine/schemas.py:SourceKind",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/schemas.py",
+      "target": "class:engine/schemas.py:ForecastOutcome",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/schemas.py",
+      "target": "class:engine/schemas.py:ForecastOutcome",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/schemas.py",
+      "target": "class:engine/schemas.py:ApprovalStatus",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/schemas.py",
+      "target": "class:engine/schemas.py:ApprovalStatus",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/schemas.py",
+      "target": "class:engine/schemas.py:DecisionStatus",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/schemas.py",
+      "target": "class:engine/schemas.py:DecisionStatus",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/schemas.py",
+      "target": "class:engine/schemas.py:Pillar",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/schemas.py",
+      "target": "class:engine/schemas.py:Pillar",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/schemas.py",
+      "target": "class:engine/schemas.py:Source",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/schemas.py",
+      "target": "class:engine/schemas.py:Source",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/schemas.py",
+      "target": "class:engine/schemas.py:WorldStateFact",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/schemas.py",
+      "target": "class:engine/schemas.py:WorldStateFact",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/schemas.py",
+      "target": "class:engine/schemas.py:WorldStateSnapshot",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/schemas.py",
+      "target": "class:engine/schemas.py:WorldStateSnapshot",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/schemas.py",
+      "target": "class:engine/schemas.py:ForecastCard",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/schemas.py",
+      "target": "class:engine/schemas.py:ForecastCard",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/schemas.py",
+      "target": "class:engine/schemas.py:Decision",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/schemas.py",
+      "target": "class:engine/schemas.py:Decision",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/schemas.py",
+      "target": "class:engine/schemas.py:CostLedgerEntry",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/schemas.py",
+      "target": "class:engine/schemas.py:CostLedgerEntry",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/schemas.py",
+      "target": "class:engine/schemas.py:Series",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/schemas.py",
+      "target": "class:engine/schemas.py:Series",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/schemas.py",
+      "target": "class:engine/schemas.py:Observation",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/schemas.py",
+      "target": "class:engine/schemas.py:Observation",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/schemas.py",
+      "target": "class:engine/schemas.py:GraphNode",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/schemas.py",
+      "target": "class:engine/schemas.py:GraphNode",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/schemas.py",
+      "target": "class:engine/schemas.py:GraphEdge",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/schemas.py",
+      "target": "class:engine/schemas.py:GraphEdge",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/schemas.py",
+      "target": "class:engine/schemas.py:ConsensusScore",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/schemas.py",
+      "target": "class:engine/schemas.py:ConsensusScore",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/schemas.py",
+      "target": "class:engine/schemas.py:SaturationScore",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/schemas.py",
+      "target": "class:engine/schemas.py:SaturationScore",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/schemas.py",
+      "target": "class:engine/schemas.py:BetLeg",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/schemas.py",
+      "target": "class:engine/schemas.py:BetLeg",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/schemas.py",
+      "target": "class:engine/schemas.py:BetCard",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/schemas.py",
+      "target": "class:engine/schemas.py:BetCard",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/schemas.py",
+      "target": "class:engine/schemas.py:RetroCase",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/schemas.py",
+      "target": "class:engine/schemas.py:RetroCase",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/schemas.py",
+      "target": "class:engine/schemas.py:Entity",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/schemas.py",
+      "target": "class:engine/schemas.py:Entity",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/schemas.py",
+      "target": "class:engine/schemas.py:EntityLink",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/schemas.py",
+      "target": "class:engine/schemas.py:EntityLink",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/schemas.py",
+      "target": "class:engine/schemas.py:EntityEdge",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/schemas.py",
+      "target": "class:engine/schemas.py:EntityEdge",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/schemas.py",
+      "target": "class:engine/schemas.py:EntityCandidate",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/schemas.py",
+      "target": "class:engine/schemas.py:EntityCandidate",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/schemas.py",
+      "target": "class:engine/schemas.py:Hypothesis",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/schemas.py",
+      "target": "class:engine/schemas.py:Hypothesis",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/schemas.py",
+      "target": "class:engine/schemas.py:ObservationRevision",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/schemas.py",
+      "target": "class:engine/schemas.py:ObservationRevision",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/schemas.py",
+      "target": "class:engine/schemas.py:RawDoc",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/schemas.py",
+      "target": "class:engine/schemas.py:RawDoc",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/schemas.py",
+      "target": "class:engine/schemas.py:SeriesHealth",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/schemas.py",
+      "target": "class:engine/schemas.py:SeriesHealth",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/schemas.py",
+      "target": "class:engine/schemas.py:BeliefEdge",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/schemas.py",
+      "target": "class:engine/schemas.py:BeliefEdge",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/sec_company_enrich.py",
+      "target": "function:engine/sec_company_enrich.py:_stable_id",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/sec_company_enrich.py",
+      "target": "function:engine/sec_company_enrich.py:_stable_id",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/sec_company_enrich.py",
+      "target": "function:engine/sec_company_enrich.py:_load_aliases",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/sec_company_enrich.py",
+      "target": "function:engine/sec_company_enrich.py:_load_aliases",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/sec_company_enrich.py",
+      "target": "function:engine/sec_company_enrich.py:_norm",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/sec_company_enrich.py",
+      "target": "function:engine/sec_company_enrich.py:_norm",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/sec_company_enrich.py",
+      "target": "function:engine/sec_company_enrich.py:_without_legal_suffixes",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/sec_company_enrich.py",
+      "target": "function:engine/sec_company_enrich.py:_without_legal_suffixes",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/sec_company_enrich.py",
+      "target": "function:engine/sec_company_enrich.py:_cik_padded",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/sec_company_enrich.py",
+      "target": "function:engine/sec_company_enrich.py:_cik_padded",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/sec_company_enrich.py",
+      "target": "function:engine/sec_company_enrich.py:_is_plain_ticker",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/sec_company_enrich.py",
+      "target": "function:engine/sec_company_enrich.py:_is_plain_ticker",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/sec_company_enrich.py",
+      "target": "function:engine/sec_company_enrich.py:_fetch_company_tickers",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/sec_company_enrich.py",
+      "target": "function:engine/sec_company_enrich.py:_fetch_company_tickers",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/sec_company_enrich.py",
+      "target": "function:engine/sec_company_enrich.py:_records",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/sec_company_enrich.py",
+      "target": "function:engine/sec_company_enrich.py:_records",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/sec_company_enrich.py",
+      "target": "function:engine/sec_company_enrich.py:_company_rows",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/sec_company_enrich.py",
+      "target": "function:engine/sec_company_enrich.py:_company_rows",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/sec_company_enrich.py",
+      "target": "function:engine/sec_company_enrich.py:_best_match",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/sec_company_enrich.py",
+      "target": "function:engine/sec_company_enrich.py:_best_match",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/sec_company_enrich.py",
+      "target": "function:engine/sec_company_enrich.py:_upsert_sec_source",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/sec_company_enrich.py",
+      "target": "function:engine/sec_company_enrich.py:_upsert_sec_source",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/sec_company_enrich.py",
+      "target": "function:engine/sec_company_enrich.py:_apply_match",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/sec_company_enrich.py",
+      "target": "function:engine/sec_company_enrich.py:_apply_match",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/sec_company_enrich.py",
+      "target": "function:engine/sec_company_enrich.py:enrich_top_entities",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/sec_company_enrich.py",
+      "target": "function:engine/sec_company_enrich.py:enrich_top_entities",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/sec_company_enrich.py",
+      "target": "class:engine/sec_company_enrich.py:SecCompanyRecord",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/sec_company_enrich.py",
+      "target": "class:engine/sec_company_enrich.py:SecCompanyRecord",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/sec_company_enrich.py",
+      "target": "class:engine/sec_company_enrich.py:SecCompanyMatch",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/sec_company_enrich.py",
+      "target": "class:engine/sec_company_enrich.py:SecCompanyMatch",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/seed.py",
+      "target": "function:engine/seed.py:seed_pillars",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/seed.py",
+      "target": "function:engine/seed.py:seed_pillars",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/sec_company_enrich.py",
+      "target": "file:engine/__init__.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/sec_company_enrich.py",
+      "target": "file:engine/graph.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/sec_company_enrich.py",
+      "target": "file:engine/rawstore.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/sec_company_enrich.py",
+      "target": "file:engine/schemas.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/sec_company_enrich.py",
+      "target": "file:engine/world_catalog.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "function:engine/sec_company_enrich.py:_without_legal_suffixes",
+      "target": "function:engine/sec_company_enrich.py:_norm",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/sec_company_enrich.py:_records",
+      "target": "class:engine/sec_company_enrich.py:SecCompanyRecord",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/sec_company_enrich.py:_best_match",
+      "target": "function:engine/sec_company_enrich.py:_load_aliases",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/sec_company_enrich.py:_best_match",
+      "target": "function:engine/sec_company_enrich.py:_is_plain_ticker",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/sec_company_enrich.py:_best_match",
+      "target": "class:engine/sec_company_enrich.py:SecCompanyMatch",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/sec_company_enrich.py:_best_match",
+      "target": "function:engine/sec_company_enrich.py:_norm",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/sec_company_enrich.py:_best_match",
+      "target": "function:engine/sec_company_enrich.py:_without_legal_suffixes",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/sec_company_enrich.py:_upsert_sec_source",
+      "target": "class:engine/schemas.py:Source",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/sec_company_enrich.py:_upsert_sec_source",
+      "target": "function:engine/graph.py:_upsert_source",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/sec_company_enrich.py:_apply_match",
+      "target": "function:engine/sec_company_enrich.py:_load_aliases",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/sec_company_enrich.py:_apply_match",
+      "target": "function:engine/sec_company_enrich.py:_cik_padded",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/sec_company_enrich.py:_apply_match",
+      "target": "function:engine/schemas.py:_now",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/sec_company_enrich.py:_apply_match",
+      "target": "function:engine/sec_company_enrich.py:_stable_id",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/sec_company_enrich.py:enrich_top_entities",
+      "target": "function:engine/sec_company_enrich.py:_fetch_company_tickers",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/sec_company_enrich.py:enrich_top_entities",
+      "target": "function:engine/sec_company_enrich.py:_upsert_sec_source",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/sec_company_enrich.py:enrich_top_entities",
+      "target": "function:engine/sec_company_enrich.py:_records",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/sec_company_enrich.py:enrich_top_entities",
+      "target": "function:engine/sec_company_enrich.py:_company_rows",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/sec_company_enrich.py:enrich_top_entities",
+      "target": "function:engine/sec_company_enrich.py:_best_match",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/sec_company_enrich.py:enrich_top_entities",
+      "target": "function:engine/sec_company_enrich.py:_apply_match",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/sec_company_enrich.py:enrich_top_entities",
+      "target": "function:engine/sec_company_enrich.py:_cik_padded",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

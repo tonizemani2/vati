@@ -1,0 +1,1592 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 3,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "engine/pope/__init__.py",
+      "language": "python",
+      "fileCategory": "code",
+      "totalLines": 1,
+      "nonEmptyLines": 0,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "engine/pope/charts.py",
+      "language": "python",
+      "fileCategory": "code",
+      "totalLines": 185,
+      "nonEmptyLines": 165,
+      "functions": [
+        {
+          "name": "_esc",
+          "startLine": 24,
+          "endLine": 25,
+          "params": [
+            "s"
+          ]
+        },
+        {
+          "name": "_fnum",
+          "startLine": 28,
+          "endLine": 43,
+          "params": [
+            "v"
+          ]
+        },
+        {
+          "name": "_caption",
+          "startLine": 46,
+          "endLine": 50,
+          "params": [
+            "text",
+            "w"
+          ]
+        },
+        {
+          "name": "_frame",
+          "startLine": 53,
+          "endLine": 60,
+          "params": [
+            "inner",
+            "w",
+            "h",
+            "caption"
+          ]
+        },
+        {
+          "name": "trendline",
+          "startLine": 63,
+          "endLine": 96,
+          "params": [
+            "values",
+            "width",
+            "height",
+            "caption",
+            "labels"
+          ]
+        },
+        {
+          "name": "bar_chart",
+          "startLine": 99,
+          "endLine": 122,
+          "params": [
+            "items",
+            "width",
+            "bar_h",
+            "gap",
+            "caption",
+            "highlight"
+          ]
+        },
+        {
+          "name": "gap_chart",
+          "startLine": 125,
+          "endLine": 147,
+          "params": [
+            "supply_label",
+            "supply",
+            "demand_label",
+            "demand",
+            "width",
+            "caption"
+          ]
+        },
+        {
+          "name": "dependency_chain",
+          "startLine": 150,
+          "endLine": 185,
+          "params": [
+            "nodes",
+            "width",
+            "caption",
+            "needle"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "_esc",
+          "line": 24,
+          "isDefault": false
+        },
+        {
+          "name": "_fnum",
+          "line": 28,
+          "isDefault": false
+        },
+        {
+          "name": "_caption",
+          "line": 46,
+          "isDefault": false
+        },
+        {
+          "name": "_frame",
+          "line": 53,
+          "isDefault": false
+        },
+        {
+          "name": "trendline",
+          "line": 63,
+          "isDefault": false
+        },
+        {
+          "name": "bar_chart",
+          "line": 99,
+          "isDefault": false
+        },
+        {
+          "name": "gap_chart",
+          "line": 125,
+          "isDefault": false
+        },
+        {
+          "name": "dependency_chain",
+          "line": 150,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "_esc",
+          "callee": "html.escape",
+          "lineNumber": 25
+        },
+        {
+          "caller": "_esc",
+          "callee": "str",
+          "lineNumber": 25
+        },
+        {
+          "caller": "_fnum",
+          "callee": "float",
+          "lineNumber": 31
+        },
+        {
+          "caller": "_fnum",
+          "callee": "_esc",
+          "lineNumber": 33
+        },
+        {
+          "caller": "_fnum",
+          "callee": "abs",
+          "lineNumber": 34
+        },
+        {
+          "caller": "_fnum",
+          "callee": "int",
+          "lineNumber": 41
+        },
+        {
+          "caller": "_fnum",
+          "callee": "str",
+          "lineNumber": 42
+        },
+        {
+          "caller": "_fnum",
+          "callee": "int",
+          "lineNumber": 42
+        },
+        {
+          "caller": "_caption",
+          "callee": "_esc",
+          "lineNumber": 50
+        },
+        {
+          "caller": "_frame",
+          "callee": "_caption",
+          "lineNumber": 55
+        },
+        {
+          "caller": "trendline",
+          "callee": "float",
+          "lineNumber": 66
+        },
+        {
+          "caller": "trendline",
+          "callee": "len",
+          "lineNumber": 67
+        },
+        {
+          "caller": "trendline",
+          "callee": "min",
+          "lineNumber": 71
+        },
+        {
+          "caller": "trendline",
+          "callee": "max",
+          "lineNumber": 71
+        },
+        {
+          "caller": "trendline",
+          "callee": "len",
+          "lineNumber": 73
+        },
+        {
+          "caller": "trendline",
+          "callee": "x",
+          "lineNumber": 76
+        },
+        {
+          "caller": "trendline",
+          "callee": "y",
+          "lineNumber": 76
+        },
+        {
+          "caller": "trendline",
+          "callee": "enumerate",
+          "lineNumber": 76
+        },
+        {
+          "caller": "trendline",
+          "callee": "\" \".join",
+          "lineNumber": 77
+        },
+        {
+          "caller": "trendline",
+          "callee": "line.replace",
+          "lineNumber": 78
+        },
+        {
+          "caller": "trendline",
+          "callee": "len",
+          "lineNumber": 82
+        },
+        {
+          "caller": "trendline",
+          "callee": "x",
+          "lineNumber": 83
+        },
+        {
+          "caller": "trendline",
+          "callee": "_esc",
+          "lineNumber": 84
+        },
+        {
+          "caller": "trendline",
+          "callee": "_esc",
+          "lineNumber": 86
+        },
+        {
+          "caller": "trendline",
+          "callee": "_fnum",
+          "lineNumber": 93
+        },
+        {
+          "caller": "trendline",
+          "callee": "_frame",
+          "lineNumber": 96
+        },
+        {
+          "caller": "bar_chart",
+          "callee": "str",
+          "lineNumber": 103
+        },
+        {
+          "caller": "bar_chart",
+          "callee": "float",
+          "lineNumber": 103
+        },
+        {
+          "caller": "bar_chart",
+          "callee": "max",
+          "lineNumber": 108
+        },
+        {
+          "caller": "bar_chart",
+          "callee": "len",
+          "lineNumber": 109
+        },
+        {
+          "caller": "bar_chart",
+          "callee": "enumerate",
+          "lineNumber": 111
+        },
+        {
+          "caller": "bar_chart",
+          "callee": "max",
+          "lineNumber": 113
+        },
+        {
+          "caller": "bar_chart",
+          "callee": "parts.append",
+          "lineNumber": 115
+        },
+        {
+          "caller": "bar_chart",
+          "callee": "_esc",
+          "lineNumber": 116
+        },
+        {
+          "caller": "bar_chart",
+          "callee": "_fnum",
+          "lineNumber": 120
+        },
+        {
+          "caller": "bar_chart",
+          "callee": "_frame",
+          "lineNumber": 122
+        },
+        {
+          "caller": "bar_chart",
+          "callee": "\"\".join",
+          "lineNumber": 122
+        },
+        {
+          "caller": "gap_chart",
+          "callee": "float",
+          "lineNumber": 129
+        },
+        {
+          "caller": "gap_chart",
+          "callee": "float",
+          "lineNumber": 129
+        },
+        {
+          "caller": "gap_chart",
+          "callee": "max",
+          "lineNumber": 134
+        },
+        {
+          "caller": "row",
+          "callee": "max",
+          "lineNumber": 138
+        },
+        {
+          "caller": "row",
+          "callee": "_esc",
+          "lineNumber": 140
+        },
+        {
+          "caller": "row",
+          "callee": "_fnum",
+          "lineNumber": 144
+        },
+        {
+          "caller": "gap_chart",
+          "callee": "row",
+          "lineNumber": 146
+        },
+        {
+          "caller": "gap_chart",
+          "callee": "row",
+          "lineNumber": 146
+        },
+        {
+          "caller": "gap_chart",
+          "callee": "_frame",
+          "lineNumber": 147
+        },
+        {
+          "caller": "dependency_chain",
+          "callee": "str",
+          "lineNumber": 154
+        },
+        {
+          "caller": "dependency_chain",
+          "callee": "len",
+          "lineNumber": 155
+        },
+        {
+          "caller": "dependency_chain",
+          "callee": "len",
+          "lineNumber": 157
+        },
+        {
+          "caller": "dependency_chain",
+          "callee": "enumerate",
+          "lineNumber": 165
+        },
+        {
+          "caller": "dependency_chain",
+          "callee": "parts.append",
+          "lineNumber": 172
+        },
+        {
+          "caller": "dependency_chain",
+          "callee": "_esc",
+          "lineNumber": 177
+        },
+        {
+          "caller": "dependency_chain",
+          "callee": "parts.append",
+          "lineNumber": 181
+        },
+        {
+          "caller": "dependency_chain",
+          "callee": "_frame",
+          "lineNumber": 185
+        },
+        {
+          "caller": "dependency_chain",
+          "callee": "\"\".join",
+          "lineNumber": 185
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 8,
+        "functionCount": 8,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "engine/pope/render.py",
+      "language": "python",
+      "fileCategory": "code",
+      "totalLines": 410,
+      "nonEmptyLines": 368,
+      "functions": [
+        {
+          "name": "_inline",
+          "startLine": 40,
+          "endLine": 55,
+          "params": [
+            "text"
+          ]
+        },
+        {
+          "name": "_field",
+          "startLine": 58,
+          "endLine": 65,
+          "params": [
+            "label",
+            "text",
+            "kind"
+          ]
+        },
+        {
+          "name": "_pct",
+          "startLine": 68,
+          "endLine": 74,
+          "params": [
+            "v"
+          ]
+        },
+        {
+          "name": "_clip",
+          "startLine": 77,
+          "endLine": 84,
+          "params": [
+            "text",
+            "n"
+          ]
+        },
+        {
+          "name": "_cover",
+          "startLine": 170,
+          "endLine": 186,
+          "params": [
+            "spec"
+          ]
+        },
+        {
+          "name": "_summary_table",
+          "startLine": 189,
+          "endLine": 214,
+          "params": [
+            "spec"
+          ]
+        },
+        {
+          "name": "_wl_col",
+          "startLine": 217,
+          "endLine": 226,
+          "params": [
+            "label",
+            "items",
+            "klass"
+          ]
+        },
+        {
+          "name": "_implications",
+          "startLine": 229,
+          "endLine": 264,
+          "params": [
+            "t"
+          ]
+        },
+        {
+          "name": "_one_chart",
+          "startLine": 267,
+          "endLine": 288,
+          "params": [
+            "c"
+          ]
+        },
+        {
+          "name": "_chart",
+          "startLine": 291,
+          "endLine": 298,
+          "params": [
+            "t"
+          ]
+        },
+        {
+          "name": "_thesis",
+          "startLine": 301,
+          "endLine": 332,
+          "params": [
+            "t"
+          ]
+        },
+        {
+          "name": "_runner_ups",
+          "startLine": 335,
+          "endLine": 350,
+          "params": [
+            "spec"
+          ]
+        },
+        {
+          "name": "build_html",
+          "startLine": 353,
+          "endLine": 366,
+          "params": [
+            "spec"
+          ]
+        },
+        {
+          "name": "_find_chrome",
+          "startLine": 370,
+          "endLine": 378,
+          "params": []
+        },
+        {
+          "name": "render",
+          "startLine": 381,
+          "endLine": 404,
+          "params": [
+            "spec_path",
+            "out_base"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "_inline",
+          "line": 40,
+          "isDefault": false
+        },
+        {
+          "name": "_field",
+          "line": 58,
+          "isDefault": false
+        },
+        {
+          "name": "_pct",
+          "line": 68,
+          "isDefault": false
+        },
+        {
+          "name": "_clip",
+          "line": 77,
+          "isDefault": false
+        },
+        {
+          "name": "_cover",
+          "line": 170,
+          "isDefault": false
+        },
+        {
+          "name": "_summary_table",
+          "line": 189,
+          "isDefault": false
+        },
+        {
+          "name": "_wl_col",
+          "line": 217,
+          "isDefault": false
+        },
+        {
+          "name": "_implications",
+          "line": 229,
+          "isDefault": false
+        },
+        {
+          "name": "_one_chart",
+          "line": 267,
+          "isDefault": false
+        },
+        {
+          "name": "_chart",
+          "line": 291,
+          "isDefault": false
+        },
+        {
+          "name": "_thesis",
+          "line": 301,
+          "isDefault": false
+        },
+        {
+          "name": "_runner_ups",
+          "line": 335,
+          "isDefault": false
+        },
+        {
+          "name": "build_html",
+          "line": 353,
+          "isDefault": false
+        },
+        {
+          "name": "_find_chrome",
+          "line": 370,
+          "isDefault": false
+        },
+        {
+          "name": "render",
+          "line": 381,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "_inline",
+          "callee": "str(text)\n        .replace(\"\\u2014\", \" - \")\n        .replace(\"\\u2013\", \"-\")\n        .replace(\"\\u2011\", \"-\")\n        .replace(\"\\u2212\", \"-\")\n        .replace",
+          "lineNumber": 45
+        },
+        {
+          "caller": "_inline",
+          "callee": "str(text)\n        .replace(\"\\u2014\", \" - \")\n        .replace(\"\\u2013\", \"-\")\n        .replace(\"\\u2011\", \"-\")\n        .replace",
+          "lineNumber": 45
+        },
+        {
+          "caller": "_inline",
+          "callee": "str(text)\n        .replace(\"\\u2014\", \" - \")\n        .replace(\"\\u2013\", \"-\")\n        .replace",
+          "lineNumber": 45
+        },
+        {
+          "caller": "_inline",
+          "callee": "str(text)\n        .replace(\"\\u2014\", \" - \")\n        .replace",
+          "lineNumber": 45
+        },
+        {
+          "caller": "_inline",
+          "callee": "str(text)\n        .replace",
+          "lineNumber": 45
+        },
+        {
+          "caller": "_inline",
+          "callee": "str",
+          "lineNumber": 45
+        },
+        {
+          "caller": "_inline",
+          "callee": "html.escape",
+          "lineNumber": 52
+        },
+        {
+          "caller": "_inline",
+          "callee": "re.sub",
+          "lineNumber": 53
+        },
+        {
+          "caller": "_inline",
+          "callee": "re.sub",
+          "lineNumber": 54
+        },
+        {
+          "caller": "_field",
+          "callee": "html.escape",
+          "lineNumber": 63
+        },
+        {
+          "caller": "_field",
+          "callee": "_inline",
+          "lineNumber": 64
+        },
+        {
+          "caller": "_pct",
+          "callee": "float",
+          "lineNumber": 71
+        },
+        {
+          "caller": "_pct",
+          "callee": "int",
+          "lineNumber": 74
+        },
+        {
+          "caller": "_pct",
+          "callee": "round",
+          "lineNumber": 74
+        },
+        {
+          "caller": "_clip",
+          "callee": "str(text).strip",
+          "lineNumber": 81
+        },
+        {
+          "caller": "_clip",
+          "callee": "str",
+          "lineNumber": 81
+        },
+        {
+          "caller": "_clip",
+          "callee": "len",
+          "lineNumber": 82
+        },
+        {
+          "caller": "_clip",
+          "callee": "text[:n].rsplit(\" \", 1)[0].rstrip",
+          "lineNumber": 84
+        },
+        {
+          "caller": "_clip",
+          "callee": "text[:n].rsplit",
+          "lineNumber": 84
+        },
+        {
+          "caller": "_cover",
+          "callee": "_inline",
+          "lineNumber": 174
+        },
+        {
+          "caller": "_cover",
+          "callee": "spec.get",
+          "lineNumber": 174
+        },
+        {
+          "caller": "_cover",
+          "callee": "_inline",
+          "lineNumber": 175
+        },
+        {
+          "caller": "_cover",
+          "callee": "spec.get",
+          "lineNumber": 175
+        },
+        {
+          "caller": "_cover",
+          "callee": "_inline",
+          "lineNumber": 180
+        },
+        {
+          "caller": "_cover",
+          "callee": "spec.get",
+          "lineNumber": 180
+        },
+        {
+          "caller": "_cover",
+          "callee": "_inline",
+          "lineNumber": 181
+        },
+        {
+          "caller": "_cover",
+          "callee": "spec.get",
+          "lineNumber": 181
+        },
+        {
+          "caller": "_cover",
+          "callee": "_inline",
+          "lineNumber": 182
+        },
+        {
+          "caller": "_cover",
+          "callee": "spec.get",
+          "lineNumber": 182
+        },
+        {
+          "caller": "_summary_table",
+          "callee": "rows.append",
+          "lineNumber": 192
+        },
+        {
+          "caller": "_summary_table",
+          "callee": "_inline",
+          "lineNumber": 193
+        },
+        {
+          "caller": "_summary_table",
+          "callee": "t.get",
+          "lineNumber": 193
+        },
+        {
+          "caller": "_summary_table",
+          "callee": "_inline",
+          "lineNumber": 194
+        },
+        {
+          "caller": "_summary_table",
+          "callee": "_clip",
+          "lineNumber": 194
+        },
+        {
+          "caller": "_summary_table",
+          "callee": "t.get",
+          "lineNumber": 194
+        },
+        {
+          "caller": "_summary_table",
+          "callee": "_inline",
+          "lineNumber": 195
+        },
+        {
+          "caller": "_summary_table",
+          "callee": "_clip",
+          "lineNumber": 195
+        },
+        {
+          "caller": "_summary_table",
+          "callee": "t.get",
+          "lineNumber": 195
+        },
+        {
+          "caller": "_summary_table",
+          "callee": "t.get",
+          "lineNumber": 195
+        },
+        {
+          "caller": "_summary_table",
+          "callee": "_pct",
+          "lineNumber": 196
+        },
+        {
+          "caller": "_summary_table",
+          "callee": "t.get",
+          "lineNumber": 196
+        },
+        {
+          "caller": "_summary_table",
+          "callee": "_pct",
+          "lineNumber": 197
+        },
+        {
+          "caller": "_summary_table",
+          "callee": "t.get",
+          "lineNumber": 197
+        },
+        {
+          "caller": "_summary_table",
+          "callee": "_inline",
+          "lineNumber": 198
+        },
+        {
+          "caller": "_summary_table",
+          "callee": "t.get",
+          "lineNumber": 198
+        },
+        {
+          "caller": "_summary_table",
+          "callee": "_inline",
+          "lineNumber": 201
+        },
+        {
+          "caller": "_summary_table",
+          "callee": "spec.get",
+          "lineNumber": 202
+        },
+        {
+          "caller": "_summary_table",
+          "callee": "''.join",
+          "lineNumber": 212
+        },
+        {
+          "caller": "_wl_col",
+          "callee": "_inline",
+          "lineNumber": 220
+        },
+        {
+          "caller": "_wl_col",
+          "callee": "it.get",
+          "lineNumber": 220
+        },
+        {
+          "caller": "_wl_col",
+          "callee": "isinstance",
+          "lineNumber": 220
+        },
+        {
+          "caller": "_wl_col",
+          "callee": "_inline",
+          "lineNumber": 220
+        },
+        {
+          "caller": "_wl_col",
+          "callee": "str",
+          "lineNumber": 220
+        },
+        {
+          "caller": "_wl_col",
+          "callee": "_inline",
+          "lineNumber": 221
+        },
+        {
+          "caller": "_wl_col",
+          "callee": "it.get",
+          "lineNumber": 221
+        },
+        {
+          "caller": "_wl_col",
+          "callee": "isinstance",
+          "lineNumber": 221
+        },
+        {
+          "caller": "_wl_col",
+          "callee": "rows.append",
+          "lineNumber": 223
+        },
+        {
+          "caller": "_wl_col",
+          "callee": "html.escape",
+          "lineNumber": 226
+        },
+        {
+          "caller": "_wl_col",
+          "callee": "\"\".join",
+          "lineNumber": 226
+        },
+        {
+          "caller": "_implications",
+          "callee": "t.get",
+          "lineNumber": 230
+        },
+        {
+          "caller": "_implications",
+          "callee": "isinstance",
+          "lineNumber": 231
+        },
+        {
+          "caller": "_implications",
+          "callee": "_wl_col",
+          "lineNumber": 233
+        },
+        {
+          "caller": "_implications",
+          "callee": "im.get",
+          "lineNumber": 233
+        },
+        {
+          "caller": "_implications",
+          "callee": "_wl_col",
+          "lineNumber": 234
+        },
+        {
+          "caller": "_implications",
+          "callee": "im.get",
+          "lineNumber": 234
+        },
+        {
+          "caller": "_implications",
+          "callee": "im.get",
+          "lineNumber": 243
+        },
+        {
+          "caller": "_implications",
+          "callee": "decision_rows.append",
+          "lineNumber": 244
+        },
+        {
+          "caller": "_implications",
+          "callee": "html.escape",
+          "lineNumber": 245
+        },
+        {
+          "caller": "_implications",
+          "callee": "_inline",
+          "lineNumber": 246
+        },
+        {
+          "caller": "_implications",
+          "callee": "parts.append",
+          "lineNumber": 249
+        },
+        {
+          "caller": "_implications",
+          "callee": "\"\".join",
+          "lineNumber": 249
+        },
+        {
+          "caller": "_implications",
+          "callee": "im.get",
+          "lineNumber": 250
+        },
+        {
+          "caller": "_implications",
+          "callee": "parts.append",
+          "lineNumber": 251
+        },
+        {
+          "caller": "_implications",
+          "callee": "_inline",
+          "lineNumber": 251
+        },
+        {
+          "caller": "_implications",
+          "callee": "parts.append",
+          "lineNumber": 253
+        },
+        {
+          "caller": "_implications",
+          "callee": "im.get",
+          "lineNumber": 259
+        },
+        {
+          "caller": "_implications",
+          "callee": "parts.append",
+          "lineNumber": 260
+        },
+        {
+          "caller": "_implications",
+          "callee": "html.escape",
+          "lineNumber": 261
+        },
+        {
+          "caller": "_implications",
+          "callee": "_inline",
+          "lineNumber": 262
+        },
+        {
+          "caller": "_implications",
+          "callee": "\"\".join",
+          "lineNumber": 264
+        },
+        {
+          "caller": "_one_chart",
+          "callee": "isinstance",
+          "lineNumber": 269
+        },
+        {
+          "caller": "_one_chart",
+          "callee": "(c.get(\"type\") or \"\").lower",
+          "lineNumber": 271
+        },
+        {
+          "caller": "_one_chart",
+          "callee": "c.get",
+          "lineNumber": 271
+        },
+        {
+          "caller": "_one_chart",
+          "callee": "c.get",
+          "lineNumber": 272
+        },
+        {
+          "caller": "_one_chart",
+          "callee": "charts.trendline",
+          "lineNumber": 274
+        },
+        {
+          "caller": "_one_chart",
+          "callee": "c.get",
+          "lineNumber": 274
+        },
+        {
+          "caller": "_one_chart",
+          "callee": "c.get",
+          "lineNumber": 274
+        },
+        {
+          "caller": "_one_chart",
+          "callee": "c.get",
+          "lineNumber": 277
+        },
+        {
+          "caller": "_one_chart",
+          "callee": "isinstance",
+          "lineNumber": 278
+        },
+        {
+          "caller": "_one_chart",
+          "callee": "items.append",
+          "lineNumber": 279
+        },
+        {
+          "caller": "_one_chart",
+          "callee": "isinstance",
+          "lineNumber": 280
+        },
+        {
+          "caller": "_one_chart",
+          "callee": "len",
+          "lineNumber": 280
+        },
+        {
+          "caller": "_one_chart",
+          "callee": "items.append",
+          "lineNumber": 281
+        },
+        {
+          "caller": "_one_chart",
+          "callee": "charts.bar_chart",
+          "lineNumber": 282
+        },
+        {
+          "caller": "_one_chart",
+          "callee": "c.get",
+          "lineNumber": 282
+        },
+        {
+          "caller": "_one_chart",
+          "callee": "charts.gap_chart",
+          "lineNumber": 284
+        },
+        {
+          "caller": "_one_chart",
+          "callee": "c.get",
+          "lineNumber": 284
+        },
+        {
+          "caller": "_one_chart",
+          "callee": "c.get",
+          "lineNumber": 284
+        },
+        {
+          "caller": "_one_chart",
+          "callee": "c.get",
+          "lineNumber": 285
+        },
+        {
+          "caller": "_one_chart",
+          "callee": "c.get",
+          "lineNumber": 285
+        },
+        {
+          "caller": "_one_chart",
+          "callee": "charts.dependency_chain",
+          "lineNumber": 287
+        },
+        {
+          "caller": "_one_chart",
+          "callee": "c.get",
+          "lineNumber": 287
+        },
+        {
+          "caller": "_one_chart",
+          "callee": "c.get",
+          "lineNumber": 287
+        },
+        {
+          "caller": "_chart",
+          "callee": "t.get",
+          "lineNumber": 293
+        },
+        {
+          "caller": "_chart",
+          "callee": "isinstance",
+          "lineNumber": 293
+        },
+        {
+          "caller": "_chart",
+          "callee": "t.get",
+          "lineNumber": 293
+        },
+        {
+          "caller": "_chart",
+          "callee": "isinstance",
+          "lineNumber": 294
+        },
+        {
+          "caller": "_chart",
+          "callee": "t.get",
+          "lineNumber": 294
+        },
+        {
+          "caller": "_chart",
+          "callee": "_one_chart",
+          "lineNumber": 295
+        },
+        {
+          "caller": "_chart",
+          "callee": "\"\".join",
+          "lineNumber": 298
+        },
+        {
+          "caller": "_thesis",
+          "callee": "_pct",
+          "lineNumber": 303
+        },
+        {
+          "caller": "_thesis",
+          "callee": "t.get",
+          "lineNumber": 303
+        },
+        {
+          "caller": "_thesis",
+          "callee": "_pct",
+          "lineNumber": 304
+        },
+        {
+          "caller": "_thesis",
+          "callee": "t.get",
+          "lineNumber": 304
+        },
+        {
+          "caller": "_thesis",
+          "callee": "_inline",
+          "lineNumber": 305
+        },
+        {
+          "caller": "_thesis",
+          "callee": "t.get",
+          "lineNumber": 305
+        },
+        {
+          "caller": "_thesis",
+          "callee": "\"\\n\".join",
+          "lineNumber": 307
+        },
+        {
+          "caller": "_thesis",
+          "callee": "_inline",
+          "lineNumber": 309
+        },
+        {
+          "caller": "_thesis",
+          "callee": "t.get",
+          "lineNumber": 309
+        },
+        {
+          "caller": "_thesis",
+          "callee": "_field",
+          "lineNumber": 310
+        },
+        {
+          "caller": "_thesis",
+          "callee": "t.get",
+          "lineNumber": 310
+        },
+        {
+          "caller": "_thesis",
+          "callee": "_field",
+          "lineNumber": 311
+        },
+        {
+          "caller": "_thesis",
+          "callee": "t.get",
+          "lineNumber": 311
+        },
+        {
+          "caller": "_thesis",
+          "callee": "_field",
+          "lineNumber": 312
+        },
+        {
+          "caller": "_thesis",
+          "callee": "t.get",
+          "lineNumber": 312
+        },
+        {
+          "caller": "_thesis",
+          "callee": "_field",
+          "lineNumber": 313
+        },
+        {
+          "caller": "_thesis",
+          "callee": "t.get",
+          "lineNumber": 313
+        },
+        {
+          "caller": "_thesis",
+          "callee": "_field",
+          "lineNumber": 314
+        },
+        {
+          "caller": "_thesis",
+          "callee": "t.get",
+          "lineNumber": 314
+        },
+        {
+          "caller": "_thesis",
+          "callee": "_chart",
+          "lineNumber": 315
+        },
+        {
+          "caller": "_thesis",
+          "callee": "_field",
+          "lineNumber": 316
+        },
+        {
+          "caller": "_thesis",
+          "callee": "t.get",
+          "lineNumber": 316
+        },
+        {
+          "caller": "_thesis",
+          "callee": "_field",
+          "lineNumber": 317
+        },
+        {
+          "caller": "_thesis",
+          "callee": "t.get",
+          "lineNumber": 317
+        },
+        {
+          "caller": "_thesis",
+          "callee": "_field",
+          "lineNumber": 318
+        },
+        {
+          "caller": "_thesis",
+          "callee": "t.get",
+          "lineNumber": 318
+        },
+        {
+          "caller": "_thesis",
+          "callee": "_implications",
+          "lineNumber": 319
+        },
+        {
+          "caller": "_thesis",
+          "callee": "t.get",
+          "lineNumber": 322
+        },
+        {
+          "caller": "_thesis",
+          "callee": "_inline",
+          "lineNumber": 323
+        },
+        {
+          "caller": "_thesis",
+          "callee": "_inline",
+          "lineNumber": 325
+        },
+        {
+          "caller": "_thesis",
+          "callee": "t.get",
+          "lineNumber": 325
+        },
+        {
+          "caller": "_thesis",
+          "callee": "_clip",
+          "lineNumber": 326
+        },
+        {
+          "caller": "_thesis",
+          "callee": "t.get",
+          "lineNumber": 326
+        },
+        {
+          "caller": "_thesis",
+          "callee": "_inline",
+          "lineNumber": 328
+        },
+        {
+          "caller": "_thesis",
+          "callee": "t.get",
+          "lineNumber": 328
+        },
+        {
+          "caller": "_thesis",
+          "callee": "_inline",
+          "lineNumber": 328
+        },
+        {
+          "caller": "_thesis",
+          "callee": "_inline",
+          "lineNumber": 329
+        },
+        {
+          "caller": "_thesis",
+          "callee": "t.get",
+          "lineNumber": 329
+        },
+        {
+          "caller": "_runner_ups",
+          "callee": "spec.get",
+          "lineNumber": 336
+        },
+        {
+          "caller": "_runner_ups",
+          "callee": "\"\".join",
+          "lineNumber": 339
+        },
+        {
+          "caller": "_runner_ups",
+          "callee": "_inline",
+          "lineNumber": 340
+        },
+        {
+          "caller": "_runner_ups",
+          "callee": "r.get",
+          "lineNumber": 340
+        },
+        {
+          "caller": "_runner_ups",
+          "callee": "_inline",
+          "lineNumber": 340
+        },
+        {
+          "caller": "_runner_ups",
+          "callee": "r.get",
+          "lineNumber": 340
+        },
+        {
+          "caller": "_runner_ups",
+          "callee": "_inline",
+          "lineNumber": 341
+        },
+        {
+          "caller": "_runner_ups",
+          "callee": "r.get",
+          "lineNumber": 341
+        },
+        {
+          "caller": "build_html",
+          "callee": "_cover",
+          "lineNumber": 355
+        },
+        {
+          "caller": "build_html",
+          "callee": "_summary_table",
+          "lineNumber": 356
+        },
+        {
+          "caller": "build_html",
+          "callee": "_thesis",
+          "lineNumber": 357
+        },
+        {
+          "caller": "build_html",
+          "callee": "_runner_ups",
+          "lineNumber": 358
+        },
+        {
+          "caller": "build_html",
+          "callee": "html.escape",
+          "lineNumber": 360
+        },
+        {
+          "caller": "build_html",
+          "callee": "spec.get",
+          "lineNumber": 360
+        },
+        {
+          "caller": "build_html",
+          "callee": "\"\\n\".join",
+          "lineNumber": 364
+        },
+        {
+          "caller": "_find_chrome",
+          "callee": "shutil.which",
+          "lineNumber": 374
+        },
+        {
+          "caller": "_find_chrome",
+          "callee": "shutil.which",
+          "lineNumber": 375
+        },
+        {
+          "caller": "_find_chrome",
+          "callee": "shutil.which",
+          "lineNumber": 376
+        },
+        {
+          "caller": "_find_chrome",
+          "callee": "next",
+          "lineNumber": 378
+        },
+        {
+          "caller": "_find_chrome",
+          "callee": "os.path.exists",
+          "lineNumber": 378
+        },
+        {
+          "caller": "render",
+          "callee": "open",
+          "lineNumber": 382
+        },
+        {
+          "caller": "render",
+          "callee": "json.load",
+          "lineNumber": 383
+        },
+        {
+          "caller": "render",
+          "callee": "spec.get",
+          "lineNumber": 384
+        },
+        {
+          "caller": "render",
+          "callee": "SystemExit",
+          "lineNumber": 385
+        },
+        {
+          "caller": "render",
+          "callee": "os.makedirs",
+          "lineNumber": 389
+        },
+        {
+          "caller": "render",
+          "callee": "os.path.dirname",
+          "lineNumber": 389
+        },
+        {
+          "caller": "render",
+          "callee": "os.path.abspath",
+          "lineNumber": 389
+        },
+        {
+          "caller": "render",
+          "callee": "open",
+          "lineNumber": 390
+        },
+        {
+          "caller": "render",
+          "callee": "fh.write",
+          "lineNumber": 391
+        },
+        {
+          "caller": "render",
+          "callee": "build_html",
+          "lineNumber": 391
+        },
+        {
+          "caller": "render",
+          "callee": "print",
+          "lineNumber": 392
+        },
+        {
+          "caller": "render",
+          "callee": "_find_chrome",
+          "lineNumber": 394
+        },
+        {
+          "caller": "render",
+          "callee": "print",
+          "lineNumber": 396
+        },
+        {
+          "caller": "render",
+          "callee": "subprocess.run",
+          "lineNumber": 398
+        },
+        {
+          "caller": "render",
+          "callee": "os.path.abspath",
+          "lineNumber": 400
+        },
+        {
+          "caller": "render",
+          "callee": "os.path.abspath",
+          "lineNumber": 401
+        },
+        {
+          "caller": "render",
+          "callee": "print",
+          "lineNumber": 404
+        },
+        {
+          "caller": "render",
+          "callee": "os.path.getsize",
+          "lineNumber": 404
+        },
+        {
+          "caller": "render",
+          "callee": "len",
+          "lineNumber": 404
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 15,
+        "functionCount": 15,
+        "classCount": 0
+      }
+    }
+  ]
+}

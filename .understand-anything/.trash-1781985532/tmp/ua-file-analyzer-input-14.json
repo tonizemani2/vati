@@ -1,0 +1,59 @@
+{
+  "projectRoot": "/Users/emizemani/Desktop/predictthefuture",
+  "batchFiles": [
+    {
+      "path": "training/common.py",
+      "language": "python",
+      "sizeLines": 81,
+      "fileCategory": "code"
+    },
+    {
+      "path": "training/eval.py",
+      "language": "python",
+      "sizeLines": 179,
+      "fileCategory": "code"
+    },
+    {
+      "path": "training/grpo.py",
+      "language": "python",
+      "sizeLines": 196,
+      "fileCategory": "code"
+    },
+    {
+      "path": "training/mlx_convert.py",
+      "language": "python",
+      "sizeLines": 71,
+      "fileCategory": "code"
+    },
+    {
+      "path": "training/mlx_eval.py",
+      "language": "python",
+      "sizeLines": 69,
+      "fileCategory": "code"
+    },
+    {
+      "path": "training/mlx_rewards.py",
+      "language": "python",
+      "sizeLines": 50,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "training/common.py": [],
+    "training/eval.py": [
+      "training/common.py"
+    ],
+    "training/grpo.py": [
+      "training/common.py"
+    ],
+    "training/mlx_convert.py": [
+      "training/common.py"
+    ],
+    "training/mlx_eval.py": [
+      "training/common.py"
+    ],
+    "training/mlx_rewards.py": [
+      "training/common.py"
+    ]
+  }
+}

@@ -1,0 +1,246 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 6,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "landing/docs/research/DESIGN_SPEC.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 61,
+      "nonEmptyLines": 54,
+      "sections": [
+        {
+          "heading": "Inception design system → Vaticinus landing (design clone)",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Color tokens (exact, from getComputedStyle)",
+          "level": 2,
+          "line": 7
+        },
+        {
+          "heading": "Type",
+          "level": 2,
+          "line": 22
+        },
+        {
+          "heading": "Layout & spacing",
+          "level": 2,
+          "line": 31
+        },
+        {
+          "heading": "Section architecture (Inception order → Vati mapping)",
+          "level": 2,
+          "line": 37
+        },
+        {
+          "heading": "Motion",
+          "level": 2,
+          "line": 54
+        },
+        {
+          "heading": "Honesty guardrails (project constraint)",
+          "level": 2,
+          "line": 59
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 7
+      }
+    },
+    {
+      "path": "landing/docs/research/assets.json",
+      "language": "json",
+      "fileCategory": "config",
+      "totalLines": 111,
+      "nonEmptyLines": 111,
+      "sections": [
+        {
+          "heading": "images",
+          "level": 1,
+          "line": 2
+        },
+        {
+          "heading": "videos",
+          "level": 1,
+          "line": 109
+        },
+        {
+          "heading": "svgCount",
+          "level": 1,
+          "line": 110
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 3
+      }
+    },
+    {
+      "path": "landing/docs/research/sections.json",
+      "language": "json",
+      "fileCategory": "config",
+      "totalLines": 355,
+      "nonEmptyLines": 355,
+      "sections": [
+        {
+          "heading": "new frontier",
+          "level": 1,
+          "line": 2
+        },
+        {
+          "heading": "diffusion difference",
+          "level": 1,
+          "line": 46
+        },
+        {
+          "heading": "Blazing",
+          "level": 1,
+          "line": 90
+        },
+        {
+          "heading": "Build the future",
+          "level": 1,
+          "line": 134
+        },
+        {
+          "heading": "family of diffusion",
+          "level": 1,
+          "line": 178
+        },
+        {
+          "heading": "visionary",
+          "level": 1,
+          "line": 222
+        },
+        {
+          "heading": "Loved by",
+          "level": 1,
+          "line": 266
+        },
+        {
+          "heading": "Enterprise",
+          "level": 1,
+          "line": 310
+        },
+        {
+          "heading": "future of LLMs",
+          "level": 1,
+          "line": 354
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 9
+      }
+    },
+    {
+      "path": "landing/docs/research/tokens.json",
+      "language": "json",
+      "fileCategory": "config",
+      "totalLines": 143,
+      "nonEmptyLines": 143,
+      "sections": [
+        {
+          "heading": "cssVars",
+          "level": 1,
+          "line": 2
+        },
+        {
+          "heading": "bodyBg",
+          "level": 1,
+          "line": 3
+        },
+        {
+          "heading": "bodyColor",
+          "level": 1,
+          "line": 4
+        },
+        {
+          "heading": "bodyFont",
+          "level": 1,
+          "line": 5
+        },
+        {
+          "heading": "fonts",
+          "level": 1,
+          "line": 6
+        },
+        {
+          "heading": "textColors",
+          "level": 1,
+          "line": 13
+        },
+        {
+          "heading": "bgColors",
+          "level": 1,
+          "line": 36
+        },
+        {
+          "heading": "typeScale",
+          "level": 1,
+          "line": 60
+        },
+        {
+          "heading": "links",
+          "level": 1,
+          "line": 108
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 9
+      }
+    },
+    {
+      "path": "landing/docs/research/topology.json",
+      "language": "json",
+      "fileCategory": "config",
+      "totalLines": 13,
+      "nonEmptyLines": 13,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 0
+      }
+    },
+    {
+      "path": "landing/docs/research/ui.json",
+      "language": "json",
+      "fileCategory": "config",
+      "totalLines": 116,
+      "nonEmptyLines": 116,
+      "sections": [
+        {
+          "heading": "buttons",
+          "level": 1,
+          "line": 2
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 1
+      }
+    }
+  ]
+}

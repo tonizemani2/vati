@@ -1,0 +1,1030 @@
+{
+  "nodes": [
+    {
+      "id": "file:engine/pope/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "engine/pope/__init__.py",
+      "summary": "__init__.py is a code asset in the forecasting engine.",
+      "tags": [
+        "forecasting-engine",
+        "code",
+        "file",
+        "init"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:engine/pope/charts.py",
+      "type": "file",
+      "name": "charts.py",
+      "filePath": "engine/pope/charts.py",
+      "summary": "charts.py is a code asset in the forecasting engine. It contains 8 functions.",
+      "tags": [
+        "forecasting-engine",
+        "code",
+        "file",
+        "charts"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/pope/charts.py:_esc",
+      "type": "function",
+      "name": "_esc",
+      "filePath": "engine/pope/charts.py",
+      "lineRange": [
+        24,
+        25
+      ],
+      "summary": "Defines _esc in charts.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "charts"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/pope/charts.py:_fnum",
+      "type": "function",
+      "name": "_fnum",
+      "filePath": "engine/pope/charts.py",
+      "lineRange": [
+        28,
+        43
+      ],
+      "summary": "Defines _fnum in charts.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "charts"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/pope/charts.py:_caption",
+      "type": "function",
+      "name": "_caption",
+      "filePath": "engine/pope/charts.py",
+      "lineRange": [
+        46,
+        50
+      ],
+      "summary": "Defines _caption in charts.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "charts"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/pope/charts.py:_frame",
+      "type": "function",
+      "name": "_frame",
+      "filePath": "engine/pope/charts.py",
+      "lineRange": [
+        53,
+        60
+      ],
+      "summary": "Defines _frame in charts.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "charts"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/pope/charts.py:trendline",
+      "type": "function",
+      "name": "trendline",
+      "filePath": "engine/pope/charts.py",
+      "lineRange": [
+        63,
+        96
+      ],
+      "summary": "Defines trendline in charts.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "charts"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/pope/charts.py:bar_chart",
+      "type": "function",
+      "name": "bar_chart",
+      "filePath": "engine/pope/charts.py",
+      "lineRange": [
+        99,
+        122
+      ],
+      "summary": "Defines bar_chart in charts.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "charts"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/pope/charts.py:gap_chart",
+      "type": "function",
+      "name": "gap_chart",
+      "filePath": "engine/pope/charts.py",
+      "lineRange": [
+        125,
+        147
+      ],
+      "summary": "Defines gap_chart in charts.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "charts"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/pope/charts.py:dependency_chain",
+      "type": "function",
+      "name": "dependency_chain",
+      "filePath": "engine/pope/charts.py",
+      "lineRange": [
+        150,
+        185
+      ],
+      "summary": "Defines dependency_chain in charts.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "charts"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:engine/pope/render.py",
+      "type": "file",
+      "name": "render.py",
+      "filePath": "engine/pope/render.py",
+      "summary": "render.py is a code asset in the forecasting engine. It contains 15 functions, 2 internal imports.",
+      "tags": [
+        "forecasting-engine",
+        "code",
+        "file",
+        "render"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:engine/pope/render.py:_inline",
+      "type": "function",
+      "name": "_inline",
+      "filePath": "engine/pope/render.py",
+      "lineRange": [
+        40,
+        55
+      ],
+      "summary": "Defines _inline in render.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "render"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/pope/render.py:_field",
+      "type": "function",
+      "name": "_field",
+      "filePath": "engine/pope/render.py",
+      "lineRange": [
+        58,
+        65
+      ],
+      "summary": "Defines _field in render.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "render"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/pope/render.py:_pct",
+      "type": "function",
+      "name": "_pct",
+      "filePath": "engine/pope/render.py",
+      "lineRange": [
+        68,
+        74
+      ],
+      "summary": "Defines _pct in render.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "render"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/pope/render.py:_clip",
+      "type": "function",
+      "name": "_clip",
+      "filePath": "engine/pope/render.py",
+      "lineRange": [
+        77,
+        84
+      ],
+      "summary": "Defines _clip in render.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entry-point",
+        "render"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/pope/render.py:_cover",
+      "type": "function",
+      "name": "_cover",
+      "filePath": "engine/pope/render.py",
+      "lineRange": [
+        170,
+        186
+      ],
+      "summary": "Defines _cover in render.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "render"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/pope/render.py:_summary_table",
+      "type": "function",
+      "name": "_summary_table",
+      "filePath": "engine/pope/render.py",
+      "lineRange": [
+        189,
+        214
+      ],
+      "summary": "Defines _summary_table in render.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "render"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/pope/render.py:_wl_col",
+      "type": "function",
+      "name": "_wl_col",
+      "filePath": "engine/pope/render.py",
+      "lineRange": [
+        217,
+        226
+      ],
+      "summary": "Defines _wl_col in render.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "render"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/pope/render.py:_implications",
+      "type": "function",
+      "name": "_implications",
+      "filePath": "engine/pope/render.py",
+      "lineRange": [
+        229,
+        264
+      ],
+      "summary": "Defines _implications in render.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "render"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/pope/render.py:_one_chart",
+      "type": "function",
+      "name": "_one_chart",
+      "filePath": "engine/pope/render.py",
+      "lineRange": [
+        267,
+        288
+      ],
+      "summary": "Defines _one_chart in render.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "render"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/pope/render.py:_chart",
+      "type": "function",
+      "name": "_chart",
+      "filePath": "engine/pope/render.py",
+      "lineRange": [
+        291,
+        298
+      ],
+      "summary": "Defines _chart in render.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "render"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/pope/render.py:_thesis",
+      "type": "function",
+      "name": "_thesis",
+      "filePath": "engine/pope/render.py",
+      "lineRange": [
+        301,
+        332
+      ],
+      "summary": "Defines _thesis in render.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "render"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/pope/render.py:_runner_ups",
+      "type": "function",
+      "name": "_runner_ups",
+      "filePath": "engine/pope/render.py",
+      "lineRange": [
+        335,
+        350
+      ],
+      "summary": "Defines _runner_ups in render.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entry-point",
+        "render"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/pope/render.py:build_html",
+      "type": "function",
+      "name": "build_html",
+      "filePath": "engine/pope/render.py",
+      "lineRange": [
+        353,
+        366
+      ],
+      "summary": "Defines build_html in render.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "render"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/pope/render.py:_find_chrome",
+      "type": "function",
+      "name": "_find_chrome",
+      "filePath": "engine/pope/render.py",
+      "lineRange": [
+        370,
+        378
+      ],
+      "summary": "Defines _find_chrome in render.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "render"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/pope/render.py:render",
+      "type": "function",
+      "name": "render",
+      "filePath": "engine/pope/render.py",
+      "lineRange": [
+        381,
+        404
+      ],
+      "summary": "Defines render in render.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "render"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:engine/pope/charts.py",
+      "target": "function:engine/pope/charts.py:_esc",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/pope/charts.py",
+      "target": "function:engine/pope/charts.py:_esc",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pope/charts.py",
+      "target": "function:engine/pope/charts.py:_fnum",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/pope/charts.py",
+      "target": "function:engine/pope/charts.py:_fnum",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pope/charts.py",
+      "target": "function:engine/pope/charts.py:_caption",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/pope/charts.py",
+      "target": "function:engine/pope/charts.py:_caption",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pope/charts.py",
+      "target": "function:engine/pope/charts.py:_frame",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/pope/charts.py",
+      "target": "function:engine/pope/charts.py:_frame",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pope/charts.py",
+      "target": "function:engine/pope/charts.py:trendline",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/pope/charts.py",
+      "target": "function:engine/pope/charts.py:trendline",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pope/charts.py",
+      "target": "function:engine/pope/charts.py:bar_chart",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/pope/charts.py",
+      "target": "function:engine/pope/charts.py:bar_chart",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pope/charts.py",
+      "target": "function:engine/pope/charts.py:gap_chart",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/pope/charts.py",
+      "target": "function:engine/pope/charts.py:gap_chart",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pope/charts.py",
+      "target": "function:engine/pope/charts.py:dependency_chain",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/pope/charts.py",
+      "target": "function:engine/pope/charts.py:dependency_chain",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pope/render.py",
+      "target": "function:engine/pope/render.py:_inline",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/pope/render.py",
+      "target": "function:engine/pope/render.py:_inline",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pope/render.py",
+      "target": "function:engine/pope/render.py:_field",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/pope/render.py",
+      "target": "function:engine/pope/render.py:_field",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pope/render.py",
+      "target": "function:engine/pope/render.py:_pct",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/pope/render.py",
+      "target": "function:engine/pope/render.py:_pct",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pope/render.py",
+      "target": "function:engine/pope/render.py:_clip",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/pope/render.py",
+      "target": "function:engine/pope/render.py:_clip",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pope/render.py",
+      "target": "function:engine/pope/render.py:_cover",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/pope/render.py",
+      "target": "function:engine/pope/render.py:_cover",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pope/render.py",
+      "target": "function:engine/pope/render.py:_summary_table",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/pope/render.py",
+      "target": "function:engine/pope/render.py:_summary_table",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pope/render.py",
+      "target": "function:engine/pope/render.py:_wl_col",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/pope/render.py",
+      "target": "function:engine/pope/render.py:_wl_col",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pope/render.py",
+      "target": "function:engine/pope/render.py:_implications",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/pope/render.py",
+      "target": "function:engine/pope/render.py:_implications",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pope/render.py",
+      "target": "function:engine/pope/render.py:_one_chart",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/pope/render.py",
+      "target": "function:engine/pope/render.py:_one_chart",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pope/render.py",
+      "target": "function:engine/pope/render.py:_chart",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/pope/render.py",
+      "target": "function:engine/pope/render.py:_chart",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pope/render.py",
+      "target": "function:engine/pope/render.py:_thesis",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/pope/render.py",
+      "target": "function:engine/pope/render.py:_thesis",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pope/render.py",
+      "target": "function:engine/pope/render.py:_runner_ups",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/pope/render.py",
+      "target": "function:engine/pope/render.py:_runner_ups",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pope/render.py",
+      "target": "function:engine/pope/render.py:build_html",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/pope/render.py",
+      "target": "function:engine/pope/render.py:build_html",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pope/render.py",
+      "target": "function:engine/pope/render.py:_find_chrome",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/pope/render.py",
+      "target": "function:engine/pope/render.py:_find_chrome",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pope/render.py",
+      "target": "function:engine/pope/render.py:render",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/pope/render.py",
+      "target": "function:engine/pope/render.py:render",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pope/render.py",
+      "target": "file:engine/pope/__init__.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/pope/render.py",
+      "target": "file:engine/pope/charts.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "function:engine/pope/charts.py:_fnum",
+      "target": "function:engine/pope/charts.py:_esc",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pope/charts.py:_caption",
+      "target": "function:engine/pope/charts.py:_esc",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pope/charts.py:_frame",
+      "target": "function:engine/pope/charts.py:_caption",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pope/charts.py:trendline",
+      "target": "function:engine/pope/charts.py:_esc",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pope/charts.py:trendline",
+      "target": "function:engine/pope/charts.py:_fnum",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pope/charts.py:trendline",
+      "target": "function:engine/pope/charts.py:_frame",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pope/charts.py:bar_chart",
+      "target": "function:engine/pope/charts.py:_esc",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pope/charts.py:bar_chart",
+      "target": "function:engine/pope/charts.py:_fnum",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pope/charts.py:bar_chart",
+      "target": "function:engine/pope/charts.py:_frame",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pope/charts.py",
+      "target": "function:engine/pope/charts.py:_esc",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/pope/charts.py",
+      "target": "function:engine/pope/charts.py:_fnum",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pope/charts.py:gap_chart",
+      "target": "function:engine/pope/charts.py:_frame",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pope/charts.py:dependency_chain",
+      "target": "function:engine/pope/charts.py:_esc",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pope/charts.py:dependency_chain",
+      "target": "function:engine/pope/charts.py:_frame",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pope/render.py:_field",
+      "target": "function:engine/pope/render.py:_inline",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pope/render.py:_cover",
+      "target": "function:engine/pope/render.py:_inline",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pope/render.py:_summary_table",
+      "target": "function:engine/pope/render.py:_inline",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pope/render.py:_summary_table",
+      "target": "function:engine/pope/render.py:_clip",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pope/render.py:_summary_table",
+      "target": "function:engine/pope/render.py:_pct",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pope/render.py:_wl_col",
+      "target": "function:engine/pope/render.py:_inline",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pope/render.py:_implications",
+      "target": "function:engine/pope/render.py:_wl_col",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pope/render.py:_implications",
+      "target": "function:engine/pope/render.py:_inline",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pope/render.py:_chart",
+      "target": "function:engine/pope/render.py:_one_chart",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pope/render.py:_thesis",
+      "target": "function:engine/pope/render.py:_pct",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pope/render.py:_thesis",
+      "target": "function:engine/pope/render.py:_inline",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pope/render.py:_thesis",
+      "target": "function:engine/pope/render.py:_field",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pope/render.py:_thesis",
+      "target": "function:engine/pope/render.py:_chart",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pope/render.py:_thesis",
+      "target": "function:engine/pope/render.py:_implications",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pope/render.py:_thesis",
+      "target": "function:engine/pope/render.py:_clip",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pope/render.py:_runner_ups",
+      "target": "function:engine/pope/render.py:_inline",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pope/render.py:build_html",
+      "target": "function:engine/pope/render.py:_cover",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pope/render.py:build_html",
+      "target": "function:engine/pope/render.py:_summary_table",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pope/render.py:build_html",
+      "target": "function:engine/pope/render.py:_thesis",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pope/render.py:build_html",
+      "target": "function:engine/pope/render.py:_runner_ups",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pope/render.py:render",
+      "target": "function:engine/pope/render.py:build_html",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/pope/render.py:render",
+      "target": "function:engine/pope/render.py:_find_chrome",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

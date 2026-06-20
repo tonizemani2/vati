@@ -1,0 +1,182 @@
+{
+  "projectRoot": "/Users/emizemani/Desktop/predictthefuture",
+  "batchFiles": [
+    {
+      "path": "paper_beyond_brier/beyond_brier.md",
+      "language": "markdown",
+      "sizeLines": 205,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "paper_beyond_brier/beyond_brier.tex",
+      "language": "tex",
+      "sizeLines": 266,
+      "fileCategory": "code"
+    },
+    {
+      "path": "paper_beyond_brier/compute_edge.py",
+      "language": "python",
+      "sizeLines": 579,
+      "fileCategory": "code"
+    },
+    {
+      "path": "paper_beyond_brier/eps_sens.py",
+      "language": "python",
+      "sizeLines": 65,
+      "fileCategory": "code"
+    },
+    {
+      "path": "paper_beyond_brier/forecast_sets/2024-07-21/human_public.json",
+      "language": "json",
+      "sizeLines": 429118,
+      "fileCategory": "config"
+    },
+    {
+      "path": "paper_beyond_brier/forecast_sets/2024-07-21/human_super.json",
+      "language": "json",
+      "sizeLines": 93733,
+      "fileCategory": "config"
+    },
+    {
+      "path": "paper_beyond_brier/llm_edge.py",
+      "language": "python",
+      "sizeLines": 333,
+      "fileCategory": "code"
+    },
+    {
+      "path": "paper_beyond_brier/llm_edge2.py",
+      "language": "python",
+      "sizeLines": 280,
+      "fileCategory": "code"
+    },
+    {
+      "path": "paper_beyond_brier/llm_figs.py",
+      "language": "python",
+      "sizeLines": 68,
+      "fileCategory": "code"
+    },
+    {
+      "path": "paper_beyond_brier/matched_question.py",
+      "language": "python",
+      "sizeLines": 115,
+      "fileCategory": "code"
+    },
+    {
+      "path": "paper_beyond_brier/mr_figs.py",
+      "language": "python",
+      "sizeLines": 115,
+      "fileCategory": "code"
+    },
+    {
+      "path": "paper_beyond_brier/multiround_rev.py",
+      "language": "python",
+      "sizeLines": 214,
+      "fileCategory": "code"
+    },
+    {
+      "path": "paper_beyond_brier/multiround.py",
+      "language": "python",
+      "sizeLines": 362,
+      "fileCategory": "code"
+    },
+    {
+      "path": "paper_beyond_brier/oos_debias.py",
+      "language": "python",
+      "sizeLines": 138,
+      "fileCategory": "code"
+    },
+    {
+      "path": "paper_beyond_brier/revise_edge_v3.py",
+      "language": "python",
+      "sizeLines": 377,
+      "fileCategory": "code"
+    },
+    {
+      "path": "paper_beyond_brier/revise_edge.py",
+      "language": "python",
+      "sizeLines": 681,
+      "fileCategory": "code"
+    },
+    {
+      "path": "paper_beyond_brier/tectonic",
+      "language": "unknown",
+      "sizeLines": 217147,
+      "fileCategory": "code"
+    },
+    {
+      "path": "paper_beyond_brier/worked_example.py",
+      "language": "python",
+      "sizeLines": 142,
+      "fileCategory": "code"
+    },
+    {
+      "path": "research/targets/angels_salvage.jsonl",
+      "language": "jsonl",
+      "sizeLines": 31,
+      "fileCategory": "code"
+    },
+    {
+      "path": "research/targets/build_contact_cockpit.py",
+      "language": "python",
+      "sizeLines": 252,
+      "fileCategory": "code"
+    },
+    {
+      "path": "research/targets/build_outreach_assets.py",
+      "language": "python",
+      "sizeLines": 513,
+      "fileCategory": "code"
+    },
+    {
+      "path": "research/targets/build_outreach_panel.py",
+      "language": "python",
+      "sizeLines": 114,
+      "fileCategory": "code"
+    },
+    {
+      "path": "research/targets/harvest_web.jsonl",
+      "language": "jsonl",
+      "sizeLines": 1055,
+      "fileCategory": "code"
+    },
+    {
+      "path": "research/targets/merge_panel.py",
+      "language": "python",
+      "sizeLines": 201,
+      "fileCategory": "code"
+    },
+    {
+      "path": "research/targets/oa_harvest.py",
+      "language": "python",
+      "sizeLines": 103,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "paper_beyond_brier/beyond_brier.md": [],
+    "paper_beyond_brier/beyond_brier.tex": [],
+    "paper_beyond_brier/compute_edge.py": [],
+    "paper_beyond_brier/eps_sens.py": [],
+    "paper_beyond_brier/forecast_sets/2024-07-21/human_public.json": [],
+    "paper_beyond_brier/forecast_sets/2024-07-21/human_super.json": [],
+    "paper_beyond_brier/llm_edge.py": [],
+    "paper_beyond_brier/llm_edge2.py": [],
+    "paper_beyond_brier/llm_figs.py": [],
+    "paper_beyond_brier/matched_question.py": [],
+    "paper_beyond_brier/mr_figs.py": [],
+    "paper_beyond_brier/multiround_rev.py": [],
+    "paper_beyond_brier/multiround.py": [],
+    "paper_beyond_brier/oos_debias.py": [],
+    "paper_beyond_brier/revise_edge_v3.py": [],
+    "paper_beyond_brier/revise_edge.py": [],
+    "paper_beyond_brier/tectonic": [],
+    "paper_beyond_brier/worked_example.py": [],
+    "research/targets/angels_salvage.jsonl": [],
+    "research/targets/build_contact_cockpit.py": [],
+    "research/targets/build_outreach_assets.py": [],
+    "research/targets/build_outreach_panel.py": [],
+    "research/targets/harvest_web.jsonl": [],
+    "research/targets/merge_panel.py": [],
+    "research/targets/oa_harvest.py": []
+  }
+}

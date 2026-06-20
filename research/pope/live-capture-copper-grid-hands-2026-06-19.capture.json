@@ -1,0 +1,220 @@
+{
+  "title": "Live Capture: TC/RC Inversion and Grid Hands - value-capture board",
+  "domain": "critical minerals / grid infrastructure / event-driven research",
+  "date": "2026-06-19",
+  "run_mode": "codex-native-capture-no-paid-llm",
+  "run_note": "Codex-native CAPTURE pass using local repo inspection, non-Opus subagents, local data-query checks, and live source verification. Did not invoke .claude/workflows/pope-capture.js or any paid LLM/API workflow.",
+  "source_board": "research/pope/the-refinery-is-the-reserve-2026-06-19.json plus FUTURE_MAP.md grid workforce calls",
+  "provenance": {
+    "workflow_invoked": false,
+    "workflow_file": ".claude/workflows/pope-capture.js",
+    "paid_llm_api_calls": 0,
+    "opus_calls": 0,
+    "subagents_used": 3,
+    "source_theses": [
+      {
+        "id": "refinery-P1",
+        "headline": "By 2034, the binding constraint on refined copper migrates off the mine and onto non-China smelting and electrorefining capacity."
+      },
+      {
+        "id": "grid-workforce",
+        "headline": "The grid and AI-datacenter buildout gets gated by certified people who commission, protect, and energize high-voltage assets."
+      }
+    ],
+    "local_commands": [
+      "uv run python -m engine.cli data-query entities \"HVDC jointing relay protection engineers grid commissioning\"",
+      "uv run python -m engine.cli data-query depend \"HVDC jointing relay protection engineers grid commissioning\"",
+      "uv run python -m engine.cli data-query market \"HVDC jointing relay protection engineers grid commissioning\""
+    ],
+    "local_data_result": "No useful dependency graph match and no prediction-market anchor for the grid-hands node; use external source verification and treat data-layer blindness as product signal, not proof.",
+    "verification_standard": "Named orgs and people are leads unless tied to a primary or official source. Contacts are not guessed.",
+    "generated_at": "2026-06-19"
+  },
+  "evidence_sources": [
+    {
+      "name": "CGEP - Protecting Existing US and Allied Copper Smelting Capacity",
+      "url": "https://www.energypolicy.columbia.edu/publications/protecting-existing-us-and-allied-copper-smelting-capacity/",
+      "retrieved": "2026-06-19",
+      "note": "TC/RC lows are smelter distress from overcapacity plus tight concentrate, not proof of immediate smelter-margin rent."
+    },
+    {
+      "name": "Reuters via MINING.COM - 2026 zero TC/RC benchmark",
+      "url": "https://www.mining.com/web/antofagasta-agrees-zero-copper-processing-charges-for-2026-with-chinese-smelter/",
+      "retrieved": "2026-06-19",
+      "note": "2026 benchmark settled at zero; spot fees turned negative because mine outages tightened concentrate."
+    },
+    {
+      "name": "White House copper Section 232 proclamation",
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/07/adjusting-imports-of-copper-into-the-united-states/",
+      "retrieved": "2026-06-19",
+      "note": "Commerce update on domestic copper markets, refining capacity, and refined-copper tariff decision due by 2026-06-30."
+    },
+    {
+      "name": "NERC Level 3 Computational Load Alert",
+      "url": "https://www.nerc.com/globalassets/programs/bpsa/alerts/level-3-computational-load-alert.pdf",
+      "retrieved": "2026-06-19",
+      "note": "Transmission planners, owners, operators, balancing authorities, and reliability coordinators are the named entities on the large-load action path."
+    },
+    {
+      "name": "ENTSO-E European Grids Package",
+      "url": "https://www.entsoe.eu/european-grids-package/",
+      "retrieved": "2026-06-19",
+      "note": "ENTSO-E states 88 percent of TSOs face shortages, +100,000 km of lines are needed, and more than half of 2030 projects await permits."
+    },
+    {
+      "name": "National Grid - Building the skills for our energy future",
+      "url": "https://www.nationalgrid.com/document/562961/download",
+      "retrieved": "2026-06-19",
+      "note": "National Grid is accelerating apprenticeships and HVDC/digital/cyber skills, including a pilot to halve Senior Authorised Person accreditation time."
+    },
+    {
+      "name": "Invenergy - Grain Belt Express Quanta/Kiewit award",
+      "url": "https://invenergy.com/news/grain-belt-express-awards-1-7b-to-u-s-contractors-quanta-and-kiewit-to-build-largest-transmission-line-in-u-s-history",
+      "retrieved": "2026-06-19",
+      "note": "Grain Belt Express Phase 1 targets 2026 construction and names Quanta/Kiewit as execution partners."
+    }
+  ],
+  "synthesis": "The best capture is not another broad forecast. It is a correction-plus-sale: first, fix the existing copper board's TC/RC money path before it becomes a bad trade. Zero or negative TC/RCs mean smelter-margin distress caused by concentrate tightness and excess smelting capacity, not a clean long-smelter rent signal. That creates a live, paid research product for a base-metals or event-driven PM before the June 30, 2026 Commerce copper update. The second capture is grid hands: AI load and transmission buildout have pushed the bottleneck into the small set of people who can model, protect, commission, and energize high-voltage assets. That one has obvious exposed buyers, but the landable ask is not a retainer from a utility cold. It is a cheap schedule-risk memo for HVDC developers, large-load power teams, or an infra investor who needs to know which projects slip because the human bottleneck is real.",
+  "shortlist": [
+    {
+      "rank": 1,
+      "headline": "Correct the copper TC/RC signal and sell a 1-page inversion memo to a base-metals PM before the June 30 Commerce copper update.",
+      "target_org": "Base-metals / event-driven PM; first lead: Goehring & Rozencwajg or another natural-resource fund with copper exposure",
+      "value_mechanism": "One-time paid note or expert call after a free teaser. The product is the correction: do not confuse TC/RC distress with smelter-margin rent. Split the trade into policy-rescue, margin-distress, and concentration branches.",
+      "first_move": "Write and send the TC/RC inversion memo: define TC/RC, show why zero/negative means smelter distress, name the June 30 Commerce catalyst, and offer the full branch map plus 30-minute call for USD 2k-5k.",
+      "expected_value": "Small direct ticket, high strategic value. It prevents a bad self-position, creates a dated proof artifact, and can land with a fund because it fixes a live tradable misunderstanding.",
+      "effort": "low"
+    },
+    {
+      "rank": 2,
+      "headline": "Sell a grid-hands schedule-risk brief: which HVDC and large-load projects slip because P&C, relay, commissioning, and SAP crews are the actual constraint.",
+      "target_org": "HVDC developers and large-load power teams; first leads: Invenergy Transmission / Grain Belt Express, Grid United / North Plains Connector, and data-center power procurement teams",
+      "value_mechanism": "Paid schedule-risk brief or diligence call. The buyer pays to avoid a false critical path that names transformers/cable only while the actual delay is protection settings, commissioning windows, SAP authorization, or HVDC skill availability.",
+      "first_move": "Draft a 2-page schedule-risk heat map using Grain Belt Express, North Plains Connector, NERC large-load actions, ENTSO-E workforce stats, and National Grid's HVDC skills acceleration as the proof spine.",
+      "expected_value": "Medium ticket, medium odds. A cold utility retainer is unlikely, but a project developer, large-load buyer, or infra investor has direct schedule exposure and can buy a scoped memo.",
+      "effort": "medium"
+    }
+  ],
+  "this_week": [
+    "Do not take the current Aurubis long from the existing capture board without re-underwriting it. The TC/RC signal was inverted.",
+    "Produce the TC/RC inversion memo as a dated Vati proof object: one page, three branches, five falsifiers, and no real-money trade recommendation.",
+    "Send the copper teaser to one natural-resource PM and one base-metals analyst route. Ask for a paid scoped note or 30-minute call, not a retainer.",
+    "Build the grid-hands heat map next: three projects, three labor gates, three near-term watch signals, one clear buyer ask.",
+    "Log both as capture experiments with stop conditions: if the copper PM says the inversion is consensus, kill; if the grid brief cannot name a project-level decision, demote to research."
+  ],
+  "plans": [
+    {
+      "headline": "TC/RC inversion: the existing copper capture should be corrected from 'long smelter rent' to 'smelter distress plus policy-rescue optionality'.",
+      "verdict": "PURSUE",
+      "why": "This is capturable now because it fixes a live error in the current board and turns that correction into a buyer-useful memo. Low or negative TC/RCs are not a clean signal that smelters own new rent. They are the fee smelters receive from miners, and they fall when concentrate supply is tight and smelters compete for feed. The right branch map is: (1) continued concentrate tightness crushes custom-smelter margins; (2) Western governments may rescue strategically important smelters because closures are hard to reverse; (3) if China capacity cuts and mine supply recover, TC/RCs rebound and the thesis changes again. A base-metals PM can trade that branch map immediately. An operator retainer is too slow. A paper-trade card plus a paid note is realistic.",
+      "targets": [
+        {
+          "org": "Goehring & Rozencwajg",
+          "role": "Natural-resource portfolio manager / copper research lead",
+          "person": "Adam Rozencwajg",
+          "care_about": "G&R is a natural-resource investment firm with public copper commentary. The corrected read is directly useful because it separates copper-price bullishness from smelter-margin distress and policy-rescue optionality.",
+          "reach": "Public commentary and firm site are the lead path. Send a short teaser that says: the TC/RC signal is not bullish smelter margin; it is the setup for a policy-rescue/event branch ahead of the June 30 Commerce update."
+        },
+        {
+          "org": "Sprott / critical-materials ETF and active metals desks",
+          "role": "Portfolio manager or analyst covering copper miners and critical-materials equities",
+          "person": "",
+          "care_about": "The branch map helps distinguish copper miners, integrated smelters, custom smelters, and policy-protected domestic assets instead of treating copper as one commodity beta.",
+          "reach": "Use the public investment-team route as a lead only; no guessed email. The first move is a teaser plus a request for the right copper/mining analyst."
+        },
+        {
+          "org": "Commodity event-driven / base-metals desk at a multi-strat",
+          "role": "Base-metals PM or analyst",
+          "person": "",
+          "care_about": "The June 30, 2026 Commerce update creates a dated event. The desk can express refined-copper tariff probability, domestic support, smelter distress, or copper-equity relative value.",
+          "reach": "Warm intro preferred. Cold route only if the note is extremely specific: TC/RC inversion, Commerce date, exact falsifiers, and paper-trade branch map."
+        }
+      ],
+      "the_ask": "Send a free 8-line teaser: 'The current copper setup is not simply long smelters. Zero/negative TC/RCs mean concentrate tightness and smelter-margin distress. The tradable edge is the branch point before June 30: policy rescue versus continued margin compression versus China capacity cuts. I can send the 1-page branch map with falsifiers and a 30-minute call for USD 2k-5k.'",
+      "value_mechanism": "One-time paid note or expert call. Do not pitch an operator retainer. Do not take a real-money position from the old capture without fixing the signal. The repeatable product is 'forecast error correction before capital acts': a concise memo that catches a live market narrative inversion and names the event path.",
+      "who_pays": "A base-metals or event-driven investor pays a small ticket because the memo can change a trade or prevent a bad one. Realistic first ticket: USD 2k-5k for the note/call. Follow-on only if a checkpoint resolves our way or the PM asks for continued branch monitoring.",
+      "our_angle": "The credibility is not 'we know copper better than CRU'. It is that Vaticinus runs the constraint-migration gate and then tries to break its own money path. The proof is the correction itself: the model caught that a compelling value-capture plan had the sign wrong before money moved.",
+      "proof_to_show": "Show three source anchors: CGEP states low TC/RCs threaten smelter viability; Reuters/MINING.COM reports the 2026 zero benchmark and explains that charges fall when mine supply tightens; the White House proclamation sets the June 30, 2026 domestic-copper-market update including refining capacity and refined-copper tariffs.",
+      "instrument": "No real-money instruction. Paper-trade the branches first: long policy-protected domestic/refined-copper beneficiaries only if tariff/support probability rises; avoid treating negative TC/RCs as immediate long-smelter-margin evidence; watch TC/RC recovery, China output cuts, cathode premiums, and Commerce language.",
+      "first_move": "Write the 1-page TC/RC inversion memo today and send it to one natural-resource PM plus one base-metals analyst route. Attach the dated paper-trade card and ask for a paid scoped note/call.",
+      "checkpoints": [
+        "2026-06-30: Commerce update language on domestic copper markets, refining capacity, and whether phased refined-copper duties for 2027 and 2028 are warranted.",
+        "Through Q3 2026: spot TC/RCs and annual benchmark direction; a rebound changes the margin story, while prolonged negative prints support distress.",
+        "Chinese smelter output cuts greater than 10 percent are implemented and sustained, or fail to materialize.",
+        "Domestic or allied smelter support appears: price floors, production tax credits, modernization grants, or DPA-linked domestic sales requirements."
+      ],
+      "disqualifier": "Kill the paid-note path if two credible base-metals PMs say the TC/RC inversion is already fully consensus and no trade branch changes. Kill the self-position if the memo cannot define a clean instrument and stop condition without relying on the inverted TC/RC interpretation.",
+      "confidence": "medium",
+      "refute": {
+        "money_path_holds": true,
+        "refutation": "A PM may already know TC/RC mechanics, and an unknown shop rarely gets paid for a one-off commodity note. Also, the June 30 update may be public-policy noise rather than a market-moving catalyst.",
+        "fixes": "Do not sell 'copper expertise'. Sell a tight error-correction and event-branch artifact with a paper-trade card, source links, and falsifiers. Keep the ticket small and make the free teaser useful enough to get forwarded.",
+        "hardened_ask": "A USD 2k-5k scoped note/call, not a retainer. Deliverable: TC/RC inversion memo, branch map, dated catalysts, falsifiers, and paper-trade watchlist.",
+        "realistic_ticket": "USD 2k-5k for a first paid note/call; zero if no PM bites after two targeted sends.",
+        "revised_verdict": "PURSUE",
+        "revised_confidence": "medium"
+      }
+    },
+    {
+      "headline": "Grid hands: HVDC and large-load power schedules are starting to bind on P&C, relay, commissioning, SAP, and HVDC-skilled crews rather than headline steel, transformers, or cable alone.",
+      "verdict": "PURSUE",
+      "why": "This is capturable because the buyers are exposed to schedule, not to a theoretical commodity price. NERC's large-load alert puts transmission planners, owners, operators, balancing authorities, and reliability coordinators on a dated action path. ENTSO-E says 88 percent of TSOs face shortages, and National Grid is explicitly accelerating HVDC, digital, cyber, overhead-lineworker, and Senior Authorised Person training. Grain Belt Express and North Plains Connector are live US HVDC projects with 2026-2030 execution windows. The local data layer has no dependency match and no market anchor, which is exactly the sales point: the labor gate is not in the visible project dashboards yet.",
+      "targets": [
+        {
+          "org": "Invenergy Transmission / Grain Belt Express",
+          "role": "Executive sponsor / transmission project delivery owner",
+          "person": "Erin Lieberman",
+          "care_about": "Grain Belt Express Phase 1 targets 2026 construction and has awarded Quanta/Kiewit. A schedule-risk memo that names P&C, protection settings, commissioning windows, and HVDC skill availability is useful if it changes contingency planning or contractor allocation.",
+          "reach": "The federal permitting dashboard names Erin Lieberman as sponsor contact. First ask is not a sale: send the heat map and ask which labor gate is actually on the critical path."
+        },
+        {
+          "org": "Grid United / North Plains Connector",
+          "role": "CEO / project development leadership",
+          "person": "Michael Skelly",
+          "care_about": "North Plains Connector is an interregional HVDC line tying together regional markets. If the project clears permits and hardware but lacks certified commissioning and protection talent, delay cost is real. They benefit from early labor-risk mapping and contractor capacity intelligence.",
+          "reach": "Official Grid United leadership page names Michael Skelly. Warm route preferred through energy/transmission network; cold teaser should be a one-page labor critical-path map, not a generic forecast."
+        },
+        {
+          "org": "Hyperscaler or data-center power procurement team",
+          "role": "Director of energy procurement / grid interconnection / reliability engineering",
+          "person": "",
+          "care_about": "Large-load projects now face tougher modeling, ride-through, commissioning, and operational coordination expectations. The buyer pays if the memo helps avoid a false energization date or a rejected interconnection package.",
+          "reach": "Use relationship path only. Cold outreach should go through public energy partnerships or data-center power events, with NERC Level 3 actions as the dated hook."
+        },
+        {
+          "org": "Infrastructure investor with exposure to HVDC, transmission EPC, or data-center power",
+          "role": "Infrastructure diligence partner / operating partner",
+          "person": "",
+          "care_about": "The investor needs to know which projects slip for human-certification reasons, not just equipment or permitting. This can change underwriting, reserve assumptions, and contractor choice.",
+          "reach": "Pitch as diligence, not consulting: 'I can identify the hidden human critical path before investment committee assumes the hardware date is the energization date.'"
+        }
+      ],
+      "the_ask": "Offer a fixed-scope schedule-risk brief: 'We map the hidden human critical path for your HVDC or large-load power project: relay/protection settings, commissioning windows, SAP authorization, HVDC/digital skills, and contractor availability. You get a two-page heat map, three watch signals, and the specific question to ask Quanta/Kiewit/Hitachi/National Grid-type counterparties before you believe the energization date.'",
+      "value_mechanism": "Paid diligence brief or project schedule-risk call. The first product is small: USD 3k-10k for a two-page heat map and 30-minute call. If a buyer is live, it becomes a monthly watchlist over contractor capacity, NERC requirements, project milestones, and labor-market signals.",
+      "who_pays": "Most likely: an infra investor, large-load power buyer, or HVDC developer with one named project at risk. Less likely: a regulated utility cold, because they have internal engineering and slow procurement. The faster path is a scoped memo tied to a specific schedule decision.",
+      "our_angle": "Vaticinus is credible because the call is not 'the grid is hard'. It names the next constraint after hardware: the certified people who make high-voltage assets safe to energize. The local data layer failing to match this node becomes part of the proof that dashboards over-index on permits, cable, and transformers while under-indexing on commissioning talent.",
+      "proof_to_show": "NERC's Level 3 computational-load alert names the planning and operating entities on the action path; ENTSO-E states 88 percent of TSOs face shortages and flags a 1.5 million global grid-sector job gap by 2030; National Grid is accelerating HVDC skills and Senior Authorised Person accreditation; Invenergy has a 2026 Grain Belt construction target with Quanta/Kiewit execution partners.",
+      "instrument": "Optional paper basket only, not the core: watch Quanta Services, MYR, and other specialty grid contractors against utilities/developers if backlog and margin show labor scarcity. The cleaner monetization is diligence, because public equities may have already priced the broad AI/grid contractor story.",
+      "first_move": "Draft the grid-hands heat map with three exposed projects: Grain Belt Express, North Plains Connector, and one data-center large-load interconnection. For each, list hardware date, human gate, ask-the-contractor question, and stop condition.",
+      "checkpoints": [
+        "2026-08-03: NERC Level 3 response deadline for applicable registered entities on computational loads.",
+        "2026 construction start signals for Grain Belt Express Phase 1: contractor mobilization, commissioning plan, protection/relay scope, and any stated schedule risk.",
+        "ENTSO-E and UK grid workforce updates: whether TSO shortages move from strategy slides into named project delays.",
+        "National Grid or other TSO updates on Senior Authorised Person, HVDC, and overhead-lineworker accreditation time."
+      ],
+      "disqualifier": "Drop the paid path if the brief cannot identify a project-level decision that changes this quarter. If the buyer says the labor risk is fully owned by the EPC and not a schedule risk they can act on, demote to watchlist. If contractor backlog and project updates show no labor-driven slippage, kill.",
+      "confidence": "medium",
+      "refute": {
+        "money_path_holds": true,
+        "refutation": "Utilities and HVDC developers already know workforce is a problem, and a small outside forecasting shop may not have enough engineering credibility to advise commissioning. The broad contractor equity trade is crowded.",
+        "fixes": "Avoid pretending to be the engineer of record. Sell schedule-risk intelligence: specific project, specific human gate, specific question for the EPC or grid operator. Start with infra investors or data-center power buyers rather than utility procurement.",
+        "hardened_ask": "USD 3k-10k scoped heat map for one named project or one portfolio. Deliverable: human critical path, contractor questions, watch signals, and kill conditions.",
+        "realistic_ticket": "USD 3k-10k for first project-specific brief; retainer only after a buyer confirms the heat map changed a diligence or schedule decision.",
+        "revised_verdict": "PURSUE",
+        "revised_confidence": "medium"
+      }
+    }
+  ],
+  "n_pursue": 2,
+  "n_total": 2
+}

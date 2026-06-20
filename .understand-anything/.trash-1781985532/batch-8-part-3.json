@@ -1,0 +1,1893 @@
+{
+  "nodes": [
+    {
+      "id": "file:engine/feeds/usaspending_sam.py",
+      "type": "file",
+      "name": "usaspending_sam.py",
+      "filePath": "engine/feeds/usaspending_sam.py",
+      "summary": "usaspending_sam.py is a code asset in the forecasting engine. It contains 12 functions, 1 class.",
+      "tags": [
+        "forecasting-engine",
+        "code",
+        "file",
+        "usaspending-sam"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:engine/feeds/usaspending_sam.py:_today",
+      "type": "function",
+      "name": "_today",
+      "filePath": "engine/feeds/usaspending_sam.py",
+      "lineRange": [
+        129,
+        130
+      ],
+      "summary": "Defines _today in usaspending_sam.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "usaspending-sam"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/usaspending_sam.py:_current_fiscal_year",
+      "type": "function",
+      "name": "_current_fiscal_year",
+      "filePath": "engine/feeds/usaspending_sam.py",
+      "lineRange": [
+        133,
+        135
+      ],
+      "summary": "Defines _current_fiscal_year in usaspending_sam.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "usaspending-sam"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/usaspending_sam.py:fiscal_period",
+      "type": "function",
+      "name": "fiscal_period",
+      "filePath": "engine/feeds/usaspending_sam.py",
+      "lineRange": [
+        138,
+        143
+      ],
+      "summary": "Defines fiscal_period in usaspending_sam.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "usaspending-sam"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/usaspending_sam.py:selected_topics",
+      "type": "function",
+      "name": "selected_topics",
+      "filePath": "engine/feeds/usaspending_sam.py",
+      "lineRange": [
+        146,
+        148
+      ],
+      "summary": "Defines selected_topics in usaspending_sam.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "usaspending-sam"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/usaspending_sam.py:_request_summary",
+      "type": "function",
+      "name": "_request_summary",
+      "filePath": "engine/feeds/usaspending_sam.py",
+      "lineRange": [
+        151,
+        165
+      ],
+      "summary": "Defines _request_summary in usaspending_sam.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-access",
+        "usaspending-sam"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/usaspending_sam.py:_finite_number",
+      "type": "function",
+      "name": "_finite_number",
+      "filePath": "engine/feeds/usaspending_sam.py",
+      "lineRange": [
+        168,
+        173
+      ],
+      "summary": "Defines _finite_number in usaspending_sam.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "usaspending-sam"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/usaspending_sam.py:normalize_summary",
+      "type": "function",
+      "name": "normalize_summary",
+      "filePath": "engine/feeds/usaspending_sam.py",
+      "lineRange": [
+        176,
+        220
+      ],
+      "summary": "Defines normalize_summary in usaspending_sam.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "usaspending-sam"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/usaspending_sam.py:_write_jsonl_atomic",
+      "type": "function",
+      "name": "_write_jsonl_atomic",
+      "filePath": "engine/feeds/usaspending_sam.py",
+      "lineRange": [
+        223,
+        229
+      ],
+      "summary": "Defines _write_jsonl_atomic in usaspending_sam.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "usaspending-sam"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/usaspending_sam.py:_read_existing_rows",
+      "type": "function",
+      "name": "_read_existing_rows",
+      "filePath": "engine/feeds/usaspending_sam.py",
+      "lineRange": [
+        232,
+        247
+      ],
+      "summary": "Defines _read_existing_rows in usaspending_sam.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "usaspending-sam"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/usaspending_sam.py:_merge_rows",
+      "type": "function",
+      "name": "_merge_rows",
+      "filePath": "engine/feeds/usaspending_sam.py",
+      "lineRange": [
+        250,
+        257
+      ],
+      "summary": "Defines _merge_rows in usaspending_sam.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "usaspending-sam"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/usaspending_sam.py:_existing_line_count",
+      "type": "function",
+      "name": "_existing_line_count",
+      "filePath": "engine/feeds/usaspending_sam.py",
+      "lineRange": [
+        260,
+        264
+      ],
+      "summary": "Defines _existing_line_count in usaspending_sam.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "usaspending-sam"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/usaspending_sam.py:collect",
+      "type": "function",
+      "name": "collect",
+      "filePath": "engine/feeds/usaspending_sam.py",
+      "lineRange": [
+        267,
+        304
+      ],
+      "summary": "Defines collect in usaspending_sam.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "usaspending-sam"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:engine/feeds/usaspending_sam.py:Topic",
+      "type": "class",
+      "name": "Topic",
+      "filePath": "engine/feeds/usaspending_sam.py",
+      "lineRange": [
+        32,
+        35
+      ],
+      "summary": "Defines Topic in usaspending_sam.py, encapsulating reusable behavior or state for this module.",
+      "tags": [
+        "class",
+        "implementation",
+        "usaspending-sam"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:engine/feeds/usgs_earthquakes.py",
+      "type": "file",
+      "name": "usgs_earthquakes.py",
+      "filePath": "engine/feeds/usgs_earthquakes.py",
+      "summary": "usgs_earthquakes.py is a code asset in the forecasting engine. It contains 8 functions.",
+      "tags": [
+        "forecasting-engine",
+        "code",
+        "file",
+        "usgs-earthquakes"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/feeds/usgs_earthquakes.py:_existing_line_count",
+      "type": "function",
+      "name": "_existing_line_count",
+      "filePath": "engine/feeds/usgs_earthquakes.py",
+      "lineRange": [
+        30,
+        34
+      ],
+      "summary": "Defines _existing_line_count in usgs_earthquakes.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "usgs-earthquakes"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/usgs_earthquakes.py:_write_jsonl_atomic",
+      "type": "function",
+      "name": "_write_jsonl_atomic",
+      "filePath": "engine/feeds/usgs_earthquakes.py",
+      "lineRange": [
+        37,
+        43
+      ],
+      "summary": "Defines _write_jsonl_atomic in usgs_earthquakes.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "usgs-earthquakes"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/usgs_earthquakes.py:_date_from_ms",
+      "type": "function",
+      "name": "_date_from_ms",
+      "filePath": "engine/feeds/usgs_earthquakes.py",
+      "lineRange": [
+        46,
+        50
+      ],
+      "summary": "Defines _date_from_ms in usgs_earthquakes.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "usgs-earthquakes"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/usgs_earthquakes.py:fetch_events",
+      "type": "function",
+      "name": "fetch_events",
+      "filePath": "engine/feeds/usgs_earthquakes.py",
+      "lineRange": [
+        53,
+        72
+      ],
+      "summary": "Defines fetch_events in usgs_earthquakes.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-access",
+        "usgs-earthquakes"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/usgs_earthquakes.py:_example",
+      "type": "function",
+      "name": "_example",
+      "filePath": "engine/feeds/usgs_earthquakes.py",
+      "lineRange": [
+        75,
+        95
+      ],
+      "summary": "Defines _example in usgs_earthquakes.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "usgs-earthquakes"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/usgs_earthquakes.py:_append_example",
+      "type": "function",
+      "name": "_append_example",
+      "filePath": "engine/feeds/usgs_earthquakes.py",
+      "lineRange": [
+        98,
+        100
+      ],
+      "summary": "Defines _append_example in usgs_earthquakes.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "usgs-earthquakes"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/usgs_earthquakes.py:normalize",
+      "type": "function",
+      "name": "normalize",
+      "filePath": "engine/feeds/usgs_earthquakes.py",
+      "lineRange": [
+        103,
+        167
+      ],
+      "summary": "Defines normalize in usgs_earthquakes.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "usgs-earthquakes"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/feeds/usgs_earthquakes.py:collect",
+      "type": "function",
+      "name": "collect",
+      "filePath": "engine/feeds/usgs_earthquakes.py",
+      "lineRange": [
+        170,
+        191
+      ],
+      "summary": "Defines collect in usgs_earthquakes.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "usgs-earthquakes"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:engine/feeds/usgs_minerals.py",
+      "type": "file",
+      "name": "usgs_minerals.py",
+      "filePath": "engine/feeds/usgs_minerals.py",
+      "summary": "usgs_minerals.py is a code asset in the forecasting engine. It contains 10 functions.",
+      "tags": [
+        "forecasting-engine",
+        "code",
+        "file",
+        "usgs-minerals"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:engine/feeds/usgs_minerals.py:_existing_line_count",
+      "type": "function",
+      "name": "_existing_line_count",
+      "filePath": "engine/feeds/usgs_minerals.py",
+      "lineRange": [
+        208,
+        212
+      ],
+      "summary": "Defines _existing_line_count in usgs_minerals.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "usgs-minerals"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/usgs_minerals.py:_write_jsonl_atomic",
+      "type": "function",
+      "name": "_write_jsonl_atomic",
+      "filePath": "engine/feeds/usgs_minerals.py",
+      "lineRange": [
+        215,
+        221
+      ],
+      "summary": "Defines _write_jsonl_atomic in usgs_minerals.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "usgs-minerals"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/usgs_minerals.py:_fetch_bytes",
+      "type": "function",
+      "name": "_fetch_bytes",
+      "filePath": "engine/feeds/usgs_minerals.py",
+      "lineRange": [
+        224,
+        235
+      ],
+      "summary": "Defines _fetch_bytes in usgs_minerals.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-access",
+        "usgs-minerals"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/usgs_minerals.py:resolve_salient_csv_url",
+      "type": "function",
+      "name": "resolve_salient_csv_url",
+      "filePath": "engine/feeds/usgs_minerals.py",
+      "lineRange": [
+        238,
+        259
+      ],
+      "summary": "Defines resolve_salient_csv_url in usgs_minerals.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "usgs-minerals"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/usgs_minerals.py:_to_float",
+      "type": "function",
+      "name": "_to_float",
+      "filePath": "engine/feeds/usgs_minerals.py",
+      "lineRange": [
+        262,
+        275
+      ],
+      "summary": "Defines _to_float in usgs_minerals.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "usgs-minerals"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/usgs_minerals.py:_unit_for_column",
+      "type": "function",
+      "name": "_unit_for_column",
+      "filePath": "engine/feeds/usgs_minerals.py",
+      "lineRange": [
+        278,
+        281
+      ],
+      "summary": "Defines _unit_for_column in usgs_minerals.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "usgs-minerals"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/usgs_minerals.py:_stream_label",
+      "type": "function",
+      "name": "_stream_label",
+      "filePath": "engine/feeds/usgs_minerals.py",
+      "lineRange": [
+        289,
+        299
+      ],
+      "summary": "Defines _stream_label in usgs_minerals.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "usgs-minerals"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/usgs_minerals.py:_discover_measures",
+      "type": "function",
+      "name": "_discover_measures",
+      "filePath": "engine/feeds/usgs_minerals.py",
+      "lineRange": [
+        302,
+        322
+      ],
+      "summary": "Defines _discover_measures in usgs_minerals.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "usgs-minerals"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/usgs_minerals.py:collect_commodity",
+      "type": "function",
+      "name": "collect_commodity",
+      "filePath": "engine/feeds/usgs_minerals.py",
+      "lineRange": [
+        325,
+        396
+      ],
+      "summary": "Defines collect_commodity in usgs_minerals.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "usgs-minerals"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/feeds/usgs_minerals.py:collect",
+      "type": "function",
+      "name": "collect",
+      "filePath": "engine/feeds/usgs_minerals.py",
+      "lineRange": [
+        399,
+        421
+      ],
+      "summary": "Defines collect in usgs_minerals.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "usgs-minerals"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:engine/feeds/wikipedia.py",
+      "type": "file",
+      "name": "wikipedia.py",
+      "filePath": "engine/feeds/wikipedia.py",
+      "summary": "wikipedia.py is a code asset in the forecasting engine. It contains 5 functions.",
+      "tags": [
+        "forecasting-engine",
+        "code",
+        "file",
+        "wikipedia"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/feeds/wikipedia.py:_write_jsonl_atomic",
+      "type": "function",
+      "name": "_write_jsonl_atomic",
+      "filePath": "engine/feeds/wikipedia.py",
+      "lineRange": [
+        47,
+        53
+      ],
+      "summary": "Defines _write_jsonl_atomic in wikipedia.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "wikipedia"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/wikipedia.py:_fetch_monthly_items",
+      "type": "function",
+      "name": "_fetch_monthly_items",
+      "filePath": "engine/feeds/wikipedia.py",
+      "lineRange": [
+        56,
+        73
+      ],
+      "summary": "Defines _fetch_monthly_items in wikipedia.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-access",
+        "wikipedia"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/wikipedia.py:yearly_counts",
+      "type": "function",
+      "name": "yearly_counts",
+      "filePath": "engine/feeds/wikipedia.py",
+      "lineRange": [
+        76,
+        89
+      ],
+      "summary": "Defines yearly_counts in wikipedia.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "wikipedia"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/wikipedia.py:normalize_article",
+      "type": "function",
+      "name": "normalize_article",
+      "filePath": "engine/feeds/wikipedia.py",
+      "lineRange": [
+        92,
+        111
+      ],
+      "summary": "Defines normalize_article in wikipedia.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "wikipedia"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/wikipedia.py:collect",
+      "type": "function",
+      "name": "collect",
+      "filePath": "engine/feeds/wikipedia.py",
+      "lineRange": [
+        114,
+        135
+      ],
+      "summary": "Defines collect in wikipedia.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "wikipedia"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:engine/feeds/world_bank.py",
+      "type": "file",
+      "name": "world_bank.py",
+      "filePath": "engine/feeds/world_bank.py",
+      "summary": "world_bank.py is a code asset in the forecasting engine. It contains 8 functions.",
+      "tags": [
+        "forecasting-engine",
+        "code",
+        "file",
+        "world-bank"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:engine/feeds/world_bank.py:_row_key",
+      "type": "function",
+      "name": "_row_key",
+      "filePath": "engine/feeds/world_bank.py",
+      "lineRange": [
+        186,
+        187
+      ],
+      "summary": "Defines _row_key in world_bank.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-bank"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/world_bank.py:_existing_rows",
+      "type": "function",
+      "name": "_existing_rows",
+      "filePath": "engine/feeds/world_bank.py",
+      "lineRange": [
+        190,
+        204
+      ],
+      "summary": "Defines _existing_rows in world_bank.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-bank"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/world_bank.py:_merge_rows",
+      "type": "function",
+      "name": "_merge_rows",
+      "filePath": "engine/feeds/world_bank.py",
+      "lineRange": [
+        207,
+        213
+      ],
+      "summary": "Defines _merge_rows in world_bank.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-bank"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/world_bank.py:_write_rows",
+      "type": "function",
+      "name": "_write_rows",
+      "filePath": "engine/feeds/world_bank.py",
+      "lineRange": [
+        216,
+        222
+      ],
+      "summary": "Defines _write_rows in world_bank.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-bank"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/world_bank.py:_fetch_json",
+      "type": "function",
+      "name": "_fetch_json",
+      "filePath": "engine/feeds/world_bank.py",
+      "lineRange": [
+        225,
+        236
+      ],
+      "summary": "Defines _fetch_json in world_bank.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-access",
+        "world-bank"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/world_bank.py:fetch_indicator",
+      "type": "function",
+      "name": "fetch_indicator",
+      "filePath": "engine/feeds/world_bank.py",
+      "lineRange": [
+        239,
+        260
+      ],
+      "summary": "Defines fetch_indicator in world_bank.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-access",
+        "world-bank"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/world_bank.py:normalize",
+      "type": "function",
+      "name": "normalize",
+      "filePath": "engine/feeds/world_bank.py",
+      "lineRange": [
+        263,
+        289
+      ],
+      "summary": "Defines normalize in world_bank.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "world-bank"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/world_bank.py:collect",
+      "type": "function",
+      "name": "collect",
+      "filePath": "engine/feeds/world_bank.py",
+      "lineRange": [
+        292,
+        327
+      ],
+      "summary": "Defines collect in world_bank.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-bank"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:engine/feeds/worldbank_capital.py",
+      "type": "file",
+      "name": "worldbank_capital.py",
+      "filePath": "engine/feeds/worldbank_capital.py",
+      "summary": "worldbank_capital.py is a code asset in the forecasting engine. It contains 3 functions, 1 internal import.",
+      "tags": [
+        "forecasting-engine",
+        "database",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/feeds/worldbank_capital.py:_existing_count",
+      "type": "function",
+      "name": "_existing_count",
+      "filePath": "engine/feeds/worldbank_capital.py",
+      "lineRange": [
+        76,
+        80
+      ],
+      "summary": "Defines _existing_count in worldbank_capital.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "worldbank-capital"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/worldbank_capital.py:normalize",
+      "type": "function",
+      "name": "normalize",
+      "filePath": "engine/feeds/worldbank_capital.py",
+      "lineRange": [
+        83,
+        100
+      ],
+      "summary": "Defines normalize in worldbank_capital.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "worldbank-capital"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/worldbank_capital.py:collect",
+      "type": "function",
+      "name": "collect",
+      "filePath": "engine/feeds/worldbank_capital.py",
+      "lineRange": [
+        103,
+        133
+      ],
+      "summary": "Defines collect in worldbank_capital.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "worldbank-capital"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:engine/feeds/usaspending_sam.py",
+      "target": "function:engine/feeds/usaspending_sam.py:_today",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/usaspending_sam.py",
+      "target": "function:engine/feeds/usaspending_sam.py:_today",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/usaspending_sam.py",
+      "target": "function:engine/feeds/usaspending_sam.py:_current_fiscal_year",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/usaspending_sam.py",
+      "target": "function:engine/feeds/usaspending_sam.py:_current_fiscal_year",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/usaspending_sam.py",
+      "target": "function:engine/feeds/usaspending_sam.py:fiscal_period",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/usaspending_sam.py",
+      "target": "function:engine/feeds/usaspending_sam.py:fiscal_period",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/usaspending_sam.py",
+      "target": "function:engine/feeds/usaspending_sam.py:selected_topics",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/usaspending_sam.py",
+      "target": "function:engine/feeds/usaspending_sam.py:selected_topics",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/usaspending_sam.py",
+      "target": "function:engine/feeds/usaspending_sam.py:_request_summary",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/usaspending_sam.py",
+      "target": "function:engine/feeds/usaspending_sam.py:_request_summary",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/usaspending_sam.py",
+      "target": "function:engine/feeds/usaspending_sam.py:_finite_number",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/usaspending_sam.py",
+      "target": "function:engine/feeds/usaspending_sam.py:_finite_number",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/usaspending_sam.py",
+      "target": "function:engine/feeds/usaspending_sam.py:normalize_summary",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/usaspending_sam.py",
+      "target": "function:engine/feeds/usaspending_sam.py:normalize_summary",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/usaspending_sam.py",
+      "target": "function:engine/feeds/usaspending_sam.py:_write_jsonl_atomic",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/usaspending_sam.py",
+      "target": "function:engine/feeds/usaspending_sam.py:_write_jsonl_atomic",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/usaspending_sam.py",
+      "target": "function:engine/feeds/usaspending_sam.py:_read_existing_rows",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/usaspending_sam.py",
+      "target": "function:engine/feeds/usaspending_sam.py:_read_existing_rows",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/usaspending_sam.py",
+      "target": "function:engine/feeds/usaspending_sam.py:_merge_rows",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/usaspending_sam.py",
+      "target": "function:engine/feeds/usaspending_sam.py:_merge_rows",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/usaspending_sam.py",
+      "target": "function:engine/feeds/usaspending_sam.py:_existing_line_count",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/usaspending_sam.py",
+      "target": "function:engine/feeds/usaspending_sam.py:_existing_line_count",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/usaspending_sam.py",
+      "target": "function:engine/feeds/usaspending_sam.py:collect",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/usaspending_sam.py",
+      "target": "function:engine/feeds/usaspending_sam.py:collect",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/usaspending_sam.py",
+      "target": "class:engine/feeds/usaspending_sam.py:Topic",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/usaspending_sam.py",
+      "target": "class:engine/feeds/usaspending_sam.py:Topic",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/usgs_earthquakes.py",
+      "target": "function:engine/feeds/usgs_earthquakes.py:_existing_line_count",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/usgs_earthquakes.py",
+      "target": "function:engine/feeds/usgs_earthquakes.py:_existing_line_count",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/usgs_earthquakes.py",
+      "target": "function:engine/feeds/usgs_earthquakes.py:_write_jsonl_atomic",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/usgs_earthquakes.py",
+      "target": "function:engine/feeds/usgs_earthquakes.py:_write_jsonl_atomic",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/usgs_earthquakes.py",
+      "target": "function:engine/feeds/usgs_earthquakes.py:_date_from_ms",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/usgs_earthquakes.py",
+      "target": "function:engine/feeds/usgs_earthquakes.py:_date_from_ms",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/usgs_earthquakes.py",
+      "target": "function:engine/feeds/usgs_earthquakes.py:fetch_events",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/usgs_earthquakes.py",
+      "target": "function:engine/feeds/usgs_earthquakes.py:fetch_events",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/usgs_earthquakes.py",
+      "target": "function:engine/feeds/usgs_earthquakes.py:_example",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/usgs_earthquakes.py",
+      "target": "function:engine/feeds/usgs_earthquakes.py:_example",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/usgs_earthquakes.py",
+      "target": "function:engine/feeds/usgs_earthquakes.py:_append_example",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/usgs_earthquakes.py",
+      "target": "function:engine/feeds/usgs_earthquakes.py:_append_example",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/usgs_earthquakes.py",
+      "target": "function:engine/feeds/usgs_earthquakes.py:normalize",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/usgs_earthquakes.py",
+      "target": "function:engine/feeds/usgs_earthquakes.py:normalize",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/usgs_earthquakes.py",
+      "target": "function:engine/feeds/usgs_earthquakes.py:collect",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/usgs_earthquakes.py",
+      "target": "function:engine/feeds/usgs_earthquakes.py:collect",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/usgs_minerals.py",
+      "target": "function:engine/feeds/usgs_minerals.py:_existing_line_count",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/usgs_minerals.py",
+      "target": "function:engine/feeds/usgs_minerals.py:_existing_line_count",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/usgs_minerals.py",
+      "target": "function:engine/feeds/usgs_minerals.py:_write_jsonl_atomic",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/usgs_minerals.py",
+      "target": "function:engine/feeds/usgs_minerals.py:_write_jsonl_atomic",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/usgs_minerals.py",
+      "target": "function:engine/feeds/usgs_minerals.py:_fetch_bytes",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/usgs_minerals.py",
+      "target": "function:engine/feeds/usgs_minerals.py:_fetch_bytes",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/usgs_minerals.py",
+      "target": "function:engine/feeds/usgs_minerals.py:resolve_salient_csv_url",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/usgs_minerals.py",
+      "target": "function:engine/feeds/usgs_minerals.py:resolve_salient_csv_url",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/usgs_minerals.py",
+      "target": "function:engine/feeds/usgs_minerals.py:_to_float",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/usgs_minerals.py",
+      "target": "function:engine/feeds/usgs_minerals.py:_to_float",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/usgs_minerals.py",
+      "target": "function:engine/feeds/usgs_minerals.py:_unit_for_column",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/usgs_minerals.py",
+      "target": "function:engine/feeds/usgs_minerals.py:_unit_for_column",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/usgs_minerals.py",
+      "target": "function:engine/feeds/usgs_minerals.py:_stream_label",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/usgs_minerals.py",
+      "target": "function:engine/feeds/usgs_minerals.py:_stream_label",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/usgs_minerals.py",
+      "target": "function:engine/feeds/usgs_minerals.py:_discover_measures",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/usgs_minerals.py",
+      "target": "function:engine/feeds/usgs_minerals.py:_discover_measures",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/usgs_minerals.py",
+      "target": "function:engine/feeds/usgs_minerals.py:collect_commodity",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/usgs_minerals.py",
+      "target": "function:engine/feeds/usgs_minerals.py:collect_commodity",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/usgs_minerals.py",
+      "target": "function:engine/feeds/usgs_minerals.py:collect",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/usgs_minerals.py",
+      "target": "function:engine/feeds/usgs_minerals.py:collect",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/wikipedia.py",
+      "target": "function:engine/feeds/wikipedia.py:_write_jsonl_atomic",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/wikipedia.py",
+      "target": "function:engine/feeds/wikipedia.py:_write_jsonl_atomic",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/wikipedia.py",
+      "target": "function:engine/feeds/wikipedia.py:_fetch_monthly_items",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/wikipedia.py",
+      "target": "function:engine/feeds/wikipedia.py:_fetch_monthly_items",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/wikipedia.py",
+      "target": "function:engine/feeds/wikipedia.py:yearly_counts",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/wikipedia.py",
+      "target": "function:engine/feeds/wikipedia.py:yearly_counts",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/wikipedia.py",
+      "target": "function:engine/feeds/wikipedia.py:normalize_article",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/wikipedia.py",
+      "target": "function:engine/feeds/wikipedia.py:normalize_article",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/wikipedia.py",
+      "target": "function:engine/feeds/wikipedia.py:collect",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/wikipedia.py",
+      "target": "function:engine/feeds/wikipedia.py:collect",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/world_bank.py",
+      "target": "function:engine/feeds/world_bank.py:_row_key",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/world_bank.py",
+      "target": "function:engine/feeds/world_bank.py:_row_key",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/world_bank.py",
+      "target": "function:engine/feeds/world_bank.py:_existing_rows",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/world_bank.py",
+      "target": "function:engine/feeds/world_bank.py:_existing_rows",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/world_bank.py",
+      "target": "function:engine/feeds/world_bank.py:_merge_rows",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/world_bank.py",
+      "target": "function:engine/feeds/world_bank.py:_merge_rows",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/world_bank.py",
+      "target": "function:engine/feeds/world_bank.py:_write_rows",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/world_bank.py",
+      "target": "function:engine/feeds/world_bank.py:_write_rows",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/world_bank.py",
+      "target": "function:engine/feeds/world_bank.py:_fetch_json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/world_bank.py",
+      "target": "function:engine/feeds/world_bank.py:_fetch_json",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/world_bank.py",
+      "target": "function:engine/feeds/world_bank.py:fetch_indicator",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/world_bank.py",
+      "target": "function:engine/feeds/world_bank.py:fetch_indicator",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/world_bank.py",
+      "target": "function:engine/feeds/world_bank.py:normalize",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/world_bank.py",
+      "target": "function:engine/feeds/world_bank.py:normalize",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/world_bank.py",
+      "target": "function:engine/feeds/world_bank.py:collect",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/world_bank.py",
+      "target": "function:engine/feeds/world_bank.py:collect",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/worldbank_capital.py",
+      "target": "function:engine/feeds/worldbank_capital.py:_existing_count",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/worldbank_capital.py",
+      "target": "function:engine/feeds/worldbank_capital.py:_existing_count",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/worldbank_capital.py",
+      "target": "function:engine/feeds/worldbank_capital.py:normalize",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/worldbank_capital.py",
+      "target": "function:engine/feeds/worldbank_capital.py:normalize",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/worldbank_capital.py",
+      "target": "function:engine/feeds/worldbank_capital.py:collect",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/worldbank_capital.py",
+      "target": "function:engine/feeds/worldbank_capital.py:collect",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/worldbank_capital.py",
+      "target": "file:engine/feeds/world_bank.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "function:engine/feeds/usaspending_sam.py:_current_fiscal_year",
+      "target": "function:engine/feeds/usaspending_sam.py:_today",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/usaspending_sam.py:fiscal_period",
+      "target": "function:engine/feeds/usaspending_sam.py:_today",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/usaspending_sam.py:_request_summary",
+      "target": "function:engine/feeds/usaspending_sam.py:fiscal_period",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/usaspending_sam.py:normalize_summary",
+      "target": "function:engine/feeds/usaspending_sam.py:_today",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/usaspending_sam.py:normalize_summary",
+      "target": "function:engine/feeds/usaspending_sam.py:_finite_number",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/usaspending_sam.py:normalize_summary",
+      "target": "function:engine/feeds/usaspending_sam.py:fiscal_period",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/usaspending_sam.py:collect",
+      "target": "function:engine/feeds/usaspending_sam.py:_today",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/usaspending_sam.py:collect",
+      "target": "function:engine/feeds/usaspending_sam.py:_current_fiscal_year",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/usaspending_sam.py:collect",
+      "target": "function:engine/feeds/usaspending_sam.py:_read_existing_rows",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/usaspending_sam.py:collect",
+      "target": "function:engine/feeds/usaspending_sam.py:selected_topics",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/usaspending_sam.py:collect",
+      "target": "function:engine/feeds/usaspending_sam.py:_request_summary",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/usaspending_sam.py:collect",
+      "target": "function:engine/feeds/usaspending_sam.py:normalize_summary",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/usaspending_sam.py:collect",
+      "target": "function:engine/feeds/usaspending_sam.py:_merge_rows",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/usaspending_sam.py:collect",
+      "target": "function:engine/feeds/usaspending_sam.py:_write_jsonl_atomic",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/usaspending_sam.py:collect",
+      "target": "function:engine/feeds/usaspending_sam.py:_existing_line_count",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/usgs_earthquakes.py",
+      "target": "function:engine/feeds/usgs_earthquakes.py:_append_example",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/usgs_earthquakes.py",
+      "target": "function:engine/feeds/usgs_earthquakes.py:_example",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/usgs_earthquakes.py:normalize",
+      "target": "function:engine/feeds/usgs_earthquakes.py:_date_from_ms",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/usgs_earthquakes.py:collect",
+      "target": "function:engine/feeds/usgs_earthquakes.py:fetch_events",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/usgs_earthquakes.py:collect",
+      "target": "function:engine/feeds/usgs_earthquakes.py:normalize",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/usgs_earthquakes.py:collect",
+      "target": "function:engine/feeds/usgs_earthquakes.py:_existing_line_count",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/usgs_earthquakes.py:collect",
+      "target": "function:engine/feeds/usgs_earthquakes.py:_write_jsonl_atomic",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/usgs_minerals.py:resolve_salient_csv_url",
+      "target": "function:engine/feeds/usgs_minerals.py:_fetch_bytes",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/usgs_minerals.py:_discover_measures",
+      "target": "function:engine/feeds/usgs_minerals.py:_stream_label",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/usgs_minerals.py:_discover_measures",
+      "target": "function:engine/feeds/usgs_minerals.py:_unit_for_column",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/usgs_minerals.py:collect_commodity",
+      "target": "function:engine/feeds/usgs_minerals.py:resolve_salient_csv_url",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/usgs_minerals.py:collect_commodity",
+      "target": "function:engine/feeds/usgs_minerals.py:_fetch_bytes",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/usgs_minerals.py:collect_commodity",
+      "target": "function:engine/feeds/usgs_minerals.py:_discover_measures",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/usgs_minerals.py:collect_commodity",
+      "target": "function:engine/feeds/usgs_minerals.py:_to_float",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/usgs_minerals.py:collect",
+      "target": "function:engine/feeds/usgs_minerals.py:collect_commodity",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/usgs_minerals.py:collect",
+      "target": "function:engine/feeds/usgs_minerals.py:_existing_line_count",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/usgs_minerals.py:collect",
+      "target": "function:engine/feeds/usgs_minerals.py:_write_jsonl_atomic",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/wikipedia.py:collect",
+      "target": "function:engine/feeds/wikipedia.py:_fetch_monthly_items",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/wikipedia.py:collect",
+      "target": "function:engine/feeds/wikipedia.py:normalize_article",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/wikipedia.py:collect",
+      "target": "function:engine/feeds/wikipedia.py:yearly_counts",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/wikipedia.py:collect",
+      "target": "function:engine/feeds/wikipedia.py:_write_jsonl_atomic",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/world_bank.py:_existing_rows",
+      "target": "function:engine/feeds/world_bank.py:_row_key",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/world_bank.py:_merge_rows",
+      "target": "function:engine/feeds/world_bank.py:_row_key",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/world_bank.py:fetch_indicator",
+      "target": "function:engine/feeds/world_bank.py:_fetch_json",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/world_bank.py:collect",
+      "target": "function:engine/feeds/world_bank.py:fetch_indicator",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/world_bank.py:collect",
+      "target": "function:engine/feeds/world_bank.py:normalize",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/world_bank.py:collect",
+      "target": "function:engine/feeds/world_bank.py:_existing_rows",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/world_bank.py:collect",
+      "target": "function:engine/feeds/world_bank.py:_merge_rows",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/world_bank.py:collect",
+      "target": "function:engine/feeds/world_bank.py:_write_rows",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/worldbank_capital.py:collect",
+      "target": "function:engine/feeds/world_bank.py:fetch_indicator",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/worldbank_capital.py:collect",
+      "target": "function:engine/feeds/worldbank_capital.py:normalize",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/worldbank_capital.py:collect",
+      "target": "function:engine/feeds/worldbank_capital.py:_existing_count",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

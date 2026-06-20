@@ -1,0 +1,449 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 9,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "VOICE.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 48,
+      "nonEmptyLines": 35,
+      "sections": [
+        {
+          "heading": "VOICE.md - research, PDF, essay, and site voice",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Reference target",
+          "level": 2,
+          "line": 3
+        },
+        {
+          "heading": "House Voice",
+          "level": 2,
+          "line": 9
+        },
+        {
+          "heading": "Institutional Research Discipline",
+          "level": 2,
+          "line": 17
+        },
+        {
+          "heading": "What To Avoid",
+          "level": 2,
+          "line": 26
+        },
+        {
+          "heading": "Useful Structure",
+          "level": 2,
+          "line": 34
+        },
+        {
+          "heading": "Site And Landing Copy",
+          "level": 2,
+          "line": 43
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 7
+      }
+    },
+    {
+      "path": "WORLD_DATA_PIPELINE.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 203,
+      "nonEmptyLines": 154,
+      "sections": [
+        {
+          "heading": "WORLD_DATA_PIPELINE.md — \"Query the World\"",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "0. Why this is the top priority (the defensibility argument)",
+          "level": 2,
+          "line": 9
+        },
+        {
+          "heading": "1. The vision",
+          "level": 2,
+          "line": 31
+        },
+        {
+          "heading": "2. What already exists (do NOT rebuild — see DATA_LAYER_PLAN.md build log)",
+          "level": 2,
+          "line": 43
+        },
+        {
+          "heading": "3. Architecture — five tiers",
+          "level": 2,
+          "line": 61
+        },
+        {
+          "heading": "4. The sources (the world), mapped to the thesis spine",
+          "level": 2,
+          "line": 87
+        },
+        {
+          "heading": "5. The LLM extraction layer (the \"even with LLM if needed\" part — the real unlock)",
+          "level": 2,
+          "line": 104
+        },
+        {
+          "heading": "6. Storage + compute + cost model (honest, credits-rule-aware)",
+          "level": 2,
+          "line": 130
+        },
+        {
+          "heading": "7. Build order (highest leverage first)",
+          "level": 2,
+          "line": 147
+        },
+        {
+          "heading": "8. The raise — how much, for what, when",
+          "level": 2,
+          "line": 170
+        },
+        {
+          "heading": "9. One-line summary",
+          "level": 2,
+          "line": 198
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 11
+      }
+    },
+    {
+      "path": "doctrine.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 345,
+      "nonEmptyLines": 285,
+      "sections": [
+        {
+          "heading": "doctrine.md — How We Reason (the forecasting craft)",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "0. Why this file exists (the contamination decision)",
+          "level": 2,
+          "line": 10
+        },
+        {
+          "heading": "0.6 The two leakages — and why retrodiction can never validate judgment",
+          "level": 3,
+          "line": 32
+        },
+        {
+          "heading": "0.7 — Diverge wide, then converge hard (the two phases — and where the rules bind)",
+          "level": 2,
+          "line": 62
+        },
+        {
+          "heading": "1. The core stance — be a fox, not a hedgehog",
+          "level": 2,
+          "line": 105
+        },
+        {
+          "heading": "1.1 — Trust is the binding constraint (trust-maxxing)",
+          "level": 2,
+          "line": 115
+        },
+        {
+          "heading": "1.5 — What we read in research (the leading grain)",
+          "level": 2,
+          "line": 137
+        },
+        {
+          "heading": "1.6 — The altitude: predict the STRUCTURE, score the metric, earn the base rate",
+          "level": 2,
+          "line": 176
+        },
+        {
+          "heading": "2. The operational rules (the actual checklist)",
+          "level": 2,
+          "line": 269
+        },
+        {
+          "heading": "3. The reading lineage (Bucket 1 — where each rule comes from)",
+          "level": 2,
+          "line": 306
+        },
+        {
+          "heading": "4. What we explicitly do NOT do (anti-contamination guardrails)",
+          "level": 2,
+          "line": 326
+        },
+        {
+          "heading": "5. How this connects to the rest of the repo",
+          "level": 2,
+          "line": 339
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 12
+      }
+    },
+    {
+      "path": "humanizer-context.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 52,
+      "nonEmptyLines": 42,
+      "sections": [
+        {
+          "heading": "humanizer-context.md — Vati brand voice lock",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Register",
+          "level": 2,
+          "line": 7
+        },
+        {
+          "heading": "Banned outright (these are the tells that get us caught)",
+          "level": 2,
+          "line": 13
+        },
+        {
+          "heading": "House rules for forecast content (non-negotiable)",
+          "level": 2,
+          "line": 32
+        },
+        {
+          "heading": "Good vs bad (same fact)",
+          "level": 2,
+          "line": 44
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 5
+      }
+    },
+    {
+      "path": "newbenchmarksplan.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 43,
+      "nonEmptyLines": 36,
+      "sections": [
+        {
+          "heading": "newbenchmarksplan.md — win the live forecasting arena (fundraise artifact)",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Targets (one synchronized question feed)",
+          "level": 2,
+          "line": 10
+        },
+        {
+          "heading": "How we win (architecture — gate retrieval BY question class)",
+          "level": 2,
+          "line": 17
+        },
+        {
+          "heading": "No-overfit guardrails (non-negotiable)",
+          "level": 2,
+          "line": 24
+        },
+        {
+          "heading": "Timeline (tight)",
+          "level": 2,
+          "line": 30
+        },
+        {
+          "heading": "Definition of WIN",
+          "level": 2,
+          "line": 41
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 6
+      }
+    },
+    {
+      "path": "plan.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 73,
+      "nonEmptyLines": 47,
+      "sections": [
+        {
+          "heading": "plan.md — The North Star",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "The Goal",
+          "level": 2,
+          "line": 9
+        },
+        {
+          "heading": "The Scoreboard (how we measure \"huge\")",
+          "level": 2,
+          "line": 29
+        },
+        {
+          "heading": "Ambition vs. near-term proof",
+          "level": 2,
+          "line": 49
+        },
+        {
+          "heading": "What this is NOT",
+          "level": 2,
+          "line": 69
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 5
+      }
+    },
+    {
+      "path": "proof.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 172,
+      "nonEmptyLines": 128,
+      "sections": [
+        {
+          "heading": "proof.md — The Case (how we prove the system is strong)",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "1. The thesis, transmittable in one page",
+          "level": 2,
+          "line": 16
+        },
+        {
+          "heading": "2. The standard of proof (what we refuse to count)",
+          "level": 2,
+          "line": 35
+        },
+        {
+          "heading": "3. The ladder of proof",
+          "level": 2,
+          "line": 51
+        },
+        {
+          "heading": "4. Where we stand today (honest)",
+          "level": 2,
+          "line": 73
+        },
+        {
+          "heading": "5. Verify us yourself (don't trust — check)",
+          "level": 2,
+          "line": 89
+        },
+        {
+          "heading": "6. Who recognizes this (positioning, derived — not targeted)",
+          "level": 2,
+          "line": 103
+        },
+        {
+          "heading": "7. How we'd know we're wrong (system-level kill-criteria)",
+          "level": 2,
+          "line": 116
+        },
+        {
+          "heading": "8. Open gaps in the proof itself (named, not faked)",
+          "level": 2,
+          "line": 130
+        },
+        {
+          "heading": "Supporting proof artifacts (reserved — Mendeleev; created when there's evidence to fill them)",
+          "level": 2,
+          "line": 167
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 10
+      }
+    },
+    {
+      "path": "prophet-custom-agent.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 36,
+      "nonEmptyLines": 36,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 0
+      }
+    },
+    {
+      "path": "pyproject.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 26,
+      "nonEmptyLines": 23,
+      "sections": [
+        {
+          "heading": "project",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "tool.uv",
+          "level": 2,
+          "line": 18
+        },
+        {
+          "heading": "build-system",
+          "level": 1,
+          "line": 21
+        },
+        {
+          "heading": "tool.hatch.build.targets.wheel",
+          "level": 5,
+          "line": 25
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 4
+      }
+    }
+  ]
+}

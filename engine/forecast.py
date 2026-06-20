@@ -360,8 +360,9 @@ def calibration(conn: sqlite3.Connection) -> dict:
 
 
 # --- the SEAL: an un-backdateable snapshot of the live forward record ----------
-# The moat is TIME (VATI §6): a sealed, leak-free track record can't be back-dated, so a competitor
-# starting later is permanently behind. But the cards live in the GITIGNORED DB (local state) — nothing
+# The sealed record is PROOF of edge, not a moat (VATI §6): a leak-free track record can't be back-dated,
+# so it's un-fakeable evidence — but it only certifies edge, it doesn't create one. The cards live in the
+# GITIGNORED DB (local state) — nothing
 # proves WHEN a call was made. This exports the LIVE forward calls to a deterministic, committable
 # manifest + its sha256; a `git commit` (append-only, timestamped, pushable to GitHub) is the seal, and
 # `ots stamp` on the hash later adds a blockchain-anchored proof. Deterministic (rows sorted by id, keys

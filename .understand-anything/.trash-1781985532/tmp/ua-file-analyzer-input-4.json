@@ -1,0 +1,257 @@
+{
+  "projectRoot": "/Users/emizemani/Desktop/predictthefuture",
+  "batchFiles": [
+    {
+      "path": "chat/scripts/test-council.ts",
+      "language": "typescript",
+      "sizeLines": 31,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/scripts/test-credits.ts",
+      "language": "typescript",
+      "sizeLines": 41,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/src/app/api/capture/route.ts",
+      "language": "typescript",
+      "sizeLines": 96,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/src/app/api/chat/route.ts",
+      "language": "typescript",
+      "sizeLines": 134,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/src/app/api/checkout/route.ts",
+      "language": "typescript",
+      "sizeLines": 103,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/src/app/api/conversations/route.ts",
+      "language": "typescript",
+      "sizeLines": 40,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/src/app/api/council/route.ts",
+      "language": "typescript",
+      "sizeLines": 100,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/src/app/api/credits/route.ts",
+      "language": "typescript",
+      "sizeLines": 41,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/src/app/api/forecast/route.ts",
+      "language": "typescript",
+      "sizeLines": 77,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/src/app/api/messages/route.ts",
+      "language": "typescript",
+      "sizeLines": 48,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/src/app/api/portal/route.ts",
+      "language": "typescript",
+      "sizeLines": 45,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/src/app/api/record/route.ts",
+      "language": "typescript",
+      "sizeLines": 39,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/src/app/api/stripe/webhook/route.ts",
+      "language": "typescript",
+      "sizeLines": 108,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/src/lib/auth.ts",
+      "language": "typescript",
+      "sizeLines": 124,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/src/lib/capture.ts",
+      "language": "typescript",
+      "sizeLines": 284,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/src/lib/council.ts",
+      "language": "typescript",
+      "sizeLines": 340,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/src/lib/credits.ts",
+      "language": "typescript",
+      "sizeLines": 213,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/src/lib/dataLayer.ts",
+      "language": "typescript",
+      "sizeLines": 146,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/src/lib/db.ts",
+      "language": "typescript",
+      "sizeLines": 170,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/src/lib/market.ts",
+      "language": "typescript",
+      "sizeLines": 178,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/src/lib/mc.ts",
+      "language": "typescript",
+      "sizeLines": 143,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/src/lib/model.ts",
+      "language": "typescript",
+      "sizeLines": 162,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/src/lib/owner.ts",
+      "language": "typescript",
+      "sizeLines": 80,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/src/lib/research.ts",
+      "language": "typescript",
+      "sizeLines": 106,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/src/lib/security.ts",
+      "language": "typescript",
+      "sizeLines": 49,
+      "fileCategory": "code"
+    },
+    {
+      "path": "chat/src/lib/stripe.ts",
+      "language": "typescript",
+      "sizeLines": 58,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "chat/scripts/test-council.ts": [
+      "chat/src/lib/council.ts"
+    ],
+    "chat/scripts/test-credits.ts": [
+      "chat/src/lib/credits.ts",
+      "chat/src/lib/db.ts"
+    ],
+    "chat/src/app/api/capture/route.ts": [
+      "chat/src/lib/auth.ts",
+      "chat/src/lib/capture.ts",
+      "chat/src/lib/credits.ts",
+      "chat/src/lib/db.ts",
+      "chat/src/lib/security.ts"
+    ],
+    "chat/src/app/api/chat/route.ts": [
+      "chat/src/lib/auth.ts",
+      "chat/src/lib/db.ts",
+      "chat/src/lib/model.ts",
+      "chat/src/lib/security.ts"
+    ],
+    "chat/src/app/api/checkout/route.ts": [
+      "chat/src/lib/auth.ts",
+      "chat/src/lib/security.ts",
+      "chat/src/lib/stripe.ts"
+    ],
+    "chat/src/app/api/conversations/route.ts": [
+      "chat/src/lib/auth.ts",
+      "chat/src/lib/db.ts"
+    ],
+    "chat/src/app/api/council/route.ts": [
+      "chat/src/lib/auth.ts",
+      "chat/src/lib/council.ts",
+      "chat/src/lib/credits.ts",
+      "chat/src/lib/db.ts",
+      "chat/src/lib/security.ts"
+    ],
+    "chat/src/app/api/credits/route.ts": [
+      "chat/src/lib/auth.ts",
+      "chat/src/lib/credits.ts",
+      "chat/src/lib/owner.ts"
+    ],
+    "chat/src/app/api/forecast/route.ts": [
+      "chat/src/lib/auth.ts",
+      "chat/src/lib/db.ts",
+      "chat/src/lib/mc.ts",
+      "chat/src/lib/security.ts"
+    ],
+    "chat/src/app/api/messages/route.ts": [
+      "chat/src/lib/auth.ts",
+      "chat/src/lib/db.ts",
+      "chat/src/lib/security.ts"
+    ],
+    "chat/src/app/api/portal/route.ts": [
+      "chat/src/lib/auth.ts",
+      "chat/src/lib/credits.ts",
+      "chat/src/lib/security.ts",
+      "chat/src/lib/stripe.ts"
+    ],
+    "chat/src/app/api/record/route.ts": [
+      "chat/src/lib/db.ts"
+    ],
+    "chat/src/app/api/stripe/webhook/route.ts": [
+      "chat/src/lib/credits.ts",
+      "chat/src/lib/stripe.ts"
+    ],
+    "chat/src/lib/auth.ts": [],
+    "chat/src/lib/capture.ts": [
+      "chat/src/lib/dataLayer.ts",
+      "chat/src/lib/model.ts",
+      "chat/src/lib/research.ts"
+    ],
+    "chat/src/lib/council.ts": [
+      "chat/src/lib/dataLayer.ts",
+      "chat/src/lib/market.ts",
+      "chat/src/lib/model.ts",
+      "chat/src/lib/research.ts"
+    ],
+    "chat/src/lib/credits.ts": [
+      "chat/src/lib/db.ts",
+      "chat/src/lib/owner.ts"
+    ],
+    "chat/src/lib/dataLayer.ts": [],
+    "chat/src/lib/db.ts": [],
+    "chat/src/lib/market.ts": [
+      "chat/src/lib/model.ts"
+    ],
+    "chat/src/lib/mc.ts": [],
+    "chat/src/lib/model.ts": [],
+    "chat/src/lib/owner.ts": [],
+    "chat/src/lib/research.ts": [
+      "chat/src/lib/model.ts"
+    ],
+    "chat/src/lib/security.ts": [],
+    "chat/src/lib/stripe.ts": []
+  }
+}

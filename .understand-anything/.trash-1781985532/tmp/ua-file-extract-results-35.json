@@ -1,0 +1,2649 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 25,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": ".claude/settings.json",
+      "language": "json",
+      "fileCategory": "config",
+      "totalLines": 5,
+      "nonEmptyLines": 5,
+      "sections": [
+        {
+          "heading": "enabledPlugins",
+          "level": 1,
+          "line": 2
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 1
+      }
+    },
+    {
+      "path": ".claude/skills/taste-skill/SKILL.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 1206,
+      "nonEmptyLines": 979,
+      "sections": [
+        {
+          "heading": "tasteskill: Anti-Slop Frontend Skill",
+          "level": 1,
+          "line": 6
+        },
+        {
+          "heading": "0. BRIEF INFERENCE (Read the Room Before Anything Else)",
+          "level": 2,
+          "line": 13
+        },
+        {
+          "heading": "0.A Read these signals first",
+          "level": 3,
+          "line": 17
+        },
+        {
+          "heading": "0.B Output a one-line \"Design Read\" before generating",
+          "level": 3,
+          "line": 25
+        },
+        {
+          "heading": "0.C If the brief is ambiguous, ask one question, do not guess",
+          "level": 3,
+          "line": 33
+        },
+        {
+          "heading": "0.D Anti-Default Discipline",
+          "level": 3,
+          "line": 38
+        },
+        {
+          "heading": "1. THE THREE DIALS (Core Configuration)",
+          "level": 2,
+          "line": 43
+        },
+        {
+          "heading": "1.A Dial Inference (design read → dial values)",
+          "level": 3,
+          "line": 53
+        },
+        {
+          "heading": "1.B Use-Case Presets",
+          "level": 3,
+          "line": 64
+        },
+        {
+          "heading": "1.C How the Dials Drive Output",
+          "level": 3,
+          "line": 77
+        },
+        {
+          "heading": "2. BRIEF → DESIGN SYSTEM MAP",
+          "level": 2,
+          "line": 82
+        },
+        {
+          "heading": "2.A When to reach for a real design system (use official packages)",
+          "level": 3,
+          "line": 86
+        },
+        {
+          "heading": "2.B When the brief is an aesthetic, not a system",
+          "level": 3,
+          "line": 106
+        },
+        {
+          "heading": "3. DEFAULT ARCHITECTURE & CONVENTIONS",
+          "level": 2,
+          "line": 122
+        },
+        {
+          "heading": "3.A Stack",
+          "level": 3,
+          "line": 126
+        },
+        {
+          "heading": "3.B State",
+          "level": 3,
+          "line": 135
+        },
+        {
+          "heading": "3.C Icons",
+          "level": 3,
+          "line": 140
+        },
+        {
+          "heading": "3.D Emoji Policy",
+          "level": 3,
+          "line": 147
+        },
+        {
+          "heading": "3.E Responsiveness & Layout Mechanics",
+          "level": 3,
+          "line": 150
+        },
+        {
+          "heading": "3.F Dependency Verification (mandatory)",
+          "level": 3,
+          "line": 156
+        },
+        {
+          "heading": "4. DESIGN ENGINEERING DIRECTIVES (Bias Correction)",
+          "level": 2,
+          "line": 161
+        },
+        {
+          "heading": "4.1 Typography",
+          "level": 3,
+          "line": 165
+        },
+        {
+          "heading": "4.2 Color Calibration",
+          "level": 3,
+          "line": 185
+        },
+        {
+          "heading": "4.3 Layout Diversification",
+          "level": 3,
+          "line": 209
+        },
+        {
+          "heading": "4.4 Materiality, Shadows, Cards",
+          "level": 3,
+          "line": 213
+        },
+        {
+          "heading": "4.5 Interactive UI States",
+          "level": 3,
+          "line": 219
+        },
+        {
+          "heading": "4.6 Data & Form Patterns",
+          "level": 3,
+          "line": 230
+        },
+        {
+          "heading": "4.7 Layout Discipline (Hard Rules. Failing any of these is shipping broken work)",
+          "level": 3,
+          "line": 234
+        },
+        {
+          "heading": "4.8 Image & Visual Asset Strategy",
+          "level": 3,
+          "line": 262
+        },
+        {
+          "heading": "4.9 Content Density",
+          "level": 3,
+          "line": 298
+        },
+        {
+          "heading": "4.10 Quotes & Testimonials",
+          "level": 3,
+          "line": 333
+        },
+        {
+          "heading": "4.11 Page Theme Lock (Light / Dark Mode Consistency)",
+          "level": 3,
+          "line": 341
+        },
+        {
+          "heading": "5. CONTEXT-AWARE PROACTIVITY",
+          "level": 2,
+          "line": 352
+        },
+        {
+          "heading": "5.A Sticky-Stack - Canonical Skeleton",
+          "level": 3,
+          "line": 365
+        },
+        {
+          "heading": "5.B Horizontal-Pan - Canonical Skeleton",
+          "level": 3,
+          "line": 427
+        },
+        {
+          "heading": "5.C Scroll-Reveal Stagger - Canonical Skeleton (lighter alternative)",
+          "level": 3,
+          "line": 475
+        },
+        {
+          "heading": "5.D Forbidden Animation Patterns",
+          "level": 3,
+          "line": 509
+        },
+        {
+          "heading": "6. PERFORMANCE & ACCESSIBILITY GUARDRAILS",
+          "level": 2,
+          "line": 519
+        },
+        {
+          "heading": "6.A Hardware Acceleration",
+          "level": 3,
+          "line": 521
+        },
+        {
+          "heading": "6.B Reduced Motion (mandatory)",
+          "level": 3,
+          "line": 525
+        },
+        {
+          "heading": "6.C Dark Mode (mandatory for any consumer-facing page)",
+          "level": 3,
+          "line": 531
+        },
+        {
+          "heading": "6.D Core Web Vitals Targets",
+          "level": 3,
+          "line": 537
+        },
+        {
+          "heading": "6.E DOM Cost",
+          "level": 3,
+          "line": 543
+        },
+        {
+          "heading": "6.F Z-Index Restraint",
+          "level": 3,
+          "line": 547
+        },
+        {
+          "heading": "7. DIAL DEFINITIONS (Technical Reference)",
+          "level": 2,
+          "line": 552
+        },
+        {
+          "heading": "DESIGN_VARIANCE (Level 1-10)",
+          "level": 3,
+          "line": 554
+        },
+        {
+          "heading": "MOTION_INTENSITY (Level 1-10)",
+          "level": 3,
+          "line": 560
+        },
+        {
+          "heading": "VISUAL_DENSITY (Level 1-10)",
+          "level": 3,
+          "line": 565
+        },
+        {
+          "heading": "8. DARK MODE PROTOCOL",
+          "level": 2,
+          "line": 572
+        },
+        {
+          "heading": "8.A Token Strategy (pick one, stick to it)",
+          "level": 3,
+          "line": 576
+        },
+        {
+          "heading": "8.B Do Not Prescribe Specific Colors Here",
+          "level": 3,
+          "line": 580
+        },
+        {
+          "heading": "8.C Default Mode",
+          "level": 3,
+          "line": 587
+        },
+        {
+          "heading": "8.D Test in Both Modes Before Finishing",
+          "level": 3,
+          "line": 590
+        },
+        {
+          "heading": "9. AI TELLS (Forbidden Patterns)",
+          "level": 2,
+          "line": 595
+        },
+        {
+          "heading": "9.A Visual & CSS",
+          "level": 3,
+          "line": 599
+        },
+        {
+          "heading": "9.B Typography",
+          "level": 3,
+          "line": 606
+        },
+        {
+          "heading": "9.C Layout & Spacing",
+          "level": 3,
+          "line": 611
+        },
+        {
+          "heading": "9.D Content & Data (\"Jane Doe\" Effect)",
+          "level": 3,
+          "line": 615
+        },
+        {
+          "heading": "9.E External Resources & Components",
+          "level": 3,
+          "line": 622
+        },
+        {
+          "heading": "9.F Production-Test Tells (banned outright)",
+          "level": 3,
+          "line": 630
+        },
+        {
+          "heading": "9.G EM-DASH BAN (the single most-violated Tell)",
+          "level": 3,
+          "line": 685
+        },
+        {
+          "heading": "10. REFERENCE VOCABULARY (Pattern Names the Agent Should Know)",
+          "level": 2,
+          "line": 705
+        },
+        {
+          "heading": "Hero Paradigms",
+          "level": 3,
+          "line": 709
+        },
+        {
+          "heading": "Navigation & Menus",
+          "level": 3,
+          "line": 717
+        },
+        {
+          "heading": "Layout & Grids",
+          "level": 3,
+          "line": 726
+        },
+        {
+          "heading": "Cards & Containers",
+          "level": 3,
+          "line": 733
+        },
+        {
+          "heading": "Scroll Animations",
+          "level": 3,
+          "line": 741
+        },
+        {
+          "heading": "Galleries & Media",
+          "level": 3,
+          "line": 749
+        },
+        {
+          "heading": "Typography & Text",
+          "level": 3,
+          "line": 757
+        },
+        {
+          "heading": "Micro-Interactions & Effects",
+          "level": 3,
+          "line": 765
+        },
+        {
+          "heading": "Animation Library Choice",
+          "level": 3,
+          "line": 775
+        },
+        {
+          "heading": "11. REDESIGN PROTOCOL",
+          "level": 2,
+          "line": 783
+        },
+        {
+          "heading": "11.A Detect the Mode (first action)",
+          "level": 3,
+          "line": 787
+        },
+        {
+          "heading": "11.B Audit Before Touching",
+          "level": 3,
+          "line": 794
+        },
+        {
+          "heading": "11.C Preservation Rules",
+          "level": 3,
+          "line": 804
+        },
+        {
+          "heading": "11.D Modernisation Levers (priority order)",
+          "level": 3,
+          "line": 811
+        },
+        {
+          "heading": "11.E Decision Tree: Targeted Evolution vs Full Redesign",
+          "level": 3,
+          "line": 820
+        },
+        {
+          "heading": "11.F What Never Changes Silently",
+          "level": 3,
+          "line": 825
+        },
+        {
+          "heading": "12. THE BLOCK LIBRARY (Contract - Implementations Land Here Iteratively)",
+          "level": 2,
+          "line": 835
+        },
+        {
+          "heading": "12.A File Location",
+          "level": 3,
+          "line": 841
+        },
+        {
+          "heading": "12.B Required Frontmatter",
+          "level": 3,
+          "line": 863
+        },
+        {
+          "heading": "12.C Required Body Sections",
+          "level": 3,
+          "line": 878
+        },
+        {
+          "heading": "12.D Block-Library Discipline",
+          "level": 3,
+          "line": 888
+        },
+        {
+          "heading": "13. OUT OF SCOPE",
+          "level": 2,
+          "line": 896
+        },
+        {
+          "heading": "14. FINAL PRE-FLIGHT CHECK",
+          "level": 2,
+          "line": 910
+        },
+        {
+          "heading": "APPENDICES - Real Source-Backed Reference Material",
+          "level": 1,
+          "line": 983
+        },
+        {
+          "heading": "Appendix A - Install Commands per Design System",
+          "level": 2,
+          "line": 987
+        },
+        {
+          "heading": "Appendix B - Canonical Sources (read these before reinventing)",
+          "level": 2,
+          "line": 1033
+        },
+        {
+          "heading": "Material Web",
+          "level": 3,
+          "line": 1035
+        },
+        {
+          "heading": "Fluent UI",
+          "level": 3,
+          "line": 1040
+        },
+        {
+          "heading": "Carbon",
+          "level": 3,
+          "line": 1046
+        },
+        {
+          "heading": "Shopify Polaris",
+          "level": 3,
+          "line": 1052
+        },
+        {
+          "heading": "Atlassian",
+          "level": 3,
+          "line": 1057
+        },
+        {
+          "heading": "Primer",
+          "level": 3,
+          "line": 1063
+        },
+        {
+          "heading": "GOV.UK",
+          "level": 3,
+          "line": 1068
+        },
+        {
+          "heading": "USWDS",
+          "level": 3,
+          "line": 1073
+        },
+        {
+          "heading": "Bootstrap",
+          "level": 3,
+          "line": 1079
+        },
+        {
+          "heading": "Tailwind",
+          "level": 3,
+          "line": 1083
+        },
+        {
+          "heading": "Radix",
+          "level": 3,
+          "line": 1087
+        },
+        {
+          "heading": "shadcn/ui",
+          "level": 3,
+          "line": 1092
+        },
+        {
+          "heading": "Native CSS / W3C standards",
+          "level": 3,
+          "line": 1097
+        },
+        {
+          "heading": "Apple Liquid Glass (Apple platforms only)",
+          "level": 3,
+          "line": 1105
+        },
+        {
+          "heading": "Appendix C - Apple Liquid Glass: Honest Web Approximation",
+          "level": 2,
+          "line": 1113
+        },
+        {
+          "heading": "What is official",
+          "level": 3,
+          "line": 1117
+        },
+        {
+          "heading": "What is NOT official",
+          "level": 3,
+          "line": 1126
+        },
+        {
+          "heading": "Safer web approximation skeleton",
+          "level": 3,
+          "line": 1140
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 106
+      }
+    },
+    {
+      "path": ".claude/skills/vati-distribute/SKILL.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 87,
+      "nonEmptyLines": 74,
+      "sections": [
+        {
+          "heading": "/vati-distribute — research-note content pipeline",
+          "level": 1,
+          "line": 19
+        },
+        {
+          "heading": "Deployed forecasts (site/public/forecasts) -> source board",
+          "level": 2,
+          "line": 28
+        },
+        {
+          "heading": "Pipeline (run in order, per call)",
+          "level": 2,
+          "line": 43
+        },
+        {
+          "heading": "1. Facts — never from memory",
+          "level": 3,
+          "line": 45
+        },
+        {
+          "heading": "2. Re-verify time-sensitive facts",
+          "level": 3,
+          "line": 54
+        },
+        {
+          "heading": "3. Draft in the research register",
+          "level": 3,
+          "line": 58
+        },
+        {
+          "heading": "4. Humanize and score (mandatory)",
+          "level": 3,
+          "line": 65
+        },
+        {
+          "heading": "5. Distribute — recompress, never copy-paste across formats",
+          "level": 3,
+          "line": 74
+        },
+        {
+          "heading": "6. Integrity check per piece",
+          "level": 3,
+          "line": 81
+        },
+        {
+          "heading": "7. Save",
+          "level": 3,
+          "line": 85
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 10
+      }
+    },
+    {
+      "path": ".claude/skills/vati-post/formats.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 147,
+      "nonEmptyLines": 118,
+      "sections": [
+        {
+          "heading": "Reference: voice, channels, formulas, scoring — loaded on demand by SKILL.md",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "House voice (follow exactly)",
+          "level": 2,
+          "line": 14
+        },
+        {
+          "heading": "The no-AI-slop rules (hard — Ruben flags these)",
+          "level": 3,
+          "line": 36
+        },
+        {
+          "heading": "The channels (pick by the request; postpack suggests a default)",
+          "level": 2,
+          "line": 48
+        },
+        {
+          "heading": "Post formulas (pick one per piece; fill every input from the postpack card)",
+          "level": 2,
+          "line": 63
+        },
+        {
+          "heading": "Hook patterns (line 1)",
+          "level": 2,
+          "line": 95
+        },
+        {
+          "heading": "Scoring rubric (run on every draft before humanizing; ship at >= 80)",
+          "level": 2,
+          "line": 110
+        },
+        {
+          "heading": "The Claim-Integrity Ledger (ships with every piece, like mining-post's verify ledger)",
+          "level": 2,
+          "line": 128
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 8
+      }
+    },
+    {
+      "path": ".claude/skills/vati-post/postpack.py",
+      "language": "python",
+      "fileCategory": "code",
+      "totalLines": 259,
+      "nonEmptyLines": 221,
+      "functions": [
+        {
+          "name": "_pct",
+          "startLine": 31,
+          "endLine": 38,
+          "params": [
+            "v"
+          ]
+        },
+        {
+          "name": "_load",
+          "startLine": 41,
+          "endLine": 43,
+          "params": [
+            "path"
+          ]
+        },
+        {
+          "name": "_spec_files",
+          "startLine": 46,
+          "endLine": 53,
+          "params": []
+        },
+        {
+          "name": "_days_to",
+          "startLine": 56,
+          "endLine": 66,
+          "params": [
+            "resolves"
+          ]
+        },
+        {
+          "name": "_horizon_bucket",
+          "startLine": 69,
+          "endLine": 76,
+          "params": [
+            "days"
+          ]
+        },
+        {
+          "name": "_has_named",
+          "startLine": 79,
+          "endLine": 83,
+          "params": [
+            "impl",
+            "key"
+          ]
+        },
+        {
+          "name": "score_thesis",
+          "startLine": 86,
+          "endLine": 125,
+          "params": [
+            "t",
+            "opps"
+          ]
+        },
+        {
+          "name": "cmd_list",
+          "startLine": 128,
+          "endLine": 138,
+          "params": []
+        },
+        {
+          "name": "cmd_rank",
+          "startLine": 141,
+          "endLine": 164,
+          "params": [
+            "target",
+            "opps"
+          ]
+        },
+        {
+          "name": "_suggest_format",
+          "startLine": 167,
+          "endLine": 174,
+          "params": [
+            "bucket",
+            "sub"
+          ]
+        },
+        {
+          "name": "_clean",
+          "startLine": 177,
+          "endLine": 181,
+          "params": [
+            "s",
+            "width"
+          ]
+        },
+        {
+          "name": "cmd_card",
+          "startLine": 184,
+          "endLine": 237,
+          "params": [
+            "fname",
+            "tid"
+          ]
+        },
+        {
+          "name": "main",
+          "startLine": 240,
+          "endLine": 255,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "_pct",
+          "line": 31,
+          "isDefault": false
+        },
+        {
+          "name": "_load",
+          "line": 41,
+          "isDefault": false
+        },
+        {
+          "name": "_spec_files",
+          "line": 46,
+          "isDefault": false
+        },
+        {
+          "name": "_days_to",
+          "line": 56,
+          "isDefault": false
+        },
+        {
+          "name": "_horizon_bucket",
+          "line": 69,
+          "isDefault": false
+        },
+        {
+          "name": "_has_named",
+          "line": 79,
+          "isDefault": false
+        },
+        {
+          "name": "score_thesis",
+          "line": 86,
+          "isDefault": false
+        },
+        {
+          "name": "cmd_list",
+          "line": 128,
+          "isDefault": false
+        },
+        {
+          "name": "cmd_rank",
+          "line": 141,
+          "isDefault": false
+        },
+        {
+          "name": "_suggest_format",
+          "line": 167,
+          "isDefault": false
+        },
+        {
+          "name": "_clean",
+          "line": 177,
+          "isDefault": false
+        },
+        {
+          "name": "cmd_card",
+          "line": 184,
+          "isDefault": false
+        },
+        {
+          "name": "main",
+          "line": 240,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "_pct",
+          "callee": "float",
+          "lineNumber": 35
+        },
+        {
+          "caller": "_load",
+          "callee": "open",
+          "lineNumber": 42
+        },
+        {
+          "caller": "_load",
+          "callee": "json.load",
+          "lineNumber": 43
+        },
+        {
+          "caller": "_spec_files",
+          "callee": "sorted",
+          "lineNumber": 48
+        },
+        {
+          "caller": "_spec_files",
+          "callee": "glob.glob",
+          "lineNumber": 48
+        },
+        {
+          "caller": "_spec_files",
+          "callee": "os.path.join",
+          "lineNumber": 48
+        },
+        {
+          "caller": "_spec_files",
+          "callee": "os.path.basename",
+          "lineNumber": 49
+        },
+        {
+          "caller": "_spec_files",
+          "callee": "any",
+          "lineNumber": 50
+        },
+        {
+          "caller": "_spec_files",
+          "callee": "out.append",
+          "lineNumber": 52
+        },
+        {
+          "caller": "_days_to",
+          "callee": "datetime.datetime.strptime(str(resolves)[:10], fmt).date",
+          "lineNumber": 62
+        },
+        {
+          "caller": "_days_to",
+          "callee": "datetime.datetime.strptime",
+          "lineNumber": 62
+        },
+        {
+          "caller": "_days_to",
+          "callee": "str",
+          "lineNumber": 62
+        },
+        {
+          "caller": "_has_named",
+          "callee": "(impl or {}).get",
+          "lineNumber": 80
+        },
+        {
+          "caller": "_has_named",
+          "callee": "isinstance",
+          "lineNumber": 81
+        },
+        {
+          "caller": "_has_named",
+          "callee": "any",
+          "lineNumber": 82
+        },
+        {
+          "caller": "_has_named",
+          "callee": "isinstance",
+          "lineNumber": 82
+        },
+        {
+          "caller": "_has_named",
+          "callee": "x.get",
+          "lineNumber": 82
+        },
+        {
+          "caller": "_has_named",
+          "callee": "bool",
+          "lineNumber": 83
+        },
+        {
+          "caller": "score_thesis",
+          "callee": "_pct",
+          "lineNumber": 88
+        },
+        {
+          "caller": "score_thesis",
+          "callee": "t.get",
+          "lineNumber": 88
+        },
+        {
+          "caller": "score_thesis",
+          "callee": "_pct",
+          "lineNumber": 89
+        },
+        {
+          "caller": "score_thesis",
+          "callee": "t.get",
+          "lineNumber": 89
+        },
+        {
+          "caller": "score_thesis",
+          "callee": "_days_to",
+          "lineNumber": 90
+        },
+        {
+          "caller": "score_thesis",
+          "callee": "t.get",
+          "lineNumber": 90
+        },
+        {
+          "caller": "score_thesis",
+          "callee": "t.get",
+          "lineNumber": 91
+        },
+        {
+          "caller": "score_thesis",
+          "callee": "_has_named",
+          "lineNumber": 106
+        },
+        {
+          "caller": "score_thesis",
+          "callee": "_has_named",
+          "lineNumber": 106
+        },
+        {
+          "caller": "score_thesis",
+          "callee": "t.get",
+          "lineNumber": 108
+        },
+        {
+          "caller": "score_thesis",
+          "callee": "t.get",
+          "lineNumber": 108
+        },
+        {
+          "caller": "score_thesis",
+          "callee": "t.get",
+          "lineNumber": 108
+        },
+        {
+          "caller": "score_thesis",
+          "callee": "min",
+          "lineNumber": 112
+        },
+        {
+          "caller": "score_thesis",
+          "callee": "t.get",
+          "lineNumber": 114
+        },
+        {
+          "caller": "score_thesis",
+          "callee": "impl.get",
+          "lineNumber": 116
+        },
+        {
+          "caller": "score_thesis",
+          "callee": "sum",
+          "lineNumber": 124
+        },
+        {
+          "caller": "score_thesis",
+          "callee": "dict",
+          "lineNumber": 125
+        },
+        {
+          "caller": "cmd_list",
+          "callee": "_spec_files",
+          "lineNumber": 129
+        },
+        {
+          "caller": "cmd_list",
+          "callee": "print",
+          "lineNumber": 131
+        },
+        {
+          "caller": "cmd_list",
+          "callee": "print",
+          "lineNumber": 133
+        },
+        {
+          "caller": "cmd_list",
+          "callee": "print",
+          "lineNumber": 134
+        },
+        {
+          "caller": "cmd_list",
+          "callee": "_load",
+          "lineNumber": 136
+        },
+        {
+          "caller": "cmd_list",
+          "callee": "d.get",
+          "lineNumber": 137
+        },
+        {
+          "caller": "cmd_list",
+          "callee": "print",
+          "lineNumber": 138
+        },
+        {
+          "caller": "cmd_list",
+          "callee": "os.path.basename",
+          "lineNumber": 138
+        },
+        {
+          "caller": "cmd_list",
+          "callee": "len",
+          "lineNumber": 138
+        },
+        {
+          "caller": "cmd_list",
+          "callee": "str",
+          "lineNumber": 138
+        },
+        {
+          "caller": "cmd_list",
+          "callee": "d.get",
+          "lineNumber": 138
+        },
+        {
+          "caller": "cmd_list",
+          "callee": "str",
+          "lineNumber": 138
+        },
+        {
+          "caller": "cmd_list",
+          "callee": "d.get",
+          "lineNumber": 138
+        },
+        {
+          "caller": "cmd_rank",
+          "callee": "_spec_files",
+          "lineNumber": 142
+        },
+        {
+          "caller": "cmd_rank",
+          "callee": "_spec_files",
+          "lineNumber": 143
+        },
+        {
+          "caller": "cmd_rank",
+          "callee": "os.path.basename",
+          "lineNumber": 143
+        },
+        {
+          "caller": "cmd_rank",
+          "callee": "_load",
+          "lineNumber": 146
+        },
+        {
+          "caller": "cmd_rank",
+          "callee": "d.get",
+          "lineNumber": 147
+        },
+        {
+          "caller": "cmd_rank",
+          "callee": "score_thesis",
+          "lineNumber": 148
+        },
+        {
+          "caller": "cmd_rank",
+          "callee": "rows.append",
+          "lineNumber": 149
+        },
+        {
+          "caller": "cmd_rank",
+          "callee": "os.path.basename",
+          "lineNumber": 149
+        },
+        {
+          "caller": "cmd_rank",
+          "callee": "rows.sort",
+          "lineNumber": 150
+        },
+        {
+          "caller": "cmd_rank",
+          "callee": "print",
+          "lineNumber": 153
+        },
+        {
+          "caller": "cmd_rank",
+          "callee": "print",
+          "lineNumber": 154
+        },
+        {
+          "caller": "cmd_rank",
+          "callee": "enumerate",
+          "lineNumber": 155
+        },
+        {
+          "caller": "cmd_rank",
+          "callee": "_horizon_bucket",
+          "lineNumber": 156
+        },
+        {
+          "caller": "cmd_rank",
+          "callee": "_suggest_format",
+          "lineNumber": 157
+        },
+        {
+          "caller": "cmd_rank",
+          "callee": "t.get",
+          "lineNumber": 158
+        },
+        {
+          "caller": "cmd_rank",
+          "callee": "print",
+          "lineNumber": 159
+        },
+        {
+          "caller": "cmd_rank",
+          "callee": "t.get",
+          "lineNumber": 160
+        },
+        {
+          "caller": "cmd_rank",
+          "callee": "t.get",
+          "lineNumber": 160
+        },
+        {
+          "caller": "cmd_rank",
+          "callee": "print",
+          "lineNumber": 161
+        },
+        {
+          "caller": "cmd_rank",
+          "callee": "print",
+          "lineNumber": 162
+        },
+        {
+          "caller": "cmd_rank",
+          "callee": "\" \".join",
+          "lineNumber": 163
+        },
+        {
+          "caller": "cmd_rank",
+          "callee": "print",
+          "lineNumber": 164
+        },
+        {
+          "caller": "_clean",
+          "callee": "str(s).strip",
+          "lineNumber": 180
+        },
+        {
+          "caller": "_clean",
+          "callee": "str",
+          "lineNumber": 180
+        },
+        {
+          "caller": "cmd_card",
+          "callee": "_spec_files",
+          "lineNumber": 185
+        },
+        {
+          "caller": "cmd_card",
+          "callee": "os.path.basename",
+          "lineNumber": 185
+        },
+        {
+          "caller": "cmd_card",
+          "callee": "print",
+          "lineNumber": 187
+        },
+        {
+          "caller": "cmd_card",
+          "callee": "_load",
+          "lineNumber": 188
+        },
+        {
+          "caller": "cmd_card",
+          "callee": "d.get",
+          "lineNumber": 189
+        },
+        {
+          "caller": "cmd_card",
+          "callee": "next",
+          "lineNumber": 190
+        },
+        {
+          "caller": "cmd_card",
+          "callee": "str",
+          "lineNumber": 190
+        },
+        {
+          "caller": "cmd_card",
+          "callee": "x.get",
+          "lineNumber": 190
+        },
+        {
+          "caller": "cmd_card",
+          "callee": "str",
+          "lineNumber": 190
+        },
+        {
+          "caller": "cmd_card",
+          "callee": "print",
+          "lineNumber": 192
+        },
+        {
+          "caller": "cmd_card",
+          "callee": "os.path.basename",
+          "lineNumber": 192
+        },
+        {
+          "caller": "cmd_card",
+          "callee": "\", \".join",
+          "lineNumber": 193
+        },
+        {
+          "caller": "cmd_card",
+          "callee": "str",
+          "lineNumber": 193
+        },
+        {
+          "caller": "cmd_card",
+          "callee": "x.get",
+          "lineNumber": 193
+        },
+        {
+          "caller": "cmd_card",
+          "callee": "t.get",
+          "lineNumber": 195
+        },
+        {
+          "caller": "cmd_card",
+          "callee": "_pct",
+          "lineNumber": 196
+        },
+        {
+          "caller": "cmd_card",
+          "callee": "t.get",
+          "lineNumber": 196
+        },
+        {
+          "caller": "cmd_card",
+          "callee": "_pct",
+          "lineNumber": 196
+        },
+        {
+          "caller": "cmd_card",
+          "callee": "t.get",
+          "lineNumber": 196
+        },
+        {
+          "caller": "cmd_card",
+          "callee": "_days_to",
+          "lineNumber": 197
+        },
+        {
+          "caller": "cmd_card",
+          "callee": "t.get",
+          "lineNumber": 197
+        },
+        {
+          "caller": "names",
+          "callee": "impl.get",
+          "lineNumber": 200
+        },
+        {
+          "caller": "names",
+          "callee": "isinstance",
+          "lineNumber": 201
+        },
+        {
+          "caller": "names",
+          "callee": "\"; \".join",
+          "lineNumber": 202
+        },
+        {
+          "caller": "names",
+          "callee": "x.get",
+          "lineNumber": 202
+        },
+        {
+          "caller": "names",
+          "callee": "x.get",
+          "lineNumber": 202
+        },
+        {
+          "caller": "names",
+          "callee": "isinstance",
+          "lineNumber": 202
+        },
+        {
+          "caller": "names",
+          "callee": "_clean",
+          "lineNumber": 203
+        },
+        {
+          "caller": "cmd_card",
+          "callee": "print",
+          "lineNumber": 205
+        },
+        {
+          "caller": "cmd_card",
+          "callee": "print",
+          "lineNumber": 206
+        },
+        {
+          "caller": "cmd_card",
+          "callee": "os.path.basename",
+          "lineNumber": 206
+        },
+        {
+          "caller": "cmd_card",
+          "callee": "t.get",
+          "lineNumber": 206
+        },
+        {
+          "caller": "cmd_card",
+          "callee": "print",
+          "lineNumber": 207
+        },
+        {
+          "caller": "cmd_card",
+          "callee": "print",
+          "lineNumber": 208
+        },
+        {
+          "caller": "cmd_card",
+          "callee": "_horizon_bucket",
+          "lineNumber": 208
+        },
+        {
+          "caller": "cmd_card",
+          "callee": "print",
+          "lineNumber": 209
+        },
+        {
+          "caller": "cmd_card",
+          "callee": "print",
+          "lineNumber": 210
+        },
+        {
+          "caller": "cmd_card",
+          "callee": "t.get",
+          "lineNumber": 210
+        },
+        {
+          "caller": "cmd_card",
+          "callee": "print",
+          "lineNumber": 211
+        },
+        {
+          "caller": "cmd_card",
+          "callee": "print",
+          "lineNumber": 212
+        },
+        {
+          "caller": "cmd_card",
+          "callee": "_clean",
+          "lineNumber": 212
+        },
+        {
+          "caller": "cmd_card",
+          "callee": "t.get",
+          "lineNumber": 212
+        },
+        {
+          "caller": "cmd_card",
+          "callee": "print",
+          "lineNumber": 213
+        },
+        {
+          "caller": "cmd_card",
+          "callee": "print",
+          "lineNumber": 214
+        },
+        {
+          "caller": "cmd_card",
+          "callee": "print",
+          "lineNumber": 215
+        },
+        {
+          "caller": "cmd_card",
+          "callee": "textwrap.fill",
+          "lineNumber": 215
+        },
+        {
+          "caller": "cmd_card",
+          "callee": "_clean",
+          "lineNumber": 215
+        },
+        {
+          "caller": "cmd_card",
+          "callee": "t.get",
+          "lineNumber": 215
+        },
+        {
+          "caller": "cmd_card",
+          "callee": "print",
+          "lineNumber": 216
+        },
+        {
+          "caller": "cmd_card",
+          "callee": "print",
+          "lineNumber": 217
+        },
+        {
+          "caller": "cmd_card",
+          "callee": "print",
+          "lineNumber": 218
+        },
+        {
+          "caller": "cmd_card",
+          "callee": "textwrap.fill",
+          "lineNumber": 218
+        },
+        {
+          "caller": "cmd_card",
+          "callee": "_clean",
+          "lineNumber": 218
+        },
+        {
+          "caller": "cmd_card",
+          "callee": "t.get",
+          "lineNumber": 218
+        },
+        {
+          "caller": "cmd_card",
+          "callee": "print",
+          "lineNumber": 219
+        },
+        {
+          "caller": "cmd_card",
+          "callee": "print",
+          "lineNumber": 220
+        },
+        {
+          "caller": "cmd_card",
+          "callee": "print",
+          "lineNumber": 221
+        },
+        {
+          "caller": "cmd_card",
+          "callee": "textwrap.fill",
+          "lineNumber": 221
+        },
+        {
+          "caller": "cmd_card",
+          "callee": "_clean",
+          "lineNumber": 221
+        },
+        {
+          "caller": "cmd_card",
+          "callee": "t.get",
+          "lineNumber": 221
+        },
+        {
+          "caller": "cmd_card",
+          "callee": "print",
+          "lineNumber": 222
+        },
+        {
+          "caller": "cmd_card",
+          "callee": "print",
+          "lineNumber": 223
+        },
+        {
+          "caller": "cmd_card",
+          "callee": "print",
+          "lineNumber": 224
+        },
+        {
+          "caller": "cmd_card",
+          "callee": "textwrap.fill",
+          "lineNumber": 224
+        },
+        {
+          "caller": "cmd_card",
+          "callee": "_clean",
+          "lineNumber": 224
+        },
+        {
+          "caller": "cmd_card",
+          "callee": "t.get",
+          "lineNumber": 224
+        },
+        {
+          "caller": "cmd_card",
+          "callee": "print",
+          "lineNumber": 225
+        },
+        {
+          "caller": "cmd_card",
+          "callee": "print",
+          "lineNumber": 226
+        },
+        {
+          "caller": "cmd_card",
+          "callee": "print",
+          "lineNumber": 227
+        },
+        {
+          "caller": "cmd_card",
+          "callee": "textwrap.fill",
+          "lineNumber": 227
+        },
+        {
+          "caller": "cmd_card",
+          "callee": "_clean",
+          "lineNumber": 227
+        },
+        {
+          "caller": "cmd_card",
+          "callee": "t.get",
+          "lineNumber": 227
+        },
+        {
+          "caller": "cmd_card",
+          "callee": "print",
+          "lineNumber": 228
+        },
+        {
+          "caller": "cmd_card",
+          "callee": "print",
+          "lineNumber": 229
+        },
+        {
+          "caller": "cmd_card",
+          "callee": "textwrap.fill",
+          "lineNumber": 229
+        },
+        {
+          "caller": "cmd_card",
+          "callee": "names",
+          "lineNumber": 229
+        },
+        {
+          "caller": "cmd_card",
+          "callee": "print",
+          "lineNumber": 230
+        },
+        {
+          "caller": "cmd_card",
+          "callee": "textwrap.fill",
+          "lineNumber": 230
+        },
+        {
+          "caller": "cmd_card",
+          "callee": "names",
+          "lineNumber": 230
+        },
+        {
+          "caller": "cmd_card",
+          "callee": "print",
+          "lineNumber": 231
+        },
+        {
+          "caller": "cmd_card",
+          "callee": "textwrap.fill",
+          "lineNumber": 231
+        },
+        {
+          "caller": "cmd_card",
+          "callee": "_clean",
+          "lineNumber": 231
+        },
+        {
+          "caller": "cmd_card",
+          "callee": "impl.get",
+          "lineNumber": 231
+        },
+        {
+          "caller": "cmd_card",
+          "callee": "print",
+          "lineNumber": 232
+        },
+        {
+          "caller": "cmd_card",
+          "callee": "print",
+          "lineNumber": 233
+        },
+        {
+          "caller": "cmd_card",
+          "callee": "print",
+          "lineNumber": 234
+        },
+        {
+          "caller": "cmd_card",
+          "callee": "textwrap.fill",
+          "lineNumber": 234
+        },
+        {
+          "caller": "cmd_card",
+          "callee": "_clean",
+          "lineNumber": 234
+        },
+        {
+          "caller": "cmd_card",
+          "callee": "impl.get",
+          "lineNumber": 234
+        },
+        {
+          "caller": "cmd_card",
+          "callee": "print",
+          "lineNumber": 235
+        },
+        {
+          "caller": "cmd_card",
+          "callee": "print",
+          "lineNumber": 236
+        },
+        {
+          "caller": "cmd_card",
+          "callee": "print",
+          "lineNumber": 237
+        },
+        {
+          "caller": "cmd_card",
+          "callee": "textwrap.fill",
+          "lineNumber": 237
+        },
+        {
+          "caller": "cmd_card",
+          "callee": "_clean",
+          "lineNumber": 237
+        },
+        {
+          "caller": "cmd_card",
+          "callee": "t.get",
+          "lineNumber": 237
+        },
+        {
+          "caller": "main",
+          "callee": "cmd_list",
+          "lineNumber": 243
+        },
+        {
+          "caller": "main",
+          "callee": "a.startswith",
+          "lineNumber": 247
+        },
+        {
+          "caller": "main",
+          "callee": "cmd_rank",
+          "lineNumber": 250
+        },
+        {
+          "caller": "main",
+          "callee": "len",
+          "lineNumber": 252
+        },
+        {
+          "caller": "main",
+          "callee": "print",
+          "lineNumber": 253
+        },
+        {
+          "caller": "main",
+          "callee": "cmd_card",
+          "lineNumber": 254
+        },
+        {
+          "caller": "main",
+          "callee": "print",
+          "lineNumber": 255
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 13,
+        "functionCount": 13,
+        "classCount": 0
+      }
+    },
+    {
+      "path": ".claude/skills/vati-post/SKILL.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 166,
+      "nonEmptyLines": 130,
+      "sections": [
+        {
+          "heading": "/vati-post — Vaticinus content engine",
+          "level": 1,
+          "line": 20
+        },
+        {
+          "heading": "How people invoke this",
+          "level": 2,
+          "line": 40
+        },
+        {
+          "heading": "The pipeline (run it in this order, every time)",
+          "level": 2,
+          "line": 57
+        },
+        {
+          "heading": "1. Load + rank — never type a claim from memory",
+          "level": 3,
+          "line": 59
+        },
+        {
+          "heading": "2. Re-verify the time-sensitive facts (the near-term brand risk)",
+          "level": 3,
+          "line": 76
+        },
+        {
+          "heading": "3. Pick the format + formula + angle",
+          "level": 3,
+          "line": 83
+        },
+        {
+          "heading": "4. Draft to the house voice",
+          "level": 3,
+          "line": 91
+        },
+        {
+          "heading": "5. Self-score with the rubric",
+          "level": 3,
+          "line": 99
+        },
+        {
+          "heading": "6. Humanize",
+          "level": 3,
+          "line": 105
+        },
+        {
+          "heading": "7. Output (the contract)",
+          "level": 3,
+          "line": 112
+        },
+        {
+          "heading": "Non-negotiables (the brand-safety spine)",
+          "level": 2,
+          "line": 143
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 11
+      }
+    },
+    {
+      "path": ".claude/skills/vati-world-graph/agents/openai.yaml",
+      "language": "yaml",
+      "fileCategory": "config",
+      "totalLines": 4,
+      "nonEmptyLines": 4,
+      "sections": [
+        {
+          "heading": "interface",
+          "level": 1,
+          "line": 1
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 1
+      }
+    },
+    {
+      "path": ".claude/skills/vati-world-graph/references/deepseek.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 39,
+      "nonEmptyLines": 27,
+      "sections": [
+        {
+          "heading": "DeepSeek V4 World Graph runs",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Plan sizes",
+          "level": 2,
+          "line": 14
+        },
+        {
+          "heading": "Model assignment",
+          "level": 2,
+          "line": 20
+        },
+        {
+          "heading": "Cost rules",
+          "level": 2,
+          "line": 25
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 4
+      }
+    },
+    {
+      "path": ".claude/skills/vati-world-graph/references/ontology.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 63,
+      "nonEmptyLines": 53,
+      "sections": [
+        {
+          "heading": "Vati World Graph ontology",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Node kinds",
+          "level": 2,
+          "line": 3
+        },
+        {
+          "heading": "Edge relations",
+          "level": 2,
+          "line": 18
+        },
+        {
+          "heading": "Coverage layers",
+          "level": 2,
+          "line": 40
+        },
+        {
+          "heading": "Verification states",
+          "level": 2,
+          "line": 55
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 5
+      }
+    },
+    {
+      "path": ".claude/skills/vati-world-graph/SKILL.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 111,
+      "nonEmptyLines": 87,
+      "sections": [
+        {
+          "heading": "Vati World Graph",
+          "level": 1,
+          "line": 6
+        },
+        {
+          "heading": "Overview",
+          "level": 2,
+          "line": 8
+        },
+        {
+          "heading": "Non-negotiables",
+          "level": 2,
+          "line": 14
+        },
+        {
+          "heading": "Quick Start",
+          "level": 2,
+          "line": 25
+        },
+        {
+          "heading": "Workflow",
+          "level": 2,
+          "line": 59
+        },
+        {
+          "heading": "Output Contract",
+          "level": 2,
+          "line": 96
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 6
+      }
+    },
+    {
+      "path": ".claude/workflows/forecastbench-judge.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "totalLines": 109,
+      "nonEmptyLines": 98,
+      "functions": [
+        {
+          "name": "clampP",
+          "startLine": 25,
+          "endLine": 25,
+          "params": [
+            "p"
+          ]
+        },
+        {
+          "name": "logit",
+          "startLine": 26,
+          "endLine": 26,
+          "params": [
+            "p"
+          ]
+        },
+        {
+          "name": "sigmoid",
+          "startLine": 27,
+          "endLine": 27,
+          "params": [
+            "z"
+          ]
+        },
+        {
+          "name": "normEdge",
+          "startLine": 28,
+          "endLine": 28,
+          "params": [
+            "e"
+          ]
+        },
+        {
+          "name": "median",
+          "startLine": 29,
+          "endLine": 29,
+          "params": [
+            "arr"
+          ]
+        },
+        {
+          "name": "GUIDE",
+          "startLine": 43,
+          "endLine": 56,
+          "params": [
+            "q"
+          ]
+        },
+        {
+          "name": "qid",
+          "startLine": 58,
+          "endLine": 58,
+          "params": [
+            "q"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "meta",
+          "line": 1,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "clampP",
+          "callee": "Math.min",
+          "lineNumber": 25
+        },
+        {
+          "caller": "clampP",
+          "callee": "Math.max",
+          "lineNumber": 25
+        },
+        {
+          "caller": "clampP",
+          "callee": "Number",
+          "lineNumber": 25
+        },
+        {
+          "caller": "logit",
+          "callee": "Math.min",
+          "lineNumber": 26
+        },
+        {
+          "caller": "logit",
+          "callee": "Math.max",
+          "lineNumber": 26
+        },
+        {
+          "caller": "logit",
+          "callee": "Number",
+          "lineNumber": 26
+        },
+        {
+          "caller": "logit",
+          "callee": "Math.log",
+          "lineNumber": 26
+        },
+        {
+          "caller": "sigmoid",
+          "callee": "Math.exp",
+          "lineNumber": 27
+        },
+        {
+          "caller": "normEdge",
+          "callee": "String(e || 'none').toLowerCase().trim",
+          "lineNumber": 28
+        },
+        {
+          "caller": "normEdge",
+          "callee": "String(e || 'none').toLowerCase",
+          "lineNumber": 28
+        },
+        {
+          "caller": "normEdge",
+          "callee": "String",
+          "lineNumber": 28
+        },
+        {
+          "caller": "median",
+          "callee": "[...arr].sort",
+          "lineNumber": 29
+        },
+        {
+          "caller": "median",
+          "callee": "Math.floor",
+          "lineNumber": 29
+        },
+        {
+          "caller": "GUIDE",
+          "callee": "[\n  'You are Vati, a careful, calibrated probabilistic forecaster. Forecast ONE question that resolves in the future, as of the stated due date.',\n  '',\n  `Question: ${q.question}`,\n  q.resolution_criteria ? `Resolution criteria: ${String(q.resolution_criteria).slice(0, 1200)}` : '',\n  q.background ? `Background: ${String(q.background).slice(0, 800)}` : '',\n  (q.crowd_value === null || q.crowd_value === undefined)\n    ? 'No crowd/quant prior is available for this question (our own data did not cover it) — forecast it from your live web research, well-calibrated. Set edge=\"strong\" if you found decisive dated facts, else \"weak\".'\n    : `Calibrated crowd prior (P_YES): ${q.crowd_value}. Treat it as a strong prior; only move off it for a concrete dated reason the crowd plausibly has not priced.`,\n  `Forecast as of: ${q.due}. Source: ${q.source}.`,\n  '',\n  'METHOD: Use web search (WebSearch / WebFetch) to find concrete, DATED facts relevant to resolution. Treat the crowd prior as a strong prior; only move off it for a specific dated reason the crowd plausibly has not priced. Use NOTHING published after the due date. Be calibrated; never output 0 or 1.',\n  'Default edge to \"none\" and return the crowd prior unless you found a dated, crowd-unpriced fact. Output via the StructuredOutput tool only.',\n].filter(Boolean).join",
+          "lineNumber": 43
+        },
+        {
+          "caller": "GUIDE",
+          "callee": "[\n  'You are Vati, a careful, calibrated probabilistic forecaster. Forecast ONE question that resolves in the future, as of the stated due date.',\n  '',\n  `Question: ${q.question}`,\n  q.resolution_criteria ? `Resolution criteria: ${String(q.resolution_criteria).slice(0, 1200)}` : '',\n  q.background ? `Background: ${String(q.background).slice(0, 800)}` : '',\n  (q.crowd_value === null || q.crowd_value === undefined)\n    ? 'No crowd/quant prior is available for this question (our own data did not cover it) — forecast it from your live web research, well-calibrated. Set edge=\"strong\" if you found decisive dated facts, else \"weak\".'\n    : `Calibrated crowd prior (P_YES): ${q.crowd_value}. Treat it as a strong prior; only move off it for a concrete dated reason the crowd plausibly has not priced.`,\n  `Forecast as of: ${q.due}. Source: ${q.source}.`,\n  '',\n  'METHOD: Use web search (WebSearch / WebFetch) to find concrete, DATED facts relevant to resolution. Treat the crowd prior as a strong prior; only move off it for a specific dated reason the crowd plausibly has not priced. Use NOTHING published after the due date. Be calibrated; never output 0 or 1.',\n  'Default edge to \"none\" and return the crowd prior unless you found a dated, crowd-unpriced fact. Output via the StructuredOutput tool only.',\n].filter",
+          "lineNumber": 43
+        },
+        {
+          "caller": "GUIDE",
+          "callee": "String(q.resolution_criteria).slice",
+          "lineNumber": 47
+        },
+        {
+          "caller": "GUIDE",
+          "callee": "String",
+          "lineNumber": 47
+        },
+        {
+          "caller": "GUIDE",
+          "callee": "String(q.background).slice",
+          "lineNumber": 48
+        },
+        {
+          "caller": "GUIDE",
+          "callee": "String",
+          "lineNumber": 48
+        },
+        {
+          "caller": "qid",
+          "callee": "Array.isArray",
+          "lineNumber": 58
+        },
+        {
+          "caller": "qid",
+          "callee": "JSON.stringify",
+          "lineNumber": 58
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 7,
+        "classCount": 0
+      }
+    },
+    {
+      "path": ".claude/workflows/pope-capture.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "totalLines": 151,
+      "nonEmptyLines": 135,
+      "functions": [
+        {
+          "name": "CAPTURE_PROMPT",
+          "startLine": 68,
+          "endLine": 87,
+          "params": [
+            "c"
+          ]
+        },
+        {
+          "name": "REFUTE_PROMPT",
+          "startLine": 103,
+          "endLine": 114,
+          "params": [
+            "plan"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "meta",
+          "line": 1,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "CAPTURE_PROMPT",
+          "callee": "JSON.stringify",
+          "lineNumber": 71
+        },
+        {
+          "caller": "CAPTURE_PROMPT",
+          "callee": "(c.needle || c.headline || '').replace",
+          "lineNumber": 73
+        },
+        {
+          "caller": "CAPTURE_PROMPT",
+          "callee": "(c.needle || c.headline || '').replace",
+          "lineNumber": 74
+        },
+        {
+          "caller": "CAPTURE_PROMPT",
+          "callee": "(c.needle || c.headline || '').replace",
+          "lineNumber": 75
+        },
+        {
+          "caller": "CAPTURE_PROMPT",
+          "callee": "(c.needle || c.headline || '').replace",
+          "lineNumber": 76
+        },
+        {
+          "caller": "REFUTE_PROMPT",
+          "callee": "JSON.stringify",
+          "lineNumber": 106
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 2,
+        "classCount": 0
+      }
+    },
+    {
+      "path": ".claude/workflows/pope-mega.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "totalLines": 202,
+      "nonEmptyLines": 185,
+      "functions": [
+        {
+          "name": "IMPL_PROMPT",
+          "startLine": 119,
+          "endLine": 133,
+          "params": [
+            "t"
+          ]
+        },
+        {
+          "name": "genPrompt",
+          "startLine": 149,
+          "endLine": 154,
+          "params": [
+            "ch"
+          ]
+        },
+        {
+          "name": "gatePrompt",
+          "startLine": 162,
+          "endLine": 180,
+          "params": [
+            "c"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "meta",
+          "line": 1,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "IMPL_PROMPT",
+          "callee": "JSON.stringify",
+          "lineNumber": 121
+        },
+        {
+          "caller": "gatePrompt",
+          "callee": "JSON.stringify",
+          "lineNumber": 164
+        },
+        {
+          "caller": "gatePrompt",
+          "callee": "(c.needle || c.headline || domain).replace",
+          "lineNumber": 165
+        },
+        {
+          "caller": "gatePrompt",
+          "callee": "JSON.stringify",
+          "lineNumber": 173
+        },
+        {
+          "caller": "gatePrompt",
+          "callee": "(c.needle || c.headline || domain).replace",
+          "lineNumber": 174
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 3,
+        "classCount": 0
+      }
+    },
+    {
+      "path": ".claude/workflows/pope-pro.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "totalLines": 202,
+      "nonEmptyLines": 187,
+      "functions": [
+        {
+          "name": "IMPL_PROMPT",
+          "startLine": 121,
+          "endLine": 135,
+          "params": [
+            "t",
+            "ground"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "meta",
+          "line": 1,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "IMPL_PROMPT",
+          "callee": "JSON.stringify",
+          "lineNumber": 123
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": ".claude/workflows/pope.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "totalLines": 203,
+      "nonEmptyLines": 186,
+      "functions": [
+        {
+          "name": "IMPL_PROMPT",
+          "startLine": 119,
+          "endLine": 133,
+          "params": [
+            "t",
+            "ground"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "meta",
+          "line": 1,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "IMPL_PROMPT",
+          "callee": "JSON.stringify",
+          "lineNumber": 121
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": ".mac_fix_backup/codex-20260618-231003/CodexDockTilePlugin.plugin/Contents/_CodeSignature/CodeResources",
+      "language": "unknown",
+      "fileCategory": "code",
+      "totalLines": 115,
+      "nonEmptyLines": 115,
+      "metrics": {}
+    },
+    {
+      "path": ".mac_fix_backup/codex-20260618-231003/CodexDockTilePlugin.plugin/Contents/Info.plist",
+      "language": "xml",
+      "fileCategory": "config",
+      "totalLines": 32,
+      "nonEmptyLines": 32,
+      "metrics": {}
+    },
+    {
+      "path": ".mac_fix_backup/codex-20260618-231003/CodexDockTilePlugin.plugin/Contents/MacOS/CodexDockTilePlugin",
+      "language": "unknown",
+      "fileCategory": "code",
+      "totalLines": 126,
+      "nonEmptyLines": 118,
+      "metrics": {}
+    },
+    {
+      "path": ".mac_fix_backup/codex-20260618-231003/launch-services-helper",
+      "language": "unknown",
+      "fileCategory": "code",
+      "totalLines": 181,
+      "nonEmptyLines": 172,
+      "metrics": {}
+    },
+    {
+      "path": ".understand-anything/.understandignore",
+      "language": "unknown",
+      "fileCategory": "code",
+      "totalLines": 52,
+      "nonEmptyLines": 47,
+      "metrics": {}
+    },
+    {
+      "path": "chat/db/schema.sql",
+      "language": "sql",
+      "fileCategory": "data",
+      "totalLines": 115,
+      "nonEmptyLines": 107,
+      "definitions": [
+        {
+          "name": "forward_calls",
+          "kind": "table",
+          "fields": [
+            "id",
+            "question",
+            "rationale",
+            "probability",
+            "ci_low",
+            "ci_high",
+            "ci_unit",
+            "threshold",
+            "threshold_dir",
+            "resolution_date",
+            "thesis_kind",
+            "kill_criteria",
+            "implications",
+            "created_at",
+            "outcome"
+          ],
+          "startLine": 9,
+          "endLine": 25
+        },
+        {
+          "name": "conversations",
+          "kind": "table",
+          "fields": [
+            "id",
+            "user_id",
+            "title",
+            "created_at",
+            "updated_at"
+          ],
+          "startLine": 29,
+          "endLine": 35
+        },
+        {
+          "name": "messages",
+          "kind": "table",
+          "fields": [
+            "id",
+            "conversation_id",
+            "role",
+            "content",
+            "reasoning",
+            "created_at"
+          ],
+          "startLine": 38,
+          "endLine": 45
+        },
+        {
+          "name": "forecast_cards",
+          "kind": "table",
+          "fields": [
+            "id",
+            "conversation_id",
+            "user_id",
+            "question",
+            "quantity_label",
+            "ci_unit",
+            "base_value",
+            "horizon_years",
+            "g_mean",
+            "g_sd",
+            "decel",
+            "threshold",
+            "threshold_dir",
+            "probability",
+            "median",
+            "ci_low",
+            "ci_high",
+            "resolution_date",
+            "dated_metric",
+            "kill_criteria",
+            "already_priced",
+            "created_at"
+          ],
+          "startLine": 50,
+          "endLine": 73
+        },
+        {
+          "name": "user_credits",
+          "kind": "table",
+          "fields": [
+            "user_id",
+            "credits",
+            "free_council_used",
+            "period_start",
+            "created_at"
+          ],
+          "startLine": 82,
+          "endLine": 88
+        },
+        {
+          "name": "credit_ledger",
+          "kind": "table",
+          "fields": [
+            "id",
+            "user_id",
+            "delta"
+          ],
+          "startLine": 90,
+          "endLine": 97
+        },
+        {
+          "name": "subscriptions",
+          "kind": "table",
+          "fields": [
+            "stripe_subscription_id",
+            "user_id",
+            "stripe_customer_id",
+            "tier",
+            "status",
+            "current_period_end",
+            "updated_at"
+          ],
+          "startLine": 104,
+          "endLine": 113
+        },
+        {
+          "name": "idx_conversations_user",
+          "kind": "index",
+          "fields": [],
+          "startLine": 75,
+          "endLine": 75
+        },
+        {
+          "name": "idx_messages_conv",
+          "kind": "index",
+          "fields": [],
+          "startLine": 76,
+          "endLine": 76
+        },
+        {
+          "name": "idx_cards_user",
+          "kind": "index",
+          "fields": [],
+          "startLine": 77,
+          "endLine": 77
+        },
+        {
+          "name": "idx_ledger_session",
+          "kind": "index",
+          "fields": [],
+          "startLine": 98,
+          "endLine": 98
+        },
+        {
+          "name": "idx_ledger_user",
+          "kind": "index",
+          "fields": [],
+          "startLine": 99,
+          "endLine": 99
+        },
+        {
+          "name": "idx_subs_user",
+          "kind": "index",
+          "fields": [],
+          "startLine": 114,
+          "endLine": 114
+        },
+        {
+          "name": "idx_subs_customer",
+          "kind": "index",
+          "fields": [],
+          "startLine": 115,
+          "endLine": 115
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "definitionCount": 14
+      }
+    },
+    {
+      "path": "chat/db/seed_forward_calls.mjs",
+      "language": "javascript",
+      "fileCategory": "code",
+      "totalLines": 60,
+      "nonEmptyLines": 56,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "chat/next.config.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 39,
+      "nonEmptyLines": 35,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "chat/open-next.config.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 5,
+      "nonEmptyLines": 4,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "chat/postcss.config.mjs",
+      "language": "javascript",
+      "fileCategory": "code",
+      "totalLines": 7,
+      "nonEmptyLines": 6,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    }
+  ]
+}

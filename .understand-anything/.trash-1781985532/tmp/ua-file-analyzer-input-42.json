@@ -1,0 +1,74 @@
+{
+  "projectRoot": "/Users/emizemani/Desktop/predictthefuture",
+  "batchFiles": [
+    {
+      "path": "site/src/app/sitemap.ts",
+      "language": "typescript",
+      "sizeLines": 43,
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/src/components/ui/button.tsx",
+      "language": "typescript",
+      "sizeLines": 58,
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/src/content/posts.json",
+      "language": "json",
+      "sizeLines": 116,
+      "fileCategory": "config"
+    },
+    {
+      "path": "site/src/lib/utils.ts",
+      "language": "typescript",
+      "sizeLines": 6,
+      "fileCategory": "code"
+    },
+    {
+      "path": "site/src/styles/site.webflow.css",
+      "language": "css",
+      "sizeLines": 10025,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "tests/test_pope_ultra.py",
+      "language": "python",
+      "sizeLines": 76,
+      "fileCategory": "code"
+    },
+    {
+      "path": "training/residual_eval.py",
+      "language": "python",
+      "sizeLines": 108,
+      "fileCategory": "code"
+    },
+    {
+      "path": "training/sft.py",
+      "language": "python",
+      "sizeLines": 98,
+      "fileCategory": "code"
+    },
+    {
+      "path": "training/watch_signal.sh",
+      "language": "shell",
+      "sizeLines": 31,
+      "fileCategory": "script"
+    }
+  ],
+  "batchImportData": {
+    "site/src/app/sitemap.ts": [],
+    "site/src/components/ui/button.tsx": [
+      "site/src/lib/utils.ts"
+    ],
+    "site/src/content/posts.json": [],
+    "site/src/lib/utils.ts": [],
+    "site/src/styles/site.webflow.css": [],
+    "tests/test_pope_ultra.py": [
+      "engine/pope/ultra.py"
+    ],
+    "training/residual_eval.py": [],
+    "training/sft.py": [],
+    "training/watch_signal.sh": []
+  }
+}

@@ -1,0 +1,1302 @@
+[
+ {
+  "question_id": 43495,
+  "type": "discrete",
+  "percentiles": {
+   "0.05": 1,
+   "0.1": 1,
+   "0.25": 1,
+   "0.5": 1,
+   "0.75": 1,
+   "0.9": 2,
+   "0.95": 4
+  },
+  "reasoning": "In the huge-field modern era the Main Event winner almost always holds exactly 1 bracelet (8 of the last 11 champions, 2015-2025, had it as their first); occasionally an established pro wins (Weinman 2, Mizrachi 8), giving a fat but thin right tail. Modal and median outcome is 1, with 0.9/0.95 quantiles capturing the rare seasoned-pro case."
+ },
+ {
+  "question_id": 43333,
+  "type": "discrete",
+  "percentiles": {
+   "0.05": 42,
+   "0.1": 43,
+   "0.25": 44,
+   "0.5": 46,
+   "0.75": 47,
+   "0.9": 47,
+   "0.95": 48
+  },
+  "reasoning": "With 32 of 48 teams advancing (top two per group plus the 8 best third-placed) only 16 teams are eliminated, so several of the weakest-ranked sides inevitably reach the Round of 32; a low third-place qualifier with ~3-4 points is routine. The weakest advancing team is very likely deep in the 44-48 band, centering the answer near relative rank 46 with strong mass at 47-48."
+ },
+ {
+  "question_id": 43472,
+  "type": "binary",
+  "prob": 0.05,
+  "reasoning": "The Andes hantavirus cluster is small (~13 cases) and cruise-linked with no sustained community spread; WHO chose to declare a PHEIC for Ebola Bundibugyo (May 16, 2026) but explicitly did NOT for hantavirus, and the outbreak is being contained via contact tracing/quarantine. A central-cause hantavirus PHEIC before 2027 is unlikely."
+ },
+ {
+  "question_id": 42271,
+  "type": "multiple_choice",
+  "option_probs": {
+   "Alireza Arafi": 0.01,
+   "Gholam-Hossein Mohseni-Eje'i": 0.02,
+   "Mojtaba Khamenei": 0.85,
+   "Hassan Khomeini": 0.03,
+   "Ali Larijani": 0.01,
+   "Sadeq Amoli Larijani": 0.01,
+   "None": 0.02,
+   "Position abolished": 0.02,
+   "Someone else": 0.03
+  },
+  "reasoning": "The Assembly of Experts selected Mojtaba Khamenei as Supreme Leader on March 8, 2026; he is the incumbent and very likely remains in office on Jan 1, 2027. Residual mass covers regime instability, removal, or abolition given the volatile post-strike environment."
+ },
+ {
+  "question_id": 38281,
+  "type": "date",
+  "percentiles": {
+   "0.05": "2027-06-01",
+   "0.1": "2028-06-01",
+   "0.25": "2030-01-01",
+   "0.5": "2032-06-01",
+   "0.75": "2034-06-01",
+   "0.9": "2035-01-01",
+   "0.95": "2035-01-01"
+  },
+  "reasoning": "France, UK, and Canada formally recognized Palestine in September 2025 (3 of 7), but the remaining G7 members (Germany, Italy, US, Japan) all currently refuse, so the 4th simultaneous recognition is a hard, contingent step likely many years out. Upper percentiles pushed to the open window end given real chance it never reaches 4 before 2035."
+ },
+ {
+  "question_id": 38218,
+  "type": "date",
+  "percentiles": {
+   "0.05": "2026-06-20",
+   "0.1": "2026-06-28",
+   "0.25": "2026-07-10",
+   "0.5": "2026-07-25",
+   "0.75": "2026-09-08",
+   "0.9": "2026-10-15",
+   "0.95": "2026-10-27"
+  },
+  "reasoning": "The dissolution bill passed first reading on June 2, 2026 and must clear three readings, with an election window set for Sept 8\u2013Oct 20; the question resolves at the earlier of formal dissolution or the election. Dissolution likely completes within weeks (summer 2026), well before the scheduled Oct 27 fallback."
+ },
+ {
+  "question_id": 36696,
+  "type": "multiple_choice",
+  "option_probs": {
+   "Gavin Newsom": 0.3,
+   "Alexandria Ocasio-Cortez": 0.1,
+   "Josh Shapiro": 0.05,
+   "Pete Buttigieg": 0.05,
+   "Gretchen Whitmer": 0.04,
+   "Wes Moore": 0.04,
+   "Kamala Harris": 0.05,
+   "Other": 0.37
+  },
+  "reasoning": "June 2026 prediction markets put Newsom clear frontrunner (~30-36%), AOC second (~10%), Harris ~5%, with Shapiro/Buttigieg/Whitmer/Moore in single digits; the field is wide and early, so a large Other mass (incl. unlisted names like Beshear/Ossoff/Kelly) is warranted."
+ },
+ {
+  "question_id": 37477,
+  "type": "binary",
+  "prob": 0.45,
+  "reasoning": "A ~2.5yr window with a low bar (any law, EO, or regulation mandating internal/third-party frontier-model safety evals), but the current Trump administration rescinded Biden's EO 14110 and is broadly deregulatory on AI, so a binding federal mandate is roughly a coin-flip rather than likely."
+ },
+ {
+  "question_id": 36695,
+  "type": "multiple_choice",
+  "option_probs": {
+   "JD Vance": 0.33,
+   "Donald J. Trump": 0.02,
+   "Tulsi Gabbard": 0.02,
+   "Glenn Youngkin": 0.02,
+   "Donald Trump Jr.": 0.05,
+   "Ron DeSantis": 0.04,
+   "Marco Rubio": 0.27,
+   "Other": 0.25
+  },
+  "reasoning": "June 2026 markets: Vance ~31-33% (slipping amid Trump doubts), Rubio surging to ~25-27%, Trump Jr. ~3-5%, DeSantis ~3%; Trump is barred by the 22nd Amendment so near-zero, and Other carries Tucker Carlson (~7%) plus the open field."
+ },
+ {
+  "question_id": 35720,
+  "type": "binary",
+  "prob": 0.9,
+  "reasoning": "USD share sits ~57% and has declined only ~0.5pp/yr; dropping below 50% in any quarter through Q3 2028 would require a ~7pp collapse in under four years, which only a severe dollar crisis could produce, so continuous >50% is highly likely."
+ },
+ {
+  "question_id": 35751,
+  "type": "binary",
+  "prob": 0.12,
+  "reasoning": "Courts overturning a certified winner is rare, but across all 2026 House/Senate/statewide races over a full cycle, a single razor-thin contested result (cf. NC-09 2018 new election) is plausible; still a low-base-rate event."
+ },
+ {
+  "question_id": 36711,
+  "type": "binary",
+  "prob": 0.05,
+  "reasoning": "The House seating a non-certified member would be an essentially unprecedented constitutional rupture; despite heated rhetoric there is no concrete indication this will happen before July 2027, so default low."
+ },
+ {
+  "question_id": 35733,
+  "type": "binary",
+  "prob": 0.03,
+  "reasoning": "Formal US de jure recognition of Taiwan would shatter the One-China framework and provoke a major crisis with Beijing; despite symbolic State Department wording changes, no administration is positioned to take this step before 2029."
+ },
+ {
+  "question_id": 37478,
+  "type": "binary",
+  "prob": 0.15,
+  "reasoning": "Court-executive tension is elevated with hundreds of cases, but a formal contempt order specifically tied to non-compliance with a Supreme Court mandate (and explicitly citing it) is a high, rarely-crossed bar over this window."
+ },
+ {
+  "question_id": 37479,
+  "type": "binary",
+  "prob": 0.1,
+  "reasoning": "Stephen Miller said the option was 'actively' considered in mid-2025, but no formal suspension has been announced as of June 2026 and the power constitutionally belongs to Congress, making a unilateral executive suspension a dramatic, unprecedented step. Even with a long window to Jan 2029, this remains high-talk/low-action."
+ },
+ {
+  "question_id": 35753,
+  "type": "binary",
+  "prob": 0.55,
+  "reasoning": "Strong momentum: multiple state bills ($1,000 reward, e.g., Missouri SB72, Mississippi) plus a federal ICE program that by late 2025/2026 actively pays private contractors monetary bonuses for locating immigrants reported to ICE. A formally established civilian-reward program before Jan 2027 is roughly even, with the only drag being resolution ambiguity over 'civilians' vs hired contractors/law enforcement."
+ },
+ {
+  "question_id": 36535,
+  "type": "binary",
+  "prob": 0.2,
+  "reasoning": "DXY sits near 100 in June 2026, so a sustained 90-day average below 88 requires ~12% depreciation; DXY has not been below 88 since ~2014. The long window to Jan 2029 plus Trump's stated weak-dollar preference keeps it non-trivial, but reaching 88 is a large structural move."
+ },
+ {
+  "question_id": 36311,
+  "type": "binary",
+  "prob": 0.03,
+  "reasoning": "Enlarging the Court requires an enacted statute amending 28 U.S.C. 1, and a GOP Congress facing a 6-3 friendly Court has no incentive to pack it. Near-zero structurally."
+ },
+ {
+  "question_id": 37222,
+  "type": "numeric",
+  "percentiles": {
+   "0.05": 8.4,
+   "0.1": 8.6,
+   "0.25": 8.9,
+   "0.5": 9.2,
+   "0.75": 9.5,
+   "0.9": 9.8,
+   "0.95": 10.0
+  },
+  "reasoning": "VAPGDPMA ran ~9.4-9.5% through late 2025 on a slow secular decline; tariffs and reshoring may stabilize or modestly lift it, but a multi-year structural jump is unlikely by H1 2028. Median ~9.2% with a slight downside skew."
+ },
+ {
+  "question_id": 36677,
+  "type": "binary",
+  "prob": 0.04,
+  "reasoning": "There is no precedent for a presidential order closing the exchanges (historical closures were coordinated, not ordered), and it would require an extreme crisis. A specific dramatic order over this window stays very low."
+ },
+ {
+  "question_id": 41678,
+  "type": "multiple_choice",
+  "option_probs": {
+   "Chad Bianco": 0.01,
+   "Steve Hilton": 0.07,
+   "Katie Porter": 0.01,
+   "Tom Steyer": 0.01,
+   "Xavier Becerra": 0.89,
+   "Other": 0.01
+  },
+  "reasoning": "June primary is settled: Democrat Xavier Becerra and Republican Steve Hilton advanced; Bianco, Porter, and Steyer were eliminated and cannot win. California is deep blue and elects Democrats statewide, so Becerra is the heavy favorite over Hilton."
+ },
+ {
+  "question_id": 43468,
+  "type": "multiple_choice",
+  "option_probs": {
+   "Democrat": 0.58,
+   "Republican": 0.2,
+   "Other": 0.22
+  },
+  "reasoning": "Open Democratic-held seat in a Democratic-leaning state decided by plurality, but former GOP chair Rick Bennett is a formidable independent who could win or split the field. Democrat favored, with a meaningful tail for Bennett (Other) and a weaker Republican."
+ },
+ {
+  "question_id": 43466,
+  "type": "multiple_choice",
+  "option_probs": {
+   "Democrat": 0.5,
+   "Republican": 0.42,
+   "Other": 0.08
+  },
+  "reasoning": "Open seat under ranked-choice voting; prediction markets put Democrats Begich (30%) and Kreiss-Tomkins (16%) ahead of Republican Wilson (25%) and Taylor (7%), with independent Walker around 6%. A red-leaning state but strong Democratic candidates and a Democratic national environment make it roughly a coin flip favoring the Democrat."
+ },
+ {
+  "question_id": 39983,
+  "type": "numeric",
+  "percentiles": {
+   "0.05": -40,
+   "0.1": -32,
+   "0.25": -22,
+   "0.5": -12,
+   "0.75": -3,
+   "0.9": 6,
+   "0.95": 13
+  },
+  "reasoning": "Strong out-party midterm environment (D+5 generic ballot, low presidential approval) plus markets pricing ~80% Democratic House makes a Democratic majority likely; median around a Dem edge of ~12 seats (GOP minus Dem ~ -12). Wide interval reflects the historically tight modern House map and possibility of a narrow GOP hold."
+ },
+ {
+  "question_id": 33997,
+  "type": "multiple_choice",
+  "option_probs": {
+   "Dem Senate / Dem House": 0.44,
+   "Rep Senate / Rep House": 0.18,
+   "Dem Senate / Rep House": 0.02,
+   "Rep Senate / Dem House": 0.36
+  },
+  "reasoning": "Markets price a Democratic sweep at ~44% and Republican-Senate/Democratic-House at ~35%, with a Republican sweep ~18%; House likely flips to Democrats while the Senate map favors Republicans. The split where Democrats hold the Senate but lose the House is near-impossible given correlated environment."
+ },
+ {
+  "question_id": 39986,
+  "type": "discrete",
+  "percentiles": {
+   "0.05": -4,
+   "0.1": -2,
+   "0.25": 0,
+   "0.5": 2,
+   "0.75": 4,
+   "0.9": 6,
+   "0.95": 6
+  },
+  "reasoning": "Republicans start at 53-47 (R+6); Democrats need a net +4 (to R+2 or better) for control, and markets rate the Senate a near toss-up with a slight Republican edge. Median lands around R+2 (51-49 R), with the distribution straddling Democratic control on a strong-environment night and a status-quo R+6 on the upside."
+ },
+ {
+  "question_id": 21879,
+  "type": "binary",
+  "prob": 0.08,
+  "reasoning": "The US is deploying conventional intermediate-range Typhon systems (Tomahawk/SM-6) to the Philippines and Japan, but these are non-nuclear; the US has a longstanding policy against new forward-based land nuclear missiles, and Japan's three non-nuclear principles plus Philippine constitutional bans make a land-based nuclear deployment to either before 2035 unlikely even covertly."
+ },
+ {
+  "question_id": 11127,
+  "type": "binary",
+  "prob": 0.55,
+  "reasoning": "This is doubly conditioned on an invasion AND active US-China combat; in that escalatory world a Chinese counterstrike on US Pacific territory (e.g. Guam) within a year is plausible by China's own deterrence logic, though Beijing might rationally avoid striking sovereign US soil to limit escalation, leaving it near a coin-flip."
+ },
+ {
+  "question_id": 21871,
+  "type": "binary",
+  "prob": 0.03,
+  "reasoning": "Renouncing the use of force is a foundational red line of CCP Taiwan policy and the Anti-Secession Law; no leader will permanently disavow it, especially amid rising tensions, so this is a near-certain No."
+ },
+ {
+  "question_id": 11401,
+  "type": "binary",
+  "prob": 0.4,
+  "reasoning": "Conditional on a full-scale invasion, an amphibious assault across the strait against a defended island plus likely US/allied intervention makes complete de facto control of the entire main island within three years far from assured; analysts judge China could prevail if absolutely determined but at enormous cost and with high failure risk."
+ },
+ {
+  "question_id": 11112,
+  "type": "binary",
+  "prob": 0.78,
+  "reasoning": "Conditional on a full-scale invasion (the hardest, most unambiguous trigger), repeated presidential commitments, deepening US-Taiwan-allied posture, and the strategic stakes make a US military response within a year the strongly favored outcome, though strategic ambiguity leaves residual doubt."
+ },
+ {
+  "question_id": 18444,
+  "type": "binary",
+  "prob": 0.22,
+  "reasoning": "The UK has deepened Indo-Pacific tilt (carrier deployments, AUKUS) and would likely back the US diplomatically, but an actual offensive British strike on Chinese forces is a far higher bar than US action; the UK would more plausibly provide non-kinetic support, making direct kinetic involvement within a year unlikely but not negligible."
+ },
+ {
+  "question_id": 5320,
+  "type": "binary",
+  "prob": 0.12,
+  "reasoning": "Over a 30-year horizon this captures both successful invasion and peaceful/coerced unification, but Taiwanese public opinion strongly opposes unification, deterrence holds, and a successful conquest of half the population's territory remains a low-probability tail even across decades."
+ },
+ {
+  "question_id": 8362,
+  "type": "binary",
+  "prob": 0.1,
+  "reasoning": "A direct US-China war with 1,000+ mutual battle deaths in a single year before 2035 requires a Taiwan invasion or major SCS clash plus US intervention; tensions are high and a 2027 window is discussed, but base rates for great-power direct war remain low and both sides are heavily deterred by nuclear and economic stakes."
+ },
+ {
+  "question_id": 8662,
+  "type": "binary",
+  "prob": 0.55,
+  "reasoning": "China is at ~620 warheads (FAS/SIPRI Jan 2026) and the Pentagon repeatedly projects 1,000 by 2030; reaching it requires sustaining a faster build than the recent ~20-30/yr observed pace, so it is plausible but not assured given silo fields still being filled."
+ },
+ {
+  "question_id": 8470,
+  "type": "binary",
+  "prob": 0.4,
+  "reasoning": "Conditional on a full invasion, Japan (post-2022 security shift, US ally, Senkaku/SLOC stakes) would very likely host/support US forces, but a direct Japanese offensive physical attack on Chinese forces within 365 days is more uncertain given constitutional and escalation constraints."
+ },
+ {
+  "question_id": 21805,
+  "type": "binary",
+  "prob": 0.2,
+  "reasoning": "Chinese grid intrusions and prepositioning are escalating and well-documented, but an attributed cyberattack actually causing a >=10,000-person, >=1-day blackout in Taiwan is a major escalation China has refrained from absent open conflict, making it a specific high-bar event by 2030."
+ },
+ {
+  "question_id": 12135,
+  "type": "numeric",
+  "percentiles": {
+   "0.05": -22,
+   "0.1": -16,
+   "0.25": -9,
+   "0.5": -3,
+   "0.75": 1,
+   "0.9": 4,
+   "0.95": 6
+  },
+  "reasoning": "Conditional on a full-scale invasion, severe Western sanctions plus supply-chain/blockade disruption would sharply cut China's growth from its ~4-5% baseline, likely into contraction (Russia fell ~6% post-2022 but China is far more trade-exposed), with wide uncertainty around the median."
+ },
+ {
+  "question_id": 7512,
+  "type": "binary",
+  "prob": 0.45,
+  "reasoning": "Over a long 2021-2050 window with rising tensions, an accumulation of >=100 deaths from any armed exchange (incidents, blockade clashes, or invasion) is roughly a coin flip; the long horizon raises odds but most years pass with no lethal fire exchange."
+ },
+ {
+  "question_id": 21804,
+  "type": "binary",
+  "prob": 0.1,
+  "reasoning": "A near-total import ban (carving out only electronics) would be a drastic escalation hurting China's own economy and is not foreshadowed by current tit-for-tat measures; absent open conflict before 2030 this specific sweeping action is unlikely."
+ },
+ {
+  "question_id": 21870,
+  "type": "binary",
+  "prob": 0.3,
+  "reasoning": "China publicly reaffirms no-first-use as recently as 2026 and stays disciplined officially, but the broad resolution bar (any general or senior official, including vague 'all options' threats over 4+ years of rising tension) makes a qualifying statement a realistic but minority chance."
+ },
+ {
+  "question_id": 21491,
+  "type": "binary",
+  "prob": 0.07,
+  "reasoning": "Seizing Kinmen or Matsu would be an act of war triggering the Taiwan-contingency cascade China currently avoids; despite coercive 'four links' overtures and gray-zone pressure, an actual de-facto 24-hour occupation before 2028 is a specific low-probability event."
+ },
+ {
+  "question_id": 12795,
+  "type": "binary",
+  "prob": 0.03,
+  "reasoning": "Taiwanese polling consistently favors the ambiguous status quo, and a formal declaration is Beijing's explicit red line that risks invasion; no ROC president has done it and Lai, despite hardened rhetoric in 2026, still reaffirms status-quo maintenance. A formal, 30-day-durable declaration by 2035 is very unlikely."
+ },
+ {
+  "question_id": 21869,
+  "type": "binary",
+  "prob": 0.1,
+  "reasoning": "The US maintains strategic ambiguity and has deliberately avoided explicit nuclear threats over Taiwan; even the lenient 'all options on the table' path requires a reasonably Taiwan-triggered statement before 2030. Plausible but not the default in a five-year window without an active crisis."
+ },
+ {
+  "question_id": 21874,
+  "type": "binary",
+  "prob": 0.04,
+  "reasoning": "This is a compound of two unlikely events: China using a nuclear weapon offensively first before 2035 at all, AND having formally renounced its long-standing NFU policy beforehand. China still officially maintains NFU in 2026 despite arsenal expansion, so this Yes path is very improbable."
+ },
+ {
+  "question_id": 21875,
+  "type": "binary",
+  "prob": 0.02,
+  "reasoning": "US nuclear first-use against China is extremely unlikely under any near-term scenario, and this is further conditioned on China having first officially renounced NFU. The conjunction is close to negligible by 2035."
+ },
+ {
+  "question_id": 8533,
+  "type": "binary",
+  "prob": 0.9,
+  "reasoning": "Xi removed term limits, secured an unprecedented third term in 2022, has purged rivals and groomed no successor, making continued rule in 2030 the strong structural default. The ~10% residual covers his age (~76 in 2030), health, and tail coup/succession risk over four-plus years."
+ },
+ {
+  "question_id": 7812,
+  "type": "binary",
+  "prob": 0.45,
+  "reasoning": "Conditional on a 100-death China-Taiwan conflict, actual kinetic strikes by the US or allies on PRC forces within one year are far from automatic given strategic ambiguity and acute escalation fears, but a real shooting war involving the US base posture in the region makes direct exchanges plausible. Roughly a coin flip, slightly below even."
+ },
+ {
+  "question_id": 3620,
+  "type": "binary",
+  "prob": 0.03,
+  "reasoning": "Recognizing Taiwan's sovereignty would repudiate the foundational One China principle that anchors CCP legitimacy and 2026 reunification rhetoric. Absent regime collapse or transformation, this is essentially unthinkable by 2050."
+ },
+ {
+  "question_id": 7452,
+  "type": "binary",
+  "prob": 0.12,
+  "reasoning": "Direct US-Russia war crossing 1,000 mutual battle deaths was avoided even at Cold War peak because both sides are nuclear-armed and rationally fear escalation, and proxy deaths (Ukraine) explicitly don't count. But the 24-year horizon, collapse of New START (Feb 2026) leaving no arms-control guardrails, and sustained NATO-Russia friction give a non-trivial tail."
+ },
+ {
+  "question_id": 8399,
+  "type": "binary",
+  "prob": 0.28,
+  "reasoning": "Only 9 states are nuclear-armed and adding a 10th deployable arsenal is historically rare (last was 2006). Iran is the most plausible 10th with near-zero breakout time post-Feb-2026 strikes, but it still has not weaponized and IAEA access ended; a 9-year window gives a real but minority chance via Iran or a knock-on proliferator."
+ },
+ {
+  "question_id": 8398,
+  "type": "binary",
+  "prob": 0.4,
+  "reasoning": "Conditional on a >100-detonation conflict, the toll depends heavily on counterforce vs counter-value targeting; 100 warheads on dense cities could promptly kill 100M+, but many would hit military targets and prompt (within-1-month) deaths from 100 detonations more often land in the tens of millions, with the bigger toll arriving later via fallout and famine."
+ },
+ {
+  "question_id": 7457,
+  "type": "numeric",
+  "percentiles": {
+   "0.05": 0,
+   "0.1": 0,
+   "0.25": 0,
+   "0.5": 0,
+   "0.75": 1,
+   "0.9": 3,
+   "0.95": 25
+  },
+  "reasoning": "Unconditional: most probability mass is on zero offensive detonations through 2050 (no warhead has been used in anger since 1945). The right tail covers a single demonstrative/terror use or a limited regional exchange, with a thin tail toward a large strategic exchange of thousands."
+ },
+ {
+  "question_id": 8377,
+  "type": "binary",
+  "prob": 0.03,
+  "reasoning": "Global stockpiles are ~12,300 and roughly flat-to-slowly-declining; reaching >20,000 by end-2029 would require ~8,000 net new warheads in under four years, far beyond even China's expansion plus any post-New-START buildup. Essentially structurally impossible on this timeline."
+ },
+ {
+  "question_id": 7811,
+  "type": "numeric",
+  "percentiles": {
+   "0.05": 1,
+   "0.1": 1,
+   "0.25": 1,
+   "0.5": 3,
+   "0.75": 12,
+   "0.9": 100,
+   "0.95": 800
+  },
+  "reasoning": "Conditional on at least one offensive detonation, the mode is a single use or very limited exchange (1-3 weapons), but conditioning on use raises the odds that escalation follows, producing a long right tail toward a regional (tens) or strategic (hundreds-to-thousands) exchange."
+ },
+ {
+  "question_id": 7464,
+  "type": "numeric",
+  "percentiles": {
+   "0.05": 1,
+   "0.1": 2,
+   "0.25": 5,
+   "0.5": 16,
+   "0.75": 50,
+   "0.9": 120,
+   "0.95": 165
+  },
+  "reasoning": "Median of peer-reviewed studies depends on the next conflict's scale: regional India-Pakistan modeling clusters around 5-16 Tg, while full US-Russia exchange studies (Robock/Coupe) reach 150+ Tg, with skeptics (Reisner) far lower. Median anchored near a regional/mid exchange with a wide tail toward superpower-war estimates."
+ },
+ {
+  "question_id": 8383,
+  "type": "binary",
+  "prob": 0.33,
+  "reasoning": "Conditional on a >100-detonation conflict by 2030, a >=3C global drop requires large soot injection (roughly the high-end nuclear-winter studies); 100 detonations sits at the threshold where modeled cooling spans ~1-5C depending on firestorm assumptions and targeting, and the contested Reisner-style critiques pull the central estimate below 3C."
+ },
+ {
+  "question_id": 8370,
+  "type": "binary",
+  "prob": 0.55,
+  "reasoning": "Conditional on the near-zero base event of a NATO ally (UK/France) offensively detonating a nuke, that would almost certainly mean a major nuclear war against Russia in which US Article-5 entanglement makes a US detonation within the same 30-day chain more likely than not. But US restraint/escalation control could still keep it conventional, so only modestly above even."
+ },
+ {
+  "question_id": 8611,
+  "type": "binary",
+  "prob": 0.05,
+  "reasoning": "China and Russia remain close strategic partners with a demarcated border and deepening alignment against the West; despite latent frictions over Central Asia and the Far East, a shooting war exceeding 1000 battle deaths by 2035 is a low-base-rate event."
+ },
+ {
+  "question_id": 8614,
+  "type": "binary",
+  "prob": 0.03,
+  "reasoning": "No non-state actor has ever built a deployable nuclear weapon; it requires sufficient weapons-grade fissile material plus weaponization expertise that remains far beyond known groups' reach, and there is no current intelligence indicating imminent success by 2030."
+ },
+ {
+  "question_id": 8613,
+  "type": "binary",
+  "prob": 0.03,
+  "reasoning": "State arsenals are guarded with PALs and tight command-and-control; no non-state actor has ever taken possession of an intact deployable warhead, and even amid the New START lapse and Ukraine war there is no evidence of an imminent state loss of a weapon by 2030."
+ },
+ {
+  "question_id": 8372,
+  "type": "numeric",
+  "percentiles": {
+   "0.05": 1,
+   "0.1": 5,
+   "0.25": 15,
+   "0.5": 50,
+   "0.75": 150,
+   "0.9": 500,
+   "0.95": 1000
+  },
+  "reasoning": "Conditional on any offensive detonation by 2050, the most likely first/only uses are tactical-to-strategic warheads in the 10-100 kt range (Hiroshima ~15kt, modern strategic warheads ~100-800kt), with an upper tail toward a large multi-hundred-kt to ~Mt strategic exchange. Open both ends; median ~50kt."
+ },
+ {
+  "question_id": 8639,
+  "type": "numeric",
+  "percentiles": {
+   "0.05": 0.0,
+   "0.1": 0.0,
+   "0.25": 0.01,
+   "0.5": 0.03,
+   "0.75": 0.08,
+   "0.9": 0.18,
+   "0.95": 0.3
+  },
+  "reasoning": "All nine nuclear states and nearly all plausible high-value targets lie in the Northern Hemisphere, so conditional on >50 global detonations the overwhelming majority would be Northern; a small fraction could fall in the Southern Hemisphere (e.g. Australia bases, South Atlantic, Indian Ocean targets). Median ~3%."
+ },
+ {
+  "question_id": 11601,
+  "type": "date",
+  "percentiles": {
+   "0.05": "2027-06-01",
+   "0.1": "2030-01-01",
+   "0.25": "2038-01-01",
+   "0.5": "2052-01-01",
+   "0.75": "2070-01-01",
+   "0.9": "2088-01-01",
+   "0.95": "2096-01-01"
+  },
+  "reasoning": "Conditional on at least one offensive detonation by 2100, an annual hazard on the order of ~1% spreads the first event across the century, with the distribution skewed somewhat earlier given currently elevated risk (Ukraine war, New START lapse, Russian nuclear posturing). Median around the early-2050s."
+ },
+ {
+  "question_id": 8608,
+  "type": "binary",
+  "prob": 0.06,
+  "reasoning": "The conditioning event is now met: New START expired 5 Feb 2026 with no successor and no negotiations. Treaty lapse modestly raises strategic-instability risk, but a direct US-Russia nuclear detonation on each other's territory by 2035 remains very unlikely given mutual deterrence and Russia's stated intent to informally honor the limits."
+ },
+ {
+  "question_id": 8609,
+  "type": "binary",
+  "prob": 0.12,
+  "reasoning": "Conditional on a 10% shortfall, Denkenberger himself notes near-zero mortality is unlikely but mass starvation is often averted via aid, rationing, and export controls; >400M dead (~5% of humanity) is an extreme tail requiring three credible sources to converge, plausible mainly if the shortfall stems from nuclear winter. Most non-nuclear 10%-shortfall paths fall well short of 400M."
+ },
+ {
+  "question_id": 8610,
+  "type": "numeric",
+  "percentiles": {
+   "0.05": 0.0,
+   "0.1": 0.02,
+   "0.25": 0.08,
+   "0.5": 0.2,
+   "0.75": 0.4,
+   "0.9": 0.6,
+   "0.95": 0.75
+  },
+  "reasoning": "US targeting is predominantly counterforce (silos, bases, C2), much of which lies outside dense >1500/km^2 city cores, but many military/leadership targets are co-located with or near large cities and a full exchange would include countervalue strikes. Wide distribution centered low-to-moderate."
+ },
+ {
+  "question_id": 8612,
+  "type": "binary",
+  "prob": 0.04,
+  "reasoning": "A direct US-Russia nuclear exchange within ~9 years carries a very low base rate (~3-5%), and conditioning on a successfully renewed/replaced arms-control treaty signals relatively cooperative relations that further lowers it. Mutual deterrence has held for 80 years."
+ },
+ {
+  "question_id": 8629,
+  "type": "binary",
+  "prob": 0.85,
+  "reasoning": "A conflict with 100+ detonations on US territory implies a large-scale exchange whose soot injection and climatic effects (nuclear winter literature) would very likely depress US cereal yields by far more than a 20% five-year average. The main downside risk is short, limited 100-detonation scenarios with milder climate effects."
+ },
+ {
+  "question_id": 8630,
+  "type": "numeric",
+  "percentiles": {
+   "0.05": 1.5,
+   "0.1": 3,
+   "0.25": 8,
+   "0.5": 30,
+   "0.75": 120,
+   "0.9": 360,
+   "0.95": 600
+  },
+  "reasoning": "Conditional on >100 detonations in one conflict, the most likely dynamic is a rapid strike/counterstrike playing out over hours, but tit-for-tat escalation could stretch across days within the 30-day same-conflict window. Heavy right skew toward longer drawn-out exchanges."
+ },
+ {
+  "question_id": 8631,
+  "type": "numeric",
+  "percentiles": {
+   "0.05": 0.0,
+   "0.1": 0.0,
+   "0.25": 0.1,
+   "0.5": 0.5,
+   "0.75": 0.9,
+   "0.9": 1.0,
+   "0.95": 1.0
+  },
+  "reasoning": "Outcome is bimodal: the single most likely first-use scenario (e.g. Russia in Ukraine) is one or a few tactical/non-strategic weapons giving a high proportion, while a large central exchange would be dominated by strategic weapons giving a low proportion. Median near 0.5 reflects this split."
+ },
+ {
+  "question_id": 8632,
+  "type": "binary",
+  "prob": 0.18,
+  "reasoning": "Exceeding 1000Mt total yield requires a near-full-scale strategic exchange of thousands of warheads. Conditional merely on any offensive detonation, the modal path is a limited single/few-weapon use that stays far below this threshold; only the all-out-war tail clears 1000Mt."
+ },
+ {
+  "question_id": 8635,
+  "type": "binary",
+  "prob": 0.35,
+  "reasoning": "A 50Mt total is reachable with roughly 100 strategic-class detonations, far easier than 1000Mt but still well beyond the most likely limited first-use scenario. Conditional on any offensive detonation, this sits between the limited-use mode and the full-exchange tail."
+ },
+ {
+  "question_id": 8636,
+  "type": "binary",
+  "prob": 0.12,
+  "reasoning": "Russia-NATO risk is elevated (drone incidents, air-raid sirens in NATO states, German military warnings, New START expired), but the 1000-deaths/yr-with-US-staying-out bar is hard: Article 5 makes most Russia-NATO clashes pull in the US, which would void the no-US-war condition. Over ~9 years a deliberate but US-limited Russia-vs-Baltic clash is plausible yet remains the tail case."
+ },
+ {
+  "question_id": 8638,
+  "type": "binary",
+  "prob": 0.7,
+  "reasoning": "Conditional on any offensive detonation occurring at all, the most salient first-use scenarios (Russian tactical use in Ukraine, an India-Pakistan exchange spilling onto non-nuclear neighbors, Israel-Iran) frequently put the impact on or near a non-nuclear state. Ukraine is the leading candidate, so a non-nuclear-state fatality is the likely (not certain) form."
+ },
+ {
+  "question_id": 8644,
+  "type": "binary",
+  "prob": 0.1,
+  "reasoning": "Of the three buckets (deliberate, inadvertent, accidental), inadvertent launch from a mistaken counterattack belief is historically the rarest actual cause; deliberate use dominates first-detonation scenarios. Conditional on a first detonation, inadvertent is a low-probability mechanism."
+ },
+ {
+  "question_id": 8645,
+  "type": "binary",
+  "prob": 0.1,
+  "reasoning": "Accidental/unauthorized detonation (safeguard failure, rogue actor) is a low-probability mechanism relative to a deliberate decision to use; modern PALs and procedures make accidental detonation the least likely first event. Deliberate remains the dominant residual."
+ },
+ {
+  "question_id": 8646,
+  "type": "binary",
+  "prob": 0.95,
+  "reasoning": "Conditional on >100 offensive detonations (a major nuclear war), a >=10% one-year drop in global goods trade is near-certain: even the 2009 financial crisis cut world merchandise trade ~20%+, and a large nuclear exchange would devastate ports, infrastructure, and economies far more."
+ },
+ {
+  "question_id": 8363,
+  "type": "binary",
+  "prob": 0.08,
+  "reasoning": "China-India relations are in a 2025-26 normalization/thaw with managed friction; both are nuclear and economically interdependent. Even the deadliest recent clash (Galwan 2020) killed ~24, far below the 1000/yr threshold, so a war-scale conflict by 2035 is a low-probability tail despite unresolved border disputes."
+ },
+ {
+  "question_id": 8373,
+  "type": "numeric",
+  "percentiles": {
+   "0.05": 1,
+   "0.1": 1,
+   "0.25": 1,
+   "0.5": 1,
+   "0.75": 2,
+   "0.9": 3,
+   "0.95": 6
+  },
+  "reasoning": "Conditional on at least one HEMP attack by 2030, the count is heavily right-skewed at 1: a HEMP attack would be an extraordinary escalation, almost certainly isolated, with multiple attacks implying an ongoing nuclear exchange. Median 1, with a thin tail to a handful."
+ },
+ {
+  "question_id": 8376,
+  "type": "numeric",
+  "percentiles": {
+   "0.05": 0.0,
+   "0.1": 0.0,
+   "0.25": 0.05,
+   "0.5": 0.2,
+   "0.75": 0.45,
+   "0.9": 0.7,
+   "0.95": 0.85
+  },
+  "reasoning": "Most plausible state detonation scenarios (single tactical/demonstration use, battlefield or military/silo targets) are not dense-city strikes, pulling the fraction low; but a full countervalue exchange would push much of the mass onto cities. Wide distribution centered around 0.2, spanning 0 to near 1."
+ },
+ {
+  "question_id": 8378,
+  "type": "binary",
+  "prob": 0.05,
+  "reasoning": "Current global stockpile (~12,000 warheads, FAS 2025, and declining) with mean yield in the low hundreds of kt gives a total yield of roughly 2,000-3,000 Mt, far below 10,000 Mt. Reaching the threshold needs ~3-4x current warheads or a large mean-yield jump, which is not credible by 2029."
+ },
+ {
+  "question_id": 8379,
+  "type": "binary",
+  "prob": 0.1,
+  "reasoning": "No stockpiled weapon is currently credibly assessed above 30 MT; the largest deployed warheads are sub-megaton, and the old >20 MT bombs are retired. Poseidon's up-to-100 MT claim is contested and the device is arguably still in development, so the two-uncontested-credible-source bar is unlikely to be met."
+ },
+ {
+  "question_id": 8380,
+  "type": "binary",
+  "prob": 0.03,
+  "reasoning": "Even with New START expired and Trump/Putin floating resumed testing, any resumed test would be low-yield; a deliberate >30 MT explosive test has not happened since 1961 and serves no modern purpose. Near-inconceivable by 2030."
+ },
+ {
+  "question_id": 8381,
+  "type": "binary",
+  "prob": 0.45,
+  "reasoning": "Conditional on >100 detonations: blast, fallout and especially famine effects over 10 years could plausibly exceed 1 billion deaths, but 100 is the low end and the exchange could be largely counterforce, so it sits just below even."
+ },
+ {
+  "question_id": 8382,
+  "type": "binary",
+  "prob": 0.6,
+  "reasoning": "Conditional on a >1,000-detonation exchange: leading nuclear-winter/famine models (e.g., Xia et al. 2022) center on roughly 5 billion deaths within a decade, so >4 billion over 10 years including famine is the modal outcome, though soot and crop-response uncertainty keeps it short of high confidence."
+ },
+ {
+  "question_id": 8391,
+  "type": "binary",
+  "prob": 0.33,
+  "reasoning": "Conditional on a nuclear conflict by 2030, the Jun 1-Sep 30 window is 122 of 365 days (~0.33) and there is no strong seasonal driver of conflict initiation, so the base-rate fraction is the right anchor."
+ },
+ {
+  "question_id": 8392,
+  "type": "binary",
+  "prob": 0.7,
+  "reasoning": "Conditional on >100 detonations: soot injection from even ~100 weapons drives measurable global cooling and crop declines in nuclear-winter studies, and a >5% drop versus the prior 5 years is an easy bar to clear given those models. Lean yes, with residual uncertainty on target mix and soot loft."
+ },
+ {
+  "question_id": 8394,
+  "type": "binary",
+  "prob": 0.3,
+  "reasoning": "Conditional on a HEMP attack, direct fatalities are near zero and the >10 million figures rest on disputed infrastructure-collapse cascade models. Getting three credible sources to estimate >10 million is plausible but contested, so below even."
+ },
+ {
+  "question_id": 8395,
+  "type": "binary",
+  "prob": 0.96,
+  "reasoning": "Resolution criteria use a 10-year window: 100+ offensive detonations on or near populated areas reliably produce >1M deaths through blast, fire, fallout and famine; published modeling shows even immediate fire deaths reach hundreds of thousands to millions. Near-certain conditional on the trigger."
+ },
+ {
+  "question_id": 8396,
+  "type": "binary",
+  "prob": 0.05,
+  "reasoning": "Even worst-case nuclear-winter models do not predict literal zero humans; geographically dispersed and southern-hemisphere populations survive famine and cooling. Total extinction within 50 years is a deep-tail outcome, not the median, even at >1,000 detonations."
+ },
+ {
+  "question_id": 8397,
+  "type": "binary",
+  "prob": 0.28,
+  "reasoning": "Below 400M means a ~95% die-off; nuclear-winter famine models put billions at risk but the median outcome leaves well over 1 billion survivors. A collapse to <400M is a plausible but minority catastrophic-tail scenario."
+ },
+ {
+  "question_id": 7503,
+  "type": "numeric",
+  "percentiles": {
+   "0.05": 0.05,
+   "0.1": 0.1,
+   "0.25": 0.2,
+   "0.5": 0.4,
+   "0.75": 0.65,
+   "0.9": 0.85,
+   "0.95": 0.92
+  },
+  "reasoning": "Conditional on offensive detonations. Limited-use, demonstration, or counterforce scenarios target sparse areas, but any large exchange heavily targets cities, and small-N realizations (e.g., 1-2 detonations on a city) push the fraction toward 1. Very wide and roughly centered."
+ },
+ {
+  "question_id": 7402,
+  "type": "date",
+  "percentiles": {
+   "0.05": "2027-06-01",
+   "0.1": "2029-01-01",
+   "0.25": "2032-06-01",
+   "0.5": "2037-06-01",
+   "0.75": "2043-01-01",
+   "0.9": "2047-06-01",
+   "0.95": "2049-06-01"
+  },
+  "reasoning": "Conditional on a direct US-Russia war (1,000+ mutual battle deaths) occurring by 2050; timing is roughly uniform over the window with mild front-loading given current tensions and the February 2026 lapse of New START guardrails."
+ },
+ {
+  "question_id": 7405,
+  "type": "binary",
+  "prob": 0.22,
+  "reasoning": "Conditional on some fatal offensive detonation occurring somewhere by 2050; most plausible scenarios are regional (India-Pakistan, the Russia-Ukraine theater, Middle East), and a strike causing immediate fatalities on the US homeland is a minority of those conditional paths."
+ },
+ {
+  "question_id": 7406,
+  "type": "binary",
+  "prob": 0.02,
+  "reasoning": "Non-state actors have never detonated a nuclear device; acquisition or improvised construction of a working bomb remains extremely difficult and the window to 2030 is short. Specific unprecedented event in a narrow window stays very low."
+ },
+ {
+  "question_id": 7408,
+  "type": "binary",
+  "prob": 0.87,
+  "reasoning": "Nearly all plausible first-use scenarios (Russia-Ukraine, India-Pakistan, Korea, Middle East) arise from an ongoing or recent conventional conflict between nuclear and adversary states. A bolt-from-the-blue, inadvertent, or accidental detonation absent conventional fighting is the minority path."
+ },
+ {
+  "question_id": 7411,
+  "type": "numeric",
+  "percentiles": {
+   "0.05": 0.0,
+   "0.1": 0.0,
+   "0.25": 0.15,
+   "0.5": 0.4,
+   "0.75": 0.7,
+   "0.9": 0.9,
+   "0.95": 1.0
+  },
+  "reasoning": "Conditional on any offensive use by 2050, analysts (Stimson, Atlantic Council) see tactical/battlefield first-use (Russia to reverse losses, NK against advancing forces) as the single most plausible scenario, so a meaningful battlefield share is likely; but a lone demonstration or escalation to city strikes would push the fraction low, giving a very wide, slightly bimodal distribution centered near 0.4."
+ },
+ {
+  "question_id": 7453,
+  "type": "binary",
+  "prob": 0.32,
+  "reasoning": "North Korea is a top-tier flashpoint with asymmetric first-use doctrine and pre-delegated field authority, but conditioning on an offensive detonation occurring anywhere by 2050, the more likely venues (Russia/Ukraine, India/Pakistan, Middle East) mean a fatal detonation specifically inside North Korea is plausible but not majority-likely."
+ },
+ {
+  "question_id": 7461,
+  "type": "numeric",
+  "percentiles": {
+   "0.05": 0.0,
+   "0.1": 0.05,
+   "0.25": 0.2,
+   "0.5": 0.45,
+   "0.75": 0.8,
+   "0.9": 1.0,
+   "0.95": 1.0
+  },
+  "reasoning": "Genuinely bimodal: a single limited tactical/counterforce first use yields a low countervalue fraction, but any escalation to a strategic exchange places many warheads on cities (capital strikes auto-count as countervalue), driving the fraction high by sheer count, so the distribution spans the full range and centers near 0.45."
+ },
+ {
+  "question_id": 25719,
+  "type": "binary",
+  "prob": 0.35,
+  "reasoning": "Taxonomic coverage of 75,000+ species via links (GBIF/WFO/Wikipedia) is already nearly solved, but the requirement for an open, agriculture-oriented database integrating genomic/phenomic or vernacular-use data at that scale is a much higher bar with no clear current effort spanning 25% of land plants. Plausible but not favored over a 9-year horizon."
+ },
+ {
+  "question_id": 25636,
+  "type": "binary",
+  "prob": 0.82,
+  "reasoning": "Multiple universal/off-the-shelf allogeneic CAR-T programs are advancing fast in 2026 (Wugen breakthrough designation, Caribou CB-011 RMAT with 92% ORR, Allogene pivotal programs), giving a deep pipeline and ~9 years runway, so at least one full FDA approval for a cancer indication is highly likely."
+ },
+ {
+  "question_id": 25598,
+  "type": "binary",
+  "prob": 0.08,
+  "reasoning": "ERW removed only ~10,000 t CO2/yr (0.00001 Gt) as of early 2025, requiring ~50,000x scaling to hit 0.5 Gt/yr by 2040, while peer-reviewed projections put ERW at just 0.35-0.76 Gt only by 2050, implying well under 0.5 Gt before 2040."
+ },
+ {
+  "question_id": 25595,
+  "type": "binary",
+  "prob": 0.07,
+  "reasoning": "This is a narrow, near-term (pre-2030) compound requirement\u2014commercial availability at 1,000-ton scale, +30% weathering acceleration, AND under $20/ton\u2014and no such biochemical additive product is currently on the market, so default low for a specific technical milestone in a short window."
+ },
+ {
+  "question_id": 25585,
+  "type": "binary",
+  "prob": 0.04,
+  "reasoning": "Alternative protein is only ~5-7% of the meat market in 2025 and growing at ~10-11% CAGR, leaving it near 9-11% by 2034\u2014reaching >25% would require a roughly 4x share gain that far outpaces every current market trajectory."
+ },
+ {
+  "question_id": 25655,
+  "type": "binary",
+  "prob": 0.22,
+  "reasoning": "Age-adjusted US cancer mortality has fallen ~16% per decade recently (146.2 in 2019); a 50% drop to 73.1 by 2051 (~30 years) requires sustained acceleration well beyond trend, achievable only if multiple major therapy/prevention breakthroughs compound\u2014possible but not the base-rate expectation."
+ },
+ {
+  "question_id": 25519,
+  "type": "binary",
+  "prob": 0.3,
+  "reasoning": "State-of-art high-fidelity fermentation tests run ~$1,500, so under $10 with PPV>0.90 is a ~150x reduction; well-funded startups (e.g., Caladan) are cutting costs sharply, but reaching sub-$10 per predictive bioreactor run by 2035 is an aggressive target that is more likely to land in the tens-to-hundreds-of-dollars range."
+ },
+ {
+  "question_id": 25526,
+  "type": "binary",
+  "prob": 0.12,
+  "reasoning": "A 100x cut (from $100-200M to ~$2M) in end-to-end bioproduct development cost by 2045 was flagged by Astera/Metaculus workshop experts as hinging on solving genotype-to-phenotype prediction, which they judged not very feasible; cost curves help but a full two-orders-of-magnitude drop is unlikely on this horizon."
+ },
+ {
+  "question_id": 25565,
+  "type": "binary",
+  "prob": 0.09,
+  "reasoning": "Current syngas/gas fermentation (LanzaTech etc.) operates at hundreds-to-thousands of tons/yr per plant; reaching 500M t/yr global capacity by 2050 demands a ~5-order-of-magnitude scale-up plus step-change CO2-fermenting strains and reactors that don't yet exist economically. Possible over 24 years but it requires the whole bottleneck stack to break, so default low."
+ },
+ {
+  "question_id": 25572,
+  "type": "binary",
+  "prob": 0.11,
+  "reasoning": "Bio-based ethylene, propylene and succinic acid all still carry meaningful price premiums over petrochemical routes in 2025 (bio-succinic ~$1,800/MT and startups have repeatedly failed on cost), and the question needs all three simultaneously within 2% of petro-parity. Achievable only with sustained high oil prices or a broad carbon tax plus fermentation breakthroughs, so unlikely though not negligible by 2050."
+ },
+ {
+  "question_id": 25575,
+  "type": "date",
+  "percentiles": {
+   "0.05": "2048-07-01",
+   "0.1": "2055-07-01",
+   "0.25": "2065-07-01",
+   "0.5": "2075-01-01",
+   "0.75": "2075-01-01",
+   "0.9": "2075-01-01",
+   "0.95": "2075-01-01"
+  },
+  "reasoning": "Synthetic-biology protein fibers (Spiber, Bolt) are a tiny fraction of well under 0.1% of ~116M tonnes of global fiber, still cost $20-30+/kg vs commodity synthetics, and largest fermenters make ~10kg batches; reaching 10% by mass (~12M t) needs a thousand-fold scale-up. Most likely it does not reach 10% before 2075, so upper percentiles sit at the open window end."
+ },
+ {
+  "question_id": 25578,
+  "type": "binary",
+  "prob": 0.03,
+  "reasoning": "PA6 nylon trades around $2-3/kg while recombinant protein/spider-silk fibers remain $20-30/kg at best (often hundreds to $1,800/kg), an order of magnitude too expensive, with no credible path to undercut nylon in an open 10-tonne order by end-2029. Effectively no chance by 2030."
+ },
+ {
+  "question_id": 25586,
+  "type": "binary",
+  "prob": 0.62,
+  "reasoning": "GFI and Tufts are actively building open-access cell-line banks, media formulations and tools for alternative-protein research with growing momentum, and the 100-item threshold is modest. Main risk is that resources stay fragmented across sites or fall short of the strict 'intended for meat alternatives' + single accessible repository wording before 2030."
+ },
+ {
+  "question_id": 25720,
+  "type": "binary",
+  "prob": 0.3,
+  "reasoning": "Citizen-science plant data efforts exist (Pl@ntNet, iNaturalist, GBIF-linked programs) and global biodiversity funding is rising, but the specific bar of >=30 Global-South countries (>=4 each across Africa, Asia/Pacific, Latin America) plus a documented $10M+ aggregate investment in such initiatives by 2030 is narrow and hard to evidence cleanly. Lean below even."
+ },
+ {
+  "question_id": 25735,
+  "type": "numeric",
+  "percentiles": {
+   "0.05": "20",
+   "0.1": "24",
+   "0.25": "30",
+   "0.5": "38",
+   "0.75": "48",
+   "0.9": "60",
+   "0.95": "72"
+  },
+  "reasoning": "Dilute coal flue-gas point-source capture is ~$47-77/t today with a DOE second-gen target near $40/t; over ~15 years to 2039 modest learning-curve declines but no order-of-magnitude drop are realistic for a dilute source, with upside risk if deployment stays limited. Median ~$38/t in 2024 dollars, wide both ways."
+ },
+ {
+  "question_id": 25736,
+  "type": "binary",
+  "prob": 0.07,
+  "reasoning": "Carbonic-anhydrase CO2-absorption assays in the literature are mostly immobilized-enzyme or packed-bed microreactor formats, whereas this needs a non-immobilized assay using <100 uL solvent and <5 mg enzyme that is also purchasable in batches of 100 or selling ~1,000/yr before 2028. The combined technical-plus-commercial bar in a short window is rarely met, so default low."
+ },
+ {
+  "question_id": 18174,
+  "type": "binary",
+  "prob": 0.6,
+  "reasoning": "IEA projects global solar PV generation overtakes wind by ~2026-2027 and hydropower by ~2029-2030, so within the 2023-2030 window solar plausibly becomes the largest single renewable. The drag is the Energy Institute Statistical Review's primary-energy substitution accounting (which inflates hydro) plus 2030 data needing to be published, but the trajectory clearly points to a qualifying year."
+ },
+ {
+  "question_id": 18551,
+  "type": "binary",
+  "prob": 0.05,
+  "reasoning": "A reported, globally-scaled, satellite-facilitated wildlife-trade enforcement system producing a measurable >=5% poaching reduction with identifiable attribution and strict onus is not on track to exist by 2031. Pilots exist but no broad effective global system."
+ },
+ {
+  "question_id": 18550,
+  "type": "binary",
+  "prob": 0.04,
+  "reasoning": "The 48-hour Atlantic track error was a record-low 45.4 nm in 2024 and ~53.4 nm in 2025; reaching 30.0 nm or less by 2030 would require an unprecedented ~35% further improvement in a few years, far outside the historical trend."
+ },
+ {
+  "question_id": 18549,
+  "type": "binary",
+  "prob": 0.1,
+  "reasoning": "Satellite/AIS monitoring (e.g., Global Fishing Watch, SkyLight) is increasingly used in IUU enforcement, but a credible, broadly-applicable, attributable >=5% reduction in illegal fishing meeting the strict onus and 'directly implemented in enforcement' bar is unlikely to be cleanly reported by 2031."
+ },
+ {
+  "question_id": 18258,
+  "type": "binary",
+  "prob": 0.05,
+  "reasoning": "The High Seas Treaty (BBNJ) has not yet entered into force and lacks operational enforcement machinery; demonstrable satellite-enabled enforcement outcomes specifically attributable to the treaty before Jan 2027 are very improbable."
+ },
+ {
+  "question_id": 18172,
+  "type": "binary",
+  "prob": 0.03,
+  "reasoning": "Space-based solar power remains experimental with no commercial Earth-delivery capacity; it has essentially zero chance of exceeding total earth-based renewable capacity in any year through 2073, despite the long window."
+ },
+ {
+  "question_id": 18175,
+  "type": "date",
+  "percentiles": {
+   "0.05": "2027-07-01",
+   "0.1": "2028-07-01",
+   "0.25": "2030-07-01",
+   "0.5": "2033-07-01",
+   "0.75": "2038-07-01",
+   "0.9": "2045-07-01",
+   "0.95": "2052-07-01"
+  },
+  "reasoning": "Missions like MethaneSAT, CO2M (Copernicus, ~2026+), GOSAT-GW and Carbon Mapper are rapidly improving near-real-time GHG monitoring, but accurate (+/-5%) global real-time coverage of all CO2 and CH4 sources confirmed by multiple credible bodies likely takes into the early-to-mid 2030s, with a long tail."
+ },
+ {
+  "question_id": 18526,
+  "type": "numeric",
+  "percentiles": {
+   "0.05": 200000000,
+   "0.1": 350000000,
+   "0.25": 600000000,
+   "0.5": 1100000000,
+   "0.75": 2200000000,
+   "0.9": 4000000000,
+   "0.95": 6500000000
+  },
+  "reasoning": "The satellite-specific hyperspectral imagery segment is a niche slice of the broad hyperspectral imaging systems market (whose 2030 estimates range ~$1.8B-$28B across medical, industrial and ground uses). Satellite hyperspectral imagery revenue in 2030 most plausibly sits in the high-hundreds-of-millions to low-billions, centered near ~$1.1B."
+ },
+ {
+  "question_id": 18560,
+  "type": "binary",
+  "prob": 0.07,
+  "reasoning": "Current 'carbon capture in space' work (SRI, Cemsica, Airbus DAC) improves capture tech using microgravity or scrubs ISS air, none demonstrate capturing atmospheric CO2 to launch/dispose it into space, which the criteria specifically require. That exact concept is physically/economically near-pointless and largely theoretical, so a dedicated proof-of-concept before 2031 is unlikely."
+ },
+ {
+  "question_id": 18561,
+  "type": "binary",
+  "prob": 0.7,
+  "reasoning": "The criterion is broad and soft (any >1M city worldwide, official public credit plus documented reduction) over a ~4.5-year window, and satellite imagery is already mainstream in smart-city traffic planning, with an active 2025 Bengaluru project explicitly using it. Given the trend and breadth, a qualifying public credit is more likely than not, though the documented-reduction requirement adds some risk."
+ },
+ {
+  "question_id": 30372,
+  "type": "date",
+  "percentiles": {
+   "0.05": "2031-01-01",
+   "0.1": "2033-01-01",
+   "0.25": "2036-01-01",
+   "0.5": "2040-01-01",
+   "0.75": "2047-01-01",
+   "0.9": "2058-01-01",
+   "0.95": "2066-01-01"
+  },
+  "reasoning": "Genuine Shor factoring on real hardware tops out at trivial numbers (21); RSA-2048 needs thousands of fault-tolerant logical qubits running for days, vs IBM's ~200-logical-qubit Starling targeted only for 2029 and Google's '1M qubits, ~a week, potentially by 2030' estimate. 2025-26 resource papers (Gidney <1M, Iceberg <100k) cut the bar sharply but are theoretical architectures, and quantum timelines historically slip, so first credible factorization most likely lands around 2040 with a long right tail."
+ },
+ {
+  "question_id": 18224,
+  "type": "date",
+  "percentiles": {
+   "0.05": "2034-01-01",
+   "0.1": "2036-06-01",
+   "0.25": "2039-06-01",
+   "0.5": "2039-12-31",
+   "0.75": "2039-12-31",
+   "0.9": "2039-12-31",
+   "0.95": "2039-12-31"
+  },
+  "reasoning": "Requires a genuine room-temperature ambient-pressure superconductor (not yet achieved; best ambient-pressure Tc as of 2026 is only ~151 K, still deeply cryogenic) PLUS commercial MRI productization, which lags any discovery by years. With the underlying physics unlikely before ~2050, a commercial MRI by 2040 is very improbable, so most percentiles sit at/past the open upper bound."
+ },
+ {
+  "question_id": 18194,
+  "type": "binary",
+  "prob": 0.02,
+  "reasoning": "LK-99 is definitively debunked (impurity/ferromagnetic artifact) and as of 2026 no material superconducts at ambient pressure above ~151 K, far below the required 20 C; a fully functional commercial product using a true RT/AP superconductor before 2030 is essentially impossible."
+ },
+ {
+  "question_id": 18169,
+  "type": "date",
+  "percentiles": {
+   "0.05": "2032-01-01",
+   "0.1": "2036-01-01",
+   "0.25": "2044-01-01",
+   "0.5": "2056-01-01",
+   "0.75": "2074-01-01",
+   "0.9": "2080-01-02",
+   "0.95": "2080-01-02"
+  },
+  "reasoning": "This asks only for the lab achievement (replicated, -5 to 105 C at ~1 atm), not commercialization. A 2025 Nature Communications analysis judges ambient-pressure room-temperature conventional superconductivity extremely unlikely, but computational roadmaps and active research keep it possible over a 54-year horizon; median pushed past 2050 with substantial mass running to the open upper bound."
+ },
+ {
+  "question_id": 4873,
+  "type": "binary",
+  "prob": 0.35,
+  "reasoning": "OpenAI's value trajectory makes a 100x return on the 2019 first-round (~$100B) conceivable by 2035, but the capped-profit structure itself is being dismantled in the for-profit/PBC conversion, which could moot the specific 'reached the cap' reporting condition rather than trigger it."
+ },
+ {
+  "question_id": 5694,
+  "type": "date",
+  "percentiles": {
+   "0.05": "2024-07-11",
+   "0.1": "2024-07-11",
+   "0.25": "2024-07-11",
+   "0.5": "2024-07-11",
+   "0.75": "2024-07-11",
+   "0.9": "2024-07-11",
+   "0.95": "2024-07-11"
+  },
+  "reasoning": "Graphcore was acquired by SoftBank Group Corp. (publicly traded, TSE: 9984) on 2024-07-11, which satisfies the 'acquired by a publicly traded company' resolution channel; the event has already occurred."
+ },
+ {
+  "question_id": 7791,
+  "type": "date",
+  "percentiles": {
+   "0.05": "2027-06-01",
+   "0.1": "2027-12-01",
+   "0.25": "2028-06-01",
+   "0.5": "2028-12-01",
+   "0.75": "2030-01-01",
+   "0.9": "2032-01-01",
+   "0.95": "2034-06-01"
+  },
+  "reasoning": "As of mid-2026 no Optimus units are sold to consumers; V3 production reveal is ~summer 2026, first external/commercial customers late 2026, with $20-30K consumer availability targeted end-2027 but analysts expecting slippage to 2028. Given Musk's history of optimistic timelines, I center true general-consumer delivery in late 2028 with a long right tail."
+ },
+ {
+  "question_id": 16005,
+  "type": "date",
+  "percentiles": {
+   "0.05": "2027-01-01",
+   "0.1": "2028-01-01",
+   "0.25": "2029-06-01",
+   "0.5": "2031-06-01",
+   "0.75": "2033-06-01",
+   "0.9": "2035-06-01",
+   "0.95": "2038-01-01"
+  },
+  "reasoning": "The 2024 antitrust ruling left the Apple-Google default deal largely intact (annual rebid allowed, Google may still pay) and Apple has not announced dropping Google; AI-search shifts and ongoing antitrust pressure make an eventual change plausible but with no concrete near-term trigger, so the median sits in the early 2030s with an open right tail past the 2033 window end."
+ },
+ {
+  "question_id": 20460,
+  "type": "binary",
+  "prob": 0.95,
+  "reasoning": "Huawei plans ~600,000 domestically-designed (HiSilicon) and SMIC-fabbed Ascend 910C chips in 2026, with Chinese hyperscalers ordering at scale under state pressure; the >20,000-chip threshold within a one-year span is effectively already met."
+ },
+ {
+  "question_id": 20169,
+  "type": "binary",
+  "prob": 0.55,
+  "reasoning": "SMIC's 5nm node (Kirin X90) is in production at ~125 MTr/mm2 and Huawei's LogicFolding 5nm reportedly hits ~238 MTr/mm2, so a sourced >150 estimate on WikiChip/Wikipedia for an in-production Chinese chip is plausible by Jan 2027 but not yet confirmed at that density."
+ },
+ {
+  "question_id": 20136,
+  "type": "binary",
+  "prob": 0.06,
+  "reasoning": "SMIC's market cap is ~$92B versus TSMC's ~$2.18T (about 4%), so a Chinese foundry would need roughly a 5x relative gain in 18 months to reach 20%, which is highly improbable."
+ },
+ {
+  "question_id": 20466,
+  "type": "binary",
+  "prob": 0.4,
+  "reasoning": "Frontier Chinese models (DeepSeek, Qwen) have so far been trained predominantly on Nvidia silicon, but Ascend 910C capacity is ramping hard through 2026; a frontier run with >50% Chinese-designed-and-fabricated compute by end-2026 is plausible yet not yet demonstrated."
+ },
+ {
+  "question_id": 20157,
+  "type": "binary",
+  "prob": 0.18,
+  "reasoning": "Chinese foundries hold roughly 6-7% of global foundry revenue share against TSMC's ~60%; reaching 20% in a single quarter by 2033 requires a very large shift, though heavy state investment and capacity doubling keep it non-negligible over the 7-year window."
+ },
+ {
+  "question_id": 20146,
+  "type": "binary",
+  "prob": 0.82,
+  "reasoning": "China's domestic LDP-based EUV machine entered trial production in late 2025 with mass-production targeted for 2026-2028; over a 7-year window to 2033, volume EUV production at a Chinese fab is likely."
+ },
+ {
+  "question_id": 20134,
+  "type": "binary",
+  "prob": 0.45,
+  "reasoning": "SMIC is already test-driving domestic immersion (ArFi-class) DUV tools with integration into production lines targeted for 2027, but reaching genuine high-volume production (50k wafers/month) after qualification before Jan 2028 is a tight timeline."
+ },
+ {
+  "question_id": 20135,
+  "type": "binary",
+  "prob": 0.93,
+  "reasoning": "The bar is merely marketing an EUV machine on a website or a credible report of one being sold; with domestic EUV prototypes in trial production now and 2026 mass-production goals, this near-certainly clears by 2033."
+ },
+ {
+  "question_id": 13897,
+  "type": "binary",
+  "prob": 0.02,
+  "reasoning": "No government agency has any crewed deep-space (beyond Earth-Moon) program flying before 2030; Artemis is cislunar only and Mars crewed flight is 2030s+ at earliest. Structurally near-impossible in the window."
+ },
+ {
+  "question_id": 13919,
+  "type": "numeric",
+  "percentiles": {
+   "0.05": 0,
+   "0.1": 0,
+   "0.25": 0,
+   "0.5": 2,
+   "0.75": 2,
+   "0.9": 4,
+   "0.95": 4
+  },
+  "reasoning": "First crewed landing slipped to Artemis IV (~early 2028, ~2 crew); a 2030 landing would put ~2 on the surface briefly, but landings are sparse so a zero-landing calendar year is plausible. Mass concentrated at 0 and 2."
+ },
+ {
+  "question_id": 14060,
+  "type": "binary",
+  "prob": 0.02,
+  "reasoning": "A continuous 365-day human presence requires a base occupied from end-2028; no lunar base or sustained-presence capability will exist by then. Effectively impossible."
+ },
+ {
+  "question_id": 13920,
+  "type": "discrete",
+  "percentiles": {
+   "0.05": 1,
+   "0.1": 1,
+   "0.25": 1,
+   "0.5": 2,
+   "0.75": 3,
+   "0.9": 4,
+   "0.95": 5
+  },
+  "reasoning": "Currently 1 (all US). First landing (Artemis IV, ~2028) crews are US-led but include international partners (CSA/ESA), plausibly adding 1-2 nationalities; broad multinational landings before 2030 are unlikely. Median ~2."
+ },
+ {
+  "question_id": 13785,
+  "type": "date",
+  "percentiles": {
+   "0.05": "2028-03-01",
+   "0.1": "2028-08-01",
+   "0.25": "2029-02-01",
+   "0.5": "2029-09-01",
+   "0.75": "2030-08-01",
+   "0.9": "2031-01-01",
+   "0.95": "2031-06-01"
+  },
+  "reasoning": "PPE+HALO baseline launch is Dec 2027 (likely to slip), then months of transit to NRHO; first crewed occupation arrives with Artemis IV-class missions, realistically 2029-2030 with meaningful chance it pushes past 2030."
+ },
+ {
+  "question_id": 13887,
+  "type": "numeric",
+  "percentiles": {
+   "0.05": 685,
+   "0.1": 692,
+   "0.25": 700,
+   "0.5": 712,
+   "0.75": 725,
+   "0.9": 740,
+   "0.95": 755
+  },
+  "reasoning": "ESA reports ~656 historical fragmentation events as of 2025, growing ~10-12/yr; by Jan 2030 (~4.5 more years plus re-catalog of older events) the figure lands near 710."
+ },
+ {
+  "question_id": 13911,
+  "type": "date",
+  "percentiles": {
+   "0.05": "2026-07-01",
+   "0.1": "2026-12-01",
+   "0.25": "2027-08-01",
+   "0.5": "2028-06-01",
+   "0.75": "2029-08-01",
+   "0.9": "2031-06-01",
+   "0.95": "2033-01-01"
+  },
+  "reasoning": "Tetra-5/Astroscale-Orbit Fab refueling targets 2026 but is a government demo; a truly commercial paid refueling of another entity's satellite likely lands 2027-2029, with slip risk pushing the tail out."
+ },
+ {
+  "question_id": 13914,
+  "type": "date",
+  "percentiles": {
+   "0.05": "2029-01-01",
+   "0.1": "2030-06-01",
+   "0.25": "2032-06-01",
+   "0.5": "2035-06-01",
+   "0.75": "2037-01-01",
+   "0.9": "2040-01-01",
+   "0.95": "2044-01-01"
+  },
+  "reasoning": "DRACO nuclear thermal propulsion was cancelled (March 2026) and no other near-term flight program exists; 'non-test capacity' is a high bar, so deployment most likely falls past the 2036 window."
+ },
+ {
+  "question_id": 13896,
+  "type": "numeric",
+  "percentiles": {
+   "0.05": 0,
+   "0.1": 0,
+   "0.25": 1,
+   "0.5": 2,
+   "0.75": 3,
+   "0.9": 5,
+   "0.95": 7
+  },
+  "reasoning": "Successful kinetic ASAT intercepts (interceptor hitting a satellite) are rare; since the Dec 2022 baseline only a small number of confirmed successful tests have occurred, and the US holds a destructive-test moratorium. China/Russia/India could each add one, so a median of ~2 with a fat low tail and modest upside fits."
+ },
+ {
+  "question_id": 13912,
+  "type": "numeric",
+  "percentiles": {
+   "0.05": 6,
+   "0.1": 7,
+   "0.25": 8,
+   "0.5": 10,
+   "0.75": 12,
+   "0.9": 15,
+   "0.95": 18
+  },
+  "reasoning": "Baseline was 8 in 2022 (ISS, Tianhe, plus docked capsules); by 2030 the ISS likely still flies (~4), Tiangong is expanded, multiple crewed capsules are typically docked, and commercial stations (Axiom, Starlab, Orbital Reef) plus possible Starship add upside, but ISS retirement risk caps the low side."
+ },
+ {
+  "question_id": 13743,
+  "type": "binary",
+  "prob": 0.22,
+  "reasoning": "No confirmed deliberate offensive ASAT use against a satellite itself has occurred despite years of conflict; ongoing jamming/dazzling typically targets ground links or users rather than the satellite, and kinetic/co-orbital offensive use remains a high-escalation rarity, so a low-moderate probability is warranted."
+ },
+ {
+  "question_id": 13752,
+  "type": "binary",
+  "prob": 0.95,
+  "reasoning": "Far from repeal, the Wolf Amendment is gaining momentum toward permanent codification (2025 Frank Wolf Space Security Act) amid hawkish US-China space tensions; overturning legislation before 2030 is very unlikely, so status-quo YES is near-certain."
+ }
+]

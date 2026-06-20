@@ -1,0 +1,164 @@
+{
+  "ami_id": "ami-0521cb2d60cfbb1a6",
+  "budget_usd": 25.0,
+  "instance_id": "i-0eddf977930ebfcf0",
+  "instance_type": "c7i.large",
+  "lake_prefix": "s3://vaticinus-datalake-405844305300-us-east-1/research-papers",
+  "launch": {
+    "Groups": [],
+    "Instances": [
+      {
+        "AmiLaunchIndex": 0,
+        "Architecture": "x86_64",
+        "BlockDeviceMappings": [],
+        "BootMode": "uefi-preferred",
+        "CapacityReservationSpecification": {
+          "CapacityReservationPreference": "open"
+        },
+        "ClientToken": "17d43399-6b21-49ec-a10e-4fee6b7850e2",
+        "CpuOptions": {
+          "CoreCount": 1,
+          "ThreadsPerCore": 2
+        },
+        "CurrentInstanceBootMode": "uefi",
+        "EbsOptimized": false,
+        "EnaSupport": true,
+        "EnclaveOptions": {
+          "Enabled": false
+        },
+        "Hypervisor": "xen",
+        "IamInstanceProfile": {
+          "Arn": "arn:aws:iam::405844305300:instance-profile/research-papers-ec2-profile-20260618",
+          "Id": "AIPAV47RUUWKERMI27SS4"
+        },
+        "ImageId": "ami-0521cb2d60cfbb1a6",
+        "InstanceId": "i-0eddf977930ebfcf0",
+        "InstanceType": "c7i.large",
+        "LaunchTime": "2026-06-18T12:28:44+00:00",
+        "MaintenanceOptions": {
+          "AutoRecovery": "default",
+          "RebootMigration": "default"
+        },
+        "MetadataOptions": {
+          "HttpEndpoint": "enabled",
+          "HttpProtocolIpv6": "disabled",
+          "HttpPutResponseHopLimit": 2,
+          "HttpTokens": "required",
+          "InstanceMetadataTags": "disabled",
+          "State": "pending"
+        },
+        "Monitoring": {
+          "State": "disabled"
+        },
+        "NetworkInterfaces": [
+          {
+            "Attachment": {
+              "AttachTime": "2026-06-18T12:28:44+00:00",
+              "AttachmentId": "eni-attach-047ed7863861bd4ae",
+              "DeleteOnTermination": true,
+              "DeviceIndex": 0,
+              "NetworkCardIndex": 0,
+              "Status": "attaching"
+            },
+            "Description": "",
+            "Groups": [
+              {
+                "GroupId": "sg-0252baa695b9522de",
+                "GroupName": "default"
+              }
+            ],
+            "InterfaceType": "interface",
+            "Ipv6Addresses": [],
+            "MacAddress": "02:4b:26:9a:eb:97",
+            "NetworkInterfaceId": "eni-00801c558140e4574",
+            "Operator": {
+              "Managed": false
+            },
+            "OwnerId": "405844305300",
+            "PrivateDnsName": "ip-172-31-5-207.ec2.internal",
+            "PrivateIpAddress": "172.31.5.207",
+            "PrivateIpAddresses": [
+              {
+                "Primary": true,
+                "PrivateDnsName": "ip-172-31-5-207.ec2.internal",
+                "PrivateIpAddress": "172.31.5.207"
+              }
+            ],
+            "SourceDestCheck": true,
+            "Status": "in-use",
+            "SubnetId": "subnet-014dd360c58a24b90",
+            "VpcId": "vpc-007c3b690d3c18170"
+          }
+        ],
+        "Operator": {
+          "Managed": false
+        },
+        "Placement": {
+          "AvailabilityZone": "us-east-1a",
+          "AvailabilityZoneId": "use1-az1",
+          "GroupName": "",
+          "Tenancy": "default"
+        },
+        "PrivateDnsName": "ip-172-31-5-207.ec2.internal",
+        "PrivateDnsNameOptions": {
+          "EnableResourceNameDnsAAAARecord": false,
+          "EnableResourceNameDnsARecord": false,
+          "HostnameType": "ip-name"
+        },
+        "PrivateIpAddress": "172.31.5.207",
+        "ProductCodes": [],
+        "PublicDnsName": "",
+        "RootDeviceName": "/dev/xvda",
+        "RootDeviceType": "ebs",
+        "SecurityGroups": [
+          {
+            "GroupId": "sg-0252baa695b9522de",
+            "GroupName": "default"
+          }
+        ],
+        "SourceDestCheck": true,
+        "State": {
+          "Code": 0,
+          "Name": "pending"
+        },
+        "StateReason": {
+          "Code": "pending",
+          "Message": "pending"
+        },
+        "StateTransitionReason": "",
+        "SubnetId": "subnet-014dd360c58a24b90",
+        "Tags": [
+          {
+            "Key": "BudgetUSD",
+            "Value": "25"
+          },
+          {
+            "Key": "RunId",
+            "Value": "pilot-20260618T122753Z"
+          },
+          {
+            "Key": "Owner",
+            "Value": "codex"
+          },
+          {
+            "Key": "Project",
+            "Value": "research-papers-global-lake"
+          },
+          {
+            "Key": "Name",
+            "Value": "research-papers-pilot"
+          }
+        ],
+        "VirtualizationType": "hvm",
+        "VpcId": "vpc-007c3b690d3c18170"
+      }
+    ],
+    "OwnerId": "405844305300",
+    "ReservationId": "r-026d604e3092ab706"
+  },
+  "max_runtime_seconds": 7200,
+  "profile_name": "research-papers-ec2-profile-20260618",
+  "region": "us-east-1",
+  "role_name": "research-papers-ec2-role-20260618",
+  "run_id": "pilot-20260618T122753Z"
+}

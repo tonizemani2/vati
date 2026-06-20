@@ -28,7 +28,7 @@ from engine.adapters import llm, pdf_to_text
 from engine.adapters.html_to_markdown import html_to_markdown
 from engine.adapters.search import search
 
-UA = "predictthefuture research (ruben.stout@edu.escp.eu)"
+UA = "predictthefuture research (research@vaticinus.com)"
 
 _SYSTEM = (
     "You are a precise fact-lookup agent finding ONE specific factual value (a number/spec/date). "

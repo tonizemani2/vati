@@ -231,14 +231,26 @@ AI_POWER_EDGES: list[dict] = [
 
 
 def _upsert_source(conn: sqlite3.Connection, src: Source) -> str:
+    kind = src.kind.value if hasattr(src.kind, "value") else str(src.kind)
+    recency = src.recency.isoformat() if src.recency else None
+    accessed_at = src.accessed_at.isoformat()
     row = conn.execute("SELECT id FROM sources WHERE url=?", (src.url,)).fetchone()
     if row:
+        conn.execute(
+            "UPDATE sources SET title=?, pillar_id=?, kind=?, trust_score=?, trust_rationale=?, "
+            "recency=?, accessed_at=?, cost_cents=?, content_hash=COALESCE(?, content_hash) "
+            "WHERE id=?",
+            (
+                src.title, src.pillar_id, kind, src.trust_score, src.trust_rationale,
+                recency, accessed_at, src.cost_cents, src.content_hash, row["id"],
+            ),
+        )
         return row["id"]
     conn.execute(
         "INSERT INTO sources (id,url,title,pillar_id,kind,trust_score,trust_rationale,"
         "recency,accessed_at,cost_cents,content_hash) VALUES (?,?,?,?,?,?,?,?,?,?,?)",
-        (src.id, src.url, src.title, src.pillar_id, src.kind.value, src.trust_score,
-         src.trust_rationale, None, src.accessed_at.isoformat(), 0, None),
+        (src.id, src.url, src.title, src.pillar_id, kind, src.trust_score,
+         src.trust_rationale, recency, accessed_at, src.cost_cents, src.content_hash),
     )
     return src.id
 

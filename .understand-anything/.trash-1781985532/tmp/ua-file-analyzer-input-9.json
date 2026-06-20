@@ -1,0 +1,196 @@
+{
+  "projectRoot": "/Users/emizemani/Desktop/predictthefuture",
+  "batchFiles": [
+    {
+      "path": "cockpit/app/page.tsx",
+      "language": "typescript",
+      "sizeLines": 1633,
+      "fileCategory": "code"
+    },
+    {
+      "path": "cockpit/components/bet-card.tsx",
+      "language": "typescript",
+      "sizeLines": 141,
+      "fileCategory": "code"
+    },
+    {
+      "path": "cockpit/components/calibration-chart.tsx",
+      "language": "typescript",
+      "sizeLines": 57,
+      "fileCategory": "code"
+    },
+    {
+      "path": "cockpit/components/consensus-gate.tsx",
+      "language": "typescript",
+      "sizeLines": 157,
+      "fileCategory": "code"
+    },
+    {
+      "path": "cockpit/components/cross-domain-map.tsx",
+      "language": "typescript",
+      "sizeLines": 101,
+      "fileCategory": "code"
+    },
+    {
+      "path": "cockpit/components/data-health.tsx",
+      "language": "typescript",
+      "sizeLines": 119,
+      "fileCategory": "code"
+    },
+    {
+      "path": "cockpit/components/entity-spine.tsx",
+      "language": "typescript",
+      "sizeLines": 166,
+      "fileCategory": "code"
+    },
+    {
+      "path": "cockpit/components/hypothesis-engine.tsx",
+      "language": "typescript",
+      "sizeLines": 157,
+      "fileCategory": "code"
+    },
+    {
+      "path": "cockpit/components/retro-benchmark.tsx",
+      "language": "typescript",
+      "sizeLines": 216,
+      "fileCategory": "code"
+    },
+    {
+      "path": "cockpit/components/supply-graph.tsx",
+      "language": "typescript",
+      "sizeLines": 209,
+      "fileCategory": "code"
+    },
+    {
+      "path": "cockpit/components/ui/badge.tsx",
+      "language": "typescript",
+      "sizeLines": 52,
+      "fileCategory": "code"
+    },
+    {
+      "path": "cockpit/components/ui/button.tsx",
+      "language": "typescript",
+      "sizeLines": 58,
+      "fileCategory": "code"
+    },
+    {
+      "path": "cockpit/components/ui/card.tsx",
+      "language": "typescript",
+      "sizeLines": 103,
+      "fileCategory": "code"
+    },
+    {
+      "path": "cockpit/components/ui/dialog.tsx",
+      "language": "typescript",
+      "sizeLines": 160,
+      "fileCategory": "code"
+    },
+    {
+      "path": "cockpit/components/ui/progress.tsx",
+      "language": "typescript",
+      "sizeLines": 83,
+      "fileCategory": "code"
+    },
+    {
+      "path": "cockpit/components/ui/table.tsx",
+      "language": "typescript",
+      "sizeLines": 116,
+      "fileCategory": "code"
+    },
+    {
+      "path": "cockpit/components/ui/tabs.tsx",
+      "language": "typescript",
+      "sizeLines": 82,
+      "fileCategory": "code"
+    },
+    {
+      "path": "cockpit/components/universe-benchmark.tsx",
+      "language": "typescript",
+      "sizeLines": 158,
+      "fileCategory": "code"
+    },
+    {
+      "path": "cockpit/lib/db.ts",
+      "language": "typescript",
+      "sizeLines": 1148,
+      "fileCategory": "code"
+    },
+    {
+      "path": "cockpit/lib/utils.ts",
+      "language": "typescript",
+      "sizeLines": 6,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "cockpit/app/page.tsx": [
+      "cockpit/components/bet-card.tsx",
+      "cockpit/components/calibration-chart.tsx",
+      "cockpit/components/consensus-gate.tsx",
+      "cockpit/components/cross-domain-map.tsx",
+      "cockpit/components/data-health.tsx",
+      "cockpit/components/entity-spine.tsx",
+      "cockpit/components/hypothesis-engine.tsx",
+      "cockpit/components/retro-benchmark.tsx",
+      "cockpit/components/supply-graph.tsx",
+      "cockpit/components/ui/badge.tsx",
+      "cockpit/components/ui/card.tsx",
+      "cockpit/components/ui/progress.tsx",
+      "cockpit/components/ui/table.tsx",
+      "cockpit/components/universe-benchmark.tsx",
+      "cockpit/lib/db.ts"
+    ],
+    "cockpit/components/bet-card.tsx": [
+      "cockpit/lib/db.ts"
+    ],
+    "cockpit/components/calibration-chart.tsx": [],
+    "cockpit/components/consensus-gate.tsx": [
+      "cockpit/lib/db.ts"
+    ],
+    "cockpit/components/cross-domain-map.tsx": [
+      "cockpit/lib/db.ts"
+    ],
+    "cockpit/components/data-health.tsx": [
+      "cockpit/lib/db.ts"
+    ],
+    "cockpit/components/entity-spine.tsx": [
+      "cockpit/lib/db.ts"
+    ],
+    "cockpit/components/hypothesis-engine.tsx": [
+      "cockpit/lib/db.ts"
+    ],
+    "cockpit/components/retro-benchmark.tsx": [
+      "cockpit/lib/db.ts"
+    ],
+    "cockpit/components/supply-graph.tsx": [
+      "cockpit/lib/db.ts"
+    ],
+    "cockpit/components/ui/badge.tsx": [
+      "cockpit/lib/utils.ts"
+    ],
+    "cockpit/components/ui/button.tsx": [
+      "cockpit/lib/utils.ts"
+    ],
+    "cockpit/components/ui/card.tsx": [
+      "cockpit/lib/utils.ts"
+    ],
+    "cockpit/components/ui/dialog.tsx": [
+      "cockpit/components/ui/button.tsx",
+      "cockpit/lib/utils.ts"
+    ],
+    "cockpit/components/ui/progress.tsx": [
+      "cockpit/lib/utils.ts"
+    ],
+    "cockpit/components/ui/table.tsx": [
+      "cockpit/lib/utils.ts"
+    ],
+    "cockpit/components/ui/tabs.tsx": [
+      "cockpit/lib/utils.ts"
+    ],
+    "cockpit/components/universe-benchmark.tsx": [
+      "cockpit/lib/db.ts"
+    ],
+    "cockpit/lib/db.ts": [],
+    "cockpit/lib/utils.ts": []
+  }
+}

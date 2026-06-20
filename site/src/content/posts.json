@@ -1,0 +1,116 @@
+{
+  "generated": "2026-06-19",
+  "note": "Vati research notes. Dated, falsifiable calls. Nothing resolved yet (earliest 2027). Not investment advice.",
+  "posts": [
+    {
+      "n": 1,
+      "title": "Firm power becomes the scarce input in AI",
+      "domain": "AI infrastructure",
+      "resolves": "2028-12-31",
+      "odds": "82% direction / 52% strict clause",
+      "view": "We expect firm, deliverable power to overtake compute as the binding input for AI infrastructure by the end of 2028.",
+      "note": "Demand is outrunning grid supply. Lawrence Berkeley National Lab projects US data centers at 7 to 12 percent of national electricity by 2028. Supply cannot keep pace: by May 2026, lead times for large grid transformers were near four years, and interconnection for a large new load often exceeds the data center's own build time.\n\nThe consequence is a repricing of site selection. A campus with firm generation behind the meter, outside the interconnection queue, can energize 12 to 24 months ahead of a grid-dependent site of similar cost. Against the monthly carry on idle GPUs and unsigned leases, that interval outweighs a lower land basis.\n\nBest positioned: developers of geothermal and other firm clean generation able to sign multi-year offtake, and holders of land with existing power rights. Most exposed: grid-dependent campuses in congested markets, where announced capacity overstates deliverable capacity, and investors financing shells underwritten to an energizing schedule the grid will not meet.",
+      "kill": "Fewer than two hyperscale-scale campuses secure behind-the-meter firm clean generation as a stated siting advantage by end-2028, or US transformer and interconnection lead times normalize below about 24 months.",
+      "watch": "The first hyperscaler or major data-center REIT to announce a 100 MW-plus campus citing its own clean firm power as the build rationale."
+    },
+    {
+      "n": 2,
+      "title": "In robotics, the value is in certified deployment",
+      "domain": "Physical AI",
+      "resolves": "2028-12-31",
+      "odds": "78% direction / 46% strict clause",
+      "view": "We expect the durable margin in physical AI to sit in certified deployment, with task validation, commissioning, and safety tooling priced separately from the robot body by the end of 2028.",
+      "note": "Robot pilots are reaching early commercial deployment in automotive and logistics, but each one must clear the same boundary: task data, sim-to-real validation, workcell commissioning, safety certification, and field support. That work is mostly software and process. A robot that needs six months of integration to perform one narrow task earns poorly even when the body is cheap.\n\nNvidia is positioning around this with Isaac Sim, Isaac Lab, Cosmos, and GR00T, the layer between training a policy and trusting it in production. IDTechEx flags tactile sensing, training data, and simulation as the deployment gates.\n\nBest positioned: simulation platforms on the validation path, integrators that turn one-off commissioning into reusable task libraries, and manufacturers with clean process data and standard workcells. Most exposed: undifferentiated humanoid makers and custom-only integrators undercut by reusable tooling.",
+      "kill": "Humanoid and mobile-manipulation deployments scale mainly through turnkey hardware, with little separate spend on validation, commissioning, or safety, by end-2028.",
+      "watch": "A major automotive or logistics rollout that credits the validation, simulation, or task-library layer for the scale-up."
+    },
+    {
+      "n": 3,
+      "title": "Agent authority rails become the post-AI transaction layer",
+      "domain": "Agentic AI",
+      "resolves": "2031-12-31",
+      "odds": "76% direction / 49% strict clause",
+      "view": "We expect credentialed agent authority, the rails that bind an AI action to a delegated legal permission, to become the first durable post-AI transaction layer, with priced controls, settlement, and dispute handling.",
+      "note": "Once agents plan and execute, the binding input stops being task intelligence and becomes legally attributable authority: who allowed the action, what it was allowed to spend or change, whether it can be reversed, and who carries loss beyond scope. The market still prices front-end agent experiences. The deeper rail is verifiable agent identity, delegated permission tokens, spending and action limits, per-action audit logs, dispute rules, and settlement at machine speed.\n\nThe anchors are live. Mastercard launched Agent Pay for machine-driven transactions in June 2026 with credentialing, permissioning, and settlement. Visa Intelligent Commerce frames AI-initiated transactions around credentials, controls, and protections. The IMF has flagged the risks agentic payments create.\n\nBest positioned: payment networks, identity providers, agent-runtime platforms, and compliance layers that can bind an action to delegated authority. Most exposed: agent products that own the interface but not the authority and settlement rail.",
+      "kill": "By 2031 agents still transact at scale through ordinary user credentials, API keys, or human-initiated payment flows, with no separate agent identity, permission, or liability layer.",
+      "watch": "Two major card networks, processors, or cloud providers reporting production agent-credential volume rather than pilots, and procurement language requiring distinct credentials for autonomous software actors."
+    },
+    {
+      "n": 4,
+      "title": "A nickel metal surplus is masking a battery-grade squeeze",
+      "domain": "Commodities (near-term)",
+      "resolves": "2027-06-30",
+      "odds": "72% direction / 41% strict clause",
+      "view": "We expect battery-grade nickel sulfate to command a widening premium over LME nickel through mid-2027, even as headline nickel stays in surplus. Time-sensitive: facts below are as of mid-June 2026 and need a live re-check before posting.",
+      "note": "Reported nickel surpluses describe the LME metal, where Indonesia has oversupplied the Class-2 nickel used in stainless steel. The battery chain is tightening at the same time. As of mid-June 2026, a sulfuric-acid shortage in Indonesia is curtailing MHP, the mixed-hydroxide intermediate refined into battery-grade sulfate, and the China sulfate-over-refined-nickel premium has already reached roughly 1,400 dollars per tonne, near conversion cost.\n\nA metal surplus and a battery-grade deficit can hold together because high-nickel cathodes have no fast substitute for sulfate-grade nickel.\n\nBest positioned: Class-1 sulfate producers outside the acid-intensive Indonesian HPAL route, and LFP chemistry, whose cost gap to high-nickel widens. Most exposed: high-nickel cell makers and the automakers committed to them, and acid-short Indonesian MHP producers.",
+      "kill": "The premium holds within about 2,000 dollars per tonne of LME nickel through 2027-06-30, or the acid shortage resolves, with spot sulfur to Indonesia below 600 dollars per tonne and MHP payables normalizing.",
+      "watch": "Indonesian MHP plants reporting fresh output cuts and the Fastmarkets MHP payable dropping below about 80; the spread widening past about 2,500 dollars per tonne is mid-cascade confirmation."
+    },
+    {
+      "n": 5,
+      "title": "Chinese polysilicon stays below cash cost through 2027",
+      "domain": "Commodities",
+      "resolves": "2027-12-31",
+      "odds": "82% direction / 70% strict clause",
+      "view": "We expect Chinese polysilicon to stay below cash cost through 2027 because the coordinated supply cut the bulls priced was banned.",
+      "note": "The bull case rested on a roughly 7 billion dollar fund (GCL, Tongwei and peers) buying and permanently shutting about 1 million tonnes, around a third of capacity. Prices jumped in early January 2026 on that expectation. Then on 8 to 9 January 2026, China's SAMR halted the consolidation and prohibited any agreement on output, capacity, price, or quotas, and Guangzhou futures hit the down-limit.\n\nThe capacity the bull case needed retired stays online, inventory sits above 570kt (about 300 GW of latent supply), and n-type spot was about 33.5 RMB per kg as of 10 June 2026, below most producers' cash cost. With coordination illegal, attrition is the only path to clear.\n\nBest positioned: GCL, whose granular fluidized-bed silicon survives a below-cash grind, and downstream module makers locking cheap input. Most exposed: pure-play Siemens producers such as Daqo with no downstream cushion.",
+      "kill": "China consummates an industry-wide capacity-retirement fund or a price floor that survives antitrust, or mono-grade spot averages above 45 RMB per kg for two or more consecutive months before 2027-12-31.",
+      "watch": "N-type spot breaking above about 50 RMB per kg for two consecutive monthly averages. As of June 2026 spot sits near 33.5 with under 10 percent of capacity cut."
+    },
+    {
+      "n": 6,
+      "title": "The Western copper constraint moves from the mine to the smelter",
+      "domain": "Commodities (long-horizon)",
+      "resolves": "2033-12-31",
+      "odds": "72% direction / 55% strict clause",
+      "view": "We expect the binding constraint on Western copper to move off the mine onto qualified non-China smelting by 2033, with a sustained zero-to-negative treatment-charge regime forcing further ex-China smelter closures and an allied policy response.",
+      "note": "The copper debate fixates on the mine, where too few new deposits and decade-long permitting are real, and already priced. The less-watched fact is that China runs about 97 percent of global smelting and refining, and the economics of conversion now punish everyone else. The treatment and refining charge, the fee a smelter earns to turn concentrate into metal, settled at zero per tonne on the 2026 annual benchmark and went deeply negative on spot, around minus 78 dollars per tonne by April 2026. A negative charge means a smelter pays to operate.\n\nChinese smelters survive on byproduct credits and state backing. Standalone Western smelters cannot, and closures are already running, including Glencore's Horne rescue and Vedanta's Zambian shutdown. Smelters are multi-billion-dollar, hard-to-permit assets that are not rebuilt once shut, so the cull is close to irreversible. Wood Mackenzie puts the cost of routing around China at 85 billion dollars. The honest caveat: today the scarce physical input is still concentrate, and negative charges are the signature of a smelter glut fighting over ore. The call is that this glut culls ex-China capacity asymmetrically.\n\nBest positioned: surviving qualified non-China conversion capacity and state-backed Indian and Indonesian builds. Most exposed: ex-China primary smelters running cash-negative.",
+      "kill": "By 2033 treatment and refining charges recover durably to positive double-digit dollars per tonne and ex-China smelting capacity is stable or growing, with no further Western or allied closures.",
+      "watch": "The first US, EU, Japan, or Korea policy action framed to protect domestic smelting, or a third confirmed ex-China closure beyond Glencore Horne and Vedanta."
+    },
+    {
+      "n": 7,
+      "title": "Hafnium is byproduct-locked and structurally scarce",
+      "domain": "Materials (long-horizon)",
+      "resolves": "2032-12-31",
+      "odds": "82% direction / 70% strict clause",
+      "view": "We expect hafnium to stay structurally scarce and elevated into the 2030s, locked by its byproduct tie to nuclear-grade zirconium.",
+      "note": "Hafnium has no ore. It comes out only as the fraction stripped from nuclear-grade zirconium, because zirconium cladding must be neutron-transparent and hafnium is a neutron absorber. The same purification concentrates hafnium at a fixed ratio of about one tonne per fifty tonnes of zirconium. Over 90 percent of supply arrives this way, from a few qualified separation plants making a few hundred tonnes a year, with recycling near 1 percent, so output cannot answer a hafnium price on its own.\n\nThree inelastic demand legs are converging: nuclear control rods (about half of demand, growing with small modular reactors), advanced-node chips (HfO2 is the high-k gate dielectric at every leading node, rising per wafer with gate-all-around), and single-crystal turbine blades (the same turbines being pulled to power AI data centers). China curbed exports in the second half of 2025; unwrought shipments fell about 90 percent and the price tripled from 4,365 to roughly 13,115 dollars per kg by April 2026.\n\nBest positioned: holders of qualified Western separation capacity such as Framatome and ATI. Most exposed: leading-edge foundries and turbine OEMs without secured multi-year supply.",
+      "kill": "High-purity hafnium real price falls back below about 5,000 dollars per kg and holds, signaling new dehafniation or recycling capacity, or meaningfully relaxed Chinese licensing.",
+      "watch": "A take-or-pay hafnium supply agreement between a leading-edge foundry or turbine OEM and Framatome or ATI, or a new qualified Western separation column."
+    },
+    {
+      "n": 8,
+      "title": "The wafer build-out ceiling is one optics shop in Oberkochen",
+      "domain": "Semiconductors (long-horizon)",
+      "resolves": "2032-12-31",
+      "odds": "82% direction / 52% strict clause",
+      "view": "We expect the ceiling on the AI-compute wafer build-out to be Zeiss SMT projection-optics figuring throughput at one site in Oberkochen, Germany.",
+      "note": "The consensus treats the ASML scanner as the unit of scarcity, and capital is flooding fab shells on the assumption scanners follow. But an EUV scanner's resolution lives entirely in its Zeiss projection optics: six aspheric mirrors polished and ion-beam-figured to roughly 50-picometer surface deviation, then coated with more than 50 sputtered layer pairs, each mirror needing iterative measurement-correction cycles on custom interferometers that take years to qualify.\n\nA full set is effectively a one-year artisanal build, and the tacit skill sits at one shop in Oberkochen with no qualified second site. High-NA makes it harder: larger anamorphic mirrors, tighter tolerances, lower yield. Output grows in the low single digits per year while every hyperscaler and nation-state bids for it at once. Fab shells, HBM, and packaging can be funded in parallel; projection mirror sets cannot.\n\nBest positioned: Zeiss SMT and ASML's optics supply chain. Most exposed: fab buildouts underwritten on the assumption optics scale with shells.",
+      "kill": "By 2032 Zeiss and ASML break the one-set-per-year figuring rate at scale, for example a qualified second figuring or coating site outside Oberkochen, or computational polishing pushing High-NA optics output above roughly 30 sets per year.",
+      "watch": "ASML EUV and High-NA shipment counts diverging below build ambition with optics lead time cited, or any Zeiss SMT announcement of a second figuring site."
+    },
+    {
+      "n": 9,
+      "title": "Clean actinium-225 is the physics-locked limit on alpha therapy",
+      "domain": "Biotech (long-horizon)",
+      "resolves": "2032-12-31",
+      "odds": "74% direction / 57% strict clause",
+      "view": "We expect isotopically pure (Ac-227-free) actinium-225 from the finite Th-229/U-233 stockpile to be the binding constraint on targeted alpha therapy through the 2030s.",
+      "note": "Targeted alpha therapy is scaling fast, with analysts modeling 20 to 44 percent annual growth toward 1 to 4 billion dollars by 2030 and pharma majors racing to lock supply. Alpha emitters kill tumors with high-energy, short-range DNA breaks that nothing chemical substitutes for.\n\nHistorically all clinical-grade Ac-225 came from Th-229 generators isolated from an aged U-233 stockpile, which decays with no Ac-227 branch, so the material is isotopically clean. Legacy US supply at ORNL runs about 1 Curie per year, and U-233 production is permanently shut, so the clean source is finite and non-replenishing. Every scaled accelerator route in development co-produces Ac-227, and because Ac-225 and Ac-227 are the same element in the same oxidation state, no chemical separation is possible. Ac-227's 21.8-year half-life adds a persistent radiotoxic burden that tightens as regimens move to repeat dosing.\n\nBest positioned: holders of clean generator-grade supply and routes certified low in Ac-227. Most exposed: programs assuming raw curie scale-up solves supply.",
+      "kill": "By 2032 an accelerator, reactor, or photonuclear route reaches routine multi-tens-of-Curie annual Ac-225 output certified low enough in Ac-227 that regulators treat it as interchangeable with generator-grade for chronic dosing.",
+      "watch": "The first targeted-alpha-therapy supply contract or FDA drug master file that names a maximum Ac-227 impurity concentration as a release specification."
+    },
+    {
+      "n": 10,
+      "title": "Space-based AI compute hits a radiator-area wall",
+      "domain": "Space (long-horizon)",
+      "resolves": "2034-12-31",
+      "odds": "82% direction / 62% strict clause",
+      "view": "We expect the binding constraint on space-based AI compute through the 2030s to be deployable, micrometeoroid-survivable heat-rejection area per launched kilogram, capping orbital data centers far below the gigawatt pitch.",
+      "note": "The orbital-data-center pitch rests on free sunlight and free cold space. The sunlight is real. The cooling is not. In vacuum the only way to dump heat is to radiate it, and a panel held near room temperature emits only about 600 to 650 W per square meter, a physical constant rather than an engineering target.\n\nStarcloud's own white paper concedes roughly 1,600 square meters of radiator per megawatt, so a 5 GW concept needs about 8 square kilometers of radiator, larger than Gibraltar. Every doubling of orbital compute requires a doubling of folded-then-deployed radiator that must survive micrometeoroids and thermal cycling for years, at a panel-plus-loop mass floor of a few kg per square meter that has barely moved in forty years. Chip power density keeps climbing while radiator flux is pinned by physics, so the two curves diverge.\n\nBest positioned: owners of qualified large-area deployable-radiator and two-phase loop technology. Most exposed: orbital-compute ventures valuing the GPU, solar array, or launch slot as the scarce asset.",
+      "kill": "By 2034 an orbital data center rejects more than 100 kW of waste heat on orbit at a radiator areal mass at or below about 1 kg per square meter, a 3-to-5x materials breakthrough.",
+      "watch": "The first orbital-data-center disclosure that names radiator area or mass fraction as the gating line item, and the first flown system rejecting above 100 kW with a credible radiator-plus-loop."
+    }
+  ]
+}

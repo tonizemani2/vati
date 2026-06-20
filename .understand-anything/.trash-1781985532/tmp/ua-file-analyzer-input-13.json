@@ -1,0 +1,63 @@
+{
+  "projectRoot": "/Users/emizemani/Desktop/predictthefuture",
+  "batchFiles": [
+    {
+      "path": "landing/app/page.tsx",
+      "language": "typescript",
+      "sizeLines": 407,
+      "fileCategory": "code"
+    },
+    {
+      "path": "landing/components/Counter.tsx",
+      "language": "typescript",
+      "sizeLines": 63,
+      "fileCategory": "code"
+    },
+    {
+      "path": "landing/components/ExamplePredictions.tsx",
+      "language": "typescript",
+      "sizeLines": 137,
+      "fileCategory": "code"
+    },
+    {
+      "path": "landing/components/Header.tsx",
+      "language": "typescript",
+      "sizeLines": 82,
+      "fileCategory": "code"
+    },
+    {
+      "path": "landing/components/HeroVisual.tsx",
+      "language": "typescript",
+      "sizeLines": 106,
+      "fileCategory": "code"
+    },
+    {
+      "path": "landing/components/Reveal.tsx",
+      "language": "typescript",
+      "sizeLines": 70,
+      "fileCategory": "code"
+    },
+    {
+      "path": "landing/components/StageBand.tsx",
+      "language": "typescript",
+      "sizeLines": 57,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "landing/app/page.tsx": [
+      "landing/components/Counter.tsx",
+      "landing/components/ExamplePredictions.tsx",
+      "landing/components/Header.tsx",
+      "landing/components/HeroVisual.tsx",
+      "landing/components/Reveal.tsx",
+      "landing/components/StageBand.tsx"
+    ],
+    "landing/components/Counter.tsx": [],
+    "landing/components/ExamplePredictions.tsx": [],
+    "landing/components/Header.tsx": [],
+    "landing/components/HeroVisual.tsx": [],
+    "landing/components/Reveal.tsx": [],
+    "landing/components/StageBand.tsx": []
+  }
+}

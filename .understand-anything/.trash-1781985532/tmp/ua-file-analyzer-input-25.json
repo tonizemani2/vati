@@ -1,0 +1,49 @@
+{
+  "projectRoot": "/Users/emizemani/Desktop/predictthefuture",
+  "batchFiles": [
+    {
+      "path": "experiments/REGISTRY.md",
+      "language": "markdown",
+      "sizeLines": 69,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "experiments/protocol_locator.yaml",
+      "language": "yaml",
+      "sizeLines": 67,
+      "fileCategory": "config"
+    },
+    {
+      "path": "experiments/protocol_structbench.yaml",
+      "language": "yaml",
+      "sizeLines": 42,
+      "fileCategory": "config"
+    },
+    {
+      "path": "experiments/protocol_v1.yaml",
+      "language": "yaml",
+      "sizeLines": 72,
+      "fileCategory": "config"
+    },
+    {
+      "path": "experiments/protocol_v2.yaml",
+      "language": "yaml",
+      "sizeLines": 56,
+      "fileCategory": "config"
+    },
+    {
+      "path": "experiments/timesfm_dataset_eval.md",
+      "language": "markdown",
+      "sizeLines": 37,
+      "fileCategory": "docs"
+    }
+  ],
+  "batchImportData": {
+    "experiments/REGISTRY.md": [],
+    "experiments/protocol_locator.yaml": [],
+    "experiments/protocol_structbench.yaml": [],
+    "experiments/protocol_v1.yaml": [],
+    "experiments/protocol_v2.yaml": [],
+    "experiments/timesfm_dataset_eval.md": []
+  }
+}

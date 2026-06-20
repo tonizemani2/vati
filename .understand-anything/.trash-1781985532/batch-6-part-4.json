@@ -1,0 +1,1501 @@
+{
+  "nodes": [
+    {
+      "id": "file:engine/quality.py",
+      "type": "file",
+      "name": "quality.py",
+      "filePath": "engine/quality.py",
+      "summary": "quality.py is a code asset in the forecasting engine. It contains 14 functions, 1 internal import.",
+      "tags": [
+        "forecasting-engine",
+        "code",
+        "file",
+        "quality"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:engine/quality.py:_worst",
+      "type": "function",
+      "name": "_worst",
+      "filePath": "engine/quality.py",
+      "lineRange": [
+        116,
+        117
+      ],
+      "summary": "Defines _worst in quality.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "quality"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/quality.py:_date_from_iso",
+      "type": "function",
+      "name": "_date_from_iso",
+      "filePath": "engine/quality.py",
+      "lineRange": [
+        123,
+        132
+      ],
+      "summary": "Defines _date_from_iso in quality.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "quality"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/quality.py:is_irregular_series",
+      "type": "function",
+      "name": "is_irregular_series",
+      "filePath": "engine/quality.py",
+      "lineRange": [
+        135,
+        141
+      ],
+      "summary": "Defines is_irregular_series in quality.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "quality"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/quality.py:is_zero_omitted_series",
+      "type": "function",
+      "name": "is_zero_omitted_series",
+      "filePath": "engine/quality.py",
+      "lineRange": [
+        144,
+        145
+      ],
+      "summary": "Defines is_zero_omitted_series in quality.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "quality"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/quality.py:is_sparse_reported_series",
+      "type": "function",
+      "name": "is_sparse_reported_series",
+      "filePath": "engine/quality.py",
+      "lineRange": [
+        148,
+        149
+      ],
+      "summary": "Defines is_sparse_reported_series in quality.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "quality"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/quality.py:is_archival_source_fresh_series",
+      "type": "function",
+      "name": "is_archival_source_fresh_series",
+      "filePath": "engine/quality.py",
+      "lineRange": [
+        152,
+        153
+      ],
+      "summary": "Defines is_archival_source_fresh_series in quality.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "quality"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/quality.py:check_freshness",
+      "type": "function",
+      "name": "check_freshness",
+      "filePath": "engine/quality.py",
+      "lineRange": [
+        156,
+        212
+      ],
+      "summary": "Defines check_freshness in quality.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "quality"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/quality.py:check_completeness",
+      "type": "function",
+      "name": "check_completeness",
+      "filePath": "engine/quality.py",
+      "lineRange": [
+        215,
+        231
+      ],
+      "summary": "Defines check_completeness in quality.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "quality"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/quality.py:check_validity",
+      "type": "function",
+      "name": "check_validity",
+      "filePath": "engine/quality.py",
+      "lineRange": [
+        234,
+        256
+      ],
+      "summary": "Defines check_validity in quality.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "quality"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/quality.py:check_provenance",
+      "type": "function",
+      "name": "check_provenance",
+      "filePath": "engine/quality.py",
+      "lineRange": [
+        259,
+        266
+      ],
+      "summary": "Defines check_provenance in quality.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "quality"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/quality.py:_series_rows",
+      "type": "function",
+      "name": "_series_rows",
+      "filePath": "engine/quality.py",
+      "lineRange": [
+        272,
+        281
+      ],
+      "summary": "Defines _series_rows in quality.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "quality"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/quality.py:_reconciliation",
+      "type": "function",
+      "name": "_reconciliation",
+      "filePath": "engine/quality.py",
+      "lineRange": [
+        284,
+        326
+      ],
+      "summary": "Defines _reconciliation in quality.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "quality"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/quality.py:run_audit",
+      "type": "function",
+      "name": "run_audit",
+      "filePath": "engine/quality.py",
+      "lineRange": [
+        329,
+        414
+      ],
+      "summary": "Defines run_audit in quality.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entry-point",
+        "quality"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/quality.py:_report",
+      "type": "function",
+      "name": "_report",
+      "filePath": "engine/quality.py",
+      "lineRange": [
+        417,
+        424
+      ],
+      "summary": "Defines _report in quality.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "quality"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:engine/research_papers.py",
+      "type": "file",
+      "name": "research_papers.py",
+      "filePath": "engine/research_papers.py",
+      "summary": "research_papers.py is a code asset in the forecasting engine. It contains 8 functions, 1 class, 3 internal imports.",
+      "tags": [
+        "forecasting-engine",
+        "code",
+        "file",
+        "research-papers"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:engine/research_papers.py:_now",
+      "type": "function",
+      "name": "_now",
+      "filePath": "engine/research_papers.py",
+      "lineRange": [
+        176,
+        177
+      ],
+      "summary": "Defines _now in research_papers.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "research-papers"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/research_papers.py:_safe_count",
+      "type": "function",
+      "name": "_safe_count",
+      "filePath": "engine/research_papers.py",
+      "lineRange": [
+        180,
+        184
+      ],
+      "summary": "Defines _safe_count in research_papers.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "research-papers"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/research_papers.py:local_status",
+      "type": "function",
+      "name": "local_status",
+      "filePath": "engine/research_papers.py",
+      "lineRange": [
+        187,
+        218
+      ],
+      "summary": "Defines local_status in research_papers.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "research-papers"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/research_papers.py:plan",
+      "type": "function",
+      "name": "plan",
+      "filePath": "engine/research_papers.py",
+      "lineRange": [
+        221,
+        246
+      ],
+      "summary": "Defines plan in research_papers.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "research-papers"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/research_papers.py:ec2_worker_plan",
+      "type": "function",
+      "name": "ec2_worker_plan",
+      "filePath": "engine/research_papers.py",
+      "lineRange": [
+        249,
+        288
+      ],
+      "summary": "Defines ec2_worker_plan in research_papers.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "research-papers"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/research_papers.py:validate_execute",
+      "type": "function",
+      "name": "validate_execute",
+      "filePath": "engine/research_papers.py",
+      "lineRange": [
+        291,
+        299
+      ],
+      "summary": "Defines validate_execute in research_papers.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "research-papers"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/research_papers.py:bootstrap",
+      "type": "function",
+      "name": "bootstrap",
+      "filePath": "engine/research_papers.py",
+      "lineRange": [
+        302,
+        340
+      ],
+      "summary": "Defines bootstrap in research_papers.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "research-papers"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/research_papers.py:format_summary",
+      "type": "function",
+      "name": "format_summary",
+      "filePath": "engine/research_papers.py",
+      "lineRange": [
+        343,
+        359
+      ],
+      "summary": "Defines format_summary in research_papers.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "research-papers"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:engine/research_papers.py:PaperSource",
+      "type": "class",
+      "name": "PaperSource",
+      "filePath": "engine/research_papers.py",
+      "lineRange": [
+        24,
+        41
+      ],
+      "summary": "Defines PaperSource in research_papers.py, encapsulating reusable behavior or state for this module.",
+      "tags": [
+        "class",
+        "implementation",
+        "research-papers"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:engine/retro.py",
+      "type": "file",
+      "name": "retro.py",
+      "filePath": "engine/retro.py",
+      "summary": "retro.py is a code asset in the forecasting engine. It contains 12 functions, 5 internal imports.",
+      "tags": [
+        "forecasting-engine",
+        "code",
+        "file",
+        "retro"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:engine/retro.py:_src",
+      "type": "function",
+      "name": "_src",
+      "filePath": "engine/retro.py",
+      "lineRange": [
+        67,
+        68
+      ],
+      "summary": "Defines _src in retro.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "retro"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/retro.py:_seed_channel",
+      "type": "function",
+      "name": "_seed_channel",
+      "filePath": "engine/retro.py",
+      "lineRange": [
+        282,
+        305
+      ],
+      "summary": "Defines _seed_channel in retro.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "retro"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/retro.py:seed_corpus",
+      "type": "function",
+      "name": "seed_corpus",
+      "filePath": "engine/retro.py",
+      "lineRange": [
+        308,
+        321
+      ],
+      "summary": "Defines seed_corpus in retro.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "retro"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/retro.py:_points_upto",
+      "type": "function",
+      "name": "_points_upto",
+      "filePath": "engine/retro.py",
+      "lineRange": [
+        327,
+        333
+      ],
+      "summary": "Defines _points_upto in retro.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "retro"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/retro.py:_p_of",
+      "type": "function",
+      "name": "_p_of",
+      "filePath": "engine/retro.py",
+      "lineRange": [
+        336,
+        338
+      ],
+      "summary": "Defines _p_of in retro.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "retro"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/retro.py:_evaluate",
+      "type": "function",
+      "name": "_evaluate",
+      "filePath": "engine/retro.py",
+      "lineRange": [
+        341,
+        387
+      ],
+      "summary": "Defines _evaluate in retro.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "retro"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/retro.py:_store",
+      "type": "function",
+      "name": "_store",
+      "filePath": "engine/retro.py",
+      "lineRange": [
+        390,
+        406
+      ],
+      "summary": "Defines _store in retro.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "retro"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/retro.py:score",
+      "type": "function",
+      "name": "score",
+      "filePath": "engine/retro.py",
+      "lineRange": [
+        409,
+        442
+      ],
+      "summary": "Defines score in retro.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "retro"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/retro.py:run",
+      "type": "function",
+      "name": "run",
+      "filePath": "engine/retro.py",
+      "lineRange": [
+        445,
+        463
+      ],
+      "summary": "Defines run in retro.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entry-point",
+        "retro"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/retro.py:_report",
+      "type": "function",
+      "name": "_report",
+      "filePath": "engine/retro.py",
+      "lineRange": [
+        466,
+        506
+      ],
+      "summary": "Defines _report in retro.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "retro"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/retro.py:_arxiv_points_upto",
+      "type": "function",
+      "name": "_arxiv_points_upto",
+      "filePath": "engine/retro.py",
+      "lineRange": [
+        543,
+        553
+      ],
+      "summary": "Defines _arxiv_points_upto in retro.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "retro"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/retro.py:recall_probe",
+      "type": "function",
+      "name": "recall_probe",
+      "filePath": "engine/retro.py",
+      "lineRange": [
+        556,
+        649
+      ],
+      "summary": "Defines recall_probe in retro.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "retro"
+      ],
+      "complexity": "moderate"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:engine/quality.py",
+      "target": "function:engine/quality.py:_worst",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/quality.py",
+      "target": "function:engine/quality.py:_worst",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/quality.py",
+      "target": "function:engine/quality.py:_date_from_iso",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/quality.py",
+      "target": "function:engine/quality.py:_date_from_iso",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/quality.py",
+      "target": "function:engine/quality.py:is_irregular_series",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/quality.py",
+      "target": "function:engine/quality.py:is_irregular_series",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/quality.py",
+      "target": "function:engine/quality.py:is_zero_omitted_series",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/quality.py",
+      "target": "function:engine/quality.py:is_zero_omitted_series",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/quality.py",
+      "target": "function:engine/quality.py:is_sparse_reported_series",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/quality.py",
+      "target": "function:engine/quality.py:is_sparse_reported_series",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/quality.py",
+      "target": "function:engine/quality.py:is_archival_source_fresh_series",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/quality.py",
+      "target": "function:engine/quality.py:is_archival_source_fresh_series",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/quality.py",
+      "target": "function:engine/quality.py:check_freshness",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/quality.py",
+      "target": "function:engine/quality.py:check_freshness",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/quality.py",
+      "target": "function:engine/quality.py:check_completeness",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/quality.py",
+      "target": "function:engine/quality.py:check_completeness",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/quality.py",
+      "target": "function:engine/quality.py:check_validity",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/quality.py",
+      "target": "function:engine/quality.py:check_validity",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/quality.py",
+      "target": "function:engine/quality.py:check_provenance",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/quality.py",
+      "target": "function:engine/quality.py:check_provenance",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/quality.py",
+      "target": "function:engine/quality.py:_series_rows",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/quality.py",
+      "target": "function:engine/quality.py:_series_rows",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/quality.py",
+      "target": "function:engine/quality.py:_reconciliation",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/quality.py",
+      "target": "function:engine/quality.py:_reconciliation",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/quality.py",
+      "target": "function:engine/quality.py:run_audit",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/quality.py",
+      "target": "function:engine/quality.py:run_audit",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/quality.py",
+      "target": "function:engine/quality.py:_report",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/quality.py",
+      "target": "function:engine/quality.py:_report",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/research_papers.py",
+      "target": "function:engine/research_papers.py:_now",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/research_papers.py",
+      "target": "function:engine/research_papers.py:_now",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/research_papers.py",
+      "target": "function:engine/research_papers.py:_safe_count",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/research_papers.py",
+      "target": "function:engine/research_papers.py:_safe_count",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/research_papers.py",
+      "target": "function:engine/research_papers.py:local_status",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/research_papers.py",
+      "target": "function:engine/research_papers.py:local_status",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/research_papers.py",
+      "target": "function:engine/research_papers.py:plan",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/research_papers.py",
+      "target": "function:engine/research_papers.py:plan",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/research_papers.py",
+      "target": "function:engine/research_papers.py:ec2_worker_plan",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/research_papers.py",
+      "target": "function:engine/research_papers.py:ec2_worker_plan",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/research_papers.py",
+      "target": "function:engine/research_papers.py:validate_execute",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/research_papers.py",
+      "target": "function:engine/research_papers.py:validate_execute",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/research_papers.py",
+      "target": "function:engine/research_papers.py:bootstrap",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/research_papers.py",
+      "target": "function:engine/research_papers.py:bootstrap",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/research_papers.py",
+      "target": "function:engine/research_papers.py:format_summary",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/research_papers.py",
+      "target": "function:engine/research_papers.py:format_summary",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/research_papers.py",
+      "target": "class:engine/research_papers.py:PaperSource",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/research_papers.py",
+      "target": "class:engine/research_papers.py:PaperSource",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/retro.py",
+      "target": "function:engine/retro.py:_src",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/retro.py",
+      "target": "function:engine/retro.py:_src",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/retro.py",
+      "target": "function:engine/retro.py:_seed_channel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/retro.py",
+      "target": "function:engine/retro.py:_seed_channel",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/retro.py",
+      "target": "function:engine/retro.py:seed_corpus",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/retro.py",
+      "target": "function:engine/retro.py:seed_corpus",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/retro.py",
+      "target": "function:engine/retro.py:_points_upto",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/retro.py",
+      "target": "function:engine/retro.py:_points_upto",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/retro.py",
+      "target": "function:engine/retro.py:_p_of",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/retro.py",
+      "target": "function:engine/retro.py:_p_of",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/retro.py",
+      "target": "function:engine/retro.py:_evaluate",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/retro.py",
+      "target": "function:engine/retro.py:_evaluate",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/retro.py",
+      "target": "function:engine/retro.py:_store",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/retro.py",
+      "target": "function:engine/retro.py:_store",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/retro.py",
+      "target": "function:engine/retro.py:score",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/retro.py",
+      "target": "function:engine/retro.py:score",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/retro.py",
+      "target": "function:engine/retro.py:run",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/retro.py",
+      "target": "function:engine/retro.py:run",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/retro.py",
+      "target": "function:engine/retro.py:_report",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/retro.py",
+      "target": "function:engine/retro.py:_report",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/retro.py",
+      "target": "function:engine/retro.py:_arxiv_points_upto",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/retro.py",
+      "target": "function:engine/retro.py:_arxiv_points_upto",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/retro.py",
+      "target": "function:engine/retro.py:recall_probe",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/retro.py",
+      "target": "function:engine/retro.py:recall_probe",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/quality.py",
+      "target": "file:engine/schemas.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/research_papers.py",
+      "target": "file:engine/__init__.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/research_papers.py",
+      "target": "file:engine/db.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/research_papers.py",
+      "target": "file:engine/disk_guard.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/retro.py",
+      "target": "file:engine/__init__.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/retro.py",
+      "target": "file:engine/db.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/retro.py",
+      "target": "file:engine/detector.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/retro.py",
+      "target": "file:engine/pillars/frontier.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/retro.py",
+      "target": "file:engine/schemas.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "function:engine/quality.py:run_audit",
+      "target": "function:engine/schemas.py:_now",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/quality.py:run_audit",
+      "target": "function:engine/quality.py:_reconciliation",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/quality.py:run_audit",
+      "target": "function:engine/quality.py:_series_rows",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/quality.py:run_audit",
+      "target": "function:engine/quality.py:is_irregular_series",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/quality.py:run_audit",
+      "target": "function:engine/quality.py:is_zero_omitted_series",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/quality.py:run_audit",
+      "target": "function:engine/quality.py:is_sparse_reported_series",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/quality.py:run_audit",
+      "target": "function:engine/quality.py:is_archival_source_fresh_series",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/quality.py:run_audit",
+      "target": "function:engine/quality.py:_date_from_iso",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/quality.py:run_audit",
+      "target": "function:engine/quality.py:check_freshness",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/quality.py:run_audit",
+      "target": "function:engine/quality.py:check_completeness",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/quality.py:run_audit",
+      "target": "function:engine/quality.py:check_validity",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/quality.py:run_audit",
+      "target": "function:engine/quality.py:check_provenance",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/quality.py:run_audit",
+      "target": "function:engine/quality.py:_worst",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/quality.py:run_audit",
+      "target": "function:engine/quality.py:_report",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/research_papers.py:local_status",
+      "target": "function:engine/research_papers.py:_safe_count",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/research_papers.py:plan",
+      "target": "function:engine/research_papers.py:_now",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/research_papers.py:plan",
+      "target": "function:engine/research_papers.py:ec2_worker_plan",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/research_papers.py:bootstrap",
+      "target": "function:engine/research_papers.py:validate_execute",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/research_papers.py:bootstrap",
+      "target": "function:engine/research_papers.py:local_status",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/research_papers.py:bootstrap",
+      "target": "function:engine/research_papers.py:plan",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/research_papers.py:bootstrap",
+      "target": "function:engine/research_papers.py:_now",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/retro.py:_seed_channel",
+      "target": "class:engine/schemas.py:Source",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/retro.py:_seed_channel",
+      "target": "function:engine/pillars/frontier.py:_upsert_source",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/retro.py:_seed_channel",
+      "target": "class:engine/schemas.py:Series",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/retro.py:_seed_channel",
+      "target": "function:engine/pillars/frontier.py:_upsert_series",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/retro.py:_seed_channel",
+      "target": "function:engine/pillars/frontier.py:_upsert_observation",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/retro.py:_seed_channel",
+      "target": "class:engine/schemas.py:Observation",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/retro.py:seed_corpus",
+      "target": "function:engine/pillars/frontier.py:_log_cost",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/retro.py:seed_corpus",
+      "target": "function:engine/retro.py:_seed_channel",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/retro.py:_evaluate",
+      "target": "class:engine/schemas.py:RetroCase",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/retro.py:_evaluate",
+      "target": "function:engine/schemas.py:_uid",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/retro.py:_evaluate",
+      "target": "function:engine/detector.py:detect",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/retro.py:_evaluate",
+      "target": "function:engine/retro.py:_points_upto",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/retro.py:_evaluate",
+      "target": "function:engine/retro.py:_p_of",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/retro.py:run",
+      "target": "function:engine/retro.py:seed_corpus",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/retro.py:run",
+      "target": "function:engine/retro.py:_evaluate",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/retro.py:run",
+      "target": "function:engine/retro.py:_store",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/retro.py:run",
+      "target": "function:engine/retro.py:score",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/retro.py:run",
+      "target": "function:engine/retro.py:_report",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/retro.py:recall_probe",
+      "target": "function:engine/detector.py:detect",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/retro.py:recall_probe",
+      "target": "function:engine/retro.py:_arxiv_points_upto",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/retro.py:recall_probe",
+      "target": "function:engine/schemas.py:_uid",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/retro.py:recall_probe",
+      "target": "function:engine/schemas.py:_now",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

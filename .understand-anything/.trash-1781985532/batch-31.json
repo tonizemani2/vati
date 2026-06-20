@@ -1,0 +1,121 @@
+{
+  "nodes": [
+    {
+      "id": "document:site/docs/research/BEHAVIORS.md",
+      "type": "document",
+      "name": "BEHAVIORS.md",
+      "filePath": "site/docs/research/BEHAVIORS.md",
+      "summary": "Documentation file covering BEHAVIORS for the Vati repository and its forecasting workflows.",
+      "tags": [
+        "frontend",
+        "documentation",
+        "document",
+        "docs",
+        "behaviors"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:site/docs/research/PAGE_TOPOLOGY.md",
+      "type": "document",
+      "name": "PAGE_TOPOLOGY.md",
+      "filePath": "site/docs/research/PAGE_TOPOLOGY.md",
+      "summary": "Documentation file covering PAGE_TOPOLOGY for the Vati repository and its forecasting workflows.",
+      "tags": [
+        "frontend",
+        "documentation",
+        "document",
+        "docs",
+        "page-topology"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:site/docs/research/asset-manifest.json",
+      "type": "config",
+      "name": "asset-manifest.json",
+      "filePath": "site/docs/research/asset-manifest.json",
+      "summary": "Configuration file for asset-manifest.json that shapes build, runtime, or tooling behavior in this repository.",
+      "tags": [
+        "frontend",
+        "configuration",
+        "config",
+        "asset-manifest"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "config:site/docs/research/fonts-and-tokens.json",
+      "type": "config",
+      "name": "fonts-and-tokens.json",
+      "filePath": "site/docs/research/fonts-and-tokens.json",
+      "summary": "Configuration file for fonts-and-tokens.json that shapes build, runtime, or tooling behavior in this repository.",
+      "tags": [
+        "frontend",
+        "configuration",
+        "config",
+        "fonts-and-tokens"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "config:site/docs/research/global-extract.json",
+      "type": "config",
+      "name": "global-extract.json",
+      "filePath": "site/docs/research/global-extract.json",
+      "summary": "Configuration file for global-extract.json that shapes build, runtime, or tooling behavior in this repository.",
+      "tags": [
+        "frontend",
+        "configuration",
+        "config",
+        "global-extract"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:site/docs/research/mantic.webflow.css",
+      "type": "file",
+      "name": "mantic.webflow.css",
+      "filePath": "site/docs/research/mantic.webflow.css",
+      "summary": "mantic.webflow.css is a markup asset in the public site.",
+      "tags": [
+        "frontend",
+        "ui",
+        "file",
+        "markup",
+        "mantic-webflow"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:site/docs/research/page.html",
+      "type": "file",
+      "name": "page.html",
+      "filePath": "site/docs/research/page.html",
+      "summary": "page.html is a markup asset in the public site.",
+      "tags": [
+        "frontend",
+        "ui",
+        "file",
+        "markup",
+        "page"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "config:site/docs/research/reveals.json",
+      "type": "config",
+      "name": "reveals.json",
+      "filePath": "site/docs/research/reveals.json",
+      "summary": "Configuration file for reveals.json that shapes build, runtime, or tooling behavior in this repository.",
+      "tags": [
+        "frontend",
+        "configuration",
+        "config",
+        "reveals"
+      ],
+      "complexity": "complex"
+    }
+  ],
+  "edges": []
+}

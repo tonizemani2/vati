@@ -1,0 +1,1223 @@
+{
+  "nodes": [
+    {
+      "id": "file:engine/prophet/anchor.py",
+      "type": "file",
+      "name": "anchor.py",
+      "filePath": "engine/prophet/anchor.py",
+      "summary": "anchor.py is a code asset in the forecasting engine. It contains 7 functions, 2 internal imports.",
+      "tags": [
+        "forecasting-engine",
+        "code",
+        "file",
+        "anchor"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/prophet/anchor.py:_brier",
+      "type": "function",
+      "name": "_brier",
+      "filePath": "engine/prophet/anchor.py",
+      "lineRange": [
+        32,
+        33
+      ],
+      "summary": "Defines _brier in anchor.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "anchor"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/prophet/anchor.py:reliability",
+      "type": "function",
+      "name": "reliability",
+      "filePath": "engine/prophet/anchor.py",
+      "lineRange": [
+        36,
+        48
+      ],
+      "summary": "Defines reliability in anchor.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "anchor"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/prophet/anchor.py:market_reliability",
+      "type": "function",
+      "name": "market_reliability",
+      "filePath": "engine/prophet/anchor.py",
+      "lineRange": [
+        51,
+        58
+      ],
+      "summary": "Defines market_reliability in anchor.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "anchor"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/prophet/anchor.py:_yes_question",
+      "type": "function",
+      "name": "_yes_question",
+      "filePath": "engine/prophet/anchor.py",
+      "lineRange": [
+        61,
+        65
+      ],
+      "summary": "Defines _yes_question in anchor.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "anchor"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/prophet/anchor.py:compute_raw",
+      "type": "function",
+      "name": "compute_raw",
+      "filePath": "engine/prophet/anchor.py",
+      "lineRange": [
+        68,
+        88
+      ],
+      "summary": "Defines compute_raw in anchor.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "anchor"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/prophet/anchor.py:calibrate_w",
+      "type": "function",
+      "name": "calibrate_w",
+      "filePath": "engine/prophet/anchor.py",
+      "lineRange": [
+        91,
+        113
+      ],
+      "summary": "Defines calibrate_w in anchor.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "anchor"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/prophet/anchor.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "engine/prophet/anchor.py",
+      "lineRange": [
+        116,
+        129
+      ],
+      "summary": "Defines main in anchor.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entry-point",
+        "anchor"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:engine/prophet/backtest.py",
+      "type": "file",
+      "name": "backtest.py",
+      "filePath": "engine/prophet/backtest.py",
+      "summary": "backtest.py is a code asset in the forecasting engine. It contains 4 functions, 2 internal imports.",
+      "tags": [
+        "forecasting-engine",
+        "code",
+        "file",
+        "backtest"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/prophet/backtest.py:_event_from_task",
+      "type": "function",
+      "name": "_event_from_task",
+      "filePath": "engine/prophet/backtest.py",
+      "lineRange": [
+        24,
+        36
+      ],
+      "summary": "Defines _event_from_task in backtest.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "backtest"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/prophet/backtest.py:_winner",
+      "type": "function",
+      "name": "_winner",
+      "filePath": "engine/prophet/backtest.py",
+      "lineRange": [
+        39,
+        46
+      ],
+      "summary": "Defines _winner in backtest.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "backtest"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/prophet/backtest.py:_brier",
+      "type": "function",
+      "name": "_brier",
+      "filePath": "engine/prophet/backtest.py",
+      "lineRange": [
+        49,
+        50
+      ],
+      "summary": "Defines _brier in backtest.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "backtest"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/prophet/backtest.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "engine/prophet/backtest.py",
+      "lineRange": [
+        53,
+        91
+      ],
+      "summary": "Defines main in backtest.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entry-point",
+        "backtest"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:engine/prophet/openai_api.py",
+      "type": "file",
+      "name": "openai_api.py",
+      "filePath": "engine/prophet/openai_api.py",
+      "summary": "openai_api.py is a code asset in the forecasting engine. It contains 4 functions, 5 internal imports.",
+      "tags": [
+        "forecasting-engine",
+        "code",
+        "file",
+        "openai-api"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/prophet/openai_api.py:_extract",
+      "type": "function",
+      "name": "_extract",
+      "filePath": "engine/prophet/openai_api.py",
+      "lineRange": [
+        32,
+        43
+      ],
+      "summary": "Defines _extract in openai_api.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "openai-api"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/prophet/openai_api.py:_one",
+      "type": "function",
+      "name": "_one",
+      "filePath": "engine/prophet/openai_api.py",
+      "lineRange": [
+        46,
+        55
+      ],
+      "summary": "Defines _one in openai_api.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "openai-api"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/prophet/openai_api.py:_merge",
+      "type": "function",
+      "name": "_merge",
+      "filePath": "engine/prophet/openai_api.py",
+      "lineRange": [
+        58,
+        72
+      ],
+      "summary": "Defines _merge in openai_api.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "openai-api"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/prophet/openai_api.py:forecast_chat",
+      "type": "function",
+      "name": "forecast_chat",
+      "filePath": "engine/prophet/openai_api.py",
+      "lineRange": [
+        75,
+        101
+      ],
+      "summary": "Defines forecast_chat in openai_api.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "openai-api"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:engine/prophet/server.py",
+      "type": "file",
+      "name": "server.py",
+      "filePath": "engine/prophet/server.py",
+      "summary": "server.py is a code asset in the forecasting engine. It contains 4 functions, 5 classes, 2 internal imports.",
+      "tags": [
+        "forecasting-engine",
+        "code",
+        "file",
+        "server"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/prophet/server.py:_verify",
+      "type": "function",
+      "name": "_verify",
+      "filePath": "engine/prophet/server.py",
+      "lineRange": [
+        31,
+        35
+      ],
+      "summary": "Defines _verify in server.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "server"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/prophet/server.py:health",
+      "type": "function",
+      "name": "health",
+      "filePath": "engine/prophet/server.py",
+      "lineRange": [
+        61,
+        62
+      ],
+      "summary": "Defines health in server.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "server"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/prophet/server.py:predict_endpoint",
+      "type": "function",
+      "name": "predict_endpoint",
+      "filePath": "engine/prophet/server.py",
+      "lineRange": [
+        66,
+        68
+      ],
+      "summary": "Defines predict_endpoint in server.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "server"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/prophet/server.py:chat_completions",
+      "type": "function",
+      "name": "chat_completions",
+      "filePath": "engine/prophet/server.py",
+      "lineRange": [
+        90,
+        106
+      ],
+      "summary": "Defines chat_completions in server.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "server"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:engine/prophet/server.py:EventRequest",
+      "type": "class",
+      "name": "EventRequest",
+      "filePath": "engine/prophet/server.py",
+      "lineRange": [
+        38,
+        48
+      ],
+      "summary": "Defines EventRequest in server.py, encapsulating reusable behavior or state for this module.",
+      "tags": [
+        "class",
+        "implementation",
+        "server"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:engine/prophet/server.py:MarketProbability",
+      "type": "class",
+      "name": "MarketProbability",
+      "filePath": "engine/prophet/server.py",
+      "lineRange": [
+        51,
+        53
+      ],
+      "summary": "Defines MarketProbability in server.py, encapsulating reusable behavior or state for this module.",
+      "tags": [
+        "class",
+        "implementation",
+        "server"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:engine/prophet/server.py:PredictionResponse",
+      "type": "class",
+      "name": "PredictionResponse",
+      "filePath": "engine/prophet/server.py",
+      "lineRange": [
+        56,
+        57
+      ],
+      "summary": "Defines PredictionResponse in server.py, encapsulating reusable behavior or state for this module.",
+      "tags": [
+        "class",
+        "implementation",
+        "server"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:engine/prophet/server.py:ChatMessage",
+      "type": "class",
+      "name": "ChatMessage",
+      "filePath": "engine/prophet/server.py",
+      "lineRange": [
+        76,
+        78
+      ],
+      "summary": "Defines ChatMessage in server.py, encapsulating reusable behavior or state for this module.",
+      "tags": [
+        "class",
+        "implementation",
+        "server"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:engine/prophet/server.py:ChatCompletionRequest",
+      "type": "class",
+      "name": "ChatCompletionRequest",
+      "filePath": "engine/prophet/server.py",
+      "lineRange": [
+        81,
+        86
+      ],
+      "summary": "Defines ChatCompletionRequest in server.py, encapsulating reusable behavior or state for this module.",
+      "tags": [
+        "class",
+        "implementation",
+        "server"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:engine/render_emergence.py",
+      "type": "file",
+      "name": "render_emergence.py",
+      "filePath": "engine/render_emergence.py",
+      "summary": "render_emergence.py is a code asset in the forecasting engine. It contains 5 functions, 3 internal imports.",
+      "tags": [
+        "forecasting-engine",
+        "code",
+        "file",
+        "render-emergence"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/render_emergence.py:_esc",
+      "type": "function",
+      "name": "_esc",
+      "filePath": "engine/render_emergence.py",
+      "lineRange": [
+        45,
+        46
+      ],
+      "summary": "Defines _esc in render_emergence.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "render-emergence"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/render_emergence.py:_clean_ramp",
+      "type": "function",
+      "name": "_clean_ramp",
+      "filePath": "engine/render_emergence.py",
+      "lineRange": [
+        52,
+        61
+      ],
+      "summary": "Defines _clean_ramp in render_emergence.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "render-emergence"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/render_emergence.py:_patent_label",
+      "type": "function",
+      "name": "_patent_label",
+      "filePath": "engine/render_emergence.py",
+      "lineRange": [
+        64,
+        67
+      ],
+      "summary": "Defines _patent_label in render_emergence.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "render-emergence"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/render_emergence.py:render",
+      "type": "function",
+      "name": "render",
+      "filePath": "engine/render_emergence.py",
+      "lineRange": [
+        70,
+        141
+      ],
+      "summary": "Defines render in render_emergence.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "render-emergence"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/render_emergence.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "engine/render_emergence.py",
+      "lineRange": [
+        144,
+        155
+      ],
+      "summary": "Defines main in render_emergence.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entry-point",
+        "render-emergence"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:engine/prophet/anchor.py",
+      "target": "function:engine/prophet/anchor.py:_brier",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/prophet/anchor.py",
+      "target": "function:engine/prophet/anchor.py:_brier",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/prophet/anchor.py",
+      "target": "function:engine/prophet/anchor.py:reliability",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/prophet/anchor.py",
+      "target": "function:engine/prophet/anchor.py:reliability",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/prophet/anchor.py",
+      "target": "function:engine/prophet/anchor.py:market_reliability",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/prophet/anchor.py",
+      "target": "function:engine/prophet/anchor.py:market_reliability",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/prophet/anchor.py",
+      "target": "function:engine/prophet/anchor.py:_yes_question",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/prophet/anchor.py",
+      "target": "function:engine/prophet/anchor.py:_yes_question",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/prophet/anchor.py",
+      "target": "function:engine/prophet/anchor.py:compute_raw",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/prophet/anchor.py",
+      "target": "function:engine/prophet/anchor.py:compute_raw",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/prophet/anchor.py",
+      "target": "function:engine/prophet/anchor.py:calibrate_w",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/prophet/anchor.py",
+      "target": "function:engine/prophet/anchor.py:calibrate_w",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/prophet/anchor.py",
+      "target": "function:engine/prophet/anchor.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/prophet/anchor.py",
+      "target": "function:engine/prophet/anchor.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/prophet/backtest.py",
+      "target": "function:engine/prophet/backtest.py:_event_from_task",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/prophet/backtest.py",
+      "target": "function:engine/prophet/backtest.py:_event_from_task",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/prophet/backtest.py",
+      "target": "function:engine/prophet/backtest.py:_winner",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/prophet/backtest.py",
+      "target": "function:engine/prophet/backtest.py:_winner",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/prophet/backtest.py",
+      "target": "function:engine/prophet/backtest.py:_brier",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/prophet/backtest.py",
+      "target": "function:engine/prophet/backtest.py:_brier",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/prophet/backtest.py",
+      "target": "function:engine/prophet/backtest.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/prophet/backtest.py",
+      "target": "function:engine/prophet/backtest.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/prophet/openai_api.py",
+      "target": "function:engine/prophet/openai_api.py:_extract",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/prophet/openai_api.py",
+      "target": "function:engine/prophet/openai_api.py:_extract",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/prophet/openai_api.py",
+      "target": "function:engine/prophet/openai_api.py:_one",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/prophet/openai_api.py",
+      "target": "function:engine/prophet/openai_api.py:_one",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/prophet/openai_api.py",
+      "target": "function:engine/prophet/openai_api.py:_merge",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/prophet/openai_api.py",
+      "target": "function:engine/prophet/openai_api.py:_merge",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/prophet/openai_api.py",
+      "target": "function:engine/prophet/openai_api.py:forecast_chat",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/prophet/openai_api.py",
+      "target": "function:engine/prophet/openai_api.py:forecast_chat",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/prophet/server.py",
+      "target": "function:engine/prophet/server.py:_verify",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/prophet/server.py",
+      "target": "function:engine/prophet/server.py:_verify",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/prophet/server.py",
+      "target": "function:engine/prophet/server.py:health",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/prophet/server.py",
+      "target": "function:engine/prophet/server.py:health",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/prophet/server.py",
+      "target": "function:engine/prophet/server.py:predict_endpoint",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/prophet/server.py",
+      "target": "function:engine/prophet/server.py:predict_endpoint",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/prophet/server.py",
+      "target": "function:engine/prophet/server.py:chat_completions",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/prophet/server.py",
+      "target": "function:engine/prophet/server.py:chat_completions",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/prophet/server.py",
+      "target": "class:engine/prophet/server.py:EventRequest",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/prophet/server.py",
+      "target": "class:engine/prophet/server.py:EventRequest",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/prophet/server.py",
+      "target": "class:engine/prophet/server.py:MarketProbability",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/prophet/server.py",
+      "target": "class:engine/prophet/server.py:MarketProbability",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/prophet/server.py",
+      "target": "class:engine/prophet/server.py:PredictionResponse",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/prophet/server.py",
+      "target": "class:engine/prophet/server.py:PredictionResponse",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/prophet/server.py",
+      "target": "class:engine/prophet/server.py:ChatMessage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/prophet/server.py",
+      "target": "class:engine/prophet/server.py:ChatMessage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/prophet/server.py",
+      "target": "class:engine/prophet/server.py:ChatCompletionRequest",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/prophet/server.py",
+      "target": "class:engine/prophet/server.py:ChatCompletionRequest",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/render_emergence.py",
+      "target": "function:engine/render_emergence.py:_esc",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/render_emergence.py",
+      "target": "function:engine/render_emergence.py:_esc",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/render_emergence.py",
+      "target": "function:engine/render_emergence.py:_clean_ramp",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/render_emergence.py",
+      "target": "function:engine/render_emergence.py:_clean_ramp",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/render_emergence.py",
+      "target": "function:engine/render_emergence.py:_patent_label",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/render_emergence.py",
+      "target": "function:engine/render_emergence.py:_patent_label",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/render_emergence.py",
+      "target": "function:engine/render_emergence.py:render",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/render_emergence.py",
+      "target": "function:engine/render_emergence.py:render",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/render_emergence.py",
+      "target": "function:engine/render_emergence.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/render_emergence.py",
+      "target": "function:engine/render_emergence.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/prophet/anchor.py",
+      "target": "file:engine/forecastbench/ensemble.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/prophet/anchor.py",
+      "target": "file:engine/prophet/agent.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/prophet/backtest.py",
+      "target": "file:engine/prophet/__init__.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/prophet/backtest.py",
+      "target": "file:engine/prophet/agent.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/prophet/openai_api.py",
+      "target": "file:engine/__init__.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/prophet/openai_api.py",
+      "target": "file:engine/adapters/__init__.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/prophet/openai_api.py",
+      "target": "file:engine/adapters/llm.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/prophet/openai_api.py",
+      "target": "file:engine/db.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/prophet/openai_api.py",
+      "target": "file:engine/prophet/agent.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/prophet/server.py",
+      "target": "file:engine/prophet/__init__.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/prophet/server.py",
+      "target": "file:engine/prophet/agent.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/render_emergence.py",
+      "target": "file:engine/__init__.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/render_emergence.py",
+      "target": "file:engine/db.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/render_emergence.py",
+      "target": "file:engine/signals.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "function:engine/prophet/anchor.py:market_reliability",
+      "target": "function:engine/prophet/anchor.py:_brier",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/prophet/anchor.py:market_reliability",
+      "target": "function:engine/prophet/anchor.py:reliability",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/prophet/anchor.py:compute_raw",
+      "target": "function:engine/prophet/anchor.py:_yes_question",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/prophet/anchor.py:calibrate_w",
+      "target": "function:engine/prophet/anchor.py:_brier",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/prophet/anchor.py:calibrate_w",
+      "target": "function:engine/forecastbench/ensemble.py:_sigmoid",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/prophet/anchor.py:calibrate_w",
+      "target": "function:engine/forecastbench/ensemble.py:_logit",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/prophet/anchor.py:main",
+      "target": "function:engine/prophet/anchor.py:market_reliability",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/prophet/anchor.py:main",
+      "target": "function:engine/prophet/anchor.py:compute_raw",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/prophet/anchor.py:main",
+      "target": "function:engine/prophet/anchor.py:calibrate_w",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/prophet/backtest.py:main",
+      "target": "function:engine/prophet/backtest.py:_winner",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/prophet/backtest.py:main",
+      "target": "function:engine/prophet/backtest.py:_event_from_task",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/prophet/backtest.py:main",
+      "target": "function:engine/prophet/backtest.py:_brier",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/prophet/openai_api.py:_one",
+      "target": "function:engine/prophet/openai_api.py:_extract",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/prophet/openai_api.py:forecast_chat",
+      "target": "function:engine/prophet/openai_api.py:_merge",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/prophet/openai_api.py:forecast_chat",
+      "target": "function:engine/prophet/openai_api.py:_extract",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/prophet/server.py:predict_endpoint",
+      "target": "class:engine/prophet/server.py:PredictionResponse",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/render_emergence.py:render",
+      "target": "function:engine/render_emergence.py:_clean_ramp",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/render_emergence.py",
+      "target": "function:engine/render_emergence.py:_esc",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/render_emergence.py",
+      "target": "function:engine/render_emergence.py:_patent_label",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/render_emergence.py:render",
+      "target": "function:engine/render_emergence.py:_esc",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/render_emergence.py:main",
+      "target": "function:engine/render_emergence.py:render",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

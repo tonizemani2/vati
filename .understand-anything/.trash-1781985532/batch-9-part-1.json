@@ -1,0 +1,768 @@
+{
+  "nodes": [
+    {
+      "id": "file:cockpit/app/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "filePath": "cockpit/app/page.tsx",
+      "summary": "page.tsx is a code asset in the cockpit dashboard. It contains 7 functions, 15 internal imports.",
+      "tags": [
+        "dashboard",
+        "code",
+        "file",
+        "page"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:cockpit/app/page.tsx:Sparkline",
+      "type": "function",
+      "name": "Sparkline",
+      "filePath": "cockpit/app/page.tsx",
+      "lineRange": [
+        100,
+        120
+      ],
+      "summary": "Defines Sparkline in page.tsx, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "page"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cockpit/app/page.tsx:Cockpit",
+      "type": "function",
+      "name": "Cockpit",
+      "filePath": "cockpit/app/page.tsx",
+      "lineRange": [
+        145,
+        1633
+      ],
+      "summary": "Defines Cockpit in page.tsx, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "page"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:cockpit/components/bet-card.tsx",
+      "type": "file",
+      "name": "bet-card.tsx",
+      "filePath": "cockpit/components/bet-card.tsx",
+      "summary": "bet-card.tsx is a code asset in the cockpit dashboard. It contains 4 functions, 1 internal import.",
+      "tags": [
+        "dashboard",
+        "code",
+        "file",
+        "bet-card"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:cockpit/components/bet-card.tsx:BetCard",
+      "type": "function",
+      "name": "BetCard",
+      "filePath": "cockpit/components/bet-card.tsx",
+      "lineRange": [
+        17,
+        118
+      ],
+      "summary": "Defines BetCard in bet-card.tsx, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "bet-card"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:cockpit/components/bet-card.tsx:TriggerList",
+      "type": "function",
+      "name": "TriggerList",
+      "filePath": "cockpit/components/bet-card.tsx",
+      "lineRange": [
+        120,
+        141
+      ],
+      "summary": "Defines TriggerList in bet-card.tsx, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "bet-card"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:cockpit/components/calibration-chart.tsx",
+      "type": "file",
+      "name": "calibration-chart.tsx",
+      "filePath": "cockpit/components/calibration-chart.tsx",
+      "summary": "calibration-chart.tsx is a code asset in the cockpit dashboard. It contains 1 function.",
+      "tags": [
+        "dashboard",
+        "code",
+        "file",
+        "calibration-chart"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:cockpit/components/calibration-chart.tsx:CalibrationChart",
+      "type": "function",
+      "name": "CalibrationChart",
+      "filePath": "cockpit/components/calibration-chart.tsx",
+      "lineRange": [
+        17,
+        57
+      ],
+      "summary": "Defines CalibrationChart in calibration-chart.tsx, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "calibration-chart"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:cockpit/components/consensus-gate.tsx",
+      "type": "file",
+      "name": "consensus-gate.tsx",
+      "filePath": "cockpit/components/consensus-gate.tsx",
+      "summary": "consensus-gate.tsx is a code asset in the cockpit dashboard. It contains 1 function, 1 internal import.",
+      "tags": [
+        "dashboard",
+        "code",
+        "file",
+        "consensus-gate"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:cockpit/components/consensus-gate.tsx:ConsensusGate",
+      "type": "function",
+      "name": "ConsensusGate",
+      "filePath": "cockpit/components/consensus-gate.tsx",
+      "lineRange": [
+        33,
+        157
+      ],
+      "summary": "Defines ConsensusGate in consensus-gate.tsx, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "consensus-gate"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:cockpit/components/cross-domain-map.tsx",
+      "type": "file",
+      "name": "cross-domain-map.tsx",
+      "filePath": "cockpit/components/cross-domain-map.tsx",
+      "summary": "cross-domain-map.tsx is a code asset in the cockpit dashboard. It contains 1 function, 1 internal import.",
+      "tags": [
+        "dashboard",
+        "code",
+        "file",
+        "cross-domain-map"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:cockpit/components/cross-domain-map.tsx:CrossDomainMap",
+      "type": "function",
+      "name": "CrossDomainMap",
+      "filePath": "cockpit/components/cross-domain-map.tsx",
+      "lineRange": [
+        21,
+        101
+      ],
+      "summary": "Defines CrossDomainMap in cross-domain-map.tsx, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entry-point",
+        "cross-domain-map"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:cockpit/components/data-health.tsx",
+      "type": "file",
+      "name": "data-health.tsx",
+      "filePath": "cockpit/components/data-health.tsx",
+      "summary": "data-health.tsx is a code asset in the cockpit dashboard. It contains 3 functions, 1 internal import.",
+      "tags": [
+        "dashboard",
+        "code",
+        "file",
+        "data-health"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:cockpit/components/data-health.tsx:detailLine",
+      "type": "function",
+      "name": "detailLine",
+      "filePath": "cockpit/components/data-health.tsx",
+      "lineRange": [
+        18,
+        29
+      ],
+      "summary": "Defines detailLine in data-health.tsx, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-health"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cockpit/components/data-health.tsx:DataHealthPanel",
+      "type": "function",
+      "name": "DataHealthPanel",
+      "filePath": "cockpit/components/data-health.tsx",
+      "lineRange": [
+        31,
+        119
+      ],
+      "summary": "Defines DataHealthPanel in data-health.tsx, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-health"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:cockpit/components/entity-spine.tsx",
+      "type": "file",
+      "name": "entity-spine.tsx",
+      "filePath": "cockpit/components/entity-spine.tsx",
+      "summary": "entity-spine.tsx is a code asset in the cockpit dashboard. It contains 2 functions, 1 internal import.",
+      "tags": [
+        "dashboard",
+        "code",
+        "file",
+        "entity-spine"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:cockpit/components/entity-spine.tsx:PillarRail",
+      "type": "function",
+      "name": "PillarRail",
+      "filePath": "cockpit/components/entity-spine.tsx",
+      "lineRange": [
+        29,
+        48
+      ],
+      "summary": "Defines PillarRail in entity-spine.tsx, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entity-spine"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cockpit/components/entity-spine.tsx:EntitySpine",
+      "type": "function",
+      "name": "EntitySpine",
+      "filePath": "cockpit/components/entity-spine.tsx",
+      "lineRange": [
+        50,
+        166
+      ],
+      "summary": "Defines EntitySpine in entity-spine.tsx, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entity-spine"
+      ],
+      "complexity": "moderate"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:cockpit/app/page.tsx",
+      "target": "function:cockpit/app/page.tsx:Sparkline",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cockpit/app/page.tsx",
+      "target": "function:cockpit/app/page.tsx:Cockpit",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cockpit/app/page.tsx",
+      "target": "function:cockpit/app/page.tsx:Cockpit",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cockpit/components/bet-card.tsx",
+      "target": "function:cockpit/components/bet-card.tsx:BetCard",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cockpit/components/bet-card.tsx",
+      "target": "function:cockpit/components/bet-card.tsx:BetCard",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cockpit/components/bet-card.tsx",
+      "target": "function:cockpit/components/bet-card.tsx:TriggerList",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cockpit/components/calibration-chart.tsx",
+      "target": "function:cockpit/components/calibration-chart.tsx:CalibrationChart",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cockpit/components/calibration-chart.tsx",
+      "target": "function:cockpit/components/calibration-chart.tsx:CalibrationChart",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cockpit/components/consensus-gate.tsx",
+      "target": "function:cockpit/components/consensus-gate.tsx:ConsensusGate",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cockpit/components/consensus-gate.tsx",
+      "target": "function:cockpit/components/consensus-gate.tsx:ConsensusGate",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cockpit/components/cross-domain-map.tsx",
+      "target": "function:cockpit/components/cross-domain-map.tsx:CrossDomainMap",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cockpit/components/cross-domain-map.tsx",
+      "target": "function:cockpit/components/cross-domain-map.tsx:CrossDomainMap",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cockpit/components/data-health.tsx",
+      "target": "function:cockpit/components/data-health.tsx:detailLine",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cockpit/components/data-health.tsx",
+      "target": "function:cockpit/components/data-health.tsx:DataHealthPanel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cockpit/components/data-health.tsx",
+      "target": "function:cockpit/components/data-health.tsx:DataHealthPanel",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cockpit/components/entity-spine.tsx",
+      "target": "function:cockpit/components/entity-spine.tsx:PillarRail",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cockpit/components/entity-spine.tsx",
+      "target": "function:cockpit/components/entity-spine.tsx:EntitySpine",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cockpit/components/entity-spine.tsx",
+      "target": "function:cockpit/components/entity-spine.tsx:EntitySpine",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cockpit/app/page.tsx",
+      "target": "file:cockpit/components/bet-card.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:cockpit/app/page.tsx",
+      "target": "file:cockpit/components/calibration-chart.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:cockpit/app/page.tsx",
+      "target": "file:cockpit/components/consensus-gate.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:cockpit/app/page.tsx",
+      "target": "file:cockpit/components/cross-domain-map.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:cockpit/app/page.tsx",
+      "target": "file:cockpit/components/data-health.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:cockpit/app/page.tsx",
+      "target": "file:cockpit/components/entity-spine.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:cockpit/app/page.tsx",
+      "target": "file:cockpit/components/hypothesis-engine.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:cockpit/app/page.tsx",
+      "target": "file:cockpit/components/retro-benchmark.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:cockpit/app/page.tsx",
+      "target": "file:cockpit/components/supply-graph.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:cockpit/app/page.tsx",
+      "target": "file:cockpit/components/ui/badge.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:cockpit/app/page.tsx",
+      "target": "file:cockpit/components/ui/card.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:cockpit/app/page.tsx",
+      "target": "file:cockpit/components/ui/progress.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:cockpit/app/page.tsx",
+      "target": "file:cockpit/components/ui/table.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:cockpit/app/page.tsx",
+      "target": "file:cockpit/components/universe-benchmark.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:cockpit/app/page.tsx",
+      "target": "file:cockpit/lib/db.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:cockpit/components/bet-card.tsx",
+      "target": "file:cockpit/lib/db.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:cockpit/components/consensus-gate.tsx",
+      "target": "file:cockpit/lib/db.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:cockpit/components/cross-domain-map.tsx",
+      "target": "file:cockpit/lib/db.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:cockpit/components/data-health.tsx",
+      "target": "file:cockpit/lib/db.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:cockpit/components/entity-spine.tsx",
+      "target": "file:cockpit/lib/db.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "function:cockpit/app/page.tsx:Cockpit",
+      "target": "function:cockpit/lib/db.ts:getPillars",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cockpit/app/page.tsx:Cockpit",
+      "target": "function:cockpit/lib/db.ts:getSources",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cockpit/app/page.tsx:Cockpit",
+      "target": "function:cockpit/lib/db.ts:getOpenDecisions",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cockpit/app/page.tsx:Cockpit",
+      "target": "function:cockpit/lib/db.ts:getCostLedger",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cockpit/app/page.tsx:Cockpit",
+      "target": "function:cockpit/lib/db.ts:getForecasts",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cockpit/app/page.tsx:Cockpit",
+      "target": "function:cockpit/lib/db.ts:getCalibration",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cockpit/app/page.tsx:Cockpit",
+      "target": "function:cockpit/lib/db.ts:getLadder",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cockpit/app/page.tsx:Cockpit",
+      "target": "function:cockpit/lib/db.ts:getLadderScore",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cockpit/app/page.tsx:Cockpit",
+      "target": "function:cockpit/lib/db.ts:getDriverHealth",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cockpit/app/page.tsx:Cockpit",
+      "target": "function:cockpit/lib/db.ts:getSpendCents",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cockpit/app/page.tsx:Cockpit",
+      "target": "function:cockpit/lib/db.ts:getSeries",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cockpit/app/page.tsx:Cockpit",
+      "target": "function:cockpit/lib/db.ts:getGraphNodes",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cockpit/app/page.tsx:Cockpit",
+      "target": "function:cockpit/lib/db.ts:getGraphEdges",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cockpit/app/page.tsx:Cockpit",
+      "target": "function:cockpit/lib/db.ts:getWorldNodes",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cockpit/app/page.tsx:Cockpit",
+      "target": "function:cockpit/lib/db.ts:getWorldEdges",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cockpit/app/page.tsx:Cockpit",
+      "target": "function:cockpit/lib/db.ts:getDataHealth",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cockpit/app/page.tsx:Cockpit",
+      "target": "function:cockpit/lib/db.ts:getWorldStateOverview",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cockpit/app/page.tsx:Cockpit",
+      "target": "function:cockpit/lib/db.ts:getEntities",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cockpit/app/page.tsx:Cockpit",
+      "target": "function:cockpit/lib/db.ts:getEntityEdges",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cockpit/app/page.tsx:Cockpit",
+      "target": "function:cockpit/lib/db.ts:getHypotheses",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cockpit/app/page.tsx:Cockpit",
+      "target": "function:cockpit/lib/db.ts:getConsensus",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cockpit/app/page.tsx:Cockpit",
+      "target": "function:cockpit/lib/db.ts:getBet",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cockpit/app/page.tsx:Cockpit",
+      "target": "function:cockpit/lib/db.ts:getRetroCases",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cockpit/app/page.tsx:Cockpit",
+      "target": "function:cockpit/lib/db.ts:getRetroScore",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cockpit/app/page.tsx:Cockpit",
+      "target": "function:cockpit/lib/db.ts:getRecallProbe",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cockpit/app/page.tsx:Cockpit",
+      "target": "function:cockpit/lib/db.ts:getSlowConstraints",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cockpit/app/page.tsx:Cockpit",
+      "target": "function:cockpit/lib/db.ts:getUniverseScore",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cockpit/app/page.tsx:Cockpit",
+      "target": "function:cockpit/lib/db.ts:getDiscovery",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cockpit/app/page.tsx:Cockpit",
+      "target": "function:cockpit/lib/db.ts:consensusEcho",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cockpit/components/data-health.tsx:DataHealthPanel",
+      "target": "function:cockpit/components/data-health.tsx:detailLine",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

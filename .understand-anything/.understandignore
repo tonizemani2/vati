@@ -1,0 +1,52 @@
+# Keep the first pass focused on architecture, docs, and code.
+# Exclude vendored deps, generated assets, heavy data, and rendered artifacts.
+
+.git/
+.venv/
+.pytest_cache/
+.playwright-mcp/
+.wrangler/
+tmp/
+**/__pycache__/
+**/node_modules/
+**/.next/
+**/dist/
+**/build/
+**/out/
+
+# Local secrets and runtime env files
+.env
+.env.*
+**/.env
+**/.env.*
+**/.dev.vars
+**/.dev.vars.*
+
+# Large data and generated research outputs
+data/**
+research/pope/**
+research/world_graph/**
+paper_beyond_brier/arxiv_upload/**
+paper_beyond_brier/data/**
+paper_beyond_brier/out_*/
+site/public/forecasts/**
+
+# Binary and rendered artifacts
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+*.ico
+*.pdf
+*.zip
+*.tar.gz
+
+# Keep markdown and source, skip standalone rendered HTML outputs
+status.html
+research/*.html
+research/targets_panel.html
+research/people_panel.html
+research/outreach_panel.html
+research/emergence_layer.html
+logo-concepts.html

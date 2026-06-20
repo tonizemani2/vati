@@ -31,7 +31,7 @@ from engine.pillars.frontier import _log_cost, _upsert_observation, _upsert_seri
 from engine.schemas import Observation, Series, Source, SourceKind, _now, _uid
 
 SLOW_PILLAR_ID = 4          # Supply elasticity — where scarcity rent lands (a slow constraint IS inelastic supply)
-UA = "predictthefuture research (ruben.stout@edu.escp.eu)"
+UA = "predictthefuture research (research@vaticinus.com)"
 WB = "https://api.worldbank.org/v2/country/{country}/indicator/{ind}?format=json&date=1970:2024&per_page=200"
 
 # Each slow constraint: a keyless WDI indicator + the MECHANISM threshold it binds at (sourced).

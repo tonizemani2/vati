@@ -1,0 +1,50 @@
+[
+ {
+  "question_id": 8662,
+  "type": "binary",
+  "prob": 0.55,
+  "reasoning": "China is at ~620 warheads (FAS/SIPRI Jan 2026) and the Pentagon repeatedly projects 1,000 by 2030; reaching it requires sustaining a faster build than the recent ~20-30/yr observed pace, so it is plausible but not assured given silo fields still being filled."
+ },
+ {
+  "question_id": 8470,
+  "type": "binary",
+  "prob": 0.4,
+  "reasoning": "Conditional on a full invasion, Japan (post-2022 security shift, US ally, Senkaku/SLOC stakes) would very likely host/support US forces, but a direct Japanese offensive physical attack on Chinese forces within 365 days is more uncertain given constitutional and escalation constraints."
+ },
+ {
+  "question_id": 21805,
+  "type": "binary",
+  "prob": 0.2,
+  "reasoning": "Chinese grid intrusions and prepositioning are escalating and well-documented, but an attributed cyberattack actually causing a >=10,000-person, >=1-day blackout in Taiwan is a major escalation China has refrained from absent open conflict, making it a specific high-bar event by 2030."
+ },
+ {
+  "question_id": 12135,
+  "type": "numeric",
+  "percentiles": {"0.05": -22, "0.1": -16, "0.25": -9, "0.5": -3, "0.75": 1, "0.9": 4, "0.95": 6},
+  "reasoning": "Conditional on a full-scale invasion, severe Western sanctions plus supply-chain/blockade disruption would sharply cut China's growth from its ~4-5% baseline, likely into contraction (Russia fell ~6% post-2022 but China is far more trade-exposed), with wide uncertainty around the median."
+ },
+ {
+  "question_id": 7512,
+  "type": "binary",
+  "prob": 0.45,
+  "reasoning": "Over a long 2021-2050 window with rising tensions, an accumulation of >=100 deaths from any armed exchange (incidents, blockade clashes, or invasion) is roughly a coin flip; the long horizon raises odds but most years pass with no lethal fire exchange."
+ },
+ {
+  "question_id": 21804,
+  "type": "binary",
+  "prob": 0.1,
+  "reasoning": "A near-total import ban (carving out only electronics) would be a drastic escalation hurting China's own economy and is not foreshadowed by current tit-for-tat measures; absent open conflict before 2030 this specific sweeping action is unlikely."
+ },
+ {
+  "question_id": 21870,
+  "type": "binary",
+  "prob": 0.3,
+  "reasoning": "China publicly reaffirms no-first-use as recently as 2026 and stays disciplined officially, but the broad resolution bar (any general or senior official, including vague 'all options' threats over 4+ years of rising tension) makes a qualifying statement a realistic but minority chance."
+ },
+ {
+  "question_id": 21491,
+  "type": "binary",
+  "prob": 0.07,
+  "reasoning": "Seizing Kinmen or Matsu would be an act of war triggering the Taiwan-contingency cascade China currently avoids; despite coercive 'four links' overtures and gray-zone pressure, an actual de-facto 24-hour occupation before 2028 is a specific low-probability event."
+ }
+]

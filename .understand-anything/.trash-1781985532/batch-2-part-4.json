@@ -1,0 +1,2367 @@
+{
+  "nodes": [
+    {
+      "id": "file:engine/forecastbench/distill.py",
+      "type": "file",
+      "name": "distill.py",
+      "filePath": "engine/forecastbench/distill.py",
+      "summary": "distill.py is a code asset in the forecasting engine. It contains 3 functions, 5 internal imports.",
+      "tags": [
+        "forecasting-engine",
+        "forecasting",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/forecastbench/distill.py:_prompt",
+      "type": "function",
+      "name": "_prompt",
+      "filePath": "engine/forecastbench/distill.py",
+      "lineRange": [
+        49,
+        56
+      ],
+      "summary": "Defines _prompt in distill.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "distill"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/distill.py:_parse_prob",
+      "type": "function",
+      "name": "_parse_prob",
+      "filePath": "engine/forecastbench/distill.py",
+      "lineRange": [
+        59,
+        67
+      ],
+      "summary": "Defines _parse_prob in distill.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "distill"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/distill.py:measure",
+      "type": "function",
+      "name": "measure",
+      "filePath": "engine/forecastbench/distill.py",
+      "lineRange": [
+        70,
+        121
+      ],
+      "summary": "Defines measure in distill.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "distill"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:engine/forecastbench/edge_dataset.py",
+      "type": "file",
+      "name": "edge_dataset.py",
+      "filePath": "engine/forecastbench/edge_dataset.py",
+      "summary": "edge_dataset.py is a code asset in the forecasting engine. It contains 14 functions, 2 internal imports.",
+      "tags": [
+        "forecasting-engine",
+        "forecasting",
+        "code"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:engine/forecastbench/edge_dataset.py:_get",
+      "type": "function",
+      "name": "_get",
+      "filePath": "engine/forecastbench/edge_dataset.py",
+      "lineRange": [
+        60,
+        63
+      ],
+      "summary": "Defines _get in edge_dataset.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "edge-dataset"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/edge_dataset.py:_all_bets",
+      "type": "function",
+      "name": "_all_bets",
+      "filePath": "engine/forecastbench/edge_dataset.py",
+      "lineRange": [
+        68,
+        87
+      ],
+      "summary": "Defines _all_bets in edge_dataset.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "edge-dataset"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/edge_dataset.py:crowd_prob_at_T",
+      "type": "function",
+      "name": "crowd_prob_at_T",
+      "filePath": "engine/forecastbench/edge_dataset.py",
+      "lineRange": [
+        90,
+        104
+      ],
+      "summary": "Defines crowd_prob_at_T in edge_dataset.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "edge-dataset"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/edge_dataset.py:keywords",
+      "type": "function",
+      "name": "keywords",
+      "filePath": "engine/forecastbench/edge_dataset.py",
+      "lineRange": [
+        109,
+        117
+      ],
+      "summary": "Defines keywords in edge_dataset.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "edge-dataset"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/edge_dataset.py:_yearly_paper_counts",
+      "type": "function",
+      "name": "_yearly_paper_counts",
+      "filePath": "engine/forecastbench/edge_dataset.py",
+      "lineRange": [
+        120,
+        139
+      ],
+      "summary": "Defines _yearly_paper_counts in edge_dataset.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "edge-dataset"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/edge_dataset.py:_total_by_year",
+      "type": "function",
+      "name": "_total_by_year",
+      "filePath": "engine/forecastbench/edge_dataset.py",
+      "lineRange": [
+        145,
+        152
+      ],
+      "summary": "Defines _total_by_year in edge_dataset.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "edge-dataset"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/edge_dataset.py:_surprise_sigma",
+      "type": "function",
+      "name": "_surprise_sigma",
+      "filePath": "engine/forecastbench/edge_dataset.py",
+      "lineRange": [
+        155,
+        167
+      ],
+      "summary": "Defines _surprise_sigma in edge_dataset.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "edge-dataset"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/edge_dataset.py:research_velocity",
+      "type": "function",
+      "name": "research_velocity",
+      "filePath": "engine/forecastbench/edge_dataset.py",
+      "lineRange": [
+        170,
+        221
+      ],
+      "summary": "Defines research_velocity in edge_dataset.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-access",
+        "edge-dataset"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/forecastbench/edge_dataset.py:is_scitech",
+      "type": "function",
+      "name": "is_scitech",
+      "filePath": "engine/forecastbench/edge_dataset.py",
+      "lineRange": [
+        239,
+        240
+      ],
+      "summary": "Defines is_scitech in edge_dataset.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "edge-dataset"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/edge_dataset.py:cutoff",
+      "type": "function",
+      "name": "cutoff",
+      "filePath": "engine/forecastbench/edge_dataset.py",
+      "lineRange": [
+        243,
+        247
+      ],
+      "summary": "Defines cutoff in edge_dataset.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "edge-dataset"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/edge_dataset.py:build_row",
+      "type": "function",
+      "name": "build_row",
+      "filePath": "engine/forecastbench/edge_dataset.py",
+      "lineRange": [
+        250,
+        279
+      ],
+      "summary": "Defines build_row in edge_dataset.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "edge-dataset"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/edge_dataset.py:build",
+      "type": "function",
+      "name": "build",
+      "filePath": "engine/forecastbench/edge_dataset.py",
+      "lineRange": [
+        282,
+        311
+      ],
+      "summary": "Defines build in edge_dataset.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "edge-dataset"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/edge_dataset.py:_brier",
+      "type": "function",
+      "name": "_brier",
+      "filePath": "engine/forecastbench/edge_dataset.py",
+      "lineRange": [
+        314,
+        316
+      ],
+      "summary": "Defines _brier in edge_dataset.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "edge-dataset"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/edge_dataset.py:_report",
+      "type": "function",
+      "name": "_report",
+      "filePath": "engine/forecastbench/edge_dataset.py",
+      "lineRange": [
+        319,
+        343
+      ],
+      "summary": "Defines _report in edge_dataset.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "edge-dataset"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:engine/forecastbench/edge_gate.py",
+      "type": "file",
+      "name": "edge_gate.py",
+      "filePath": "engine/forecastbench/edge_gate.py",
+      "summary": "edge_gate.py is a code asset in the forecasting engine. It contains 6 functions, 4 internal imports.",
+      "tags": [
+        "forecasting-engine",
+        "forecasting",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/forecastbench/edge_gate.py:parse_prob",
+      "type": "function",
+      "name": "parse_prob",
+      "filePath": "engine/forecastbench/edge_gate.py",
+      "lineRange": [
+        42,
+        55
+      ],
+      "summary": "Defines parse_prob in edge_gate.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "edge-gate"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/edge_gate.py:_feat_block",
+      "type": "function",
+      "name": "_feat_block",
+      "filePath": "engine/forecastbench/edge_gate.py",
+      "lineRange": [
+        58,
+        72
+      ],
+      "summary": "Defines _feat_block in edge_gate.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "edge-gate"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/edge_gate.py:_ask",
+      "type": "function",
+      "name": "_ask",
+      "filePath": "engine/forecastbench/edge_gate.py",
+      "lineRange": [
+        75,
+        86
+      ],
+      "summary": "Defines _ask in edge_gate.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "edge-gate"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/edge_gate.py:run",
+      "type": "function",
+      "name": "run",
+      "filePath": "engine/forecastbench/edge_gate.py",
+      "lineRange": [
+        89,
+        111
+      ],
+      "summary": "Defines run in edge_gate.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entry-point",
+        "edge-gate"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/edge_gate.py:_brier",
+      "type": "function",
+      "name": "_brier",
+      "filePath": "engine/forecastbench/edge_gate.py",
+      "lineRange": [
+        114,
+        115
+      ],
+      "summary": "Defines _brier in edge_gate.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "edge-gate"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/edge_gate.py:_report",
+      "type": "function",
+      "name": "_report",
+      "filePath": "engine/forecastbench/edge_gate.py",
+      "lineRange": [
+        118,
+        136
+      ],
+      "summary": "Defines _report in edge_gate.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "edge-gate"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:engine/forecastbench/ensemble.py",
+      "type": "file",
+      "name": "ensemble.py",
+      "filePath": "engine/forecastbench/ensemble.py",
+      "summary": "ensemble.py is a code asset in the forecasting engine. It contains 10 functions.",
+      "tags": [
+        "forecasting-engine",
+        "forecasting",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/forecastbench/ensemble.py:_load",
+      "type": "function",
+      "name": "_load",
+      "filePath": "engine/forecastbench/ensemble.py",
+      "lineRange": [
+        38,
+        39
+      ],
+      "summary": "Defines _load in ensemble.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "ensemble"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/ensemble.py:_clip",
+      "type": "function",
+      "name": "_clip",
+      "filePath": "engine/forecastbench/ensemble.py",
+      "lineRange": [
+        42,
+        43
+      ],
+      "summary": "Defines _clip in ensemble.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entry-point",
+        "ensemble"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/ensemble.py:_logit",
+      "type": "function",
+      "name": "_logit",
+      "filePath": "engine/forecastbench/ensemble.py",
+      "lineRange": [
+        46,
+        48
+      ],
+      "summary": "Defines _logit in ensemble.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "ensemble"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/ensemble.py:_sigmoid",
+      "type": "function",
+      "name": "_sigmoid",
+      "filePath": "engine/forecastbench/ensemble.py",
+      "lineRange": [
+        51,
+        52
+      ],
+      "summary": "Defines _sigmoid in ensemble.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "ensemble"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/ensemble.py:brier",
+      "type": "function",
+      "name": "brier",
+      "filePath": "engine/forecastbench/ensemble.py",
+      "lineRange": [
+        55,
+        56
+      ],
+      "summary": "Defines brier in ensemble.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "ensemble"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/ensemble.py:auc",
+      "type": "function",
+      "name": "auc",
+      "filePath": "engine/forecastbench/ensemble.py",
+      "lineRange": [
+        59,
+        65
+      ],
+      "summary": "Defines auc in ensemble.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "ensemble"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/ensemble.py:corr",
+      "type": "function",
+      "name": "corr",
+      "filePath": "engine/forecastbench/ensemble.py",
+      "lineRange": [
+        68,
+        79
+      ],
+      "summary": "Defines corr in ensemble.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "ensemble"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/ensemble.py:_simplex",
+      "type": "function",
+      "name": "_simplex",
+      "filePath": "engine/forecastbench/ensemble.py",
+      "lineRange": [
+        82,
+        93
+      ],
+      "summary": "Defines _simplex in ensemble.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "ensemble"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/ensemble.py:best_linear_blend",
+      "type": "function",
+      "name": "best_linear_blend",
+      "filePath": "engine/forecastbench/ensemble.py",
+      "lineRange": [
+        96,
+        119
+      ],
+      "summary": "Defines best_linear_blend in ensemble.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "ensemble"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/ensemble.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "engine/forecastbench/ensemble.py",
+      "lineRange": [
+        122,
+        230
+      ],
+      "summary": "Defines main in ensemble.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entry-point",
+        "ensemble"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:engine/forecastbench/inference.py",
+      "type": "file",
+      "name": "inference.py",
+      "filePath": "engine/forecastbench/inference.py",
+      "summary": "inference.py is a code asset in the forecasting engine. It contains 22 functions, 6 internal imports.",
+      "tags": [
+        "forecasting-engine",
+        "forecasting",
+        "code"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:engine/forecastbench/inference.py:_slug",
+      "type": "function",
+      "name": "_slug",
+      "filePath": "engine/forecastbench/inference.py",
+      "lineRange": [
+        75,
+        76
+      ],
+      "summary": "Defines _slug in inference.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "inference"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/inference.py:_pick_proxy",
+      "type": "function",
+      "name": "_pick_proxy",
+      "filePath": "engine/forecastbench/inference.py",
+      "lineRange": [
+        79,
+        86
+      ],
+      "summary": "Defines _pick_proxy in inference.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "inference"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/inference.py:pool_logodds",
+      "type": "function",
+      "name": "pool_logodds",
+      "filePath": "engine/forecastbench/inference.py",
+      "lineRange": [
+        89,
+        100
+      ],
+      "summary": "Defines pool_logodds in inference.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "inference"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/inference.py:_data_block",
+      "type": "function",
+      "name": "_data_block",
+      "filePath": "engine/forecastbench/inference.py",
+      "lineRange": [
+        103,
+        131
+      ],
+      "summary": "Defines _data_block in inference.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "inference"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/inference.py:_qset_prompt",
+      "type": "function",
+      "name": "_qset_prompt",
+      "filePath": "engine/forecastbench/inference.py",
+      "lineRange": [
+        134,
+        135
+      ],
+      "summary": "Defines _qset_prompt in inference.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "inference"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/inference.py:_qset_prompt_with_metadata",
+      "type": "function",
+      "name": "_qset_prompt_with_metadata",
+      "filePath": "engine/forecastbench/inference.py",
+      "lineRange": [
+        138,
+        173
+      ],
+      "summary": "Defines _qset_prompt_with_metadata in inference.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "inference"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/inference.py:_world_state_enabled",
+      "type": "function",
+      "name": "_world_state_enabled",
+      "filePath": "engine/forecastbench/inference.py",
+      "lineRange": [
+        176,
+        178
+      ],
+      "summary": "Defines _world_state_enabled in inference.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "inference"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/inference.py:_world_state_proof_enabled",
+      "type": "function",
+      "name": "_world_state_proof_enabled",
+      "filePath": "engine/forecastbench/inference.py",
+      "lineRange": [
+        181,
+        185
+      ],
+      "summary": "Defines _world_state_proof_enabled in inference.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "inference"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/inference.py:_world_state_metadata_from_pack",
+      "type": "function",
+      "name": "_world_state_metadata_from_pack",
+      "filePath": "engine/forecastbench/inference.py",
+      "lineRange": [
+        188,
+        221
+      ],
+      "summary": "Defines _world_state_metadata_from_pack in inference.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "inference"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/inference.py:_world_state_metadata_from_proof",
+      "type": "function",
+      "name": "_world_state_metadata_from_proof",
+      "filePath": "engine/forecastbench/inference.py",
+      "lineRange": [
+        224,
+        227
+      ],
+      "summary": "Defines _world_state_metadata_from_proof in inference.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "inference"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/inference.py:_world_state_context",
+      "type": "function",
+      "name": "_world_state_context",
+      "filePath": "engine/forecastbench/inference.py",
+      "lineRange": [
+        230,
+        256
+      ],
+      "summary": "Defines _world_state_context in inference.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "inference"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/inference.py:_world_state_block",
+      "type": "function",
+      "name": "_world_state_block",
+      "filePath": "engine/forecastbench/inference.py",
+      "lineRange": [
+        259,
+        260
+      ],
+      "summary": "Defines _world_state_block in inference.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "inference"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/inference.py:sample_one",
+      "type": "function",
+      "name": "sample_one",
+      "filePath": "engine/forecastbench/inference.py",
+      "lineRange": [
+        263,
+        291
+      ],
+      "summary": "Defines sample_one in inference.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "inference"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/inference.py:run",
+      "type": "function",
+      "name": "run",
+      "filePath": "engine/forecastbench/inference.py",
+      "lineRange": [
+        294,
+        317
+      ],
+      "summary": "Defines run in inference.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entry-point",
+        "inference"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/inference.py:_keyable",
+      "type": "function",
+      "name": "_keyable",
+      "filePath": "engine/forecastbench/inference.py",
+      "lineRange": [
+        320,
+        323
+      ],
+      "summary": "Defines _keyable in inference.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "inference"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/inference.py:_read_pred",
+      "type": "function",
+      "name": "_read_pred",
+      "filePath": "engine/forecastbench/inference.py",
+      "lineRange": [
+        326,
+        340
+      ],
+      "summary": "Defines _read_pred in inference.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "inference"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/inference.py:_world_state_sidecar_path",
+      "type": "function",
+      "name": "_world_state_sidecar_path",
+      "filePath": "engine/forecastbench/inference.py",
+      "lineRange": [
+        343,
+        344
+      ],
+      "summary": "Defines _world_state_sidecar_path in inference.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "inference"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/inference.py:_read_world_state_metadata",
+      "type": "function",
+      "name": "_read_world_state_metadata",
+      "filePath": "engine/forecastbench/inference.py",
+      "lineRange": [
+        347,
+        360
+      ],
+      "summary": "Defines _read_world_state_metadata in inference.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "inference"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/inference.py:_world_state_sidecar_row",
+      "type": "function",
+      "name": "_world_state_sidecar_row",
+      "filePath": "engine/forecastbench/inference.py",
+      "lineRange": [
+        363,
+        377
+      ],
+      "summary": "Defines _world_state_sidecar_row in inference.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "inference"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/inference.py:_write_world_state_metadata",
+      "type": "function",
+      "name": "_write_world_state_metadata",
+      "filePath": "engine/forecastbench/inference.py",
+      "lineRange": [
+        380,
+        401
+      ],
+      "summary": "Defines _write_world_state_metadata in inference.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "inference"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/inference.py:_write_preds",
+      "type": "function",
+      "name": "_write_preds",
+      "filePath": "engine/forecastbench/inference.py",
+      "lineRange": [
+        404,
+        425
+      ],
+      "summary": "Defines _write_preds in inference.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "inference"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/forecastbench/inference.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "engine/forecastbench/inference.py",
+      "lineRange": [
+        428,
+        508
+      ],
+      "summary": "Defines main in inference.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entry-point",
+        "inference"
+      ],
+      "complexity": "moderate"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:engine/forecastbench/distill.py",
+      "target": "function:engine/forecastbench/distill.py:_prompt",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/distill.py",
+      "target": "function:engine/forecastbench/distill.py:_prompt",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/distill.py",
+      "target": "function:engine/forecastbench/distill.py:_parse_prob",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/distill.py",
+      "target": "function:engine/forecastbench/distill.py:_parse_prob",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/distill.py",
+      "target": "function:engine/forecastbench/distill.py:measure",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/distill.py",
+      "target": "function:engine/forecastbench/distill.py:measure",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/edge_dataset.py",
+      "target": "function:engine/forecastbench/edge_dataset.py:_get",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/edge_dataset.py",
+      "target": "function:engine/forecastbench/edge_dataset.py:_get",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/edge_dataset.py",
+      "target": "function:engine/forecastbench/edge_dataset.py:_all_bets",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/edge_dataset.py",
+      "target": "function:engine/forecastbench/edge_dataset.py:_all_bets",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/edge_dataset.py",
+      "target": "function:engine/forecastbench/edge_dataset.py:crowd_prob_at_T",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/edge_dataset.py",
+      "target": "function:engine/forecastbench/edge_dataset.py:crowd_prob_at_T",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/edge_dataset.py",
+      "target": "function:engine/forecastbench/edge_dataset.py:keywords",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/edge_dataset.py",
+      "target": "function:engine/forecastbench/edge_dataset.py:keywords",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/edge_dataset.py",
+      "target": "function:engine/forecastbench/edge_dataset.py:_yearly_paper_counts",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/edge_dataset.py",
+      "target": "function:engine/forecastbench/edge_dataset.py:_yearly_paper_counts",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/edge_dataset.py",
+      "target": "function:engine/forecastbench/edge_dataset.py:_total_by_year",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/edge_dataset.py",
+      "target": "function:engine/forecastbench/edge_dataset.py:_total_by_year",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/edge_dataset.py",
+      "target": "function:engine/forecastbench/edge_dataset.py:_surprise_sigma",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/edge_dataset.py",
+      "target": "function:engine/forecastbench/edge_dataset.py:_surprise_sigma",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/edge_dataset.py",
+      "target": "function:engine/forecastbench/edge_dataset.py:research_velocity",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/edge_dataset.py",
+      "target": "function:engine/forecastbench/edge_dataset.py:research_velocity",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/edge_dataset.py",
+      "target": "function:engine/forecastbench/edge_dataset.py:is_scitech",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/edge_dataset.py",
+      "target": "function:engine/forecastbench/edge_dataset.py:is_scitech",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/edge_dataset.py",
+      "target": "function:engine/forecastbench/edge_dataset.py:cutoff",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/edge_dataset.py",
+      "target": "function:engine/forecastbench/edge_dataset.py:cutoff",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/edge_dataset.py",
+      "target": "function:engine/forecastbench/edge_dataset.py:build_row",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/edge_dataset.py",
+      "target": "function:engine/forecastbench/edge_dataset.py:build_row",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/edge_dataset.py",
+      "target": "function:engine/forecastbench/edge_dataset.py:build",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/edge_dataset.py",
+      "target": "function:engine/forecastbench/edge_dataset.py:build",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/edge_dataset.py",
+      "target": "function:engine/forecastbench/edge_dataset.py:_brier",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/edge_dataset.py",
+      "target": "function:engine/forecastbench/edge_dataset.py:_brier",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/edge_dataset.py",
+      "target": "function:engine/forecastbench/edge_dataset.py:_report",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/edge_dataset.py",
+      "target": "function:engine/forecastbench/edge_dataset.py:_report",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/edge_gate.py",
+      "target": "function:engine/forecastbench/edge_gate.py:parse_prob",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/edge_gate.py",
+      "target": "function:engine/forecastbench/edge_gate.py:parse_prob",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/edge_gate.py",
+      "target": "function:engine/forecastbench/edge_gate.py:_feat_block",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/edge_gate.py",
+      "target": "function:engine/forecastbench/edge_gate.py:_feat_block",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/edge_gate.py",
+      "target": "function:engine/forecastbench/edge_gate.py:_ask",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/edge_gate.py",
+      "target": "function:engine/forecastbench/edge_gate.py:_ask",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/edge_gate.py",
+      "target": "function:engine/forecastbench/edge_gate.py:run",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/edge_gate.py",
+      "target": "function:engine/forecastbench/edge_gate.py:run",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/edge_gate.py",
+      "target": "function:engine/forecastbench/edge_gate.py:_brier",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/edge_gate.py",
+      "target": "function:engine/forecastbench/edge_gate.py:_brier",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/edge_gate.py",
+      "target": "function:engine/forecastbench/edge_gate.py:_report",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/edge_gate.py",
+      "target": "function:engine/forecastbench/edge_gate.py:_report",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/ensemble.py",
+      "target": "function:engine/forecastbench/ensemble.py:_load",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/ensemble.py",
+      "target": "function:engine/forecastbench/ensemble.py:_load",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/ensemble.py",
+      "target": "function:engine/forecastbench/ensemble.py:_clip",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/ensemble.py",
+      "target": "function:engine/forecastbench/ensemble.py:_clip",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/ensemble.py",
+      "target": "function:engine/forecastbench/ensemble.py:_logit",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/ensemble.py",
+      "target": "function:engine/forecastbench/ensemble.py:_logit",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/ensemble.py",
+      "target": "function:engine/forecastbench/ensemble.py:_sigmoid",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/ensemble.py",
+      "target": "function:engine/forecastbench/ensemble.py:_sigmoid",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/ensemble.py",
+      "target": "function:engine/forecastbench/ensemble.py:brier",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/ensemble.py",
+      "target": "function:engine/forecastbench/ensemble.py:brier",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/ensemble.py",
+      "target": "function:engine/forecastbench/ensemble.py:auc",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/ensemble.py",
+      "target": "function:engine/forecastbench/ensemble.py:auc",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/ensemble.py",
+      "target": "function:engine/forecastbench/ensemble.py:corr",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/ensemble.py",
+      "target": "function:engine/forecastbench/ensemble.py:corr",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/ensemble.py",
+      "target": "function:engine/forecastbench/ensemble.py:_simplex",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/ensemble.py",
+      "target": "function:engine/forecastbench/ensemble.py:_simplex",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/ensemble.py",
+      "target": "function:engine/forecastbench/ensemble.py:best_linear_blend",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/ensemble.py",
+      "target": "function:engine/forecastbench/ensemble.py:best_linear_blend",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/ensemble.py",
+      "target": "function:engine/forecastbench/ensemble.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/ensemble.py",
+      "target": "function:engine/forecastbench/ensemble.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/inference.py",
+      "target": "function:engine/forecastbench/inference.py:_slug",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/inference.py",
+      "target": "function:engine/forecastbench/inference.py:_slug",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/inference.py",
+      "target": "function:engine/forecastbench/inference.py:_pick_proxy",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/inference.py",
+      "target": "function:engine/forecastbench/inference.py:_pick_proxy",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/inference.py",
+      "target": "function:engine/forecastbench/inference.py:pool_logodds",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/inference.py",
+      "target": "function:engine/forecastbench/inference.py:pool_logodds",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/inference.py",
+      "target": "function:engine/forecastbench/inference.py:_data_block",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/inference.py",
+      "target": "function:engine/forecastbench/inference.py:_data_block",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/inference.py",
+      "target": "function:engine/forecastbench/inference.py:_qset_prompt",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/inference.py",
+      "target": "function:engine/forecastbench/inference.py:_qset_prompt",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/inference.py",
+      "target": "function:engine/forecastbench/inference.py:_qset_prompt_with_metadata",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/inference.py",
+      "target": "function:engine/forecastbench/inference.py:_qset_prompt_with_metadata",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/inference.py",
+      "target": "function:engine/forecastbench/inference.py:_world_state_enabled",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/inference.py",
+      "target": "function:engine/forecastbench/inference.py:_world_state_enabled",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/inference.py",
+      "target": "function:engine/forecastbench/inference.py:_world_state_proof_enabled",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/inference.py",
+      "target": "function:engine/forecastbench/inference.py:_world_state_proof_enabled",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/inference.py",
+      "target": "function:engine/forecastbench/inference.py:_world_state_metadata_from_pack",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/inference.py",
+      "target": "function:engine/forecastbench/inference.py:_world_state_metadata_from_pack",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/inference.py",
+      "target": "function:engine/forecastbench/inference.py:_world_state_metadata_from_proof",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/inference.py",
+      "target": "function:engine/forecastbench/inference.py:_world_state_metadata_from_proof",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/inference.py",
+      "target": "function:engine/forecastbench/inference.py:_world_state_context",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/inference.py",
+      "target": "function:engine/forecastbench/inference.py:_world_state_context",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/inference.py",
+      "target": "function:engine/forecastbench/inference.py:_world_state_block",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/inference.py",
+      "target": "function:engine/forecastbench/inference.py:_world_state_block",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/inference.py",
+      "target": "function:engine/forecastbench/inference.py:sample_one",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/inference.py",
+      "target": "function:engine/forecastbench/inference.py:sample_one",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/inference.py",
+      "target": "function:engine/forecastbench/inference.py:run",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/inference.py",
+      "target": "function:engine/forecastbench/inference.py:run",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/inference.py",
+      "target": "function:engine/forecastbench/inference.py:_keyable",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/inference.py",
+      "target": "function:engine/forecastbench/inference.py:_keyable",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/inference.py",
+      "target": "function:engine/forecastbench/inference.py:_read_pred",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/inference.py",
+      "target": "function:engine/forecastbench/inference.py:_read_pred",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/inference.py",
+      "target": "function:engine/forecastbench/inference.py:_world_state_sidecar_path",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/inference.py",
+      "target": "function:engine/forecastbench/inference.py:_world_state_sidecar_path",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/inference.py",
+      "target": "function:engine/forecastbench/inference.py:_read_world_state_metadata",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/inference.py",
+      "target": "function:engine/forecastbench/inference.py:_read_world_state_metadata",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/inference.py",
+      "target": "function:engine/forecastbench/inference.py:_world_state_sidecar_row",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/inference.py",
+      "target": "function:engine/forecastbench/inference.py:_world_state_sidecar_row",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/inference.py",
+      "target": "function:engine/forecastbench/inference.py:_write_world_state_metadata",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/inference.py",
+      "target": "function:engine/forecastbench/inference.py:_write_world_state_metadata",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/inference.py",
+      "target": "function:engine/forecastbench/inference.py:_write_preds",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/inference.py",
+      "target": "function:engine/forecastbench/inference.py:_write_preds",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/inference.py",
+      "target": "function:engine/forecastbench/inference.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/forecastbench/inference.py",
+      "target": "function:engine/forecastbench/inference.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/distill.py",
+      "target": "file:engine/__init__.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/forecastbench/distill.py",
+      "target": "file:engine/adapters/__init__.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/forecastbench/distill.py",
+      "target": "file:engine/adapters/llm.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/forecastbench/distill.py",
+      "target": "file:engine/cost.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/forecastbench/distill.py",
+      "target": "file:engine/db.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/forecastbench/edge_dataset.py",
+      "target": "file:engine/db.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/forecastbench/edge_dataset.py",
+      "target": "file:engine/metaculus/qbank.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/forecastbench/edge_gate.py",
+      "target": "file:engine/adapters/__init__.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/forecastbench/edge_gate.py",
+      "target": "file:engine/adapters/llm.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/forecastbench/edge_gate.py",
+      "target": "file:engine/db.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/forecastbench/edge_gate.py",
+      "target": "file:engine/forecastbench/edge_dataset.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/forecastbench/inference.py",
+      "target": "file:engine/__init__.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/forecastbench/inference.py",
+      "target": "file:engine/adapters/__init__.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/forecastbench/inference.py",
+      "target": "file:engine/adapters/llm.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/forecastbench/inference.py",
+      "target": "file:engine/db.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/forecastbench/inference.py",
+      "target": "file:engine/forecastbench/ensemble.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/forecastbench/inference.py",
+      "target": "file:engine/forecastbench/traces.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "function:engine/forecastbench/distill.py:measure",
+      "target": "function:engine/forecastbench/distill.py:_prompt",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/distill.py:measure",
+      "target": "function:engine/forecastbench/distill.py:_parse_prob",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/edge_dataset.py:_all_bets",
+      "target": "function:engine/forecastbench/edge_dataset.py:_get",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/edge_dataset.py:crowd_prob_at_T",
+      "target": "function:engine/forecastbench/edge_dataset.py:_all_bets",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/edge_dataset.py:research_velocity",
+      "target": "function:engine/forecastbench/edge_dataset.py:keywords",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/edge_dataset.py:research_velocity",
+      "target": "function:engine/forecastbench/edge_dataset.py:_yearly_paper_counts",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/edge_dataset.py:research_velocity",
+      "target": "function:engine/forecastbench/edge_dataset.py:_total_by_year",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/edge_dataset.py:research_velocity",
+      "target": "function:engine/forecastbench/edge_dataset.py:_surprise_sigma",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/edge_dataset.py:build_row",
+      "target": "function:engine/forecastbench/edge_dataset.py:cutoff",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/edge_dataset.py:build_row",
+      "target": "function:engine/forecastbench/edge_dataset.py:crowd_prob_at_T",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/edge_dataset.py:build_row",
+      "target": "function:engine/forecastbench/edge_dataset.py:research_velocity",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/edge_dataset.py:build",
+      "target": "function:engine/forecastbench/edge_dataset.py:is_scitech",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/edge_dataset.py:build",
+      "target": "function:engine/db.py:connect",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/edge_dataset.py:build",
+      "target": "function:engine/forecastbench/edge_dataset.py:build_row",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/edge_dataset.py:build",
+      "target": "function:engine/forecastbench/edge_dataset.py:_report",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/edge_dataset.py:_report",
+      "target": "function:engine/forecastbench/edge_dataset.py:_brier",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/edge_gate.py:_ask",
+      "target": "function:engine/forecastbench/edge_gate.py:_feat_block",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/edge_gate.py:_ask",
+      "target": "function:engine/forecastbench/edge_gate.py:parse_prob",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/edge_gate.py:run",
+      "target": "function:engine/db.py:connect",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/edge_gate.py:run",
+      "target": "function:engine/forecastbench/edge_gate.py:_ask",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/edge_gate.py:run",
+      "target": "function:engine/forecastbench/edge_gate.py:_report",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/edge_gate.py:_report",
+      "target": "function:engine/forecastbench/edge_gate.py:_brier",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/ensemble.py:_logit",
+      "target": "function:engine/forecastbench/ensemble.py:_clip",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/ensemble.py:best_linear_blend",
+      "target": "function:engine/forecastbench/ensemble.py:_simplex",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/ensemble.py:main",
+      "target": "function:engine/forecastbench/ensemble.py:_clip",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/ensemble.py:main",
+      "target": "function:engine/forecastbench/ensemble.py:_load",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/ensemble.py:main",
+      "target": "function:engine/forecastbench/ensemble.py:auc",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/ensemble.py:main",
+      "target": "function:engine/forecastbench/ensemble.py:brier",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/ensemble.py:main",
+      "target": "function:engine/forecastbench/ensemble.py:corr",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/ensemble.py:main",
+      "target": "function:engine/forecastbench/ensemble.py:_sigmoid",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/ensemble.py:main",
+      "target": "function:engine/forecastbench/ensemble.py:_logit",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/ensemble.py",
+      "target": "function:engine/forecastbench/ensemble.py:_sigmoid",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/forecastbench/ensemble.py",
+      "target": "function:engine/forecastbench/ensemble.py:_logit",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/ensemble.py:main",
+      "target": "function:engine/forecastbench/ensemble.py:best_linear_blend",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/inference.py:pool_logodds",
+      "target": "function:engine/forecastbench/ensemble.py:_logit",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/inference.py:pool_logodds",
+      "target": "function:engine/forecastbench/ensemble.py:_sigmoid",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/inference.py:_qset_prompt",
+      "target": "function:engine/forecastbench/inference.py:_qset_prompt_with_metadata",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/inference.py:_qset_prompt_with_metadata",
+      "target": "function:engine/forecastbench/inference.py:_data_block",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/inference.py:_qset_prompt_with_metadata",
+      "target": "function:engine/forecastbench/inference.py:_world_state_enabled",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/inference.py:_qset_prompt_with_metadata",
+      "target": "function:engine/forecastbench/inference.py:_world_state_context",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/inference.py:_world_state_enabled",
+      "target": "function:engine/forecastbench/inference.py:_world_state_proof_enabled",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/inference.py:_world_state_metadata_from_proof",
+      "target": "function:engine/forecastbench/inference.py:_world_state_metadata_from_pack",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/inference.py:_world_state_context",
+      "target": "function:engine/forecastbench/inference.py:_world_state_proof_enabled",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/inference.py:_world_state_context",
+      "target": "function:engine/forecastbench/inference.py:_world_state_metadata_from_proof",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/inference.py:_world_state_context",
+      "target": "function:engine/forecastbench/inference.py:_world_state_metadata_from_pack",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/inference.py:_world_state_block",
+      "target": "function:engine/forecastbench/inference.py:_world_state_context",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/inference.py:sample_one",
+      "target": "function:engine/forecastbench/traces.py:_resolve_proxy",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/inference.py:sample_one",
+      "target": "function:engine/forecastbench/inference.py:_pick_proxy",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/inference.py:sample_one",
+      "target": "function:engine/forecastbench/traces.py:_parse_p",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/inference.py:run",
+      "target": "function:engine/forecastbench/inference.py:_slug",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/inference.py:run",
+      "target": "function:engine/forecastbench/inference.py:_keyable",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/inference.py:run",
+      "target": "function:engine/forecastbench/inference.py:pool_logodds",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/inference.py:_read_world_state_metadata",
+      "target": "function:engine/forecastbench/inference.py:_keyable",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/inference.py:_world_state_sidecar_row",
+      "target": "function:engine/forecastbench/inference.py:_keyable",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/inference.py:_write_world_state_metadata",
+      "target": "function:engine/forecastbench/inference.py:_world_state_sidecar_path",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/inference.py:_write_world_state_metadata",
+      "target": "function:engine/forecastbench/inference.py:_read_world_state_metadata",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/inference.py:_write_world_state_metadata",
+      "target": "function:engine/forecastbench/inference.py:_keyable",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/inference.py:_write_world_state_metadata",
+      "target": "function:engine/forecastbench/inference.py:_world_state_sidecar_row",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/inference.py:_write_preds",
+      "target": "function:engine/forecastbench/inference.py:_read_pred",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/inference.py:main",
+      "target": "function:engine/forecastbench/inference.py:_qset_prompt_with_metadata",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/inference.py:main",
+      "target": "function:engine/forecastbench/inference.py:_read_pred",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/inference.py:main",
+      "target": "function:engine/forecastbench/inference.py:_keyable",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/inference.py:main",
+      "target": "function:engine/forecastbench/traces.py:_user",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/inference.py:main",
+      "target": "function:engine/forecastbench/inference.py:run",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/inference.py:main",
+      "target": "function:engine/forecastbench/inference.py:_write_preds",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/forecastbench/inference.py:main",
+      "target": "function:engine/forecastbench/inference.py:_write_world_state_metadata",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+  "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.vaticinus.forecastbench.rescue</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/bin/zsh</string>
+    <string>-l</string>
+    <string>-c</string>
+    <string>FORECASTBENCH_DUE=2026-06-21 FORECASTBENCH_USE_OPUS=0 FORECASTBENCH_USE_LLM_FILL=0 FORECASTBENCH_FETCH_TRIES=20 FORECASTBENCH_FETCH_SLEEP=30 /Users/emizemani/.forecastbench-runtime/data/metaculus/run_forecastbench.sh &gt;&gt; /tmp/forecastbench_rescue.log 2&gt;&amp;1</string>
+  </array>
+  <key>RunAtLoad</key>
+  <false/>
+  <key>StartCalendarInterval</key>
+  <array>
+    <dict>
+      <key>Weekday</key>
+      <integer>1</integer>
+      <key>Hour</key>
+      <integer>1</integer>
+      <key>Minute</key>
+      <integer>0</integer>
+    </dict>
+    <dict>
+      <key>Weekday</key>
+      <integer>1</integer>
+      <key>Hour</key>
+      <integer>1</integer>
+      <key>Minute</key>
+      <integer>30</integer>
+    </dict>
+    <dict>
+      <key>Weekday</key>
+      <integer>1</integer>
+      <key>Hour</key>
+      <integer>1</integer>
+      <key>Minute</key>
+      <integer>50</integer>
+    </dict>
+  </array>
+  <key>StandardOutPath</key>
+  <string>/tmp/forecastbench_rescue_launchd.log</string>
+  <key>StandardErrorPath</key>
+  <string>/tmp/forecastbench_rescue_launchd.err</string>
+</dict>
+</plist>

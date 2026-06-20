@@ -1,0 +1,14 @@
+# Secrets for `pnpm preview` (local Cloudflare Worker via wrangler).
+# Copy to .dev.vars (gitignored). In production use `wrangler secret put` instead.
+DATABASE_URL="postgresql://USER:PASSWORD@HOST/neondb?sslmode=require"
+DEEPSEEK_API_KEY=""
+# Clerk auth (set both to enable sign-in; secret key gates the API routes):
+# NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY="pk_test_..."
+# CLERK_SECRET_KEY="sk_test_..."
+# Stripe (credit packs):
+# STRIPE_SECRET_KEY="sk_test_..."
+# STRIPE_WEBHOOK_SECRET="whsec_..."
+# VATI_PUBLIC_ORIGIN="https://chat.vaticinus.com"
+
+# Cloudflare security:
+# Keep workers_dev=false in wrangler.jsonc so traffic stays on chat.vaticinus.com.

@@ -1,0 +1,34 @@
+id,label,status,count,note
+node_kind_domain,Node kind: domain,covered,1,1 node(s)
+node_kind_thesis,Node kind: thesis,covered,6,6 node(s)
+node_kind_constraint,Node kind: constraint,covered,18,18 node(s)
+node_kind_forecast_clause,Node kind: forecast_clause,covered,6,6 node(s)
+node_kind_metric,Node kind: metric,covered,6,6 node(s)
+node_kind_kill_condition,Node kind: kill_condition,covered,6,6 node(s)
+node_kind_observable,Node kind: observable,covered,6,6 node(s)
+node_kind_buyer_segment,Node kind: buyer_segment,covered,6,6 node(s)
+node_kind_action,Node kind: action,covered,18,18 node(s)
+node_kind_price_channel,Node kind: price_channel,covered,12,12 node(s)
+node_kind_winner,Node kind: winner,covered,18,18 node(s)
+node_kind_loser,Node kind: loser,covered,12,12 node(s)
+node_kind_source,Node kind: source,covered,1,1 node(s)
+edge_rel_identifies_constraint,Edge relation: identifies_constraint,covered,1,Relation exists.
+edge_rel_resolved_by,Edge relation: resolved_by,covered,1,Relation exists.
+edge_rel_falsified_by,Edge relation: falsified_by,covered,1,Relation exists.
+edge_rel_priced_through,Edge relation: priced_through,covered,1,Relation exists.
+edge_rel_watched_by,Edge relation: watched_by,covered,1,Relation exists.
+layer_frontier,Frontier,covered,,Layer has at least one proxy in the atlas.
+layer_capability,Capability,covered,,Layer has at least one proxy in the atlas.
+layer_dependency,Dependency graph,covered,,Layer has at least one proxy in the atlas.
+layer_supply,Supply elasticity,covered,,Layer has at least one proxy in the atlas.
+layer_demand,Demand,covered,,Layer has at least one proxy in the atlas.
+layer_capital,Capital,covered,,Layer has at least one proxy in the atlas.
+layer_pricing,Pricing,covered,,Layer has at least one proxy in the atlas.
+layer_policy,Policy and geopolitics,covered,,Layer has at least one proxy in the atlas.
+layer_outcome,Outcome,covered,,Layer has at least one proxy in the atlas.
+layer_forces,Forces,covered,,Layer has at least one proxy in the atlas.
+verification_source_pack,Primary source packs,gap,6,6 open task(s) remain.
+verification_substitute_path,Substitute and refute paths,gap,6,6 open task(s) remain.
+verification_scenario_branch,Scenario branches,gap,6,6 open task(s) remain.
+verification_entity_resolution,Canonical entity resolution,gap,6,6 open task(s) remain.
+verification_source_verified_nodes,Source-verified decision-grade nodes,gap,0,No decision-grade source-verified nodes yet.

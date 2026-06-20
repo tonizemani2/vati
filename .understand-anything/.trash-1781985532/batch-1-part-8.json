@@ -1,0 +1,188 @@
+{
+  "nodes": [
+    {
+      "id": "file:tests/test_chat_bridge.py",
+      "type": "file",
+      "name": "test_chat_bridge.py",
+      "filePath": "tests/test_chat_bridge.py",
+      "summary": "test_chat_bridge.py is a code asset in the repository. It contains 1 class, 3 internal imports.",
+      "tags": [
+        "test",
+        "verification",
+        "chat",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:tests/test_chat_bridge.py:ChatBridgeWorldStateProofTests",
+      "type": "class",
+      "name": "ChatBridgeWorldStateProofTests",
+      "filePath": "tests/test_chat_bridge.py",
+      "lineRange": [
+        12,
+        198
+      ],
+      "summary": "Defines ChatBridgeWorldStateProofTests in test_chat_bridge.py, encapsulating reusable behavior or state for this module.",
+      "tags": [
+        "class",
+        "implementation",
+        "test-chat-bridge"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:tests/test_collect_all.py",
+      "type": "file",
+      "name": "test_collect_all.py",
+      "filePath": "tests/test_collect_all.py",
+      "summary": "test_collect_all.py is a code asset in the repository. It contains 1 class, 2 internal imports.",
+      "tags": [
+        "test",
+        "verification",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:tests/test_collect_all.py:CollectAllSafetyTests",
+      "type": "class",
+      "name": "CollectAllSafetyTests",
+      "filePath": "tests/test_collect_all.py",
+      "lineRange": [
+        17,
+        112
+      ],
+      "summary": "Defines CollectAllSafetyTests in test_collect_all.py, encapsulating reusable behavior or state for this module.",
+      "tags": [
+        "class",
+        "implementation",
+        "test-collect-all"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:tests/test_data_offload.py",
+      "type": "file",
+      "name": "test_data_offload.py",
+      "filePath": "tests/test_data_offload.py",
+      "summary": "test_data_offload.py is a code asset in the repository. It contains 1 class, 2 internal imports.",
+      "tags": [
+        "test",
+        "verification",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:tests/test_data_offload.py:DataOffloadTests",
+      "type": "class",
+      "name": "DataOffloadTests",
+      "filePath": "tests/test_data_offload.py",
+      "lineRange": [
+        11,
+        175
+      ],
+      "summary": "Defines DataOffloadTests in test_data_offload.py, encapsulating reusable behavior or state for this module.",
+      "tags": [
+        "class",
+        "implementation",
+        "test-data-offload"
+      ],
+      "complexity": "moderate"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:tests/test_chat_bridge.py",
+      "target": "class:tests/test_chat_bridge.py:ChatBridgeWorldStateProofTests",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:tests/test_chat_bridge.py",
+      "target": "class:tests/test_chat_bridge.py:ChatBridgeWorldStateProofTests",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:tests/test_collect_all.py",
+      "target": "class:tests/test_collect_all.py:CollectAllSafetyTests",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:tests/test_collect_all.py",
+      "target": "class:tests/test_collect_all.py:CollectAllSafetyTests",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:tests/test_data_offload.py",
+      "target": "class:tests/test_data_offload.py:DataOffloadTests",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:tests/test_data_offload.py",
+      "target": "class:tests/test_data_offload.py:DataOffloadTests",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:tests/test_chat_bridge.py",
+      "target": "file:engine/__init__.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/test_chat_bridge.py",
+      "target": "file:engine/chat_bridge.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/test_chat_bridge.py",
+      "target": "file:engine/world_state.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/test_collect_all.py",
+      "target": "file:engine/feeds/__init__.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/test_collect_all.py",
+      "target": "file:engine/feeds/collect_all.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/test_data_offload.py",
+      "target": "file:engine/__init__.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/test_data_offload.py",
+      "target": "file:engine/data_offload.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    }
+  ]
+}

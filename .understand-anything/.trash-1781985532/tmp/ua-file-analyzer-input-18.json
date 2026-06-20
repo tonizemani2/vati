@@ -1,0 +1,34 @@
+{
+  "projectRoot": "/Users/emizemani/Desktop/predictthefuture",
+  "batchFiles": [
+    {
+      "path": "engine/forecastbench/concept_gate.py",
+      "language": "python",
+      "sizeLines": 152,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/forecastbench/edge_gate_stat.py",
+      "language": "python",
+      "sizeLines": 142,
+      "fileCategory": "code"
+    },
+    {
+      "path": "engine/forecastbench/structural_gate.py",
+      "language": "python",
+      "sizeLines": 144,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "engine/forecastbench/concept_gate.py": [
+      "engine/detector.py",
+      "engine/forecastbench/edge_gate_stat.py"
+    ],
+    "engine/forecastbench/edge_gate_stat.py": [],
+    "engine/forecastbench/structural_gate.py": [
+      "engine/db.py",
+      "engine/forecastbench/edge_gate_stat.py"
+    ]
+  }
+}

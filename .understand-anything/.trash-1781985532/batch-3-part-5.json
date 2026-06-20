@@ -1,0 +1,2182 @@
+{
+  "nodes": [
+    {
+      "id": "file:engine/saturation.py",
+      "type": "file",
+      "name": "saturation.py",
+      "filePath": "engine/saturation.py",
+      "summary": "saturation.py is a code asset in the forecasting engine. It contains 7 functions, 3 internal imports.",
+      "tags": [
+        "forecasting-engine",
+        "code",
+        "file",
+        "saturation"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:engine/saturation.py:_domain",
+      "type": "function",
+      "name": "_domain",
+      "filePath": "engine/saturation.py",
+      "lineRange": [
+        79,
+        81
+      ],
+      "summary": "Defines _domain in saturation.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entry-point",
+        "saturation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/saturation.py:_tier",
+      "type": "function",
+      "name": "_tier",
+      "filePath": "engine/saturation.py",
+      "lineRange": [
+        84,
+        93
+      ],
+      "summary": "Defines _tier in saturation.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "saturation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/saturation.py:score_topic",
+      "type": "function",
+      "name": "score_topic",
+      "filePath": "engine/saturation.py",
+      "lineRange": [
+        96,
+        156
+      ],
+      "summary": "Defines score_topic in saturation.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "saturation"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/saturation.py:consensus_forecast",
+      "type": "function",
+      "name": "consensus_forecast",
+      "filePath": "engine/saturation.py",
+      "lineRange": [
+        159,
+        217
+      ],
+      "summary": "Defines consensus_forecast in saturation.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "saturation"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/saturation.py:_persist",
+      "type": "function",
+      "name": "_persist",
+      "filePath": "engine/saturation.py",
+      "lineRange": [
+        220,
+        229
+      ],
+      "summary": "Defines _persist in saturation.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "saturation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/saturation.py:latest_for",
+      "type": "function",
+      "name": "latest_for",
+      "filePath": "engine/saturation.py",
+      "lineRange": [
+        232,
+        243
+      ],
+      "summary": "Defines latest_for in saturation.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "saturation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/saturation.py:score_early_board",
+      "type": "function",
+      "name": "score_early_board",
+      "filePath": "engine/saturation.py",
+      "lineRange": [
+        246,
+        267
+      ],
+      "summary": "Defines score_early_board in saturation.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "saturation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:engine/signals.py",
+      "type": "file",
+      "name": "signals.py",
+      "filePath": "engine/signals.py",
+      "summary": "signals.py is a code asset in the forecasting engine. It contains 20 functions, 2 internal imports.",
+      "tags": [
+        "forecasting-engine",
+        "code",
+        "file",
+        "signals"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:engine/signals.py:_slug",
+      "type": "function",
+      "name": "_slug",
+      "filePath": "engine/signals.py",
+      "lineRange": [
+        34,
+        35
+      ],
+      "summary": "Defines _slug in signals.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "signals"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/signals.py:_tokens",
+      "type": "function",
+      "name": "_tokens",
+      "filePath": "engine/signals.py",
+      "lineRange": [
+        38,
+        40
+      ],
+      "summary": "Defines _tokens in signals.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "signals"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/signals.py:_tokset",
+      "type": "function",
+      "name": "_tokset",
+      "filePath": "engine/signals.py",
+      "lineRange": [
+        43,
+        47
+      ],
+      "summary": "Defines _tokset in signals.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "signals"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/signals.py:_fmt",
+      "type": "function",
+      "name": "_fmt",
+      "filePath": "engine/signals.py",
+      "lineRange": [
+        50,
+        59
+      ],
+      "summary": "Defines _fmt in signals.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "signals"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/signals.py:_trend",
+      "type": "function",
+      "name": "_trend",
+      "filePath": "engine/signals.py",
+      "lineRange": [
+        62,
+        78
+      ],
+      "summary": "Defines _trend in signals.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "signals"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/signals.py:_metric_rank",
+      "type": "function",
+      "name": "_metric_rank",
+      "filePath": "engine/signals.py",
+      "lineRange": [
+        126,
+        133
+      ],
+      "summary": "Defines _metric_rank in signals.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "signals"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/signals.py:_match_series",
+      "type": "function",
+      "name": "_match_series",
+      "filePath": "engine/signals.py",
+      "lineRange": [
+        149,
+        194
+      ],
+      "summary": "Defines _match_series in signals.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "signals"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/signals.py:_match_patents",
+      "type": "function",
+      "name": "_match_patents",
+      "filePath": "engine/signals.py",
+      "lineRange": [
+        197,
+        224
+      ],
+      "summary": "Defines _match_patents in signals.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "signals"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/signals.py:_concept_patents",
+      "type": "function",
+      "name": "_concept_patents",
+      "filePath": "engine/signals.py",
+      "lineRange": [
+        240,
+        259
+      ],
+      "summary": "Defines _concept_patents in signals.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "signals"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/signals.py:_emergence_map",
+      "type": "function",
+      "name": "_emergence_map",
+      "filePath": "engine/signals.py",
+      "lineRange": [
+        262,
+        273
+      ],
+      "summary": "Defines _emergence_map in signals.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "signals"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/signals.py:_emerge_tag",
+      "type": "function",
+      "name": "_emerge_tag",
+      "filePath": "engine/signals.py",
+      "lineRange": [
+        276,
+        284
+      ],
+      "summary": "Defines _emerge_tag in signals.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "signals"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/signals.py:_edge_shift_map",
+      "type": "function",
+      "name": "_edge_shift_map",
+      "filePath": "engine/signals.py",
+      "lineRange": [
+        287,
+        297
+      ],
+      "summary": "Defines _edge_shift_map in signals.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "signals"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/signals.py:_shift_tag",
+      "type": "function",
+      "name": "_shift_tag",
+      "filePath": "engine/signals.py",
+      "lineRange": [
+        300,
+        308
+      ],
+      "summary": "Defines _shift_tag in signals.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "signals"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/signals.py:_match_concept_nodes",
+      "type": "function",
+      "name": "_match_concept_nodes",
+      "filePath": "engine/signals.py",
+      "lineRange": [
+        311,
+        332
+      ],
+      "summary": "Defines _match_concept_nodes in signals.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "signals"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/signals.py:dependency_neighbors",
+      "type": "function",
+      "name": "dependency_neighbors",
+      "filePath": "engine/signals.py",
+      "lineRange": [
+        335,
+        394
+      ],
+      "summary": "Defines dependency_neighbors in signals.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "signals"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/signals.py:match_entities",
+      "type": "function",
+      "name": "match_entities",
+      "filePath": "engine/signals.py",
+      "lineRange": [
+        408,
+        443
+      ],
+      "summary": "Defines match_entities in signals.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "signals"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/signals.py:format_entities",
+      "type": "function",
+      "name": "format_entities",
+      "filePath": "engine/signals.py",
+      "lineRange": [
+        446,
+        462
+      ],
+      "summary": "Defines format_entities in signals.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "signals"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/signals.py:evidence_pack",
+      "type": "function",
+      "name": "evidence_pack",
+      "filePath": "engine/signals.py",
+      "lineRange": [
+        465,
+        475
+      ],
+      "summary": "Defines evidence_pack in signals.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "signals"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/signals.py:format_pack",
+      "type": "function",
+      "name": "format_pack",
+      "filePath": "engine/signals.py",
+      "lineRange": [
+        478,
+        531
+      ],
+      "summary": "Defines format_pack in signals.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "utility",
+        "signals"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/signals.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "engine/signals.py",
+      "lineRange": [
+        534,
+        543
+      ],
+      "summary": "Defines main in signals.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entry-point",
+        "signals"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:engine/test_signals.py",
+      "type": "file",
+      "name": "test_signals.py",
+      "filePath": "engine/test_signals.py",
+      "summary": "test_signals.py is a code asset in the forecasting engine. It contains 2 functions, 1 internal import.",
+      "tags": [
+        "test",
+        "verification",
+        "forecasting-engine",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/test_signals.py:check",
+      "type": "function",
+      "name": "check",
+      "filePath": "engine/test_signals.py",
+      "lineRange": [
+        19,
+        22
+      ],
+      "summary": "Defines check in test_signals.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "test",
+        "test-signals"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/test_signals.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "engine/test_signals.py",
+      "lineRange": [
+        25,
+        78
+      ],
+      "summary": "Defines main in test_signals.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "test",
+        "entry-point",
+        "test-signals"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:engine/world_graph_deepseek.py",
+      "type": "file",
+      "name": "world_graph_deepseek.py",
+      "filePath": "engine/world_graph_deepseek.py",
+      "summary": "world_graph_deepseek.py is a code asset in the forecasting engine. It contains 19 functions, 1 class, 5 internal imports.",
+      "tags": [
+        "forecasting-engine",
+        "world-graph",
+        "graph",
+        "code"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:engine/world_graph_deepseek.py:build_run_pack",
+      "type": "function",
+      "name": "build_run_pack",
+      "filePath": "engine/world_graph_deepseek.py",
+      "lineRange": [
+        54,
+        89
+      ],
+      "summary": "Defines build_run_pack in world_graph_deepseek.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entry-point",
+        "utility",
+        "world-graph-deepseek"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_graph_deepseek.py:execute_run",
+      "type": "function",
+      "name": "execute_run",
+      "filePath": "engine/world_graph_deepseek.py",
+      "lineRange": [
+        92,
+        177
+      ],
+      "summary": "Defines execute_run in world_graph_deepseek.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entry-point",
+        "world-graph-deepseek"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/world_graph_deepseek.py:mac_stability_report",
+      "type": "function",
+      "name": "mac_stability_report",
+      "filePath": "engine/world_graph_deepseek.py",
+      "lineRange": [
+        180,
+        219
+      ],
+      "summary": "Defines mac_stability_report in world_graph_deepseek.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-graph-deepseek"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_graph_deepseek.py:plan_calls",
+      "type": "function",
+      "name": "plan_calls",
+      "filePath": "engine/world_graph_deepseek.py",
+      "lineRange": [
+        222,
+        295
+      ],
+      "summary": "Defines plan_calls in world_graph_deepseek.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-graph-deepseek"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/world_graph_deepseek.py:estimate_calls",
+      "type": "function",
+      "name": "estimate_calls",
+      "filePath": "engine/world_graph_deepseek.py",
+      "lineRange": [
+        298,
+        314
+      ],
+      "summary": "Defines estimate_calls in world_graph_deepseek.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-graph-deepseek"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_graph_deepseek.py:estimate_call",
+      "type": "function",
+      "name": "estimate_call",
+      "filePath": "engine/world_graph_deepseek.py",
+      "lineRange": [
+        317,
+        329
+      ],
+      "summary": "Defines estimate_call in world_graph_deepseek.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-graph-deepseek"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_graph_deepseek.py:render_manifest",
+      "type": "function",
+      "name": "render_manifest",
+      "filePath": "engine/world_graph_deepseek.py",
+      "lineRange": [
+        332,
+        367
+      ],
+      "summary": "Defines render_manifest in world_graph_deepseek.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-graph-deepseek"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_graph_deepseek.py:_write_pack",
+      "type": "function",
+      "name": "_write_pack",
+      "filePath": "engine/world_graph_deepseek.py",
+      "lineRange": [
+        370,
+        384
+      ],
+      "summary": "Defines _write_pack in world_graph_deepseek.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-graph-deepseek"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_graph_deepseek.py:_call_meta",
+      "type": "function",
+      "name": "_call_meta",
+      "filePath": "engine/world_graph_deepseek.py",
+      "lineRange": [
+        387,
+        399
+      ],
+      "summary": "Defines _call_meta in world_graph_deepseek.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-graph-deepseek"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_graph_deepseek.py:_agent_prompt",
+      "type": "function",
+      "name": "_agent_prompt",
+      "filePath": "engine/world_graph_deepseek.py",
+      "lineRange": [
+        402,
+        413
+      ],
+      "summary": "Defines _agent_prompt in world_graph_deepseek.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-graph-deepseek"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_graph_deepseek.py:_forecast_prompt",
+      "type": "function",
+      "name": "_forecast_prompt",
+      "filePath": "engine/world_graph_deepseek.py",
+      "lineRange": [
+        416,
+        426
+      ],
+      "summary": "Defines _forecast_prompt in world_graph_deepseek.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-graph-deepseek"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_graph_deepseek.py:_integrator_prompt",
+      "type": "function",
+      "name": "_integrator_prompt",
+      "filePath": "engine/world_graph_deepseek.py",
+      "lineRange": [
+        429,
+        438
+      ],
+      "summary": "Defines _integrator_prompt in world_graph_deepseek.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-graph-deepseek"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_graph_deepseek.py:_critic_prompt",
+      "type": "function",
+      "name": "_critic_prompt",
+      "filePath": "engine/world_graph_deepseek.py",
+      "lineRange": [
+        441,
+        449
+      ],
+      "summary": "Defines _critic_prompt in world_graph_deepseek.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-graph-deepseek"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_graph_deepseek.py:_repair_prompt",
+      "type": "function",
+      "name": "_repair_prompt",
+      "filePath": "engine/world_graph_deepseek.py",
+      "lineRange": [
+        452,
+        460
+      ],
+      "summary": "Defines _repair_prompt in world_graph_deepseek.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-graph-deepseek"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_graph_deepseek.py:_score_prompt",
+      "type": "function",
+      "name": "_score_prompt",
+      "filePath": "engine/world_graph_deepseek.py",
+      "lineRange": [
+        463,
+        471
+      ],
+      "summary": "Defines _score_prompt in world_graph_deepseek.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-graph-deepseek"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_graph_deepseek.py:_atlas_brief",
+      "type": "function",
+      "name": "_atlas_brief",
+      "filePath": "engine/world_graph_deepseek.py",
+      "lineRange": [
+        474,
+        486
+      ],
+      "summary": "Defines _atlas_brief in world_graph_deepseek.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-graph-deepseek"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_graph_deepseek.py:_tasks_for_role",
+      "type": "function",
+      "name": "_tasks_for_role",
+      "filePath": "engine/world_graph_deepseek.py",
+      "lineRange": [
+        489,
+        493
+      ],
+      "summary": "Defines _tasks_for_role in world_graph_deepseek.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-graph-deepseek"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_graph_deepseek.py:_est_tokens",
+      "type": "function",
+      "name": "_est_tokens",
+      "filePath": "engine/world_graph_deepseek.py",
+      "lineRange": [
+        496,
+        497
+      ],
+      "summary": "Defines _est_tokens in world_graph_deepseek.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-graph-deepseek"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/world_graph_deepseek.py:_now",
+      "type": "function",
+      "name": "_now",
+      "filePath": "engine/world_graph_deepseek.py",
+      "lineRange": [
+        500,
+        501
+      ],
+      "summary": "Defines _now in world_graph_deepseek.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "world-graph-deepseek"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:engine/world_graph_deepseek.py:PlannedCall",
+      "type": "class",
+      "name": "PlannedCall",
+      "filePath": "engine/world_graph_deepseek.py",
+      "lineRange": [
+        45,
+        51
+      ],
+      "summary": "Defines PlannedCall in world_graph_deepseek.py, encapsulating reusable behavior or state for this module.",
+      "tags": [
+        "class",
+        "implementation",
+        "world-graph-deepseek"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:tests/test_forecast_world_state_context.py",
+      "type": "file",
+      "name": "test_forecast_world_state_context.py",
+      "filePath": "tests/test_forecast_world_state_context.py",
+      "summary": "test_forecast_world_state_context.py is a code asset in the repository. It contains 1 class, 3 internal imports.",
+      "tags": [
+        "test",
+        "verification",
+        "forecasting",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:tests/test_forecast_world_state_context.py:ForecastWorldStateContextTests",
+      "type": "class",
+      "name": "ForecastWorldStateContextTests",
+      "filePath": "tests/test_forecast_world_state_context.py",
+      "lineRange": [
+        15,
+        180
+      ],
+      "summary": "Defines ForecastWorldStateContextTests in test_forecast_world_state_context.py, encapsulating reusable behavior or state for this module.",
+      "tags": [
+        "class",
+        "implementation",
+        "test-forecast-world-state-context"
+      ],
+      "complexity": "moderate"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:engine/saturation.py",
+      "target": "function:engine/saturation.py:_domain",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/saturation.py",
+      "target": "function:engine/saturation.py:_domain",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/saturation.py",
+      "target": "function:engine/saturation.py:_tier",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/saturation.py",
+      "target": "function:engine/saturation.py:_tier",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/saturation.py",
+      "target": "function:engine/saturation.py:score_topic",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/saturation.py",
+      "target": "function:engine/saturation.py:score_topic",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/saturation.py",
+      "target": "function:engine/saturation.py:consensus_forecast",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/saturation.py",
+      "target": "function:engine/saturation.py:consensus_forecast",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/saturation.py",
+      "target": "function:engine/saturation.py:_persist",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/saturation.py",
+      "target": "function:engine/saturation.py:_persist",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/saturation.py",
+      "target": "function:engine/saturation.py:latest_for",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/saturation.py",
+      "target": "function:engine/saturation.py:latest_for",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/saturation.py",
+      "target": "function:engine/saturation.py:score_early_board",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/saturation.py",
+      "target": "function:engine/saturation.py:score_early_board",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/signals.py",
+      "target": "function:engine/signals.py:_slug",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/signals.py",
+      "target": "function:engine/signals.py:_slug",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/signals.py",
+      "target": "function:engine/signals.py:_tokens",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/signals.py",
+      "target": "function:engine/signals.py:_tokens",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/signals.py",
+      "target": "function:engine/signals.py:_tokset",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/signals.py",
+      "target": "function:engine/signals.py:_tokset",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/signals.py",
+      "target": "function:engine/signals.py:_fmt",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/signals.py",
+      "target": "function:engine/signals.py:_fmt",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/signals.py",
+      "target": "function:engine/signals.py:_trend",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/signals.py",
+      "target": "function:engine/signals.py:_trend",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/signals.py",
+      "target": "function:engine/signals.py:_metric_rank",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/signals.py",
+      "target": "function:engine/signals.py:_metric_rank",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/signals.py",
+      "target": "function:engine/signals.py:_match_series",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/signals.py",
+      "target": "function:engine/signals.py:_match_series",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/signals.py",
+      "target": "function:engine/signals.py:_match_patents",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/signals.py",
+      "target": "function:engine/signals.py:_match_patents",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/signals.py",
+      "target": "function:engine/signals.py:_concept_patents",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/signals.py",
+      "target": "function:engine/signals.py:_concept_patents",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/signals.py",
+      "target": "function:engine/signals.py:_emergence_map",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/signals.py",
+      "target": "function:engine/signals.py:_emergence_map",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/signals.py",
+      "target": "function:engine/signals.py:_emerge_tag",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/signals.py",
+      "target": "function:engine/signals.py:_emerge_tag",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/signals.py",
+      "target": "function:engine/signals.py:_edge_shift_map",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/signals.py",
+      "target": "function:engine/signals.py:_edge_shift_map",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/signals.py",
+      "target": "function:engine/signals.py:_shift_tag",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/signals.py",
+      "target": "function:engine/signals.py:_shift_tag",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/signals.py",
+      "target": "function:engine/signals.py:_match_concept_nodes",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/signals.py",
+      "target": "function:engine/signals.py:_match_concept_nodes",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/signals.py",
+      "target": "function:engine/signals.py:dependency_neighbors",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/signals.py",
+      "target": "function:engine/signals.py:dependency_neighbors",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/signals.py",
+      "target": "function:engine/signals.py:match_entities",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/signals.py",
+      "target": "function:engine/signals.py:match_entities",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/signals.py",
+      "target": "function:engine/signals.py:format_entities",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/signals.py",
+      "target": "function:engine/signals.py:format_entities",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/signals.py",
+      "target": "function:engine/signals.py:evidence_pack",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/signals.py",
+      "target": "function:engine/signals.py:evidence_pack",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/signals.py",
+      "target": "function:engine/signals.py:format_pack",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/signals.py",
+      "target": "function:engine/signals.py:format_pack",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/signals.py",
+      "target": "function:engine/signals.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/signals.py",
+      "target": "function:engine/signals.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/test_signals.py",
+      "target": "function:engine/test_signals.py:check",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/test_signals.py",
+      "target": "function:engine/test_signals.py:check",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/test_signals.py",
+      "target": "function:engine/test_signals.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/test_signals.py",
+      "target": "function:engine/test_signals.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_graph_deepseek.py",
+      "target": "function:engine/world_graph_deepseek.py:build_run_pack",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_graph_deepseek.py",
+      "target": "function:engine/world_graph_deepseek.py:build_run_pack",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_graph_deepseek.py",
+      "target": "function:engine/world_graph_deepseek.py:execute_run",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_graph_deepseek.py",
+      "target": "function:engine/world_graph_deepseek.py:execute_run",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_graph_deepseek.py",
+      "target": "function:engine/world_graph_deepseek.py:mac_stability_report",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_graph_deepseek.py",
+      "target": "function:engine/world_graph_deepseek.py:mac_stability_report",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_graph_deepseek.py",
+      "target": "function:engine/world_graph_deepseek.py:plan_calls",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_graph_deepseek.py",
+      "target": "function:engine/world_graph_deepseek.py:plan_calls",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_graph_deepseek.py",
+      "target": "function:engine/world_graph_deepseek.py:estimate_calls",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_graph_deepseek.py",
+      "target": "function:engine/world_graph_deepseek.py:estimate_calls",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_graph_deepseek.py",
+      "target": "function:engine/world_graph_deepseek.py:estimate_call",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_graph_deepseek.py",
+      "target": "function:engine/world_graph_deepseek.py:estimate_call",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_graph_deepseek.py",
+      "target": "function:engine/world_graph_deepseek.py:render_manifest",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_graph_deepseek.py",
+      "target": "function:engine/world_graph_deepseek.py:render_manifest",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_graph_deepseek.py",
+      "target": "function:engine/world_graph_deepseek.py:_write_pack",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_graph_deepseek.py",
+      "target": "function:engine/world_graph_deepseek.py:_write_pack",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_graph_deepseek.py",
+      "target": "function:engine/world_graph_deepseek.py:_call_meta",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_graph_deepseek.py",
+      "target": "function:engine/world_graph_deepseek.py:_call_meta",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_graph_deepseek.py",
+      "target": "function:engine/world_graph_deepseek.py:_agent_prompt",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_graph_deepseek.py",
+      "target": "function:engine/world_graph_deepseek.py:_agent_prompt",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_graph_deepseek.py",
+      "target": "function:engine/world_graph_deepseek.py:_forecast_prompt",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_graph_deepseek.py",
+      "target": "function:engine/world_graph_deepseek.py:_forecast_prompt",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_graph_deepseek.py",
+      "target": "function:engine/world_graph_deepseek.py:_integrator_prompt",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_graph_deepseek.py",
+      "target": "function:engine/world_graph_deepseek.py:_integrator_prompt",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_graph_deepseek.py",
+      "target": "function:engine/world_graph_deepseek.py:_critic_prompt",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_graph_deepseek.py",
+      "target": "function:engine/world_graph_deepseek.py:_critic_prompt",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_graph_deepseek.py",
+      "target": "function:engine/world_graph_deepseek.py:_repair_prompt",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_graph_deepseek.py",
+      "target": "function:engine/world_graph_deepseek.py:_repair_prompt",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_graph_deepseek.py",
+      "target": "function:engine/world_graph_deepseek.py:_score_prompt",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_graph_deepseek.py",
+      "target": "function:engine/world_graph_deepseek.py:_score_prompt",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_graph_deepseek.py",
+      "target": "function:engine/world_graph_deepseek.py:_atlas_brief",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_graph_deepseek.py",
+      "target": "function:engine/world_graph_deepseek.py:_atlas_brief",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_graph_deepseek.py",
+      "target": "function:engine/world_graph_deepseek.py:_tasks_for_role",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_graph_deepseek.py",
+      "target": "function:engine/world_graph_deepseek.py:_tasks_for_role",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_graph_deepseek.py",
+      "target": "function:engine/world_graph_deepseek.py:_est_tokens",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_graph_deepseek.py",
+      "target": "function:engine/world_graph_deepseek.py:_est_tokens",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_graph_deepseek.py",
+      "target": "function:engine/world_graph_deepseek.py:_now",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_graph_deepseek.py",
+      "target": "function:engine/world_graph_deepseek.py:_now",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/world_graph_deepseek.py",
+      "target": "class:engine/world_graph_deepseek.py:PlannedCall",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/world_graph_deepseek.py",
+      "target": "class:engine/world_graph_deepseek.py:PlannedCall",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:tests/test_forecast_world_state_context.py",
+      "target": "class:tests/test_forecast_world_state_context.py:ForecastWorldStateContextTests",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:tests/test_forecast_world_state_context.py",
+      "target": "class:tests/test_forecast_world_state_context.py:ForecastWorldStateContextTests",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/saturation.py",
+      "target": "file:engine/adapters/__init__.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/saturation.py",
+      "target": "file:engine/adapters/search.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/saturation.py",
+      "target": "file:engine/schemas.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/signals.py",
+      "target": "file:engine/__init__.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/signals.py",
+      "target": "file:engine/db.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/test_signals.py",
+      "target": "file:engine/signals.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/world_graph_deepseek.py",
+      "target": "file:engine/__init__.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/world_graph_deepseek.py",
+      "target": "file:engine/adapters/__init__.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/world_graph_deepseek.py",
+      "target": "file:engine/adapters/llm.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/world_graph_deepseek.py",
+      "target": "file:engine/db.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/world_graph_deepseek.py",
+      "target": "file:engine/world_graph.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/test_forecast_world_state_context.py",
+      "target": "file:engine/forecastbench/__init__.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/test_forecast_world_state_context.py",
+      "target": "file:engine/forecastbench/inference.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/test_forecast_world_state_context.py",
+      "target": "file:engine/metaculus/__init__.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "function:engine/saturation.py:score_topic",
+      "target": "class:engine/schemas.py:SaturationScore",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/saturation.py:score_topic",
+      "target": "function:engine/saturation.py:_persist",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/saturation.py:score_topic",
+      "target": "function:engine/saturation.py:_domain",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/saturation.py:score_topic",
+      "target": "function:engine/saturation.py:_tier",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/saturation.py:consensus_forecast",
+      "target": "function:engine/saturation.py:_domain",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/saturation.py:score_early_board",
+      "target": "function:engine/saturation.py:score_topic",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/signals.py:_trend",
+      "target": "function:engine/signals.py:_fmt",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/signals.py:_match_series",
+      "target": "function:engine/signals.py:_slug",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/signals.py:_match_series",
+      "target": "function:engine/signals.py:_tokens",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/signals.py:_match_series",
+      "target": "function:engine/signals.py:_tokset",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/signals.py:_match_series",
+      "target": "function:engine/signals.py:_trend",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/signals.py:_match_series",
+      "target": "function:engine/signals.py:_metric_rank",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/signals.py:_match_patents",
+      "target": "function:engine/signals.py:_tokens",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/signals.py:_match_concept_nodes",
+      "target": "function:engine/signals.py:_tokens",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/signals.py:_match_concept_nodes",
+      "target": "function:engine/signals.py:_tokset",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/signals.py:dependency_neighbors",
+      "target": "function:engine/signals.py:_concept_patents",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/signals.py:dependency_neighbors",
+      "target": "function:engine/signals.py:_emergence_map",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/signals.py:dependency_neighbors",
+      "target": "function:engine/signals.py:_edge_shift_map",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/signals.py:dependency_neighbors",
+      "target": "function:engine/signals.py:_match_concept_nodes",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/signals.py:dependency_neighbors",
+      "target": "function:engine/signals.py:_fmt",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/signals.py:dependency_neighbors",
+      "target": "function:engine/signals.py:_emerge_tag",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/signals.py:dependency_neighbors",
+      "target": "function:engine/signals.py:_shift_tag",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/signals.py:dependency_neighbors",
+      "target": "function:engine/signals.py:_tokens",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/signals.py:match_entities",
+      "target": "function:engine/signals.py:_tokens",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/signals.py:match_entities",
+      "target": "function:engine/signals.py:_tokset",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/signals.py:evidence_pack",
+      "target": "function:engine/signals.py:_match_series",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/signals.py:evidence_pack",
+      "target": "function:engine/signals.py:_match_patents",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/signals.py:evidence_pack",
+      "target": "function:engine/signals.py:dependency_neighbors",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/signals.py:evidence_pack",
+      "target": "function:engine/signals.py:match_entities",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/signals.py:main",
+      "target": "function:engine/signals.py:evidence_pack",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/signals.py:main",
+      "target": "function:engine/signals.py:format_pack",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/test_signals.py:main",
+      "target": "function:engine/signals.py:evidence_pack",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/test_signals.py:main",
+      "target": "function:engine/test_signals.py:check",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/test_signals.py:main",
+      "target": "function:engine/signals.py:format_pack",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_graph_deepseek.py:build_run_pack",
+      "target": "function:engine/world_graph_deepseek.py:plan_calls",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_graph_deepseek.py:build_run_pack",
+      "target": "function:engine/world_graph_deepseek.py:estimate_calls",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_graph_deepseek.py:build_run_pack",
+      "target": "function:engine/world_graph_deepseek.py:_now",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_graph_deepseek.py:build_run_pack",
+      "target": "function:engine/world_graph_deepseek.py:_call_meta",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_graph_deepseek.py:build_run_pack",
+      "target": "function:engine/world_graph_deepseek.py:_write_pack",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_graph_deepseek.py:execute_run",
+      "target": "function:engine/world_graph_deepseek.py:mac_stability_report",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_graph_deepseek.py:execute_run",
+      "target": "function:engine/world_graph_deepseek.py:build_run_pack",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_graph_deepseek.py:execute_run",
+      "target": "class:engine/world_graph_deepseek.py:PlannedCall",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_graph_deepseek.py:execute_run",
+      "target": "function:engine/world_graph_deepseek.py:estimate_call",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_graph_deepseek.py:execute_run",
+      "target": "function:engine/world_graph_deepseek.py:_now",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_graph_deepseek.py:execute_run",
+      "target": "function:engine/world_graph_deepseek.py:render_manifest",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_graph_deepseek.py:plan_calls",
+      "target": "class:engine/world_graph_deepseek.py:PlannedCall",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_graph_deepseek.py:plan_calls",
+      "target": "function:engine/world_graph_deepseek.py:_agent_prompt",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_graph_deepseek.py:plan_calls",
+      "target": "function:engine/world_graph_deepseek.py:_forecast_prompt",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_graph_deepseek.py:plan_calls",
+      "target": "function:engine/world_graph_deepseek.py:_integrator_prompt",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_graph_deepseek.py:plan_calls",
+      "target": "function:engine/world_graph_deepseek.py:_critic_prompt",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_graph_deepseek.py:plan_calls",
+      "target": "function:engine/world_graph_deepseek.py:_repair_prompt",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_graph_deepseek.py:plan_calls",
+      "target": "function:engine/world_graph_deepseek.py:_score_prompt",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_graph_deepseek.py:estimate_calls",
+      "target": "function:engine/world_graph_deepseek.py:estimate_call",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_graph_deepseek.py:estimate_call",
+      "target": "function:engine/world_graph_deepseek.py:_est_tokens",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_graph_deepseek.py:_write_pack",
+      "target": "function:engine/world_graph_deepseek.py:_call_meta",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_graph_deepseek.py:_write_pack",
+      "target": "function:engine/world_graph_deepseek.py:render_manifest",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_graph_deepseek.py:_call_meta",
+      "target": "function:engine/world_graph_deepseek.py:estimate_call",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_graph_deepseek.py:_agent_prompt",
+      "target": "function:engine/world_graph_deepseek.py:_atlas_brief",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_graph_deepseek.py:_agent_prompt",
+      "target": "function:engine/world_graph_deepseek.py:_tasks_for_role",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_graph_deepseek.py:_forecast_prompt",
+      "target": "function:engine/world_graph_deepseek.py:_atlas_brief",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_graph_deepseek.py:_integrator_prompt",
+      "target": "function:engine/world_graph_deepseek.py:_atlas_brief",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_graph_deepseek.py:_critic_prompt",
+      "target": "function:engine/world_graph_deepseek.py:_atlas_brief",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_graph_deepseek.py:_repair_prompt",
+      "target": "function:engine/world_graph_deepseek.py:_atlas_brief",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/world_graph_deepseek.py:_score_prompt",
+      "target": "function:engine/world_graph_deepseek.py:_atlas_brief",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

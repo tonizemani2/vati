@@ -1,0 +1,327 @@
+{
+  "nodes": [
+    {
+      "id": "file:chat/src/app/globals.css",
+      "type": "file",
+      "name": "globals.css",
+      "filePath": "chat/src/app/globals.css",
+      "summary": "globals.css is a markup asset in the chat surface.",
+      "tags": [
+        "chat",
+        "ui",
+        "file",
+        "markup",
+        "globals"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:chat/src/app/layout.tsx",
+      "type": "file",
+      "name": "layout.tsx",
+      "filePath": "chat/src/app/layout.tsx",
+      "summary": "layout.tsx is a code asset in the chat surface. It contains 1 function, 1 internal import.",
+      "tags": [
+        "chat",
+        "code",
+        "file",
+        "layout"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:chat/src/app/layout.tsx:RootLayout",
+      "type": "function",
+      "name": "RootLayout",
+      "filePath": "chat/src/app/layout.tsx",
+      "lineRange": [
+        21,
+        29
+      ],
+      "summary": "Defines RootLayout in layout.tsx, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "layout"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:chat/src/app/robots.ts",
+      "type": "file",
+      "name": "robots.ts",
+      "filePath": "chat/src/app/robots.ts",
+      "summary": "robots.ts is a code asset in the chat surface. It contains 1 function.",
+      "tags": [
+        "chat",
+        "code",
+        "file",
+        "robots"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:chat/src/app/robots.ts:robots",
+      "type": "function",
+      "name": "robots",
+      "filePath": "chat/src/app/robots.ts",
+      "lineRange": [
+        3,
+        26
+      ],
+      "summary": "Defines robots in robots.ts, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "robots"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:cockpit/app/globals.css",
+      "type": "file",
+      "name": "globals.css",
+      "filePath": "cockpit/app/globals.css",
+      "summary": "globals.css is a markup asset in the cockpit dashboard.",
+      "tags": [
+        "dashboard",
+        "ui",
+        "file",
+        "markup",
+        "globals"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:cockpit/app/layout.tsx",
+      "type": "file",
+      "name": "layout.tsx",
+      "filePath": "cockpit/app/layout.tsx",
+      "summary": "layout.tsx is a code asset in the cockpit dashboard. It contains 1 function, 1 internal import.",
+      "tags": [
+        "dashboard",
+        "code",
+        "file",
+        "layout"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cockpit/app/layout.tsx:RootLayout",
+      "type": "function",
+      "name": "RootLayout",
+      "filePath": "cockpit/app/layout.tsx",
+      "lineRange": [
+        20,
+        35
+      ],
+      "summary": "Defines RootLayout in layout.tsx, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "layout"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:cockpit/components/ui/sonner.tsx",
+      "type": "file",
+      "name": "sonner.tsx",
+      "filePath": "cockpit/components/ui/sonner.tsx",
+      "summary": "sonner.tsx is a code asset in the cockpit dashboard. It contains 1 function.",
+      "tags": [
+        "dashboard",
+        "code",
+        "file",
+        "sonner"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cockpit/components/ui/sonner.tsx:Toaster",
+      "type": "function",
+      "name": "Toaster",
+      "filePath": "cockpit/components/ui/sonner.tsx",
+      "lineRange": [
+        7,
+        47
+      ],
+      "summary": "Defines Toaster in sonner.tsx, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "sonner"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:cockpit/eslint.config.mjs",
+      "type": "file",
+      "name": "eslint.config.mjs",
+      "filePath": "cockpit/eslint.config.mjs",
+      "summary": "eslint.config.mjs is a code asset in the cockpit dashboard.",
+      "tags": [
+        "dashboard",
+        "code",
+        "file",
+        "eslint-config"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:cockpit/next.config.ts",
+      "type": "file",
+      "name": "next.config.ts",
+      "filePath": "cockpit/next.config.ts",
+      "summary": "next.config.ts is a code asset in the cockpit dashboard.",
+      "tags": [
+        "configuration",
+        "nextjs",
+        "build-system",
+        "dashboard",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:cockpit/postcss.config.mjs",
+      "type": "file",
+      "name": "postcss.config.mjs",
+      "filePath": "cockpit/postcss.config.mjs",
+      "summary": "postcss.config.mjs is a code asset in the cockpit dashboard.",
+      "tags": [
+        "dashboard",
+        "code",
+        "file",
+        "postcss-config"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:content/after-ai-2026-06-17.md",
+      "type": "document",
+      "name": "after-ai-2026-06-17.md",
+      "filePath": "content/after-ai-2026-06-17.md",
+      "summary": "Documentation file covering after-ai-2026-06-17 for the Vati repository and its forecasting workflows.",
+      "tags": [
+        "documentation",
+        "document",
+        "docs",
+        "after-ai-2026-06-17"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:content/posts-2026-06-19.md",
+      "type": "document",
+      "name": "posts-2026-06-19.md",
+      "filePath": "content/posts-2026-06-19.md",
+      "summary": "Documentation file covering posts-2026-06-19 for the Vati repository and its forecasting workflows.",
+      "tags": [
+        "documentation",
+        "document",
+        "docs",
+        "posts-2026-06-19"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:dataset_sample_200.jsonl",
+      "type": "file",
+      "name": "dataset_sample_200.jsonl",
+      "filePath": "dataset_sample_200.jsonl",
+      "summary": "dataset_sample_200.jsonl is a code asset in the repository.",
+      "tags": [
+        "code",
+        "file",
+        "dataset-sample-200"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:engine/adapters/_vendor/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "engine/adapters/_vendor/__init__.py",
+      "summary": "__init__.py is a code asset in the forecasting engine.",
+      "tags": [
+        "forecasting-engine",
+        "integration",
+        "code"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:chat/src/app/layout.tsx",
+      "target": "function:chat/src/app/layout.tsx:RootLayout",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:chat/src/app/layout.tsx",
+      "target": "function:chat/src/app/layout.tsx:RootLayout",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:chat/src/app/robots.ts",
+      "target": "function:chat/src/app/robots.ts:robots",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:chat/src/app/robots.ts",
+      "target": "function:chat/src/app/robots.ts:robots",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cockpit/app/layout.tsx",
+      "target": "function:cockpit/app/layout.tsx:RootLayout",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cockpit/app/layout.tsx",
+      "target": "function:cockpit/app/layout.tsx:RootLayout",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cockpit/components/ui/sonner.tsx",
+      "target": "function:cockpit/components/ui/sonner.tsx:Toaster",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cockpit/components/ui/sonner.tsx",
+      "target": "function:cockpit/components/ui/sonner.tsx:Toaster",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:chat/src/app/layout.tsx",
+      "target": "file:chat/src/app/globals.css",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:cockpit/app/layout.tsx",
+      "target": "file:cockpit/app/globals.css",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    }
+  ]
+}

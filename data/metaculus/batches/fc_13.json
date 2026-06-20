@@ -1,0 +1,50 @@
+[
+ {
+  "question_id": 8395,
+  "type": "binary",
+  "prob": 0.96,
+  "reasoning": "Resolution criteria use a 10-year window: 100+ offensive detonations on or near populated areas reliably produce >1M deaths through blast, fire, fallout and famine; published modeling shows even immediate fire deaths reach hundreds of thousands to millions. Near-certain conditional on the trigger."
+ },
+ {
+  "question_id": 8396,
+  "type": "binary",
+  "prob": 0.05,
+  "reasoning": "Even worst-case nuclear-winter models do not predict literal zero humans; geographically dispersed and southern-hemisphere populations survive famine and cooling. Total extinction within 50 years is a deep-tail outcome, not the median, even at >1,000 detonations."
+ },
+ {
+  "question_id": 8397,
+  "type": "binary",
+  "prob": 0.28,
+  "reasoning": "Below 400M means a ~95% die-off; nuclear-winter famine models put billions at risk but the median outcome leaves well over 1 billion survivors. A collapse to <400M is a plausible but minority catastrophic-tail scenario."
+ },
+ {
+  "question_id": 7503,
+  "type": "numeric",
+  "percentiles": {"0.05": 0.05, "0.1": 0.1, "0.25": 0.2, "0.5": 0.4, "0.75": 0.65, "0.9": 0.85, "0.95": 0.92},
+  "reasoning": "Conditional on offensive detonations. Limited-use, demonstration, or counterforce scenarios target sparse areas, but any large exchange heavily targets cities, and small-N realizations (e.g., 1-2 detonations on a city) push the fraction toward 1. Very wide and roughly centered."
+ },
+ {
+  "question_id": 7402,
+  "type": "date",
+  "percentiles": {"0.05": "2027-06-01", "0.1": "2029-01-01", "0.25": "2032-06-01", "0.5": "2037-06-01", "0.75": "2043-01-01", "0.9": "2047-06-01", "0.95": "2049-06-01"},
+  "reasoning": "Conditional on a direct US-Russia war (1,000+ mutual battle deaths) occurring by 2050; timing is roughly uniform over the window with mild front-loading given current tensions and the February 2026 lapse of New START guardrails."
+ },
+ {
+  "question_id": 7405,
+  "type": "binary",
+  "prob": 0.22,
+  "reasoning": "Conditional on some fatal offensive detonation occurring somewhere by 2050; most plausible scenarios are regional (India-Pakistan, the Russia-Ukraine theater, Middle East), and a strike causing immediate fatalities on the US homeland is a minority of those conditional paths."
+ },
+ {
+  "question_id": 7406,
+  "type": "binary",
+  "prob": 0.02,
+  "reasoning": "Non-state actors have never detonated a nuclear device; acquisition or improvised construction of a working bomb remains extremely difficult and the window to 2030 is short. Specific unprecedented event in a narrow window stays very low."
+ },
+ {
+  "question_id": 7408,
+  "type": "binary",
+  "prob": 0.87,
+  "reasoning": "Nearly all plausible first-use scenarios (Russia-Ukraine, India-Pakistan, Korea, Middle East) arise from an ongoing or recent conventional conflict between nuclear and adversary states. A bolt-from-the-blue, inadvertent, or accidental detonation absent conventional fighting is the minority path."
+ }
+]

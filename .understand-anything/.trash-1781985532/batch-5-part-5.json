@@ -1,0 +1,1274 @@
+{
+  "nodes": [
+    {
+      "id": "file:engine/experiment.py",
+      "type": "file",
+      "name": "experiment.py",
+      "filePath": "engine/experiment.py",
+      "summary": "experiment.py is a code asset in the forecasting engine. It contains 17 functions, 3 internal imports.",
+      "tags": [
+        "forecasting-engine",
+        "code",
+        "file",
+        "experiment"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:engine/experiment.py:_configs",
+      "type": "function",
+      "name": "_configs",
+      "filePath": "engine/experiment.py",
+      "lineRange": [
+        52,
+        57
+      ],
+      "summary": "Defines _configs in experiment.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "experiment"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/experiment.py:_config_json",
+      "type": "function",
+      "name": "_config_json",
+      "filePath": "engine/experiment.py",
+      "lineRange": [
+        60,
+        61
+      ],
+      "summary": "Defines _config_json in experiment.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "experiment"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/experiment.py:_assert_not_sealed",
+      "type": "function",
+      "name": "_assert_not_sealed",
+      "filePath": "engine/experiment.py",
+      "lineRange": [
+        64,
+        68
+      ],
+      "summary": "Defines _assert_not_sealed in experiment.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "experiment"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/experiment.py:run_config",
+      "type": "function",
+      "name": "run_config",
+      "filePath": "engine/experiment.py",
+      "lineRange": [
+        71,
+        91
+      ],
+      "summary": "Defines run_config in experiment.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entry-point",
+        "experiment"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/experiment.py:_n_configs_seen",
+      "type": "function",
+      "name": "_n_configs_seen",
+      "filePath": "engine/experiment.py",
+      "lineRange": [
+        94,
+        98
+      ],
+      "summary": "Defines _n_configs_seen in experiment.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "experiment"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/experiment.py:_ledger_write",
+      "type": "function",
+      "name": "_ledger_write",
+      "filePath": "engine/experiment.py",
+      "lineRange": [
+        101,
+        126
+      ],
+      "summary": "Defines _ledger_write in experiment.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "experiment"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/experiment.py:_promote",
+      "type": "function",
+      "name": "_promote",
+      "filePath": "engine/experiment.py",
+      "lineRange": [
+        129,
+        140
+      ],
+      "summary": "Defines _promote in experiment.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "experiment"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/experiment.py:select_and_seal",
+      "type": "function",
+      "name": "select_and_seal",
+      "filePath": "engine/experiment.py",
+      "lineRange": [
+        143,
+        166
+      ],
+      "summary": "Defines select_and_seal in experiment.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "experiment"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/experiment.py:reveal_test",
+      "type": "function",
+      "name": "reveal_test",
+      "filePath": "engine/experiment.py",
+      "lineRange": [
+        169,
+        201
+      ],
+      "summary": "Defines reveal_test in experiment.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "experiment"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/experiment.py:status",
+      "type": "function",
+      "name": "status",
+      "filePath": "engine/experiment.py",
+      "lineRange": [
+        204,
+        234
+      ],
+      "summary": "Defines status in experiment.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "experiment"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/experiment.py:_concept_split",
+      "type": "function",
+      "name": "_concept_split",
+      "filePath": "engine/experiment.py",
+      "lineRange": [
+        253,
+        267
+      ],
+      "summary": "Defines _concept_split in experiment.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "experiment"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/experiment.py:run_config_v2",
+      "type": "function",
+      "name": "run_config_v2",
+      "filePath": "engine/experiment.py",
+      "lineRange": [
+        270,
+        284
+      ],
+      "summary": "Defines run_config_v2 in experiment.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entry-point",
+        "experiment"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/experiment.py:select_and_seal_v2",
+      "type": "function",
+      "name": "select_and_seal_v2",
+      "filePath": "engine/experiment.py",
+      "lineRange": [
+        287,
+        308
+      ],
+      "summary": "Defines select_and_seal_v2 in experiment.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "experiment"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/experiment.py:reveal_test_v2",
+      "type": "function",
+      "name": "reveal_test_v2",
+      "filePath": "engine/experiment.py",
+      "lineRange": [
+        311,
+        343
+      ],
+      "summary": "Defines reveal_test_v2 in experiment.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "experiment"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/experiment.py:_n_configs_cumulative",
+      "type": "function",
+      "name": "_n_configs_cumulative",
+      "filePath": "engine/experiment.py",
+      "lineRange": [
+        354,
+        361
+      ],
+      "summary": "Defines _n_configs_cumulative in experiment.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "experiment"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/experiment.py:v2_declustered_test_events",
+      "type": "function",
+      "name": "v2_declustered_test_events",
+      "filePath": "engine/experiment.py",
+      "lineRange": [
+        364,
+        379
+      ],
+      "summary": "Defines v2_declustered_test_events in experiment.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "experiment"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/experiment.py:power_report",
+      "type": "function",
+      "name": "power_report",
+      "filePath": "engine/experiment.py",
+      "lineRange": [
+        382,
+        427
+      ],
+      "summary": "Defines power_report in experiment.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "experiment"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:engine/feeds/athena.py",
+      "type": "file",
+      "name": "athena.py",
+      "filePath": "engine/feeds/athena.py",
+      "summary": "athena.py is a code asset in the forecasting engine. It contains 4 functions.",
+      "tags": [
+        "forecasting-engine",
+        "code",
+        "file",
+        "athena"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/feeds/athena.py:_aws",
+      "type": "function",
+      "name": "_aws",
+      "filePath": "engine/feeds/athena.py",
+      "lineRange": [
+        33,
+        38
+      ],
+      "summary": "Defines _aws in athena.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "athena"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/athena.py:run_query",
+      "type": "function",
+      "name": "run_query",
+      "filePath": "engine/feeds/athena.py",
+      "lineRange": [
+        41,
+        63
+      ],
+      "summary": "Defines run_query in athena.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entry-point",
+        "data-access",
+        "athena"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/athena.py:fetch_rows",
+      "type": "function",
+      "name": "fetch_rows",
+      "filePath": "engine/feeds/athena.py",
+      "lineRange": [
+        66,
+        72
+      ],
+      "summary": "Defines fetch_rows in athena.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-access",
+        "athena"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/athena.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "engine/feeds/athena.py",
+      "lineRange": [
+        75,
+        89
+      ],
+      "summary": "Defines main in athena.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entry-point",
+        "athena"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:engine/feeds/concept_edge_shift.py",
+      "type": "file",
+      "name": "concept_edge_shift.py",
+      "filePath": "engine/feeds/concept_edge_shift.py",
+      "summary": "concept_edge_shift.py is a code asset in the forecasting engine. It contains 7 functions, 7 internal imports.",
+      "tags": [
+        "forecasting-engine",
+        "code",
+        "file",
+        "concept-edge-shift"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:engine/feeds/concept_edge_shift.py:_spark",
+      "type": "function",
+      "name": "_spark",
+      "filePath": "engine/feeds/concept_edge_shift.py",
+      "lineRange": [
+        51,
+        57
+      ],
+      "summary": "Defines _spark in concept_edge_shift.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "concept-edge-shift"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/concept_edge_shift.py:fetch_per_year",
+      "type": "function",
+      "name": "fetch_per_year",
+      "filePath": "engine/feeds/concept_edge_shift.py",
+      "lineRange": [
+        60,
+        87
+      ],
+      "summary": "Defines fetch_per_year in concept_edge_shift.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "data-access",
+        "concept-edge-shift"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/concept_edge_shift.py:compute",
+      "type": "function",
+      "name": "compute",
+      "filePath": "engine/feeds/concept_edge_shift.py",
+      "lineRange": [
+        90,
+        135
+      ],
+      "summary": "Defines compute in concept_edge_shift.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "concept-edge-shift"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/concept_edge_shift.py:shift_map",
+      "type": "function",
+      "name": "shift_map",
+      "filePath": "engine/feeds/concept_edge_shift.py",
+      "lineRange": [
+        138,
+        148
+      ],
+      "summary": "Defines shift_map in concept_edge_shift.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "concept-edge-shift"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/concept_edge_shift.py:shift_tag",
+      "type": "function",
+      "name": "shift_tag",
+      "filePath": "engine/feeds/concept_edge_shift.py",
+      "lineRange": [
+        151,
+        159
+      ],
+      "summary": "Defines shift_tag in concept_edge_shift.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "concept-edge-shift"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/concept_edge_shift.py:top_tightening",
+      "type": "function",
+      "name": "top_tightening",
+      "filePath": "engine/feeds/concept_edge_shift.py",
+      "lineRange": [
+        162,
+        165
+      ],
+      "summary": "Defines top_tightening in concept_edge_shift.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "concept-edge-shift"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:engine/feeds/concept_edge_shift.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "engine/feeds/concept_edge_shift.py",
+      "lineRange": [
+        168,
+        185
+      ],
+      "summary": "Defines main in concept_edge_shift.py, contributing to that file's local behavior or exported API.",
+      "tags": [
+        "function",
+        "implementation",
+        "entry-point",
+        "concept-edge-shift"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:engine/experiment.py",
+      "target": "function:engine/experiment.py:_configs",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/experiment.py",
+      "target": "function:engine/experiment.py:_configs",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/experiment.py",
+      "target": "function:engine/experiment.py:_config_json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/experiment.py",
+      "target": "function:engine/experiment.py:_config_json",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/experiment.py",
+      "target": "function:engine/experiment.py:_assert_not_sealed",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/experiment.py",
+      "target": "function:engine/experiment.py:_assert_not_sealed",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/experiment.py",
+      "target": "function:engine/experiment.py:run_config",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/experiment.py",
+      "target": "function:engine/experiment.py:run_config",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/experiment.py",
+      "target": "function:engine/experiment.py:_n_configs_seen",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/experiment.py",
+      "target": "function:engine/experiment.py:_n_configs_seen",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/experiment.py",
+      "target": "function:engine/experiment.py:_ledger_write",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/experiment.py",
+      "target": "function:engine/experiment.py:_ledger_write",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/experiment.py",
+      "target": "function:engine/experiment.py:_promote",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/experiment.py",
+      "target": "function:engine/experiment.py:_promote",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/experiment.py",
+      "target": "function:engine/experiment.py:select_and_seal",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/experiment.py",
+      "target": "function:engine/experiment.py:select_and_seal",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/experiment.py",
+      "target": "function:engine/experiment.py:reveal_test",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/experiment.py",
+      "target": "function:engine/experiment.py:reveal_test",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/experiment.py",
+      "target": "function:engine/experiment.py:status",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/experiment.py",
+      "target": "function:engine/experiment.py:status",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/experiment.py",
+      "target": "function:engine/experiment.py:_concept_split",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/experiment.py",
+      "target": "function:engine/experiment.py:_concept_split",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/experiment.py",
+      "target": "function:engine/experiment.py:run_config_v2",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/experiment.py",
+      "target": "function:engine/experiment.py:run_config_v2",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/experiment.py",
+      "target": "function:engine/experiment.py:select_and_seal_v2",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/experiment.py",
+      "target": "function:engine/experiment.py:select_and_seal_v2",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/experiment.py",
+      "target": "function:engine/experiment.py:reveal_test_v2",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/experiment.py",
+      "target": "function:engine/experiment.py:reveal_test_v2",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/experiment.py",
+      "target": "function:engine/experiment.py:_n_configs_cumulative",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/experiment.py",
+      "target": "function:engine/experiment.py:_n_configs_cumulative",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/experiment.py",
+      "target": "function:engine/experiment.py:v2_declustered_test_events",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/experiment.py",
+      "target": "function:engine/experiment.py:v2_declustered_test_events",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/experiment.py",
+      "target": "function:engine/experiment.py:power_report",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/experiment.py",
+      "target": "function:engine/experiment.py:power_report",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/athena.py",
+      "target": "function:engine/feeds/athena.py:_aws",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/athena.py",
+      "target": "function:engine/feeds/athena.py:_aws",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/athena.py",
+      "target": "function:engine/feeds/athena.py:run_query",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/athena.py",
+      "target": "function:engine/feeds/athena.py:run_query",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/athena.py",
+      "target": "function:engine/feeds/athena.py:fetch_rows",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/athena.py",
+      "target": "function:engine/feeds/athena.py:fetch_rows",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/athena.py",
+      "target": "function:engine/feeds/athena.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/athena.py",
+      "target": "function:engine/feeds/athena.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/concept_edge_shift.py",
+      "target": "function:engine/feeds/concept_edge_shift.py:_spark",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/concept_edge_shift.py",
+      "target": "function:engine/feeds/concept_edge_shift.py:_spark",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/concept_edge_shift.py",
+      "target": "function:engine/feeds/concept_edge_shift.py:fetch_per_year",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/concept_edge_shift.py",
+      "target": "function:engine/feeds/concept_edge_shift.py:fetch_per_year",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/concept_edge_shift.py",
+      "target": "function:engine/feeds/concept_edge_shift.py:compute",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/concept_edge_shift.py",
+      "target": "function:engine/feeds/concept_edge_shift.py:compute",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/concept_edge_shift.py",
+      "target": "function:engine/feeds/concept_edge_shift.py:shift_map",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/concept_edge_shift.py",
+      "target": "function:engine/feeds/concept_edge_shift.py:shift_map",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/concept_edge_shift.py",
+      "target": "function:engine/feeds/concept_edge_shift.py:shift_tag",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/concept_edge_shift.py",
+      "target": "function:engine/feeds/concept_edge_shift.py:shift_tag",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/concept_edge_shift.py",
+      "target": "function:engine/feeds/concept_edge_shift.py:top_tightening",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/concept_edge_shift.py",
+      "target": "function:engine/feeds/concept_edge_shift.py:top_tightening",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/feeds/concept_edge_shift.py",
+      "target": "function:engine/feeds/concept_edge_shift.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:engine/feeds/concept_edge_shift.py",
+      "target": "function:engine/feeds/concept_edge_shift.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:engine/experiment.py",
+      "target": "file:engine/__init__.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/experiment.py",
+      "target": "file:engine/schemas.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/experiment.py",
+      "target": "file:engine/universe.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/feeds/concept_edge_shift.py",
+      "target": "file:engine/__init__.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/feeds/concept_edge_shift.py",
+      "target": "file:engine/db.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/feeds/concept_edge_shift.py",
+      "target": "file:engine/detector.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/feeds/concept_edge_shift.py",
+      "target": "file:engine/feeds/__init__.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/feeds/concept_edge_shift.py",
+      "target": "file:engine/feeds/athena.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/feeds/concept_edge_shift.py",
+      "target": "file:engine/feeds/openalex_load.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:engine/feeds/concept_edge_shift.py",
+      "target": "file:engine/schemas.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "function:engine/experiment.py:run_config",
+      "target": "function:engine/experiment.py:_assert_not_sealed",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/experiment.py:_ledger_write",
+      "target": "function:engine/experiment.py:_n_configs_seen",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/experiment.py:_ledger_write",
+      "target": "function:engine/schemas.py:_uid",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/experiment.py:_ledger_write",
+      "target": "function:engine/experiment.py:_config_json",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/experiment.py:_ledger_write",
+      "target": "function:engine/schemas.py:_now",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/experiment.py:select_and_seal",
+      "target": "function:engine/experiment.py:_configs",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/experiment.py:select_and_seal",
+      "target": "function:engine/experiment.py:run_config",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/experiment.py:select_and_seal",
+      "target": "function:engine/experiment.py:_ledger_write",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/experiment.py:select_and_seal",
+      "target": "function:engine/experiment.py:_promote",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/experiment.py:select_and_seal",
+      "target": "function:engine/experiment.py:_n_configs_seen",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/experiment.py:reveal_test",
+      "target": "function:engine/experiment.py:_promote",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/experiment.py:reveal_test",
+      "target": "function:engine/experiment.py:run_config",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/experiment.py:reveal_test",
+      "target": "function:engine/experiment.py:_ledger_write",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/experiment.py:reveal_test",
+      "target": "function:engine/experiment.py:_n_configs_seen",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/experiment.py:status",
+      "target": "function:engine/experiment.py:_n_configs_seen",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/experiment.py:select_and_seal_v2",
+      "target": "function:engine/experiment.py:_concept_split",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/experiment.py:select_and_seal_v2",
+      "target": "function:engine/experiment.py:_configs",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/experiment.py:select_and_seal_v2",
+      "target": "function:engine/experiment.py:run_config_v2",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/experiment.py:select_and_seal_v2",
+      "target": "function:engine/experiment.py:_ledger_write",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/experiment.py:select_and_seal_v2",
+      "target": "function:engine/experiment.py:_promote",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/experiment.py:reveal_test_v2",
+      "target": "function:engine/experiment.py:_promote",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/experiment.py:reveal_test_v2",
+      "target": "function:engine/experiment.py:_concept_split",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/experiment.py:reveal_test_v2",
+      "target": "function:engine/experiment.py:run_config_v2",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/experiment.py:reveal_test_v2",
+      "target": "function:engine/experiment.py:_ledger_write",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/experiment.py:reveal_test_v2",
+      "target": "function:engine/experiment.py:_n_configs_seen",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/experiment.py:v2_declustered_test_events",
+      "target": "function:engine/experiment.py:_concept_split",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/experiment.py:power_report",
+      "target": "function:engine/experiment.py:v2_declustered_test_events",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/experiment.py:power_report",
+      "target": "function:engine/experiment.py:_n_configs_cumulative",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/experiment.py:power_report",
+      "target": "function:engine/experiment.py:_config_json",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/athena.py:run_query",
+      "target": "function:engine/feeds/athena.py:_aws",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/athena.py:fetch_rows",
+      "target": "function:engine/feeds/athena.py:_aws",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/athena.py:main",
+      "target": "function:engine/feeds/athena.py:run_query",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/athena.py:main",
+      "target": "function:engine/feeds/athena.py:fetch_rows",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/concept_edge_shift.py:fetch_per_year",
+      "target": "function:engine/feeds/openalex_load.py:_fetch_all_rows",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/concept_edge_shift.py:compute",
+      "target": "function:engine/feeds/concept_edge_shift.py:fetch_per_year",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/concept_edge_shift.py:compute",
+      "target": "function:engine/schemas.py:_now",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/concept_edge_shift.py:compute",
+      "target": "function:engine/detector.py:detect",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/concept_edge_shift.py:compute",
+      "target": "function:engine/feeds/concept_edge_shift.py:_spark",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/concept_edge_shift.py:main",
+      "target": "function:engine/feeds/concept_edge_shift.py:compute",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:engine/feeds/concept_edge_shift.py:main",
+      "target": "function:engine/feeds/concept_edge_shift.py:top_tightening",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}
